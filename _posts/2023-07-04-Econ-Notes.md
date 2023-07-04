@@ -57,16 +57,20 @@ $$
 $\mu_t$ depends on time $t$, as, for example, processes with a seasonal or periodical structure or processes with a deterministic trend.
 
 **Autocovariance Function**
+
 $$
 \gamma(t,\tau)=Cov(X_t, X_{t-\tau})
 $$
+
 If we define <span style='color:red'>**covariance stationary**</span>, then $\gamma(t,\tau)=\gamma_\tau$, means covaraince only depends on time interval apart, not start point.
 
 
 Autocorrelation Function (ACF)
+
 $$
 \rho_{\tau}=\frac{\gamma_{\tau}}{\gamma_0}
 $$
+
 The autocorrelation function $\rho$ of a covaraince stochastic process is normalized on the interval [-1,1].  $\rho$ depends only on one parameter, the lag $\tau$.
 
 
@@ -74,6 +78,7 @@ The autocorrelation function $\rho$ of a covaraince stochastic process is normal
 **White Noise (WN)**
 
 If $X_t$ is white noise, then
+
 $$
 \begin{align*}
 1.&\ \mu_t=0, \ and \\
@@ -84,14 +89,17 @@ $$
 	\end{array} \right.
 \end{align*}
 $$
+
 In short, WN has expectation 0 and finite variance.
 
 
 
 **Random Walk**
+
 $$
 X_t=c+X_{t-1}+\epsilon_t
 $$
+
 with a constant $c$ and **white noise** $\epsilon_t$. 
 
 $Z_t=X_t-X_{t-1}=c+\epsilon_t$ , if $c$ is not zero, then we say $X_t$  has a drift, 
@@ -108,7 +116,7 @@ Moment functions:
 
 1. $\mu_t=0$
 2. $Var(X_t)=t\sigma^2$
-3. $\gamma(t,\tau)=Cov(X_t,X_{t-\tau})=(t-\tau)\sigma^2$, for $\tau<t$.
+3. $\gamma(t,\tau)=Cov(X_t,X_{t-\tau})=(t-\tau)\sigma^2$, for $\tau\lt t$.
 4. $\rho(t,\tau)=\sqrt{1-\frac{\tau}{t}}$
 
 Notice that autocovariance is strictly positive, and since it depends on $t$ not only on the lags $\tau$, the random walk is not covariance stationary.
@@ -116,19 +124,25 @@ Notice that autocovariance is strictly positive, and since it depends on $t$ not
 
 
 AR(1) process
+
 $$
 X_t=c+\alpha X_{t-1}+\epsilon_t
 $$
+
 with $|\alpha|<1$.
 
 By iterative substitutions, 
+
 $$
 X_t=c \frac{1-\alpha^k}{1-\alpha}+\alpha^kX_{t-k}+\sum^{k-1}_{i=0}\alpha^i\epsilon_{t-i}
 $$
+
 For $K\to \infty$,
+
 $$
 X_t=c\frac{1}{1-\alpha}+\sum^\infty_{i=0}\alpha^i\epsilon_{t-i}
 $$
+
 Moment functions:
 
 1. $\mu_t=c\frac{1}{1-\alpha}$
@@ -142,9 +156,11 @@ For ACF $\rho_\tau$, if $\alpha>0$, this function is strictly positive, for $\al
 **Markov Process**
 
 A stochastic process has the Markov Property if for all $t\in \mathbb{Z}$ and $k\geq 1$
+
 $$
 F_{t|t-1,\ldots,t-k}(x_t|x_{t-1},\ldots, x_{t-k})=F_{t|t-1}(x_t|x_{t-1})
 $$
+
 In other words, the conditional distribution of a Markov process at a specific point in time is entirely determined by the condition of the system at the previous date.
 
 Two examples: random walk with independent $\epsilon_t$ and the AR(1) process with independent white noise.
@@ -152,9 +168,11 @@ Two examples: random walk with independent $\epsilon_t$ and the AR(1) process wi
 
 
 **Martingale**
+
 $$
 E[X_t|X_{t-1}=x_{t-1},\ldots,X_{t-k}=x_{t-k}]=x_{t-1}
 $$
+
 For martingale, only one statement about the conditional expectation is made; while for Markov process, statements on the entire conditional distribution are made.
 
 
