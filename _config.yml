@@ -11,8 +11,6 @@ description: >
   results) and in your feed.xml site description.
 
 # Build settings
-
-theme: minima
 markdown: kramdown
 
 plugins:
