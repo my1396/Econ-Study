@@ -23,10 +23,7 @@ layout: base
             <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
-      {%- endif -%}</p>
-    {% if page.mathjax %}
-      {% include mathjax.html %}
-    {% end if %}
+      {%- endif -%}</p> 
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
