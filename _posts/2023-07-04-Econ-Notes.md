@@ -235,6 +235,8 @@ Python code: https://matthew-brett.github.io/teaching/smoothing_intro.html
 
 
 
+___
+
 1st derivative
 
 $y'(x)=0$ max/min point, change of directions (from up to down if max, from down to up if min).
@@ -260,7 +262,11 @@ How to find **min/max** pt.
 
 -   max/min value corresponds to critical value;
 
-​	
+
+
+
+
+___
 
 Semi-parametric models
 
@@ -269,7 +275,7 @@ Semi-parametric models
 
 
 
-Textbooks
+**Textbooks**
 
 -   **Econometric Analysis** , 5th Edition, by William H. Greene, Prentice Hall, 2003.
     **Time Series Analysis**, by J. D. Hamilton, Princeton University Press, 1994.
