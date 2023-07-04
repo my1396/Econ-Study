@@ -1,6 +1,6 @@
 ---
 layout: post
-title: econ notes
+title: Econometric Notes
 category: learning
 update: 2023-07-05
 ---
