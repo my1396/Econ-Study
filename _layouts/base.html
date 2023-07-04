@@ -1,8 +1,33 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {%- include head.html -%}
-  {% include mathjax.html %}
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+    {%- include head.html -%}
+    
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    {% include mathjax.html %}
+    {% include jquery.html %}
+    {% if page.plotly %}
+    <script type"text/javascript" src="https://cdn.plot.ly/plotly-latest.min.js" async></script> 
+    {% endif %}
+    {%- seo -%}
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+      {% include analytics.html %}
+      {% include analytics_alt.html %}
+    {% endif %}
+    
+  </head>
+
 
   <body>
 
