@@ -129,7 +129,7 @@ $$
 X_t=c+\alpha X_{t-1}+\epsilon_t
 $$
 
-with $|\alpha|<1$.
+with $ \vert\alpha \vert<1$.
 
 By iterative substitutions, 
 
