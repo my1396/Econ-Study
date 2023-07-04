@@ -24,7 +24,7 @@ layout: base
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}</p>
-    {% if page.usemathjax %}
+    {% if page.mathjax %}
       {% include mathjax.html %}
     {% end if %}
   </header>
