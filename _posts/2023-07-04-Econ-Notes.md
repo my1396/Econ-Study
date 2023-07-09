@@ -268,11 +268,13 @@ How to find **min/max** pt.
 $$
 x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
 $$
-Newton's method works well if $i$) $\vert f'\vert$ is not small;  $ii$) $\vert f''\vert$ is not too big; and $x_0$ is nearby x.
+Newton's method works well if $i$) $\vert f'\vert$ is not small;  $ii$) $\vert f''\vert$ is not too big; and $iii$) $x_0$ is nearby $x$.
 
 Newton's method fails: $i$) find an unexpected root (depending on where the initial guess is); $ii$) completely fail. It repeats in a cycle, and never converges to a single value.
 
-<img src="/Users/Menghan/Documents/PhD Courses/ebooks for phd/Econ-Study/assets/images/image-20230709110507061.png" alt="image-20230709110507061" style="zoom:35%;" />
+<img src="../assets/images/image-20230709110507061.png" alt="image-20230709110507061" style="zoom:35%;" />
+
+
 
 **MVT vs. IVT**
 
