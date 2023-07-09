@@ -243,7 +243,7 @@ $y'(x)=0$ max/min point, change of directions (from up to down if max, from down
 
 2nd derivative
 
-$y''=0$ inflection point, change of concavity.
+$y^{\prime\prime}=0$ inflection point, change of concavity.
 
 
 
@@ -254,7 +254,7 @@ How to find **min/max** pt.
     -   1st derivative rule, then you get critical points. Have to check whether it is min or max. Two ways of doing it
 
         1.   calculate end points and compare to critical points;
-        2.   calculate $f''$, if $f''<0$ then max; if $f''>0$ then min; (2nd derivate tell how 1st derivative changes. If at min, the func will increase, i.e., $f'$ $\uparrow$; if at max, the func will decrease, i.e., $f' \downarrow$. )
+        2.   calculate $f^{\prime\prime}$, if $f^{\prime\prime}<0$ then max; if $f^{\prime\prime}>0$ then min; (2nd derivate tell how 1st derivative changes. If at min, the func will increase, i.e., $f'$ $\uparrow$; if at max, the func will decrease, i.e., $f' \downarrow$. )
 
         -   Note: it is NOT recomended to calculate the 2nd derivative b/c usually it is easier to calculate the end points. 2nd derivatives are usually difficult to find if you have a complicated func.
 
