@@ -11,6 +11,7 @@ description: >
 # Build settings
 markdown: kramdown
 
+baseurl: /Econ-Study
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
