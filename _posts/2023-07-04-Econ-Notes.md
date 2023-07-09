@@ -264,6 +264,23 @@ How to find **min/max** pt.
 
 
 
+**Newton's Method**
+$$
+x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
+$$
+Newton's method works well if $i$) $\vert f'\vert$ is not small;  $ii$) $\vert f''\vert$ is not too big; and $x_0$ is nearby x.
+
+Newton's method fails: $i$) find an unexpected root (depending on where the initial guess is); $ii$) completely fail. It repeats in a cycle, and never converges to a single value.
+
+<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230709110507061.png" alt="image-20230709110507061" style="zoom:35%;" />
+
+
+
+**MVT vs. IVT**
+
+-   The **mean value theorem** is all about the differentiable functions and derivatives, whereas the **intermediate value theorem** is about the continuous function. 
+-   The mean value theorem guarantees that the derivatives have certain values, whereas the intermediate value theorem guarantees that the function has certain values between two given values.
+
 
 
 ___
