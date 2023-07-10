@@ -285,6 +285,25 @@ Newton's method fails: $i$) find an unexpected root (depending on where the init
 
 
 
+Anti-differentiation used interchangeablely with Integration.
+
+Anti-derivatives $\Longleftrightarrow$ Integrals
+
+
+
+**Integral formulae**
+
+Trig functions
+
+1.   $\int \mathrm{sec}^2x dx=\mathrm{tan}x+c$
+2.   $\int \frac{1}{\sqrt{1-x^2}} dx=\mathrm{sin}^{-1}x+c$
+3.   $\int -\frac{1}{\sqrt{1-x^2}} dx=\mathrm{cos}^{-1}x+c$
+4.   $\int \frac{1}{1+x^2} dx=\mathrm{tan}^{-1}x+c$
+
+Note that $\mathrm{sin}^{-1}x$ denotes "inverse sin" or $\mathrm{arcsin}$, not $\frac{1}{\mathrm{sin}x}$.
+
+
+
 ___
 
 Semi-parametric models
