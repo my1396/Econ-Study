@@ -14,6 +14,24 @@ It seems that blackboard bold (`\mathbb`) is often used to denote **sets of numb
 
 Crit pt: critical point.
 
+cts: continuous.
+
+def'n: definition.
+
+con't: continued.
+
+**Q.E.D**: Latin words to indicate this is the *end* of a mathematical proof. At the begining, you simply write `Proof:`.
+
+axiom or postulate: a fundamental assumption that is accepted without proof.
+
+theorem: a statement that has been proven to be true based on axioms and other theorems.
+
+preposition: a theorem of less importance, or one that is considered so elementary or immediately obvious, that it may be stated without proof.
+
+lemma: an "accessory preposition" - a preposition with little applicability outside its use in a particular proof. Over time a lemma may gain in importance and be considered a *theorem*, though the term "lemma" is usually kept as part of its name.
+
+corollary: is a theorem of less importance which can be readily deduced from a previous, more notable statement.  A corollary may also be a restatement of a theorem in a simpler form, or for a special case. 
+
 
 
 **Polynomial and Exponential**
@@ -287,13 +305,13 @@ Newton's method fails: $i$) find an unexpected root (depending on where the init
 
 Anti-differentiation used interchangeablely with Integration.
 
-Anti-derivatives $\Longleftrightarrow$ Integrals
+Anti-derivatives $\Longleftrightarrow$ Indefinite Integrals
 
 
 
 **Integral formulae**
 
-Trig functions
+Trigonometric functions
 
 1.   $\int \mathrm{sec}^2x dx=\mathrm{tan}x+c$
 2.   $\int \frac{1}{\sqrt{1-x^2}} dx=\mathrm{sin}^{-1}x+c$
@@ -301,6 +319,21 @@ Trig functions
 4.   $\int \frac{1}{1+x^2} dx=\mathrm{tan}^{-1}x+c$
 
 Note that $\mathrm{sin}^{-1}x$ denotes "inverse sin" or $\mathrm{arcsin}$, not $\frac{1}{\mathrm{sin}x}$.
+
+Common integrals
+
+$\int\frac{1}{y}dy=\ln\vert y\vert +c$
+
+
+
+**FTC2**
+
+$f$ is continuous
+$$
+\frac{d}{dx}\int_a^x f(t)dt=f(x).
+$$
+
+-   important to differentiate variable of integrand $t$ from the upper limit $x$. Use different letters!
 
 
 
