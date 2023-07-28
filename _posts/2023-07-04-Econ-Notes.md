@@ -22,6 +22,8 @@ con't: continued.
 
 **Q.E.D**: Latin words to indicate this is the *end* of a mathematical proof. At the begining, you simply write `Proof:`.
 
+Ceteris paribus:  Latin phrase that generally means "all other things being equal."
+
 axiom or postulate: a fundamental assumption that is accepted without proof.
 
 theorem: a statement that has been proven to be true based on axioms and other theorems.
@@ -31,6 +33,8 @@ preposition: a theorem of less importance, or one that is considered so elementa
 lemma: an "accessory preposition" - a preposition with little applicability outside its use in a particular proof. Over time a lemma may gain in importance and be considered a *theorem*, though the term "lemma" is usually kept as part of its name.
 
 corollary: is a theorem of less importance which can be readily deduced from a previous, more notable statement.  A corollary may also be a restatement of a theorem in a simpler form, or for a special case. 
+
+orthographic projection (正射投影): top view, front view, (right) side view.
 
 
 
@@ -54,9 +58,27 @@ If there is a variable in the exponent, the ordinal is not used. $x^y$ is read a
 
 
 
+1 micrometer = $10^{-6}$ meter
+
+1 nanometer = $10^{-9}$ meter
 
 
 
+**Arithmetic Sequence/Progression** 等差数列
+
+$a_1, a_2, ..., a_n$ has common difference $d$, $n$ is the number of terms. Some useful formulas:
+
+-   the $n$-th term $a_n=a_1+(n-1)d$ 
+-   sum of $n$ terms $S_n=\frac{(a_1+a_n)n}{2}=na_1+\frac{n(n-1)}{2}d$
+-   number of terms $n=\frac{a_n-a_1}{d}+1$
+-   common difference $d=\frac{a_n-a_1}{n-1}$
+
+**Geometric Sequence/Progression** 等比数列
+
+$a_1, a_2, ..., a_n$ has common ratio $q$.
+
+-   $a_n=a_1\cdot q^{n-1}$
+-   $S_n= \frac{a_1(1-q^n)}{1-q}$
 
 
 
@@ -318,7 +340,7 @@ Trigonometric functions
 3.   $\int -\frac{1}{\sqrt{1-x^2}} dx=\mathrm{cos}^{-1}x+c$
 4.   $\int \frac{1}{1+x^2} dx=\mathrm{tan}^{-1}x+c$
 
-Note that $\mathrm{sin}^{-1}x$ denotes "inverse sin" or $\mathrm{arcsin}$, not $\frac{1}{\mathrm{sin}x}$.
+Note that $\mathrm{sin}^{-1}x$ denotes "inverse sin" or $\mathrm{arcsin}(x)$, not $\frac{1}{\mathrm{sin}x}$.
 
 Common integrals
 
@@ -334,6 +356,12 @@ $$
 $$
 
 -   important to differentiate variable of integrand $t$ from the upper limit $x$. Use different letters!
+
+
+
+**Geometry**
+
+Volume of a sphere (ball) $V=\frac{4}{3}\pi r^3$, $r$ is radius.
 
 
 
