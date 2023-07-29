@@ -36,6 +36,20 @@ corollary: is a theorem of less importance which can be readily deduced from a p
 
 orthographic projection (正射投影): top view, front view, (right) side view.
 
+trapezoid 梯形 $A=\frac{(a+b)}{2}\cdot h$. (上底 + 下底) $\times$ 高/2.
+
+sector 扇形  
+
+已知弧长 $A=\frac{1}{2}l\cdot r$. $l$ 为扇形弧长，$r$ 为半径。与三角形面积类比，$\frac{1}{2}$底$\times$高，半径可看作底，弧长看作高。
+
+已知圆心角 $A=\frac{n}{360}\pi r^2=\frac{1}{2}\theta\cdot r^2$，$n$单位为度数degree， $\theta$ 为圆心角，单位为弧度radian。
+
+-   度数弧度转换公式：$\frac{n}{180}\pi=\theta$。
+
+-   弧长公式：$l=\theta \cdot r$ (圆心角弧度 $\times$ 半径)。
+
+    圆周长$C=2\pi r$，弧长$l=\frac{\theta}{2\pi}\cdot C=\frac{\theta}{2\pi}\cdot 2\pi r=\theta r$。
+
 
 
 **Polynomial and Exponential**
@@ -79,6 +93,60 @@ $a_1, a_2, ..., a_n$ has common ratio $q$.
 
 -   $a_n=a_1\cdot q^{n-1}$
 -   $S_n= \frac{a_1(1-q^n)}{1-q}$
+
+
+
+**Trig identities**
+
+$\mathrm{sin}\theta=\mathrm{cos}(\frac{\pi}{2}-\theta)$
+
+$\mathrm{sin}\theta$ 奇函数
+
+$\mathrm{cos}\theta$ 偶函数
+
+$\mathrm{sin}(\frac{k\pi}{2}+\theta)$ 奇变偶不变，符号看象限。 根据$k$ ，决定是否变函数。 $k$ 为奇数，$\mathrm{sin}$ 变 $\mathrm{cos}$，$\mathrm{cos}$ 变 $\mathrm{sin}$。
+
+
+
+double-angel formula 被角公式
+
+-   $\mathrm{cos}(2\theta)=\mathrm{cos}^2\theta-\mathrm{sin}^2\theta$
+
+-   $\mathrm{sin}(2\theta)=2\mathrm{sin}\theta\cdot \mathrm{cos}\theta$
+
+half-angel formula 半角公式 (降幂公式) used to get rid of the power
+
+-   $\mathrm{cos}^2\theta=\frac{1+\mathrm{cos}\theta}{2}$
+
+-   $\mathrm{sin}^2\theta=\frac{1-\mathrm{cos}\theta}{2}$
+
+
+
+**和差公式**
+
+$\mathrm{sin}(\alpha+\beta)=\mathrm{sin}\alpha\cdot\mathrm{cos}\beta+\mathrm{cos}\alpha\cdot\mathrm{sin}\beta$
+
+$\mathrm{sin}(\alpha-\beta)=\mathrm{sin}\alpha\cdot\mathrm{cos}\beta-\mathrm{cos}\alpha\cdot\mathrm{sin}\beta$
+
+$\mathrm{cos}(\alpha+\beta)=\mathrm{cos}\alpha\cdot\mathrm{cos}\beta-\mathrm{sin}\alpha\cdot\mathrm{sin}\beta$
+
+$\mathrm{cos}(\alpha-\beta)=\mathrm{cos}\alpha\cdot\mathrm{cos}\beta+\mathrm{sin}\alpha\cdot\mathrm{sin}\beta$
+
+
+
+**积化和差**公式可以由和差公式得来。
+
+
+
+**和差化积**公式
+
+正加正，正在前； $\mathrm{sin}\alpha +\mathrm{sin}\beta=2\, \mathrm{sin}\frac{\alpha+\beta}{2}\cdot\mathrm{cos}\frac{\alpha-\beta}{2}$
+
+正减余在先； $\mathrm{sin}\alpha - \mathrm{sin}\beta=2\, \mathrm{cos}\frac{\alpha+\beta}{2}\cdot\mathrm{sin}\frac{\alpha-\beta}{2}$
+
+余加全是余；$\mathrm{cos}\alpha +\mathrm{cos}\beta=2\, \mathrm{cos}\frac{\alpha+\beta}{2}\cdot\mathrm{cos}\frac{\alpha-\beta}{2}$
+
+余减负正弦；$\mathrm{cos}\alpha - \mathrm{cos}\beta=-2\, \mathrm{sin}\frac{\alpha+\beta}{2}\cdot\mathrm{sin}\frac{\alpha-\beta}{2}$
 
 
 
