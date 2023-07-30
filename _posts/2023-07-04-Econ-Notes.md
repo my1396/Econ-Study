@@ -34,6 +34,12 @@ lemma: an "accessory preposition" - a preposition with little applicability outs
 
 corollary: is a theorem of less importance which can be readily deduced from a previous, more notable statement.  A corollary may also be a restatement of a theorem in a simpler form, or for a special case. 
 
+
+
+**Geometry**
+
+<img src="{{ site.baseurl}}/images/image-20230730113759915.png" alt="quadrant geometry" style="zoom:50%;" />
+
 orthographic projection (正射投影): top view, front view, (right) side view.
 
 trapezoid 梯形 $A=\frac{(a+b)}{2}\cdot h$. (上底 + 下底) $\times$ 高/2.
@@ -49,6 +55,8 @@ sector 扇形
 -   弧长公式：$l=\theta \cdot r$ (圆心角弧度 $\times$ 半径)。
 
     圆周长$C=2\pi r$，弧长$l=\frac{\theta}{2\pi}\cdot C=\frac{\theta}{2\pi}\cdot 2\pi r=\theta r$。
+
+Volume of a sphere (ball) $V=\frac{4}{3}\pi r^3$, $r$ is radius.
 
 
 
@@ -122,7 +130,7 @@ half-angel formula 半角公式 (降幂公式) used to get rid of the power
 
 
 
-**和差公式**
+**和差公式** Angle sum and difference identities
 
 $\mathrm{sin}(\alpha+\beta)=\mathrm{sin}\alpha\cdot\mathrm{cos}\beta+\mathrm{cos}\alpha\cdot\mathrm{sin}\beta$
 
@@ -134,11 +142,11 @@ $\mathrm{cos}(\alpha-\beta)=\mathrm{cos}\alpha\cdot\mathrm{cos}\beta+\mathrm{sin
 
 
 
-**积化和差**公式可以由和差公式得来。
+**积化和差**公式可以由和差公式得来。(product-to-sum identities)
 
 
 
-**和差化积**公式
+**和差化积**公式 (sum-to-product identities)
 
 正加正，正在前； $\mathrm{sin}\alpha +\mathrm{sin}\beta=2\, \mathrm{sin}\frac{\alpha+\beta}{2}\cdot\mathrm{cos}\frac{\alpha-\beta}{2}$
 
@@ -147,6 +155,8 @@ $\mathrm{cos}(\alpha-\beta)=\mathrm{cos}\alpha\cdot\mathrm{cos}\beta+\mathrm{sin
 余加全是余；$\mathrm{cos}\alpha +\mathrm{cos}\beta=2\, \mathrm{cos}\frac{\alpha+\beta}{2}\cdot\mathrm{cos}\frac{\alpha-\beta}{2}$
 
 余减负正弦；$\mathrm{cos}\alpha - \mathrm{cos}\beta=-2\, \mathrm{sin}\frac{\alpha+\beta}{2}\cdot\mathrm{sin}\frac{\alpha-\beta}{2}$
+
+
 
 
 
@@ -380,7 +390,7 @@ Newton's method works well if $i$) $\vert f'\vert$ is not too small;  $ii$) $\ve
 
 Newton's method fails: $i$) find an unexpected root (depending on where the initial guess is); $ii$) completely fail. It repeats in a cycle, and never converges to a single value.
 
-<img src="{{ site.baseurl}}/images/image-20230709110507061.png" alt="image-20230709110507061" style="zoom:30%;" />
+<img src="{{ site.baseurl}}/images/image-20230709110507061.png" alt="Fail of Newton method illustration" style="zoom:30%;" />
 
 
 
@@ -427,9 +437,21 @@ $$
 
 
 
-**Geometry**
+**Trig integrals and Substitution**
 
-Volume of a sphere (ball) $V=\frac{4}{3}\pi r^3$, $r$ is radius.
+To integrate  $\int$cos$^j$𝑥 sin$^k$𝑥 𝑑𝑥  use the following strategies:
+
+1. If  𝑘  is odd, rewrite  sin$^k$𝑥=sin$^{𝑘−1}$𝑥sin𝑥  and use the identity  sin$^2$𝑥=1−cos$^2$𝑥  to rewrite  sin$^𝑘{−1}$𝑥  in terms of  cos𝑥 . Integrate using the substitution  𝑢=cos𝑥 . This substitution makes  𝑑𝑢=−sin𝑥𝑑𝑥. 
+
+2. If  𝑗  is odd, rewrite  cos$^𝑗$𝑥=cos$^{𝑗−1}$𝑥cos𝑥  and use the identity  cos$^2$𝑥=1−sin$^2$𝑥  to rewrite  cos$^{𝑗−1}$𝑥  in terms of  sin𝑥 . Integrate using the substitution  𝑢=sin𝑥 . This substitution makes  𝑑𝑢=cos𝑥𝑑𝑥.  (Note: If both  𝑗  and  𝑘  are odd, either strategy 1 or strategy 2 may be used.)
+
+3. If both  𝑗  and  𝑘  are even, use  sin$^2$𝑥=$\frac{1−cos(2𝑥)}{2}$  and  cos$^2$𝑥=$\frac{1+cos(2𝑥)}{2}$ . After applying these formulas, simplify and reapply strategies 1 through 3 as appropriate.
+
+>   summary: 
+>
+>   1.   integrand only includes powers of $\mathrm{sin}x$ and $\mathrm{cos}x$.
+>
+>   2.   find the odd power and separate 1 as derivative of the substitution. Write the integrand as a function of the other trig.
 
 
 
