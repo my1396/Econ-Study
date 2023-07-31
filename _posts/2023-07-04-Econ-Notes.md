@@ -34,13 +34,53 @@ lemma: an "accessory preposition" - a preposition with little applicability outs
 
 corollary: is a theorem of less importance which can be readily deduced from a previous, more notable statement.  A corollary may also be a restatement of a theorem in a simpler form, or for a special case. 
 
+罗马数字共有7个，即 Ⅰ (1)、Ⅴ(5)、Ⅹ(10)、Ⅼ(50)、Ⅽ(100)、Ⅾ(500)  和Ⅿ(1000)。
+
+-   重复数次：一个罗马数字重复几次，就表示这个数的几倍。
+
+-   从小到大，表示大数字减小数字。
+-   从大到小，表示大数字加小数字。
+-   常见罗马数字 **VI (4)**, V (5), Ⅵ (6), Ⅶ (7), ⅦI (8), **IX(9)**.
+
+domain 定义域
+
+range 值域
 
 
-**Geometry**
+
+## **Geometry**
+
+**Quadrant** (plane geometry)
+
+The axes of a two-dimensional Cartesian system divide the plane into four infinite regions, called quadrants, each bounded by two half-axes.
+
+-   the numbering goes counter-clockwise starting from the upper right ("northeast") quadrant.
 
 <img src="{{ site.baseurl}}/images/image-20230730113759915.png" alt="quadrant geometry" style="zoom:50%;" />
 
 orthographic projection (正射投影): top view, front view, (right) side view.
+
+锐角 acute angel
+
+钝角 obtuse angel
+
+直角 right angel
+
+complementary angel 互余角 $\alpha+\beta=\frac{\pi}{2}$.
+
+supplementary angel 互补角 $\alpha+\beta=\pi$.
+
+<img src="{{ site.baseurl}}/images/triangel.png" alt="right triangel" style="zoom:60%;" />
+
+斜边 hypotenuse  /haɪˈpɑːtənuːs/
+
+邻边 adjacent side
+
+对边 opposite side
+
+Pythagoras’ theorem /pəˈθægərəs/ 勾股定理
+
+
 
 trapezoid 梯形 $A=\frac{(a+b)}{2}\cdot h$. (上底 + 下底) $\times$ 高/2.
 
@@ -104,19 +144,21 @@ $a_1, a_2, ..., a_n$ has common ratio $q$.
 
 
 
-**Trig identities**
-
-$\mathrm{sin}\theta=\mathrm{cos}(\frac{\pi}{2}-\theta)$
+## **Trig identities**
 
 $\mathrm{sin}\theta$ 奇函数
 
 $\mathrm{cos}\theta$ 偶函数
 
-$\mathrm{sin}(\frac{k\pi}{2}+\theta)$ 奇变偶不变，符号看象限。 根据$k$ ，决定是否变函数。 $k$ 为奇数，$\mathrm{sin}$ 变 $\mathrm{cos}$，$\mathrm{cos}$ 变 $\mathrm{sin}$。
+$\mathrm{sin}(\theta\pm\frac{k\pi}{2})$,  $\mathrm{cos}(\theta\pm\frac{k\pi}{2})$ 奇变偶不变，符号看象限。 
+
+-   根据$k$ ，决定是否变函数。 $k$ 为奇数，$\mathrm{sin}$ 变 $\mathrm{cos}$，$\mathrm{cos}$ 变 $\mathrm{sin}$。$k$ 为偶数，则函数名不变。
+-   符号由原函数决定, assuming $0<\theta<\frac{\pi}{2}$，看$\theta\pm\frac{k\pi}{2}$在原函数的正负。
+-   e.g., $\mathrm{cos}(\frac{\pi}{2}-\theta)=\mathrm{sin}\theta$, $k=1$为奇数, 函数名变为$\mathrm{sin}$; 当$\theta$为锐角时，$\frac{\pi}{2}-\theta$ 在第一象限，$\mathrm{cos}(\frac{\pi}{2}-\theta)$为正。 
 
 
 
-double-angel formula 被角公式
+double-angel formula 倍角公式
 
 -   $\mathrm{cos}(2\theta)=\mathrm{cos}^2\theta-\mathrm{sin}^2\theta$
 
@@ -353,7 +395,9 @@ Python code: https://matthew-brett.github.io/teaching/smoothing_intro.html
 
 
 
-___
+
+
+## Calculus
 
 1st derivative
 
@@ -409,7 +453,7 @@ Anti-derivatives $\Longleftrightarrow$ Indefinite Integrals
 
 
 
-**Integral formulae**
+**Integral formulas**
 
 Trigonometric functions
 
@@ -417,6 +461,7 @@ Trigonometric functions
 2.   $\int \frac{1}{\sqrt{1-x^2}} dx=\mathrm{sin}^{-1}x+c$
 3.   $\int -\frac{1}{\sqrt{1-x^2}} dx=\mathrm{cos}^{-1}x+c$
 4.   $\int \frac{1}{1+x^2} dx=\mathrm{tan}^{-1}x+c$
+5.   $\int \mathrm{tan}x\,dx=-\ln(\cos x)+c$
 
 Note that $\mathrm{sin}^{-1}x$ denotes "inverse sin" or $\mathrm{arcsin}(x)$, not $\frac{1}{\mathrm{sin}x}$.
 
@@ -441,13 +486,13 @@ $$
 
 To integrate  $\int$cos$^j$𝑥 sin$^k$𝑥 𝑑𝑥  use the following strategies:
 
-1. If  𝑘  is odd, rewrite  sin$^k$𝑥=sin$^{𝑘−1}$𝑥sin𝑥  and use the identity  sin$^2$𝑥=1−cos$^2$𝑥  to rewrite  sin$^𝑘{−1}$𝑥  in terms of  cos𝑥 . Integrate using the substitution  𝑢=cos𝑥 . This substitution makes  𝑑𝑢=−sin𝑥𝑑𝑥. 
+1. If  𝑘  is odd, rewrite  sin$^k$𝑥=sin$^{𝑘−1}$𝑥sin𝑥  and use the identity  sin$^2$𝑥=1−cos$^2$𝑥  to rewrite  sin$^{𝑘−1}$𝑥  in terms of  cos𝑥 . Integrate using the substitution  𝑢=cos𝑥 . This substitution makes  𝑑𝑢=−sin𝑥𝑑𝑥. 
 
-2. If  𝑗  is odd, rewrite  cos$^𝑗$𝑥=cos$^{𝑗−1}$𝑥cos𝑥  and use the identity  cos$^2$𝑥=1−sin$^2$𝑥  to rewrite  cos$^{𝑗−1}$𝑥  in terms of  sin𝑥 . Integrate using the substitution  𝑢=sin𝑥 . This substitution makes  𝑑𝑢=cos𝑥𝑑𝑥.  (Note: If both  𝑗  and  𝑘  are odd, either strategy 1 or strategy 2 may be used.)
+2. If  𝑗  is odd, rewrite  cos$^𝑗$𝑥=cos$^{𝑗−1}$𝑥cos𝑥  and use the identity  cos$^2$𝑥=1−sin$^2$𝑥  to rewrite  $\mathrm{cos}^{𝑗−1}x$  in terms of  sin𝑥 . Integrate using the substitution  𝑢=sin𝑥 . This substitution makes  𝑑𝑢=cos𝑥𝑑𝑥.  (Note: If both  𝑗  and  𝑘  are odd, either strategy 1 or strategy 2 may be used.)
 
 3. If both  𝑗  and  𝑘  are even, use  sin$^2$𝑥=$\frac{1−cos(2𝑥)}{2}$  and  cos$^2$𝑥=$\frac{1+cos(2𝑥)}{2}$ . After applying these formulas, simplify and reapply strategies 1 through 3 as appropriate.
 
->   summary: 
+>   Summary: 
 >
 >   1.   integrand only includes powers of $\mathrm{sin}x$ and $\mathrm{cos}x$.
 >
