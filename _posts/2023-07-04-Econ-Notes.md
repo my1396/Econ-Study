@@ -155,7 +155,7 @@ $\mathrm{cos}\theta$ 偶函数
 $\mathrm{sin}(\theta\pm\frac{k\pi}{2})$,  $\mathrm{cos}(\theta\pm\frac{k\pi}{2})$ 奇变偶不变，符号看象限。 
 
 -   根据$k$ ，决定是否变函数。 $k$ 为奇数，$\mathrm{sin}$ 变 $\mathrm{cos}$，$\mathrm{cos}$ 变 $\mathrm{sin}$。$k$ 为偶数，则函数名不变。
--   符号由原函数决定, assuming $0<\theta<\frac{\pi}{2}$，看$\theta\pm\frac{k\pi}{2}$在原函数的正负。
+-   符号由原函数决定, assuming $0<\theta<\frac{\pi}{2}$为锐角，看$\theta\pm\frac{k\pi}{2}$在原函数的正负。实际上 $\theta$ 可以是任意角度，但如果是钝角，完全可以$k:=k+1$化为锐角；否则，函数处于未化简完全的状态。
 -   e.g., $\mathrm{cos}(\frac{\pi}{2}-\theta)=\mathrm{sin}\theta$, $k=1$为奇数, 函数名变为$\mathrm{sin}$; 当$\theta$为锐角时，$\frac{\pi}{2}-\theta$ 在第一象限，$\mathrm{cos}(\frac{\pi}{2}-\theta)$为正。 
 
 
@@ -168,9 +168,9 @@ double-angel formula 倍角公式
 
 half-angel formula 半角公式 (降幂公式) used to get rid of the power
 
--   $\mathrm{cos}^2\theta=\frac{1+\mathrm{cos}\theta}{2}$
+-   $\mathrm{cos}^2\theta=\frac{1+\mathrm{cos}(2\theta)}{2}$
 
--   $\mathrm{sin}^2\theta=\frac{1-\mathrm{cos}\theta}{2}$
+-   $\mathrm{sin}^2\theta=\frac{1-\mathrm{cos}(2\theta)}{2}$
 
 
 
@@ -503,7 +503,7 @@ To integrate  $\int$cos$^j$𝑥 sin$^k$𝑥 𝑑𝑥  use the following strategi
 >
 >   1.   integrand only includes powers of $\mathrm{sin}x$ and $\mathrm{cos}x$.
 >
->   2.   find the odd power and separate 1 as derivative of the substitution. Write the integrand as a function of the other trig.
+>   2.   find the odd power and separate 1 as derivative of the substitution. Rewrite the integrand as a function of the other trig.
 >   3.   if only even exponents are present, use half-angel fornula to lower the power (double the trig angel) until you have an odd exponent.
 
 
