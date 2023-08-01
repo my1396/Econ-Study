@@ -164,7 +164,7 @@ double-angel formula 倍角公式
 
 -   $\mathrm{cos}(2\theta)=\mathrm{cos}^2\theta-\mathrm{sin}^2\theta$
 
--   $\mathrm{sin}(2\theta)=2\mathrm{sin}\theta\cdot \mathrm{cos}\theta$
+-   $\mathrm{sin}(2\theta)=2\mathrm{sin}\theta\cdot \mathrm{cos}\theta$, 2 不要落下了！
 
 half-angel formula 半角公式 (降幂公式) used to get rid of the power
 
@@ -199,8 +199,6 @@ $\mathrm{cos}(\alpha-\beta)=\mathrm{cos}\alpha\cdot\mathrm{cos}\beta+\mathrm{sin
 余加全是余；$\mathrm{cos}\alpha +\mathrm{cos}\beta=2\, \mathrm{cos}\frac{\alpha+\beta}{2}\cdot\mathrm{cos}\frac{\alpha-\beta}{2}$
 
 余减负正弦；$\mathrm{cos}\alpha - \mathrm{cos}\beta=-2\, \mathrm{sin}\frac{\alpha+\beta}{2}\cdot\mathrm{sin}\frac{\alpha-\beta}{2}$
-
-
 
 
 
@@ -459,14 +457,15 @@ Anti-derivatives $\Longleftrightarrow$ Indefinite Integrals
 
 Trigonometric integrals
 
-1.   $\int \frac{1}{\sqrt{1-x^2}} dx=\mathrm{sin}^{-1}x+c$
+1.   $\int \frac{1}{\sqrt{1-x^2}} dx=\mathrm{sin}^{-1}x+c$, note that $\mathrm{sin}^{-1}x$ denotes "inverse sin" or $\mathrm{arcsin}(x)$, not $\frac{1}{\mathrm{sin}x}$.
 2.   $\int -\frac{1}{\sqrt{1-x^2}} dx=\mathrm{cos}^{-1}x+c$
 3.   $\int \frac{1}{1+x^2} dx=\mathrm{tan}^{-1}x+c$
-4.   $\int \mathrm{tan}x\,dx=-\ln(\cos x)+c$
-5.   $\int \mathrm{sec}^2x dx=\mathrm{tan}x+c$, or $(\tan x)'=\sec^2x$.
-6.   $\sec(x)'=\sec x\tan x$.
+4.   $(\tan x)'=\sec^2x$, or $\int \mathrm{sec}^2x\,dx=\mathrm{tan}x+c$.
+5.   $\sec(x)'=\sec x\tan x$, or $\int \sec x\tan x\, dx=\sec x +c$.
+6.   $\int \mathrm{tan}x\,dx=-\ln(\cos x)+c$.
+7.   $\int \sec x\,dx=\ln(\sec x+\tan x)+c$, substitution $u=\sec x+\tan x$.
 
-Note that $\mathrm{sin}^{-1}x$ denotes "inverse sin" or $\mathrm{arcsin}(x)$, not $\frac{1}{\mathrm{sin}x}$.
+
 
 Common integrals
 
@@ -512,8 +511,6 @@ To integrate  $\int$cos$^j$𝑥 sin$^k$𝑥 𝑑𝑥  use the following strategi
 
 1.   The original integrand (in $g(x)dx$ or $h(t)dt$ ... ) can be expressed as $f(u)\,du$.
 2.   Usually $g(x)$ and $h(t)$ coule be a mess, but it is much easier to find the anti-derivative of $f(u)$.
-
-
 
 
 
