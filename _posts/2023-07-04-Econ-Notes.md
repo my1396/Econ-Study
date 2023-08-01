@@ -80,6 +80,8 @@ supplementary angel 互补角 $\alpha+\beta=\pi$.
 
 Pythagoras’ theorem /pəˈθægərəs/ 勾股定理
 
+circumference /sərˈkʌmfərəns/ 周长
+
 
 
 trapezoid 梯形 $A=\frac{(a+b)}{2}\cdot h$. (上底 + 下底) $\times$ 高/2.
@@ -453,21 +455,26 @@ Anti-derivatives $\Longleftrightarrow$ Indefinite Integrals
 
 
 
-**Integral formulas**
+### **Integral formulas**
 
-Trigonometric functions
+Trigonometric integrals
 
-1.   $\int \mathrm{sec}^2x dx=\mathrm{tan}x+c$
-2.   $\int \frac{1}{\sqrt{1-x^2}} dx=\mathrm{sin}^{-1}x+c$
-3.   $\int -\frac{1}{\sqrt{1-x^2}} dx=\mathrm{cos}^{-1}x+c$
-4.   $\int \frac{1}{1+x^2} dx=\mathrm{tan}^{-1}x+c$
-5.   $\int \mathrm{tan}x\,dx=-\ln(\cos x)+c$
+1.   $\int \frac{1}{\sqrt{1-x^2}} dx=\mathrm{sin}^{-1}x+c$
+2.   $\int -\frac{1}{\sqrt{1-x^2}} dx=\mathrm{cos}^{-1}x+c$
+3.   $\int \frac{1}{1+x^2} dx=\mathrm{tan}^{-1}x+c$
+4.   $\int \mathrm{tan}x\,dx=-\ln(\cos x)+c$
+5.   $\int \mathrm{sec}^2x dx=\mathrm{tan}x+c$, or $(\tan x)'=\sec^2x$.
+6.   $\sec(x)'=\sec x\tan x$.
 
 Note that $\mathrm{sin}^{-1}x$ denotes "inverse sin" or $\mathrm{arcsin}(x)$, not $\frac{1}{\mathrm{sin}x}$.
 
 Common integrals
 
 $\int\frac{1}{y}dy=\ln\vert y\vert +c$
+
+**Trig Identities**
+
+$\sec^2=1+\tan^2$.
 
 
 
@@ -490,13 +497,23 @@ To integrate  $\int$cos$^j$𝑥 sin$^k$𝑥 𝑑𝑥  use the following strategi
 
 2. If  𝑗  is odd, rewrite  cos$^𝑗$𝑥=cos$^{𝑗−1}$𝑥cos𝑥  and use the identity  cos$^2$𝑥=1−sin$^2$𝑥  to rewrite  $\mathrm{cos}^{𝑗−1}x$  in terms of  sin𝑥 . Integrate using the substitution  𝑢=sin𝑥 . This substitution makes  𝑑𝑢=cos𝑥𝑑𝑥.  (Note: If both  𝑗  and  𝑘  are odd, either strategy 1 or strategy 2 may be used.)
 
-3. If both  𝑗  and  𝑘  are even, use  sin$^2$𝑥=$\frac{1−cos(2𝑥)}{2}$  and  cos$^2$𝑥=$\frac{1+cos(2𝑥)}{2}$ . After applying these formulas, simplify and reapply strategies 1 through 3 as appropriate.
+3. If both  𝑗  and  𝑘  are even, use  sin$^2$𝑥=$\frac{1−\cos(2𝑥)}{2}$  and  cos$^2$𝑥=$\frac{1+\cos(2𝑥)}{2}$ . After applying these formulas, simplify and reapply strategies 1 through 3 as appropriate.
 
 >   Summary: 
 >
 >   1.   integrand only includes powers of $\mathrm{sin}x$ and $\mathrm{cos}x$.
 >
 >   2.   find the odd power and separate 1 as derivative of the substitution. Write the integrand as a function of the other trig.
+>   3.   if only even exponents are present, use half-angel fornula to lower the power (double the trig angel) until you have an odd exponent.
+
+
+
+**Method of Substitution**
+
+1.   The original integrand (in $g(x)dx$ or $h(t)dt$ ... ) can be expressed as $f(u)\,du$.
+2.   Usually $g(x)$ and $h(t)$ coule be a mess, but it is much easier to find the anti-derivative of $f(u)$.
+
+
 
 
 
@@ -512,9 +529,11 @@ Semi-parametric models
 **Textbooks**
 
 -   **Econometric Analysis** , 5th Edition, by William H. Greene, Prentice Hall, 2003.
+    
     **Time Series Analysis**, by J. D. Hamilton, Princeton University Press, 1994.
-
+    
     **Estimation and Inference in Econometrics**, by R. Davidon and J. MacKinnon, Oxford University Press, 1993.
+    
     **Econometric Analysis of Cross Section and Panel Data**, by J. Wooldridge, MIT Press, 1999.
 
 
