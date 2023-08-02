@@ -39,6 +39,7 @@ Need to work on looking further ahead, anticipation.
 Practiced busy road situation. On RAs, lane discipline is more important than indication. 抓大放小，没有必要追求完美。
 
 -   车速降下来之后要换挡。
+-   车速提高以后再升档。车速在前，换挡在后。
 
 
 
