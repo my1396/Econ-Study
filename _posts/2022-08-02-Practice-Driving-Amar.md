@@ -1565,7 +1565,7 @@ ___
 
 **From Garsingston Rd (Watlington, Blackbird Leys) to A4142 Ring Road North towards London (Hospital and Headington), 4th exit**, turning right
 
-LDA: [https://www.youtube.com/watch?v=W8i2G5in4wQ]{https://www.youtube.com/watch?v=W8i2G5in4wQ}
+LDA: [https://www.youtube.com/watch?v=W8i2G5in4wQ](https://www.youtube.com/watch?v=W8i2G5in4wQ)
 
 <img src="{{ site.baseurl}}/images/image-20221214231258893.png" alt="image-20221214231258893" style="zoom:50%;" />
 
