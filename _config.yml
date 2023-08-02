@@ -1,4 +1,4 @@
-title: Study Notes
+title: Personal Notes
 author:
   name: Menghan Yuan
   email: my1396@nyu.edu
@@ -6,7 +6,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Personal notes for keeping records of things.
+  Online notes for keeping records of things.
 
 # Build settings
 markdown: kramdown
