@@ -7,6 +7,12 @@ update: 2023-08-02
 
 Things to improve on: hesitation, anticipation, judgement call.
 
+-   change gears: pulling out to the right; traffic light, joining dual carriageways;
+-   speed limit
+-   observations when do maneuvers
+
+
+
 ### Lesson 1  – June 7, 2023
 
 Driving evaluation. From Uni, went to Driving test center, then to Cowley RA, to Blackbird Leys, A4142, to A40W, back to Uni.
