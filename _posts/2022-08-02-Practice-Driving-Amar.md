@@ -1086,7 +1086,8 @@ ___
 
 BRM: https://www.youtube.com/watch?v=OH69swvJDSI&t=476s
 
-<img src="{{ site.baseurl}}/images/image-20221130122608683.png" alt="image-20221130122608683" style="zoom:90%;" /><img src="{{ site.baseurl}}/images/image-20230104073305241.png" alt="image-20230104073305241" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221130122608683.png" alt="image-20221130122608683" style="zoom:90%;" />
+<img src="{{ site.baseurl}}/images/image-20230104073305241.png" alt="image-20230104073305241" style="zoom:50%;" />
 
 **General**:
 
