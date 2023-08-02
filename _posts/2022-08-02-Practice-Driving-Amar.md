@@ -1389,7 +1389,7 @@ Road sign of exiting to Marsh Lane (Headinton, Hospitals) after the traffic ligh
 
 -   be aware of the pedestrian island and the pole
 
-<img src="/Users/Menghan/Documents/life in Oxford/UK driver license/Oxford maps/Turning right-Keble.png" alt="Turning right-Keble" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/Turning right-Keble.png" alt="Turning right-Keble" style="zoom:50%;" />
 
 <img src="{{ site.baseurl}}/images/image-20221123150328162.png" alt="image-20221123150328162" style="zoom:50%;" />
 
