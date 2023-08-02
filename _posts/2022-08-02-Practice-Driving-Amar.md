@@ -2302,7 +2302,7 @@ ___
 
 
 
-#### <span style='color:chartreuse'>**Hollow Way and The Slade mini-roundabout**</span>
+#### <span style='color:cyan'>**Hollow Way and The Slade mini-roundabout**</span>
 
 <img src="{{ site.baseurl}}/images/image-20230119070643057.png" alt="image-20230119070643057" style="zoom:50%;" />
 
@@ -2312,9 +2312,9 @@ Note C1 is left turn (going straight actually) and C2 is right turn to A.
 
      Only need to focus on C2 b/c C1 does not affect your driving course.
 
-     https://www.youtube.com/watch?v=LVmJGIJFUrM 27:30
+     [https://www.youtube.com/watch?v=LVmJGIJFUrM](https://www.youtube.com/watch?v=LVmJGIJFUrM) 27:30
 
-     https://www.youtube.com/watch?v=_29CTqxjJzs starts at 35:45
+     [https://www.youtube.com/watch?v=_29CTqxjJzs](https://www.youtube.com/watch?v=_29CTqxjJzs) starts at 35:45
 
      A blocker came from the left A, and the right car indicating right $\rightarrow$ Go
 

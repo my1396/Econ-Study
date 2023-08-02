@@ -198,9 +198,10 @@ Other things
 -   Don't go above speed limits especially in quiet neighborhoods!
 -   Don't go around cars who is doing paralle parking. Must pause and make sure the car stopped for you. 
 -   Headington RA Barton exit, don't be over hesitant to pull out. 
-    -   make sure it's clear on your right. Cars will come from A40W Northway and from Headington direction. 
-    -   do not join the roundabout and block the exit. Keep the exit clear.
--   Pulling our from Quarry to A4142, was too hesitant.
+    -   make sure it's clear on your right. Cars will come from both A40W Northway and Headington direction. 
+    -   do not join the roundabout and block the exit! Keep the exit clear.
+    -   Barton entrance is very similar to Littlemore RA Iffley entrance. Same principle applies.
+-   Pulling out from Quarry to A4142, was too hesitant.
     -   because there is traffic light, cars are going slower than usual dual carriageways.
 -   1st exit on mini-RA, still need to give way to cars on the RA!
     -   b/c it feels like you didn't join the mini-RA, sometimes just want to go without careful observation.
