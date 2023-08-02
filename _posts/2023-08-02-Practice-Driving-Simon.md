@@ -203,8 +203,8 @@ Other things
     -   Barton entrance is very similar to Littlemore RA Iffley entrance. Same principle applies.
 -   Pulling out from Quarry to A4142, was too hesitant.
     -   because there is traffic light, cars are going slower than usual dual carriageways.
--   1st exit on mini-RA, still need to give way to cars on the RA!
-    -   b/c it feels like you didn't join the mini-RA, sometimes just want to go without careful observation.
+-   1st exit on St Clement's RA, still need to give way to cars on the RA! 
+    -   b/c it feels like you didn't join the RA, sometimes just want to go without careful observation.
 
 
 
