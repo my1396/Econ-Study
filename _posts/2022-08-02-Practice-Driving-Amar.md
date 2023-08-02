@@ -1413,7 +1413,7 @@ Road sign of exiting to Marsh Lane (Headinton, Hospitals) after the traffic ligh
     
         -   have a look at your right mirror watching out for merging cars at the first set of traffic lights;
     
-            <img src="/Users/Menghan/Documents/life in Oxford/UK driver license/Oxford maps/bp petrol station_3.png" alt="bp petrol station_3" style="zoom:50%;" />
+            <img src="{{ site.baseurl}}/images/bp petrol station_3.png" alt="bp petrol station_3" style="zoom:50%;" />
     
     -   middle and right lane both go to Marsh Ln which joins Northway later on;
     
