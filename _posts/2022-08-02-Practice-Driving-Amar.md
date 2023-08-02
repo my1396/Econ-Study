@@ -325,10 +325,6 @@ Test routes
 
     Drive Professional https://www.youtube.com/watch?v=ZG8FgTi--sA
 
--   [ ] Wood Farm Headington Route
-
-    <img src="{{ site.baseurl}}/images/image-20230104084002847.png" alt="image-20230104084002847" style="zoom:50%;" />
-
 -   [ ] Garsington Route starts from 5:30
 
     https://www.youtube.com/watch?v=DdYSnY7slYs
