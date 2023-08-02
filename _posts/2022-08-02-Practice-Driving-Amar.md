@@ -1162,7 +1162,7 @@ Two lanes to three lanes:
 
     <img src="{{ site.baseurl}}/images/image-20221127104233468.png" alt="image-20221127104233468" style="zoom:50%;" />
 
-    ![image-20221127104006862]({{ site.baseurl}}/images/image-20221127104006862.png)
+    <img src="{{ site.baseurl}}/images/image-20221127104006862.png" alt="image-20221127104006862" style="zoom:50%;" />
 
     Cowley exit has a brown building looking like this
 
