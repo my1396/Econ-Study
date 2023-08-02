@@ -2736,7 +2736,7 @@ Practiced Kassam Stadium RAs again.
 
 -   Going back to DTC, turning right
 
-    <img src="/Users/Menghan/Downloads/DTC.png" alt="DTC" style="zoom:48%;" />
+    <img src="{{ site.baseurl}}/images/DTC.png" alt="DTC" style="zoom:48%;" />
 
     -   <span style='color:chartreuse'>turn before the island</span>, look for the box, don't go too much forward, it will make the turn more difficult.
 
