@@ -40,7 +40,7 @@ Practiced busy road situation. On RAs, lane discipline is more important than in
 
 DTC mini-RA
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230119070643057.png" alt="image-20230119070643057" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20230119070643057.png" alt="image-20230119070643057" style="zoom:50%;" />
 
 -   B $\rightarrow$ A, 开太快，没看到从C2来的车。C2会被C1挡住，所以要开慢。
 -   A $\rightarrow$ B, C2有一个公交车过来，形成一个shield，此时可以走。
@@ -129,7 +129,7 @@ Two major faults
         -   If you are taking the 2nd exit (use the left lane), don't move to the right lane, just slow down to help others join. You can use the middle lane, but it is more difficult.
         -   If you are taking the 3rd exit (use the right lane), you can move to the right lane to help others join the dual carriageway. 
 
-<img src="../../../Library/Application Support/typora-user-images/image-20230712125559981.png" alt="image-20230712125559981" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20230712125559981.png" alt="image-20230712125559981" style="zoom:50%;" />
 
 -   [joining RAs] Kassam Stadium RAs, the last RA, one car indicating right, I didn't slow down enough, had to brake abruptly. Never let the guard down because all previous RAs are empty and easy.
 
