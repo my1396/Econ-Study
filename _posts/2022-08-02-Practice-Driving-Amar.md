@@ -1643,9 +1643,9 @@ BRM 2:30: https://www.youtube.com/watch?v=Djcb5Z85LUM
 
 <span style='color:chartreuse'>**From Oxford Business Park to Ring Road South towards Newbury and Swindon, 4th exit**, turning right</span>
 
-LDA: https://www.youtube.com/watch?v=lEcuDViYkVc
+LDA: [https://www.youtube.com/watch?v=lEcuDViYkVc](https://www.youtube.com/watch?v=lEcuDViYkVc)
 
-BRM 3:45: https://www.youtube.com/watch?v=Djcb5Z85LUM
+BRM 3:45: [https://www.youtube.com/watch?v=Djcb5Z85LUM](https://www.youtube.com/watch?v=Djcb5Z85LUM)
 
 -   Entering: right lane;
 
@@ -1725,8 +1725,7 @@ Next lesson: watch videos about Littlemore roundabout
 
 
 #### **Littlemore Roundabout**
-
-![image-20230118130121912]({{ site.baseurl}}/images/image-20230118130121912.png)
+<img src="{{ site.baseurl}}/images/image-20230118130121912.png" alt="image-20230118130121912" style="zoom:100%;" />
 
 **BRM Driving School** https://www.youtube.com/watch?v=K6MFSU-rGRg
 
@@ -1765,7 +1764,7 @@ ___
 
 <img src="{{ site.baseurl}}/images/image-20221214144936906.png" alt="image-20221214144936906" style="zoom:50%;" />
 
-![image-20221220221528451]({{ site.baseurl}}/images/image-20221220221528451.png)
+<img src="{{ site.baseurl}}/images/image-202212202215284516.png" alt="image-20221220221528451" style="zoom:10%;" />
 
 <img src="{{ site.baseurl}}/images/image-20221214181503420.png" alt="image-20221214181503420" style="zoom:50%;" />
 
@@ -1823,7 +1822,7 @@ The exit also leads to Sanford, Abington, Reading, etc.
 
 ___
 
-##### **2. From A4142 Heyford **
+##### **2. From A4142 Heyford**
 
 **From A4142 Heyford to Ring Road towards London, 2nd exit**, straight ahead
 
