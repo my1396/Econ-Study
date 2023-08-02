@@ -1,6 +1,6 @@
 ---
 layout: post
-title: UK Driving Notes
+title: UK Driving Notes - Amar
 category: driving
 update: 2022-08-02
 ---
@@ -112,7 +112,7 @@ update: 2022-08-02
 
     -   <span style='color:red'>Do NOT be overly cautious [✘]</span>, which results in unduly hesitance fault. I tend to wait for too long to emerge. If you are able to walk through, you can drive through.
 
-        <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230103124221743.png" alt="image-20230103124221743" style="zoom:50%;" />
+        <img src="{{ site.baseurl}}/images/image-20230103124221743.png" alt="image-20230103124221743" style="zoom:50%;" />
 
 -   Turning right
 
@@ -327,7 +327,7 @@ Test routes
 
 -   [ ] Wood Farm Headington Route
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230104084002847.png" alt="image-20230104084002847" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20230104084002847.png" alt="image-20230104084002847" style="zoom:50%;" />
 
 -   [ ] Garsington Route starts from 5:30
 
@@ -497,7 +497,7 @@ When you are on a road
 
 -   低速高档：发动机就会呜呜呜呜地响，会引发积碳，严重会损坏发动机。
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20220828093350135.png" alt="image-20220828093350135" style="zoom:120%;" />
+    <img src="{{ site.baseurl}}/images/image-20220828093350135.png" alt="image-20220828093350135" style="zoom:120%;" />
 
     发动机拉动动力轮，油门控制动力轮<u>转速</u>。油门一样时 (发动机转速不变)，低档位大转盘，转动圈数少，车速慢；高档位小转盘，转动圈数多，车速快。
 
@@ -619,13 +619,13 @@ ___
 
     -   **nearside 小转弯**: the side nearest to the curb (passenger side). nose-to-nose turn; 适合wide roads; used more often; driver turn in front of each other; blocked view. <span style='color:chartreuse'>学车到现在<u>从没</u>走过大转弯，一直用nearside.</span>
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20220824132439609.png" alt="image-20220824132439609" style="zoom:100%;" />
+    <img src="{{ site.baseurl}}/images/image-20220824132439609.png" alt="image-20220824132439609" style="zoom:100%;" />
 
     -   If you decide the crossroads is not suitable for turning, you may carry on and turn at the next  junction instead. E.g., oncoming lorry turning right as well.
 
 -   <u>Box junctions</u>: you can sit in the yellow box as long as you are turning right and <span style='color:chartreuse'>your exit is clear</span>, and you are just giving way to oncoming vehicles.
 
-    ![image-20220824133418559](/Users/Menghan/Library/Application Support/typora-user-images/image-20220824133418559.png)
+    ![image-20220824133418559]({{ site.baseurl}}/images/image-20220824133418559.png)
 
 -   低速驾驶时，松离合时<span style='color:chartreuse'>慢慢松</span>，否则会bump. Do not slam on the brake because it might cause rear collision. Check the center-right mirror before braking.
 
@@ -637,7 +637,7 @@ ___
         -   Where you should stop at a zebra crossing: Stop at the stop line.
         -   Some zebra crossings have an island for people to wait in the middle of the road. It's <u>inappropriate to slow dow and stop</u> for people at an island. An island is not an official crossing. Do not stop for people there!
 
-        ![](/Users/Menghan/Library/Application Support/typora-user-images/image-20220824143121346.png)
+        ![]({{ site.baseurl}}/images/image-20220824143121346.png)
 
     -   controlled crossings: 有人摁下按钮，可能很快就要红灯，要准备停车。无人的话，可以放心继续行驶。
 
@@ -710,7 +710,7 @@ ___
 
 ![Mini roundabout](https://www.drivingtesttips.biz/wp-content/uploads/2014/05/mini-roundabout-300x298.jpg)
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/4-way mini-roundabout.png" alt="4-way mini-roundabout" style="zoom:150%;" />
+<img src="{{ site.baseurl}}/images/4-way mini-roundabout.png" alt="4-way mini-roundabout" style="zoom:150%;" />
 
 **Useful links**:
 
@@ -935,38 +935,38 @@ If your exit is the 1st exit which is at or past 12 o'clock, do not indicate whe
     
 -   Grenoble RA East 1: 1st roundabout coming from Cowley RA, indicating right, 2nd exit, follow the sign to Reading.
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230120094757905.png" alt="image-20230120094757905" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20230120094757905.png" alt="image-20230120094757905" style="zoom:50%;" />
 
 -   Other RAs
 
     -   always take 1st exit;
     -   Take left lane; do not indicate when joining (1st exit is past 12 o'clock), indicate when leaving;
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230120100331457.png" alt="image-20230120100331457" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20230120100331457.png" alt="image-20230120100331457" style="zoom:50%;" />
 
 -   Grenoble Rd 2: take the 1st exit; the first open you meet is only a farm entrance, not an exit! 
     -   Take the left lane, no signal when entering, signal left when leaving.
-        <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221116225620861.png" alt="image-20221116225620861" style="zoom:60%;" />
+        <img src="{{ site.baseurl}}/images/image-20221116225620861.png" alt="image-20221116225620861" style="zoom:60%;" />
 
 -   The penultimate roundabout
 
     -   1st exit is on the left side, do need to <span style="color:chartreuse">indicate left</span> when joining b/c the 1st exit is indeed on the left, unlike other RAs whose 1st exit is on the right.
 
-        <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230120093828569.png" alt="image-20230120093828569" style="zoom:50%;" />
+        <img src="{{ site.baseurl}}/images/image-20230120093828569.png" alt="image-20230120093828569" style="zoom:50%;" />
 
-    ![image-20230112094703586](/Users/Menghan/Library/Application Support/typora-user-images/image-20230112094703586.png)
+    ![image-20230112094703586]({{ site.baseurl}}/images/image-20230112094703586.png)
 
 -   The last exit before going back to Oxford city center, joining A4074 afterwards. 
 
     -   Must move to the <span style='color:chartreuse'>Right lane</span>; signal right; move to the right lane with road marking "OXFORD". When you are on the right lane, just follow it through to OXF, NO need to indicate left.
 
-        <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230119083753888.png" alt="image-20230119083753888" style="zoom:50%;" />
+        <img src="{{ site.baseurl}}/images/image-20230119083753888.png" alt="image-20230119083753888" style="zoom:50%;" />
 
     -   Sometimes you are told to pull over before the roundabout. Better to go forward a bit, aiming for 1/3 of the parking distance before it ends.
 
     -   It is a dual carriageway with central barrier. After you pull over, you need to get to the right lane if it is safe to do so.
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221129105759778.png" alt="image-20221129105759778" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20221129105759778.png" alt="image-20221129105759778" style="zoom:50%;" />
 
 ​		After this roundabout, you go to <span style="color:chartreuse">A4074</span>; and you will reach Heyford Hill roundabout;
 
@@ -974,7 +974,7 @@ If your exit is the 1st exit which is at or past 12 o'clock, do not indicate whe
     
     From A4074 to A4141, 2nd exit, turning right, middle lane.
     
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/Heyford.png" alt="image-20230207180132991" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/Heyford.png" alt="image-20230207180132991" style="zoom:50%;" />
 
 
 
@@ -988,14 +988,14 @@ ___
 
     -   Grenoble RA W1
 
-        <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230207180706064.png" alt="image-20230207180706064" style="zoom:50%;" />
+        <img src="{{ site.baseurl}}/images/image-20230207180706064.png" alt="image-20230207180706064" style="zoom:50%;" />
 
 -   Grenoble RA West2, 2nd exit to Cowley, turning right.
 
     -   left lane goes to Oxford Science Park, take the <span style='color:chartreuse'>middle lane</span>; always have a look at your right mirror for cars on your right;
     -   Use the <span style='color:chartreuse'>charcoal shading</span> to guide your position.
 
-    ![image-20230207184048077](/Users/Menghan/Library/Application Support/typora-user-images/image-20230207184048077.png)
+    ![image-20230207184048077]({{ site.baseurl}}/images/image-20230207184048077.png)
 
 -   Common Grenoble RAs: This is how most Kassam Stadium roundabouts look like.
 
@@ -1003,7 +1003,7 @@ ___
         
     -   From West to East, from A4074—take the <span style='color:chartreuse'>2nd exit, left lane</span>; 1st exit leads to residentail areas, business parks, parking lots;
         
-        <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221116224441570.png" alt="image-20221116224441570" style="zoom:50%;" />
+        <img src="{{ site.baseurl}}/images/image-20221116224441570.png" alt="image-20221116224441570" style="zoom:50%;" />
 
     
 
@@ -1090,7 +1090,7 @@ ___
 
 BRM: https://www.youtube.com/watch?v=OH69swvJDSI&t=476s
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221130122608683.png" alt="image-20221130122608683" style="zoom:90%;" /><img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230104073305241.png" alt="image-20230104073305241" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221130122608683.png" alt="image-20221130122608683" style="zoom:90%;" /><img src="{{ site.baseurl}}/images/image-20230104073305241.png" alt="image-20230104073305241" style="zoom:50%;" />
 
 **General**:
 
@@ -1103,7 +1103,7 @@ BRM: https://www.youtube.com/watch?v=OH69swvJDSI&t=476s
 
 ##### **1. From Headington London Rd**
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221123154938816.png" alt="image-20221123154938816" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221123154938816.png" alt="image-20221123154938816" style="zoom:50%;" />
 
 Two lanes to three lanes:
 
@@ -1111,9 +1111,9 @@ Two lanes to three lanes:
 -   Left split into middle: A40(E) to London 
 -   Right: A40(E), A4142
 
-![image-20221223082345710](/Users/Menghan/Library/Application Support/typora-user-images/image-20221223082345710.png)
+![image-20221223082345710]({{ site.baseurl}}/images/image-20221223082345710.png)
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230103230606544.png" alt="image-20230103230606544" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20230103230606544.png" alt="image-20230103230606544" style="zoom:50%;" />
 
 -   **From Headington to Northway (Marston), 1st Exit**, turning left
 
@@ -1121,9 +1121,9 @@ Two lanes to three lanes:
 
     Left lane, indicate left, first exit. <span style='color:chartreuse'>A40(W)</span>
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221123155251573.png" alt="image-20221123155251573" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20221123155251573.png" alt="image-20221123155251573" style="zoom:50%;" />
 
-    Your exit to Northway<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221123160228022.png" alt="image-20221123160228022" style="zoom:50%;" />
+    Your exit to Northway<img src="{{ site.baseurl}}/images/image-20221123160228022.png" alt="image-20221123160228022" style="zoom:50%;" />
 
 
 
@@ -1138,17 +1138,17 @@ Two lanes to three lanes:
         -   remain in your lane, now you are on the middle lane; as you pass the 3rd exit, you will become the outer lane and you exit onto the left lane of A4142.
         -   if you take the right newly emerged lane, as you pase the 3rd exit, you will become the middle lane and you exit onto the right lane.
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221127100732667.png" alt="image-20221127100732667" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20221127100732667.png" alt="image-20221127100732667" style="zoom:50%;" />
 
     **1st Exit** to Northway
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221127102644745.png" alt="image-20221127102644745" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20221127102644745.png" alt="image-20221127102644745" style="zoom:50%;" />
 
     **2nd Exit** to Barton Crematorium
 
-    ![image-20221127103645756](/Users/Menghan/Library/Application Support/typora-user-images/image-20221127103645756.png)
+    ![image-20221127103645756]({{ site.baseurl}}/images/image-20221127103645756.png)
 
-    ![image-20221127102814775](/Users/Menghan/Library/Application Support/typora-user-images/image-20221127102814775.png)
+    ![image-20221127102814775]({{ site.baseurl}}/images/image-20221127102814775.png)
 
     
 
@@ -1161,19 +1161,19 @@ Two lanes to three lanes:
 
     **3rd Exit** to London/ Thornhill Park & Ride
 
-    ![image-20221127103850351](/Users/Menghan/Library/Application Support/typora-user-images/image-20221127103850351.png)
+    ![image-20221127103850351]({{ site.baseurl}}/images/image-20221127103850351.png)
 
     **4th Exit to A4142 Cowley**
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221130115458433.png" alt="image-20221130115458433" style="zoom:70%;" />
+    <img src="{{ site.baseurl}}/images/image-20221130115458433.png" alt="image-20221130115458433" style="zoom:70%;" />
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221127104233468.png" alt="image-20221127104233468" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20221127104233468.png" alt="image-20221127104233468" style="zoom:50%;" />
 
-    ![image-20221127104006862](/Users/Menghan/Library/Application Support/typora-user-images/image-20221127104006862.png)
+    ![image-20221127104006862]({{ site.baseurl}}/images/image-20221127104006862.png)
 
     Cowley exit has a brown building looking like this
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221127104610894.png" alt="image-20221127104610894" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20221127104610894.png" alt="image-20221127104610894" style="zoom:50%;" />
 
     
 
@@ -1197,19 +1197,19 @@ BRM video starts from 13:30
 
 -   then you see "Reduced Speed Now" sign, you reduce speed to 40m/h, NOT too slow, 30m/h would be outragously slow; 
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221227141226385.png" alt="image-20221227141226385" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20221227141226385.png" alt="image-20221227141226385" style="zoom:50%;" />
 
 -   then you see trafic control ahead sing
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221227141140681.png" alt="image-20221227141140681" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20221227141140681.png" alt="image-20221227141140681" style="zoom:50%;" />
 
 -   then you see speed limit 30m/h
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221227141310778.png" alt="image-20221227141310778" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20221227141310778.png" alt="image-20221227141310778" style="zoom:50%;" />
 
 -   finally you see the roundabout sign again with exit info
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221127085348670.png" alt="image-20221127085348670" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221127085348670.png" alt="image-20221127085348670" style="zoom:50%;" />
 
 -   **From Northern Bypass to <span style="color:chartreuse">A4142 Cowley</span>, taking <span style="color:chartreuse">3rd exit</span>, turning right.**
     https://www.youtube.com/watch?v=F_PEx68oToY
@@ -1217,7 +1217,7 @@ BRM video starts from 13:30
 
     -   Move to the right lane first on Northway when you see the long white lines.
 
-        <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221127090257804.png" alt="image-20221127090257804" style="zoom:50%;" />
+        <img src="{{ site.baseurl}}/images/image-20221127090257804.png" alt="image-20221127090257804" style="zoom:50%;" />
 
     -   You will see trafic light signs, then speed limit sign of 30m/h, then split into 3 lanes
 
@@ -1225,12 +1225,12 @@ BRM video starts from 13:30
 
         -   right lane is also possible, but middle lane is easier;
 
-            <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221214222910680.png" alt="image-20221214222910680" style="zoom:50%;" />
+            <img src="{{ site.baseurl}}/images/image-20221214222910680.png" alt="image-20221214222910680" style="zoom:50%;" />
 
     -   Indicate right is important, so you tell others you are not going to London.
 
     Note there is a <span style="color:chartreuse">slip road</span> on the left of the exit, have a look at your left mirror to be safe when you exit.
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221127100556110.png" alt="image-20221127100556110" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20221127100556110.png" alt="image-20221127100556110" style="zoom:50%;" />
 
 
 
@@ -1247,9 +1247,9 @@ ___
 
 #####  **3. From A4142 Cowley**
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221214204943858.png" alt="image-20221214204943858" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221214204943858.png" alt="image-20221214204943858" style="zoom:50%;" />
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221223081648629.png" alt="image-20221223081648629" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221223081648629.png" alt="image-20221223081648629" style="zoom:50%;" />
 
 **From A4142 Cowley towards London, 4th exit**, turning right.
 
@@ -1268,9 +1268,9 @@ ___
 
 ##### **4. From A40W London**
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221214221112459.png" alt="image-20221214221112459" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221214221112459.png" alt="image-20221214221112459" style="zoom:50%;" />
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221215084802696.png" alt="image-20221215084802696" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221215084802696.png" alt="image-20221215084802696" style="zoom:50%;" />
 
 **From London to A40W Marston, 3rd exit** , turning right
 
@@ -1285,7 +1285,7 @@ ___
 
 **Leaving Ring Rd A4142 to Headington Hospitals**, turning right
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221214223949419.png" alt="image-20221214223949419" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221214223949419.png" alt="image-20221214223949419" style="zoom:50%;" />
 
 **On A4142**:
 
@@ -1304,10 +1304,10 @@ ___
 -   When reaching the end of the first bend, change to <span style='color:chartreuse'>gear 1</span> to merge;
     -   have to stay close to the left, <span style='color:red'>do not go to the other lane [✘] </span>; road is narrow, easy to drift to the other side of the road;
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221129113109738.png" alt="image-20221129113109738" style="zoom:100%;" />
+<img src="{{ site.baseurl}}/images/image-20221129113109738.png" alt="image-20221129113109738" style="zoom:100%;" />
 
 Road sign of exiting to Marsh Lane (Headinton, Hospitals) after the traffic light
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221125083708539.png" alt="image-20221125083708539" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221125083708539.png" alt="image-20221125083708539" style="zoom:50%;" />
 
 
 
@@ -1315,7 +1315,7 @@ Road sign of exiting to Marsh Lane (Headinton, Hospitals) after the traffic ligh
 
 -   If you coming down from Northway, you see a series of signs, the 30m/h speed limit is your last cue to the car park.
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230118140329026.png" alt="image-20230118140329026" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20230118140329026.png" alt="image-20230118140329026" style="zoom:50%;" />
 
 -   If you coming from Marston Lane, then you see pedestrian crossing and a bus stop afterwards, the bus top is your cue to the car park.
 
@@ -1329,7 +1329,7 @@ Road sign of exiting to Marsh Lane (Headinton, Hospitals) after the traffic ligh
 
     -   never stop in the middle, including inside the box <span style='color:red'>[✘]</span>, must finish once you have started; must keep the road clear; [I have a tendency to stop in the box. Must fix this!]
 
-        <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221125085925781.png" alt="image-20221125085925781" style="zoom:50%;" />
+        <img src="{{ site.baseurl}}/images/image-20221125085925781.png" alt="image-20221125085925781" style="zoom:50%;" />
 
     -   <span style='color:chartreuse'>a curved turn</span> at crossroads and junctions, do not go as a straight angle; [do a near side turn]
 
@@ -1380,11 +1380,11 @@ Road sign of exiting to Marsh Lane (Headinton, Hospitals) after the traffic ligh
 -   use the right lane; indicate at the second right turn;
 -   do not go too left; might block traffic on your left;
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/Turing right-Banbury.png" alt="Turing right-Banbury_1" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/Turing right-Banbury.png" alt="Turing right-Banbury_1" style="zoom:50%;" />
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221123151850099.png" alt="image-20221123151850099" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221123151850099.png" alt="image-20221123151850099" style="zoom:50%;" />
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221123151934946.png" alt="image-20221123151934946" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221123151934946.png" alt="image-20221123151934946" style="zoom:50%;" />
 
 
 
@@ -1394,7 +1394,7 @@ Road sign of exiting to Marsh Lane (Headinton, Hospitals) after the traffic ligh
 
 <img src="/Users/Menghan/Documents/life in Oxford/UK driver license/Oxford maps/Turning right-Keble.png" alt="Turning right-Keble" style="zoom:50%;" />
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221123150328162.png" alt="image-20221123150328162" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221123150328162.png" alt="image-20221123150328162" style="zoom:50%;" />
 
 
 
@@ -1402,11 +1402,11 @@ Road sign of exiting to Marsh Lane (Headinton, Hospitals) after the traffic ligh
 
 #### **bp petrol station** (Cherwell Drive)
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230118111835357.png" alt="image-20230118111835357" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20230118111835357.png" alt="image-20230118111835357" style="zoom:50%;" />
 
 -   Coming down from <span style='color:chartreuse'>Northway</span>, Marston Lane: Use the left lane to turn left; No need to indiate left when turning left HERE. (This is a T junction, your intention is quite clearly shown by your position in the lane. Besides, there is a side lane going to a shop, indicating could be misleading that you are going to the side lane.)
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221124091048775.png" alt="image-20221124091048775" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20221124091048775.png" alt="image-20221124091048775" style="zoom:50%;" />
 
 
 
@@ -1429,7 +1429,7 @@ Road sign of exiting to Marsh Lane (Headinton, Hospitals) after the traffic ligh
     
         -   Usually the lights for going ahead change to green first. Do not go at this time! Wait until the lights for turning right changing to green before you proceed.
         
-            <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230103120903022.png" alt="image-20230103120903022" style="zoom:50%;" />
+            <img src="{{ site.baseurl}}/images/image-20230103120903022.png" alt="image-20230103120903022" style="zoom:50%;" />
     
     
     
@@ -1438,7 +1438,7 @@ Road sign of exiting to Marsh Lane (Headinton, Hospitals) after the traffic ligh
 
 Take the <span style='color:chartreuse'>right lane</span> to go ahead, left lane goes to JR hospital.
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221124095558359.png" alt="image-20221124095558359" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221124095558359.png" alt="image-20221124095558359" style="zoom:50%;" />
 
 
 
@@ -1481,7 +1481,7 @@ ____
     -   when you join the roundabout, you follow the <span style='color:chartreuse'>short dashed lines</span> which are merging lanes guiding you on to the roundabout; 
     -   when you finish joining and on the roundabout, you follow the separation lines (equal length lines and gaps) which separate lanes;
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221201115855308.png" alt="image-20221201115855308" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20221201115855308.png" alt="image-20221201115855308" style="zoom:50%;" />
 
 
 
@@ -1489,16 +1489,16 @@ ____
 
 **Overview**
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221221095334180.png" alt="image-20221221095334180" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221221095334180.png" alt="image-20221221095334180" style="zoom:50%;" />
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230123213442462.png" alt="image-20230123213442462" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20230123213442462.png" alt="image-20230123213442462" style="zoom:50%;" />
 
 **Exit from dual carriageway**
 
 -   first exit to the left lane; if you missed it, you have to exit to the right lane;
 -   then exit to the right lane
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221228072502268.png" alt="image-20221228072502268" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221228072502268.png" alt="image-20221228072502268" style="zoom:50%;" />
 
 ##### 1. From Eastern By-pass Rd A4142 (North to South)
 
@@ -1506,7 +1506,7 @@ ____
 
 LDA: https://www.youtube.com/watch?v=x8bxxlwXhZY
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221214230421278.png" alt="image-20221214230421278" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221214230421278.png" alt="image-20221214230421278" style="zoom:50%;" />
 
 -   <span style='color:chartreuse'>**Read the sign**</span>
     -   thick stubby lines are for dual carriageways;
@@ -1515,9 +1515,9 @@ LDA: https://www.youtube.com/watch?v=x8bxxlwXhZY
 
 -   Don't go on the bridge and do not exit the dual carriageway too early (wait for the arrow indicating exit, the first exit is for turning left). Go on the bridge meaning you are staying on the dual carriageway.
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221130081452798.png" alt="image-20221130081452798" style="zoom:90%;" />
+<img src="{{ site.baseurl}}/images/image-20221130081452798.png" alt="image-20221130081452798" style="zoom:90%;" />
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221201090405932.png" alt="image-20221201090405932" style="zoom:80%;" />
+<img src="{{ site.baseurl}}/images/image-20221201090405932.png" alt="image-20221201090405932" style="zoom:80%;" />
 
 -   Having exited from the By-pass, take the <span style='color:chartreuse'>right hand lane</span> approaching.
 
@@ -1527,9 +1527,9 @@ LDA: https://www.youtube.com/watch?v=x8bxxlwXhZY
 
     -   On the roundabout: after passing the <span style='color:chartreuse'>1st exit</span>, right lane will split into middle and right lanes. Choose the <span style='color:chartreuse'>middle lane</span> to follow through;
     
-        <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221127110334237.png" alt="image-20221127110334237" style="zoom:80%;" />
+        <img src="{{ site.baseurl}}/images/image-20221127110334237.png" alt="image-20221127110334237" style="zoom:80%;" />
     
-        <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221127110628759.png" alt="image-20221127110628759" style="zoom:50%;" />
+        <img src="{{ site.baseurl}}/images/image-20221127110628759.png" alt="image-20221127110628759" style="zoom:50%;" />
 
 -   **1st Exit**
 
@@ -1538,11 +1538,11 @@ LDA: https://www.youtube.com/watch?v=x8bxxlwXhZY
     -   middle lane is easier, it takes you right to the left lane as you exit;
     -   right lane is trickier, the lane split into two, and you have to maneuver to the middle one; and you exit onto the right lane at your exit, and you need an additonal lane changing to the left.
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221201081248961.png" alt="image-20221201081248961" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20221201081248961.png" alt="image-20221201081248961" style="zoom:50%;" />
 
 -   **2nd Exit** to Tesco Superstore
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221127110808758.png" alt="image-20221127110808758" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20221127110808758.png" alt="image-20221127110808758" style="zoom:50%;" />
 
 
 
@@ -1550,9 +1550,9 @@ LDA: https://www.youtube.com/watch?v=x8bxxlwXhZY
 
     After the 3rd exit, <span style='color:chartreuse'>remain in the middle lane</span>, this lane will lead you to merge to the left lane automatically, be prepared to exit.
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221127111900164.png" alt="image-20221127111900164" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20221127111900164.png" alt="image-20221127111900164" style="zoom:50%;" />
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221201094209400.png" alt="image-20221201094209400" style="zoom:80%;" />
+    <img src="{{ site.baseurl}}/images/image-20221201094209400.png" alt="image-20221201094209400" style="zoom:80%;" />
 
 -   **4th Exit**
 
@@ -1563,7 +1563,7 @@ LDA: https://www.youtube.com/watch?v=x8bxxlwXhZY
 
     
 
-    ![image-20221201092515179](/Users/Menghan/Library/Application Support/typora-user-images/image-20221201092515179.png)
+    ![image-20221201092515179]({{ site.baseurl}}/images/image-20221201092515179.png)
 
 
 
@@ -1575,7 +1575,7 @@ ___
 
 LDA: https://www.youtube.com/watch?v=W8i2G5in4wQ
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221214231258893.png" alt="image-20221214231258893" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221214231258893.png" alt="image-20221214231258893" style="zoom:50%;" />
 
 -   Entering: right lane;
 
@@ -1583,7 +1583,7 @@ LDA: https://www.youtube.com/watch?v=W8i2G5in4wQ
 
         -   make your car curved;
 
-        <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221221111523671.png" alt="image-20221221111523671" style="zoom:50%;" />
+        <img src="{{ site.baseurl}}/images/image-20221221111523671.png" alt="image-20221221111523671" style="zoom:50%;" />
 
         -   left lane: retail park, ring road (S);
         -   right lane split to mid lane: CLEY;
@@ -1595,7 +1595,7 @@ LDA: https://www.youtube.com/watch?v=W8i2G5in4wQ
 
     -   choose the <span style='color:chartreuse'>middle lane</span> to follow through; so that when you passing the Cowley (penultimate) exit, you will be taken to the left lane;
 
-        <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221220212342424.png" alt="image-20221220212342424" style="zoom:50%;" />
+        <img src="{{ site.baseurl}}/images/image-20221220212342424.png" alt="image-20221220212342424" style="zoom:50%;" />
 
 
 -   After passing the Cowley exit, check mirrors and indicate left, exit to Ring Road North on the <span style='color:chartreuse'>left lane (if going from middle lane)</span>;
@@ -1606,7 +1606,7 @@ LDA: https://www.youtube.com/watch?v=W8i2G5in4wQ
 
     -   you must not change lane on slip roads, you have to wait until the end of slip roads and merge to the right to dual carriageways;
 
-        <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221228090200419.png" alt="image-20221228090200419" style="zoom:50%;" />
+        <img src="{{ site.baseurl}}/images/image-20221228090200419.png" alt="image-20221228090200419" style="zoom:50%;" />
 
 ___
 
@@ -1614,7 +1614,7 @@ ___
 
 There is a hotel on the road–Premier Inn (Purple), roundabout sign is partially blocked by bushes.
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221217120541812.png" alt="image-20221217120541812" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221217120541812.png" alt="image-20221217120541812" style="zoom:50%;" />
 
 Lane choosing:
 
@@ -1628,13 +1628,13 @@ Lane choosing:
 
     -   because left lane is left turn only to Ring Road (N) London
 
-        <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221221113550781.png" alt="image-20221221113550781" style="zoom:50%;" />
+        <img src="{{ site.baseurl}}/images/image-20221221113550781.png" alt="image-20221221113550781" style="zoom:50%;" />
 
 -   As you drive on, when you going under the bridge, the road markings will take you to the left lane automatically;
 
     -   easy in general;
 
-        <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221217121340445.png" alt="image-20221217121340445" style="zoom:50%;" />
+        <img src="{{ site.baseurl}}/images/image-20221217121340445.png" alt="image-20221217121340445" style="zoom:50%;" />
 
     -   Under the bridge road markings
         -   Left: Watlington;
@@ -1722,7 +1722,7 @@ change lane on dual carriageways: do not slow down; two squares
 
     -   do not brake on dual carriageway, you have a buffer road 
 
-        <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221214215111128.png" alt="image-20221214215111128" style="zoom:30%;" />
+        <img src="{{ site.baseurl}}/images/image-20221214215111128.png" alt="image-20221214215111128" style="zoom:30%;" />
 
 -   Churwell Dr and Windmill Rd
 
@@ -1734,7 +1734,7 @@ Next lesson: watch videos about Littlemore roundabout
 
 #### **Littlemore Roundabout**
 
-![image-20230118130121912](/Users/Menghan/Library/Application Support/typora-user-images/image-20230118130121912.png)
+![image-20230118130121912]({{ site.baseurl}}/images/image-20230118130121912.png)
 
 **BRM Driving School** https://www.youtube.com/watch?v=K6MFSU-rGRg
 
@@ -1767,17 +1767,17 @@ ___
 
 ##### **1. From A4142 Cowley**
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221214152719739.png" alt="image-20221214152719739" style="zoom:40%;" />
+<img src="{{ site.baseurl}}/images/image-20221214152719739.png" alt="image-20221214152719739" style="zoom:40%;" />
 
  <span style='color:chartreuse'>**From A4142 Eastern By-Pass Cowley to Iffley/ Rose Hill, 3rd exit**</span>, turing right
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221214144936906.png" alt="image-20221214144936906" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221214144936906.png" alt="image-20221214144936906" style="zoom:50%;" />
 
-![image-20221220221528451](/Users/Menghan/Library/Application Support/typora-user-images/image-20221220221528451.png)
+![image-20221220221528451]({{ site.baseurl}}/images/image-20221220221528451.png)
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221214181503420.png" alt="image-20221214181503420" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221214181503420.png" alt="image-20221214181503420" style="zoom:50%;" />
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221214182155652.png" alt="image-20221214182155652" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221214182155652.png" alt="image-20221214182155652" style="zoom:50%;" />
 
 **Lane choosing:**
 
@@ -1791,7 +1791,7 @@ ___
 
 -   Down from Cowley RA, you need to drive for a while. You first see a bridge, then you see slip road for joining from Sandy Lane (lots of cars will join from here, so you want to <span style='color:chartreuse'>move to the right lane early</span>. This helps other people to join the dual carriageway and help you to approach the roundabout), then you see a sign as follows (this is your cue to move to the right lane), then you see Roundabout signs.
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230118121309377.png" alt="image-20230118121309377" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20230118121309377.png" alt="image-20230118121309377" style="zoom:50%;" />
 
 -   Two Roundabout signs. When you see the 1st sign,  indicate right, move to the right lane. <span style="color:chartreuse">Keep you speed up</span> untill you see 30m/h sign. After the 2nd sign, you see speed limit of 30m/h; slow down to comply with speed limit;
 
@@ -1822,7 +1822,7 @@ ___
 
 The exit also leads to Sanford, Abington, Reading, etc.
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221214173303503.png" alt="image-20221214173303503" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221214173303503.png" alt="image-20221214173303503" style="zoom:50%;" />
 
 -   Entering: left (or middle lane)
     -   recommend using the <span style="color:chartreuse">left lane</span>: have to be careful because there are no road markings when you enter, note that it's easy to drift to the middle lane if you come in too quickly; <span style="color:chartreuse">you have to keep it all the way to the left!</span>
@@ -1877,7 +1877,7 @@ https://www.youtube.com/watch?v=iA59HozGDoo
 
 BRM: https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s 22:35
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221214151537267.png" alt="image-20221214151537267" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221214151537267.png" alt="image-20221214151537267" style="zoom:50%;" />
 
 -   Entering: right lane;
 -   On the roundabout: <span style='color:chartreuse'>middle lane</span>; middle lane can go either straight ahead or turning right.
@@ -1895,11 +1895,11 @@ ___
 
 ##### **4. From Rose Hill  (Iffley)**
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221214170532353.png" alt="image-20221214170532353" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221214170532353.png" alt="image-20221214170532353" style="zoom:50%;" />
 
 
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221214174647532.png" alt="image-20221214174647532" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221214174647532.png" alt="image-20221214174647532" style="zoom:50%;" />
 
 Before joinging the roundabout:
 
@@ -1963,7 +1963,7 @@ Cowley roundabout, littlemore RA, Business Park RA
 
 #### <span style='color:cyan'>Signs</span>
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221227140309471.png" alt="image-20221227140309471" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221227140309471.png" alt="image-20221227140309471" style="zoom:50%;" />
 
 -   red circles: must not do;
 -   blue circles: must do;
@@ -1971,14 +1971,14 @@ Cowley roundabout, littlemore RA, Business Park RA
 
 | Sign                                                         | Meaning                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221222203432245.png" alt="image-20221222203432245" style="zoom:50%;" /> | National speed limit for the type of road and class of traffic applies:<br />- motorways and dual carriageways (每个方向有至少两条车道): 70 mph<br/>- single carriageways (每个方向只有一条车道): 60 mph<br/>- <span style='color:chartreuse'>build-up areas (w/ street lights)</span>: 30 mph<br/>- residential areas: 20 mph <br /> |
-| <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221227135555182.png" alt="image-20221227135555182" style="zoom:50%;" /> | Slippery road.                                               |
-| <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230116223456988.png" alt="image-20230116223456988" style="zoom:50%;" /> | Narrow road sign. Narrow from the right side.                |
-| <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221227140059057.png" alt="image-20221227140059057" style="zoom:40%;" /> | Traffic signals ahead                                        |
-| <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230207164503944.png" alt="image-20230207164503944" style="zoom:35%;" /> | mini-roundabout, blue circle;                                |
-| <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230207164329831.png" alt="image-20230207164329831" style="zoom:25%;" /> | big roundabout, red triangle;                                |
-| <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230207163915367.png" alt="image-20230207163915367" style="zoom:15%;" /> | I have priority.                                             |
-| <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230207164054556.png" alt="image-20230207164054556" style="zoom:25%;" /> | Must give way to oncoming vehicles.<br />Priority must be given to vehicles from the opposite direction. |
+| <img src="{{ site.baseurl}}/images/image-20221222203432245.png" alt="image-20221222203432245" style="zoom:50%;" /> | National speed limit for the type of road and class of traffic applies:<br />- motorways and dual carriageways (每个方向有至少两条车道): 70 mph<br/>- single carriageways (每个方向只有一条车道): 60 mph<br/>- <span style='color:chartreuse'>build-up areas (w/ street lights)</span>: 30 mph<br/>- residential areas: 20 mph <br /> |
+| <img src="{{ site.baseurl}}/images/image-20221227135555182.png" alt="image-20221227135555182" style="zoom:50%;" /> | Slippery road.                                               |
+| <img src="{{ site.baseurl}}/images/image-20230116223456988.png" alt="image-20230116223456988" style="zoom:50%;" /> | Narrow road sign. Narrow from the right side.                |
+| <img src="{{ site.baseurl}}/images/image-20221227140059057.png" alt="image-20221227140059057" style="zoom:40%;" /> | Traffic signals ahead                                        |
+| <img src="{{ site.baseurl}}/images/image-20230207164503944.png" alt="image-20230207164503944" style="zoom:35%;" /> | mini-roundabout, blue circle;                                |
+| <img src="{{ site.baseurl}}/images/image-20230207164329831.png" alt="image-20230207164329831" style="zoom:25%;" /> | big roundabout, red triangle;                                |
+| <img src="{{ site.baseurl}}/images/image-20230207163915367.png" alt="image-20230207163915367" style="zoom:15%;" /> | I have priority.                                             |
+| <img src="{{ site.baseurl}}/images/image-20230207164054556.png" alt="image-20230207164054556" style="zoom:25%;" /> | Must give way to oncoming vehicles.<br />Priority must be given to vehicles from the opposite direction. |
 
 
 
@@ -2000,16 +2000,16 @@ Dual Carriageways:
 
 **Joining Northway from Marsh Lane**
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221227124512949.png" alt="image-20221227124512949" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221227124512949.png" alt="image-20221227124512949" style="zoom:50%;" />
 
 -   Take the right lane to go straight ahead joining Northway towards Headington;
 -   On the bridge you will see National speed sign 40m/p, but do not change gears and go 40m/h, it is a sharp bend, you need to control your speed, safe is priority; just go as 30m/h, 2nd gear;
     -   <span style='color:chartreuse'>2nd gear will give you more control and speed up faster;</span>
 -   On the slip road, build up speed to 50m/h, signal right, find a gap to join;
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221227083501697.png" alt="image-20221227083501697" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221227083501697.png" alt="image-20221227083501697" style="zoom:50%;" />
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221227084259909.png" alt="image-20221227084259909" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221227084259909.png" alt="image-20221227084259909" style="zoom:50%;" />
 
 **General Driving**
 
@@ -2072,7 +2072,7 @@ Joining Northway from Marston, 2nd gear (sharp bend, need more control); Cowley 
 
     -   Car park entrance is just behind the 30m/h speed sign;
 
-        <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221228090805378.png" alt="image-20221228090805378" style="zoom:50%;" />
+        <img src="{{ site.baseurl}}/images/image-20221228090805378.png" alt="image-20221228090805378" style="zoom:50%;" />
 
     
 
@@ -2081,18 +2081,18 @@ Joining Northway from Marston, 2nd gear (sharp bend, need more control); Cowley 
 Entering from Cowley RA: from South to North (city centre).
 
 -   3 lanes: <span style='color:chartreuse'>left is left only</span>, middle is straight only, right is right only;
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221228083622318.png" alt="image-20221228083622318" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20221228083622318.png" alt="image-20221228083622318" style="zoom:50%;" />
 
 
 
 From Templars Squares/ Littlemore RA rose hill heading to Cowley RA, from North to South.
 
 -   2 lanes:  left lane: left and go straight ahead; right lane: turn right
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230104114604844.png" alt="image-20230104114604844" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20230104114604844.png" alt="image-20230104114604844" style="zoom:50%;" />
 
 
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221228074950481.png" alt="image-20221228074950481" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20221228074950481.png" alt="image-20221228074950481" style="zoom:50%;" />
 
 
 
@@ -2120,7 +2120,7 @@ ___
 
 -   Reference point: <span style='color:chartreuse'>2.5 fingers</span>; after finding your reference point, full lock to your right; 
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221228082027172.png" alt="image-20221228082027172" style="zoom:40%;" />
+    <img src="{{ site.baseurl}}/images/image-20221228082027172.png" alt="image-20221228082027172" style="zoom:40%;" />
 
 -   Where to stop: mirror frame above the front line about 4 cm.
     -   You can't go beyond your parking bay, which is a major fault b/c you will crash the other car.
@@ -2130,7 +2130,7 @@ ___
 
 **Reverse Bay Parking**: park from a still position; always <span style='color:chartreuse'>reverse to the left</span> (b/c left is close to your reference point—1/4 of the handbrake); the pic below just shows the relative position of you target  bay and your starting point, but it is a reverse to the right.
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230103222813110.png" alt="image-20230103222813110" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20230103222813110.png" alt="image-20230103222813110" style="zoom:50%;" />
 
 -   Starting from the <span style='color:chartreuse'>center-left side</span> of the road, which will give you plenty of room to reverse and adjust if necessary;
 
@@ -2140,7 +2140,7 @@ ___
 
     -   you will end up 3 bays behind you.
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20221228081837922.png" alt="image-20221228081837922" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20221228081837922.png" alt="image-20221228081837922" style="zoom:50%;" />
 
 -   Keeping looking your surroundings until you are about to enter fully. Then you look ahead, left/right mirrors to make sure you are inside your bay.
 -   Have a final look to your behind while you straight your wheel.
@@ -2229,7 +2229,7 @@ Reserve parallel parking 侧方停车; pulling up on the right-hand side of the 
 
      -   if you reversed back from a long way, it's better to stop and reset here;
 
-         <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230102231706288.png" alt="image-20230102231706288" style="zoom:50%;" />
+         <img src="{{ site.baseurl}}/images/image-20230102231706288.png" alt="image-20230102231706288" style="zoom:50%;" />
 
 2.   keep reversing until about 1/2 of the rear passenger door $\rightarrow$ take the steering wheel 1 turn to the left; [looking back and right blind spot]
 
@@ -2238,7 +2238,7 @@ Reserve parallel parking 侧方停车; pulling up on the right-hand side of the 
 
 3.   keep reversing back, until you see a very small triangle of the road (looks like the <span style='color:chartreuse'>rear door handle touches the curb</span>, 车身和路边的角度<45$^\circ$), turn two rounds to the right; [right, left blind spot, observe surroundings, looking back, when the road is almost disappering in the left mirror, you focus on the left mirror]
 
-     <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230102225735355.png" alt="image-20230102225735355" style="zoom:20%;" />
+     <img src="{{ site.baseurl}}/images/image-20230102225735355.png" alt="image-20230102225735355" style="zoom:20%;" />
 
      -   if you see you are about to hit the curb, 
          -   you turn more than two rounds (fully lock to the right);
@@ -2313,7 +2313,7 @@ ___
 
 #### <span style='color:chartreuse'>**Hollow Way and The Slade mini-roundabout**</span>
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230119070643057.png" alt="image-20230119070643057" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20230119070643057.png" alt="image-20230119070643057" style="zoom:50%;" />
 
 Note C1 is left turn (going straight actually) and C2 is right turn to A. 
 
@@ -2446,13 +2446,13 @@ BRM: https://www.youtube.com/watch?v=0FiWbNw_KWg
 
 -   Left lane is separated from middle and right lanes by barriers.
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/Heyford.png" alt="image-20230112151103274" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/Heyford.png" alt="image-20230112151103274" style="zoom:50%;" />
 
 ##### **1. From A4074**
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230112105321706.png" alt="image-20230112105321706" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20230112105321706.png" alt="image-20230112105321706" style="zoom:50%;" />
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230112105329388.png" alt="image-20230112105329388" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20230112105329388.png" alt="image-20230112105329388" style="zoom:50%;" />
 
 Lane choosing:
 
@@ -2486,9 +2486,9 @@ ___
 
 ##### **2. From A4142 Littlemore**
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230112110421433.png" alt="image-20230112110421433" style="zoom:40%;" />
+<img src="{{ site.baseurl}}/images/image-20230112110421433.png" alt="image-20230112110421433" style="zoom:40%;" />
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230112110849811.png" alt="image-20230112110849811" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20230112110849811.png" alt="image-20230112110849811" style="zoom:50%;" />
 
 **From A4142 to Reading A4074**, 2nd exit, turning left, 10 o'clock.
 
@@ -2510,9 +2510,9 @@ ___
 
 ##### **3. From A423**
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230112112120981.png" alt="image-20230112112120981" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20230112112120981.png" alt="image-20230112112120981" style="zoom:50%;" />
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230112112127872.png" alt="image-20230112112127872" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20230112112127872.png" alt="image-20230112112127872" style="zoom:50%;" />
 
 The thin line connecting your road with your entrance meaning a separate road leading you to your exit w/o joining the RA. It's like a shortcut.
 
@@ -2557,7 +2557,7 @@ ___
 
     8:50 meet stop sign, handbrake up.  
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230118155328103.png" alt="image-20230118155328103" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20230118155328103.png" alt="image-20230118155328103" style="zoom:50%;" />
 
 -   Do not drive too close to the left;
 
@@ -2582,7 +2582,7 @@ ___
 
     -   mini-roundabouts in lieu of T-junctions in areas with a high flow of traffic.
 
-        <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230116091757291.png" alt="image-20230116091757291" style="zoom:50%;" />
+        <img src="{{ site.baseurl}}/images/image-20230116091757291.png" alt="image-20230116091757291" style="zoom:50%;" />
 
         -   position A: look out for position B, if they are slowing down, they are giving way to position C which provides you a <span style='color:chartreuse'>blocker; then you need to go;</span>
             -   danger is the car in position C might take a U-turn. If so, you must stop and go 1st gear. Cars taking U-turn: slow and turn a lot.
@@ -2610,7 +2610,7 @@ ___
 
     -   note the give way line and pedestrian and cyclist crossing when you turn left, must give way to them and all vehicles on your right; 
 
-        <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230117081304225.png" alt="image-20230117081304225" style="zoom:50%;" />
+        <img src="{{ site.baseurl}}/images/image-20230117081304225.png" alt="image-20230117081304225" style="zoom:50%;" />
 
     
 
@@ -2741,7 +2741,7 @@ Practiced Kassam Stadium RAs again.
 
         Left lane goes to Oxford Science Park, take the middle lane; always have a look at your right mirror for cars on your right.
 
-        <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230120104408298.png" alt="image-20230120104408298" style="zoom:50%;" />
+        <img src="{{ site.baseurl}}/images/image-20230120104408298.png" alt="image-20230120104408298" style="zoom:50%;" />
 
 -   Going back to DTC, turning right
 
@@ -2755,21 +2755,21 @@ ___
 
 #### Old Rd & Windmill Crossroads
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230120115421902.png" alt="image-20230120115421902" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20230120115421902.png" alt="image-20230120115421902" style="zoom:50%;" />
 
 -   From The Slade to Windmill Rd or the other way around, going straight
     -   need to ride on the cycle lane;
 
 -   From Old Rd to Windmill Rd, turning right
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230207154501728.png" alt="image-20230207154501728" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20230207154501728.png" alt="image-20230207154501728" style="zoom:50%;" />
 
     -   Need to <span style='color:chartreuse'>turn right early</span>, avoid the box for the opposite direction. If there are cars turning right in the box, and you go too much to the left, you risk colliding them.
         -   when you reach the cycle lane, start to turn right, you ride on top of the turning right box on Windmill Rd, but <span style='color:red'>NOT on the Old Rd [✘] </span>.
 
 -   When you come from the Slade to Windmill Rd, you meet two turning right boxes which you need to stay clear of.
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230120115508382.png" alt="image-20230120115508382" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20230120115508382.png" alt="image-20230120115508382" style="zoom:50%;" />
 
     -   Don't go to the turning right box!
 
@@ -2777,7 +2777,7 @@ ___
 
     After the crossroads, you meet the <span style='color:chartreuse'>Orthopaedic center</span>, and there is a box for oncoming cars to turn right. Keep clear of the box too.
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230207152628322.png" alt="image-20230207152628322" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20230207152628322.png" alt="image-20230207152628322" style="zoom:50%;" />
 
 
 
@@ -2882,21 +2882,21 @@ Exiting to Sandhills from A40E:
 
 Emerging right from Sandhills to A40E: turn right to join dual carriageway, there are 3 lanes—use middle lane; (emerging right from Horspath Driftway to A4142, there are 2 lanes—use the left lane)
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230207145751152.png" alt="image-20230207145751152" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20230207145751152.png" alt="image-20230207145751152" style="zoom:50%;" />
 
 
 
 Exiting to Risinghurst: You see the Risinghurst sign first.
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230207150536863.png" alt="image-20230207150536863" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20230207150536863.png" alt="image-20230207150536863" style="zoom:50%;" />
 
 Then you see the <span style='color:chartreuse'>30m/h speed limit signs</span>, needs to brake <span style='color:chartreuse'>quite hard</span>!
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230207150616698.png" alt="image-20230207150616698" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20230207150616698.png" alt="image-20230207150616698" style="zoom:50%;" />
 
 Then you see a very short slip road. The left lane is a bus lane with solid line. You cannot go there until you reach the dashed line slip road. Because the slip road is short, you have a 30m/h speed limit which makes it possible to slow down before the slip $\rightarrow$ join the slip road $\rightarrow$  turn left.
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230207151048799.png" alt="image-20230207151048799" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/image-20230207151048799.png" alt="image-20230207151048799" style="zoom:50%;" />
 
 -   Emerging to left from Risinghurst to A40W towards Headington RA. Sandhill exit has traffic lights, when the lights are red, you will have a gap to join the dual carriageway. Avoid the bus lane.
 
@@ -2928,7 +2928,7 @@ ___
 
 -   Kassam Stadium RA (Grenoble RA W1)
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230207162927087.png" alt="image-20230207162927087" style="zoom:50%;" />
+    <img src="{{ site.baseurl}}/images/image-20230207162927087.png" alt="image-20230207162927087" style="zoom:50%;" />
 
     -   If taking the 2nd exit back to OXF, will then join A4074 through a sharp bend, need to do slow down to 2nd gear. After joining the dual carriageway, you will get to Heyford Hill RA, taking 2nd exit, turning right to A4142—use middle lane.
     -   Joining A4074 is a lot like joining Northway, there is a sharp bend at the slip road, need to go at 2nd gear, so you can speed up fast.
