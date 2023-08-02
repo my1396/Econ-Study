@@ -198,6 +198,7 @@ Other things
 -   Don't go above speed limits especially in quiet neighborhoods!
 -   Don't go around cars who is doing paralle parking. Must pause and make sure the car stopped for you. 
 -   Headington RA Barton exit, don't be over hesitant to pull out. 
+    -   <span style='color:chartreuse'>uncontrolled joining RA</span> (the traffic light is not for me) !
     -   make sure it's clear on your right. Cars will come from both A40W Northway and Headington direction. 
     -   do not join the roundabout and block the exit! Keep the exit clear.
     -   Barton entrance is very similar to Littlemore RA Iffley entrance. Same principle applies.
@@ -207,6 +208,47 @@ Other things
     -   b/c it feels like you didn't join the RA, sometimes just want to go without careful observation.
 
 
+
+### Lesson 11 – Aug 04, 2023
+
+Practice Barton exit, Sat-Nav, pull out to the right.
+
+[Merlin Route](https://www.youtube.com/watch?v=tBsfYjQKDd4)
+
+From the DTC, turn left to Holloway, turn left to Garsington Rd, through Business Park RA, at Cowley RA, taking 4th exit to Swindon; 
+
+-   Need to make the connection Swindon $\Leftrightarrow$ Ring Rd South.
+
+    -   4th exit to Swindon, exit onto the right lane; need to move back to the left lane; need to make sure it's safe before you move.
+
+-   A4142 Exit to Sandy Lane West
+
+    <img src="{{ site.baseurl}}/images/exit to sandy lane.png" alt="exit to sandy lane" style="zoom:50%;" />
+
+    After exit, it's a very sharpe bend and there is a 20 speed limit sign and give way line!
+
+    At the give way line, don't need to stop as long as you have a clear way.
+
+-   Then you go to Blackbird Leys area. Be aware of the mini-RA. Turn right at the 3rd min-RA.
+
+    -   give way to the right-hand side.
+
+**Headington RA — Barton Exit** 
+
+They only go from London road second exit into Barton for now (the exit is before 12 o clock so stick to the left lane really and then turn left when in Barton)
+
+-   You can use left or middle lane, either is ok.
+
+From Barton 
+
+-   Lane choice: 
+    -   left lane: A40E and A4142
+    -   middle lane: A4142 and city center OXF
+    -   right lane: A40W Northway
+-   City centre exit: take the middle lane  
+    A4142: take the left lane
+
+<img src="{{ site.baseurl}}/images/image-20230802220639843.png" alt="image-20230802220639843" style="zoom:50%;" />
 
 
 
