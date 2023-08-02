@@ -207,7 +207,7 @@ update: 2022-08-02
 
 
 
-### **TO NOT DO's**
+### **NOT TO DO's**
 
 habitual faults, you can't have the same fault for over than 3 times on your test.
 
@@ -1147,28 +1147,29 @@ Two lanes to three lanes:
 
 
     After the 2nd exit, you could use either the middle or right lane;
-
+    
     -   <span style="color:chartreuse">middle lane</span> is recommended as it leads to the left lane at your exit;
     -   right lane is also possible, it leads to the right lane at your exit.
-
+    
     When you exit, <span style="color:chartreuse">watch out for vehicles merging from the slip road on the left</span>.
-
+    
     **3rd Exit** to London/ Thornhill Park & Ride
     <img src="{{ site.baseurl}}/images/image-20221127103850351.png" alt="image-20221127103850351" style="zoom:50%;" />
-
+    
     **4th Exit to A4142 Cowley**
-
+    
     <img src="{{ site.baseurl}}/images/image-20221130115458433.png" alt="image-20221130115458433" style="zoom:70%;" />
-
+    
     <img src="{{ site.baseurl}}/images/image-20221127104233468.png" alt="image-20221127104233468" style="zoom:50%;" />
-
+    
     <img src="{{ site.baseurl}}/images/image-20221127104006862.png" alt="image-20221127104006862" style="zoom:50%;" />
-
+    
     Cowley exit has a brown building looking like this
-
+    
     <img src="{{ site.baseurl}}/images/image-20221127104610894.png" alt="image-20221127104610894" style="zoom:50%;" />
 
-    
+
+​    
 
 -   **From Headington to London A40E, 3rd exit**, straight ahead, 1 o'clock;
 
