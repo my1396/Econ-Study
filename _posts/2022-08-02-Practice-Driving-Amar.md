@@ -308,12 +308,15 @@ ___
 Test Routes: [https://www.driving-test-centre.com/oxford-driving-test-routes.php](https://www.driving-test-centre.com/oxford-driving-test-routes.php)
 
 Videos: [https://www.youtube.com/@driveprofessionaldrivingsc2189/videos](https://www.youtube.com/@driveprofessionaldrivingsc2189/videos)
+[BRM Driving School Oxford](https://www.youtube.com/@BRMdrivingschool/videos)
 
 Maps: 
 
 [https://www.scribblemaps.com/maps/view/Route-1-Oxford-test/HUxuaclGl1](https://www.scribblemaps.com/maps/view/Route-1-Oxford-test/HUxuaclGl1)
 
 [https://www.scribblemaps.com/maps/view/Test-route-2/_k04h81PyC](https://www.scribblemaps.com/maps/view/Test-route-2/_k04h81PyC)
+
+[Google Earth Oxford Driving Stops - Self-Made](https://earth.google.com/earth/d/15pPxxbRSSlFSrQr1mPYJWL2pjI3OGEKL?usp=sharing)
 
 Test routes
 
@@ -1821,7 +1824,7 @@ ___
 
 **From A4142 Heyford to Ring Road towards London, 2nd exit**, straight ahead
 
-BRM: https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s 8:30
+BRM: [https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s](https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s) 8:30
 
 1.   Recommend using middle lane (easier option)
 
