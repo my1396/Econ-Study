@@ -990,8 +990,7 @@ ___
 
     -   left lane goes to Oxford Science Park, take the <span style='color:chartreuse'>middle lane</span>; always have a look at your right mirror for cars on your right;
     -   Use the <span style='color:chartreuse'>charcoal shading</span> to guide your position.
-
-    ![image-20230207184048077]({{ site.baseurl}}/images/image-20230207184048077.png)
+    <img src="{{ site.baseurl}}/images/image-20230207184048077.png" alt="image-20230207184048077" style="zoom:50%;" />
 
 -   Common Grenoble RAs: This is how most Kassam Stadium roundabouts look like.
 
@@ -1108,7 +1107,7 @@ Two lanes to three lanes:
 -   Left split into middle: A40(E) to London 
 -   Right: A40(E), A4142
 
-![image-20221223082345710]({{ site.baseurl}}/images/image-20221223082345710.png)
+<img src="{{ site.baseurl}}/images/image-20221223082345710.png" alt="image-20221223082345710" style="zoom:50%;" />
 
 <img src="{{ site.baseurl}}/images/image-20230103230606544.png" alt="image-20230103230606544" style="zoom:50%;" />
 
