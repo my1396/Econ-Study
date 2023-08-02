@@ -8,7 +8,15 @@ update: 2023-07-05
 
 $\mathbb{E}_Y$ and $\mathrm{Var}_Y$ denote expectation over $Y$ and variance over $Y$.
 
-It seems that blackboard bold (`\mathbb`) is often used to denote **sets of numbers**, e.g. $\mathbb{N}$, $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$, $\mathbb{O}$, or a general field $\mathbb{F}$ or $\mathbb{K}$, and in probability to denote expectation of a random variable $\mathbb{E}(X)$ or probability of an event $\mathbb{P}(E)$. Sometimes you see a sphere denoted $\mathbb{S}$ or a torus denoted $\mathbb{T}$. 
+Blackboard bold 黑板粗体 (`\mathbb`) is often used to denote **sets of numbers**, e.g. $\mathbb{N}$, $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$, $\mathbb{O}$, or a general field $\mathbb{F}$ or $\mathbb{K}$, and in probability to denote expectation of a random variable $\mathbb{E}(X)$ or probability of an event $\mathbb{P}(E)$. Sometimes you see a sphere denoted $\mathbb{S}$ or a torus denoted $\mathbb{T}$. 
+
+Mathematical calligraphic font 花体 (`\mathcal`), uppercase only, font for categories and sheaves.
+
+-   $\mathcal L$（`\mathcal L`）常用来表示损失函数;
+-   $\mathcal D$（`\mathcal D`）表示样本集;
+-   $\mathcal N$（`$\mathcal N$`）常用来表示高斯分布;
+
+$\ell$（`\ell`）：用于和大小的 $l$ 和 数字 1 相区分。
 
 
 
@@ -217,7 +225,6 @@ $$
 $\mu_t$ depends on time $t$, as, for example, processes with a seasonal or periodical structure or processes with a deterministic trend.
 
 **Autocovariance Function**
-
 $$
 \gamma(t,\tau)=Cov(X_t, X_{t-\tau})
 $$
