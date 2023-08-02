@@ -710,7 +710,7 @@ ___
 
 **Useful links**:
 
-https://inclusivedriving.co.uk/2019/09/01/m-is-for-mini-roundabout/
+[https://inclusivedriving.co.uk/2019/09/01/m-is-for-mini-roundabout/](https://inclusivedriving.co.uk/2019/09/01/m-is-for-mini-roundabout/)
 
 Emerging
 
@@ -948,9 +948,7 @@ If your exit is the 1st exit which is at or past 12 o'clock, do not indicate whe
 
     -   1st exit is on the left side, do need to <span style="color:chartreuse">indicate left</span> when joining b/c the 1st exit is indeed on the left, unlike other RAs whose 1st exit is on the right.
 
-        <img src="{{ site.baseurl}}/images/image-20230120093828569.png" alt="image-20230120093828569" style="zoom:50%;" />
-
-    ![image-20230112094703586]({{ site.baseurl}}/images/image-20230112094703586.png)
+        <img src="{{ site.baseurl}}/images/image-20230120093828569.png" alt="image-20230120093828569" style="zoom:60%;" />
 
 -   The last exit before going back to Oxford city center, joining A4074 afterwards. 
 
@@ -1063,9 +1061,6 @@ ___
         -   即使在住宅区停车也要打方向灯；
         -   起步右侧盲区的最后检查；
 
-
-​    
-
 ___
 
 ### Lesson 11 - Nov 23, 2022
@@ -1083,7 +1078,7 @@ ___
 
 #### <span style='color:cyan'>**Headington Roundabout**</span>
 
-BRM: https://www.youtube.com/watch?v=OH69swvJDSI&t=476s
+BRM: [https://www.youtube.com/watch?v=OH69swvJDSI&t=476s](https://www.youtube.com/watch?v=OH69swvJDSI&t=476s)
 
 <img src="{{ site.baseurl}}/images/image-20221130122608683.png" alt="image-20221130122608683" style="zoom:90%;" />
 <img src="{{ site.baseurl}}/images/image-20230104073305241.png" alt="image-20230104073305241" style="zoom:50%;" />
@@ -1206,7 +1201,8 @@ BRM video starts from 13:30
 <img src="{{ site.baseurl}}/images/image-20221127085348670.png" alt="image-20221127085348670" style="zoom:50%;" />
 
 -   **From Northern Bypass to <span style="color:chartreuse">A4142 Cowley</span>, taking <span style="color:chartreuse">3rd exit</span>, turning right.**
-    https://www.youtube.com/watch?v=F_PEx68oToY
+    [https://www.youtube.com/watch?v=F_PEx68oToY](https://www.youtube.com/watch?v=F_PEx68oToY)
+    
     Turning right 1 o'clock, <span style="color:chartreuse">right–middle lane; indicate right</span>;
 
     -   Move to the right lane first on Northway when you see the long white lines.
