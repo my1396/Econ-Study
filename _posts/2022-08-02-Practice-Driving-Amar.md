@@ -1142,12 +1142,10 @@ Two lanes to three lanes:
     <img src="{{ site.baseurl}}/images/image-20221127102644745.png" alt="image-20221127102644745" style="zoom:50%;" />
 
     **2nd Exit** to Barton Crematorium
+    <img src="{{ site.baseurl}}/images/image-20221127103645756.png" alt="image-20221127103645756" style="zoom:50%;" />
 
-    ![image-20221127103645756]({{ site.baseurl}}/images/image-20221127103645756.png)
+    <img src="{{ site.baseurl}}/images/image-20221127102814775.png" alt="image-20221127102814775" style="zoom:50%;" />
 
-    ![image-20221127102814775]({{ site.baseurl}}/images/image-20221127102814775.png)
-
-    
 
     After the 2nd exit, you could use either the middle or right lane;
 
@@ -1157,8 +1155,7 @@ Two lanes to three lanes:
     When you exit, <span style="color:chartreuse">watch out for vehicles merging from the slip road on the left</span>.
 
     **3rd Exit** to London/ Thornhill Park & Ride
-
-    ![image-20221127103850351]({{ site.baseurl}}/images/image-20221127103850351.png)
+    <img src="{{ site.baseurl}}/images/image-20221127103850351.png" alt="image-20221127103850351" style="zoom:50%;" />
 
     **4th Exit to A4142 Cowley**
 
@@ -1377,7 +1374,7 @@ Road sign of exiting to Marsh Lane (Headinton, Hospitals) after the traffic ligh
 -   use the right lane; indicate at the second right turn;
 -   do not go too left; might block traffic on your left;
 
-<img src="{{ site.baseurl}}/images/Turing right-Banbury.png" alt="Turing right-Banbury_1" style="zoom:50%;" />
+<img src="{{ site.baseurl}}/images/Turing right-Banbury.png" alt="Turing right-Banbury" style="zoom:50%;" />
 
 <img src="{{ site.baseurl}}/images/image-20221123151850099.png" alt="image-20221123151850099" style="zoom:50%;" />
 
