@@ -12,6 +12,7 @@ description: >
 markdown: kramdown
 
 baseurl: /Econ-Study
+# Use the following plug-ins
 plugins:
   - jekyll-feed       # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag    # output metadata for search engines to better index and display
