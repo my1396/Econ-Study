@@ -15,8 +15,10 @@ baseurl: /Econ-Study
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
+gems:
+  - jekyll-sitemap
 google_analytics: G-SHRDBGDKKC
+
 # Theme-specific settings
 
 minima:
