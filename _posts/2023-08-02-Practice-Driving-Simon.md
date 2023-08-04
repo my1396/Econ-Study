@@ -216,9 +216,11 @@ Other things
 
 
 
+___
+
 ### Lesson 11 – Aug 04, 2023
 
-Practice Barton exit, Sat-Nav, pull out to the right.
+Practiced with Amar today.
 
 [Merlin Route](https://www.youtube.com/watch?v=tBsfYjQKDd4)
 
@@ -258,6 +260,30 @@ From Barton
 <img src="{{ site.baseurl}}/images/image-20230802220639843.png" alt="image-20230802220639843" style="zoom:50%;" />
 
 
+
+**Two major faults**:
+
+-   Joining A4142 from Garsinton Rd, undercut cars on the right.
+    -   Take time to build up speed. Don't rush it.
+-   Littlemore 3rd exit to Iffley, indicate too early at the 1st exit.
+    -   indicate at about the 2nd exit. Do thorough observations when moving to the left. Cars could take the wrong lane and do not leave the RA when they should have, leaving me in a jar, couldn't move to the left lane. 
+    -   just do observations, let cars on your left go and move to the left lane gradually. If they slow and and give way to you, then you move to the left lane.
+    -   It is ok if you haven't moved to the left lane before the traffic light. You could even do it after the traffic light. 
+
+**Other things**:
+
+-   Sat-nav
+    -   when they say bear left, need to change lane and be prepared to turn.
+    -   look at the top of the sat-nav for the general direction where to you. So you don't get taken by surprise.
+    -   listen to what the sat-nav speaks! E.g., Cowley RA from A4142, bear left and take the 1st exit. Meaning exit dual carriageway to the left lane then take the 1st exit to BBL.
+-   BBL
+    -   build-up areas, still need to build up speed around 20. Don't go below the speed.
+    -   Entering the car park at 1st gear, go to the middle row.
+-   Calm down when starting off. I tend to make major mistakes when I start driving.
+
+
+
+___
 
 ### Lesson 12 – Aug 07, 2023
 
