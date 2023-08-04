@@ -287,6 +287,7 @@ From Barton
 -   Went to Barton car park too. Treat the same as the BBL car park, 1st gear.
 -   Wheatley car park, go to the cyclist parking area. Usually quieter there. Entrance area could get really busy.
 -   Join dual carriageway A4142 from Sandy Lane West. Look for a safe gap, then pull away. Don't forget gears. Move to the right lane if going to Iffley.
+-   At the DTC mini-RA, also being a bit too hesitant. If the gap on your right is big enough, should just go.
 -   Calm down when starting off. I tend to make major mistakes when I start driving.
 
 
