@@ -10,8 +10,11 @@ Things to improve on: hesitation, anticipation, judgement call.
 -   change gears: pulling out to the right; traffic light, joining dual carriageways;
 -   speed limit
 -   observations when do maneuvers
+-   joining dual carriageways, don't undercut.
 
 
+
+___
 
 ### Lesson 1  – June 7, 2023
 
