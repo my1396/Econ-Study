@@ -1,6 +1,6 @@
 ---
 layout: post
-title: UK Driving Notes - Simon
+title: UK Driving Notes – Simon
 category: driving
 update: 2023-08-02
 ---
@@ -279,10 +279,13 @@ From Barton
     -   when they say bear left, need to change lane and be prepared to turn.
     -   look at the top of the sat-nav for the general direction where to you. So you don't get taken by surprise.
     -   listen to what the sat-nav speaks! E.g., Cowley RA from A4142, bear left and take the 1st exit. Meaning exit dual carriageway to the left lane then take the 1st exit to BBL.
-    -   Cowley RA from A4142 cars are packed up on the left lane, usually it's ok to move to the right if you find you are on the wrong lane, but it's difficult to move to the left if you are on the right lane.
+    -   Joining Cowley RA from A4142, cars are packed up on the left lane, usually it's ok to move to the right if you find you are on the wrong lane, but it's difficult to move to the left if you are on the right lane.
+    -   Cowley RA is busy and cars make mistakes at choosing lane, so expect cars could cut into your lane. Be aware of cars beside you. If there is a van or truck, ease up the gas, slow down, go at 13-15m/h. 
 -   BBL
     -   build-up areas, still need to build up speed around 20. Don't go below the speed.
     -   Entering the car park at 1st gear, go to the middle row.
+-   Went to Barton car park too. Treat the same as the BBL car park, 1st gear.
+-   Wheatley car park, go to the cyclist parking area. Usually quieter there. Entrance area could get really busy.
 -   Join dual carriageway A4142 from Sandy Lane West. Look for a safe gap, then pull away. Don't forget gears. Move to the right lane if going to Iffley.
 -   Calm down when starting off. I tend to make major mistakes when I start driving.
 
