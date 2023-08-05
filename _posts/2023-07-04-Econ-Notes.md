@@ -106,7 +106,7 @@ sector 扇形
 
     圆周长$C=2\pi r$，弧长$l=\frac{\theta}{2\pi}\cdot C=\frac{\theta}{2\pi}\cdot 2\pi r=\theta r$。
 
-Volume of a sphere (ball) $V=\frac{4}{3}\pi r^3$, $r$ is radius.
+Volume of a sphere (ball) $V=\frac{4}{3}\pi r^3$, $r$ is radius. Surface $S=4\pi r^2$.
 
 
 
@@ -511,6 +511,25 @@ To integrate  $\int$cos$^j$𝑥 sin$^k$𝑥 𝑑𝑥  use the following strategi
 >
 >   2.   find the odd power and separate 1 as derivative of the substitution. Rewrite the integrand as a function of the other trig.
 >   3.   if only even exponents are present, use half-angel fornula to lower the power (double the trig angel) until you have an odd exponent.
+
+
+
+Integrating ∫tan$^𝑘$𝑥sec$^𝑗$𝑥𝑑𝑥
+
+1.   If 𝑗 is even and 𝑗≥2, rewrite sec$^𝑗$𝑥=sec$^{𝑗−2}$𝑥sec$^2$𝑥 and use sec$^2$𝑥=tan$^2$𝑥+1 to rewrite sec$^{𝑗−2}$𝑥 in terms of tan𝑥. Let 𝑢=tan𝑥 and 𝑑𝑢=sec$^2$𝑥.
+
+2.   If 𝑘 is odd and 𝑗≥1, rewrite tan$^𝑘$𝑥sec$^𝑗$𝑥=tan$^{𝑘−1}$𝑥sec$^{𝑗−1}$𝑥sec𝑥tan𝑥 and use tan$^2$𝑥=sec$^2$𝑥−1 to rewrite tan$^{𝑘−1}$𝑥 in terms of sec𝑥. Let 𝑢=sec𝑥 and 𝑑𝑢=sec𝑥tan𝑥𝑑𝑥. (Note: If 𝑗 is even and 𝑘 is odd, then either strategy 1 or strategy 2 may be used.)
+
+3.   If 𝑘 is odd where 𝑘≥3 and 𝑗=0, rewrite tan$^𝑘$𝑥=tan$^{𝑘−2}$𝑥tan$^2$𝑥=tan$^{𝑘−2}$𝑥(sec$^2$𝑥−1)=tan$^{𝑘−2}$𝑥sec$^2$𝑥−tan$^{𝑘−2}$𝑥. It may be necessary to repeat this process on the tan$^{𝑘−2}$𝑥 term.
+
+4.   If 𝑘 is even and 𝑗 is odd, then use tan$^2$𝑥=sec$^2$𝑥−1 to express tan$^𝑘$𝑥 in terms of sec𝑥. Use integration by parts to integrate odd powers of sec𝑥.
+
+
+
+**Reduction formulas**
+
+1.   $\int \sec^n xdx=\frac{1}{n-1}\sec^{n-2}x\tan x+\frac{n-2}{n-1}\int \sec^{n-2}xdx$, $n$​ is odd. Verified by applying integration by parts.
+2.   $\int \tan ^n xdx=\frac{1}{n-1}\tan ^{n-1}x-\int\tan^{n-2}x dx$, $n$ is odd.
 
 
 
