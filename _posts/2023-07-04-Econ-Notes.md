@@ -26,7 +26,7 @@ cts: continuous.
 
 def'n: definition.
 
-con't: continued.
+cont'd: continued.
 
 **Q.E.D**: Latin words to indicate this is the *end* of a mathematical proof. At the begining, you simply write `Proof:`.
 
@@ -474,9 +474,11 @@ Trigonometric integrals
 
 
 
-Common integrals
+Common integrals/ derivatives
 
 $\int\frac{1}{y}dy=\ln\vert y\vert +c$
+
+$\sqrt{x}=\frac{1}{2\sqrt{x}}$
 
 **Trig Identities**
 
