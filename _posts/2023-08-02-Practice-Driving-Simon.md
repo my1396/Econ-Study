@@ -14,6 +14,73 @@ Things to improve on: hesitation, anticipation, judgement call.
 
 
 
+**Show me** 
+
+<img src="{{ site.baseurl}}/images/show me Q.png" alt="show me Q" style="zoom:70%;" />
+
+**Tell me**
+
+1.   brakes
+
+     >   Not spongy or slack. Tested when start off, should not pull to one side.
+
+2.   tyre pressure
+
+     >   manufacture's guide. 
+     >
+     >   use a gauge. check when the tyres are cold, remember spare tyre and valve cap.
+
+3.   head restraint position
+
+     >   the rigid part should be at least as high as your eyes or top of your ears.
+     >
+     >   as close to your head as is comfortable.
+
+4.   tyre tread depth and general condition
+
+     >   No bulges or cuts. 
+     >
+     >   1.6mm for the central 3/4 of the tyre and the whole outer circumference.
+
+5.   headlights and tail lights
+
+     >   operate switch, and step outside and check.
+
+6.   direction indicators
+
+     >   operate switch, and step outside and check.
+
+7.   brake lights
+
+     >   apply on the brake pedal, use reflection in the window or doors, or ask someone to help.
+
+8.   fog lights
+
+     >   turn on dipped headlights and operate switch. The warning light should be on.
+     >
+     >   Used in the fog or visibility reduces to below 100 m.
+
+9.   anti-lock braking system
+
+     >   if there is problem, the warning light should be on.
+
+10.   power assistant steering system
+
+      >   if the steering becomes heavy, then the system fails.
+      >
+      >   Two ways to check:
+      >
+      >   1)   apply pressure on the steering, when you start off, you should notice a slight movement as the system start to work.
+      >   2)   turn the wheel right after you move off, it should give you an immediate indication whether the system is working.
+
+11.   open bonnet and tell me ...
+
+      1.   engine oil
+      2.   engine coolant
+      3.   brake fluid
+
+
+
 ___
 
 ### Lesson 1  – June 7, 2023
