@@ -18,6 +18,47 @@ Things to improve on: hesitation, anticipation, judgement call.
 
 <img src="{{ site.baseurl}}/images/show me Q.png" alt="show me Q" style="zoom:70%;" />
 
+Wash windscreen
+
+-   use right lever. Pull to the front is front window. Pull the back is back window.
+
+
+
+Dimmed lights
+
+-   Default is D autolamp (Autolamps turn the headlamps on in low light situations or when the windshield wipers operate).
+-   To turn on dipped headlights, rotate one to the left to choose C.
+
+<img src="{{ site.baseurl}}/images/ext light.png" alt="ext light" style="zoom:50%;" />
+
+
+
+Switch from dipped to main/high beam:
+
+1.  Switch on the headlights
+
+2.  Push the left lever away from you to activate main beam and pull the left lever back towards you to deactivate main beam.
+
+    <img src="{{ site.baseurl}}/images/high beam.png" alt="high beam" style="zoom:50%;" />
+
+Fog light
+
+<img src="{{ site.baseurl}}/images/fog light.png" alt="fog light" style="zoom:50%;" />
+
+<img src="{{ site.baseurl}}/images/light control.png" alt="light control" style="zoom:40%;" />
+
+
+
+Demister (defrost)
+
+<img src="{{ site.baseurl}}/images/front demister.png" alt="front demister" style="zoom:50%;" />
+
+<img src="{{ site.baseurl}}/images/demister front-back.png" alt="demister front-back" style="zoom:50%;" />
+
+<img src="{{ site.baseurl}}/images/demister back.png" alt="demister back" style="zoom:50%;" />
+
+
+
 **Tell me**
 
 1.   brakes
@@ -78,43 +119,6 @@ Things to improve on: hesitation, anticipation, judgement call.
       1.   engine oil
       2.   engine coolant
       3.   brake fluid
-
-
-
-Dimmed lights
-
--   Default is D autolamp (Autolamps turn the headlamps on in low light situations or when the windshield wipers operate).
--   To turn on dipped headlights, rotate one to the left to choose C.
-
-<img src="{{ site.baseurl}}/images/ext light.png" alt="ext light" style="zoom:50%;" />
-
-
-
-Switch from dipped to main/high beam:
-
-1.  Switch on the headlights
-
-2.  Push the left lever away from you to activate main beam and pull the left lever back towards you to deactivate main beam.
-
-    <img src="{{ site.baseurl}}/images/high beam.png" alt="high beam" style="zoom:50%;" />
-
-Fog light
-
-<img src="{{ site.baseurl}}/images/fog light.png" alt="fog light" style="zoom:50%;" />
-
-<img src="{{ site.baseurl}}/images/light control.png" alt="light control" style="zoom:40%;" />
-
-
-
-Demister (defrost)
-
-<img src="{{ site.baseurl}}/images/front demister.png" alt="front demister" style="zoom:50%;" />
-
-<img src="{{ site.baseurl}}/images/demister front-back.png" alt="demister front-back" style="zoom:50%;" />
-
-<img src="{{ site.baseurl}}/images/demister back.png" alt="demister back" style="zoom:50%;" />
-
-
 
 
 
