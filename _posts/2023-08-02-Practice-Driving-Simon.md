@@ -14,7 +14,7 @@ Things to improve on: hesitation, anticipation, judgement call.
 
 
 
-**Show me** 
+### **Show me** 
 
 <img src="{{ site.baseurl}}/images/show me Q.png" alt="show me Q" style="zoom:70%;" />
 
@@ -59,7 +59,7 @@ Demister (defrost)
 
 
 
-**Tell me**
+### **Tell me**
 
 1.   brakes
 
@@ -409,11 +409,13 @@ ___
 
 -   Maneuvers
     -   must pause when cars are pull out. Due observations! 
-    -   starting off, must do observations first, make sure no cars are coming from behind. Then pull out! Can't fail on the same error twice, right? That would be stupid.
+    -   starting off, must do observations first, make sure no cars are coming from behind. Then pull out! 
+    -   <span style='color:red'>Can't fail on the same error twice, can I? That would be outrageously stupid. [✘] </span>
 -   Exit to Marston from A40W. 
     -   wait for the arrow. Do not exit too early. Will drive on solid line.
     -   Headington RA from London Rd to A40W, 1st exit, do not indicate left. You are on the dual carriageways already. Not a slip road. So do not indicate right.
 -   Bus pulling out. Either give way or overtake. Once made the decision, must follow. Don't swerve and change your decision at last moment.
+-   Don't ride on the cycle lane when road is wide (Marston Ln coming off A40W).
 -   Wing mirrors shouldn't be too low. Leave a decent triangle. Mount the curb is a fail, while a wide gap, you can fix it.
 
 
