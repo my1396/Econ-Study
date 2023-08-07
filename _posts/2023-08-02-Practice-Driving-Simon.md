@@ -8,9 +8,9 @@ update: 2023-08-02
 Things to improve on: hesitation, anticipation, judgement call.
 
 -   change gears: pulling out to the right; traffic light, joining dual carriageways;
--   speed limit
+-   watch out for speed limit!
 -   observations when do maneuvers
--   joining dual carriageways, don't undercut.
+-   joining dual carriageways, <span style='color:red'>don't undercut. [✘] </span>
 
 
 
@@ -70,7 +70,7 @@ Things to improve on: hesitation, anticipation, judgement call.
       >
       >   Two ways to check:
       >
-      >   1)   apply pressure on the steering, when you start off, you should notice a slight movement as the system start to work.
+      >   1)   apply pressure on the steering, when you start off, you should notice a slight movement as the system starts to work.
       >   2)   turn the wheel right after you move off, it should give you an immediate indication whether the system is working.
 
 11.   open bonnet and tell me ...
@@ -78,6 +78,43 @@ Things to improve on: hesitation, anticipation, judgement call.
       1.   engine oil
       2.   engine coolant
       3.   brake fluid
+
+
+
+Dimmed lights
+
+-   Default is D autolamp (Autolamps turn the headlamps on in low light situations or when the windshield wipers operate).
+-   To turn on dipped headlights, rotate one to the left to choose C.
+
+<img src="{{ site.baseurl}}/images/ext light.png" alt="ext light" style="zoom:50%;" />
+
+
+
+Switch from dipped to main/high beam:
+
+1.  Switch on the headlights
+
+2.  Push the left lever away from you to activate main beam and pull the left lever back towards you to deactivate main beam.
+
+    <img src="{{ site.baseurl}}/images/high beam.png" alt="high beam" style="zoom:50%;" />
+
+Fog light
+
+<img src="{{ site.baseurl}}/images/fog light.png" alt="fog light" style="zoom:50%;" />
+
+<img src="{{ site.baseurl}}/images/light control.png" alt="light control" style="zoom:40%;" />
+
+
+
+Demister (defrost)
+
+<img src="{{ site.baseurl}}/images/front demister.png" alt="front demister" style="zoom:50%;" />
+
+<img src="{{ site.baseurl}}/images/demister front-back.png" alt="demister front-back" style="zoom:50%;" />
+
+<img src="{{ site.baseurl}}/images/demister back.png" alt="demister back" style="zoom:50%;" />
+
+
 
 
 
@@ -339,6 +376,9 @@ From Barton
     -   indicate at about the 2nd exit. Do thorough observations when moving to the left. Cars could take the wrong lane and do not leave the RA when they should have, leaving me in a jar, couldn't move to the left lane. 
     -   just do observations, let cars on your left go and move to the left lane gradually. If they slow and and give way to you, then you move to the left lane.
     -   It is ok if you haven't moved to the left lane before the traffic light. You could even do it after the traffic light. 
+    -   BRM: https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s 5:20
+    
+        <span style='color:red'>Do NOT indicate and move to the left lane too early.  [✘] </span>The video only moved to the left right before the traffic light at the 2nd exit.
 
 **Other things**:
 
@@ -363,7 +403,14 @@ ___
 
 ### Lesson 12 – Aug 07, 2023
 
-
+-   Maneuvers
+    -   must pause when cars are pull out. Due observations! 
+    -   starting off, must do observations first, make sure no cars are coming from behind. Then pull out! Can't fail on the same error twice, right? That would be stupid.
+-   Exit to Marston from A40W. 
+    -   wait for the arrow. Do not exit too early. Will drive on solid line.
+    -   Headington RA from London Rd to A40W, 1st exit, do not indicate left. You are on the dual carriageways already. Not a slip road. So do not indicate right.
+-   Bus pulling out. Either give way or overtake. Once made the decision, must follow. Don't swerve and change your decision at last moment.
+-   Wing mirrors shouldn't be too low. Leave a decent triangle. Mount the curb is a fail, while a wide gap, you can fix it.
 
 
 
