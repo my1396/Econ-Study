@@ -429,7 +429,9 @@ ___
 
 Test date: Barton Route, Examiner: Claire is nice.
 
-If changed address, better to apply for "change of address" before taking the test, that way, the driving license will be sent automatically to your correct address. The process will be faster.
+If changed address, better to apply for "[change of address on your provisional driving licence](https://www.gov.uk/change-address-driving-licence)" before taking the test, that way, the driving license will be sent automatically to your correct address. The process will be faster.
+
+Change address need to send algong BRP card. Meaning can't travel for at least one month.
 
 
 
