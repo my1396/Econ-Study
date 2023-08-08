@@ -423,6 +423,14 @@ ___
 
 
 
+___
+
+### Lesson 13 – Aug 08, 2023
+
+Test date: Barton Route, Examiner: Claire is nice.
+
+If changed address, better to apply for "change of address" before taking the test, that way, the driving license will be sent automatically to your correct address. The process will be faster.
+
 
 
 
