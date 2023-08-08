@@ -2164,7 +2164,7 @@ Reserve parallel parking 侧方停车; pulling up on the right-hand side of the 
 
         
 
-#### **Reserve paralle parking**
+#### **Reserve parallel parking**
 
 **Maneuver**
 
@@ -2268,9 +2268,9 @@ When you reverse, it's all about observation and keeping your car straight:
 
 ___
 
-**Emergency Stop**
+#### **Emergency Stop**
 
-<span style='color:chartreuse'>first brake then clutch</span> $\rightarrow$ hand brake $\rightarrow$ neutural gear $\rightarrow$ observations $\rightarrow$ start off
+<span style='color:chartreuse'>First brake then clutch</span> $\rightarrow$ hand brake $\rightarrow$ neutural gear $\rightarrow$ observations $\rightarrow$ start off
 
 -   note here is handbrake first then neutral; under normal conditions: you first go neutral, then handbrake up;
 -   when you start off, do the same routine as normal: mirror, blind spot check $\rightarrow$ indicate $\rightarrow$ blind spot $\rightarrow$ handbrake down;

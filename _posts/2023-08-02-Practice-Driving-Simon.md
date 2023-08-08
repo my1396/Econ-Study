@@ -203,7 +203,7 @@ Went to Barton; need to practice Headinton RA from Oxford to Barton (3rd exit);
 -   Pulling out from a side road, if one car is pulling in, it gives you a shield to pull out. Could go at that moment.
 -   At 4-way mini-RAs, if cars at the opposite exit indicating right, 
     -   if I am turning left $\rightarrow$ they have priority.
-    -   if I am turning right too $\rightarrow$ no on has priority. The car who arrived first has priority. If arriving at the same time, use eye contact and gestures to communicate with the driver.
+    -   if I am turning right too $\rightarrow$ no one has priority. The car who arrived first has priority. If arriving at the same time, use eye contact and gestures to communicate with the driver.
 
 
 
@@ -211,9 +211,10 @@ Went to Barton; need to practice Headinton RA from Oxford to Barton (3rd exit);
 
 Practice with Amar Littlemore area, give way signs.
 
--   30 speed limit emerging from Sandhill.
+-   be aware of the 30 speed limit after emerging from Sandhill.
     -   The sign is before the Risinghurst emerging point. There is giving way line, so cars on the dual carriageway have priority.
-
+    -   The 30 speed limit is for cars on the dual carriageway to slow down to help cars emerging and joining the dual carriageway.
+    
 -   Littlemore RA from Iffley road, 2nd exit (to Littlemore area) and 3rd exit (Ring Road to Swindon).
     -   when to pull away. If you see a car on the right, must pause even if you are already beyond the waiting line. If there is red light and a queue, you couldn't pull out either, otherwise, you will block the exit.
     -   2nd exit to Littlemore area, using middle lane, move to the left lane after the 1st exit if it is safe to do so;
@@ -249,7 +250,7 @@ Two major faults
 
 <img src="{{ site.baseurl}}/images/image-20230712125559981.png" alt="image-20230712125559981" style="zoom:50%;" />
 
--   [joining RAs] Kassam Stadium RAs, the last RA, one car indicating right, I didn't slow down enough, had to brake abruptly. Never let the guard down because all previous RAs are empty and easy.
+-   [joining RAs] Kassam Stadium RAs, the last RA, one car indicating right, I didn't slow down enough, had to brake abruptly. Never let the guard down even if all previous RAs are empty and easy to pass. Could fail at the very last minute.
 
 -   Littlemore RA from Iffley, do not block the exit.
 
@@ -275,13 +276,14 @@ Major faults today
 
 -   Mini-RA at DTC
     -   one blocker almost finishing, and I was hesitant so that I missed the joining window, but I joined anyway, the car on the right moved too, making me stop beyond the waiting line. Have to wait for two blockers in the case that the 1st blocker planning to join or already on the RA.
+    -   better to be hesitant than rushing. Hesitant is minor, rushing can be dangerous and lead to fail.
     -   Have to give more gas when starting off.
     -   Going to the DTC, 2nd exit, must go half-on, half-off, otherwise blocking the way of the left lane.
 -   Approaching traffic light at ~40m/h, if you are more than 40 and the light is turning amber, you drive on, do not stop abruptly.
 
 Other things
 
--   Quarry use 1st geat. If going up, give way to cars coming down. Do not go on the pavement.
+-   Quarry: use 1st gear. If going up, give way to cars coming down. Do not go on the pavement.
 -   Closed junctions. Especially at residential areas, must stop to observe. Not emerging first then observe. Can't have the head sticking out.
 -   In 30m/h areas, do mirrors and signals early, 8-10 car lengths, so that people know your intention and take actions early.
 -   Going back to Marston, Cherwell Drive, it's narrow but ok for two small cars. When you meet a bus and truck, must stop to give way. Let the bus or truck pass, then you drive on.
@@ -408,7 +410,7 @@ ___
 ### Lesson 12 – Aug 07, 2023
 
 -   Maneuvers
-    -   must pause when cars are pull out. Due observations! 
+    -   must pause when you see other cars pulling out. Due observations! 
     -   starting off, must do observations first, make sure no cars are coming from behind. Then pull out! 
     -   <span style='color:red'>Can't fail on the same error twice, can I? That would be outrageously stupid. [✘] </span>
 -   Exit to Marston from A40W. 
@@ -416,7 +418,8 @@ ___
     -   Headington RA from London Rd to A40W, 1st exit, do not indicate left. You are on the dual carriageways already. Not a slip road. So do not indicate right.
 -   Bus pulling out. Either give way or overtake. Once made the decision, must follow. Don't swerve and change your decision at last moment.
 -   Don't ride on the cycle lane when road is wide (Marston Ln coming off A40W).
--   Wing mirrors shouldn't be too low. Leave a decent triangle. Mount the curb is a fail, while a wide gap, you can fix it.
+-   Don't forget to change to 2nd gear when doing junctions, roundabouts. Gives you more control.
+-   Wing mirrors shouldn't be too low. Leave a decent triangle. Mounting the curb is a fail, while a wide gap, you can fix it.
 
 
 
