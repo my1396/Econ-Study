@@ -386,9 +386,13 @@ Python code: https://matthew-brett.github.io/teaching/smoothing_intro.html
 
 
 
+**Vector Autoregressive**
 
+VAR model allows feedback to occur between the variables in the model. For example, we could use a VAR model to show how real GDP is a function of policy rate and how policy rate is, in turn, a function of real GDP.
 
-
+-   A systematic but flexible approach for capturing complex real-world behavior.
+    Better forecasting performance.
+    Ability to capture the intertwined dynamics of time series data.
 
 
 
