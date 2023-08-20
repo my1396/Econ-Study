@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Econometric Notes
-category: learning
+category: study
 update: 2023-07-05
 ---
 ## Notation
