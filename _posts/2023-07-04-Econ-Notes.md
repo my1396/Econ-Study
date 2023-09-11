@@ -94,6 +94,14 @@ circumference /sərˈkʌmfərəns/ 周长
 
 trapezoid 梯形 $A=\frac{(a+b)}{2}\cdot h$. (上底 + 下底) $\times$ 高/2.
 
+parallelogram /ˌpærəˈleləɡræm / 平行四边形
+
+tetrahedron / ˌtetrəˈhiːdrən/ 四面体, also called "tiangular pyramid", 三角锥, is a polyhedron composed of four triangular faces
+
+polyhedron 多面体
+
+parallelepiped /ˌpærəˌleləˈpaɪˌpɪd / 平行六面体
+
 sector 扇形  
 
 已知弧长 $A=\frac{1}{2}l\cdot r$. $l$ 为扇形弧长，$r$ 为半径。与三角形面积类比，$\frac{1}{2}$底$\times$高，半径可看作底，弧长看作高。
