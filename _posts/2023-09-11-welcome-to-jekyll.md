@@ -26,7 +26,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 ___
 
-快速进入学习状态？
+**快速进入学习状态？**
 
 1.   做一些被动接受的事情。比如听课程。主动输出，如写论文，比较困难。从轻松愉快的事情开始。听很简单，听一些相关的内容。
 2.   在一个工作环境。听工作专用古典音乐，给大脑一个提示，一个氛围。
