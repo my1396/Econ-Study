@@ -433,9 +433,41 @@ If changed address, better to apply for "[change of address on your provisional 
 
 Otherwise you need to apply by post for a new license. Need to fill out a D1 form (get D1 form post office) and send to DVLA. Also need to send along your BRP card. Meaning can't travel abroad for at least one month.
 
+- Should arrive within 3 weeks of DVLA receiving the application.
 
+  If your licence not arriving in this time, phone 0300 790 6801 8am-7pm Mon-Fri; or 8am-2pm Sat.
 
+- You only need to apply for your full licence if:
 
+  - you did not give your provisional photocard driving licence to the examiner after the test, for example because you need to use it as ID
+  - you changed your name or address and it’s now different from the name or address on the provisional photocard driving licence
+  - you have an old-style provisional driving licence (one issued before 1998)
+
+  Otherwise, it’ll be sent to you automatically.
+
+- How to apply
+
+  https://www.gov.uk/apply-for-your-full-driving-licence
+
+  If you’re applying for a full licence, you need to:
+
+  - sign the declaration on your driving test pass certificate
+
+  - fill in form D1 ‘application for a driving licence’ - you can [order DVLA forms online](https://www.gov.uk/dvlaforms) or get them at [post offices](http://www.postoffice.co.uk/branch-finder)
+
+  - include original documents confirming your identity
+
+  - include a passport photograph (only if you have a paper provisional licence)
+
+  - include your provisional licence.
+
+  Send all documents to:
+
+  > DVLA 
+  > Swansea 
+  > SA99 1BN 
+
+- If you’re applying for a full licence by post, you must send documents to the DVLA within 2 years of passing your test or you’ll have to take it again.
 
 
 
