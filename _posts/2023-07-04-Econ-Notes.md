@@ -96,11 +96,11 @@ trapezoid 梯形 $A=\frac{(a+b)}{2}\cdot h$. (上底 + 下底) $\times$ 高/2.
 
 parallelogram /ˌpærəˈleləɡræm / 平行四边形
 
+parallelepiped /ˌpærəˌleləˈpaɪˌpɪd / 平行六面体 (倾斜长方体)
+
 tetrahedron / ˌtetrəˈhiːdrən/ 四面体, also called "tiangular pyramid", 三角锥, is a polyhedron composed of four triangular faces
 
 polyhedron 多面体
-
-parallelepiped /ˌpærəˌleləˈpaɪˌpɪd / 平行六面体
 
 sector 扇形  
 

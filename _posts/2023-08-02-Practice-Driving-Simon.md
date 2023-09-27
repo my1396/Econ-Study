@@ -465,7 +465,17 @@ Otherwise you need to apply by post for a new license. Need to fill out a D1 for
 
   > DVLA 
   > Swansea 
-  > SA99 1BN 
+  > SA99 1BN
+
+  Their website says send to DVLA, Swansea, SA99 1BN. 
+
+  The back of my pass certificate says send to DVLA Swansea, SA99 1BJ.
+
+  It doesn't matter which postal code you use, it will arrive at the same building.
+
+  <span style='color:chartreuse'>Provide a return address!</span>
+
+  https://www.mumsnet.com/talk/am_i_being_unreasonable/3791373-to-be-a-bit-annoyed-by-dvla
 
 - If you’re applying for a full licence by post, you must send documents to the DVLA within 2 years of passing your test or you’ll have to take it again.
 
