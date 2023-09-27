@@ -9,13 +9,13 @@ update: 2023-09-27
 
 钢笔论坛
 
-https://post.smzdm.com/fenlei/gangbi/brand-1611/
+<https://post.smzdm.com/fenlei/gangbi/brand-1611/>
 
 笔尖是损耗品，用3-5年会消耗到某些角度开始刮纸，笔尖变粗的情况。此时选择换笔尖就好。因此最好选择容易换笔尖的笔。暗尖笔不容易换笔尖。
 
 笔尖打磨: 我的方法主要参考SBRE Brown、Brian Goulet和Pen Habit 这三大家的YouTube视频，中间夹杂我自己的经验体会。
 
-https://www.gouletpens.com/pages/anatomy-of-a-fountain-pen
+<https://www.gouletpens.com/pages/anatomy-of-a-fountain-pen>
 
 ![image-20230608090549116](https://drive.google.com/uc?id=1CGEiebYAoUOZFqiZJRr7hoWJ2Rcdp0fh)
 
@@ -23,7 +23,7 @@ https://www.gouletpens.com/pages/anatomy-of-a-fountain-pen
 
 <img src="https://drive.google.com/uc?id=1COzIkjRwWhqTLNKyAMVkuMhHGuIKMLB5" alt="image-20230608090741209" style="zoom:30%;" />
 
-专有名词翻译 https://www.bilibili.com/read/cv3319159/
+专有名词翻译 <https://www.bilibili.com/read/cv3319159/>
 
 How far to dip the nib in the bottle?
 
@@ -38,9 +38,9 @@ Pilot Metropolitan comes with both a cartridge and an empty converter, whereas a
 
 Compare nib sizes
 
-https://www.penheaven.co.uk/blog/fountain-pen-nib-width-comparison
+<https://www.penheaven.co.uk/blog/fountain-pen-nib-width-comparison>
 
-Nib Nook: https://www.gouletpens.com/pages/nib-nook
+Nib Nook: <https://www.gouletpens.com/pages/nib-nook>
 
 Is it worth replacing the nib? Will it cause leakage when writing?
 
@@ -56,7 +56,7 @@ Is it worth replacing the nib? Will it cause leakage when writing?
 
 写乐四季织14K MF
 
-百乐743 FM测评: https://www.bilibili.com/video/BV1pz4y167sy/?spm_id_from=333.337.search-card.all.click&vd_source=8b2f77d46ba39c403a6122be0d5d163f
+百乐743 FM测评: <https://www.bilibili.com/video/BV1pz4y167sy/?spm_id_from=333.337.search-card.all.click&vd_source=8b2f77d46ba39c403a6122be0d5d163f>
 
 #### **Pilot 百乐**
 
@@ -70,13 +70,13 @@ Is it worth replacing the nib? Will it cause leakage when writing?
 
 -   EF尖 0.28 手感偏硬，针尖儿感，适合喜欢细笔的同学。
 
-系列介绍 https://my-best.tw/114969
+系列介绍 <https://my-best.tw/114969>
 
-https://zhuanlan.zhihu.com/p/343448178
+<https://zhuanlan.zhihu.com/p/343448178>
 
-https://www.nonopen.com/6914.html
+<https://www.nonopen.com/6914.html>
 
-笔尖大小 https://www.xiaohongshu.com/explore/62c6b88e000000000d03abcb?source=question
+笔尖大小 <https://www.xiaohongshu.com/explore/62c6b88e000000000d03abcb?source=question>
 
 <img src="https://drive.google.com/uc?id=1nyi15IxqfDRkMyEaVd7CpqCONdi_gBjm" alt="image-20230130102014399" style="zoom:50%;" />
 
@@ -84,7 +84,7 @@ https://www.nonopen.com/6914.html
 
 Where to buy: **Awesomepens**
 
-https://awesomepens.co.uk/product/pilot-mr-metropolitan-fountain-pen-choice-of-3-colours-2-nib-sizes/
+<https://awesomepens.co.uk/product/pilot-mr-metropolitan-fountain-pen-choice-of-3-colours-2-nib-sizes/>
 
 - Metropolitan 大都会 (MR, 88G, Cocoon): 13.2mm×138mm
 
@@ -93,7 +93,7 @@ https://awesomepens.co.uk/product/pilot-mr-metropolitan-fountain-pen-choice-of-3
   <img src="https://drive.google.com/uc?id=1a7tgpLetcaMXszJwC0-KCYEGacJnd7Eo" alt="image-20230130104556510" style="zoom:50%;" />
 
   -   [Pilot MR Metropolitan Fountain Pen - Black - Fine Nib](https://awesomepens.co.uk/product/pilot-mr-metropolitan-fountain-pen-black-fine-nib/)
-  -   黄铜+磨砂镀层笔杆 26.7g https://product.suning.com/0000000000/12114317098.html
+  -   黄铜+磨砂镀层笔杆 26.7g <https://product.suning.com/0000000000/12114317098.html>
   -   78G升级
 
 - 78G 推荐，笔尖采用 不锈钢镀金。只是金色而已，本质是刚尖。
@@ -102,7 +102,7 @@ https://awesomepens.co.uk/product/pilot-mr-metropolitan-fountain-pen-choice-of-3
 
   <img src="https://drive.google.com/uc?id=1lciP8FpjFwR6TSmi6Bcc6ZrAWGI0k_R9" alt="image-20230130103728057" style="zoom:50%;" />
 
-  https://product.suning.com/0000000000/10588720736.html?safp=d488778a.13701.productWrap.58&safc=prd.0.0&safpn=10007
+  <https://product.suning.com/0000000000/10588720736.html?safp=d488778a.13701.productWrap.58&safc=prd.0.0&safpn=10007>
 
   Pilot 78G Fountain Pen With Converter, 22K Gold Plated 
   Body Material: plastic 塑料笔杆 135mm 重量12.2g，适合长期书写
@@ -112,13 +112,13 @@ https://awesomepens.co.uk/product/pilot-mr-metropolitan-fountain-pen-choice-of-3
   Capped Or Retractable: Capped – Screw On 旋转式
 
   pen only: £26; pen+30ml black ink: £36.
-  https://awesomepens.co.uk/product/pilot-fp-78g-fountain-pen-22k-gold-plated-black-medium-nib/
+  <https://awesomepens.co.uk/product/pilot-fp-78g-fountain-pen-22k-gold-plated-black-medium-nib/>
 
-  check stock for multiple choices https://awesomepens.co.uk/product/pilot-fp-78g-fountain-pen-22k-gold-plated-choice-of-multiple-options/
+  check stock for multiple choices <https://awesomepens.co.uk/product/pilot-fp-78g-fountain-pen-22k-gold-plated-choice-of-multiple-options/>
 
   Clear body, F nib
 
-  https://awesomepens.co.uk/product/pilot-fp-78g-fountain-pen-22k-gold-plated-clear-fine-nib/
+  <https://awesomepens.co.uk/product/pilot-fp-78g-fountain-pen-22k-gold-plated-clear-fine-nib/>
 
   |                                                         | 78G                                                          | 88G                                                          | 派克威雅胶杆 |
   | ------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
@@ -138,9 +138,9 @@ https://awesomepens.co.uk/product/pilot-mr-metropolitan-fountain-pen-choice-of-3
 
   £40
 
-  https://awesomepens.co.uk/product/pilot-cavalier-fountain-pen-metalic-choice-of-multiple-options/
+  <https://awesomepens.co.uk/product/pilot-cavalier-fountain-pen-metalic-choice-of-multiple-options/>
 
-  https://www.desertcart.co.uk/products/407392330-pilot-cavalier-black-fountain-pen-f-fcan-3sr?gclid=EAIaIQobChMIuLOf7Y7v_AIVg-7tCh1mTAuIEAQYBSABEgI8mvD_BwE
+  <https://www.desertcart.co.uk/products/407392330-pilot-cavalier-black-fountain-pen-f-fcan-3sr?gclid=EAIaIQobChMIuLOf7Y7v_AIVg-7tCh1mTAuIEAQYBSABEgI8mvD_BwE>
 
   <img src="https://drive.google.com/uc?id=1hdl3aALJcUzOJIWINY9z1wQfQJLbqME6" alt="image-20230130104725373" style="zoom:50%;" />
 
@@ -150,7 +150,7 @@ https://awesomepens.co.uk/product/pilot-mr-metropolitan-fountain-pen-choice-of-3
 
 - Kakuno 笑脸 awesome pen: £20; Amazon: £11
 
-  https://awesomepens.co.uk/product/pilot-kakuno-fountain-pens-and-converter-choices-of-multiple-colours-and-nib-sizes/
+  <https://awesomepens.co.uk/product/pilot-kakuno-fountain-pens-and-converter-choices-of-multiple-colours-and-nib-sizes/>
 
    Empty it comes in at 11.3g. With a cart it comes in at 12.5g
 
@@ -197,17 +197,17 @@ https://awesomepens.co.uk/product/pilot-mr-metropolitan-fountain-pen-choice-of-3
 
 <img src="https://drive.google.com/uc?id=1peT4lA88BA2fXjvjXe73g578yo7pZXkn" alt="image-20230709100829418" style="zoom:50%;" />
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230709101634392.png" alt="image-20230709101634392" style="zoom:50%;" />
+<img src="https://drive.google.com/uc?id=1hy8S-puaYZzY0IlAI9c1Mu3SqzZ3SjMI" alt="image-20230709101634392" style="zoom:50%;" />
 
 在欧洲买百乐又贵又难看 好看的款式都缺货...
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230307205915620.png" alt="image-20230307205915620" style="zoom:50%;" />
+<img src="https://drive.google.com/uc?id=1keCrnIsLPx2OPjzbr8chDP3RJfBIpS08" alt="image-20230307205915620" style="zoom:50%;" />
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230307210006286.png" alt="image-20230307210006286" style="zoom:50%;" />
+<img src="https://drive.google.com/uc?id=1l5z9ehg8IktPnXI6fVHsZEPCOaRyKLXQ" alt="image-20230307210006286" style="zoom:50%;" />
 
 
 
-#### **[Parker](https://www.parkershop.eu/cat3-parker-fountain-pens.html?asc=1&page=1&gclid=EAIaIQobChMIzZn69sPv_gIVBu3tCh2AsQx7EAAYBCAAEgLz7PD_BwE) 派克**
+#### Parker 派克
 
 <https://www.parkershop.eu/parker-sale?page=&order=cena&asc=1>
 
@@ -226,13 +226,13 @@ https://awesomepens.co.uk/product/pilot-mr-metropolitan-fountain-pen-choice-of-3
 
   - Parker 75 银格 94年停产。现在对标的为Sonnet Cisele. £320
 
-    ![image-20230516090110358](/Users/Menghan/Library/Application Support/typora-user-images/image-20230516090110358.png)
+    ![image-20230516090110358](https://drive.google.com/uc?id=1fpg-96o_7vpYX2FX1HKhLwUWkqzxIvbA)
 
 - Duofold Centennial 多福世纪 大豆
 
   - Duofold International (classic) 小豆 blue Chevron 超级好看啊!! £600
 
-    <img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230516085001275.png" alt="image-20230516085001275" style="zoom:90%;" />
+    <img src="https://drive.google.com/uc?id=1Ti1_FE2HH8Yf6CKclBGFVYjco7qGckZl" alt="image-20230516085001275" style="zoom:90%;" />
 
 
 
@@ -244,7 +244,7 @@ https://awesomepens.co.uk/product/pilot-mr-metropolitan-fountain-pen-choice-of-3
 
 新笔EF尖需要磨合，F尖一上手就很顺滑。
 
-EF尖视频 https://zhuanlan.zhihu.com/p/110177897
+EF尖视频 <https://zhuanlan.zhihu.com/p/110177897>
 
 系列选择
 
@@ -275,13 +275,13 @@ EF尖视频 https://zhuanlan.zhihu.com/p/110177897
 
   Capped or posted it weighs *about 26g*, being <span style='color:chartreuse'>16g</span> for the uncapped pen and ~10g for the cap.
 
-  ![image-20230516090214721](/Users/Menghan/Library/Application Support/typora-user-images/image-20230516090214721.png)
+  ![image-20230516090214721](https://drive.google.com/uc?id=1mIK1V45VzWOqtc2otiHgfKoxNqsrV0bU)
 
-  ![image-20230512102924362](/Users/Menghan/Library/Application Support/typora-user-images/image-20230512102924362.png)
+  ![image-20230512102924362](https://drive.google.com/uc?id=148CJE8F-wbtRjXI-TsI5cp6T5Ghq16MI)
 
   与恒星对比。
 
-  ![image-20230512103245532](/Users/Menghan/Library/Application Support/typora-user-images/image-20230512103245532.png)
+  ![image-20230512103245532](https://drive.google.com/uc?id=1-CIoUDPVnvsSW2di7Wb_hN45ORpWO1GJ)
 
 - 焦点3 颜值很高。金尖。
 
@@ -327,7 +327,7 @@ https://www.bilibili.com/video/BV1RP411674x/?vd_source=8b2f77d46ba39c403a6122be0
 
 **Kaweco** 
 
-https://www.zhihu.com/tardis/zm/art/365153186?source_id=1003
+<https://www.zhihu.com/tardis/zm/art/365153186?source_id=1003>
 
 >   雅律系列钢笔 预算 300 适合学生
 >   艾徽系列钢笔 预算 700 适合学生和职场小白
@@ -353,13 +353,13 @@ https://www.zhihu.com/tardis/zm/art/365153186?source_id=1003
 
 .M笔尖 官方给出的笔尖大小是0.5-0.6mm 比较适合签字或者练字！我每次练字尤其是临摹字帖的时候一定会用M笔尖。因为M笔尖对纸张要求小，临摹字帖的纸一般比较薄，如果笔尖太尖很容易刮破！而且练字是一般写的字比较大，M尖更适合！
 
-<img src="/Users/Menghan/Library/Application Support/typora-user-images/image-20230126113746199.png" alt="image-20230126113746199" style="zoom:50%;" />
+<img src="https://drive.google.com/uc?id=1tilfqxmnpqm7g0-E4wqtFAqC_OV5J6-k" alt="image-20230126113746199" style="zoom:50%;" />
 
 蓝色的为凌美F尖字迹，黑色的是百乐F尖。
 
 **笔画粗细**
 
-<img src="/Users/menghan/Library/Application Support/typora-user-images/image-20230721105047842.png" alt="image-20230721105047842" style="zoom:50%;" />
+<img src="https://drive.google.com/uc?id=1DQj_2j5NZ4umj-pJV_bqdPD3qdLfbN6f" alt="image-20230721105047842" style="zoom:50%;" />
 
 笔嘴越宽(粗)，下水也越快，写出来的线条也越宽，墨也堆积得越厚，这样墨水的润滑功能就也更强，书写体验就更润滑更不费力。然而，这也会导致墨水更容易在质量比较差的纸张上洇或是透。
 
@@ -377,7 +377,7 @@ https://www.zhihu.com/tardis/zm/art/365153186?source_id=1003
 
 How to smooth a scratchy fountain pen nib?
 
-https://www.youtube.com/watch?v=7WKo9nx8UdA
+<https://www.youtube.com/watch?v=7WKo9nx8UdA>
 
 Tines: the two front parts of the nib that taper to the tip. 笔尖的两个分叉
 
@@ -410,5 +410,3 @@ Tools:
 -   百乐墨水。百乐的蓝黑色不是鞣酸亚铁的，算是比较有特色的墨水，是我较早接触的一类偏蓝色的蓝黑墨水。但是他家的黑色墨水，普遍反应有些洇纸。百乐墨水分小瓶、大瓶、还有350ml的可乐瓶出售。
 
 
-
-## 
