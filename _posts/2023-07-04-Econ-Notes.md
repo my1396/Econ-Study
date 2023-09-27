@@ -64,7 +64,7 @@ The axes of a two-dimensional Cartesian system divide the plane into four infini
 
 -   the numbering goes counter-clockwise starting from the upper right ("northeast") quadrant.
 
-<img src="{{ site.baseurl}}/images/image-20230730113759915.png" alt="quadrant geometry" style="zoom:50%;" />
+<img src="https://drive.google.com/uc?id=1FlWhw7t0EIuk4PAV5-CTsLJGR0WZWGsl" alt="quadrant geometry" style="zoom:50%;" />
 
 orthographic projection (正射投影): top view, front view, (right) side view.
 
@@ -78,7 +78,7 @@ complementary angel 互余角 $\alpha+\beta=\frac{\pi}{2}$.
 
 supplementary angel 互补角 $\alpha+\beta=\pi$.
 
-<img src="{{ site.baseurl}}/images/triangel.png" alt="right triangel" style="zoom:60%;" />
+<img src="https://drive.google.com/uc?id=1FlFGD-wVxC1UacQiLtg4W3NKAOcie-z7" alt="right triangel" style="zoom:60%;" />
 
 斜边 hypotenuse  /haɪˈpɑːtənuːs/
 
@@ -453,7 +453,7 @@ Newton's method works well if $i$) $\vert f'\vert$ is not too small;  $ii$) $\ve
 
 Newton's method fails: $i$) find an unexpected root (depending on where the initial guess is); $ii$) completely fail. It repeats in a cycle, and never converges to a single value.
 
-<img src="{{ site.baseurl}}/images/image-20230709110507061.png" alt="Fail of Newton method illustration" style="zoom:30%;" />
+<img src="https://drive.google.com/uc?id=1B7LjCAsBGxIGPKAHy-ogyZtuxjr-Qf5D" alt="Fail of Newton method illustration" style="zoom:30%;" />
 
 
 
