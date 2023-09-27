@@ -120,21 +120,21 @@ Where to buy: **Awesomepens**
 
   <https://awesomepens.co.uk/product/pilot-fp-78g-fountain-pen-22k-gold-plated-clear-fine-nib/>
 
-  |                                                         | 78G                                                          | 88G                                                          | 派克威雅胶杆 |
-  | ------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
-  | 长度 mm                                                 | 134                                                          | 138                                                          | 131          |
-  | <span style='color:chartreuse'>重量</span> g (满墨后重) | 12.2g                                                        | 26.7g 蛮重的                                                 | 11.2         |
-  | 笔杆直径 mm                                             | 10.9                                                         | 13.1                                                         | 10           |
-  | 笔握直径 mm                                             | 9.6                                                          | 9.9                                                          |              |
-  | 材料                                                    | 树脂                                                         | 笔握树脂，笔杆金属+磨砂镀层。有掉漆风险。                    |              |
-  | 上墨                                                    | 旋转上墨器                                                   | 吸墨器                                                       |              |
-  | 笔尖                                                    | 不锈钢镀金，金色                                             | 不锈钢镀铬，银色                                             |              |
-  | 笔帽                                                    | 螺旋形开合，不能直接拔插。优点：密闭性一流，盖上盖子放一个月拿出来第一笔就能出墨。 | 经典卡扣开合，扣帽设计。笔杆与笔握位置直径变化太快，笔握处硌手。<br />88g握感的确不好 ，只要是笔杆和笔盖接口处外突太多，偏重。但下水较好，更流畅。 |              |
-  | 写字手感                                                | 78G的F尖阻尼感比较大，如果喜欢写字的沙沙感建议行78G+。       | 88G写字更顺滑、更舒服，喜欢顺滑、快速写字建议88G。           |              |
+  |                                                      | 78G                                                          | 88G                                                          | 派克威雅胶杆 |
+  | ---------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
+  | 长度 mm                                              | 134                                                          | 138                                                          | 131          |
+  | <span style='color:#32CD32'>重量</span> g (满墨后重) | 12.2g                                                        | 26.7g 蛮重的                                                 | 11.2         |
+  | 笔杆直径 mm                                          | 10.9                                                         | 13.1                                                         | 10           |
+  | 笔握直径 mm                                          | 9.6                                                          | 9.9                                                          |              |
+  | 材料                                                 | 树脂                                                         | 笔握树脂，笔杆金属+磨砂镀层。有掉漆风险。                    |              |
+  | 上墨                                                 | 旋转上墨器                                                   | 吸墨器                                                       |              |
+  | 笔尖                                                 | 不锈钢镀金，金色                                             | 不锈钢镀铬，银色                                             |              |
+  | 笔帽                                                 | 螺旋形开合，不能直接拔插。优点：密闭性一流，盖上盖子放一个月拿出来第一笔就能出墨。 | 经典卡扣开合，扣帽设计。笔杆与笔握位置直径变化太快，笔握处硌手。<br />88g握感的确不好 ，只要是笔杆和笔盖接口处外突太多，偏重。但下水较好，更流畅。 |              |
+  | 写字手感                                             | 78G的F尖阻尼感比较大，如果喜欢写字的沙沙感建议行78G+。       | 88G写字更顺滑、更舒服，喜欢顺滑、快速写字建议88G。           |              |
 
   CON-40 Converter £7
 
-- <span style='color:chartreuse'>Cavalier 卡佛里亚</span> 16.4g 黄铜笔杆
+- <span style='color:#32CD32'>Cavalier 卡佛里亚</span> 16.4g 黄铜笔杆
 
   £40
 
@@ -154,7 +154,7 @@ Where to buy: **Awesomepens**
 
    Empty it comes in at 11.3g. With a cart it comes in at 12.5g
 
-- <span style='color:chartreuse'>Custom74</span> 贵客 £130 国内6，7百。
+- <span style='color:#32CD32'>Custom74</span> 贵客 £130 国内6，7百。
 
   <img src="https://drive.google.com/uc?id=1A0Kzl4gVdigZuOoZFOjf91bKWSgxYol1" alt="image-20230719123044838" style="zoom:50%;" />
 
@@ -180,7 +180,7 @@ Where to buy: **Awesomepens**
 
 #### **Sailor 写乐**
 
--   <span style='color:chartreuse'>Sailor 21K</span> (14K升级版本)  2024, 笔尖书875 sailor, 容易出笔锋。重量21g, 非常合适。
+-   <span style='color:#32CD32'>Sailor 21K</span> (14K升级版本)  2024, 笔尖书875 sailor, 容易出笔锋。重量21g, 非常合适。
 -   [Sailor 14K](https://www.iguanasell.co.uk/products/sailor-1911-standard-series-fountain-pen-black-gold-trim-11-1219-420?variant=34607874001) 1911 Realo 象牙白，国内¥500上下。
     Capped: **135mm** Pen only: **127mm** Posted: **148mm** **Diameters** Cap band: **15mm** Barrel: **12mm** Section: **10mm** Weights (without cartridge of converter) Complete: **16g** Pen: **10g** Cap: **6g**; with cartridge, pen 13g.
 
@@ -252,16 +252,16 @@ EF尖视频 <https://zhuanlan.zhihu.com/p/110177897>
 
 -   **Al- Star** 恒星  £30
 
-|                                                         | Safari                     | Al-Star                    |
-| ------------------------------------------------------- | -------------------------- | -------------------------- |
-| 长度 mm                                                 | 无保护环 135               | 有保护环 140               |
-| <span style='color:chartreuse'>重量</span> g (满墨后重) | 17                         |                            |
-| 笔杆直径 mm                                             | 12                         |                            |
-| 笔握直径 mm                                             |                            |                            |
-| 材料                                                    | 树脂，笔头杆部分塑料不透明 | 铝金属，笔头杆部分塑料透明 |
-| 上墨                                                    |                            |                            |
-| 笔尖                                                    |                            |                            |
-|                                                         |                            |                            |
+|                                                      | Safari                     | Al-Star                    |
+| ---------------------------------------------------- | -------------------------- | -------------------------- |
+| 长度 mm                                              | 无保护环 135               | 有保护环 140               |
+| <span style='color:#32CD32'>重量</span> g (满墨后重) | 17                         |                            |
+| 笔杆直径 mm                                          | 12                         |                            |
+| 笔握直径 mm                                          |                            |                            |
+| 材料                                                 | 树脂，笔头杆部分塑料不透明 | 铝金属，笔头杆部分塑料透明 |
+| 上墨                                                 |                            |                            |
+| 笔尖                                                 |                            |                            |
+|                                                      |                            |                            |
 
 - Lamy 2000 13.9mm length, 26 g weight, 17g without cap. 水枪，就是粗，难有粗细变化。
 
@@ -273,7 +273,7 @@ EF尖视频 <https://zhuanlan.zhihu.com/p/110177897>
 
   140mm length.
 
-  Capped or posted it weighs *about 26g*, being <span style='color:chartreuse'>16g</span> for the uncapped pen and ~10g for the cap.
+  Capped or posted it weighs *about 26g*, being <span style='color:#32CD32'>16g</span> for the uncapped pen and ~10g for the cap.
 
   ![image-20230516090214721](https://drive.google.com/uc?id=1mIK1V45VzWOqtc2otiHgfKoxNqsrV0bU)
 
@@ -408,5 +408,4 @@ Tools:
 **品牌**
 
 -   百乐墨水。百乐的蓝黑色不是鞣酸亚铁的，算是比较有特色的墨水，是我较早接触的一类偏蓝色的蓝黑墨水。但是他家的黑色墨水，普遍反应有些洇纸。百乐墨水分小瓶、大瓶、还有350ml的可乐瓶出售。
-
 
