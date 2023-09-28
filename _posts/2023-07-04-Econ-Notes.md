@@ -104,9 +104,9 @@ polyhedron 多面体
 
 sector 扇形  
 
-已知弧长 $A=\frac{1}{2}l\cdot r$. $l$ 为扇形弧长，$r$ 为半径。与三角形面积类比，$\frac{1}{2}$底$\times$高，半径可看作底，弧长看作高。
+已知弧长 $A=\frac{1}{2}l\cdot r$。 $l$ 为扇形弧长，$r$ 为半径。与三角形面积类比，$\frac{1}{2}$底$\times$高，半径可看作底，弧长看作高。
 
-已知圆心角 $A=\frac{n}{360}\pi r^2=\frac{1}{2}\theta\cdot r^2$，$n$单位为度数degree， $\theta$ 为圆心角，单位为弧度radian。
+已知圆心角 $A=\frac{n}{360}\pi r^2=\frac{1}{2}\theta\cdot r^2$。$n$单位为度数degree， $\theta$ 为圆心角，单位为弧度radian。
 
 -   度数弧度转换公式：$\frac{n}{180}\pi=\theta$。
 

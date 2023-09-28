@@ -357,6 +357,14 @@ https://www.bilibili.com/video/BV1RP411674x/?vd_source=8b2f77d46ba39c403a6122be0
 
 蓝色的为凌美F尖字迹，黑色的是百乐F尖。
 
+**测试钢笔顺滑**
+
+- 永，月，过
+
+- S, sa, sb, sc
+
+
+
 **笔画粗细**
 
 <img src="https://drive.google.com/uc?id=1DQj_2j5NZ4umj-pJV_bqdPD3qdLfbN6f" alt="image-20230721105047842" style="zoom:50%;" />
