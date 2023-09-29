@@ -96,7 +96,7 @@ Special characters / Symbols
 |         `\subset` | ⊂              |       `\subseteq` |           ⊆ |
 |             `\in` | ∈              |          `\notin` |           ∉ |
 |            `\mid` | $\mid$         |         `\propto` |           ∝ |
-|           `\perp` | ⊥              |      ` \parallel` | $\parallel$ |
+|           `\perp` | ⊥              |       `\parallel` | $\parallel$ |
 |    `\vartriangle` | $\vartriangle$ |                   |             |
 
 #### Binary operators
