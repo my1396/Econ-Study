@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Econometric Notes
+title: LaTex Cheatsheet
 category: study
 update: 2023-09-05
 ---
