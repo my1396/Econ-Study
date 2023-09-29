@@ -5,6 +5,14 @@ category: study
 update: 2023-09-05
 ---
 
+Description
+===========
+Cheatsheet for LaTex, using Markdown for markup. I use this with [atom.io](https://atom.io/)
+and :package:`markdown-preview-plus` to write math stuff. :package:`keyboard-localization`
+is necessary when using an international layout (like [swiss] german).
+
+Further Reference and source: ftp://ftp.ams.org/pub/tex/doc/amsmath/short-math-guide.pdf
+
 Special characters / Symbols
 ============================
 ### Latin:

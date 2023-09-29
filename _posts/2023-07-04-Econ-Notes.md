@@ -3,7 +3,6 @@ layout: post
 title: Econometric Notes
 category: study
 update: 2023-07-05
-order: 1
 ---
 ## Notation
 
