@@ -70,6 +70,8 @@ Is it worth replacing the nib? Will it cause leakage when writing?
 
 -   EF尖 0.28 手感偏硬，针尖儿感，适合喜欢细笔的同学。
 
+-   M尖爬 8mm 格子没有问题。
+
 系列介绍 <https://my-best.tw/114969>
 
 <https://zhuanlan.zhihu.com/p/343448178>

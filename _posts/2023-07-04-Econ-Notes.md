@@ -28,6 +28,8 @@ def'n: definition.
 
 cont'd: continued.
 
+Thm: theorem
+
 **Q.E.D**: Latin words to indicate this is the *end* of a mathematical proof. At the begining, you simply write `Proof:`.
 
 Ceteris paribus:  Latin phrase that generally means "all other things being equal."
@@ -48,7 +50,7 @@ corollary: is a theorem of less importance which can be readily deduced from a p
 
 -   从小到大，表示大数字减小数字。
 -   从大到小，表示大数字加小数字。
--   常见罗马数字 **VI (4)**, V (5), Ⅵ (6), Ⅶ (7), ⅦI (8), **IX(9)**.
+-   常见罗马数字 **IV(4)**, V (5), Ⅵ (6), Ⅶ (7), ⅦI (8), **IX(9)**.
 
 domain 定义域
 
@@ -86,7 +88,11 @@ supplementary angel 互补角 $\alpha+\beta=\pi$.
 
 对边 opposite side
 
-Pythagoras’ theorem /pəˈθægərəs/ 勾股定理
+<span style='color:#32CD32'>Pythagoras’ /pəˈθægərəs/ or Pythagorean /pəˌθæɡəˈriən/ theorem</span> 勾股定理
+
+**Law of Cosine**: tells the length of the 3rd side of a triangle if we know 2 sides and the angle between them.
+
+$c^2=a^2+b^2-2ab\cos\theta$
 
 circumference /sərˈkʌmfərəns/ 周长
 
@@ -115,6 +121,24 @@ sector 扇形
     圆周长$C=2\pi r$，弧长$l=\frac{\theta}{2\pi}\cdot C=\frac{\theta}{2\pi}\cdot 2\pi r=\theta r$。
 
 Volume of a sphere (ball) $V=\frac{4}{3}\pi r^3$, $r$ is radius. Surface $S=4\pi r^2$.
+
+
+
+**dot product** vs. **cross product**
+
+- dot product is a scalar, used to calculate projection along a direction ($\vec{A}\cdot \hat{u}$ is the component of $\vec{A}$ along $\hat{u}$, ^ indicates a unit vector); determine if two vectors are orthogonal (if $\vec{A}\cdot\vec{B}=0$, then $\vec{A}\perp\vec{B}$);
+
+  $\vec{A}\cdot\vec{B}=\sum a_ib_i$
+
+  $\vec{A}\cdot\vec{B}=\vert\vec{A}\vert\vert\vec{B}\vert \cos\theta$
+
+  $\vec{A}\cdot\vec{A}=\vert A\vert^2$ ($\cos0=1$)
+
+- cross product is a vector, used to calculate area of parallelogram, get normal vector;
+
+  $\vec{A}\times\vec{B}=\vert\vec{A}\vert\vert\vec{B}\vert \sin\theta\cdot\vec{n}$, $\vec{n}$ decided by right-hand rule.
+
+  $\vec{A}\times\vec{A}=0$ ($\sin0=0$, area of a line is 0) 
 
 
 
