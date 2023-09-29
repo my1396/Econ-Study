@@ -20,17 +20,19 @@ Mathematical calligraphic font 花体 (`\mathcal`), uppercase only, font for cat
 
 
 
-Crit pt: critical point.
+`crit pt`: critical point.
 
-cts: continuous.
+`cts`: continuous.
 
-def'n: definition.
+`def'n`: definition.
 
-cont'd: continued.
+`cont'd`: continued.
 
-Thm: theorem
+`iff`: if and only if.
 
-**Q.E.D**: Latin words to indicate this is the *end* of a mathematical proof. At the begining, you simply write `Proof:`.
+`Thm`: theorem
+
+`Q.E.D`: Latin words to indicate this is the *end* of a mathematical proof. At the begining, you simply write `Proof:`.
 
 Ceteris paribus:  Latin phrase that generally means "all other things being equal."
 
@@ -66,7 +68,7 @@ The axes of a two-dimensional Cartesian system divide the plane into four infini
 
 -   the numbering goes counter-clockwise starting from the upper right ("northeast") quadrant.
 
-<img src="{{ site.baseurl}}/images/image-20230730113759915.png" alt="quadrant geometry" style="zoom:50%;" />
+<img src="https://drive.google.com/uc?id=1FlWhw7t0EIuk4PAV5-CTsLJGR0WZWGsl" alt="quadrant geometry" style="zoom:50%;" />
 
 orthographic projection (正射投影): top view, front view, (right) side view.
 
@@ -80,7 +82,7 @@ complementary angel 互余角 $\alpha+\beta=\frac{\pi}{2}$.
 
 supplementary angel 互补角 $\alpha+\beta=\pi$.
 
-<img src="{{ site.baseurl}}/images/triangel.png" alt="right triangel" style="zoom:60%;" />
+<img src="https://drive.google.com/uc?id=1FlFGD-wVxC1UacQiLtg4W3NKAOcie-z7" alt="triangel" style="zoom:60%;" />
 
 斜边 hypotenuse  /haɪˈpɑːtənuːs/
 
@@ -92,8 +94,9 @@ supplementary angel 互补角 $\alpha+\beta=\pi$.
 
 **Law of Cosine**: tells the length of the 3rd side of a triangle if we know 2 sides and the angle between them.
 
-$c^2=a^2+b^2-2ab\cos\theta$
-
+$$
+\begin{align*}c^2=a^2+b^2-2ab\cos\theta\end{align*}
+$$
 circumference /sərˈkʌmfərəns/ 周长
 
 
@@ -126,19 +129,31 @@ Volume of a sphere (ball) $V=\frac{4}{3}\pi r^3$, $r$ is radius. Surface $S=4\pi
 
 **dot product** vs. **cross product**
 
-- dot product is a scalar, used to calculate projection along a direction ($\vec{A}\cdot \hat{u}$ is the component of $\vec{A}$ along $\hat{u}$, ^ indicates a unit vector); determine if two vectors are orthogonal (if $\vec{A}\cdot\vec{B}=0$, then $\vec{A}\perp\vec{B}$);
+- dot product is a scalar, used to calculate projection along a direction ($\vec{A}\cdot \hat{u}$ is the component of $\vec{A}$ along $\hat{u}$, ^ indicates a unit vector); determine if two vectors are <span style='color:#32CD32'>orthogonal</span> (if $\vec{A}\cdot\vec{B}=0$, then $\vec{A}\perp\vec{B}$);
 
-  $\vec{A}\cdot\vec{B}=\sum a_ib_i$
+  - The magnitude of the dot product is the same as the magnitude of one of them, multiplied by the component of one vector that is parallel to the other. 
 
-  $\vec{A}\cdot\vec{B}=\vert\vec{A}\vert\vert\vec{B}\vert \cos\theta$
+  $$
+  \begin{align*}
+  \vec{A}\cdot\vec{B} &= \sum a_ib_i \\
+  \vec{A}\cdot\vec{B} &= \vert\vec{A}\vert\vert\vec{B}\vert \cos\theta \\
+  \vec{A}\cdot\vec{A} &= \vert A\vert^2 \quad (\cos0=1)
+  \end{align*}
+  $$
 
-  $\vec{A}\cdot\vec{A}=\vert A\vert^2$ ($\cos0=1$)
+  
 
-- cross product is a vector, used to calculate area of parallelogram, get normal vector;
+- cross product is a vector, used to calculate area of parallelogram, get normal vector; if $\vec{A}\times\vec{B}=0$, then $\vec{A}\parallel\vec{B}$ (<span style='color:#32CD32'>parallel</span>);
 
-  $\vec{A}\times\vec{B}=\vert\vec{A}\vert\vert\vec{B}\vert \sin\theta\cdot\vec{n}$, $\vec{n}$ decided by right-hand rule.
+  - The magnitude of the cross product is the same as the magnitude of one of them, multiplied by the component of one vector that is perpendicular to the other. 
+  - If $\vec{A}\parallel\vec{B}$, no component is perpendicular to the other vector. Hence, the cross product is 0 although you can still find a perpendicular vector to both of these. 
 
-  $\vec{A}\times\vec{A}=0$ ($\sin0=0$, area of a line is 0) 
+  $$
+  \begin{align*}
+  \vec{A}\times\vec{B} &=\vert\vec{A}\vert\vert\vec{B}\vert \sin\theta\cdot\vec{n},\; \vec{n} \textrm{ decided by right-hand rule.} \\
+  \vec{A}\times\vec{A}&=0 \quad (\sin0=0\textrm{, area of a line is 0})
+  \end{align*}
+  $$
 
 
 
@@ -158,7 +173,7 @@ For example, a polynomial $x^{109} + 9x^5 − 2x^2$ is most likely pronounced:
 
 **Exponential** $x$ in the exponent.
 
-If there is a variable in the exponent, the ordinal is not used. $x^y$ is read as "x to *the* y". The -th is dropped.
+If there is a variable in the exponent, the ordinal is not used. $x^y$ is read as "x to <span style='color:#32CD32'>*the*</span> y". The -th is dropped.
 
 
 
@@ -251,14 +266,18 @@ A stochastic process $X_t$ is a family of random variables. At a specific time p
 Mean function $\mu_t$ 
 
 $$
+\begin{align*}
 \mu_t = \mathbb{E}[X_t] = \int_{\mathbb{R}}xdF_t(X)
+\end{align*}
 $$
 
 $\mu_t$ depends on time $t$, as, for example, processes with a seasonal or periodical structure or processes with a deterministic trend.
 
 **Autocovariance Function**
 $$
+\begin{align*}
 \gamma(t,\tau)=Cov(X_t, X_{t-\tau})
+\end{align*}
 $$
 
 If we define <span style='color:red'>**covariance stationary**</span>, then $\gamma(t,\tau)=\gamma_\tau$, means covaraince only depends on time interval apart, not start point.
@@ -267,7 +286,9 @@ If we define <span style='color:red'>**covariance stationary**</span>, then $\ga
 Autocorrelation Function (ACF)
 
 $$
+\begin{align*}
 \rho_{\tau}=\frac{\gamma_{\tau}}{\gamma_0}
+\end{align*}
 $$
 
 The autocorrelation function $\rho$ of a covaraince stochastic process is normalized on the interval [-1,1].  $\rho$ depends only on one parameter, the lag $\tau$.
@@ -294,9 +315,10 @@ In short, WN has expectation 0 and finite variance.
 
 
 **Random Walk**
-
 $$
+\begin{align*}
 X_t=c+X_{t-1}+\epsilon_t
+\end{align*}
 $$
 
 with a constant $c$ and **white noise** $\epsilon_t$. 
@@ -309,7 +331,9 @@ $c<0$ we say drift downward.
 
 Assume that the constant $c$ and the initial value $X_0$ are set to zero, through recursice substitution we will get the representation:
 $$
+\begin{align*}
 X_t=\sum^t_{i=1}\epsilon_i
+\end{align*}
 $$
 Moment functions:
 
@@ -325,7 +349,9 @@ Notice that autocovariance is strictly positive, and since it depends on $t$ not
 AR(1) process
 
 $$
+\begin{align*}
 X_t=c+\alpha X_{t-1}+\epsilon_t
+\end{align*}
 $$
 
 with $ \vert\alpha \vert<1$.
@@ -333,13 +359,17 @@ with $ \vert\alpha \vert<1$.
 By iterative substitutions, 
 
 $$
+\begin{align*}
 X_t=c \frac{1-\alpha^k}{1-\alpha}+\alpha^kX_{t-k}+\sum^{k-1}_{i=0}\alpha^i\epsilon_{t-i}
+\end{align*}
 $$
 
 For $K\to \infty$,
 
 $$
+\begin{align*}
 X_t=c\frac{1}{1-\alpha}+\sum^\infty_{i=0}\alpha^i\epsilon_{t-i}
+\end{align*}
 $$
 
 Moment functions:
@@ -357,7 +387,9 @@ For ACF $\rho_\tau$, if $\alpha>0$, this function is strictly positive, for $\al
 A stochastic process has the Markov Property if for all $t\in \mathbb{Z}$ and $k\geq 1$
 
 $$
+\begin{align*}
 F_{t|t-1,\ldots,t-k}(x_t|x_{t-1},\ldots, x_{t-k})=F_{t|t-1}(x_t|x_{t-1})
+\end{align*}
 $$
 
 In other words, the conditional distribution of a Markov process at a specific point in time is entirely determined by the condition of the system at the previous date.
@@ -369,7 +401,9 @@ Two examples: random walk with independent $\epsilon_t$ and the AR(1) process wi
 **Martingale**
 
 $$
+\begin{align*}
 E[X_t|X_{t-1}=x_{t-1},\ldots,X_{t-k}=x_{t-k}]=x_{t-1}
+\end{align*}
 $$
 
 For martingale, only one statement about the conditional expectation is made; while for Markov process, statements on the entire conditional distribution are made.
@@ -386,7 +420,9 @@ $\Delta=1-L$, $\Delta X_t=X_t-X_{t-1}$ and $\Delta^k=(1-L)^k$
 
 **Unit Root Tests**
 $$
+\begin{align*}
 X_t=c+\alpha X_{t-1}+\epsilon_t
+\end{align*}
 $$
 For $|\alpha|<1$, the process is stationary or after the "decaying process";
 
@@ -471,13 +507,15 @@ How to find **min/max** pt.
 
 **Newton's Method**
 $$
+\begin{align*}
 x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
+\end{align*}
 $$
 Newton's method works well if $i$) $\vert f'\vert$ is not too small;  $ii$) $\vert f^{\prime\prime}\vert$ is not too big; and $iii$) $x_0$ is nearby $x$.
 
 Newton's method fails: $i$) find an unexpected root (depending on where the initial guess is); $ii$) completely fail. It repeats in a cycle, and never converges to a single value.
 
-<img src="{{ site.baseurl}}/images/image-20230709110507061.png" alt="Fail of Newton method illustration" style="zoom:30%;" />
+<img src="https://drive.google.com/uc?id=1B7LjCAsBGxIGPKAHy-ogyZtuxjr-Qf5D" alt="Fail of Newton method illustration" style="zoom:30%;" />
 
 
 
@@ -526,7 +564,9 @@ $\sec^2=1+\tan^2$.
 
 $f$ is continuous
 $$
-\frac{d}{dx}\int_a^x f(t)dt=f(x).
+\begin{align*}
+\frac{d}{dx}\int_a^x f(t)dt=f(x)
+\end{align*}
 $$
 
 -   important to differentiate variable of integrand $t$ from the upper limit $x$. Use different letters!
