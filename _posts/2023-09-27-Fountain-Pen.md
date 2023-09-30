@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fountain Pen
-category: life
+tag: life
 update: 2023-09-27
 ---
 

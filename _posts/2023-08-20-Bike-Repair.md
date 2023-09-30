@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bike Repair
-category: life
+tag: life
 update: 2023-08-20
 ---
 
