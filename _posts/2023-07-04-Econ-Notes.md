@@ -16,7 +16,7 @@ Mathematical calligraphic font 花体 (`\mathcal`), uppercase only, font for cat
 -   $\mathcal D$（`\mathcal D`）表示样本集;
 -   $\mathcal N$（`\mathcal N`）常用来表示高斯分布;
 
--   $\ell$（`\ell`）：用于和大小的 $l$ 和 数字 1 相区分。
+-   $\ell$（`\ell`）：用于和 $l$ 和 数字 1 相区分。
 
 
 
