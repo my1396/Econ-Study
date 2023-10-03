@@ -5,3 +5,145 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+/* tag cloud */
+#tag_cloud {
+  margin: 20px 0 15px 0;
+}
+#tag_cloud a,
+#tag_cloud .tag {
+  font-size: 14px;
+  border: none;
+  line-height: 28px;
+  margin: 0 2px;
+  margin-bottom: 8px;
+  background: #a09fcc; /* tag_cloud color */
+}
+#tag_cloud a:hover,
+#tag_cloud .tag:hover,
+#tag_cloud a:active,
+#tag_cloud .tag:active {
+  background-color: #0085a1 !important;
+}
+
+/* Hux add tags support */
+.tags {
+  margin-bottom: -5px;
+}
+.tags a,
+.tags .tag {
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 999em;
+  padding: 0 10px;
+  color: #ffffff;
+  line-height: 24px;
+  font-size: 12px;
+  text-decoration: none;
+  margin: 0 1px;
+  margin-bottom: 6px;
+}
+.tags a:hover,
+.tags .tag:hover,
+.tags a:active,
+.tags .tag:active {
+  color: white;
+  border-color: white;
+  background-color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+}
+
+
+.one-tag-list .tag-text {
+  font-weight: 200; /* thickness of tag font */
+  font-size: 20px;
+  line-height: 1.7;
+  text-transform: capitalize; /* capitalize 1st letter */
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", SimSun, sans-serif;
+}
+.one-tag-list .post-preview {
+  position: relative;
+}
+.one-tag-list .post-preview > a .post-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.one-tag-list .post-preview > a .post-subtitle {
+  font-size: 12px;
+}
+.one-tag-list .post-preview > .post-meta {
+  position: absolute;
+  right: 5px;
+  bottom: 0px;
+  margin: 0px;
+  font-size: 12px;
+  line-height: 12px;
+}
+@media only screen and (min-width: 768px) {
+  .one-tag-list .post-preview {
+    margin-left: 20px;
+  }
+  .one-tag-list .post-preview > a > .post-title {
+    font-size: 20px; /* post title font */
+    line-height: 1.3; /* post title line height */
+    font-weight: 400;
+  }
+  .one-tag-list .post-preview > a > .post-subtitle {
+    font-size: 14px;
+  }
+  .one-tag-list .post-preview .post-meta {
+    font-size: 18px;
+  }
+}
+
+
+/* horizontal line */
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+/* general typesetting */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", SimSun, sans-serif;
+  line-height: 1.7;
+  font-size: 18px;
+  color: #404040;
+  overflow-x: hidden;
+}
+p {
+  margin: 30px 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", SimSun, sans-serif;
+  line-height: 1.7;
+  line-height: 1.1;
+  font-weight: bold;
+}
+h4 {
+  font-size: 21px;
+}
+a {
+  color: #404040;
+}
+a:hover,
+a:focus {
+  color: #0085a1;
+}
+a img:hover,
+a img:focus {
+  cursor: zoom-in;
+}
+
+
+
+
+
