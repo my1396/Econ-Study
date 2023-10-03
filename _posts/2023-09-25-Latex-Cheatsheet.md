@@ -2,7 +2,6 @@
 layout: post
 title: LaTex Cheatsheet
 tag: study
-update: 2023-09-05
 ---
 
 Special characters / Symbols

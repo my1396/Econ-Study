@@ -2,7 +2,6 @@
 layout: post
 title: UK Driving Notes – Amar
 tag: driving
-update: 2022-08-02
 ---
 
 ## Driving Diary

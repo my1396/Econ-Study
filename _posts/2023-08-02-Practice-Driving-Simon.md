@@ -2,7 +2,6 @@
 layout: post
 title: UK Driving Notes – Simon
 tag: driving
-update: 2023-08-02
 ---
 
 Things to improve on: hesitation, anticipation, judgement call.

@@ -22,10 +22,16 @@ layout: base
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
     <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"  -%}
+      {% assign posts = site.posts | sort: 'modified_date' | reverse %}
       {%- for post in posts -%}
       <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="post-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+          {% if post.modified_date %}
+          (Updated: <time datetime="{{ post.modified_date | date_to_xmlschema }}">{{ post.modified_date | date: "%b %-d, %Y" }}</time>)
+          {% endif %}
+        </span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
