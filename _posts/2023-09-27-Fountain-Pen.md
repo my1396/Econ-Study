@@ -2,7 +2,6 @@
 layout: post
 title: Fountain Pen
 tag: life
-update: 2023-09-27
 ---
 
 ## **Fountain Pens**

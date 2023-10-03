@@ -2,7 +2,6 @@
 layout: post
 title: Bike Repair
 tag: life
-modified_date: 2023-08-20
 ---
 
 ## 变速器调节
