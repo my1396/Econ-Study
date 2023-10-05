@@ -88,14 +88,14 @@ Special characters / Symbols
 |             `\in` | ∈              |          `\notin` |           ∉ |
 |            `\mid` | $\mid$         |         `\propto` |           ∝ |
 |           `\perp` | ⊥              |       `\parallel` | $\parallel$ |
-|    `\vartriangle` | $\vartriangle$ |                   |             |
+|    `\vartriangle` | $\vartriangle$ |        `\leadsto` |  $\leadsto$ |
 
 #### Binary operators
 
-|        LaTex |      |  LaTex |      |
-| -----------: | ---- | -----: | ---: |
-|     `\wedge` | ∧    | `\vee` |    ∨ |
-| `\neg``\not` | ¬    |        |      |
+|        LaTex |         |  LaTex |        |
+| -----------: | ------- | -----: | -----: |
+|     `\wedge` | ∧ (and) | `\vee` | ∨ (or) |
+| `\neg``\not` | ¬       |        |        |
 
 #### Cumulative operators
 
