@@ -20,6 +20,32 @@ Mathematical calligraphic font 花体 (`\mathcal`), uppercase only, font for cat
 
 
 
+**Upper- and lower-case letters**
+
+Vectors are lowercase and matrices are uppercase symbols. Both vectors and matrices are written in bold-italic. 
+
+- Vectos $\mathbfit a, \mathbfit b, \mathbfit c$  are produced by`\mathbfit a` ... ; vectors can also be denoted by Greek lowercase letters: $\boldsymbol{\alpha, \ldots \omega}$
+- Matrices $\mathbfit A, \mathbfit B, \mathbfit C$ by `\mathbfit A` ... ; matrices can be deonoted by Greek uppercase letters: $\boldsymbol{\Gamma, \ldots, \Theta}$
+- Random variables are uppercase italic Latin letters $X, Y, X$. Lower case letters $x, y,z$ mean values of random variables. Sometimes, $X_i$ also denotes a value. If $X$ is a RV, then $X$ is written in words, and $x$ is given as a number.
+  - Sample data use lowercase.
+  - Population data use uppercase.
+- Use Greek letters $\boldsymbol\theta, \boldsymbol\phi$ for parameters or $\alpha, \beta, \gamma$ for hyperparameters.
+
+
+
+- $f(x) \approx g(x)$ (`\approx`) if the two functions are approximately equal in some sense depending on the context. 
+
+- $f(x) \propto g(x)$ (`\propto`) If *f* (*x*) is proportional to *g*(*x*) we write. 
+
+- $f(x) = O(g(x))$  We say that  '*f* (*x*) is at most of order *g*(*x*)’, if | *f* (*x*)/*g*(*x*)| is bounded from above in some neighborhood of *x* = *c* (possibly *c* = ±∞). 
+
+- $f(x) = o(g(x))$  we say that ‘*f* (*x*) is of order less than *g*(*x*)’, if *f* (*x*)/*g*(*x*) → 0 when *x* → *c*. 
+- $f(x)\sim g(s)$ (`\sim`) if *f* (*x*)/*g*(*x*) → 1 when *x* → *c*. The two functions are then said to be ‘asymptotically equal’. Notice that when *f* (*x*) and *g*(*x*) are asymptotically equal, the *f* (*x*) ≈ *g*(*x*) and also *f* (*x*) = *O*(*g*(*x*)), but not vice versa.
+
+Reference: <https://www.principlesofeconometrics.com/poe5/writing/abadir_magnus.pdf>
+
+
+
 `crit pt`: critical point.
 
 `cts`: continuous.
@@ -57,6 +83,18 @@ corollary: is a theorem of less importance which can be readily deduced from a p
 domain 定义域
 
 range 值域
+
+
+
+Sample and population
+
+- DGP (data generating process) generates the data that we observe.
+- Any quantity, the calculation of which requires one to know the DGP, is a population quantity.
+- 
+
+
+
+
 
 
 
