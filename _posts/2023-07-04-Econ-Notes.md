@@ -35,12 +35,12 @@ Vectors are lowercase and matrices are uppercase symbols. Both vectors and matri
 
 - $f(x) \approx g(x)$ (`\approx`) if the two functions are approximately equal in some sense depending on the context. 
 
-- $f(x) \propto g(x)$ (`\propto`) If *f* (*x*) is proportional to *g*(*x*) we write. 
+- $f(x) \propto g(x)$ (`\propto`) If $f(x)$ is proportional to $g(x)$ we write. 
 
-- $f(x) = O(g(x))$  We say that  '*f* (*x*) is at most of order *g*(*x*)’, if | *f* (*x*)/*g*(*x*)| is bounded from above in some neighborhood of *x* = *c* (possibly *c* = ±∞). 
+- $f(x) = O(g(x))$  We say that  `$f(x)$ is at most of order $g(x)$’, if $\vert f(x)/g(x)\vert$ is bounded from above in some neighborhood of *x* = *c* (possibly *c* = ±∞). 
 
-- $f(x) = o(g(x))$  we say that ‘*f* (*x*) is of order less than *g*(*x*)’, if *f* (*x*)/*g*(*x*) → 0 when *x* → *c*. 
-- $f(x)\sim g(s)$ (`\sim`) if *f* (*x*)/*g*(*x*) → 1 when *x* → *c*. The two functions are then said to be ‘asymptotically equal’. Notice that when *f* (*x*) and *g*(*x*) are asymptotically equal, the *f* (*x*) ≈ *g*(*x*) and also *f* (*x*) = *O*(*g*(*x*)), but not vice versa.
+- $f(x) = o(g(x))$  we say that `$f(x)$ is of order less than $g(x)$’, if $f(x)/g(x)$→ 0 when *x* → *c*. 
+- $f(x)\sim g(x)$ (`\sim`) if $f(x)/g(x)$ → 1 when *x* → *c*. The two functions are then said to be `asymptotically equal’. Notice that when $f(x)$ and $g(x)$ are asymptotically equal, then  $f(x)\approx g(x)$ and also $f(x) = O(g(x))$, but not vice versa.
 
 Reference: <https://www.principlesofeconometrics.com/poe5/writing/abadir_magnus.pdf>
 
@@ -89,12 +89,7 @@ range 值域
 Sample and population
 
 - DGP (data generating process) generates the data that we observe.
-- Any quantity, the calculation of which requires one to know the DGP, is a population quantity.
-- 
-
-
-
-
+- Any quantity, the calculation of which requires one to know the DGP, is a population quantity
 
 
 
