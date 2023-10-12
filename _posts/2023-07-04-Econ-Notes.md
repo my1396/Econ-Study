@@ -8,7 +8,7 @@ modified_date: 2023-10-05
 
 $\mathbb{E}_Y$ and $\mathrm{Var}_Y$ denote expectation over $Y$ and variance over $Y$.
 
-Blackboard bold 黑板粗体 (`\mathbb`) is often used to denote **sets of numbers**, e.g. $\mathbb{N}$, $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$, $\mathbb{O}$, or a general field $\mathbb{F}$ or $\mathbb{K}$, and in probability to denote expectation of a random variable $\mathbb{E}(X)$ or probability of an event $\mathbb{P}(E)$. Sometimes you see a sphere denoted $\mathbb{S}$ or a torus denoted $\mathbb{T}$. 
+Blackboard bold 黑板粗体 (`\mathbb`) is often used to denote **sets of numbers**, e.g. $\mathbb{N}$, $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$, $\mathbb{O}$, or a general field $\mathbb{F}$ or $\mathbb{K}$, and in probability to denote expectation of a random variable $\mathbb{E}(X)$ , written as `\mathbb{E}(X)`, or probability of an event $\mathbb{P}(E)$, written as `\mathbb{P}(E)`. Sometimes you see a sphere denoted $\mathbb{S}$ or a torus denoted $\mathbb{T}$. 
 
 Mathematical calligraphic font 花体 (`\mathcal`), uppercase only, font for categories and sheaves.
 
@@ -76,8 +76,8 @@ corollary: is a theorem of less importance which can be readily deduced from a p
 
 -   重复数次：一个罗马数字重复几次，就表示这个数的几倍。
 
--   从小到大，表示大数字减小数字。
--   从大到小，表示大数字加小数字。
+-   从小到大，表示大数字减小数字。E.g. IV(4).
+-   从大到小，表示大数字加小数字。E.g. VI(6).
 -   常见罗马数字 **IV(4)**, V (5), Ⅵ (6), Ⅶ (7), ⅦI (8), **IX(9)**.
 
 domain 定义域
@@ -130,9 +130,9 @@ supplementary angel 互补角 $\alpha+\beta=\pi$.
 $$
 \begin{align*}c^2=a^2+b^2-2ab\cos\theta\end{align*}
 $$
+
+
 circumference /sərˈkʌmfərəns/ 周长
-
-
 
 trapezoid 梯形 $A=\frac{(a+b)}{2}\cdot h$. (上底 + 下底) $\times$ 高/2.
 

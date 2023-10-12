@@ -18,9 +18,13 @@ plugins:
   - jekyll-seo-tag    # output metadata for search engines to better index and display
   - jekyll-pdf-embed  # embed pdf files
   - jekyll-sitemap    # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-scholar
 
 google_analytics: G-SHRDBGDKKC
 
+# Jekyll-Scholar config
+scholar:
+  style: apa
 
 # Theme-specific settings
 
