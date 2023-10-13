@@ -317,7 +317,7 @@ Other things
 -   Don't go above speed limits especially in quiet neighborhoods!
 -   Don't go around cars who is doing paralle parking. Must pause and make sure the car stopped for you. 
 -   Headington RA Barton exit, don't be over hesitant to pull out. 
-    -   <span style='color:chartreuse'>uncontrolled joining RA</span> (the traffic light is not for me) !
+    -   <span style='color:#32CD32'>uncontrolled joining RA</span> (the traffic light is not for me) !
     -   make sure it's clear on your right. Cars will come from both A40W Northway and Headington direction. 
     -   do not join the roundabout and block the exit! Keep the exit clear.
     -   Barton entrance is very similar to Littlemore RA Iffley entrance. Same principle applies.
@@ -472,7 +472,7 @@ Otherwise you need to apply by post for a new license. Need to fill out a D1 for
 
   It doesn't matter which postal code you use, it will arrive at the same building.
 
-  <span style='color:chartreuse'>Provide a return address!</span>
+  <span style='color:#32CD32'>Provide a return address!</span>
 
   https://www.mumsnet.com/talk/am_i_being_unreasonable/3791373-to-be-a-bit-annoyed-by-dvla
 

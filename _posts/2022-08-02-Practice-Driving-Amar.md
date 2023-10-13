@@ -10,15 +10,15 @@ tag: driving
 
 -   Start off and pull over/up;
     -   Observation is required every time you move from stand still.
-    -   <span style='color:chartreuse'>handbrake down completely!!</span>
-    -   <span style='color:chartreuse'>gear 1</span> first! Sometimes forget to change to gear 1 before starting off after temparary pulling over.
+    -   <span style='color:#32CD32'>handbrake down completely!!</span>
+    -   <span style='color:#32CD32'>gear 1</span> first! Sometimes forget to change to gear 1 before starting off after temparary pulling over.
     -   <span style='color:red'>Don't get too close to the curb when pulling up. [✘] </span>
     -   When you are asked to do a U-turn at DTC, get to the middle of the driveway, avoid the curb!
     -   Change gears! Don't forget gears.
-    -   When start off at mini-roundabouts or roundabouts, give <span style='color:chartreuse'>more gas</span> to start off fast, 1st gear start off! 
+    -   When start off at mini-roundabouts or roundabouts, give <span style='color:#32CD32'>more gas</span> to start off fast, 1st gear start off! 
     
 -   Clutch control (Don't forget to change gears!)
-    -   changing gears early, sometimes foget to change gears. <span style='color:chartreuse'>Brake first</span> before you gear down. Don't use engine to force slowing down, use brakes!
+    -   changing gears early, sometimes foget to change gears. <span style='color:#32CD32'>Brake first</span> before you gear down. Don't use engine to force slowing down, use brakes!
         
     -   clutch down fast, lift slow. Off the gas when you change gears at high speed. Give gas at the last 10% of clutch lifting when you start off.
         -   clutch up and give gas: engage to give power to go;
@@ -40,13 +40,13 @@ tag: driving
         -   1st gear or,
         -   2nd gear with clutch down and coast a bit.
     
-    -   if you change to 1st gear at maybe 10m/h, the car will shake b/c speed is too high for 1st gear. Car struggles and forces to slow down to keep up with the gear. $\rightarrow$ <span style='color:chartreuse'>keep clutch down and coast a bit</span> until your speed is low. Then lifting the clutch will not be jerky.
+    -   if you change to 1st gear at maybe 10m/h, the car will shake b/c speed is too high for 1st gear. Car struggles and forces to slow down to keep up with the gear. $\rightarrow$ <span style='color:#32CD32'>keep clutch down and coast a bit</span> until your speed is low. Then lifting the clutch will not be jerky.
         -   if you are approaching red traffic light and slowing down, should change to 1st gear directly and coast until you reach the waiting line. B/c your speed is still high, higher than the normal speed for 1st gear, car will become jerky. $\rightarrow$ You keep the clutch down and coast until you stop. 
     
     -   Coasting is not a problem when you are at a low speed. Coasting is bad when you need power to speed up or need <span style='color:red'>engine to brake. [✘] </span>
     -   Do not press the gas when you are waiting on traffic light. Just cover the gas, be prepared to start off.
     
--   When you have made a mistake of choosing the correct lane, you just <span style='color:chartreuse'>follow it through</span>, do not try to force your way and correct your mistake;
+-   When you have made a mistake of choosing the correct lane, you just <span style='color:#32CD32'>follow it through</span>, do not try to force your way and correct your mistake;
     -   common mistakes on roundabouts
         -   when you want to take the next exit but your lane forces you to exit $\rightarrow$ you have to exit;
         -   when you want to exit but you are in the middle or right lane $\rightarrow$ go another round and exit next time;
@@ -68,9 +68,9 @@ tag: driving
 
     -   when it's 20m/h speed limit, it's not worth overtaking; just hold back;
     -   be aware of road works; cyclists and pedestrians might come down to the road to get around the roadwork;
-    -   check if there is <span style='color:chartreuse'>enough space on your right</span>. If so, you don't need to pull in to give way;
+    -   check if there is <span style='color:#32CD32'>enough space on your right</span>. If so, you don't need to pull in to give way;
         -   whether your pulling in has any effects, if the answer is no (when there is a junction on the right), you can just stop and let the oncoming vehicle pass.
-    -   if giving way to bus, you need to pull in completely, then when you pull out, must <span style='color:chartreuse'>indicate</span>; under normal conditions, you position will be half in half out, don't need to indicate when pulling out.
+    -   if giving way to bus, you need to pull in completely, then when you pull out, must <span style='color:#32CD32'>indicate</span>; under normal conditions, you position will be half in half out, don't need to indicate when pulling out.
     -   don't copy cars in front of you. Need to make your own observation and judgement.
     -   give more priority to cyclists;
 
@@ -82,8 +82,8 @@ tag: driving
 
 -   **mini-roundabouts**
 
-    -   <span style='color:chartreuse'>go around</span> it, do not drive on top;
-    -   exception: Hollow Way and The Slade mini-roundabout but only from <span style='color:chartreuse'>The Slade direction</span> with the two lanes; For other directions with only one lane, you always go around it.
+    -   <span style='color:#32CD32'>go around</span> it, do not drive on top;
+    -   exception: Hollow Way and The Slade mini-roundabout but only from <span style='color:#32CD32'>The Slade direction</span> with the two lanes; For other directions with only one lane, you always go around it.
         -   From Slade to DTC, 2nd exit, turning right, don't turn your wheel to left first, you go straight to the circle, ride half on half off. If you turn left before turn right, that is called "swan neck" steering.
     -   A blocker doesn't mean the car on your right is going to stop for you. Have to see if the car on the right is stopping, only if he is stopping or stops, you can go. No priority is guranteed. Sometimes you have to give up any priority you have.
         -   But the rule is when a blocker shows up, the car on the right should give way, meaning you can join the mini-RA at that time.
@@ -94,20 +94,20 @@ tag: driving
     -   two-lane slip roads:
         -   leaving to the left lane is early, when you see the opening for slip roads, you must leave to the left lane as soon as possible; leaving to the right lane is late; if you missed the timing leaving to the left lane, you have no choice but leaving to the right lane; it's not suggested to change lanes afterwards, only do it if you checked mirrors and made sure it's safe;
         -   joining from the left lane $\rightarrow$ have to follow through to the end and join, do not cut lanes to the right in the middle of slip roads; cars are speeding up, dangerous to cut lanes; joining from the right lane is easier;
-    -   <span style='color:chartreuse'>do indication **early**</span> on dual carriageways! B/c cars move fast on dual carriageways, so have to let other drivers know your intention early.   
+    -   <span style='color:#32CD32'>do indication **early**</span> on dual carriageways! B/c cars move fast on dual carriageways, so have to let other drivers know your intention early.   
 
 -   Emerging to left
 
-    -   <span style='color:chartreuse'>Focus on your right</span>, just a quick glance on your left for pedestrians and cyclists, b/c danger comes from the right—you don't want to block the way of oncoming vehicles;
+    -   <span style='color:#32CD32'>Focus on your right</span>, just a quick glance on your left for pedestrians and cyclists, b/c danger comes from the right—you don't want to block the way of oncoming vehicles;
     -   Don't need to right-left-right check. Just one right and left would be enough.
 
--   <span style='color:chartreuse'>Emerging to right</span>
+-   <span style='color:#32CD32'>Emerging to right</span>
 
     -   Have to see both sides, left and right to make sure both ways are clear;
 
     -   Last check on your right before you start off.
 
-    -   Emerging to right at DTC, if you are going to wait for a long queue, use the <span style='color:chartreuse'>handbrake</span>, so you right foot is on the gas, you can start off whenever you spot a safe gap.
+    -   Emerging to right at DTC, if you are going to wait for a long queue, use the <span style='color:#32CD32'>handbrake</span>, so you right foot is on the gas, you can start off whenever you spot a safe gap.
 
     -   <span style='color:red'>Do NOT be overly cautious [✘]</span>, which results in unduly hesitance fault. I tend to wait for too long to emerge. If you are able to walk through, you can drive through.
 
@@ -121,24 +121,24 @@ tag: driving
     -   if you have a clear way and your exit is wide, meaning you won't need to stop, then turn at 2nd gear;
         -   2nd gear is generally alright. Even if you see vehicles coming, you always have the option to cluctch down, stop, change to 1st gear;
     -   if you see oncoming vehicles, then you need to stop and give way; so use 1st gear and wait in the box;
-        -   when you have a clear way and start off, <span style='color:chartreuse'>give gas to start off quickly</span> so you don't get stuck in the middle, oncoming cars can come soon, so you must get away fast as soon as you have a gap;
-    -   if there are parked cars on the left before the junction, you need to go as a S shape to avoid the cars first and return to your lane (left lane) and <span style='color:chartreuse'>position right</span> close to the center.
+        -   when you have a clear way and start off, <span style='color:#32CD32'>give gas to start off quickly</span> so you don't get stuck in the middle, oncoming cars can come soon, so you must get away fast as soon as you have a gap;
+    -   if there are parked cars on the left before the junction, you need to go as a S shape to avoid the cars first and return to your lane (left lane) and <span style='color:#32CD32'>position right</span> close to the center.
         -   pay extra attention when there is no central line to separate two lanes. <span style='color:red'> Must NOT go to the opposite lane. [✘] </span>
         -   your indicator might go off when you try to avoid the parked cars. Just have it back on and carry on your turning.
 
     **Controlled** (with traffic lights)
 
-    -   you have to decide where you are going to wait; only <span style='color:chartreuse'>two cars</span> can wait in the box; if you are the 3rd car, you have to wait behind the waiting line; sometimes you have a waiting box for cyclists, do not go ahead there either;
+    -   you have to decide where you are going to wait; only <span style='color:#32CD32'>two cars</span> can wait in the box; if you are the 3rd car, you have to wait behind the waiting line; sometimes you have a waiting box for cyclists, do not go ahead there either;
         -   lights can change fast, if you the 3rd car, the chance is high that you will be stuck in the middle. That's the worst case scenario.
 
-    -   sometimes you have <span style='color:chartreuse'>separate traffic lights</span> for going ahead and turning right. E.g., Cherwell Dr to Marston Ln. Have to wait until your right arrow is green, <span style='color:red'>do NOT start off when you see the green light for going straight. [✘] </span>
+    -   sometimes you have <span style='color:#32CD32'>separate traffic lights</span> for going ahead and turning right. E.g., Cherwell Dr to Marston Ln. Have to wait until your right arrow is green, <span style='color:red'>do NOT start off when you see the green light for going straight. [✘] </span>
 
     -   whenever there are two lanes turning right (middle and right lane), if you choose the middle lane, you have to go ahead a bit when turning even if there is no car on the right lane;
 
     -   start turning right after you start off, so you do not end up onto cycle lanes or bus lanes.
 
 -   Turning left with traffic control
-    -   Very important to <span style='color:chartreuse'>check left mirrors</span> b/c cyclists are usually there.
+    -   Very important to <span style='color:#32CD32'>check left mirrors</span> b/c cyclists are usually there.
     -   If a cyclist is along side you and turning left $\rightarrow$ hold back and let him pass first. Alternatively, you could go but give a very wide gap to him. But this is less ideal.
     -   Be aware of any scooters on the left as well. They go fast.
 
@@ -150,21 +150,21 @@ tag: driving
 
     -   Roundabout signs are important!
     -   Bus lane signs sometimes have time period say 8-10am & 4-6pm, menaing outside the time periods, bus lane is a normal driving lane, and you must drive on it;
--   <span style='color:cyan'>**Manuevers**</span>
+-   <span style='color:#449aff'>**Manuevers**</span>
     -   observations
         -   parallel parking: look more on the right blind spot, don't stare at the left mirror for too long; stop when cars or pedestrians appear near you;
-    -   <span style='color:chartreuse'>Reference point</span>
-        -   Forward bay parking: $\ge$ 2.5 fingers. Turn <span style='color:chartreuse'>on move</span>. Remember to <span style='color:chartreuse'>indicate right</span>.
-        -   Reverse bay parking: $\le$ 1/4 of the hand brake from the top; <span style='color:chartreuse'>STOP at your reference point</span>, do observation again and carry on. Full lock to the left when you start moving. If you turn <span style='color:red'>on move [✘] </span>, will end up being <span style='color:red'>too close [✘] </span> to the left.
-        -   Parallel parking: Turn <span style='color:chartreuse'>on move</span>, do NOT need to stop at the reference point. Small triangle + more than 2 turns on the right (2.5 turns full lock to the right) if you find the gap is too small (about to hit the curb, reat door is on the curb). Have to keep an eye to see if you are getting too close to the curb, if so, must react to it—either $i$) turn more than two turns to the right, or $ii$) stop and move forward to correction.
-    -   Parallel parking: where is your <span style='color:chartreuse'>curb reference</span>, sometimes you have another line outside the curb; Observation when doing paralle parking is essential b/c it is usually in a build-up area, pedestrians and cars do pass by. You need to be fully aware of them. (Bay parking takes place in a car park usually, so you don't get other cars in the way.) If you <span style='color:red'>did NOT see cars or pedestrians around you [✘] </span>, it would be a serious fault.
+    -   <span style='color:#32CD32'>Reference point</span>
+        -   Forward bay parking: $\ge$ 2.5 fingers. Turn <span style='color:#32CD32'>on move</span>. Remember to <span style='color:#32CD32'>indicate right</span>.
+        -   Reverse bay parking: $\le$ 1/4 of the hand brake from the top; <span style='color:#32CD32'>STOP at your reference point</span>, do observation again and carry on. Full lock to the left when you start moving. If you turn <span style='color:red'>on move [✘] </span>, will end up being <span style='color:red'>too close [✘] </span> to the left.
+        -   Parallel parking: Turn <span style='color:#32CD32'>on move</span>, do NOT need to stop at the reference point. Small triangle + more than 2 turns on the right (2.5 turns full lock to the right) if you find the gap is too small (about to hit the curb, reat door is on the curb). Have to keep an eye to see if you are getting too close to the curb, if so, must react to it—either $i$) turn more than two turns to the right, or $ii$) stop and move forward to correction.
+    -   Parallel parking: where is your <span style='color:#32CD32'>curb reference</span>, sometimes you have another line outside the curb; Observation when doing paralle parking is essential b/c it is usually in a build-up area, pedestrians and cars do pass by. You need to be fully aware of them. (Bay parking takes place in a car park usually, so you don't get other cars in the way.) If you <span style='color:red'>did NOT see cars or pedestrians around you [✘] </span>, it would be a serious fault.
     -   Correction: 
         -   bay parking: always do when you go forward; need to turn about b/c you only have a very small space to correct.
         -   parallel parking: 
             -   too wide (too big triangle)—correct when you reverse back and go forward; 
             -   too tight (too small triangle)—2 options: $i$) turn more than 2 to the right, maybe a full lock of 2.5 to the right; or $ii$) go forward before pulling in. If the gap is too tight, your left rear wheel will hit the curb. If you rear door handle is on the curb, then you will hit the curb. Must stop before you hit the curb.  如果三角形过小，可以向右打多于两圈儿(2.5圈full lock to the right)或者向前走一下修正。但是如果三角形过大，无法在倒车过程中修正了，必须向后多退一下，往前走的过程中修正。
-            -   两害相权取其轻，<span style='color:chartreuse'>最好是triangle稍微大一些。No risk of hitting the curb.</span>
-            -   If there is a car coming behind, you <span style='color:chartreuse'>indicate left</span> to show your intention.
+            -   两害相权取其轻，<span style='color:#32CD32'>最好是triangle稍微大一些。No risk of hitting the curb.</span>
+            -   If there is a car coming behind, you <span style='color:#32CD32'>indicate left</span> to show your intention.
                 -   if he stops, you carry on;
                 -   if he goes around you, you stop to let him pass.
     -   keep wheels straight when you finish;
@@ -185,11 +185,11 @@ tag: driving
 -   不要盯着某个东西一直看, traffic signs, looking for slip roads。这样会分心导致看不到其他更重要的路况，比如speed limit, other cars, cyclists etc.
 
     -   如果看不到slip road, 证明它很短或者就是还没到。即使错过也问题不大。注意的是严禁未经indicate, mirror check , 突然拐弯。反正就是看到出口的路牌，心里感觉快到了就打转向灯，然后注意力放在继续行驶上，注意speed limit。到了slip road再exit。
-    -   在dual carriageway上，<span style='color:chartreuse'>indicate要早</span>。注意力放在center, right mirrors.
+    -   在dual carriageway上，<span style='color:#32CD32'>indicate要早</span>。注意力放在center, right mirrors.
     -   注意力是car control。
 
 
--   Sat-Nav. Have to look at <span style='color:chartreuse'>yards distance</span>, indicate at 80 yards (100 yards=91meters). 
+-   Sat-Nav. Have to look at <span style='color:#32CD32'>yards distance</span>, indicate at 80 yards (100 yards=91meters). 
     -   have to keep an eye on the routes for which direction you are going to next. Plan in advance!
     -   It is ok to miss a turn, sometimes a turn comes sooner than you anticipate. 100 yeards is very short. But never turn without mirror check and signal. Better to miss than turn at last minute and put people in danger.
     -   Sat-Nav will show the name of the road you are taking, so keep an eye on that.  
@@ -244,44 +244,44 @@ habitual faults, you can't have the same fault for over than 3 times on your tes
 
         
 
-### <span style='color:cyan'>**Roundabout Lance Choosing**</span>
+### <span style='color:#449aff'>**Roundabout Lance Choosing**</span>
 
 -   General
-    -   Read signs is important!! Get a general idea <span style='color:chartreuse'>which direction</span> you are going, and <span style='color:chartreuse'>which exit</span> you are taking.
+    -   Read signs is important!! Get a general idea <span style='color:#32CD32'>which direction</span> you are going, and <span style='color:#32CD32'>which exit</span> you are taking.
     -   If you are mistakenly at the left lane before an exit, you have to exit no matter what. If you carry on, the middle lane car will have no place to go, because he is going to be the left lane and you are on his way. This is likely to cause collision. So must exit if you are on the left hand lane already.
     -   Do not change lanes or indicate left until you pass your penultimate exit. Giveing signals too early will be misleading.
-    -   At big RAs such as Littlemore and Heyford, need to give <span style='color:chartreuse'>more gas when starting off</span>. Need to go a bit faster than usual.
+    -   At big RAs such as Littlemore and Heyford, need to give <span style='color:#32CD32'>more gas when starting off</span>. Need to go a bit faster than usual.
     
 -   Headington RA
     -   From A4142 Cowley to A40(E) London, 4th exit, turning right — right to middle lane (this does <span style='color:red'>NOT</span> seem to be a natural choice b/c middle lane is usually for going straight) 
         -   Tip to help remember: London is a busy exit; so both middle and right lane go to London; but good thing is both of them is split from the right lane;
     -   From A4142 to A40(W) Northway, the Sat Nav will say 3rd exit towards Marston b/c it also  counts a small exit. You take the left lane and carry on what you do. The middle and right lanes go to A40E towards London.
         -   mind the 30m/h speed limit still applies for a while untill you see the 50m/h speed limit sign. 
-    -   From Headington to London, 3rd exit, going straight — <span style='color:chartreuse'>left to middle lane</span>; get to the left lane after the bus lane;
-    -   From Northway to A4142, 4th exit, turning right, 2 o'clock—right to middle lane, <span style='color:chartreuse'>indicate right!!</span> 
+    -   From Headington to London, 3rd exit, going straight — <span style='color:#32CD32'>left to middle lane</span>; get to the left lane after the bus lane;
+    -   From Northway to A4142, 4th exit, turning right, 2 o'clock—right to middle lane, <span style='color:#32CD32'>indicate right!!</span> 
         -   <span style='color:red'>Do NOT forget the right signal. [✘] </span>
 -   Cowley RA
     -   From Ring Rd Noth to Cowley Business Park, 4th exit, turning right: 
         -   Right when entering. Right when joining the RA. 
-        -   <span style='color:chartreuse'>Middle lane</span> on the RA. Right lane split into middle and right. The split is very fast, you choose the middle lane when you reach the split. (This is not a special lane choice b/c right lane seems to be a more natural choice for turning right) You will exit onto the left lane of the exit.
+        -   <span style='color:#32CD32'>Middle lane</span> on the RA. Right lane split into middle and right. The split is very fast, you choose the middle lane when you reach the split. (This is not a special lane choice b/c right lane seems to be a more natural choice for turning right) You will exit onto the left lane of the exit.
         -   Stick with right lane is ok but will exit onto the right lane. Have to move back to left lane when possible.
 -   Littlemore RA
     -   From A4142 Cowley RA to Iffley, 3rd exit, turning right. When approaching: move to the right lane early (when you see the green sign saying Westgate...) and indicate right before the lane splits into middle and right lanes, so people know which lane you are choosing. 
     -   **From Iffley Rose Hill to Oxford Rd/ Littlemore, 2nd exit**, straight ahead
-        -   Entering: <span style='color:chartreuse'>middle lane</span>. There is no traffic light for you to join the RA, so you have to do observation and make a decision to join.
-        -   after passing the 1st exit, move to the <span style='color:chartreuse'>left lane</span> (unless there is a queue in the left lane, must make independent judgement); be prepared to exit; 
+        -   Entering: <span style='color:#32CD32'>middle lane</span>. There is no traffic light for you to join the RA, so you have to do observation and make a decision to join.
+        -   after passing the 1st exit, move to the <span style='color:#32CD32'>left lane</span> (unless there is a queue in the left lane, must make independent judgement); be prepared to exit; 
         -   be aware of the poles when you join Oxford Rd.
     -   From Rose Hill to Ring Road towards Midlands, 3rd exit, turning right
-        -   Entering: <span style='color:chartreuse'>middle lane (mid lane goes straight ahead or turing right)</span>
+        -   Entering: <span style='color:#32CD32'>middle lane (mid lane goes straight ahead or turing right)</span>
 
 
 -   Kassam Stadium
     -   Last RA before joining A4074 (back to Oxford city center): 1st exit, turning left. When approaching, indicate right and get to the right lane.
     -   Grenoble RA W2 from west to east, taking the 2nd exit, choose the middle lane. This is the only middle lane in Kassam Stadium RAs.
-    -   Otherwise, always take the <span style='color:chartreuse'>left lane</span>, do not indicate when joining RAs, indicate before you leave.
+    -   Otherwise, always take the <span style='color:#32CD32'>left lane</span>, do not indicate when joining RAs, indicate before you leave.
 -   Heyford RA
 
-    -   From Littlemore A4142 to A4074 Rose Hill, 2nd exit, turning right. Indicate left and join the slip road $\rightarrow$ <span style='color:chartreuse'>cancel left signal</span> and join the RA $\rightarrow$  Leave RA, drive towards Rose Hill. 
+    -   From Littlemore A4142 to A4074 Rose Hill, 2nd exit, turning right. Indicate left and join the slip road $\rightarrow$ <span style='color:#32CD32'>cancel left signal</span> and join the RA $\rightarrow$  Leave RA, drive towards Rose Hill. 
 
         -   1st and 2nd exit share the slip road. 1st exit goes to Sainsbury.
     -   From A4074 to A4142, 2nd exit, turning right. Middle lane, indicate right. Exit onto the right lane, need to do observation and indicate left to move to the left lane after you cross the RA.
@@ -358,7 +358,7 @@ ___
 
 moving off, doing turns, and T junctions the proper way to pass with the correct mirror checks as well as pulling over etc. 
 
-<span style='color:cyan'>**Moving off**</span> (Pull away) 启动 (start button + Air button) $\rightarrow$ 挂1挡，find biting point, hold住 $\rightarrow$ Mirror, <u>Signal right</u> $\rightarrow$ 拉手刹(<u>push the button</u> on handbrake), last <u>blind spot and mirror check</u> $\rightarrow$ 起步
+<span style='color:#449aff'>**Moving off**</span> (Pull away) 启动 (start button + Air button) $\rightarrow$ 挂1挡，find biting point, hold住 $\rightarrow$ Mirror, <u>Signal right</u> $\rightarrow$ 拉手刹(<u>push the button</u> on handbrake), last <u>blind spot and mirror check</u> $\rightarrow$ 起步
 
 一启动，二挂档，三镜四灯，五手刹，六盲区，七起步。
 
@@ -383,18 +383,18 @@ Car stalls when finding the biting point.
 
 
 
-**Stopping** (<span style='color:chartreuse'>Pull up/over</span>)
+**Stopping** (<span style='color:#32CD32'>Pull up/over</span>)
 
 >   1.   check mirrors, 
 >   2.   signal left; 
->   3.   ease off gas and brake gently, <span style='color:chartreuse'><u>put the clutch down</u></span> (don't need to change to gear 1, just focus on positioning and braking). We could stop the car in whatever our current gear is, but we need to push the clutch down completely to avoid stalling.
+>   3.   ease off gas and brake gently, <span style='color:#32CD32'><u>put the clutch down</u></span> (don't need to change to gear 1, just focus on positioning and braking). We could stop the car in whatever our current gear is, but we need to push the clutch down completely to avoid stalling.
 >   4.   position to a good place (<30 cm away from the curb) $\rightarrow$ brake to stop and change to neutral gear $\rightarrow$  handbrake up.
 >
 >   Notes: 停车踩离合的原理 
 >
 >   如果我们仅仅是减速，只需要踩刹车，但是如果我们需要刹车到停止，我们就需要踩下离合。如果不是空挡，离合在不踩下的情况下，发动机是和输出轴连接的，这样如果发动机动力小于阻力(1档情况下)，车轮阻力会导致车辆停止，进而引起发动机也跟着停止，车子熄火。但是如果是在高档位，车子动力大，踩刹车就不会熄火。
 >
->   所以我们在<span style='color:chartreuse'><u>刹车停车时需要踩下离合器</u></span>，这样车子在停下来时，输出轴和发动机分离，发动机不会熄火，然后再拉上手刹切换到空挡，再放开离合和刹车，这时候由于是空挡，汽车和发动机没有连接，发动机仍然不会熄火，这样我们可以快速了开始下一次启动。
+>   所以我们在<span style='color:#32CD32'><u>刹车停车时需要踩下离合器</u></span>，这样车子在停下来时，输出轴和发动机分离，发动机不会熄火，然后再拉上手刹切换到空挡，再放开离合和刹车，这时候由于是空挡，汽车和发动机没有连接，发动机仍然不会熄火，这样我们可以快速了开始下一次启动。
 >
 
 When you are on a road
@@ -411,7 +411,7 @@ When you are on a road
 
 
 
-**Making turns** <span style='color:chartreuse'>MSPSL Mirror-Signal-Position-Speed-Look</span>
+**Making turns** <span style='color:#32CD32'>MSPSL Mirror-Signal-Position-Speed-Look</span>
 
 <img src="https://www.drivingtesttips.biz/wp-content/uploads/2014/05/left-turn-driving.jpg" alt="How to make a left turn" style="zoom:80%;" />
 
@@ -455,7 +455,7 @@ When you are on a road
 
 
 
-<span style='color:cyan'>**Things to bear in mind**</span>
+<span style='color:#449aff'>**Things to bear in mind**</span>
 
 -   finding biting point 启动时离合器要hold住!!
 
@@ -471,7 +471,7 @@ When you are on a road
 
 -   Ease on the brake. On gear 1, do not use break (otherwise will stall), just down the clutch you will stop. Gear 1 max speed: 20 mph; need to change to gear 2 immediately after starting off.
 
--   Higher Gears (2, 3, etc): brake first, then lower gears if needed. When changing gears, use your palm. It’s not always necessary to change gears one at a time. (<u>换低挡位可以跳跃</u>，不需要一档一档换。<span style='color:chartreuse'><u>升挡位需要一档一档升</u></span>。)
+-   Higher Gears (2, 3, etc): brake first, then lower gears if needed. When changing gears, use your palm. It’s not always necessary to change gears one at a time. (<u>换低挡位可以跳跃</u>，不需要一档一档换。<span style='color:#32CD32'><u>升挡位需要一档一档升</u></span>。)
 
     -    It’s quite acceptable, and often preferable to miss out gears by going from fourth say, straight down to second.
     -   gear 2: 10-20 mphl; gear 3: 20-30mph; gear 4: 30-45;
@@ -484,7 +484,7 @@ When you are on a road
 
 -   熄火的原因：转速太低
 
-    -   <u>车快熄火的时候会抖</u>，这时候根据情况<span style='color:chartreuse'>**踩油或换挡或踩下离合**</span>。
+    -   <u>车快熄火的时候会抖</u>，这时候根据情况<span style='color:#32CD32'>**踩油或换挡或踩下离合**</span>。
     -   行驶过程中的<u>急停</u>容易熄火。原因：没踩离合器。当发动机转速下降、车辆抖动时要及时踩下离合，切断动力，才能保证不熄火。
     -   起步熄火：离合抬起太快，发动机动力不足，给油不及时导致发动机憋闷熄火。
     -   挡位与速度不匹配
@@ -511,7 +511,7 @@ When you are on a road
 
 -   可以踩下离合之后不马上换档。这种情况一般在需要减速换挡或者停车之前。换挡可以从容进行，踩下离合后缓几秒再换档也是没有问题。
 
--   If we need to slow down the car to less than the current gear's minimum speed we will have to be very carefull. (eg <span style='color:chartreuse'>2nd gear to pass junctions</span>) $\rightarrow$ if you want to slow down, need to<span style='color:chartreuse'> **press clutch down**</span>; if you have a clear way and don't need to slow down, a second gear without gas or brake would be fine.
+-   If we need to slow down the car to less than the current gear's minimum speed we will have to be very carefull. (eg <span style='color:#32CD32'>2nd gear to pass junctions</span>) $\rightarrow$ if you want to slow down, need to<span style='color:#32CD32'> **press clutch down**</span>; if you have a clear way and don't need to slow down, a second gear without gas or brake would be fine.
 
     -   if we simply press the brake, we will feel the engine resists the brakes. Shudder a little then stall.
     -   Instead, we should <u>press the clutch down</u> and adjust the biting point to control the amount of drive to the wheels, use brakes as assitance. (离合主要控速，刹车辅助控速)
@@ -549,7 +549,7 @@ ___
 
 ### Lesson 3 - Aug 24, 2022
 
-今天主要是drive on busy roads and how to pass <span style='color:chartreuse'>crossroads</span>. Checks on mirrors!
+今天主要是drive on busy roads and how to pass <span style='color:#32CD32'>crossroads</span>. Checks on mirrors!
 
 注意人行横道，左侧自行车，起步中或者暂时到站停车的公交车。
 
@@ -585,7 +585,7 @@ ___
     -   in a new road, mirror check.
     -   when making turns, do mirror check right before you make the turn.
     -   passing slip road: center-left; help them to merge;
-    -   <span style='color:chartreuse'>When turning left, have to check <u>left mirror</u> for cyclist. </span>
+    -   <span style='color:#32CD32'>When turning left, have to check <u>left mirror</u> for cyclist. </span>
         在路上超自行车也很容易造成大错，不是不能超，而是需要有技巧。英国的自行车是法律规定可以在机动车道上行驶的，其他车辆必须给他们足够的空间，如果要超车必须在空间足够宽敞的道路上，不能给骑行人员造成危险。
     -   Junction转弯以后，要从车里边的<u>后视镜</u>向后看一下后边的traffic situation，不要影响后边的traffic，比如后边的车辆不能因为你转弯后速度太慢而减速，否则一个major就挂掉了。
     -   定期检查mirror，开车过程中大概每隔15-30s就需要检查镜子，而且动作幅度大一点，一定要让考官看到。其他一些特殊情况，比如斑马线停车的时候一定要<u>先看后视镜</u>，<u>踩刹车</u>之前，要先检查mirror。从右侧绕行停车的公交时，先检查mirror。每次检查mirror一定是两个镜子，要么后视镜和右侧镜子，要么后视镜和左侧镜子。
@@ -597,7 +597,7 @@ ___
     -   <u>Allow only 1 or 2 cars waiting in the middle</u>. If you are the 3rd car in the queue, <u>wait behind the stop line</u>, until the cars in front of you have past the crossroads and you have enough a gap to pass for sure.  
     -   Do not block "KEEP CLEAR" road markings on the road.
     -   If you decide the crossroads is not a good one to turn (e.g., you meet a big lorry), you could just go straight and make a turn at the next crossroads.
-    -   Need to signal accurately, <span style='color:chartreuse'>don't signal too early</span> as there might be two consessive turns and signal too early might be misleading the driver behind.
+    -   Need to signal accurately, <span style='color:#32CD32'>don't signal too early</span> as there might be two consessive turns and signal too early might be misleading the driver behind.
         -   I tend to signal way too early. <span style='color:red'>[✘]</span>
 
 -   Crossroads turning right
@@ -610,23 +610,23 @@ ___
 
     -   **offside 大转弯**: the side away from the curb (<u>driver side</u>).  适合narrow roads; go behind the coming car and turn right. <u>This is safer</u> as it enables drivers on both sides of the road to see oncoming traffic as you move around. Better view. 
 
-        It is suggested to <span style='color:chartreuse'><u>go forward straight to the point of turn</u></span> before turning, and make a offside turn when you see fit. $\rightarrow$ This way you will give cars behind us enough room to go forward, drivers behind have a better view of what's happening at the crossroads; 
+        It is suggested to <span style='color:#32CD32'><u>go forward straight to the point of turn</u></span> before turning, and make a offside turn when you see fit. $\rightarrow$ This way you will give cars behind us enough room to go forward, drivers behind have a better view of what's happening at the crossroads; 
 
         Offside 大转弯只存在理论中，知道怎么回事儿就行。实际上从没用过… 😂
 
-    -   **nearside 小转弯**: the side nearest to the curb (passenger side). nose-to-nose turn; 适合wide roads; used more often; driver turn in front of each other; blocked view. <span style='color:chartreuse'>学车到现在<u>从没</u>走过大转弯，一直用nearside.</span>
+    -   **nearside 小转弯**: the side nearest to the curb (passenger side). nose-to-nose turn; 适合wide roads; used more often; driver turn in front of each other; blocked view. <span style='color:#32CD32'>学车到现在<u>从没</u>走过大转弯，一直用nearside.</span>
 
     <img src="{{ site.baseurl}}/images/image-20220824132439609.png" alt="image-20220824132439609" style="zoom:100%;" />
 
     -   If you decide the crossroads is not suitable for turning, you may carry on and turn at the next  junction instead. E.g., oncoming lorry turning right as well.
 
--   <u>Box junctions</u>: you can sit in the yellow box as long as you are turning right and <span style='color:chartreuse'>your exit is clear</span>, and you are just giving way to oncoming vehicles.
+-   <u>Box junctions</u>: you can sit in the yellow box as long as you are turning right and <span style='color:#32CD32'>your exit is clear</span>, and you are just giving way to oncoming vehicles.
 
     ![image-20220824133418559]({{ site.baseurl}}/images/image-20220824133418559.png)
 
--   低速驾驶时，松离合时<span style='color:chartreuse'>慢慢松</span>，否则会bump. Do not slam on the brake because it might cause rear collision. Check the center-right mirror before braking.
+-   低速驾驶时，松离合时<span style='color:#32CD32'>慢慢松</span>，否则会bump. Do not slam on the brake because it might cause rear collision. Check the center-right mirror before braking.
 
--   有pedestrian corssing时，要<span style='color:chartreuse'><u>预判</u></span>。Plan what you are going to do as soon as you see a crossing. 看有没有人，有人要准备停车，没有人就正常行驶。
+-   有pedestrian corssing时，要<span style='color:#32CD32'><u>预判</u></span>。Plan what you are going to do as soon as you see a crossing. 看有没有人，有人要准备停车，没有人就正常行驶。
 
     -   uncontrolled crossings: <u>zebra crossing</u>, need to stop and give way to pedestrains.
 
@@ -686,14 +686,14 @@ ___
 -   手刹抬起的时候 要<u>按下按钮</u>;
 
 -   左转的时候往外一点，不要离马路牙太近。
--   靠边<span style='color:chartreuse'><u>停车时直接离合踩到底</u></span>，刹车控制车速。如果需要调整位置才换到1档，否则直接找好位置停车，然后空档就好。
+-   靠边<span style='color:#32CD32'><u>停车时直接离合踩到底</u></span>，刹车控制车速。如果需要调整位置才换到1档，否则直接找好位置停车，然后空档就好。
 -   在坡上停车或者慢速行驶的话，离合半联动hold住的时间要比正常情况下长，保持车的最大动力，否则动力不足容易熄火。
 -   红绿灯起步的时候，刹车快点松，离合慢点松。刹车松的慢的话，车会抖。
 -   20 mph限速的时候要用3档。开车要考虑fuel efficiency. 2档过渡后如何可以升3档就马上升3档。
 -   注意speed limit.
     -   遇到换speed limit的时候，先换高档位，过了指示牌后提速。
 
-起步的时候有可能遇到车辆经过，需要等待。等待结束，车准备开出来时要<span style='color:chartreuse'><u>再看一次盲区</u></span>。
+起步的时候有可能遇到车辆经过，需要等待。等待结束，车准备开出来时要<span style='color:#32CD32'><u>再看一次盲区</u></span>。
 
 
 
@@ -716,29 +716,29 @@ ___
 Emerging
 
 -   Observation at 2 car lengths.
-    -   look on the <span style='color:chartreuse'>right</span>. 
-        -   If they are signalling <span style='color:chartreuse'>left</span> (meaning they are about to leave), you can join the roundabout now. 
-        -   If they do <span style='color:chartreuse'>not signal (drive ahead) or signal right</span>, meaning they are coming in your way, you need to wait until a safe gap. But if they stop there and are giving ways to cars on their right (a shield/bloacker car appears on your left), you could join since there will be a safe gap for you.
+    -   look on the <span style='color:#32CD32'>right</span>. 
+        -   If they are signalling <span style='color:#32CD32'>left</span> (meaning they are about to leave), you can join the roundabout now. 
+        -   If they do <span style='color:#32CD32'>not signal (drive ahead) or signal right</span>, meaning they are coming in your way, you need to wait until a safe gap. But if they stop there and are giving ways to cars on their right (a shield/bloacker car appears on your left), you could join since there will be a safe gap for you.
     -   **Shield/cover/blocker** is the car you right car must give way to. When the car on your right gives way, you can join the roundabout.
 
 -   Gear 2 or 1. 
     -   gear 2 if you have a clear way and don't need to stop and wait for joinging.
     -   gear 1 if you have to stop and wait for a safe gap.
 
--   When you stop and wait, use gear 1 and <span style='color:chartreuse'>wait behind the waiting line</span>. Do not cross it. Otherwise, it's a major fault.
+-   When you stop and wait, use gear 1 and <span style='color:#32CD32'>wait behind the waiting line</span>. Do not cross it. Otherwise, it's a major fault.
 -   U-turn is a right turn, indicate right as you join.
--   observation 误区—mini-roundabouts are small and if a learner driver sees a car approaching the roundabout from the left or there are oncoming cars (which you need to give way suppose it were a crossroad), a learner driver can be tempted to stop, especially if the vehicle appears to be traveling at speed. $\rightarrow$ <span style='color:chartreuse'>Pay attention to your right</span>, don't be tempted to stop and giva way to cars on your left or oncoming cars.
+-   observation 误区—mini-roundabouts are small and if a learner driver sees a car approaching the roundabout from the left or there are oncoming cars (which you need to give way suppose it were a crossroad), a learner driver can be tempted to stop, especially if the vehicle appears to be traveling at speed. $\rightarrow$ <span style='color:#32CD32'>Pay attention to your right</span>, don't be tempted to stop and giva way to cars on your left or oncoming cars.
 -   Need not to choose lanes on mini-roundabouts, might even drive on the center circle.
     -   half on and half off the center circle. 
 
 
 **Leave**
 
--   <span style='color:chartreuse'>do not need to signal</span> when you leave because your signal or lack of signal when you approach is enough for people to know where you are going.
+-   <span style='color:#32CD32'>do not need to signal</span> when you leave because your signal or lack of signal when you approach is enough for people to know where you are going.
 
 **Crossroads turning right**
 
--   Watining point: <span style='color:chartreuse'>the wing mirror in line with the center line</span> of the new road. 本次练习的major fault: 
+-   Watining point: <span style='color:#32CD32'>the wing mirror in line with the center line</span> of the new road. 本次练习的major fault: 
     -   my fault: <span style='color:red'>车开到对面车道等候右转，严重影响对面车辆行驶。[✘] </span>
 
 
@@ -752,11 +752,11 @@ ___
 
 练习了mini roundabout, get more comfortable with it; meeting vehicles on residential areas; turning right on crossroads.  
 
-Need to improve <span style='color:chartreuse'>road scan</span> (read road signs; speed limit; traffic on crossroads); look far ahead to anticipate; <span style='color:chartreuse'>gentle steering</span> especially when you are slow; steer after you start off; ask if not sure where to go.
+Need to improve <span style='color:#32CD32'>road scan</span> (read road signs; speed limit; traffic on crossroads); look far ahead to anticipate; <span style='color:#32CD32'>gentle steering</span> especially when you are slow; steer after you start off; ask if not sure where to go.
 
 **Meeting oncoming vehicles**
 
--   car position: <span style='color:chartreuse'>half in half out</span> so you can see what's going on ahead;
+-   car position: <span style='color:#32CD32'>half in half out</span> so you can see what's going on ahead;
     -   too in: can't observe road situation ahead;
     -   too out: still block the road, giving way does not work;
 
@@ -771,17 +771,17 @@ Need to improve <span style='color:chartreuse'>road scan</span> (read road signs
 -   problem is first gear passing and stop to give way. Timing to steer right: after start off, right wing mirror is on the half the road;
     -   1st gear goes with clutch down, so you don't get your car to bump or stall.
     -   start off after waiting for traffic: hold biting point $\rightarrow$ release brake $\rightarrow$ give gas  $\rightarrow$ lift clutch slowly. Same procedure for upward slopes start off (hold biting point for a while, longer than you usually do).
-    -   observation: look at the right for pedestrians and parked cars if you have a clear way; look ahead for oncoming vehicles whom you give way to; should <span style='color:chartreuse'>focus more on the road ahead</span>, situation change fast with oncoming vehicles;
+    -   observation: look at the right for pedestrians and parked cars if you have a clear way; look ahead for oncoming vehicles whom you give way to; should <span style='color:#32CD32'>focus more on the road ahead</span>, situation change fast with oncoming vehicles;
 -   position on the center right; but not on the other side of the road (very dangerous) <span style='color:red'>[✘] </span>, keep staying on your side;
 -   car head points to the right slightly if there is a separate turning right lane;
 
 **mini roundabouts**
 
--   <span style='color:chartreuse'>do not brake</span> on the roundabout unless necessary. Once you are already on the roundabout, you have priority. 
+-   <span style='color:#32CD32'>do not brake</span> on the roundabout unless necessary. Once you are already on the roundabout, you have priority. 
 
 **Maneuver**
 
--   clutch down to slow down; up to start off; <span style='color:chartreuse'>have to release brake early</span>, so you don't have a very high biting point of the clutch and dash off once release brake; 慢松离合，快松刹车。
+-   clutch down to slow down; up to start off; <span style='color:#32CD32'>have to release brake early</span>, so you don't have a very high biting point of the clutch and dash off once release brake; 慢松离合，快松刹车。
 
 **Road bumps**
 
@@ -798,7 +798,7 @@ Need to improve <span style='color:chartreuse'>road scan</span> (read road signs
 
 **Wait on traffic lights**
 
--   do not block the <span style='color:chartreuse'>cycle lane</span> when waiting for traffic lights; otherwise cyclists won't be able to pass.
+-   do not block the <span style='color:#32CD32'>cycle lane</span> when waiting for traffic lights; otherwise cyclists won't be able to pass.
 
 -   when you start off, observe the left side for cyclists;
 
@@ -828,7 +828,7 @@ Practice controlled crossroads
 
 -   Juction emerging (from minor to main road)
 
-    -   <span style='color:chartreuse'>do a nearside turn, 小转弯</span>，提前打方向盘，less steering; <span style='color:chartreuse'>**先起步**</span>再打方向盘
+    -   <span style='color:#32CD32'>do a nearside turn, 小转弯</span>，提前打方向盘，less steering; <span style='color:#32CD32'>**先起步**</span>再打方向盘
 
     -   offside is much harder, 大转弯,  have to steer a lot, and you go like a straight turn.
 
@@ -842,7 +842,7 @@ Practice controlled crossroads
 
 
 
-When **approaching** junctions, traffic lights, pedestrian crossings [<span style='color:chartreuse'>**2档足矣**</span>；1档只有在确定要停车的时候才会使用]
+When **approaching** junctions, traffic lights, pedestrian crossings [<span style='color:#32CD32'>**2档足矣**</span>；1档只有在确定要停车的时候才会使用]
 
 -   brake to slow down $\rightarrow$ 2nd gear 提前换档; don't assume to stop (i.e., do not change to 1st gear);
 -   if you are sure to stop, then you can go for 1st gear;
@@ -851,7 +851,7 @@ When **approaching** junctions, traffic lights, pedestrian crossings [<span styl
 
 When **meeting vehicles**
 
--   turning left <span style='color:chartreuse'>**early**</span> and go further ahead a little bit, so your car body is kind of straight.
+-   turning left <span style='color:#32CD32'>**early**</span> and go further ahead a little bit, so your car body is kind of straight.
 -   curved cars will take up more space and block the road.
 
 
@@ -879,10 +879,10 @@ Practice on junctions, crossroads, and mini roundabouts.
 
 **General**
 
--   When you start off, be sure to ready your <span style='color:chartreuse'>biting point</span>, do not let the car roll back.
--   Approaching junctions, crossroad, ...: First <span style='color:chartreuse'>Mirror-Signal</span> then slow down, don't slow down first.
+-   When you start off, be sure to ready your <span style='color:#32CD32'>biting point</span>, do not let the car roll back.
+-   Approaching junctions, crossroad, ...: First <span style='color:#32CD32'>Mirror-Signal</span> then slow down, don't slow down first.
 -   I tend to get too close to the left side on narrow roads; pay attention to your position, ideally middle of two lanes;
--   <span style='color:chartreuse'>Off the gas</span> when clutch down (changing gears); otherwise the car will struggle, rumble and shudder, like it's going to stalll;
+-   <span style='color:#32CD32'>Off the gas</span> when clutch down (changing gears); otherwise the car will struggle, rumble and shudder, like it's going to stalll;
 -   Turn right: don't start turning unless you are sure of a clear way; otherwise will be stuck in the opposite lane, which is very dangerous. [<span style='color:red'>Do not stop in the opposite lane! [✘]</span>]
 
 **Junctions**
@@ -892,7 +892,7 @@ Practice on junctions, crossroads, and mini roundabouts.
 
 **Crossroads turning right** (uncontrolled)
 
--   look advance if you have a clear way <span style='color:chartreuse'>**<u>before</u>** you start turning</span>. 
+-   look advance if you have a clear way <span style='color:#32CD32'>**<u>before</u>** you start turning</span>. 
     -   If you have a clear way, then start turning. 
     -   If you need to give way to oncoming vehicles, pedestrains, cyclist, etc., wait in your own lane (keep your signal on; do not cancel your signal, you are still waiting to turn) for a clear way and then turn.
 
@@ -900,7 +900,7 @@ Practice on junctions, crossroads, and mini roundabouts.
 
 **Crossroads turning right** (controlled)
 
--   <span style='color:chartreuse'>judge if you have enough time to pass</span>
+-   <span style='color:#32CD32'>judge if you have enough time to pass</span>
     -   if yes, then you go ahead;
     -   if no or not sure, then you wait behind the waiting line. You don't want to be trapped in the middle and block the traffic (major fault).
 
@@ -920,15 +920,15 @@ Practice on junctions, crossroads, and mini roundabouts.
 
 Same routine as mini-roundabouts; 3-exit for Kassam Stadium RAs; 
 
--   <span style='color:chartreuse'>always use the left lane</span>, except the 2nd one from the West—use middle lane; 
+-   <span style='color:#32CD32'>always use the left lane</span>, except the 2nd one from the West—use middle lane; 
 -   when leaving the roundabout, check left mirror, signal left. 
--   Do not indicate when you join, always <span style='color:chartreuse'>signal left when leaving</span>.
+-   Do not indicate when you join, always <span style='color:#32CD32'>signal left when leaving</span>.
     -   Indicate right when eatering from Cowley RA, Grenoble RA East 1, b/c it's the 2nd exit and on the right.
 
 If your exit is the 1st exit which is at or past 12 o'clock, do not indicate when joining, indicate when leaving.
 
--   <span style='color:cyan'>**From East to West**</span>, from Cowley RA Garsington Rd towards A4074 and Heyford RA: take the 1st exit (except the 1st RA, which need to take 2nd exit), no indicating except for the first roundabout. 
--   <span style='color:chartreuse'>Always take the left lane, follow the sign to Reading.</span>
+-   <span style='color:#449aff'>**From East to West**</span>, from Cowley RA Garsington Rd towards A4074 and Heyford RA: take the 1st exit (except the 1st RA, which need to take 2nd exit), no indicating except for the first roundabout. 
+-   <span style='color:#32CD32'>Always take the left lane, follow the sign to Reading.</span>
     
 -   Grenoble RA East 1: 1st roundabout coming from Cowley RA, indicating right, 2nd exit, follow the sign to Reading.
 
@@ -947,13 +947,13 @@ If your exit is the 1st exit which is at or past 12 o'clock, do not indicate whe
 
 -   The penultimate roundabout
 
-    -   1st exit is on the left side, do need to <span style="color:chartreuse">indicate left</span> when joining b/c the 1st exit is indeed on the left, unlike other RAs whose 1st exit is on the right.
+    -   1st exit is on the left side, do need to <span style="color:#32CD32">indicate left</span> when joining b/c the 1st exit is indeed on the left, unlike other RAs whose 1st exit is on the right.
 
         <img src="{{ site.baseurl}}/images/image-20230120093828569.png" alt="image-20230120093828569" style="zoom:60%;" />
 
 -   The last exit before going back to Oxford city center, joining A4074 afterwards. 
 
-    -   Must move to the <span style='color:chartreuse'>Right lane</span>; signal right; move to the right lane with road marking "OXFORD". When you are on the right lane, just follow it through to OXF, NO need to indicate left.
+    -   Must move to the <span style='color:#32CD32'>Right lane</span>; signal right; move to the right lane with road marking "OXFORD". When you are on the right lane, just follow it through to OXF, NO need to indicate left.
 
         <img src="{{ site.baseurl}}/images/image-20230119083753888.png" alt="image-20230119083753888" style="zoom:50%;" />
 
@@ -963,7 +963,7 @@ If your exit is the 1st exit which is at or past 12 o'clock, do not indicate whe
 
     <img src="{{ site.baseurl}}/images/image-20221129105759778.png" alt="image-20221129105759778" style="zoom:50%;" />
 
-​		After this roundabout, you go to <span style="color:chartreuse">A4074</span>; and you will reach Heyford Hill roundabout;
+​		After this roundabout, you go to <span style="color:#32CD32">A4074</span>; and you will reach Heyford Hill roundabout;
 
 -   **Heyford Hill roundabout**; 
     
@@ -975,7 +975,7 @@ If your exit is the 1st exit which is at or past 12 o'clock, do not indicate whe
 
 ___
 
--   <span style='color:cyan'>**From West to East**</span>, A4074 Heyford RA: <span style='color:chartreuse'>2nd exit, no indicating when joining, indicating after passing the 1st exit.</span> 1st exit usually leads to parking lots. From west to east follows the sign to Cowley. This is harder b/c the first few RAs are quite close, but the distance between RAs gets longer when you go east. 
+-   <span style='color:#449aff'>**From West to East**</span>, A4074 Heyford RA: <span style='color:#32CD32'>2nd exit, no indicating when joining, indicating after passing the 1st exit.</span> 1st exit usually leads to parking lots. From west to east follows the sign to Cowley. This is harder b/c the first few RAs are quite close, but the distance between RAs gets longer when you go east. 
 
     -   Left Lane; do not indicate when joining the RA; indicate left after you have past the 1st exit.
 
@@ -987,15 +987,15 @@ ___
 
 -   Grenoble RA West2, 2nd exit to Cowley, turning right.
 
-    -   left lane goes to Oxford Science Park, take the <span style='color:chartreuse'>middle lane</span>; always have a look at your right mirror for cars on your right;
-    -   Use the <span style='color:chartreuse'>charcoal shading</span> to guide your position.
+    -   left lane goes to Oxford Science Park, take the <span style='color:#32CD32'>middle lane</span>; always have a look at your right mirror for cars on your right;
+    -   Use the <span style='color:#32CD32'>charcoal shading</span> to guide your position.
     <img src="{{ site.baseurl}}/images/image-20230207184048077.png" alt="image-20230207184048077" style="zoom:50%;" />
 
 -   Common Grenoble RAs: This is how most Kassam Stadium roundabouts look like.
 
-    -   From East to West, from Garsington—the <span style='color:chartreuse'>1st exit</span> is a bit to the right, take the <span style='color:chartreuse'>left lane</span>: do not signal when enter, signal left when leave; hug the curb;
+    -   From East to West, from Garsington—the <span style='color:#32CD32'>1st exit</span> is a bit to the right, take the <span style='color:#32CD32'>left lane</span>: do not signal when enter, signal left when leave; hug the curb;
         
-    -   From West to East, from A4074—take the <span style='color:chartreuse'>2nd exit, left lane</span>; 1st exit leads to residentail areas, business parks, parking lots;
+    -   From West to East, from A4074—take the <span style='color:#32CD32'>2nd exit, left lane</span>; 1st exit leads to residentail areas, business parks, parking lots;
         
         <img src="{{ site.baseurl}}/images/image-20221116224441570.png" alt="image-20221116224441570" style="zoom:50%;" />
 
@@ -1008,7 +1008,7 @@ ___
 **Kassam Stadium roundabouts** [light traffic area; alleged to be one of the easiest test routes in Oxford]
 
 -   Approaching: 
-    -   mirror $\rightarrow$ (signal $\rightarrow$) slow down $\rightarrow$ clutch down to 2nd gear $\rightarrow$ position (choose the correct lane) $\rightarrow$ look on your <span style='color:chartreuse'>right</span> if there is oncoming vehicles you need to give way to
+    -   mirror $\rightarrow$ (signal $\rightarrow$) slow down $\rightarrow$ clutch down to 2nd gear $\rightarrow$ position (choose the correct lane) $\rightarrow$ look on your <span style='color:#32CD32'>right</span> if there is oncoming vehicles you need to give way to
         -   if the oncoming vehicle is signaling right or no signal (meaning they are turning right or going straight)$\Rightarrow$ give way;
         -   if the oncoming vehicle is signaling left (most likely they are leaving) $\Rightarrow$ carry on;
     -   when your are taking the 1st (or 2nd exit–the 1st exit is a minor one) on Kassam Stadium roundabouts, normally don't need to signal at entrance, because you are most likely going ahead or turning right (the 1st exit is after 12 o'clock);
@@ -1042,7 +1042,7 @@ ___
     -   bus ahead: can you pass it? 
         Is the bus starting off? [Yes: no overtaking; No: could overtake if condition allows]
         Are there oncoming vehicles? [Yes: no overtaking; No: probably]
-    -   <span style='color:chartreuse'>scooter and eletric bikes</span> ahead: they go as fast as cars, not worth it to overtake;
+    -   <span style='color:#32CD32'>scooter and eletric bikes</span> ahead: they go as fast as cars, not worth it to overtake;
 
 -   Do not signal at crossroads too early, it might be misleading if there are small side crossings (car park etc).
 
@@ -1050,7 +1050,7 @@ ___
 
 -   Start off at crossroads
 
-    -   <span style='color:chartreuse'>look at wing mirrors</span> (both sides) to make sure no cyclists are overtaking.
+    -   <span style='color:#32CD32'>look at wing mirrors</span> (both sides) to make sure no cyclists are overtaking.
 
 -   Meeting oncoming vehicles
 
@@ -1069,15 +1069,15 @@ ___
 **Slip road and dual carriageways.**
 
 -   Entering
-    -   Do not speed when your first enter. There should be a 50m/h sign. You could speed up <span style='color:chartreuse'>after the speed limit sign</span> but not before.
+    -   Do not speed when your first enter. There should be a 50m/h sign. You could speed up <span style='color:#32CD32'>after the speed limit sign</span> but not before.
 -   Leaving—countdown markers. Do not slow down at the first two markers. Do not slow down on dual carriageways. <span style='color:red'>[✘] </span>
     -   first marker: look at your center-left mirror;
     -   second marker: indicate left;
-    -   third marker: when you turn into the slip road, <span style='color:chartreuse'>brake a lot</span>;
+    -   third marker: when you turn into the slip road, <span style='color:#32CD32'>brake a lot</span>;
 
 ___
 
-#### <span style='color:cyan'>**Headington Roundabout**</span>
+#### <span style='color:#449aff'>**Headington Roundabout**</span>
 
 BRM: [https://www.youtube.com/watch?v=OH69swvJDSI&t=476s](https://www.youtube.com/watch?v=OH69swvJDSI&t=476s)
 
@@ -1109,9 +1109,9 @@ Two lanes to three lanes:
 
 -   **From Headington to Northway (Marston), 1st Exit**, turning left
 
-    When approaching Headington roundabout, there is <span style='color:chartreuse'>a bus lane</span> you need to stay clear of.
+    When approaching Headington roundabout, there is <span style='color:#32CD32'>a bus lane</span> you need to stay clear of.
 
-    Left lane, indicate left, first exit. <span style='color:chartreuse'>A40(W)</span>
+    Left lane, indicate left, first exit. <span style='color:#32CD32'>A40(W)</span>
 
     <img src="{{ site.baseurl}}/images/image-20221123155251573.png" alt="image-20221123155251573" style="zoom:50%;" />
 
@@ -1119,13 +1119,13 @@ Two lanes to three lanes:
 
 
 
--   From <span style="color:chartreuse">Headington London Rd to A4142 Cowley, 4th exit</span>, turning right
+-   From <span style="color:#32CD32">Headington London Rd to A4142 Cowley, 4th exit</span>, turning right
 
     https://www.youtube.com/watch?v=STj1Z7aem-A
 
-    -   Turning right, <span style="color:chartreuse">right lane; indicate right</span>; 4th exit;
+    -   Turning right, <span style="color:#32CD32">right lane; indicate right</span>; 4th exit;
 
-    -   <span style="color:chartreuse">Follow through your lane, use the <u>left line</u> as your reference point.</span> Indicate left when you have passed the 3rd exit.
+    -   <span style="color:#32CD32">Follow through your lane, use the <u>left line</u> as your reference point.</span> Indicate left when you have passed the 3rd exit.
     -   after the 2nd exit, 
         -   remain in your lane, now you are on the middle lane; as you pass the 3rd exit, you will become the outer lane and you exit onto the left lane of A4142.
         -   if you take the right newly emerged lane, as you pase the 3rd exit, you will become the middle lane and you exit onto the right lane.
@@ -1144,10 +1144,10 @@ Two lanes to three lanes:
 
     After the 2nd exit, you could use either the middle or right lane;
     
-    -   <span style="color:chartreuse">middle lane</span> is recommended as it leads to the left lane at your exit;
+    -   <span style="color:#32CD32">middle lane</span> is recommended as it leads to the left lane at your exit;
     -   right lane is also possible, it leads to the right lane at your exit.
     
-    When you exit, <span style="color:chartreuse">watch out for vehicles merging from the slip road on the left</span>.
+    When you exit, <span style="color:#32CD32">watch out for vehicles merging from the slip road on the left</span>.
     
     **3rd Exit** to London/ Thornhill Park & Ride
     <img src="{{ site.baseurl}}/images/image-20221127103850351.png" alt="image-20221127103850351" style="zoom:50%;" />
@@ -1169,7 +1169,7 @@ Two lanes to three lanes:
 
 -   **From Headington to London A40E, 3rd exit**, straight ahead, 1 o'clock;
 
-    -   Entering: Start with Left lane which split into <span style='color:chartreuse'>middle lane</span> (Easier Choice)
+    -   Entering: Start with Left lane which split into <span style='color:#32CD32'>middle lane</span> (Easier Choice)
 
     -   On the roundabout: middle lane;
     
@@ -1201,10 +1201,10 @@ BRM video starts from 13:30
 
 <img src="{{ site.baseurl}}/images/image-20221127085348670.png" alt="image-20221127085348670" style="zoom:50%;" />
 
--   **From Northern Bypass to <span style="color:chartreuse">A4142 Cowley</span>, taking <span style="color:chartreuse">3rd exit</span>, turning right.**
+-   **From Northern Bypass to <span style="color:#32CD32">A4142 Cowley</span>, taking <span style="color:#32CD32">3rd exit</span>, turning right.**
     [https://www.youtube.com/watch?v=F_PEx68oToY](https://www.youtube.com/watch?v=F_PEx68oToY)
     
-    Turning right 1 o'clock, <span style="color:chartreuse">right–middle lane; indicate right</span>;
+    Turning right 1 o'clock, <span style="color:#32CD32">right–middle lane; indicate right</span>;
 
     -   Move to the right lane first on Northway when you see the long white lines.
 
@@ -1220,7 +1220,7 @@ BRM video starts from 13:30
 
     -   Indicate right is important, so you tell others you are not going to London.
 
-    Note there is a <span style="color:chartreuse">slip road</span> on the left of the exit, have a look at your left mirror to be safe when you exit.
+    Note there is a <span style="color:#32CD32">slip road</span> on the left of the exit, have a look at your left mirror to be safe when you exit.
     <img src="{{ site.baseurl}}/images/image-20221127100556110.png" alt="image-20221127100556110" style="zoom:50%;" />
 
 
@@ -1245,9 +1245,9 @@ ___
 **From A4142 Cowley towards London, 4th exit**, turning right.
 
 -   Middle lane ends with left lane; right lane ends with right lane;
-    -   Use the middle <span style="color:chartreuse">lane</span>;
+    -   Use the middle <span style="color:#32CD32">lane</span>;
     -   follow the lead of the lanes, they will take you automatically to your exit;
-    -   After exiting to London, <span style="color:chartreuse">speed limit of 30m/h </span> still applies; have to control your speed for a while until you see the 50m/h sign;
+    -   After exiting to London, <span style="color:#32CD32">speed limit of 30m/h </span> still applies; have to control your speed for a while until you see the 50m/h sign;
 
 **From A4142 Cowley to A40W towards Northway/ Marston/ The Midlands, 2nd exit**, straight ahead 11 o'clock.
 
@@ -1266,7 +1266,7 @@ ___
 **From London to A40W Marston, 3rd exit** , turning right
 
 -   Start with the right lane which splits into two lanes afterwards, take the left lane of the split lanes;
--   Use the hamburger lane going through the <span style="color:chartreuse">middle</span> of the roundabout.
+-   Use the hamburger lane going through the <span style="color:#32CD32">middle</span> of the roundabout.
 
 **From London to Headington, 2nd exit**, straight ahead
 
@@ -1280,9 +1280,9 @@ ___
 
 **On A4142**:
 
--   when you see <span style='color:chartreuse'>two red squares</span>, you start moving to the right lane;
+-   when you see <span style='color:#32CD32'>two red squares</span>, you start moving to the right lane;
 -   when you see the sign, be prepared to move to the slip road;
--   be cautious of <span style='color:chartreuse'>the traffic light changing fast</span>, the green light allows only 4-5 cars, you don't want to tail the front car very close; you might need to stop abruptly;
+-   be cautious of <span style='color:#32CD32'>the traffic light changing fast</span>, the green light allows only 4-5 cars, you don't want to tail the front car very close; you might need to stop abruptly;
 
 ___
 
@@ -1290,9 +1290,9 @@ ___
 
 **Exiting the Northway**:
 
--   <span style='color:chartreuse'>brake hard</span> (really hard!! You were at 50 m/h, gear 5, on the dual carriageway, so have to brake really hard to slow down to 30m/h) after exiting, slow down to <span style='color:chartreuse'>30m/h, <u>to gear 3</u> </span> in the middle of the bend;
+-   <span style='color:#32CD32'>brake hard</span> (really hard!! You were at 50 m/h, gear 5, on the dual carriageway, so have to brake really hard to slow down to 30m/h) after exiting, slow down to <span style='color:#32CD32'>30m/h, <u>to gear 3</u> </span> in the middle of the bend;
     -   do not keep coasting (clutch down) on gear 4 when turning;
--   When reaching the end of the first bend, change to <span style='color:chartreuse'>gear 1</span> to merge;
+-   When reaching the end of the first bend, change to <span style='color:#32CD32'>gear 1</span> to merge;
     -   have to stay close to the left, <span style='color:red'>do not go to the other lane [✘] </span>; road is narrow, easy to drift to the other side of the road;
 
 <img src="{{ site.baseurl}}/images/image-20221129113109738.png" alt="image-20221129113109738" style="zoom:100%;" />
@@ -1322,25 +1322,25 @@ Road sign of exiting to Marsh Lane (Headinton, Hospitals) after the traffic ligh
 
         <img src="{{ site.baseurl}}/images/image-20221125085925781.png" alt="image-20221125085925781" style="zoom:50%;" />
 
-    -   <span style='color:chartreuse'>a curved turn</span> at crossroads and junctions, do not go as a straight angle; [do a near side turn]
+    -   <span style='color:#32CD32'>a curved turn</span> at crossroads and junctions, do not go as a straight angle; [do a near side turn]
 
         -   if you are going into a side road, then you go as a straight angle so you don't go into the other lane;
         -   bad things about going a straight angle on main roads: much steering; go extra slow; risk going into the cycle lane;
 
     -   parked cars on crossroads
 
-        -   you go as snake crawling <span style='color:chartreuse'>“S” shape</span>: right to avoid the parked cars $\Rightarrow$ left to pull the car back to your own lane (so you don't block the right lane) $\Rightarrow$ right to adjust your car head, be prepared to turn right
+        -   you go as snake crawling <span style='color:#32CD32'>“S” shape</span>: right to avoid the parked cars $\Rightarrow$ left to pull the car back to your own lane (so you don't block the right lane) $\Rightarrow$ right to adjust your car head, be prepared to turn right
 
 -   Turning left: 
 
     -   I tend to ride on the cycle lane and edging to the left too early;
-    -   be careful with cyclists on your left; look at your left mirror <span style='color:chartreuse'>before</span> you turn;
+    -   be careful with cyclists on your left; look at your left mirror <span style='color:#32CD32'>before</span> you turn;
 
 -   slow down and change gears
 
     -   1st if you are about to stop or 2nd gear if road is clear;
-    -   closed junctions: 1st gear and <span style='color:chartreuse'>lean forward</span> to look for road conditions; [don't be lazy and not leaning forward];
-    -   it's ok to treat open jucntions as closed junctions and go on <span style='color:chartreuse'>1st gear</span>; safty is priority;
+    -   closed junctions: 1st gear and <span style='color:#32CD32'>lean forward</span> to look for road conditions; [don't be lazy and not leaning forward];
+    -   it's ok to treat open jucntions as closed junctions and go on <span style='color:#32CD32'>1st gear</span>; safty is priority;
 
 -   give way to pedestrians; watch carefully for their intentions; 
 
@@ -1353,13 +1353,13 @@ Road sign of exiting to Marsh Lane (Headinton, Hospitals) after the traffic ligh
 
 **General**
 
--   <span style='color:chartreuse'>Do not stop in the middle when you turn right.</span> Have to finish as long as you have started.
+-   <span style='color:#32CD32'>Do not stop in the middle when you turn right.</span> Have to finish as long as you have started.
 -   Stop for cyclists coming out of no where.
     -   No one blaming you for stopping for children. Have to stop, or you will ran them over.
 -   look ahead and anticipate;
 -   start off
-    -   giving gas at the <span style='color:chartreuse'>last 10 percent</span> of clutch;
-    -   <span style='color:chartreuse'>build up speed</span> a little bit before changing to 2nd gear; slow on raising the clutch;
+    -   giving gas at the <span style='color:#32CD32'>last 10 percent</span> of clutch;
+    -   <span style='color:#32CD32'>build up speed</span> a little bit before changing to 2nd gear; slow on raising the clutch;
     -   no gas when changing gears at high speed (e.g., from 2nd to 3rd gear);
 -   Keep being focused when waiting for green light. Waiting on green light is a major fault. Do not get distracted.
 -   Cherwell Dr is narrow and busy; for safty reason, you could go lower than 30m/h, e.g., 25m/h.
@@ -1395,15 +1395,15 @@ Road sign of exiting to Marsh Lane (Headinton, Hospitals) after the traffic ligh
 
 <img src="{{ site.baseurl}}/images/image-20230118111835357.png" alt="image-20230118111835357" style="zoom:50%;" />
 
--   Coming down from <span style='color:chartreuse'>Northway</span>, Marston Lane: Use the left lane to turn left; No need to indiate left when turning left HERE. (This is a T junction, your intention is quite clearly shown by your position in the lane. Besides, there is a side lane going to a shop, indicating could be misleading that you are going to the side lane.)
+-   Coming down from <span style='color:#32CD32'>Northway</span>, Marston Lane: Use the left lane to turn left; No need to indiate left when turning left HERE. (This is a T junction, your intention is quite clearly shown by your position in the lane. Besides, there is a side lane going to a shop, indicating could be misleading that you are going to the side lane.)
 
     <img src="{{ site.baseurl}}/images/image-20221124091048775.png" alt="image-20221124091048775" style="zoom:50%;" />
 
 
 
--   Coming from <span style='color:chartreuse'>Headington London Rd to Cherwell Drive</span>: 
+-   Coming from <span style='color:#32CD32'>Headington London Rd to Cherwell Drive</span>: 
 
-    -   use the <span style='color:chartreuse'>left lane</span> to go straight; 
+    -   use the <span style='color:#32CD32'>left lane</span> to go straight; 
     
         -   have a look at your right mirror watching out for merging cars at the first set of traffic lights;
     
@@ -1411,12 +1411,12 @@ Road sign of exiting to Marsh Lane (Headinton, Hospitals) after the traffic ligh
     
     -   middle and right lane both go to Marsh Ln which joins Northway later on;
     
-        -   if you are going to Northway, use the <span style='color:chartreuse'>middle lane</span> b/c right lane will merge to the middle lane shortly after you are on Marston lane.
+        -   if you are going to Northway, use the <span style='color:#32CD32'>middle lane</span> b/c right lane will merge to the middle lane shortly after you are on Marston lane.
     
-            -   have to <span style='color:chartreuse'>go ahead</span> a bit, don't cut the way of the left lane; if there is a large car, you either let them turn first (if it is a bus or truck) or you go ahead more to give more space (if it is a SUV or a mini-van);
+            -   have to <span style='color:#32CD32'>go ahead</span> a bit, don't cut the way of the left lane; if there is a large car, you either let them turn first (if it is a bus or truck) or you go ahead more to give more space (if it is a SUV or a mini-van);
             -   Always go ahead even if there is no car on the right lane;
     
-        -   when you are waiting for the traffic light, you pay attention to the <span style='color:chartreuse'>lights for turning left</span> (which are are the right side and in front), lights here are separate for going straight and turning left!
+        -   when you are waiting for the traffic light, you pay attention to the <span style='color:#32CD32'>lights for turning left</span> (which are are the right side and in front), lights here are separate for going straight and turning left!
     
         -   Usually the lights for going ahead change to green first. Do not go at this time! Wait until the lights for turning right changing to green before you proceed.
         
@@ -1427,7 +1427,7 @@ Road sign of exiting to Marsh Lane (Headinton, Hospitals) after the traffic ligh
 
 **JR hospital** (Cherwell Dr)
 
-Take the <span style='color:chartreuse'>right lane</span> to go ahead, left lane goes to JR hospital.
+Take the <span style='color:#32CD32'>right lane</span> to go ahead, left lane goes to JR hospital.
 
 <img src="{{ site.baseurl}}/images/image-20221124095558359.png" alt="image-20221124095558359" style="zoom:50%;" />
 
@@ -1451,12 +1451,12 @@ ____
 
 -   Lane discipline before your exit
 
-    -   If you are on the <span style='color:chartreuse'>middle lane</span> before you exit, you will end up to the right lane on your exit road;
+    -   If you are on the <span style='color:#32CD32'>middle lane</span> before you exit, you will end up to the right lane on your exit road;
         -   This is NOT ideal as you will have to move to the left lane when it's safe; left lane is the driving lane, right lane is the overtaking lane;
         -   You could use the middle lane to carry on on the roundabout as well.
     -   If you are on the left lane before you exit, you will end up to the left lane on your exit road;
         -   this is recommended.
-    -   If you are on the right lane (lane 3) before you exit, then you have missed your exit already, you must NOT exit. You have to go around the roundabout <span style='color:chartreuse'>for another lap</span> and try to exit when you are in the correct lane;
+    -   If you are on the right lane (lane 3) before you exit, then you have missed your exit already, you must NOT exit. You have to go around the roundabout <span style='color:#32CD32'>for another lap</span> and try to exit when you are in the correct lane;
 
 -   Changing lane is difficult on the roundabout as you have to be sure it's safe to do so. But it will be difficult if you target lane is full of cars in busy traffic.
 
@@ -1469,7 +1469,7 @@ ____
 
 -   Road markings
 
-    -   when you join the roundabout, you follow the <span style='color:chartreuse'>short dashed lines</span> which are merging lanes guiding you on to the roundabout; 
+    -   when you join the roundabout, you follow the <span style='color:#32CD32'>short dashed lines</span> which are merging lanes guiding you on to the roundabout; 
     -   when you finish joining and on the roundabout, you follow the separation lines (equal length lines and gaps) which separate lanes;
 
     <img src="{{ site.baseurl}}/images/image-20221201115855308.png" alt="image-20221201115855308" style="zoom:50%;" />
@@ -1499,7 +1499,7 @@ LDA: https://www.youtube.com/watch?v=x8bxxlwXhZY
 
 <img src="{{ site.baseurl}}/images/image-20221214230421278.png" alt="image-20221214230421278" style="zoom:50%;" />
 
--   <span style='color:chartreuse'>**Read the sign**</span>
+-   <span style='color:#32CD32'>**Read the sign**</span>
     -   thick stubby lines are for dual carriageways;
     -   two thick lines side-by-side: 1st one is exit, 2nd one is entrance; sometimes the exit is a longer line, entrance is a shorter line; you should ignore the second short line;
     -   Gap indicates the exit before it is the last exit before coming back on ourselves (U-turn).
@@ -1510,13 +1510,13 @@ LDA: https://www.youtube.com/watch?v=x8bxxlwXhZY
 
 <img src="{{ site.baseurl}}/images/image-20221201090405932.png" alt="image-20221201090405932" style="zoom:80%;" />
 
--   Having exited from the By-pass, take the <span style='color:chartreuse'>right hand lane</span> approaching.
+-   Having exited from the By-pass, take the <span style='color:#32CD32'>right hand lane</span> approaching.
 
--   Turning right, <span style='color:chartreuse'>4th Exit, taking the <u>middle lane</u></span> on the roundabout, indicate right.
+-   Turning right, <span style='color:#32CD32'>4th Exit, taking the <u>middle lane</u></span> on the roundabout, indicate right.
 
     -   Entering: right lane;
 
-    -   On the roundabout: after passing the <span style='color:chartreuse'>1st exit</span>, right lane will split into middle and right lanes. Choose the <span style='color:chartreuse'>middle lane</span> to follow through;
+    -   On the roundabout: after passing the <span style='color:#32CD32'>1st exit</span>, right lane will split into middle and right lanes. Choose the <span style='color:#32CD32'>middle lane</span> to follow through;
     
         <img src="{{ site.baseurl}}/images/image-20221127110334237.png" alt="image-20221127110334237" style="zoom:80%;" />
     
@@ -1539,7 +1539,7 @@ LDA: https://www.youtube.com/watch?v=x8bxxlwXhZY
 
 -   **3rd Exit** to Ring Road South, Swindon, Midlands
 
-    After the 3rd exit, <span style='color:chartreuse'>remain in the middle lane</span>, this lane will lead you to merge to the left lane automatically, be prepared to exit.
+    After the 3rd exit, <span style='color:#32CD32'>remain in the middle lane</span>, this lane will lead you to merge to the left lane automatically, be prepared to exit.
 
     <img src="{{ site.baseurl}}/images/image-20221127111900164.png" alt="image-20221127111900164" style="zoom:50%;" />
 
@@ -1569,7 +1569,7 @@ LDA: [https://www.youtube.com/watch?v=W8i2G5in4wQ](https://www.youtube.com/watch
 
 -   Entering: right lane;
 
-    -   note that lanes are quite narrow, have to <span style='color:chartreuse'>stick to the right curb</span>.
+    -   note that lanes are quite narrow, have to <span style='color:#32CD32'>stick to the right curb</span>.
 
         -   make your car curved;
 
@@ -1583,14 +1583,14 @@ LDA: [https://www.youtube.com/watch?v=W8i2G5in4wQ](https://www.youtube.com/watch
 
 -   Just when you enter under the bridge, your lane split into two lanes;
 
-    -   choose the <span style='color:chartreuse'>middle lane</span> to follow through; so that when you passing the Cowley (penultimate) exit, you will be taken to the left lane;
+    -   choose the <span style='color:#32CD32'>middle lane</span> to follow through; so that when you passing the Cowley (penultimate) exit, you will be taken to the left lane;
 
         <img src="{{ site.baseurl}}/images/image-20221220212342424.png" alt="image-20221220212342424" style="zoom:50%;" />
 
 
--   After passing the Cowley exit, check mirrors and indicate left, exit to Ring Road North on the <span style='color:chartreuse'>left lane (if going from middle lane)</span>;
+-   After passing the Cowley exit, check mirrors and indicate left, exit to Ring Road North on the <span style='color:#32CD32'>left lane (if going from middle lane)</span>;
 
--   Note that you are on a slip road now with a speed limit 50m/h, you have to <span style='color:chartreuse'>accelerate a lot</span>! So when you join the dual carriageway, you have built up your speed.
+-   Note that you are on a slip road now with a speed limit 50m/h, you have to <span style='color:#32CD32'>accelerate a lot</span>! So when you join the dual carriageway, you have built up your speed.
 
     -   going too slow on slip road is dangerous–when you join the dual carriageways, you are slowing down the traffic and risk tail crashing.
 
@@ -1639,7 +1639,7 @@ BRM 2:30: https://www.youtube.com/watch?v=Djcb5Z85LUM
 -   Under the bridge, move to the middle lane
     -   middle lane marked "Retail Park"
 
-<span style='color:chartreuse'>**From Oxford Business Park to Ring Road South towards Newbury and Swindon, 4th exit**, turning right</span>
+<span style='color:#32CD32'>**From Oxford Business Park to Ring Road South towards Newbury and Swindon, 4th exit**, turning right</span>
 
 LDA: [https://www.youtube.com/watch?v=lEcuDViYkVc](https://www.youtube.com/watch?v=lEcuDViYkVc)
 
@@ -1649,7 +1649,7 @@ BRM 3:45: [https://www.youtube.com/watch?v=Djcb5Z85LUM](https://www.youtube.com/
 
 -   Under the bridge, go with the right lane
 
-    -   right lane marked "Ring Road (S)", end up with <span style='color:chartreuse'>the right lane</span> on the Ring Road;
+    -   right lane marked "Ring Road (S)", end up with <span style='color:#32CD32'>the right lane</span> on the Ring Road;
 
 -   After you get out of the bridge and passing the Watlington exit, right lane split into middle and right lane—take the middle lane, follow through, and exit onto the right lane on Ring Rd South towards Newbury and Swindon;
 
@@ -1664,12 +1664,12 @@ ___
 -   Drive on top of the mini-roundabout turning right. Too much right. <span style='color:red'>[✘] </span>
 -   Be aware of roadworks. [Awareness and planning]
     -   Roads will get narrower. Be prepared to stop to give way or you might meet traffic lights.
-    -   Cyclists might have to go down to the cars' lane to avoid roadworks. <span style='color:chartreuse'>Have to give way to them.</span> Hold back.
+    -   Cyclists might have to go down to the cars' lane to avoid roadworks. <span style='color:#32CD32'>Have to give way to them.</span> Hold back.
 -   Meet oncoming vehicles.
-    -   Do you parked cars <span style='color:chartreuse'>on your right</span>? If so, you have to go, otherwise no one can pass.
+    -   Do you parked cars <span style='color:#32CD32'>on your right</span>? If so, you have to go, otherwise no one can pass.
 -   Look to the end of the road, do not copy the car in front. They might make a mistake, take a different route than you, …
 -   When leaving a roundabout and joining the dual carriageway, you don't want to speed up faster than the cars on your right as they might want to merge to your lane;
--   On dual carriageways, do not slow down unless <span style='color:chartreuse'>you are already</span> on the slip road (sometimes you got slip road on the right).
+-   On dual carriageways, do not slow down unless <span style='color:#32CD32'>you are already</span> on the slip road (sometimes you got slip road on the right).
     -   Very dangerous to slow down on the right lane <span style='color:red'>[✘] </span>, because it's the fast driving lane.
     -   Use the left line of your lane as the reference point.
 -   Changing gears from 3rd to 2nd, brake and slow down first, then changing gears. Do not use the engine to slow down totally.
@@ -1679,9 +1679,9 @@ ___
     -   Mirror when exiting.
 -   London Rd 
     -   There is one Zebra Crossing before Co-op. It usually has heavy traffic with blocked view. You can't see clearly if there are people waiting to cross. 
-    -   You have to cross at <span style='color:chartreuse'>1st gear</span> and stop to make sure no one is crossing.
+    -   You have to cross at <span style='color:#32CD32'>1st gear</span> and stop to make sure no one is crossing.
 -   镜子的调整
-    -   two wing mirrors should be identical, be able to see the most of the <span style='color:chartreuse'>front door handle</span>, not the whole of it. 
+    -   two wing mirrors should be identical, be able to see the most of the <span style='color:#32CD32'>front door handle</span>, not the whole of it. 
 
 
 
@@ -1691,7 +1691,7 @@ ___
 
 -   From A4142 Cowley towards Ring Rd North towards London, 4th exit.
 
-    Take the <span style='color:chartreuse'>middle lane</span>, indicating right.
+    Take the <span style='color:#32CD32'>middle lane</span>, indicating right.
 
     Middle lane exits onto the left lane; right lane exits onto the right lane;
 
@@ -1758,7 +1758,7 @@ ___
 
 <img src="{{ site.baseurl}}/images/image-20221214152719739.png" alt="image-20221214152719739" style="zoom:40%;" />
 
- <span style='color:chartreuse'>**From A4142 Eastern By-Pass Cowley to Iffley/ Rose Hill, 3rd exit**</span>, turing right
+ <span style='color:#32CD32'>**From A4142 Eastern By-Pass Cowley to Iffley/ Rose Hill, 3rd exit**</span>, turing right
 
 <img src="{{ site.baseurl}}/images/image-20221214144936906.png" alt="image-20221214144936906" style="zoom:50%;" />
 
@@ -1770,7 +1770,7 @@ ___
 
 **Lane choosing:**
 
--   Left lane: to Oxford Rd (turning left) and <span style='color:chartreuse'>Ring Rd (straight ahead)</span>
+-   Left lane: to Oxford Rd (turning left) and <span style='color:#32CD32'>Ring Rd (straight ahead)</span>
 
 -   Middle lane: to Ring Rd only (straight ahead)
 
@@ -1778,28 +1778,28 @@ ___
 
 **Procedure on the roundabout**
 
--   Down from Cowley RA, you need to drive for a while. You first see a bridge, then you see slip road for joining from Sandy Lane (lots of cars will join from here, so you want to <span style='color:chartreuse'>move to the right lane early</span>. This helps other people to join the dual carriageway and help you to approach the roundabout), then you see a sign as follows (this is your cue to move to the right lane), then you see Roundabout signs.
+-   Down from Cowley RA, you need to drive for a while. You first see a bridge, then you see slip road for joining from Sandy Lane (lots of cars will join from here, so you want to <span style='color:#32CD32'>move to the right lane early</span>. This helps other people to join the dual carriageway and help you to approach the roundabout), then you see a sign as follows (this is your cue to move to the right lane), then you see Roundabout signs.
 
     <img src="{{ site.baseurl}}/images/image-20230118121309377.png" alt="image-20230118121309377" style="zoom:50%;" />
 
--   Two Roundabout signs. When you see the 1st sign,  indicate right, move to the right lane. <span style="color:chartreuse">Keep you speed up</span> untill you see 30m/h sign. After the 2nd sign, you see speed limit of 30m/h; slow down to comply with speed limit;
+-   Two Roundabout signs. When you see the 1st sign,  indicate right, move to the right lane. <span style="color:#32CD32">Keep you speed up</span> untill you see 30m/h sign. After the 2nd sign, you see speed limit of 30m/h; slow down to comply with speed limit;
 
     -   The 30m/h speed limit sign is right before the lane split, which is very close to the RA. Have to keep up the speed before that.
 
--   Entering: <span style="color:chartreuse">indicating right</span> and use the right lane marked “IL’EY”;
+-   Entering: <span style="color:#32CD32">indicating right</span> and use the right lane marked “IL’EY”;
 
 -   On the roundabout: use the right lane until the 2nd exit;
 
 -   After 1st exit and when approaching the 2nd exit, use mirror-signal maneuver routine, signal left, move to a proper lane (usually before the traffic light waiting line), be prepared to exit;
     -   note that signal to change lane is necessary;
 
-    -   move <span style="color:chartreuse">one lane</span> to the left when you are turning right to <span style="color:chartreuse">Newman Rd</span>;
+    -   move <span style="color:#32CD32">one lane</span> to the left when you are turning right to <span style="color:#32CD32">Newman Rd</span>;
         
         BRM: https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s 3:18
         
         -   If you intend to go straight but mistakenly end up with the right turn, you can stop in the box, indicate left, and wait for a safe gap to join the left lane to go straight;
         
-    -   move <span style="color:chartreuse">two lanes</span> to the left when you are <span style="color:chartreuse">continuing straight</span>;
+    -   move <span style="color:#32CD32">two lanes</span> to the left when you are <span style="color:#32CD32">continuing straight</span>;
 
         BRM: https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s 5:20
 
@@ -1814,7 +1814,7 @@ The exit also leads to Sanford, Abington, Reading, etc.
 <img src="{{ site.baseurl}}/images/image-20221214173303503.png" alt="image-20221214173303503" style="zoom:50%;" />
 
 -   Entering: left (or middle lane)
-    -   recommend using the <span style="color:chartreuse">left lane</span>: have to be careful because there are no road markings when you enter, note that it's easy to drift to the middle lane if you come in too quickly; <span style="color:chartreuse">you have to keep it all the way to the left!</span>
+    -   recommend using the <span style="color:#32CD32">left lane</span>: have to be careful because there are no road markings when you enter, note that it's easy to drift to the middle lane if you come in too quickly; <span style="color:#32CD32">you have to keep it all the way to the left!</span>
         -   exit onto the left lane on the Ring Rd;
     -   if using the middle lane, you exit onto the right lane if you don't change lanes on the roundabout;
 
@@ -1830,7 +1830,7 @@ BRM: [https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s](https://www.youtube.c
 
 -   Entering: middle lane (left lane is left only! don't go there); 
     -   note that when you first enter, there is no road marking; use different shade of tarmac as your road marking;
--   On the roundabout, follow you lane and after pass the 1st exit, go to the left lane to exit onto the <span style="color:chartreuse">left lane</span> on the Ring Road;
+-   On the roundabout, follow you lane and after pass the 1st exit, go to the left lane to exit onto the <span style="color:#32CD32">left lane</span> on the Ring Road;
 -   If you somehow on the left lane at the 1st exit, just turn left;
     -   it's safer to follow through, because people on your right might be leaving and if you force to drive on on the roundabout, you might cause a serious accident;
 
@@ -1838,7 +1838,7 @@ BRM: [https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s](https://www.youtube.c
 
 -   Entering: right lane;
 -   On the roundabout, follow your lane; 
--   After passing the 1st exit, move to the middle lane and exit onto the <span style="color:chartreuse">right lane</span> on the Ring Road;
+-   After passing the 1st exit, move to the middle lane and exit onto the <span style="color:#32CD32">right lane</span> on the Ring Road;
 
 
 
@@ -1858,7 +1858,7 @@ ___
 
 ##### **3. From Oxford Road/ Littlemore**
 
-<span style="color:chartreuse">**From Oxford Rd to A4142 Eastern By-Pass Cowley/ London, 3rd exit**</span>, turning right
+<span style="color:#32CD32">**From Oxford Rd to A4142 Eastern By-Pass Cowley/ London, 3rd exit**</span>, turning right
 
 most common one on the driving test
 
@@ -1869,7 +1869,7 @@ BRM: https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s 22:35
 <img src="{{ site.baseurl}}/images/image-20221214151537267.png" alt="image-20221214151537267" style="zoom:50%;" />
 
 -   Entering: right lane;
--   On the roundabout: <span style='color:chartreuse'>middle lane</span>; middle lane can go either straight ahead or turning right.
+-   On the roundabout: <span style='color:#32CD32'>middle lane</span>; middle lane can go either straight ahead or turning right.
 -   After passing the 2nd exit, use mirror-signal maneuver routine, move to the left lane, be prepared to exit;
 -   注意第一个出口很近；第二个出口要走接近半圈儿；第三个出口离第二个出口很近；
 
@@ -1914,11 +1914,11 @@ BRM: https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s 13:30
 
 
 
-<span style='color:chartreuse'>**From Rose Hill to A4142 towards The Midlands/ Swindon/ Newbury; 3rd exit**</span>; turing right
+<span style='color:#32CD32'>**From Rose Hill to A4142 towards The Midlands/ Swindon/ Newbury; 3rd exit**</span>; turing right
 
 BRM: https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s 15:30
 
--   Entering: middle or the right lane; <span style='color:chartreuse'>middle is easier</span>;
+-   Entering: middle or the right lane; <span style='color:#32CD32'>middle is easier</span>;
     -   Cars on the roundabout are coming from Ring Road, they might use a high speed coming in; be careful;
 -   On the roundabout: follow your lane
     -   if you start from the middle lane, exit onto the left lane;
@@ -1950,7 +1950,7 @@ Cowley roundabout, littlemore RA, Business Park RA
     -   box on junction: better to wait bebind for a clear road ahead; 
     -   pedestrian crossing sometimes has cycle waiting box, have to wait at the line behind the cycle box;
 
-#### <span style='color:cyan'>Signs</span>
+#### <span style='color:#449aff'>Signs</span>
 
 <img src="{{ site.baseurl}}/images/image-20221227140309471.png" alt="image-20221227140309471" style="zoom:50%;" />
 
@@ -1960,7 +1960,7 @@ Cowley roundabout, littlemore RA, Business Park RA
 
 | Sign                                                         | Meaning                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="{{ site.baseurl}}/images/image-20221222203432245.png" alt="image-20221222203432245" style="zoom:50%;" /> | National speed limit for the type of road and class of traffic applies:<br />- motorways and dual carriageways (每个方向有至少两条车道): 70 mph<br/>- single carriageways (每个方向只有一条车道): 60 mph<br/>- <span style='color:chartreuse'>build-up areas (w/ street lights)</span>: 30 mph<br/>- residential areas: 20 mph <br /> |
+| <img src="{{ site.baseurl}}/images/image-20221222203432245.png" alt="image-20221222203432245" style="zoom:50%;" /> | National speed limit for the type of road and class of traffic applies:<br />- motorways and dual carriageways (每个方向有至少两条车道): 70 mph<br/>- single carriageways (每个方向只有一条车道): 60 mph<br/>- <span style='color:#32CD32'>build-up areas (w/ street lights)</span>: 30 mph<br/>- residential areas: 20 mph <br /> |
 | <img src="{{ site.baseurl}}/images/image-20221227135555182.png" alt="image-20221227135555182" style="zoom:50%;" /> | Slippery road.                                               |
 | <img src="{{ site.baseurl}}/images/image-20230116223456988.png" alt="image-20230116223456988" style="zoom:50%;" /> | Narrow road sign. Narrow from the right side.                |
 | <img src="{{ site.baseurl}}/images/image-20221227140059057.png" alt="image-20221227140059057" style="zoom:40%;" /> | Traffic signals ahead                                        |
@@ -1993,7 +1993,7 @@ Dual Carriageways:
 
 -   Take the right lane to go straight ahead joining Northway towards Headington;
 -   On the bridge you will see National speed sign 40m/p, but do not change gears and go 40m/h, it is a sharp bend, you need to control your speed, safe is priority; just go as 30m/h, 2nd gear;
-    -   <span style='color:chartreuse'>2nd gear will give you more control and speed up faster;</span>
+    -   <span style='color:#32CD32'>2nd gear will give you more control and speed up faster;</span>
 -   On the slip road, build up speed to 50m/h, signal right, find a gap to join;
 
 <img src="{{ site.baseurl}}/images/image-20221227083501697.png" alt="image-20221227083501697" style="zoom:50%;" />
@@ -2034,7 +2034,7 @@ Joining Northway from Marston, 2nd gear (sharp bend, need more control); Cowley 
 
 **General**:
 
--   <span style='color:chartreuse'>Read road markings</span>; observations; 
+-   <span style='color:#32CD32'>Read road markings</span>; observations; 
 
 -   when reaching a RA, first read the exit and grasp a feeling of which direction you are going;
 
@@ -2069,7 +2069,7 @@ Joining Northway from Marston, 2nd gear (sharp bend, need more control); Cowley 
 
 Entering from Cowley RA: from South to North (city centre).
 
--   3 lanes: <span style='color:chartreuse'>left is left only</span>, middle is straight only, right is right only;
+-   3 lanes: <span style='color:#32CD32'>left is left only</span>, middle is straight only, right is right only;
     <img src="{{ site.baseurl}}/images/image-20221228083622318.png" alt="image-20221228083622318" style="zoom:50%;" />
 
 
@@ -2093,7 +2093,7 @@ ___
 
 -   watch out for your surroundings;
 -   very low clutch, very slow speed 2m/h, more control; slow is essential.
--   forward bay park to your right, need to <span style='color:chartreuse'>signal right</span>; reverse bay park to your left, it's ok to signal left, but not required;
+-   forward bay park to your right, need to <span style='color:#32CD32'>signal right</span>; reverse bay park to your left, it's ok to signal left, but not required;
     -   staring point is center to the opposite side of which side you are going;
 -   Do not pursue perfection. 
     -   If already in the bay, just let it be if it is not in the center. 
@@ -2103,11 +2103,11 @@ ___
 
 **Forward Bay Parking**: park on the move; always do a right forward bay parking (closer to your reference point);
 
--   starting from the <span style='color:chartreuse'>left side</span> of the road; having <span style='color:chartreuse'>more space</span> to get in;
+-   starting from the <span style='color:#32CD32'>left side</span> of the road; having <span style='color:#32CD32'>more space</span> to get in;
 
 -   Very slow, 2m/h, low clutch;
 
--   Reference point: <span style='color:chartreuse'>2.5 fingers</span>; after finding your reference point, full lock to your right; 
+-   Reference point: <span style='color:#32CD32'>2.5 fingers</span>; after finding your reference point, full lock to your right; 
 
     <img src="{{ site.baseurl}}/images/image-20221228082027172.png" alt="image-20221228082027172" style="zoom:40%;" />
 
@@ -2117,15 +2117,15 @@ ___
 
 
 
-**Reverse Bay Parking**: park from a still position; always <span style='color:chartreuse'>reverse to the left</span> (b/c left is close to your reference point—1/4 of the handbrake); the pic below just shows the relative position of you target  bay and your starting point, but it is a reverse to the right.
+**Reverse Bay Parking**: park from a still position; always <span style='color:#32CD32'>reverse to the left</span> (b/c left is close to your reference point—1/4 of the handbrake); the pic below just shows the relative position of you target  bay and your starting point, but it is a reverse to the right.
 
 <img src="{{ site.baseurl}}/images/image-20230103222813110.png" alt="image-20230103222813110" style="zoom:50%;" />
 
--   Starting from the <span style='color:chartreuse'>center-left side</span> of the road, which will give you plenty of room to reverse and adjust if necessary;
+-   Starting from the <span style='color:#32CD32'>center-left side</span> of the road, which will give you plenty of room to reverse and adjust if necessary;
 
 -   Reverse gear and start with observation;
 
--   Reference point: <span style='color:chartreuse'>1 quarter of hand brake</span>; after finding your reference point, you stop, and very slowly start moving for 1cm, <span style='color:chartreuse'>fully lock to your left</span>. While you are on move, watch behind, left and right blind point;
+-   Reference point: <span style='color:#32CD32'>1 quarter of hand brake</span>; after finding your reference point, you stop, and very slowly start moving for 1cm, <span style='color:#32CD32'>fully lock to your left</span>. While you are on move, watch behind, left and right blind point;
 
     -   you will end up 3 bays behind you.
 
@@ -2172,13 +2172,13 @@ Reserve parallel parking 侧方停车; pulling up on the right-hand side of the 
 -   always parralle reverse parking to the left;
 
 -   angle on $\rightarrow$  get there $\rightarrow$ angle off (1-2-1)
-    -   angle on $\Leftarrow$ take <span style='color:chartreuse'>1 turn to the left</span>, car will be about 45$^\circ$ to the curb; 
+    -   angle on $\Leftarrow$ take <span style='color:#32CD32'>1 turn to the left</span>, car will be about 45$^\circ$ to the curb; 
         -   if you turn more to the left, you will have an angle > 45$^\circ$, this is tricky, you might get stuck, won't be able to pull in without hiting the curb;
         -   if you turn less to the left, you will have an angle < 45$^\circ$, this is no problem, you will just need more space vertically (b/c you need to reverse more in order to pull in); better to be < 45$^\circ$ than have a large angle;
     -   get there $\Leftarrow$ keep reversing until you have a triangle
         -   this step your car should be in, angle doesn't change, ramains to be 45$^\circ$;
-    -   angle off $\Leftarrow$ when you get your triangle, take <span style='color:chartreuse'>2 turns to the right</span> to get your car straight;
-    -   keep reversing more, <span style='color:chartreuse'>1 turn to the right</span>, adjust to straighten your car and get an appropraite gap from the car in front;
+    -   angle off $\Leftarrow$ when you get your triangle, take <span style='color:#32CD32'>2 turns to the right</span> to get your car straight;
+    -   keep reversing more, <span style='color:#32CD32'>1 turn to the right</span>, adjust to straighten your car and get an appropraite gap from the car in front;
     
 -   It is ok to block the drive way when you do reserve parallel parking;
 
@@ -2191,9 +2191,9 @@ Reserve parallel parking 侧方停车; pulling up on the right-hand side of the 
     -   but <span style='color:red'>my problem is I tend to get too close to the curb</span>, and sometimes even risk hitting the curb when I straighten the car; 
         -   either stop and go forward, turning left a bit so your tail comes to right a bit;
             -   go forward then come back again would be a minor fault; but still a pass; you can afford to do 15 minor faults; so it's OK, don't be compulsive;
-        -   <span style='color:chartreuse'>or you do more than 2 turns</span> when you straighten your car <span style='color:chartreuse'>at first</span>;
+        -   <span style='color:#32CD32'>or you do more than 2 turns</span> when you straighten your car <span style='color:#32CD32'>at first</span>;
             -   do NOT try to turn more to the right after your initial 2 turns to the right when you feel you are too close to the curb, b/c this way, your car <span style='color:red'>nose will hit the curb</span> when you about to finish your straightening;
-        -   or you do your 2 turns to the right <span style='color:chartreuse'>early</span>, leave a bigger triangle (the bottom of your triangle is approximately how wide you will be from the curb when you finish straightening your car, maybe shrink a little bit);
+        -   or you do your 2 turns to the right <span style='color:#32CD32'>early</span>, leave a bigger triangle (the bottom of your triangle is approximately how wide you will be from the curb when you finish straightening your car, maybe shrink a little bit);
     
 -   it's a big problem if you hit the curb hard.
 
@@ -2209,7 +2209,7 @@ Reserve parallel parking 侧方停车; pulling up on the right-hand side of the 
 
 **Operation**:
 
-<span style='color:chartreuse'>Starting point: 0.8-1.0m gap</span> to the car in front, keep your car straight; the width of the gap doesn't matter that much, but still matters;
+<span style='color:#32CD32'>Starting point: 0.8-1.0m gap</span> to the car in front, keep your car straight; the width of the gap doesn't matter that much, but still matters;
 
 -   If too tight, will risk hitting the car to the left;
 -   if too wide, will need more space to get in;
@@ -2225,7 +2225,7 @@ Reserve parallel parking 侧方停车; pulling up on the right-hand side of the 
      -   if you are <1.0m gap (narrow), you'd better reverse until 1/4 of the rear door; turn left late; otherwise you might crash the front car;
      -   if you are >1.0m gap (wide), it doesn't matter; you just need more space to do the reverse;
 
-3.   keep reversing back, until you see a very small triangle of the road (looks like the <span style='color:chartreuse'>rear door handle touches the curb</span>, 车身和路边的角度<45$^\circ$), turn two rounds to the right; [right, left blind spot, observe surroundings, looking back, when the road is almost disappering in the left mirror, you focus on the left mirror]
+3.   keep reversing back, until you see a very small triangle of the road (looks like the <span style='color:#32CD32'>rear door handle touches the curb</span>, 车身和路边的角度<45$^\circ$), turn two rounds to the right; [right, left blind spot, observe surroundings, looking back, when the road is almost disappering in the left mirror, you focus on the left mirror]
 
      <img src="{{ site.baseurl}}/images/image-20230102225735355.png" alt="image-20230102225735355" style="zoom:20%;" />
 
@@ -2247,7 +2247,7 @@ Reserve parallel parking 侧方停车; pulling up on the right-hand side of the 
 
 -   make sure your surroundings are clear;
 
--   if there are cars coming from behind you and they stop $\rightarrow$ you <span style='color:chartreuse'>put on left signal</span> and carry on your maneuver b/c no one can get pass you when you block the whole way;
+-   if there are cars coming from behind you and they stop $\rightarrow$ you <span style='color:#32CD32'>put on left signal</span> and carry on your maneuver b/c no one can get pass you when you block the whole way;
     -   generally you don't need to put on a left signal b/c your reversing light will indicate your intention;
 -   if there are cars coming from behind and they go around you $\rightarrow$ you pause and let them pass, then continue your maneuver;
 
@@ -2255,7 +2255,7 @@ ___
 
 **Pulling up on the right-hand side of the road** and reversing 2 car lengths
 
-You first pull in <span style='color:chartreuse'>forward</span> to the right as normal, then you reverse about 2 car lengths.
+You first pull in <span style='color:#32CD32'>forward</span> to the right as normal, then you reverse about 2 car lengths.
 
 When you reverse, it's all about observation and keeping your car straight:
 
@@ -2269,7 +2269,7 @@ ___
 
 #### **Emergency Stop**
 
-<span style='color:chartreuse'>First brake then clutch</span> $\rightarrow$ hand brake $\rightarrow$ neutural gear $\rightarrow$ observations $\rightarrow$ start off
+<span style='color:#32CD32'>First brake then clutch</span> $\rightarrow$ hand brake $\rightarrow$ neutural gear $\rightarrow$ observations $\rightarrow$ start off
 
 -   note here is handbrake first then neutral; under normal conditions: you first go neutral, then handbrake up;
 -   when you start off, do the same routine as normal: mirror, blind spot check $\rightarrow$ indicate $\rightarrow$ blind spot $\rightarrow$ handbrake down;
@@ -2289,18 +2289,18 @@ ___
 
 **Maneuvers**
 
--   <span style='color:chartreuse'>start point</span>
+-   <span style='color:#32CD32'>start point</span>
     -   forward bay parking: to the left
     -   reverse bay parking: center to left, 1.2-1.5m to the left
     -   parallel parking: 0.8m gap; sometimes curb has two lines, you must use the inner crub as reference point, otherwise it will be too wide a gap;
--   <span style='color:chartreuse'>observation</span>
+-   <span style='color:#32CD32'>observation</span>
 -   Parallel parking—how to correct
-    -   too wide: correct after you pull in so you correct when you go forward; reverse back and <span style='color:chartreuse'>pull in sharply</span> (b/c you only have a very short distance to correct) when you go forward;
+    -   too wide: correct after you pull in so you correct when you go forward; reverse back and <span style='color:#32CD32'>pull in sharply</span> (b/c you only have a very short distance to correct) when you go forward;
     -   too narrow: correct before you pull in b/c you won't be able to pull in w/o hitting the curb; you go forward and turn left a bit, then carry on with pulling in reversely;
 
 
 
-#### <span style='color:cyan'>**Hollow Way and The Slade mini-roundabout**</span>
+#### <span style='color:#449aff'>**Hollow Way and The Slade mini-roundabout**</span>
 
 <img src="{{ site.baseurl}}/images/image-20230119070643057.png" alt="image-20230119070643057" style="zoom:50%;" />
 
@@ -2327,7 +2327,7 @@ Note C1 is left turn (going straight actually) and C2 is right turn to A.
      -   2nd exit, turning right, from A to B
          -   slow and keep clear of the center
 
-     -   <span style='color:chartreuse'>when you start off:</span> 
+     -   <span style='color:#32CD32'>when you start off:</span> 
          -   2 consecutive cars indicating left;
          -   1 car indicating left and 1 gap after;
          -   1 gap before and 1 car indicating left; meaning the next car still needs time to get to the mini-roundabout which gives you time to pass;
@@ -2342,7 +2342,7 @@ ___
 
 **Emerging right without traffic control**
 
--   should be <span style='color:chartreuse'>more decisive</span> when turning; if you are able to walk through, you should be able to cross; don't need a huge gap;
+-   should be <span style='color:#32CD32'>more decisive</span> when turning; if you are able to walk through, you should be able to cross; don't need a huge gap;
 
 
 
@@ -2355,10 +2355,10 @@ ___
 
 **Leaving A4142 to Headington and hospitals**, from North to South
 
--   merge to the right lane <span style='color:chartreuse'>early</span> when you see the two red squares;
+-   merge to the right lane <span style='color:#32CD32'>early</span> when you see the two red squares;
 -   <span style='color:red'>do not slow down</span> on the right lane after changing lanes; <span style='color:red'> [✘] </span>
--   only slow down <span style='color:chartreuse'>AFTER</span> you are already in the slip road;
--   the <span style='color:chartreuse'>light changes fast</span>, if you are 5-10m/h, and the light changes to amber, you have to stop abruptly;
+-   only slow down <span style='color:#32CD32'>AFTER</span> you are already in the slip road;
+-   the <span style='color:#32CD32'>light changes fast</span>, if you are 5-10m/h, and the light changes to amber, you have to stop abruptly;
 
 **Leaving A4142 to Headington and hospitals**, from South to North 
 
@@ -2374,7 +2374,7 @@ ___
 
 **Cowley roundabout** from Oxford Business Park to Ring Road South
 
--   Indicate <span style='color:chartreuse'>AFTER</span> the retail park exit! I tend to indicate after Watlington;
+-   Indicate <span style='color:#32CD32'>AFTER</span> the retail park exit! I tend to indicate after Watlington;
     -   confusing indication is dangerous, might mislead other road users and cause accidents;
 
 **Oxford Business Park RA**
@@ -2484,7 +2484,7 @@ ___
 video starts from 4:00
 
 -   Entering: left lane, indicating left and exit onto a slip road; 
--   After you are on the slip road, <span style='color:chartreuse'>cancel left signal!</span> B/c if you leave the signal on, people would think you are turning into Sainsibury's.
+-   After you are on the slip road, <span style='color:#32CD32'>cancel left signal!</span> B/c if you leave the signal on, people would think you are turning into Sainsibury's.
 
 **From A4142 to Ring Road A423 towards Newbury and Swindon**, 1 o'clock, going through the roundabout
 
@@ -2530,11 +2530,11 @@ ___
 
 ### Lesson 20 - Jan 13, 2023
 
--   Emerging to left and one car coming from right indicating left: <span style='color:chartreuse'>wait until the car passes</span>.
+-   Emerging to left and one car coming from right indicating left: <span style='color:#32CD32'>wait until the car passes</span>.
 
     -   <span style='color:red'>Do NOT trust an indicator so much [✘] </span>, people often have wrong indicators or have old signals from before which is misleading.
 
--   Stop sign at Quarry: stop completely, <span style='color:chartreuse'>handbrake up</span>;
+-   Stop sign at Quarry: stop completely, <span style='color:#32CD32'>handbrake up</span>;
 
     -   1m/h is not stop;
 
@@ -2559,7 +2559,7 @@ ___
 
 -   Mind the mini-roundabouts in Blackbird Leys; 
 
-    -   important to look out for blue <span style='color:chartreuse'>mini-roundabout signs</span>; b/c they are otherwise difficult to spot from a distance; 
+    -   important to look out for blue <span style='color:#32CD32'>mini-roundabout signs</span>; b/c they are otherwise difficult to spot from a distance; 
 
         -   it will be a <span style='color:red'>major fault if you don't look to your right and slow down  [✘] </span>when approaching a mini-roundabout;
 
@@ -2573,7 +2573,7 @@ ___
 
         <img src="{{ site.baseurl}}/images/image-20230116091757291.png" alt="image-20230116091757291" style="zoom:50%;" />
 
-        -   position A: look out for position B, if they are slowing down, they are giving way to position C which provides you a <span style='color:chartreuse'>blocker; then you need to go;</span>
+        -   position A: look out for position B, if they are slowing down, they are giving way to position C which provides you a <span style='color:#32CD32'>blocker; then you need to go;</span>
             -   danger is the car in position C might take a U-turn. If so, you must stop and go 1st gear. Cars taking U-turn: slow and turn a lot.
             -   see blocker video 
                 https://www.youtube.com/watch?v=bBJm3uum800
@@ -2637,7 +2637,7 @@ General driving:
 -   Littlemore roundabout 
 
     -   when approach from A4142 do not slow down; move to the right lane early when you see the slip road;
-    -   <span style="color:chartreuse">indicate right</span> before the right lane split into middle and right lane;
+    -   <span style="color:#32CD32">indicate right</span> before the right lane split into middle and right lane;
     -   don't indicate too early; only indicate after you pass your penultimate exit; otherwise will confuse other drivers;
     -   往左车道移动的时候，可以斜着走。
     -   when you try to move from the middle to the left lane, indicating is not that important. No one will benefit from your indication.
@@ -2696,7 +2696,7 @@ Practiced Kassam Stadium RAs again.
     -   on the left lane: don't go too close to the curb; don't ride on cycle lanes;
     -   on the right lane: don't position too much to the left; try to drive in the middle;
     
--   <span style='color:chartreuse'>Balckbird Leys (BBL) Car Park</span>: go to the left and position center or center left.
+-   <span style='color:#32CD32'>Balckbird Leys (BBL) Car Park</span>: go to the left and position center or center left.
     -   forward bay parking: go to the middle row and position to the left;
     -   reverse bay parking: just use the left row, position center, about 1.2-1.5m from the left parking bays, need to leave a bit more room for maneuvers.
 
@@ -2710,10 +2710,10 @@ Practiced Kassam Stadium RAs again.
 
 -   Kassam Stadium RA
 
-    -   Speed limit is 40m/h, if you have a long distance from the next RA, go 4th gear; if you have a short distance from the next RA, use 3rd gear; need to <span style='color:chartreuse'>brake first</span> to 25-26 m/h before changing to 2nd gear;
+    -   Speed limit is 40m/h, if you have a long distance from the next RA, go 4th gear; if you have a short distance from the next RA, use 3rd gear; need to <span style='color:#32CD32'>brake first</span> to 25-26 m/h before changing to 2nd gear;
     -   approaching speed: 17-18 m/h;
 
--   <span style='color:chartreuse'>Middle lane</span> on RAs
+-   <span style='color:#32CD32'>Middle lane</span> on RAs
 
     -   Littlemore RA: 
 
@@ -2736,7 +2736,7 @@ Practiced Kassam Stadium RAs again.
 
     <img src="{{ site.baseurl}}/images/DTC.png" alt="DTC" style="zoom:48%;" />
 
-    -   <span style='color:chartreuse'>turn before the island</span>, look for the box, don't go too much forward, it will make the turn more difficult.
+    -   <span style='color:#32CD32'>turn before the island</span>, look for the box, don't go too much forward, it will make the turn more difficult.
 
     
 
@@ -2753,7 +2753,7 @@ ___
 
     <img src="{{ site.baseurl}}/images/image-20230207154501728.png" alt="image-20230207154501728" style="zoom:50%;" />
 
-    -   Need to <span style='color:chartreuse'>turn right early</span>, avoid the box for the opposite direction. If there are cars turning right in the box, and you go too much to the left, you risk colliding them.
+    -   Need to <span style='color:#32CD32'>turn right early</span>, avoid the box for the opposite direction. If there are cars turning right in the box, and you go too much to the left, you risk colliding them.
         -   when you reach the cycle lane, start to turn right, you ride on top of the turning right box on Windmill Rd, but <span style='color:red'>NOT on the Old Rd [✘] </span>.
 
 -   When you come from the Slade to Windmill Rd, you meet two turning right boxes which you need to stay clear of.
@@ -2764,7 +2764,7 @@ ___
 
     -   Don't overtake cyclists here!
 
-    After the crossroads, you meet the <span style='color:chartreuse'>Orthopaedic center</span>, and there is a box for oncoming cars to turn right. Keep clear of the box too.
+    After the crossroads, you meet the <span style='color:#32CD32'>Orthopaedic center</span>, and there is a box for oncoming cars to turn right. Keep clear of the box too.
 
     <img src="{{ site.baseurl}}/images/image-20230207152628322.png" alt="image-20230207152628322" style="zoom:50%;" />
 
@@ -2777,7 +2777,7 @@ ___
 Faults today: didn't indicate when turning. Missed a few indications.
 
 -   Headington RA from Northway to A4142, 
-    -   <span style='color:chartreuse'>indicate right</span>.
+    -   <span style='color:#32CD32'>indicate right</span>.
     -   on the RA, do not go too much to the right; lane discipline;
 -   Lane discipline: when waiting in the box to turning right, car shouldn't be curved a lot, might risk sticking out and oncoming cars have to go around to avoid you.
 -   After entering Quarry, you meet uphill narrow roads; better to go at 1st gear;
@@ -2806,14 +2806,14 @@ ___
     -   From The Slade turning right to DTC, 2nd exit, turning right; two on my right are indicating left, but the 1st car has already on the move, Instructor intervened by chaning to 1st gear so I can start off faster; the 3rd cars had to brake for me b/c I was too slow.
         -   If you see a queue on the mini-roundbaout, just go at 1st gear, so you could start off faster;
         -   This direction is the only half on and half off driving techinique.
-    -   From DTC to Horspath Driftway, 2nd exit, turning right. The car on my right was indicating right, meaning I should give way, but the car is a learner driver, and he hesitated. While he was in hesitation, a blocker came and the car on my right stopped. <span style='color:chartreuse'>His stop (the stop of the car on my right) is a strong cue for me to go! </span>
+    -   From DTC to Horspath Driftway, 2nd exit, turning right. The car on my right was indicating right, meaning I should give way, but the car is a learner driver, and he hesitated. While he was in hesitation, a blocker came and the car on my right stopped. <span style='color:#32CD32'>His stop (the stop of the car on my right) is a strong cue for me to go! </span>
         -   Go around the center following the arrows, no riding on top.
 
 -   Kassam Stadium W1 to Oxford, make sure it's safe before changing lanes 
 -   DTC merging to right: while waiting, it helps to use handbrake so you can prepare biting point and right foot on gas, as long as you spot a gap, you can start off ASAP.
     -   Just be sure to look to the right and left, don't be fooled by cars giving way;
     -   cyclists have super priority, when seeing them, just let them go first;
-    -   <span style='color:chartreuse'>Be patient is rule of thumb!</span>
+    -   <span style='color:#32CD32'>Be patient is rule of thumb!</span>
 -   When in traffic, pay extra attention where you can wait, avoid yellow boxes and pedestrian crossings. Don't follow other cars.
 
 
@@ -2822,7 +2822,7 @@ ___
 
 ### Lesson 25 - Feb 2, 2023
 
-Tried Sat-Nav for the 1st time. Have to look at <span style='color:chartreuse'>yards distance</span>, indicate at 80 yards (100 yards=91meters). 
+Tried Sat-Nav for the 1st time. Have to look at <span style='color:#32CD32'>yards distance</span>, indicate at 80 yards (100 yards=91meters). 
 
 -   have to keep an eye on the routes for which direction you are going to next. Plan in advance!
 -   It is ok to miss a turn, sometimes a turn comes sooner than you anticipate. 100 yeards is very short. But never turn without mirror check and signal. Better to miss than turn at last minute and put people in danger.
@@ -2831,7 +2831,7 @@ Went through Quarry and practiced DTC mini-roundabout.
 
 -   At the mini-roundabout
     -   From DTC taking 2nd exit, turning right; Important to have a look at whether the car on your right is stopping to give way. Sometimes there exists a blocker, but the car on your right is still going, in this case, you have to pause, give up your priority, and wait for a clear gap to go.
-        -   To go around the roundabout, your position needs to position in the <span style='color:chartreuse'>middle of the lane</span>. If you are too much right, you cannot go around it.
+        -   To go around the roundabout, your position needs to position in the <span style='color:#32CD32'>middle of the lane</span>. If you are too much right, you cannot go around it.
     -   From The Slade to DTC, 2nd exit, turning right; half on half off. 
         -   If you go too much on top of the center, you risk hitting cars who are about to join the mini-roundabout.
         -   If you are too much off the center, you will block the way of the left lane which is going straight ahead.
@@ -2843,7 +2843,7 @@ Went through Quarry and practiced DTC mini-roundabout.
     -   Even if you want to move to the left lane, have to do your routine—mirror and signal check.
 -   Headington RA, have to pay attention to lane discipline. Do not go too far to my right. 
 -   Turning right when driving home, used 2nd gear, clutch down, while giving lots of gas $\rightarrow$ this could be very <span style='color:red'>dangerous if I released clutch fast[✘] </span>, b/c if I did this, car will shoot off and I would lose control of the car.
-    -   Every time start off from nearly stand still  $\rightarrow$  use <span style='color:chartreuse'>1st gear</span>. Merits are $i$) you don't stall, and $ii$) you can start off fast.
+    -   Every time start off from nearly stand still  $\rightarrow$  use <span style='color:#32CD32'>1st gear</span>. Merits are $i$) you don't stall, and $ii$) you can start off fast.
         -   1st gear can go as fast as 15m/h when giving gas, which is more than capable to give you the proper speed 13-14m/h to go through mini-roundabout and crossroads.
     -   If you feel you need to rush to get through a crossroads $\rightarrow$ better option is to wait in the box. Better to make a minor fault of being overly cautious than making a serious fault of dangerous driving!
 -   Turning right back to the DTC: get to the right turn box early.
@@ -2867,7 +2867,7 @@ Going to Risinghurst needs to go to Sandhills first.
 Exiting to Sandhills from A40E: 
 
 -   Indicate left early to let people know you are exiting early. 
--   Use <span style='color:chartreuse'>1st gear</span> b/c it's a sharp bend with cyclist lane;
+-   Use <span style='color:#32CD32'>1st gear</span> b/c it's a sharp bend with cyclist lane;
 
 Emerging right from Sandhills to A40E: turn right to join dual carriageway, there are 3 lanes—use middle lane; (emerging right from Horspath Driftway to A4142, there are 2 lanes—use the left lane)
 
@@ -2879,7 +2879,7 @@ Exiting to Risinghurst: You see the Risinghurst sign first.
 
 <img src="{{ site.baseurl}}/images/image-20230207150536863.png" alt="image-20230207150536863" style="zoom:50%;" />
 
-Then you see the <span style='color:chartreuse'>30m/h speed limit signs</span>, needs to brake <span style='color:chartreuse'>quite hard</span>!
+Then you see the <span style='color:#32CD32'>30m/h speed limit signs</span>, needs to brake <span style='color:#32CD32'>quite hard</span>!
 
 <img src="{{ site.baseurl}}/images/image-20230207150616698.png" alt="image-20230207150616698" style="zoom:50%;" />
 
@@ -2893,11 +2893,11 @@ ___
 
 **General**:
 
--   you <span style='color:chartreuse'>can wait in bus stops</span> when waiting for traffic.
+-   you <span style='color:#32CD32'>can wait in bus stops</span> when waiting for traffic.
 
 -   If there is a queue and a pedestrian crossing, you need to decide where you want to wait. If you have enough space ahead, providing a gap and ensuring your car body does not cover pedestrian crossing, then you can go ahead. If there is not enough space ahead, just wait bebind the pedestrian crossing.
 
--   Emerging to right, must have <span style='color:chartreuse'>a last look at the right</span> before you emerge.
+-   Emerging to right, must have <span style='color:#32CD32'>a last look at the right</span> before you emerge.
 
 -   Littlemore RA
 
@@ -2928,7 +2928,7 @@ ___
 -   People standing inside parked cars, they are in the middle of the road—give way to them.
     -   When the traffic is ligjt, pedestrians tend to across roads. Must give way to them if they are in the middle of the road.
 -   Meeting oncoming vehicles: pay extra attention to oncoming trucks, where you are going to give way, if you have any place to give way. If you don't have the space, you must go then.
--   After emergency stop, you do <span style='color:chartreuse'>observations first</span>. Then you change to 1st gear, and do start off accordingly.
+-   After emergency stop, you do <span style='color:#32CD32'>observations first</span>. Then you change to 1st gear, and do start off accordingly.
 -   If having a clear way ahead, do not go too slow below the speed limit.
 
 

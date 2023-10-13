@@ -143,7 +143,27 @@ a img:focus {
   cursor: zoom-in;
 }
 
+/* Table of contents */
+.toc {
+  border: 1px solid #2a7ae2;
+  border-radius: 0.25rem;
+  padding-top: 15px;
+  padding-right: 15px;
+  margin-left: 15px;
+}
 
+.toc b {
+  margin-left: 20px;
+}
+
+.toc ul {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.toc li {
+  margin-left: 10px;
+}
 
 
 
