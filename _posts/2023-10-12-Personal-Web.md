@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Create Personal Website
-tag: Programming
+tag: programming
 update: 2023-10-12
 ---
 
