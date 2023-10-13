@@ -28,10 +28,10 @@ scholar:
   style: apa
 
 # Theme-specific settings
-
+theme: minima
 minima:
   social_links:
-    - { platform: github,         user_url: "https://my1396.github.io/Econ-Study/" }
+    - { platform: github,         user_url: "https://github.com/my1396/Econ-Study" }
     - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
   #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
   #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
