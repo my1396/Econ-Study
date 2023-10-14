@@ -50,11 +50,11 @@ minima:
   #   - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
 
 # If you want to link only specific pages in your header, uncomment this and add the path to the pages in
-# order as they should show up.
+# order as they should show up. Name the files in the order you want to show on the home page.
 #
 header_pages:
-  - about.md
-  - tags.md
+  - 01_tags.md
+  - 02_about.md
 
 # Set to `true` to show excerpts on the homepage.
 #
