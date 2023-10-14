@@ -101,7 +101,7 @@ The axes of a two-dimensional Cartesian system divide the plane into four infini
 
 -   the numbering goes counter-clockwise starting from the upper right ("northeast") quadrant.
 
-<img src="https://drive.google.com/uc?id=1FlWhw7t0EIuk4PAV5-CTsLJGR0WZWGsl" alt="quadrant geometry" style="zoom:50%;" />
+<img src="https://drive.google.com/uc?id=1FlWhw7t0EIuk4PAV5-CTsLJGR0WZWGsl" alt="quadrant geometry" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
 
 orthographic projection (正射投影): top view, front view, (right) side view.
 
@@ -115,7 +115,7 @@ complementary angel 互余角 $\alpha+\beta=\frac{\pi}{2}$.
 
 supplementary angel 互补角 $\alpha+\beta=\pi$.
 
-<img src="https://drive.google.com/uc?id=1FlFGD-wVxC1UacQiLtg4W3NKAOcie-z7" alt="triangel" style="zoom:60%;" />
+<img src="https://drive.google.com/uc?id=1FlFGD-wVxC1UacQiLtg4W3NKAOcie-z7" alt="triangel" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
 
 斜边 hypotenuse  /haɪˈpɑːtənuːs/
 
@@ -140,9 +140,13 @@ parallelogram /ˌpærəˈleləɡræm / 平行四边形
 
 parallelepiped /ˌpærəˌleləˈpaɪˌpɪd / 平行六面体 (倾斜长方体)
 
-tetrahedron / ˌtetrəˈhiːdrən/ 四面体, also called "tiangular pyramid", 三角锥, is a polyhedron composed of four triangular faces
+tetrahedron / ˌtetrəˈhiːdrən/ 四面体, also called "tiangular pyramid", 三角锥, is a polyhedron composed of four triangular faces.
 
 polyhedron 多面体
+
+cube 正方体
+
+cuboid 长方体
 
 sector 扇形  
 
@@ -168,7 +172,7 @@ Volume of a sphere (ball) $V=\frac{4}{3}\pi r^3$, $r$ is radius. Surface $S=4\pi
 
   $$
   \begin{align*}
-  \vec{A}\cdot\vec{B} &= \sum a_ib_i \\
+  \vec{A}\cdot\vec{B} &= \sum_i a_ib_i \\
   \vec{A}\cdot\vec{B} &= \vert\vec{A}\vert\vert\vec{B}\vert \cos\theta \\
   \vec{A}\cdot\vec{A} &= \vert A\vert^2 \quad (\cos0=1)
   \end{align*}
@@ -192,7 +196,7 @@ Volume of a sphere (ball) $V=\frac{4}{3}\pi r^3$, $r$ is radius. Surface $S=4\pi
 
 **Polynomial and Exponential**
 
-$A^B$ A is base, B is exponent.
+$A^B$: $A$ is called the base, $B$ is exponent.
 
 Polynomials, $x$ in the base. constant ($x^0$), linear ($x$), quadratic ($x^2$), cubic ($x^3$), quartic terms ($x^4$).
 
@@ -548,13 +552,29 @@ Newton's method works well if $i$) $\vert f'\vert$ is not too small;  $ii$) $\ve
 
 Newton's method fails: $i$) find an unexpected root (depending on where the initial guess is); $ii$) completely fail. It repeats in a cycle, and never converges to a single value.
 
-<img src="https://drive.google.com/uc?id=1B7LjCAsBGxIGPKAHy-ogyZtuxjr-Qf5D" alt="Fail of Newton method illustration" style="zoom:30%;" />
+<img src="https://drive.google.com/uc?id=1B7LjCAsBGxIGPKAHy-ogyZtuxjr-Qf5D" alt="Fail of Newton method illustration" style="display: block; margin-right: auto; margin-left: auto; zoom:30%;" />
 
 
 
 
 
 **MVT vs. IVT**
+
+MVT says let $f:[a,b]\rightarrow \mathbb{R}$ be a continuous function on the closed interval $[a,b]$, and differentiable on the open interval $(a,b)$. Then there exists some $c$ in $(a,b)$ such that 
+$$
+\begin{align*}
+f'(c)=\frac{f(b)-f(a)}{b-a}
+\end{align*}
+$$
+<img src="https://drive.google.com/uc?id=1_-hQu9XVysS4kkZ1LdsVA1qv_-eYsFW-" alt="MVT.png" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
+
+IVT says let $f:[a,b]\rightarrow \mathbb{R}$ be a continuous function on the closed interval $[a,b]$, $w$ is a number between $f(a)$ and $f(b)$, then there must be at least one value $c\in [a,b]$ such that $f(c)=w$.
+
+<img src="https://github.com/my1396/Econ-Study/assets/14339495/e84211f5-038e-41d3-bf78-40785de291d6" alt="IVT.svg" style="display: block; margin-right: auto; margin-left: auto; zoom:150%;" />
+
+
 
 -   The **mean value theorem** is all about the differentiable functions and derivatives, whereas the **intermediate value theorem** is about the continuous function. 
 -   The mean value theorem guarantees that the derivatives have certain values, whereas the intermediate value theorem guarantees that the function has certain values between two given values.

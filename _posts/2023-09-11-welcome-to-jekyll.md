@@ -19,12 +19,6 @@ print_hi('Tom')
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-
-
 ___
 
 **快速进入学习状态？**
@@ -32,3 +26,19 @@ ___
 1.   做一些被动接受的事情。比如听课程。主动输出，如写论文，比较困难。从轻松愉快的事情开始。听很简单，听一些相关的内容。
 2.   在一个工作环境。听工作专用古典音乐，给大脑一个提示，一个氛围。
 3.   坐直，眼睛向上看。
+
+
+
+清洗茶垢
+
+茶垢成分：硅酸钙、碳酸钙。
+
+- 小苏打效果有，但是耗时长，效果不是特别好。
+- 醋 
+
+
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
+

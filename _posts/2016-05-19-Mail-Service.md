@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Life Miscellaneous"
+title: Mail Service
 tag: misc
 ---
 
