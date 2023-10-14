@@ -570,14 +570,14 @@ $$
 
 
 
-IVT says let $f:[a,b]\rightarrow \mathbb{R}$ be a continuous function on the closed interval $[a,b]$, $w$ is a number between $f(a)$ and $f(b)$, then there must be at least one value $c\in [a,b]$ such that $f(c)=w$.
+IVT says let $f:[a,b]\rightarrow \mathbb{R}$ be a continuous function on the closed interval $[a,b]$, $\textrm{w}$ is a number between $f(a)$ and $f(b)$, then there must be at least one value $c\in [a,b]$ such that $f(c)=\textrm{w}$.
 
 <img src="https://github.com/my1396/Econ-Study/assets/14339495/e84211f5-038e-41d3-bf78-40785de291d6" alt="IVT.svg" style="display: block; margin-right: auto; margin-left: auto; zoom:150%;" />
 
 
 
 -   The **mean value theorem** is all about the differentiable functions and derivatives, whereas the **intermediate value theorem** is about the continuous function. 
--   The mean value theorem guarantees that the derivatives have certain values, whereas the intermediate value theorem guarantees that the function has certain values between two given values.
+-   The MVT guarantees that the derivatives have certain values, whereas the IVT  guarantees that the function has certain values between two given values.
 
 
 
