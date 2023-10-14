@@ -1,6 +1,6 @@
 ---
 layout: post
-mathjax: true
+tag: misc
 date: 2023-9-11
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
@@ -35,6 +35,29 @@ ___
 
 - 小苏打效果有，但是耗时长，效果不是特别好。
 - 醋 
+
+
+
+$Na_2CO_3$: sodium carbonate. It is mainly used in industry production for making glass, cleansers and detergents. 苏打，碱面。吸水性强，容易结成硬块。高温下分解，易溶于水，水溶液呈碱性。在日常生活中，我们可以在厨房见到碳酸钠的身影，一般用来洗涤油污，还有在制作包子、馒头的时候添加。碳酸钠的碱性更强，碳酸氢钠只是弱碱性
+
+$NaHCO_3$: sodium bicarbonate, or baking soda, or sodium hydrogen carbonate, is also used as an odour neutraliser, cleaning or exfoliating agent, and sometimes as a temporary fire extinguisher. It is mainly used for household purposes, especially cooking and cleaning. 小苏打。在潮湿空气或热空气中即缓慢分解，产生二氧化碳。加热易分解，当加热至270℃完全分解，分解产物为碳酸钠和水、二氧化碳。在食品加工中，它是一种应用最广泛的疏松剂，用于生产饼干、面包等，是汽水饮料中二氧化碳的发生剂；可与明矾复合为碱性发酵粉。
+
+Soda Crystals: cleaning product, Hydrated Sodium Carbonate, $NaHCO_3$, soluble natural laundry and cleaning product.
+
+- Dissolve soda crystals in enough *hot* water – one cup per pint (500ml) of water – to immerse the pan. 
+- Soak for 30 minutes to dissolve grease and burnt-on food. Wipe stainless steel pans vigorously with a scourer. On non-stick and copper surfaces use a sponge or dishcloth.
+
+
+
+
+
+结晶蜂蜜: 葡萄糖多，葡萄糖溶解性低。
+
+不结晶蜂蜜: 果糖多，果糖溶解性高。
+
+
+
+bulb: E14 SES 40W, 470lm LED warm white
 
 
 
