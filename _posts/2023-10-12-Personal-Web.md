@@ -19,7 +19,7 @@ Nice personal website template from a professor: https://ryancordell.org
 
 Set up sitemap for your website and submit it to Google Search Engine.
 
-`sitemap` address: https://my1396.github.io/sitemap.xml
+`sitemap` address: <https://my1396.github.io/sitemap.xml>
 
 <https://victor2code.github.io/blog/2019/07/04/jekyll-github-pages-appear-on-Google.html>
 
@@ -83,6 +83,7 @@ Why can I do to speed up indexing?
 
 How to get custom domain name?
 
-1.   Go Daddy buy a domain name.
-2.   Go to DNS Management page from where you buy your domain.
+- Go Daddy buy a domain name, or
+
+- Go to DNS Management page from where you buy your domain.
 
