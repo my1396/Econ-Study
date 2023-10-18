@@ -37,7 +37,7 @@ Vectors are lowercase and matrices are uppercase symbols. Both vectors and matri
 
 - $f(x) \propto g(x)$ (`\propto`) If $f(x)$ is proportional to $g(x)$ we write. 
 
-- $f(x) = O(g(x))$  We say that  ''$f(x)$ is at most of order $g(x)$," if $\vert f(x)/g(x)\vert$ is bounded from above in some neighborhood of *x* = *c* (possibly *c* = ±∞). 
+- $f(x) = O(g(x))$  We say that  “$f(x)$ is at most of order $g(x)$," if $\vert f(x)/g(x)\vert$ is bounded from above in some neighborhood of *x* = *c* (possibly *c* = ±∞). 
 
 - $f(x) = o(g(x))$  we say that "$f(x)$ is of order less than $g(x)$," if $f(x)/g(x)$→ 0 when *x* → *c*. 
 - $f(x)\sim g(x)$ (`\sim`) if $f(x)/g(x)$ → 1 when *x* → *c*. The two functions are then said to be "asymptotically equal". Notice that when $f(x)$ and $g(x)$ are asymptotically equal, then  $f(x)\approx g(x)$ and also $f(x) = O(g(x))$, but not vice versa.
@@ -90,6 +90,10 @@ range 值域
 
 - DGP (data generating process) generates the data that we observe.
 - Any quantity, the calculation of which requires one to know the DGP, is a population quantity
+
+
+
+Normal Distribution $N(\mu, \sigma^2)$.
 
 
 
@@ -525,6 +529,16 @@ $y^{\prime\prime}=0$ inflection point, change of concavity.
 
 
 
+Convex function $\cup$
+
+- The line segment between any two distinct points lies *above* the graph between the two points.
+- 2nd derivative $f''$ is nonnegative, i.e., $f'$ is monotonically increasing.
+
+Concave function $\cap$
+
+- The line segment between any two distinct points lies *below* the graph between the two points.
+- 2nd derivative $f''$ is nonpositive, i.e., $f'$ is monotonically decreasing.
+
 How to find **min/max** pt.
 
 -   look at critical points (where $f'=0$), end points, and discontinuities. Critical values are the values of the function where $x$ equal to critical points.
@@ -613,16 +627,29 @@ $\sec^2=1+\tan^2$.
 
 
 
-**FTC2**
 
-$f$ is continuous
+
+**FTC1**
+
+Let $f$ be continuous on $[a,b]$ and let $F$ be any antiderivative of $f$. Then
 $$
 \begin{align*}
-\frac{d}{dx}\int_a^x f(t)dt=f(x)
+\int_a^bf(t)dt=F(b)-F(a)
 \end{align*}
 $$
 
--   important to differentiate variable of integrand $t$ from the upper limit $x$. Use different letters!
+
+**FTC2**
+
+Let $f$ be continuous on $[a,b]$ and let $F(x)=\int_a^xf(t)dt$. Then $F$ is a differentiable function on $(a,b)$, and 
+$$
+\begin{align*}
+F'(x)=\frac{d}{dx}\int_a^x f(t)dt=f(x).
+\end{align*}
+$$
+
+-   Important to differentiate variable of integrand $t$ from the upper limit $x$. Use different letters!
+-   The derivative of an integration is just replacing the integrand variable with the upper limit variable.
 
 
 
@@ -683,12 +710,20 @@ Semi-parametric models
 **Textbooks**
 
 -   **Econometric Analysis** , 5th Edition, by William H. Greene, Prentice Hall, 2003.
-    
+
     **Time Series Analysis**, by J. D. Hamilton, Princeton University Press, 1994.
-    
+
     **Estimation and Inference in Econometrics**, by R. Davidon and J. MacKinnon, Oxford University Press, 1993.
-    
+
     **Econometric Analysis of Cross Section and Panel Data**, by J. Wooldridge, MIT Press, 1999.
+
+    **Microeconometrics: Methods and Applications**, Cameron, A. C. and Trivedi, P. K., Cambridge University Press, 2005.
+
+-   **Core Metrics textbooks**
+
+    - Casella, G. and Berger, R.L. (2002) ***Statistical Inference***. 2nd ed. Duxbury.
+    - Hendry, D.F. and Nielsen, B. (2007) ***Econometric Modeling***. Princeton.
+    - Hoel, P.G., Port, S.C. and Stone, C.J. (1971) ***Introduction to Probability***. Boston: Houghton-Mifflin.
 
 
 

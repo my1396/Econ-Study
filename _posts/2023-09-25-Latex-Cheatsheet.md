@@ -74,6 +74,14 @@ Special characters / Symbols
 |       `\surd` | √    |        `\forall` |    ∀ |
 |     `\exists` | ∃    |       `\nexists` |    ∄ |
 
+#### Sets
+
+|     LaTex |        |       LaTex |        |
+| --------: | ------ | ----------: | -----: |
+|    `\cap` | $\cap$ |      `\cup` | $\cup$ |
+| `\subset` | ⊂      | `\subseteq` |      ⊆ |
+|     `\in` | ∈      |    `\notin` |      ∉ |
+
 #### Relational Symbols
 
 |             LaTex |                |             LaTex |             |
@@ -84,7 +92,6 @@ Special characters / Symbols
 |            `\geq` | ≥              |            `\leq` |           ≤ |
 |          `\equiv` | ≡              |            `\sim` |           ∼ |
 |             `\gg` | ≫              |             `\ll` |           ≪ |
-|         `\subset` | ⊂              |       `\subseteq` |           ⊆ |
 |             `\in` | ∈              |          `\notin` |           ∉ |
 |            `\mid` | $\mid$         |         `\propto` |           ∝ |
 |           `\perp` | ⊥              |       `\parallel` | $\parallel$ |

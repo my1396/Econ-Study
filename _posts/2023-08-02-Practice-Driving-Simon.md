@@ -381,7 +381,7 @@ From Barton
     -   indicate at about the 2nd exit. Do thorough observations when moving to the left. Cars could take the wrong lane and do not leave the RA when they should have, leaving me in a jar, couldn't move to the left lane. 
     -   just do observations, let cars on your left go and move to the left lane gradually. If they slow and and give way to you, then you move to the left lane.
     -   It is ok if you haven't moved to the left lane before the traffic light. You could even do it after the traffic light. 
-    -   BRM: https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s 5:20
+    -   BRM: [https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s](https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s) 5:20
     
         <span style='color:red'>Do NOT indicate and move to the left lane too early.  [✘] </span>The video only moved to the left right before the traffic light at the 2nd exit.
 
@@ -436,6 +436,8 @@ Otherwise you need to apply by post for a new license. Need to fill out a D1 for
 
   If your licence not arriving in this time, phone 0300 790 6801 8am-7pm Mon-Fri; or 8am-2pm Sat.
 
+  - Sent out application on <span style='color:#32CD32'>Sep 26</span>, 2023. Called on Oct 17 to check its status, they said that the card is sent out on Friday, Oct 13, taking 3 working days to deliver.
+
 - You only need to apply for your full licence if:
 
   - you did not give your provisional photocard driving licence to the examiner after the test, for example because you need to use it as ID
@@ -446,7 +448,7 @@ Otherwise you need to apply by post for a new license. Need to fill out a D1 for
 
 - How to apply
 
-  https://www.gov.uk/apply-for-your-full-driving-licence
+  <https://www.gov.uk/apply-for-your-full-driving-licence>
 
   If you’re applying for a full licence, you need to:
 
@@ -474,7 +476,7 @@ Otherwise you need to apply by post for a new license. Need to fill out a D1 for
 
   <span style='color:#32CD32'>Provide a return address!</span>
 
-  https://www.mumsnet.com/talk/am_i_being_unreasonable/3791373-to-be-a-bit-annoyed-by-dvla
+  <https://www.mumsnet.com/talk/am_i_being_unreasonable/3791373-to-be-a-bit-annoyed-by-dvla>
 
 - If you’re applying for a full licence by post, you must send documents to the DVLA within 2 years of passing your test or you’ll have to take it again.
 
