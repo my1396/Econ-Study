@@ -242,6 +242,30 @@ $a_1, a_2, ..., a_n$ has common ratio $q$.
 
 
 
+**Distributions**
+
+Visualization tool: https://seeing-theory.brown.edu/probability-distributions/
+
+
+
+**Change of variable formula**
+
+Given the distribution of $X$, we can obtain the distribution of a continuous function of it, e.g. $Y=g(X)$.
+$$
+\begin{align*}
+F_Y(y)&=P(Y\le y)=P\left(g(X)\le y\right) \\
+&=\left\{
+	\begin{array}{ll}
+	P\left(X\le g^{-1}(y)\right) = F_X(g^{-1}(y)) & \mbox{when $g(x)$ is \uparrow} \\
+	P\left(X\ge g^{-1}(y)\right) = 1- F_X(g^{-1}(y))  & \mbox{when $g(x)$ is \downarrow}
+	\end{array} \right. \\
+f_Y(y) &= f_X(g^{-1}(y))\left\vert \frac{\partial }{\partial y} g^{-1}(y) \right\vert
+\end{align*} 
+$$
+
+
+
+
 ## **Trig identities**
 
 $\mathrm{sin}\theta$ 奇函数

@@ -84,18 +84,25 @@ Special characters / Symbols
 
 #### Relational Symbols
 
-|             LaTex |                |             LaTex |             |
-| ----------------: | -------------- | ----------------: | ----------: |
-| `\hookrightarrow` | ↪              |     `\Rightarrow` |           ⇒ |
-|     `\rightarrow` | →              | `\Leftrightarrow` |           ⇔ |
-|    `\nrightarrow` | ↛              |         `\mapsto` |   $\mapsto$ |
-|            `\geq` | ≥              |            `\leq` |           ≤ |
-|          `\equiv` | ≡              |            `\sim` |           ∼ |
-|             `\gg` | ≫              |             `\ll` |           ≪ |
-|             `\in` | ∈              |          `\notin` |           ∉ |
-|            `\mid` | $\mid$         |         `\propto` |           ∝ |
-|           `\perp` | ⊥              |       `\parallel` | $\parallel$ |
-|    `\vartriangle` | $\vartriangle$ |        `\leadsto` |  $\leadsto$ |
+|          LaTex |                |       LaTex |             |
+| -------------: | -------------- | ----------: | ----------: |
+|         `\geq` | ≥              |      `\leq` |           ≤ |
+|       `\equiv` | ≡              |      `\sim` |           ∼ |
+|          `\gg` | ≫              |       `\ll` |           ≪ |
+|          `\in` | ∈              |    `\notin` |           ∉ |
+|         `\mid` | $\mid$         |   `\propto` |           ∝ |
+|        `\perp` | ⊥              | `\parallel` | $\parallel$ |
+| `\vartriangle` | $\vartriangle$ |  `\leadsto` |  $\leadsto$ |
+
+#### Arrows
+
+|             LaTex |            |             LaTex |              |
+| ----------------: | ---------- | ----------------: | -----------: |
+| `\hookrightarrow` | ↪          |     `\Rightarrow` |            ⇒ |
+|     `\rightarrow` | →          | `\Leftrightarrow` |            ⇔ |
+|    `\nrightarrow` | ↛          |         `\mapsto` |    $\mapsto$ |
+|        `\nearrow` | $\nearrow$ |        `\searrow` |   $\searrow$ |
+|        `\uparrow` | $\uparrow$ |      `\downarrow` | $\downarrow$ |
 
 #### Binary operators
 
