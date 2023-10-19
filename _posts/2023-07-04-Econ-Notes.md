@@ -251,6 +251,8 @@ Visualization tool: <https://seeing-theory.brown.edu/probability-distributions/>
 **Change of variable formula**
 
 Given the distribution of $X$, we can obtain the distribution of a continuous function of $X$, e.g. $Y=g(X)$.
+
+
 $$
 \begin{align*}
 F_Y(y)&=P(Y\le y)=P\left(g(X)\le y\right) \\
