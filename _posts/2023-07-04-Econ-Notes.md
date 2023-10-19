@@ -242,9 +242,11 @@ $a_1, a_2, ..., a_n$ has common ratio $q$.
 
 
 
-**Distributions**
+**Distribution Functions**
 
 Visualization tool: <https://seeing-theory.brown.edu/probability-distributions/>
+
+Plot a function: <https://www.desmos.com/calculator>
 
 
 
@@ -262,6 +264,29 @@ F_Y(y)&=P(Y\le y)=P\left(g(X)\le y\right) \\
 	P\left(X\ge g^{-1}(y)\right) = 1- F_X(g^{-1}(y))  & \mbox{when $g(x)$ is $\downarrow$}
 	\end{array} \right. \\
 f_Y(y) &= f_X(g^{-1}(y))\left\vert \frac{\partial }{\partial y} g^{-1}(y) \right\vert
+\end{align*}
+$$
+
+
+**Law of iterated expectations** LIE
+$$
+\begin{align*}
+\mathbb{E}_Y(Y) = \mathbb{E}_X\left[\mathbb{E}_{Y\vert X}\right(Y\vert X=x\left)\right]
+\end{align*}
+$$
+or more succinctly
+$$
+\begin{align*}
+\mathbb{E}[Y] = \mathbb{E}\left[\mathbb{E}\right(Y\vert X=x\left)\right].
+\end{align*}
+$$
+Suppose $\mathbb{E}(Y\vert X)=0$, then 
+
+
+$$
+\begin{align*}
+1. \mathbb{E}[Y] &= \mathbb{E}\left[\mathbb{E}\right(Y\vert X=x\left)\right] = 0 \\
+2. \mathbb{E}[g(X)\cdot Y] &= \mathbb{E}\left[\mathbb{E}[g(X)\cdot Y\vert X]\right] = \mathbb{E}\left[g(X)\cdot \mathbb{E}[Y\vert X]\right] = \mathbb{E}[g(X)\cdot0]=0
 \end{align*}
 $$
 
@@ -564,6 +589,8 @@ Concave function $\cap$
 
 - The line segment between any two distinct points lies *below* the graph between the two points.
 - 2nd derivative $f''$ is nonpositive, i.e., $f'$ is monotonically decreasing.
+
+
 
 How to find **min/max** pt.
 
