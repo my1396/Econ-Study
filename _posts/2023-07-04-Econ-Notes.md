@@ -268,7 +268,7 @@ f_Y(y) &= f_X(g^{-1}(y))\left\vert \frac{\partial }{\partial y} g^{-1}(y) \right
 $$
 
 
-**Law of iterated expectations** LIE  
+**Law of iterated expectations** LIE  \\
 
 
 $$
@@ -299,18 +299,22 @@ $$
 
 Population quantities need to know DGP. Any thing you observe is for samples.
 
-Expectation operator is a linear operator, meaning that we have 
+Expectation operator is a linear operator, meaning that we have \par
 $$
 \begin{align*}
 \mathbb{E}(a+bX)=a+b\,\mathbb{E}(X)
 \end{align*}
 $$
+
+
 More generally, let $a_1, \ldots, a_n$ and $b_1, \ldots, b_n$ be sequences of non-random variables and let $X_1, \ldots, X_n$ be a sequence of random variables. Then,
 $$
 \begin{align*}
 \mathbb{E}\left[\sum_{i=1}^n(a_i+b_iX_i)\right] = \sum_{i=1}^n \mathbb{E}(a_i+b_iX_i) = \sum_{i=1}^n\left(a_i+b_i\mathbb{E}[X_i]\right).
 \end{align*}
 $$
+
+
 **Sample mean** Let $X_1, \ldots, X_n$ denote $n$ observations on a variable $X$, the sample mean is
 $$
 \begin{align*}
