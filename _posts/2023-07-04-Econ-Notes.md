@@ -266,19 +266,19 @@ f_Y(y) &= f_X(g^{-1}(y))\left\vert \frac{\partial }{\partial y} g^{-1}(y) \right
 $$
 
 
-**Law of iterated expectations** LIE
+**Law of iterated expectations** LIE  
 $$
 \begin{align*}
 \mathbb{E}_Y(Y) = \mathbb{E}_X\left[\mathbb{E}_{Y\vert X}\right(Y\vert X=x\left)\right]
 \end{align*}
 $$
-or more succinctly
+or more succinctly  
 $$
 \begin{align*}
 \mathbb{E}[Y] = \mathbb{E}\left[\mathbb{E}\right(Y\vert X=x\left)\right].
 \end{align*}
 $$
-Suppose $\mathbb{E}(Y\vert X)=0$, then 
+Suppose $\mathbb{E}(Y\vert X)=0$, then   
 $$
 \begin{align*}
 1. \quad & \mathbb{E}[Y] = \mathbb{E}\left[\mathbb{E}\right(Y\vert X=x\left)\right] = 0 \\
