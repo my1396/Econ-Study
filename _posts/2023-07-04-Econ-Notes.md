@@ -253,6 +253,8 @@ Plot a function: <https://www.desmos.com/calculator>
 **Change of variable formula**
 
 Given the distribution of $X$, we can obtain the distribution of a continuous function of $X$, e.g. $Y=g(X)$.
+
+
 $$
 \begin{align*}
 F_Y(y)&=P(Y\le y)=P\left(g(X)\le y\right) \\
@@ -303,7 +305,19 @@ $$
 \mathbb{E}(a+bX)=a+b\,\mathbb{E}(X)
 \end{align*}
 $$
-More generally, 
+More generally, let $a_1, \ldots, a_n$ and $b_1, \ldots, b_n$ be sequences of non-random variables and let $X_1, \ldots, X_n$ be a sequence of random variables. Then,
+$$
+\begin{align*}
+\mathbb{E}\left[\sum_{i=1}^n(a_i+b_iX_i)\right] = \sum_{i=1}^n \mathbb{E}(a_i+b_iX_i) = \sum_{i=1}^n\left(a_i+b_i\mathbb{E}[X_i]\right).
+\end{align*}
+$$
+**Sample mean** Let $X_1, \ldots, X_n$ denote $n$ observations on a variable $X$, the sample mean is
+$$
+\begin{align*}
+\overline{Y}=\frac{1}{n}\sum_{i=1}^nX_i
+\end{align*}
+$$
+
 
 
 
