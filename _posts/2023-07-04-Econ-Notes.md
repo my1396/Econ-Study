@@ -293,6 +293,18 @@ $$
 $$
 
 
+**Population and Sample**
+
+Population quantities need to know DGP. Any thing you observe is for samples.
+
+Expectation operator is a linear operator, meaning that we have 
+$$
+\begin{align*}
+\mathbb{E}(a+bX)=a+b\,\mathbb{E}(X)
+\end{align*}
+$$
+More generally, 
+
 
 
 ## **Trig identities**
