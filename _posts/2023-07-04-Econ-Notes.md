@@ -253,8 +253,6 @@ Plot a function: <https://www.desmos.com/calculator>
 **Change of variable formula**
 
 Given the distribution of $X$, we can obtain the distribution of a continuous function of $X$, e.g. $Y=g(X)$.
-
-
 $$
 \begin{align*}
 F_Y(y)&=P(Y\le y)=P\left(g(X)\le y\right) \\
@@ -281,12 +279,10 @@ $$
 \end{align*}
 $$
 Suppose $\mathbb{E}(Y\vert X)=0$, then 
-
-
 $$
 \begin{align*}
-1. \mathbb{E}[Y] &= \mathbb{E}\left[\mathbb{E}\right(Y\vert X=x\left)\right] = 0 \\
-2. \mathbb{E}[g(X)\cdot Y] &= \mathbb{E}\left[\mathbb{E}[g(X)\cdot Y\vert X]\right] = \mathbb{E}\left[g(X)\cdot \mathbb{E}[Y\vert X]\right] = \mathbb{E}[g(X)\cdot0]=0
+1. \quad & \mathbb{E}[Y] = \mathbb{E}\left[\mathbb{E}\right(Y\vert X=x\left)\right] = 0 \\
+2. \quad & \mathbb{E}[g(X)\cdot Y] = \mathbb{E}\left[\mathbb{E}[g(X)\cdot Y\vert X]\right] = \mathbb{E}\left[g(X)\cdot \mathbb{E}[Y\vert X]\right] = \mathbb{E}[g(X)\cdot0]=0
 \end{align*}
 $$
 
