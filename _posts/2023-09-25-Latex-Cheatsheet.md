@@ -94,7 +94,12 @@ Special characters / Symbols
 |        `\perp` | ⊥              | `\parallel` | $\parallel$ |
 | `\vartriangle` | $\vartriangle$ |  `\leadsto` |  $\leadsto$ |
 
-Note: use `\vert` or `\mid` ($\vert$) to show a pipe operator, otherwise markdown recognizes it as a table column.
+**Note:** 
+
+- use `\vert` or `\mid` ($\vert$) to show a pipe operator, otherwise markdown recognizes it as a table column.
+- `\perp` ($\perp$) indicates zero correlation; `\indep` ($\indep$) indicates independece.
+
+
 
 #### Arrows
 

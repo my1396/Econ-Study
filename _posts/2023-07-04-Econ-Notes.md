@@ -437,11 +437,12 @@ $$
 \textrm{Corr}(X,Y)=\frac{\textrm{Cov}(X, Y)}{\sqrt{\text{Var}(X)\text{Var}(Y)}}
 $$
 
-If $\textrm{Corr}(X,Y)=0$, we say that $X$ and $Y$ are uncorrelated or orthogonal, denoted by $X\perp Y$.
+If $\textrm{Corr}(X,Y)=0$, we say that $X$ and $Y$ are <span style='color:#32CD32'>uncorrelated</span> or orthogonal, denoted by $X {\color{#32CD32}\perp} Y$ (perpendicular symbol).
 
 
-$X \indep Y$ denotes $X$ and $Y$ are independent.
-$X \indep Y \rightarrow $  zero correlation
+$X {\color{#32CD32}\indep} Y$ (double perpendicular symbol) denotes $X$ and $Y$ are <span style='color:#32CD32'>independent</span>.
+
+$X \indep Y \Rightarrow X \perp Y$,  in plain language, independence implies zero correlation. 
 
 ## **Trig identities**
 
@@ -546,8 +547,8 @@ $$
 1.&\ \mu_t=0, \ and \\
 2.&\ \gamma_\tau=\left\{
 	\begin{array}{ll}
-	\sigma^2 & \mbox{when $\tau=0$} \\
-	0 & \mbox{when $\tau\neq0$}
+	\sigma^2 & \text{when $\tau=0$} \\
+	0 & \text{when $\tau\neq0$}
 	\end{array} \right.
 \end{align*}
 $$
