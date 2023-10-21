@@ -160,6 +160,16 @@ $\sup$
 
 - `\right .` creates an "invisible" delimiter that is used to match a corresponding `\left`, e.g., in multi-case function definition, you only need one left brace, then you use `\right .` to indicate the end of the function.
 
+- In `markdown`, you can define your own commands by putting the following codes at the beginning of the file.
+
+  ```markdown
+  $$
+  \newcommand{\indep}{\perp \!\!\! \perp}
+  $$
+  ```
+
+  
+
 
 
 

@@ -20,11 +20,14 @@
 </html>
 
 
-<!-- inline config -->
+<!-- enable inline eqn and add new macro definitions -->
 <script>
   MathJax = {
     tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']]
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      macros: {
+        indep: "{\\perp \\!\\!\\! \\perp}",
+      }
     },
     svg: {
     fontCache: 'global'

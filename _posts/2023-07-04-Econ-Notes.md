@@ -4,6 +4,11 @@ title: Econometric Notes
 tag: study
 modified_date: 2023-10-05
 ---
+
+$$
+\newcommand{\indep}{\perp \!\!\! \perp}
+$$
+
 ## Notation
 
 $\mathbb{E}_Y$ and $\mathrm{Var}_Y$ denote expectation over $Y$ and variance over $Y$.
@@ -260,8 +265,8 @@ $$
 F_Y(y)&=P(Y\le y)=P\left(g(X)\le y\right) \\
 &=\left\{
 	\begin{array}{ll}
-	P\left(X\le g^{-1}(y)\right) = F_X(g^{-1}(y)) & \mbox{when $g(x)$ is $\uparrow$} \\
-	P\left(X\ge g^{-1}(y)\right) = 1- F_X(g^{-1}(y))  & \mbox{when $g(x)$ is $\downarrow$}
+	P\left(X\le g^{-1}(y)\right) = F_X(g^{-1}(y)) & \text{when $g(x)$ is $\uparrow$} \\
+	P\left(X\ge g^{-1}(y)\right) = 1- F_X(g^{-1}(y))  & \text{when $g(x)$ is $\downarrow$}
 	\end{array} \right. \\
 f_Y(y) &= f_X(g^{-1}(y))\left\vert \frac{\partial }{\partial y} g^{-1}(y) \right\vert
 \end{align*}
@@ -328,8 +333,8 @@ $$
 \begin{align*}
 \mathbb{E}[g(X)] = \left\{
 	\begin{array}{ll}
-	\int g(x)f(x)dx & \mbox{for continuous $X$} \\
-	\sum_xg(x)f(x) & \mbox{for discrete $X$}
+	\int g(x)f(x)dx & \text{for continuous $X$} \\
+	\sum_xg(x)f(x) & \text{for discrete $X$}
 	\end{array} \right.
 \end{align*}
 $$
@@ -341,8 +346,8 @@ $$
 \begin{align*}
 Var(X) = \mathbb{E}[(X-\mathbb{E}(X))^2] = \left\{
 	\begin{array}{ll}
-	\int [x-\mathbb{E}(X)]^2 f(x)dx & \mbox{for continuous $X$} \\
-	\sum_x [x-\mathbb{E}(X)]^2 f(x) & \mbox{for discrete $X$}
+	\int [x-\mathbb{E}(X)]^2 f(x)dx & \text{for continuous $X$} \\
+	\sum_x [x-\mathbb{E}(X)]^2 f(x) & \text{for discrete $X$}
 	\end{array} \right.
 \end{align*}
 $$
@@ -407,16 +412,36 @@ The latter subtracts 1 from $n$ in the denominator, which is known as a *degrees
 Covariance and correlaation measure the linear association btw two RVs $X$ and $Y$
 
 $$
-Cov(X, Y) = \mathbb{E}\{[X-\mathbb{E}][Y-\mathbb{Y}]\}
+\textrm{Cov}(X, Y) = \mathbb{E}\{[X-\mathbb{E}(X)][Y-\mathbb{E}(Y)]\}
 $$
+
 where the expected value $\mathbb{E}[\cdot]$ is taken over the joint distribution of $(X,Y)$.
 
 More formally
 
 $$
-
+\textrm{Cov}(X, Y) = \iint[X-\mathbb{E}(X)][Y-\mathbb{E}(Y)]f(x,y) dxdy \quad \textrm{for } X, Y \textrm{ continuous}
 $$
 
+and 
+
+$$
+\textrm{Cov}(X, Y) = \sum_y\sum_x[X-\mathbb{E}(X)][Y-\mathbb{E}(Y)]f(x,y) \quad \textrm{for } X, Y \textrm{ discrete,}
+$$
+
+where the sum and integral are over the supports of $X$ and $Y$.
+
+Correlation is a scaled measure of covariance:
+
+$$
+\textrm{Corr}(X,Y)=\frac{\textrm{Cov}(X, Y)}{\sqrt{\text{Var}(X)\text{Var}(Y)}}
+$$
+
+If $\textrm{Corr}(X,Y)=0$, we say that $X$ and $Y$ are uncorrelated or orthogonal, denoted by $X\perp Y$.
+
+
+$X \indep Y$ denotes $X$ and $Y$ are independent.
+$X \indep Y \rightarrow $  zero correlation
 
 ## **Trig identities**
 
