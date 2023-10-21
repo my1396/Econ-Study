@@ -94,6 +94,8 @@ Special characters / Symbols
 |        `\perp` | ⊥              | `\parallel` | $\parallel$ |
 | `\vartriangle` | $\vartriangle$ |  `\leadsto` |  $\leadsto$ |
 
+Note: use `\vert` or `\mid` ($\vert$) to show a pipe operator, otherwise markdown recognizes it as a table column.
+
 #### Arrows
 
 |             LaTex |            |             LaTex |              |
@@ -154,6 +156,43 @@ $\sup$
 
 
 
+**Note**:
+
+- `\right .` creates an "invisible" delimiter that is used to match a corresponding `\left`, e.g., in multi-case function definition, you only need one left brace, then you use `\right .` to indicate the end of the function.
+
+
+
+
+
+
+
+
+
 # Reference
 
 @LKS90, Github Repository, <https://gist.github.com/LKS90/252ac41bd4a173be35b0>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

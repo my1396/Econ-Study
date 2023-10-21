@@ -304,15 +304,14 @@ $$
 Population quantities need to know DGP. Any thing you observe is for samples.
 
 Expectation operator is a linear operator, meaning that we have
+
 $$
 \begin{align*}
 \mathbb{E}(a+bX)=a+b\,\mathbb{E}(X)
 \end{align*}
 $$
 
-
 More generally, let $a_1, \ldots, a_n$ and $b_1, \ldots, b_n$ be sequences of non-random variables and let $X_1, \ldots, X_n$ be a sequence of random variables. Then,  
-
 
 $$
 \begin{align*}
@@ -324,7 +323,6 @@ $$
 Expectations of Functions of RVs
 
 If $X$ is a RV, then expected value of $g(X)$ is given by 
-
 
 $$
 \begin{align*}
@@ -339,7 +337,6 @@ $$
 
 Variance is also an expectation by setting $g(X)=(X-\mathbb{E}(X))^2$. In other words, $Var(X)=\mathbb{E}\left[(X-\mathbb{E}(X))^2\right]$.
 
-
 $$
 \begin{align*}
 Var(X) = \mathbb{E}[(X-\mathbb{E}(X))^2] = \left\{
@@ -351,10 +348,9 @@ Var(X) = \mathbb{E}[(X-\mathbb{E}(X))^2] = \left\{
 $$
 
 
-Example: Bernoulli
+Example: **Bernoulli**
 
 Let $X \sim \textrm{Bernoulli}(\theta)$, and recall that we have $\mathbb{E}(X)=\theta$. Then
-
 
 $$
 \begin{align*}
@@ -366,9 +362,7 @@ Var(X) &= \mathbb{E}(X-E[X])^2 \\
 \end{align*}
 $$
 
-
 Alternative derivation: Since $0^2=0$ and $1^2=1$, we have $X^2=X$ implying that $\mathbb{E}(X^2)=\mathbb{E}(X)=\theta$. Therefore,
-
 
 $$
 \begin{align*}
@@ -381,7 +375,6 @@ $$
 
 **Sample mean** Let $X_1, \ldots, X_n$ denote $n$ observations on a variable $X$, the sample mean is
 
-
 $$
 \begin{align*}
 \overline{Y}=\frac{1}{n}\sum_{i=1}^nX_i
@@ -391,16 +384,13 @@ $$
 
 Sample variance use either 
 
-
 $$
 \begin{align*}
 \frac{1}{n}\sum_{i=1}^n(X_i-\overline X)^2
 \end{align*}
 $$
 
-
 or 
-
 
 $$
 \begin{align*}
@@ -408,11 +398,24 @@ $$
 \end{align*}
 $$
 
-
 The latter subtracts 1 from $n$ in the denominator, which is known as a *degrees of freedom correction*.
 
 
 
+**Covariance and Correlation**
+
+Covariance and correlaation measure the linear association btw two RVs $X$ and $Y$
+
+$$
+Cov(X, Y) = \mathbb{E}\{[X-\mathbb{E}][Y-\mathbb{Y}]\}
+$$
+where the expected value $\mathbb{E}[\cdot]$ is taken over the joint distribution of $(X,Y)$.
+
+More formally
+
+$$
+
+$$
 
 
 ## **Trig identities**
