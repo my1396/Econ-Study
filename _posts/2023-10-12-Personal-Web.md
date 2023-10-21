@@ -64,7 +64,7 @@ Now, commit the changes and hit the URL `yourwebsite.com/sitemap.xml`. You shoul
 
 Why can I do to speed up indexing?
 
-- inspect URL and request indexing
+- inspect URL and **request indexing** [this takes a few days, but it works]
 - build backlinks to your repository from other reputable websites.
 
 

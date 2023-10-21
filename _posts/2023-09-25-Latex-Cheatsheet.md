@@ -127,7 +127,12 @@ Special characters / Symbols
 |   `\prod` | $\prod$   |      `\sum` |      $\sum$ |
 | `\bigcup` | $\bigcup$ |   `\bigcap` |   $\bigcap$ |
 
+Summation operators: $\displaystyle\sum_{i=1}^n$ (`\displaystyle\sum_{i=1}^n`) vs $\textstyle\sum_{i=1}^n$ (`\textstyle\sum_{i=1}^n`).
+
+
+
 #### Named operators
+
 $\arccos$,
 $\arcsin$,
 $\arctan$,

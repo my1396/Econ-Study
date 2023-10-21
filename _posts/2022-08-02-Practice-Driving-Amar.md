@@ -244,7 +244,7 @@ habitual faults, you can't have the same fault for over than 3 times on your tes
 
         
 
-### <span style='color:#449aff'>**Roundabout Lance Choosing**</span>
+### <span style='color:#449aff'>**Roundabout Lane Choosing**</span>
 
 -   General
     -   Read signs is important!! Get a general idea <span style='color:#32CD32'>which direction</span> you are going, and <span style='color:#32CD32'>which exit</span> you are taking.

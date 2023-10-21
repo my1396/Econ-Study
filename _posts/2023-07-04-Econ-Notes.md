@@ -282,9 +282,7 @@ $$
 \end{align*}
 $$
 
-
 or more succinctly  
-
 
 $$
 \begin{align*}
@@ -292,9 +290,7 @@ $$
 \end{align*}
 $$
 
-
 Suppose $\mathbb{E}(Y\vert X)=0$, then   
-
 
 $$
 \begin{align*}
@@ -303,10 +299,30 @@ $$
 \end{align*}
 $$
 
+**Intuition behind the LIE**
+
+Think of $\mathbf{x}$ as a discrete vector taking on possible values $\mathbf{c}_1, \mathbf{c}_2, \ldots, \mathbf{c}_M$ with probabilities $p_1, p_2, \ldots, p_M$. Then LIE says:
+
+$$
+\mathbb{E}(y) = p_1 \mathbb{E}(y\vert \mathbf{x}=\mathbf{c}_1) + p_2 \mathbb{E}(y\vert \mathbf{x}=\mathbf{c}_2) + \cdots + p_M \mathbb{E}(y\vert \mathbf{x}=\mathbf{c}_M).
+$$
+
+Ths is, $\mathbb{E}(y)$ is simply a weighted average of the $\mathbb{E}(y\vert \mathbf{x}=\mathbf{c}_i)$, where the weight $p_i$ is the probability that $\mathbf{x}$ takes on the value of $\mathbf{c}_i$. In other words, a weighted average of averages.
+
+E.g., suppose we are intrested in average IQ generally, but we have measures of average IQ by gender. We could figure out the quantity of interest by weighting average IQ by the relative proportions of men and women.
+
+**Decomposition of variance**
+
+$$
+\text{Var}(Y) = \text{Var}_\mathbf{x}[\mathbb{E}(y\vert \mathbf{x})]
+ + \mathbb{E}_\mathbf{x}[\text{Var}(y\vert \mathbf{x})]
+$$
+
+In plain language, the variance of $y$ deceomposes into the variance of the conditional mean plus the expected variance around the conditional mean.
 
 **Population and Sample**
 
-Population quantities need to know DGP. Any thing you observe is for samples.
+Population quantities need to know the DGP. Any thing you observe is for samples.
 
 Expectation operator is a linear operator, meaning that we have
 
@@ -371,7 +387,7 @@ Alternative derivation: Since $0^2=0$ and $1^2=1$, we have $X^2=X$ implying that
 
 $$
 \begin{align*}
-Var(X)=\mathbb{E}[X^2]-(\mathbb{E[X]})^2 = \theta-\theta^2
+Var(X)=\mathbb{E}[X^2]-(\mathbb{E}[X])^2 = \theta-\theta^2
 \end{align*}
 $$
 
@@ -443,6 +459,38 @@ If $\textrm{Corr}(X,Y)=0$, we say that $X$ and $Y$ are <span style='color:#32CD3
 $X {\color{#32CD32}\indep} Y$ (double perpendicular symbol) denotes $X$ and $Y$ are <span style='color:#32CD32'>independent</span>.
 
 $X \indep Y \Rightarrow X \perp Y$,  in plain language, independence implies zero correlation. 
+
+
+**Joint CDF**
+
+$$
+F(x_1, x_2) =  \left\{
+	\begin{array}{ll}
+	\int_{-\infty}^{x_1}\int_{-\infty}^{x_2} f(a, b) da db & \text{continuous} \\
+	P(X_1=x_1, X_2=x_2) & \text{discrete}
+	\end{array} \right.
+$$
+
+
+**Joint Density**
+
+$$
+f(x_1, x_2) =  \left\{
+	\begin{array}{ll}
+	\frac{\partial^2F(x_1, x_2)}{\partial x_1 \partial x_2} & \text{continuous} \\
+	\sum_{a\le x_1} \sum_{b\le x_2} f(a,b) & \text{discrete}
+	\end{array} \right.
+$$
+
+Marginals
+
+$$
+f_1(k) =  \left\{
+	\begin{array}{ll}
+	\int_{-\infty}^\infty f(k, x_2) dx_2 & \text{continuous} \\
+	\sum_{x_2} f(x_1=k,X_2=x_2) & \text{discrete}
+	\end{array} \right.
+$$
 
 ## **Trig identities**
 
