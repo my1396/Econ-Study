@@ -268,7 +268,7 @@ f_Y(y) &= f_X(g^{-1}(y))\left\vert \frac{\partial }{\partial y} g^{-1}(y) \right
 $$
 
 
-**Law of iterated expectations** LIE  \\
+**Law of iterated expectations** LIE  
 
 
 $$
@@ -276,6 +276,8 @@ $$
 \mathbb{E}_Y(Y) = \mathbb{E}_X\left[\mathbb{E}_{Y\vert X}\right(Y\vert X=x\left)\right]
 \end{align*}
 $$
+
+
 or more succinctly  
 
 
@@ -284,6 +286,8 @@ $$
 \mathbb{E}[Y] = \mathbb{E}\left[\mathbb{E}\right(Y\vert X=x\left)\right].
 \end{align*}
 $$
+
+
 Suppose $\mathbb{E}(Y\vert X)=0$, then   
 
 
@@ -299,7 +303,7 @@ $$
 
 Population quantities need to know DGP. Any thing you observe is for samples.
 
-Expectation operator is a linear operator, meaning that we have \par
+Expectation operator is a linear operator, meaning that we have
 $$
 \begin{align*}
 \mathbb{E}(a+bX)=a+b\,\mathbb{E}(X)
@@ -307,7 +311,9 @@ $$
 $$
 
 
-More generally, let $a_1, \ldots, a_n$ and $b_1, \ldots, b_n$ be sequences of non-random variables and let $X_1, \ldots, X_n$ be a sequence of random variables. Then,
+More generally, let $a_1, \ldots, a_n$ and $b_1, \ldots, b_n$ be sequences of non-random variables and let $X_1, \ldots, X_n$ be a sequence of random variables. Then,  
+
+
 $$
 \begin{align*}
 \mathbb{E}\left[\sum_{i=1}^n(a_i+b_iX_i)\right] = \sum_{i=1}^n \mathbb{E}(a_i+b_iX_i) = \sum_{i=1}^n\left(a_i+b_i\mathbb{E}[X_i]\right).
@@ -315,12 +321,96 @@ $$
 $$
 
 
+Expectations of Functions of RVs
+
+If $X$ is a RV, then expected value of $g(X)$ is given by 
+
+
+$$
+\begin{align*}
+\mathbb{E}[g(X)] = \left\{
+	\begin{array}{ll}
+	\int g(x)f(x)dx & \mbox{for continuous $X$} \\
+	\sum_xg(x)f(x) & \mbox{for discrete $X$}
+	\end{array} \right.
+\end{align*}
+$$
+
+
+Variance is also an expectation by setting $g(X)=(X-\mathbb{E}(X))^2$. In other words, $Var(X)=\mathbb{E}\left[(X-\mathbb{E}(X))^2\right]$.
+
+
+$$
+\begin{align*}
+Var(X) = \mathbb{E}[(X-\mathbb{E}(X))^2] = \left\{
+	\begin{array}{ll}
+	\int [x-\mathbb{E}(X)]^2 f(x)dx & \mbox{for continuous $X$} \\
+	\sum_x [x-\mathbb{E}(X)]^2 f(x) & \mbox{for discrete $X$}
+	\end{array} \right.
+\end{align*}
+$$
+
+
+Example: Bernoulli
+
+Let $X \sim \textrm{Bernoulli}(\theta)$, and recall that we have $\mathbb{E}(X)=\theta$. Then
+
+
+$$
+\begin{align*}
+Var(X) &= \mathbb{E}(X-E[X])^2 \\ 
+			 &= \sum_x (x-\mathbb{E}[X])^2 f(x) \\
+			 &= (0-\theta)^2 \times f(0) + (1-\theta)^2\times f(1) \\
+			 &= \theta^2(1-\theta) + (1-\theta)^2\theta \\
+			 &= \theta (1-\theta).
+\end{align*}
+$$
+
+
+Alternative derivation: Since $0^2=0$ and $1^2=1$, we have $X^2=X$ implying that $\mathbb{E}(X^2)=\mathbb{E}(X)=\theta$. Therefore,
+
+
+$$
+\begin{align*}
+Var(X)=\mathbb{E}[X^2]-(\mathbb{E[X]})^2 = \theta-\theta^2
+\end{align*}
+$$
+
+
+
+
 **Sample mean** Let $X_1, \ldots, X_n$ denote $n$ observations on a variable $X$, the sample mean is
+
+
 $$
 \begin{align*}
 \overline{Y}=\frac{1}{n}\sum_{i=1}^nX_i
 \end{align*}
 $$
+
+
+Sample variance use either 
+
+
+$$
+\begin{align*}
+\frac{1}{n}\sum_{i=1}^n(X_i-\overline X)^2
+\end{align*}
+$$
+
+
+or 
+
+
+$$
+\begin{align*}
+\frac{1}{n-1}\sum_{i=1}^n(X_i-\overline X)^2
+\end{align*}
+$$
+
+
+The latter subtracts 1 from $n$ in the denominator, which is known as a *degrees of freedom correction*.
+
 
 
 
