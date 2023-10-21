@@ -486,6 +486,8 @@ $$
 
 Marginals
 
+This is called marginalizaing or integrating out $X_2$ to get the marginal of $X_1$.
+
 $$
 f_1(k) =  \left\{
 	\begin{array}{ll}
@@ -494,6 +496,7 @@ f_1(k) =  \left\{
 	\end{array} \right.  
 $$
 
+Marginalizaing the joint density w.r.t. $X_1$ to get the marginal of $X_2$.
 $$
 f_2(k) =  \left\{
 	\begin{array}{ll}
@@ -608,61 +611,8 @@ Another example for $X_1, X_2$ would be wages and level of education, whereas $X
 
 
 
-## **Trig identities**
-
-$\mathrm{sin}\theta$ 奇函数
-
-$\mathrm{cos}\theta$ 偶函数
-
-$\mathrm{sin}(\theta\pm\frac{k\pi}{2})$,  $\mathrm{cos}(\theta\pm\frac{k\pi}{2})$ 奇变偶不变，符号看象限。 
-
--   根据$k$ ，决定是否变函数。 $k$ 为奇数，$\mathrm{sin}$ 变 $\mathrm{cos}$，$\mathrm{cos}$ 变 $\mathrm{sin}$。$k$ 为偶数，则函数名不变。
--   符号由原函数决定, assuming $0<\theta<\frac{\pi}{2}$为锐角，看$\theta\pm\frac{k\pi}{2}$在原函数的正负。实际上 $\theta$ 可以是任意角度，但如果是钝角，完全可以$k:=k+1$化为锐角；否则，函数处于未化简完全的状态。
--   e.g., $\mathrm{cos}(\frac{\pi}{2}-\theta)=\mathrm{sin}\theta$, $k=1$为奇数, 函数名变为$\mathrm{sin}$; 当$\theta$为锐角时，$\frac{\pi}{2}-\theta$ 在第一象限，$\mathrm{cos}(\frac{\pi}{2}-\theta)$为正。 
-
-
-
-double-angel formula 倍角公式
-
--   $\mathrm{cos}(2\theta)=\mathrm{cos}^2\theta-\mathrm{sin}^2\theta$
-
--   $\mathrm{sin}(2\theta)=2\mathrm{sin}\theta\cdot \mathrm{cos}\theta$, 2 不要落下了！
-
-half-angel formula 半角公式 (降幂公式) used to get rid of the power
-
--   $\mathrm{cos}^2\theta=\frac{1+\mathrm{cos}(2\theta)}{2}$
-
--   $\mathrm{sin}^2\theta=\frac{1-\mathrm{cos}(2\theta)}{2}$
-
-
-
-**和差公式** Angle sum and difference identities
-
-$\mathrm{sin}(\alpha+\beta)=\mathrm{sin}\alpha\cdot\mathrm{cos}\beta+\mathrm{cos}\alpha\cdot\mathrm{sin}\beta$
-
-$\mathrm{sin}(\alpha-\beta)=\mathrm{sin}\alpha\cdot\mathrm{cos}\beta-\mathrm{cos}\alpha\cdot\mathrm{sin}\beta$
-
-$\mathrm{cos}(\alpha+\beta)=\mathrm{cos}\alpha\cdot\mathrm{cos}\beta-\mathrm{sin}\alpha\cdot\mathrm{sin}\beta$
-
-$\mathrm{cos}(\alpha-\beta)=\mathrm{cos}\alpha\cdot\mathrm{cos}\beta+\mathrm{sin}\alpha\cdot\mathrm{sin}\beta$
-
-
-
-**积化和差**公式可以由和差公式得来。(product-to-sum identities)
-
-
-
-**和差化积**公式 (sum-to-product identities)
-
-正加正，正在前； $\mathrm{sin}\alpha +\mathrm{sin}\beta=2\, \mathrm{sin}\frac{\alpha+\beta}{2}\cdot\mathrm{cos}\frac{\alpha-\beta}{2}$
-
-正减余在先； $\mathrm{sin}\alpha - \mathrm{sin}\beta=2\, \mathrm{cos}\frac{\alpha+\beta}{2}\cdot\mathrm{sin}\frac{\alpha-\beta}{2}$
-
-余加全是余；$\mathrm{cos}\alpha +\mathrm{cos}\beta=2\, \mathrm{cos}\frac{\alpha+\beta}{2}\cdot\mathrm{cos}\frac{\alpha-\beta}{2}$
-
-余减负正弦；$\mathrm{cos}\alpha - \mathrm{cos}\beta=-2\, \mathrm{sin}\frac{\alpha+\beta}{2}\cdot\mathrm{sin}\frac{\alpha-\beta}{2}$
-
-
+Linear Algebra
+<https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab>
 
 
 
@@ -882,187 +832,6 @@ VAR model allows feedback to occur between the variables in the model. For examp
 
 
 
-
-## Calculus
-
-1st derivative
-
-$y'(x)=0$ max/min point, change of directions (from up to down if max, from down to up if min).
-
-2nd derivative
-
-$y^{\prime\prime}=0$ inflection point, change of concavity.
-
-
-
-Convex function $\cup$
-
-- The line segment between any two distinct points lies *above* the graph between the two points.
-- 2nd derivative $f''$ is nonnegative, i.e., $f'$ is monotonically increasing.
-
-Concave function $\cap$
-
-- The line segment between any two distinct points lies *below* the graph between the two points.
-- 2nd derivative $f''$ is nonpositive, i.e., $f'$ is monotonically decreasing.
-
-
-
-How to find **min/max** pt.
-
--   look at critical points (where $f'=0$), end points, and discontinuities. Critical values are the values of the function where $x$ equal to critical points.
-
-    -   1st derivative rule, then you get critical points. Have to check whether it is min or max. Two ways of doing it
-
-        1.   calculate end points and compare to critical points;
-        2.   calculate $f^{\prime\prime}$, if $f^{\prime\prime}<0$ then max; if $f^{\prime\prime}>0$ then min; (2nd derivate tell how 1st derivative changes. If at min, the func will increase, i.e., $f'$ $\uparrow$; if at max, the func will decrease, i.e., $f' \downarrow$. )
-
-        -   Note: it is NOT recomended to calculate the 2nd derivative b/c usually it is easier to calculate the end points. 2nd derivatives are usually difficult to find if you have a complicated func.
-
--   max/min point corresponds to critical points; alternatively, where is max/min achieved?
-
--   max/min value corresponds to critical value;
-
-
-
-**Newton's Method**
-$$
-\begin{align*}
-x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
-\end{align*}
-$$
-Newton's method works well if $i$) $\vert f'\vert$ is not too small;  $ii$) $\vert f^{\prime\prime}\vert$ is not too big; and $iii$) $x_0$ is nearby $x$.
-
-Newton's method fails: $i$) find an unexpected root (depending on where the initial guess is); $ii$) completely fail. It repeats in a cycle, and never converges to a single value.
-
-<img src="https://drive.google.com/uc?id=1B7LjCAsBGxIGPKAHy-ogyZtuxjr-Qf5D" alt="Fail of Newton method illustration" style="display: block; margin-right: auto; margin-left: auto; zoom:30%;" />
-
-
-
-
-
-**MVT vs. IVT**
-
-MVT says let $f:[a,b]\rightarrow \mathbb{R}$ be a continuous function on the closed interval $[a,b]$, and differentiable on the open interval $(a,b)$. Then there exists some $c$ in $(a,b)$ such that 
-$$
-\begin{align*}
-f'(c)=\frac{f(b)-f(a)}{b-a}
-\end{align*}
-$$
-<img src="https://drive.google.com/uc?id=1_-hQu9XVysS4kkZ1LdsVA1qv_-eYsFW-" alt="MVT.png" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
-
-
-
-IVT says let $f:[a,b]\rightarrow \mathbb{R}$ be a continuous function on the closed interval $[a,b]$, $\textrm{w}$ is a number between $f(a)$ and $f(b)$, then there must be at least one value $c\in [a,b]$ such that $f(c)=\textrm{w}$.
-
-<img src="https://github.com/my1396/Econ-Study/assets/14339495/e84211f5-038e-41d3-bf78-40785de291d6" alt="IVT.svg" style="display: block; margin-right: auto; margin-left: auto; zoom:150%;" />
-
-
-
--   The **mean value theorem** is all about the differentiable functions and derivatives, whereas the **intermediate value theorem** is about the continuous function. 
--   The MVT guarantees that the derivatives have certain values, whereas the IVT  guarantees that the function has certain values between two given values.
-
-
-
-Anti-differentiation used interchangeablely with Integration.
-
-Anti-derivatives $\Longleftrightarrow$ Indefinite Integrals
-
-
-
-### **Integral formulas**
-
-Trigonometric integrals
-
-1.   $\int \frac{1}{\sqrt{1-x^2}} dx=\mathrm{sin}^{-1}x+c$, note that $\mathrm{sin}^{-1}x$ denotes "inverse sin" or $\mathrm{arcsin}(x)$, not $\frac{1}{\mathrm{sin}x}$.
-2.   $\int -\frac{1}{\sqrt{1-x^2}} dx=\mathrm{cos}^{-1}x+c$
-3.   $\int \frac{1}{1+x^2} dx=\mathrm{tan}^{-1}x+c$
-4.   $(\tan x)'=\sec^2x$, or $\int \mathrm{sec}^2x\,dx=\mathrm{tan}x+c$.
-5.   $\sec(x)'=\sec x\tan x$, or $\int \sec x\tan x\, dx=\sec x +c$.
-6.   $\int \mathrm{tan}x\,dx=-\ln(\cos x)+c$.
-7.   $\int \sec x\,dx=\ln(\sec x+\tan x)+c$, substitution $u=\sec x+\tan x$.
-
-
-
-Common integrals/ derivatives
-
-$\int\frac{1}{y}dy=\ln\vert y\vert +c$
-
-$\sqrt{x}=\frac{1}{2\sqrt{x}}$
-
-**Trig Identities**
-
-$\sec^2=1+\tan^2$.
-
-
-
-
-
-**FTC1**
-
-Let $f$ be continuous on $[a,b]$ and let $F$ be any antiderivative of $f$. Then
-$$
-\begin{align*}
-\int_a^bf(t)dt=F(b)-F(a)
-\end{align*}
-$$
-
-
-**FTC2**
-
-Let $f$ be continuous on $[a,b]$ and let $F(x)=\int_a^xf(t)dt$. Then $F$ is a differentiable function on $(a,b)$, and 
-$$
-\begin{align*}
-F'(x)=\frac{d}{dx}\int_a^x f(t)dt=f(x).
-\end{align*}
-$$
-
--   Important to differentiate variable of integrand $t$ from the upper limit $x$. Use different letters!
--   The derivative of an integration is just replacing the integrand variable with the upper limit variable.
-
-
-
-**Trig integrals and Substitution**
-
-To integrate  $\int$cos$^j$𝑥 sin$^k$𝑥 𝑑𝑥  use the following strategies:
-
-1. If  𝑘  is odd, rewrite  sin$^k$𝑥=sin$^{𝑘−1}$𝑥sin𝑥  and use the identity  sin$^2$𝑥=1−cos$^2$𝑥  to rewrite  sin$^{𝑘−1}$𝑥  in terms of  cos𝑥 . Integrate using the substitution  𝑢=cos𝑥 . This substitution makes  𝑑𝑢=−sin𝑥𝑑𝑥. 
-
-2. If  𝑗  is odd, rewrite  cos$^𝑗$𝑥=cos$^{𝑗−1}$𝑥cos𝑥  and use the identity  cos$^2$𝑥=1−sin$^2$𝑥  to rewrite  $\mathrm{cos}^{𝑗−1}x$  in terms of  sin𝑥 . Integrate using the substitution  𝑢=sin𝑥 . This substitution makes  𝑑𝑢=cos𝑥𝑑𝑥.  (Note: If both  𝑗  and  𝑘  are odd, either strategy 1 or strategy 2 may be used.)
-
-3. If both  𝑗  and  𝑘  are even, use  sin$^2$𝑥=$\frac{1−\cos(2𝑥)}{2}$  and  cos$^2$𝑥=$\frac{1+\cos(2𝑥)}{2}$ . After applying these formulas, simplify and reapply strategies 1 through 3 as appropriate.
-
->   Summary: 
->
->   1.   integrand only includes powers of $\mathrm{sin}x$ and $\mathrm{cos}x$.
->
->   2.   find the odd power and separate 1 as derivative of the substitution. Rewrite the integrand as a function of the other trig.
->   3.   if only even exponents are present, use half-angel fornula to lower the power (double the trig angel) until you have an odd exponent.
-
-
-
-Integrating ∫tan$^𝑘$𝑥sec$^𝑗$𝑥𝑑𝑥
-
-1.   If 𝑗 is even and 𝑗≥2, rewrite sec$^𝑗$𝑥=sec$^{𝑗−2}$𝑥sec$^2$𝑥 and use sec$^2$𝑥=tan$^2$𝑥+1 to rewrite sec$^{𝑗−2}$𝑥 in terms of tan𝑥. Let 𝑢=tan𝑥 and 𝑑𝑢=sec$^2$𝑥.
-
-2.   If 𝑘 is odd and 𝑗≥1, rewrite tan$^𝑘$𝑥sec$^𝑗$𝑥=tan$^{𝑘−1}$𝑥sec$^{𝑗−1}$𝑥sec𝑥tan𝑥 and use tan$^2$𝑥=sec$^2$𝑥−1 to rewrite tan$^{𝑘−1}$𝑥 in terms of sec𝑥. Let 𝑢=sec𝑥 and 𝑑𝑢=sec𝑥tan𝑥𝑑𝑥. (Note: If 𝑗 is even and 𝑘 is odd, then either strategy 1 or strategy 2 may be used.)
-
-3.   If 𝑘 is odd where 𝑘≥3 and 𝑗=0, rewrite tan$^𝑘$𝑥=tan$^{𝑘−2}$𝑥tan$^2$𝑥=tan$^{𝑘−2}$𝑥(sec$^2$𝑥−1)=tan$^{𝑘−2}$𝑥sec$^2$𝑥−tan$^{𝑘−2}$𝑥. It may be necessary to repeat this process on the tan$^{𝑘−2}$𝑥 term.
-
-4.   If 𝑘 is even and 𝑗 is odd, then use tan$^2$𝑥=sec$^2$𝑥−1 to express tan$^𝑘$𝑥 in terms of sec𝑥. Use integration by parts to integrate odd powers of sec𝑥.
-
-
-
-**Reduction formulas**
-
-1.   $\int \sec^n xdx=\frac{1}{n-1}\sec^{n-2}x\tan x+\frac{n-2}{n-1}\int \sec^{n-2}xdx$, $n$​ is odd. Verified by applying integration by parts.
-2.   $\int \tan ^n xdx=\frac{1}{n-1}\tan ^{n-1}x-\int\tan^{n-2}x dx$, $n$ is odd.
-
-
-
-**Method of Substitution**
-
-1.   The original integrand (in $g(x)dx$ or $h(t)dt$ ... ) can be expressed as $f(u)\,du$.
-2.   Usually $g(x)$ and $h(t)$ coule be a mess, but it is much easier to find the anti-derivative of $f(u)$.
 
 
 
