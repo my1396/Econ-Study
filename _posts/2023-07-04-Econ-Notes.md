@@ -313,12 +313,14 @@ E.g., suppose we are intrested in average IQ generally, but we have measures of 
 
 **Decomposition of variance**
 
+Or sometimes called **Law of Total Variance**.
+
 $$
 \text{Var}(Y) = \text{Var}_\mathbf{x}[\mathbb{E}(y\vert \mathbf{x})]
  + \mathbb{E}_\mathbf{x}[\text{Var}(y\vert \mathbf{x})]
 $$
 
-In plain language, the variance of $y$ deceomposes into the variance of the conditional mean plus the expected variance around the conditional mean.
+In plain language, the variance of $Y$ deceomposes into the variance of the conditional mean plus the expected variance around the conditional mean.
 
 **Population and Sample**
 
@@ -488,9 +490,123 @@ $$
 f_1(k) =  \left\{
 	\begin{array}{ll}
 	\int_{-\infty}^\infty f(k, x_2) dx_2 & \text{continuous} \\
-	\sum_{x_2} f(x_1=k,X_2=x_2) & \text{discrete}
-	\end{array} \right.
+	\sum_{x_2} f(X_1=k,X_2=x_2) & \text{discrete}
+	\end{array} \right.  
 $$
+
+$$
+f_2(k) =  \left\{
+	\begin{array}{ll}
+	\int_{-\infty}^\infty f(x_1,k) dx_1 & \text{continuous} \\
+	\sum_{x_1} f(X_1=x_1,X_2=k) & \text{discrete}
+	\end{array} \right. 
+$$
+
+
+**Conditioning**
+
+Conditional density:
+
+$$
+f(x_1\vert x_2)=\frac{f(X_1=x_1, X_2=x_2)}{f(X_2=x_2)} \\
+f(x_2\vert x_1)=\frac{f(X_1=x_1, X_2=x_2)}{f(X_1=x_1)} 
+$$
+
+or more succinctly
+
+$$
+f(x_1\vert x_2)=\frac{f(x_1, x_2)}{f(x_2)} \\
+f(x_2\vert x_1)=\frac{f(x_1, x_2)}{f(x_1)} .
+$$
+
+Conditional cdf:
+
+$$
+\begin{aligned}
+F_{X_1}(x_1\vert X_2=x_2) &=  P(X_1\le x_1 \vert X_2=x_2) \\
+&= \left\{
+\begin{array}{ll}
+	\int_{-\infty}^{x_1} f(s,x_2) ds & \text{continuous} \\
+	\sum_{x\le x_1} f(X_1=s,X_2=x2)  &\text{discrete}
+	\end{array} \right. 
+\end{aligned}
+$$
+
+**Moments**
+
+Unconditional Moments
+
+$$
+\begin{aligned}
+\mathbb{E}(g(x)) &= \int_{-\infty}^\infty g(x){\color{red}f(x)}dx &\text{continuous} \\
+\mathbb{E}(g(x)) &= \sum_x g(x){\color{red}f(x)} & \text{discrete}
+\end{aligned}
+$$
+
+Conditional Moments
+
+$$
+\begin{aligned}
+\mathbb{E}(g(x) \vert Y=g) &= \int_{-\infty}^\infty g(x){\color{#32CD32}f(x\vert Y=g)}dx &\text{continuous} \\
+\mathbb{E}(g(x) \vert Y=g) &= \sum_x g(x){\color{#32CD32}f(x\vert Y=g)} & \text{discrete}
+\end{aligned}
+$$
+
+Note: 
+- For <span style='color:red'>unconditional</span> moments, use the appropriate <span style='color:red'>unconditional</span> density.
+- For <span style='color:#32CD32'>conditional</span> moments, use the appropriate <span style='color:#32CD32'>conditional</span> density.
+
+
+Conditional and Unconditional Variance
+
+Unconditional 
+
+$$
+\begin{aligned}
+\text{Var}(X) &= \mathbb{E} [(X-\mathbb{E}(X))^2] \\
+&= \left\{
+\begin{array}{ll}
+	\int_{-\infty}^{\infty} \left(x-\mathbb{E}(X) \right)^2 f(x) dx & \text{continuous} \\
+	\sum_{x} \left(x-\mathbb{E}(X) \right)^2 f(x)  &\text{discrete}
+	\end{array} \right. 
+\end{aligned}
+$$
+
+Conditional variance use conditional expectations
+
+$$
+\begin{aligned}
+\text{Var}(X{\color{#32CD32}\vert Y}) &= \mathbb{E} [(X-\mathbb{E}(X{\color{#32CD32}\vert Y}))^2 {\color{#32CD32}\vert Y}] \\
+&= \left\{
+\begin{array}{ll}
+	\int_{-\infty}^{\infty} [x-\mathbb{E}(X{\color{#32CD32}\vert Y=y})]^2 f(x{\color{#32CD32}\vert y}) dx & \text{continuous} \\
+	\sum_{x} [x-\mathbb{E}(X{\color{#32CD32}\vert Y=y})]^2 f(x{\color{#32CD32}\vert y})  &\text{discrete}
+	\end{array} \right. 
+\end{aligned}
+$$
+
+Independence conditional on other variables
+
+$X_1$ and $X_2$ are said to be independent conditional on $X_3$ if 
+
+$$
+f(x_1, x_2 \vert x_3) = f(x_1\vert x_3) f(x_2\vert x_3)
+$$
+
+The left-hand-side (LHS) represents the joint behavior of $X_1$ and $X_2$ conditional on $X_3$, the RHS represents the individual behavior conditional on $X_3$.
+
+This is denoted as 
+
+$$
+X_1 \indep X_2 \vert X_3
+$$
+
+Note that this <span style='color:#32CD32'>does not imply</span> $X_1 \indep X_2$!
+E.g., $X_1$ and $X_2$ can be returns on two equities where $X_3$ is some global macroeconomic factor affecting multiple variables at once (e.g. federal reserve interest rate).
+
+Another example for $X_1, X_2$ would be wages and level of education, whereas $X_3$ is level of intelligence.
+
+
 
 ## **Trig identities**
 
