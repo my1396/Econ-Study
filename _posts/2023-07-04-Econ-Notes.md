@@ -100,6 +100,7 @@ range 值域
 
 Normal Distribution $N(\mu, \sigma^2)$. The 2nd parameter is variance.
 
+Degenerate distribution: sometimes called a constant distribution, is a distribution of a degenerate random variable — a constant with probability of 1. In other words, a random variable X has a single possible value. E.g., a weighted die (or one that has a number 6 on all faces) always lands on the number six, so the probability of a six (P(6)) is 1.
 
 
 ## **Geometry**
@@ -614,6 +615,66 @@ Another example for $X_1, X_2$ would be wages and level of education, whereas $X
 Linear Algebra
 <https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab>
 
+
+**Convergence**
+
+- Convergence in Probabiliy, $\lim_{n\to\infty}P(\vert X_n-c\vert < \varepsilon) =1$, denoted as $\plim_{n\to\infty}X_n=c$, or $X_n \xrightarrow{p} c$.
+- Almost Sure Convergence, $P(\lim_{n\to\infty}\vert X_n-c\vert =0)=1$, denoted as $X_n \xrightarrow{a.s.} c$.
+- Convergence in mean square, $\lim_{n\to\infty}\mathbb{E}[(X_n-c)^2]=0$,  denoted as $X_n \xrightarrow{m.s.} c$.
+- Convergence in distribution, $P(X_n\le x) \rightarrow P(X\le x)$ as $n\rightarrow \infty$, $X_n\xrightarrow{d}X$. If $X\sim N(\mu, \sigma^2)$, then $X_n \xrightarrow{d} N(\mu, \sigma^2)$.
+
+Note: 
+- Convergence in probability is weaker than both a.s. and m.s. convergence. Obtaining any type of convergence is sufficient. In certain cases, proving one type can be easier than another type.
+- Convergence in probability implies convergence in distribution. Convergence in probability means that two objects converge to each other. Convergence in distribution means that the distributions of two different objects become the same.
+
+**Consistent estimator**
+
+$\hat{\theta}$ is a consistent estimator of $\theta$ if 
+
+$$
+  \hat{\theta} \xrightarrow{p} \theta.
+$$
+
+
+**Law of Large Numbers** (LLN)
+- Week LLN\
+  Let $X_1, \ldots, X_n$ be an iid sequence with mean $\mathbb{E}(X_i)=\mu$ and $\text{Var}(X_i)=\sigma^2$. Then,
+
+  $$
+  \frac{1}{n}\sum_{i=1}^nX_i \xrightarrow{p} \mathbb{E}(X_i).
+  $$
+
+  LLN tells us that the sample mean is a consistent estimator of the expected value.
+
+- Kolmogorov's LLN 
+
+  $$
+  \frac{1}{n}\sum_{i=1}^nX_i \xrightarrow{a.s.} \mathbb{E}(X_i).
+  $$
+
+Unbiasedness vs Consistency
+- Unbiasedness, $\mathbb{E}(\hat{\theta})=\theta$, is a finite sample property, that holds for any sample size.
+- Consistency, $\hat{\theta}\xrightarrow{p}\theta$, is a asymptotic property, that holds in the limit as $n\to \infty$.
+- Note: neither property implies the other.
+
+**Central Limit Theorem** (CLT)
+
+Suppose that $X_1, \ldots, X_n$ is an iid sequence with mean $\mathbb{E}(X_i)=\mu$ and $\text{Var}(X_i)=\sigma^2$. Let $\overline{X}=\sum_{i=1}^n X_i$ Then,
+
+$$
+\frac{\overline{X}-\mathbb{E}[\overline{X}]}{\sqrt{\text{Var}[\overline{X}]}} 
+= \frac{\overline{X}-\mu}{\sqrt{\sigma^2/n}} 
+= \sqrt{n}\cdot\frac{\overline{X}-\mu}{\sigma} 
+\xrightarrow{d} N(0,1)
+$$
+
+equivalently, we can write 
+
+$$
+\sqrt{n} (\overline{X}-\mu) \xrightarrow{d} N(0,\sigma^2).
+$$
+
+Note: The CLT is a very powerful result. $X_1, \ldots, X_n$ can be from any possible distribution (with finite mean and variance), and still their normalised sample mean will be standard normal.
 
 
 ## Stochastic Process

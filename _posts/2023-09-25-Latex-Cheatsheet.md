@@ -129,6 +129,12 @@ Special characters / Symbols
 
 Summation operators: $\displaystyle\sum_{i=1}^n$ (`\displaystyle\sum_{i=1}^n`) vs $\textstyle\sum_{i=1}^n$ (`\textstyle\sum_{i=1}^n`).
 
+ `\lim_{n\to\infty}` for inline limits: $\lim_{n\to\infty}$
+
+ `\displaystyle\lim_{n\to\infty}` for display limits: $\displaystyle\lim_{n\to\infty}$
+
+`$X_n \xrightarrow{p} c$` convergence in probability: $X_n \xrightarrow{p} c$
+
 
 
 #### Named operators
