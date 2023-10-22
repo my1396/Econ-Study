@@ -87,3 +87,16 @@ How to get custom domain name?
 
 - Go to DNS Management page from where you buy your domain.
 
+
+
+**Difference btw Gist and Project Repository**
+
+My personal understanding or to say my personal usage of Gist and GitHub is:
+
+- GitHub
+
+A big project work. If you want to build website, develop mobile or web application, or do your assignment with your teammates, of course use GitHub.
+
+- Gist
+
+More like a memo. For example, you can write the implementation of a small feature and share it to your blog, or write down what you think about the project and share it with your teammates. Just like what the above answers said, Gist is used for more like code snippet thing. So normally if you work on a project, you use GitHub.
