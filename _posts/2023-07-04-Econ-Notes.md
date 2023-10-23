@@ -490,7 +490,7 @@ $$
 This is called *marginalizaing* or *integrating out* $X_2$ to get the marginal of $X_1$.
 
 $$
-f_1(k) =  \left\{
+f_{X_1}(k) =  \left\{
 	\begin{array}{ll}
 	\int_{-\infty}^\infty f(k, x_2) dx_2 & \text{continuous} \\
 	\sum_{x_2} f(X_1=k,X_2=x_2) & \text{discrete}
@@ -500,7 +500,7 @@ $$
 Marginalizaing the joint density w.r.t. $X_1$ to get the marginal of $X_2$.
 
 $$
-f_2(k) =  \left\{
+f_{X_2}(k) =  \left\{
 	\begin{array}{ll}
 	\int_{-\infty}^\infty f(x_1,k) dx_1 & \text{continuous} \\
 	\sum_{x_1} f(X_1=x_1,X_2=k) & \text{discrete}
@@ -513,27 +513,46 @@ $$
 Conditional density:
 
 $$
-f(x_1\vert x_2)=\frac{f(X_1=x_1, X_2=x_2)}{f(X_2=x_2)} \\
-f(x_2\vert x_1)=\frac{f(X_1=x_1, X_2=x_2)}{f(X_1=x_1)} 
+\begin{aligned}
+f_{X_1\vert X_2}(x_1\vert X_2=x_2) &= \frac{f_{X_1 X_2}(X_1=x_1, X_2=x_2)}{f_{X_2}(X_2=x_2)} \\
+f_{X_2\vert X_1}(x_2\vert X_1=x_1) &= \frac{f_{X_1 X_2}(X_1=x_1, X_2=x_2)}{f_{X_1}(X_1=x_1)} 
+\end{aligned}
 $$
 
-or more succinctly
-
-$$
-f(x_1\vert x_2)=\frac{f(x_1, x_2)}{f(x_2)} \\
-f(x_2\vert x_1)=\frac{f(x_1, x_2)}{f(x_1)} .
-$$
-
-Conditional cdf:
+Note that nominator is joint density, denominator is marginal density.\
+Conditinal pdf could be written more succinctly as
 
 $$
 \begin{aligned}
-F_{X_1}(x_1\vert X_2=x_2) &=  P(X_1\le x_1 \vert X_2=x_2) \\
+f(x_1\vert x_2) &= \frac{f(x_1, x_2)}{f(x_2)} \\
+f(x_2\vert x_1) &= \frac{f(x_1, x_2)}{f(x_1)} .
+\end{aligned}
+$$
+
+Conditional cdf is integrated based on conditional pdf:
+
+$$
+\begin{aligned}
+F_{X_1\vert X_2}(x_1\vert X_2=x_2) &=  P(X_1\le x_1 \vert X_2=x_2) \\
 &= \left\{
 \begin{array}{ll}
-	\int_{-\infty}^{x_1} f(s,x_2) ds & \text{continuous} \\
-	\sum_{x\le x_1} f(X_1=s,X_2=x2)  &\text{discrete}
-	\end{array} \right. 
+	\int_{-\infty}^{x_1} f_{X_1\vert X_2}(s {\color{#32CD32}\vert X_2=x_2}) ds & \text{continuous} \\
+	\sum_{s\le x_1} f_{X_1\vert X_2}(X_1=s {\color{#32CD32}\vert X_2=x_2})  &\text{discrete}
+\end{array} \right. 
+\end{aligned}
+$$
+
+or could be written more succinctly as
+
+$$
+\begin{aligned}
+F(x_1\vert x_2)  &=  P(X_1\le x_1 \vert X_2=x_2) \\
+&=  \left\{
+\begin{array}{ll}
+	\int_{-\infty}^{x_1} f(s{\color{#32CD32}\vert x_2}) ds & \text{continuous} \\
+	\sum_{s\le x_1} f(X_1=s {\color{#32CD32}\vert X_2=x_2})  &\text{discrete}
+\end{array} \right. 
+
 \end{aligned}
 $$
 
@@ -588,6 +607,12 @@ $$
 	\sum_{x} [x-\mathbb{E}(X{\color{#32CD32}\vert Y=y})]^2 f(x{\color{#32CD32}\vert y})  &\text{discrete}
 	\end{array} \right. 
 \end{aligned}
+$$
+
+Alternatively, the conditional variance can be written as 
+
+$$
+\text{Var}(X{\color{#32CD32}\vert Y}) = \mathbb{E}[X^2{\color{#32CD32}\vert Y}] - \left(\mathbb{E}[X{\color{#32CD32}\vert Y} ]\right )^2
 $$
 
 Independence conditional on other variables
@@ -675,6 +700,24 @@ $$
 $$
 
 Note: The CLT is a very powerful result. $X_1, \ldots, X_n$ can be from any possible distribution (with finite mean and variance), and still their normalised sample mean will be standard normal.
+
+**Big-O Little-o Notation**
+
+Consider a sequence of random variables $X_n$ and a sequence of constants $a_n$ for $n = 1, 2, . . .$\
+If $X_n/a_n \xrightarrow{p} 0$, we say $(X_n/a_n)=o_p(1)$ or $X_n=o_p(a_n)$.\
+Consequently:
+1. If $X_n\xrightarrow{p}0$, we say $X_n=o_p(1)$.
+2. If $n^\alpha X_n\xrightarrow{p}0$ for some $\alpha$, we say $X_n/n^{-\alpha}=o_p(1)$ or $X_n=o_p(n^{-\alpha})$.
+
+E.g., For $X_1, X_2, \ldots, X_n$ iid with mean $\mu$ and variance $\sigma^2$, by the LLN we have $\overline{X}\xrightarrow{p}\mu$. Then, $\overline{X}-\mu\xrightarrow{p}0$ and so $\overline{X}-\mu = o_p(1)$.
+
+Big-O notation relaxes the convergence to a finite limit (zero or non-zero). \
+If $X_n/a_n \xrightarrow{d} X$ or $X_n/a_n \xrightarrow{p} X$, we say $(X_n/a_n)=O_p(1)$ or $X_n=O_p(a_n)$.\
+Consequently:
+1. If $X_n\xrightarrow{d}X$ or $X_n\xrightarrow{p}X$, we say $X_n=O_p(1)$.
+2. If $n^\alpha X_n\xrightarrow{d}X$ or $n^\alpha X_n\xrightarrow{p}X$ for some $\alpha$, we say $X_n/n^{-\alpha}=O_p(1)$ or $X_n=O_p(n^{-\alpha})$.
+
+E.g., For $X_1, X_2, \ldots, X_n$ iid with mean $\mu$ and variance $\sigma^2$, define $Z=\frac{\overline{X}-\mu}{\sigma}$. Then, by the CLT we have $\sqrt{n}Z\xrightarrow{d}N(0,1)$ and so $\sqrt{n}Z = O_p(1)$ or equivalently $Z=O_p(n^{-1/2})$.
 
 
 ## Stochastic Process
