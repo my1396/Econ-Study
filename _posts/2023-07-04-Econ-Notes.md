@@ -100,7 +100,7 @@ range 值域
 
 Normal Distribution $N(\mu, \sigma^2)$. The 2nd parameter is variance.
 
-Degenerate distribution: sometimes called a constant distribution, is a distribution of a degenerate random variable — a constant with probability of 1. In other words, a random variable X has a single possible value. E.g., a weighted die (or one that has a number 6 on all faces) always lands on the number six, so the probability of a six (P(6)) is 1.
+*Degenerate* distribution: sometimes called a constant distribution, is a distribution of a degenerate random variable — a constant with probability of 1. In other words, a random variable X has a single possible value. E.g., a weighted die (or one that has a number 6 on all faces) always lands on the number six, so the probability of a six (P(6)) is 1.
 
 
 ## **Geometry**
@@ -485,9 +485,9 @@ f(x_1, x_2) =  \left\{
 	\end{array} \right.
 $$
 
-Marginals
+**Marginals**
 
-This is called marginalizaing or integrating out $X_2$ to get the marginal of $X_1$.
+This is called *marginalizaing* or *integrating out* $X_2$ to get the marginal of $X_1$.
 
 $$
 f_1(k) =  \left\{
@@ -498,6 +498,7 @@ f_1(k) =  \left\{
 $$
 
 Marginalizaing the joint density w.r.t. $X_1$ to get the marginal of $X_2$.
+
 $$
 f_2(k) =  \left\{
 	\begin{array}{ll}
@@ -551,8 +552,8 @@ Conditional Moments
 
 $$
 \begin{aligned}
-\mathbb{E}(g(x) \vert Y=g) &= \int_{-\infty}^\infty g(x){\color{#32CD32}f(x\vert Y=g)}dx &\text{continuous} \\
-\mathbb{E}(g(x) \vert Y=g) &= \sum_x g(x){\color{#32CD32}f(x\vert Y=g)} & \text{discrete}
+\mathbb{E}(g(x) \vert Y=y) &= \int_{-\infty}^\infty g(x){\color{#32CD32}f(x\vert Y=y)}dx &\text{continuous} \\
+\mathbb{E}(g(x) \vert Y=y) &= \sum_x g(x){\color{#32CD32}f(x\vert Y=y)} & \text{discrete}
 \end{aligned}
 $$
 
@@ -605,20 +606,19 @@ $$
 X_1 \indep X_2 \vert X_3
 $$
 
-Note that this <span style='color:#32CD32'>does not imply</span> $X_1 \indep X_2$!
-E.g., $X_1$ and $X_2$ can be returns on two equities where $X_3$ is some global macroeconomic factor affecting multiple variables at once (e.g. federal reserve interest rate).
-
+Note that this <span style='color:#32CD32'>does not imply</span> $X_1 \indep X_2$! \
+E.g., $X_1$ and $X_2$ can be returns on two equities where $X_3$ is some global macroeconomic factor affecting multiple variables at once (e.g. federal reserve interest rate). \
 Another example for $X_1, X_2$ would be wages and level of education, whereas $X_3$ is level of intelligence.
 
 
 
-Linear Algebra
+Linear Algebra \
 <https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab>
 
 
 **Convergence**
 
-- Convergence in Probabiliy, $\lim_{n\to\infty}P(\vert X_n-c\vert < \varepsilon) =1$, denoted as $\plim_{n\to\infty}X_n=c$, or $X_n \xrightarrow{p} c$.
+- Convergence in Probabiliy, $\lim_{n\to\infty}P(\vert X_n-c\vert < \varepsilon) =1$, denoted as $\text{plim}_{n\to\infty}X_n=c$, or $X_n \xrightarrow{p} c$.
 - Almost Sure Convergence, $P(\lim_{n\to\infty}\vert X_n-c\vert =0)=1$, denoted as $X_n \xrightarrow{a.s.} c$.
 - Convergence in mean square, $\lim_{n\to\infty}\mathbb{E}[(X_n-c)^2]=0$,  denoted as $X_n \xrightarrow{m.s.} c$.
 - Convergence in distribution, $P(X_n\le x) \rightarrow P(X\le x)$ as $n\rightarrow \infty$, $X_n\xrightarrow{d}X$. If $X\sim N(\mu, \sigma^2)$, then $X_n \xrightarrow{d} N(\mu, \sigma^2)$.
