@@ -23,7 +23,7 @@ Mathematical calligraphic font 花体 (`\mathcal`), uppercase only, font for cat
 
 -   $\ell$（`\ell`）：用于和 $l$ 和 数字 1 相区分。
 
-
+`:=` and $\triangleq$
 
 **Upper- and lower-case letters**
 
@@ -423,7 +423,7 @@ $$
 $$
 
 The latter subtracts 1 from $n$ in the denominator, which is known as a *degrees of freedom correction*.
-
+See proof [here](https://www.statlect.com/fundamentals-of-statistics/variance-estimation).
 
 
 **Covariance and Correlation**
@@ -642,11 +642,16 @@ Linear Algebra \
 
 
 **Convergence**
+- Formal definition of convergence is: \
+  Let $X_n=c+\frac{1}{n}$ for $n=1,2, \ldots$ and some constant $c$. $X_n$ converges to $c$ iff for $\forall \delta>0$, there exists some values $n^*$ such that for all $n>n^*$ we have $\vert X_n-c \vert < \delta$.
 
 - Convergence in Probabiliy, $\lim_{n\to\infty}P(\vert X_n-c\vert < \varepsilon) =1$, denoted as $\text{plim}_{n\to\infty}X_n=c$, or $X_n \xrightarrow{p} c$.
+
 - Almost Sure Convergence, $P(\lim_{n\to\infty}\vert X_n-c\vert =0)=1$, denoted as $X_n \xrightarrow{a.s.} c$.
-- Convergence in mean square, $\lim_{n\to\infty}\mathbb{E}[(X_n-c)^2]=0$,  denoted as $X_n \xrightarrow{m.s.} c$.
-- Convergence in distribution, $P(X_n\le x) \rightarrow P(X\le x)$ as $n\rightarrow \infty$, $X_n\xrightarrow{d}X$. If $X\sim N(\mu, \sigma^2)$, then $X_n \xrightarrow{d} N(\mu, \sigma^2)$.
+
+- Convergence in Mean Square, $\lim_{n\to\infty}\mathbb{E}[(X_n-c)^2]=0$,  denoted as $X_n \xrightarrow{m.s.} c$.
+
+- Convergence in Distribution, $P(X_n\le x) \rightarrow P(X\le x)$ as $n\rightarrow \infty$, $X_n\xrightarrow{d}X$. If $X\sim N(\mu, \sigma^2)$, then $X_n \xrightarrow{d} N(\mu, \sigma^2)$.
 
 Note: 
 - Convergence in probability is weaker than both a.s. and m.s. convergence. Obtaining any type of convergence is sufficient. In certain cases, proving one type can be easier than another type.
@@ -662,20 +667,48 @@ $$
 
 
 **Law of Large Numbers** (LLN)
-- Week LLN\
+- Chebyshev's (week) LLN\
   Let $X_1, \ldots, X_n$ be an iid sequence with mean $\mathbb{E}(X_i)=\mu$ and $\text{Var}(X_i)=\sigma^2$. Then,
 
   $$
-  \frac{1}{n}\sum_{i=1}^nX_i \xrightarrow{p} \mathbb{E}(X_i).
+  \begin{align*}
+  \frac{1}{n}\sum_{i=1}^nX_i &\xrightarrow{p} \mathbb{E}(X_i). \\
+  (\text{i.e., } \overline{X}_n &\xrightarrow{p} \mu )
+  \end{align*}
   $$
 
-  LLN tells us that the sample mean is a consistent estimator of the expected value.
+  LLN tells us that the sample mean is a consistent estimator of the expected value. \
+  Note that 3 assumptions need to be satisfied: 
+  1. $X_1, \ldots, X_n$ are an iid distributed;
+  2. exist finite mean $\mu$; and
+  3. exist finite variance $\sigma^2$.
 
-- Kolmogorov's LLN 
+
+- Kolmogorov's (strong) LLN: \
+  Let $X_1, \ldots, X_n$ be an iid sequence with mean $\mathbb{E}(X_i)=\mu$. Then
 
   $$
   \frac{1}{n}\sum_{i=1}^nX_i \xrightarrow{a.s.} \mathbb{E}(X_i).
   $$
+
+  Note that the strong LLN requires *only finite mean*.
+
+  Kolmogorov's LLN is very hard to prove. Weak LLN can be easily proved by showing m.s. convergence, which implies convergence in probability.
+
+  Proof of weak LLN:
+
+  Let $\overline{X}_n := \frac{1}{n}\sum_{i=1}^nX_i$ be th sample average. To prove weak LLN, we can show $\lim_{n\to\infty}\mathbb{E}(\overline{X}_n-\mu)^2=0$.
+
+  $$
+  \begin{align*}
+  \lim_{n\to\infty}\mathbb{E}(\overline{X}_n-\mu)^2 &=
+  \lim_{n\to\infty} \text{Var}[\overline{X}_n] \\
+  &= \lim_{n\to\infty} \frac{\sigma^2}{n} \\
+  &= 0
+  \end{align*}
+  $$
+  
+  This shows $\overline{X}_n \xrightarrow{m.s} \mu$, which implies $\overline{X}_n \xrightarrow{p} \mu$.
 
 Unbiasedness vs Consistency
 - Unbiasedness, $\mathbb{E}(\hat{\theta})=\theta$, is a finite sample property, that holds for any sample size.
@@ -700,6 +733,27 @@ $$
 $$
 
 Note: The CLT is a very powerful result. $X_1, \ldots, X_n$ can be from any possible distribution (with finite mean and variance), and still their normalised sample mean will be standard normal.
+
+
+Define the *partial sum* $S_n := \sum_{i=1}^n X_i = n\overline{X}_n$. By LLN, we have
+
+$$
+\frac{\overline{X}-\mu}{\sigma/\sqrt{n}} \xrightarrow{d} N(0,1) 
+$$
+
+Multiply the denominator and numerator by $n$, we have
+
+$$
+\begin{align*}
+\frac{n\overline{X}-n\mu}{n\cdot\sigma/\sqrt{n}}  = \frac{S_n-n\mu}{\sigma\sqrt{n}} 
+\end{align*}
+$$
+
+which converges in distribution to
+
+$$
+\frac{S_n-n\mu}{\sigma \sqrt{n}} \xrightarrow{d} N(0,1) .
+$$
 
 **Big-O Little-o Notation**
 

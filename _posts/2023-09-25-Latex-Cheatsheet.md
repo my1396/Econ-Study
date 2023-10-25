@@ -93,11 +93,13 @@ Special characters / Symbols
 |         `\mid` | $\mid$         |   `\propto` |           ∝ |
 |        `\perp` | ⊥              | `\parallel` | $\parallel$ |
 | `\vartriangle` | $\vartriangle$ |  `\leadsto` |  $\leadsto$ |
+|   `\triangleq` | $\triangleq$   |             |             |
 
 **Note:** 
 
 - use `\vert` or `\mid` ($\vert$) to show a pipe operator, otherwise markdown recognizes it as a table column.
 - `\perp` ($\perp$) indicates zero correlation; `\indep` ($\indep$) indicates independece.
+- $\triangleq$  and `:=` used to define a variable using the RHS.
 
 
 
