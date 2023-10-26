@@ -9,6 +9,22 @@ $$
 \newcommand{\indep}{\perp \!\!\! \perp}
 $$
 
+<head>
+    <style>
+      /* Whatever that is inside this <style> tag is all styling for your markup / content structure.
+      /* The . with the boxed represents that it is a class */
+      .boxed {
+        background: #FFFAEE;
+        color: black;
+        border: 1px solid #535353;
+        margin: 0px auto;
+        width: 526px;
+        padding: 10px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+
 ## Notation
 
 $\mathbb{E}_Y$ and $\mathrm{Var}_Y$ denote expectation over $Y$ and variance over $Y$.
@@ -23,14 +39,26 @@ Mathematical calligraphic font 花体 (`\mathcal`), uppercase only, font for cat
 
 -   $\ell$（`\ell`）：用于和 $l$ 和 数字 1 相区分。
 
-`:=` and $\triangleq$
+`:=` and $\triangleq$ 
+
+$\nabla:=\begin{pmatrix}\frac{\partial}{\partial x_1} \\
+\vdots \\
+\frac{\partial}{\partial x_n} \end{pmatrix}$, called "nabla symbol" or "nabla operator", commonly used in vector analysis and multivariate calculus.
+E.g., Let $f(x_1, x_2)=x_1^3$, then the gradient of $f$ is $\nabla f(x_1, x_2) = 
+\begin{pmatrix}\frac{\partial f}{\partial x_1} \\
+\frac{\partial f}{\partial x_2} 
+\end{pmatrix} = 
+\begin{pmatrix} 3x_1^2 \\
+0
+\end{pmatrix}
+$.
 
 **Upper- and lower-case letters**
 
 Vectors are lowercase and matrices are uppercase symbols. Both vectors and matrices are written in bold-italic. 
 
-- Vectos $\mathbfit a, \mathbfit b, \mathbfit c$  are produced by`\mathbfit a` ... ; vectors can also be denoted by Greek lowercase letters: $\boldsymbol{\alpha, \ldots \omega}$
-- Matrices $\mathbfit A, \mathbfit B, \mathbfit C$ by `\mathbfit A` ... ; matrices can be deonoted by Greek uppercase letters: $\boldsymbol{\Gamma, \ldots, \Theta}$
+- Vectos $\boldsymbol a$, $\boldsymbol b, \boldsymbol c$  are produced by `\mathbfit a` or `\boldsymbol a`... ; vectors can also be denoted by Greek lowercase letters: $\boldsymbol{\alpha, \ldots \omega}$
+- Matrices $\boldsymbol A, \boldsymbol B, \boldsymbol C$ by `\mathbfit A` ... ; matrices can be deonoted by Greek uppercase letters: $\boldsymbol{\Gamma, \ldots, \Theta}$
 - Random variables are uppercase italic Latin letters $X, Y, X$. Lower case letters $x, y,z$ mean values of random variables. Sometimes, $X_i$ also denotes a value. If $X$ is a RV, then $X$ is written in words, and $x$ is given as a number.
   - Sample data use lowercase.
   - Population data use uppercase.
@@ -89,7 +117,7 @@ domain 定义域
 
 range 值域
 
-
+summand 被加数
 
 **Sample and population**
 
@@ -273,9 +301,135 @@ f_Y(y) &= f_X(g^{-1}(y))\left\vert \frac{\partial }{\partial y} g^{-1}(y) \right
 \end{align*}
 $$
 
+___
+
+Change of Variable for a Double Integral
+
+Let $X$ and $Y$ be two jointly continuous random variables. Let $(Z, W) = g(X,Y) = (g_1(X,Y), g_2(X,Y))$, where $g$: $\mathbb{R}^2 \mapsto \mathbb{R}^2$ is a continuous one-to-one (invertiable) funtion with continuous partial derivatives.\
+Let $h=g^{-1}$, i.e., the inverse function taking $(Z,W)$ and returning $(X,y)$, $(X,Y)=h(Z,W)=(h_1(Z,W),h_2(Z,W))$. \
+Then $Z$ and $W$ are jointly continuous and their joint PDF, $f_{ZW}(z,w)$, for $(z,w)\in R_{ZW}$ is given by
+
+$$
+f_{ZW}(z,w)=f_{XY}(h_1(z,w),h_2(z,w))\vert \boldsymbol{J}\vert,
+$$
+
+where $\boldsymbol{J}$ is the Jacobian of $h$ defined by 
+
+$$
+\boldsymbol{J} =
+\text{det} \begin{bmatrix}
+\frac{\partial h_1}{\partial z} & \frac{\partial h_1}{\partial w} \\
+\frac{\partial h_2}{\partial z} & \frac{\partial h_2}{\partial w}
+\end{bmatrix} =
+\frac{\partial h_1}{\partial z} \cdot \frac{\partial h_2}{\partial w} - \frac{\partial h_1}{\partial w} \cdot \frac{\partial h_2}{\partial z}
+$$
+
+Let $X$ and $Y$ be two random variables with joint PDF $f_{XY}(x,y)$. Let $Z=X+Y$. Find $f_Z(z)$.
+
+To apply the change of variable, we need two random variables $Z$ and $W$. Define
+
+$$
+\begin{align*}
+\left\{ 
+	\begin{array}{ll}
+	z = x+y & \text{i.e., }g_1(x,y)\\
+	w = x & \text{i.e., }g_2(x,y)
+	\end{array}
+\right.
+\end{align*}
+$$
+
+Then we can find the inverse transform:
+
+$$
+\begin{align*}
+\left\{ 
+	\begin{array}{ll}
+	x = w & \text{i.e., }h_1(x,y)\\
+	y = z-w & \text{i.e., }h_2(x,y)
+	\end{array}
+\right.
+\end{align*}
+$$
+
+Then, we have
+
+$$
+\vert \boldsymbol{J} \vert = 
+\vert \text{det} \begin{bmatrix}
+0 & 1 \\
+1 & -1
+\end{bmatrix} \vert 
+=
+\vert 
+0-1
+\vert =
+1
+$$
+
+Thus,
+
+$$
+f_{ZW}(z,w)=f_{XY}(w,z−w).
+$$
+
+But since we are interested in the marginal PDF, $f_Z(z)$, we have
+
+$$
+f_Z(z)=\int_{-\infty}^{\infty}f_{XY}(w,z−w)dw.
+$$
+
+Note that, if $X$ and $Y$ are independent, then $f_{XY}(x,y)=f_X(x)fY(y)$ and we conclude that
+$$
+f_Z(z)=\int_{-\infty}^{\infty}f_X(w)f_Y(z−w)dw.
+$$
+
+The above integral is called the *convolution* of $f_X$ and $f_Y$, and we write
+
+$$
+f_Z(z)=f_X(z)*f_Y(z) = \int_{-\infty}^{\infty}f_X(w)f_Y(z−w)dw = \int_{-\infty}^{\infty}f_Y(w)f_X(z−w)dw.
+$$
+
+<div class = "boxed">
+If X and Y are two jointly continuous random variables and $Z=X+Y$, then
+
+$$
+f_Z(z)=\int_{-\infty}^{\infty}f_{XY}(w,z−w)dw.
+$$
+
+If X and Y are also independent, then
+
+$$
+f_Z(z) = \int_{-\infty}^{\infty}f_Y(w)f_X(z−w)dw.
+$$
+</div>
+
+Let  $X$ and  $Y$ be two independent discrete random variables. Denote their respective pmfs (probability mass function) by  $p_X(x)$ and  $p_Y(y)$, and their supports by  $R_X$ and  $R_{Y}$. Let
+
+$$
+Z=X+Y
+$$
+
+and denote the pmf of  Z by  $p_Z(z)$. Then,
+
+$$
+\begin{align*}
+p_Z(z) &= \sum_{k=-\infty}^{\infty} p_X(x=k)\cdot p_Y(y=z-k) \\
+&= \sum_{x\in R_X} p_X(x=k)\cdot p_Y(y=z-k)
+\end{align*}
+$$
+
+or
+
+$$
+p_Z(z) = \sum_{y\in R_y} p_X(x=z-k)\cdot p_Y(y=k).
+$$
+
+
+___
+
 
 **Law of iterated expectations** LIE  
-
 
 $$
 \begin{align*}

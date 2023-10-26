@@ -113,6 +113,14 @@ Special characters / Symbols
 |        `\nearrow` | $\nearrow$ |        `\searrow` |   $\searrow$ |
 |        `\uparrow` | $\uparrow$ |      `\downarrow` | $\downarrow$ |
 
+$\rightarrow$ denotes a mapping between two sets. 两边都是集合。
+
+$\mapsto$ called mapsto,  tells you what it does to each element of the set. 
+
+For example, I can define a function $𝑓:\mathbb{R}\rightarrow\mathbb{R}$ by $𝑓(𝑥):=2𝑥$. Notice that the $\rightarrow$ is between the two real number sets. But, I can also express that $𝑓(3)=6$ by $3\mapsto 6$. More generally, $𝑓(𝑥):=2𝑥$ can be written as $𝑥 \mapsto 2𝑥$.
+
+
+
 #### Binary operators
 
 |        LaTex |         |  LaTex |        |
@@ -190,7 +198,20 @@ $\sup$
 
 
 
+## Matrices
 
+| Type                        | LATEX markup                                       | Renders as                                         |
+| :-------------------------- | :------------------------------------------------- | :------------------------------------------------- |
+| Plain                       | `\begin{matrix}1 & 2 & 3\\a & b & c\end{matrix}`   | $\begin{matrix}1 & 2 & 3\\a & b & c\end{matrix}$   |
+| Parentheses; round brackets | `\begin{pmatrix}1 & 2 & 3\\a & b & c\end{pmatrix}` | $\begin{pmatrix}1 & 2 & 3\\a & b & c\end{pmatrix}$ |
+| Brackets; square brackets   | `\begin{bmatrix}1 & 2 & 3\\a & b & c\end{bmatrix}` | $\begin{bmatrix}1 & 2 & 3\\a & b & c\end{bmatrix}$ |
+| Braces; curly brackets      | `\begin{Bmatrix}1 & 2 & 3\\a & b & c\end{Bmatrix}` | $\begin{Bmatrix}1 & 2 & 3\\a & b & c\end{Bmatrix}$ |
+| Pipes                       | `\begin{vmatrix}1 & 2 & 3\\a & b & c\end{vmatrix}` | $\begin{vmatrix}1 & 2 & 3\\a & b & c\end{vmatrix}$ |
+| Double pipes                | `\begin{Vmatrix}1 & 2 & 3\\a & b & c\end{Vmatrix}` | $\begin{Vmatrix}1 & 2 & 3\\a & b & c\end{Vmatrix}$ |
+
+Note: 
+
+- `\\` for row break, `&` for column separation.
 
 
 
