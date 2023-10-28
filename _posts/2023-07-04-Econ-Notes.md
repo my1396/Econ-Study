@@ -7,7 +7,7 @@ modified_date: 2023-10-05
 <a class="top-link" href="#" id="js-top">
 	↑	
 </a>
-<script src="/assets/css/script.js"></script>
+<script src="{{ site.baseurl}}/assets/js/script.js"></script>
 
 $$
 \newcommand{\indep}{\perp \!\!\! \perp}
