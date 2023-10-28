@@ -1497,7 +1497,7 @@ ____
 
 **From Eastern By-pass Rd A4142 (North to South), to Cowley Oxford Business Park, 4th exit**, turning right.
 
-LDA: https://www.youtube.com/watch?v=x8bxxlwXhZY
+LDA: <https://www.youtube.com/watch?v=x8bxxlwXhZY>
 
 <img src="{{ site.baseurl}}/images/image-20221214230421278.png" alt="image-20221214230421278" style="zoom:50%;" />
 
@@ -1635,7 +1635,7 @@ Lane choosing:
 
 **From Oxford Business Park to Tesco Retail Park, 3rd exit**, turning right
 
-BRM 2:30: https://www.youtube.com/watch?v=Djcb5Z85LUM
+BRM 2:30: <https://www.youtube.com/watch?v=Djcb5Z85LUM>
 
 -   Entering: right lane because it's a right turn;
 -   Under the bridge, move to the middle lane
@@ -1727,7 +1727,7 @@ Next lesson: watch videos about Littlemore roundabout
 #### **Littlemore Roundabout**
 <img src="{{ site.baseurl}}/images/image-20230118130121912.png" alt="image-20230118130121912" style="zoom:100%;" />
 
-**BRM Driving School** https://www.youtube.com/watch?v=K6MFSU-rGRg
+**BRM Driving School**  <https://www.youtube.com/watch?v=K6MFSU-rGRg>
 
 -   No traffic control when you join; 
     -   have to give way cars on the right;
@@ -1797,13 +1797,13 @@ ___
 
     -   move <span style="color:#32CD32">one lane</span> to the left when you are turning right to <span style="color:#32CD32">Newman Rd</span>;
         
-        BRM: https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s 3:18
+        BRM: <https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s> 3:18
         
         -   If you intend to go straight but mistakenly end up with the right turn, you can stop in the box, indicate left, and wait for a safe gap to join the left lane to go straight;
         
     -   move <span style="color:#32CD32">two lanes</span> to the left when you are <span style="color:#32CD32">continuing straight</span>;
 
-        BRM: https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s 5:20
+        BRM: <https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s> 5:20
 
     -   only change lane when it's safe; otherwise go around the roundabout again; 
 
@@ -1846,7 +1846,7 @@ BRM: [https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s](https://www.youtube.c
 
 **From A4142 Heyford to London Rd/ Littlemore, 3rd exit**, turning right
 
-BRM: https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s 12:00
+BRM: <https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s> 12:00
 
 -   Entering: right lane
 -   On the roundabout: right lane
@@ -1864,9 +1864,9 @@ ___
 
 most common one on the driving test
 
-https://www.youtube.com/watch?v=iA59HozGDoo
+<https://www.youtube.com/watch?v=iA59HozGDoo>
 
-BRM: https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s 22:35
+BRM: <https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s> 22:35
 
 <img src="{{ site.baseurl}}/images/image-20221214151537267.png" alt="image-20221214151537267" style="zoom:50%;" />
 
@@ -1909,7 +1909,7 @@ Lane choosing:
 
 **From Rose Hill to Oxford Rd/ Littlemore, 2nd exit**, straight ahead
 
-BRM: https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s 13:30
+BRM: <https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s> 13:30
 
 -   Entering: right-middle lane; you see first two lanes, left lane with a left arrow, right lane with straight arrow; if you are going straight, you have to choose the right lane from the beginning and go to the middle lane afterwards;
 -   after passing the 1st exit, move to the left lane; be prepared to exit;
@@ -1918,7 +1918,7 @@ BRM: https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s 13:30
 
 <span style='color:#32CD32'>**From Rose Hill to A4142 towards The Midlands/ Swindon/ Newbury; 3rd exit**</span>; turing right
 
-BRM: https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s 15:30
+BRM: <https://www.youtube.com/watch?v=K6MFSU-rGRg&t=1406s> 15:30
 
 -   Entering: middle or the right lane; <span style='color:#32CD32'>middle is easier</span>;
     -   Cars on the roundabout are coming from Ring Road, they might use a high speed coming in; be careful;
@@ -2433,7 +2433,7 @@ ___
 
 #### Heyford Hill roundabout
 
-BRM: https://www.youtube.com/watch?v=0FiWbNw_KWg
+BRM: <https://www.youtube.com/watch?v=0FiWbNw_KWg>
 
 -   Left lane is separated from middle and right lanes by barriers.
 
@@ -2544,7 +2544,7 @@ ___
 
 -   When leaving A4142 to Quarry, you first meet traffic lights. If it is red, the exiting will be easier; but it can be green, then you have to keep up the speed until you are on the slip road. The slip road can be really short.
 
-    https://www.youtube.com/watch?v=_29CTqxjJzs starts at 7:30
+    <https://www.youtube.com/watch?v=_29CTqxjJzs> starts at 7:30
 
     8:50 meet stop sign, handbrake up.  
 
@@ -2578,7 +2578,7 @@ ___
         -   position A: look out for position B, if they are slowing down, they are giving way to position C which provides you a <span style='color:#32CD32'>blocker; then you need to go;</span>
             -   danger is the car in position C might take a U-turn. If so, you must stop and go 1st gear. Cars taking U-turn: slow and turn a lot.
             -   see blocker video 
-                https://www.youtube.com/watch?v=bBJm3uum800
+                <https://www.youtube.com/watch?v=bBJm3uum800>
                 starts from 2:50 
         -   position C, giving way to A
             -   going to B straight ahead: indicate left; 

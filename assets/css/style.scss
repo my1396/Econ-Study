@@ -200,3 +200,14 @@ a img:focus {
   visibility: hidden;
   opacity: 0;
 }
+
+/* Box around text */
+.boxed {
+  background: #FFFAEE;
+  color: black;
+  border: 1px solid #535353;
+  margin: 0px auto;
+  width: 526px;
+  padding: 10px;
+  border-radius: 10px;
+}
