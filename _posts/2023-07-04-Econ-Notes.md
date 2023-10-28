@@ -4,7 +4,7 @@ title: Econometric Notes
 tag: study
 modified_date: 2023-10-05
 ---
-<a class="top-link" href="#" id="js-top">↑</a>
+<a class="top-link hide" href="#" id="js-top">↑</a>
 
 $$
 \newcommand{\indep}{\perp \!\!\! \perp}

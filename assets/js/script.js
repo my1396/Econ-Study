@@ -7,7 +7,7 @@ const scrollFunc = () => {
     let y = window.scrollY;
     
     // When the user scrolls down 20px from the top of the document, show the button
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (y > 0) {
       scrollToTopButton.className = "top-link show";
     } else {
       scrollToTopButton.className = "top-link hide";
