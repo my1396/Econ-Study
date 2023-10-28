@@ -4,10 +4,7 @@ title: Econometric Notes
 tag: study
 modified_date: 2023-10-05
 ---
-<a class="top-link" href="#" id="js-top">
-	↑	
-</a>
-<script src="{{ site.baseurl}}/assets/js/script.js"></script>
+<a class="top-link" href="#" id="js-top">↑</a>
 
 $$
 \newcommand{\indep}{\perp \!\!\! \perp}
@@ -28,10 +25,6 @@ $$
       }
     </style>
   </head>
-
-
-<h1 id="myHeader">My Cities</h1>
-<button onclick="displayResult()">Change text</button>
 
 
 ## Notation

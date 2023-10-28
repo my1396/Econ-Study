@@ -4,6 +4,8 @@ title: UK Driving Notes – Simon
 tag: driving
 ---
 
+<a class="top-link" href="#" id="js-top">↑</a>
+
 Things to improve on: hesitation, anticipation, judgement call.
 
 -   change gears: pulling out to the right; traffic light, joining dual carriageways;

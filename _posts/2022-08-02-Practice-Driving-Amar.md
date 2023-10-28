@@ -4,6 +4,8 @@ title: UK Driving Notes – Amar
 tag: driving
 ---
 
+<a class="top-link" href="#" id="js-top">↑</a>
+
 ## Driving Diary
 
 ### **TO DO's**
