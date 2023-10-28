@@ -191,3 +191,12 @@ a img:focus {
     background-color: #F8F8F8;
 }
 
+.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hide {
+  visibility: hidden;
+  opacity: 0;
+}
