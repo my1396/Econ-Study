@@ -4,6 +4,9 @@ title: Econometric Notes
 tag: study
 modified_date: 2023-10-05
 ---
+<a class="top-link hide" href="js-top">
+	↑	
+</a>
 
 $$
 \newcommand{\indep}{\perp \!\!\! \perp}
@@ -39,16 +42,16 @@ Mathematical calligraphic font 花体 (`\mathcal`), uppercase only, font for cat
 
 -   $\ell$（`\ell`）：用于和 $l$ 和 数字 1 相区分。
 
-`:=` and $\triangleq$ 
+`:=` and $\triangleq$ used to define a variable.
 
-$\nabla:=\begin{pmatrix}\frac{\partial}{\partial x_1} \\
-\vdots \\
+$\nabla:=\begin{pmatrix}\frac{\partial}{\partial x_1} \cr
+\vdots \cr
 \frac{\partial}{\partial x_n} \end{pmatrix}$, called "nabla symbol" or "nabla operator", commonly used in vector analysis and multivariate calculus.
-E.g., Let $f(x_1, x_2)=x_1^3$, then the gradient of $f$ is $\nabla f(x_1, x_2) = 
-\begin{pmatrix}\frac{\partial f}{\partial x_1} \\
+E.g., Let $f(x_1, x_2)=x_1^3$, then the *gradient* of $f$ is $\nabla f(x_1, x_2) = 
+\begin{pmatrix}\frac{\partial f}{\partial x_1} \cr
 \frac{\partial f}{\partial x_2} 
 \end{pmatrix} = 
-\begin{pmatrix} 3x_1^2 \\
+\begin{pmatrix} 3x_1^2 \cr
 0
 \end{pmatrix}
 $.
@@ -282,7 +285,7 @@ Visualization tool: <https://seeing-theory.brown.edu/probability-distributions/>
 
 Plot a function: <https://www.desmos.com/calculator>
 
-
+___
 
 **Change of variable formula**
 
@@ -301,16 +304,15 @@ f_Y(y) &= f_X(g^{-1}(y))\left\vert \frac{\partial }{\partial y} g^{-1}(y) \right
 \end{align*}
 $$
 
-___
 
-Change of Variable for a Double Integral
+Change of Variable for a **Double Integral**
 
 Let $X$ and $Y$ be two jointly continuous random variables. Let $(Z, W) = g(X,Y) = (g_1(X,Y), g_2(X,Y))$, where $g$: $\mathbb{R}^2 \mapsto \mathbb{R}^2$ is a continuous one-to-one (invertiable) funtion with continuous partial derivatives.\
-Let $h=g^{-1}$, i.e., the inverse function taking $(Z,W)$ and returning $(X,y)$, $(X,Y)=h(Z,W)=(h_1(Z,W),h_2(Z,W))$. \
+Let $h=g^{-1}$, i.e., the inverse function that takes $(Z,W)$ and returns $(X,y)$, $(X,Y)=h(Z,W)=(h_1(Z,W),h_2(Z,W))$. \
 Then $Z$ and $W$ are jointly continuous and their joint PDF, $f_{ZW}(z,w)$, for $(z,w)\in R_{ZW}$ is given by
 
 $$
-f_{ZW}(z,w)=f_{XY}(h_1(z,w),h_2(z,w))\vert \boldsymbol{J}\vert,
+f_{ZW}(z,w)=f_{XY}(h_1(z,w),h_2(z,w)) \cdot \vert \boldsymbol{J}\vert,
 $$
 
 where $\boldsymbol{J}$ is the Jacobian of $h$ defined by 
@@ -352,7 +354,7 @@ $$
 \end{align*}
 $$
 
-Then, we have
+Then, we have absolute value of the Jacobian
 
 $$
 \vert \boldsymbol{J} \vert = 
@@ -851,7 +853,8 @@ $$
 
   Proof of weak LLN:
 
-  Let $\overline{X}_n := \frac{1}{n}\sum_{i=1}^nX_i$ be th sample average. To prove weak LLN, we can show $\lim_{n\to\infty}\mathbb{E}(\overline{X}_n-\mu)^2=0$.
+  Let $$\overline{X}_n = \frac{1}{n}\sum_{i=1}^n X_i$$ be the sample average. 
+  To prove weak LLN, we can show $\lim_{n\to\infty}\mathbb{E}(\overline{X}_n-\mu)^2=0$.
 
   $$
   \begin{align*}

@@ -21,7 +21,30 @@ Special characters / Symbols
 
 `\overrightarrow`: $\overrightarrow{AB}$
 
+
+
+### Matrices
+
+| Type                        | LATEX markup                                       | Renders as                                         |
+| :-------------------------- | :------------------------------------------------- | :------------------------------------------------- |
+| Plain                       | `\begin{matrix}1 & 2 & 3\\a & b & c\end{matrix}`   | $\begin{matrix}1 & 2 & 3\\a & b & c\end{matrix}$   |
+| Parentheses; round brackets | `\begin{pmatrix}1 & 2 & 3\\a & b & c\end{pmatrix}` | $\begin{pmatrix}1 & 2 & 3\\a & b & c\end{pmatrix}$ |
+| Brackets; square brackets   | `\begin{bmatrix}1 & 2 & 3\\a & b & c\end{bmatrix}` | $\begin{bmatrix}1 & 2 & 3\\a & b & c\end{bmatrix}$ |
+| Braces; curly brackets      | `\begin{Bmatrix}1 & 2 & 3\\a & b & c\end{Bmatrix}` | $\begin{Bmatrix}1 & 2 & 3\\a & b & c\end{Bmatrix}$ |
+| Pipes                       | `\begin{vmatrix}1 & 2 & 3\\a & b & c\end{vmatrix}` | $\begin{vmatrix}1 & 2 & 3\\a & b & c\end{vmatrix}$ |
+| Double pipes                | `\begin{Vmatrix}1 & 2 & 3\\a & b & c\end{Vmatrix}` | $\begin{Vmatrix}1 & 2 & 3\\a & b & c\end{Vmatrix}$ |
+
+Note: 
+
+- `\\` for row break, `&` for column separation.
+  - sometimes `\\` doesn't work in cloumn vectors, use `\cr` instead.
+
+
+
+
+
 ### Greek Letters:
+
 ##### Capital:
 
 |      LaTex |      |    LaTex |      |
@@ -147,6 +170,10 @@ Summation operators: $\displaystyle\sum_{i=1}^n$ (`\displaystyle\sum_{i=1}^n`) v
 
 
 
+#### 
+
+
+
 #### Named operators
 
 $\arccos$,
@@ -197,21 +224,6 @@ $\sup$
   
 
 
-
-## Matrices
-
-| Type                        | LATEX markup                                       | Renders as                                         |
-| :-------------------------- | :------------------------------------------------- | :------------------------------------------------- |
-| Plain                       | `\begin{matrix}1 & 2 & 3\\a & b & c\end{matrix}`   | $\begin{matrix}1 & 2 & 3\\a & b & c\end{matrix}$   |
-| Parentheses; round brackets | `\begin{pmatrix}1 & 2 & 3\\a & b & c\end{pmatrix}` | $\begin{pmatrix}1 & 2 & 3\\a & b & c\end{pmatrix}$ |
-| Brackets; square brackets   | `\begin{bmatrix}1 & 2 & 3\\a & b & c\end{bmatrix}` | $\begin{bmatrix}1 & 2 & 3\\a & b & c\end{bmatrix}$ |
-| Braces; curly brackets      | `\begin{Bmatrix}1 & 2 & 3\\a & b & c\end{Bmatrix}` | $\begin{Bmatrix}1 & 2 & 3\\a & b & c\end{Bmatrix}$ |
-| Pipes                       | `\begin{vmatrix}1 & 2 & 3\\a & b & c\end{vmatrix}` | $\begin{vmatrix}1 & 2 & 3\\a & b & c\end{vmatrix}$ |
-| Double pipes                | `\begin{Vmatrix}1 & 2 & 3\\a & b & c\end{Vmatrix}` | $\begin{Vmatrix}1 & 2 & 3\\a & b & c\end{Vmatrix}$ |
-
-Note: 
-
-- `\\` for row break, `&` for column separation.
 
 
 
