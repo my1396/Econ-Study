@@ -6,12 +6,13 @@ const scrollFunc = () => {
     // Get the current scroll value
     let y = window.scrollY;
     
-    // When the user scrolls down 20px from the top of the document, show the button
+    // shows the scroll-to-top button if the user scrolls beyond the height of the initial window
     if (y > 0) {
       scrollToTopButton.className = "top-link show";
     } else {
       scrollToTopButton.className = "top-link hide";
     }
+
   };
 window.addEventListener("scroll", scrollFunc);
 
