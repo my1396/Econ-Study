@@ -37,3 +37,6 @@ scrollToTop.onclick = function(e) {
 };
 
 
+function displayResult() {
+  document.getElementById("myHeader").innerHTML = "Have a nice day!";
+}

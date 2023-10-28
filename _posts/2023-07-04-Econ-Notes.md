@@ -7,7 +7,7 @@ modified_date: 2023-10-05
 <a class="top-link" href="#" id="js-top">
 	↑	
 </a>
-<script src="{{ site.baseurl }}/js/script.js"></script>
+<script src="/assets/css/script.js"></script>
 
 $$
 \newcommand{\indep}{\perp \!\!\! \perp}
@@ -28,6 +28,11 @@ $$
       }
     </style>
   </head>
+
+
+<h1 id="myHeader">My Cities</h1>
+<button onclick="displayResult()">Change text</button>
+
 
 ## Notation
 
