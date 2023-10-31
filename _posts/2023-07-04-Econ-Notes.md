@@ -41,12 +41,12 @@ Mathematical calligraphic font 花体 (`\mathcal`), uppercase only, font for cat
 
 -   $\ell$（`\ell`）：用于和 $l$ 和 数字 1 相区分。
 
-`:=` and $\triangleq$ used to define a variable.
+`:=` and $\triangleq$ are used to define a variable.
 
 $\nabla:=\begin{pmatrix}\frac{\partial}{\partial x_1} \cr
 \vdots \cr
-\frac{\partial}{\partial x_n} \end{pmatrix}$, called "nabla symbol" or "nabla operator", commonly used in vector analysis and multivariate calculus.
-E.g., Let $f(x_1, x_2)=x_1^3$, then the *gradient* of $f$ is $\nabla f(x_1, x_2) = 
+\frac{\partial}{\partial x_n} \end{pmatrix}$, called "nabla symbol" or "nabla operator" (`\nabla`), commonly used in vector analysis and multivariate calculus.
+E.g., Let $f(x_1, x_2)=x_1^3$, $\mathbb{R}^2 \rightarrow \mathbb{R}$, then the *gradient* of $f$ is $\nabla f(x_1, x_2) = 
 \begin{pmatrix}\frac{\partial f}{\partial x_1} \cr
 \frac{\partial f}{\partial x_2} 
 \end{pmatrix} = 
@@ -60,22 +60,18 @@ $.
 Vectors are lowercase and matrices are uppercase symbols. Both vectors and matrices are written in bold-italic. 
 
 - Vectos $\boldsymbol a$, $\boldsymbol b, \boldsymbol c$  are produced by `\mathbfit a` or `\boldsymbol a`... ; vectors can also be denoted by Greek lowercase letters: $\boldsymbol{\alpha, \ldots \omega}$
-- Matrices $\boldsymbol A, \boldsymbol B, \boldsymbol C$ by `\mathbfit A` ... ; matrices can be deonoted by Greek uppercase letters: $\boldsymbol{\Gamma, \ldots, \Theta}$
+- Matrices $\boldsymbol A, \boldsymbol B, \boldsymbol C$ by `\mathbfit A` or `\boldsymbol a` ... ; matrices can be deonoted by Greek uppercase letters: $\boldsymbol{\Gamma, \ldots, \Theta}$
 - Random variables are uppercase italic Latin letters $X, Y, X$. Lower case letters $x, y,z$ mean values of random variables. Sometimes, $X_i$ also denotes a value. If $X$ is a RV, then $X$ is written in words, and $x$ is given as a number.
   - Sample data use lowercase.
   - Population data use uppercase.
+
 - Use Greek letters $\boldsymbol\theta, \boldsymbol\phi$ for parameters or $\alpha, \beta, \gamma$ for hyperparameters.
 
-
-
 - $f(x) \approx g(x)$ (`\approx`) if the two functions are approximately equal in some sense depending on the context. 
-
 - $f(x) \propto g(x)$ (`\propto`) If $f(x)$ is proportional to $g(x)$ we write. 
-
 - $f(x) = O(g(x))$  We say that  “$f(x)$ is at most of order $g(x)$," if $\vert f(x)/g(x)\vert$ is bounded from above in some neighborhood of *x* = *c* (possibly *c* = ±∞). 
-
-- $f(x) = o(g(x))$  we say that "$f(x)$ is of order less than $g(x)$," if $f(x)/g(x)$→ 0 when *x* → *c*. 
-- $f(x)\sim g(x)$ (`\sim`) if $f(x)/g(x)$ → 1 when *x* → *c*. The two functions are then said to be "asymptotically equal". Notice that when $f(x)$ and $g(x)$ are asymptotically equal, then  $f(x)\approx g(x)$ and also $f(x) = O(g(x))$, but not vice versa.
+- $f(x) = o(g(x))$  we say that "$f(x)$ is of order less than $g(x)$," if $f(x)/g(x)$→ 0 when $x \rightarrow c$. 
+- $f(x)\sim g(x)$ (`\sim`) if $f(x)/g(x) \rightarrow 1$ when $x \rightarrow c$. The two functions are then said to be "asymptotically equal". Notice that when $f(x)$ and $g(x)$ are asymptotically equal, then  $f(x)\approx g(x)$ and also $f(x) = O(g(x))$, but not vice versa.
 
 Reference: <https://www.principlesofeconometrics.com/poe5/writing/abadir_magnus.pdf>
 
@@ -91,7 +87,9 @@ Reference: <https://www.principlesofeconometrics.com/poe5/writing/abadir_magnus.
 
 `iff`: if and only if.
 
-`Thm`: theorem
+`Thm`: theorem.
+
+`viz.`: namely, that is to say.
 
 `Q.E.D`: Latin words to indicate this is the *end* of a mathematical proof. At the begining, you simply write `Proof:`.
 
@@ -110,7 +108,6 @@ corollary: is a theorem of less importance which can be readily deduced from a p
 罗马数字共有7个，即 Ⅰ (1)、Ⅴ(5)、Ⅹ(10)、Ⅼ(50)、Ⅽ(100)、Ⅾ(500)  和Ⅿ(1000)。
 
 -   重复数次：一个罗马数字重复几次，就表示这个数的几倍。
-
 -   从小到大，表示大数字减小数字。E.g. IV(4).
 -   从大到小，表示大数字加小数字。E.g. VI(6).
 -   常见罗马数字 **IV(4)**, V (5), Ⅵ (6), Ⅶ (7), ⅦI (8), **IX(9)**.
@@ -130,10 +127,11 @@ summand 被加数
 
 Normal Distribution $N(\mu, \sigma^2)$. The 2nd parameter is variance.
 
-*Degenerate* distribution: sometimes called a constant distribution, is a distribution of a degenerate random variable — a constant with probability of 1. In other words, a random variable X has a single possible value. E.g., a weighted die (or one that has a number 6 on all faces) always lands on the number six, so the probability of a six (P(6)) is 1.
+*Degenerate* distribution: sometimes called a constant distribution, is a distribution of a degenerate random variable — a constant with probability of 1. \
+In other words, a random variable $X$ has a single possible value. E.g., a weighted die (or one that has a number 6 on all faces) always lands on the number six, so the probability of a six is 1 ($P_X(X=6)=1$).
 
 
-## **Geometry**
+## Geometry
 
 **Quadrant** (plane geometry)
 
@@ -232,7 +230,12 @@ Volume of a sphere (ball) $V=\frac{4}{3}\pi r^3$, $r$ is radius. Surface $S=4\pi
   \end{align*}
   $$
 
+**Inner and Outer Product**
 
+If $\boldsymbol{u}$ and $\boldsymbol{v}$ are column vectors with the same size, then $\boldsymbol{u}^T \boldsymbol{v}$ is the inner product; if $\boldsymbol{u}$ and $\boldsymbol{v}$ are column vectors of any size, then $\boldsymbol{u} \boldsymbol{v}^T$ is the outer product.
+
+- Inner product is a number;
+- Outer product is a matrix. Let $\boldsymbol{u}$ be $n\times 1$ and $\boldsymbol{v}$ be $m\times 1$, then $\boldsymbol{u} \boldsymbol{v}^T$ is $n\times m$.
 
 **Polynomial and Exponential**
 
@@ -286,7 +289,7 @@ Plot a function: <https://www.desmos.com/calculator>
 
 ___
 
-**Change of variable formula**
+**Change of Variable Formula**
 
 Given the distribution of $X$, we can obtain the distribution of a continuous function of $X$, e.g. $Y=g(X)$.
 
@@ -299,7 +302,7 @@ F_Y(y)&=P(Y\le y)=P\left(g(X)\le y\right) \\
 	P\left(X\le g^{-1}(y)\right) = F_X(g^{-1}(y)) & \text{when $g(x)$ is $\uparrow$} \\
 	P\left(X\ge g^{-1}(y)\right) = 1- F_X(g^{-1}(y))  & \text{when $g(x)$ is $\downarrow$}
 	\end{array} \right. \\
-f_Y(y) &= f_X(g^{-1}(y))\left\vert \frac{\partial }{\partial y} g^{-1}(y) \right\vert
+f_Y(y) &= f_X(g^{-1}(y)) \cdot \left\vert \frac{\partial }{\partial y} g^{-1}(y) \right\vert
 \end{align*}
 $$
 
@@ -392,7 +395,7 @@ f_Z(z)=f_X(z)*f_Y(z) = \int_{-\infty}^{\infty}f_X(w)f_Y(z−w)dw = \int_{-\infty
 $$
 
 <div class = "boxed">
-If X and Y are two jointly continuous random variables and $Z=X+Y$, then
+<strong>Theorem</strong>  If X and Y are two jointly continuous random variables and $Z=X+Y$, then
 
 $$
 f_Z(z)=\int_{-\infty}^{\infty}f_{XY}(w,z−w)dw.
@@ -455,6 +458,10 @@ $$
 \end{align*}
 $$
 
+Note that we start from the conditional expectation being $0$, and conclude that unconditional expectation and its product with a function of $X$ are $0$'s too.\
+Conditional expectation is a *stronger* condition than unconditional expectation.
+
+
 **Intuition behind the LIE**
 
 Think of $\mathbf{x}$ as a discrete vector taking on possible values $\mathbf{c}_1, \mathbf{c}_2, \ldots, \mathbf{c}_M$ with probabilities $p_1, p_2, \ldots, p_M$. Then LIE says:
@@ -497,6 +504,32 @@ $$
 \mathbb{E}\left[\sum_{i=1}^n(a_i+b_iX_i)\right] = \sum_{i=1}^n \mathbb{E}(a_i+b_iX_i) = \sum_{i=1}^n\left(a_i+b_i\mathbb{E}[X_i]\right).
 \end{align*}
 $$
+
+
+Linear Transformations of a Random Vector
+
+Let $Y=A+BX$, $X$ is $p\times 1$ random vector, $A$ is $q \times 1$ non-random vector, $B$ is $p\times q$ non-random matrix.
+
+The expected value of this transformation is given by
+
+$$
+\mathbb{E}(Y) = A + B\, \mathbb{E}(X)
+$$
+
+The variance of this transformation is given by
+
+$$
+\text{Var}(Y) = B\, \text{Var}(X)\, B'
+$$
+
+
+A $q \times q$ square matrix $\Sigma$ is called non-negative definite (or positive semi-definite) if for any non-zero $q \times 1$ vector a it holds that
+
+$$
+a'\Sigma\, a \ge 0
+$$
+
+If the square matrix $\Sigma$ is non-negative definite, we write $\Sigma \ge 0$.
 
 
 Expectations of Functions of RVs
@@ -618,6 +651,7 @@ $X {\color{#32CD32}\indep} Y$ (double perpendicular symbol) denotes $X$ and $Y$ 
 
 $X \indep Y \Rightarrow X \perp Y$,  in plain language, independence implies zero correlation. 
 
+## Joint Distributions and Independence
 
 **Joint CDF**
 
@@ -642,7 +676,8 @@ $$
 
 **Marginals**
 
-This is called *marginalizaing* or *integrating out* $X_2$ to get the marginal of $X_1$.
+This is called *marginalizaing* or *integrating out* $X_2$ to get the marginal of $X_1$. \
+The marginal of one variable can be obtained by integrating the other variable. This applies to $n$-dimension.
 
 $$
 f_{X_1}(k) =  \left\{
@@ -790,15 +825,39 @@ Note that this <span style='color:#32CD32'>does not imply</span> $X_1 \indep X_2
 E.g., $X_1$ and $X_2$ can be returns on two equities where $X_3$ is some global macroeconomic factor affecting multiple variables at once (e.g. federal reserve interest rate). \
 Another example for $X_1, X_2$ would be wages and level of education, whereas $X_3$ is level of intelligence.
 
+For three or more RVs, the joint PDF, joint PMF, and joint CDF are defined in a similar way to what we have seen for the case of two random variables. \
+Let $X_1, X_2, \ldots, X_n$ be $n$ discrete RVs. The joint PMF is defined as 
+
+$$
+P_{X_1, X_2, \ldots, X_n} (x_1, x_2, \ldots, x_n) = P(X_1=x_1, X_2=x_2, \ldots, X_n=x_n).
+$$
+
+For $n$ jointly continuous RVs $X_1, X_2, \cdots, X_n$, the joint PDF is defined to be the function $f_{X_1, X_2, \cdots, X_n}(x_1, x_2, \cdots, x_n)$ such that the probability of any set $A\in \mathbb{R}^n$ is given by the integral of the PDF over the set $A$. In particular, we can write
+
+$$
+P\big((X_1, X_2, \cdots, X_n)\in A\big) = \int \cdots \underset{A}{\int} \cdots \int f_{X_1, X_2, \cdots, X_n}(x_1, x_2, \cdots, x_n) dx_1dx_2\cdots dx_n.
+$$
+
+<div class = "boxed">
+<strong>Definition</strong>  $X_1, X_2, \cdots, X_n$ are said to be independent and identically distributed (iid) if they are independent, and they have the same marginal distributions:
+
+$$
+F_{X_1}(x) = F_{X_2}(x) = \cdots = F_{X_n}(x), \text{for all } x\in\mathbb{R}.
+$$
+
+</div>
+
 
 
 Linear Algebra \
 <https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab>
 
 
+___
+
 **Convergence**
 - Formal definition of convergence is: \
-  Let $X_n=c+\frac{1}{n}$ for $n=1,2, \ldots$ and some constant $c$. $X_n$ converges to $c$ iff for $\forall \delta>0$, there exists some values $n^*$ such that for all $n>n^*$ we have $\vert X_n-c \vert < \delta$.
+  Let $X_n=c+\frac{1}{n}$ for $n=1,2, \ldots$ and some constant $c$. $X_n$ converges to $c$ iff for $\forall \delta>0$, there exists some values $n^{\ast}$ such that for all $n>n^*$ we have $\vert X_n-c \vert < \delta$.
 
 - Convergence in Probabiliy, $\lim_{n\to\infty}P(\vert X_n-c\vert < \varepsilon) =1$, denoted as $\text{plim}_{n\to\infty}X_n=c$, or $X_n \xrightarrow{p} c$.
 
@@ -885,11 +944,33 @@ $$
 equivalently, we can write 
 
 $$
-\sqrt{n} (\overline{X}-\mu) \xrightarrow{d} N(0,\sigma^2).
+\sqrt{n}\cdot\frac{\overline{X}-\mu}{\sigma} 
+\overset{a}{\sim} N(0,1)
+$$
+
+$\overset{\rm a}{\sim}$ means "*approximately distributed with*". \
+Or we can also write as
+
+$$
+\begin{align*}
+
+\begin{array}{rlrl}
+	\sqrt{n} (\overline{X}-\mu)  &\xrightarrow{d} N(0,\sigma^2),  &
+  \sqrt{n} (\overline{X}-\mu)  &\overset{a}{\sim} N(0,\sigma^2) \\
+  
+  \overline{X} -\mu  &\xrightarrow{d} N(0,\sigma^2/n), &
+  \overline{X} -\mu  &\overset{a}{\sim} N(0,\sigma^2/n) \\
+
+  \overline{X} &\xrightarrow{d} N(\mu,\sigma^2/n), &
+  \overline{X} &\overset{a}{\sim} N(\mu,\sigma^2/n) .
+\end{array} 
+
+\end{align*}
 $$
 
 Note: The CLT is a very powerful result. $X_1, \ldots, X_n$ can be from any possible distribution (with finite mean and variance), and still their normalised sample mean will be standard normal.
 
+In practice, we replace $\sigma$ with $\widehat{\sigma}$ because we do not observe $\sigma$ but we do observe $\widehat{\sigma}$.
 
 Define the *partial sum* $S_n := \sum_{i=1}^n X_i = n\overline{X}_n$. By LLN, we have
 

@@ -97,13 +97,35 @@ Note:
 |       `\surd` | √    |        `\forall` |    ∀ |
 |     `\exists` | ∃    |       `\nexists` |    ∄ |
 
+
+
 #### Sets
 
-|     LaTex |        |       LaTex |        |
-| --------: | ------ | ----------: | -----: |
-|    `\cap` | $\cap$ |      `\cup` | $\cup$ |
-| `\subset` | ⊂      | `\subseteq` |      ⊆ |
-|     `\in` | ∈      |    `\notin` |      ∉ |
+|     LaTex |           |         LaTex |               |
+| --------: | --------- | ------------: | ------------: |
+|    `\cap` | $\cap$    |        `\cup` |        $\cup$ |
+| `\subset` | ⊂         |   `\subseteq` |             ⊆ |
+|     `\in` | ∈         |      `\notin` |             ∉ |
+|  `\exist` | $\exist$  | `\not\exists` | $\not\exists$ |
+| `\forall` | $\forall$ |               |               |
+
+- use `\not` before an operator to negate it. 
+
+
+
+
+
+#### Binary operators
+
+|    LaTex |              |  LaTex |        |
+| -------: | ------------ | -----: | -----: |
+| `\wedge` | ∧ (and)      | `\vee` | ∨ (or) |
+|   `\neg` | $\neg$ (not) |        |        |
+|   `\ast` | $\ast$       |        |        |
+
+
+
+
 
 #### Relational Symbols
 
@@ -112,17 +134,38 @@ Note:
 |         `\geq` | ≥              |      `\leq` |           ≤ |
 |       `\equiv` | ≡              |      `\sim` |           ∼ |
 |          `\gg` | ≫              |       `\ll` |           ≪ |
-|          `\in` | ∈              |    `\notin` |           ∉ |
 |         `\mid` | $\mid$         |   `\propto` |           ∝ |
 |        `\perp` | ⊥              | `\parallel` | $\parallel$ |
 | `\vartriangle` | $\vartriangle$ |  `\leadsto` |  $\leadsto$ |
-|   `\triangleq` | $\triangleq$   |             |             |
+|   `\triangleq` | $\triangleq$   |   `\approx` |   $\approx$ |
 
 **Note:** 
 
 - use `\vert` or `\mid` ($\vert$) to show a pipe operator, otherwise markdown recognizes it as a table column.
+
+  - `\lVert` and `\rVert` ($\rVert$) used to take the norm of a vector;
+
+  - `\lvert` and `\vert` ($\lvert$) used to take absolute value of real numbers and modulus of complex numbers;
+
+  - `\mid` is often used as delimitor, $\{a\in S \mid \text{\(a=0\) or \(a\) is odd}\}$; $\mid$ in set theory means "such that", to introduce properties of the set; in probability, meaning conditional on;
+
+  - `\mid` is also used to divide numbers. $4 \mid 12=3$, meaning $\text{\(4\) divides \(12\)}$. $a \mid b$ meaning $b$ is completely divisible by $a$. E.g., 
+
+    $$
+    \{𝑥\in \mathbb{Z}\mid 4\mid𝑥\}
+    $$
+
+    which describes the set of integers which 4 divides, namely $\{0,\pm4,\pm8,\pm12,…\}$. Some people prefer to use a colon there
+
+    $$
+    \{𝑥\in \mathbb{Z}: 4\mid 𝑥 \}.
+    $$
+
 - `\perp` ($\perp$) indicates zero correlation; `\indep` ($\indep$) indicates independece.
+
 - $\triangleq$  and `:=` used to define a variable using the RHS.
+
+- $\overset{\text{aprrox}}{\sim}$ (`\overset{\text{aprrox}}{\sim}`) for approximately distributed with.
 
 
 
@@ -136,20 +179,19 @@ Note:
 |        `\nearrow` | $\nearrow$ |        `\searrow` |   $\searrow$ |
 |        `\uparrow` | $\uparrow$ |      `\downarrow` | $\downarrow$ |
 
-$\rightarrow$ denotes a mapping between two sets. 两边都是集合。
+- $\rightarrow$ denotes a mapping between two sets. 两边都是集合。
 
-$\mapsto$ called mapsto,  tells you what it does to each element of the set. 
+  $\mapsto$ called mapsto,  tells you what it does to each element of the set. 两边是数值的一个transform。
 
-For example, I can define a function $𝑓:\mathbb{R}\rightarrow\mathbb{R}$ by $𝑓(𝑥):=2𝑥$. Notice that the $\rightarrow$ is between the two real number sets. But, I can also express that $𝑓(3)=6$ by $3\mapsto 6$. More generally, $𝑓(𝑥):=2𝑥$ can be written as $𝑥 \mapsto 2𝑥$.
+  For example, I can define a function $𝑓:\mathbb{R}\rightarrow\mathbb{R}$ by $𝑓(𝑥):=2𝑥$. Notice that the $\rightarrow$ is between the two real number sets. But, I can also express that $𝑓(3)=6$ by $3\mapsto 6$. More generally, $𝑓(𝑥):=2𝑥$ can be written as $𝑥 \mapsto 2𝑥$.
+
+- Text above or under symbols or other text, e.g., $\sim$ 
+
+  - `\overset{#1}{#2}` put argument #1 (in scriptstyle) over argument #2. E.g., $\overset{\text{a}}{\sim}$ `\overset{\text{a}}{\sim}` or `\overset{\rm a}{\sim}`. `\rm` for Roman font. A side note: Words in subscripts or superscripts should be upright.
+
+  - `\underset{#1}{#2}` put argument #1 (in scriptstyle) under argument #2. $\widetilde{\beta}_{k}^{\rm ridge}=\underset{b\in \mathbb{R}^{p+1}}{\rm argmin}  \lVert y-X b  \rVert ^{2}$. 
 
 
-
-#### Binary operators
-
-|        LaTex |         |  LaTex |        |
-| -----------: | ------- | -----: | -----: |
-|     `\wedge` | ∧ (and) | `\vee` | ∨ (or) |
-| `\neg``\not` | ¬       |        |        |
 
 #### Cumulative operators
 
@@ -170,7 +212,11 @@ Summation operators: $\displaystyle\sum_{i=1}^n$ (`\displaystyle\sum_{i=1}^n`) v
 
 
 
-#### 
+**Ellipsis**
+
+- `\ldots` are used between commas, e.g., $a_1, \ldots, a_n$ ;
+
+  `\cdots` used between plus/minus signs, e.g., $a_1+ \cdots + a_n$ ;
 
 
 
