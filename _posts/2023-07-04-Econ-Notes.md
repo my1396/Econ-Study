@@ -128,7 +128,7 @@ summand 被加数
 Normal Distribution $N(\mu, \sigma^2)$. The 2nd parameter is variance.
 
 *Degenerate* distribution: sometimes called a constant distribution, is a distribution of a degenerate random variable — a constant with probability of 1. \
-In other words, a random variable $X$ has a single possible value. E.g., a weighted die (or one that has a number 6 on all faces) always lands on the number six, so the probability of a six is 1 ($P_X(X=6)=1$).
+In other words, a random variable $X$ has a single possible value. E.g., a weighted die (or one that has a number 6 on all faces) always lands on the number six, so the probability of a six is 1, i.e., $P_X(X=6)=1$.
 
 
 ## Geometry
@@ -236,6 +236,63 @@ If $\boldsymbol{u}$ and $\boldsymbol{v}$ are column vectors with the same size, 
 
 - Inner product is a number;
 - Outer product is a matrix. Let $\boldsymbol{u}$ be $n\times 1$ and $\boldsymbol{v}$ be $m\times 1$, then $\boldsymbol{u} \boldsymbol{v}^T$ is $n\times m$.
+
+**Matrices**
+
+**Inverse** 
+$(A^T)^{-1} = (A^{-1})^T$ Transpose of inverse equal to inverse of transpose.
+
+$(ABC)^{-1}=C^{-1}B^{-1}A^{-1}$ The inverse of a product is the product of the inverse in the *opposite* order. This holds only on the condition that all matrices are invertible.
+
+If $A$ is symmetric, then $A^{-1}$ is symmetric.
+
+A random vector $\vec{X}$ is a vector 
+$$
+\vec{X}=\begin{bmatrix}
+X_1 \\
+X_2 \\
+\vdots \\
+X_p
+\end{bmatrix}
+$$
+of $p$ jointly distributed random variables.
+
+Expectation $\mathbb{E}\vec{X}$ is given by
+
+$$
+\mathbb{E}\vec{X}=\begin{bmatrix}
+\mathbb{E}X_1 \\
+\mathbb{E}X_2 \\
+\vdots \\
+\mathbb{E}X_p
+\end{bmatrix}
+$$
+
+Variance-Covariance Matrix of a random vector $\vec{X}$ is given by:
+
+$$
+\begin{align*}
+\text{Cov}(\vec{X}) &= \mathbb{E}\left[ (\vec{X}-\mathbb{E}\vec{X})(\vec{X}-\mathbb{E}\vec{X})^T \right] \\
+&= \mathbb{E}[\vec{X}\vec{X}^T] - \mathbb{E}[\vec{X}] (\mathbb{E}\vec{X})^T
+\end{align*}
+$$
+
+$$
+\text{Cov}(\vec{X}) = 
+\begin{bmatrix}
+\text{Var}(X_1) &  \text{Cov}(X_1, X_2) &  \cdots &  \text{Cov}(X_1, X_p) \\
+\text{Cov}(X_2, X_1) &  \text{Var}(X_2) &  \cdots &  \text{Cov}(X_2, X_p) \\
+\vdots & \vdots & \ddots & \vdots \\
+\text{Cov}(X_p, X_1) &  \text{Cov}(X_2, X_p) &  \cdots &   \text{Var}(X_p)
+\end{bmatrix}_{p\times p}
+$$
+
+**Trace Properties** 
+
+$\text{tr}(\boldsymbol{I}_K) = K$ \
+$\text{tr}(cA) = c \cdot \text{tr}(A)$ \
+$\text{tr}(XA) = \text{tr}(AX)$ \
+$\text{tr}(A+B) = \text{tr}(A) + \text{tr}(B)$
 
 **Polynomial and Exponential**
 
