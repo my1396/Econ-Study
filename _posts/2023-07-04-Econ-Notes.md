@@ -580,16 +580,19 @@ $$
 $$
 
 
-A $q \times q$ square matrix $\Sigma$ is called non-negative definite (or positive semi-definite) if for any non-zero $q \times 1$ vector a it holds that
+A $q \times q$ square matrix $\Sigma$ is called non-negative definite (or *positive semi-definite*) if for any non-zero $q \times 1$ vector $\boldsymbol{a}$ it holds that
 
 $$
-a'\Sigma\, a \ge 0
+\boldsymbol{a}'\Sigma\, \boldsymbol{a} \ge 0
 $$
 
 If the square matrix $\Sigma$ is non-negative definite, we write $\Sigma \ge 0$.
 
+Note that all covariance matrix of a random vector is positive semi-definite.
 
-Expectations of Functions of RVs
+___
+
+**Expectations of Functions of RVs**
 
 If $X$ is a RV, then expected value of $g(X)$ is given by 
 
