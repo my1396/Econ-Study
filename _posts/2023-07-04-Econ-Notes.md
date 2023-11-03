@@ -654,7 +654,7 @@ $$
 $$
 
 
-Sample variance use either 
+**Sample variance** use either 
 
 $$
 \begin{align*}
@@ -697,6 +697,28 @@ $$
 $$
 
 where the sum and integral are over the supports of $X$ and $Y$.
+
+For linear transformations, we have
+
+$$
+\text{Cov}(a+bX, c+dY) = bd\text{Cov}{X,Y}
+$$
+
+for known constants $a,b,c,d$.
+
+If we have either $\mathbb{E}(X)=0$ or $\mathbb{E}(Y)=0$ or both
+
+$$
+\text{Cov}(X, Y) = \mathbb{E}{(XY)} - \mathbb{E}{(X)}\mathbb{E}{(Y)} = \mathbb{E}{(XY)}
+$$
+
+The sample covariance in a sample of $n$ observations on $(X_i,Y_i)$ is
+
+$$
+\frac{1}{n-1}\sum_{i=1}^n (X_i-\overline{X})(Y_i-\overline{Y})
+$$
+
+Division by $n-1$ rather than $n$ is called a degrees of freedom correction.
 
 Correlation is a scaled measure of covariance:
 
