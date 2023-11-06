@@ -1325,12 +1325,9 @@ Semi-parametric models
 
 -   **Econometric Analysis** , 5th Edition, by William H. Greene, Prentice Hall, 2003.
 
-    **Time Series Analysis**, by J. D. Hamilton, Princeton University Press, 1994.
-
-    **Estimation and Inference in Econometrics**, by R. Davidon and J. MacKinnon, Oxford University Press, 1993.
-
-    **Econometric Analysis of Cross Section and Panel Data**, by J. Wooldridge, MIT Press, 1999.
-
+    **Time Series Analysis**, by J. D. Hamilton, Princeton University Press, 1994. \
+    **Estimation and Inference in Econometrics**, by R. Davidon and J. MacKinnon, Oxford University Press, 1993. \
+    **Econometric Analysis of Cross Section and Panel Data**, by J. Wooldridge, MIT Press, 1999. \
     **Microeconometrics: Methods and Applications**, Cameron, A. C. and Trivedi, P. K., Cambridge University Press, 2005.
 
 -   **Core Metrics textbooks**
