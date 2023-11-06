@@ -26,16 +26,13 @@ layout: base
       {%- endif -%}</p>
   </header>
 
-  <!-- custom TOC class, css in /assets/css/style.scss -->
-  <div class="toc"> 
-    <b>Jump to:</b>
-    {% include toc.html html=content %}
-  </div>
-
   <div class="post-content e-content" itemprop="articleBody">
+    {% include toc.html html=content %}
     {{ content }}
   </div>
 
+  <script src="{{ site.baseurl}}/assets/js/script.js"></script>
+  
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}

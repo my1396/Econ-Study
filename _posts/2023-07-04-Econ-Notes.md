@@ -1093,6 +1093,55 @@ Consequently:
 E.g., For $X_1, X_2, \ldots, X_n$ iid with mean $\mu$ and variance $\sigma^2$, define $Z=\frac{\overline{X}-\mu}{\sigma}$. Then, by the CLT we have $\sqrt{n}Z\xrightarrow{d}N(0,1)$ and so $\sqrt{n}Z = O_p(1)$ or equivalently $Z=O_p(n^{-1/2})$.
 
 
+## Derivative Distributions from $N(0,1)$
+
+The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ identity matrix, is called a standard normal vector, with elements $z_i \sim N(0,1)$ for $i=1,2,\ldots,n$ that are independent standard normal random variables.
+
+<ol>
+
+<li> The scalar $w=z'z=\sum_{i=1}^n z_i^2 \sim \chi^2(n)$. <br/>
+
+The sum of squares of $n$ independent standard normal random variables has <em>chi-squared</em> distribution with $n$ degress of freedom. </li>
+
+<li> If the random variables $w_1 \sim \chi^2(m)$ and $w_2 \sim \chi^2(n)$ and $w_1$ and $w_2$ are independent, then the scalar
+
+  $$
+  v=\frac{w_1/m}{w_2/n} \sim F(m,n)
+  $$
+
+  The ratio of two independent chi-squared random variables, each divided by their respective degrees of freedom, has a <em>F-distibution</em>.
+</li>
+
+<li> If the random variable $z\sim N(0,1)$ and $w\sim \chi^2(n)$ are independent, then the scalar 
+
+  $$
+  u=\frac{z}{\sqrt(w/n)} \sim t(n)
+  $$
+
+  The ratio of a standard normal random variable to the square root of an independent chi-squared random variable divided by its degrees of freedom has a Student $t$-distribution with that degrees of freedom. <br/>
+
+  $$
+  u^2 = \frac{z}{w/n}= \frac{z/1}{w/n} \sim F(1,n)
+  $$
+
+  The square of a RV with a $t(n)$ distribution has a $F(1,n)$ distribution.
+
+</li>
+
+</ol>
+
+
+Two properties of quadratic forms of normally distributed random vectors:
+<ol>
+<li>
+If the $n\times 1$ vector $y\sim N(\mu,\Sigma)$ and the scalar $w=(y-\mu)'\Sigma^{-1}(y-\mu)$, then $w\sim \chi^2(n)$.
+</li>
+
+<li>
+If the $n\times 1$ vector $y\sim N(0,I)$ and the non-stochastic $n\times n$ matrix $G$ is symmetric and idempotent with $\text{rank}(G)=r\le n$, then the scalar $w=z'Gz \sim \chi^2(r)$.
+</li>
+</ol>
+
 ## Stochastic Process
 
 A stochastic process $X_t$ is a family of random variables. At a specific time point $t$, $X_t$ is a random variable with a specific density function. A stochastic process is defined in a probability space $(\Omega, \mathcal{F}, P)$.
@@ -1110,7 +1159,7 @@ $\mu_t$ depends on time $t$, as, for example, processes with a seasonal or perio
 **Autocovariance Function**
 $$
 \begin{align*}
-\gamma(t,\tau)=Cov(X_t, X_{t-\tau})
+\gamma(t,\tau)=\text{Cov}(X_t, X_{t-\tau})
 \end{align*}
 $$
 
@@ -1323,8 +1372,7 @@ Semi-parametric models
 
 **Textbooks**
 
--   **Econometric Analysis** , 5th Edition, by William H. Greene, Prentice Hall, 2003.
-
+-   **Econometric Analysis** , 5th Edition, by William H. Greene, Prentice Hall, 2003. \
     **Time Series Analysis**, by J. D. Hamilton, Princeton University Press, 1994. \
     **Estimation and Inference in Econometrics**, by R. Davidon and J. MacKinnon, Oxford University Press, 1993. \
     **Econometric Analysis of Cross Section and Panel Data**, by J. Wooldridge, MIT Press, 1999. \
