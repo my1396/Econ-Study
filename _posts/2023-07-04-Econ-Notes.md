@@ -13,6 +13,7 @@ $$
     <style>
       /* Whatever that is inside this <style> tag is all styling for your markup / content structure.
       /* The . with the boxed represents that it is a class */
+      /* this is only for proper styling in VS Code Preview */
       .boxed {
         background: #FFFAEE;
         color: black;
@@ -25,9 +26,9 @@ $$
     </style>
 </head>
 
-<body>
+
 <a class="top-link" href="#" id="js-top">↑</a>
-</body>
+
 
 ## Notation
 
