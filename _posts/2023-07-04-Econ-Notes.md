@@ -4,7 +4,6 @@ title: Econometric Notes
 tag: study
 modified_date: 2023-10-05
 ---
-<a class="top-link hide" href="#" id="js-top">↑</a>
 
 $$
 \newcommand{\indep}{\perp \!\!\! \perp}
@@ -26,6 +25,9 @@ $$
     </style>
 </head>
 
+<body>
+<a class="top-link" href="#" id="js-top">↑</a>
+</body>
 
 ## Notation
 
@@ -1104,26 +1106,26 @@ The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ ident
 
   <li> If the random variables $w_1 \sim \chi^2(m)$ and $w_2 \sim \chi^2(n)$ and $w_1$ and $w_2$ are independent, then the scalar
 
-    $$
-    v=\frac{w_1/m}{w_2/n} \sim F(m,n)
-    $$
+  $$
+  v=\frac{w_1/m}{w_2/n} \sim F(m,n)
+  $$
 
-    The ratio of two independent chi-squared random variables, each divided by their respective degrees of freedom, has a <span style='color:#32CD32; font-style:italic;'>F-distibution</span>.
+  The ratio of two independent chi-squared random variables, each divided by their respective degrees of freedom, has a <span style='color:#32CD32; font-style:italic;'>F-distibution</span>.
   </li>
 
   <li> If the random variable $z\sim N(0,1)$ and $w\sim \chi^2(n)$ are independent, then the scalar 
 
-    $$
-    u=\frac{z}{\sqrt{w/n}} \sim t(n)
-    $$
+  $$
+  u=\frac{z}{\sqrt{w/n}} \sim t(n)
+  $$
 
-    The ratio of a standard normal random variable to the square root of an independent chi-squared random variable divided by its degrees of freedom has a <span style='color:#32CD32; font-style:italic;'>Student t-distribution</span> with that degrees of freedom. <br/>
+  The ratio of a standard normal random variable to the square root of an independent chi-squared random variable divided by its degrees of freedom has a <span style='color:#32CD32; font-style:italic;'>Student t-distribution</span> with that degrees of freedom. <br/>
 
-    $$
-    u^2 = \frac{z}{w/n}= \frac{z/1}{w/n} \sim F(1,n)
-    $$
+  $$
+  u^2 = \frac{z}{w/n}= \frac{z/1}{w/n} \sim F(1,n)
+  $$
 
-    The square of a RV with a $t(n)$ distribution has a $F(1,n)$ distribution. 
+  The square of a RV with a $t(n)$ distribution has a $F(1,n)$ distribution. 
   </li>
 </ol>
 
@@ -1313,9 +1315,9 @@ for $\alpha=1$, the process is **non-stationary.**
 
 ### Kernel Smoothing
 
-https://atmos.washington.edu/~breth/classes/AS552/lect/lect24.pdf
+<https://atmos.washington.edu/~breth/classes/AS552/lect/lect24.pdf>
 
-Python code: https://matthew-brett.github.io/teaching/smoothing_intro.html
+Python code: <https://matthew-brett.github.io/teaching/smoothing_intro.html>
 
 
 
@@ -1381,6 +1383,4 @@ Semi-parametric models
     - Casella, G. and Berger, R.L. (2002) ***Statistical Inference***. 2nd ed. Duxbury.
     - Hendry, D.F. and Nielsen, B. (2007) ***Econometric Modeling***. Princeton.
     - Hoel, P.G., Port, S.C. and Stone, C.J. (1971) ***Introduction to Probability***. Boston: Houghton-Mifflin.
-
-
 
