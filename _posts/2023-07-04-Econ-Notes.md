@@ -1101,7 +1101,7 @@ The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ ident
 
 <li> The scalar $w=z'z=\sum_{i=1}^n z_i^2 \sim \chi^2(n)$. <br/>
 
-The sum of squares of $n$ independent standard normal random variables has <em>chi-squared</em> distribution with $n$ degress of freedom. </li>
+The sum of squares of $n$ independent standard normal random variables has <span style='color:#32CD32; font-style:italic;'>chi-squared distribution</span> with $n$ degress of freedom. </li>
 
 <li> If the random variables $w_1 \sim \chi^2(m)$ and $w_2 \sim \chi^2(n)$ and $w_1$ and $w_2$ are independent, then the scalar
 
@@ -1109,16 +1109,16 @@ The sum of squares of $n$ independent standard normal random variables has <em>c
   v=\frac{w_1/m}{w_2/n} \sim F(m,n)
   $$
 
-  The ratio of two independent chi-squared random variables, each divided by their respective degrees of freedom, has a <em>F-distibution</em>.
+  The ratio of two independent chi-squared random variables, each divided by their respective degrees of freedom, has a <span style='color:#32CD32; font-style:italic;'>F-distibution</spam>.
 </li>
 
 <li> If the random variable $z\sim N(0,1)$ and $w\sim \chi^2(n)$ are independent, then the scalar 
 
   $$
-  u=\frac{z}{\sqrt(w/n)} \sim t(n)
+  u=\frac{z}{\sqrt{w/n}} \sim t(n)
   $$
 
-  The ratio of a standard normal random variable to the square root of an independent chi-squared random variable divided by its degrees of freedom has a Student $t$-distribution with that degrees of freedom. <br/>
+  The ratio of a standard normal random variable to the square root of an independent chi-squared random variable divided by its degrees of freedom has a <span style='color:#32CD32; font-style:italic;'>Student t-distribution</span> with that degrees of freedom. <br/>
 
   $$
   u^2 = \frac{z}{w/n}= \frac{z/1}{w/n} \sim F(1,n)
@@ -1130,8 +1130,10 @@ The sum of squares of $n$ independent standard normal random variables has <em>c
 
 </ol>
 
+Application of property 2): $\hat{u}'\hat{u}$
 
-Two properties of quadratic forms of normally distributed random vectors:
+
+**Two properties** of quadratic forms of normally distributed random vectors:
 <ol>
 <li>
 If the $n\times 1$ vector $y\sim N(\mu,\Sigma)$ and the scalar $w=(y-\mu)'\Sigma^{-1}(y-\mu)$, then $w\sim \chi^2(n)$.
