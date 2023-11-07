@@ -1098,42 +1098,38 @@ E.g., For $X_1, X_2, \ldots, X_n$ iid with mean $\mu$ and variance $\sigma^2$, d
 The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ identity matrix, is called a standard normal vector, with elements $z_i \sim N(0,1)$ for $i=1,2,\ldots,n$ that are independent standard normal random variables.
 
 <ol>
+  <li> The scalar $w=z'z=\sum_{i=1}^n z_i^2 \sim \chi^2(n)$. <br/>
 
-<li> The scalar $w=z'z=\sum_{i=1}^n z_i^2 \sim \chi^2(n)$. <br/>
+  The sum of squares of $n$ independent standard normal random variables has <span style='color:#32CD32; font-style:italic;'>chi-squared distribution</span> with $n$ degress of freedom. </li>
 
-The sum of squares of $n$ independent standard normal random variables has <span style='color:#32CD32; font-style:italic;'>chi-squared distribution</span> with $n$ degress of freedom. </li>
+  <li> If the random variables $w_1 \sim \chi^2(m)$ and $w_2 \sim \chi^2(n)$ and $w_1$ and $w_2$ are independent, then the scalar
 
-<li> If the random variables $w_1 \sim \chi^2(m)$ and $w_2 \sim \chi^2(n)$ and $w_1$ and $w_2$ are independent, then the scalar
+    $$
+    v=\frac{w_1/m}{w_2/n} \sim F(m,n)
+    $$
 
-  $$
-  v=\frac{w_1/m}{w_2/n} \sim F(m,n)
-  $$
+    The ratio of two independent chi-squared random variables, each divided by their respective degrees of freedom, has a <span style='color:#32CD32; font-style:italic;'>F-distibution</span>.
+  </li>
 
-  The ratio of two independent chi-squared random variables, each divided by their respective degrees of freedom, has a <span style='color:#32CD32; font-style:italic;'>F-distibution</spam>.
-</li>
+  <li> If the random variable $z\sim N(0,1)$ and $w\sim \chi^2(n)$ are independent, then the scalar 
 
-<li> If the random variable $z\sim N(0,1)$ and $w\sim \chi^2(n)$ are independent, then the scalar 
+    $$
+    u=\frac{z}{\sqrt{w/n}} \sim t(n)
+    $$
 
-  $$
-  u=\frac{z}{\sqrt{w/n}} \sim t(n)
-  $$
+    The ratio of a standard normal random variable to the square root of an independent chi-squared random variable divided by its degrees of freedom has a <span style='color:#32CD32; font-style:italic;'>Student t-distribution</span> with that degrees of freedom. <br/>
 
-  The ratio of a standard normal random variable to the square root of an independent chi-squared random variable divided by its degrees of freedom has a <span style='color:#32CD32; font-style:italic;'>Student t-distribution</span> with that degrees of freedom. <br/>
+    $$
+    u^2 = \frac{z}{w/n}= \frac{z/1}{w/n} \sim F(1,n)
+    $$
 
-  $$
-  u^2 = \frac{z}{w/n}= \frac{z/1}{w/n} \sim F(1,n)
-  $$
-
-  The square of a RV with a $t(n)$ distribution has a $F(1,n)$ distribution.
-
-</li>
-
+    The square of a RV with a $t(n)$ distribution has a $F(1,n)$ distribution. 
+  </li>
 </ol>
-
-Application of property 2): $\hat{u}'\hat{u}$
 
 
 **Two properties** of quadratic forms of normally distributed random vectors:
+
 <ol>
 <li>
 If the $n\times 1$ vector $y\sim N(\mu,\Sigma)$ and the scalar $w=(y-\mu)'\Sigma^{-1}(y-\mu)$, then $w\sim \chi^2(n)$.
