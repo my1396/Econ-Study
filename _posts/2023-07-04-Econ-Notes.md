@@ -27,7 +27,7 @@ $$
 </head>
 
 
-<a class="top-link" href="#" id="js-top">↑</a>
+<a class="top-link hide" href="#" id="js-top">↑</a>
 
 
 ## Notation
