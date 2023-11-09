@@ -247,8 +247,8 @@ If $\boldsymbol{u}$ and $\boldsymbol{v}$ are column vectors with the same size, 
 
 $A^{-1} = \frac{1}{\vert A \vert} \text{Adj}(A)$ where $\text{Adj}(A)$ is the adjoint matrix. Steps to find the inverse of $A$:
 <ol>
-<li> Calculate the matrix of minors. <br/>
-  The minor is defined for every element of a matrix. The minor of a particular element is the determinant obtained after eliminating the row and column containing this element. For instance
+<li> Calculate the matrix of minors $M$. <br/>
+  The minor is defined for every element of a matrix. The minor of a particular element is the determinant, denoted as $M_{ij}$, obtained after eliminating the $i$-th row and $j$-th column. For instance
   $$
   A = \begin{bmatrix} 
   a_{11}  & a_{12}  & a_{13} \\
@@ -256,7 +256,7 @@ $A^{-1} = \frac{1}{\vert A \vert} \text{Adj}(A)$ where $\text{Adj}(A)$ is the ad
   a_{31}  & a_{32}  & a_{33} \\
   \end{bmatrix}
   $$
-  The minor of the element $a_{11}$ is:
+  The minor of the element $a_{11}$, i.e., $M_{11}$, is:
 
   $$
   \text{Minor of }a_{11} = 
@@ -266,8 +266,8 @@ $A^{-1} = \frac{1}{\vert A \vert} \text{Adj}(A)$ where $\text{Adj}(A)$ is the ad
   \end{vmatrix}
   $$
 </li>
-<li> Add the sign $-1^{i+j}$ to minors, then you get a cofactor matrix. </li>
-<li> Take the transpose, then you get the adjoint matrix. </li>
+<li> Add the sign $(-1)^{i+j}$ to minors, then you get a cofactor matrix $C_{ij} = (-1)^{i+j}M_{ij}$. </li>
+<li> Take the transpose of the cofactor matrix, then you get the adjoint matrix. $\text{Adj}(A)=C^T$ </li>
 <li> Divide the $\text{Adj}(A)$ by the determinant.</li>
 </ol>
 
