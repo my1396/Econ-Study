@@ -65,6 +65,7 @@ Vectors are lowercase and matrices are uppercase symbols. Both vectors and matri
 - Vectos $\boldsymbol a$, $\boldsymbol b, \boldsymbol c$  are produced by `\mathbfit a` or `\boldsymbol a`... ; vectors can also be denoted by Greek lowercase letters: $\boldsymbol{\alpha, \ldots \omega}$
 - Matrices $\boldsymbol A, \boldsymbol B, \boldsymbol C$ by `\mathbfit A` or `\boldsymbol a` ... ; matrices can be deonoted by Greek uppercase letters: $\boldsymbol{\Gamma, \ldots, \Theta}$
 - Random variables are uppercase italic Latin letters $X, Y, X$. Lower case letters $x, y,z$ mean values of random variables. Sometimes, $X_i$ also denotes a value. If $X$ is a RV, then $X$ is written in words, and $x$ is given as a number.
+
   - Sample data use lowercase.
   - Population data use uppercase.
 
@@ -237,12 +238,41 @@ Volume of a sphere (ball) $V=\frac{4}{3}\pi r^3$, $r$ is radius. Surface $S=4\pi
 
 If $\boldsymbol{u}$ and $\boldsymbol{v}$ are column vectors with the same size, then $\boldsymbol{u}^T \boldsymbol{v}$ is the inner product; if $\boldsymbol{u}$ and $\boldsymbol{v}$ are column vectors of any size, then $\boldsymbol{u} \boldsymbol{v}^T$ is the outer product.
 
-- Inner product is a number;
-- Outer product is a matrix. Let $\boldsymbol{u}$ be $n\times 1$ and $\boldsymbol{v}$ be $m\times 1$, then $\boldsymbol{u} \boldsymbol{v}^T$ is $n\times m$.
+- Inner product is a *number*;
+- Outer product is a *matrix*. Let $\boldsymbol{u}$ be $n\times 1$ and $\boldsymbol{v}$ be $m\times 1$, then $\boldsymbol{u} \boldsymbol{v}^T$ is $n\times m$.
 
-**Matrices**
+## Matrices
 
 **Inverse** 
+
+$A^{-1} = \frac{1}{\vert A \vert} \text{Adj}(A)$ where $\text{Adj}(A)$ is the adjoint matrix. Steps to find the inverse of $A$:
+<ol>
+<li> Calculate the matrix of minors. <br/>
+  The minor is defined for every element of a matrix. The minor of a particular element is the determinant obtained after eliminating the row and column containing this element. For instance
+  $$
+  A = \begin{bmatrix} 
+  a_{11}  & a_{12}  & a_{13} \\
+  a_{21}  & a_{22}  & a_{23} \\
+  a_{31}  & a_{32}  & a_{33} \\
+  \end{bmatrix}
+  $$
+  The minor of the element $a_{11}$ is:
+
+  $$
+  \text{Minor of }a_{11} = 
+  \begin{vmatrix} 
+  a_{22}  & a_{23} \\
+  a_{32}  & a_{33} \\
+  \end{vmatrix}
+  $$
+</li>
+<li> Add the sign $-1^{i+j}$ to minors, then you get a cofactor matrix. </li>
+<li> Take the transpose, then you get the adjoint matrix. </li>
+<li> Divide the $\text{Adj}(A)$ by the determinant.</li>
+</ol>
+
+Properties of inverse: 
+
 $(A^T)^{-1} = (A^{-1})^T$ Transpose of inverse equal to inverse of transpose.
 
 $(ABC)^{-1}=C^{-1}B^{-1}A^{-1}$ The inverse of a product is the product of the inverse in the *opposite* order. This holds only on the condition that all matrices are invertible.
@@ -292,6 +322,11 @@ $$
 
 **Trace Properties** 
 
+The trace of a square matrix A, denoted $\text{tr}(A)$, is defined to be the sum of elements on the main diagonal. The trace is only defined for a square matrix ($n \times n$).
+
+$$\text{tr}(A) = \sum_{i=1}^n a_{ii}$$ 
+
+Some properties: \
 $\text{tr}(\boldsymbol{I}_K) = K$ \
 $\text{tr}(cA) = c \cdot \text{tr}(A)$ \
 $\text{tr}(XA) = \text{tr}(AX)$ \
@@ -305,7 +340,7 @@ $D=D^{T}$
 
 $D_1 \times D_2 = D_2 \times D_1 = C$  Diagonal Matrices multiplication are commutative. 
 $$
-c_{ij} = d1_{ij} d2_{ij}
+c_{ii} = d1_{ii} d2_{ii}
 $$
 
 $$
@@ -318,6 +353,8 @@ $\vert D \vert = \prod_{i=1}^n d_{ii}$ Determinant is the product of the element
 左乘 (pre-multiply) 一个对角矩阵: $D$ is $K\times K$, $A$ is $K\times L$. For the product $DA$, each row $i$ is equal to the $i$-th row of $A$ multiplied by $D_{ii}$. 
 
 右乘 (post-multiply) 一个对角矩阵: $A$ is $K\times L$, $D$ is $L\times L$. For the product $DA$, each column $j$ is equal to the $j$-th column of $A$ multiplied by $D_{jj}$. 
+
+___
 
 **Polynomial and Exponential**
 
