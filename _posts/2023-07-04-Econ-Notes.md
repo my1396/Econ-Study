@@ -428,15 +428,17 @@ $$
 
 Change of Variable for a **Double Integral**
 
-Let $X$ and $Y$ be two jointly continuous random variables. Let $(Z, W) = g(X,Y) = (g_1(X,Y), g_2(X,Y))$, where $g$: $\mathbb{R}^2 \mapsto \mathbb{R}^2$ is a continuous one-to-one (invertiable) funtion with continuous partial derivatives.\
-Let $h=g^{-1}$, i.e., the inverse function that takes $(Z,W)$ and returns $(X,y)$, $(X,Y)=h(Z,W)=(h_1(Z,W),h_2(Z,W))$. \
+Let $X$ and $Y$ be two jointly continuous random variables. Let $(Z, W) = g(X,Y) = (g_1(X,Y), g_2(X,Y))$, where $g$: $\mathbb{R}^2 \mapsto \mathbb{R}^2$ is a continuous one-to-one (invertiable) funtion with continuous partial derivatives.
+
+Let $h=g^{-1}$, i.e., the inverse function that takes $(Z,W)$ and returns $(X,Y)$, $(X,Y)=h(Z,W)=(h_1(Z,W),h_2(Z,W))$. 
+
 Then $Z$ and $W$ are jointly continuous and their joint PDF, $f_{ZW}(z,w)$, for $(z,w)\in R_{ZW}$ is given by
 
 $$
 f_{ZW}(z,w)=f_{XY}(h_1(z,w),h_2(z,w)) \cdot \vert \boldsymbol{J}\vert,
 $$
 
-where $\boldsymbol{J}$ is the Jacobian of $h$ defined by 
+where $\boldsymbol{J}$ is the Jacobian of $h$, defined by 
 
 $$
 \boldsymbol{J} =
