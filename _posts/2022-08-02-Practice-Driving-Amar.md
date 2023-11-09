@@ -6,8 +6,6 @@ tag: driving
 
 <a class="top-link" href="#" id="js-top">↑</a>
 
-## Driving Diary
-
 ### **TO DO's**
 
 -   Start off and pull over/up;

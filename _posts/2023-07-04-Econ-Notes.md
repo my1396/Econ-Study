@@ -260,10 +260,10 @@ X_p
 $$
 of $p$ jointly distributed random variables.
 
-Expectation $\mathbb{E}\vec{X}$ is given by
+Expectation $\mathbb{E}[\vec{X}]$ is given by
 
 $$
-\mathbb{E}\vec{X}=\begin{bmatrix}
+\mathbb{E}[\vec{X}]=\begin{bmatrix}
 \mathbb{E}X_1 \\
 \mathbb{E}X_2 \\
 \vdots \\
@@ -296,6 +296,28 @@ $\text{tr}(\boldsymbol{I}_K) = K$ \
 $\text{tr}(cA) = c \cdot \text{tr}(A)$ \
 $\text{tr}(XA) = \text{tr}(AX)$ \
 $\text{tr}(A+B) = \text{tr}(A) + \text{tr}(B)$
+
+**Diagonal Matrix Properties**
+
+If $D$ is a $n\times n$ diagonal matrix, then 
+
+$D=D^{T}$
+
+$D_1 \times D_2 = D_2 \times D_1 = C$  Diagonal Matrices multiplication are commutative. 
+$$
+c_{ij} = d1_{ij} d2_{ij}
+$$
+
+$$
+D^{-1}_{ii} = \frac{1}{d_{ii}}
+$$ 
+Inverse is taking the inverse of each entry. 
+
+$\vert D \vert = \prod_{i=1}^n d_{ii}$ Determinant is the product of the elements of $D$. 
+
+左乘 (pre-multiply) 一个对角矩阵: $D$ is $K\times K$, $A$ is $K\times L$. For the product $DA$, each row $i$ is equal to the $i$-th row of $A$ multiplied by $D_{ii}$. 
+
+右乘 (post-multiply) 一个对角矩阵: $A$ is $K\times L$, $D$ is $L\times L$. For the product $DA$, each column $j$ is equal to the $j$-th column of $A$ multiplied by $D_{jj}$. 
 
 **Polynomial and Exponential**
 
@@ -1053,7 +1075,7 @@ $$
 \end{align*}
 $$
 
-Note: The CLT is a very powerful result. $X_1, \ldots, X_n$ can be from any possible distribution (with finite mean and variance), and still their normalised sample mean will be standard normal.
+Note: The CLT is a very powerful result. $X_1, \ldots, X_n$ can be from any possible distribution (*iid* with *finite mean and variance*), and still their normalised sample mean will be standard normal.
 
 In practice, we replace $\sigma$ with $\widehat{\sigma}$ because we do not observe $\sigma$ but we do observe $\widehat{\sigma}$.
 
@@ -1222,8 +1244,8 @@ $$
 Moment functions:
 
 1. $\mu_t=0$
-2. $Var(X_t)=t\sigma^2$
-3. $\gamma(t,\tau)=Cov(X_t,X_{t-\tau})=(t-\tau)\sigma^2$, for $\tau\lt t$.
+2. $\text{Var}(X_t)=t\sigma^2$
+3. $\gamma(t,\tau) = \text{Cov}(X_t,X_{t-\tau})=(t-\tau)\sigma^2$, for $\tau\lt t$.
 4. $\rho(t,\tau)=\sqrt{1-\frac{\tau}{t}}$
 
 Notice that autocovariance is strictly positive, and since it depends on $t$ not only on the lags $\tau$, the random walk is not covariance stationary.

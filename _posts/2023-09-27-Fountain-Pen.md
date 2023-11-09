@@ -4,6 +4,8 @@ title: Fountain Pen
 tag: life
 ---
 
+<a class="top-link" href="#" id="js-top">↑</a>
+
 ## **Fountain Pens**
 
 钢笔论坛
