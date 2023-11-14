@@ -13,6 +13,9 @@ ol, ul {
 li {
   margin-top: 10px;
 }
+li:first-child {
+  margin-top: 20px;
+}
 
 /* tag cloud */
 #tag_cloud {
