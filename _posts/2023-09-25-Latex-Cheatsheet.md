@@ -99,6 +99,18 @@ Note:
 
 
 
+When creating TeX, Knuth provided the symbol $\blacksquare$ (black square, `\blacksquare`), also called by mathematicians tombstone or Halmos symbol (after Paul Halmos, who pioneered its use). 
+
+The tombstone is sometimes open: $\square$ (white square, `\square`).
+
+HTML and XML provide ways to reference Unicode characters when the characters themselves either cannot or should not be used.
+
+Unicode characters for geometric shapes: <http://www.unicode.org/charts/nameslist/n_25A0.html>
+
+A *numeric character reference* uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is in decimal form, `hhhh` is in hexadecimal form. The `&` and `;` are required.
+
+
+
 #### Sets
 
 |     LaTex |           |         LaTex |               |
@@ -190,6 +202,8 @@ Note:
   - `\overset{#1}{#2}` put argument #1 (in scriptstyle) over argument #2. E.g., $\overset{\text{a}}{\sim}$ `\overset{\text{a}}{\sim}` or `\overset{\rm a}{\sim}`. `\rm` for Roman font. A side note: Words in subscripts or superscripts should be upright.
 
   - `\underset{#1}{#2}` put argument #1 (in scriptstyle) under argument #2. $\widetilde{\beta}_{k}^{\rm ridge}=\underset{b\in \mathbb{R}^{p+1}}{\rm argmin}  \lVert y-X b  \rVert ^{2}$. 
+
+- Text above arrows. $\xrightarrow{D}$ `\xrightarrow{D}` convergence in distribution.
 
 
 

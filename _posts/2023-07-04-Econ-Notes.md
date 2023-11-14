@@ -1204,6 +1204,131 @@ If the $n\times 1$ vector $y\sim N(0,I)$ and the non-stochastic $n\times n$ matr
 </li>
 </ol>
 
+___
+
+## Classical linear regression models
+
+Correspond to exact finite sample properties.
+
+1. $y=X\beta+u$
+
+2. $\text{E}[u\vert X] = 0$ or equivalently $\text{E}[y\vert X]=X\beta$. This is called linear conditional expectation assumption.
+
+3. $\text{Var}[u\vert X] = \sigma^2I$. This is a conditional homoskedasticity assumption.
+
+4. $X$ has full rank.
+
+Classical linear regression models with **normally distributed errors**
+
+In additon to the above assumptions, we now assume $u\vert X \sim N(0, \sigma^2I)$.
+
+With the normally distributed errors, we can derive the distibution of $\hat{\beta}_{OLS}\sim N(\beta, \sigma^2(X'X)^{-1})$.
+
+Without the assumption that $u\vert X$ (or equivalently $y\vert X$) has a normal distribution, we can still characterize the distribution of $\hat{\beta}_{OLS}$ in large samples by using the asymptotoic distribution results.
+
+## OLS Asymptotics
+
+For OLS estimator to be *consistent*, a set of assumptions need to be met:
+<ol>
+<li id="ass1"> $y_i=x_i'\beta+u_i$ for $i=1, \ldots, n$ or $y=X\beta+u$.</li>
+<li id="ass2"> $(y_i, x_i')$ are iid distributed with $\mathbb{E}[x_iu_i]=\vec{0}$ for all $i=1, \ldots, n$, $\vec{0}$ is a vector of zeros of order $K$. (Orthogonality Assumption $\mathbb{E}[x_iu_i]=\vec{0}$ ) </li>
+<li id="ass3"> The $K\times K$ moment matrix $M_{XX}=\mathbb{E}[x_ix_i']$ exists and is non-singular. </li>
+</ol>
+Then $\hat{\beta}_{OLS} \xrightarrow{p} \beta$. This set of assumptions ensures the applicability of LLN such that consistency is ensured too.
+
+Note that consistency $(\mathbb{E}[\hat{\theta}]\xrightarrow{p}\theta)$ is a "large sample" or asymptotic property, i.e., a property that holds in the limit as $n$ tends to infinity. \
+By contrast, unbiasedness $(\mathbb{E}[\hat{\theta}]=\theta)$ is a "finite sample" property, that holds for any sample size.
+
+An unbiased estimator will usually be consistent, but need not be. \
+Consistency *further* requires that $\text{Var}(\hat{\theta})\rightarrow 0$ as $n\rightarrow \infty$. 
+<span style='float:right'>$\square$</span>
+
+
+For OLS estimator to have a limit distribution which is normal (aka *asyptotic normality*), the following set of assumptions need to be met:
+
+&emsp;&ensp;Conditions <a href="#ass1">**1**</a> to <a href="#ass3">**3**</a> in the consistency assumptions above; in additon to a new assumption:
+
+<ol start="4">
+<li id="ass4"> The $K\times K$ moment matrix $M_{X\Omega X}=\mathbb{E}[u_i^2x_ix_i']$ exists and is non-singular, where $\Omega=\mathbb{E}[uu'\vert X]$ is the error covariance matrix. (this assumption ensures asymptotic normality) </li>
+</ol>
+
+Note that, we do NOT require any of the following in order to ensure aymptotic normality:
+1. conditional homoskedasticity $(\text{Var}(u_i\vert x_i) = \sigma^2)$;
+2. linear conditional expectation $(\mathbb{E}(y_i\vert x_i) = x_i'\beta$ or the stronger form $\mathbb{E}(y\vert X) = X'\beta)$;
+3. normal conditional distribution $(y\vert X \sim N(X\beta, \sigma^2I))$;
+
+The limit distribution is
+
+$$
+\sqrt{n} (\hat{\beta}_{OLS}-\beta) \xrightarrow{D} N(0, \sigma^2M^{-1}_{XX})
+$$
+
+also can be written as 
+
+$$
+\sqrt{n} (\hat{\beta}_{OLS}-\beta) \xrightarrow{D} N(0, V), \text{or}
+$$
+
+$$
+\hat{\beta}_{OLS} \overset{a}{\sim} N(\beta, V/n)
+$$
+
+where $V=\sigma^2M^{-1}_{XX}$. \
+$V/n$ is called the asymptotic variance. \
+$\overset{a}{\sim}$ stands for "approximate (asymptotic)" distribution.
+
+$$
+\left(\frac{1}{n}\sum_{i=1}^nx_ix_i'\right)^{-1} \xrightarrow{P} M^{-1}_{XX}
+$$
+or
+$$
+\left(\frac{X'X}{n}\right)^{-1} \xrightarrow{P} M^{-1}_{XX}
+$$
+
+gives us a consistent estimator for $M^{-1}_{XX}$.
+
+Both 
+
+$$
+\hat{\sigma}^2_{OLS} = \frac{\hat{u}'\hat{u}}{n-K}
+$$
+
+and 
+
+$$
+\hat{\sigma}^2_{ML} = \frac{\hat{u}'\hat{u}}{n}
+$$
+
+are consistent estimators of $\sigma^2$ (only $\sigma^2_{OLS}$ is unbiased).
+
+Using Slutsky's theorem, 
+
+$$
+\hat{V} = \hat{\sigma}^2_{OLS} \left(\frac{X'X}{n}\right)^{-1} \xrightarrow{P} V.
+$$
+
+Replacing $V$ with $\hat{V}$ in the asymptotoic distribution, we have
+
+$$
+\hat{\beta}_{OLS} \overset{a}{\sim} N(\beta, \hat{V}/n)
+$$
+which is the form used to construct approximate confidence intervals and asymptotically valid test statistics.
+
+Note that 
+
+$$
+\begin{align*}
+\hat{V}/n &= \left(\frac{1}{n}\right) \hat{\sigma}^2_{OLS} \left(\frac{X'X}{n}\right)^{-1} \\
+&= \left(\frac{1}{n}\right) \hat{\sigma}^2_{OLS} n \left({X'X}\right)^{-1} \\
+&= \hat{\sigma}^2_{OLS}\left({X'X}\right)^{-1}
+\end{align*}
+$$
+
+which is the same as the exact finite sample conditional variance $\text{Var}(\hat{\beta}_{OLS}\vert X)$ that we obtianed in the classical linear regression model with nomally distributed errors.
+
+
+___
+
 ## Stochastic Process
 
 A stochastic process $X_t$ is a family of random variables. At a specific time point $t$, $X_t$ is a random variable with a specific density function. A stochastic process is defined in a probability space $(\Omega, \mathcal{F}, P)$.
