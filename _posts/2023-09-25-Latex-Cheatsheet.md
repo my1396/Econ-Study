@@ -95,7 +95,6 @@ Note:
 |      `\nabla` | ∇    |    `\varnothing` |    ∅ |
 |      `\angle` | ∠    | `\measuredangle` |    ∡ |
 |       `\surd` | √    |        `\forall` |    ∀ |
-|     `\exists` | ∃    |       `\nexists` |    ∄ |
 
 
 
@@ -107,7 +106,7 @@ HTML and XML provide ways to reference Unicode characters when the characters th
 
 Unicode characters for geometric shapes: <http://www.unicode.org/charts/nameslist/n_25A0.html>
 
-A *numeric character reference* uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is in decimal form, `hhhh` is in hexadecimal form. The `&` and `;` are required.
+A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is in decimal form, `hhhh` is in hexadecimal form. The `&` and `;` are required.
 
 
 
@@ -118,7 +117,7 @@ A *numeric character reference* uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` i
 |    `\cap` | $\cap$    |        `\cup` |        $\cup$ |
 | `\subset` | ⊂         |   `\subseteq` |             ⊆ |
 |     `\in` | ∈         |      `\notin` |             ∉ |
-|  `\exist` | $\exist$  | `\not\exists` | $\not\exists$ |
+| `\exists` | $\exists$ | `\not\exists` | $\not\exists$ |
 | `\forall` | $\forall$ |               |               |
 
 - use `\not` before an operator to negate it. 
