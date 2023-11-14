@@ -1280,7 +1280,9 @@ $\overset{a}{\sim}$ stands for "approximate (asymptotic)" distribution.
 $$
 \left(\frac{1}{n}\sum_{i=1}^nx_ix_i'\right)^{-1} \xrightarrow{P} M^{-1}_{XX}
 $$
+
 or
+
 $$
 \left(\frac{X'X}{n}\right)^{-1} \xrightarrow{P} M^{-1}_{XX}
 $$
@@ -1299,7 +1301,7 @@ $$
 \hat{\sigma}^2_{ML} = \frac{\hat{u}'\hat{u}}{n}
 $$
 
-are consistent estimators of $\sigma^2$ (only $\sigma^2_{OLS}$ is unbiased).
+are consistent estimators of $\sigma^2$ (only $\hat{\sigma}^2_{OLS}$ is unbiased).
 
 Using Slutsky's theorem, 
 
@@ -1312,6 +1314,7 @@ Replacing $V$ with $\hat{V}$ in the asymptotoic distribution, we have
 $$
 \hat{\beta}_{OLS} \overset{a}{\sim} N(\beta, \hat{V}/n)
 $$
+
 which is the form used to construct approximate confidence intervals and asymptotically valid test statistics.
 
 Note that 
@@ -1319,7 +1322,7 @@ Note that
 $$
 \begin{align*}
 \hat{V}/n &= \left(\frac{1}{n}\right) \hat{\sigma}^2_{OLS} \left(\frac{X'X}{n}\right)^{-1} \\
-&= \left(\frac{1}{n}\right) \hat{\sigma}^2_{OLS} n \left({X'X}\right)^{-1} \\
+&= \left(\frac{1}{n}\right) \hat{\sigma}^2_{OLS}\, n\, \left({X'X}\right)^{-1} \\
 &= \hat{\sigma}^2_{OLS}\left({X'X}\right)^{-1}
 \end{align*}
 $$
