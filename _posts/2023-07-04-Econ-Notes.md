@@ -2,7 +2,7 @@
 layout: post
 title: Econometric Notes
 tag: study
-modified_date: 2023-10-05
+update: 2023-10-05
 ---
 
 $$

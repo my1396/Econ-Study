@@ -28,8 +28,8 @@ layout: base
       {%- for post in posts -%}
       <li>
         <span class="post-meta">
-          {% if post.modified_date %}
-          <time datetime="{{ post.modified_date | date_to_xmlschema }}">{{ post.modified_date | date: "%b %-d, %Y" }}</time>
+          {% if post.update %}
+          <time datetime="{{ post.update | date_to_xmlschema }}">{{ post.update | date: "%b %-d, %Y" }}</time>
           {% else %}
           <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
           {% endif %}
