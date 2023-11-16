@@ -1173,6 +1173,41 @@ The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ ident
   $$
 
   The ratio of two independent chi-squared random variables, each divided by their respective degrees of freedom, has a <span style='color:#32CD32; font-style:italic;'>F-distibution</span>.
+
+  <div class = "boxed">
+  <strong>Theorem</strong>  If $v \sim F(m,n)$, the limiting distribution of $mv$ as $n\to\infty$ is the $\chi^2(m)$.
+  </div>
+
+  Proof: 
+  $$
+  mv = \frac{w_1}{w_2/n} \sim F(m,n)
+  $$
+
+  Since $w_2$ is a $\chi^2$ variable with $n$ degrees of freedom, it can be written as the sum of $n$ iid $\chi^2(1)$, the denominator can be written as
+
+  $$
+  w_2/n = \frac{Y_1+Y_2+\cdots+Y_{n}}{n}
+  $$
+
+  with $Y_1,Y_2,\ldots,Y_{n}$ mutually independent $\chi^2(1)$.
+
+  By the Strong Law of Large Numers,
+
+  $$
+  w_2/n = \frac{Y_1+Y_2+\cdots+Y_{n}}{n} \xrightarrow{a.s} \text{E}(Y_1) \quad \text{as } n\to\infty
+  $$
+
+  and $\text{E}(Y_1)=1$, which means
+
+  $$
+  mv = \frac{w_1}{w_2/n} \xrightarrow{a.s} w_1 \quad \text{as } n\to\infty
+  $$
+
+  <div>
+  proving the desired result.   <span style="float:right">$\square$</span>
+  </div>
+
+
   </li>
 
   <li> If the random variable $z\sim N(0,1)$ and $w\sim \chi^2(n)$ are independent, then the scalar 
@@ -1188,6 +1223,13 @@ The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ ident
   $$
 
   The square of a RV with a $t(n)$ distribution has a $F(1,n)$ distribution. 
+
+  $t$-distribution approximates standard normal in the limit. In practice, at a degree of freedom of 30, the $t$-distribution is regarded as closely enough to the standard normal distribution.
+
+  For example, $t_{0.975}(20)=2.086$, $t_{0.975}(40)=2.031$, $t_{0.975}(100)=1.984$. As $df=n-K$ increases, $c_{0.025}(n-K)$ approaches 1.96 from above (as $t$-distribution has fatter tails).
+
+  That means, in very large samples, we could use the 97.5% percentile of standard normal distibution to obtain the 95% CI.
+
   </li>
 </ol>
 
@@ -1212,11 +1254,39 @@ Correspond to exact finite sample properties.
 
 1. $y=X\beta+u$
 
-2. $\text{E}[u\vert X] = 0$ or equivalently $\text{E}[y\vert X]=X\beta$. This is called linear conditional expectation assumption.
+2. $\text{E}[u\vert X] = 0$ or equivalently $\text{E}[y\vert X]=X\beta$. This is called *linear conditional expectation assumption*. The linear conditional expectation assumption is sometimes referred to as "strict exogeneity".
 
-3. $\text{Var}[u\vert X] = \sigma^2I$. This is a conditional homoskedasticity assumption.
+3. $\text{Var}[u\vert X] = \sigma^2I$. This is a *conditional homoskedasticity assumption*.
 
-4. $X$ has full rank.
+4. $X$ has full rank $\text{rank}(X)=K$.
+
+Assumption 2 can be re-written as
+
+$$
+E(u_i\vert x_1, x_2, \ldots, x_n)=0 \quad \text{for } i=1,\ldots, n
+$$
+
+This implies that the error term $u_i$ is not only uncorrelated with $x_i$, but also uncorrelated with the explanatory variables for all other observations $j$, $j=1,\ldots,n$. Therefore, called "strict exogeneity".
+
+Given that assumption 3 assumes diagonal covarianc matrix, meaning observations on $(y_i, x_i')$ are *independent* over $i=1,\ldots, n
+$, so that
+
+$$
+\begin{align*}
+\text{E}(u_i\vert x_1,\ldots, x_n) &= \text{E}(u_i \vert x_i) = 0 \\
+\text{or } \text{E}(y_i\vert x_1,\ldots, x_n) &= \text{E}(y_i \vert x_i) = x_i'\beta
+\end{align*}
+$$
+
+Independence also implies that 
+
+$$
+\begin{align*}
+\text{Cov}(u_i, u_j\vert x_1,\ldots, x_n) &= 0 \quad \text{for all } i\neq j \\
+\text{or } \text{Cov}(y_i, y_j\vert x_1,\ldots, x_n) &= 0
+\end{align*}
+$$
+
 
 Classical linear regression models with **normally distributed errors**
 
@@ -1226,22 +1296,120 @@ With the normally distributed errors, we can derive the distibution of $\hat{\be
 
 Without the assumption that $u\vert X$ (or equivalently $y\vert X$) has a normal distribution, we can still characterize the distribution of $\hat{\beta}_{OLS}$ in large samples by using the asymptotoic distribution results.
 
+
+**Linear projection model**
+
+If we replace the strict exogeneity assumption $\text{E}(u\vert X)$ by the weaker orthogonality assumption that $\text{E}[X'u]=\vec{0}$ (a $K\times 1$ column zero vector), we have a **linear projection model**.
+
+$\text{E}[X'u]=\vec{0}$ can be written as $\text{E}[x_iu_i]=\vec{0}$, which implies $\text{E}[x_{ki}u_i]=0$ for each $k=1,\ldots, K$. \
+With an intercept, e.g., $x_{1i}=1$ for all $i$, $\text{E}[x_1iu_i]$ implies $\text{E}[u_i]=0$.
+
+$\text{E}[x_{ki}u_i]=0$ for $k=1,\ldots, K$ then implies $\text{Cov}(x_{ki}, u_i)=0$. \
+$\Rightarrow$ Zero convarianze implies zero correlation. \
+$\Rightarrow$ So $\text{E}[x_iu_i]=\vec{0}$ implies that each of the included explanatory variables is *uncorrelated with*, or *orthogonal to*, the error term $u_i$ in the linear projection model.
+
+Difference between strict exogeneity $(\text{E}(u\vert X)=\vec{0})$ and orthogonality assumptions $(\text{E}[X'u]=\vec{0})$:
+
+- The linear conditional expectation assumption $\text{E}(u\vert X)=\vec{0}$ implies that the error term $u$ is uncorrelated with any function of each of the included explanatory variables. \
+  For example, $u_i$ is uncorrealted with $x_{3i}^2$ or $\exp(x_{4i})$
+- Theses properties are NOT implied by the orthogonality assumption $\text{E}[X'u]=\vec{0}$. \
+  Unless $x_{3i}^2$ and $\exp(x_{4i})$ happen to be included as additional explanatory variables in the model.
+- Strict exogeneity $(\text{E}(u\vert X)=\vec{0})$ implies orthogonality assumptions $(\text{E}[X'u]=\vec{0})$.
+
+
+**Hypothesis testing** in finite sample, we know that error follows normal distribution $u\vert X \sim N(0, \sigma^2I)$.
+1. When we know error variance $\sigma^2$, we use standard normal test.
+2. When we do not know error variance, then we estimate using $\hat{\sigma}^2_{OLS} =\frac{\hat{u}'\hat{u}}{n-K}$. Then use $t$-distribution.
+
+
+Joint hypothesis with one or more restrictions
+
+$$
+\begin{align*}
+H_0&: \hat{\theta} = H\hat{\beta} \\
+H_1&: \hat{\theta} \neq H\hat{\beta} 
+\end{align*}
+$$
+
+With normally distributed errors, we have 
+
+$$\hat{\theta}\vert X \overset{\text{a}}{\sim} \text{N}\left(\theta,\sigma^2 H(X'X)^{-1}H'\right). $$
+
+We estimate $\text{Var}(\hat{\theta}\vert X)$ using $\widehat{\text{Var}}(\hat{\theta}\vert X) = H \widehat{\text{Var}}(\hat{\beta}\vert X)H' = H\left[\hat{\sigma}^2(X'X)^{-1}\right]H'=\hat{\sigma}^2D^{-1}$, where $D^{-1}=H(X'X)^{-1}H'$.
+
+We have the test statistic
+
+$$
+\begin{align*}
+v &= \left(\frac{1}{p}\right) (\hat{\theta}-\theta)' \left[\widehat{\text{Var}}(\hat{\theta}\vert X)\right]^{-1} (\hat{\theta}-\theta) \\
+&= \left(\frac{1}{p\hat{\sigma}^2}\right) (\hat{\theta}-\theta)'D(\hat{\theta}-\theta) \\
+&\overset{\text{a}}{\sim} F(p, n-K).
+\end{align*}
+$$
+
 ## OLS Asymptotics
 
 For OLS estimator to be *consistent*, a set of assumptions need to be met:
-<ol>
+<ol type="p1">
 <li id="ass1"> $y_i=x_i'\beta+u_i$ for $i=1, \ldots, n$ or $y=X\beta+u$.</li>
 <li id="ass2"> $(y_i, x_i')$ are iid distributed with $\mathbb{E}[x_iu_i]=\vec{0}$ for all $i=1, \ldots, n$, $\vec{0}$ is a vector of zeros of order $K$. (Orthogonality Assumption $\mathbb{E}[x_iu_i]=\vec{0}$ ) </li>
 <li id="ass3"> The $K\times K$ moment matrix $M_{XX}=\mathbb{E}[x_ix_i']$ exists and is non-singular. </li>
 </ol>
 Then $\hat{\beta}_{OLS} \xrightarrow{p} \beta$. This set of assumptions ensures the applicability of LLN such that consistency is ensured too.
 
+We have 
+
+$$
+\begin{align*}
+\hat{\beta}_{OLS} &= (X'X)^{-1}X'y \\
+&= (X'X)^{-1}X'(X\beta + u) \\
+&= \beta + (X'X)^{-1}X'u \\
+&= \beta + \left(\frac{X'X}{n}\right)^{-1}  \left(\frac{X'u}{n}\right)
+\end{align*}
+$$
+
+$$
+\left(\frac{X'u}{n}\right) = \frac{1}{n}X'u = \frac{1}{n} \sum_{i=1}^n x_iu_i
+$$
+
+With iid data and assumption 2), by LLN, the $K\times 1$ vector of sample means converges in probability to the population parameter.
+
+$$
+\frac{1}{n} \sum_{i=1}^n x_iu_i \xrightarrow{P} \text{E}[x_iu_i] = \vec{0}
+$$
+
+Hence we have
+
+$$
+\left(\frac{X'u}{n}\right) \xrightarrow{P} \vec{0}
+$$
+
+Similarly,
+
+$$
+\left(\frac{X'X}{n}\right) = \frac{1}{n}X'X = \frac{1}{n} \sum_{i=1}^n x_ix_i'
+$$
+
+With iid data and assumption 3), by LLN, the $K\times K$ matrix of sample means converges in probability to the moment matrix.
+
+$$
+\frac{1}{n} \sum_{i=1}^n x_ix_i' \xrightarrow{P} \text{E}[x_ix_i'] = M_{XX}
+$$
+
+Hence we have
+
+$$
+\left(\frac{X'X}{n}\right) \xrightarrow{P} M_{XX}
+$$
+
+
 Note that consistency $(\mathbb{E}[\hat{\theta}]\xrightarrow{p}\theta)$ is a "large sample" or asymptotic property, i.e., a property that holds in the limit as $n$ tends to infinity. \
-By contrast, unbiasedness $(\mathbb{E}[\hat{\theta}]=\theta)$ is a "finite sample" property, that holds for any sample size.
+By contrast, unbiasedness $(\mathbb{E}[\hat{\theta}]=\theta)$ is a "finite sample" or "small sample" property.
 
 An unbiased estimator will usually be consistent, but need not be. \
 Consistency *further* requires that $\text{Var}(\hat{\theta})\rightarrow 0$ as $n\rightarrow \infty$. 
 <span style='float:right'>$\square$</span>
+
 
 
 For OLS estimator to have a limit distribution which is normal (aka *asyptotic normality*), the following set of assumptions need to be met:
@@ -1329,6 +1497,62 @@ $$
 
 which is the same as the exact finite sample conditional variance $\text{Var}(\hat{\beta}_{OLS}\vert X)$ that we obtianed in the classical linear regression model with nomally distributed errors.
 
+
+
+**Hypothesis testing** without knowing the distribution of $u\vert X$, we use asymptotic results to approximate the distribution of $\hat{\beta}_{OLS}$ in large finite sample.
+
+Let the scalar $\hat{v}_{kk}$ denote the $k^{\text{th}}$ element of the main diagonal of the variance matrix. 
+
+$\hat{V}/n=\hat{\sigma}^2_{OLS}(X'X)^{-1}$. 
+
+Since 
+
+$$
+\hat{\beta}_k \overset{\text{a}}{\sim} \text{N}(\beta_k, \hat{v}_{kk})
+$$
+
+we also have 
+
+$$
+t_k=\frac{\hat{\beta}_k-\beta_k}{\sqrt{\hat{v}_{kk}}} = \frac{\hat{\beta}_k-\beta_k}{se_k} \overset{\text{a}}{\sim} \text{N}(0,1)
+$$
+
+$t_k$ will be compared with the crit. value of $\text{N}(0,1)$ at the desired sig. level.
+
+
+Why can we treat $t_k$ here as a draw from the standard normal distribution, even though we have estimated the unknown $\sigma_2$? \
+This is justified by an asymptotic approximation that a $t(n-K)$ random variable converges in distribution to a $\text{N}(0,1)$ as $n\to\infty$.
+
+Multiple linear restrictions
+
+$H$ is restriction matrix $p\times K$ with $\text{rank}(H)=p$.
+
+$$
+\hat{\theta}_{OLS} = H\hat{\beta}_{OLS} \overset{\text{a}}{\sim} \text{N}(H\beta, H(\hat{V}/n)H')
+$$
+
+The test statistic
+
+$$
+w = (\hat{\theta}_{OLS}-\theta)'\left[H(\hat{V}/n)H' \right]^{-1} (\hat{\theta}_{OLS}-\theta)
+$$
+
+has the aymptotic distrbution
+
+$$
+w \overset{\text{a}}{\sim} \chi^2(p).
+$$
+
+
+In the conditional homoskedasticity case, we have $\hat{V}/n = \hat{\sigma}^2_{OLS} (X'X)^{-1}$. In this case we have
+
+$$
+w = (\hat{\theta}_{OLS}-\theta)'\left[\hat{\sigma}^2_{OLS} H(X'X)^{-1}H' \right]^{-1} (\hat{\theta}_{OLS}-\theta)
+$$
+
+This test only has an asymptotic justification, and we know that $p$ times a $F(p, n-K)$ random variable converges in distribution to a $\chi^2(p)$ as $n\to\infty$.
+
+$w$ is called an Wald statistic, the corresponding test is called an Wald test.
 
 ___
 

@@ -280,39 +280,7 @@ $\sup$
   $$
   ```
 
-  
-
-
-
-
-
-
 
 # Reference
 
 @LKS90, Github Repository, <https://gist.github.com/LKS90/252ac41bd4a173be35b0>.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
