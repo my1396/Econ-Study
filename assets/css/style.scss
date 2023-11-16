@@ -16,10 +16,31 @@ li {
 li:first-child {
   margin-top: 20px;
 }
+
 /* Margin for social icons */
 #social {
   margin-top: 20px;
 }
+
+/* Parentheses around numbering */
+@counter-style paren-decimal {
+  system: extends decimal;
+  suffix: ") ";
+}
+
+@counter-style paren-lower-alpha {
+  system: extends lower-alpha;
+  suffix: ") ";
+}
+
+[type="p1"] {
+  list-style: paren-decimal;
+}
+
+[type="pa"] {
+  list-style: paren-lower-alpha;
+}
+
 
 /* tag cloud */
 #tag_cloud {
