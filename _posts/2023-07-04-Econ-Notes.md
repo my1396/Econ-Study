@@ -1343,7 +1343,7 @@ $$
 \begin{align*}
 v &= \left(\frac{1}{p}\right) (\hat{\theta}-\theta)' \left[\widehat{\text{Var}}(\hat{\theta}\vert X)\right]^{-1} (\hat{\theta}-\theta) \\
 &= \left(\frac{1}{p\hat{\sigma}^2}\right) (\hat{\theta}-\theta)'D(\hat{\theta}-\theta) \\
-&{\sim} F(p, n-K).
+&\sim \; F(p, n-K).
 \end{align*}
 $$
 
@@ -1367,6 +1367,8 @@ $$
 &= \beta + \left(\frac{X'X}{n}\right)^{-1}  \left(\frac{X'u}{n}\right)
 \end{align*}
 $$
+
+and
 
 $$
 \left(\frac{X'u}{n}\right) = \frac{1}{n}X'u = \frac{1}{n} \sum_{i=1}^n x_iu_i
@@ -1523,7 +1525,8 @@ $t_k$ will be compared with the crit. value of $\text{N}(0,1)$ at the desired si
 Why can we treat $t_k$ here as a draw from the standard normal distribution, even though we have estimated the unknown $\sigma_2$? \
 This is justified by an asymptotic approximation that a $t(n-K)$ random variable converges in distribution to a $\text{N}(0,1)$ as $n\to\infty$.
 
-Multiple linear restrictions
+
+**Multiple linear restrictions**
 
 $H$ is restriction matrix $p\times K$ with $\text{rank}(H)=p$.
 
