@@ -271,13 +271,16 @@ $A^{-1} = \frac{1}{\vert A \vert} \text{Adj}(A)$ where $\text{Adj}(A)$ is the ad
 <li> Divide the $\text{Adj}(A)$ by the determinant.</li>
 </ol>
 
-Properties of inverse: 
+**Properties of inverse**: 
 
-$(A^T)^{-1} = (A^{-1})^T$ Transpose of inverse equal to inverse of transpose.
+- $(A^T)^{-1} = (A^{-1})^T$ Transpose of inverse equal to inverse of transpose.
 
-$(ABC)^{-1}=C^{-1}B^{-1}A^{-1}$ The inverse of a product is the product of the inverse in the *opposite* order. This holds only on the condition that all matrices are invertible.
+- $(ABC)^{-1}=C^{-1}B^{-1}A^{-1}$ The inverse of a product is the product of the inverse in the *opposite* order. This holds only on the condition that all matrices are invertible.
 
-If $A$ is symmetric, then $A^{-1}$ is symmetric.
+- If $A$ is symmetric, then $A^{-1}$ is symmetric.
+
+
+**Variance matrix of random vector**
 
 A random vector $\vec{X}$ is a vector 
 $$
@@ -290,7 +293,7 @@ X_p
 $$
 of $p$ jointly distributed random variables.
 
-Expectation $\mathbb{E}[\vec{X}]$ is given by
+- Expectation $\mathbb{E}[\vec{X}]$ is given by
 
 $$
 \mathbb{E}[\vec{X}]=\begin{bmatrix}
@@ -301,12 +304,12 @@ $$
 \end{bmatrix}
 $$
 
-Variance-Covariance Matrix of a random vector $\vec{X}$ is given by:
+- Variance-Covariance Matrix of a random vector $\vec{X}$ is given by:
 
 $$
 \begin{align*}
-\text{Cov}(\vec{X}) &= \mathbb{E}\left[ (\vec{X}-\mathbb{E}\vec{X})(\vec{X}-\mathbb{E}\vec{X})^T \right] \\
-&= \mathbb{E}[\vec{X}\vec{X}^T] - \mathbb{E}[\vec{X}] (\mathbb{E}\vec{X})^T
+\text{Cov}(\vec{X}) &= \mathbb{E}\left[ (\vec{X}-\mathbb{E}[\vec{X}])(\vec{X}-\mathbb{E}[\vec{X}])^T \right] \\
+&= \mathbb{E}[\vec{X}\vec{X}^T] - \mathbb{E}[\vec{X}] (\mathbb{E}[\vec{X}])^T
 \end{align*}
 $$
 
@@ -326,7 +329,7 @@ The trace of a square matrix A, denoted $\text{tr}(A)$, is defined to be the sum
 
 $$\text{tr}(A) = \sum_{i=1}^n a_{ii}$$ 
 
-Some properties: \
+Basic properties: \
 $\text{tr}(\boldsymbol{I}_K) = K$ \
 $\text{tr}(cA) = c \cdot \text{tr}(A)$ \
 $\text{tr}(XA) = \text{tr}(AX)$ \
@@ -894,27 +897,81 @@ $$
 
 **Moments**
 
-Unconditional Moments
+
+We often summarise properties of distributions using their moments.
+
+
+The $r^{\text{th}}$ order moment is defined by
 
 $$
 \begin{aligned}
-\mathbb{E}(g(x)) &= \int_{-\infty}^\infty g(x){\color{red}f(x)}dx &\text{continuous} \\
-\mathbb{E}(g(x)) &= \sum_x g(x){\color{red}f(x)} & \text{discrete}
+\mathbb{E}(X^r) = \left\{
+\begin{array}{ll}
+	\int_{-\infty}^\infty x^r f(x)dx & \text{continuous} \\
+	\sum_x x^r f(x) &\text{discrete}
+\end{array} \right.
 \end{aligned}
 $$
 
-Conditional Moments
+
+**First order moment**
+
+The first moment is called the expected value or expectation, which is given by 
 
 $$
 \begin{aligned}
-\mathbb{E}(g(x) \vert Y=y) &= \int_{-\infty}^\infty g(x){\color{#32CD32}f(x\vert Y=y)}dx &\text{continuous} \\
-\mathbb{E}(g(x) \vert Y=y) &= \sum_x g(x){\color{#32CD32}f(x\vert Y=y)} & \text{discrete}
+\mathbb{E}(X) = \left\{
+\begin{array}{ll}
+	\int_{-\infty}^\infty x f(x)dx & \text{continuous} \\
+	\sum_x x f(x)  &\text{discrete}
+\end{array} \right. 
+\end{aligned}
+$$
+
+**Second moment about the mean**
+
+Also called second central moment.
+The variance is obtained by setting $g(X)=\mathbb{E}[\left(X-\mathbb{E}(X)\right)^2]$.
+
+$$
+\begin{aligned}
+\text{Var}(X) = \mathbb{E}[\left(X-\mathbb{E}(X)\right)^2] = \left\{
+\begin{array}{ll}
+	\int_{-\infty}^\infty \left[X-\mathbb{E}(X)\right]^2 f(x)dx & \text{continuous} \\
+	\sum_x \left[X-\mathbb{E}(X)\right]^2 f(x) &\text{discrete}
+\end{array} \right. 
+\end{aligned}
+$$
+
+Unconditional expectation of functions of RVs
+
+$$
+\begin{aligned}
+\mathbb{E}[g(x)] = \left\{
+\begin{array}{ll}
+	\int_{-\infty}^\infty g(x){\color{red}f(x)}dx & \text{continuous} \\
+	\sum_x g(x){\color{red}f(x)} &\text{discrete}
+\end{array} \right.  
+\end{aligned}
+$$
+
+Conditional expectation of functions of RVs
+
+$$
+\begin{aligned}
+\mathbb{E}(g(x) \vert Y=y) = \left\{
+\begin{array}{ll}
+	\int_{-\infty}^\infty g(x){\color{#32CD32}f(x\vert Y=y)}dx & \text{continuous} \\
+	\sum_x g(x){\color{#32CD32}f(x\vert Y=y)} &\text{discrete}
+\end{array} \right.  
 \end{aligned}
 $$
 
 Note: 
 - For <span style='color:red'>unconditional</span> moments, use the appropriate <span style='color:red'>unconditional</span> density.
 - For <span style='color:#32CD32'>conditional</span> moments, use the appropriate <span style='color:#32CD32'>conditional</span> density.
+- Expectation or expected value is a population quantity because it requires knowledge of the density function.
+- The sample analogue of the expected value is the sample mean or sample average.
 
 
 Conditional and Unconditional Variance
@@ -1157,95 +1214,6 @@ Consequently:
 E.g., For $X_1, X_2, \ldots, X_n$ iid with mean $\mu$ and variance $\sigma^2$, define $Z=\frac{\overline{X}-\mu}{\sigma}$. Then, by the CLT we have $\sqrt{n}Z\xrightarrow{d}N(0,1)$ and so $\sqrt{n}Z = O_p(1)$ or equivalently $Z=O_p(n^{-1/2})$.
 
 
-## Derivative Distributions from $N(0,1)$
-
-The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ identity matrix, is called a standard normal vector, with elements $z_i \sim N(0,1)$ for $i=1,2,\ldots,n$ that are independent standard normal random variables.
-
-<ol>
-  <li> The scalar $w=z'z=\sum_{i=1}^n z_i^2 \sim \chi^2(n)$. <br/>
-
-  The sum of squares of $n$ independent standard normal random variables has <span style='color:#32CD32; font-style:italic;'>chi-squared distribution</span> with $n$ degress of freedom. </li>
-
-  <li> If the random variables $w_1 \sim \chi^2(m)$ and $w_2 \sim \chi^2(n)$ and $w_1$ and $w_2$ are independent, then the scalar
-
-  $$
-  v=\frac{w_1/m}{w_2/n} \sim F(m,n)
-  $$
-
-  The ratio of two independent chi-squared random variables, each divided by their respective degrees of freedom, has a <span style='color:#32CD32; font-style:italic;'>F-distibution</span>.
-
-  <div class = "boxed">
-  <strong>Theorem</strong>  If $v \sim F(m,n)$, the limiting distribution of $mv$ as $n\to\infty$ is the $\chi^2(m)$.
-  </div>
-
-  Proof: 
-  $$
-  mv = \frac{w_1}{w_2/n} \sim F(m,n)
-  $$
-
-  Since $w_2$ is a $\chi^2$ variable with $n$ degrees of freedom, it can be written as the sum of $n$ iid $\chi^2(1)$, the denominator can be written as
-
-  $$
-  w_2/n = \frac{Y_1+Y_2+\cdots+Y_{n}}{n}
-  $$
-
-  with $Y_1,Y_2,\ldots,Y_{n}$ mutually independent $\chi^2(1)$.
-
-  By the Strong Law of Large Numers,
-
-  $$
-  w_2/n = \frac{Y_1+Y_2+\cdots+Y_{n}}{n} \xrightarrow{a.s} \text{E}(Y_1) \quad \text{as } n\to\infty
-  $$
-
-  and $\text{E}(Y_1)=1$, which means
-
-  $$
-  mv = \frac{w_1}{w_2/n} \xrightarrow{a.s} w_1 \quad \text{as } n\to\infty
-  $$
-
-  <div>
-  proving the desired result.   <span style="float:right">$\square$</span>
-  </div>
-
-
-  </li>
-
-  <li> If the random variable $z\sim N(0,1)$ and $w\sim \chi^2(n)$ are independent, then the scalar 
-
-  $$
-  u=\frac{z}{\sqrt{w/n}} \sim t(n)
-  $$
-
-  The ratio of a standard normal random variable to the square root of an independent chi-squared random variable divided by its degrees of freedom has a <span style='color:#32CD32; font-style:italic;'>Student t-distribution</span> with that degrees of freedom. <br/>
-
-  $$
-  u^2 = \frac{z}{w/n}= \frac{z/1}{w/n} \sim F(1,n)
-  $$
-
-  The square of a RV with a $t(n)$ distribution has a $F(1,n)$ distribution. <br/><br/>
-
-  $t$-distribution approximates standard normal in the limit. In practice, at a degree of freedom of 30, the $t$-distribution is regarded as closely enough to the standard normal distribution.<br/><br/>
-
-  For example, $t_{0.975}(20)=2.086$, $t_{0.975}(40)=2.031$, $t_{0.975}(100)=1.984$. As $df=n-K$ increases, $c_{0.025}(n-K)$ approaches 1.96 from above (as $t$-distribution has fatter tails).<br/><br/>
-
-  That means, in very large samples, we could use the 97.5% percentile of standard normal distibution to obtain the 95% CI.
-
-  </li>
-</ol>
-
-
-**Two properties** of quadratic forms of normally distributed random vectors:
-
-<ol>
-<li>
-If the $n\times 1$ vector $y\sim N(\mu,\Sigma)$ and the scalar $w=(y-\mu)'\Sigma^{-1}(y-\mu)$, then $w\sim \chi^2(n)$.
-</li>
-
-<li>
-If the $n\times 1$ vector $y\sim N(0,I)$ and the non-stochastic $n\times n$ matrix $G$ is symmetric and idempotent with $\text{rank}(G)=r\le n$, then the scalar $w=z'Gz \sim \chi^2(r)$.
-</li>
-</ol>
-
 ___
 
 ## Classical linear regression models
@@ -1351,7 +1319,7 @@ $$
 
 For OLS estimator to be *consistent*, a set of assumptions need to be met:
 <ol type="p1">
-<li id="ass1"> $y_i=x_i'\beta+u_i$ for $i=1, \ldots, n$ or $y=X\beta+u$.</li>
+<li id="ass1"> $y_i=x_i'\beta+u_i$ for $i=1, \ldots, n$ or $y=X\beta+u$. In other words, DGP is correctly specified.</li>
 <li id="ass2"> $(y_i, x_i')$ are iid distributed with $\mathbb{E}[x_iu_i]=\vec{0}$ for all $i=1, \ldots, n$, $\vec{0}$ is a vector of zeros of order $K$. (Orthogonality Assumption $\mathbb{E}[x_iu_i]=\vec{0}$ ) </li>
 <li id="ass3"> The $K\times K$ moment matrix $M_{XX}=\mathbb{E}[x_ix_i']$ exists and is non-singular. </li>
 </ol>
@@ -1374,7 +1342,7 @@ $$
 \left(\frac{X'u}{n}\right) = \frac{1}{n}X'u = \frac{1}{n} \sum_{i=1}^n x_iu_i
 $$
 
-With iid data and assumption 2), by LLN, the $K\times 1$ vector of sample means converges in probability to the population parameter.
+With iid data and assumption <a href="#ass2">2)</a>, by LLN, the $K\times 1$ vector of sample means converges in probability to the population parameter.
 
 $$
 \frac{1}{n} \sum_{i=1}^n x_iu_i \xrightarrow{P} \text{E}[x_iu_i] = \vec{0}
@@ -1392,7 +1360,7 @@ $$
 \left(\frac{X'X}{n}\right) = \frac{1}{n}X'X = \frac{1}{n} \sum_{i=1}^n x_ix_i'
 $$
 
-With iid data and assumption 3), by LLN, the $K\times K$ matrix of sample means converges in probability to the moment matrix.
+With iid data and assumption <a href="#ass3">3)</a>, by LLN, the $K\times K$ matrix of sample means converges in probability to the moment matrix.
 
 $$
 \frac{1}{n} \sum_{i=1}^n x_ix_i' \xrightarrow{P} \text{E}[x_ix_i'] = M_{XX}
@@ -1416,11 +1384,65 @@ Consistency *further* requires that $\text{Var}(\hat{\theta})\rightarrow 0$ as $
 
 For OLS estimator to have a limit distribution which is normal (aka *asyptotic normality*), the following set of assumptions need to be met:
 
-&emsp;&ensp;Conditions <a href="#ass1">**1**</a> to <a href="#ass3">**3**</a> in the consistency assumptions above; in additon to a new assumption:
+&emsp;&ensp;Conditions <a href="#ass1">**1)**</a> to <a href="#ass3">**3)**</a> in the consistency assumptions above; in additon to a new assumption:
 
-<ol start="4">
+<ol type="p1" start="4">
 <li id="ass4"> The $K\times K$ moment matrix $M_{X\Omega X}=\mathbb{E}[u_i^2x_ix_i']$ exists and is non-singular, where $\Omega=\mathbb{E}[uu'\vert X]$ is the error covariance matrix. (this assumption ensures asymptotic normality) </li>
 </ol>
+
+Conditions <a href="#ass4">**4)**</a> satisfies the 2nd order moment requirement, combining with <a href="#ass3">**3)**</a>, the 1st order moment condition, we can apply the Central Limit Theorem to $\frac{1}{n}X'u$.
+
+
+$x_iu_i$ are iid (assumption <a href="#ass2">2)</a>, and we have $E(x_iu_i)=0$ (assumption <a href="#ass3">3)</a> and $\text{Var}(x_iu_i)=E[(x_iu_i)(x_iu_i)']=E(u_i^2x_ix_i')=M_{X\Omega X}$ finite (assumption <a href="#ass4">4)</a>. 
+
+Using the <a href="#CLT random vector">*CLT for random vectors*</a>, 
+
+$$
+\sqrt{n}\left(\frac{1}{n}\sum_{i=1}^nx_iu_i\right) = \frac{1}{\sqrt{n}}\sum_{i=1}^nx_iu_i \xrightarrow{d} N(0,M_{X\Omega X}).
+$$
+
+That is,
+
+$$
+\sqrt{n}\left(\frac{1}{n}X'u\right) = \frac{X'u}{\sqrt{n}}  \xrightarrow{d} N(0,M_{X\Omega X}).
+$$
+
+In order to construct the form $\frac{X'u}{\sqrt{n}}$, we form the following expression
+
+$$
+\sqrt{n} (\hat{\beta}-\beta) = \left(\frac{X'X}{n}\right)^{-1}  \left(\frac{X'u}{\sqrt{n}}\right)
+$$
+
+We also have $\left(\frac{X'X}{n}\right)^{-1} \xrightarrow{p} M_{XX}^{-1} $. Then using generalized Slutsky's Thm., and the symmetry of $M_{XX}^{-1}$, we obtain the limit distibution of the product
+
+$$
+\left(\frac{X'X}{n}\right)^{-1}  \left(\frac{X'u}{\sqrt{n}}\right) \xrightarrow{d} N(0, M_{XX}^{-1} M_{X\Omega X} M_{XX}^{-1}).
+$$
+
+And hence 
+
+$$
+\sqrt{n} (\hat{\beta}-\beta) \xrightarrow{d} N(0, M_{XX}^{-1} M_{X\Omega X} M_{XX}^{-1}).
+$$ 
+<span style="float:right">$\square$</span>
+
+
+Multiplying $(\hat{\beta}-\beta)$ by $\sqrt{n}$ is a stabilizing transformation — i.e., the moments do not depend on $n$.
+
+- stabilize the variance: $\text{Var}(\sqrt{n}\hat{\beta}) \xrightarrow{p} M_{XX}^{-1} M_{X\Omega X} M_{XX}^{-1}$
+- stabilize the mean: $\text{E}[\sqrt{n}(\hat{\beta}-\beta)] = 0$
+
+
+<div id="CLT random vector"><strong>CLT for random vectors</strong></div>
+
+Suppose that $z_1, \ldots, z_n$ are iid distributed $K\times 1$ random vectors, with $E(z_i)=\mu$ and $\text{Var}(z_i)=\Sigma$ finite. \
+Let $\bar{z}\_n = \frac{1}{n}\sum_{i=1}^n z_i$ donote the $K\times 1$ vector os sample means for a sample of size $n$, and let $w_n = \sqrt{n}(\bar{z}\_n-\mu) = \frac{1}{\sqrt{n}}\sum_{i=1}^n(z_i-\mu)$. Then
+
+$$
+w_n \xrightarrow{d} N(\vec{0},\Sigma).
+$$
+
+
 
 Note that, we do NOT require any of the following in order to ensure aymptotic normality:
 1. conditional homoskedasticity $(\text{Var}(u_i\vert x_i) = \sigma^2)$;
@@ -1430,13 +1452,13 @@ Note that, we do NOT require any of the following in order to ensure aymptotic n
 The limit distribution is
 
 $$
-\sqrt{n} (\hat{\beta}_{OLS}-\beta) \xrightarrow{D} N(0, \sigma^2M^{-1}_{XX})
+\sqrt{n} (\hat{\beta}_{OLS}-\beta) \xrightarrow{d} N(0, \sigma^2M^{-1}_{XX})
 $$
 
 also can be written as 
 
 $$
-\sqrt{n} (\hat{\beta}_{OLS}-\beta) \xrightarrow{D} N(0, V), \text{or}
+\sqrt{n} (\hat{\beta}_{OLS}-\beta) \xrightarrow{d} N(0, V), \text{or}
 $$
 
 $$
@@ -1448,13 +1470,13 @@ $V/n$ is called the asymptotic variance. \
 $\overset{a}{\sim}$ stands for "approximate (asymptotic)" distribution.
 
 $$
-\left(\frac{1}{n}\sum_{i=1}^nx_ix_i'\right)^{-1} \xrightarrow{P} M^{-1}_{XX}
+\left(\frac{1}{n}\sum_{i=1}^nx_ix_i'\right)^{-1} \xrightarrow{p} M^{-1}_{XX}
 $$
 
 or
 
 $$
-\left(\frac{X'X}{n}\right)^{-1} \xrightarrow{P} M^{-1}_{XX}
+\left(\frac{X'X}{n}\right)^{-1} \xrightarrow{p} M^{-1}_{XX}
 $$
 
 gives us a consistent estimator for $M^{-1}_{XX}$.
@@ -1476,7 +1498,7 @@ are consistent estimators of $\sigma^2$ (only $\hat{\sigma}^2_{OLS}$ is unbiased
 Using Slutsky's theorem, 
 
 $$
-\hat{V} = \hat{\sigma}^2_{OLS} \left(\frac{X'X}{n}\right)^{-1} \xrightarrow{P} V.
+\hat{V} = \hat{\sigma}^2_{OLS} \left(\frac{X'X}{n}\right)^{-1} \xrightarrow{p} V.
 $$
 
 Replacing $V$ with $\hat{V}$ in the asymptotoic distribution, we have

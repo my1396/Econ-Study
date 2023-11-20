@@ -21,6 +21,16 @@ Special characters / Symbols
 
 `\overrightarrow`: $\overrightarrow{AB}$
 
+Sample average: $\overline{X}$ (`\overline{X}`), $\bar{X}$
+
+`\tilde{X}`: $\tilde{X}$
+
+`\hat{\beta}`: $\hat{\beta}$
+
+
+
+
+
 
 
 ### Matrices
