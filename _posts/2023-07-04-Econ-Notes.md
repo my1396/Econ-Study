@@ -1436,7 +1436,7 @@ Multiplying $(\hat{\beta}-\beta)$ by $\sqrt{n}$ is a stabilizing transformation 
 <div id="CLT random vector"><strong>CLT for random vectors</strong></div>
 
 Suppose that $z_1, \ldots, z_n$ are iid distributed $K\times 1$ random vectors, with $E(z_i)=\mu$ and $\text{Var}(z_i)=\Sigma$ finite. \
-Let $\bar{z}\_n = \frac{1}{n}\sum_{i=1}^n z_i$ donote the $K\times 1$ vector os sample means for a sample of size $n$, and let $w_n = \sqrt{n}(\bar{z}\_n-\mu) = \frac{1}{\sqrt{n}}\sum_{i=1}^n(z_i-\mu)$. Then
+Let $\bar{z}\_n = \frac{1}{n}\sum_{i=1}^n z_i$ donote the $K\times 1$ vector os sample means for a sample of size $n$, and let $w_n = \sqrt{n}(\bar{z}\_n-\mu) = \frac{1}{\sqrt{n}}\sum_{i=1}^n(\bar{z}\_n-\mu)$. Then
 
 $$
 w_n \xrightarrow{d} N(\vec{0},\Sigma).
@@ -1447,7 +1447,7 @@ $$
 Note that, we do NOT require any of the following in order to ensure aymptotic normality:
 1. conditional homoskedasticity $(\text{Var}(u_i\vert x_i) = \sigma^2)$;
 2. linear conditional expectation $(\mathbb{E}(y_i\vert x_i) = x_i'\beta$ or the stronger form $\mathbb{E}(y\vert X) = X'\beta)$;
-3. normal conditional distribution $(y\vert X \sim N(X\beta, \sigma^2I))$;
+3. normal conditional distribution $(y\vert X \sim N(X\beta, \sigma^2I))$.
 
 The limit distribution is
 

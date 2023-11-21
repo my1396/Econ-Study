@@ -4,24 +4,26 @@ title: LaTex Cheatsheet
 tag: study
 ---
 
-Special characters / Symbols
-============================
-### Latin:
-##### No dot:  
+
+<a class="top-link hide" href="#" id="js-top">↑</a>
+
+### Special characters / Symbols
+
+#### No dot
 `\imath` $\rightarrow$ $\imath$,
 `\jmath` $\rightarrow$ $\jmath$
 
-##### Hat:  
+#### Hat  
 `\hat{\imath}`  $\rightarrow$ $\hat{\imath}$,
 `\hat{\jmath}`  $\rightarrow$ $\hat{\jmath}$
 
-### Vectors:
+### Vectors
 
 `\vec`: $\vec{A}$
 
 `\overrightarrow`: $\overrightarrow{AB}$
 
-Sample average: $\overline{X}$ (`\overline{X}`), $\bar{X}$
+Sample average: $\overline{X}$ (`\overline{X}`), $\bar{X}$ (`\bar{X}`)
 
 `\tilde{X}`: $\tilde{X}$
 
@@ -53,9 +55,9 @@ Note:
 
 
 
-### Greek Letters:
+### Greek Letters
 
-##### Capital:
+#### Capital:
 
 |      LaTex |      |    LaTex |      |
 | ---------: | ---: | -------: | ---: |
@@ -66,7 +68,7 @@ Note:
 | `\Upsilon` |    Υ |    `\Xi` |    Ξ |
 |   `\Omega` |    Ω |          |      |
 
-##### Lowercase:
+#### Lowercase:
 
 |      LaTex |      |     LaTex |      |
 | ---------: | ---: | --------: | ---: |
@@ -83,7 +85,7 @@ Note:
 |     `\chi` |    χ |    `\psi` |    ψ |
 |   `\omega` |    ω |           |      |
 
-##### Other:
+#### Other:
 
 |       LaTex |             |        LaTex |         |
 | ----------: | ----------- | -----------: | ------: |
@@ -93,7 +95,8 @@ Note:
 | `\varsigma` | $\varsigma$ |  `\vartheta` |       ϑ |
 |      `\eth` | ð           |      `\hbar` | $\hbar$ |
 
-### Other:
+### Other
+
 #### Other Symbols
 
 |         LaTex |      |            LaTex |      |
@@ -212,7 +215,7 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
   - `\underset{#1}{#2}` put argument #1 (in scriptstyle) under argument #2. $\widetilde{\beta}_{k}^{\rm ridge}=\underset{b\in \mathbb{R}^{p+1}}{\rm argmin}  \lVert y-X b  \rVert ^{2}$. 
 
-- Text above arrows. $\xrightarrow{D}$ `\xrightarrow{D}` convergence in distribution.
+- Text above arrows. $\xrightarrow{d}$ `\xrightarrow{d}` convergence in distribution.
 
 
 
@@ -291,6 +294,6 @@ $\sup$
   ```
 
 
-# Reference
+### Reference
 
 @LKS90, Github Repository, <https://gist.github.com/LKS90/252ac41bd4a173be35b0>.
