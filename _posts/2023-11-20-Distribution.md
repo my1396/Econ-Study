@@ -5,6 +5,8 @@ tag: study
 date: 2023-11-20
 ---
 
+<a class="top-link hide" href="#" id="js-top">↑</a>
+
 ## Derivative Distributions from $N(0,1)$
 
 The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ identity matrix, is called a standard normal vector, with elements $z_i \sim N(0,1)$ for $i=1,2,\ldots,n$ that are independent standard normal random variables.
@@ -95,3 +97,60 @@ If the $n\times 1$ vector $y\sim N(0,I)$ and the non-stochastic $n\times n$ matr
 </ol>
 
 ___
+
+
+## Families of Densities
+
+Standard Normal: $Z \sim N(0,1)$
+
+$$
+\phi(z) = \frac{1}{\sqrt{2\pi}} e^{-\frac{x^2}{2}}
+$$
+
+Normal distribution $X \sim N(\mu,\sigma^2)$
+
+$$
+f(x) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}
+$$
+
+### Multivariate normal random vecctors (MV-N)
+
+MV-N is a linear transformation of a random vector whos entries are mutually **independent** univariate normal random variables.
+
+Let $X$ be a $K\times 1$ continuous random vector with multivariate normal distribution with mean $\mu$ and covariance $\Sigma$, denoted $X\sim N(\mu, \Sigma)$. 
+
+$$
+X = \begin{bmatrix}
+X_1 \\
+\vdots \\
+X_K
+\end{bmatrix}
+$$
+
+$$
+\mu = \begin{bmatrix}
+\mu_1 \\
+\vdots \\
+\mu_K
+\end{bmatrix}
+$$
+
+
+$$
+\Sigma = \begin{bmatrix}
+\sigma_1^2 & 0 & \cdots & 0 \\
+0 & \sigma_2^2 & \cdots & 0 \\
+\vdots & \vdots & \ddots & \vdots &\\
+0 & 0 & \cdots & \sigma_K^2 \\
+\end{bmatrix}
+$$
+
+In other words, covariance matrix $\Sigma$ is diagonal. In the case of standard MV-N, each $X_k$ is standard normal, the covariance matrix will be an identity matrix of order $K$.
+
+Its joint probability density function is 
+
+$$
+f_X(x) = (2\pi)^{-\frac{K}{2}} \vert \text{det}(\Sigma) \vert ^{-\frac{1}{2}} \exp \left ( -\frac{1}{2} (X-\mu)'\Sigma^{-1}(X-\mu) \right )
+$$
+
+The $K$ random variables $X_1, \ldots, X_K$ constituting the vector $X$ are said to be **jointly normal**.

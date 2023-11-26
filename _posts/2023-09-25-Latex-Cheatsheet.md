@@ -57,7 +57,7 @@ Note:
 
 ### Greek Letters
 
-#### Capital:
+#### Capital
 
 |      LaTex |      |    LaTex |      |
 | ---------: | ---: | -------: | ---: |
@@ -68,7 +68,7 @@ Note:
 | `\Upsilon` |    Υ |    `\Xi` |    Ξ |
 |   `\Omega` |    Ω |          |      |
 
-#### Lowercase:
+#### Lowercase
 
 |      LaTex |      |     LaTex |      |
 | ---------: | ---: | --------: | ---: |
@@ -85,7 +85,7 @@ Note:
 |     `\chi` |    χ |    `\psi` |    ψ |
 |   `\omega` |    ω |           |      |
 
-#### Other:
+#### Other
 
 |       LaTex |             |        LaTex |         |
 | ----------: | ----------- | -----------: | ------: |
