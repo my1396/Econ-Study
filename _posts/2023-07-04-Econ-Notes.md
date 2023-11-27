@@ -1312,32 +1312,49 @@ $$
 \hat{u} = y-X\hat{\beta}.
 $$
 
+Let $\hat{\beta}$ denote an estimator of $\beta$.
+
 It is important to differentiate $u$ from $\hat{u}$. 
-$u$ refers to erros that cannot be observed. 
-$\hat{u}$ refers to residuals that can be observed. 
+- $u$ refers to erros that cannot be observed. 
+- $\hat{u}$ refers to residuals that can be observed. 
 
 We can write the sum of squared residuals as:
 
 $$
 \begin{align*}
-\hat{u}'\hat{u} &= (y-X'\beta)'(y-X'\beta) \\
+S(\hat{\beta}) = \sum_{i=1}^n\hat{u}_i^2
+\end{align*}
+$$
+
+In matrix form, $S(\hat{\beta})$ can be re-written as
+
+$$
+\begin{align*}
+S(\hat{\beta}) = \hat{u}'\hat{u} &= (y-X'\hat{\beta})'(y-X'\hat{\beta}) \\
 &=y'y - 2\hat{\beta}'X'y + \hat{\beta}'X'X\hat{\beta}
 \end{align*}
 $$
 
-Using FOC, take derivetate and set it to zero.
+
+Apply FOC to $S(\hat{\beta})$, then we get an OLS estimator.
 
 $$
-\frac{\partial \hat{u}'\hat{u}}{\partial \hat{\beta}} = -2X'y+2X'X\hat{\beta} = 0
+\hat{\beta}_{OLS} = \underset{\hat{\beta}}{\text{argmin}}\, S(\hat{\beta})
 $$
 
-which gives us the so-called "normal equations"
+Take 1st derivetate and set it to zero 
+
+$$
+\frac{\partial \hat{u}'\hat{u}}{\partial \hat{\beta}} = -2X'y+2X'X\hat{\beta} = \vec{0}
+$$
+
+which gives us the so-called the "normal equations"
 
 $$
 X'y = X'X\hat{\beta}.
 $$
 
-A variation is 
+A variation of the normal equations is 
 
 $$
 X'(y-X'\hat{\beta}) = X'\hat{u} = \vec{0}
