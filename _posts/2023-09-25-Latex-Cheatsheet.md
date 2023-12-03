@@ -238,6 +238,16 @@ Summation operators: $\displaystyle\sum_{i=1}^n$ (`\displaystyle\sum_{i=1}^n`) v
 
 
 
+Display shows eqns in block, text style shows inline.
+
+- `\dfrac` used to show display style. $\dfrac{\partial f}{\partial x}$
+
+- `\tfrac` used to show text style. $\tfrac{\partial f}{\partial x}$
+
+
+
+
+
 **Ellipsis**
 
 - `\ldots` are used between commas, e.g., $a_1, \ldots, a_n$ ;
@@ -248,36 +258,15 @@ Summation operators: $\displaystyle\sum_{i=1}^n$ (`\displaystyle\sum_{i=1}^n`) v
 
 #### Named operators
 
-$\arccos$,
-$\arcsin$,
-$\arctan$,
-$\arg$,
-$\cos$,
-$\cosh$,
-$\cot$,
-$\coth$,
-$\deg$,
-$\det$,
-$\dim$,
-$\exp$,
-$\gcd$,
-$\hom$,
-$\inf$,
-$\injlim$,
-$\lg$,
-$\lim$,
-$\liminf$,
-$\limsup$,
-$\ln$,
-$\log$,
-$\max$,
-$\min$,
-$\Pr$,
-$\projlim$,
-$\sec$,
-$\sin$,
-$\sinh$,
-$\sup$
+$\arccos$, $\arcsin$, $\arctan$, $\arg$, $\cos$, $\cosh$, $\cot$, $\coth$, $\sec$, $\sin$, $\sinh$, 
+
+$\deg$, $\det$, $\dim$, $\exp$, $\gcd$, $\hom$, $\injlim$, $\projlim$, $\lg$, 
+
+$\lim$, $\liminf$, $\limsup$, $\ln$, $\log$, 
+
+$\max$, $\min$, $\Pr$, 
+
+$\sup$, $\inf$
 
 
 

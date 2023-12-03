@@ -122,6 +122,10 @@ range 值域
 
 summand 被加数
 
+normal vector 法向量
+
+direction vector 方向向量
+
 **Sample and population**
 
 - DGP (data generating process) generates the data that we observe.
@@ -205,6 +209,90 @@ sector 扇形
 Volume of a sphere (ball) $V=\frac{4}{3}\pi r^3$, $r$ is radius. Surface $S=4\pi r^2$.
 
 
+**直线方程的各种形式**
+
+<ol>
+<li>一般式: $Ax+By+C=0$ <br/>
+
+斜率: $k=-\frac{A}{B}$ <br/>
+法向量: $\overrightarrow{\textbf{n}}=(A,B)$ <br/>
+方向向量: $\overrightarrow{\textbf{a}}=(B,-A)$ 
+
+</li>
+
+
+<li>点斜式: $y-y_0=k(x-x_0)$ <br/>
+
+点斜式是由一个定点 $P(x_0,y_0)$ 和斜率 $k$ 确定的直线方程。<br/>
+
+斜率: $k$ <br/>
+法向量: $\overrightarrow{\textbf{n}}=(k,-1)$ <br/>
+方向向量: $\overrightarrow{\textbf{a}}=(1,k)$ 
+
+</li>
+
+<li> 斜截式: $y=kx+b$ <br/>
+
+斜截式是由斜率 $k$ 和 $y$ 轴上的截距 $b$ 确定的直线方程。<br/>
+
+斜率: $k$ <br/>
+法向量: $\overrightarrow{\textbf{n}}=(k,-1)$ <br/>
+方向向量: $\overrightarrow{\textbf{a}}=(1,k)$ 
+
+</li>
+
+<li> 两点式: $\frac{y-y_1}{y_2-y_1} = \frac{x-x_1}{x_2-x_1}$ <br/>
+
+两点式是由已知的两个点 $(x_1,y_1)$, $(x_2,y_2)$ 确定的直线方程。<br/>
+
+斜率: $k = \frac{y_2-y_1}{x_2-x_1}$ <br/>
+法向量: $\overrightarrow{\textbf{n}}=(y_2-y_1,x_1-x_2)$ <br/>
+方向向量: $\overrightarrow{\textbf{a}}=(x_2-x_1,y_2-y_1)$ 
+
+</li>
+
+<li> 点向式: $\frac{y-y_0}{b} = \frac{x-x_0}{a}$ <br/>
+
+点向式是由已知的定点 $P(x_0,y_0)$ 和方向向量 $\overrightarrow{\textbf{a}}=(a,b)$ 所确定的直线方程。<br/>
+
+斜率: $k = \frac{b}{a}$ <br/>
+法向量: $\overrightarrow{\textbf{n}}=(b,-a)$ <br/>
+方向向量: $\overrightarrow{\textbf{a}}=(a,b)$ 
+
+</li>
+
+<li> 参数式: $\left\{\begin{aligned}&x=x_0+at & \\ &y = y_0+bt & \end{aligned}\right.$ <br/>
+
+这里的参数是$t$，是点向式的变式，也是由定点 $P(x_0,y_0)$ 和方向向量 $\overrightarrow{\textbf{a}}=(a,b)$ 所确定的直线方程。<br/>
+
+斜率: $k = \frac{b}{a}$ <br/>
+法向量: $\overrightarrow{\textbf{n}}=(b,-a)$ <br/>
+方向向量: $\overrightarrow{\textbf{a}}=(a,b)$ 
+
+</li>
+
+<li> 特别参数式: $\left\{\begin{aligned}&x=x_0+t\cos \alpha & \\ &y = y_0+t\sin \alpha & \end{aligned}\right.$ <br/>
+
+这里的参数是 $t$，是参数式的特例，即以直线的倾角。<br/>
+
+斜率: $k = \tan \alpha$ <br/>
+法向量: $\overrightarrow{\textbf{n}}=(\sin \alpha, -\cos \alpha)$ <br/>
+方向向量: $\overrightarrow{\textbf{a}}=(\cos \alpha, \sin \alpha)$ 
+
+</li>
+
+<li> 点法式: $A(x-x_0)+B(y-y_0)=0$ <br/>
+
+点向式是由已知的定点 $P(x_0,y_0)$ 和法向量 $\overrightarrow{\textbf{a}}=(a,b)$ 所确定的直线方程。<br/>
+
+斜率: $k = -\frac{A}{B}$ <br/>
+法向量: $\overrightarrow{\textbf{n}}=(A,B)$ <br/>
+方向向量: $\overrightarrow{\textbf{a}}=(B,-A)$ 
+
+</li>
+
+</ol>
+Reference: <https://zhuanlan.zhihu.com/p/26263309>
 
 **dot product** vs. **cross product**
 
@@ -233,6 +321,10 @@ Volume of a sphere (ball) $V=\frac{4}{3}\pi r^3$, $r$ is radius. Surface $S=4\pi
   \vec{A}\times\vec{A}&=0 \quad (\sin0=0\textrm{, area of a line is 0})
   \end{align*}
   $$
+
+Geometric illustraion: \
+<https://math.stackexchange.com/a/1730547>
+
 
 **Inner and Outer Product**
 
@@ -334,6 +426,30 @@ $\text{tr}(\boldsymbol{I}_K) = K$ \
 $\text{tr}(cA) = c \cdot \text{tr}(A)$ \
 $\text{tr}(XA) = \text{tr}(AX)$ \
 $\text{tr}(A+B) = \text{tr}(A) + \text{tr}(B)$
+
+
+For a random vector $z$ with $\mathbb{E}(z)=\mu$ and $\text{Var}(z)=\Sigma$, then 
+
+$$
+\mathbb{E}(z'z) = \text{tr} (\Sigma) + \mu'\mu .
+$$
+
+Multiplication by a full-rank square matrix preserves rank.
+<ul>
+<li> Let $A$ be a $K\times L$ matrix and $B$ a square $L\times L$ matrix. If $B$ is full-rank, then
+
+$$
+\text{rank}(AB) = \text{rank}(A).
+$$
+</li>
+
+<li> Let $A$ be a $K\times L$ matrix and $B$ a square $K\times K$ matrix. If $B$ is full-rank, then
+
+$$
+\text{rank}(BA) = \text{rank}(A).
+$$
+</li>
+</ul>
 
 **Diagonal Matrix Properties**
 
@@ -1128,11 +1244,13 @@ $$
   
   This shows $\overline{X}_n \xrightarrow{m.s} \mu$, which implies $\overline{X}_n \xrightarrow{p} \mu$.
 
-Unbiasedness vs Consistency
+**Unbiasedness vs Consistency**
+
 - Unbiasedness, $\mathbb{E}(\hat{\theta})=\theta$, is a finite sample property, that holds for any sample size.
 - Consistency, $\hat{\theta}\xrightarrow{p}\theta$, is a asymptotic property, that holds in the limit as $n\to \infty$.
-- Note: neither property implies the other. If we are interested
-in bias, we take the expectation on both sides of the equation, when we are interested in consistency we take the probability limit.
+- Note: neither property implies the other. 
+  + If we are interested in bias, we take the **expectation** on both sides of the equation.
+  + When we are interested in consistency we take the **probability limit**.
 
 **Central Limit Theorem** (CLT)
 
@@ -1381,7 +1499,7 @@ If there is a constant, then the first column in $X$ (i.e. $X_1$) will be a colu
 <li> The sample mean of the residuals is zero. </li>
 <li> The regression hyperplane passes through the means of the observed values ($\overline{X}$ and $\overline{y}$). </li>
 <li> The predicted values of y are uncorrelated with the residuals. <br/>
-The predicted values of y are equal to $X\hat{\beta}$ i.e. $\hat{y}=X\hat{\beta}$. From this we have
+The predicted values of y are equal to $X\hat{\beta}$, i.e. $\hat{y}=X\hat{\beta}$. From this we have
 $$
 \hat{y}'\hat{u} = (X\hat{\beta})'\hat{u} = \hat{\beta}X'\hat{u} = 0
 $$
@@ -1389,6 +1507,7 @@ This last development takes account of the fact that $X'\hat{u}= 0$. </li>
 
 <li> The mean of the predicted $Y$’s for the sample will equal the mean of the observed $Y$’s i.e. $\overline{\hat{y}} = \overline{y}$. </li>
 </ol>
+
 These properties *always hold true*. You should be careful not to infer anything from the residuals about the disturbances/ errors. For example, you cannot infer that the sum of the disturbances is zero or that the mean of the disturbances is zero just because this is true of the residuals - this is true of the residuals just because we decided to minimize the sum of squared residuals.
 
 
