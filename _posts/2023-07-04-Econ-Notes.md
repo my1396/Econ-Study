@@ -151,10 +151,8 @@ The axes of a two-dimensional Cartesian system divide the plane into four infini
 
 orthographic projection (正射投影): top view, front view, (right) side view.
 
-锐角 acute angel
-
-钝角 obtuse angel
-
+锐角 acute angel \
+钝角 obtuse angel \
 直角 right angel
 
 complementary angel 互余角 $\alpha+\beta=\frac{\pi}{2}$.
@@ -163,10 +161,8 @@ supplementary angel 互补角 $\alpha+\beta=\pi$.
 
 <img src="https://drive.google.com/uc?id=1FlFGD-wVxC1UacQiLtg4W3NKAOcie-z7" alt="triangel" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
 
-斜边 hypotenuse  /haɪˈpɑːtənuːs/
-
-邻边 adjacent side
-
+斜边 hypotenuse  /haɪˈpɑːtənuːs/ \
+邻边 adjacent side \  
 对边 opposite side
 
 <span style='color:#32CD32'>Pythagoras’ /pəˈθægərəs/ or Pythagorean /pəˌθæɡəˈriən/ theorem</span> 勾股定理
@@ -188,14 +184,11 @@ parallelepiped /ˌpærəˌleləˈpaɪˌpɪd / 平行六面体 (倾斜长方体)
 
 tetrahedron / ˌtetrəˈhiːdrən/ 四面体, also called "tiangular pyramid", 三角锥, is a polyhedron composed of four triangular faces.
 
-polyhedron 多面体
+polyhedron 多面体 \
+cube 正方体 \
+cuboid 长方体 
 
-cube 正方体
-
-cuboid 长方体
-
-sector 扇形  
-
+sector 扇形  \
 已知弧长 $A=\frac{1}{2}l\cdot r$。 $l$ 为扇形弧长，$r$ 为半径。与三角形面积类比，$\frac{1}{2}$底$\times$高，半径可看作底，弧长看作高。
 
 已知圆心角 $A=\frac{n}{360}\pi r^2=\frac{1}{2}\theta\cdot r^2$。$n$单位为度数degree， $\theta$ 为圆心角，单位为弧度radian。
@@ -204,10 +197,12 @@ sector 扇形
 
 -   弧长公式：$l=\theta \cdot r$ (圆心角弧度 $\times$ 半径)。
 
-    圆周长$C=2\pi r$，弧长$l=\frac{\theta}{2\pi}\cdot C=\frac{\theta}{2\pi}\cdot 2\pi r=\theta r$。
+    圆周长 $C=2\pi r$，弧长 $l=\frac{\theta}{2\pi}\cdot C=\frac{\theta}{2\pi}\cdot 2\pi r=\theta r$。
 
 Volume of a sphere (ball) $V=\frac{4}{3}\pi r^3$, $r$ is radius. Surface $S=4\pi r^2$.
 
+secant line 割线 \
+tagent line 切线
 
 **直线方程的各种形式**
 
@@ -241,7 +236,7 @@ Volume of a sphere (ball) $V=\frac{4}{3}\pi r^3$, $r$ is radius. Surface $S=4\pi
 
 </li>
 
-<li> 两点式: $\frac{y-y_1}{y_2-y_1} = \frac{x-x_1}{x_2-x_1}$ <br/>
+<li> 两点式: $\displaystyle \frac{y-y_1}{y_2-y_1} = \frac{x-x_1}{x_2-x_1}$ <br/>
 
 两点式是由已知的两个点 $(x_1,y_1)$, $(x_2,y_2)$ 确定的直线方程。<br/>
 
@@ -251,7 +246,7 @@ Volume of a sphere (ball) $V=\frac{4}{3}\pi r^3$, $r$ is radius. Surface $S=4\pi
 
 </li>
 
-<li> 点向式: $\frac{y-y_0}{b} = \frac{x-x_0}{a}$ <br/>
+<li> 点向式: $\displaystyle \frac{y-y_0}{b} = \frac{x-x_0}{a}$ <br/>
 
 点向式是由已知的定点 $P(x_0,y_0)$ 和方向向量 $\overrightarrow{\textbf{a}}=(a,b)$ 所确定的直线方程。<br/>
 
@@ -472,6 +467,145 @@ $\vert D \vert = \prod_{i=1}^n d_{ii}$ Determinant is the product of the element
 左乘 (pre-multiply) 一个对角矩阵: $D$ is $K\times K$, $A$ is $K\times L$. For the product $DA$, each row $i$ is equal to the $i$-th row of $A$ multiplied by $D_{ii}$. 
 
 右乘 (post-multiply) 一个对角矩阵: $A$ is $K\times L$, $D$ is $L\times L$. For the product $DA$, each column $j$ is equal to the $j$-th column of $A$ multiplied by $D_{jj}$. 
+
+**Definiteness**
+
+Let  $S$ be the space of all  $Kx1$ vectors having real entries. A  $K	\times K$ real symmetric matrix  $A$ is said to be:
+
+1. positive definite iff  $x^{T}Ax>0$ for any non-zero  $x \in S$;
+2. positive semi-definite iff  $x^{T}Ax\geq 0$ for any  $x \in S$;
+3. negative definite iff  $x^{T}Ax<0$ for any non-zero  $x \in S$;
+4. negative semi-definite iff  $x^{T}Ax\leq 0$ for any  $x \in S$;
+5. indefinite iff there exist  $x,y\in S$ such that  $x^{T}Ax>0$ and  $y^{T}Ay<0$.
+
+Let $A$ be a  $K	\times K$ matrix. If  $A$ is positive definite, then it is full-rank.
+
+A real symmetric  $K	\times K$ matrix  $A$ is positive definite if and only if all its eigenvalues are strictly positive real numbers. \
+A real symmetric  $K	\times K$ matrix  $A$ is positive semi-definite if and only if all its eigenvalues are positive real numbers.
+
+
+**Matrix Diagonalization - Eigen Deceomposition**
+
+Let $A\in \mathbb{R}^{K\times K}$ be a square matrix. Then 
+
+<ul>
+<li> All the eigenvalues of $A$ are real; </li>
+<li>  $A$ is orthogonally diagonalizable, i.e., there exists an orthogonal matrix $P$ and a diagonal matrix $\Lambda$ such that 
+
+$$
+A = P\Lambda P^{-1}
+$$
+
+$\Lambda = \text{diag}(\lambda_1, \ldots, \lambda_K)$ is a diagonal matrix with eigenvalues being the diagonal. 
+
+$$
+\Lambda = \begin{bmatrix} \lambda_1 & 0 & \cdots & 0 \\
+0 & \lambda_2 &  \cdots & 0 \\
+\vdots & \vdots & \ddots & \vdots \\
+0 & 0 &  \cdots & \lambda_K
+\end{bmatrix}
+$$
+
+$P=[X_1, \ldots, X_K]$ be the matrix of eigenvectors corresponding to $\lambda_1, \ldots, \lambda_K$.
+
+$$
+\begin{align*}
+P &= \begin{bmatrix} X_1 & X_2 & \cdots & X_K \end{bmatrix}
+&=\begin{bmatrix} x_{11} & x_{21} & \cdots & x_{K1} \\
+x_{12} & x_{22} &  \cdots & x_{K2} \\
+\vdots & \vdots & \ddots & \vdots \\
+x_{1K} & x_{2K} &  \cdots & x_{KK}
+\end{bmatrix}
+\end{align*}
+$$
+
+Then we have
+
+$$
+\begin{align*}
+AP &= A \begin{bmatrix} X_1 & X_2 & \cdots & X_K \end{bmatrix} \\
+
+&= \begin{bmatrix} AX_1 & AX_2 & \cdots & AX_K \end{bmatrix} \\
+
+&= \begin{bmatrix} \lambda_1X_1 & \lambda_1X_2 & \cdots & \lambda_1X_K \end{bmatrix} \\
+
+&=\begin{bmatrix} \lambda_1x_{11} & \lambda_2x_{21} & \cdots & \lambda_kx_{K1} \\
+\lambda_1x_{12} & \lambda_2x_{22} &  \cdots & \lambda_Kx_{K2} \\
+\vdots & \vdots & \ddots & \vdots \\
+\lambda_1x_{1K} & \lambda_2x_{2K} &  \cdots & \lambda_Kx_{KK} \\
+\end{bmatrix} \\
+
+&= \begin{bmatrix} x_{11} & x_{21} & \cdots & x_{K1} \\
+x_{12} & x_{22} &  \cdots & x_{K2} \\
+\vdots & \vdots & \ddots & \vdots \\
+x_{1K} & x_{2K} &  \cdots & x_{KK} \end{bmatrix}
+\begin{bmatrix} \lambda_1 & 0 & \cdots & 0 \\
+0 & \lambda_2 &  \cdots & 0 \\
+\vdots & \vdots & \ddots & \vdots \\
+0 & 0 &  \cdots & \lambda_K
+\end{bmatrix} \\
+
+&= P\Lambda
+
+\end{align*}
+$$
+
+Hence
+
+$$
+A = P\Lambda P^{-1}
+$$
+
+
+An important application of the eigenvalue decomposition is to calculate the power of matrices.
+
+$$
+\begin{align*}
+A^2 &= (P\Lambda P^{-1}) (P\Lambda P^{-1}) \\
+&= P\Lambda^2 P^{-1}
+\end{align*}
+$$ 
+
+By induction,
+
+$$
+A^n = P\Lambda^n P^{-1}
+$$
+
+</li>
+
+<li>
+For <strong>symmetric matrices</strong> $A$, the eigenvalue decomposition is also called the <em>spectral decomposition</em>.
+
+$A$ is orthogonally diagonalizable, i.e., there exists and orthogonal matrix $Q$ and a diagonal matrix $\Lambda$ such that 
+
+$$
+A = Q\Lambda Q^{T},
+$$
+
+or equivalently written as
+
+$$
+A = \sum_{i=1}^K \lambda_i q_i q_i^{T}.
+$$
+
+The converse is also true. Therefore, a matrix is symmetric if and only if it is orthogonally diagonalizable.
+
+</li>
+</ul>
+
+An orthogonal matrix is a square matrix whose columns and rows are both orthogonal unit vectors (i.e., orthonormal vectors):
+
+$$
+Q^TQ = QQ^T = I,
+$$
+
+or equivalently, 
+
+$$
+Q^{-1} = Q^T.
+$$
+
 
 ___
 
@@ -1351,7 +1485,7 @@ ___
 
 ## Classical linear regression models
 
-Correspond to exact finite sample properties. (Gauss-Markov Assumptions)
+CLRN correspond to exact finite sample properties. (Gauss-Markov Assumptions)
 
 1. $y=X\beta+u$. There is a linear relationship between $y$ and $X$. $u$ is called *disturbances* or *errors*.
 
