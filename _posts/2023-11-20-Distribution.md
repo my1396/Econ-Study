@@ -92,9 +92,100 @@ If the $n\times 1$ vector $y\sim N(\mu,\Sigma)$ and the scalar $w=(y-\mu)'\Sigma
 </li>
 
 <li>
-If the $n\times 1$ vector $y\sim N(0,I)$ and the non-stochastic $n\times n$ matrix $G$ is symmetric and idempotent with $\text{rank}(G)=r\le n$, then the scalar $w=z'Gz \sim \chi^2(r)$.
+If the $n\times 1$ vector $z\sim N(0,I)$ and the non-stochastic $n\times n$ matrix $G$ is symmetric and idempotent with $\text{rank}(G)=r\le n$, then the scalar $w=z'Gz \sim \chi^2(r)$.
 </li>
 </ol>
+
+
+**Application of property 2**
+
+Let $u=\sigma Z$, $u\vert X \sim N(0, \sigma^2I)$, $Z\vert X \sim N(0,I)$.
+
+$$
+\hat{u} = My = M(X\beta+u) = Mu = M\sigma Z =\sigma Mz
+$$
+
+
+$$
+\hat{u}'\hat{u} = \sigma^2 z'M'Mz = \sigma^2 z'Mz 
+$$
+
+Given that $\text{rank}(M)=n-k$,
+
+$$
+z'Mz  \sim \chi^2(n-K).
+$$
+
+Therefore
+
+$$
+\frac{\hat{u}'\hat{u}}{\sigma^2} = z'Mz \sim \chi^2(n-K).
+$$
+
+**F-test**
+
+The F-test is used to test joint restrictions.
+
+$$
+\begin{align*}
+H_0: H\beta=\theta^0 \\
+H_0: H\beta\neq\theta^0 
+\end{align*}
+$$
+
+$H$ is $p\times K$. $p$ is the number of restrictions. 
+
+We use the estimator $\hat{\theta}_{OLS} = H \hat{\beta}\_{OLS}$ and construct the scalar test statistic
+
+$$
+v=\left(\frac{1}{p}\right) (\hat{\theta}_{OLS}-\theta^0)' \left[\hat{\text{Var}}(\hat{\theta}_{OLS} \vert X)\right]^{-1} (\hat{\theta}_{OLS}-\theta^0)
+$$
+
+where $\hat{\text{Var}}(\hat{\theta}\_{OLS} \vert X) = H\, \hat{\text{Var}}(\hat{\beta}\_{OLS} \vert X)\,H'$.
+
+If $H_0$ is true, we have
+
+$$
+v\sim F(p, n-K).
+$$
+
+
+## Goodness of fit
+
+$$
+\begin{align*}
+R^2 &= \frac{\sum_{i=1}^n (\hat{y}_i - \bar{y})^2}{\sum_{i=1}^n (y_i - \bar{y})^2} = 1- \frac{\sum_{i=1}^n \hat{u}_i^2}{\sum_{i=1}^n (y_i - \bar{y})^2} \\
+
+&= \frac{ESS}{TSS} = 1-\frac{RSS}{TSS}
+\end{align*}
+$$
+
+provided $\bar{\hat{u}}=0$, i.e., the model has an intercept term.
+
+When a model only contains the intercept, $R^2=0$.
+
+**Using $R^2$ to test exclusion restrictions**
+
+Denote $R_U^2$ to be the $R^2$ from the unrestricted model, $R_R^2$ to be from the restricted model.
+
+$$
+v = \left(\frac{n-K}{p}\right) \left(\frac{R_U^2-R_R^2}{1-R_U^2}\right) \sim F(p, n-K)
+$$
+
+The null hypothesis is rejected if the exclusion of these $p$ explanatory variables results in a su¢ ciently large fall in the $R^2$ goodness of fit measure, or in a sufficiently large deterioration in the fit of the model.
+
+
+This can be used to test the restriction that all $K-1$ of the slope coefficients in a linear model are equal to zero, i.e. to test the exclusion of all the explanatory variables except the intercept.
+
+The restricted model $y_i=\beta_1+u_i$ has $R_R^2=0$.
+
+The test statisti simplifies to 
+
+$$
+v = \left(\frac{n-K}{K-1}\right) \left(\frac{R^2}{1-R^2}\right) \sim F(K-1, n-K).
+$$
+
+This is sometimes referred to as the "F-test" for the model.
 
 ___
 
