@@ -364,7 +364,7 @@ $A^{-1} = \frac{1}{\vert A \vert} \text{Adj}(A)$ where $\text{Adj}(A)$ is the ad
 
 - $(ABC)^{-1}=C^{-1}B^{-1}A^{-1}$ The inverse of a product is the product of the inverse in the *opposite* order. This holds only on the condition that all matrices are invertible.
 
-- If $A$ is symmetric, then $A^{-1}$ is symmetric.
+- If $A$ is symmetric, then $A^{-1}$ is symmetric. The inverse of a symmetric matrix is still symmetric.
 
 
 **Variance matrix of random vector**
