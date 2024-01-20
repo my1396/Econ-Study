@@ -18,11 +18,11 @@ tag: life
 
 <https://www.gouletpens.com/pages/anatomy-of-a-fountain-pen>
 
-![image-20230608090549116](https://drive.google.com/thumbnail?id=1CGEiebYAoUOZFqiZJRr7hoWJ2Rcdp0fh)
+![image-20230608090549116](https://drive.google.com/thumbnail?id=1CGEiebYAoUOZFqiZJRr7hoWJ2Rcdp0fh&sz=w1000)
 
-![image-20230608085704117](https://drive.google.com/thumbnail?id=1zfSlO4QJbasXz1DtMxf69Ftr-IlfARcR)
+![image-20230608085704117](https://drive.google.com/thumbnail?id=1zfSlO4QJbasXz1DtMxf69Ftr-IlfARcR&sz=w1000)
 
-<img src="https://drive.google.com/thumbnail?id=1COzIkjRwWhqTLNKyAMVkuMhHGuIKMLB5" alt="image-20230608090741209" style="zoom:30%;" />
+<img src="https://drive.google.com/thumbnail?id=1COzIkjRwWhqTLNKyAMVkuMhHGuIKMLB5&sz=w1000" alt="image-20230608090741209" style="zoom:30%;" />
 
 专有名词翻译 <https://www.bilibili.com/read/cv3319159/>
 
@@ -51,7 +51,7 @@ Is it worth replacing the nib? Will it cause leakage when writing?
 | F    | 0.38-0.5 | 0.7 比较粗了 | 0.6-0.8      |
 | M    | 0.6-0.7  | 0.8          | 0.9          |
 
-<img src="https://drive.google.com/thumbnail?id=1eT5ES_sB7SCY8g_LcRJP1uYSHMITVQaf" alt="image-20230731225640308" style="zoom:50%;" />
+<img src="https://drive.google.com/thumbnail?id=1eT5ES_sB7SCY8g_LcRJP1uYSHMITVQaf&sz=w1000" alt="image-20230731225640308" style="zoom:50%;" />
 
 
 
@@ -81,7 +81,7 @@ Is it worth replacing the nib? Will it cause leakage when writing?
 
 笔尖大小 <https://www.xiaohongshu.com/explore/62c6b88e000000000d03abcb?source=question>
 
-<img src="https://drive.google.com/thumbnail?id=1nyi15IxqfDRkMyEaVd7CpqCONdi_gBjm" alt="image-20230130102014399" style="zoom:50%;" />
+<img src="https://drive.google.com/thumbnail?id=1nyi15IxqfDRkMyEaVd7CpqCONdi_gBjm&sz=w1000" alt="image-20230130102014399" style="zoom:50%;" />
 
 软硬程度受含金量 (14k, 18k, ...  k数越高含金量越高) 合金类型、金片厚度……等多重因素影响。金尖弹性好。
 
@@ -93,7 +93,7 @@ Where to buy: **Awesomepens**
 
   £40 加墨水£46
 
-  <img src="https://drive.google.com/thumbnail?id=1a7tgpLetcaMXszJwC0-KCYEGacJnd7Eo" alt="image-20230130104556510" style="zoom:50%;" />
+  <img src="https://drive.google.com/thumbnail?id=1a7tgpLetcaMXszJwC0-KCYEGacJnd7Eo&sz=w1000" alt="image-20230130104556510" style="zoom:50%;" />
 
   -   [Pilot MR Metropolitan Fountain Pen - Black - Fine Nib](https://awesomepens.co.uk/product/pilot-mr-metropolitan-fountain-pen-black-fine-nib/)
   -   黄铜+磨砂镀层笔杆 26.7g <https://product.suning.com/0000000000/12114317098.html>
@@ -103,7 +103,7 @@ Where to buy: **Awesomepens**
 
   太轻，比笑脸还轻
 
-  <img src="https://drive.google.com/thumbnail?id=1lciP8FpjFwR6TSmi6Bcc6ZrAWGI0k_R9" alt="image-20230130103728057" style="zoom:50%;" />
+  <img src="https://drive.google.com/thumbnail?id=1lciP8FpjFwR6TSmi6Bcc6ZrAWGI0k_R9&sz=w1000" alt="image-20230130103728057" style="zoom:50%;" />
 
   <https://product.suning.com/0000000000/10588720736.html?safp=d488778a.13701.productWrap.58&safc=prd.0.0&safpn=10007>
 
@@ -145,7 +145,7 @@ Where to buy: **Awesomepens**
 
   <https://www.desertcart.co.uk/products/407392330-pilot-cavalier-black-fountain-pen-f-fcan-3sr?gclid=EAIaIQobChMIuLOf7Y7v_AIVg-7tCh1mTAuIEAQYBSABEgI8mvD_BwE>
 
-  <img src="https://drive.google.com/thumbnail?id=1hdl3aALJcUzOJIWINY9z1wQfQJLbqME6" alt="image-20230130104725373" style="zoom:50%;" />
+  <img src="https://drive.google.com/thumbnail?id=1hdl3aALJcUzOJIWINY9z1wQfQJLbqME6&sz=w1000" alt="image-20230130104725373" style="zoom:50%;" />
 
   
 

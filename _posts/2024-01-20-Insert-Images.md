@@ -7,7 +7,9 @@ update: 2024-01-20
 
 ### Relative Links
 
-https://github.blog/2016-12-05-relative-links-for-github-pages/
+<https://github.blog/2016-12-05-relative-links-for-github-pages/>
+
+**Embed files using relative path**
 
 If you have a Markdown file in your repository at `docs/page.md`, and you want to link from that file to `docs/another-page.md`, you can do so with the following markup:
 
@@ -32,7 +34,7 @@ When you view the source file on GitHub.com, the relative link will continue to 
 - page url is `/2023/10/03/HTML.html`.
 
 
-### Images as Assets
+### Upload Images as Assets
 
 [Uploading assets](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#uploading-assets)
 
@@ -48,7 +50,12 @@ Using the following code to insert the image you uploaded:
 <img src="https://github.com/my1396/Econ-Study/assets/14339495/e84211f5-038e-41d3-bf78-40785de291d6" alt="IVT.svg" style="display: block; margin-right: auto; margin-left: auto; zoom:150%;" />
 ```
 
-Comments: It's safer and faster to use self-contained images. In this way, it doesn't depend on an external server like Google. When Google updates their terms, your website is protected from corruption.
+**Comments**: 
+
+- It's safer and faster to use project self-contained images, for instance, in a folder `images` or `assets`. In this way, it doesn't depend on an external server like Google. 
+- The probelm with Cloud Storage is that when Google updates their terms, your website is corrupted. You have to make changes to your source codes to meet the requirements of the new terms (see the follwing section for an instance).
+- Self-contained images protect you from website corruption, which is more stable.
+- It is fatest for your website to load images when the files are on GitHub. But then you need to upload lots of images. As GitHub won't process a large amount at one time, you need to split the upload into small batches.
 
 ___
 
@@ -58,7 +65,7 @@ ___
 
 <https://www.intodeeplearning.com/embedding-images-in-google-drive-to-markdown/>
 
-Set **Restricted** mode of sharing to **Anyone with the link**.
+Setting on Google Drive: Set **Restricted** mode of sharing to **Anyone with the link**.
 
 For example:
 
@@ -83,15 +90,13 @@ Add some style adjustment:
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" />
 ```
 
-Notes: 
+**Update** (Since Jan 2024):
 
-- It is fatest to load images when the files are on GitHub. But then you need to upload lots of images, GitHub won't process a large amount at one time. You need to split the upload into small batches.
-
-Update (Jan 2024):
-
-- Errors show up as Google updates some settings. 
+- Errors show up as Google updates some settings: 
 
   > Failed to load resource: the server responded with a status of 403 ()
+
+  See [Here](https://issuetracker.google.com/issues/319531488?pli=1) for a detailed problem description and discussion.
 
 - Solution: replace the old code with the new one as follows.
 
