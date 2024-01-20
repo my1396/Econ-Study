@@ -1,0 +1,108 @@
+---
+layout: post
+title: Insert Images Using Relative Links
+tag: programming
+update: 2024-01-20
+---
+
+### Relative Links
+
+https://github.blog/2016-12-05-relative-links-for-github-pages/
+
+If you have a Markdown file in your repository at `docs/page.md`, and you want to link from that file to `docs/another-page.md`, you can do so with the following markup:
+
+```scss
+[a relative link](another-page.md)
+```
+
+When you view the source file on GitHub.com, the relative link will continue to work, as it has before, but now, when you publish that file using GitHub Pages, the link will be silently translated to `docs/another-page.html` to match the target page’s published URL.
+
+
+
+**Embed images using relative path**
+
+`<img src="{{ site.baseurl}}/images/image-20230730113759915.png" alt="quadrant geometry" style="zoom:50%;" />`
+
+
+
+`baseurl` is set in the `_config.yml`, it is the name of sub-directory the site is served from. E.g., `https://my1396.github.io/Econ-Study/2023/10/03/HTML.html`, 
+
+- url is `https://my1396.github.io`; 
+- baseurl is `/Econ-Study`; 
+- page url is `/2023/10/03/HTML.html`.
+
+
+### Images as Assets
+
+[Uploading assets](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#uploading-assets)
+
+You can upload assets like images by dragging and dropping, selecting from a file browser, or pasting. You can upload assets to issues, pull requests, comments, and `.md` files in your remote Github repository.
+
+- When you drag and drop, the "Write" box will generate a link for the file.
+
+- Click "Preview" to see if the image shows alright.
+
+Using the following code to insert the image you uploaded:
+
+```html
+<img src="https://github.com/my1396/Econ-Study/assets/14339495/e84211f5-038e-41d3-bf78-40785de291d6" alt="IVT.svg" style="display: block; margin-right: auto; margin-left: auto; zoom:150%;" />
+```
+
+Comments: It's safer and faster to use self-contained images. In this way, it doesn't depend on an external server like Google. When Google updates their terms, your website is protected from corruption.
+
+___
+
+
+
+### Link to Google Drive Images
+
+<https://www.intodeeplearning.com/embedding-images-in-google-drive-to-markdown/>
+
+Set **Restricted** mode of sharing to **Anyone with the link**.
+
+For example:
+
+- my link: `https://drive.google.com/file/d/1L07w0_Qg9q-0Ukm4-K3i8ffyk34FqTzA/view?usp=sharing`
+- \<ID of image\> is after `d` and before `view?usp=sharing`, i.e., `1L07w0_Qg9q-0Ukm4-K3i8ffyk34FqTzA` in this case.
+- my embeddinwg link: `https://drive.google.com/uc?id=1L07w0_Qg9q-0Ukm4-K3i8ffyk34FqTzA`
+
+To embed an image using markdown, use the following:
+
+```markdown
+![Example Image](https://drive.google.com/uc?id=1bXzYeegauqB2M6-VZwitEeXHmMiYZIUY)
+```
+
+Add some style adjustment:
+
+```html
+<img src="https://drive.google.com/uc?id=1-CMHtcl4dcjjA9aWoqiThd2OCznm25rb" alt="image-20210520120254672" style="zoom:50%;" />
+
+<img src="https://drive.google.com/uc?id=1bXzYeegauqB2M6-VZwitEeXHmMiYZIUY"
+     alt="sample image"
+     style="display: block; margin-right: auto; margin-left: auto; width: 90%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" />
+```
+
+Notes: 
+
+- It is fatest to load images when the files are on GitHub. But then you need to upload lots of images, GitHub won't process a large amount at one time. You need to split the upload into small batches.
+
+Update (Jan 2024):
+
+- Errors show up as Google updates some settings. 
+
+  > Failed to load resource: the server responded with a status of 403 ()
+
+- Solution: replace the old code with the new one as follows.
+
+  1. replace `uc?` with `thumbnail?`;
+  2. add `&sz=w1000` after the image ID.
+
+  ```html
+  <img src="https://drive.google.com/uc?id=1-CMHtcl4dcjjA9aWoqiThd2OCznm25rb" alt="image-20210520120254672" style="zoom:50%;" />
+  <img src="https://drive.google.com/thumbnail?id=1-CMHtcl4dcjjA9aWoqiThd2OCznm25rb&sz=w1000" alt="image-20210520120254672" style="zoom:50%;" />
+  ```
+
+
+
+  
