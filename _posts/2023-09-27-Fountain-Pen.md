@@ -18,11 +18,11 @@ tag: life
 
 <https://www.gouletpens.com/pages/anatomy-of-a-fountain-pen>
 
-![image-20230608090549116](https://drive.google.com/uc?id=1CGEiebYAoUOZFqiZJRr7hoWJ2Rcdp0fh)
+![image-20230608090549116](https://drive.google.com/thumbnail?id=1CGEiebYAoUOZFqiZJRr7hoWJ2Rcdp0fh)
 
-![image-20230608085704117](https://drive.google.com/uc?id=1zfSlO4QJbasXz1DtMxf69Ftr-IlfARcR)
+![image-20230608085704117](https://drive.google.com/thumbnail?id=1zfSlO4QJbasXz1DtMxf69Ftr-IlfARcR)
 
-<img src="https://drive.google.com/uc?id=1COzIkjRwWhqTLNKyAMVkuMhHGuIKMLB5" alt="image-20230608090741209" style="zoom:30%;" />
+<img src="https://drive.google.com/thumbnail?id=1COzIkjRwWhqTLNKyAMVkuMhHGuIKMLB5" alt="image-20230608090741209" style="zoom:30%;" />
 
 专有名词翻译 <https://www.bilibili.com/read/cv3319159/>
 
@@ -51,7 +51,7 @@ Is it worth replacing the nib? Will it cause leakage when writing?
 | F    | 0.38-0.5 | 0.7 比较粗了 | 0.6-0.8      |
 | M    | 0.6-0.7  | 0.8          | 0.9          |
 
-<img src="https://drive.google.com/uc?id=1eT5ES_sB7SCY8g_LcRJP1uYSHMITVQaf" alt="image-20230731225640308" style="zoom:50%;" />
+<img src="https://drive.google.com/thumbnail?id=1eT5ES_sB7SCY8g_LcRJP1uYSHMITVQaf" alt="image-20230731225640308" style="zoom:50%;" />
 
 
 
@@ -81,7 +81,7 @@ Is it worth replacing the nib? Will it cause leakage when writing?
 
 笔尖大小 <https://www.xiaohongshu.com/explore/62c6b88e000000000d03abcb?source=question>
 
-<img src="https://drive.google.com/uc?id=1nyi15IxqfDRkMyEaVd7CpqCONdi_gBjm" alt="image-20230130102014399" style="zoom:50%;" />
+<img src="https://drive.google.com/thumbnail?id=1nyi15IxqfDRkMyEaVd7CpqCONdi_gBjm" alt="image-20230130102014399" style="zoom:50%;" />
 
 软硬程度受含金量 (14k, 18k, ...  k数越高含金量越高) 合金类型、金片厚度……等多重因素影响。金尖弹性好。
 
@@ -93,7 +93,7 @@ Where to buy: **Awesomepens**
 
   £40 加墨水£46
 
-  <img src="https://drive.google.com/uc?id=1a7tgpLetcaMXszJwC0-KCYEGacJnd7Eo" alt="image-20230130104556510" style="zoom:50%;" />
+  <img src="https://drive.google.com/thumbnail?id=1a7tgpLetcaMXszJwC0-KCYEGacJnd7Eo" alt="image-20230130104556510" style="zoom:50%;" />
 
   -   [Pilot MR Metropolitan Fountain Pen - Black - Fine Nib](https://awesomepens.co.uk/product/pilot-mr-metropolitan-fountain-pen-black-fine-nib/)
   -   黄铜+磨砂镀层笔杆 26.7g <https://product.suning.com/0000000000/12114317098.html>
@@ -103,7 +103,7 @@ Where to buy: **Awesomepens**
 
   太轻，比笑脸还轻
 
-  <img src="https://drive.google.com/uc?id=1lciP8FpjFwR6TSmi6Bcc6ZrAWGI0k_R9" alt="image-20230130103728057" style="zoom:50%;" />
+  <img src="https://drive.google.com/thumbnail?id=1lciP8FpjFwR6TSmi6Bcc6ZrAWGI0k_R9" alt="image-20230130103728057" style="zoom:50%;" />
 
   <https://product.suning.com/0000000000/10588720736.html?safp=d488778a.13701.productWrap.58&safc=prd.0.0&safpn=10007>
 
@@ -145,7 +145,7 @@ Where to buy: **Awesomepens**
 
   <https://www.desertcart.co.uk/products/407392330-pilot-cavalier-black-fountain-pen-f-fcan-3sr?gclid=EAIaIQobChMIuLOf7Y7v_AIVg-7tCh1mTAuIEAQYBSABEgI8mvD_BwE>
 
-  <img src="https://drive.google.com/uc?id=1hdl3aALJcUzOJIWINY9z1wQfQJLbqME6" alt="image-20230130104725373" style="zoom:50%;" />
+  <img src="https://drive.google.com/thumbnail?id=1hdl3aALJcUzOJIWINY9z1wQfQJLbqME6" alt="image-20230130104725373" style="zoom:50%;" />
 
   
 
@@ -159,9 +159,9 @@ Where to buy: **Awesomepens**
 
 - <span style='color:#32CD32'>Custom74</span> 贵客 £130 国内6，7百。
 
-  <img src="https://drive.google.com/uc?id=1A0Kzl4gVdigZuOoZFOjf91bKWSgxYol1" alt="image-20230719123044838" style="zoom:50%;" />
+  <img src="https://drive.google.com/thumbnail?id=1A0Kzl4gVdigZuOoZFOjf91bKWSgxYol1&sz=w1000" alt="image-20230719123044838" style="zoom:50%;" />
 
-  <img src="https://drive.google.com/uc?id=1ykbuJEUyvLxMtqO1l2wNXJb_xTrurBCp" alt="image-20230719123218610" style="zoom:70%;" />
+  <img src="https://drive.google.com/thumbnail?id=1ykbuJEUyvLxMtqO1l2wNXJb_xTrurBCp&sz=w1000" alt="image-20230719123218610" style="zoom:70%;" />
 
   140mm长，17.4g (轻)，金尖。透明款挺好看的。
 
@@ -175,7 +175,7 @@ Where to buy: **Awesomepens**
 
 - Elite 95S 短钢
 
-  <img src="https://drive.google.com/uc?id=1e-ZngLtTh5x75c76kKORdhva9zNYOHfc" alt="Pilot-E95S" style="zoom:40%;" />
+  <img src="https://drive.google.com/thumbnail?id=1e-ZngLtTh5x75c76kKORdhva9zNYOHfc&sz=w1000" alt="Pilot-E95S" style="zoom:40%;" />
 
 - Justus 95 软硬自调黑科技。Adjustable nib from soft to hard.
 
@@ -198,15 +198,15 @@ Where to buy: **Awesomepens**
 
 外形来说，百乐74笔尾更圆润。
 
-<img src="https://drive.google.com/uc?id=1peT4lA88BA2fXjvjXe73g578yo7pZXkn" alt="image-20230709100829418" style="zoom:50%;" />
+<img src="https://drive.google.com/thumbnail?id=1peT4lA88BA2fXjvjXe73g578yo7pZXkn&sz=w1000" alt="image-20230709100829418" style="zoom:50%;" />
 
-<img src="https://drive.google.com/uc?id=1hy8S-puaYZzY0IlAI9c1Mu3SqzZ3SjMI" alt="image-20230709101634392" style="zoom:50%;" />
+<img src="https://drive.google.com/thumbnail?id=1hy8S-puaYZzY0IlAI9c1Mu3SqzZ3SjMI&sz=w1000" alt="image-20230709101634392" style="zoom:50%;" />
 
 在欧洲买百乐又贵又难看 好看的款式都缺货...
 
-<img src="https://drive.google.com/uc?id=1keCrnIsLPx2OPjzbr8chDP3RJfBIpS08" alt="image-20230307205915620" style="zoom:50%;" />
+<img src="https://drive.google.com/thumbnail?id=1keCrnIsLPx2OPjzbr8chDP3RJfBIpS08&sz=w1000" alt="image-20230307205915620" style="zoom:50%;" />
 
-<img src="https://drive.google.com/uc?id=1l5z9ehg8IktPnXI6fVHsZEPCOaRyKLXQ" alt="image-20230307210006286" style="zoom:50%;" />
+<img src="https://drive.google.com/thumbnail?id=1l5z9ehg8IktPnXI6fVHsZEPCOaRyKLXQ&sz=w1000" alt="image-20230307210006286" style="zoom:50%;" />
 
 
 
@@ -229,13 +229,13 @@ Where to buy: **Awesomepens**
 
   - Parker 75 银格 94年停产。现在对标的为Sonnet Cisele. £320
 
-    ![image-20230516090110358](https://drive.google.com/uc?id=1fpg-96o_7vpYX2FX1HKhLwUWkqzxIvbA)
+    ![image-20230516090110358](https://drive.google.com/thumbnail?id=1fpg-96o_7vpYX2FX1HKhLwUWkqzxIvbA&sz=w1000)
 
 - Duofold Centennial 多福世纪 大豆
 
   - Duofold International (classic) 小豆 blue Chevron 超级好看啊!! £600
 
-    <img src="https://drive.google.com/uc?id=1Ti1_FE2HH8Yf6CKclBGFVYjco7qGckZl" alt="image-20230516085001275" style="zoom:90%;" />
+    <img src="https://drive.google.com/thumbnail?id=1Ti1_FE2HH8Yf6CKclBGFVYjco7qGckZl&sz=w1000" alt="image-20230516085001275" style="zoom:90%;" />
 
 
 
@@ -278,13 +278,13 @@ EF尖视频 <https://zhuanlan.zhihu.com/p/110177897>
 
   Capped or posted it weighs *about 26g*, being <span style='color:#32CD32'>16g</span> for the uncapped pen and ~10g for the cap.
 
-  ![image-20230516090214721](https://drive.google.com/uc?id=1mIK1V45VzWOqtc2otiHgfKoxNqsrV0bU)
+  ![image-20230516090214721](https://drive.google.com/thumbnail?id=1mIK1V45VzWOqtc2otiHgfKoxNqsrV0bU&sz=w1000)
 
-  ![image-20230512102924362](https://drive.google.com/uc?id=148CJE8F-wbtRjXI-TsI5cp6T5Ghq16MI)
+  ![image-20230512102924362](https://drive.google.com/thumbnail?id=148CJE8F-wbtRjXI-TsI5cp6T5Ghq16MI&sz=w1000)
 
   与恒星对比。
 
-  ![image-20230512103245532](https://drive.google.com/uc?id=1-CIoUDPVnvsSW2di7Wb_hN45ORpWO1GJ)
+  ![image-20230512103245532](https://drive.google.com/thumbnail?id=1-CIoUDPVnvsSW2di7Wb_hN45ORpWO1GJ&sz=w1000)
 
 - 焦点3 颜值很高。金尖。
 
@@ -356,7 +356,7 @@ https://www.bilibili.com/video/BV1RP411674x/?vd_source=8b2f77d46ba39c403a6122be0
 
 .M笔尖 官方给出的笔尖大小是0.5-0.6mm 比较适合签字或者练字！我每次练字尤其是临摹字帖的时候一定会用M笔尖。因为M笔尖对纸张要求小，临摹字帖的纸一般比较薄，如果笔尖太尖很容易刮破！而且练字是一般写的字比较大，M尖更适合！
 
-<img src="https://drive.google.com/uc?id=1tilfqxmnpqm7g0-E4wqtFAqC_OV5J6-k" alt="image-20230126113746199" style="zoom:50%;" />
+<img src="https://drive.google.com/thumbnail?id=1tilfqxmnpqm7g0-E4wqtFAqC_OV5J6-k&sz=w1000" alt="image-20230126113746199" style="zoom:50%;" />
 
 蓝色的为凌美F尖字迹，黑色的是百乐F尖。
 
@@ -370,7 +370,7 @@ https://www.bilibili.com/video/BV1RP411674x/?vd_source=8b2f77d46ba39c403a6122be0
 
 **笔画粗细**
 
-<img src="https://drive.google.com/uc?id=1DQj_2j5NZ4umj-pJV_bqdPD3qdLfbN6f" alt="image-20230721105047842" style="zoom:50%;" />
+<img src="https://drive.google.com/thumbnail?id=1DQj_2j5NZ4umj-pJV_bqdPD3qdLfbN6f&sz=w1000" alt="image-20230721105047842" style="zoom:50%;" />
 
 笔嘴越宽(粗)，下水也越快，写出来的线条也越宽，墨也堆积得越厚，这样墨水的润滑功能就也更强，书写体验就更润滑更不费力。然而，这也会导致墨水更容易在质量比较差的纸张上洇或是透。
 

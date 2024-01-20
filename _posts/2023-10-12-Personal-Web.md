@@ -75,7 +75,7 @@ Why can I do to speed up indexing?
 
 2. find your `Mesurement ID` at Admin $\rightarrow$ Data Streams $\rightarrow$ Measurement ID
 
-   <img src="https://drive.google.com/uc?id=1eXuRrsE-3YAiO55SD6kbOPOT82vCFgEO" alt="image-20230802191239492" style="zoom:80%;" />
+   <img src="https://drive.google.com/thumbnail?id=1eXuRrsE-3YAiO55SD6kbOPOT82vCFgEO&sz=w1000" alt="image-20230802191239492" style="zoom:80%;" />
 
 
 
