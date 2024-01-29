@@ -5,6 +5,9 @@ tag: study
 update: 2023-12-07
 ---
 
+$$
+\newcommand{\indep}{\perp \!\!\! \perp}
+$$
 
 ## Classical linear regression models
 

@@ -5,6 +5,9 @@ tag: study
 update: 2023-12-07
 ---
 
+$$
+\newcommand{\indep}{\perp \!\!\! \perp}
+$$
 
 For OLS estimator to be *consistent*, a set of assumptions need to be met:
 <ol type="p1">

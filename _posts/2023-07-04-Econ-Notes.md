@@ -147,7 +147,7 @@ The axes of a two-dimensional Cartesian system divide the plane into four infini
 
 -   the numbering goes counter-clockwise starting from the upper right ("northeast") quadrant.
 
-<img src="https://drive.google.com/uc?id=1FlWhw7t0EIuk4PAV5-CTsLJGR0WZWGsl" alt="quadrant geometry" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
+<img src="https://drive.google.com/thumbnail?id=1FlWhw7t0EIuk4PAV5-CTsLJGR0WZWGsl&sz=w1000" alt="quadrant geometry" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
 
 orthographic projection (正射投影): top view, front view, (right) side view.
 
@@ -159,7 +159,7 @@ complementary angel 互余角 $\alpha+\beta=\frac{\pi}{2}$.
 
 supplementary angel 互补角 $\alpha+\beta=\pi$.
 
-<img src="https://drive.google.com/uc?id=1FlFGD-wVxC1UacQiLtg4W3NKAOcie-z7" alt="triangel" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+<img src="https://drive.google.com/thumbnail?id=1FlFGD-wVxC1UacQiLtg4W3NKAOcie-z7&sz=w1000" alt="triangel" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
 
 斜边 hypotenuse  /haɪˈpɑːtənuːs/ \
 邻边 adjacent side \
