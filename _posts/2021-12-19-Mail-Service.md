@@ -96,17 +96,22 @@ Length: 60 cm
 
 1. Register customs information using self-service solution.
 
-   As a general rule, all consignments containing more than one standard letter must be cleared through customs. Customs documentation must accompany the consignment.
+   All consignments containing more than one standard letter must be cleared through customs. Customs documentation must accompany the consignment.
+
+   All shipments abroad must have a customs declaration describing the contents of the shipment.
 
    <https://www.posten.no/en/customs/sending-package-abroad>
 
 2. Use our self service solution and complete the electronic address card with the customs information and pay the postage. 
 
-3. Print the documents and <span style='color:chartreuse'>Remember to sign them</span>.
+3. Receive one QR code to print the address label at Posten. Or you can print the label yourself if you like.
 
-4. Bring the printout and shipment to Posten.
+   1. Bring the shipment to Posten.
+   2. Print the documents and <span style='color:chartreuse'>Remember to sign them</span>.
 
-   - At Posten you can collect address cards for consignments to be sent abroad and manually enter the customs information. The price is lower in the self-service solution.
+   Packing: Use transparent tape or a plastic sleeve available for free at Posten. Ensure that the barcode on the address label is placed on a smooth surface. Hand the letter in at Posten or in one of our red mailboxes.
+
+   Note: At Posten you can collect address labels for consignments to be sent abroad and manually enter the customs information. The price is lower in the self-service solution. 
 
    
 
