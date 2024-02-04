@@ -1351,7 +1351,7 @@ $$
   3. exist finite variance $\sigma^2$.
 
 
-- Kolmogorov's (strong) LLN: \
+- Kolmogorov's (strong) LLN \
   Let $X_1, \ldots, X_n$ be an iid sequence with mean $\mathbb{E}(X_i)=\mu$. Then
 
   $$
@@ -1377,6 +1377,48 @@ $$
   $$
   
   This shows $\overline{X}_n \xrightarrow{m.s} \mu$, which implies $\overline{X}_n \xrightarrow{p} \mu$.
+
+- WLLN for random vectors \
+  For $\boldsymbol{y}\in \mathbb{R}^m$, if $\boldsymbol{y}_i$ are independent and identically distributed and $E\,\vert\vert \boldsymbol{y} \vert\vert <\infty$, then as $n\to\infty$,
+
+  $$
+  \overline{\boldsymbol{y}} = \frac{1}{n}\sum_{i=1}^n\boldsymbol{y}_i \xrightarrow{p} E\,[\boldsymbol{y}].
+  $$
+
+  Note: convergence in probability of a vector can be defined as convergence in probability of all elements in the vector.
+
+  $E\,\vert\vert \boldsymbol{y} \vert\vert <\infty \Leftrightarrow E\,\vert y_j \vert <\infty $. Saying that the expected value of Euclidean norm is finite is equivalent to say that the expected value of each element is finite.
+
+  $$
+  \overline{\boldsymbol{y}} = \frac{1}{n}\sum_{i=1}^n\boldsymbol{y}_i = \begin{pmatrix} 
+  \overline{y}_1 \\
+  \overline{y}_2 \\
+  \vdots         \\
+  \overline{y}_m \\
+  \end{pmatrix}
+  $$
+
+
+- Ergodic Theorem \
+  If $\boldsymbol{y}_t$ is strictly stationary, ergodic, and $E\,\vert\vert \boldsymbol{y} \vert\vert <\infty $, then as $n\to\infty$,
+
+  $$
+  E\vert\vert \overline{\boldsymbol{y}}-\boldsymbol{\mu} \vert\vert \to 0
+  $$
+
+  and
+
+  $$
+  \overline{\boldsymbol{y}} \xrightarrow{p} \boldsymbol{\mu}
+  $$
+
+  where $\boldsymbol{\mu}=E[\boldsymbol{y}_t]$.
+
+  The ergodic theorem shows that ergodicity is sufficient for consistent estimation.
+
+  Note that instead of requireing iid, ergodicity imposes a weaker assumption which requires only stationarity and ergodicity.
+
+
 
 **Unbiasedness vs Consistency**
 

@@ -107,7 +107,7 @@ Length: 60 cm
 3. Receive one QR code to print the address label at Posten. Or you can print the label yourself if you like.
 
    1. Bring the shipment to Posten.
-   2. Print the documents and <span style='color:chartreuse'>Remember to sign them</span>.
+   2. Print the documents and <span style='color:#32CD32'>Remember to sign them</span>.
 
    Packing: Use transparent tape or a plastic sleeve available for free at Posten. Ensure that the barcode on the address label is placed on a smooth surface. Hand the letter in at Posten or in one of our red mailboxes.
 
