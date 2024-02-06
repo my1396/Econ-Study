@@ -133,11 +133,13 @@ direction vector 方向向量
 
 
 
-Normal Distribution $N(\mu, \sigma^2)$. The 2nd parameter is variance.
+Normal Distribution $N(\mu, \sigma^2)$. The 2nd parameter is variance. Normal distribution is also called *Gaussian distribution*.
 
 *Degenerate* distribution: sometimes called a constant distribution, is a distribution of a degenerate random variable — a constant with probability of 1. \
 In other words, a random variable $X$ has a single possible value. E.g., a weighted die (or one that has a number 6 on all faces) always lands on the number six, so the probability of a six is 1, i.e., $P_X(X=6)=1$.
 
+
+*Average* ($\overline{X}$) usually denotes sample, *expected value* ($E[X]$) and *mean* ($\mu$) denote population.
 
 ## Geometry
 
@@ -1378,7 +1380,7 @@ $$
   
   This shows $\overline{X}_n \xrightarrow{m.s} \mu$, which implies $\overline{X}_n \xrightarrow{p} \mu$.
 
-- WLLN for random vectors \
+- LLN for random vectors \
   For $\boldsymbol{y}\in \mathbb{R}^m$, if $\boldsymbol{y}_i$ are independent and identically distributed and $E\,\vert\vert \boldsymbol{y} \vert\vert <\infty$, then as $n\to\infty$,
 
   $$
@@ -1398,8 +1400,11 @@ $$
   \end{pmatrix}
   $$
 
+  - <span style='color:#797D7F'> $E\,\vert\vert \boldsymbol{y} \vert\vert <\infty$ indicates 1st moment finite; </span>
+  - <span style='color:#797D7F'> $E\,\vert\vert \boldsymbol{y} \vert\vert^2 <\infty$ indicates 2nd moment finite.  </span>
+  
 
-- Ergodic Theorem \
+  Ergodic Theorem \
   If $\boldsymbol{y}_t$ is strictly stationary, ergodic, and $E\,\vert\vert \boldsymbol{y} \vert\vert <\infty $, then as $n\to\infty$,
 
   $$
@@ -1416,7 +1421,7 @@ $$
 
   The ergodic theorem shows that ergodicity is sufficient for consistent estimation.
 
-  Note that instead of requireing iid, ergodicity imposes a weaker assumption which requires only stationarity and ergodicity.
+  Note that instead of requireing iid, ergodicity imposes a weaker assumption which requires only stationarity and ergodicity. That is, serial dependence is allowed for in the time series.
 
 
 
