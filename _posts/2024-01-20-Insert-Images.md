@@ -27,7 +27,7 @@ When you view the source file on GitHub.com, the relative link will continue to 
 
 
 
-`baseurl` is set in the `_config.yml`, it is the name of sub-directory the site is served from. E.g., `https://my1396.github.io/Econ-Study/2023/10/03/HTML.html`, 
+`baseurl` is set in the `_config.yml`, it is the name of sub-directory the site is served from. E.g., for the following url `https://my1396.github.io/Econ-Study/2023/10/03/HTML.html`, 
 
 - url is `https://my1396.github.io`; 
 - baseurl is `/Econ-Study`; 
@@ -38,7 +38,8 @@ When you view the source file on GitHub.com, the relative link will continue to 
 
 [Uploading assets](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#uploading-assets)
 
-You can upload assets like images by dragging and dropping, selecting from a file browser, or pasting. You can upload assets to issues, pull requests, comments, and `.md` files in your remote Github repository.
+You can upload assets like images by dragging and dropping, selecting from a file browser, or pasting. You can upload assets to `issues`, `Pull requests`, comments, and `.md` files in your remote Github repository.
+
 
 - When you drag and drop, the "Write" box will generate a link for the file.
 
