@@ -45,7 +45,7 @@ Need to wait for 1 week for the new Norwegian driving license to be ready. Pick 
 
 
 
-
+- Submission of UK driver license: Feb 16, 2024
 
 
 
