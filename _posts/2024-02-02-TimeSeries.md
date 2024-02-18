@@ -162,7 +162,7 @@ Mean and Variance
   \end{aligned}
   $$
 
-  Q: Is the variance going to zero as $T$ grows? Yes. 
+  Q: Is the variance going to zero as $T$ grows? Yes. Ergodicity ensures that.
   
   $$
   \begin{aligned}
@@ -189,7 +189,7 @@ Mean and Variance
   If stationarity holds, then we have constant variance, $\sigma_t^2=\sigma_s^2=\sigma^2=\gamma_0$. And we have </span>
   
   $$
-  {\color{#797D7F} \rho (k)=\frac{\gamma (k)}{\gamma(0)}.}
+  {\color{#797D7F} \rho (k)=\frac{\gamma (k)}{\gamma_0}.}
   $$
 
   
@@ -216,7 +216,7 @@ Stationarity does NOT mean
 
 Useful properties of stationarity
 
-<div class = "boxed">
+<div class = "boxed" style="margin-bottom: 40px;">
 <strong>Theorem</strong>  If $\boldsymbol{y}_t$ is strictly stationary and $\boldsymbol{x}_t=\boldsymbol{\phi}(\boldsymbol{y}_t, \boldsymbol{y}_{t-1}, \boldsymbol{y}_{t-2}, \ldots) \in \mathbb{R}^q$ is a random vector, then $\boldsymbol{x}_t$ is strictly stationary.
 </div>
 
@@ -238,12 +238,12 @@ $$
 Application of the theorem: the sample autocovariances 
 
 $$
-\hat{\gamma}_{jt} = \frac{1}{T} \sum_{t=j+1}^T (Y_t-\overline{Y})(Y_{t-j}-\overline{Y})
+\hat{\gamma}_{t}(j) = \frac{1}{T} \sum_{t=j+1}^T (Y_t-\overline{Y})(Y_{t-j}-\overline{Y})
 $$
 
 converge in probability to the population autocovariances 
 
 $$
-\gamma_{jt} = \text{Cov}(Y_t, Y_{t-j}) = E[(Y_t-\mu)(Y_{t-j}-\mu)].
+\gamma_{t}(j) = \text{Cov}(Y_t, Y_{t-j}) = E[(Y_t-\mu)(Y_{t-j}-\mu)].
 $$
 
