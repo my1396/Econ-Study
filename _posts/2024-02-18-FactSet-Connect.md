@@ -1,7 +1,7 @@
 ---
 layout: post
 tag: study
-title: FactSet Dataset
+title: Connect to FactSet
 ---
 
 <a class="top-link hide" href="#" id="js-top">↑</a>
