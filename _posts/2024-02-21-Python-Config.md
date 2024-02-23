@@ -49,7 +49,9 @@ conda list -n myenv # print all installed packages in myenv
 
 
 
-`conda install` arguments
+### `conda install`
+
+arguments:
 
 - `-n, --name` specify name of environment
 - `-p, --prefix` full path to environment location
@@ -75,7 +77,7 @@ Examples:
 
 
 
-`conda search`
+`conda search` Search packages in the default `channel_alias`  https://conda.anaconda.org/. Can specify additional channel using `conda search conda-forge::[some package name]`.
 
 - search for a specific package named 'scikit-learn':
   ```bash
@@ -97,7 +99,7 @@ Examples:
   conda search 'numpy>=1.12'
   ```
 
-- Search for a package on a specific channel:
+- Search for a package on a specific channel `conda-forge`:
   ```bash
   conda search conda-forge::numpy
   conda search 'numpy[channel=conda-forge, subdir=osx-64]'

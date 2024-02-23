@@ -1,6 +1,6 @@
 ---
 layout: post
-tag: study
+tag: programming
 title: Connect to FactSet
 ---
 
