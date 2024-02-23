@@ -111,11 +111,11 @@ https://www.py4u.net/discuss/1294563 **[very good tutorial for windows and Mac]*
 
 Azure Notebook shortcuts
 
-| Command             | Keybinding       |
-| ------------------- | ---------------- |
-| Run Current Cell    | F5               |
-| Add Code Cell Below | ctrl + shift + C |
-| Add Text Cell Below | ctrl + shift + T |
+| Command                   | Keybinding       |
+| ------------------------- | ---------------- |
+| Run Current Cell          | F5               |
+| Add Code Cell end of file | ctrl + shift + C |
+| Add Text Cell end of file | ctrl + shift + T |
 
 
 
