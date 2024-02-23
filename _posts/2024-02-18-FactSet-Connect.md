@@ -66,15 +66,14 @@ For ODBC 18 (latest version in 2024): <https://learn.microsoft.com/en-us/sql/con
 
 
 
-**The server location is** : ofprod-norduni-1214693-sql.database.windows.net
-
-Database: fds
+- <span style='color:#32CD32'>**Server name** </span>: ofprod-norduni-1214693-sql.database.windows.net
+- **Database name**: fds
 
 <img src="https://drive.google.com/thumbnail?id=1nO_hwdBpDAwzijkNPOskhSnrufEPA123&sz=w1000" alt="image-20210914084652582" style="zoom:67%;" />
 
 
 
-**SQL Credentials**
+<span style='color:#32CD32'>**SQL Credentials**</span>
 
 - `Username`: menghan.yuan@factset.net
 - `Application Id`: 175bb48c-3918-4882-864d-e0005a3fb1b9
@@ -108,6 +107,17 @@ https://www.py4u.net/discuss/1294563 **[very good tutorial for windows and Mac]*
 [https://medium.com/analytics-vidhya/interactive-azure-ad-authentication-with-python-64df3173a81c](https://medium.com/analytics-vidhya/interactive-azure-ad-authentication-with-python-64df3173a81c) **[this one works]**
 
 <https://docs.microsoft.com/en-us/azure/azure-sql/database/authentication-mfa-ssms-overview>
+
+
+Azure Notebook shortcuts
+
+| Command             | Keybinding       |
+| ------------------- | ---------------- |
+| Run Current Cell    | F5               |
+| Add Code Cell Below | ctrl + shift + C |
+| Add Text Cell Below | ctrl + shift + T |
+
+
 
 ___
 
@@ -201,7 +211,6 @@ FactSet **Support** Contact at Nord:
 
 
 ___
-
 
 
 
