@@ -29,6 +29,8 @@ It is possible to paste an image into a PDF page from the clipboard, but you mus
    \colorbox{white}{$y_t = \phi^k y_{t-k} + \sum_{j=0}^{k-1}\phi^j \varepsilon_{t-j}$}
    ```
 
+   Use `\colorbox{white}{}` to create a white background, otherwise the pic is transparent.
+
 2. copy and paste in Preview.
 
 

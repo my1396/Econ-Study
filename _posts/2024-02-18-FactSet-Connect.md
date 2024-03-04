@@ -25,7 +25,7 @@ title: Connect to FactSet
 </li>
 </ol>
 
-##  Microsoft ODBC 17
+##  Install Microsoft ODBC
 
 Installation of MS-SQL driver.
 
@@ -66,6 +66,12 @@ For ODBC 18 (latest version in 2024): <https://learn.microsoft.com/en-us/sql/con
 
 
 
+___
+
+## Connect Using **Azure Data Studio**
+
+Server info
+
 - <span style='color:#32CD32'>**Server name** </span>: ofprod-norduni-1214693-sql.database.windows.net
 - **Database name**: fds
 
@@ -80,36 +86,22 @@ For ODBC 18 (latest version in 2024): <https://learn.microsoft.com/en-us/sql/con
 - `Application Secret`: s*adq9nuPyIlO6?6
 - `Tenant Id`: 19c2ed02-03ce-49b9-ab35-7e07b729dc04
 
-___
 
-## Connect Using **Azure Data Studio**
+
+The connection window looks like this:
 
 <img src="https://drive.google.com/thumbnail?id=1OTqG-rNRKL247_73Ja9_Ttf02g4ebIDC&sz=w1000" alt="Azure Connection" style="display: block; margin-right: auto; margin-left: auto; zoom:100%;" />
 
 
-<https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal>
 
-**Azure Portal**
+`sql` can run one single query.
 
-<https://portal.azure.com/?fromAccountsPortal=true#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview>
-
-
-`ActiveDirectoryInteractive` works on Windows only.
-
-<https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15>
+Notebook can put multiple queries together.
 
 
 
-AAD MFA (Azure Active Directory, Multi-factor Authentication)
 
-https://www.py4u.net/discuss/1294563 **[very good tutorial for windows and Mac]**
-
-[https://medium.com/analytics-vidhya/interactive-azure-ad-authentication-with-python-64df3173a81c](https://medium.com/analytics-vidhya/interactive-azure-ad-authentication-with-python-64df3173a81c) **[this one works]**
-
-<https://docs.microsoft.com/en-us/azure/azure-sql/database/authentication-mfa-ssms-overview>
-
-
-Azure Notebook shortcuts
+Azure Jupyter Notebook shortcuts
 
 | Command                   | Keybinding       |
 | ------------------------- | ---------------- |
@@ -121,7 +113,7 @@ Azure Notebook shortcuts
 
 ___
 
-## **Python** Connection Using Cloud Credentials
+## **Python** Connection
 
 SQL Query Examples
 ```sql
@@ -141,66 +133,6 @@ SELECT top 10 * from fp_v2.fp_basic_prices;
 
 ___
 
-### Authenticating using AAD MFA from MacOS / Linux
-
-I was facing the same problem but on MacOs. As described above, the ODBC option using '*ActiveDirectoryInteractive*' is only available for Windows.
-
-In order to connect to the database using AAD MFA, I also used *pyodbc* but with an access token. To get the token there are a few things that you'll need to do:
-
-**Requirements**
-
-1.  [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
-2.  [Microsoft ODBC Driver for SQL Server (Linux-MAC)](https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-ver15)
-
-**Instructions**
-
-Before you run the code below, you must authenticate using `Azure CLI`, to do so run from cmd : `az login`
-
-```python
-from azure.identity import AzureCliCredential
-import struct
-import pyodbc 
-
-# input params
-server = '<your server address>'
-database = '<database name>'
-query = 'SELECT * from dbo.Address;'
-
-# Use the cli credential to get a token after the user has signed in via the Azure CLI 'az login' command.
-credential = AzureCliCredential()
-databaseToken = credential.get_token('https://database.windows.net/')
-
-# get bytes from token obtained
-tokenb = bytes(databaseToken[0], "UTF-8")
-exptoken = b'';
-for i in tokenb:
- exptoken += bytes({i});
- exptoken += bytes(1);
-tokenstruct = struct.pack("=i", len(exptoken)) + exptoken;
-
-# build connection string using acquired token
-connString = "Driver={ODBC Driver 17 for SQL Server};SERVER="+server+";DATABASE="+database+""
-SQL_COPT_SS_ACCESS_TOKEN = 1256 
-conn = pyodbc.connect(connString, attrs_before = {SQL_COPT_SS_ACCESS_TOKEN:tokenstruct});
-
-# sample query
-cursor = conn.cursor()
-cursor.execute(query)
-row = cursor.fetchone()
-while row:
-    print (str(row[0]) + " " + str(row[1]))
-    row = cursor.fetchone()
-```
-
-<img src="https://drive.google.com/thumbnail?id=1oB1y2NL4sqg5uoteG491bbCfvPemqU_0&sz=w1000" alt="image-20210915190804892" style="zoom:60%;" />
-
-<img src="https://drive.google.com/thumbnail?id=1zuecOiZpCzkyp355GLEyMBKUb3x3JwEw&sz=w1000" alt="image-20210915185534912" style="zoom:80%;" />
-
-Need the IT to
-
-1.   add the dataset to the white list;
-2.   Mac has to be connected to the Ethernet;
-
 
 
 
@@ -210,7 +142,6 @@ FactSet **Support** Contact at Nord:
 - Vivek Patel: [vivek.patel@factset.com](mailto:vivek.patel@factset.com)
 
 
-___
 
 
 
