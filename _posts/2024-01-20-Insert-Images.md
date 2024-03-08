@@ -79,6 +79,8 @@ To embed an image using markdown, use the following:
 ```markdown
 ![Example Image](https://drive.google.com/uc?id=1bXzYeegauqB2M6-VZwitEeXHmMiYZIUY)
 ```
+Markdown syntax to insert an image link: Start with an exclamation mark (`!`), followed by alt text in brackets, and the path or URL to the image asset in parentheses.
+
 
 Add some style adjustment:
 
