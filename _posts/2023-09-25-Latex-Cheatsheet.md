@@ -23,7 +23,7 @@ tag: study
 
 `\overrightarrow`: $\overrightarrow{AB}$
 
-Sample average: $\overline{X}$ (`\overline{X}`), $\bar{X}$ (`\bar{X}`)
+Sample average: $\overline{X}$ (`\overline{X}`, line is longer), $\bar{X}$ (`\bar{X}`, bar is shorter)
 
 `\tilde{X}`: $\tilde{X}$
 
@@ -192,6 +192,8 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
   $\equiv$ (`\equiv`) is used to denote shorthand. There is no logical or physical content here; two expressions which are separated by $\equiv$ have exactly the same meaning, but are written a different way.
 
 - $\overset{\text{aprrox}}{\sim}$ (`\overset{\text{aprrox}}{\sim}`) for approximately distributed with.
+
+  $\;\;\overset{\text{a}}{\sim}\;\;$ (`\overset{\text{a}}{\sim}`) indicates that the distributional relation is asymptotic.
 
 
 

@@ -9,6 +9,8 @@ $$
 \newcommand{\indep}{\perp \!\!\! \perp}
 $$
 
+<a class="top-link hide" href="#" id="js-top">↑</a>
+
 For OLS estimator to be *consistent*, a set of assumptions need to be met:
 <ol type="p1">
 <li id="ass1"> $y_i=x_i'\beta+u_i$ for $i=1, \ldots, n$ or $y=X\beta+u$. In other words, DGP is correctly specified.</li>
@@ -275,3 +277,19 @@ $$
 This test only has an asymptotic justification, and we know that $p$ times a $F(p, n-K)$ random variable converges in distribution to a $\chi^2(p)$ as $n\to\infty$.
 
 $w$ is called an Wald statistic, the corresponding test is called an **Wald test**.
+
+
+## The Delta Method
+
+More complicated inferences for arbitrary nonlinear functions of the estimator $\hat{\boldsymbol{\theta}}$ may be performed via Taylor's Theorem or the *delta method*.
+
+If $\sqrt{T}(\hat{\boldsymbol{\theta}}-\boldsymbol{\theta}\_0) \overset{\text{a}}{\sim} \mathcal{N}(0, \boldsymbol{V}_\theta)$, then a nonlinear function $f(\hat{\boldsymbol{\theta}})$ has the following asymptotic distribution:
+
+$$
+\sqrt{T}\big(f(\hat{\boldsymbol{\theta}}) - f(\boldsymbol{\theta}_0) \big)  \overset{\text{a}}{\sim} \mathcal{N}(0, \boldsymbol{V}_f), \quad\quad  
+\boldsymbol{V}_f \equiv \frac{\partial f}{\partial \boldsymbol{\theta}'} \boldsymbol{V}_\theta \frac{\partial f}{\partial \boldsymbol{\theta}}
+$$
+
+which follows from first-order Taylor series approximation for $f(\boldsymbol{\theta})$ around $\boldsymbol{\theta}_0$. 
+Higher-order terms converge to zero faster than $1/\sqrt{T}$ hence only the first term of the expansion matters for the asymptotic distribution of $f(\hat{\boldsymbol{\theta}})$.
+

@@ -247,3 +247,4 @@ $$
 \gamma_{t}(j) = \text{Cov}(Y_t, Y_{t-j}) = E[(Y_t-\mu)(Y_{t-j}-\mu)].
 $$
 
+- $\gamma$ denotes autocovariance coefficients; $\rho$ denotes autocorrelation coefficients.

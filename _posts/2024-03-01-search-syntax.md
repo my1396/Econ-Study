@@ -1,6 +1,6 @@
 ---
 layout: post
-tag: programming
+tag: misc
 title: Search Syntax
 ---
 

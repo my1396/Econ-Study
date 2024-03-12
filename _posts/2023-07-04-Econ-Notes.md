@@ -34,14 +34,17 @@ $$
 
 $\mathbb{E}_Y$ and $\mathrm{Var}_Y$ denote expectation over $Y$ and variance over $Y$.
 
-Blackboard bold 黑板粗体 (`\mathbb`) is often used to denote **sets of numbers**, e.g. $\mathbb{N}$, $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$, $\mathbb{O}$, or a general field $\mathbb{F}$ or $\mathbb{K}$, and in probability to denote expectation of a random variable $\mathbb{E}(X)$ , written as `\mathbb{E}(X)`, or probability of an event $\mathbb{P}(E)$, written as `\mathbb{P}(E)`. Sometimes you see a sphere denoted $\mathbb{S}$ or a torus denoted $\mathbb{T}$. 
+$\text{Pr}(.)$ and $\mathbb{P}(.)$ denote the probability of an event.
 
-Mathematical calligraphic font 花体 (`\mathcal`), uppercase only, font for categories and sheaves.
+Blackboard bold 黑板粗体 (`\mathbb`) is often used to denote **sets of numbers**, e.g. $\mathbb{N}$, $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$, $\mathbb{O}$, or a general field $\mathbb{F}$ or $\mathbb{K}$, and in probability to denote expectation of a random variable $\mathbb{E}(X)$ , written as `\mathbb{E}(X)`, or probability of an event $\mathbb{P}(E)$, written as `\mathbb{P}(E)`. 
 
--   $\mathcal L$（`\mathcal L`）常用来表示损失函数;
+Sometimes you see a sphere denoted $\mathbb{S}$ or a torus denoted $\mathbb{T}$. 
+
+Mathematical calligraphic font or script letters 花体 (`\mathcal`), uppercase only, font for categories and sheaves.
+
+-   $\mathcal L$（`\mathcal L`）常用来表示损失函数; log likelihood function;
 -   $\mathcal D$（`\mathcal D`）表示样本集;
--   $\mathcal N$（`\mathcal N`）常用来表示高斯分布;
-
+-   $\mathcal N$（`\mathcal N`）常用来表示高斯分布; normal distribution;
 -   $\ell$（`\ell`）：用于和 $l$ 和 数字 1 相区分。
 
 `:=` and $\triangleq$ are used to define a variable.
@@ -63,13 +66,16 @@ $.
 Vectors are lowercase and matrices are uppercase symbols. Both vectors and matrices are written in bold-italic. 
 
 - Vectos $\boldsymbol a$, $\boldsymbol b, \boldsymbol c$  are produced by `\mathbfit a` or `\boldsymbol a`... ; vectors can also be denoted by Greek lowercase letters: $\boldsymbol{\alpha, \ldots \omega}$
-- Matrices $\boldsymbol A, \boldsymbol B, \boldsymbol C$ by `\mathbfit A` or `\boldsymbol a` ... ; matrices can be deonoted by Greek uppercase letters: $\boldsymbol{\Gamma, \ldots, \Theta}$
+- Matrices $\boldsymbol A, \boldsymbol B, \boldsymbol C$ by `\mathbfit A` or `\boldsymbol a` ... ; matrices can also be deonoted by Greek uppercase letters: $\boldsymbol{\Gamma, \ldots, \Theta}$
+  - $A=[a_{i,j}]$ to show the components of matrix $\boldsymbol A$.
 - Random variables are uppercase italic Latin letters $X, Y, X$. Lower case letters $x, y,z$ mean values of random variables. Sometimes, $X_i$ also denotes a value. If $X$ is a RV, then $X$ is written in words, and $x$ is given as a number.
 
   - Sample data use lowercase.
   - Population data use uppercase.
 
 - Use Greek letters $\boldsymbol\theta, \boldsymbol\phi$ for parameters or $\alpha, \beta, \gamma$ for hyperparameters.
+- Error terms are denoted by $\epsilon, \varepsilon, \eta, \xi, \zeta$.
+- Variance-covariance matrices: $\boldsymbol{\Omega}, \boldsymbol{\Sigma}, \boldsymbol{V}, \boldsymbol{G}$.
 
 - $f(x) \approx g(x)$ (`\approx`) if the two functions are approximately equal in some sense depending on the context. 
 - $f(x) \propto g(x)$ (`\propto`) If $f(x)$ is proportional to $g(x)$ we write. 
@@ -125,6 +131,10 @@ summand 被加数
 normal vector 法向量
 
 direction vector 方向向量
+
+recursive substitution 迭代
+
+counterexample 反例
 
 **Sample and population**
 
@@ -817,6 +827,7 @@ $$
 \end{align*}
 $$
 
+(the subscript in $\mathbb{E}_Y$ and $\mathbb{E}_X$ indicate on which variable the expectation is taken)
 or more succinctly  
 
 $$
@@ -824,6 +835,9 @@ $$
 \mathbb{E}[Y] = \mathbb{E}\left[\mathbb{E}\right(Y\vert X=x\left)\right].
 \end{align*}
 $$
+
+It repsents a transformation from condictional to unconditional expectaion.
+The expected value (this expectation is with respect to  $X$) of the conditional expectation of $Y$ given $X$ is the expected value of $Y$.
 
 Suppose $\mathbb{E}(Y\vert X)=0$, then   
 
@@ -836,6 +850,47 @@ $$
 
 Note that we start from the conditional expectation being $0$, and conclude that unconditional expectation and its product with a function of $X$ are $0$'s too.\
 Conditional expectation is a *stronger* condition than unconditional expectation.
+
+In other words, although conditional expectations can vary arbitrarily for different values of $X$, if you know what the conditional expectations are, the overall expected value of $Y$ is fully determined.
+
+A simple example is one where $X$ takes only two values.  Suppose we are interested in mean birthweight ($Y$) for children of mother's who either drank alcohol during their pregnancy ($X=1$) or who didn't drink alcohol during their pregnancy ($X=0$).  
+
+Suppose the following numbers:
+
+$$
+\begin{aligned}
+  \mathbb{E}[Y|X=1] &= 7, \;\;\;  \mathbb{P}(X=1) = 0.1\\
+  \mathbb{E}[Y|X=0] &= 8, \;\;\;  \mathbb{P}(X=0) = 0.9 \\
+
+\end{aligned}
+$$
+
+The law of iterated expectation says that
+
+$$
+\begin{aligned}
+  \mathbb{E}[Y] &= \mathbb{E}_X \big[ \mathbb{E}[Y|X] \big] \\
+  &= \sum_{x \in \mathcal{X}} \mathbb{E}[Y|X=x] \cdot \mathbb{P}(X=x) \\
+  &= \mathbb{E}[Y|X=0] \cdot \mathbb{P}(X=0) + \mathbb{E}[Y|X=1] \cdot \mathbb{P}(X=1) \\
+  &= (8) \times (0.9) + (7) \times (0.1) \\
+  &= 7.9
+\end{aligned}
+$$
+
+Generalization of LIE in time series
+
+$$
+\mathbb{E}\big[\mathbb{E}(y_{t+2}|x_{t+1}) |x_t \big] = \mathbb{E}[y_{t+2} |x_t]
+$$
+
+as $x_{t} \subset x_{t+1}$.
+
+
+More generally, for any random variable $z$ and two information sets $\mathcal{J}$ and $\mathcal{I}$ with $\mathcal{J} \subset \mathcal{I}$, then
+
+$$
+\mathbb{E}\big[\mathbb{E}(x|\mathcal{I}) |\mathcal{J} \big] = \mathbb{E}[z |\mathcal{J}]
+$$
 
 
 **Intuition behind the LIE**
@@ -926,11 +981,11 @@ $$
 $$
 
 
-Variance is also an expectation by setting $g(X)=(X-\mathbb{E}(X))^2$. In other words, $Var(X)=\mathbb{E}\left[(X-\mathbb{E}(X))^2\right]$.
+Variance is also an expectation by setting $g(X) = (X-\mathbb{E}(X))^2$. In other words, $\text{Var}(X) = \mathbb{E}\left[(X-\mathbb{E}(X))^2\right]$.
 
 $$
 \begin{align*}
-Var(X) = \mathbb{E}[(X-\mathbb{E}(X))^2] = \left\{
+\text{Var}(X) = \mathbb{E}[(X-\mathbb{E}(X))^2] = \left\{
 	\begin{array}{ll}
 	\int [x-\mathbb{E}(X)]^2 f(x)dx & \text{for continuous $X$} \\
 	\sum_x [x-\mathbb{E}(X)]^2 f(x) & \text{for discrete $X$}
@@ -945,8 +1000,8 @@ Let $X \sim \textrm{Bernoulli}(\theta)$, and recall that we have $\mathbb{E}(X)=
 
 $$
 \begin{align*}
-Var(X) &= \mathbb{E}(X-E[X])^2 \\ 
-			 &= \sum_x (x-\mathbb{E}[X])^2 f(x) \\
+\text{Var}(X) &= \mathbb{E}(X-E[X])^2 \\ 
+			 &= \sum_x \left(x-\mathbb{E}[X]\right)^2 f(x) \\
 			 &= (0-\theta)^2 \times f(0) + (1-\theta)^2\times f(1) \\
 			 &= \theta^2(1-\theta) + (1-\theta)^2\theta \\
 			 &= \theta (1-\theta).
@@ -957,7 +1012,7 @@ Alternative derivation: Since $0^2=0$ and $1^2=1$, we have $X^2=X$ implying that
 
 $$
 \begin{align*}
-Var(X)=\mathbb{E}[X^2]-(\mathbb{E}[X])^2 = \theta-\theta^2
+\text{Var}(X)=\mathbb{E}[X^2]-(\mathbb{E}[X])^2 = \theta-\theta^2
 \end{align*}
 $$
 
@@ -968,12 +1023,35 @@ $$
 
 $$
 \begin{align*}
-\overline{Y}=\frac{1}{n}\sum_{i=1}^nX_i
+\overline{X}=\frac{1}{n}\sum_{i=1}^nX_i
 \end{align*}
 $$
 
+$\overline{X}$ is a random variable, as it is the average of random variables.
+This is in sharp contrast to $\mathbb{E}[X]$ which is non-random.  
 
-**Sample variance** use either 
+$\overline{X}$ varies with each sample.
+If we could repeatedly collect new samples of size $n$ from the same population and each time were able to estimate $\overline{X}$, these estimates would be different from each other.
+The distribution of a statistic, like $\overline{X}$, is called its **sampling distribution**.  
+
+One useful feature is  $\mathbb{E}[\overline{X}] = \mathbb{E}[X]$.
+This doesn't mean that $\overline{X}$ itself is equal to $\mathbb{E}[X]$.  Rather, it means that, if we could repeatedly obtain (a huge number of times) new samples of size $n$ and compute $\overline{X}$ each time, the average of $\overline{X}$ across repeated samples would be equal to $\mathbb{E}[X]$.
+
+Proof:
+
+$$
+\begin{aligned}
+  \mathbb{E}[\overline{X}] &= \mathbb{E}\left[ \frac{1}{n} \sum_{i=1}^n X_i \right] \\
+  &= \frac{1}{n} \mathbb{E}\left[ \sum_{i=1}^n X_i \right] \\
+  &= \frac{1}{n} \sum_{i=1}^n \mathbb{E}[X_i] \\
+  &= \frac{1}{n} \sum_{i=1}^n \mathbb{E}[X]  \;\;\;\; (X_i\text{ are iid with mean } \mathbb{E}[X]) \\
+  &= \frac{1}{n}\, n\, \mathbb{E}[X] \\
+  &= \mathbb{E}[X]
+\end{aligned}
+$$
+
+
+**Sample variance** ($\text{Var}(\overline{X})$) use either 
 
 $$
 \begin{align*}
@@ -1051,6 +1129,39 @@ If $\textrm{Corr}(X,Y)=0$, we say that $X$ and $Y$ are <span style='color:#32CD3
 $X {\color{#32CD32}\indep} Y$ (double perpendicular symbol) denotes $X$ and $Y$ are <span style='color:#32CD32'>independent</span>.
 
 $X \indep Y \Rightarrow X \perp Y$,  in plain language, independence implies zero correlation. 
+
+Dependent but uncorrelated example
+
+Let $X\sim U(-1,1)$ (任何定义域centered on zero is ok), $Y=f(X)=X^2$. Then $E[X]=0$. 
+
+$$
+\begin{aligned}
+\text{Cov}(X, Y) &= E[Xf(X)] - E[X]E[f(X)] \\
+&= E[Xf(X)] \quad (E[X]=0) \\
+&= \int_{-1}^1 x\,f(x)\,p(x)\, dx
+\end{aligned}
+$$
+
+where $p(x)$ is the pdf of $X$. 
+
+$$
+p(x) = \left\{
+\begin{array}{ll}
+\frac{1}{2} & x\in [-1,1] \\
+0 & \text{otherwise}
+\end{array}
+\right.
+$$
+
+Now we have $X$ as an odd funcction and $[-1,1]$ is a symmetric domain. That means as long as $f(x)$ is an even function, we have $xf(x)p(x)$ as on odd function. It then follows that
+
+$$
+\int_{-a}^a x\,f(x)\,p(x)\, dx = 0,
+$$
+
+and so $\text{Cov}(X, f(X))=0$. 
+
+$f(X)=X^2$ is an even function, which satisfies the condition.
 
 ## Joint Distributions and Independence
 
@@ -1146,6 +1257,31 @@ F(x_1\vert x_2)  &=  P(X_1\le x_1 \vert X_2=x_2) \\
 
 \end{aligned}
 $$
+
+Expectation 
+
+$$
+\mathbb{E}[h(X,Y)] = \int_{-\infty}^\infty\int_{-\infty}^\infty h(x,y) f_{XY}(x,y) dxdy
+$$
+
+Conditional expectation on $X$ is indicated using a subscript in $\mathbb{E}_X$, e.g.,
+
+$$
+\mathbb{E}_X[h(X, Y)] = \mathbb{E}[h(X, Y)|X] =  \int_{-\infty}^\infty h(x,y) f_{h(X,Y)|X} (h(x,y)|x) dy
+$$
+
+Here, we "integrate out" the $Y$ variable, and we are left with a function of $X$.
+
+It is also possible the subscript indicates marginal density.
+
+$$
+\mathbb{E}_X[h(X, Y)] = \int_{-\infty}^\infty h(x,y) f_X(x) dx
+$$
+
+Here, we "average over" the $X$ variable, and we are left with a function of $Y$.
+
+___
+
 
 **Moments**
 
@@ -1527,8 +1663,6 @@ Note:
 - If $\alpha$ increases that means the chances of making a type I error will increase. It is more likely that a type I error will occur. It makes sense that you are less likely to make type II errors, only because you will be rejecting H0 more often. You will be failing to reject H0 less, and therefore, the chance of making a type II error will decrease. Thus, as $\alpha$ increases, $\beta$ will decrease, and vice versa. That makes them seem like complements, but they are not complements.
 - For a constant sample size, $n$, if  $\alpha$  increases, $\beta$ decreases. \
 For a constant significance level,  $\alpha$ , if $n$ increases, $\beta$ decreases.
-
-___
 
 
 
