@@ -147,7 +147,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", SimSun, sans-serif;
   line-height: 1.7;
   font-size: 18px;
-  color: #404040;
+  color: #404040; /* color for main text */
   overflow-x: hidden;
 }
 p {
@@ -169,8 +169,10 @@ h4 {
 h5 {
   padding-bottom: 15px;
 }
+/* hyperlink */
 a {
-  color: #404040;
+  color: #0085a1; /* blue-colored hyperlink */
+  color: #404040; /* same color as text */
 }
 a:hover,
 a:focus {
@@ -258,3 +260,11 @@ a img:focus {
   border-radius: 10px;
 }
 
+/* figure */
+figure {
+  display: inline-block;
+  text-align: center; /* center caption */
+  margin: 5px; /* adjust as needed */
+  margin-right: auto; 
+  margin-left: auto;
+}

@@ -7,7 +7,63 @@ date: 2023-11-20
 
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
+## Standard Normal Distribution
+
+
+Normal Distribution $\mathcal{N}(\mu, \sigma^2)$. The 2nd parameter is the *variance*. Normal distribution is also called the *Gaussian distribution*.
+
+$\phi(.)$ usually denotes the pdf of the standard normal (standard Gaussian) distribution.
+$\Phi(.)$ usually the cdf of the standard normal.
+Figure 1 shows the $\Phi$ and $\phi$ functions.
+
+If $z\sim N(0,1)$, then its pdf is given by:
+
+$$
+\phi(z) = \frac{1}{\sqrt{2\pi}} e^{-\frac{z^2}{2}}.
+$$
+
+The cdf is denoted by the $\Phi$ function:
+
+$$
+\Phi(x) = P(Z\le x) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^x \exp\{-\frac{u^2}{2}\} du.
+$$
+
+<figure> 
+<img src="https://drive.google.com/thumbnail?id=1nxfdIKXgZvOqXVSeA3h_hf0yxmsM361l&sz=w1000" alt="Phi_b" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+<figcaption>Fig.1 The $\Phi$ and $\phi$ ($f_Z(.)$) functions (CDF and pdf of standard normal).</figcaption>
+</figure>
+
+
+## Normal Distribution
+
+If $Z$ is standard normal and $X=\mu+\sigma Z$, then $X\sim N(\mu, \sigma^2)$. 
+
+To fin the cdf of $X$, we caan write
+
+$$
+\begin{aligned}
+F_X(x) &= P(X\le x) \\
+&= P( \sigma Z+\mu \leq x) \hspace{20pt} \big(\textrm{where }Z \sim N(0,1)\big) \\
+&= P\left(Z \leq \frac{x-\mu}{\sigma}\right) \\
+&= \Phi\left(\frac{x-\mu}{\sigma}\right).
+\end{aligned}
+$$
+
+To find the pdf, we can take the derivative of $F_X$,
+
+$$
+\begin{aligned}
+f_X(x) &= \frac{d}{dx} F_X(x) \\
+& =\frac{d}{dx} \Phi\left(\frac{x-\mu}{\sigma}\right) \\
+& = \frac{1}{\sigma} \Phi'\left(\frac{x-\mu}{\sigma}\right) \hspace{20pt} \textrm{(chain rule for derivative)} \\
+&= \frac{1}{\sigma} f_Z\left(\frac{x-\mu}{\sigma}\right) \\
+&= \frac{1}{\sqrt{2 \pi\sigma^2} } \exp\left \{-\frac{1}{2}\left(\frac{x-\mu}{\sigma^2}\right)^2 \right\}.
+\end{aligned}
+$$
+
 ## Derivative Distributions from $N(0,1)$
+
+[Seeing Theory](https://seeing-theory.brown.edu/probability-distributions/)
 
 The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ identity matrix, is called a standard normal vector, with elements $z_i \sim N(0,1)$ for $i=1,2,\ldots,n$ that are independent standard normal random variables.
 

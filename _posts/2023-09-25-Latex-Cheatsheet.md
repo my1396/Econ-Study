@@ -194,6 +194,10 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 - $\overset{\text{aprrox}}{\sim}$ (`\overset{\text{aprrox}}{\sim}`) for approximately distributed with.
 
   $\;\;\overset{\text{a}}{\sim}\;\;$ (`\overset{\text{a}}{\sim}`) indicates that the distributional relation is asymptotic.
+  
+  $\;\;\overset{\text{a}}{=}\;\;$ (`\overset{\text{a}}{=}`) indicates that the equality holds asymptotically.
+  
+  
 
 
 
@@ -209,15 +213,15 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
 - $\rightarrow$ denotes a mapping between two sets. 两边都是集合。
 
-  $\mapsto$ called mapsto,  tells you what it does to each element of the set. 两边是数值的一个transform。
+  $\mapsto$ called *mapsto*,  tells you what it does to each element of the set. 两边是数值的一个transform。
 
   For example, I can define a function $𝑓:\mathbb{R}\rightarrow\mathbb{R}$ by $𝑓(𝑥):=2𝑥$. Notice that the $\rightarrow$ is between the two real number sets. But, I can also express that $𝑓(3)=6$ by $3\mapsto 6$. More generally, $𝑓(𝑥):=2𝑥$ can be written as $𝑥 \mapsto 2𝑥$.
 
 - Text above or under symbols or other text, e.g., $\sim$ 
 
-  - `\overset{#1}{#2}` put argument #1 (in scriptstyle) over argument #2. E.g., $\overset{\text{a}}{\sim}$ `\overset{\text{a}}{\sim}` or `\overset{\rm a}{\sim}`. `\rm` for Roman font. A side note: Words in subscripts or superscripts should be upright.
+  - `\overset{#1}{#2}` put argument #1 (in script style) over argument #2. E.g., $\overset{\text{a}}{\sim}$ `\overset{\text{a}}{\sim}` or `\overset{\rm a}{\sim}`. `\rm` for Roman font (upright). A side note: Words in subscripts or superscripts should be upright.
 
-  - `\underset{#1}{#2}` put argument #1 (in scriptstyle) under argument #2. $\widetilde{\beta}_{k}^{\rm ridge}=\underset{b\in \mathbb{R}^{p+1}}{\rm argmin}  \lVert y-X b  \rVert ^{2}$. 
+  - `\underset{#1}{#2}` put argument #1 (in script style) under argument #2. $\widetilde{\beta}_{k}^{\rm ridge}=\underset{b\in \mathbb{R}^{p+1}}{\rm argmin}  \lVert y-X b  \rVert ^{2}$. 
 
 - Text above arrows. $\xrightarrow{d}$ `\xrightarrow{d}` convergence in distribution.
 
@@ -264,7 +268,7 @@ Display shows eqns in block, text style shows inline.
 
 $\arccos$, $\arcsin$, $\arctan$, $\arg$, $\cos$, $\cosh$, $\cot$, $\coth$, $\sec$, $\sin$, $\sinh$, 
 
-$\deg$, $\det$, $\dim$, $\exp$, $\gcd$, $\hom$, $\injlim$, $\projlim$, $\lg$, 
+$\deg$, $\det$, $\dim$, ${\color{#32CD32}\exp}$, $\gcd$, $\hom$, $\injlim$, $\projlim$, $\lg$, 
 
 $\lim$, $\liminf$, $\limsup$, $\ln$, $\log$, 
 
@@ -285,6 +289,27 @@ $\sup$, $\inf$
   \newcommand{\indep}{\perp \!\!\! \perp}
   $$
   ```
+
+- Curly braces in eqns need to be escaped. `\{ ... \}`  E.g., $\exp\left \{ \ldots \right\}$ (`\exp\left \{ \ldots \right\}`)
+
+  $\exp\left \{-\frac{1}{2}\left(\frac{x-\mu}{\sigma^2}\right)^2 \right\}$
+
+  - If still encounter problems, use `\lbrace` and `\rbrace`: $\lbrace Z_t \rbrace_{t=0}^T$
+
+- Add whitespace between equations, use `\quad` and `\hspace{20pt}` for long space; and  `\;` for short space.
+
+
+
+
+
+
+
+**Colored math symbols**
+
+`${\color{#32CD32}\exp}$` ${\color{#32CD32}\exp}$ Need to quote the part you want to color in curly braces; otherwise, everything behind will change color too.
+
+
+
 
 
 ### Reference

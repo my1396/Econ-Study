@@ -76,6 +76,7 @@ Vectors are lowercase and matrices are uppercase symbols. Both vectors and matri
 - Use Greek letters $\boldsymbol\theta, \boldsymbol\phi$ for parameters or $\alpha, \beta, \gamma$ for hyperparameters.
 - Error terms are denoted by $\epsilon, \varepsilon, \eta, \xi, \zeta$.
 - Variance-covariance matrices: $\boldsymbol{\Omega}, \boldsymbol{\Sigma}, \boldsymbol{V}, \boldsymbol{G}$.
+- $\text{aVar}[.]$ denotes the asymptotic variance operator.
 
 - $f(x) \approx g(x)$ (`\approx`) if the two functions are approximately equal in some sense depending on the context. 
 - $f(x) \propto g(x)$ (`\propto`) If $f(x)$ is proportional to $g(x)$ we write. 
@@ -128,6 +129,8 @@ range 值域
 
 summand 被加数
 
+reciprocal (multiplicative inverse) 倒数
+
 normal vector 法向量
 
 direction vector 方向向量
@@ -141,9 +144,6 @@ counterexample 反例
 - DGP (data generating process) generates the data that we observe.
 - Any quantity, the calculation of which requires one to know the DGP, is a population quantity
 
-
-
-Normal Distribution $N(\mu, \sigma^2)$. The 2nd parameter is variance. Normal distribution is also called *Gaussian distribution*.
 
 *Degenerate* distribution: sometimes called a constant distribution, is a distribution of a degenerate random variable — a constant with probability of 1. \
 In other words, a random variable $X$ has a single possible value. E.g., a weighted die (or one that has a number 6 on all faces) always lands on the number six, so the probability of a six is 1, i.e., $P_X(X=6)=1$.
@@ -980,6 +980,7 @@ $$
 \end{align*}
 $$
 
+where $f(x)$ is the probability density (mass) function of continuous (discrete) $X$.
 
 Variance is also an expectation by setting $g(X) = (X-\mathbb{E}(X))^2$. In other words, $\text{Var}(X) = \mathbb{E}\left[(X-\mathbb{E}(X))^2\right]$.
 
@@ -1073,10 +1074,13 @@ See proof [here](https://www.statlect.com/fundamentals-of-statistics/variance-es
 
 **Covariance and Correlation**
 
-Covariance and correlaation measure the linear association btw two RVs $X$ and $Y$
+*Covariance and correlation* measure the linear association btw two RVs $X$ and $Y$
 
 $$
-\textrm{Cov}(X, Y) = \mathbb{E}\{[X-\mathbb{E}(X)][Y-\mathbb{E}(Y)]\}
+\begin{aligned}
+\gamma &\equiv \text{Cov}(X, Y) = \mathbb{E}\big\{[X-\mathbb{E}(X)][Y-\mathbb{E}(Y)]\big\} \\
+\rho &\equiv \frac{\text{Cov}(X, Y)}{\sqrt{\text{Var}(X)\text{Var}(Y)}}
+\end{aligned}
 $$
 
 where the expected value $\mathbb{E}[\cdot]$ is taken over the joint distribution of $(X,Y)$.
@@ -1103,16 +1107,57 @@ $$
 
 for known constants $a,b,c,d$.
 
+The additive law of covariance holds that the covariance of a random variable with a sum of random variables
+is just the sum of the covariances with each of the random variables.
+
+$$
+\text{Cov}(X+Y, Z) = \text{Cov}(X,Z) + \text{Cov}(Y,Z)
+$$
+
+
+More generally,
+
+$$
+\text{Cov}\left(\sum_{i=1}^m a_iX_i, \sum_{j=1}^n b_iY_i\right) =
+\sum_{i=1}^m\sum_{j=1}^n a_ib_j\text{Cov}(X_i, Y_j).
+$$
+
+One of the applications of covariance is finding the variance of a sum of several random variables.
+In particular, if $Z=X+Y$, then
+
+$$
+\begin{aligned}
+\text{Var}(Z) &= \text{Cov}(Z,Z) \\
+&= \text{Cov}(X+Y, X+Y) \\
+&= \text{Cov}(X,X) + \text{Cov}(X,Y) + \text{Cov}(Y,X) + \text{Cov}(Y,Y) \\
+&= \text{Var}(X) + \text{Var}(X) + 2\text{Cov}(X,Y).
+\end{aligned}
+$$
+
+More generally, for $a_i\in \mathbb{R}, i=1,\ldots,n$, we conclude:
+
+$$
+\text{Var}\left(\sum_{i=1}^n a_iX_i \right) = 
+\sum_{i=1}^n a_i^2 \text{Var}(X_i) + \sum_{i=1}^n\sum_{j=1}^n a_ia_j \text{Cov}(X_i, X_j).
+$$
+
+Or equivalently, 
+
+$$
+\text{Var}\left(\sum_{i=1}^n a_iX_i \right) = 
+\sum_{i=1}^n a_i^2 \text{Var}(X_i) + 2\sum_{i=2}^n\sum_{j=1}^{i-1} a_ia_j \text{Cov}(X_i, X_j).
+$$
+
 If we have either $\mathbb{E}(X)=0$ or $\mathbb{E}(Y)=0$ or both
 
 $$
 \text{Cov}(X, Y) = \mathbb{E}{(XY)} - \mathbb{E}{(X)}\mathbb{E}{(Y)} = \mathbb{E}{(XY)}
 $$
 
-The sample covariance in a sample of $n$ observations on $(X_i,Y_i)$ is
+The *sample covariance*, $\hat{\gamma}$, in a sample of $n$ observations on $(X_i,Y_i)$ is
 
 $$
-\frac{1}{n-1}\sum_{i=1}^n (X_i-\overline{X})(Y_i-\overline{Y})
+\hat{\gamma} = \frac{1}{n-1}\sum_{i=1}^n (X_i-\overline{X})(Y_i-\overline{Y})
 $$
 
 Division by $n-1$ rather than $n$ is called a degrees of freedom correction.
@@ -1254,7 +1299,6 @@ F(x_1\vert x_2)  &=  P(X_1\le x_1 \vert X_2=x_2) \\
 	\int_{-\infty}^{x_1} f(s{\color{#32CD32}\vert x_2}) ds & \text{continuous} \\
 	\sum_{s\le x_1} f(X_1=s {\color{#32CD32}\vert X_2=x_2})  &\text{discrete}
 \end{array} \right. 
-
 \end{aligned}
 $$
 
@@ -1631,7 +1675,7 @@ $$
 \frac{S_n-n\mu}{\sigma \sqrt{n}} \xrightarrow{d} N(0,1) .
 $$
 
-**Big-O Little-o Notation**
+## Big-O Little-o Notation
 
 Consider a sequence of random variables $X_n$ and a sequence of constants $a_n$ for $n = 1, 2, . . .$\
 If $X_n/a_n \xrightarrow{p} 0$, we say $(X_n/a_n)=o_p(1)$ or $X_n=o_p(a_n)$.\
@@ -1650,14 +1694,17 @@ Consequently:
 E.g., For $X_1, X_2, \ldots, X_n$ iid with mean $\mu$ and variance $\sigma^2$, define $Z=\frac{\overline{X}-\mu}{\sigma}$. Then, by the CLT we have $\sqrt{n}Z\xrightarrow{d}N(0,1)$ and so $\sqrt{n}Z = O_p(1)$ or equivalently $Z=O_p(n^{-1/2})$.
 
 
-**Type I and II errors**
+## Type I and II Errors
 
 Type I error: rejecting a true $H_0$. Corresponds to level of significance, $\alpha$, $\alpha = P(\text{reject } H_0 \vert H_0 \text{ is true})$.
 
-Type II error: failing to reject a false $H_0$. The probability of Type II error is called $\beta$. $\beta=P(\text{fail to reject} H_0\vert H_0 \text{ is false})$. $\beta$ is related to *Power of a test*.
+Type II error: failing to reject a false $H_0$. The probability of committing a Type II error is called $\beta$. $\beta=P(\text{fail to reject} H_0\vert H_0 \text{ is false})$. $\beta$ is related to the *Power of a test*.
 $\beta = 1-\text{Power of a test} = 1-P(\text{reject } H_0\vert H_0 \text{ is false})$. 
 
 In hypothesis testing, the *size of a test* is the (maximum) probability of committing a Type I error, that is, of incorrectly rejecting the null hypothesis when it is true.
+
+<img src="https://drive.google.com/thumbnail?id=1U8Hk_KJfWT5fL6eUgEcPNiiSrueLSfC3&sz=w1000" alt="type-i-and-type-ii-error" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
+
 
 Note:
 - If $\alpha$ increases that means the chances of making a type I error will increase. It is more likely that a type I error will occur. It makes sense that you are less likely to make type II errors, only because you will be rejecting H0 more often. You will be failing to reject H0 less, and therefore, the chance of making a type II error will decrease. Thus, as $\alpha$ increases, $\beta$ will decrease, and vice versa. That makes them seem like complements, but they are not complements.
@@ -1710,18 +1757,18 @@ If $X_t$ is white noise, then
 
 $$
 \begin{align*}
-1.&\ \mu_t=0, \ and \\
+1.&\ \mu_t=0,  and \\
 2.&\ \gamma_\tau=\left\{
 	\begin{array}{ll}
 	\sigma^2 & \text{when $\tau=0$} \\
-	0 & \text{when $\tau\neq0$}
+	0 & \text{(uncorrelated) when $\tau\neq0$}
 	\end{array} \right.
 \end{align*}
 $$
 
-In short, WN has expectation 0 and finite variance.
+In short, WN is with expectation 0 and finite variance. denoted as $X_t\sim \text{WN} (0, \sigma^2)$.
 
-
+Note that every $\text{IID}\, (0, \sigma^2)$ sequence is $\text{WN} (0, \sigma^2)$, but not conversely.
 
 **Random Walk**
 $$
@@ -1738,6 +1785,8 @@ $c>0$ we say drift upward,
 
 $c<0$ we say drift downward.
 
+$\epsilon_t$ is called disturbances or innovations in time series.
+
 Assume that the constant $c$ and the initial value $X_0$ are set to zero, through recursice substitution we will get the representation:
 $$
 \begin{align*}
@@ -1753,9 +1802,11 @@ Moment functions:
 
 Notice that autocovariance is strictly positive, and since it depends on $t$ not only on the lags $\tau$, the random walk is not covariance stationary.
 
+As $\tau$ gets larger, $\rho$ gets smallers. In words, neighboring time points are more and more strongly and positively correlated as time goes by. On the other hand, the values of $X$ at distant time points are less and less correlated.
 
 
-AR(1) process
+
+**AR(1) process**
 
 $$
 \begin{align*}

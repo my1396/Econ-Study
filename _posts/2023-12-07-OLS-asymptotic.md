@@ -293,3 +293,24 @@ $$
 which follows from first-order Taylor series approximation for $f(\boldsymbol{\theta})$ around $\boldsymbol{\theta}_0$. 
 Higher-order terms converge to zero faster than $1/\sqrt{T}$ hence only the first term of the expansion matters for the asymptotic distribution of $f(\hat{\boldsymbol{\theta}})$.
 
+{% cite Hausman1978 %} exploits the fact that any asymptotically efficient estimator of a parameter $\theta$, say $\hat{\theta}_e$, must possess the property that it is asymptotically <u>uncorrelated</u>
+with the difference $\hat{\theta}_a - \hat{\theta}_e$, where $\hat{\theta}_a$ is any other estimator of $\theta$. 
+
+If not, then there exists a a linear combination of $\hat{\theta}_e$ and $\hat{\theta}_a - \hat{\theta}_e$ that is more efficient than $\hat{\theta}_e$, contradicting the assumed eae e
+efficiency of $\hat{\theta}_e$. The result follows directly, then, since:
+
+$$
+\begin{aligned}
+\text{aVar} [\hat{\theta}_a] &= \text{aVar} [\hat{\theta}_e + \hat{\theta}_a - \hat{\theta}_e] = \text{aVar} [\hat{\theta}_e] + \text{aVar} [\hat{\theta}_a - \hat{\theta}_e] \\
+& \Longrightarrow \text{aVar} [\hat{\theta}_a - \hat{\theta}_e] = \text{aVar} [\hat{\theta}_a] - \text{aVar} [\hat{\theta}_e]
+\end{aligned}
+$$
+
+
+Let's say you are interested in knowing the variance of $\widehat{VD}\equiv \frac{\hat{\sigma}_b^2}{\hat{\sigma}_a^2}$, and you know the distributions of $\hat{\sigma}_a^2$ and $\hat{\sigma}_b^2$. The variance of the limiting distribution is not apparent since the two variance estimators are clearly *not* asymptotically uncorrelated. 
+
+Then you could apply the delta method to $f(\hat{\theta}_1, \hat{\theta}_2) \equiv \frac{\hat{\theta}_1}{\hat{\theta}_2}$, where $\hat{\theta}_1\equiv \hat{\sigma}_b^2-\hat{\sigma}_a^2$, $\hat{\theta}_2\equiv \hat{\sigma}_a^2$, and observe that $\hat{\sigma}_b^2-\hat{\sigma}_a^2$ and $\hat{\sigma}_a^2$ are asymptotically uncorrelated because $\hat{\sigma}_a^2$ is an efficient estimator.
+
+**References**
+
+{% bibliography --cited %}

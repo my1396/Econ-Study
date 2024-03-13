@@ -252,6 +252,9 @@ EF尖视频 <https://zhuanlan.zhihu.com/p/110177897>
 系列选择
 
 -   **Safari** 狩猎者 £20 comes with one ink cartridge (Lamy T10), but can use Z24 cartridge converter if you want to use bottled ink. 凌美上墨器并没有钢珠。
+    -   grip: ergonomically designed (人体工学设计); triangular grip ( 三角笔握);
+
+    -   ink cartridge window shows  how much ink is left;
 
 -   **Al- Star** 恒星  £30
 
@@ -315,6 +318,14 @@ https://www.bilibili.com/video/BV1RP411674x/?vd_source=8b2f77d46ba39c403a6122be0
 
 
 
+**笔杆材质**
+
+- 金属和树脂笔杆不防滑；手汗者慎入。写乐14K 会比较滑。
+
+- 推荐橡胶，磨砂，木质或者特殊形状人体工学笔握，如Lamy Safari 三角笔握。总体而言，德系笔实用，外形走粗犷。
+
+
+
 其他品牌
 
 **Pelikan 百利金** 德国 鹈鹕鸟喙笔夹。
@@ -323,6 +334,14 @@ https://www.bilibili.com/video/BV1RP411674x/?vd_source=8b2f77d46ba39c403a6122be0
 -   M800 绿条 £400 贵，蛮好看的。笔帽9g (树脂)，整笔含笔帽30.5g。
 
 **Schneider 施耐德** 德国
+
+<http://www.schneiderpen.com.cn>
+
+- 黑锐 (Ray) 橡胶笔握
+
+  <img src="https://drive.google.com/thumbnail?id=1r4BY_QvGHFL7uDfO3OL5d7xAZ96pEqD1&sz=w1000" alt="2019060462412153" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
 
 **Sheaffer 犀飞利 **美国
 

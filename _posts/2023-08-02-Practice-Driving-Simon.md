@@ -482,5 +482,10 @@ Otherwise you need to apply by post for a new license. Need to fill out a D1 for
 
 - If you’re applying for a full licence by post, you must send documents to the DVLA within 2 years of passing your test or you’ll have to take it again.
 
+## Exchange to Norweigan Driver License
+
+- Applied Feb 16, 2024; submitted application form and UK driver license;
+- Called on Mar 13, 2024 to trace my case's progress. [under treatment, wait up to 3 months; temporary driver license expires on May 16, 2024]
+- 
 
 

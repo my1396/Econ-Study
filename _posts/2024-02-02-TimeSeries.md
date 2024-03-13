@@ -207,6 +207,87 @@ Mean and Variance
 
 ## Stationarity
 
+Broadly speaking, a time series is said to be stationary if 
+- there is no systematic change in mean (no trend), 
+- if there is no systematic change in variance, and 
+- if strictly periodic variations have been removed. 
+
+In other words, the properties of one section of the data are much like those of any other section.
+
+Measure of dependence for a stochastic process $\lbrace Z_t: t=0,1,2,\ldots, n \rbrace$
+- mean function $\mu_t = E(Z_t)$
+- autocovariance function $\gamma_t(k)=\text{Cov}(Z_t, Z_{t-k})=E\big[(Z_t-\mu_t)(Z_{t-k}-\mu_{t-k})\big]$, where $k$ is the time lag; sometimes also denoted by two time points, $t$ and $t-k$, as in $\gamma_{t, t-k}$. 
+- autocorrelation function $\rho_t(k)=\text{Corr}(Z_t, Z_{t-k})$. Also denoted as $\rho_{t, t-k}$.
+
+
+The time series $\lbrace Z_t\rbrace_{t=0}^n$ is *(weakly or second-order) stationary* if
+1. The mean function $\mu_t$ is independent of $t$;
+2. The covariance between two observations, $\gamma_t(k)$, depends only on the time lag $k$ and is independent of $t$.
+
+Nothing is assumed about the collection of joint distributions of the process. Instead, we only are specifying the characteristics of the first two moments of the process.
+
+
+We say $\lbrace Z_t\rbrace_{t=0}^n$ is *strictly (or strongly) stationary* if the same joint distribution of
+
+$$
+(Z_{t_1}, \ldots, Z_{t_n})
+$$
+
+is the same as 
+
+$$
+(Z_{t_1-k}, \ldots, Z_{t_n-k})
+$$
+
+for all time points $t_1, t_2, \ldots, t_n$ and for all time lags $k$.
+
+In other words, shifting the time origin by an amount $k$ has no effect on the joint distributions, which must therefore depend only on the intervals between $t_1, t_2, \ldots, t_n$. This is a very strong condition.
+
+Basic properties of a strictly stationary time series $\lbrace Z_t\rbrace$:
+1. $Z_t$'s are from the same distribution.\
+   Since the above condition holds for all sets of time points $t_1, t_2, \ldots, t_n$, it must hold when $n = 1$; i.e., there is only one time point. This implies $Z_t$ and $Z_{t-k}$ have the same margianl distribution for all $t$ and $k$.
+2. Because these marginal distributions are the same,
+
+    $$
+    \begin{aligned}
+    E[Z_t] &= E[Z_{t-k}] \\
+    \text{Var}[Z_t] &= \text{Var}[Z_{t-k}]
+    \end{aligned}
+    $$
+
+    for all $t$ and $k$.
+
+    Therefore, for a strictly stationary process, both $\mu_t=E[Y_t]$ and $\gamma_t(0)$ are constant over time; i.e., $\mu_t$ and $\gamma_t(0)$ are free of $t$.
+3. Since the above condition holds for all sets of time points $t_1, t_2, \ldots, t_n$, it must hold when $n = 2$; i.e., there are only two time points. \
+This implies 
+
+    $$
+    (Y_t, Y_s) \overset{\rm d}{=} (Y_{t-k}, Y_{s-k}).
+    $$
+
+    for all $t,s,$ and $k$.
+
+    $\overset{\rm d}{=}$ means having th same distribution.
+
+    $\gamma_{t, t-k}$ can be simplied as $\gamma(k)$ as the covariance between any two observations depends only on the time lag between them, not on $t$.
+
+4. An IID sequence is strictly stationary.
+
+*REMARK*: Strict stationarity is a condition that is much too restrictive for most applica- tions. Moreover, it is difficult to assess the validity of this assumption in practice. Rather than impose conditions on all possible (marginal and joint) distributions of a process, we will use a milder form of stationarity that only deals with the first two moments — Weak Stationarity.
+
+
+Clearly, strict stationarity implies weak stationarity. It is also clear that the converse to statement is not true, in general. \
+However, if we append the additional assumption of multivariate normality (for the $Z_t$ process), then the two definitions do coincide; that is,
+
+$$
+\text{weak stationarity + multivariate normality} \Longrightarrow \text{strict stationarity.}
+$$
+
+
+*CONVENTION*: For the purpose of modeling time series data in this course, we will rarely (if ever) make the distinction between strict stationarity and weak stationarity. When we use the term “stationary process,” this is understood to mean that the process is *weakly stationary*.
+
+In many situations, a nonstationary process $\{Y_t\}$ can be “transformed” into a stationary process by taking (first) differences. For example, the random walk $Y_t = Y_{t−1} + \varepsilon_t$, where $\varepsilon_t \sim \text{iid } N (0, \sigma_\epsilon^2)$, is not stationary. However, the first difference process $\Delta Y_t = Y_t − Y_{t−1} = \varepsilon_t$ is zero mean white noise, which is stationary.
+
 Stationarity does NOT mean
 - limited dependence \
   The autocovariance relies on the time shift.
@@ -247,4 +328,5 @@ $$
 \gamma_{t}(j) = \text{Cov}(Y_t, Y_{t-j}) = E[(Y_t-\mu)(Y_{t-j}-\mu)].
 $$
 
-- $\gamma$ denotes autocovariance coefficients; $\rho$ denotes autocorrelation coefficients.
+- $\gamma$ denotes autocovariance coefficients; $\rho$ denotes autocorrelation coefficients. \
+  $\gamma(1)$ is called the first-order autocovariance coefficient and $\rho(1)$ the first-order autocorrelation coefficient.
