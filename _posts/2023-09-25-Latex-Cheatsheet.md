@@ -290,11 +290,11 @@ $\sup$, $\inf$
   $$
   ```
 
-- Curly braces in eqns need to be escaped. `\{ ... \}`  E.g., $\exp\left \{ \ldots \right\}$ (`\exp\left \{ \ldots \right\}`)
+- Curly braces in eqns need to be escaped. `\{ ... \}` or `\\{ ... \\}` (the slash needs to be escaped itself).  E.g., 
 
-  $\exp\left \{-\frac{1}{2}\left(\frac{x-\mu}{\sigma^2}\right)^2 \right\}$
-
-  - If still encounter problems, use `\lbrace` and `\rbrace`: $\lbrace Z_t \rbrace_{t=0}^T$
+  - $\exp \\{ \ldots \\}$ (`\exp \\{ \ldots \\}`)
+  - $\exp \\{-\frac{1}{2}\left(\frac{x-\mu}{\sigma^2}\right)^2 \\}$ (`\exp \\{-\frac{1}{2}\left(\frac{x-\mu}{\sigma^2}\right)^2 \\}`)
+  - If still encounter problems, use `\lbrace` and `\rbrace`: $\exp \lbrace \ldots \rbrace$ (`\exp \lbrace \ldots \rbrace`) and $\lbrace Z_t \rbrace_{t=0}^T$ (`\lbrace Z_t \rbrace_{t=0}^T`). This is the **safest** way.
 
 - Add whitespace between equations, use `\quad` and `\hspace{20pt}` for long space; and  `\;` for short space.
 

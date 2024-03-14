@@ -322,7 +322,7 @@ https://www.bilibili.com/video/BV1RP411674x/?vd_source=8b2f77d46ba39c403a6122be0
 
 - 金属和树脂笔杆不防滑；手汗者慎入。写乐14K 会比较滑。
 
-- 推荐橡胶，磨砂，木质或者特殊形状人体工学笔握，如Lamy Safari 三角笔握。总体而言，德系笔实用，外形走粗犷。
+- 推荐橡胶，磨砂，木质或者特殊形状人体工学笔握，如Lamy Safari 三角笔握，辉柏嘉防滑环。总体而言，德系笔实用，外形走粗犷。
 
 
 
@@ -340,6 +340,14 @@ https://www.bilibili.com/video/BV1RP411674x/?vd_source=8b2f77d46ba39c403a6122be0
 - 黑锐 (Ray) 橡胶笔握
 
   <img src="https://drive.google.com/thumbnail?id=1r4BY_QvGHFL7uDfO3OL5d7xAZ96pEqD1&sz=w1000" alt="2019060462412153" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
+
+**Faber-Castell** 辉柏嘉
+
+<https://www.faber-castell.com/products/EssentioCarbonfountainpenMblack/148820>
+
+
 
 
 
