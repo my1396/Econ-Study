@@ -139,6 +139,16 @@ recursive substitution 迭代
 
 counterexample 反例
 
+$>$ greater than 大于
+
+$<$ less than 小于
+
+inequality 不等式 (大于/小于)
+
+Multiplying or dividing both sides by a positive number leaves the inequality symbol unchanged.
+
+Multiplying or dividing both sides by a negative number **reverses**/ **flips** the inequality. This means $<$ changes to $>$, and vice versa.
+
 **Sample and population**
 
 - DGP (data generating process) generates the data that we observe.
