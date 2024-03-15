@@ -31,7 +31,15 @@ Sample average: $\overline{X}$ (`\overline{X}`, line is longer), $\bar{X}$ (`\ba
 
 
 
+Sometimes, hat or bar symbols look too light. You might want a bolder version of them.
 
+```latex
+\newcommand{\thickhat}[1]{\mathbf{\hat{\text{$#1$}}}}
+\newcommand{\thickbar}[1]{\mathbf{\bar{\text{$#1$}}}}
+\newcommand{\thicktilde}[1]{\mathbf{\tilde{\text{$#1$}}}}
+```
+
+<img src="https://drive.google.com/thumbnail?id=1vB4OiKSNhAngU57BkMlfxzH54NF-7g9x&sz=w1000" alt="thick_symbol" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
 
 
 

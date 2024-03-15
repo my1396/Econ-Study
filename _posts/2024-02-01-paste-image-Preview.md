@@ -61,17 +61,29 @@ It is possible to paste an image into a PDF page from the clipboard, but you mus
    }
    ```
 
-   `Text` works best when you have a combination of texts and eqns.
+   Colored `eqn + text`, use <span style='color:#32CD32'>`textcolor`</span> in `Text` mode.
 
-    `Display` and `inline` modes work best when you have multi-line equations to show.
+   <img src="https://drive.google.com/thumbnail?id=17VEWrpFNIA1tICSP6JgupCHITg73hbkE&sz=w1000" alt="color_eqn" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
+
+   Differnt environments:
+
+   - `Text` works best when you have a combination of texts and eqns.
+
+   - `Display` and `Inline` modes work best when you have only multi-line *equations* to show.
+
+   For example, in `Display` mode:
 
    ```latex
    \begin{aligned}
    p_t&=p_{t-1}+\epsilon_t \\
    r_t&=p_t-p_{t-1}=\epsilon_t \sim \text{IID} (0, \sigma^2)
    \end{aligned}
-   
-   % change eqn color
+   ```
+
+   `textcolor` doesn't work inside `aligned` environment. Have to use <span style='color:#32CD32'>**`mathcolor`**</span> from the `xcolor` package.
+
+   ```latex
+   % change eqn color in `Display` mode
    % \usepackage{xcolor} % for mathcolor
    \begin{aligned}
    \mathcolor{blue}{
@@ -79,9 +91,24 @@ It is possible to paste an image into a PDF page from the clipboard, but you mus
    r_t&\equiv \Delta p_t = p_t-p_{t-1}=\epsilon_t \sim \text{IID} (0, \sigma^2) 
    }
    \end{aligned}
+   
+   % add white background box in `Text` or `Display` modes
+   \noindent
+   \colorbox{white}{
+   \begin{minipage}{\linewidth}
+   $$
+   \begin{aligned}
+   \mathcolor{blue}{
+   p_t&=p_{t-1}+\epsilon_t \\
+   r_t&\equiv \Delta p_t = p_t-p_{t-1}=\epsilon_t \sim \text{IID} (0, \sigma^2) 
+   }
+   \end{aligned}
+   $$
+   \end{minipage}
+   }
    ```
 
-   
+   <img src="https://drive.google.com/thumbnail?id=15ITke2nlWAdGBNhVccrNhQIejk4gW7SH&sz=w1000" alt="color_display" style="display: block; margin-right: auto; margin-left: auto; zoom:40%;" />
 
 2. copy and paste in Preview.
 
