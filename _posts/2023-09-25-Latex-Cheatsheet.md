@@ -117,17 +117,17 @@ Note:
 |      `\angle` | ∠    | `\measuredangle` |    ∡ |
 |       `\surd` | √    |        `\forall` |    ∀ |
 
-
+**QED**
 
 When creating TeX, Knuth provided the symbol $\blacksquare$ (black square, `\blacksquare`), also called by mathematicians tombstone or Halmos symbol (after Paul Halmos, who pioneered its use). 
 
-The tombstone is sometimes open: $\square$ (white square, `\square`).
+The tombstone is sometimes open: $\square$ (white square, `\square`) or $\Box$ (`\Box`).
 
 HTML and XML provide ways to reference Unicode characters when the characters themselves either cannot or should not be used.
 
 Unicode characters for geometric shapes: <http://www.unicode.org/charts/nameslist/n_25A0.html>
 
-A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is in decimal form, `hhhh` is in hexadecimal form. The `&` and `;` are required.
+A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is in decimal form, `hhhh` is in hexadecimal form. The `&#` and `;` are required.
 
 
 
