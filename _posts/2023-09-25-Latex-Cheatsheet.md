@@ -149,11 +149,11 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
 #### Binary operators
 
-|    LaTex |              |  LaTex |        |
-| -------: | ------------ | -----: | -----: |
-| `\wedge` | ∧ (and)      | `\vee` | ∨ (or) |
-|   `\neg` | $\neg$ (not) |        |        |
-|   `\ast` | $\ast$       |        |        |
+|    LaTex |              |    LaTex |          |
+| -------: | ------------ | -------: | -------: |
+| `\wedge` | ∧ (and)      |   `\vee` |   ∨ (or) |
+|   `\neg` | $\neg$ (not) |   `\div` |   $\div$ |
+|   `\ast` | $\ast$       | `\times` | $\times$ |
 
 
 
@@ -276,9 +276,11 @@ Display shows eqns in block, text style shows inline.
 
 $\arccos$, $\arcsin$, $\arctan$, $\arg$, $\cos$, $\cosh$, $\cot$, $\coth$, $\sec$, $\sin$, $\sinh$, 
 
-$\deg$, $\det$, $\dim$, ${\color{#32CD32}\exp}$, $\gcd$, $\hom$, $\injlim$, $\projlim$, $\lg$, 
+$\deg$, $\det$, $\dim$, ${\color{#32CD32}\exp}$, $\gcd$, $\hom$, $\injlim$, $\projlim$, 
 
-$\lim$, $\liminf$, $\limsup$, $\ln$, $\log$, 
+$\lim$, $\liminf$, $\limsup$, 
+
+$\ln$ (natural logarithm), $\log$, $\lg$ (the logarithm to base 10), 
 
 $\max$, $\min$, $\Pr$, 
 

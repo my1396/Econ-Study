@@ -139,9 +139,15 @@ recursive substitution 迭代
 
 counterexample 反例
 
-$>$ greater than 大于
+$>$ **g**reater than, larger than 大于
 
-$<$ less than 小于
+$<$ **l**ess than, smaller than 小于
+
+$\geq$ is greater than or equal to 大于等于
+
+$\leq$ is greater than or equal to 小于等于
+
+$\approx$ approximately equal to  约等于
 
 inequality 不等式 (大于/小于)
 
@@ -343,12 +349,104 @@ Geometric illustraion: \
 <https://math.stackexchange.com/a/1730547>
 
 
-**Inner and Outer Product**
+## Inner and Outer Product
 
 If $\boldsymbol{u}$ and $\boldsymbol{v}$ are column vectors with the same size, then $\boldsymbol{u}^T \boldsymbol{v}$ is the inner product; if $\boldsymbol{u}$ and $\boldsymbol{v}$ are column vectors of any size, then $\boldsymbol{u} \boldsymbol{v}^T$ is the outer product.
 
 - Inner product is a *number*;
 - Outer product is a *matrix*. Let $\boldsymbol{u}$ be $n\times 1$ and $\boldsymbol{v}$ be $m\times 1$, then $\boldsymbol{u} \boldsymbol{v}^T$ is $n\times m$.
+
+**Elementary arithmetic**
+
+四则运算
+
+$a+b=c$: a plus b equals c (plus是介词).
+
+$a-b=c$: a minus b equals c (minus是介词); b substracted from a leaves c.
+
+$a\times b=c$: a times b equals c (times是介词); a multiplied by b is c.
+
+$a\div b=c$: a divided by b equals c.
+
+$1/x$: the reciprocal of x.
+
+$3:5$: three to five.
+
+## Polynomial and Exponential 
+
+多项式与指数
+
+$A^B$: $A$ is called the base (底数), $B$ is exponent (指数).
+
+Polynomials, $x$ in the base. constant ($x^0$), linear ($x$), quadratic ($x^2$), cubic ($x^3$), quartic terms ($x^4$).
+
+$x^4$ read as $x$ to the 4th or the quartic term.
+
+ $2^{16}$ is read as "2 to the 16th power" or "2 to the power of 16" in formal speech. Commonly, a ellipsis of the first expression is used "2 to the 16th" (ordinal) or "2 to the 16" (w/o ordinal).
+
+For example, a polynomial $x^{109} + 9x^5 − 2x^2$ is most likely pronounced:
+
+>   x to the hundred and nine plus nine x to the fifth minus two x squared.
+
+**Exponential** $x$ in the exponent.
+
+If there is a *variable* in the exponent, the ordinal is not used. $x^y$ is read as "x to <span style='color:#32CD32'>*the*</span> y". The -th is dropped.
+
+开方 ($n$th root)
+
+$\sqrt{9}$: the square root of $9$.
+
+$\sqrt[3]{9}$: the cube root of $8$.
+
+$\sqrt[b]{b}$: the $n$-th root of $b$.
+
+对数 (logarithm)
+
+$\log_b x$: the logarithm of $x$ to base $b$.
+
+$\log x, \ln x, \log_ex$: the natural logarithm of $x$.
+
+$\lg x, \log_10x$: the common logarithm of $x$.
+
+$\text{lb} x, \log_2x$: the binary logarithm of $x$.
+
+
+1 micrometer = $10^{-6}$ meter
+
+1 nanometer = $10^{-9}$ meter
+
+$a_1$: a (sub) one.
+
+$\epsilon_{ijk}$: epsilon (sub) ijk.
+
+$a^i$: a super $i$.
+
+
+**Arithmetic Sequence/Progression** 等差数列
+
+$a_1, a_2, ..., a_n$ has common difference $d$, $n$ is the number of terms. Some useful formulas:
+
+-   the $n$-th term $a_n=a_1+(n-1)d$ 
+-   sum of $n$ terms $S_n=\frac{(a_1+a_n)n}{2}=na_1+\frac{n(n-1)}{2}d$
+-   number of terms $n=\frac{a_n-a_1}{d}+1$
+-   common difference $d=\frac{a_n-a_1}{n-1}$
+
+**Geometric Sequence/Progression** 等比数列
+
+$a_1, a_2, ..., a_n$ has common ratio $q$.
+
+-   $a_n=a_1\cdot q^{n-1}$
+-   $S_n= \frac{a_1(1-q^n)}{1-q}$
+
+
+
+**Distribution Functions**
+
+Visualization tool: <https://seeing-theory.brown.edu/probability-distributions/>
+
+Plot a function: <https://www.desmos.com/calculator>
+
+___
 
 ## Matrices
 
@@ -631,57 +729,6 @@ $$
 
 ___
 
-**Polynomial and Exponential**
-
-$A^B$: $A$ is called the base, $B$ is exponent.
-
-Polynomials, $x$ in the base. constant ($x^0$), linear ($x$), quadratic ($x^2$), cubic ($x^3$), quartic terms ($x^4$).
-
-$x^4$ read as $x$ to the 4th or the quartic term.
-
- $2^{16}$ is read as "2 to the 16th power" or "2 to the power of 16" in formal speech. Commonly, a ellipsis of the first expression is used "2 to the 16th" (ordinal) or "2 to the 16" (w/o ordinal).
-
-For example, a polynomial $x^{109} + 9x^5 − 2x^2$ is most likely pronounced:
-
->   x to the hundred and nine plus nine x to the fifth minus two x squared.
-
-**Exponential** $x$ in the exponent.
-
-If there is a variable in the exponent, the ordinal is not used. $x^y$ is read as "x to <span style='color:#32CD32'>*the*</span> y". The -th is dropped.
-
-
-
-1 micrometer = $10^{-6}$ meter
-
-1 nanometer = $10^{-9}$ meter
-
-
-
-**Arithmetic Sequence/Progression** 等差数列
-
-$a_1, a_2, ..., a_n$ has common difference $d$, $n$ is the number of terms. Some useful formulas:
-
--   the $n$-th term $a_n=a_1+(n-1)d$ 
--   sum of $n$ terms $S_n=\frac{(a_1+a_n)n}{2}=na_1+\frac{n(n-1)}{2}d$
--   number of terms $n=\frac{a_n-a_1}{d}+1$
--   common difference $d=\frac{a_n-a_1}{n-1}$
-
-**Geometric Sequence/Progression** 等比数列
-
-$a_1, a_2, ..., a_n$ has common ratio $q$.
-
--   $a_n=a_1\cdot q^{n-1}$
--   $S_n= \frac{a_1(1-q^n)}{1-q}$
-
-
-
-**Distribution Functions**
-
-Visualization tool: <https://seeing-theory.brown.edu/probability-distributions/>
-
-Plot a function: <https://www.desmos.com/calculator>
-
-___
 
 **Change of Variable Formula**
 

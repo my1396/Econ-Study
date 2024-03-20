@@ -241,6 +241,16 @@ Oslo operates two EU regulated markets, Oslo Børs (`XOSL`) and Euronext Expand 
 
 
 
+Finanical service companies publish surveys about financial data. For instance, PwC Norge.
+
+- Here is their annual report about RFF: <https://www.pwc.no/no/publikasjoner/risikopremien.html>
+
+
+
+
+
+
+
 **Asset Pricing data at OSE**
 
 <https://ba-odegaard.no/financial_data/ose_asset_pricing_data/index.html>
