@@ -406,7 +406,7 @@ $\log_b x$: the logarithm of $x$ to base $b$.
 
 $\log x, \ln x, \log_ex$: the natural logarithm of $x$.
 
-$\lg x, \log_10x$: the common logarithm of $x$.
+$\lg x, \log_{10}x$: the common logarithm of $x$.
 
 $\text{lb} x, \log_2x$: the binary logarithm of $x$.
 
