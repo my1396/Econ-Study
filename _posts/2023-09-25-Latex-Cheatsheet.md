@@ -164,9 +164,9 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 |          LaTex |                |       LaTex |             |
 | -------------: | -------------- | ----------: | ----------: |
 |         `\geq` | ≥              |      `\leq` |           ≤ |
-|       `\equiv` | ≡              |      `\sim` |           ∼ |
-|          `\gg` | ≫              |       `\ll` |           ≪ |
-|         `\mid` | $\mid$         |   `\propto` |           ∝ |
+|       `\equiv` | ≡              |      `\sim` |      $\sim$ |
+|          `\gg` | ≫              |       `\ll` |       $\ll$ |
+|         `\mid` | $\mid$         |   `\propto` |   $\propto$ |
 |        `\perp` | ⊥              | `\parallel` | $\parallel$ |
 | `\vartriangle` | $\vartriangle$ |  `\leadsto` |  $\leadsto$ |
 |   `\triangleq` | $\triangleq$   |   `\approx` |   $\approx$ |
@@ -199,12 +199,22 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
   $\equiv$ (`\equiv`) is used to denote shorthand. There is no logical or physical content here; two expressions which are separated by $\equiv$ have exactly the same meaning, but are written a different way.
 
+- $\sim$      means 
+
+  - "sampled from" or "has the distribution of",
+
+  - "of the order of", "approximately equal to",
+
+  - "proportional to".  
+
+- $\propto$ (`\propto`)  means proportional to.
+
 - $\overset{\text{aprrox}}{\sim}$ (`\overset{\text{aprrox}}{\sim}`) for approximately distributed with.
 
   $\;\;\overset{\text{a}}{\sim}\;\;$ (`\overset{\text{a}}{\sim}`) indicates that the distributional relation is asymptotic.
-  
+
   $\;\;\overset{\text{a}}{=}\;\;$ (`\overset{\text{a}}{=}`) indicates that the equality holds asymptotically.
-  
+
   
 
 
@@ -246,6 +256,9 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
 Summation operators: $\displaystyle\sum_{i=1}^n$ (`\displaystyle\sum_{i=1}^n`) vs $\textstyle\sum_{i=1}^n$ (`\textstyle\sum_{i=1}^n`).
 
+- `\displaystyle` apply the style used for mathematics typeset on lines by themselves.
+- `\textstyle` apply the style used for mathematics typeset in paragraphs.
+
  `\lim_{n\to\infty}` for inline limits: $\lim_{n\to\infty}$
 
  `\displaystyle\lim_{n\to\infty}` for display limits: $\displaystyle\lim_{n\to\infty}$
@@ -270,11 +283,19 @@ Display shows eqns in block, text style shows inline.
 
   `\cdots` used between plus/minus signs, e.g., $a_1+ \cdots + a_n$ ;
 
+**Interpunct** 
+
+An interpunct `⟨·⟩`, also known as an interpoint, middle dot, middot, centered dot or centred dot, is a punctuation mark consisting of a vertically centered dot used for interword separation in Classical Latin. 
+
+On mac, use `Shift+Opt+9` to type `·`
+
+
+
 
 
 #### Named operators
 
-$\arccos$, $\arcsin$, $\arctan$, $\arg$, $\cos$, $\cosh$, $\cot$, $\coth$, $\sec$, $\sin$, $\sinh$, 
+$\arccos$, $\arcsin$, $\arctan$, $\cos$, $\cosh$, $\cot$, $\coth$, $\sec$, $\sin$, $\sinh$, 
 
 $\deg$, $\det$, $\dim$, ${\color{#32CD32}\exp}$, $\gcd$, $\hom$, $\injlim$, $\projlim$, 
 
@@ -282,7 +303,7 @@ $\lim$, $\liminf$, $\limsup$,
 
 $\ln$ (natural logarithm), $\log$, $\lg$ (the logarithm to base 10), 
 
-$\max$, $\min$, $\Pr$, 
+$\max$, $\min$, $\arg$,  $\Pr$, 
 
 $\sup$, $\inf$
 
@@ -306,7 +327,9 @@ $\sup$, $\inf$
   - $\exp \\{-\frac{1}{2}\left(\frac{x-\mu}{\sigma^2}\right)^2 \\}$ (`\exp \\{-\frac{1}{2}\left(\frac{x-\mu}{\sigma^2}\right)^2 \\}`)
   - If still encounter problems, use `\lbrace` and `\rbrace`: $\exp \lbrace \ldots \rbrace$ (`\exp \lbrace \ldots \rbrace`) and $\lbrace Z_t \rbrace_{t=0}^T$ (`\lbrace Z_t \rbrace_{t=0}^T`). This is the **safest** way.
 
-- Add whitespace between equations, use `\quad` and `\hspace{20pt}` for long space; and  `\;` for short space.
+- Add whitespace between equations, use `\quad`, `\qquad`, and `\hspace{20pt}` for long space; and  `\;` for short space.
+
+- $\min_{\forall s \in S_j} q_k(s)$ (`\min_{\forall s \in S_j} q_k(s)`) text under min/max.
 
 
 
@@ -319,6 +342,25 @@ $\sup$, $\inf$
 `${\color{#32CD32}\exp}$` ${\color{#32CD32}\exp}$ Need to quote the part you want to color in curly braces; otherwise, everything behind will change color too.
 
 
+
+#### Escaped/Reserved Characters
+
+The reserved characters have, in addition to the pure representation of the character, an additional function. Therefore, they cannot be used simply because it is generally assumed first that the function and not the character is meant. 
+
+<https://www.sascha-frank.com/reserved_characters.html>
+
+| \    | masks special characters and initiates commands.    |
+| ---- | --------------------------------------------------- |
+| { }  | Contains arguments, creates text blocks             |
+| %    | Comment character: The rest of the line is ignored. |
+| ^    | Exponent in math mode                               |
+| _    | Index in math mode                                  |
+| &    | depending on context - Tabulator                    |
+| #    | Parameters                                          |
+| ~    | Protected space.                                    |
+| [,]  | Square brackets                                     |
+| <,>  | Lace braces                                         |
+| "    | Quotation marks                                     |
 
 
 

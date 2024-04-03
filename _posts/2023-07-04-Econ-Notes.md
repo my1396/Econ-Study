@@ -400,6 +400,8 @@ $\sqrt[3]{9}$: the cube root of $8$.
 
 $\sqrt[b]{b}$: the $n$-th root of $b$.
 
+$e^x$: take the exponential of $x$ or apply the exponential function to $x$.
+
 对数 (logarithm)
 
 $\log_b x$: the logarithm of $x$ to base $b$.
