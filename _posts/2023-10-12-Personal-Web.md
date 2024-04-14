@@ -11,13 +11,16 @@ Reserve this url to
 
 - build project websites: <http://username.github.io/repository>
 
-Nice personal website template from a professor: https://ryancordell.org
+Nice personal website template from a professor: <https://ryancordell.org>
 
 
 
-**Make your site and pages appear on Google search result**
+**Make your site and pages appear on Google Search result**
 
-Set up sitemap for your website and submit it to Google Search Engine.
+If your webpages are not indexed, they can't be served on Google and hence not searchable. In order to index your website, need to 
+
+1. set up a `sitemap` for your website, and 
+2. submit it to Google Search Engine.
 
 `sitemap` address: <https://my1396.github.io/sitemap.xml>
 
@@ -58,6 +61,36 @@ Now, commit the changes and hit the URL `yourwebsite.com/sitemap.xml`. You shoul
 
 
 
+**Write your own `sitemap.xml`**
+
+1. Create `<urlset>` and put your webpage address in `<url>` and `<loc>` tags.
+
+2. Put the `sitemap.xml` file in the publishing source folder, i.e., `/docs` for Github Pages sites.
+
+```xml
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+	<loc>https://my1396.github.io/EK369E/</loc>
+  </url>
+  <url>
+	<loc>https://my1396.github.io/EK369E/w1.html</loc>
+  </url>
+  <url>
+	<loc>https://my1396.github.io/EK369E/w2.html</loc>
+  </url>
+  <url>
+	<loc>https://my1396.github.io/EK369E/w3.html</loc>
+  </url>
+  <url>
+	<loc>https://my1396.github.io/EK369E/w4.html</loc>
+  </url>
+</urlset>
+```
+
+
+
+
+
 **Discovered but not indexed**
 
 <https://github.com/orgs/community/discussions/50379>
@@ -95,8 +128,8 @@ My personal understanding or to say my personal usage of Gist and GitHub is:
 
 - GitHub
 
-A big project work. If you want to build website, develop mobile or web application, or do your assignment with your teammates, of course use GitHub.
+  A big project work. If you want to build websites, develop mobile or web applications, or do your assignments with your teammates, of course use GitHub.
 
 - Gist
 
-More like a memo. For example, you can write the implementation of a small feature and share it to your blog, or write down what you think about the project and share it with your teammates. Just like what the above answers said, Gist is used for more like code snippet thing. So normally if you work on a project, you use GitHub.
+  More like a memo. For example, you can write the implementation of a small feature and share it to your blog, or write down what you think about the project and share it with your teammates. Gist is used for more like code *snippet* thing. So normally if you work on a project, you use GitHub.

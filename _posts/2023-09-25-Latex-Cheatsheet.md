@@ -117,6 +117,10 @@ Note:
 |      `\angle` | ∠    | `\measuredangle` |    ∡ |
 |       `\surd` | √    |        `\forall` |    ∀ |
 
+- `'` prime symbol is a shorthand for `^\prime` .
+
+
+
 **QED**
 
 When creating TeX, Knuth provided the symbol $\blacksquare$ (black square, `\blacksquare`), also called by mathematicians tombstone or Halmos symbol (after Paul Halmos, who pioneered its use). 
