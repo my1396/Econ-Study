@@ -486,6 +486,11 @@ Otherwise you need to apply by post for a new license. Need to fill out a D1 for
 
 - Applied Feb 16, 2024; submitted application form and UK driver license;
 - Called on Mar 13, 2024 to trace my case's progress. [under treatment, wait up to 3 months; temporary driver license expires on May 16, 2024]
-- 
 
+**Statens Vegvesen** <https://www.vegvesen.no/om-oss/kontakt-oss/ring-oss/>
 
+Tel: +47 2207 3000
+
+Førerkort openning hours: Mandag–fredag kl. 9.00–kl. 14.00
+
+9(English)-2(førekort)-3-2

@@ -423,6 +423,11 @@ $\epsilon_{ijk}$: epsilon (sub) ijk.
 
 $a^i$: a super $i$.
 
+Distributive law for multiplication (from product of sums to double sums)
+
+$$
+\sum_{i=1}^k a_i \cdot \sum_{j=1}^m b_j = \sum_{i=1}^k \left(\sum_{j=1}^m a_ib_j\right)
+$$
 
 **Arithmetic Sequence/Progression** 等差数列
 
@@ -438,7 +443,7 @@ $a_1, a_2, ..., a_n$ has common difference $d$, $n$ is the number of terms. Some
 $a_1, a_2, ..., a_n$ has common ratio $q$.
 
 -   $a_n=a_1\cdot q^{n-1}$
--   $S_n= \frac{a_1(1-q^n)}{1-q}$
+-   $\displaystyle S_n= \frac{a_1(1-q^n)}{1-q}$
 
 
 
