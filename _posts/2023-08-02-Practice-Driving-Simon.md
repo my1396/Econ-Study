@@ -493,4 +493,6 @@ Tel: +47 2207 3000
 
 Førerkort openning hours: Mandag–fredag kl. 9.00–kl. 14.00
 
+Tirsdag + Torsdag stengt (must check openning hours before dropping in)
+
 9(English)-2(førekort)-3-2

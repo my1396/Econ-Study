@@ -372,6 +372,25 @@ $1/x$: the reciprocal of x.
 
 $3:5$: three to five.
 
+两位数的英文写法 (21-99): write the tens part, then, put a hyphen (-), and write the ones part. E.g., 68 (sixty-eight).
+
+三位数的英文写法 (100-999): write the hundreds part. Then write the tens part, hyphen, then the ones part. E.g., 341 (three hundred forty-one).
+
+hundred, thousand, million etc. in numbers are used as adjectives. So they are not changed to plural numbers by adding -s to them.
+
+**Fractions in word**
+
+- Use hyphen between the numerator and the denominator. 
+  - When the numerator or the denominator includes a hyphen already, then the hypen between the numerator and the denominator is often dropped for style purposes. E.g., $3/35$ (three thirty-fifths)
+- Numberator is in cardinal (one, two, three 基数词); denominator is in ordinal (first, second, third 序数词).
+- E.g., $1/2$ (one-half), $2/3$ (two-thirds), $3/11$ (three-elevenths), $3 5/7$ (three and five-sevenths)
+
+Decrease/increase a negative number: "Decrease" and "increase" refer to the absolute value. 
+- Decreasing a nagative number means move toward zero; i.e., add a positive number to it. E.g, decreasing -5 by 3 results in -2.
+- Increaseing a negative number means move apart from zero;
+
+
+
 ## Polynomial and Exponential 
 
 多项式与指数

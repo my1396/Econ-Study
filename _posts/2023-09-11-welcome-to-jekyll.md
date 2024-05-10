@@ -70,6 +70,32 @@ bulb: E14 SES 40W, 470lm LED warm white
 
 
 
+___
+
+### Klarna
+
+Swidish fintech company, offers "buy now, pay later" online shopping.
+
+- **Pay later in 30 days**
+
+  Klarna’s ‘Pay in 30 days’ allows you to receive your order up front and get up to 30 days to pay without any interest and fees. In our app you’ll have the option to pay off the balance earlier or extend the due date to a later date for a fee if needed.
+
+  If your order is eligible for ‘Pay in 30 days’, the option will be presented at the time of checkout. As soon as the store ships your order, you will receive an email from Klarna outlining your payments. Your purchase and payments will then be visible and manageable in your Klarna App. 
+
+  There is no fee to use ‘Pay in 30 days’!
+
+- **Pay in 4**
+
+  Split into 4 installments, interest-free, pay automatically every 2 weeks.
+
+**Make a return**
+
+> If you need to return part or all of your order, follow the store’s return instructions. Then log into your Klarna account, select “report a return”, and we will pause your statement.
+
+
+
+
+
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
