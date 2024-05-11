@@ -139,21 +139,21 @@ recursive substitution 迭代
 
 counterexample 反例
 
-$>$ **g**reater than, larger than 大于
+$>$ greater than, larger than 大于
 
-$<$ **l**ess than, smaller than 小于
+$<$ less than, smaller than 小于
 
-$\geq$ is greater than or equal to 大于等于
+$\geq$ greater than or equal to 大于等于
 
-$\leq$ is greater than or equal to 小于等于
+$\leq$ less than or equal to 小于等于
 
 $\approx$ approximately equal to  约等于
 
-inequality 不等式 (大于/小于)
+Inequality 不等式 (大于/小于)
 
-Multiplying or dividing both sides by a positive number leaves the inequality symbol unchanged.
+- Multiplying or dividing both sides by a positive number leaves the inequality symbol unchanged.
 
-Multiplying or dividing both sides by a negative number **reverses**/ **flips** the inequality. This means $<$ changes to $>$, and vice versa.
+- Multiplying or dividing both sides by a negative number **reverses**/ **flips** the inequality. This means $<$ changes to $>$, and vice versa.
 
 **Sample and population**
 

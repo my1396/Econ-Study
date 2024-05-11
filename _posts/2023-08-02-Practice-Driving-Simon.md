@@ -482,17 +482,30 @@ Otherwise you need to apply by post for a new license. Need to fill out a D1 for
 
 - If you’re applying for a full licence by post, you must send documents to the DVLA within 2 years of passing your test or you’ll have to take it again.
 
-## Exchange to Norweigan Driver License
+
+
+___
+
+### Exchange to Norweigan Driver License
 
 - Applied Feb 16, 2024; submitted application form and UK driver license;
 - Called on Mar 13, 2024 to trace my case's progress. [under treatment, wait up to 3 months; temporary driver license expires on May 16, 2024]
+- May 8, 2024 went to extend my temporary license. 
 
 **Statens Vegvesen** <https://www.vegvesen.no/om-oss/kontakt-oss/ring-oss/>
 
 Tel: +47 2207 3000
 
+9(English)-2(førekort)-3-2
+
 Førerkort openning hours: Mandag–fredag kl. 9.00–kl. 14.00
 
-Tirsdag + Torsdag stengt (must check openning hours before dropping in)
+- better to make an appointment ([Bestill Time](https://www.vegvesen.no/om-oss/kontakt-oss/timebestilling/) på trafikkstasjon) to avoid long waiting time when dropping in;
+- Tirsdag + Torsdag stengt (must check openning hours before dropping in) 
 
-9(English)-2(førekort)-3-2
+Call Statens Vegvesen doesn't help at all. They can not track the progress or identifying an issue if there were any. 
+
+They at first fucked up when I first submitted my request. After three months of waiting, I went to extend my temporary license, the officer said they made a mistake and need to start all over again. The usual waiting time is 1-2 weeks. Results will be given in Digipost. Then go to Statens Vegvesen, take a picture and pick up the card.
+
+It's suggested to go the Statens Vegvesen if the waiting time is too long to be normal.
+
