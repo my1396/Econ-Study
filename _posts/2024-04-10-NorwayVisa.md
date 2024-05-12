@@ -162,6 +162,45 @@ A: 可以前往签证申请中心领取结果也可以通过<u>快递送达</u>�
 
 
 
+**长期签证** (Longer visit to Norway)
+
+- Parent who is visiting children in Norway for up to nine months.
+
+  If you plan to visit your child, you can also apply for a residence permit to visit children in Norway for <u>up to nine months</u>.
+
+  This falls in the category of [*family immigration*](https://www.udi.no/en/want-to-apply/family-immigration/).
+
+  父母探亲签证 — 居留许可。麻烦一些，最多9个月。一年内不能再申请。手续费为1万。
+
+  > You can apply for visa for nine months if your child (reference person) has a permanent residence permit under the EU/EEU regulations. 
+
+  
+
+- Parent who is moving to children over the age of 18 in Norway. 
+
+  父母60岁以上，且无人照顾，可接来挪威团聚。
+
+
+
+Family immigration means that a family member living abroad is allowed to come to Norway to live with his or her family. The person who the family member living abroad wishes to be reunited with must have Norwegian or Nordic citizenship or a residence permit constituting grounds for family immigration.
+
+A residence permit on the grounds of family reunification is primarily granted to close family members. After three years with a residence permit one can apply for a permanent residence permit. Family members are considered to be:
+
+\- Spouse and registered partner \\
+\- Fiancée \\
+\- Cohabitants who have lived together for at least two years \\
+\- Cohabitants who are expecting a child together \\
+\- Children under 18 whose parent/s live in Norway \\
+\- Parents whose children under 18 live in Norway \\
+\- Parental visit for up to 9 months \\
+\- Other family members (when strong humanitarian considerations warrant it)
+
+
+
+
+
+
+
 需要提前办理的材料：
 
 1. **亲属关系公证书**  (出生证明，证明母女关系)
