@@ -241,17 +241,43 @@ If you are alone in the accident with your own car, no costs for repairs will be
 
 Da får du 60 % startbonus hos oss!
 
+3113 * 40% = 1245.2 kr/md.
+
 <img src="https://drive.google.com/thumbnail?id=16mFflfMUtw5ticUOwtQVjvGq3Pz9xGnT&sz=w1000" alt="if" style="display: block; margin-right: auto; margin-left: auto; zoom:100%;" />
 
 
 
-Sparebanken fremtiden 
+**Sparebanken fremtiden** 
+
+<https://www.sparebank1.no/nb/bank/privat/forsikring/bilforsikring/bilforsikringer.html>
+
+Toppkasko 1560 kr/md
+
+<img src="https://drive.google.com/thumbnail?id=1zxdpMNzlyihymy3hGgdFGyuLlR-u_g-K&sz=w1000" alt="spare fremtind" style="display: block; margin-right: auto; margin-left: auto; zoom:100%;" />
+
+**Kasko** 1481 kr/md
+
+Can I choose my own egenandel?
+
+What is the **Trafikk­forsikrings­avgift**, which is 228kr/md?
+
+> You pay the <u>traffic insurance fee</u> to your insurance company, together with the insurance on your car.
+>
+> The annual fee was changed to a traffic insurance fee in 2018. It is mandatory to have valid insurance for all registered vehicles. If you do not pay insurance and the traffic insurance fee (annual fee) for your vehicle, you will be charged for each day the vehicle is uninsured.
+>
+> If you have questions about the traffic insurance fee (annual fee), contact your insurance company. You can also read more about traffic insurance tax on the Traffic Insurance Association's website.
+
+
+
+**Gjensidige**
+
+<img src="https://drive.google.com/thumbnail?id=1UNenLxbpP2TBFF_Zhb_qR1fUPBrZnCD8&sz=w1000" alt="Gjensidige" style="display: block; margin-right: auto; margin-left: auto; zoom:100%;" />
 
 
 
 Egenandel (Deductible) 免赔额，就是说在保险公司支付你的索赔之前，你需要先支付这个免赔额。
 
-
+- Gjensidige Kasko & Pluss 8000 kr; 可以自己选
 
 
 
