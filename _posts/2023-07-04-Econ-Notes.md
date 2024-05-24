@@ -415,13 +415,13 @@ If there is a *variable* in the exponent, the ordinal is not used. $x^y$ is read
 
 $\sqrt{9}$: the square root of $9$.
 
-$\sqrt[3]{9}$: the cube root of $8$.
+$\sqrt[3]{8}$: the cube root of $8$.
 
 $\sqrt[n]{b}$: the $n$-th root of $b$.
 
 $e^x$: take the exponential of $x$ or apply the exponential function to $x$.
 
-Scientific e notation:  Because superscript exponents like $10^7$ can be inconvenient to display or type, the letter "E" or "e" (for "exponent") is often used to represent "times ten raised to the power of", so that the notation m E n for a decimal significand m and integer exponent n means the same as m × 10n. E.g., $6\times 10^7$ can be written as 6e7.
+*Scientific e notation*:  Because superscript exponents like $10^7$ can be inconvenient to display or type, the letter "E" or "e" (for "exponent") is often used to represent "times ten raised to the power of", so that the notation m E n for a decimal significand m and integer exponent n means the same as m × 10n. E.g., $6\times 10^7$ can be written as 6e7.
 
 - e+n or en: $10^n$ (`+` can be omitted for positive exponent)
 - e-n: $10^{-n}$
