@@ -52,7 +52,7 @@ NOK 600,000 - 140 kr/md
 
 
 
-**Accident Insurance **(Ulykkesforsikring)
+**Accident Insurance** (Ulykkesforsikring)
 
 2,300,000 - 152 kr/md
 
