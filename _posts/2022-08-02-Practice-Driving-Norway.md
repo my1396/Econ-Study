@@ -251,11 +251,17 @@ Da får du 60 % startbonus hos oss!
 
 <https://www.sparebank1.no/nb/bank/privat/forsikring/bilforsikring/bilforsikringer.html>
 
-Toppkasko 1560 kr/md
+<span style='color:chartreuse'>**Toppkasko**</span> 1560 kr/md (1332 + 228 kr/md Trafikk­forsikrings­avgift )
 
 <img src="https://drive.google.com/thumbnail?id=1zxdpMNzlyihymy3hGgdFGyuLlR-u_g-K&sz=w1000" alt="spare fremtind" style="display: block; margin-right: auto; margin-left: auto; zoom:100%;" />
 
-**Kasko** 1481 kr/md
+<span style='color:chartreuse'>**Kasko med leiebil**</span> 1472 kr/md (1244 + 228)
+
+- Suitable for most cars. Covers most damages, whether you are at fault for the damage or not.
+
+Minikasko
+
+Ansvar
 
 Can I choose my own egenandel?
 

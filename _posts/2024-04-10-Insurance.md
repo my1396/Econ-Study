@@ -66,3 +66,10 @@ NOK 600,000 - 140 kr/md
 
 135 kr/md  Insure yourself and your belongings when traveling and for everyday life.
 
+
+
+### Uførepensjon
+
+Disability pension
+
+Monthly payment for at least 50% incapacity for work.
