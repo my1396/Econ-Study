@@ -36,18 +36,21 @@ Submit:
 
 For how long are the driving license valid?
 
-- Light vehicle licence categories will normally be valid for 15 years.
+- Light vehicle licence categories will normally be valid for <u>15 years</u>.
 
 
 After having submitted the UK driving license, the officer gives one temporary Norweigian driving license and one receipt confirming the submission.
 
 Need to wait for 1 week for the new Norwegian driving license to be ready. Pick up at Bodø trafikkstasjon. Take a picture and pay the card issuing fee of NOK 300.
 
+100 岁以后驾照自动失效。
+
 
 
 - Submission of UK driver license: Feb 16, 2024
+- Taking picture and receiving finally approval: May 27, 2024 (more than 3 months)
 
-
+Usually it takes no more than 2 weeks. But Traffikstasjon messed up and misplaced my document, I waited in vain for three months. They found the mistake and corrected it when I went to extend my temporary driver license.
 
 
 

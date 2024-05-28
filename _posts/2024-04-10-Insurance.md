@@ -73,3 +73,12 @@ NOK 600,000 - 140 kr/md
 Disability pension
 
 Monthly payment for at least 50% incapacity for work.
+
+
+
+### Gjensidige
+
+Right of withdrawal
+
+> You have the right to cancel an insurance policy you have purchased over the phone or the internet. If you wish to cancel, you must notify us within the deadline; for personal insurances within 30 days after you have received the insurance documents, for other insurances 14 days.
+

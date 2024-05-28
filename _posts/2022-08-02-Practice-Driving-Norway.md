@@ -40,6 +40,34 @@ Rules: <https://www.vegvesen.no/en/traffic-information/along-the-road/norwegian-
 
 
 
+Free parking after 4pm
+
+Charging period:
+
+Avgift kl. 0800 - 1600 mandag - lørdag. 
+
+- zone 1
+
+  1st h: 35 kr
+
+  2nd h: 41 kr
+
+  longer time: 53 kr 
+
+- zone 2
+
+  24 kr/time
+
+  
+
+**Register vehicle** 
+
+<https://www.vegvesen.no/en/>
+
+Dealer deregisters the vehicle. $\rightarrow$ Buyer confirms Notification of Sale from dealer.
+
+It is the dealer who pays the registration transfer fee, registers the vehicle and obtains number plates before you can use the vehicle. The issue of who takes care of insurance and other matters must be sorted out with the dealer.
+
 
 
 ### Bompeng Toll
@@ -192,9 +220,11 @@ Bypakke Bodø
 
 
 
-Where to put the tag
+Where to put the tag (Feste bombrikken)
 
-The bomb chip must be fixed at the top of the windscreen, to the right of the mirror, so that it does not obstruct the driver's view.
+The bomb chip must be fixed at the top of the windscreen, to the right of the mirror, so that it does not obstruct the driver's view. Make sure it is not hidden behind windscreen wipers or similar.
+
+前挡风玻璃顶部，后视镜的右边。确保不被雨刷挡住。
 
 
 
@@ -287,7 +317,21 @@ Egenandel (Deductible) 免赔额，就是说在保险公司支付你的索赔之
 
 
 
+### Digital driving licence
+
+Make your driving licence available on your mobile phone, and leave your physical licence at home when you drive in Norway.
+
+> A digital driving licence is valid as proof of identity if you are stopped for inspection along the road. You should not expect that it will be accepted as proof of identity in other situations.
+>
+> If you use your digital driving licence when you are driving, you must ensure that you have enough battery life on your mobile phone to last throughout your drive, and the screen must be readable.
+
+If you are going **abroad**, you still need to bring your physical driving licence.
+
+Download the app "Førekort" $\rightarrow$ log in to the app via "ID-porten"
 
 
 
+**Statens Vegvesen**
+
+车管所 [My page](https://www.vegvesen.no/en/dinside/?goto=https%3A%2F%2Fwww.vegvesen.no%2Fen%2Fdinside%2Fdittforerkort%2F)
 
