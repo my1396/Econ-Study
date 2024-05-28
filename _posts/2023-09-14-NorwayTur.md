@@ -16,7 +16,7 @@ title: Gå på tur
 
 1. Go to the “Menu” represented as three lines and select”Saved”.
 
-   <img src="https://drive.google.com/thumbnail?id=15Wr2MUDvk5PAqCysqHJjiTO7AavQsOW0&sz=w1000" alt="GPX" style="display: block; margin-right: auto; margin-left: auto; zoom:100%;" />
+   <img src="https://drive.google.com/thumbnail?id=15Wr2MUDvk5PAqCysqHJjiTO7AavQsOW0&sz=w1000" alt="GPX" style="display: block; margin-right: auto; margin-left: auto; zoom:40%;" />
 
 2. Click on “Maps” > “Open My Maps” or directly click on the “Create map” button.
 
