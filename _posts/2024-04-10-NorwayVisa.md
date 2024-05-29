@@ -90,19 +90,19 @@ A: 可以前往签证申请中心领取结果也可以通过<u>快递送达</u>�
   - 机票预定单 [感觉脑子有点儿不够用了。不买机票上哪儿搞机票预定单？]
 
     > Flight reservation for Round-trip to China and the trips in Schengen area. Should not be bought
-    > before visa has been issued.
+    > before visa has been issued. \
     > 机票预订单：往返中国及整个申根地区间的机票预订单，机票应在签证颁发后出票付款。
 
   - 住宿证明
 
     > Proof of accommodation: Detailed Hotel reservations for the whole duration of the intended stay in
-    > Schengen area.
+    > Schengen area. \
     > 住宿证明：提供整个申根地区停留期间的酒店预订单详情。
 
   - <a id="travel-insurance">旅行医疗保险</a>
 
     > Travel medical insurance for the duration of the stay in the Schengen area with a minimum
-    > coverage of EURO 30.000.
+    > coverage of EURO 30.000. \
     > 旅行医疗保险：保险需涵盖在申根地区全部停留时间，保险金额至少为 30.000 欧。
     >
     > 要求：
@@ -119,20 +119,20 @@ A: 可以前往签证申请中心领取结果也可以通过<u>快递送达</u>�
   - 邀请信
 
     > Original invitation letter signed by the sponsor/reference person stating the purpose and duration of
-    > the visit, and the relation with the applicant (Not older than 6 months).
+    > the visit, and the relation with the applicant (Not older than 6 months). \
     > 邀请信原件：挪威邀请人或邀请方<u>亲笔签名</u>的邀请信，需注明访问目的、停留时间以及与申请人的关系
     > （邀请信需在 6 个月内出具）。
 
   - 邀请人护照复印件 + 居留证复印件
 
-    > Copy of the sponsor/reference’s passport, bio data page copy.
-    > If the reference person is not a Norwegian citizen, also copy of the reference’s residence permit.
+    > Copy of the sponsor/reference’s passport, bio data page copy. \
+    > If the reference person is not a Norwegian citizen, also copy of the reference’s residence permit. \
     > 邀请人护照复印件：个人信息页复印件。如果邀请人不是挪威公民，还需提供在挪合法居住许可的复印
     > 件。
 
   - 邀请人与邀请方关系证明
 
-    > Proof of relationship with sponsor/reference person.
+    > Proof of relationship with sponsor/reference person. 
     >
     > - For family visit: Notary certificate of family relationship (i.e. marriage certificate, birth
     >   certificate whichever is applicable) with Apostille. Original + 1 copy.
