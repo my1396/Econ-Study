@@ -23,3 +23,9 @@ Operating the lever can use the **rear window wiper** or the washer.
 
 打开雨刷：转动 Operating the <img src="https://drive.google.com/thumbnail?id=1Fa0TZWvXFCi_y8JZ-qnCYFTLKXHcyBm9&sz=w1000" alt="No alt supplied for Image" style="zoom:50%;" /> switch.
 
+
+
+**Car Key**
+
+Replace the battery with a new one if it is depleted.
+As the key may be damaged if the following procedure is not performed properly, it is rec- ommended that key battery replacement be performed by any authorized Toyota retailer or Toyota authorized repairer, or any reliable repairer.
