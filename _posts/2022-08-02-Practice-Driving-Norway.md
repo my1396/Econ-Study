@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Norway Driving 
+title: Driving in Norway
 tag: driving
 ---
 

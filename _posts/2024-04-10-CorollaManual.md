@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Corolla Manual
-tag: life
+tag: driving
 update: 2024-04-10
 ---
 
