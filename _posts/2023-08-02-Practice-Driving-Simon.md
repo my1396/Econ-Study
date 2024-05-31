@@ -491,6 +491,8 @@ ___
 - Applied Feb 16, 2024; submitted application form and UK driver license;
 - Called on Mar 13, 2024 to trace my case's progress. [under treatment, wait up to 3 months; temporary driver license expires on May 16, 2024]
 - May 8, 2024 went to extend my temporary license. 
+- May 27, 2024 went to Traffikstasjon to take picture
+- May 31, 2024 received driver license by mail (took 4 days for delivery)
 
 **Statens Vegvesen** <https://www.vegvesen.no/om-oss/kontakt-oss/ring-oss/>
 

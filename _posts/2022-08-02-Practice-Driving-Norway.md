@@ -335,3 +335,12 @@ Download the app "Førekort" $\rightarrow$ log in to the app via "ID-porten"
 
 车管所 [My page](https://www.vegvesen.no/en/dinside/?goto=https%3A%2F%2Fwww.vegvesen.no%2Fen%2Fdinside%2Fdittforerkort%2F)
 
+
+
+**Vognkort**
+
+Vehicle Registration Certificate
+
+Part one put in the car;
+
+Part two put at home.
