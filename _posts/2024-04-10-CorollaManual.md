@@ -135,9 +135,78 @@ pull 一般是往上拉，但也有可能是往下拉
 夏季时：天气炎热时请使用<span style='color:#32CD32'>**车内空气再循环模式 (F)**</span>。如此有助于减轻空调系统的负担并且降低油耗。
 冬季时：由于汽油引擎暖车前以及车内变暖前，汽油引擎不会自动熄火， 因此会消耗燃油，此外，藉由避免过度使用暖气，亦可改善油耗。
 
+<span style='color:#32CD32'>**除雾**</span>
+
+L Windshield defogger switch 前挡风玻璃除雾
+
+- 前挡风玻璃除雾模式下，如果目前设定在车内空气再循环模式， 请将气流模式变更为车外空气模式。 ( 模式会自动改变。)
+- 要快速清除挡风玻璃及前侧窗雾气时， 请将气流及温度调高。
+- 挡风玻璃除雾完成时，若要恢复先前模式，请再按一下挡风玻璃除雾器开关。
+
+K Rear window defogger and outside rear view mirror defoggers switch 后挡风玻璃和外后视镜除雾
+
+- 后挡除雾是使用除雾器。按下后挡除雾器开关。 除雾器在使用一段时间后会自动关闭。
+
+
+
+<span style='color:#32CD32'>**空气再循环模式**</span>
+
+F Recirculated air mode switch 车内空气再循环模式
+
+- 建议设定为车内空气再循环模式以免脏空气进入车内，并且有助于在车外气温较高时冷却车内。
+
+E Outside air mode switch 车外空气再循环模式
+
+- 要引入新鲜空气，请将空调系统设定为车外空气模式。
+
+
+
+D “A/C” switch.  If “A/C” switch is not pressed, the system will blow ambient temperature air or heated air.
+
+
+
+G 改变气流模式。顺序如下
+
+- Upper body $\rightarrow$ Upper body and feet $\rightarrow$ Feet $\rightarrow$ Feet and the windshield defogger operates
+
+
+
+Using the Climate Preference <span style='color:#32CD32'>**节能空调模式**</span>。空调是以降低风速等的低油耗优先方式控制。
+
+- 按 N 或者 J 调整到节能模式。
+
+Each time the “FAST/ECO” switch is pressed, the fan speed setting mode toggles as follows.
+
+Normal $\rightarrow$ “ECO” $\rightarrow$ “FAST” $\rightarrow$ Normal
+
+When “ECO” is displayed on the air conditioning screen, the air conditioning is controlled with low fuel consumption prioritized such as reducing fan speed, etc.
+
+When “FAST” is displayed on the screen, fan speed will be increased.
+
+
+
+冬季开车前原地预热车30秒即可。主要采取低转速缓慢行驶的方法来热车。
+
+- 预热的目的是让车内的油路、冷却液，流动起来，以免对车辆关键部位损伤。
+  但是不能静止预热,可以启动后慢慢开，等水温上去后再正常速度行驶。
+  如果静止预热的话，引擎空转是对引擎来说是种损害，所以要慢行预热.
+- 水温没有到合适温度之前不要猛踩油门，保持在30~40之间。
+
+刚启动汽车或者还在热车时，不要开暖风。
+
+
+
+什么情况下车玻璃容易起雾：
+
+- 当车内湿度高时，车窗即容易起雾。开启 「A/C」来将出风口空气除湿，且有效地清除挡风玻璃的雾气。
+- 如果关闭 「A/C」，车窗可能更容易起雾。
+- 如果使用车内空气再循环模式，则车窗更容易起雾。
+
 
 
 ### Eco Mode
+
+环保节能模式
 
 
 
@@ -151,6 +220,7 @@ As the key may be damaged if the following procedure is not performed properly, 
 ### 洗车
 
 - 清洗车身时，使用海棉或软布 ( 例如麂皮 )。将水迹擦干。
+  - Microfiber
 - 防水涂层劣化时，应为车身打蜡。劣化表现：水在清洁的表面不能形成细小水珠。
 
 
@@ -191,3 +261,4 @@ When braking, the wheels operate the electric motor (traction motor) as a power 
 
 **12-volt battery 12伏电瓶充电**
 
+用于起步打火
