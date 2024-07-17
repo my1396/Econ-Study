@@ -14,7 +14,11 @@ tag: life
 
 笔尖是损耗品，用3-5年会消耗到某些角度开始刮纸，笔尖变粗的情况。此时选择换笔尖就好。因此最好选择容易换笔尖的笔。暗尖笔不容易换笔尖。
 
-笔尖粗细选择：Lamy 买 F 尖，日系买 M 尖。
+笔尖粗细选择：
+
+- Lamy 首选 EF 尖 (Accent 是F尖)；F 尖有点儿粗，但是顺滑 (Safari 为 F 尖)。
+
+- 日系买 M 尖。
 
 笔尖打磨: 我的方法主要参考SBRE Brown、Brian Goulet和Pen Habit 这三大家的YouTube视频，中间夹杂我自己的经验体会。
 
@@ -370,6 +374,14 @@ https://www.bilibili.com/video/BV1RP411674x/?vd_source=8b2f77d46ba39c403a6122be0
 
 
 
+**Montblanc 万宝龙**
+
+- ROUGE ET NOIR baby
+
+  <https://www.montblanc.com/en-no/fountain-pens_cod1647597291111674.html>
+
+
+
 **上墨器** £5
 
 -   Z24 is now replaced by Z28. Lamy’s Safari, Vista, Al-Star, Joy, and Lx converter, red tip.
@@ -448,6 +460,23 @@ Tools:
 **品牌**
 
 -   百乐墨水。百乐的蓝黑色不是鞣酸亚铁的，算是比较有特色的墨水，是我较早接触的一类偏蓝色的蓝黑墨水。但是他家的黑色墨水，普遍反应有些洇纸。百乐墨水分小瓶、大瓶、还有350ml的可乐瓶出售。
+-   写乐极黑。Sailor 不洇纸。
+
+
+
+#### 纸张
+
+克数(密度): 80g
+
+- 密度过小，纸张之间的摩擦系数大，写字会刮纸。容易洇墨透纸。
+
+- 密度大防潮度，挺度，平滑度好。
+
+颜色：漂白[✘] 本白[✔]
+
+行间距：8mm
+
+国誉85g
 
 
 

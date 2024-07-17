@@ -40,13 +40,13 @@ Rules: <https://www.vegvesen.no/en/traffic-information/along-the-road/norwegian-
 
 
 
-Free parking after 4pm
+### Parking Fee
 
-Charging period:
+Free parking after 4pm on weekdays. Free on Sunday.
 
-Avgift kl. 0800 - 1600 mandag - lørdag. 
+Charging period: Avgift kl. 0800 - 1600 mandag - lørdag. (Fee 8-16, Monday to Saturday.)
 
-- zone 1
+- Zone 1
 
   1st h: 35 kr
 
@@ -54,11 +54,69 @@ Avgift kl. 0800 - 1600 mandag - lørdag.
 
   longer time: 53 kr 
 
-- zone 2
+- Zone 2
 
   24 kr/time
 
-  
+
+
+**Bodø Lufthavn**
+
+<https://avinor.no/flyplass/bodo/parkering/>
+
+Fri gjennomkjøring 10 minutter. 
+
+> Free driving through time: 10 min.
+>
+> If you exit within the drive-through time, you will not be charged. If you stay in the area longer than this, the parking will start counting from the time of entry. The drive-through time is not deducted.
+>
+> In the short-term parking, you can park for up to 10 minutes without paying for it - you can say goodbye to that time!
+
+«kiss & fly-sone»
+
+> In our short-term parking, there is a separate "kiss & fly zone" reserved for you who, for example, need to pick up or deliver someone you know or love within 10 minutes <u>for free</u>.
+
+
+
+**Payment**
+
+Parking starts and stops automatically. You do not need to redeem a ticket when you park. 
+
+You will not receive a parking fine for non-payment, but will be required to pay after the parking has ended.
+
+Pay within <u>48 hours</u> to avoid invoice fees. No payment is required if driving in and out takes a few minutes (see signs on site about free driving time).
+
+- Pay with mobile phone.  Register and pay via the parking operator's mobile app, [Apcoa Flow](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/no/app/apcoa-flow/id1354962285&ved=2ahUKEwj3it_L9KqFAxWnFRAIHZkQAUUQFnoECBAQAQ&usg=AOvVaw0Y31od9WmUFM42Hl42aWWt) or [Autopay](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/no/app/autopay-park-charge/id6444444549&ved=2ahUKEwiw28TY9KqFAxXDFxAIHSyPAmQQFnoECB0QAQ&usg=AOvVaw3w0SpNf-PMwFjwXgyvQPrW) (Onepark). 
+  - Bodø lufthavn uses Onepark.
+- Pay online.  At airports operated by Onepark go to [Autopay.io](https://autopay.io/) , and airports operated by Apcoa go to [flow.apcoa.no](https://flow.apcoa.no/home). Enter your license plate number and pay by card. You do not need to create a user profile to pay. If you want to be automatically charged for parking, you can create a user profile. 
+- Pay using the ATM machine. There is also a regular payment machine on site that you can pay at. Enter the car's license plate number at the machine just before exiting and pay by card or coin.  
+
+If payment is not registered within 48 hours, an invoice is sent to the car owner for the parking time used. 
+
+
+
+
+### Dekkhotell
+
+tyre hotel
+
+**SALTEN DEKKSENTER AS – BERTNES**
+Munarvollveien 1, 8020 Bodø
+Tlf. [755 51 050](tel:75551050)
+
+1200 kr per season. 600 kr if only need the changing tyre service.
+
+Per year, 2400 kr.
+
+
+
+**Vianor**
+
+1150 kr per dekksesong
+
+<https://vianor.no/dekkverksted/dekkhotell/>
+
+
 
 **Register vehicle** 
 
@@ -250,7 +308,7 @@ This form of car insurance is not aimed at your own car actually, but rather at 
 
 If you are alone in the accident with your own car, no costs for repairs will be covered. 
 
-
+车险分三个档次：
 
 - Delkasko (limited comprehensive): Affordable option, especially when the car is older or has a low value. Fire, Theft, and Windscreen Repair and Road/Tow assistance. This type of insurance is usually taken out for used cars that are more than ten years old.
   - Damage to the car that is your own fault is unfortunately not covered by Delkasko. 自身原因造成的问题不予偿付。
@@ -258,12 +316,13 @@ If you are alone in the accident with your own car, no costs for repairs will be
 - Kasko (comprehensive): covers damage to your own car connected with a collision, driving off the road etc. 
   - Covers damage cuased to your own responsibility. 由于自身原因产生的问题予以偿付
   - Comprehensive Casco Car Insurance covers also the costs of draining and cleaning your tank if you’ve put in the wrong type of fuel.
+  - 一般来说，kasko 档次足够使用。
+  
+- Kasko pluss / toppkasko / super kasko (fully comprehensive): covers the cost of repairing the engine, clutch or gearbox. 
 
-- Kasko pluss (fully comprehensive): covers the cost of repairing the engine, clutch or gearbox. 
 
 
-
-
+不仅要买保险，还需要支付 **Trafikk­forsikrings­avgift**，每年3000块。
 
 
 

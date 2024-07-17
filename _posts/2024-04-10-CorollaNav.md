@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Corolla Manual
+title: Corolla Navigation
 tag: driving
 update: 2024-04-10
 ---
