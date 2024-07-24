@@ -72,7 +72,7 @@ li:first-child {
   border: 1px solid rgba(255, 255, 255, 0.8);
   border-radius: 999em;
   padding: 0 10px;
-  color: #ffffff;
+  color: #ffffff !important;
   line-height: 24px;
   font-size: 12px;
   text-decoration: none;
@@ -83,7 +83,7 @@ li:first-child {
 .tags .tag:hover,
 .tags a:active,
 .tags .tag:active {
-  color: white;
+  color: white !important;
   border-color: white;
   background-color: rgba(255, 255, 255, 0.4);
   text-decoration: none;
@@ -171,11 +171,14 @@ h5 {
 }
 /* hyperlink */
 a {
-  color: #0085a1; /* blue-colored hyperlink */
-  color: #404040; /* same color as text */
+  color: #1656a9; /* blue-colored hyperlink */
+  /* color: #404040;  same color as text */
 }
 a:hover,
 a:focus {
+  color: #0085a1;
+}
+a:visited {
   color: #0085a1;
 }
 a img:hover,
