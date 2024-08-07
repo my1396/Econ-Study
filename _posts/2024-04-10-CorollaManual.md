@@ -110,6 +110,30 @@ B 展开
 
 
 
+方向盘
+
+1. 握住方向盘并向下推释放杆。
+
+<img src="https://drive.google.com/thumbnail?id=1u3ipIweQ7oHC3X19hHxGQeHbsLR62MNI&sz=w1000" alt="方向盘" style="display: block; margin-right: auto; margin-left: auto; zoom:70%;" />
+
+2. 沿水平和垂直方向移动方 向盘，将其调节至理想位置。
+
+   <img src="https://drive.google.com/thumbnail?id=1xYGU26fMnfl5sbxx4n5L6Fn1R2xH9LDc&sz=w1000" alt="方向盘2" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+3. 调节后，向上拉释放杆固定方向盘。
+
+警告：
+
+> 驾驶过程中请勿调节方向盘。
+> 否则可能造成驾驶员误操作车辆并引发事故，从而导致严重伤害甚至死亡。
+>
+> 确保方向盘牢固锁止。
+> 否则，方向盘可能会突然移动，从而引发事故并导致严重伤害甚至死亡。此外，如果方向盘未牢固锁止，喇叭可能不响。
+
+
+
+
+
 Parking brake
 
 - 往上掰是开启驻车手刹

@@ -35,6 +35,12 @@ To locate a character, do any of the following:
 
 
 
+Checkbox: type "ballot" into the search field. You may choose unchecked/checked boxes as need.
+
+- ☑/☒ checked
+
+- ☐ unchecked
+
 
 
 **Commonly used characters**
@@ -43,6 +49,5 @@ To locate a character, do any of the following:
 
 | Character | Name        | Keyboard combination |
 | --------- | ----------- | -------------------- |
-| •         | bullet list | opt + 9              |
+| •         | bullet list | opt + 8              |
 | °         | degree      | opt + shift + 8      |
-
