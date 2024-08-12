@@ -138,6 +138,14 @@ The `Eqnarray` mode is a handy shortcut to make multi-lines equations. It automa
 
 
 
+### Adjust image size in Notes 
+
+1. Right-click image. Select Open with Preview.
+2. **Tools** in the menu $\rightarrow$ **Adjust Size**.
+3. A menu should pop up allowing you to adjust the size. Make necessary changes and click Ok.
+4. Select entire image (Cmd + A) and copy it to clipboard (Cmd + C).
+5. Open notes and paste image (Cmd + V)
+
 
 
 **Reference**: <https://www.geekytidbits.com/how-to-insert-image-on-pdf-with-apple-preview/>
