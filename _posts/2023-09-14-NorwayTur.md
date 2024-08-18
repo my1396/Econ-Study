@@ -14,6 +14,8 @@ title: Gå på tur
 
 [UT.no ](https://ut.no) Download GPX file and create route maps in Google Maps. 
 
+[Kart.1881](https://kart.1881.no) Nice map
+
 1. Go to the “Menu” represented as three lines and select”Saved”.
 
    <img src="https://drive.google.com/thumbnail?id=15Wr2MUDvk5PAqCysqHJjiTO7AavQsOW0&sz=w1000" alt="GPX" style="display: block; margin-right: auto; margin-left: auto; zoom:40%;" />
