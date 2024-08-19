@@ -13,11 +13,13 @@ update: 2024-07-16
 
   数字和单位之间需要加空格！例外：百分号，摄氏度。
 
-  For example, 1.2 dB is correct, while 1.2dB is not. If you are writing in LaTeX, I recommend you use the siunitx by `\usepackage{siunitx}`. Then the command` \SI{<value>}{<unit>}` automatically print the space between the numerical value and the unit symbol. 
+  For example, 1.2 dB is correct, while 1.2dB is not. 
+
+  If you are writing in LaTeX, I recommend you use the siunitx by `\usepackage{siunitx}`. The command `\SI{<value>}{<unit>}` automatically prints the space between the numerical value and the unit symbol. 
 
   E.g., 3 g, 6 cm, 6 days, 7 years.
 
-  Exceptions for percentage and temperatures. 10% and 17ºC.
+  **Exceptions** for percentage and temperatures. 10% and 17ºC. They don't need a space between numbers and units.
 
 - **Physical units must not be italicized.** For example, 1.2 dB is correct, while 1.2 *dB* is not.
 
@@ -25,10 +27,10 @@ update: 2024-07-16
 
 - When to spell out numbers?
 
-  - when the number is less than 10, then it should be spelled out; 10 以上的数字要拼写
+  - when the number is less than 10, then it should be spelled out; 10 以上的数字要拼写。
   - when numbers appear in the beginning of a sentence. 以数字开头的句子，数字要拼写出来。
 
-- Decades are written in numerals without an apostrophe: 1970s. 
+- Decades are written in numerals without an apostrophe: 1970s. 年份都是用numerals.
 
 
 
