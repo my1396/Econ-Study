@@ -19,17 +19,18 @@ You can key unicode hex input directly into any application in Mac OS X.
 
 
 
-| Char | Hex Code | Name                 |
-| ---- | -------- | -------------------- |
-| ✓    | 2713     | Check mark           |
-| ✔    | 2714     | Heavy check mark     |
-| ✕    | 2715     | Cross mark           |
-| ✖    | 2716     | Heavy cross mark     |
-| ✗    | 2717     | Ballot               |
-| ✘    | 2718     | Heavy ballot         |
-| □    | 25A1     | White square         |
-| ☑    | 2611     | Checked white square |
-| ☒    | 2612     | Crossed white square |
+| Char | Hex Code | Name                                            |
+| ---- | -------- | ----------------------------------------------- |
+| ✓    | 2713     | Check mark                                      |
+| ✔    | 2714     | Heavy check mark                                |
+| ✕    | 2715     | Cross mark                                      |
+| ✖    | 2716     | Heavy cross mark                                |
+| ✗    | 2717     | Ballot                                          |
+| ✘    | 2718     | Heavy ballot                                    |
+| □    | 25A1     | White square                                    |
+| ☑    | 2611     | Checked white square                            |
+| ☒    | 2612     | Crossed white square                            |
+| ␣    | 2423     | open box to indicate visible spaces, keystrokes |
 
 
 

@@ -11,11 +11,19 @@ title: Financial Datasets
 Financial data processing caveats:
 
 1. Match monthly data $\rightarrow$ use year-month combination, in stead of start/end of month;
+
 2. Mind the unit. Many returns are denominated in percentage.
    1. Returns must have matched frequency. E.g., CAPM, monthly equity returns to monthly factors, annual to annual.
+   1. Remember to annualize the return if the data is monthly in order to get comparable return results.
+   
 3. Missing values
    1. choose samples with a threshold length, such that individuals with too few observations are removed.
-4. Cross validate data from multiple data sources if not sure whether your data process is correct. Use common sense.
+
+4. Cross validate data from multiple data sources if not sure whether your data process is correct. Use common sense. 
+
+   For instance, a monthly return is unlikely to be 20%, annual return of 20% makes more sense. 
+
+   If you see a monthly return 1.73, it is likely that it is pct-based, i.e., 1.73%, rather than 1.73 times.
 
 
 
@@ -237,11 +245,11 @@ Oslo operates two EU regulated markets, Oslo Børs (`XOSL`) and Euronext Expand 
 - Before 2013 NIBOR: [Norges Bank](https://www.norges-bank.no/en/topics/Statistics/Historical-monetary-statistics/)
 
 - After 2013 Norwegian Overnight Weighted Average rate: [Norske Finansielle Referenser AS (NoRe)](https://nore-benchmarks.com)
-- 3 months Norwegian Goverment Bills, from the `bondindex` table, `CloseYield field`.
+- [Titlon](https://titlon.uit.no/tabledefs.php): 3 months Norwegian Government Bills, from the `bondindex` table, `CloseYield field`.
 
 
 
-Finanical service companies publish surveys about financial data. For instance, PwC Norge.
+Financial service companies publish surveys about financial data. For instance, PwC Norge.
 
 - Here is their annual report about RFF: <https://www.pwc.no/no/publikasjoner/risikopremien.html>
 
