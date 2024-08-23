@@ -403,3 +403,28 @@ Vehicle Registration Certificate
 Part one put in the car;
 
 Part two put at home.
+
+
+
+
+
+### Winter tires
+
+Oct 16 — April 30
+
+For **Nordland, Troms og Finnmark** gjelder kravet til minimum 3 millimeter mønsterdybde fra og med 16. oktober til og med 30. april.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

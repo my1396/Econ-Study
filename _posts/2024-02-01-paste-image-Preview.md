@@ -32,9 +32,9 @@ It is possible to paste an image into a PDF page from the clipboard, but you mus
 
    By default, LaTeXiT creates an image with transparent color.
 
-   You can use `\colorbox{white}{...}` to create a white background for your text.
+   If you have a single line equation, you can use `\colorbox{white}{...}` to create a white background for your text.
 
-   If your text spans several lines, put your text inside a `minipage` such that the text got wrapped.
+   If your text **spans several lines**, put your text inside a `minipage` such that the text got wrapped.
 
    ```latex
    \noindent
@@ -111,6 +111,26 @@ It is possible to paste an image into a PDF page from the clipboard, but you mus
    <img src="https://drive.google.com/thumbnail?id=15ITke2nlWAdGBNhVccrNhQIejk4gW7SH&sz=w1000" alt="color_display" style="display: block; margin-right: auto; margin-left: auto; zoom:40%;" />
 
 2. copy and paste in Preview.
+
+
+
+**LaTexiT example**
+
+```latex
+\colorbox{white}{
+\begin{minipage}{0.7\linewidth}
+    \begin{align*}
+    & \texttt{\textbackslash num\{0.123\}}   &  \quad  & \num{0.123} \\
+    & \texttt{\textbackslash num\{0,1234\}}  &  \quad  & \num{0,1234} \\
+    & \texttt{\textbackslash num\{.12345\}}  &  \quad  & \num{.12345} \\
+    & \texttt{\textbackslash num\{3.45d-4\}} &  \quad  & \num{3.45d-4} \\ 
+    & \texttt{\textbackslash num\{-e10\}}    &  \quad  & \num{-e10} 
+\end{align*}
+\end{minipage}
+}
+```
+
+<img src="https://drive.google.com/thumbnail?id=1b071iEketT2y4EnbLom1T-1JYw4udrKm&sz=w1000" alt="align" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
 
 
 

@@ -43,6 +43,43 @@ Some math style conventions
 
 
 
+**Minus sign**
+
+I am not a fan of typing numbers in the text in mathmode. It's fine if you use a complete font, but what if you decide to change the math font later? I prefer to use the `textminus` from the `textcomp` package. 
+
+```latex
+Number \textminus10 (textcomp minus) \\
+Number -10 (normal text minus, shown as a hypen, avoid this) \\
+Number \num{-10} (siunitx textmode.) \\
+Number $\num{-10}$ (siunitx mathmode)
+```
+
+Using a hypen is horrible.
+
+<img src="https://drive.google.com/thumbnail?id=1_xGq_-wu8PxIH8sYhXTD2rBj4b2nL7R_&sz=w1000" alt="minus sign" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
+
+### `siunitx` syntax
+
+A manual: <https://texdoc.org/serve/siunitx/0>
+
+use `\sisetup{Option, Option, ...} `to set global appearance
+
+`\num[⟨options⟩]{⟨numbers⟩}` 	Numbers are automatically formatted by the `\num` macro. This takes one optional argument, `⟨options⟩`, and one mandatory one, `⟨number⟩`.  
+
+The formatter removes both ‘soft’ (`␣`) and ‘hard’ spaces (`\,` and `~`), automatically identifies exponents (as standard marked using e, E, d or D) and adds the appropriate spacing of large numbers. If required, a leading zero is added before a decimal marker: both `.` and `,` are recognised as decimal markers.
+
+- `\numlist{10; 30; 50; 70}` print a list of numbers <img src="https://drive.google.com/thumbnail?id=1Q75UXEyC-vcEMwOyl9nxz23lY9EXpc22&sz=w1000" alt="num list" style="zoom:40%;" />
+
+- `\numproduct{10 x 30}` print products <img src="https://drive.google.com/thumbnail?id=1Dab_stboUAZxaldoifgXZ2MzTNEY495v&sz=w1000" alt="num product" style="zoom:40%;" />
+
+- `\numrange{10}{30}` print a range <img src="https://drive.google.com/thumbnail?id=1fnHAAAITCEilCppMtIQYaud4-LwutTbL&sz=w1000" alt="num range" style="zoom:40%;" />
+
+
+
+
+
 
 
 ## Bullet points
