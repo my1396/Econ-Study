@@ -1178,13 +1178,12 @@ where the expected value $\mathbb{E}[\cdot]$ is taken over the joint distributio
 More formally
 
 $$
-\textrm{Cov}(X, Y) = \iint[X-\mathbb{E}(X)][Y-\mathbb{E}(Y)]f(x,y) dxdy \quad \textrm{for } X, Y \textrm{ continuous}
-$$
-
-and 
-
-$$
-\textrm{Cov}(X, Y) = \sum_y\sum_x[X-\mathbb{E}(X)][Y-\mathbb{E}(Y)]f(x,y) \quad \textrm{for } X, Y \textrm{ discrete,}
+\begin{aligned}
+\textrm{Cov}(X, Y) = \begin{cases}
+\sum_y\sum_x[X-\mathbb{E}(X)][Y-\mathbb{E}(Y)]f(x,y) & \textrm{for } X, Y \textrm{ discrete}  \\
+\iint[X-\mathbb{E}(X)][Y-\mathbb{E}(Y)]f(x,y) dxdy   & \textrm{for } X, Y \textrm{ continuous}  \\
+\end{cases}
+\end{aligned}
 $$
 
 where the sum and integral are over the supports of $X$ and $Y$.

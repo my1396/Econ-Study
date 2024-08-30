@@ -137,13 +137,13 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
 #### Sets
 
-|     LaTex |           |         LaTex |               |
-| --------: | --------- | ------------: | ------------: |
-|    `\cap` | $\cap$    |        `\cup` |        $\cup$ |
-| `\subset` | ⊂         |   `\subseteq` |             ⊆ |
-|     `\in` | ∈         |      `\notin` |             ∉ |
-| `\exists` | $\exists$ | `\not\exists` | $\not\exists$ |
-| `\forall` | $\forall$ |               |               |
+|     LaTex |           |                        LaTex |                            |
+| --------: | --------- | ---------------------------: | -------------------------: |
+|    `\cap` | $\cap$    |                       `\cup` |                     $\cup$ |
+| `\subset` | ⊂         |                  `\subseteq` |                          ⊆ |
+|     `\in` | ∈         |                     `\notin` |                          ∉ |
+| `\exists` | $\exists$ |                `\not\exists` |              $\not\exists$ |
+| `\forall` | $\forall$ | `\emptyset` or `\varnothing` | $\emptyset$, $\varnothing$ |
 
 - use `\not` before an operator to negate it. 
 
