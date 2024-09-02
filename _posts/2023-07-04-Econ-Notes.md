@@ -1072,7 +1072,7 @@ $$
 
 where $f(x)$ is the probability density (mass) function of continuous (discrete) $X$.
 
-Variance is also an expectation by setting $g(X) = (X-\mathbb{E}(X))^2$. In other words, $\text{Var}(X) = \mathbb{E}\left[(X-\mathbb{E}(X))^2\right]$.
+Variance is also an expectation by setting $g(X) = \left[X-\mathbb{E}(X)\right]^2$. In other words, $\text{Var}(X) = \mathbb{E}\left[(X-\mathbb{E}(X))^2\right]$.
 
 $$
 \begin{align*}
@@ -1109,7 +1109,6 @@ $$
 
 
 
-
 **Sample mean** Let $X_1, \ldots, X_n$ denote $n$ observations on a variable $X$, the sample mean is
 
 $$
@@ -1117,6 +1116,8 @@ $$
 \overline{X}=\frac{1}{n}\sum_{i=1}^nX_i
 \end{align*}
 $$
+
+Sometimes, you add a subscript $n$ to denote the sample size, $\overline{X}_n .$
 
 $\overline{X}$ is a random variable, as it is the average of random variables.
 This is in sharp contrast to $\mathbb{E}[X]$ which is non-random.  
@@ -1126,7 +1127,7 @@ If we could repeatedly collect new samples of size $n$ from the same population 
 The distribution of a statistic, like $\overline{X}$, is called its **sampling distribution**.  
 
 One useful feature is  $\mathbb{E}[\overline{X}] = \mathbb{E}[X]$.
-This doesn't mean that $\overline{X}$ itself is equal to $\mathbb{E}[X]$.  Rather, it means that, if we could repeatedly obtain (a huge number of times) new samples of size $n$ and compute $\overline{X}$ each time, the average of $\overline{X}$ across repeated samples would be equal to $\mathbb{E}[X]$.
+This doesn't mean that $\overline{X}$ itself is equal to $\mathbb{E}[X]$.  Rather, it means that, if we could repeatedly obtain (a huge number of times) new samples of size $n$ and compute $\overline{X}$ each time, the average of $\overline{X}$ across repeated samples would be equal to $\mathbb{E}[X].$
 
 Proof:
 
@@ -1142,25 +1143,28 @@ $$
 $$
 
 
-**Sample variance** ($\text{Var}(\overline{X})$) use either 
+Two ways to compute the **Sample variance** 
 
+- unadjusted sample variance, also called biased sample variance:
 $$
 \begin{align*}
-\frac{1}{n}\sum_{i=1}^n(X_i-\overline X)^2
+S_n^2 = \frac{1}{n}\sum_{i=1}^n(X_i-\overline X)^2
 \end{align*}
 $$
 
-or 
+- adjusted sample variance, also called unbiased sample variance 
 
 $$
 \begin{align*}
-\frac{1}{n-1}\sum_{i=1}^n(X_i-\overline X)^2
+S_n^2 = \frac{1}{n-1}\sum_{i=1}^n(X_i-\overline X)^2
 \end{align*}
 $$
 
 The latter subtracts 1 from $n$ in the denominator, which is known as a *degrees of freedom correction*.
 See proof [here](https://www.statlect.com/fundamentals-of-statistics/variance-estimation).
 
+
+Distinguish the sample variance $(S^2_n)$ from the variance of sample mean $(\text{Var}(\overline{X}))$. 
 
 **Covariance and Correlation**
 
@@ -1452,7 +1456,7 @@ $$
 **Second moment about the mean**
 
 Also called second central moment.
-The variance is obtained by setting $g(X)=\mathbb{E}[\left(X-\mathbb{E}(X)\right)^2]$.
+The variance is obtained by setting $g(X)=\left[X-\mathbb{E}(X)\right]^2.$
 
 $$
 \begin{aligned}
