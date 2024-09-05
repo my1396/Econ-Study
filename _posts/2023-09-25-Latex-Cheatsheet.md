@@ -45,18 +45,18 @@ Sometimes, hat or bar symbols look too light. You might want a bolder version of
 
 ### Matrices
 
-| Type                        | LATEX markup                                       | Renders as                                         |
-| :-------------------------- | :------------------------------------------------- | :------------------------------------------------- |
-| Plain                       | `\begin{matrix}1 & 2 & 3\\ a & b & c\end{matrix}`   | $$\begin{matrix}1 & 2 & 3\\ a & b & c\end{matrix}$$   |
-| Parentheses; round brackets | `\begin{pmatrix}1 & 2 & 3\\ a & b & c\end{pmatrix}` | $$\begin{pmatrix}1 & 2 & 3\\ a & b & c\end{pmatrix}$$ |
-| Brackets; square brackets   | `\begin{bmatrix}1 & 2 & 3\\ a & b & c\end{bmatrix}` | $$\begin{bmatrix}1 & 2 & 3\\ a & b & c\end{bmatrix}$$ |
-| Braces; curly brackets      | `\begin{Bmatrix}1 & 2 & 3\\ a & b & c\end{Bmatrix}` | $$\begin{Bmatrix}1 & 2 & 3\\ a & b & c\end{Bmatrix}$$ |
-| Pipes                       | `\begin{vmatrix}1 & 2 & 3\\ a & b & c\end{vmatrix}` | $$\begin{vmatrix}1 & 2 & 3\\ a & b & c\end{vmatrix}$$ |
-| Double pipes                | `\begin{Vmatrix}1 & 2 & 3\\ a & b & c\end{Vmatrix}` | $$\begin{Vmatrix}1 & 2 & 3\\ a & b & c\end{Vmatrix}$$ |
+| Type                                                         | LATEX markup                                        | Renders as                                            |
+| :----------------------------------------------------------- | :-------------------------------------------------- | :---------------------------------------------------- |
+| Plain                                                        | `\begin{matrix}1 & 2 & 3\\ a & b & c\end{matrix}`   | $$\begin{matrix}1 & 2 & 3\\ a & b & c\end{matrix}$$   |
+| Parentheses; round brackets                                  | `\begin{pmatrix}1 & 2 & 3\\ a & b & c\end{pmatrix}` | $$\begin{pmatrix}1 & 2 & 3\\ a & b & c\end{pmatrix}$$ |
+| <span style='color:#32CD32'>Brackets</span>; square brackets | `\begin{bmatrix}1 & 2 & 3\\ a & b & c\end{bmatrix}` | $$\begin{bmatrix}1 & 2 & 3\\ a & b & c\end{bmatrix}$$ |
+| Braces; curly brackets                                       | `\begin{Bmatrix}1 & 2 & 3\\ a & b & c\end{Bmatrix}` | $$\begin{Bmatrix}1 & 2 & 3\\ a & b & c\end{Bmatrix}$$ |
+| Pipes                                                        | `\begin{vmatrix}1 & 2 & 3\\ a & b & c\end{vmatrix}` | $$\begin{vmatrix}1 & 2 & 3\\ a & b & c\end{vmatrix}$$ |
+| Double pipes                                                 | `\begin{Vmatrix}1 & 2 & 3\\ a & b & c\end{Vmatrix}` | $$\begin{Vmatrix}1 & 2 & 3\\ a & b & c\end{Vmatrix}$$ |
 
 Note: 
 
-- `\\` for row break, `&` for column separation.
+- <span style='color:#32CD32'>`\\`</span> for <span style='color:#32CD32'>row</span> break, <span style='color:#32CD32'>`&`</span> for <span style='color:#32CD32'>column</span> separation.
   - sometimes `\\` doesn't work in cloumn vectors, use `\cr` instead.
 
 
@@ -328,8 +328,16 @@ $\sup$, $\inf$
 - Curly braces in eqns need to be escaped. `\{ ... \}` or `\\{ ... \\}` (the slash needs to be escaped itself).  E.g., 
 
   - $\exp \\{ \ldots \\}$ (`\exp \\{ \ldots \\}`)
+
   - $\exp \\{-\frac{1}{2}\left(\frac{x-\mu}{\sigma^2}\right)^2 \\}$ (`\exp \\{-\frac{1}{2}\left(\frac{x-\mu}{\sigma^2}\right)^2 \\}`)
-  - If still encounter problems, use `\lbrace` and `\rbrace`: $\exp \lbrace \ldots \rbrace$ (`\exp \lbrace \ldots \rbrace`) and $\lbrace Z_t \rbrace_{t=0}^T$ (`\lbrace Z_t \rbrace_{t=0}^T`). This is the **safest** way.
+
+  - If still encounter problems, use `\lbrace` and `\rbrace`: $\exp \lbrace \ldots \rbrace$ (`\exp \lbrace \ldots \rbrace`) and $\lbrace Z_t \rbrace_{t=0}^T$ (`\lbrace Z_t \rbrace_{t=0}^T`). This is the <span style='color:#32CD32'>**safest**</span> way.
+
+  - Use `\left\lbrace` and `\right\rbrace` if you want to scale the braces with the expression inside. This is called "dynamic delimiter sizing."
+
+    You could also use `\left\{` and `\right\}`. 
+
+    Here is a nice [guide](https://www.overleaf.com/learn/latex/Brackets_and_Parentheses).
 
 - Add whitespace between equations, use `\quad`, `\qquad`, and `\hspace{20pt}` for long space; and  `\;` for short space.
 

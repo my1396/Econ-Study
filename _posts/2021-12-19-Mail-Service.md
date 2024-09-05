@@ -96,13 +96,19 @@ Length: 60 cm
 
 1. Register customs information using self-service solution.
 
-   All consignments containing more than one standard letter must be cleared through customs. Customs documentation must accompany the consignment.
+   All consignments containing more than one standard letter must be cleared through <span style='color:#32CD32'>**customs**</span>. 
+
+   Customs documentation (**proforma invoice**) must accompany the consignment.
 
    All shipments abroad must have a customs declaration describing the contents of the shipment.
 
    <https://www.posten.no/en/customs/sending-package-abroad>
 
+   Download proforma invoice: <https://www.posten.no/en/customs/sending-package-abroad/customes-invoice.pdf>
+
 2. Use our self service solution and complete the electronic address card with the customs information and pay the postage. 
+
+   Fill out shipping label online: <https://sending.posten.no/bestill/utland/pakke>
 
 3. Receive one QR code to print the address label at Posten. Or you can print the label yourself if you like.
 

@@ -62,7 +62,7 @@ Charging period: Avgift kl. 0800 - 1600 mandag - lørdag. (Fee 8-16, Monday to S
 
 **Bodø Lufthavn**
 
-<https://avinor.no/flyplass/bodo/parkering/>
+Bodø Airport parking: <https://avinor.no/flyplass/bodo/parkering/>
 
 Fri gjennomkjøring 10 minutter. 
 
@@ -87,11 +87,19 @@ You will not receive a parking fine for non-payment, but will be required to pay
 Pay within <u>48 hours</u> to avoid invoice fees. No payment is required if driving in and out takes a few minutes (see signs on site about free driving time).
 
 - Pay with mobile phone.  Register and pay via the parking operator's mobile app, [Apcoa Flow](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/no/app/apcoa-flow/id1354962285&ved=2ahUKEwj3it_L9KqFAxWnFRAIHZkQAUUQFnoECBAQAQ&usg=AOvVaw0Y31od9WmUFM42Hl42aWWt) or [Autopay](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/no/app/autopay-park-charge/id6444444549&ved=2ahUKEwiw28TY9KqFAxXDFxAIHSyPAmQQFnoECB0QAQ&usg=AOvVaw3w0SpNf-PMwFjwXgyvQPrW) (Onepark). 
-  - Bodø lufthavn uses Onepark.
+  - Bodø lufthavn uses [Autopay](https://onepark.no/parkering/lufthavner-1/bodo-lufthavn/#:~:text=Betal%20med%20app%3A%20Benytt%20Autopay,og%20tast%20inn%20kjøretøyets%20registreringsnummer.) and EasyPark. Can choose either one.
+  - Autopay allows for automatic deduction, so you don't need to worry about paying manually and risk missing the 48 hours limite.
 - Pay online.  At airports operated by Onepark go to [Autopay.io](https://autopay.io/) , and airports operated by Apcoa go to [flow.apcoa.no](https://flow.apcoa.no/home). Enter your license plate number and pay by card. You do not need to create a user profile to pay. If you want to be automatically charged for parking, you can create a user profile. 
-- Pay using the ATM machine. There is also a regular payment machine on site that you can pay at. Enter the car's license plate number at the machine just before exiting and pay by card or coin.  
+- Pay using the ATM machine (betalingsautomat). There is also a regular payment machine on site that you can pay at. Enter the car's license plate number at the machine just before exiting and pay by card or coin.  
 
-If payment is not registered within 48 hours, an invoice is sent to the car owner for the parking time used. 
+If payment is not registered within 48 hours, an invoice is sent to the car owner for: the ordinary parking fee + an invoice fee of 12.5 kr + pay later fixed price of 50 kr. 
+
+
+
+### Notification for closed roads
+
+- Use [Stengt tunnel](https://stengttunnel.no).
+- Use [Vegvesen trafikk](https://www.vegvesen.no/trafikk). They also have a app to push notifications for closed and reopened roads.
 
 
 

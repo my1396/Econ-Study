@@ -1713,7 +1713,7 @@ Suppose that $X_1, \ldots, X_n$ is an iid sequence with mean $\mathbb{E}(X_i)=\m
 $$
 \frac{\overline{X}-\mathbb{E}[\overline{X}]}{\sqrt{\text{Var}[\overline{X}]}} 
 = \frac{\overline{X}-\mu}{\sqrt{\sigma^2/n}} 
-= \sqrt{n}\cdot\frac{\overline{X}-\mu}{\sigma} 
+= {\color{#008B45FF} \sqrt{n}} \cdot \frac{\overline{X}-\mu}{\sigma} 
 \xrightarrow{d} N(0,1)
 $$
 
@@ -1738,13 +1738,13 @@ $$
   \overline{X} -\mu  &\overset{a}{\sim} N(0,\sigma^2/n) \\
 
   \overline{X} &\xrightarrow{d} N(\mu,\sigma^2/n), &
-  \overline{X} &\overset{a}{\sim} N(\mu,\sigma^2/n) .
+  {\color{#008B45FF} \overline{X}} & {\color{#008B45FF} \overset{a}{\sim} N(\mu,\sigma^2/n) }.
 \end{array} 
 
 \end{align*}
 $$
 
-Note: The CLT is a very powerful result. $X_1, \ldots, X_n$ can be from any possible distribution (*iid* with *finite mean and variance*), and still their normalised sample mean will be standard normal.
+Note: The CLT is a very powerful result. $X_1, \ldots, X_n$ can be from any possible distribution (*iid* with *finite mean and variance*), and still their normalized sample mean will be standard normal.
 
 In practice, we replace $\sigma$ with $\widehat{\sigma}$ because we do not observe $\sigma$ but we do observe $\widehat{\sigma}$.
 
