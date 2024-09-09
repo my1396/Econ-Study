@@ -37,10 +37,22 @@ Auto 头灯，日间行驶灯，自动启动和关闭
 
 
 
-远光灯：With the headlights on, push the lever away from you to turn on the high beams.
+**远光灯**：With the headlights on, push the lever away from you to turn on the high beams.
 
 - 往下推开启远光灯
 - 往上(靠近自己)拉，闪烁远光灯
+
+
+
+**雾灯**
+
+左侧操控杆，上下转动调节环。
+
+档位：1 关闭 $\rightarrow$ 2. 前雾灯 $\rightarrow$ 3. 前雾灯+后雾灯
+
+<img src="https://drive.google.com/thumbnail?id=1zsW2JWTPrsK5AWfXchTAlYqhQMzE-edU&sz=w1000" alt="雾灯" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
 
 
 

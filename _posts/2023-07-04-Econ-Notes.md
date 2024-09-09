@@ -1708,7 +1708,7 @@ $$
 
 **Central Limit Theorem** (CLT)
 
-Suppose that $X_1, \ldots, X_n$ is an iid sequence with mean $\mathbb{E}(X_i)=\mu$ and $\text{Var}(X_i)=\sigma^2$. Let $\overline{X}=\sum_{i=1}^n X_i$ Then,
+Suppose that $X_1, \ldots, X_n$ is an iid sequence with mean $\mathbb{E}(X_i)=\mu$ and $\text{Var}(X_i)=\sigma^2$. Let $\overline{X}=\sum_{i=1}^n X_i.$ Then,
 
 $$
 \frac{\overline{X}-\mathbb{E}[\overline{X}]}{\sqrt{\text{Var}[\overline{X}]}} 
@@ -1746,7 +1746,11 @@ $$
 
 Note: The CLT is a very powerful result. $X_1, \ldots, X_n$ can be from any possible distribution (*iid* with *finite mean and variance*), and still their normalized sample mean will be standard normal.
 
-In practice, we replace $\sigma$ with $\widehat{\sigma}$ because we do not observe $\sigma$ but we do observe $\widehat{\sigma}$.
+- In practice, we replace $\sigma$ with $\widehat{\sigma}$ because we do not observe $\sigma$ but we do observe $\widehat{\sigma}$.
+- Population variance estimators, $\widehat{\sigma}^2$. Two versions: 
+  - biased sample variance: $$s_1^2 = \frac{1}{n} \sum_{i=1}^n [(X_i-\overline{X})^2]$$ and 
+  - unbiased sample variance: $$s_2^2 = \frac{1}{n-1} \sum_{i=1}^n [(X_i-\overline{X})^2]$$
+  - Both options are consistent; using either is fine.
 
 Define the *partial sum* $S_n := \sum_{i=1}^n X_i = n\overline{X}_n$. By LLN, we have
 

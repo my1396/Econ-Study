@@ -17,6 +17,12 @@ tag: study
 `\hat{\imath}`  $\rightarrow$ $\hat{\imath}$,
 `\hat{\jmath}`  $\rightarrow$ $\hat{\jmath}$
 
+Widehat `\widehat{\beta}` gives $\widehat{\beta}$ 
+
+Ordinary hat `\hat{\beta}` gives $\hat{\beta}$.
+
+
+
 ### Vectors
 
 `\vec`: $\vec{A}$
