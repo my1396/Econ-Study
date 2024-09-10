@@ -25,9 +25,18 @@ update: 2024-07-16
 
 - There should be a space before and after arithematic operators. E.g., 2.5 ± 0.07. 
 
+- Number range: Use an en dash and do not include a space either before or after the en dash.
+
+  Read chapters 7–9 before Friday.
+
+  It must have been 1–2 degrees yesterday.
+
+  - Do not mix en dash with ‘between/and’ and ‘from/to'.
+
 - When to spell out numbers?
 
-  - when the number is less than 10, then it should be spelled out; 10 以上的数字要拼写。
+  - When the number is less than 10, they should be spelled out; 10 以下的数字要拼写。
+  - Use Arabic numerals for 10 and above; 10以及10以上的数字用阿拉伯数字表示。
   - when numbers appear in the beginning of a sentence. 以数字开头的句子，数字要拼写出来。
 
 - Decades are written in numerals without an apostrophe: 1970s. 年份都是用numerals.
@@ -40,6 +49,32 @@ Some math style conventions
 - Vectors should be in **bold** type.
 - Functions should be as roman type. E.g., $\exp, \ln, \arg$.
 - If you need to break one long expression, the math operator such as `+` should be on the next line.
+
+
+
+**Dashes**
+
+- **Hyphen (-)** The shortest of the three, and the one most often used incorrectly with spaces when an en dash without spaces is needed (unless specifically using AP style).
+- **En dash (–)** The champion of the hour. This is the little guy – or gal – you need for number ranges. So called because it’s the length of a lower-case ‘n’. How you type an en dash:
+  - Option + hyphen key, or equivalently,
+  - Make a dash by striking the hyphen key twice. 
+  - Use `\textendash`.
+- **Em dash (—)** The longest of the three dash types. It has its specific uses, but a number range is not one of them. And, you guessed it, it’s the length of a lower-case ‘m’.
+  - Option + Shift + hyphen key
+
+
+
+**Decimals**
+
+- Put a zero before the decimal point when a number is less than 1 but the statistic can exceed 1.
+- Do not use a zero before a decimal when the statistic cannot be greater than 1 (proportion, correlation, level of statistical significance).
+
+
+
+**Statistics**
+
+- Report exact p values to two or three decimals (e.g., p=.006, p=.03). 
+- Peport p values less than .001 as “p < .001.”
 
 
 
