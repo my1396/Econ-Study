@@ -23,6 +23,29 @@ F 显示变更按钮
 
 
 
+**警告灯**
+
+<img src="https://drive.google.com/thumbnail?id=1G0nGekSuV5F6zCwt9p3zDK16pnqLxkEz&sz=w1000" alt="仪表盘" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
+
+ 
+
+
+
+| Light                                                        | Meaning            |
+| ------------------------------------------------------------ | ------------------ |
+| <img src="https://drive.google.com/thumbnail?id=1n3xMcswZBBcUQEDn3AhFwutPcQ6vaaeH&sz=w1000" alt="电动转向" style="zoom:40%;" /> | 电动转向系统警告灯 |
+| <img src="https://drive.google.com/thumbnail?id=1HnrrD008hLh8cyn5GDhjnwdvktMJ13bo&sz=w1000" alt="打滑" style="zoom:15%;" /> | 打滑指示灯         |
+| <img src="https://drive.google.com/thumbnail?id=1iLc6E9sRimlfNh84rMBn1VzzatwmL9hj&sz=w1000" alt="PCS 警告灯" style="zoom:35%;" /> | PCS 警告灯         |
+| <img src="https://drive.google.com/thumbnail?id=1Ec_oVF6wwb-nnGt-EDkqLrzg88DR3qZm&sz=w1000" alt="巡航" style="zoom:37%;" /> | 巡航控制指示灯     |
+
+
+
+
+
+
+
 ### 灯光控制
 
 <img src="https://drive.google.com/thumbnail?id=1sXUK0MJ-anOVyH8Mx_KNYVAVl2zk3dBp&sz=w1000" alt="车灯" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
@@ -56,7 +79,7 @@ Auto 头灯，日间行驶灯，自动启动和关闭
 
 
 
-
+**电话语音**
 
 <img src="https://drive.google.com/thumbnail?id=1Od33m0vB0HbAketZ9irSma-samsPeNe9&sz=w1000" alt="车灯" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
@@ -69,6 +92,22 @@ A
 B 控制音量
 
 C start voice command system. When using Apple CarPlay, press and hold the talk switch to start Siri.
+
+
+
+### 换挡操作杆
+
+<img src="https://drive.google.com/thumbnail?id=1Uh_XeZtOQh1mXbQ9v_eRQ0vDtN4NU5o8&sz=w1000" alt="换挡操作杆" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+| 档位 | 用途                        |
+| ---- | --------------------------- |
+| P    | 驻车 / 起动发动机           |
+| R    | 倒车                        |
+| N    | 空档 (在此条件下不传递动力) |
+| D    | 正常行驶                    |
+| M    | 10 速运动型顺序换档模式行驶 |
+
+
 
 
 
@@ -244,6 +283,38 @@ When “FAST” is displayed on the screen, fan speed will be increased.
 
 
 
+
+
+### 辅助驾驶
+
+LTA(车道保持辅助)
+
+
+
+**巡航**
+
+<img src="https://drive.google.com/thumbnail?id=1ANKPf3cnS5awHJxj6xYQJ7VgKZdGHDwo&sz=w1000" alt="巡航控制" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+1. 按下巡航控制主开关，激活巡航控制。
+
+   动态雷达巡航控制指示灯将点亮，且多信息显示屏上将显示信息。再次按下此开关，解除巡航控制。
+
+2. 操作加速踏板，加速或减速至所需车速(约 30 km/h [公里/小时] 或更高)，然后按下 “-SET” 开关设定速度。
+
+   巡航控制 “SET” 指示灯将点亮。 松开开关时的车速即为**设定速度**。
+
+
+
+Q: 如何调节设定速度？
+A: 按下 “+RES” 或 “-SET” 开关，直至显示所需设定速度。
+
+微调: 按**下**开关。每次按下开关，改变 1 km/h(公里 / 小时)
+大调: 按**住**开关改变速度，在达到所需速度时松开开关。按住开关时，以 5 km/h (公里 / 小时)的幅度提高或降低
+
+
+
+
+
 ### Eco Mode
 
 环保节能模式
@@ -253,7 +324,7 @@ When “FAST” is displayed on the screen, fan speed will be increased.
 **Car Key**
 
 Replace the battery with a new one if it is depleted.
-As the key may be damaged if the following procedure is not performed properly, it is rec- ommended that key battery replacement be performed by any authorized Toyota retailer or Toyota authorized repairer, or any reliable repairer.
+As the key may be damaged if the following procedure is not performed properly, it is recommended that key battery replacement be performed by any authorized Toyota retailer or Toyota authorized repairer, or any reliable repairer.
 
 
 
