@@ -249,7 +249,14 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
   - `\overset{#1}{#2}` put argument #1 (in script style) over argument #2. E.g., $\overset{\text{a}}{\sim}$ `\overset{\text{a}}{\sim}` or `\overset{\rm a}{\sim}`. `\rm` for Roman font (upright). A side note: Words in subscripts or superscripts should be upright.
 
-  - `\underset{#1}{#2}` put argument #1 (in script style) under argument #2. $\widetilde{\beta}_{k}^{\rm ridge}=\underset{b\in \mathbb{R}^{p+1}}{\rm argmin}  \lVert y-X b  \rVert ^{2}$. 
+  - `\underset{#1}{#2}` put argument #1 (in script style) under argument #2. E.g.,
+    $$
+    \begin{align*}
+    \widetilde{\beta}_{k}^{\rm ridge} &= \underset{b\in \mathbb{R}^{p+1}}{\rm arg\, min}  \lVert y-X b  \rVert ^{2} \\
+    \hat{\boldsymbol{\beta}} &= \arg\underset{\boldsymbol{\beta}}{\min} \sum_{i=1}^n \varepsilon_i^2
+    \end{align*}
+    $$
+     `\arg\underset{\boldsymbol{\beta}}{\min}` gives you $\arg\underset{\boldsymbol{\beta}}{\min}$.
 
 - Text above arrows. $\xrightarrow{d}$ `\xrightarrow{d}` convergence in distribution.
 
@@ -292,6 +299,25 @@ Display shows eqns in block, text style shows inline.
 - `\ldots` are used between commas, e.g., $a_1, \ldots, a_n$ ;
 
   `\cdots` used between plus/minus signs, e.g., $a_1+ \cdots + a_n$ ;
+  
+  `\ddots` often used in matrices, e.g., 
+  $$
+  \boldsymbol{X} = \begin{pmatrix}
+  x_1'\\
+  x_2'\\
+  \vdots \\
+  x_n'\\ 
+  \end{pmatrix}
+  = \begin{pmatrix}
+  x_{11} & x_{21} &  \cdots & x_{K1} \\
+  x_{12} & x_{22} & \cdots & x_{K2} \\
+  \vdots & \vdots & \ddots & \vdots \\
+  x_{1n} & x_{2n} & \cdots & x_{Kn} 
+  \end{pmatrix}_{n\times K}
+  $$
+  
+
+
 
 **Interpunct** 
 

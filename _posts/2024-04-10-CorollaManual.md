@@ -295,11 +295,11 @@ LTA(车道保持辅助)
 
 <img src="https://drive.google.com/thumbnail?id=1ANKPf3cnS5awHJxj6xYQJ7VgKZdGHDwo&sz=w1000" alt="巡航控制" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
-1. 按下巡航控制主开关，激活巡航控制。
+1. 按下巡航控制<span style='color:#32CD32'>主开关</span>，激活巡航控制。
 
    动态雷达巡航控制指示灯将点亮，且多信息显示屏上将显示信息。再次按下此开关，解除巡航控制。
 
-2. 操作加速踏板，加速或减速至所需车速(约 30 km/h [公里/小时] 或更高)，然后按下 “-SET” 开关设定速度。
+2. 操作加速踏板，加速或减速至所需车速(约 30 km/h [公里/小时] 或更高)，然后按下 “<span style='color:#32CD32'>-SET</span>” 开关设定速度。
 
    巡航控制 “SET” 指示灯将点亮。 松开开关时的车速即为**设定速度**。
 
@@ -309,9 +309,21 @@ Q: 如何调节设定速度？
 A: 按下 “+RES” 或 “-SET” 开关，直至显示所需设定速度。
 
 微调: 按**下**开关。每次按下开关，改变 1 km/h(公里 / 小时)
-大调: 按**住**开关改变速度，在达到所需速度时松开开关。按住开关时，以 5 km/h (公里 / 小时)的幅度提高或降低
+大调: 按**住**开关改变速度，在达到所需速度时松开开关。按住开关时，以 5 km/h (公里 / 小时)的幅度提高或降低。
 
 
+
+### 防盗系统
+
+<img src="https://drive.google.com/thumbnail?id=1OkufMZmS-9ALXWvrJTGNV5d-XqrbTmxw&sz=w1000" alt="防盗" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
+
+本车钥匙具有内置收发器芯片，具备智能进入和起动系统。
+
+发动机开关关闭后，指示灯闪烁，表示系统正在工作。
+
+将发动机开关切换至 ACC 或 ON 后，指示灯停止闪烁，表明系统已取消。
 
 
 
@@ -325,6 +337,8 @@ A: 按下 “+RES” 或 “-SET” 开关，直至显示所需设定速度。
 
 Replace the battery with a new one if it is depleted.
 As the key may be damaged if the following procedure is not performed properly, it is recommended that key battery replacement be performed by any authorized Toyota retailer or Toyota authorized repairer, or any reliable repairer.
+
+离开车辆时，切勿将钥匙留在车内。
 
 
 
