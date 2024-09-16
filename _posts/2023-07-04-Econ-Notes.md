@@ -372,11 +372,37 @@ $1/x$: the reciprocal of x.
 
 $3:5$: three to five.
 
-两位数的英文写法 (21-99): write the tens part, then, put a hyphen (-), and write the ones part. E.g., 68 (sixty-eight).
+**How to spell out numbers**
 
-三位数的英文写法 (100-999): write the hundreds part. Then write the tens part, hyphen, then the ones part. E.g., 341 (three hundred forty-one).
+- 两位数的英文写法 (21-99): write the tens part, then, put a hyphen (-), and write the ones part. E.g., 68 (sixty-eight).
 
-hundred, thousand, million etc. in numbers are used as adjectives. So they are not changed to plural numbers by adding -s to them.
+- 三位数的英文写法 (100-999): write the hundreds part. Then write the tens part, hyphen, then the ones part. E.g., 341 (three hundred forty-one).
+
+- hundred, thousand, million etc. in numbers are used as adjectives. So they are *not* changed to plural numbers by adding -s to them.
+
+- Do not use "and" in whole numbers. 
+  
+  The word "and" is not **written** with whole numbers. You might **say** "four hundred and fifty," but do not write the "and." For example:
+
+  - 3,567 (three thousand five hundred and sixty-seven wrong ❌)
+  - 3,567 (three thousand five hundred sixty-seven correct ✅)
+
+- Use "and" for the decimal point.
+
+  If the numbers after the decimal point are **not** said as figures, then use "and" instead of "point." E.g.,
+
+  - $3,567.65 (three thousand five hundred sixty-seven dollars and sixty-five cents correct ✅)
+  - 234.2 (two hundred thirty-four and two tenths correct ✅)
+
+  If numbers after the decimal point being said as figures, use "point."
+
+  - 234.2 (two hundred thirty-four point two correct ✅)
+  - 44,120.42 (forty-four thousand one hundred twenty point four two correct ✅)
+
+commutative property: 交换律
+
+assosiative property: 结合律
+
 
 **Fractions in word**
 
@@ -483,6 +509,13 @@ ___
 
 ## Matrices
 
+对角线
+
+╲  Major, Principal, Primary, Main; diagonal ╲
+
+
+╱ Minor, Counter, Secondary, Anti-; diagonal ╱
+
 **Inverse** 
 
 $A^{-1} = \frac{1}{\vert A \vert} \text{Adj}(A)$ where $\text{Adj}(A)$ is the adjoint matrix. Steps to find the inverse of $A$:
@@ -520,7 +553,7 @@ $A^{-1} = \frac{1}{\vert A \vert} \text{Adj}(A)$ where $\text{Adj}(A)$ is the ad
 - If $A$ is symmetric, then $A^{-1}$ is symmetric. The inverse of a symmetric matrix is still symmetric.
 
 
-**Variance matrix of random vector**
+**Expectation and Variance of Random Vectors**
 
 A random vector $\vec{X}$ is a vector 
 $$
@@ -562,6 +595,57 @@ $$
 \text{Cov}(X_p, X_1) &  \text{Cov}(X_2, X_p) &  \cdots &   \text{Var}(X_p)
 \end{bmatrix}_{p\times p}
 $$
+
+Cross-covariance matrix is defined for two random vectors $X$ and $Y$, containing the covariances between all possible couples of random variables formed by one entry of $X$ and one entry of $Y$.
+
+Formally, let $X$ be a $K\times 1$ random vector and $Y$ be a $L\times 1$ random vector. The cross-covariance matrix between $X$ and $Y$ is a $K\times L$ matrix, denoted by $\text{Cov}(X,Y)$ and defined as follows:
+
+$$
+\text{Cov}(X,Y) = E\left[(X-E[X])(Y-E[Y])^T \right].
+$$
+
+Note that in the formula above $(X-E[X])$ is a column vector and $(Y-E[Y])^T$ is a row vector.
+
+Example: $X=[X_1, X_2, X_3]^T$ and $Y=[Y_1, Y_2]^T$.
+
+The cross-covariance matrix between $X$ and $Y$ is:
+
+$$
+\begin{aligned}
+\text{Cov}(X,Y) &= \begin{bmatrix}
+E[(X_1-E[X_1])(Y_1-E[Y_1])] & E[(X_1-E[X_1])(Y_2-E[Y_2])] \\
+E[(X_2-E[X_2])(Y_1-E[Y_1])] & E[(X_2-E[X_2])(Y_2-E[Y_2])] \\
+E[(X_3-E[X_3])(Y_1-E[Y_1])] & E[(X_3-E[X_3])(Y_2-E[Y_2])] \\
+\end{bmatrix} \\
+&= \begin{bmatrix}
+\text{Cov}(X_1,Y_1) & \text{Cov}(X_1,Y_2) \\
+\text{Cov}(X_2,Y_1) & \text{Cov}(X_2,Y_2) \\
+\text{Cov}(X_3,Y_1) & \text{Cov}(X_3,Y_2) \\
+\end{bmatrix}
+\end{aligned}
+$$
+
+Note that, in general, the cross-covariance is *not* symmetric.
+
+**Autocovariance matrix**
+
+Let $⟨X_t⟩$ be a sequence of random vectors. Then the cross-covariance matrix between $X_t$ and $X_{t-j}$, $\text{Cov}(X_t, X_{t-j})$ is called autocovariance matrix.
+
+
+**Covariance Stationary**
+
+A sequence of random vectors $⟨X_t⟩$ is said to be covariance stationary if and only if
+$$
+\begin{aligned}
+& E[X_t] = \mu, \text{ and } \\
+& \text{Cov}(X_t, X_{t-j}) = \Gamma_j \text{ for } \forall j\ge 0.
+\end{aligned}
+$$
+where $\mu$ is a $K\times 1$ vector and $\Gamma_j$ is a $K\times K$ matrix.
+- $E[X_t] = \mu$ means that all the random vectors belonging to the sequence $⟨X_t⟩$ must have the same mean.
+
+- The cross-covaraince between a term and the term that is located $j$ positions before it must always be the same. 
+That is, $\text{Cov}(X_t, X_{t-j}) = \Gamma_j$ depends only on $j$ and *not* on $t$.
 
 **Trace Properties** 
 
