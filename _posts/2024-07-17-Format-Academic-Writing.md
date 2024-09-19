@@ -19,13 +19,13 @@ update: 2024-07-16
 
   E.g., 3 g, 6 cm, 6 days, 7 years.
 
-  **Exceptions** for percentage and temperatures. 10% and 17ºC. They don't need a space between numbers and units.
+  **Exceptions** for percentage and temperatures. 10% and 17ºC. They do <span style='color:#32CD32'>not</span> need a space between numbers and units.
 
-- **Physical units must not be italicized.** For example, 1.2 dB is correct, while 1.2 *dB* is not.
+- **Physical units must <span style='color:#32CD32'>not</span> be italicized.** For example, 1.2 dB is correct, while 1.2 *dB* is not.
 
 - There should be a space before and after arithematic operators. E.g., 2.5 ± 0.07. 
 
-- Number range: Use an en dash and do not include a space either before or after the en dash.
+- Number range: Use an <span style='color:#32CD32'>en dash</span> and do not include a space either before or after the en dash.
 
   Read chapters 7–9 before Friday.
 
