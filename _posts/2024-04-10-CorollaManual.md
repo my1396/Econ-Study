@@ -198,6 +198,22 @@ pull 一般是往上拉，但也有可能是往下拉
 
 
 
+**门锁开关**
+
+<img src="https://drive.google.com/thumbnail?id=1ZFQ6C3RtScIt3o44e3IasrHXe07aIP2M&sz=w1000" alt="门锁开关" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+
+<img src="https://drive.google.com/thumbnail?id=1h_gfPPymguThybQvuqZa8UjXqdI8eUyy&sz=w1000" alt="车内门锁" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+
+
+
+**后门儿童安全锁**
+
+去到后门，滑下按钮。
+
+<img src="https://drive.google.com/thumbnail?id=1PHoRmaMIxkPoZyeuHLuZP5-nysrvbSgK&sz=w1000" alt="车门儿童安全锁" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+
+
+
 ### 空调
 
 <img src="https://drive.google.com/thumbnail?id=1vBqDvajVdLqzOvI_mYbUXnQ_LcwbK0jJ&sz=w1000" alt="空调" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
