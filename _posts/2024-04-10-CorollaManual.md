@@ -210,7 +210,11 @@ pull 一般是往上拉，但也有可能是往下拉
 
 去到后门，滑下按钮。
 
+两后门均有各自安全锁。
+
 <img src="https://drive.google.com/thumbnail?id=1PHoRmaMIxkPoZyeuHLuZP5-nysrvbSgK&sz=w1000" alt="车门儿童安全锁" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+
+
 
 
 
@@ -355,6 +359,12 @@ Replace the battery with a new one if it is depleted.
 As the key may be damaged if the following procedure is not performed properly, it is recommended that key battery replacement be performed by any authorized Toyota retailer or Toyota authorized repairer, or any reliable repairer.
 
 离开车辆时，切勿将钥匙留在车内。
+
+
+
+**电子钥匙节能功能**
+
+<img src="https://drive.google.com/thumbnail?id=1_HRnRG0aF_oXtpqlN-G62dprvovucAkz&sz=w1000" alt="钥匙节能" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
 
 
 
