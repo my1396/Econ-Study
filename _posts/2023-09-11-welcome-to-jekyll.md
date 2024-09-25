@@ -96,6 +96,27 @@ Swidish fintech company, offers "buy now, pay later" online shopping.
 
 
 
+### Skype
+
+<https://secure.skype.com/portal/overview>
+
+Q: I can't see my credit balance or my credit resets to zero.
+
+A: It could be frozen due to inactivity for 180 days.
+
+
+
+How do I reactivate Skype Credit?
+
+1. [Sign in to your account](https://secure.skype.com/portal/settings/credit/reactivate) .
+2. Select **Reactivate Credit** .
+
+
+
+
+
+
+
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
