@@ -68,15 +68,18 @@ Vectors are lowercase and matrices are uppercase symbols. Both vectors and matri
 - Vectos $\boldsymbol a$, $\boldsymbol b, \boldsymbol c$  are produced by `\mathbfit a` or `\boldsymbol a`... ; vectors can also be denoted by Greek lowercase letters: $\boldsymbol{\alpha, \ldots \omega}$
 - Matrices $\boldsymbol A, \boldsymbol B, \boldsymbol C$ by `\mathbfit A` or `\boldsymbol a` ... ; matrices can also be deonoted by Greek uppercase letters: $\boldsymbol{\Gamma, \ldots, \Theta}$
   - $A=[a_{i,j}]$ to show the components of matrix $\boldsymbol A$.
-- Random variables are uppercase italic Latin letters $X, Y, X$. Lower case letters $x, y,z$ mean values of random variables. Sometimes, $X_i$ also denotes a value. If $X$ is a RV, then $X$ is written in words, and $x$ is given as a number.
+- Sets are denoted by capital letters $A, B, C, \ldots$
 
+- Random variables are uppercase italic Latin letters $X, Y, X$. Lower case letters $x, y,z$ mean values of random variables. Sometimes, $X_i$ also denotes a value. If $X$ is a RV, then $X$ is written in words, and $x$ is given as a number.
   - Sample data use lowercase.
   - Population data use uppercase.
-
+  
 - Use Greek letters $\boldsymbol\theta, \boldsymbol\phi$ for parameters or $\alpha, \beta, \gamma$ for hyperparameters.
 - Error terms are denoted by $\epsilon, \varepsilon, \eta, \xi, \zeta$.
 - Variance-covariance matrices: $\boldsymbol{\Omega}, \boldsymbol{\Sigma}, \boldsymbol{V}, \boldsymbol{G}$.
 - $\text{aVar}[.]$ denotes the asymptotic variance operator.
+
+- The letters $f$, $g$,and $h$ are often used to represent functions.
 
 - $f(x) \approx g(x)$ (`\approx`) if the two functions are approximately equal in some sense depending on the context. 
 - $f(x) \propto g(x)$ (`\propto`) If $f(x)$ is proportional to $g(x)$ we write. 
@@ -531,13 +534,13 @@ $A^{-1} = \frac{1}{\vert A \vert} \text{Adj}(A)$ where $\text{Adj}(A)$ is the ad
   $$
   The minor of the element $a_{11}$, i.e., $M_{11}$, is:
 
-  $$
+$$
   \text{Minor of }a_{11} = 
   \begin{vmatrix} 
   a_{22}  & a_{23} \\
   a_{32}  & a_{33} \\
   \end{vmatrix}
-  $$
+$$
 </li>
 <li> Add the sign $(-1)^{i+j}$ to minors, then you get a cofactor matrix $C_{ij} = (-1)^{i+j}M_{ij}$. </li>
 <li> Take the transpose of the cofactor matrix, then you get the adjoint matrix. $\text{Adj}(A)=C^T$ </li>
@@ -696,7 +699,7 @@ $$
 
 $$
 D^{-1}_{ii} = \frac{1}{d_{ii}}
-$$ 
+$$
 Inverse is taking the inverse of each entry. 
 
 $\vert D \vert = \prod_{i=1}^n d_{ii}$ Determinant is the product of the elements of $D$. 
@@ -801,7 +804,7 @@ $$
 A^2 &= (P\Lambda P^{-1}) (P\Lambda P^{-1}) \\
 &= P\Lambda^2 P^{-1}
 \end{align*}
-$$ 
+$$
 
 By induction,
 

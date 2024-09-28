@@ -69,6 +69,17 @@ Note:
 
 
 
+| Common symbols                                          | Matrices                                             |
+| ------------------------------------------------------- | ---------------------------------------------------- |
+| $\boldsymbol{I}_n$ (`\boldsymbol{I}_n`)                 | $n\times n$ identity matrix                          |
+| $\mathbb{1}_n$ (`\mathbb{1}` from `\usepackage{bbold}`) | $n\times n$ identity matrix, double 1 representation |
+| $\boldsymbol{1}_n$  (`\boldsymbol{1}_n`)                | $n\times 1$ vector of ones                           |
+| $\boldsymbol{1}(a)$ (`\boldsymbol{1}(a)`)               | Indicator function (1 if a is true, else 0)          |
+
+
+
+
+
 ### Greek Letters
 
 #### Capital
@@ -370,6 +381,8 @@ $\sup$, $\inf$
     You could also use `\left\{` and `\right\}`. 
 
     Here is a nice [guide](https://www.overleaf.com/learn/latex/Brackets_and_Parentheses).
+
+- Square brakets: $E\lbrack x \rbrack$ (`E\lbrack x \rbrack`)
 
 - Add whitespace between equations, use `\quad`, `\qquad`, and `\hspace{20pt}` for long space; and  `\;` for short space.
 
