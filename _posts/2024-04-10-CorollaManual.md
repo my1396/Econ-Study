@@ -376,6 +376,47 @@ As the key may be damaged if the following procedure is not performed properly, 
 
 
 
+**冬季玻璃水**
+
+更换冬季玻璃水前，要将车内剩余的夏季玻璃水排空，再灌入冬季玻璃水。
+
+如果玻璃水已经出现结冰现象，一定要待冰块彻底融化后喷出。如果玻璃水被冻住，千万不要继续使用，一定要等化开后重新加入冬季专用玻璃水，否则有可能烧坏电机。
+
+天气寒冷时，风挡玻璃变暖前请勿使用喷洗液。喷洗液可能会在风挡玻璃上结冰，导致能见度降低。
+
+
+
+### 发动机盖
+
+**打开发动机盖**
+
+<img src="https://drive.google.com/thumbnail?id=1ipTUxp8Bs7t4lvOH5rZqLA_xcB0GU0K-&sz=w1000" alt="发动机盖" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+
+
+
+<img src="https://drive.google.com/thumbnail?id=1UEjO2ofEi0LRfOQHQm1iI4rXtFYGiHZZ&sz=w1000" alt="发动机盖零部件" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+| 部件 | 用处                   |
+| ---- | ---------------------- |
+| A    | 喷洗液储液罐           |
+| B    | 发动机冷却液储液罐     |
+| C    | 保险丝盒               |
+| D    | 发动机机油加注口盖     |
+| E    | 发动机机油尺           |
+| F    | 中间冷却器冷却液储液罐 |
+| G    | 蓄电池                 |
+| H    | 散热器                 |
+| I    | 冷凝器                 |
+| J    | 电动冷却风扇           |
+
+检查和加注发动机机油
+
+发动机处于工作温度且已关闭的情况下，用机油尺检查机油油位。
+
+
+
+
+
 ### 油电混合动力系统
 
 车子有两个引擎：汽油引擎 (gasoline engine) 和电动马达 (electric motor (traction motor)) 牵引引擎。
