@@ -73,8 +73,8 @@ Some math style conventions
 
 **Statistics**
 
-- Report exact p values to two or three decimals (e.g., p=.006, p=.03). 
-- Peport p values less than .001 as “p < .001.”
+- Report exact *p*-values (italic lowercase p, 斜体小写) to two or three decimals (e.g., p=.006, p=.03). 
+- Peport *p*-values less than .001 as “p < .001.”
 
 
 
