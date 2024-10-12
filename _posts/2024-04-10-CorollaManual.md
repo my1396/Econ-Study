@@ -42,6 +42,20 @@ F 显示变更按钮
 
 
 
+**更改仪表显示**
+
+<img src="https://drive.google.com/thumbnail?id=1jIkWgWixDYAgV79lWRZmqKBAQpLPeY2Q&sz=w1000" alt="仪表盘" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+
+
+
+行驶信息内容
+
+- 车速表显示 / 可继续行驶距离
+- 燃油经济性
+- 环保驾驶指示器 / 可继续行驶距离
+
+
+
 
 
 
