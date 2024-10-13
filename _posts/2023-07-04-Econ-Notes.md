@@ -521,7 +521,10 @@ ___
 
 **Inverse** 
 
-$A^{-1} = \frac{1}{\vert A \vert} \text{Adj}(A)$ where $\text{Adj}(A)$ is the adjoint matrix. Steps to find the inverse of $A$:
+$A^{-1} = \frac{1}{\vert A \vert} \text{Adj}(A)$ where $\text{Adj}(A)$ is the adjoint matrix. The inverse of matrix $A$ can be computed by dividing the adjoint of a matrix by the determinant of the matrix.  </br>
+
+Steps to find the inverse of $A$:
+
 <ol>
 <li> Calculate the matrix of minors $M$. <br/>
   The minor is defined for every element of a matrix. The minor of a particular element is the determinant, denoted as $M_{ij}$, obtained after eliminating the $i$-th row and $j$-th column. For instance
@@ -554,6 +557,24 @@ $$
 - $(ABC)^{-1}=C^{-1}B^{-1}A^{-1}$ The inverse of a product is the product of the inverse in the *opposite* order. This holds only on the condition that all matrices are invertible.
 
 - If $A$ is symmetric, then $A^{-1}$ is symmetric. The inverse of a symmetric matrix is still symmetric.
+
+
+
+**Inverse of a 2$\times$2 matrix**
+$$
+\begin{aligned}
+A &= \begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix} \\
+A^{-1} &= \frac{1}{ad-bc}  \begin{bmatrix}
+d & -b \\
+-c & a
+\end{bmatrix}
+\end{aligned}
+$$
+
+
 
 
 **Expectation and Variance of Random Vectors**
