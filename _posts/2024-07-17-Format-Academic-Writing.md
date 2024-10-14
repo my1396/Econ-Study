@@ -115,7 +115,7 @@ The formatter removes both ‘soft’ (`␣`) and ‘hard’ spaces (`\,` and `~
 
 
 
-Use `Eq. (1)` when citing equations, `Eqs. (1) and (2)` for plural.  
+Use `Eq. (1)` when citing one equation, `Eqs. (1) and (2)` for citing more than one equation.  
 
 - It is common that `Eq.` is omitted for all and only `(1)` is used to refer to a equation. 
 
