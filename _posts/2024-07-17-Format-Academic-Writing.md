@@ -115,6 +115,32 @@ The formatter removes both ‘soft’ (`␣`) and ‘hard’ spaces (`\,` and `~
 
 
 
+Use `Eq. (1)` when citing equations, `Eqs. (1) and (2)` for plural.  
+
+- It is common that `Eq.` is omitted for all and only `(1)` is used to refer to a equation. 
+
+- If it is the first word of the sentence, use `Equation (1)`.
+- Acceptable abbreviations include 
+  - `eq` and `eqs`  (no periods)
+  - `eq.` and `eqs.` (with periods)
+  - `Eq.` and `Eqs.` (capitalization)
+  - `eqtn.` and `eqtns.` 
+  - `Eqtn.` and `Eqtns.`
+- number needs to be put in parentheses.
+- labels are right-aligned.
+
+
+
+Use `Table 1` (or `Tables 1 and 2` for plural) to refer to tables. No abbreviations for tables. 
+
+- Table labels, titles, and captions are placed on <span style='color:#32CD32'>top</span> of the table.
+- Below the table, there can be explanatory footnotes as necessary. Footnotes apply to a specific part of the table; while notes that apply to the whole table should be treated as captions.
+
+Use `Figs. 1` (or `Figs 1a and 1b` for plural) to refer to figures. Use abbreviations for figures .
+
+- Figure titles and captions go <span style='color:#32CD32'>below</span> the figure.
+- Subplots are denoted using a lowercase letter within parentheses.
+
 
 
 ## Bullet points
@@ -154,5 +180,7 @@ Use a comma (often called a “serial comma” or “Oxford comma”) before the
 
 
 
+**Useful resources**:
 
+1. <https://www.e-education.psu.edu/styleforstudents/c1_p9.html>
 
