@@ -95,6 +95,8 @@ Using a hypen is horrible.
 
 
 
+___
+
 ### `siunitx` syntax
 
 A manual: <https://texdoc.org/serve/siunitx/0>
@@ -113,7 +115,9 @@ The formatter removes both ‘soft’ (`␣`) and ‘hard’ spaces (`\,` and `~
 
 
 
+___
 
+### Citing equations, tables, and figures
 
 Use `Eq. (1)` when citing one equation, `Eqs. (1) and (2)` for citing more than one equation.  
 
@@ -136,7 +140,7 @@ Use `Table 1` (or `Tables 1 and 2` for plural) to refer to tables. No abbreviati
 - Table labels, titles, and captions are placed on <span style='color:#32CD32'>top</span> of the table.
 - Below the table, there can be explanatory footnotes as necessary. Footnotes apply to a specific part of the table; while notes that apply to the whole table should be treated as captions.
 
-Use `Figs. 1` (or `Figs 1a and 1b` for plural) to refer to figures. Use abbreviations for figures .
+Use `Figs. 1` (or `Figs 1a and 1b` for plural) to refer to figures. Use abbreviations for figures.
 
 - Figure titles and captions go <span style='color:#32CD32'>below</span> the figure.
 - Subplots are denoted using a lowercase letter within parentheses.
@@ -162,7 +166,7 @@ For a list whose bullet points are not full sentences:
 
 
 
-
+## Punctuations
 
 **Comma**
 
