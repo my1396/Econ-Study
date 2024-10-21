@@ -170,6 +170,21 @@ In other words, a random variable $X$ has a single possible value. E.g., a weigh
 
 *Average* ($\overline{X}$) usually denotes sample, *expected value* ($E[X]$) and *mean* ($\mu$) denote population.
 
+
+Write a sequence of calculations using the "two-column method". This method is good for simple derivations in homework, but is not suitable for a research paper, where calculations should be integrated into the flow of the text, using both words and symbols to provide a smooth, narrative-driven explanation.
+
+$$
+\begin{aligned}
+& \quad & 3^{2x} - 2 (3^x) &= -1  \\
+& \rightarrow   & (3^x)^2 - 2 (3^x) + 1 &= 0 &\quad & \text{(rewrite this equation in terms of $3^x$)} \\ 
+& \rightarrow  & (3^x-1)^2 &=0 &\quad & \text{(factor)} \\
+& \rightarrow  & 3^x &=1 &\quad & \text{(zero factor property)} \\
+& \rightarrow  & x &=0 
+\end{aligned}
+$$
+
+
+
 ## Geometry
 
 **Quadrant** (plane geometry)
@@ -178,7 +193,7 @@ The axes of a two-dimensional Cartesian system divide the plane into four infini
 
 -   the numbering goes counter-clockwise starting from the upper right ("northeast") quadrant.
 
-<img src="https://drive.google.com/thumbnail?id=1FlWhw7t0EIuk4PAV5-CTsLJGR0WZWGsl&sz=w1000" alt="quadrant geometry" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
+<img src="{{ site.baseurl}}/images/quadrant geometry.png" alt="quadrant geometry" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
 
 orthographic projection (正射投影): top view, front view, (right) side view.
 
@@ -424,6 +439,11 @@ Decrease/increase a negative number: "Decrease" and "increase" refer to the abso
 
 多项式与指数
 
+A standard polynomial is one where the highest degree is the first term, and the subsequent terms are arranged in descending order of the powers or the exponents of the variables followed by constant values. 
+
+- The number multiplied by a variable is called the "coefficient". 
+- The number without any variable is called a "constant".
+
 $A^B$: $A$ is called the base (底数), $B$ is exponent (指数).
 
 Polynomials, $x$ in the base. constant ($x^0$), linear ($x$), quadratic ($x^2$), cubic ($x^3$), quartic terms ($x^4$).
@@ -435,6 +455,13 @@ $x^4$ read as $x$ to the 4th or the quartic term.
 For example, a polynomial $x^{109} + 9x^5 − 2x^2$ is most likely pronounced:
 
 >   x to the hundred and nine plus nine x to the fifth minus two x squared.
+
+二项式 \
+**Binomial** (based on terms) or quadratic polynomial (based on degrees) \
+A binomial is a polynomial with two terms. (只有两项的多项式)
+
+Factoring a binomial 因式分解
+
 
 **Exponential** $x$ in the exponent.
 

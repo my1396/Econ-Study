@@ -25,13 +25,18 @@ When you view the source file on GitHub.com, the relative link will continue to 
 
 `<img src="{{ site.baseurl}}/images/image-20230730113759915.png" alt="quadrant geometry" style="zoom:50%;" />`
 
+- The drawback with this method is that it does not provide preview in VS or using the local host `http://127.0.0.1:4000/`.
+
+- `baseurl` is set in the `_config.yml`, it is the name of sub-directory the site is served from. E.g., for the following url `https://my1396.github.io/Econ-Study/2023/10/03/HTML.html`, 
+
+  - url is `https://my1396.github.io`; 
+
+  - baseurl is `/Econ-Study`; 
+
+  - page url is `/2023/10/03/HTML.html`.
 
 
-`baseurl` is set in the `_config.yml`, it is the name of sub-directory the site is served from. E.g., for the following url `https://my1396.github.io/Econ-Study/2023/10/03/HTML.html`, 
 
-- url is `https://my1396.github.io`; 
-- baseurl is `/Econ-Study`; 
-- page url is `/2023/10/03/HTML.html`.
 
 
 ### Upload Images as Assets
