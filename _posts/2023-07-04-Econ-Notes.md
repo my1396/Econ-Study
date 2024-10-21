@@ -460,7 +460,8 @@ For example, a polynomial $x^{109} + 9x^5 − 2x^2$ is most likely pronounced:
 **Binomial** (based on terms) or quadratic polynomial (based on degrees) \
 A binomial is a polynomial with two terms. (只有两项的多项式)
 
-Factoring a binomial 因式分解
+
+因式分解，或多项式因式分解（Polynomial Factorization），是把一个多项式分解为两个或多个的因式的过程。在这个过后会得出一堆较原式简单的多项式的积。例如单元多项式 $x^{2}-1^{2}$ 可被因式分解为 $\left(x+1\right)\left(x-1\right)$。
 
 
 **Exponential** $x$ in the exponent.

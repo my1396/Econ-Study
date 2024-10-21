@@ -25,8 +25,9 @@ When you view the source file on GitHub.com, the relative link will continue to 
 
 `<img src="{{ site.baseurl}}/images/image-20230730113759915.png" alt="quadrant geometry" style="zoom:50%;" />`
 
-- The drawback with this method is that it does not provide preview in VS or using the local host `http://127.0.0.1:4000/`.
-- The advantage is that it does not rely on any cloud service. The pic folder is hosted on github, won't have domin restrictions when travel abroad.
+- The drawback with this method is that it does not provide local preview in desktop apps, like Visual Studio.
+- Can preview using the local host `http://127.0.0.1:4000/` though.
+- The advantage is that it does not rely on any cloud services, such as Google Drive. The image folder is hosted on GitHub, meaning it won't have domin restrictions when travel abroad or it won't be affected by service updates from Google.
 
 - `baseurl` is set in the `_config.yml`, it is the name of sub-directory the site is served from. E.g., for the following url `https://my1396.github.io/Econ-Study/2023/10/03/HTML.html`, 
 
@@ -59,7 +60,7 @@ Using the following code to insert the image you uploaded:
 
 **Comments**: 
 
-- It's safer and faster to use project self-contained images, for instance, in a folder `images` or `assets`. In this way, it doesn't depend on an external server like Google. 
+- It's <span style='color:#32CD32'>safer and faster to use project self-contained images</span>, for instance, in a folder `images` or `assets`. In this way, it doesn't depend on an external server like Google. 
 - The probelm with Cloud Storage is that when Google updates their terms, your website is corrupted. You have to make changes to your source codes to meet the requirements of the new terms (see the follwing section for an instance).
 - Self-contained images protect you from website corruption, which is more stable.
 - It is fatest for your website to load images when the files are on GitHub. But then you need to upload lots of images. As GitHub won't process a large amount at one time, you need to split the upload into small batches.
