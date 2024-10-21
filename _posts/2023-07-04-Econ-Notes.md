@@ -205,7 +205,7 @@ complementary angel 互余角 $\alpha+\beta=\frac{\pi}{2}$.
 
 supplementary angel 互补角 $\alpha+\beta=\pi$.
 
-<img src="https://drive.google.com/thumbnail?id=1FlFGD-wVxC1UacQiLtg4W3NKAOcie-z7&sz=w1000" alt="triangel" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+<img src="{{ site.baseurl}}/images/triangel.png" alt="triangel" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
 
 斜边 hypotenuse  /haɪˈpɑːtənuːs/ \
 邻边 adjacent side \
