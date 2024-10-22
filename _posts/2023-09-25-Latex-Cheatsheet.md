@@ -7,7 +7,7 @@ tag: study
 
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
-### Special characters / Symbols
+## Special characters / Symbols
 
 #### No dot
 `\imath` $\rightarrow$ $\imath$,
@@ -23,7 +23,7 @@ Ordinary hat `\hat{\beta}` gives $\hat{\beta}$.
 
 
 
-### Vectors
+## Vectors
 
 `\vec`: $\vec{A}$
 
@@ -49,7 +49,7 @@ Sometimes, hat or bar symbols look too light. You might want a bolder version of
 
 
 
-### Matrices
+## Matrices
 
 | Type                                                         | LATEX markup                                        | Renders as                                            |
 | :----------------------------------------------------------- | :-------------------------------------------------- | :---------------------------------------------------- |
@@ -80,7 +80,7 @@ Note:
 
 
 
-### Greek Letters
+## Greek Letters
 
 #### Capital
 
@@ -120,9 +120,9 @@ Note:
 | `\varsigma` | $\varsigma$ |  `\vartheta` |       ϑ |
 |      `\eth` | ð           |      `\hbar` | $\hbar$ |
 
-### Other
+### 
 
-#### Other Symbols
+## Other Symbols
 
 |         LaTex |      |            LaTex |      |
 | ------------: | ---- | ---------------: | ---: |
@@ -152,7 +152,7 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
 
 
-#### Sets
+### Sets
 
 |     LaTex |           |                        LaTex |                            |
 | --------: | --------- | ---------------------------: | -------------------------: |
@@ -168,7 +168,7 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
 
 
-#### Binary operators
+### Binary operators
 
 |    LaTex |              |    LaTex |          |
 | -------: | ------------ | -------: | -------: |
@@ -180,21 +180,22 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
 
 
-#### Relational Symbols
+### Relational Symbols
 
-|          LaTex |                |       LaTex |             |
-| -------------: | -------------- | ----------: | ----------: |
-|         `\geq` | ≥              |      `\leq` |           ≤ |
-|       `\equiv` | ≡              |      `\sim` |      $\sim$ |
-|          `\gg` | ≫              |       `\ll` |       $\ll$ |
-|         `\mid` | $\mid$         |   `\propto` |   $\propto$ |
-|        `\perp` | ⊥              | `\parallel` | $\parallel$ |
-| `\vartriangle` | $\vartriangle$ |  `\leadsto` |  $\leadsto$ |
-|   `\triangleq` | $\triangleq$   |   `\approx` |   $\approx$ |
+|           LaTex |                 |       LaTex |             |
+| --------------: | --------------- | ----------: | ----------: |
+|          `\geq` | ≥               |      `\leq` |           ≤ |
+|        `\equiv` | ≡               |      `\sim` |      $\sim$ |
+|           `\gg` | ≫               |       `\ll` |       $\ll$ |
+|          `\mid` | $\mid$          |   `\propto` |   $\propto$ |
+|         `\perp` | ⊥               | `\parallel` | $\parallel$ |
+|  `\vartriangle` | $\vartriangle$  |  `\leadsto` |  $\leadsto$ |
+|    `\triangleq` | $\triangleq$    |   `\approx` |   $\approx$ |
+| `\triangledown` | $\triangledown$ |    `\nabla` |    $\nabla$ |
 
 **Note:** 
 
-- use `\vert` or `\mid` ($\vert$) to show a pipe operator, otherwise markdown recognizes it as a table column.
+- use `\vert` or `\mid` ($\vert$) to show a pipe operator, otherwise <span style='color:#32CD32'>Markdown recognizes it as a table column separator</span> in inline equations (block equations enclosed in `$$...$$` works fine though). 
 
   - `\lVert` and `\rVert` ($\rVert$) used to take the norm of a vector;
 
@@ -203,22 +204,31 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
   - `\mid` is often used as delimitor, $\{a\in S \mid \text{\(a=0\) or \(a\) is odd}\}$; $\mid$ in set theory means "such that", to introduce properties of the set; in probability, meaning conditional on;
 
   - `\mid` is also used to divide numbers. $4 \mid 12=3$, meaning $\text{\(4\) divides \(12\)}$. $a \mid b$ meaning $b$ is completely divisible by $a$. E.g., 
-
     $$
     \{𝑥\in \mathbb{Z}\mid 4\mid𝑥\}
     $$
-
+    
     which describes the set of integers which 4 divides, namely $\{0,\pm4,\pm8,\pm12,…\}$. Some people prefer to use a colon there
-
+    
     $$
     \{𝑥\in \mathbb{Z}: 4\mid 𝑥 \}.
     $$
-
+  
 - `\perp` ($\perp$) indicates zero correlation; `\indep` ($\indep$) indicates independece.
 
 - $\triangleq$  and `:=` used to define a variable using the RHS.
 
   $\equiv$ (`\equiv`) is used to denote shorthand. There is no logical or physical content here; two expressions which are separated by $\equiv$ have exactly the same meaning, but are written a different way.
+
+- $\vartriangle$ is a math operator, standing for increment, should be up right;
+
+  - $\Delta$ is a Greek letter, should be italic
+
+- $\nabla$ commonly used to denote increments. 
+
+  $$
+  \nabla_1 h(x_1, \boldsymbol{x_2}, \boldsymbol{u}) = h(1,\boldsymbol{x_2}, \boldsymbol{u})-h(0,\boldsymbol{x_2}, \boldsymbol{u}) . 
+  $$
 
 - $\sim$      means 
 
@@ -240,7 +250,7 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
 
 
-#### Arrows
+### Arrows
 
 |             LaTex |            |             LaTex |              |
 | ----------------: | ---------- | ----------------: | -----------: |
@@ -273,7 +283,7 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
 
 
-#### Cumulative operators
+### Cumulative operators
 
 |     LaTex |           |       LaTex |             |
 | --------: | --------- | ----------: | ----------: |
@@ -295,11 +305,38 @@ Summation operators: $\displaystyle\sum_{i=1}^n$ (`\displaystyle\sum_{i=1}^n`) v
 
 
 
+
+
+### Differtials
+
 Display shows eqns in block, text style shows inline.
 
-- `\dfrac` used to show display style. $\dfrac{\partial f}{\partial x}$
+- `\dfrac` used to show *display* style. $\dfrac{\partial f}{\partial x}$
 
-- `\tfrac` used to show text style. $\tfrac{\partial f}{\partial x}$
+- `\tfrac` used to show *text* style. $\tfrac{\partial f}{\partial x}$
+
+
+
+In terms of ordinary derivative, `d` should be upright as it is not a variable.
+
+Use [`derivative` package](https://ftp.fagskolen.gjovik.no/pub/tex-archive/macros/latex/contrib/derivative/derivative.pdf) to format differtials.
+
+```latex
+\usepackage{derivative}
+
+
+\begin{align*}
+& \quad &\text{partial derivative: }  & \pdv{f}{x} \\
+&  &\text{partial derivative: }  & \pdv{f}{x,y} \\
+&  &\text{partial derivative with star (*): }  & \pdv*{f}{x,y} \\
+& & \text{higher order derivative: } & \odv*{\odv[delims-frac=(), frac
+]{y}{x}}{x} \\
+& & \text{ordinary derivative: } & \odv{s}{t} \\
+& & \text{higher order derivative: } & \odv[switch-*=false, order=n]{y}{x} \\
+\end{align*}
+```
+
+<img src="https://drive.google.com/thumbnail?id=1RfGEewnk04yXfSkaUoB6ULN6vt0nQfrs&sz=w1000" alt="pdv and odv" style="zoom:40%;" />
 
 
 
@@ -340,7 +377,7 @@ On mac, use `Shift+Opt+9` to type `·`
 
 
 
-#### Named operators
+### Named operators
 
 $\arccos$, $\arcsin$, $\arctan$, $\cos$, $\cosh$, $\cot$, $\coth$, $\sec$, $\sin$, $\sinh$, 
 
@@ -400,7 +437,7 @@ $\sup$, $\inf$
 
 
 
-#### Escaped/Reserved Characters
+### Escaped/Reserved Characters
 
 The reserved characters have, in addition to the pure representation of the character, an additional function. Therefore, they cannot be used simply because it is generally assumed first that the function and not the character is meant. 
 

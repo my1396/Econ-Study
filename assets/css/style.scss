@@ -33,12 +33,21 @@ li:first-child {
   suffix: ") ";
 }
 
+@counter-style paren-lower-roman {
+  system: extends lower-roman;
+  suffix: ") ";
+}
+
 [type="p1"] {
   list-style: paren-decimal;
 }
 
 [type="pa"] {
   list-style: paren-lower-alpha;
+}
+
+[type="pi"] {
+  list-style: paren-lower-roman;
 }
 
 

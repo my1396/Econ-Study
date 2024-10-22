@@ -9,9 +9,166 @@ $$
 \newcommand{\indep}{\perp \!\!\! \perp}
 $$
 
+<head>
+    <style>
+      .boxed {
+        background: #FFFAEE;
+        color: black;
+        border: 1px solid #535353;
+        margin: 0px auto;
+        width: 526px;
+        padding: 10px;
+        border-radius: 10px;
+      }
+    </style>
+</head>
+
+<a class="top-link hide" href="#" id="js-top">↑</a>
+
+## Conditional Expectation Function
+
+The conditional mean of logwages given sex, race, and education is a single number for each category.
+
+For example
+
+$$
+\mathbb{E}\left[\log (\text{wage})\right | \text{sex=man, race=white, education=12}]
+$$
+
+We formulate a generic function to measure the variation in $\log(wage)$, denoted by the letter $y$, given multiple conditioning variables, such as sex, race, and education, deonoted by the letters $x_1,x_2, \ldots,x_k.$
+
+$$
+\mathbb{E}[y|x_1,x_2, \ldots,x_k]=m(x_1,x_2, \ldots,x_k) .
+$$
+
+We call this the <span style='color:#008B45FF'>**conditional expectation function** (CEF)</span>. The CEF is a function of $(x_1,x_2, \ldots,x_k)$ as it varies with the variables. 
+
+we will typically write the conditioning variables as a vector in $\mathbb{R}^k$:
+
+$$
+\boldsymbol{x} = \begin{pmatrix}
+x_1 \\
+x_2 \\
+\vdots \\
+x_k
+\end{pmatrix} .
+$$
+
+Here we follow the convention of using lower case bold italics $\boldsymbol{x}$ to denote a vector. Given this notation, the CEF can be compactly written as
+
+$$
+\mathbb{E}(y|\boldsymbol{x}) = m(\boldsymbol{x}) .
+$$
+
+The CEF $\mathbb{E}(y\vert\boldsymbol{x})$ is a function of $\boldsymbol{x}$. 
+
+Another commonly seen expression is $\mathbb{E}(y\vert\boldsymbol{x}=\boldsymbol{u})$, which is the conditional expectation of $y$, given that the random variable $\boldsymbol{x}$ equals the specific value $\boldsymbol{u}$. However, sometimes you only see $\mathbb{E}(y\vert\boldsymbol{x})$ to refer to this function.
+
+Express the CEF using the conditional density function 
+
+$$
+m(\boldsymbol{x}) = \mathbb{E}(y|\boldsymbol{x}) = \int_{-\infty}^\infty y f_{y|\boldsymbol{x}}(y|\boldsymbol{x}) dy.
+$$
+
+Or, in the discrete $\boldsymbol{x}$ case, 
+
+$$
+m(\boldsymbol{x}) = \mathbb{E}(y|\boldsymbol{x}) = \sum_{\boldsymbol{y}} y\, f_{y|\boldsymbol{x}}(y|\boldsymbol{x}) .
+$$
+
+Intuitively, $m(\boldsymbol{x})$ is the mean of $y$ for the idealized subpopulation where the conditioning variables are fixed at $\boldsymbol{x}$. 
+
+The notation $m(\boldsymbol{x})=\mathbb{E}(y\vert\boldsymbol{x})$ is informative as it shows that the <span style='color:#337ab7'>CEF is a function of $\boldsymbol{x}$</span>.
+
+Differences between $\mathbb{E}(y)$ and $\mathbb{E}(y\vert\boldsymbol{x})$
+
+- The unconditional expectation of $y$, $\mathbb{E}(y)$ is just a number. e.g., $\mathbb{E}(y)=2$ or $\mathbb{E}(y)=2$.
+- The conditinoal expectaiont, $\mathbb{E}(y\vert\boldsymbol{x})$, is a number depending on $\boldsymbol{x}$.
+  - If $\boldsymbol{x}$ has an influence on the value of $y$, then $\boldsymbol{x}$ will have an influence on the average value of $y$.
+  - For instance, we would expect $\mathbb{E}(y\vert\boldsymbol{x}=\boldsymbol{u})$ to be different from $\mathbb{E}(y\vert\boldsymbol{x}=\boldsymbol{v})$.
+  - We can therefore view $\mathbb{E}(y\vert\boldsymbol{x})$ as a function of $\boldsymbol{x}$, say $\boldsymbol{x}=m(\boldsymbol{x})$.
+
+To evaluate this function, $m(\boldsymbol{x}) = \mathbb{E}(y\vert\boldsymbol{x}) $, we
+
+<ol type="pi">
+  <li> fix $\boldsymbol{x}$ at the chosen value, say $\boldsymbol{u}$; </li>
+  <li> find the expectaion of $y$ when $\boldsymbol{x}$ is fixed at this value. </li>
+</ol>
+
+Note that 
+
+1. This is idealized since $\boldsymbol{x}$ is continuously distributed so this subpopulation is infinitely small. \
+   In practice, we may not be able to observe values at certain levels of $\boldsymbol{x}$, leading to a somewhat *rough* sketch of $\mathbb{E}(y\vert\boldsymbol{x})$.
+2. The randomness comes from the randomness in $\boldsymbol{x}$, *not* in $y$.
+
+
+We usually write the CEF as
+
+$$
+m(\boldsymbol{x}) = \boldsymbol{x}'\boldsymbol{\beta}
+$$
+
+where
+
+$$
+\boldsymbol{\beta} = \begin{pmatrix}
+\beta_1 \\
+\beta_2 \\
+\vdots \\
+\beta_k
+\end{pmatrix} \text{ and }
+\boldsymbol{x} = \begin{pmatrix}
+x_1 \\
+x_2 \\
+\vdots \\
+x_k
+\end{pmatrix}.
+$$
+
+$\boldsymbol{\beta}$ is the coefficient vector and $\boldsymbol{x}$ is the regressor vector.
+
+
+**Regression Derivative**
+
+In the linear CEF model, the regression derivative is simply the coefficient vector. That is
+
+$$
+\nabla m(\boldsymbol{x}) = \boldsymbol{\beta}
+$$
+
+This is one of the appealing features of the linear CEF model. The coefficients have simple and natural interpretations as the marginal effects of changing one variable, holding the others constant.
+
+
+<div class = "boxed">
+<p style="text-align:center; font-weight:bold;">Linear CEF Model</p>
+
+$$
+\begin{aligned}
+y &=  \boldsymbol{x}'\boldsymbol{\beta} + u \\
+\mathbb{E}(u|\boldsymbol{x}) &= 0
+\end{aligned}
+$$
+</div>
+
+
+If in addition the error is homoskedastic, we call this the homoskedastic linear CEF model.
+
+<div class = "boxed">
+<p style="text-align:center; font-weight:bold;">Homoskedastic Linear CEF Model</p>
+
+$$
+\begin{aligned}
+y &=  \boldsymbol{x}'\boldsymbol{\beta} + u \\
+\mathbb{E}(u|\boldsymbol{x}) &= 0 \\
+\mathbb{E}(u^2|\boldsymbol{x}) &= \sigma^2 
+\end{aligned}
+$$
+</div>
+
+
 ## Classical linear regression models
 
-CLRN correspond to exact finite sample properties. (Gauss-Markov Assumptions)
+CLRM correspond to exact finite sample properties. (Gauss-Markov Assumptions)
 
 1. $y=X\beta+u$. There is a linear relationship between $y$ and $X$. $u$ is called *disturbances* or *errors*.
 

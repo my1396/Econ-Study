@@ -77,7 +77,7 @@ Vectors are lowercase and matrices are uppercase symbols. Both vectors and matri
 - Use Greek letters $\boldsymbol\theta, \boldsymbol\phi$ for parameters or $\alpha, \beta, \gamma$ for hyperparameters.
 - Error terms are denoted by $\epsilon, \varepsilon, \eta, \xi, \zeta$.
 - Variance-covariance matrices: $\boldsymbol{\Omega}, \boldsymbol{\Sigma}, \boldsymbol{V}, \boldsymbol{G}$.
-- $\text{aVar}[.]$ denotes the asymptotic variance operator.
+- $\text{aVar}[.]$ denotes the *asymptotic* variance operator.
 
 - The letters $f$, $g$,and $h$ are often used to represent functions.
 
@@ -1049,7 +1049,7 @@ ___
 
 $$
 \begin{align*}
-\mathbb{E}_Y(Y) = \mathbb{E}_X\left[\mathbb{E}_{Y\vert X}\right(Y\vert X=x\left)\right]
+\mathbb{E}_Y(Y) = \mathbb{E}_X\left[\mathbb{E}_{Y\vert X}\right(Y\vert X=x\left)\right] = \sum_x \mathbb{E}[Y\vert X=x]\, \mathbb{P}(X=x)
 \end{align*}
 $$
 
@@ -1130,6 +1130,17 @@ $$
 Ths is, $\mathbb{E}(y)$ is simply a weighted average of the $\mathbb{E}(y\vert \mathbf{x}=\mathbf{c}_i)$, where the weight $p_i$ is the probability that $\mathbf{x}$ takes on the value of $\mathbf{c}_i$. In other words, a weighted average of averages.
 
 E.g., suppose we are intrested in average IQ generally, but we have measures of average IQ by gender. We could figure out the quantity of interest by weighting average IQ by the relative proportions of men and women.
+
+
+Bayes' Theorem 贝叶斯定理
+
+Partition Theorem (total expectation theorem, law of total probability) Ituition
+
+$$
+\mathbb{P}(\text{eventual goal}) = \sum_{\text{options}} \mathbb{P}(\text{eventual goal}|\text{option})\, \mathbb{P}(\text{option})
+$$
+
+___
 
 **Decomposition of variance**
 

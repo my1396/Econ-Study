@@ -23,7 +23,9 @@ update: 2024-07-16
 
 - **Physical units must <span style='color:#32CD32'>not</span> be italicized.** For example, 1.2 dB is correct, while 1.2 *dB* is not.
 
-- There should be a space before and after arithematic operators. E.g., 2.5 ± 0.07. 
+- Constant *e*, the imaginary unit *i* and the function symbol *f(x)* should be italicized. 
+
+-  There should be a space before and after arithematic operators. E.g., 2.5 ± 0.07. 
 
 - Number range: Use an <span style='color:#32CD32'>en dash</span> and do not include a space either before or after the en dash.
 
@@ -187,4 +189,81 @@ Use a comma (often called a “serial comma” or “Oxford comma”) before the
 **Useful resources**:
 
 1. <https://www.e-education.psu.edu/styleforstudents/c1_p9.html>
+
+
+
+## References
+
+Citing sources in APA style 7th ed.
+
+<https://libraryguides.vu.edu.au/apa-referencing/7Books>
+
+<https://www.scribbr.com/apa-examples/book/>
+
+APA style: refer to "Publication Manual of the American Psychological Association".
+
+Citations vs. References
+
+- Traditionally the term "citation" is used to refer to an in-text source, 
+
+- while "reference " is the correct term for a source listed on the reference page of a paper.
+
+**Styling**
+
+- The first line of each citation is left adjusted. Every subsequent line is indented 5-7 spaces.
+
+
+
+Book references: general form
+
+Should include the following info:
+
+- Author or authors. The surname is followed by first initial of their first name, the first initial of therir middle name (if applicable).
+
+- Year of publication of the book (in round brackets).
+
+- Book title (in *italics*). If it is a multivolume work, put the specific volumes in parentheses after the book title. E.g.,
+
+  > Harris, K. R., Graham, S., & Urdan T. (Eds.). (2012). *APA educational psychology handbook* (Vols. 1–3). American Psychological Association.
+
+- Edition (in round brackets), if other than first.
+
+- Publisher.
+
+- DOI. Include a DOI for all works that have one, regardless of whether you used the online version or print version.
+
+**Example:** Hasler, E. (2018). *The built environment.* Liverpool University Press.
+
+<img src="https://drive.google.com/thumbnail?id=1HrvZR_Nevrm7WtXAcldZu4pGmE6HCHpz&sz=w1000" alt="book references" style="zoom:80%;" />
+
+
+
+| Material Type                   | In-Text Example                                              | Reference List Example                                       |
+| ------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Book: 2 Authors, and Edition    | According to Moran and Toner (2017)… <br />**OR**<br /> … this is evident (Moran & Toner, 2017). | Moran, A., & Toner, J. (2017). A critical introduction to sport psychology (3rd ed.). Routledge.<br/><br/>**The edition number is included after the title of the work (not necessary for first editions).** |
+| Book: 3 to 20 Authors, with DOI | Interval training involves "performing for a comparatively shorter time period during each exercise session" (Haile et al., 2015, p. 135).<br/>OR<br/>Haile et al. (2015) note that interval training involves "performing for a comparatively shorter time period during each exercise session" (p.135).<br/><br/>**Where there are 3 or more authors cite only the first author's surname followed by et al.** | Haile, L., Gallagher, M., & Robertson, R. J. (2015). Perceived exertion laboratory manual: From standard practice to contemporary application. Springer. https://doi.org/10.1007/978-1-4939-1917-8<br/><br/>**Provide the names of all authors in the reference list, up to and including 20 authors.**<br/><br/>**For a book with 21 or more authors follow the same author format as for a journal article with 21 or more authors.** |
+| Book chapter: Case Study        | Scerri & Presbury (2022) use a service language model...     | Scerri, M., & Presbury, M. (2022). The power of words: A case study of service language in an Australian five-star hotel. In S. M. Perry (Ed.), Case based research in tourism, travel, hospitality and events (pp. 117-133). Springer. https://doi. https://doi.org/10.1007/978-981-16-4671-3_7 |
+|                                 |                                                              |                                                              |
+
+
+
+##### What is an ISBN and a DOI?
+
+- An International Standard Book Number (ISBN) identifies a book by format (print, audio etc.), edition and publisher.
+  - It is a 13 (after 1 January 2007) or 10 (before 2007) digits number assigned to all books and book-like publications that are published internationally.
+  - The purpose of the ISBN is to establish and identify one title or edition of a title from one specific publisher and is unique to that edition, allowing for more efficient marketing of products by booksellers, libraries, universities, wholesalers and distributors.
+
+- A Digital Object Identifier (DOI) is as persistent and stable as an ISBN. The advantage of using a DOI in the online environment is that it can be expressed in resolvable format, (e.g. http://doi.org/10.4225/35/5715bcdd2df24) so that there is always a link back to the online location of the item.
+
+It is not necessary for an ISBN and DOI to be issued for the same publication unless it will be distributed in both print and electronic formats.
+
+
+
+
+
+
+
+
+
+
 
