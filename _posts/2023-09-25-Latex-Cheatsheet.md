@@ -7,7 +7,7 @@ tag: study
 
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
-## Special characters / Symbols
+## Special Characters / Symbols
 
 #### No dot
 `\imath` $\rightarrow$ $\imath$,

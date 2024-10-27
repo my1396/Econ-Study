@@ -46,6 +46,14 @@ Mathematical calligraphic font or script letters 花体 (`\mathcal`), uppercase 
 -   $\mathcal D$（`\mathcal D`）表示样本集;
 -   $\mathcal N$（`\mathcal N`）常用来表示高斯分布; normal distribution;
 -   $\ell$（`\ell`）：用于和 $l$ 和 数字 1 相区分。
+-   $\mathcal{T}$ (`\mathcal{T}`) used to denote topological spaces.
+
+Mathematical roman `\mathrm`. Used in ordinary differential equations, such as $\displaystyle \frac{\mathrm dx}{\mathrm dy}$ .
+
+Mathematical sans serif `\mathsf`. Used in expectations, such as $\mathsf E(X)$.
+
+Usually the font command works obly on the following letter. If you want the font to apply to an entire expression, enclose the expression with braces `{}`.
+
 
 `:=` and $\triangleq$ are used to define a variable.
 
@@ -157,6 +165,14 @@ Inequality 不等式 (大于/小于)
 - Multiplying or dividing both sides by a positive number leaves the inequality symbol unchanged.
 
 - Multiplying or dividing both sides by a negative number **reverses**/ **flips** the inequality. This means $<$ changes to $>$, and vice versa.
+
+
+**Random Variables**
+
+Given a random experiment with sample space $S$, a random variable $X$ is a set function that assigns one and only one real number to each element $s$ that belongs in the sample space $S$.
+
+The set of all possible values of the random variable $X$, denoted $x$, is
+called the **support**, space, or range, of $X$.
 
 **Sample and population**
 
@@ -589,6 +605,7 @@ $$
 
 
 **Inverse of a 2$\times$2 matrix**
+
 $$
 \begin{aligned}
 A &= \begin{bmatrix}
@@ -1047,9 +1064,11 @@ ___
 
 **Law of iterated expectations** LIE  
 
+Fora any random variable $X\in\mathcal x$ and $Y\in \mathcal Y \subset \mathbb R$,
+
 $$
 \begin{align*}
-\mathbb{E}_Y(Y) = \mathbb{E}_X\left[\mathbb{E}_{Y\vert X}\right(Y\vert X=x\left)\right] = \sum_x \mathbb{E}[Y\vert X=x]\, \mathbb{P}(X=x)
+\mathbb{E}_Y(Y) = \mathbb{E}_X\left[\mathbb{E}_{Y\vert X}\right(Y\vert X=x\left)\right] = \sum_{x\in\mathcal x} \mathbb{E}[Y\vert X=x]\, \mathbb{P}(X=x) .
 \end{align*}
 $$
 
@@ -1058,12 +1077,15 @@ or more succinctly
 
 $$
 \begin{align*}
-\mathbb{E}[Y] = \mathbb{E}\left[\mathbb{E}\right(Y\vert X=x\left)\right].
+\mathbb{E}[Y] = \mathbb{E}\left[\mathbb{E}\right(Y\vert X\left)\right].
 \end{align*}
 $$
 
 It repsents a transformation from condictional to unconditional expectaion.
 The expected value (this expectation is with respect to  $X$) of the conditional expectation of $Y$ given $X$ is the expected value of $Y$.
+ 
+
+___
 
 Suppose $\mathbb{E}(Y\vert X)=0$, then   
 
@@ -1102,6 +1124,66 @@ $$
   &= 7.9
 \end{aligned}
 $$
+
+
+Expressing mathematically, suppose we have a sample space, $X=\{A, A^c\}$, then 
+
+$$
+\mathbb E (Y) = \mathbb E (Y|A)\, P(A) + \mathbb E (Y|A^c)\, P(A^c)
+$$
+
+In the general case, consider a partition of the sample space: $\{X_1, X_2, \ldots, X_n\}$, each event has a corresponding probability: $P(X_1), P(X_2), \ldots, P(X_n)$.
+
+Given another event $Y$, then according to the *partition rule* we have:
+
+$$
+\begin{align}
+P(Y) = P(Y|X_1)P(X_1) + P(Y|X_2)P(X_2) + \cdots + P(Y|X_n)P(X_n) .
+\end{align}
+$$
+
+Then it follows that:
+
+$$
+\begin{aligned}
+\mathbb{E}(Y) &= \sum_j y_j P(Y=y_j)  \\
+&= \sum_j y_j \left[P(Y=y_j|X_1)P(X_1) + P(Y=y_j|X_2)P(X_2) + \cdots + P(Y=y_j|X_n)P(X_n) \right] \\
+&= \sum_j y_jP(Y=y_j|X_1)\,P(X_1) + \sum_j y_jP(Y=y_j|X_2)\,P(X_2) + \cdots + \sum_j y_jP(Y=y_j|X_n)\,P(X_n) \\
+&= \mathbb{E}(Y|X_1)\,P(X_1) + \mathbb{E}(Y|X_2)\,P(X_2) + \cdots + \mathbb{E}(Y|X_n)\,P(X_n) \\
+&= \mathbb{E}\left[\mathbb{E}(Y|X)\right]
+\end{aligned}
+$$
+
+
+A reverse proof starting from $\mathbb{E}\left[\mathbb{E}(Y\vert X)\right]$.
+
+$$
+\begin{aligned}
+\mathbb{E}\left[\mathbb{E}(Y|X)\right] 
+&= \sum_{x\in\mathcal X} p(x)\, \mathbb{E}(Y|X=x) \\
+&= \sum_{x\in\mathcal X} \left[p(x) \sum_{y\in\mathcal Y} y\, p(y|x) \right] \\
+&= \sum_{y\in\mathcal Y} \left[ y \sum_{x\in\mathcal X} p(x,y) \right] \\
+&= \sum_{y\in\mathcal Y} y\,p(y) \\
+&= \mathbb E(Y)
+\end{aligned}
+$$
+
+
+
+In case of continuous variables, we have <span style='margin-top:-2.8em;float:right'>$\square$</span>
+
+$$
+\begin{align}
+\mathsf E(Y) &= \int_\Bbb R y\,f_Y(y)\,\mathrm d y && \text{by definition of expectation} \\[1ex]
+&= \int_\Bbb R y\int_\Bbb R f_{Y\mid X}(y\mid x)~f_X(x)\,\mathrm d x\,\mathrm d y &&\text{Law of Total Probability} \\[1ex]
+&= \int_\Bbb R f_X(x)\int_\Bbb R y~f_{Y\mid X}(y\mid x)\,\mathrm d y\,\mathrm d x &&\text{Fubini's Theorem } \\[1ex]
+&= \int_\Bbb R f_X(x)\,\mathsf E(Y\mid X{\,=\,}x)\,\mathrm d x && \text{by definition of conditional expectation} \\[1ex]
+&= \mathsf E\left[\mathsf E(Y\mid X)\right] && \text{by definition of expectation} 
+\end{align}
+$$
+
+
+___
 
 Generalization of LIE in time series
 
