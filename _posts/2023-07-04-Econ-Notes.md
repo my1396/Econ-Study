@@ -2,7 +2,7 @@
 layout: post
 title: Econometric Notes
 tag: study
-update: 2023-10-05
+update: 2024-10-27
 ---
 
 $$
@@ -1062,7 +1062,48 @@ $$
 ___
 
 
-**Law of iterated expectations** LIE  
+**Expectation**
+
+Expectation are denoted by $\mathbb{E}(X)$ or $\mathbb{E}_X(X)$ to denote the expectation is taken over the RV $X$.
+
+$$
+\mathbb{E}(X) = 
+\begin{cases}
+\displaystyle \sum_{x}x f(x) & \text{for discrete } X \\
+\displaystyle \int_{-\infty}^{\infty} x f(x) dx & \text{for continuous } X \\
+\end{cases}
+$$
+
+
+**Conditional Expectations**
+
+The conditional expectation for $Y$ given $X$, is defined as follows:
+
+$$
+\mathbb E(Y|X=x) = \sum_j y_j P(Y=y_j|X=x) = \sum_j Y_j f_{Y|X}(x,y_i) \, ,
+$$
+
+which is a function of $X$. We denote the conditional expectation for $Y$ given $X$ as follows:
+
+$$
+\varphi_X(x) = \mathbb E(Y|X=x) \, .
+$$
+
+Technically, this is termed the *regression function* of $Y$ on $X$.
+
+The expectation of the regression function is:
+
+$$
+\begin{aligned}
+\mathbb E(\varphi_X(x)) &= \sum_i \varphi_X(x_i) f_X(x_i) \\
+&= \sum_i \left\lbrace \sum_j y_j \, \frac{f_{XY}(x_i,y_j)}{f_X(x_i)} \right\rbrace f_X(x_i) \\
+&= \sum_j y_j \sum_i f_{XY}(x_i,y_j) \\
+&= \sum_j y_j f_Y(y_j) \\
+&= \mathbb E(Y) \,.
+\end{aligned}
+$$
+
+## Law of iterated expectations (LIE)
 
 Fora any random variable $X\in\mathcal x$ and $Y\in \mathcal Y \subset \mathbb R$,
 
@@ -1132,6 +1173,9 @@ $$
 \mathbb E (Y) = \mathbb E (Y|A)\, P(A) + \mathbb E (Y|A^c)\, P(A^c)
 $$
 
+
+### Partitioning and Conditioning
+
 In the general case, consider a partition of the sample space: $\{X_1, X_2, \ldots, X_n\}$, each event has a corresponding probability: $P(X_1), P(X_2), \ldots, P(X_n)$.
 
 Given another event $Y$, then according to the *partition rule* we have:
@@ -1158,19 +1202,18 @@ $$
 A reverse proof starting from $\mathbb{E}\left[\mathbb{E}(Y\vert X)\right]$.
 
 $$
-\begin{aligned}
+\begin{align*}
 \mathbb{E}\left[\mathbb{E}(Y|X)\right] 
 &= \sum_{x\in\mathcal X} p(x)\, \mathbb{E}(Y|X=x) \\
 &= \sum_{x\in\mathcal X} \left[p(x) \sum_{y\in\mathcal Y} y\, p(y|x) \right] \\
 &= \sum_{y\in\mathcal Y} \left[ y \sum_{x\in\mathcal X} p(x,y) \right] \\
 &= \sum_{y\in\mathcal Y} y\,p(y) \\
-&= \mathbb E(Y)
-\end{aligned}
+&= \mathbb E(Y) \tag*{\(\square\)}
+\end{align*} 
 $$
 
 
-
-In case of continuous variables, we have <span style='margin-top:-2.8em;float:right'>$\square$</span>
+In case of continuous variables, we have
 
 $$
 \begin{align}
@@ -1532,37 +1575,112 @@ $f(X)=X^2$ is an even function, which satisfies the condition.
 
 ## Joint Distributions and Independence
 
-**Joint CDF**
+**Joint Distribution Function (Joint CDF)**
 
 $$
-F(x_1, x_2) =  \left\{
+\begin{aligned}
+F(x_1, x_2) &= P(X_1\le x_1, X_2\le x_2) \\
+&= \left\{
 	\begin{array}{ll}
-	\int_{-\infty}^{x_1}\int_{-\infty}^{x_2} f(a, b) da db & \text{continuous} \\
-	P(X_1=x_1, X_2=x_2) & \text{discrete}
+	\displaystyle \int_{-\infty}^{x_1}\int_{-\infty}^{x_2} f(a, b)\, \mathrm da\, \mathrm db & \text{continuous} \\
+	\displaystyle  \sum_{a\le x_1} \sum_{b\le x_2} f(a,b) & \text{discrete}
+	\end{array} \right.
+\end{aligned}
+$$
+
+
+**Joint Density Function (Joint PDF)**
+
+$$
+f\,(x_1, x_2) =  \left\{
+	\begin{array}{ll}
+	\displaystyle \frac{\partial^2F(x_1, x_2)}{\partial x_1\, \partial x_2} & \text{continuous} \\ 
+	\displaystyle  P(X_1=x_1, X_2=x_2) & \text{discrete}
 	\end{array} \right.
 $$
 
-
-**Joint Density**
+In other words, for the continuous case, $f(x_1,x_2)$ is the function that satisfies
 
 $$
-f(x_1, x_2) =  \left\{
-	\begin{array}{ll}
-	\frac{\partial^2F(x_1, x_2)}{\partial x_1 \partial x_2} & \text{continuous} \\
-	\sum_{a\le x_1} \sum_{b\le x_2} f(a,b) & \text{discrete}
-	\end{array} \right.
+F(x_1, x_2) = \int_{\infty}^{x_2}\int_{\infty}^{x_1} f(a,b) \mathrm da\mathrm db
 $$
 
 **Marginals**
 
-This is called *marginalizaing* or *integrating out* $X_2$ to get the marginal of $X_1$. \
+Consider a discrete random vector, when one of these entries is taken in isolation, its distribution can be characterized in terms of its probability mass function. This is called *marginal probability mass function*, in order to distinguish it from the *joint probability mass function* (PMF), which is instead used to characterize the joint distribution of all the entries of the random vector considered together.
+
+
+**Formal Definition** Let $X_1, \ldots, X_K$ be $K$ discrete random variable forming a $K\times 1$ random vector. Then, for each $i=1,\ldots,K,$ the probability mass function of the random variable $X_i$, denoted by $p_{X_i}(x)\, ,$ is called marginal probability mass function. $p_{X_i}(x)$ is a function: $\mathbb R \mapsto [0,1]$ such that 
+
+$$
+p_{X_i}(x) = P(X_i=x)
+$$
+
+where $p_{X_i}(x)$ is the probability that $X_i$ will be equal to $x$.
+
+By contrast, the joint probability mass function of the vector $X$ is a function $p_X: \mathbb R^K \mapsto [0,1]$ such that
+
+$$
+p_{X}(x) = p_{X_1,\ldots,X_K}(x_1, \ldots, x_K) = P(X_1=x_1, \ldots, X_K=x_k)
+$$
+
+where $P(X_1=x_1, \ldots, X_K=x_k)$ is the probability that $X_i$ will be equal to $x_i$, simultaneously for all $i=1,\ldots, K\,.$
+
+
+**Marginal PMFs**
+
+The marginal PMF of $X$ is given by
+
+$$
+\begin{align*}
+P_X(x) &= P(X=s) \\
+&= \sum_{y_j\in R_Y} P(X=x, Y=y_j) \quad \text{(Law of total probability)} \\
+&= \sum_{y_j\in R_Y} P_{XY}(x, y_j)
+\end{align*}
+$$
+
+where $R_Y=\{y_1,y_2,\ldots\}$ is the range of $Y$.
+
+
+Similarly, the marginal PMF of $Y$ is given by
+
+$$
+P_Y(y) = \sum_{x_i\in R_X} P_{XY}(x_i, y)
+$$
+
+where $R_X=\{x_1,x_2,\ldots\}$ is the range of $X$.
+
+We can define the *joint range* for $X$ and $Y$ as
+
+$$
+R_{XY} = \{(x,y) | P_{XY}(x,y) >0 \} \, .
+$$
+
+Equivalently, we can also write
+
+$$
+\begin{aligned}
+R_{XY} &\subset R_X \times R_Y \\
+&= \{(x_i,y_j) | x_i\in R_X, y_j\in R_Y \} \, .
+\end{aligned}
+$$
+
+
+Note that 
+
+- The event $X=x$ can be written as $\{(x_i,y_j): x_i=x, y_j \in R_Y \}\, .$
+- Also, the event $Y=y$ can be written as $\{(x_i,y_j): x_i\in R_X, y_j=y\}\, .$
+
+___
+
+It is called *marginalization* or *integrating out* $X_2$ to get the marginal of $X_1$. \
 The marginal of one variable can be obtained by integrating the other variable. This applies to $n$-dimension.
 
 $$
 f_{X_1}(k) =  \left\{
 	\begin{array}{ll}
-	\int_{-\infty}^\infty f(k, x_2) dx_2 & \text{continuous} \\
-	\sum_{x_2} f(X_1=k,X_2=x_2) & \text{discrete}
+	\displaystyle \int_{-\infty}^\infty f(k, x_2) \, \mathrm dx_2 & \text{continuous} \\
+	\displaystyle \sum_{x_2} f(X_1=k,X_2=x_2) & \text{discrete}
 	\end{array} \right.  
 $$
 
@@ -1571,13 +1689,193 @@ Marginalizaing the joint density w.r.t. $X_1$ to get the marginal of $X_2$.
 $$
 f_{X_2}(k) =  \left\{
 	\begin{array}{ll}
-	\int_{-\infty}^\infty f(x_1,k) dx_1 & \text{continuous} \\
-	\sum_{x_1} f(X_1=x_1,X_2=k) & \text{discrete}
+	\displaystyle \int_{-\infty}^\infty f(x_1,k) \, \mathrm dx_1 & \text{continuous} \\
+	\displaystyle \sum_{x_1} f(X_1=x_1,X_2=k) & \text{discrete}
 	\end{array} \right. 
 $$
 
 
-**Conditioning**
+where $\sum_{x_1}$ and $\sum_{x_2}$ mean sum over all values of $x_1$ and $x_2$, respectively.
+
+
+**Marginal CDFs**
+
+If we know the joint CDF of $X_1$ and $X_2$, we can find the marginal CDFs, $F_{X_1}(x_1)$ and $F_{X_2}(x_2)$. Specifically, for any $x \in \mathbb{R}$, we have
+
+$$
+F_{X_1}(x_1) = P(X_1\le x_1) = P(X_1\le x_1, X_2\le \infty) 
+= F_{X_1X_2}(x_1,\infty) 
+= \lim_{x_2\to\infty} F_{X_1X_2}(x_1,x_2) \, .
+$$
+
+Similarly,
+
+$$
+F_{X_2}(x_2) = P(X_2\le x_2) = P(X_1\le \infty, X_2\le x_2) 
+= F_{X_1X_2}(\infty,x_2)
+= \lim_{x_1\to\infty} F_{X_1X_2}(x_1,x_2) \, .
+$$
+
+___
+
+
+**Example**
+
+Suppose we have a pair of discrete random variable $\{(X, Y )\}$, with an associated joint probability tabulated mass, $f_{XY} (x,y)$, as tabulated below.
+
+<table class="table-sm" style="max-width: 70%; margin-left: auto;margin-right: auto;"><thead>
+  <tr>
+    <th></th>
+    <th></th>
+    <th colspan="3" style="text-align: center; border-bottom: 1pt solid gray;">$X$</th>
+  </tr></thead>
+<tbody>
+  <tr >
+    <td></td>
+    <td></td>
+    <td style="border-bottom: 1pt solid gray; text-align: center;">1</td>
+    <td style="border-bottom: 1pt solid gray; text-align: center;">2</td>
+    <td style="border-bottom: 1pt solid gray; text-align: center;">3</td>
+  </tr>
+  <tr>
+    <td rowspan="3" style="font-weight:bold; text-align: right; border-right: 1pt solid gray; width: 10%;">$Y$</td>
+    <td style="border-right: 1pt solid gray; border-top: 1pt solid gray; width: 15%; text-align: center; ">-1</td>
+    <td style="text-align: center;">0.1</td>
+    <td style="text-align: center;">0.1</td>
+    <td style="text-align: center;">0.0</td>
+  </tr>
+  <tr>
+    <td style="border-right: 1pt solid gray; text-align: center; ">0</td>
+    <td style="text-align: center;">0.2</td>
+    <td style="text-align: center;">0.0</td>
+    <td style="text-align: center;">0.3</td>
+  </tr>
+  <tr>
+    <td style="border-right: 1pt solid gray; text-align: center; ">2</td>
+    <td style="text-align: center;">0.1</td>
+    <td style="text-align: center;">0.2</td>
+    <td style="text-align: center;">0.0</td>
+  </tr>
+</tbody>
+</table>
+
+To calculate the *marginal masses*, we sum along either the rows or the columns, respectively. 
+
+Summing along the rows ($X$) gives us the marginal probability of $Y$.
+
+$$
+\begin{aligned}
+f_Y(Y=-1) &= 0.1+0.1+0= 0.2 \\
+f_Y(Y=0) &= 0.2+0+0.3= 0.5 \\
+f_Y(Y=2) &= 0.1+0.2+0= 0.3
+\end{aligned}
+$$
+
+While summing along the columns ($Y$) gives us the marginal probability of $X$.
+
+$$
+\begin{aligned}
+f_X(X=1) &= 0.1+0.2+0.1= 0.4 \\
+f_X(X=2) &= 0.1+0+0.2= 0.3 \\
+f_X(X=3) &= 0+0.3+0= 0.3
+\end{aligned}
+$$
+
+Then the calculation of expectations is straightforward:
+
+$$
+\begin{aligned}
+\mathbb E(X) &= \sum_i x_i f_X(x_i) = 1\times 0.4 + 2\times 0.3 + 3\times 0.3 = 1.9 \\
+\mathbb E(Y) &= \sum_i y_i f_Y(y_i) = -1\times 0.2 + 0\times 0.5 + 2\times 0.3 = 0.4 
+\end{aligned}
+$$
+
+so that, $\mathbb E (X)\, \mathbb E (Y)= 0.76\,.$ 
+
+After some calculation, summing over the entire table:
+
+$$
+\mathbb E(XY) = \sum_{ij}x_i y_j f_{X,Y}(x_i, y_j) =0.7 \,.
+$$
+
+Since $\mathbb E(XY)=0.7\neq \mathbb E(X)\mathbb E(Y)$, thus $X$ and $Y$ are correlated.
+
+
+**Conditional expectation for several variables**
+
+We extend to three variables.
+
+We have the following probability mass function:
+
+$$
+P(X=x, Y=y, Z=z) = P(x,y,z) \, ,
+$$
+
+where we use some shorthand, $P(X=x_i, Y=y_j \vert Z=z_k) = P(x,y\vert z)$.
+
+Joint marginal mass is given by
+
+$$
+\begin{aligned}
+P(x,y) &= \sum_z P(x,y,z) \\
+P(x,z) &= \sum_y P(x,y,z) \\
+P(y,z) &= \sum_x P(x,y,z) 
+\end{aligned} .
+$$
+
+
+The joint conditional probability is given by
+
+$$
+P(x,y|z) = \frac{P(x,y,z)}{P(z)} \, ,
+$$
+
+and the conditional probability.
+
+$$
+P(x|y,z) = \frac{P(x,y,z)}{P(y,z)} \, .
+$$
+
+
+We have the following useful lemmas.
+
+- **Linearity**: $\mathbb E(aX+bY\vert Z) = a \mathbb E(X\vert Z) + b \mathbb E(Y\vert Z)$
+
+- **Pull-through rule**: $\mathbb E\left[g(X)\,h(Y)\vert Y\right] = h(Y)\, \mathbb E\left[g(X)\vert Y\right]$
+
+  Proof:
+
+  $$
+  \begin{align*}
+    E\left[g(X)h(Y)\vert Y\right] &= \sum_x g(x) h(y) P(x|y) \\
+    &= h(y) \sum_x g(x) P(x|y) \\
+    &= h(y)\, \mathbb E[g(X)|Y=y] \tag*{\(\square\)}
+  \end{align*} 
+  $$
+
+- **Tower rule**: $\mathbb E\left[ \mathbb E\left(Z\vert X,Y\right) \vert Y\right] = \mathbb E \left[ \mathbb E(Z\vert Y) \vert Y, X\right ]= \mathbb E[Z\vert Y]$
+
+  This is a generalization of the conditional expectation theorem.
+
+  Proof:
+
+  $$
+  \begin{align*}
+  E\left[ \mathbb E\left(Z\vert X,Y\right) \vert Y\right] 
+  &= \sum_x \mathbb E\left(Z\vert X,Y\right) P(x|y) \\
+  &= \sum_x \left[\sum_z z P(z|x,y)\right] P(x|y) \\
+  &= \sum_x \sum_z z \, \frac{P(x,y,z)}{P(x,y)} \times \frac{P(x,y)}{P(y)} \\
+  &= \sum_x\sum_z z\, \frac{P(x,y,z)}{P(y)}  \\
+  &= \sum_x\sum_z z\, P(x,z|y)  \\
+  &= \sum_z z\, P(z|y) \\
+  &= \mathbb E(Z|Y)
+  \end{align*} 
+  $$
+
+
+___
+
+### Conditioning
 
 Conditional density:
 
@@ -1649,7 +1947,7 @@ Here, we "average over" the $X$ variable, and we are left with a function of $Y$
 ___
 
 
-**Moments**
+## Moments
 
 
 We often summarise properties of distributions using their moments.
@@ -1668,7 +1966,7 @@ $$
 $$
 
 
-**First order moment**
+### First order moment
 
 The first moment is called the expected value or expectation, which is given by 
 
@@ -1682,7 +1980,7 @@ $$
 \end{aligned}
 $$
 
-**Second moment about the mean**
+### Second moment about the mean
 
 Also called second central moment.
 The variance is obtained by setting $g(X)=\left[X-\mathbb{E}(X)\right]^2.$
@@ -1837,7 +2135,8 @@ $$
 $$
 
 
-**Law of Large Numbers** (LLN)
+## Law of Large Numbers (LLN)
+
 - Chebyshev's (week) LLN\
   Let $X_1, \ldots, X_n$ be an iid sequence with mean $\mathbb{E}(X_i)=\mu$ and $\text{Var}(X_i)=\sigma^2$. Then,
 
@@ -1935,7 +2234,7 @@ $$
   + If we are interested in bias, we take the **expectation** on both sides of the equation.
   + When we are interested in consistency we take the **probability limit**.
 
-**Central Limit Theorem** (CLT)
+## Central Limit Theorem (CLT)
 
 Suppose that $X_1, \ldots, X_n$ is an iid sequence with mean $\mathbb{E}(X_i)=\mu$ and $\text{Var}(X_i)=\sigma^2$. Let $\overline{X}=\sum_{i=1}^n X_i.$ Then,
 

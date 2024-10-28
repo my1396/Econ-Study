@@ -154,13 +154,15 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
 ### Sets
 
-|     LaTex |           |                        LaTex |                            |
-| --------: | --------- | ---------------------------: | -------------------------: |
-|    `\cap` | $\cap$    |                       `\cup` |                     $\cup$ |
-| `\subset` | ⊂         |                  `\subseteq` |                          ⊆ |
-|     `\in` | ∈         |                     `\notin` |                          ∉ |
-| `\exists` | $\exists$ |                `\not\exists` |              $\not\exists$ |
-| `\forall` | $\forall$ | `\emptyset` or `\varnothing` | $\emptyset$, $\varnothing$ |
+|        LaTex |              |                        LaTex |                            |
+| -----------: | ------------ | ---------------------------: | -------------------------: |
+|       `\cap` | $\cap$       |                       `\cup` |                     $\cup$ |
+|    `\subset` | $\subset$    |                  `\subseteq` |                $\subseteq$ |
+|    `\supset` | $\supset$    |                  `\supseteq` |                $\supseteq$ |
+| `\subsetneq` | $\subsetneq$ |                 `\supsetneq` |               $\supsetneq$ |
+|        `\in` | $\in$        |                     `\notin` |                   $\notin$ |
+|    `\exists` | $\exists$    |                `\not\exists` |              $\not\exists$ |
+|    `\forall` | $\forall$    | `\emptyset` or `\varnothing` | $\emptyset$, $\varnothing$ |
 
 - use `\not` before an operator to negate it. 
 
@@ -252,13 +254,14 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
 ### Arrows
 
-|             LaTex |            |             LaTex |              |
-| ----------------: | ---------- | ----------------: | -----------: |
-| `\hookrightarrow` | ↪          |     `\Rightarrow` |            ⇒ |
-|     `\rightarrow` | →          | `\Leftrightarrow` |            ⇔ |
-|    `\nrightarrow` | ↛          |         `\mapsto` |    $\mapsto$ |
-|        `\nearrow` | $\nearrow$ |        `\searrow` |   $\searrow$ |
-|        `\uparrow` | $\uparrow$ |      `\downarrow` | $\downarrow$ |
+|             LaTex | Symbol        |             LaTex | Symbol            |
+| ----------------: | ------------- | ----------------: | :---------------- |
+| `\hookrightarrow` | ↪             |     `\rightarrow` | $\rightarrow$     |
+|     `\Rightarrow` | $\Rightarrow$ | `\Leftrightarrow` | $\Leftrightarrow$ |
+|        `\implies` | $\implies$    |            `\iff` | $\iff$            |
+|    `\nrightarrow` | ↛             |         `\mapsto` | $\mapsto$         |
+|        `\nearrow` | $\nearrow$    |        `\searrow` | $\searrow$        |
+|        `\uparrow` | $\uparrow$    |      `\downarrow` | $\downarrow$      |
 
 - $\rightarrow$ denotes a mapping between two sets. 两边都是集合。
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-tag: life
+tag: driving
 title: Norwegian Driver License
 ---
 

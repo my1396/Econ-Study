@@ -280,3 +280,20 @@ figure {
   margin-right: auto; 
   margin-left: auto;
 }
+
+/* table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+th, td {
+  border-spacing: 0px;
+  padding: 0.5rem;
+}
+/* hoverable row */
+th:hover, tr:hover {
+  background-color: #D6EEEE;
+}
+  
+
