@@ -24,7 +24,6 @@ layout: base
     {%- endif -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"  -%}
-      {%- assign posts = site.posts  -%}
       {%- for post in posts -%}
       <li>
         <span class="post-meta">
