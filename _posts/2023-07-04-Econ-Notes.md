@@ -109,6 +109,8 @@ Reference: <https://www.principlesofeconometrics.com/poe5/writing/abadir_magnus.
 
 `iff`: if and only if.
 
+`i.i.d.`: independent and identically distributed
+
 `Thm`: theorem.
 
 `viz.`: namely, that is to say.
@@ -199,6 +201,36 @@ $$
 \end{aligned}
 $$
 
+**Critical values** The $\alpha-$level critical value is the value $x_\alpha$ such that
+
+$$
+F(x_\alpha)=P(X\le x_\alpha)=1-\alpha
+$$
+
+where $F$ is the cdf of the random variable $X$. In other words, the probability of $X>x_\alpha$ is $\alpha$.
+
+
+Critical values can be obtained by taking the inverse of the cdf, i.e.,
+
+$$
+x_\alpha = F^{-1}(1-\alpha) \,.
+$$
+
+Note that sometimes the subscript denotes the probability of the quantile directly, that is,
+
+$$
+x_{1-\alpha} = F^{-1}(1-\alpha) \,.
+$$
+
+You can tell from the context.
+
+
+There are standard notations for the upper critical values of some commonly used distributions in statistics:
+
+- $z_\alpha$ or $z(\alpha)$ for the standard normal distribution
+- $t_{\alpha, v}$ or $t(\alpha, v)$ for the *t-*distribution with $v$ degrees of freedom
+- $\chi_{\alpha, v}^2$ or $\chi^2 (\alpha, v)$ for the $\chi-$squared distribution with $v$ degrees of freedom
+- $F_{\alpha, v_1, v_2}$ or $F (\alpha, v_1, v_2)$ for the $F-$distribution with $v_1$ and $v_2$ degrees of freedom
 
 
 ## Geometry

@@ -120,19 +120,20 @@ Note:
 | `\varsigma` | $\varsigma$ |  `\vartheta` |       ϑ |
 |      `\eth` | ð           |      `\hbar` | $\hbar$ |
 
-### 
+
 
 ## Other Symbols
 
-|         LaTex |      |            LaTex |      |
-| ------------: | ---- | ---------------: | ---: |
-|    `\partial` | ∂    |         `\infty` |    ∞ |
-|      `\wedge` | ∧    |           `\vee` |    ∨ |
-| `\neg` `\not` | ¬    |                  |      |
-|        `\bot` | ⊥    |           `\top` |    ⊤ |
-|      `\nabla` | ∇    |    `\varnothing` |    ∅ |
-|      `\angle` | ∠    | `\measuredangle` |    ∡ |
-|       `\surd` | √    |        `\forall` |    ∀ |
+|             LaTex |                                 |               LaTex |                     |
+| ----------------: | ------------------------------- | ------------------: | ------------------: |
+|        `\partial` | ∂                               |            `\infty` |                   ∞ |
+|          `\wedge` | ∧                               |              `\vee` |                   ∨ |
+|     `\neg` `\not` | ¬                               |                     |                     |
+|            `\bot` | ⊥                               |              `\top` |                   ⊤ |
+|          `\nabla` | ∇                               |       `\varnothing` |                   ∅ |
+|          `\angle` | ∠                               |    `\measuredangle` |                   ∡ |
+|           `\surd` | √                               |           `\forall` |                   ∀ |
+| `\lceil{x}\rceil` | $\left \lceil{x}\right \rceil $ | `\lfloor x \rfloor` | $\lfloor x \rfloor$ |
 
 - `'` prime symbol is a shorthand for `^\prime` .
 

@@ -422,11 +422,18 @@ Oct 16 — April 30
 
 For **Nordland, Troms og Finnmark** gjelder kravet til minimum 3 millimeter mønsterdybde fra og med 16. oktober til og med 30. april.
 
+冬季胎压要高一些，抓地更好。
 
 
 
+### 冰上行驶
 
-
+- 保持合理行驶速度。不要过快，否则刹不住车；不要过慢，否则如果遇到上坡，没有足够动力，上不去。
+  - 过弯提前减速。
+- 不要过度靠路边行驶，大雪盖路，看不到路肩，容易撞上，损坏车圈。
+- 开车之前，把挡风玻璃，侧玻璃，雨刷，车顶，车灯上的积雪。
+  - 塑料头的雪铲只能用于玻璃，会损伤车漆。
+  - 车漆用刷子。
 
 
 

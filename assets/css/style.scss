@@ -272,7 +272,9 @@ a img:focus {
   border-radius: 10px;
 }
 
-/* figure */
+/**
+ * Figure
+ */
 figure {
   display: inline-block;
   text-align: center; /* center caption */
@@ -281,11 +283,12 @@ figure {
   margin-left: auto;
 }
 
-/* table */
+/**
+ * Tables
+ */
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  width: 100%;
 }
 th, td {
   border-spacing: 0px;
