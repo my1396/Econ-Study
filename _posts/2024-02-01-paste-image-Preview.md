@@ -162,7 +162,7 @@ The `Eqnarray` mode is a handy shortcut to make multi-lines equations. It automa
 
 ```latex
 \usepackage{caption}
-\DeclareCaptionFormat{mycaptionformat}{%
+\DeclareCaptionFormat{mycaptionformat}{
   \colorbox{white}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{#1#2\color{black}\bfseries#3}}
 } 
 \captionsetup[table]{format=mycaptionformat,font={color=black,bf},skip=0pt}
@@ -172,7 +172,7 @@ The `Eqnarray` mode is a handy shortcut to make multi-lines equations. It automa
 % table with white background
 \begin{table}
 \caption{my caption}
-\colorbox{white}{%
+\colorbox{white}{
     \centering
     \begin{tabular}{@{}ll|ll|l@{}}
     &  \multicolumn{1}{c}{}   & \multicolumn{2}{c}{\textbf{sex}} &     \\ 
