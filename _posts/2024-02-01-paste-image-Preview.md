@@ -158,6 +158,44 @@ The `Eqnarray` mode is a handy shortcut to make multi-lines equations. It automa
 
 
 
+### LaTeXiT Tables
+
+```latex
+\usepackage{caption}
+\DeclareCaptionFormat{mycaptionformat}{%
+  \colorbox{white}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{#1#2\color{black}\bfseries#3}}
+} 
+\captionsetup[table]{format=mycaptionformat,font={color=black,bf},skip=0pt}
+
+\begin{document}
+
+% table with white background
+\begin{table}
+\caption{my caption}
+\colorbox{white}{%
+    \centering
+    \begin{tabular}{@{}ll|ll|l@{}}
+    &  \multicolumn{1}{c}{}   & \multicolumn{2}{c}{\textbf{sex}} &     \\ 
+    &     & 0 (male)         & 1 (female)         & Sum \\
+    \cline{2-5}
+    \multirow{2}{*}{\textbf{arrhythmia}} & 0 (absence)    & 85         & 160        & 245 \\
+    & 1 (presence)   & 117        & 89         & 206 \\
+    \cline{2-5}
+                                & Sum & 202        & 249        & 451 \\ 
+    \end{tabular}}
+\end{table}
+
+\end{document}
+```
+
+
+
+
+
+
+
+
+
 ### Adjust image size in Notes 
 
 1. Right-click image. Select Open with Preview.

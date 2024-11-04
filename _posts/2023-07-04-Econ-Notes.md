@@ -164,6 +164,12 @@ $\approx$ approximately equal to  约等于
 
 Inequality 不等式 (大于/小于)
 
+SS: sum of squares
+
+$$
+SS=\sum_i (X_i-\overline{X})^2
+$$
+
 - Multiplying or dividing both sides by a positive number leaves the inequality symbol unchanged.
 
 - Multiplying or dividing both sides by a negative number **reverses**/ **flips** the inequality. This means $<$ changes to $>$, and vice versa.
