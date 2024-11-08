@@ -11,9 +11,11 @@ update: 2024-07-16
 
 - **<span style='color:#32CD32'>A space</span> should be placed between the numerical value and the unit symbol.** 
 
-  数字和单位之间需要加空格！例外：百分号，摄氏度。
+  数字和单位之间需要加空格！例外：百分号，摄氏度，华氏度。
 
   For example, 1.2 dB is correct, while 1.2dB is not. 
+
+  20ºC, 60ºF. (温度不需要加空格)
 
   If you are writing in LaTeX, I recommend you use the siunitx by `\usepackage{siunitx}`. The command `\SI{<value>}{<unit>}` automatically prints the space between the numerical value and the unit symbol. 
 

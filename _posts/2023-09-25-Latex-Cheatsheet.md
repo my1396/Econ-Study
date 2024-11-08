@@ -217,6 +217,12 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
     \{𝑥\in \mathbb{Z}: 4\mid 𝑥 \}.
     $$
   
+  - `\mid` can be used in conditional probabilities. 
+    $$
+    p\text{-value} = P(Z\le z \mid H_0 \text{ is true}) = F(z)
+    $$
+    `\mid` creates nicer margins to the left and right compared to `\vert`.
+  
 - `\perp` ($\perp$) indicates zero correlation; `\indep` ($\indep$) indicates independece.
 
 - $\triangleq$  and `:=` used to define a variable using the RHS.
