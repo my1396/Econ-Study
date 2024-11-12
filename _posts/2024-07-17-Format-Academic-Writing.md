@@ -15,7 +15,10 @@ update: 2024-07-16
 
   For example, 1.2 dB is correct, while 1.2dB is not. 
 
-  20ºC, 60ºF. (温度不需要加空格)
+  20ºC, 60ºF. (温度不需要加空格, C 和 F 不需斜体)
+
+  - In LaTex, can use `\degree` from `gensymb` package.
+  - Another alternative is the `\textdegree` command, which is provided by the `textcomp` package. 
 
   If you are writing in LaTeX, I recommend you use the siunitx by `\usepackage{siunitx}`. The command `\SI{<value>}{<unit>}` automatically prints the space between the numerical value and the unit symbol. 
 

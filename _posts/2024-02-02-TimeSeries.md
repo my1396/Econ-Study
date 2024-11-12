@@ -216,18 +216,26 @@ In other words, the properties of one section of the data are much like those of
 
 Measure of dependence for a stochastic process $\lbrace Z_t: t=0,1,2,\ldots, n \rbrace$
 - mean function $\mu_t = E(Z_t)$
-- autocovariance function $\gamma_t(k)=\text{Cov}(Z_t, Z_{t-k})=E\big[(Z_t-\mu_t)(Z_{t-k}-\mu_{t-k})\big]$, where $k$ is the time lag; sometimes also denoted by two time points, $t$ and $t-k$, as in $\gamma_{t, t-k}$. 
+- autocovariance function $\gamma_t(k)=\text{Cov}(Z_t, Z_{t-k})=E\big[(Z_t-\mu_t)(Z_{t-k}-\mu_{t-k})\big]$, where $k$ is the time lag; sometimes also denoted by two time points, $t$ and $t-k$, as in $\gamma_{t, t-k}\,.$
 - autocorrelation function $\rho_t(k)=\text{Corr}(Z_t, Z_{t-k})$. Also denoted as $\rho_{t, t-k}$.
 
+___
 
-The time series $\lbrace Z_t\rbrace_{t=0}^n$ is *(weakly or second-order) stationary* if
-1. The mean function $\mu_t$ is independent of $t$;
-2. The covariance between two observations, $\gamma_t(k)$, depends only on the time lag $k$ and is independent of $t$.
+## Weakly Stationary
 
-Nothing is assumed about the collection of joint distributions of the process. Instead, we only are specifying the characteristics of the first two moments of the process.
+The time series $\lbrace Z_t\rbrace_{t=0}^n$ is <span style='color:#008B45FF'>*(weakly, second-order, or covariance) stationary*</span> if
+1. $E[X_t] = \mu \,.$ \
+The mean function $\mu_t$ is independent of $t$;
+2. $\text{Cov}(X_t, X_{t-j}) = \Gamma_j \text{ for } \forall j\ge 0 \,.$\
+ The covariance between two observations, $\gamma_t(k)$, <span style='color:#337ab7'>depends only on the time lag $k$ and is independent of $t$</span>.
 
+*Nothing* is assumed about the collection of *joint distributions* of the process. Instead, we only are specifying the characteristics of the first two **moments** of the process.
 
-We say $\lbrace Z_t\rbrace_{t=0}^n$ is *strictly (or strongly) stationary* if the same joint distribution of
+___
+
+## Strictly Stationary
+
+We say $\lbrace Z_t\rbrace_{t=0}^n$ is <span style='color:#008B45FF'>*strictly (or strongly) stationary*</span> if the same joint distribution of
 
 $$
 (Z_{t_1}, \ldots, Z_{t_n})
@@ -273,7 +281,7 @@ This implies
 
 4. An IID sequence is strictly stationary.
 
-*REMARK*: Strict stationarity is a condition that is much too restrictive for most applica- tions. Moreover, it is difficult to assess the validity of this assumption in practice. Rather than impose conditions on all possible (marginal and joint) distributions of a process, we will use a milder form of stationarity that only deals with the first two moments — Weak Stationarity.
+*REMARK*: Strict stationarity is a condition that is much *too restrictive* for most applications. Moreover, it is difficult to assess the validity of this assumption in practice. Rather than imposing conditions on all possible (marginal and joint) distributions of a process, we will use a milder form of stationarity that only deals with the first two moments — Weak Stationarity.
 
 
 Clearly, strict stationarity implies weak stationarity. It is also clear that the converse to statement is not true, in general. \
@@ -286,9 +294,9 @@ $$
 
 *CONVENTION*: For the purpose of modeling time series data in this course, we will rarely (if ever) make the distinction between strict stationarity and weak stationarity. When we use the term “stationary process,” this is understood to mean that the process is *weakly stationary*.
 
-In many situations, a nonstationary process $\{Y_t\}$ can be “transformed” into a stationary process by taking (first) differences. For example, the random walk $Y_t = Y_{t−1} + \varepsilon_t$, where $\varepsilon_t \sim \text{iid } N (0, \sigma_\epsilon^2)$, is not stationary. However, the first difference process $\Delta Y_t = Y_t − Y_{t−1} = \varepsilon_t$ is zero mean white noise, which is stationary.
+In many situations, a nonstationary process $\{Y_t\}$ can be “transformed” into a stationary process by *taking (first) differences*. For example, the random walk $Y_t = Y_{t−1} + \varepsilon_t$, where $\varepsilon_t \sim \text{iid } N (0, \sigma_\varepsilon^2)$, is not stationary. However, the first difference process $\Delta Y_t = Y_t − Y_{t−1} = \varepsilon_t$ is zero mean white noise, which is stationary.
 
-Stationarity does NOT mean
+<span style='color:#337ab7'>Stationarity does NOT mean</span>
 - limited dependence \
   The autocovariance relies on the time shift.
 - absence of periodic patterns \
@@ -328,5 +336,5 @@ $$
 \gamma_{t}(j) = \text{Cov}(Y_t, Y_{t-j}) = E[(Y_t-\mu)(Y_{t-j}-\mu)].
 $$
 
-- $\gamma$ denotes autocovariance coefficients; $\rho$ denotes autocorrelation coefficients. \
-  $\gamma(1)$ is called the first-order autocovariance coefficient and $\rho(1)$ the first-order autocorrelation coefficient.
+- $\gamma$ denotes *autocovariance* coefficients; $\rho$ denotes *autocorrelation* coefficients. \
+  $\gamma(1)$ is called the autocovariance function of lag 1 and $\rho(1)$ the autocorrelation function or lag 1.

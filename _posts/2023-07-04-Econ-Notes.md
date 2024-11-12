@@ -38,6 +38,35 @@ $\text{Pr}(.)$ and $\mathbb{P}(.)$ denote the probability of an event.
 
 Blackboard bold 黑板粗体 (`\mathbb`) is often used to denote **sets of numbers**, e.g. $\mathbb{N}$, $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$, $\mathbb{O}$, or a general field $\mathbb{F}$ or $\mathbb{K}$, and in probability to denote expectation of a random variable $\mathbb{E}(X)$ , written as `\mathbb{E}(X)`, or probability of an event $\mathbb{P}(E)$, written as `\mathbb{P}(E)`. 
 
+- $\mathbb{Z}$ denotes the set of all integers.
+- $\mathbb{Q}$ denotes the set of all rational numbers.
+- $\mathbb{R}$ denotes the set of all real numbers.
+
+There are two standard ways to describe a set:
+
+- The *extensional* method simply lists out all the elements of the set. For example $S = \{0, 2, 4, 6, 8, 10\}$.
+- The intensional method describes a set by listing the common properties of the elements of the set. For example, 
+  $$
+  S = \{n \in \mathbb{Z} \; | \; n \;  \textrm{is even }, 0 \leq n \leq 10\}.
+  $$
+  By putting $``\in \mathbb{Z}''$ before the vertical bar, we know that we only concern with integers in this set. This is called the *universe*. We read the first brace as "the set of all" and the vertical bar as "such that". So the expression is read as the set of all integer $n$ such that $n$ is even which is greater than or equal to 0 and less than or equal to 10. 
+
+  The general syntax of the intensional method is
+  $$
+  \{\textrm{expression}  \in \textrm{universe} \; | \; \textrm{rule}\}.
+  $$
+
+
+Sample space is usually denoted as $S$ or $\Omega$.
+
+In any given problem, the set containing all possible elements of interest is called the universe, universal set, or space, often denoted as $S$.
+
+A random experiment is completely characterized by:
+$$
+\{ S, \mathcal F(S), \mathbb P(.) \}
+$$
+where $S$ is the sample space, $\mathcal F(S)=[E_1, E_1, \ldots, ]$ is the event space, and $\mathbb P(.): \mathcal F(S) \rightarrow [0,1]$ is the probability measure that assigns probability to each of the event in the event space.
+
 Sometimes you see a sphere denoted $\mathbb{S}$ or a torus denoted $\mathbb{T}$. 
 
 Mathematical calligraphic font or script letters 花体 (`\mathcal`), uppercase only, font for categories and sheaves.
@@ -265,7 +294,7 @@ supplementary angel 互补角 $\alpha+\beta=\pi$.
 邻边 adjacent side \
 对边 opposite side
 
-<span style='color:#32CD32'>Pythagoras’ /pəˈθægərəs/ or Pythagorean /pəˌθæɡəˈriən/ theorem</span> 勾股定理
+<span style='color:#008B45FF'>Pythagoras’ /pəˈθægərəs/ or Pythagorean /pəˌθæɡəˈriən/ theorem</span> 勾股定理
 
 **Law of Cosine**: tells the length of the 3rd side of a triangle if we know 2 sides and the angle between them.
 
@@ -391,7 +420,7 @@ Reference: <https://zhuanlan.zhihu.com/p/26263309>
 
 **dot product** vs. **cross product**
 
-- dot product is a scalar, used to calculate projection along a direction ($\vec{A}\cdot \hat{u}$ is the component of $\vec{A}$ along $\hat{u}$, ^ indicates a unit vector); determine if two vectors are <span style='color:#32CD32'>orthogonal</span> (if $\vec{A}\cdot\vec{B}=0$, then $\vec{A}\perp\vec{B}$);
+- dot product is a scalar, used to calculate projection along a direction ($\vec{A}\cdot \hat{u}$ is the component of $\vec{A}$ along $\hat{u}$, ^ indicates a unit vector); determine if two vectors are <span style='color:#008B45FF'>orthogonal</span> (if $\vec{A}\cdot\vec{B}=0$, then $\vec{A}\perp\vec{B}$);
 
   - The magnitude of the dot product is the same as the magnitude of one of them, multiplied by the component of one vector that is parallel to the other. 
 
@@ -405,7 +434,7 @@ Reference: <https://zhuanlan.zhihu.com/p/26263309>
 
   
 
-- cross product is a vector, used to 1) calculate area of parallelogram formed by two vectors; 2) get the normal vector; if $\vec{A}\times\vec{B}=0$, then $\vec{A}\parallel\vec{B}$ (<span style='color:#32CD32'>parallel</span>);
+- cross product is a vector, used to 1) calculate area of parallelogram formed by two vectors; 2) get the normal vector; if $\vec{A}\times\vec{B}=0$, then $\vec{A}\parallel\vec{B}$ (<span style='color:#008B45FF'>parallel</span>);
 
   - The magnitude of the cross product is the same as the magnitude of one of them, multiplied by the component of one vector that is perpendicular to the other. 
   - If $\vec{A}\parallel\vec{B}$, no component is perpendicular to the other vector. Hence, the cross product is 0 although you can still find a perpendicular vector to both of these. 
@@ -520,7 +549,7 @@ A binomial is a polynomial with two terms. (只有两项的多项式)
 
 **Exponential** $x$ in the exponent.
 
-If there is a *variable* in the exponent, the ordinal is not used. $x^y$ is read as "x to <span style='color:#32CD32'>*the*</span> y". The -th is dropped.
+If there is a *variable* in the exponent, the ordinal is not used. $x^y$ is read as "x to <span style='color:#008B45FF'>*the*</span> y". The -th is dropped.
 
 开方 ($n$th root)
 
@@ -556,24 +585,33 @@ $\text{lb} x, \log_2x$: the binary logarithm of $x$.
 
 $a_1$: a (sub) one.
 
-$\epsilon_{ijk}$: epsilon (sub) ijk.
+$\varepsilon_{ijk}$: epsilon (sub) ijk.
 
 $a^i$: a super $i$.
+
+
+**Double Summation**
+
+We can interchange the order of double summation.
+
+$$
+\sum_{i,j} a_jb_j = \sum_{i=1}^k\sum_{j=1}^m a_ib_j = \sum_{j=1}^m\sum_{i=1}^k a_ib_j
+$$
 
 Distributive law for multiplication (from product of sums to double sums)
 
 $$
-\sum_{i=1}^k a_i \cdot \sum_{j=1}^m b_j = \sum_{i=1}^k \left(\sum_{j=1}^m a_ib_j\right)
+\left( \sum_{i=1}^k a_i \right) \cdot \left( \sum_{j=1}^m b_j \right) = \sum_{i=1}^k \left(\sum_{j=1}^m a_ib_j\right)
 $$
 
 **Arithmetic Sequence/Progression** 等差数列
 
 $a_1, a_2, ..., a_n$ has common difference $d$, $n$ is the number of terms. Some useful formulas:
 
--   the $n$-th term $a_n=a_1+(n-1)d$ 
--   sum of $n$ terms $S_n=\frac{(a_1+a_n)n}{2}=na_1+\frac{n(n-1)}{2}d$
--   number of terms $n=\frac{a_n-a_1}{d}+1$
--   common difference $d=\frac{a_n-a_1}{n-1}$
+-   the $n$-th term: $a_n=a_1+(n-1)\,d$ 
+-   sum of first $n$ terms: $S_n=\frac{(a_1+a_n)\,n}{2}=na_1+\frac{n(n-1)}{2}\,d$
+-   number of terms: $n=\frac{a_n-a_1}{d}+1$
+-   common difference: $d=\frac{a_n-a_1}{n-1}$
 
 **Geometric Sequence/Progression** 等比数列
 
@@ -581,6 +619,15 @@ $a_1, a_2, ..., a_n$ has common ratio $q$.
 
 -   $a_n=a_1\cdot q^{n-1}$
 -   $\displaystyle S_n= \frac{a_1(1-q^n)}{1-q}$
+
+
+(Backward) recursion: (逆向) 递归迭代
+
+
+- Finite: something has an end.
+- Infinitely: till the end of time. E.g., The stars will infinitely be present in space. 
+- Definite: there is a clear end.
+- Indefinitely: means you don't know when something is going to end. E.g., Due to Covid-19, the schools have been closed indefinitely. 
 
 
 
@@ -741,7 +788,7 @@ Let $⟨X_t⟩$ be a sequence of random vectors. Then the cross-covariance matri
 
 **Covariance Stationary**
 
-A sequence of random vectors $⟨X_t⟩$ is said to be covariance stationary if and only if
+A sequence of random vectors $⟨X_t⟩$ is said to be *covariance or weakly stationary* if and only if
 $$
 \begin{aligned}
 & E[X_t] = \mu, \text{ and } \\
@@ -752,7 +799,7 @@ where $\mu$ is a $K\times 1$ vector and $\Gamma_j$ is a $K\times K$ matrix.
 - $E[X_t] = \mu$ means that all the random vectors belonging to the sequence $⟨X_t⟩$ must have the same mean.
 
 - The cross-covaraince between a term and the term that is located $j$ positions before it must always be the same. 
-That is, $\text{Cov}(X_t, X_{t-j}) = \Gamma_j$ depends only on $j$ and *not* on $t$.
+That is, <span style='color:#337ab7'>$\text{Cov}(X_t, X_{t-j}) = \Gamma_j$ depends only on the lag $j$</span> (the number of time periods between the two variables) and *not* on $t$.
 
 **Trace Properties** 
 
@@ -1102,26 +1149,38 @@ ___
 
 **Expectation**
 
-Expectation are denoted by $\mathbb{E}(X)$ or $\mathbb{E}_X(X)$ to denote the expectation is taken over the RV $X$.
+Expectation are denoted by $\mathbb{E}(X)$ or $\mathbb{E}_X(X)$ to denote the expectation is taken over the RV $X.$
 
 $$
 \mathbb{E}(X) = 
 \begin{cases}
 \displaystyle \sum_{x}x f(x) & \text{for discrete } X \\
-\displaystyle \int_{-\infty}^{\infty} x f(x) dx & \text{for continuous } X \\
+\displaystyle \int_{-\infty}^{\infty} x f(x)\, \mathrm dx & \text{for continuous } X \\
 \end{cases}
 $$
 
 
 **Conditional Expectations**
 
-The conditional expectation for $Y$ given $X$, is defined as follows:
+The conditional expectation for $Y$, given that $X$ has a prescribed value, is defined as follows:
 
 $$
-\mathbb E(Y|X=x) = \sum_j y_j P(Y=y_j|X=x) = \sum_j Y_j f_{Y|X}(x,y_i) \, ,
+\mathbb E(Y|X=x) = \sum_j y_j P(Y=y_j|X=x) = \sum_j y_j f_{Y|X}(x,y_i) \, ,
 $$
 
-which is a function of $X$. We denote the conditional expectation for $Y$ given $X$ as follows:
+which is <span style='color:#337ab7'>a function of $X.$</span> 
+
+
+The conditional expectation for $X$ given $Y$, $\mathbb E(X\vert Y=y)$, is defined as follows:
+
+$$
+\mathbb E(X\vert Y=y) = \sum_i x_i P(X=x_i\vert Y=y) = \sum_i x_i f_{X\vert Y}(x_i,y) \, ,
+$$
+
+which is <span style='color:#337ab7'>a function of $Y.$</span> 
+
+
+We denote the conditional expectation for $Y$ given $X$ as follows:
 
 $$
 \varphi_X(x) = \mathbb E(Y|X=x) \, .
@@ -1141,13 +1200,16 @@ $$
 \end{aligned}
 $$
 
-## Law of iterated expectations (LIE)
+___
 
-Fora any random variable $X\in\mathcal x$ and $Y\in \mathcal Y \subset \mathbb R$,
+
+## Law of Iterated Expectations (LIE)
+
+Fora any random variable $X\in \mathcal X$ and $Y\in \mathcal Y \subset \mathbb R$,
 
 $$
 \begin{align*}
-\mathbb{E}_Y(Y) = \mathbb{E}_X\left[\mathbb{E}_{Y\vert X}\right(Y\vert X=x\left)\right] = \sum_{x\in\mathcal x} \mathbb{E}[Y\vert X=x]\, \mathbb{P}(X=x) .
+\mathbb{E}_Y(Y) = \mathbb{E}_X\left[\mathbb{E}_{Y\vert X}\right(Y\vert X=x\left)\right] = \sum_{x\in\mathcal X} \mathbb{E}[Y\vert X=x]\, \mathbb{P}(X=x) .
 \end{align*}
 $$
 
@@ -1163,6 +1225,7 @@ $$
 It repsents a transformation from condictional to unconditional expectaion.
 The expected value (this expectation is with respect to  $X$) of the conditional expectation of $Y$ given $X$ is the expected value of $Y$.
  
+LIE is also calld the *law of total expectation*, which can be derived from the *law of total probability*. We will see this in what follows.
 
 ___
 
@@ -1211,18 +1274,23 @@ $$
 \mathbb E (Y) = \mathbb E (Y|A)\, P(A) + \mathbb E (Y|A^c)\, P(A^c)
 $$
 
+___
 
 ### Partitioning and Conditioning
 
-In the general case, consider a partition of the sample space: $\{X_1, X_2, \ldots, X_n\}$, each event has a corresponding probability: $P(X_1), P(X_2), \ldots, P(X_n)$.
+In the general case, consider a <span style='color:#337ab7'>partition</span> of the sample space: $\{X_1, X_2, \ldots, X_n\}$, each event has a corresponding probability: $P(X_1), P(X_2), \ldots, P(X_n)$.
 
 Given another event $Y$, then according to the *partition rule* we have:
 
 $$
-\begin{align}
-P(Y) = P(Y|X_1)P(X_1) + P(Y|X_2)P(X_2) + \cdots + P(Y|X_n)P(X_n) .
-\end{align}
+\begin{aligned}
+P(Y) &= \sum_i^n P(Y \cap X_i) \\
+&= \sum_i^n P(Y \vert X_i)\, P (X_i)\\
+&= P(Y|X_1)P(X_1) + P(Y|X_2)P(X_2) + \cdots + P(Y|X_n)P(X_n) .
+\end{aligned}
 $$
+
+This is called the "<span style='color:#008B45FF'>**law of total probability**</span>".
 
 Then it follows that:
 
@@ -1266,7 +1334,7 @@ $$
 
 ___
 
-Generalization of LIE in time series
+**Generalization of LIE in time series**
 
 $$
 \mathbb{E}\big[\mathbb{E}(y_{t+2}|x_{t+1}) |x_t \big] = \mathbb{E}[y_{t+2} |x_t]
@@ -1278,9 +1346,11 @@ as $x_{t} \subset x_{t+1}$.
 More generally, for any random variable $z$ and two information sets $\mathcal{J}$ and $\mathcal{I}$ with $\mathcal{J} \subset \mathcal{I}$, then
 
 $$
-\mathbb{E}\big[\mathbb{E}(x|\mathcal{I}) |\mathcal{J} \big] = \mathbb{E}[z |\mathcal{J}]
+\mathbb{E}\big[\mathbb{E}(x|\mathcal{I}) |\mathcal{J} \big] = \mathbb{E}[x |\mathcal{J}]
 $$
 
+
+___
 
 **Intuition behind the LIE**
 
@@ -1571,10 +1641,10 @@ $$
 \textrm{Corr}(X,Y)=\frac{\textrm{Cov}(X, Y)}{\sqrt{\text{Var}(X)\text{Var}(Y)}}
 $$
 
-If $\textrm{Corr}(X,Y)=0$, we say that $X$ and $Y$ are <span style='color:#32CD32'>uncorrelated</span> or orthogonal, denoted by $X {\color{#32CD32}\perp} Y$ (perpendicular symbol).
+If $\textrm{Corr}(X,Y)=0$, we say that $X$ and $Y$ are <span style='color:#008B45FF'>uncorrelated</span> or orthogonal, denoted by $X {\color{#008B45FF}\perp} Y$ (perpendicular symbol).
 
 
-$X {\color{#32CD32}\indep} Y$ (double perpendicular symbol) denotes $X$ and $Y$ are <span style='color:#32CD32'>independent</span>.
+$X {\color{#008B45FF}\indep} Y$ (double perpendicular symbol) denotes $X$ and $Y$ are <span style='color:#008B45FF'>independent</span>.
 
 $X \indep Y \Rightarrow X \perp Y$,  in plain language, independence implies zero correlation. 
 
@@ -1611,6 +1681,8 @@ and so $\text{Cov}(X, f(X))=0$.
 
 $f(X)=X^2$ is an even function, which satisfies the condition.
 
+___
+
 ## Joint Distributions and Independence
 
 **Joint Distribution Function (Joint CDF)**
@@ -1640,7 +1712,7 @@ $$
 In other words, for the continuous case, $f(x_1,x_2)$ is the function that satisfies
 
 $$
-F(x_1, x_2) = \int_{\infty}^{x_2}\int_{\infty}^{x_1} f(a,b) \mathrm da\mathrm db
+F(x_1, x_2) = \int_{\infty}^{x_2}\int_{\infty}^{x_1} f(a,b)\, \mathrm da\mathrm db
 $$
 
 **Marginals**
@@ -1648,7 +1720,9 @@ $$
 Consider a discrete random vector, when one of these entries is taken in isolation, its distribution can be characterized in terms of its probability mass function. This is called *marginal probability mass function*, in order to distinguish it from the *joint probability mass function* (PMF), which is instead used to characterize the joint distribution of all the entries of the random vector considered together.
 
 
-**Formal Definition** Let $X_1, \ldots, X_K$ be $K$ discrete random variable forming a $K\times 1$ random vector. Then, for each $i=1,\ldots,K,$ the probability mass function of the random variable $X_i$, denoted by $p_{X_i}(x)\, ,$ is called marginal probability mass function. $p_{X_i}(x)$ is a function: $\mathbb R \mapsto [0,1]$ such that 
+**Formal Definition** Let $X_1, \ldots, X_K$ be $K$ discrete random variable forming a $K\times 1$ random vector. Then, for each $i=1,\ldots,K,$ the probability mass function of the random variable $X_i$, denoted by $p_{X_i}(x)\, ,$ is called <span style='color:#008B45FF'>**marginal probability mass function**</span>. 
+
+$p_{X_i}(x)$ is a function: $\mathbb R \mapsto [0,1]$ such that 
 
 $$
 p_{X_i}(x) = P(X_i=x)
@@ -1656,7 +1730,7 @@ $$
 
 where $p_{X_i}(x)$ is the probability that $X_i$ will be equal to $x$.
 
-By contrast, the joint probability mass function of the vector $X$ is a function $p_X: \mathbb R^K \mapsto [0,1]$ such that
+By contrast, the <span style='color:#008B45FF'>**joint probability mass function**</span> of the vector $X$ is a function $p_X: \mathbb R^K \mapsto [0,1]$ such that
 
 $$
 p_{X}(x) = p_{X_1,\ldots,X_K}(x_1, \ldots, x_K) = P(X_1=x_1, \ldots, X_K=x_k)
@@ -1765,18 +1839,18 @@ Suppose we have a pair of discrete random variable $\{(X, Y )\}$, with an associ
   <tr>
     <th></th>
     <th></th>
-    <th colspan="3" style="text-align: center; border-bottom: 1pt solid gray;">$X$</th>
+    <th colspan="3" style="text-align: center; border-bottom: 1pt solid gray; border-left: 1pt solid gray; ">$X$</th>
   </tr></thead>
 <tbody>
   <tr >
     <td></td>
     <td></td>
-    <td style="border-bottom: 1pt solid gray; text-align: center;">1</td>
+    <td style="border-bottom: 1pt solid gray; border-left: 1pt solid gray; text-align: center;">1</td>
     <td style="border-bottom: 1pt solid gray; text-align: center;">2</td>
     <td style="border-bottom: 1pt solid gray; text-align: center;">3</td>
   </tr>
   <tr>
-    <td rowspan="3" style="font-weight:bold; text-align: right; border-right: 1pt solid gray; width: 10%;">$Y$</td>
+    <td rowspan="3" style="border-top: 1pt solid gray; font-weight:bold; text-align: right; border-right: 1pt solid gray; width: 10%;">$Y$</td>
     <td style="border-right: 1pt solid gray; border-top: 1pt solid gray; width: 15%; text-align: center; ">-1</td>
     <td style="text-align: center;">0.1</td>
     <td style="text-align: center;">0.1</td>
@@ -1797,15 +1871,22 @@ Suppose we have a pair of discrete random variable $\{(X, Y )\}$, with an associ
 </tbody>
 </table>
 
+
+The sum of all probabilities should be equal to 1.
+
+$$
+\sum_{i}\sum_{j} f_{X,Y} (x_i, y_j) = 1
+$$
+
 To calculate the *marginal masses*, we sum along either the rows or the columns, respectively. 
 
 Summing along the rows ($X$) gives us the marginal probability of $Y$.
 
 $$
 \begin{aligned}
-f_Y(Y=-1) &= 0.1+0.1+0= 0.2 \\
-f_Y(Y=0) &= 0.2+0+0.3= 0.5 \\
-f_Y(Y=2) &= 0.1+0.2+0= 0.3
+f_Y(Y=-1) &= \sum_{i=1}^3 f_{X,Y}(x_i, -1) = 0.1+0.1+0 = 0.2 \\
+f_Y(Y=0) &= \sum_{i=1}^3 f_{X,Y}(x_i, 0) = 0.2+0+0.3 = 0.5 \\
+f_Y(Y=2) &= \sum_{i=1}^3 f_{X,Y}(x_i, 2) = 0.1+0.2+0 = 0.3
 \end{aligned}
 $$
 
@@ -1813,9 +1894,9 @@ While summing along the columns ($Y$) gives us the marginal probability of $X$.
 
 $$
 \begin{aligned}
-f_X(X=1) &= 0.1+0.2+0.1= 0.4 \\
-f_X(X=2) &= 0.1+0+0.2= 0.3 \\
-f_X(X=3) &= 0+0.3+0= 0.3
+f_X(X=1) &= \sum_{j=1}^3 f_{X,Y}(1, y_j) = 0.1+0.2+0.1 = 0.4 \\
+f_X(X=2) &= \sum_{j=1}^3 f_{X,Y}(2, y_j) = 0.1+0+0.2 = 0.3 \\
+f_X(X=3) &= \sum_{j=1}^3 f_{X,Y}(3, y_j) = 0+0.3+0 = 0.3
 \end{aligned}
 $$
 
@@ -1833,13 +1914,108 @@ so that, $\mathbb E (X)\, \mathbb E (Y)= 0.76\,.$
 After some calculation, summing over the entire table:
 
 $$
-\mathbb E(XY) = \sum_{ij}x_i y_j f_{X,Y}(x_i, y_j) =0.7 \,.
+\mathbb E(XY) = \sum_{i,j}x_i y_j f_{X,Y}(x_i, y_j) =0.7 \,.
 $$
 
 Since $\mathbb E(XY)=0.7\neq \mathbb E(X)\mathbb E(Y)$, thus $X$ and $Y$ are correlated.
 
 
-**Conditional expectation for several variables**
+___
+
+### Conditioning
+
+Conditional density:
+
+$$
+\begin{aligned}
+f_{X_1\vert X_2}(X_1=x_1\vert X_2=x_2) &= \frac{f_{X_1 X_2}(X_1=x_1, X_2=x_2)}{f_{X_2}(X_2=x_2)} \\
+f_{X_2\vert X_1}(X_2=x_2\vert X_1=x_1) &= \frac{f_{X_1 X_2}(X_1=x_1, X_2=x_2)}{f_{X_1}(X_1=x_1)} 
+\end{aligned}
+$$
+
+Note that nominator is the <span style='color:#337ab7'>joint density</span>, denominator is the <span style='color:#337ab7'>marginal density</span>.\
+Conditinal pdf could be written more succinctly as
+
+$$
+\begin{aligned}
+f_{X_1\vert X_2}(x_1\vert x_2) &= \frac{f_{X_1 X_2}(x_1, x_2)}{f_{X_2}(x_2)} \\
+f_{X_2\vert X_1}(x_2\vert x_1) &= \frac{f_{X_1 X_2}(x_1, x_2)}{f_{X_1}(x_1)} ,
+\end{aligned}
+$$
+
+or we can drop the subscripts all together
+
+$$
+\begin{aligned}
+f(x_1\vert x_2) &= \frac{f(x_1, x_2)}{f(x_2)} \\
+f(x_2\vert x_1) &= \frac{f(x_1, x_2)}{f(x_1)} .
+\end{aligned}
+$$
+
+Here, we use the lower case letters to denote the actual values the RV's take.
+
+
+Multiplication Rule
+
+$$
+\begin{aligned}
+f(x_1, x_2) &= f(x_1\vert x_2)\, f(x_2) \\
+&= f(x_2\vert x_1)\, f(x_1)
+\end{aligned}
+$$
+
+Conditional cdf is integrated based on conditional pdf:
+
+$$
+\begin{aligned}
+F_{X_1\vert X_2}(x_1\vert X_2=x_2) &=  P(X_1\le x_1 \vert X_2=x_2) \\
+&= \left\{
+\begin{array}{ll}
+	\int_{-\infty}^{x_1} f_{X_1\vert X_2}(s {\color{#008B45FF}\vert X_2=x_2}) \, \mathrm ds & \text{continuous} \\
+	\sum_{s\le x_1} f_{X_1\vert X_2}(X_1=s {\color{#008B45FF}\vert X_2=x_2})  &\text{discrete}
+\end{array} \right. 
+\end{aligned}
+$$
+
+or could be written more succinctly as
+
+$$
+\begin{aligned}
+F(x_1\vert x_2)  &=  P(X_1\le x_1 \vert X_2=x_2) \\
+&=  \left\{
+\begin{array}{ll}
+	\int_{-\infty}^{x_1} f(s{\color{#008B45FF}\vert x_2})\, \mathrm ds & \text{continuous} \\
+	\sum_{s\le x_1} f(X_1=s {\color{#008B45FF}\vert X_2=x_2})  &\text{discrete}
+\end{array} \right. 
+\end{aligned}
+$$
+
+Expectation 
+
+$$
+\mathbb{E}[h(X,Y)] = \int_{-\infty}^\infty\int_{-\infty}^\infty h(x,y)\, f_{XY}(x,y) \, \mathrm dx \mathrm dy
+$$
+
+Conditional expectation on $X$ is indicated using a subscript in $\mathbb{E}_X$, e.g.,
+
+$$
+\mathbb{E}_X[h(X, Y)] = \mathbb{E}[h(X, Y)|X] =  \int_{-\infty}^\infty h(x,y) f_{h(X,Y)|X} (h(x,y)|x) \mathrm dy
+$$
+
+Here, we "integrate out" the $Y$ variable, and we are left with a function of $X$.
+
+It is also possible the subscript indicates marginal density.
+
+$$
+\mathbb{E}_X[h(X, Y)] = \int_{-\infty}^\infty h(x,y) f_X(x) \mathrm dx
+$$
+
+Here, we "average over" the $X$ variable, and we are left with a function of $Y$.
+
+
+___
+
+### **Conditional expectation for several variables**
 
 We extend to three variables.
 
@@ -1877,9 +2053,17 @@ $$
 
 We have the following useful lemmas.
 
-- **Linearity**: $\mathbb E(aX+bY\vert Z) = a \mathbb E(X\vert Z) + b \mathbb E(Y\vert Z)$
+- <span style='color:#337ab7'>**Linearity**</span>: 
 
-- **Pull-through rule**: $\mathbb E\left[g(X)\,h(Y)\vert Y\right] = h(Y)\, \mathbb E\left[g(X)\vert Y\right]$
+$$
+\mathbb E(aX+bY\vert Z) = a \mathbb E(X\vert Z) + b \mathbb E(Y\vert Z)
+$$
+
+- <span style='color:#337ab7'>**Pull-through rule**</span>: 
+
+  $$
+  \mathbb E\left[g(X)\,h(Y)\vert Y\right] = h(Y)\, \mathbb E\left[g(X)\vert Y\right]
+  $$
 
   Proof:
 
@@ -1891,7 +2075,11 @@ We have the following useful lemmas.
   \end{align*} 
   $$
 
-- **Tower rule**: $\mathbb E\left[ \mathbb E\left(Z\vert X,Y\right) \vert Y\right] = \mathbb E \left[ \mathbb E(Z\vert Y) \vert Y, X\right ]= \mathbb E[Z\vert Y]$
+- <span style='color:#337ab7'>**Tower rule**</span>: 
+
+  $$
+  \mathbb E\left[ \mathbb E\left(Z\vert X,Y\right) \vert Y\right] = \mathbb E \left[ \mathbb E(Z\vert Y) \vert Y, X\right ]= \mathbb E[Z\vert Y]
+  $$
 
   This is a generalization of the conditional expectation theorem.
 
@@ -1910,77 +2098,6 @@ We have the following useful lemmas.
   \end{align*} 
   $$
 
-
-___
-
-### Conditioning
-
-Conditional density:
-
-$$
-\begin{aligned}
-f_{X_1\vert X_2}(x_1\vert X_2=x_2) &= \frac{f_{X_1 X_2}(X_1=x_1, X_2=x_2)}{f_{X_2}(X_2=x_2)} \\
-f_{X_2\vert X_1}(x_2\vert X_1=x_1) &= \frac{f_{X_1 X_2}(X_1=x_1, X_2=x_2)}{f_{X_1}(X_1=x_1)} 
-\end{aligned}
-$$
-
-Note that nominator is joint density, denominator is marginal density.\
-Conditinal pdf could be written more succinctly as
-
-$$
-\begin{aligned}
-f(x_1\vert x_2) &= \frac{f(x_1, x_2)}{f(x_2)} \\
-f(x_2\vert x_1) &= \frac{f(x_1, x_2)}{f(x_1)} .
-\end{aligned}
-$$
-
-Conditional cdf is integrated based on conditional pdf:
-
-$$
-\begin{aligned}
-F_{X_1\vert X_2}(x_1\vert X_2=x_2) &=  P(X_1\le x_1 \vert X_2=x_2) \\
-&= \left\{
-\begin{array}{ll}
-	\int_{-\infty}^{x_1} f_{X_1\vert X_2}(s {\color{#32CD32}\vert X_2=x_2}) ds & \text{continuous} \\
-	\sum_{s\le x_1} f_{X_1\vert X_2}(X_1=s {\color{#32CD32}\vert X_2=x_2})  &\text{discrete}
-\end{array} \right. 
-\end{aligned}
-$$
-
-or could be written more succinctly as
-
-$$
-\begin{aligned}
-F(x_1\vert x_2)  &=  P(X_1\le x_1 \vert X_2=x_2) \\
-&=  \left\{
-\begin{array}{ll}
-	\int_{-\infty}^{x_1} f(s{\color{#32CD32}\vert x_2}) ds & \text{continuous} \\
-	\sum_{s\le x_1} f(X_1=s {\color{#32CD32}\vert X_2=x_2})  &\text{discrete}
-\end{array} \right. 
-\end{aligned}
-$$
-
-Expectation 
-
-$$
-\mathbb{E}[h(X,Y)] = \int_{-\infty}^\infty\int_{-\infty}^\infty h(x,y) f_{XY}(x,y) dxdy
-$$
-
-Conditional expectation on $X$ is indicated using a subscript in $\mathbb{E}_X$, e.g.,
-
-$$
-\mathbb{E}_X[h(X, Y)] = \mathbb{E}[h(X, Y)|X] =  \int_{-\infty}^\infty h(x,y) f_{h(X,Y)|X} (h(x,y)|x) dy
-$$
-
-Here, we "integrate out" the $Y$ variable, and we are left with a function of $X$.
-
-It is also possible the subscript indicates marginal density.
-
-$$
-\mathbb{E}_X[h(X, Y)] = \int_{-\infty}^\infty h(x,y) f_X(x) dx
-$$
-
-Here, we "average over" the $X$ variable, and we are left with a function of $Y$.
 
 ___
 
@@ -2051,15 +2168,15 @@ $$
 \begin{aligned}
 \mathbb{E}(g(x) \vert Y=y) = \left\{
 \begin{array}{ll}
-	\int_{-\infty}^\infty g(x){\color{#32CD32}f(x\vert Y=y)}dx & \text{continuous} \\
-	\sum_x g(x){\color{#32CD32}f(x\vert Y=y)} &\text{discrete}
+	\int_{-\infty}^\infty g(x){\color{#008B45FF}f(x\vert Y=y)}dx & \text{continuous} \\
+	\sum_x g(x){\color{#008B45FF}f(x\vert Y=y)} &\text{discrete}
 \end{array} \right.  
 \end{aligned}
 $$
 
 Note: 
 - For <span style='color:red'>unconditional</span> moments, use the appropriate <span style='color:red'>unconditional</span> density.
-- For <span style='color:#32CD32'>conditional</span> moments, use the appropriate <span style='color:#32CD32'>conditional</span> density.
+- For <span style='color:#008B45FF'>conditional</span> moments, use the appropriate <span style='color:#008B45FF'>conditional</span> density.
 - Expectation or expected value is a population quantity because it requires knowledge of the density function.
 - The sample analogue of the expected value is the sample mean or sample average.
 
@@ -2083,11 +2200,11 @@ Conditional variance use conditional expectations
 
 $$
 \begin{aligned}
-\text{Var}(X{\color{#32CD32}\vert Y}) &= \mathbb{E} [(X-\mathbb{E}(X{\color{#32CD32}\vert Y}))^2 {\color{#32CD32}\vert Y}] \\
+\text{Var}(X{\color{#008B45FF}\vert Y}) &= \mathbb{E} [(X-\mathbb{E}(X{\color{#008B45FF}\vert Y}))^2 {\color{#008B45FF}\vert Y}] \\
 &= \left\{
 \begin{array}{ll}
-	\int_{-\infty}^{\infty} [x-\mathbb{E}(X{\color{#32CD32}\vert Y=y})]^2 f(x{\color{#32CD32}\vert y}) dx & \text{continuous} \\
-	\sum_{x} [x-\mathbb{E}(X{\color{#32CD32}\vert Y=y})]^2 f(x{\color{#32CD32}\vert y})  &\text{discrete}
+	\int_{-\infty}^{\infty} [x-\mathbb{E}(X{\color{#008B45FF}\vert Y=y})]^2 f(x{\color{#008B45FF}\vert y}) dx & \text{continuous} \\
+	\sum_{x} [x-\mathbb{E}(X{\color{#008B45FF}\vert Y=y})]^2 f(x{\color{#008B45FF}\vert y})  &\text{discrete}
 	\end{array} \right. 
 \end{aligned}
 $$
@@ -2095,7 +2212,7 @@ $$
 Alternatively, the conditional variance can be written as 
 
 $$
-\text{Var}(X{\color{#32CD32}\vert Y}) = \mathbb{E}[X^2{\color{#32CD32}\vert Y}] - \left(\mathbb{E}[X{\color{#32CD32}\vert Y} ]\right )^2
+\text{Var}(X{\color{#008B45FF}\vert Y}) = \mathbb{E}[X^2{\color{#008B45FF}\vert Y}] - \left(\mathbb{E}[X{\color{#008B45FF}\vert Y} ]\right )^2
 $$
 
 Independence conditional on other variables
@@ -2114,7 +2231,7 @@ $$
 X_1 \indep X_2 \vert X_3
 $$
 
-Note that this <span style='color:#32CD32'>does not imply</span> $X_1 \indep X_2$! \
+Note that this <span style='color:#008B45FF'>does not imply</span> $X_1 \indep X_2$! \
 E.g., $X_1$ and $X_2$ can be returns on two equities where $X_3$ is some global macroeconomic factor affecting multiple variables at once (e.g. federal reserve interest rate). \
 Another example for $X_1, X_2$ would be wages and level of education, whereas $X_3$ is level of intelligence.
 
@@ -2359,10 +2476,18 @@ E.g., For $X_1, X_2, \ldots, X_n$ iid with mean $\mu$ and variance $\sigma^2$, d
 
 ## Type I and II Errors
 
-Type I error: rejecting a true $H_0$. Corresponds to level of significance, $\alpha$, $\alpha = P(\text{reject } H_0 \vert H_0 \text{ is true})$.
+Type I error: rejecting a true $H_0$. Corresponds to the *level of significance*, $\alpha$, 
 
-Type II error: failing to reject a false $H_0$. The probability of committing a Type II error is called $\beta$. $\beta=P(\text{fail to reject} H_0\vert H_0 \text{ is false})$. $\beta$ is related to the *Power of a test*.
-$\beta = 1-\text{Power of a test} = 1-P(\text{reject } H_0\vert H_0 \text{ is false})$. 
+$$
+\alpha = P(\text{reject } H_0 \vert H_0 \text{ is true})\,.
+$$
+
+Type II error: failing to reject a false $H_0$. The probability of committing a Type II error is called $\beta\,.$
+
+$$\beta=P(\text{fail to reject} H_0\vert H_0 \text{ is false})\,.$$
+
+$\beta$ is related to the *Power of a test*.
+$\beta = 1-\text{Power of a test} = 1-P(\text{reject } H_0\vert H_0 \text{ is false})\,.$
 
 In hypothesis testing, the *size of a test* is the (maximum) probability of committing a Type I error, that is, of incorrectly rejecting the null hypothesis when it is true.
 
@@ -2370,223 +2495,13 @@ In hypothesis testing, the *size of a test* is the (maximum) probability of comm
 
 
 Note:
-- If $\alpha$ increases that means the chances of making a type I error will increase. It is more likely that a type I error will occur. It makes sense that you are less likely to make type II errors, only because you will be rejecting H0 more often. You will be failing to reject H0 less, and therefore, the chance of making a type II error will decrease. Thus, as $\alpha$ increases, $\beta$ will decrease, and vice versa. That makes them seem like complements, but they are not complements.
+- If $\alpha$ increases that means the chances of making a type I error will increase. It is more likely that a type I error will occur. It makes sense that you are less likely to make type II errors, only because you will be rejecting $H_0$ more often. You will be failing to reject $H_0$ less, and therefore, the chance of making a type II error will decrease. Thus, as $\alpha$ increases, $\beta$ will decrease, and vice versa. That makes them seem like complements, but they are not complements.
 - For a constant sample size, $n$, if  $\alpha$  increases, $\beta$ decreases. \
 For a constant significance level,  $\alpha$ , if $n$ increases, $\beta$ decreases.
 
 
 
 ___
-
-## Stochastic Process
-
-A stochastic process $X_t$ is a family of random variables. At a specific time point $t$, $X_t$ is a random variable with a specific density function. A stochastic process is defined in a probability space $(\Omega, \mathcal{F}, P)$.
-
-Mean function $\mu_t$ 
-
-$$
-\begin{align*}
-\mu_t = \mathbb{E}[X_t] = \int_{\mathbb{R}}xdF_t(X)
-\end{align*}
-$$
-
-$\mu_t$ depends on time $t$, as, for example, processes with a seasonal or periodical structure or processes with a deterministic trend.
-
-**Autocovariance Function**
-$$
-\begin{align*}
-\gamma(t,\tau)=\text{Cov}(X_t, X_{t-\tau})
-\end{align*}
-$$
-
-If we define <span style='color:red'>**covariance stationary**</span>, then $\gamma(t,\tau)=\gamma_\tau$, means covaraince only depends on time interval apart, not start point.
-
-
-Autocorrelation Function (ACF)
-
-$$
-\begin{align*}
-\rho_{\tau}=\frac{\gamma_{\tau}}{\gamma_0}
-\end{align*}
-$$
-
-The autocorrelation function $\rho$ of a covaraince stochastic process is normalized on the interval [-1,1].  $\rho$ depends only on one parameter, the lag $\tau$.
-
-
-
-**White Noise (WN)**
-
-If $X_t$ is white noise, then
-
-$$
-\begin{align*}
-1.&\ \mu_t=0,  and \\
-2.&\ \gamma_\tau=\left\{
-	\begin{array}{ll}
-	\sigma^2 & \text{when $\tau=0$} \\
-	0 & \text{(uncorrelated) when $\tau\neq0$}
-	\end{array} \right.
-\end{align*}
-$$
-
-In short, WN is with expectation 0 and finite variance. denoted as $X_t\sim \text{WN} (0, \sigma^2)$.
-
-Note that every $\text{IID}\, (0, \sigma^2)$ sequence is $\text{WN} (0, \sigma^2)$, but not conversely.
-
-**Random Walk**
-$$
-\begin{align*}
-X_t=c+X_{t-1}+\epsilon_t
-\end{align*}
-$$
-
-with a constant $c$ and **white noise** $\epsilon_t$. 
-
-$Z_t=X_t-X_{t-1}=c+\epsilon_t$ , if $c$ is not zero, then we say $X_t$  has a drift, 
-
-$c>0$ we say drift upward,
-
-$c<0$ we say drift downward.
-
-$\epsilon_t$ is called disturbances or innovations in time series.
-
-Assume that the constant $c$ and the initial value $X_0$ are set to zero, through recursice substitution we will get the representation:
-$$
-\begin{align*}
-X_t=\sum^t_{i=1}\epsilon_i
-\end{align*}
-$$
-Moment functions:
-
-1. $\mu_t=0$
-2. $\text{Var}(X_t)=t\sigma^2$
-3. $\gamma(t,\tau) = \text{Cov}(X_t,X_{t-\tau})=(t-\tau)\sigma^2$, for $\tau\lt t$.
-4. $\rho(t,\tau)=\sqrt{1-\frac{\tau}{t}}$
-
-Notice that autocovariance is strictly positive, and since it depends on $t$ not only on the lags $\tau$, the random walk is not covariance stationary.
-
-As $\tau$ gets larger, $\rho$ gets smallers. In words, neighboring time points are more and more strongly and positively correlated as time goes by. On the other hand, the values of $X$ at distant time points are less and less correlated.
-
-
-
-**AR(1) process**
-
-$$
-\begin{align*}
-X_t=c+\alpha X_{t-1}+\epsilon_t
-\end{align*}
-$$
-
-with $ \vert\alpha \vert<1$.
-
-By iterative substitutions, 
-
-$$
-\begin{align*}
-X_t=c \frac{1-\alpha^k}{1-\alpha}+\alpha^kX_{t-k}+\sum^{k-1}_{i=0}\alpha^i\epsilon_{t-i}
-\end{align*}
-$$
-
-For $K\to \infty$,
-
-$$
-\begin{align*}
-X_t=c\frac{1}{1-\alpha}+\sum^\infty_{i=0}\alpha^i\epsilon_{t-i}
-\end{align*}
-$$
-
-Moment functions:
-
-1. $\mu_t=c\frac{1}{1-\alpha}$
-2. $\gamma_\tau=\frac{\sigma^2}{1-\alpha^2}\alpha^\tau$
-3. $\rho_\tau=\alpha^\tau$
-
-For ACF $\rho_\tau$, if $\alpha>0$, this function is strictly positive, for $\alpha<0$, it alternates around zero. For small $\alpha$, like 0.5, it converges very fast; for large $\alpha$, like 0.99, it converges quite slow.
-
-
-
-**Markov Process**
-
-A stochastic process has the Markov Property if for all $t\in \mathbb{Z}$ and $k\geq 1$
-
-$$
-\begin{align*}
-F_{t|t-1,\ldots,t-k}(x_t|x_{t-1},\ldots, x_{t-k})=F_{t|t-1}(x_t|x_{t-1})
-\end{align*}
-$$
-
-In other words, the conditional distribution of a Markov process at a specific point in time is entirely determined by the condition of the system at the previous date.
-
-Two examples: random walk with independent $\epsilon_t$ and the AR(1) process with independent white noise.
-
-
-
-**Martingale**
-
-$$
-\begin{align*}
-E[X_t|X_{t-1}=x_{t-1},\ldots,X_{t-k}=x_{t-k}]=x_{t-1}
-\end{align*}
-$$
-
-For martingale, only one statement about the conditional expectation is made; while for Markov process, statements on the entire conditional distribution are made.
-
-
-
-**Lag Operator**
-
-$LX_t=X_{t-1}$ and  $L^kX_t=X_{t-k}$
-
-$\Delta=1-L$, $\Delta X_t=X_t-X_{t-1}$ and $\Delta^k=(1-L)^k$
-
-
-
-**Unit Root Tests**
-$$
-\begin{align*}
-X_t=c+\alpha X_{t-1}+\epsilon_t
-\end{align*}
-$$
-For $|\alpha|<1$, the process is stationary or after the "decaying process";
-
-for $\alpha=1$, the process is **non-stationary.**
-
-
-
-### Kernel Smoothing
-
-<https://atmos.washington.edu/~breth/classes/AS552/lect/lect24.pdf>
-
-Python code: <https://matthew-brett.github.io/teaching/smoothing_intro.html>
-
-
-
-
-
-
-
-## GMM	
-
-`gmm(g, x, t0=NULL, gradv=NULL, type=c("twoStep","cue","iterative"), wmatrix = c("optimal","ident"), vcov=c("HAC","MDS","iid","TrueFixed"), ..., data)`
-
-* `g`     A function of the form $g(\theta,x)$ and which returns a $n\times q$ matrix with element $g_i(\theta,x_t)$ for $i=1,\ldots,q$ and $t=1,\dots,n$.  This matrix is used to build the $q$ sample moment conditions. 
-* `x`     The matrix or vector of data from which the function $g(\theta,x)$is computed. If "g" is a formula, it is an n × Nh matrix of instruments or a formula.
-* `wmatrix`     Which weighting matrix should be used in the objective function. 
-  * By default, it is the inverse of the covariance matrix of $g(\theta,x)$, `optimal`. 
-  * The other choice is the identity matrix which is usually used to obtain a first step estimate of $\theta$. `ident`
-
-
-
-**Vector Autoregressive**
-
-VAR model allows feedback to occur between the variables in the model. For example, we could use a VAR model to show how real GDP is a function of policy rate and how policy rate is, in turn, a function of real GDP.
-
--   A systematic but flexible approach for capturing complex real-world behavior.
-    Better forecasting performance.
-    Ability to capture the intertwined dynamics of time series data.
-
-
-
 
 
 **log-transformed Models**
