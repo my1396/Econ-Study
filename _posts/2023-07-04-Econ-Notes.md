@@ -1720,15 +1720,15 @@ $$
 Consider a discrete random vector, when one of these entries is taken in isolation, its distribution can be characterized in terms of its probability mass function. This is called *marginal probability mass function*, in order to distinguish it from the *joint probability mass function* (PMF), which is instead used to characterize the joint distribution of all the entries of the random vector considered together.
 
 
-**Formal Definition** Let $X_1, \ldots, X_K$ be $K$ discrete random variable forming a $K\times 1$ random vector. Then, for each $i=1,\ldots,K,$ the probability mass function of the random variable $X_i$, denoted by $p_{X_i}(x)\, ,$ is called <span style='color:#008B45FF'>**marginal probability mass function**</span>. 
+**Formal Definition** Let $X_1, \ldots, X_K$ be $K$ discrete random variable forming a $K\times 1$ random vector. Then, for each $i=1,\ldots,K,$ the probability mass function of the random variable $X_i$, denoted by $p_{X_i}(x_i)\, ,$ is called <span style='color:#008B45FF'>**marginal probability mass function**</span>. 
 
-$p_{X_i}(x)$ is a function: $\mathbb R \mapsto [0,1]$ such that 
+$p_{X_i}(x_i)$ is a function: $\mathbb R \mapsto [0,1]$ such that 
 
 $$
-p_{X_i}(x) = P(X_i=x)
+p_{X_i}(x_i) = P(X_i=x_i)
 $$
 
-where $p_{X_i}(x)$ is the probability that $X_i$ will be equal to $x$.
+where $p_{X_i}(x_i)$ is the probability that $X_i$ will be equal to $x_i$.
 
 By contrast, the <span style='color:#008B45FF'>**joint probability mass function**</span> of the vector $X$ is a function $p_X: \mathbb R^K \mapsto [0,1]$ such that
 
@@ -1918,6 +1918,25 @@ $$
 $$
 
 Since $\mathbb E(XY)=0.7\neq \mathbb E(X)\mathbb E(Y)$, thus $X$ and $Y$ are correlated.
+
+
+___
+
+### Independence
+
+Two random variables $X_1$ and $X_2$ are independent if and only if
+
+$$
+F_{X_1X_2}(x_1, x_2) = F_{X_1}(x_1) F_{X_2}(x_2)
+$$
+
+where $F_{X_1X_2}(x_1, x_2)$ is their joint distribution function and $F_{X_1}(x_1)$ and $F_{X_2}(x_2)$ are their marginal distribution function.
+
+The joint probability density function, $f_{X_1X_2}(x_1, x_2),$ is also the product of their marginal probability density functions.
+
+$$
+f_{X_1X_2}(x_1, x_2) = f_{X_1}(x_1) f_{X_2}(x_2)
+$$
 
 
 ___
@@ -2259,8 +2278,32 @@ $$
 
 
 
+The *moment-generating function* (MGF) of a random variable $X$ is
+
+$$
+M_X(t) = E(e^{tX}) = \begin{cases}
+\displaystyle \int_{-\infty}^{\infty} e^{tx} f_X(x) \mathrm ds  & \text{continuous } X \\
+\displaystyle \sum_{i=0}^\infty e^{tx_i} P(X=x_i) & \text{discrete } X 
+\end{cases}
+$$
+
+- The MGF of X gives us all moments of X. That is why it is called the moment generating function. 
+
+    We can obtain all moments of $X$:
+
+    $$
+    \mu_n = E[X^n] = M_X^{(n)} (0) = \left. \frac{\mathrm d^n M_X}{\mathrm dt^n} \right\vert_{t=0} \,.
+    $$
+
+    That is, the $n$th moment about zero is the <span style='color:#337ab7'>$n$th derivative of the moment generating function</span>, evaluated at $t=0.$
+ 
+- The MGF (if it exists) uniquely determines the distribution.
+
+
+
 Linear Algebra \
 <https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab>
+
 
 
 ___
@@ -2360,7 +2403,8 @@ $$
   - <span style='color:#797D7F'> $E\,\vert\vert \boldsymbol{y} \vert\vert^2 <\infty$ indicates 2nd moment finite.  </span>
   
 
-  Ergodic Theorem \
+  **Ergodic Theorem**
+
   If $\boldsymbol{y}_t$ is strictly stationary, ergodic, and $E\,\vert\vert \boldsymbol{y} \vert\vert <\infty $, then as $n\to\infty$,
 
   $$
@@ -2388,6 +2432,9 @@ $$
 - Note: neither property implies the other. 
   + If we are interested in bias, we take the **expectation** on both sides of the equation.
   + When we are interested in consistency we take the **probability limit**.
+
+
+___
 
 ## Central Limit Theorem (CLT)
 
@@ -2455,6 +2502,32 @@ $$
 \frac{S_n-n\mu}{\sigma \sqrt{n}} \xrightarrow{d} N(0,1) .
 $$
 
+
+### MDS CLT
+
+CLT for martingale differences
+
+
+We are interested in an asymptotic approximation for the distribution of standardized sample means such as
+
+$$
+\boldsymbol{S}_n = \frac{1}{\sqrt{n}} \sum_{t=1}^n \boldsymbol{u}_t
+$$
+
+where $\boldsymbol{u}_t$ is mean zero with finite variance $E[\boldsymbol{u}_t\boldsymbol{u}_t']=\boldsymbol{\Sigma}<\infty$.
+
+The MDS CLT theorem says if $\boldsymbol{u}_t$ is a strictly stationary and ergodic martingale difference sequence and $E[\boldsymbol{u}_t\boldsymbol{u}_t']=\boldsymbol{\Sigma}<\infty$, then as $n\to\infty,$
+
+$$
+\boldsymbol{S}_n = \frac{1}{\sqrt{n}} \sum_{t=1}^n \boldsymbol{u}_t \overset{d}{\to} N(\boldsymbol{0}, \boldsymbol{\Sigma}).
+$$
+
+The conditions for the theorem are similar to the Lindeberg-Lévy CLT. The only difference is that the i.i.d. assumption has been replaced by the assumption of a strictly stationarity and ergodic MDS.
+
+
+___
+
+
 ## Big-O Little-o Notation
 
 Consider a sequence of random variables $X_n$ and a sequence of constants $a_n$ for $n = 1, 2, . . .$\
@@ -2473,6 +2546,8 @@ Consequently:
 
 E.g., For $X_1, X_2, \ldots, X_n$ iid with mean $\mu$ and variance $\sigma^2$, define $Z=\frac{\overline{X}-\mu}{\sigma}$. Then, by the CLT we have $\sqrt{n}Z\xrightarrow{d}N(0,1)$ and so $\sqrt{n}Z = O_p(1)$ or equivalently $Z=O_p(n^{-1/2})$.
 
+
+___
 
 ## Type I and II Errors
 
@@ -2524,6 +2599,7 @@ Semi-parametric models
 -   quantile regression
 
 
+___
 
 **Textbooks**
 

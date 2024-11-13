@@ -68,31 +68,31 @@ $$
 The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ identity matrix, is called a standard normal vector, with elements $z_i \sim N(0,1)$ for $i=1,2,\ldots,n$ that are independent standard normal random variables.
 
 <ol>
-  <li> The scalar $w=z'z=\sum_{i=1}^n z_i^2 \sim \chi^2(n)$. <br/>
+  <li> <span style='color:#008B45FF; font-style:italic;'><strong>Chi-squared distribution</strong></span>. The scalar $w=z'z=\sum_{i=1}^n z_i^2 \sim \chi^2(n)$. <br/>
 
-  The sum of squares of $n$ independent standard normal random variables has <span style='color:#32CD32; font-style:italic;'>chi-squared distribution</span> with $n$ degress of freedom. </li>
+  The sum of squares of $n$ independent standard normal random variables has <em>chi-squared distribution</em> with $n$ degress of freedom. </li>
 
-  <li> If the random variables $w_1 \sim \chi^2(m)$ and $w_2 \sim \chi^2(n)$ and $w_1$ and $w_2$ are independent, then the scalar
+  <li> <span style='color:#008B45FF; font-style:italic;'><strong>F-distibution</strong></span>. If the random variables $w_1 \sim \chi^2(m)$ and $w_2 \sim \chi^2(n)$ and $w_1$ and $w_2$ are independent, then the scalar
 
   $$
-  v=\frac{w_1/m}{w_2/n} \sim F(m,n)
+    v=\frac{w_1/m}{w_2/n} \sim F(m,n)
   $$
 
-  The ratio of two independent chi-squared random variables, each divided by their respective degrees of freedom, has a <span style='color:#32CD32; font-style:italic;'>F-distibution</span>.
+  The ratio of two independent chi-squared random variables, each divided by their respective degrees of freedom, has a <em>F-distibution</em>.
 
-  <div class = "boxed">
+  <div class = "boxed"> 
   <strong>Theorem</strong>  If $v \sim F(m,n)$, the limiting distribution of $mv$ as $n\to\infty$ is the $\chi^2(m)$.
   </div>
 
   Proof: 
   $$
-  mv = \frac{w_1}{w_2/n} \sim F(m,n)
+    mv = \frac{w_1}{w_2/n} \sim F(m,n)
   $$
 
   Since $w_2$ is a $\chi^2$ variable with $n$ degrees of freedom, it can be written as the sum of $n$ iid $\chi^2(1)$, the denominator can be written as
 
   $$
-  w_2/n = \frac{Y_1+Y_2+\cdots+Y_{n}}{n}
+    w_2/n = \frac{Y_1+Y_2+\cdots+Y_{n}}{n}
   $$
 
   with $Y_1,Y_2,\ldots,Y_{n}$ mutually independent $\chi^2(1)$.
@@ -100,13 +100,13 @@ The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ ident
   By the Strong Law of Large Numers,
 
   $$
-  w_2/n = \frac{Y_1+Y_2+\cdots+Y_{n}}{n} \xrightarrow{a.s} \text{E}(Y_1) \quad \text{as } n\to\infty
+    w_2/n = \frac{Y_1+Y_2+\cdots+Y_{n}}{n} \xrightarrow{a.s} \text{E}(Y_1) \quad \text{as } n\to\infty
   $$
 
   and $\text{E}(Y_1)=1$, which means
 
   $$
-  mv = \frac{w_1}{w_2/n} \xrightarrow{a.s} w_1 \quad \text{as } n\to\infty
+    mv = \frac{w_1}{w_2/n} \xrightarrow{a.s} w_1 \quad \text{as } n\to\infty
   $$
 
   <div>
@@ -116,16 +116,16 @@ The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ ident
 
   </li>
 
-  <li> If the random variable $z\sim N(0,1)$ and $w\sim \chi^2(n)$ are independent, then the scalar 
+  <li>  <span style='color:#008B45FF; font-style:italic;'><strong>Student t-distribution</strong></span>. If the random variable $z\sim N(0,1)$ and $w\sim \chi^2(n)$ are independent, then the scalar 
 
   $$
-  u=\frac{z}{\sqrt{w/n}} \sim t(n)
+    u=\frac{z}{\sqrt{w/n}} \sim t(n)
   $$
 
-  The ratio of a standard normal random variable to the square root of an independent chi-squared random variable divided by its degrees of freedom has a <span style='color:#32CD32; font-style:italic;'>Student t-distribution</span> with that degrees of freedom. <br/>
+  The ratio of a <u>standard normal</u> random variable to the <u>square root of an independent chi-squared</u> random variable divided by its degrees of freedom has a <em>Student t-distribution</em> with that degrees of freedom. <br/>
 
   $$
-  u^2 = \frac{z}{w/n}= \frac{z/1}{w/n} \sim F(1,n)
+    u^2 = \frac{z}{w/n}= \frac{z/1}{w/n} \sim F(1,n)
   $$
 
   The square of a RV with a $t(n)$ distribution has a $F(1,n)$ distribution. <br/><br/>
@@ -301,3 +301,43 @@ f_X(x) = (2\pi)^{-\frac{K}{2}} \vert \text{det}(\Sigma) \vert ^{-\frac{1}{2}} \e
 $$
 
 The $K$ random variables $X_1, \ldots, X_K$ constituting the vector $X$ are said to be **jointly normal**.
+
+___
+
+## Distribution Tables
+
+### Discrete Distributions
+
+| Distribution of $X$  | $f(x)$ | Support | $E[X]$  | $\text{Var}[X]$ |
+|:------|:---|:---|:--:|:--:|
+| [Hypergeometric](#hypergeometric)$(n, N_1, N_0)$ | $\displaystyle \frac{\binom{N_1}{x} \binom{N_0}{n-x}}{\binom{N}{n}}$ | $x=0, 1, \ldots, n$ | $n \frac{N_1}{N}$ | $n \frac{N_1}{N} \frac{N_0}{N} \left(1 - \frac{n-1}{N-1}\right)$ |
+| [Binomial](#binomial)$(n, N_1, N_0)$ | $\displaystyle \frac{\binom{n}{x} N_1^x N_0^{n-x}}{N^n}$ | $x=0, 1, \ldots, n$ | $n \frac{N_1}{N}$ | $n \frac{N_1}{N} \frac{N_0}{N}$ |
+| [Binomial](#binomial)$(n, p)$ | $\binom{n}{x} p^x (1-p)^{n-x}$ | $x=0, 1, \ldots, n$ | $np$ | $np(1-p)$ |
+| [Geometric](#geometric)$(p)$ | $(1-p)^{x-1} p$ | $x=1, 2, \ldots$ | $\frac{1}{p}$ | $\frac{1-p}{p^2}$ |
+| [NegativeBinomial](#negative-binomial)$(r, p)$ | $\binom{x-1}{r-1} (1-p)^{x-r} p^r$ | $x=r, r+1, \ldots$ | $\frac{r}{p}$ | $\frac{r(1-p)}{p^2}$ |
+| [Poisson](#poisson)$(\mu)$ | $e^{-\mu} \frac{\mu^x}{x!}$ | $x=0, 1, 2, \ldots$ | $\mu$ | $\mu$ |
+
+
+___
+
+### Continuous Distributions
+
+| Distribution of $X$  | $f(x)$ | Support | $E[X]$  | $\text{Var}[X]$ |
+|:------|:---|:---|:--:|:--:|
+| [Uniform](#uniform)$(a, b)$ | $\frac{1}{b-a}$ | $a < x < b$ | $\frac{a+b}{2}$ | $\frac{(b-a)^2}{12}$ |
+| [Exponential](#exponential)$(\lambda)$ | $\lambda e^{-\lambda x}$ | $0 < x < \infty$ | $\frac{1}{\lambda}$ | $\frac{1}{\lambda^2}$ |
+| [Gamma](#sums-continuous)$(r, \lambda)$ | $\frac{\lambda^r}{(r-1)!}x^{r-1} e^{-\lambda x}$ | $0 < x < \infty$ | $\frac{r}{\lambda}$ | $\frac{r}{\lambda^2}$ |
+| [Normal](#normal)$(\mu, \sigma)$ | $\frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(x - \mu)^2}{2\sigma^2}}$ | $-\infty < x < \infty$ | $\mu$ | $\sigma^2$ |
+| Chi-square$(n)$ | $c\, x^{n/2-1} e^{-\frac{1}{2}x}$<sup>[1]</sup> | $0<x<\infty$ | $n$ | $2n$ |
+
+___
+
+<sup>[1]<sub> $c$ is a constant, $c=\frac{1}{2^{n/2}\Gamma(n/2)}$. $\Gamma()$ is the Gamma function.</sub></sup>  
+
+
+
+___
+
+**References**: 
+
+1. Distribution tables source: <https://dlsun.github.io/probability/distribution-table.html>

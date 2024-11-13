@@ -245,7 +245,7 @@ $$
 E[X_t | \mathcal F_{t-1}] = X_{t-1}
 $$
 
-since $E[\varepsilon_t | \mathcal F_{t-1}]=0.$
+since $E[\varepsilon_t \vert \mathcal F_{t-1}]=0.$
 
 
 **Martingale Difference Sequence** (MDS)
@@ -256,28 +256,60 @@ $$
 E[\varepsilon_t | \mathcal F_{t-1}] = 0 \,.
 $$
 
-If $\{X_t, \mathcal F_t\}$ is a martingale, a MDS $\{\varepsilon_t, \mathcal F_t\}$ may be constructed by defining
+If $\{y_t, \mathcal F_t\}$ is a martingale, a MDS $\{\varepsilon_t, \mathcal F_t\}$ may be constructed by defining
 
 $$
 \varepsilon_t = y_t - E[y_t|\mathcal F_{t-1}] \,.
 $$
 
-By construction, a MDS is an uncorrelated process. 
+
+Useful properties of a MDS.
+1. A MDS is mean zero.
+
+    $$
+    E[\varepsilon_t] = E \left[E[\varepsilon_t | \mathcal F_{t-1}]\right] =0 
+    $$
+
+2. By construction, a MDS is an uncorrelated process. The covariance of $\varepsilon_t$ and $\varepsilon_{t-k}$, for $k>0$, is 
+
+    $$
+    \begin{aligned}
+    \text{Cov}(\varepsilon_t, \varepsilon_{t-k}) 
+    &= E[\varepsilon_t\varepsilon_{t-k}] \\
+    &= E[E[\varepsilon_t\varepsilon_{t-k} | \mathcal F_{t-1}]] \\
+    &= E[\varepsilon_{t-k} E[\varepsilon_t| \mathcal F_{t-1}]] \\
+    &= E[\varepsilon_{t-k} 0] \\
+    &= 0
+    \end{aligned}
+    $$
+
+
+The term "martingale difference sequence" refers to the fact that the summed process 
 
 $$
-\begin{aligned}
-E[\varepsilon_t\varepsilon_{t-k}] &= E[E[\varepsilon_t\varepsilon_{t-k} | \mathcal F_{t-1}]] \\
-&= E[\varepsilon_{t-k} E[\varepsilon_t| \mathcal F_{t-1}]] \\
-&= 0
-\end{aligned}
+S_t = \sum_{j=1}^t \varepsilon_j
 $$
 
-Also, a MDS is mean zeros.
+is a martingale, and $e_t$ is its first-difference. We can verify that 
 
 $$
-E[\varepsilon_t] = E \left[E[\varepsilon_t | \mathcal F_{t-1}]\right] =0 
+E[S_t | \mathcal F_{t-1}] = S_{t-1} \,,
 $$
 
+which satisfies the martingale property.
+
+If $\varepsilon_t$ is i.i.d. and mean zero, then it is a MDS, but the reverse is not true.
+
+Example: 
+
+Let $u_t$ be i.i.d. $N(0,1)$ and set 
+
+$$
+\varepsilon_t = u_tu_{t-1}
+$$
+
+
+___
 
 **Lag Operator**
 
