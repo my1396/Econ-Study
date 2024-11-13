@@ -217,23 +217,66 @@ Two examples: random walk with independent $\varepsilon_t$ and the AR(1) process
 
 **Martingale**
 
+Let $\{X_t\}$ denote a sequence of random variables and let $\mathcal F_{t} = \{X_{t}, X_{t-1},\ldots, X_0\}$ denote a set of conditioning information or *information set* based on the past history of $X_{t}.$ The sequence $\{X_t, \mathcal F_t\}$ is called a martingale if
+
 $$
-\begin{align*}
 E[X_t \mid X_{t-1}=x_{t-1}, \ldots, X_{t-k}=x_{t-k}] = x_{t-1}
-\end{align*}
 $$
 
 or more succinctly,
 
 $$
-\begin{align*}
-E[X_t \mid  X_{t-1}, \ldots, X_{t-k}] = x_{t-1}
-\end{align*}
+E[X_t | \mathcal F_{t-1}] = x_{t-1}
 $$
+
 
 For martingale, only one statement about the *conditional expectation* is made; while for Markov process, statements on the entire *conditional distribution* are made.
 
 
+The most common example of a martingale is the random walk model
+
+$$
+X_t = X_{t-1} + \varepsilon_t, \quad \varepsilon_t \sim WN(0, \sigma^2).
+$$
+
+We have
+
+$$
+E[X_t | \mathcal F_{t-1}] = X_{t-1}
+$$
+
+since $E[\varepsilon_t | \mathcal F_{t-1}]=0.$
+
+
+**Martingale Difference Sequence** (MDS)
+
+Let $\{\varepsilon_t\}$ be a sequence of random variables with an associated information set $\{\mathcal F_t\}$. The sequence $\{\varepsilon_t, \mathcal F_t\}$ is called a *martingale difference sequence* (MDS) if
+
+$$
+E[\varepsilon_t | \mathcal F_{t-1}] = 0 \,.
+$$
+
+If $\{X_t, \mathcal F_t\}$ is a martingale, a MDS $\{\varepsilon_t, \mathcal F_t\}$ may be constructed by defining
+
+$$
+\varepsilon_t = y_t - E[y_t|\mathcal F_{t-1}] \,.
+$$
+
+By construction, a MDS is an uncorrelated process. 
+
+$$
+\begin{aligned}
+E[\varepsilon_t\varepsilon_{t-k}] &= E[E[\varepsilon_t\varepsilon_{t-k} | \mathcal F_{t-1}]] \\
+&= E[\varepsilon_{t-k} E[\varepsilon_t| \mathcal F_{t-1}]] \\
+&= 0
+\end{aligned}
+$$
+
+Also, a MDS is mean zeros.
+
+$$
+E[\varepsilon_t] = E \left[E[\varepsilon_t | \mathcal F_{t-1}]\right] =0 
+$$
 
 
 **Lag Operator**
