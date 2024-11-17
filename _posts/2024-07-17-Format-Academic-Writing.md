@@ -28,7 +28,7 @@ update: 2024-07-16
 
 - **Physical units must <span style='color:#32CD32'>not</span> be italicized.** For example, 1.2 dB is correct, while 1.2 *dB* is not.
 
-- Constant *e*, the imaginary unit *i* and the function symbol *f(x)* should be italicized. 
+- Constant *e*, the imaginary unit *i* and the function symbol *f(x)* should be <span style='color:#32CD32'>*italicized*</span>. 
 
 -  There should be a space before and after arithematic operators. E.g., 2.5 ± 0.07. 
 
@@ -48,6 +48,30 @@ update: 2024-07-16
 
 - Decades are written in numerals without an apostrophe: 1970s. 年份都是用numerals.
 
+- Currency format
+
+  - All currency symbols are placed before the number amount <span style='color:#32CD32'>without any spacing</span>. 
+
+    E.g, $500.
+
+  - The abbreviation of a currency (e.g. USD or, EUR) should precede the number amount <span style='color:#32CD32'>with a space</span>.
+
+    E.g., EUR 400.
+
+    The 3-letter come from International Bank Account Number [(IBAN) currency codes](https://www.iban.com/currency-codes).
+
+  - In all numbers greater than three digits, at least one comma will be required. Counting from right to left, place a comma after every third number. E.g., $3,000.
+
+    It is important to note that this is different from many European countries, where the comma and period have reverse roles.
+
+  - Negative currency numbers are indicated in several ways
+
+    - Parentheses. E.g., ($100).
+
+    - A minus sign in front of the currency symbol. E.g., -$100. Do NOT put a space between the minus sign and the value.
+
+      In EU countries, minus sign is also put behind the currency symbol, e.g., $-100.
+
 
 
 Some math style conventions
@@ -56,6 +80,46 @@ Some math style conventions
 - Vectors should be in **bold** type.
 - Functions should be as roman type. E.g., $\exp, \ln, \arg$.
 - If you need to break one long expression, the math operator such as `+` should be on the next line.
+
+
+
+**Font for Numbers**
+
+Why put numbers inside `$...$`?
+
+- Sometimes you use a font that has different fonts for math-mode numerals and text-mode numerals. This is when you want to put all your numbers inside dollar signs `$...$`.
+
+  The main takeaway is that numbers should have a consistent font.
+
+- If the numerals are in a theorem, they will be in *italic* unless you put `$` around them.
+
+  Here is an example showing why mathematical numbers should always be typed as formulas (that is, between `$...$`).
+
+  ```tex
+  \begin{lemma}
+  If $v\ne0$ is a vector in $\mathbb{R}^{n}$, then $vv^T$ is a rank~$1$ matrix.
+  \end{lemma}
+  ```
+
+  If we don't type `$1$` but simply `1`, the style in which the statement is typeset would prevail and the number would probably appear in italics, as this is the usual font for mathematical statements. The `1` in italics would be wrong, without any doubt.
+
+- When you have a negative number, you need to type as a formula as `-` outside math mode prints a hypen.
+
+  ```tex
+  Without \$'s:
+  2, -2; \textit{2, -2}
+  With \$'s:
+  $2$, $-2$;  \textit{$2$, $-2$}
+  The first version is rather unacceptable.
+  ```
+
+  <img src="https://drive.google.com/thumbnail?id=1STMfl0cA7HpkmynwxQxiR5DQ0vwi4Db8&sz=w1000" alt="Math mode numerals" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+
+  Another example:
+
+  <img src="https://drive.google.com/thumbnail?id=1uJj36bHQtGsk-44z7sPVoR1TdG8fkeD0&sz=w1000" alt="Math mode numerals2" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+  Exerpt source: Donald E. Knuth 1989, TUGboat -- ["Typesetting Concrete Mathematics"](http://tug.org/TUGboat/tb10-1/tb23knut.pdf).
 
 
 
@@ -119,6 +183,8 @@ The formatter removes both ‘soft’ (`␣`) and ‘hard’ spaces (`\,` and `~
 - `\numproduct{10 x 30}` print products <img src="https://drive.google.com/thumbnail?id=1Dab_stboUAZxaldoifgXZ2MzTNEY495v&sz=w1000" alt="num product" style="zoom:40%;" />
 
 - `\numrange{10}{30}` print a range <img src="https://drive.google.com/thumbnail?id=1fnHAAAITCEilCppMtIQYaud4-LwutTbL&sz=w1000" alt="num range" style="zoom:40%;" />
+
+`\SI{<value>}{<unit>}`  E.g., `\SI{10.5}{\kilo\meter}` for $10.5 \text{ km}$, `\SI{2.6}{\volt\per\meter}` for $2.6 \text{ Vm}^{-1}$. 
 
 
 

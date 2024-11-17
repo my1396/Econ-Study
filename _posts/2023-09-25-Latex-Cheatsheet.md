@@ -78,6 +78,20 @@ Note:
 
 
 
+### Delimiters
+
+| Term                |   LaTeX   | Symbol    |
+| :------------------ | :-------: | --------- |
+| Left angle          | `\langle` | $\langle$ |
+| Right angle         | `\rangle` | $\rangle$ |
+| Left bracket        | `\lbrack` | $\lbrack$ |
+| Right bracket       | `\rbrack` | $\rbrack$ |
+| Left brace          | `\lbrace` | $\lbrace$ |
+| Right brace         | `\rbrace` | $\rbrace$ |
+| Double vertical bar |   `\|`    | $\|$      |
+
+
+
 
 
 ## Greek Letters
