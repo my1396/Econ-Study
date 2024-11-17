@@ -77,6 +77,8 @@ update: 2024-07-16
 Some math style conventions
 
 - Variables should always be set in ***italic*** in both text and in equations.
+  - Identifiers (which can be superscript or subscript words, letters, or numbers) are not italicized. E.g., $M_{\text{girls}}=4.22,$ the symbol for mean is italicized, but the nonvariable identifier `girls` is NOT italicized.
+
 - Vectors should be in **bold** type.
 - Functions should be as roman type. E.g., $\exp, \ln, \arg$.
 - If you need to break one long expression, the math operator such as `+` should be on the next line.
