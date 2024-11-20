@@ -138,6 +138,8 @@ Reference: <https://www.principlesofeconometrics.com/poe5/writing/abadir_magnus.
 
 `iff`: if and only if.
 
+`GWN`: Gaussian White Noise.
+
 `i.i.d.`: independent and identically distributed
 
 `Thm`: theorem.

@@ -9,7 +9,7 @@ Interactive Manual: <https://www.toyota.com/owners/warranty-owners-manuals/digit
 
 用户手册分两部分：普通功能手册 + 影音功能手册。
 
-### 仪表盘
+## 仪表盘
 
 <img src="https://drive.google.com/thumbnail?id=1VtHZYef-QEkQNokZb9DWPB83dVb-vHvQ&sz=w1000" alt="仪表盘" style="display: block; margin-right: auto; margin-left: auto; zoom:70%;" />
 
@@ -31,14 +31,23 @@ F 显示变更按钮
 
  
 
+### 指示警告灯
+
+| Light                                                        | Meaning                                                      |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="https://drive.google.com/thumbnail?id=1n3xMcswZBBcUQEDn3AhFwutPcQ6vaaeH&sz=w1000" alt="电动转向" style="zoom:40%;" /> | 电动转向系统警告灯                                           |
+| <img src="https://drive.google.com/thumbnail?id=1HnrrD008hLh8cyn5GDhjnwdvktMJ13bo&sz=w1000" alt="打滑" style="zoom:15%;" /> | 打滑指示灯                                                   |
+| <img src="https://drive.google.com/thumbnail?id=1iLc6E9sRimlfNh84rMBn1VzzatwmL9hj&sz=w1000" alt="PCS 警告灯" style="zoom:35%;" /> | PCS 警告灯                                                   |
+| <img src="https://drive.google.com/thumbnail?id=1Ec_oVF6wwb-nnGt-EDkqLrzg88DR3qZm&sz=w1000" alt="巡航" style="zoom:37%;" /> | 巡航控制指示灯                                               |
+| <img src="https://drive.google.com/thumbnail?id=1hQDa4HNtCG6BRvqi6VahFzeTsVxhjGtl&sz=w1000" alt="轮胎压力警示灯" style="zoom:50%;" /> | 轮胎压力警告灯<br />此灯闪烁时：轮胎压力警告系统存在故障。<br />此灯点亮时：1. 自然原因 2. 轮胎泄气 立即将车辆停在安全地点。 |
 
 
-| Light                                                        | Meaning            |
-| ------------------------------------------------------------ | ------------------ |
-| <img src="https://drive.google.com/thumbnail?id=1n3xMcswZBBcUQEDn3AhFwutPcQ6vaaeH&sz=w1000" alt="电动转向" style="zoom:40%;" /> | 电动转向系统警告灯 |
-| <img src="https://drive.google.com/thumbnail?id=1HnrrD008hLh8cyn5GDhjnwdvktMJ13bo&sz=w1000" alt="打滑" style="zoom:15%;" /> | 打滑指示灯         |
-| <img src="https://drive.google.com/thumbnail?id=1iLc6E9sRimlfNh84rMBn1VzzatwmL9hj&sz=w1000" alt="PCS 警告灯" style="zoom:35%;" /> | PCS 警告灯         |
-| <img src="https://drive.google.com/thumbnail?id=1Ec_oVF6wwb-nnGt-EDkqLrzg88DR3qZm&sz=w1000" alt="巡航" style="zoom:37%;" /> | 巡航控制指示灯     |
+
+### 轮胎
+
+更换轮胎后需要进行压力初始化。
+
+轮胎压力警告灯可能由于自然原因(如自然漏气和温度引起的轮胎气压变化)而点亮。在此情况下，调节轮胎气压可熄灭警告灯(数分钟后)。
 
 
 
@@ -60,7 +69,7 @@ F 显示变更按钮
 
 
 
-### 灯光控制
+## 灯光控制
 
 <img src="https://drive.google.com/thumbnail?id=1sXUK0MJ-anOVyH8Mx_KNYVAVl2zk3dBp&sz=w1000" alt="车灯" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
@@ -81,9 +90,9 @@ Auto 头灯，日间行驶灯，自动启动和关闭
 
 
 
-**雾灯**
+#### **雾灯**
 
-左侧操控杆，上下转动调节环。
+<span style='color:#32CD32'>左侧操控杆</span>，上下转动调节环。
 
 档位：1 关闭 $\rightarrow$ 2. 前雾灯 $\rightarrow$ 3. 前雾灯+后雾灯
 
@@ -91,9 +100,59 @@ Auto 头灯，日间行驶灯，自动启动和关闭
 
 
 
+#### 车内灯光
+
+<img src="https://drive.google.com/thumbnail?id=1o4G5JQrAkpH9Wx4XfarMWBRcIbCyaCh9&sz=w1000" alt="车内灯" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 
-**电话语音**
+
+**前车内灯**
+
+<img src="https://drive.google.com/thumbnail?id=1BNb64CPMuoJHxEQmzrkgUKJYNg_Cs0b-&sz=w1000" alt="前车内灯" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+1. 启用 / 禁用车门位置
+
+   启用：后车内灯与前车内灯同时点亮 / 熄灭。前车内灯和后车内灯车门位置启用的情况下，<span style='color:#32CD32'>打开车门</span>，此灯点亮。
+
+2. 打开 / 关闭此灯
+
+   同时打开 / 关闭两侧前车内灯。
+
+   如需单独控制左侧或者右侧车内灯，按左右两端按钮。
+
+   <img src="https://drive.google.com/thumbnail?id=1m5uCXINWOzXcNg5T5lFWWfd_kYnECUon&sz=w1000" alt="前车内灯" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+
+**后车内灯**
+
+<img src="https://drive.google.com/thumbnail?id=1Vtj-B3BXGyhyuLLk8JYFyptrNLvzP0o2&sz=w1000" alt="后车内灯" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+
+左右两侧按下去，打开 / 关闭此灯。
+
+前车内灯车门位置启用的情况下，打开车门时，此灯点亮。
+
+
+
+**入车照明系统**
+
+车内灯根据发动机开关模式(位置)、电子钥匙存在情况(带进入功能的车辆)、车门锁止 / 解锁情况、车门打开 / 关闭情况自动点亮/ 熄灭。
+
+
+
+**防止蓄电池电量耗尽**
+
+发动机开关关闭时，如果车内灯仍点亮，则 20 分钟后将自动熄灭。[此功能不甚可靠。建议<span style='color:#32CD32'>自行确保</span>灯光在<u>发动机关闭</u>的情况下，是关闭的。]
+
+
+
+车内灯可能自动点亮的条件
+
+如果任一 SRS 空气囊展开(充气)或发生严重的追尾碰撞，则车内灯将自动点亮。 约 20 分钟后，车内灯将自动熄灭。
+
+
+
+___
+
+### **电话语音**
 
 <img src="https://drive.google.com/thumbnail?id=1Od33m0vB0HbAketZ9irSma-samsPeNe9&sz=w1000" alt="车灯" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 

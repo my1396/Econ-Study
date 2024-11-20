@@ -89,9 +89,13 @@ Some math style conventions
 
 Why put numbers inside `$...$`?
 
-- Sometimes you use a font that has different fonts for math-mode numerals and text-mode numerals. This is when you want to put all your numbers inside dollar signs `$...$`.
+- Sometimes you use <span style='color:#32CD32'>different fonts</span> for math-mode numerals and text-mode numerals. This is when you want to put all your numbers inside dollar signs `$...$`.
 
   The main takeaway is that numbers should have a consistent font.
+
+  For instance, if you use `\usepackage{charter}` for main text font and `\usepackage[expert]{mathdesign}` for math, if you don't put all your numbers in formulas, they will look differently.
+
+  <img src="https://drive.google.com/thumbnail?id=1HdmojitH48NG9DL70qbomNNvvVCtw012&sz=w1000" alt="charter math font" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 - If the numerals are in a theorem, they will be in *italic* unless you put `$` around them.
 
