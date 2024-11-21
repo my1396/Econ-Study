@@ -9,6 +9,59 @@ Interactive Manual: <https://www.toyota.com/owners/warranty-owners-manuals/digit
 
 用户手册分两部分：普通功能手册 + 影音功能手册。
 
+
+
+**起动发动机**
+
+1. 检查并确认换档杆置于 P 档。
+2. 用力踩下制动踏板。
+3. 短促而有力地按下发动机开关。
+
+
+
+**停止发动机**
+
+1. 完全停止车辆。
+2. 将换档杆换至 <span style='color:#32CD32'>P 档</span>。
+3. 按下发动机开关。发动机将停止且仪表显示将消失。
+4. 松开制动踏板，检查并确认多信息显示屏上未显示 “ACCESSORY” 或 “IGNITION ON”。
+
+注意事项：
+
+- 如果关闭发动机时换档杆置于 P 档以外的档位，则发动机开关将切换至 ACC，而非关闭。
+
+- 如果车辆处于 ACC，则蓄电池电量可能耗尽。
+
+  离开车辆前，检查并确认多信息显示屏上的 “ACCESSORY” 或 “IGNITION ON” 消失。
+
+
+
+**发动机模式**
+
+在松开制动踏板的情况下，按下发动机开关可切换模式。(每按下一次此开关，模式就切换一次。)
+
+1. 关闭
+
+   可以使用危险告警灯。
+
+2. ACC
+
+   可以使用部分电气部件，如音响系统。
+
+   多信息显示屏上将显示 “ACCESSORY”。
+
+3. ON
+
+   可以使用所有电气部件。 
+
+   多信息显示屏上将显示 “IGNITION ON”。
+
+
+
+换档杆置于 P 档时，如果车辆处于 ACC 20 分钟以上或处于 ON(发动机未运转)一小时以上，则发动机开关将自动关闭。但是，该功能不能完全防止蓄电池电量耗尽。发动机不运转时，请勿让发动机开关长时间处于 ACC 或 ON。
+
+
+
 ## 仪表盘
 
 <img src="https://drive.google.com/thumbnail?id=1VtHZYef-QEkQNokZb9DWPB83dVb-vHvQ&sz=w1000" alt="仪表盘" style="display: block; margin-right: auto; margin-left: auto; zoom:70%;" />
@@ -375,6 +428,22 @@ When “FAST” is displayed on the screen, fan speed will be increased.
 - 如果使用车内空气再循环模式，则车窗更容易起雾。
 
 
+
+
+
+**Heated Stearing Wheel**
+
+<img src="https://drive.google.com/thumbnail?id=1iqVDTl2WKIF5fRmNvBStWLKkz1b8C0pQ&sz=w1000" alt="方向盘加热 " style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+
+
+
+**前座椅加热**
+
+<img src="https://drive.google.com/thumbnail?id=1hWUg3eUxpBsPKJ_nJaFGrtBT5LvLhF6T&sz=w1000" alt="前座椅加热 " style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+
+**后座椅加热**
+
+<img src="https://drive.google.com/thumbnail?id=16j3bp1WSNxB64vbg3lnUBpNbOM5HSiUg&sz=w1000" alt="后座椅加热 " style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
 
 
 
