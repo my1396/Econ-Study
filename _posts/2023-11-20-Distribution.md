@@ -12,21 +12,24 @@ date: 2023-11-20
 
 Normal Distribution $\mathcal{N}(\mu, \sigma^2)$. The 2nd parameter is the *variance*. Normal distribution is also called the *Gaussian distribution*.
 
-$\phi(.)$ usually denotes the pdf of the standard normal (standard Gaussian) distribution.
-$\Phi(.)$ usually the cdf of the standard normal.
-Figure 1 shows the $\Phi$ and $\phi$ functions.
+$\phi(.)$ usually denotes the probability density function of the standard normal (standard Gaussian) distribution. \
+$\Phi(.)$ usually the cumulative distribution function of the standard normal.
 
-If $z\sim N(0,1)$, then its pdf is given by:
+
+If $z\sim N(0,1)$, then its pdf, $\phi(.)$, is given by:
 
 $$
 \phi(z) = \frac{1}{\sqrt{2\pi}} e^{-\frac{z^2}{2}}.
 $$
 
-The cdf is denoted by the $\Phi$ function:
+The cdf, $\Phi$, is given by:
 
 $$
 \Phi(x) = P(Z\le x) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^x \exp\{-\frac{u^2}{2}\} du.
 $$
+
+
+Figure 1 shows the $\Phi$ and $\phi$ functions.
 
 <figure> 
 <img src="https://drive.google.com/thumbnail?id=1nxfdIKXgZvOqXVSeA3h_hf0yxmsM361l&sz=w1000" alt="Phi_b" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
@@ -38,7 +41,7 @@ $$
 
 If $Z$ is standard normal and $X=\mu+\sigma Z$, then $X\sim N(\mu, \sigma^2)$. 
 
-To fin the cdf of $X$, we caan write
+To find the cdf of $X$, we can write
 
 $$
 \begin{aligned}
