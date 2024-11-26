@@ -159,6 +159,10 @@ body {
   color: #404040; /* color for main text */
   overflow-x: hidden;
 }
+/* Chinese font */
+.comment {
+  font-family: STKaiti, BiauKai, KaiTi, sans-serif;
+}
 p {
   margin: 30px 0;
 }
