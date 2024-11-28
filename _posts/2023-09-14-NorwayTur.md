@@ -6,6 +6,29 @@ title: Gå på tur
 
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
+**Skattkammeret**
+
+Borrow sport equipment
+
+<https://kirkensbymisjon.no/skattkammeret/bodo/>
+
+Åpningstider for Skattkammeret Bodø:
+
+- Mandager: 16:00 til 18:00
+- Tirsdager: 13:00 til 16:00
+- Onsdager: 13:00 til 16:00
+- Torsdager: 13:00 til 18:00
+
+Epost: [skattkammeret.bodo@bymisjon.no](mailto:skattkammeret.bodo@bymisjon.no)
+Telefon: [+47 4889 6889](tel:+4797341554)
+Besøksadresse: Kongsdatterveien 26-28, 8028 Bodø.
+
+Bus1 Mørkvedmarka skole
+
+
+
+
+
 **Salten** is a traditional district in Nordland county, Norway. It includes the municipalities of Gildeskål, Bodø, Beiarn, Saltdal, Fauske, Sørfold, Steigen, and Hamarøy. 
 
 [TellTur](https://www.telltur.no/turmaal/myghxi9g/5271#:~:text=Kjør%252C%2520sykle%2520eller%2520gå%2520Fjellveien,på%2520merket%2520sti%2520ved%2520Kretjønna.)

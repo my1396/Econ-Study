@@ -287,7 +287,7 @@ B 展开
 
 
 
-方向盘
+调整方向盘高度和位置
 
 1. 握住方向盘并向下推释放杆。
 
@@ -518,6 +518,115 @@ As the key may be damaged if the following procedure is not performed properly, 
 
 
 
+## 自行保养
+
+### 发动机盖
+
+**打开发动机舱盖**
+
+<img src="https://drive.google.com/thumbnail?id=1ipTUxp8Bs7t4lvOH5rZqLA_xcB0GU0K-&sz=w1000" alt="发动机盖" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+
+
+
+<img src="https://drive.google.com/thumbnail?id=1UEjO2ofEi0LRfOQHQm1iI4rXtFYGiHZZ&sz=w1000" alt="发动机盖零部件" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+| 部件 | 用处                                            |
+| ---- | ----------------------------------------------- |
+| A    | <span style='color:#32CD32'>喷洗液</span>储液罐 |
+| B    | 发动机冷却液储液罐                              |
+| C    | 保险丝盒                                        |
+| D    | 发动机机油加注口盖                              |
+| E    | 发动机机油尺                                    |
+| F    | 中间冷却器冷却液储液罐                          |
+| G    | 蓄电池                                          |
+| H    | 散热器                                          |
+| I    | 冷凝器                                          |
+| J    | 电动冷却风扇                                    |
+
+### 注发动机机油
+
+**检查和加注发动机机油**
+
+- 为防止严重损坏发动机，应当定期检查机油油位。
+
+- 发动机处于<span style='color:#32CD32'>工作温度</span>且已<span style='color:#32CD32'>关闭</span>的情况下，用机油尺检查机油油位。
+
+**检查发动机机油**
+
+1. 将车辆停放在水平地面上。发动机暖机并关闭后，等待 5 分钟以上，让机油回流到发动机底部。
+
+2. 拉出机油尺，并在机油尺端部下方放一块抹布。
+
+   <img src="https://drive.google.com/thumbnail?id=1ta6MJyLoy9_ddc_qH_KYcYsdpnBTfNTS&sz=w1000" alt="机油尺 " style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+3. 将机油尺擦净。
+
+4. 重新完全插入非平直机油 尺，使其凸出部位(图中的🅰 )朝向发动机。
+
+   <img src="https://drive.google.com/thumbnail?id=1RV6vFBNO2mIknPVCBIM1VkTH37iJiW9q&sz=w1000" alt="机油尺A" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+5. 拉出机油尺，并在机油尺端部下方放一块抹布，然后检查油位。
+
+   <img src="https://drive.google.com/thumbnail?id=14o_Q-NHPhY9AYT8yDwV9PkVxv33x7K59&sz=w1000" alt="机油尺B" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+   🅰 低
+
+   🅱 正常
+
+   🅲 高
+
+6. 擦净机油尺后再重新完全 插入。
+
+
+
+检查机油类型并准备所需物品
+加注机油前，确保检查机油类型并准备好所需物品。
+
+- 选择发动机机油
+- 机油量(低 → 满) 1.5 L(公升)
+- 物品 干净的漏斗
+
+如果机油油位低于或接近低油位刻度，则加注与发动机内<u>现有机油类型相同的机油</u>。
+
+更换发动机机油时注意事项
+
+- 小心不要让发动机机油溅到车辆部件上。
+- 避免过量加注，否则会损坏发动机。
+- 每次给车辆加注机油时，都应用机油尺检查油位。
+- 确保发动机机油加注口盖已正确拧紧。
+
+行驶期间将消耗一定量的发动机机油。在下列情况下，机油消耗可能会增加，且机油保养间隔期间可能需要重新加注发动机机油。
+
+- 使用新发动机时，如购买新车或更换发动机后
+- 使用劣质或粘度不当的机油时
+- 在发动机高速运转或重载行驶时，或频繁加速或减速行驶时
+- 发动机长时间怠速运转时，或频繁驶过交通拥堵地段时
+
+
+
+更换发动机机油后应<u>重置发动机机油保养数据</u>。信息显示屏→仪表控制→设置。
+
+
+
+### 玻璃水
+
+**添加玻璃喷洗液 (玻璃水)**
+
+- 发动机处于热态或运转时，请勿添加喷洗液。
+
+  由于喷洗液含有酒精，如果溅到发动机等部位上，可能导致起火。
+
+- 请勿使用喷洗液之外的液体
+
+  请勿使用肥皂水或发动机防冻剂代替喷洗液。否则可能导致车辆漆面出现斑纹，并可能损坏喷洗液泵，从而
+  导致喷洗液不能喷出的故障。
+
+- 稀释喷洗液 
+
+  必要时，用水稀释喷洗液。请参考喷洗液瓶标签上标明的冻结温度。
+
+
+
 **冬季玻璃水**
 
 更换冬季玻璃水前，要将车内剩余的夏季玻璃水排空，再灌入冬季玻璃水。
@@ -528,36 +637,7 @@ As the key may be damaged if the following procedure is not performed properly, 
 
 
 
-### 发动机盖
-
-**打开发动机盖**
-
-<img src="https://drive.google.com/thumbnail?id=1ipTUxp8Bs7t4lvOH5rZqLA_xcB0GU0K-&sz=w1000" alt="发动机盖" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
-
-
-
-<img src="https://drive.google.com/thumbnail?id=1UEjO2ofEi0LRfOQHQm1iI4rXtFYGiHZZ&sz=w1000" alt="发动机盖零部件" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
-
-| 部件 | 用处                   |
-| ---- | ---------------------- |
-| A    | 喷洗液储液罐           |
-| B    | 发动机冷却液储液罐     |
-| C    | 保险丝盒               |
-| D    | 发动机机油加注口盖     |
-| E    | 发动机机油尺           |
-| F    | 中间冷却器冷却液储液罐 |
-| G    | 蓄电池                 |
-| H    | 散热器                 |
-| I    | 冷凝器                 |
-| J    | 电动冷却风扇           |
-
-检查和加注发动机机油
-
-发动机处于工作温度且已关闭的情况下，用机油尺检查机油油位。
-
-
-
-
+___
 
 ### 油电混合动力系统
 
