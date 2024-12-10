@@ -72,7 +72,9 @@ ___
 
 Server info
 
-- <span style='color:#32CD32'>**Server name** </span>: ofprod-norduni-1214693-sql.database.windows.net
+- <span style='color:#32CD32'>**Server name**</span>: ofprod-norduni-1214693-sql.database.windows.net
+- Authentication type: Microsoft Extra ID - Universal with MFA support
+- Account: menghan.yuan@nord.no
 - **Database name**: fds
 
 <img src="https://drive.google.com/thumbnail?id=1nO_hwdBpDAwzijkNPOskhSnrufEPA123&sz=w1000" alt="image-20210914084652582" style="zoom:67%;" />
@@ -127,6 +129,30 @@ SELECT top 10 * from fp_v2.fp_basic_prices;
 ```
 
 <a href="{{ site.baseurl}}/source/FaceSet_Sample_Codes.ipynb">Download Sample Python Codes Here</a>
+
+
+
+
+
+## Troubleshooting
+
+**Connection error - multiple matching tokens detected**
+
+Error message
+
+> Failed to authenticate the user in Active Directory (Authentication=ActiveDirectoryInteractive).
+> Error code 0xmultiple_matching_tokens_detected
+> The cache contains multiple tokens satisfying the requirements. Try to clear token cache.
+
+Fix: Clear the Azure Token Cache using the command in the Command Palette. Specifically.
+
+1. Click F1
+2. type something like `clear`
+3. Run the `Clear Azure Token Cache` entry.
+
+<img src="https://drive.google.com/thumbnail?id=15nkQUk6TAWVJgXa5Z8YxwWMX_Ynv4p6t&sz=w1000" alt="Azure clear cache" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
 
 
 

@@ -2566,7 +2566,10 @@ $$\beta=P(\text{fail to reject} H_0\vert H_0 \text{ is false})\,.$$
 $\beta$ is related to the *Power of a test*.
 $\beta = 1-\text{Power of a test} = 1-P(\text{reject } H_0\vert H_0 \text{ is false})\,.$
 
-In hypothesis testing, the *size of a test* is the (maximum) probability of committing a Type I error, that is, of incorrectly rejecting the null hypothesis when it is true.
+In hypothesis testing, the <span style='color:#32CD32'>*size of a test*</span> is the (maximum) probability of committing a Type I error, that is, of incorrectly rejecting the null hypothesis when it is true.
+
+The <span style='color:#32CD32'>*power of a test*</span> refers to the probability of correctly rejecting $H_0$ when $H_1$ is true.
+
 
 <img src="https://drive.google.com/thumbnail?id=1U8Hk_KJfWT5fL6eUgEcPNiiSrueLSfC3&sz=w1000" alt="type-i-and-type-ii-error" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
 
@@ -2577,6 +2580,21 @@ Note:
 For a constant significance level,  $\alpha$ , if $n$ increases, $\beta$ decreases.
 
 
+Q: When should we use one-tailed hypothesis testing? \
+A: Authors should explain why they are more interested in an effect in one direction not the other.
+
+Ex1: we compare the mean strength of parts from a supplier (102) to a target value (100). We are considering a new supplier only if the mean strength of their parts is greater than our target value. There is no need for us to distinguish between whether their parts are equally strong or less strong than the target value — either way we'd just stick with our current supplier.
+
+$H_0$: new supplier = target value \
+$H_1$: new supplier > target value 
+
+
+Ex1: We want to know if the battery life is greathn than the orignal after a manufacturing change.
+
+$H_0$: new battery life = original life \
+$H_1$: new battery life > original life
+
+- One-tailed test improve the power of a test, that is correctly reject $H_0$ if the null hypothesis is truly false.
 
 ___
 

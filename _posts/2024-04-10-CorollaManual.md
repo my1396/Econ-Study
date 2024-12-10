@@ -249,6 +249,19 @@ Rain-sensing windshield wipers
 
 上下摆动操控杆 调节速度
 
+① 间歇工作 转动圆环，调节间歇时间。
+
+<img src="https://drive.google.com/thumbnail?id=1v0wz-fFGWOu-dMr9MmUOSXQ70G25Z5VL&sz=w1000" alt="雨刷速度" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+- ❺ 增大间歇式风挡玻璃刮水器刮水频率；减慢速度
+- ❻ 减小间歇式风挡玻璃刮水器刮水频率；加快速度
+
+② 低速工作
+
+③ 高速工作
+
+④ 临时工作
+
 
 
 Operating the lever can use the **rear window wiper** or the washer.
@@ -519,6 +532,28 @@ As the key may be damaged if the following procedure is not performed properly, 
 
 
 ## 自行保养
+
+加注燃油注意事项
+
+- 下车后和打开燃油加注口盖前，触摸无漆金属表面以<u>释放所有静电</u>。
+
+  加注燃油前释放静电非常重要，因为加注燃油 时，静电产生的火花可能点燃燃油蒸汽。
+
+  如何消除静电：
+
+  - 用湿纸巾擦手保持手部湿润，可以消除静电。 
+
+  - 将手贴在墙壁上或者金属车身上，可消除大部分静电。
+
+  - 加油机的金属键盘是接地的，触摸可以消除静电。
+
+- 加完油等油枪沥净后再拔出
+
+  油滴落在车身上会损害车辆漆面。
+
+
+
+
 
 ### 发动机盖
 
