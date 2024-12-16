@@ -155,7 +155,7 @@ Why put numbers inside `$...$`?
 
 
 
-**Minus sign**
+### Minus sign
 
 I am not a fan of typing numbers in the text in mathmode. It's fine if you use a complete font, but what if you decide to change the math font later? I prefer to use the `textminus` from the `textcomp` package. 
 

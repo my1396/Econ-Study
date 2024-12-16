@@ -38,3 +38,28 @@ Staten gåt alfor langt i å regulere folks privatliv.
 
 
 
+
+
+| Norsk                       | Engelsk                              |
+| --------------------------- | ------------------------------------ |
+| Det viser seg at ...        | It shows that ...                    |
+| Jeg synes det er bra at ... | It think it would be great that .... |
+
+
+
+
+
+
+
+
+
+### Familie
+
+1. Eer det viktig at mor og far deler på permisjonen nå barna er små? Hvorfor / hvorfor ikke?
+
+   | Engelsk                                                      | Norsk |
+   | ------------------------------------------------------------ | ----- |
+   | - Children need to form a close bond with parents, which is best achieved when parents take maternity or paternity leave. This dedicated time allows parents to spend time with their kid, fostering a strong and lasting connection.  <br />- |       |
+
+   
+
