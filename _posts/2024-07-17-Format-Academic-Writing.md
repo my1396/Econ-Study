@@ -132,12 +132,26 @@ Why put numbers inside `$...$`?
 **Dashes**
 
 - **Hyphen (-)** The shortest of the three, and the one most often used incorrectly with spaces when an en dash without spaces is needed (unless specifically using AP style).
-- **En dash (–)** The champion of the hour. This is the little guy – or gal – you need for number ranges. So called because it’s the length of a lower-case ‘n’. How you type an en dash:
+
+- **En dash (–)** The champion of the hour. This is the little guy – or gal – you need for **number ranges**. So called because it’s the length of a lower-case ‘n’. How you type an en dash:
+  
   - Option + hyphen key, or equivalently,
-  - Make a dash by striking the hyphen key twice. 
+  - Make a dash by striking the hyphen key twice, i.e., `--`. 
   - Use `\textendash`.
+  
 - **Em dash (—)** The longest of the three dash types. It has its specific uses, but a number range is not one of them. And, you guessed it, it’s the length of a lower-case ‘m’.
+  
   - Option + Shift + hyphen key
+  
+  - An em dash is usually used to mark abreak in a sentence in place of a semicolon (`;`) or colon (`:`).   
+    Can also be used in paris to add additional information that is not essential to understand the sentence. Function similarly to parentheses or a pair of commas.
+  
+    E.g.,   
+    Dark, leafy greens — such as spinach, kale, and chard — are an important part of a healthy diet.
+  
+    Q: Do I need to add spaces before and after an em dash?
+  
+    Q: There is no universal rule. Just be consistent throughout your text.
 
 
 
@@ -151,7 +165,7 @@ Why put numbers inside `$...$`?
 **Statistics**
 
 - Report exact *p*-values (italic lowercase p, 斜体小写) to two or three decimals (e.g., p=.006, p=.03). 
-- Peport *p*-values less than .001 as “p < .001.”
+- Peport *p*-values less than .001 as “p < .001”.
 
 
 
