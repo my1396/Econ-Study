@@ -58,6 +58,18 @@ B-shares are created during a share split in May 2015. The B-shares are ordinary
 
   
 
+Two industry classification systems that are widely used in equity analysis are
+
+- the **Global Industry Classification System (GICS)** sponsored by Standard & Poor’s and MSCI Barra
+
+  The GICS structure assigns each company to one of 154 subindustries, an industry (68 in total), an industry group (24 in total), and an economic sector (10 in total: consumer discretionary, consumer staples, energy, financials, health care, industrials, information tech- nology, materials, telecommunication services, and utilities).
+
+- the **Industrial Classification Benchmark (ICB)** developed by Dow Jones and FTSE, which in 2006 replaced the FTSE Global Classification System.
+
+  The ICB, like GICS, has four levels, but the terminology of ICB uses the terms *sector* and *industry* in nearly opposite senses. At the bottom of the four levels are 114 subsectors, each of which belongs to one of 41 sectors; each sector belongs to one of 19 supersectors; and each supersector belongs to one of 10 industries at the highest level of classification. 
+
+  The 10 industries are oil and gas, basic materials, industrials, consumer goods, health care, consumer services, telecommunications, utilities, financials, and technology.
+
 
 
 
@@ -75,7 +87,7 @@ price quotes for US and Canada companies
 | primexch | Primary Exchange<br />N: NYSE; A: AMEX; Q: NASDAQ; X: Other Exchange; R: ARCA |
 | exchcd   | Exchange code indicating the exchange on which a security is listed. Normal exchange codes are respectively 1,2, and 3 for NYSE, AMEX and the Nasdaq Stock MarketSM. An exchange code of zero indicates that a security is either trading on an unknown exchange, or is temporarily not trading at all. |
 | hexcd    | Header Exchange Code (hexcd)<br />Valid hexcd's are 1, 2, or 3, which correspond to the NYSE, AMEX, and Nasdaq respectively. Other exchange codes are not included in hexcd. |
-| prc      | Price or Bid/Ask Average (prc). <br> If the closing price is not available on any given trading day, the number in the price field has a negative sign to indicate that it is a bid/ask average and not an actual closing price. Please note that in this field the negative sign is a symbol and that the value of the bid/ask average is not negative.<br />If neither closing price nor bid/ask average is available on a date, prc is set to zero. |
+| prc      | Price or Bid/Ask Average (prc). <br>If the closing price is not available on any given trading day, the number in the price field has a negative sign to indicate that it is a bid/ask average and not an actual closing price. Please note that in this field the negative sign is a symbol and that the value of the bid/ask average is not negative.<br />If neither closing price nor bid/ask average is available on a date, prc is set to zero. |
 | shrout   | Number of Shares Outstanding, recorded in thousands.         |
 | facpr    | Factor to Adjust Price (facpr)                               |
 | cfacpr   | Cumulative Factor to Adjust Price (cfacpr)                   |
@@ -89,7 +101,7 @@ Note that CRSP stock prices are **unadjusted** prices.
 
 
 
-Adjust Price
+**Adjusted Price**
 
 `Facpr` is used to adjust stock prices after a distribution so that a comparison can be made on an equivalent basis between prices before and after the distribution. `facpr` equals `facshr` for most distribution events. There are three types of distributions where this is the case: 
 
@@ -134,15 +146,13 @@ Document: <https://tevgeniou.github.io/EquityRiskFactors/CompustatManualChpt5.pd
 
 - To compute returns, you will need to apply a DAILY RETURN FACTOR (variable `TRFD`) to the close price. That is, multiplying the current adjusted close price (PRCCD/AJEXDI) by the current total return factor (TRFD) and dividing the result by the product of the adjusted close price of the prior period multiplied by the Total Return Factor of the prior period. 
 
+   $$
+   \frac{\frac{\text{PRCCD}_t}{\text{AJEXDI}_t}\times \text{TRFD}_t}{\frac{\text{PRCCD}_{t-1}}{\text{AJEXDI}_{t-1}}\times \text{TRFD}_{t-1}} -1
+   $$
 
-$$
-  \frac{\frac{\text{PRCCD}_t}{\text{AJEXDI}_t}\times \text{TRFD}_t}{\frac{\text{PRCCD}_{t-1}}{\text{AJEXDI}_{t-1}}\times \text{TRFD}_{t-1}} -1
-$$
+   `TRFD` includes Cash Equivalent Distributions + reinvestment of dividends and the compounding effect of dividends paid on reinvested dividends. 
 
-
-  `TRFD` includes Cash Equivalent Distributions + reinvestment of dividends and the compounding effect of dividends paid on reinvested dividends. 
-
-  If you are looking for a price only return, do NOT use the total return factor.
+   If you are looking for a price only return, do NOT use the total return factor.
 
 
 

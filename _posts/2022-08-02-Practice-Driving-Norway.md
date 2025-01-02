@@ -78,6 +78,29 @@ Fri gjennomkjøring 10 minutter.
 
 
 
+**Price**
+
+机场按每30分钟收费。
+
+|                            | P1             | P2              | P6              |
+| -------------------------- | -------------- | --------------- | --------------- |
+| < 10 min                   | free           | free            | free            |
+| Without reservation 30 min | 45 kr / 30 min | 35 kr  / 30 min | 35 kr / 30 min  |
+| Without reservation 1 hour | 90 kr          | 70 kr           | 70 kr           |
+| Cap price per day          | 390 kr         | 310 kr          | 290 kr          |
+| One week                   | 1290 kr        | 940 kr          | 890 kr          |
+| Reservation for one week   |                | 893 kr          | Easily Sold Out |
+
+<img src="https://drive.google.com/thumbnail?id=1UzSae6HoL1gdz5DbcXRm7Gx8i5Zzsiyb&sz=w1000" alt="Airport parking" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+Note: You can change or cancel your parking reservation <span style='color:#32CD32'>within the 24 hours</span> after booking, should your travel plans change.
+
+
+
+
+
+
+
 **Payment**
 
 Parking starts and stops automatically. You do not need to redeem a ticket when you park. 
@@ -87,7 +110,7 @@ You will not receive a parking fine for non-payment, but will be required to pay
 Pay within <u>48 hours</u> to avoid invoice fees. No payment is required if driving in and out takes a few minutes (see signs on site about free driving time).
 
 - Pay with mobile phone.  Register and pay via the parking operator's mobile app, [Apcoa Flow](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/no/app/apcoa-flow/id1354962285&ved=2ahUKEwj3it_L9KqFAxWnFRAIHZkQAUUQFnoECBAQAQ&usg=AOvVaw0Y31od9WmUFM42Hl42aWWt) or [Autopay](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/no/app/autopay-park-charge/id6444444549&ved=2ahUKEwiw28TY9KqFAxXDFxAIHSyPAmQQFnoECB0QAQ&usg=AOvVaw3w0SpNf-PMwFjwXgyvQPrW) (Onepark). 
-  - Bodø lufthavn uses [Autopay](https://onepark.no/parkering/lufthavner-1/bodo-lufthavn/#:~:text=Betal%20med%20app%3A%20Benytt%20Autopay,og%20tast%20inn%20kjøretøyets%20registreringsnummer.) and EasyPark. Can choose either one.
+  - Bodø lufthavn uses [<span style='color:#32CD32'>**Autopay**</span> ](https://onepark.no/parkering/lufthavner-1/bodo-lufthavn/#:~:text=Betal%20med%20app%3A%20Benytt%20Autopay,og%20tast%20inn%20kjøretøyets%20registreringsnummer.)and EasyPark. Can choose either one.
   - Autopay allows for automatic deduction, so you don't need to worry about paying manually and risk missing the 48 hours limite.
 - Pay online.  At airports operated by Onepark go to [Autopay.io](https://autopay.io/) , and airports operated by Apcoa go to [flow.apcoa.no](https://flow.apcoa.no/home). Enter your license plate number and pay by card. You do not need to create a user profile to pay. If you want to be automatically charged for parking, you can create a user profile. 
 - Pay using the ATM machine (betalingsautomat). There is also a regular payment machine on site that you can pay at. Enter the car's license plate number at the machine just before exiting and pay by card or coin.  

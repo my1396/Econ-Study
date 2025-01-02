@@ -102,8 +102,7 @@ Notebook can put multiple queries together.
 
 
 
-
-Azure Jupyter Notebook shortcuts
+#### Azure Jupyter Notebook shortcuts
 
 | Command                   | Keybinding       |
 | ------------------------- | ---------------- |

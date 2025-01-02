@@ -488,6 +488,12 @@ A: 按下 “+RES” 或 “-SET” 开关，直至显示所需设定速度。
 
 
 
+**Parking assistant sensor**
+
+<img src="https://drive.google.com/thumbnail?id=1RBwqLrd3_nGjSKLCXcPDDwD9fMmFvs_8&sz=w1000" alt="Parking sensor" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
+
 ### 防盗系统
 
 <img src="https://drive.google.com/thumbnail?id=1OkufMZmS-9ALXWvrJTGNV5d-XqrbTmxw&sz=w1000" alt="防盗" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
