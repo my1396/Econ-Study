@@ -268,6 +268,8 @@ Eksempler av detter er …
 
 Hvilke <span style='color:#32CD32'>fordeler og ulemper</span> er det ved å flytte vareproduksjon utenlands？
 
+What are the advantages and disadvantages of .... 注意跟英文的不同。挪威语用的是 hvilke, 英文用的是 what.
+
 
 
 ### Familie
