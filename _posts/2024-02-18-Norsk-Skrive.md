@@ -72,8 +72,9 @@ Staten gåt alfor langt i å regulere folks privatliv.
 
 相反，…的反面
 
-| det stikk motsatte av | the opposite of |
-| --------------------- | --------------- |
+| det stikk motsatte av | the opposite of    |
+| --------------------- | ------------------ |
+| i motsetning til ...  | in contrary to ... |
 
 
 
@@ -122,9 +123,9 @@ en klar <span style='color:#32CD32'>sammenheng</span> mellom ... og ...
 
 
 
-不同
+**不同**
 
-annerledes vs. forskjellig
+**annerledes vs. forskjellig**
 
 两者均可 (1) 位于名词前作为*形容词*; (2) 也可作为*副词*形容动词。
 
@@ -235,6 +236,8 @@ nok: probably
 
 et resultat, en konsekvense,
 
+gi gode/negative resultalter
+
 | føre til at | lead to |
 | ----------- | ------- |
 | slik at     | so that |
@@ -298,6 +301,11 @@ få en urettferdig **karakter**: receive an unfair grade
 
 困难：vansklighet, motstand, hindring
 
+| stor konkurranse | big competition |
+| ---------------- | --------------- |
+
+
+
 
 
 **精通**
@@ -311,3 +319,10 @@ Det er bedre at barna selv <span style='color:#32CD32'>opplever glede av mestrin
 **Jantelov**
 
 Man må ikke stikke seg ut og være god til noe, og hvis man fremhever de beste, får man kritikk med en gang.
+
+
+
+**科技与生活**
+
+Technologien har tatt over mange av arbeidsoppgavene på fabrikkene og byggeplassene.
+
