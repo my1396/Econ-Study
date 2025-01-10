@@ -70,6 +70,8 @@ ___
 
 ## Connect Using **Azure Data Studio**
 
+Azure Data Studio homepage: <https://learn.microsoft.com/en-us/azure-data-studio/>
+
 Server info
 
 - <span style='color:#32CD32'>**Server name**</span>: ofprod-norduni-1214693-sql.database.windows.net
@@ -96,9 +98,9 @@ The connection window looks like this:
 
 
 
-`sql` can run one single query.
+Q: What are differencec between `.sql` and `.ipynb`?
 
-Notebook can put multiple queries together.
+A: `.sql` can run one single query. Notebooks (`.ipynb`) can put multiple queries together.
 
 
 

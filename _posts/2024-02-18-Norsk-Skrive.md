@@ -31,6 +31,10 @@ det er klart at ...
 
 
 
+In addition
+
+i tillegg
+
 
 
 **Not only … but also**
@@ -243,6 +247,10 @@ gi gode/negative resultalter
 | slik at     | so that |
 
 dette fører til at ...
+
+så + adj + at 从句 
+
+- Lønningene i Norge er <span style='color:#32CD32'>så</span> høye <span style='color:#32CD32'>at</span> det ikke lønner seg å produsere varene her.
 
 
 

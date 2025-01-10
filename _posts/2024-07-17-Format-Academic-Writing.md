@@ -74,14 +74,14 @@ update: 2024-07-16
 
 
 
-Some math style conventions
+**Some math style conventions**
 
 - Variables should always be set in ***italic*** in both text and in equations.
   - Identifiers (which can be superscript or subscript words, letters, or numbers) are not italicized. E.g., $M_{\text{girls}}=4.22,$ the symbol for mean is italicized, but the nonvariable identifier `girls` is NOT italicized.
 
 - Vectors should be in **bold** type.
 - Functions should be as roman type. E.g., $\exp, \ln, \arg$.
-- If you need to break one long expression, the math operator such as `+` should be on the next line.
+- If you need to break <u>one long expression</u>, the <span style='color:#32CD32'>math operator such as `+` should be on the next line</span>.
 
 
 
@@ -309,7 +309,11 @@ Book references: general form
 
 Should include the following info:
 
-- Author or authors. The surname is followed by first initial of their first name, the first initial of therir middle name (if applicable).
+- Author or authors. The surname is followed by first initial of their first name and the first initial of their middle name (if applicable).
+
+  - 如果只有两个作者，中间用 `&` 连接。
+
+  - 如果有3个及以上作者，作者中间用 `,␣` (逗号 + 空格)隔开，最后一个作者用 `&`。
 
 - Year of publication of the book (in round brackets).
 
