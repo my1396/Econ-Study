@@ -16,6 +16,8 @@ Etter min mening ...
 
 Jeg ser for meg at ... I imagine/envision that ...
 
+en mer positiv holdning (a more positive attitude)
+
 
 
 **很明显**...
@@ -114,6 +116,10 @@ det neyste begrepet er ... the newest notion is ...
 
 
 
+at 从句
+
+- 注意要setningsadverb提前到动词前
+
 | Norsk                       | Engelsk                              |
 | --------------------------- | ------------------------------------ |
 | Det viser seg at ...        | It shows that ...                    |
@@ -202,6 +208,16 @@ Tor og Ed har **annerledes** biler. $\rightarrow$ Alle de andre vennene har Toyo
 
 
 
+People
+
+folk, personer, mennesker, innbyggerne
+
+
+
+Very
+
+veldig, svært, skikkelig, ganske, spesielt, 
+
 
 
 ### 时间的表述
@@ -267,6 +283,16 @@ prisen å betale er ...
 
 
 
+**表现形式**
+
+komme til uttrykk ved
+
+- Norsk uavhengighet kommer til uttrykk ved at mange norske ungdommer flytter hjemmefra tidlig.
+
+gi seg utslag i/på
+
+
+
 
 
 **举例**
@@ -283,7 +309,7 @@ What are the advantages and disadvantages of .... 注意跟英文的不同。挪
 
 
 
-### Familie
+### Familie og utlandning
 
 1. Eer det viktig at mor og far deler på permisjonen nå barna er små? Hvorfor / hvorfor ikke?
 
@@ -298,6 +324,15 @@ godt oppdratt:  well brought up, well-raised
 en oppdragelse: upbringing*,* education
 
 å sette grenser: to set boundaries
+
+Hva synes du er viktigst å lære dine barn?
+
+uavhengighet (independence)
+
+| Jeg bestemmer selv mine mål i livet. | I decide  my own life goals. |
+| ------------------------------------ | ---------------------------- |
+
+
 
 
 
@@ -319,6 +354,10 @@ få en urettferdig **karakter**: receive an unfair grade
 **精通**
 
 Det er bedre at barna selv <span style='color:#32CD32'>opplever glede av mestringen</span>.
+
+**重要**
+
+sette noe høyt; verdsette noe høyt
 
 
 

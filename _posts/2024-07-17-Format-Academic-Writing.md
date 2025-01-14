@@ -42,9 +42,9 @@ update: 2024-07-16
 
 - When to spell out numbers?
 
-  - When the number is less than 10, they should be spelled out; 10 以下的数字要拼写。
-  - Use Arabic numerals for 10 and above; 10以及10以上的数字用阿拉伯数字表示。
-  - when numbers appear in the beginning of a sentence. 以数字开头的句子，数字要拼写出来。
+  - <span style='color:#32CD32'>When the number is less than 10, they should be spelled out;</span> 10 以下的数字要拼写。
+  - Use Arabic numerals for 10 and above; 10 以及 10 以上的数字用阿拉伯数字表示。
+  - <span style='color:#32CD32'>When numbers appear in the beginning of a sentence.</span> 以数字开头的句子，数字要拼写出来。
 
 - Decades are written in numerals without an apostrophe: 1970s. 年份都是用numerals.
 
@@ -171,7 +171,18 @@ Why put numbers inside `$...$`?
 
 ### Minus sign
 
-I am not a fan of typing numbers in the text in mathmode. It's fine if you use a complete font, but what if you decide to change the math font later? I prefer to use the `textminus` from the `textcomp` package. 
+Textmode vs. mathmode numerals
+
+I am not a fan of typing numbers in the text in mathmode. It's fine if you use a complete font, but what if you decide to change the math font later? A complete font include text and math fonts, whereas some fonts only contains text font. In this scenario, math will use the default font, might cause inconsistent appearance.
+
+Two tips:
+
+- use a complete font
+- specify a math font
+
+Q: How to type a minus sign?
+
+A: `\num{-}` from the `siunitx` package or `textminus` from the `textcomp` package. `textminus` is somewhat thinner than `\num`. I prefer to use `\num`.
 
 ```latex
 Number \textminus10 (textcomp minus) \\
@@ -180,7 +191,7 @@ Number \num{-10} (siunitx textmode.) \\
 Number $\num{-10}$ (siunitx mathmode)
 ```
 
-Using a hypen is horrible.
+Using a hypen is horrible. No matter what, do NOT use a hypen!
 
 <img src="https://drive.google.com/thumbnail?id=1_xGq_-wu8PxIH8sYhXTD2rBj4b2nL7R_&sz=w1000" alt="minus sign" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 

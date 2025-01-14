@@ -304,6 +304,8 @@ det er/finnes
 
 作为指示代词 demonstrative pronouns
 
+那个/那些
+
 |                       | 那个/那些  | 这个/这些     |
 | --------------------- | ---------- | ------------- |
 | Singular — Masc./Fem. | den (that) | denne (this)  |
@@ -394,11 +396,56 @@ ___
 
 **Subject in relative clauses**
 
-When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» si the subject of arelative clause, «som» is obligatory.
+When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» si the subject of arelative clause, <span style='color:#32CD32'>«som» is obligatory</span>.
 
 - Hvem kommer? $\rightarrow$ Hvem 作主语，som 不可省略。Jeg vet ikke *hvem som* kommer. 
 - Hvem bad hun? (Who did she invite?) $\rightarrow$ Hvem 作宾语，som 可以省略。Jeg vet ikke *hvem* hun bad. (I don't know whom she invited.)
 - Hva er i veien?  (What's wrong?) $\rightarrow$ Hva 作主语，som 不可省略。Jeg vet ikke *hva som* er i veien. (I don't know what's wrong)
+
+
+
+
+
+___
+
+疑问代词
+
+Interrogative pronouns
+
+Hvem (who)
+
+Hva (what)
+
+Hvilken/hvilket/hvilke (which)
+
+注意 hvor (where) 不是疑问代词，是副词，与 hvor mye (how much), hvor mange (how many), hvor viktig (how important), hvor som helst (anywhere) 搭配出现。
+
+hvordan (how) adv. 
+
+How long:
+
+1. hvor lenge
+2. hvor lang tid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

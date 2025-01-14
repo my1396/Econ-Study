@@ -460,6 +460,30 @@ For **Nordland, Troms og Finnmark** gjelder kravet til minimum 3 millimeter møn
 
 
 
+发生侧滑怎么办
+
+1. The general rule is to do as little as possible and allow the car to pass over the ice.
+
+2. 移开油门，不要踩刹车。踩刹车会让情况更严重。
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
