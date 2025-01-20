@@ -16,4 +16,3 @@ group :jekyll_plugins do
 end
 
 gem "webrick", "~> 1.8"
-gem 'uri', '= 0.12.2'
