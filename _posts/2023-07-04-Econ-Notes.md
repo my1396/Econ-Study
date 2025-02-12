@@ -2571,6 +2571,8 @@ In hypothesis testing, the <span style='color:#32CD32'>*size of a test*</span> i
 The <span style='color:#32CD32'>*power of a test*</span> refers to the probability of correctly rejecting $H_0$ when $H_1$ is true.
 
 
+
+
 <img src="https://drive.google.com/thumbnail?id=1U8Hk_KJfWT5fL6eUgEcPNiiSrueLSfC3&sz=w1000" alt="type-i-and-type-ii-error" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
 
 
@@ -2578,6 +2580,10 @@ Note:
 - If $\alpha$ increases that means the chances of making a type I error will increase. It is more likely that a type I error will occur. It makes sense that you are less likely to make type II errors, only because you will be rejecting $H_0$ more often. You will be failing to reject $H_0$ less, and therefore, the chance of making a type II error will decrease. Thus, as $\alpha$ increases, $\beta$ will decrease, and vice versa. That makes them seem like complements, but they are not complements.
 - For a constant sample size, $n$, if  $\alpha$  increases, $\beta$ decreases. \
 For a constant significance level,  $\alpha$ , if $n$ increases, $\beta$ decreases.
+
+**Confusion matrix**
+
+<img src="https://drive.google.com/thumbnail?id=18fKUj-dZ7ZLhxPAegyud4Smxqsij8Ahj&sz=w1000" alt="Confusion matrix" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 
 Q: When should we use one-tailed hypothesis testing? \
