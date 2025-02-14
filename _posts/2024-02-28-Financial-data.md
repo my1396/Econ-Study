@@ -31,12 +31,20 @@ Financial data processing caveats:
 
 | ID     | Definition                                                   |
 | ------ | ------------------------------------------------------------ |
-| CUSIP  | CUSIP is the latest eight-character CUSIP identifier for the security through the end of the file. CUSIP identifiers are supplied to CRSP by the CUSIP Service Bureau, Standard & Poor's, a division of McGraw-Hill, Inc., American Bankers Associate database. |
 | ticker | <u>The <strong>combination</strong> of ticker, exchange, and date</u> uniquely identifies a security. <br/>A ticker may be one to three characters for NYSE and AMEX securities or four or five characters for Nasdaq securities. |
+| ISIN   | International Security Identification Number<br />ISIN codes contain 12 characters: <br />- the first 2 letters identify the company's nationality; <br />- the following 9 alphanumeric characters identify the security; <br />- the last digit is a “check digit” set by an algorithm to help prevent counterfeiting. |
+| SEDOL  | Stock Exchange Daily Official List. <br />Seven-character identification code primarily used in the <u>UK</u>, assigned by the London Stock Exchange. |
+| CUSIP  | CUSIP identifiers are supplied to CRSP by the CUSIP Service Bureau, Standard & Poor's, a division of McGraw-Hill, Inc., American Bankers Associate database.<br />Unique 9-digit identification number assigned to financial securities in the <u>United States and Canada</u>. |
 | gvkey  | Global Company Key                                           |
-| ISIN   | International Security Identification Number                 |
-| SEDOL  | Stock Exchange Daily Official List. Primarily used in the UK, assigned by the London Stock Exchange. |
 | MIC    | Market Identifier Code identifies a unique securities trading exchange, regulated and non-regulated trading market. |
+
+FactSet can be looked up by ticker, ISIN, Sedol, and Cusip.
+
+**Clarification about tickers**: (Ticker is also referred to as "symbol.")
+
+- Shares of the same company can be traded on <u>several exchanges</u>, but they will have different stock ticker symbols for each different exchange the stock is traded on. 
+
+- There are some companies that trade with two different symbols on the <u>same stock market</u> because they offer two classes of shares, one with voting rights and another without voting rights.
 
 
 
@@ -58,7 +66,7 @@ B-shares are created during a share split in May 2015. The B-shares are ordinary
 
   
 
-Two industry classification systems that are widely used in equity analysis are
+Industry classification systems that are widely used in equity analysis
 
 - the **Global Industry Classification System (GICS)** sponsored by Standard & Poor’s and MSCI Barra
 
@@ -69,6 +77,8 @@ Two industry classification systems that are widely used in equity analysis are
   The ICB, like GICS, has four levels, but the terminology of ICB uses the terms *sector* and *industry* in nearly opposite senses. At the bottom of the four levels are 114 subsectors, each of which belongs to one of 41 sectors; each sector belongs to one of 19 supersectors; and each supersector belongs to one of 10 industries at the highest level of classification. 
 
   The 10 industries are oil and gas, basic materials, industrials, consumer goods, health care, consumer services, telecommunications, utilities, financials, and technology.
+
+- **Standard Industrial Classification** (SIC): a four-digit code as a method of standardizing industry classification for statistical purposes across agencies. Widely used in the US.
 
 
 
@@ -170,6 +180,14 @@ Oslo operates two EU regulated markets, Oslo Børs (`XOSL`) and Euronext Expand 
 
 - more than 200 constituents in XOSL: <https://live.euronext.com/en/markets/oslo/equities/list>
 - ~20 constituents in XOAS.
+
+
+
+OSEAX index: All-share index, consists of all shares listed on Oslo Børs; about 270 companies as of 2025;
+
+OSEBX index: Benchmark index, about 60-70 companies; the index is revised twice a year: June 1 and December 1.
+
+OBX: 25 most traded (liquidity) shares listed on Oslo Børs.
 
 
 
