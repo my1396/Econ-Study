@@ -202,67 +202,79 @@ OBX: 25 most traded (liquidity) shares listed on Oslo Børs.
 
 ### **Titlon**
 
-<https://uit.no/forskning/forskningsgrupper/sub?sub_id=417205&p_document_id=352767>
+Homepage: <https://uit.no/forskning/forskningsgrupper/sub?sub_id=417205&p_document_id=352767>
 
-<https://titlon.uit.no/tabledefs.php>
+TITLON is a database with financial data on stocks, indicies, bonds, funds and derivatives from all exhanges at EURONEXT and with data from Oslo Stock Exchange back to 1980. 
+
+Field Description: <https://titlon.uit.no/tabledefs.php>
 
 - Table `equity`
 
-| Field name                 | Type        | Description                                                  |
-| -------------------------- | ----------- | ------------------------------------------------------------ |
-| Date                       | date(3)     | Date                                                         |
-| SecurityId                 | bigint(8)   | Security id                                                  |
-| CompanyId                  | bigint(8)   | Company id                                                   |
-| Symbol                     | varchar(16) | Symbol                                                       |
-| ISIN                       | varchar(24) | ISIN                                                         |
-| Name                       | varchar(50) | of associated equity                                         |
-| BestBidPrice               | float(8)    | Best bid price                                               |
-| BestAskPrice               | float(8)    | Best ask price                                               |
-| Open                       | float(8)    | Open price                                                   |
-| High                       | float(8)    | Higest observed price during trading day                     |
-| Low                        | float(8)    | Lowest observed price during trading day                     |
-| Close                      | float(8)    | Closing price                                                |
-| OfficialNumberOfTrades     | float(8)    | Official number of trades                                    |
-| OfficialVolume             | float(8)    | Official volume                                              |
-| UnofficialNumberOfTrades   | float(8)    | Unofficial number of trades                                  |
-| UnofficialVolume           | float(8)    | Unofficial volume                                            |
-| VolumeWeightedAveragePrice | float(8)    | Volume weighted average price                                |
-| Price                      | float(8)    | Same as closing price                                        |
-| AdjustedPrice              | float(8)    | Adjusted price for dividend, split, etc.                     |
-| Dividends                  | float(8)    | Last payed dividend                                          |
-| LDividends                 | float(8)    | Lagged dividend                                              |
-| CorpAdj                    | float(8)    | Corp adjustments (splits etc.)                               |
-| DividendAdj                | float(8)    | Dividend adjustment factor                                   |
-| Currency                   | varchar(3)  | Currency. Currently allways NOK                              |
-| Description                | varchar(40) | Description                                                  |
-| CountryCode                | varchar(10) | Country code                                                 |
-| SumAnnualDividends         | float(8)    | Sum annual dividends                                         |
-| NumberOfShares             | float(8)    | Number of shares issued (not free float adjusted)            |
-| CompanyOwnedShares         | float(8)    | Company owned shares                                         |
-| OutstandingShares          | float(8)    | Outstanding shares                                           |
-| Exchange                   | varchar(3)  | Exchange                                                     |
-| NOKPerForex                | float(8)    | Exchange rate. Currently allways 1.                          |
-| mktcap                     | float(8)    | Market capitalization                                        |
-| OSEBXmktshare_prevmnth     | float(8)    | Prevoius month market share in OSEBX index                   |
-| OSEBXAlpha_prevmnth        | float(8)    | Prevoius month alpha relative to OSEBX index                 |
-| OSEBXBeta_prevmnth         | float(8)    | Prevoius month beta relative to OSEBX index                  |
-| SMB                        | float(8)    | SMB Fama-French factor                                       |
-| HML                        | float(8)    | HML Fama french factor                                       |
-| MOM                        | float(8)    | MOM Fama-French factor                                       |
-| LIQ                        | float(8)    | LIQ Pastor-Stambaugh factor                                  |
-| DividendPriceRatio         | float(8)    | Dividend price ratio                                         |
-| lnDeltaP                   | float(8)    | log return of the adjusted price (CorpAdj and DividendAdj)<br/><span style='color:#32CD32'>MY Note: seems to be <strong>the closing price</strong>, in stead of adjusted price.</span> |
-| lnDeltaOSEBX               | float(8)    | log return of the OSEBX index                                |
-| lnDeltaOBX                 | float(8)    | log return of the OBX index                                  |
-| NOWA_DayLnrate             | float(8)    | Log difference of Norwegian Overnight Weighted Average rate from the norwegian central bank after 2013. NIBOR before that. |
-| bills_3month_Lnrate        | float(8)    | 3 months Norwegian Goverment Bills, from the bondindex table, CloseYield field. |
-| Sector                     | varchar(50) | Sector                                                       |
-| IN_OSEBX                   | int(4)      | True if the stock is in the OSEBX index at the moment        |
-| Equity                     | float(8)    | Amount of Equity                                             |
-| Debt                       | float(8)    | Amount of Debt                                               |
-| Earnings                   | float(8)    | Total earnings                                               |
-| debt_ratio                 | float(8)    | Debt ratio                                                   |
-| PE                         | float(8)    | Price/Earnings                                               |
+  Oslo Stock Exchange $\rightarrow$ Equity $\rightarrow$ Advanced
+
+  Highlight:
+
+  - Fully adjusted closing prices for dividends, splits, etc.
+  - Fama-French and Pástor-Stambaug (liquidity) factors matching the OSEBX portfolio.
+  - Index change (OSEBX and OBX) and risk free interest rate (NOWA and 3-mon bill)
+
+  <img src="https://drive.google.com/thumbnail?id=1bJsosmCmjWB9sSOu25Ujy_D2tPwaUyuU&sz=w1000" alt="Titlon preview" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+| Field name                                             | Type        | Description                                                  |
+| ------------------------------------------------------ | ----------- | ------------------------------------------------------------ |
+| Date                                                   | date(3)     | Date                                                         |
+| SecurityId                                             | bigint(8)   | Security id                                                  |
+| CompanyId                                              | bigint(8)   | Company id                                                   |
+| Symbol                                                 | varchar(16) | Symbol                                                       |
+| ISIN                                                   | varchar(24) | ISIN                                                         |
+| Name                                                   | varchar(50) | of associated equity                                         |
+| BestBidPrice                                           | float(8)    | Best bid price                                               |
+| BestAskPrice                                           | float(8)    | Best ask price                                               |
+| Open                                                   | float(8)    | Open price                                                   |
+| High                                                   | float(8)    | Higest observed price during trading day                     |
+| Low                                                    | float(8)    | Lowest observed price during trading day                     |
+| Close                                                  | float(8)    | Closing price                                                |
+| OfficialNumberOfTrades                                 | float(8)    | Official number of trades                                    |
+| OfficialVolume                                         | float(8)    | Official volume                                              |
+| UnofficialNumberOfTrades                               | float(8)    | Unofficial number of trades                                  |
+| UnofficialVolume                                       | float(8)    | Unofficial volume                                            |
+| VolumeWeightedAveragePrice                             | float(8)    | Volume weighted average price                                |
+| Price                                                  | float(8)    | Same as closing price                                        |
+| <span style='color:#32CD32'>AdjustedPrice</span>       | float(8)    | Adjusted price for dividend, split, etc.                     |
+| Dividends                                              | float(8)    | Last payed dividend                                          |
+| LDividends                                             | float(8)    | Lagged dividend                                              |
+| CorpAdj                                                | float(8)    | Corp adjustments (splits etc.)                               |
+| DividendAdj                                            | float(8)    | Dividend adjustment factor                                   |
+| Currency                                               | varchar(3)  | Currency. Currently allways NOK                              |
+| Description                                            | varchar(40) | Description                                                  |
+| CountryCode                                            | varchar(10) | Country code                                                 |
+| SumAnnualDividends                                     | float(8)    | Sum annual dividends                                         |
+| NumberOfShares                                         | float(8)    | Number of shares issued (not free float adjusted)            |
+| CompanyOwnedShares                                     | float(8)    | Company owned shares                                         |
+| OutstandingShares                                      | float(8)    | Outstanding shares                                           |
+| Exchange                                               | varchar(3)  | Exchange                                                     |
+| NOKPerForex                                            | float(8)    | Exchange rate. Currently allways 1.                          |
+| mktcap                                                 | float(8)    | Market capitalization                                        |
+| OSEBXmktshare_prevmnth                                 | float(8)    | Prevoius month market share in OSEBX index                   |
+| OSEBXAlpha_prevmnth                                    | float(8)    | Prevoius month alpha relative to OSEBX index                 |
+| OSEBXBeta_prevmnth                                     | float(8)    | Prevoius month beta relative to OSEBX index                  |
+| <span style='color:#32CD32'>SMB</span>                 | float(8)    | SMB Fama-French factor                                       |
+| <span style='color:#32CD32'>HML</span>                 | float(8)    | HML Fama french factor                                       |
+| <span style='color:#32CD32'>MOM</span>                 | float(8)    | MOM Fama-French factor                                       |
+| LIQ                                                    | float(8)    | LIQ Pastor-Stambaugh factor                                  |
+| DividendPriceRatio                                     | float(8)    | Dividend price ratio                                         |
+| lnDeltaP                                               | float(8)    | log return of the adjusted price (CorpAdj and DividendAdj)<br/><span style='color:#32CD32'>MY Note: seems to be <strong>the closing price</strong>, in stead of adjusted closing price.</span> |
+| <span style='color:#32CD32'>lnDeltaOSEBX</span>        | float(8)    | log return of the OSEBX index, market benchmark return       |
+| lnDeltaOBX                                             | float(8)    | log return of the OBX index                                  |
+| <span style='color:#32CD32'>NOWA_DayLnrate</span>      | float(8)    | Log difference of Norwegian Overnight Weighted Average rate from the norwegian central bank after 2013. NIBOR before that. Risk-free rate. |
+| <span style='color:#32CD32'>bills_3month_Lnrate</span> | float(8)    | 3 months Norwegian Goverment Bills, from the bondindex table, CloseYield field. |
+| Sector                                                 | varchar(50) | Sector                                                       |
+| IN_OSEBX                                               | int(4)      | True if the stock is in the OSEBX index at the moment        |
+| Equity                                                 | float(8)    | Amount of Equity                                             |
+| Debt                                                   | float(8)    | Amount of Debt                                               |
+| Earnings                                               | float(8)    | Total earnings                                               |
+| debt_ratio                                             | float(8)    | Debt ratio                                                   |
+| PE                                                     | float(8)    | Price/Earnings                                               |
 
 
 
