@@ -66,6 +66,13 @@ B-shares are created during a share split in May 2015. The B-shares are ordinary
 
   
 
+Differentiate ISIN from ISSN
+
+- ISIN for identifying securities
+- ISSN (nternational Standard Serial Number)  uniquely identify a periodical publication, such as a journal.
+
+
+
 Industry classification systems that are widely used in equity analysis
 
 - the **Global Industry Classification System (GICS)** sponsored by Standard & Poor’s and MSCI Barra
@@ -181,7 +188,9 @@ Oslo operates two EU regulated markets, Oslo Børs (`XOSL`) and Euronext Expand 
 - more than 200 constituents in XOSL: <https://live.euronext.com/en/markets/oslo/equities/list>
 - ~20 constituents in XOAS.
 
+___
 
+### Index
 
 OSEAX index: All-share index, consists of all shares listed on Oslo Børs; about 270 companies as of 2025;
 
@@ -199,6 +208,8 @@ OBX: 25 most traded (liquidity) shares listed on Oslo Børs.
   - Not a regulated market.
 
 
+
+___
 
 ### **Titlon**
 
