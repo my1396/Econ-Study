@@ -64,7 +64,48 @@ B-shares are created during a share split in May 2015. The B-shares are ordinary
   > - An ISIN is not the same as the ticker symbol, which identifies the stock at the exchange level. The ISIN is a unique number assigned to a security that is **universally recognizable**.
   >   - For example, according to ISIN Organization, IBM common stock is traded on close to 25 trading exchanges and platforms, and its stock has a <u>different ticker symbol depending on where it is traded</u>. However, IBM stock has only <u>one ISIN</u> for each security.
 
-  
+- Companies may change ISINs after share split.
+
+  [Example](https://live.euronext.com/en/products/equities/company-news/2024-07-18-xxl-asa-key-information-relating-reverse-share-split-and):
+
+  > # XXL ASA – KEY INFORMATION RELATING TO THE REVERSE SHARE SPLIT AND CHANGE OF ISIN
+  >
+  > Oslo, 18 July 2024: Reference is made to the stock exchange announcement made by XXL ASA (the "Company") on 4 June 2024, regarding the Company's annual general meeting resolving a reverse share split of the company's shares. Key information related to the reverse share split is set out below: 
+  >
+  > Date on which the corporate action was made public: 14 May 2024 
+  >
+  > Reverse split ratio: 100:1, i.e. one hundred (100) old shares give one (1) new share
+  >
+  > Last day including right: 19 July 2024 
+  >
+  > Ex-date: 22 July 2024
+  >
+  > Record date: 23 July 2024
+  >
+  > Date of approval: 4 June 2024 (AGM)
+  >
+  > 
+  >
+  > In connection with the reverse share split, the Company's shares will be transferred to new ISINs. 
+  >
+  > Please note the following key information for the change of ISIN:
+  > • Issuer: XXL ASA
+  > • Previous ISIN for the Company's ordinary shares (class A-shares): ISIN NO0010716863
+  > • New ISIN for the Company's ordinary shares (class A-shares): ISIN NO0013293142 
+  > • Previous ISIN for the Company's non-voting shares (class B-shares): ISIN NO0013014589
+  > • New ISIN for the Company's non-voting shares (class B-shares): ISIN NO0013293159 
+  > • Date of ISIN change: 23 July 2024
+
+
+
+- **Ex-date**: The date of the first trading day on which the shares will be traded without the right to receive shares ccording to the exchange ratio. Shareholders who acquire shares on or after this trading day will not receive shares according to the exchange ratio once the share split/reverse split is carried out.
+
+  In the XXL example, stock closing price on the ex-date will be 1/100 of the previous closing price.
+
+- **Record date**: The date on which the copy of the shareholder register will be taken. This will be used to identify who is entitled to receive shares once the share split/reverse split is carried out. The new number of shares following the split/reverse split accrues to those shareholders who are registered as shareholders on the shareholder register on the record date. With a normal settlement cycle (T+2), the record date will be the day that occurs T+1 after the ex-date.
+- **Date of approval**: The date on which the share split/reverse split was approved/is due to be approved by the competent corporate body.
+
+
 
 Differentiate ISIN from ISSN
 
