@@ -180,9 +180,9 @@ Two tips:
 - use a complete font
 - specify a math font
 
-Q: How to type a minus sign?
+Q: How to type a minus number?
 
-A: `\num{-}` from the `siunitx` package or `textminus` from the `textcomp` package. `textminus` is somewhat thinner than `\num`. I prefer to use `\num`.
+A: `\num{-<number>}` from the `siunitx` package or `textminus` from the `textcomp` package. `textminus` is somewhat thinner than `\num`. I prefer to use `\num`.  Note that a minus sign cannot be used alone, e.g. `\num{-}`, it has to be a valid negative number.
 
 ```latex
 Number \textminus10 (textcomp minus) \\
@@ -195,6 +195,12 @@ Using a hypen is horrible. No matter what, do NOT use a hypen!
 
 <img src="https://drive.google.com/thumbnail?id=1_xGq_-wu8PxIH8sYhXTD2rBj4b2nL7R_&sz=w1000" alt="minus sign" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
+___
+
+Q: How to type a minus sign stand alone?
+
+A: use `\textminus` , `\si{-}` (lowercase), or `\unit{-}`.
+
 
 
 ___
@@ -203,7 +209,17 @@ ___
 
 A manual: <https://texdoc.org/serve/siunitx/0>
 
-use `\sisetup{Option, Option, ...} `to set global appearance
+The `siunitx` package is now in v3, with many changes:
+
+> Instead of `\SI`, `\si`, `\SIlist`, `\SIrange`, `siunitx` now provides more <u>descriptive command names</u>, so you can now write `\qty{3.5}{\meter\per\second}`; `\unit{\kilo\ohm}`; `\qtylist{0.76;0.8;1.54}{\micro\gram}`; `\qtyrange{0.4}{2.5}{\centi\meter}`, etc. 
+>
+> The <u>old commands will still work</u>, but it is recommended to use the new commands.
+
+V1 manual: <https://www.sys.kth.se/docs/texlive/texmf-dist/doc/latex/siunitx/siunitx.pdf>
+
+
+
+Use `\sisetup{Option, Option, ...} `to set global appearance
 
 `\num[⟨options⟩]{⟨numbers⟩}` 	Numbers are automatically formatted by the `\num` macro. This takes one optional argument, `⟨options⟩`, and one mandatory one, `⟨number⟩`.  
 
@@ -215,7 +231,26 @@ The formatter removes both ‘soft’ (`␣`) and ‘hard’ spaces (`\,` and `~
 
 - `\numrange{10}{30}` print a range <img src="https://drive.google.com/thumbnail?id=1fnHAAAITCEilCppMtIQYaud4-LwutTbL&sz=w1000" alt="num range" style="zoom:40%;" />
 
-`\SI{<value>}{<unit>}`  E.g., `\SI{10.5}{\kilo\meter}` for $10.5 \text{ km}$, `\SI{2.6}{\volt\per\meter}` for $2.6 \text{ Vm}^{-1}$. 
+`\SI[⟨options⟩]{<number>}{<unit>}`  E.g., `\SI{10.5}{\kilo\meter}` for $10.5 \text{ km}$, `\SI{2.6}{\volt\per\meter}` for $2.6 \text{ Vm}^{-1}$.  
+
+- This function now becomes `\qty[⟨options⟩]{⟨number⟩}{⟨unit⟩}`. `\qty{10.5}{\kilo\meter}`, `\qty` for quantity.
+
+Lowercase `\si` typesets units with no values. The new function is `\unit{⟨unit⟩}` in the latest version of the package.
+
+`\si{kg.m/s^2}` is equivalent to `\SI{}{kg.m/s^2}`, which generates $\text{kg m/s}^2$.
+
+___
+
+`siunitx-print` controls font printing for numbers and units.
+
+The following key-value options are available:
+
+| Option                             | Meaning                                                      |
+| ---------------------------------- | ------------------------------------------------------------ |
+| `mode = match|math|text`           | Selects which mode (math or text) the output is printed in.   <br />`match` matches the mode prevailing at the point `\siunitx_print_...:n` is called. The `math` and `text` options choose the relevant TEX mode for printing. The standard setting is `math`. |
+| `propagate-math-font = true|false` | Switch to determine if the currently-active math font is applied within printed output. This is relevant only when `\siunitx_print_...:n` is called from within `math` mode: in `text` mode there is not active math font. When not active, math mode material will be typeset using standard math mode fonts without any changes being made to the supplied argument. The standard setting is `false`. |
+
+
 
 
 
@@ -294,6 +329,11 @@ Use a comma (often called a “serial comma” or “Oxford comma”) before the
 
 
 
+The most common sequence of footnote reference marks is: 1. asterisk (*), 2. dagger (†, `\dagger`), 3. double dagger (††), 4. paragraph symbol (¶), 5. section mark (§), 6. parallel rules (\|\|), 7. number sign (#).   
+If more are required, they can be doubled up: double asterisks (**), double single daggers (††, `\dagger\dagger`), double double daggers (††††), etc. However, when many footnotes are used, it is more practical to use consecutive numbers to identify each footnote.
+
+
+
 ## References
 
 Citing sources in APA style 7th ed.
@@ -322,9 +362,9 @@ Should include the following info:
 
 - Author or authors. The surname is followed by first initial of their first name and the first initial of their middle name (if applicable).
 
-  - 如果只有两个作者，中间用 `&` 连接。
+  - 如果只有两个作者，中间用 `,&` 连接。
 
-  - 如果有3个及以上作者，作者中间用 `,␣` (逗号 + 空格)隔开，最后一个作者用 `&`。
+  - 如果有3个及以上作者，作者中间用 `,␣` (逗号 + 空格)隔开，最后一个作者用 ,`&`。
 
 - Year of publication of the book (in round brackets).
 
