@@ -32,7 +32,7 @@ update: 2024-07-16
 
 -  There should be a space before and after arithematic operators. E.g., 2.5 ± 0.07. 
 
-- Number range: Use an <span style='color:#32CD32'>en dash</span> and do not include a space either before or after the en dash.
+- Number range: Use <span style='color:#32CD32'>two hypens</span> or opt + hypen ( <span style='color:#32CD32'>an en dash</span>) and do not include a space either before or after the dash.
 
   Read chapters 7–9 before Friday.
 
@@ -129,7 +129,9 @@ Why put numbers inside `$...$`?
 
 
 
-**Dashes**
+___
+
+### Dashes
 
 - **Hyphen (-)** The shortest of the three, and the one most often used incorrectly with spaces when an en dash without spaces is needed (unless specifically using AP style).
 

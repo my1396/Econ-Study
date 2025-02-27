@@ -21,6 +21,8 @@ Widehat `\widehat{\beta}` gives $\widehat{\beta}$
 
 Ordinary hat `\hat{\beta}` gives $\hat{\beta}$.
 
+`\textvisiblespace` gives `␣`.
+
 
 
 ## Vectors
