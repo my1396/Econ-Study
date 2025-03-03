@@ -23,6 +23,8 @@ Ordinary hat `\hat{\beta}` gives $\hat{\beta}$.
 
 `\textvisiblespace` gives `␣`.
 
+`\S` gives section symbol $\S\,1$ (`\S\,1`)
+
 
 
 ## Vectors
