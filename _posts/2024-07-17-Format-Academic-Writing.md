@@ -135,25 +135,46 @@ ___
 
 - **Hyphen (-)** The shortest of the three, and the one most often used incorrectly with spaces when an en dash without spaces is needed (unless specifically using AP style).
 
-- **En dash (–)** The champion of the hour. This is the little guy – or gal – you need for **number ranges**. So called because it’s the length of a lower-case ‘n’. How you type an en dash:
+  - Function:  used to link parts of a compound word, such as eye-opener, fifty-xis, two-thirds, three-year-old, three-quarter-mile, half-hour, six-pack, president-elect, Mexican-American.
+
+- **En dash (–)** The champion of the hour. This is the little guy – or gal – you need for **number ranges**. So called because it’s the length of a lower-case ‘n’. 
   
-  - Option + hyphen key, or equivalently,
-  - Make a dash by striking the hyphen key twice, i.e., `--`. 
-  - Use `\textendash`.
+  - Function: The en dash is used to represent a span or range of numbers, dates, or time. There should be no space between the en dash and the adjacent material. E.g.,
   
-- **Em dash (—)** The longest of the three dash types. It has its specific uses, but a number range is not one of them. And, you guessed it, it’s the length of a lower-case ‘m’.
+    > The 2010⁠–⁠2011 season was our best yet.
+    >
+    > You will find this material in chapters 8⁠–⁠12.
+    >
+    > The professor holds office hours every Wednesday, 11:00 a.m.⁠–⁠1:00 p.m.
   
-  - Option + Shift + hyphen key
+    Note that if you introduce a span or range with words such as *from* or *between*, do NOT use the en dash.
   
-  - An em dash is usually used to mark abreak in a sentence in place of a semicolon (`;`) or colon (`:`).   
+    > She served as secretary of state *from* 1996 to 1999.  ✅  
+    > She served as secretary of state *from* 1996⁠–⁠1999. ❌
+    >
+    > The regime’s most oppressive treatment occurred *between* 1965 and 1970. ✅  
+    > The regime’s most oppressive treatment occurred *between* 1965⁠–⁠1970. ❌
+  
+  - How you type an en dash:
+  
+    - Option + hyphen key, or equivalently,
+  
+    - Make a dash by striking the hyphen key twice, i.e., `--`. 
+  
+    - Use `\textendash`.
+  
+- **Em dash (—)** The longest of the three dash types. It has its specific uses, but a number range is not one of them. And it’s the length of a lower-case ‘m’.
+  
+  - How you type em dash: Option + Shift + hyphen key
+  
+  - Function: An em dash is usually used to mark abreak in a sentence in place of a semicolon (`;`) or colon (`:`).   
     Can also be used in paris to add additional information that is not essential to understand the sentence. Function similarly to parentheses or a pair of commas.
   
     E.g.,   
     Dark, leafy greens — such as spinach, kale, and chard — are an important part of a healthy diet.
   
-    Q: Do I need to add spaces before and after an em dash?
-  
-    Q: There is no universal rule. Just be consistent throughout your text.
+    Q: Do I need to add spaces before and after an em dash?  
+    A: There is <u>no universal rule</u>. Just be consistent throughout your text.
 
 
 
