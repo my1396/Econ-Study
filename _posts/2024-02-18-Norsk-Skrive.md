@@ -344,10 +344,28 @@ få en urettferdig **karakter**: receive an unfair grade
 
 困难：vansklighet, motstand, hindring
 
-| stor konkurranse | big competition |
-| ---------------- | --------------- |
+| stor konkurranse                       | big competition                      |
+| -------------------------------------- | ------------------------------------ |
+| Det var en stor skuffelse å mislykkes. | It was a big disappointment to fail. |
+| Jeg fikk mye selvtillit.               | I receive much confidence.           |
 
 
+
+**要求**
+
+提高要求 skjerpe/heve kravet
+
+要求严格 for strenge krave
+
+Det er høye krav til både utdanning og norsknivå.
+
+满足要求 oppfylle kravene
+
+害怕要求 frykte kravene
+
+达到...水平 bestå B2 nivå
+
+På norskkurs <u>ble vi oppmuntret til å</u> lese barnebøker og se på barne-TV. [encouraged to do sth]
 
 
 
