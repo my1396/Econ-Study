@@ -139,7 +139,7 @@ ___
 
 - **En dash (–)** The champion of the hour. This is the little guy – or gal – you need for **number ranges**. So called because it’s the length of a lower-case ‘n’. 
   
-  - Function: The en dash is used to represent a span or range of numbers, dates, or time. There should be no space between the en dash and the adjacent material. E.g.,
+  - Function: The en dash is used to represent a span or range of numbers, dates, or time. There should be N**O space** between the en dash and the adjacent material. E.g.,
   
     > The 2010⁠–⁠2011 season was our best yet.
     >
@@ -157,15 +157,15 @@ ___
   
   - How you type an en dash:
   
-    - Option + hyphen key, or equivalently,
-  
-    - Make a dash by striking the hyphen key twice, i.e., `--`. 
-  
-    - Use `\textendash`.
+    - Use <span style='color:#00CC66'>`\textendash`</span> safe to encoding changes, ✅
+  - Option + hyphen key, or equivalently, strike the hyphen key twice, i.e., `--`.  (<span style='color:#FF9900'>Required unicode support! **Not safe**.</span>)
   
 - **Em dash (—)** The longest of the three dash types. It has its specific uses, but a number range is not one of them. And it’s the length of a lower-case ‘m’.
   
-  - How you type em dash: Option + Shift + hyphen key
+  - How you type em dash: 
+  
+    - Use <span style='color:#00CC66'>`\textemdash`</span> safe to encoding changes, ✅
+    - Option + Shift + hyphen key (<span style='color:#FF9900'>Required unicode support! **Not safe**.</span>)
   
   - Function: An em dash is usually used to mark abreak in a sentence in place of a semicolon (`;`) or colon (`:`).   
     Can also be used in paris to add additional information that is not essential to understand the sentence. Function similarly to parentheses or a pair of commas.
@@ -354,6 +354,21 @@ Use a comma (often called a “serial comma” or “Oxford comma”) before the
 
 The most common sequence of footnote reference marks is: 1. asterisk (*), 2. dagger (†, `\dagger`), 3. double dagger (††), 4. paragraph symbol (¶), 5. section mark (§), 6. parallel rules (\|\|), 7. number sign (#).   
 If more are required, they can be doubled up: double asterisks (**), double single daggers (††, `\dagger\dagger`), double double daggers (††††), etc. However, when many footnotes are used, it is more practical to use consecutive numbers to identify each footnote.
+
+
+
+## Styles
+
+The following chart shows some of the major differences in punctuation style between The Associated Press Stylebook (2018 edition) and The Chicago Manual of Style (17th edition).
+
+|                                                    | The Chicago Manual of Style                                  | The Associated Press Stylebook                               |
+| -------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Serial comma**                                   | Include a comma before the conjunction.   <br />My favorite composers are Beethoven, Brahms, Mahler<span style='color:#00CC66'>, and</span> Mozart. | Do not include a comma before the conjunction.   <br />My favorite composers are Beethoven, Brahms, Mahler <span style='color:#00CC66'>and</span> Mozart. |
+| **Spacing between initials in name**               | Include a space between initials.   <br />E. L. Doctorow     | Do not include a space between initials.   <br />E.L. Doctorow |
+| **Abbreviations**                                  | Preference against periods.   <br />JD, BA, PhD, BCE (referring to the era), PO Box, US, UN | Preference for periods.   <br />J.D., B.A., Ph.D., B.C.E., P.O. Box, U.S., U.N. |
+| Possessives of singular proper nouns ending in *s* | Add an apostrophe and *s*.   <br />Texas’s, James’s, Xerxes’s | Add only an apostrophe.   <br />Texas’, James’, Xerxes’      |
+
+
 
 
 
