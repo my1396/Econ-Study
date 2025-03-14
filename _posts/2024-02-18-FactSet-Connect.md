@@ -98,8 +98,13 @@ The connection window looks like this:
 
 
 
-Q: What are differencec between `.sql` and `.ipynb`?
+Important tips:
 
+- Azure Data Studio exits unexpectedly frequently, need to save your files mannually every a few minutes.
+
+
+
+Q: What are differencec between `.sql` and `.ipynb`?  
 A: `.sql` can run one single query. Notebooks (`.ipynb`) can put multiple queries together.
 
 
@@ -116,13 +121,23 @@ ___
 
 Q: How to export more than 5000 rows in Azure Data Studio?
 
-A: Change Notebook settings, `Max Table Rows` (defaults to 5,000) to a large number. ([Source](https://github.com/microsoft/azuredatastudio/issues/10389#issuecomment-629429453))
+A: Change Notebook settings (cmd+, to open settings), `Max Table Rows` (defaults to 5,000) to a large number. ([Source](https://github.com/microsoft/azuredatastudio/issues/10389#issuecomment-629429453))
 
 Azure Data Studio set 5,000 initially because performance on a notebook with many cells and many outputs (such as tables) can cause performance degradation when a notebook gets fairly large (say, 50MB+).
 
 After setting a large max rows, the whole table can be displayed. Then click `Save As CSV` to save to local, which might take a long time to write, even taking a longer time than executing the query.
 
 <img src="https://drive.google.com/thumbnail?id=1Oa-vOxuSKl_rqwP6N7i0vmcHwPebxh2L&sz=w1000" alt="ADS max rows" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
+
+Q: Long lines cannot be printed. Warning message like the following:
+
+> Rendering paused for long line for performance reasons. This can be configured via `editor.stopRenderingLineAfter`.
+
+<img src="https://drive.google.com/thumbnail?id=1QNs6_fluDRtPlbpC339KU7F2BIgHh4wj&sz=w1000" alt="Azure long lines" style="display: block; margin-right: auto; margin-left: auto; zoom:120%;" />
+
+A: This does NOT affect running the query. Don't need to deal with it.
 
 
 

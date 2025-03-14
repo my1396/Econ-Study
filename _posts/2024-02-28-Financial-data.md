@@ -68,7 +68,7 @@ B-shares are created during a share split in May 2015. The B-shares are ordinary
 
   [Example](https://live.euronext.com/en/products/equities/company-news/2024-07-18-xxl-asa-key-information-relating-reverse-share-split-and):
 
-  > # XXL ASA – KEY INFORMATION RELATING TO THE REVERSE SHARE SPLIT AND CHANGE OF ISIN
+  > <span style="font-size: 30px;">XXL ASA – KEY INFORMATION RELATING TO THE REVERSE SHARE SPLIT AND CHANGE OF ISIN</span>
   >
   > Oslo, 18 July 2024: Reference is made to the stock exchange announcement made by XXL ASA (the "Company") on 4 June 2024, regarding the Company's annual general meeting resolving a reverse share split of the company's shares. Key information related to the reverse share split is set out below: 
   >
@@ -252,7 +252,7 @@ OBX: 25 most traded (liquidity) shares listed on Oslo Børs.
 
 ___
 
-### **Titlon**
+### Titlon
 
 Homepage: <https://uit.no/forskning/forskningsgrupper/sub?sub_id=417205&p_document_id=352767>
 
@@ -292,7 +292,7 @@ Field Description: <https://titlon.uit.no/tabledefs.php>
 | UnofficialVolume                                       | float(8)    | Unofficial volume                                            |
 | VolumeWeightedAveragePrice                             | float(8)    | Volume weighted average price                                |
 | Price                                                  | float(8)    | Same as closing price                                        |
-| <span style='color:#32CD32'>AdjustedPrice</span>       | float(8)    | Adjusted price for dividend, split, etc.                     |
+| <span style='color:#00CC66'>AdjustedPrice</span>       | float(8)    | Adjusted price for dividend, split, etc.                     |
 | Dividends                                              | float(8)    | Last payed dividend                                          |
 | LDividends                                             | float(8)    | Lagged dividend                                              |
 | CorpAdj                                                | float(8)    | Corp adjustments (splits etc.)                               |
@@ -310,16 +310,16 @@ Field Description: <https://titlon.uit.no/tabledefs.php>
 | OSEBXmktshare_prevmnth                                 | float(8)    | Prevoius month market share in OSEBX index                   |
 | OSEBXAlpha_prevmnth                                    | float(8)    | Prevoius month alpha relative to OSEBX index                 |
 | OSEBXBeta_prevmnth                                     | float(8)    | Prevoius month beta relative to OSEBX index                  |
-| <span style='color:#32CD32'>SMB</span>                 | float(8)    | SMB Fama-French factor                                       |
-| <span style='color:#32CD32'>HML</span>                 | float(8)    | HML Fama french factor                                       |
-| <span style='color:#32CD32'>MOM</span>                 | float(8)    | MOM Fama-French factor                                       |
+| <span style='color:#00CC66'>SMB</span>                 | float(8)    | SMB Fama-French factor                                       |
+| <span style='color:#00CC66'>HML</span>                 | float(8)    | HML Fama french factor                                       |
+| <span style='color:#00CC66'>MOM</span>                 | float(8)    | MOM Fama-French factor                                       |
 | LIQ                                                    | float(8)    | LIQ Pastor-Stambaugh factor                                  |
 | DividendPriceRatio                                     | float(8)    | Dividend price ratio                                         |
-| lnDeltaP                                               | float(8)    | log return of the adjusted price (CorpAdj and DividendAdj)<br/><span style='color:#32CD32'>MY Note: seems to be <strong>the closing price</strong>, in stead of adjusted closing price.</span> |
-| <span style='color:#32CD32'>lnDeltaOSEBX</span>        | float(8)    | log return of the OSEBX index, market benchmark return       |
+| lnDeltaP                                               | float(8)    | log return of the adjusted price (CorpAdj and DividendAdj)<br/><span style='color:#00CC66'>MY Note: seems to be <strong>the closing price</strong>, in stead of adjusted closing price.</span> |
+| <span style='color:#00CC66'>lnDeltaOSEBX</span>        | float(8)    | log return of the OSEBX index, market benchmark return       |
 | lnDeltaOBX                                             | float(8)    | log return of the OBX index                                  |
-| <span style='color:#32CD32'>NOWA_DayLnrate</span>      | float(8)    | Log difference of Norwegian Overnight Weighted Average rate from the norwegian central bank after 2013. NIBOR before that. Risk-free rate. |
-| <span style='color:#32CD32'>bills_3month_Lnrate</span> | float(8)    | 3 months Norwegian Goverment Bills, from the bondindex table, CloseYield field. |
+| <span style='color:#00CC66'>NOWA_DayLnrate</span>      | float(8)    | Log difference of Norwegian Overnight Weighted Average rate from the norwegian central bank after 2013. NIBOR before that. Risk-free rate. |
+| <span style='color:#00CC66'>bills_3month_Lnrate</span> | float(8)    | 3 months Norwegian Goverment Bills, from the bondindex table, CloseYield field. |
 | Sector                                                 | varchar(50) | Sector                                                       |
 | IN_OSEBX                                               | int(4)      | True if the stock is in the OSEBX index at the moment        |
 | Equity                                                 | float(8)    | Amount of Equity                                             |
@@ -332,7 +332,7 @@ Field Description: <https://titlon.uit.no/tabledefs.php>
 
 
 
-### **Risk free rate** (RFR)
+### Risk free rate (RFR)
 
 - Before 2013 NIBOR: [Norges Bank](https://www.norges-bank.no/en/topics/Statistics/Historical-monetary-statistics/)
 
