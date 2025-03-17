@@ -48,7 +48,41 @@ Furthermore, DataCamp Classrooms accounts and their members gain access to an up
 
 
 
+## VS Code
+
+Q: Is it possible to set max lines of a table printed in notebook?  
+A: The simple answer is NO. Seetings → Feasures → Notebook only limits the cell size of a pure text based output. It does NOT apply to outputs such as matrices, dataframes or other spreadsheet-like outputs (e.g. from the `View()` function in R.)
+
+___
+
+Change settings of VS
+
+- change directly in the user settings file (`settings.json`), or
+- open Code → Settings (cmd + ,)
 
 
 
+Q: How to open the User settings?  
+A: follow the following steps:
 
+- Open the command palette (either with F1 or Ctrl+Shift+P)
+- Type *"open settings"*
+- You are presented with a few options, choose **Open User Settings (JSON)**
+
+Or VS Code includes a button in the Settings UI gutter which can be used to switch between JSON and graphical view.
+
+<img src="https://drive.google.com/thumbnail?id=1-l2nIxBZuTRE5_zHkirjS4HzZ_5c-be5&sz=w1000" alt="VS Settings" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+___
+
+### SQL Server (MSSQL)
+
+FactSet: Connect to Azure SQL with Microsoft Entra authentication and SqlClient
+
+FactSet uses <span style='color:#00CC66'>**Microsoft Entra ID**</span> as the authentication type. Microsoft Entra ID is previously known as [Azure Active Directory (Azure AD)](https://learn.microsoft.com/en-us/entra/fundamentals/new-name)
+
+Microsoft Entra authentication uses identities in Microsoft Entra ID to access data sources such as Azure SQL Database.
+
+`Active Directory Interactive` authentication supports multifactor authentication technology to connect to Azure SQL data sources. If you provide this authentication mode in the connection string, an Azure authentication screen appears and asks the user to enter valid credentials. You can't specify the password in the connection string.
+
+Issue: cannot run SQL notebook as in Azure Data Studio

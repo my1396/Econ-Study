@@ -328,13 +328,123 @@ For a list whose bullet points are not full sentences:
 
 
 
+___
+
+### Lists of items
+
+- Sentences often contain lists of items. When a list within a sentence contains three or more items, [use a serial comma before the final item](https://apastyle.apa.org/style-grammar-guidelines/punctuation/serial-comma).
+
+  > We gathered information about participants’ age, gender, and socioeconomic status.
+
+- However, if any item in a list of three or more items already contains commas, use semicolons instead of commas between the items.
+
+  > We divided participants by age into categories of young adults, which included people between the ages of 18 and 40 years; middle-aged adults, which included people between the ages of 40 and 60 years; and older adults, which included people ages 60 years and older.
+
+- To draw more attention to the items and help readers understand the separate, parallel items in a complex list, use lowercase letters in parentheses before each item. Do not use numbers in parentheses.
+
+  > Participants provided information about their (a) level of education; (b) income, specified at the family level; (c) occupation, including both specific role and industry; and (d) family size.
+
+- [Use a numbered list](https://apastyle.apa.org/style-grammar-guidelines/lists/numbered) if you want to display items in a numbered series. [Use a bulleted list](https://apastyle.apa.org/style-grammar-guidelines/lists/bulleted) if you want to draw visual attention to items without implying that they go in a certain order.
+
+
+
+___
+
+### Introducing Examples
+
+There are several phrases that are commonly used to introduce examples.
+
+<table style="width: 25%; margin-left: auto; margin-right: auto;"><tbody>
+  <tr>
+    <td>for example</td>
+  </tr>
+  <tr>
+    <td>for instance</td>
+  </tr>
+  <tr>
+    <td>such as</td>
+  </tr>
+  <tr>
+    <td>e.g.</td>
+  </tr>
+</tbody>
+</table>
+
+For our purposes, let's break them up into 2 groups: phrases used within a sentence and phrases used to begin a new sentence. 
+
+1. **Phrases used within a sentence** 
+
+   Each phrase can be used within a sentence when it is followed by a list of items which elaborate on or show examples for the main idea of the sentence. 
+
+   <table><tbody>
+     <tr>
+       <td>I can play quite a few musical instruments, <span style='color:red'>for example</span>, the flute, the guitar, and the piano. </td>
+     </tr>
+     <tr>
+       <td>I can play quite a few musical instruments, <span style='color:red'>for instance,</span> the flute, the guitar, and the piano.</td>
+     </tr>
+     <tr>
+       <td>I can play quite a few musical instruments, <span style='color:red'>e.g.,</span> the flute, the guitar, and the piano.</td>
+     </tr>
+     <tr>
+       <td>I can play quite a few musical instruments, <span style='color:red'>such as</span> the flute, the guitar, and the piano.</td>
+     </tr>
+   </tbody>
+   </table>
+
+   **Such as** does NOT have a comma after it; the first three phrases have commas before and after them.
+
+   The phrase such as can be used in the middle of a sentence without any commas.
+
+   <table><tbody>
+     <tr>
+       <td>Car companies <span style='color:red'>such as</span> Toyota and Ford manufacture their automobiles in many different countries around the world. </td>
+     </tr>
+   </tbody>
+   </table>
+
+   - If the words after `such as` are necessary and essential to the meaning of the sentence, you do NOT use the commas. This is the case in the example above.
+
+     If you take out `such as` from the sentence, it would be "Car companies manufacture their automobiles in many different countries around the world." 
+
+     It could mean ALL car companies manufacture their automobiles in many different countries around the world. This is not true because some companies produce their cars in just one or two countries. Therefore, the phrase **such as Toyota and Ford** is necessary. $\rightarrow$  Do NOT use commas.
+
+   - If the examples can be taken out without losing the meaning of the sentence, you put the comma before `such as`.
+
+   
+
+2. **Phrases used to begin a new sentence**
+
+   Usually only for example and for instance can begin new sentences.  Each can begin a new sentence when the phrase is followed by <u>a complete idea or sentence</u> (NOT a list of items). 
+
+   <table><tbody>
+     <tr>
+       <td> My father loves going to restaurants which serve exotic foods.  <span style='color:red'>For example,</span> last week he went to a restaurant which serves deep-fried rattlesnake.  </td>
+     </tr>
+       <tr><td>My father loves going to restaurants which serve exotic foods. <span style='color:red'>For instance,</span> last week he went to a restaurant which serves deep-fried rattlesnake. </td>
+     </tr>
+   </tbody>
+   </table>
+
+
+
+Use *"alternatively"* when there is a **choice**, or you intend to **suggest an action** different from that mentioned in a previous sentence. This sentence connector occurs most frequently with *"can"* or *"could"*, and can also follow *"or"* (often without a comma). 
+
+
+
+
+
 ## Punctuations
+
+Chicago Mannual of Style – Punctuation: <https://www.chicagomanualofstyle.org/book/ed18/part2/ch06/toc.html>
 
 **Comma**
 
 Use a comma (often called a “serial comma” or “Oxford comma”) before the final “and” in a list of three or more items.
 
 
+
+___
 
 **Ellipsis**
 
@@ -343,6 +453,72 @@ Use a comma (often called a “serial comma” or “Oxford comma”) before the
 - Do not add a full stop if the ellipsis ends a sentence.
 
 - Preceding punctuation can be omitted, unless needed for comprehension (e.g. a question mark or exclamation mark). 
+
+
+
+___
+
+### Quotation Marks
+
+- When to use double quotation marks:
+
+  - Providing direct quotations of less than forty words (for quotes with >40 words, use <u>block quotations</u>). Used to copy contents from any other source (including published texts, internet resources, marketing or business materials, test or interview questions, and more) into your paper.
+
+    - If there are quotation marks within a quote of less than forty words, change those to <u>single quotation marks</u>.
+
+  - Referring to a letter, word, phrase, or sentence as a <u>linguistic example of itself</u>: the letter "p"; the singular "they"; he wrote over and over "all work and no play makes Jack a dull boy."
+
+    Ex:
+
+    > The student struggled with the use of "their" "they're," and "there."
+
+  - <u>First introducing a word or phrase <span style='color:#00CC66'>ironically</span></u>, as slang, or newly coined: I was not what you would call a "normal" teenager. The study produced what I will refer to as "alpha-particles."
+
+    Ex:
+
+    > There were many instances of "friendly joking" that created a hostile workplace environment.
+
+    Note: Use quotation marks only the first time the words or phrases are used, not for later uses.
+
+  - Mentioning the title of a periodical or book chapter**:** In chapter one, "The Boy Who Lived"...; Maniotes and Kuhlthau's (2014) article, "Making the Shift: From Traditional Research Assignments to Guiding Inquiry Learning," describes...
+
+    Ex:
+
+    > The fourth chapter of the APA 7 manual, "Writing Style and Grammar," contains a lot of useful information.
+
+- <span style='color:#00CC66'>Typesetting of double quotation marks</span>:
+
+  - One set of quotation marks will show the beginning of the quote and the other will show when it ends. <u>Leave no space</u> between the quotation marks and the text they surround.
+
+  - <u>Capitalize the first word</u> of the quotation when it is introduced as dialogue.
+
+    Ex:
+
+    > Samson (2010) stated, “<u>M</u>irror neurons allow for imitation and empathy” (p. 214).
+    >
+    > Johnson (2017) reported, "<u>W</u>alden students should use APA" (p. 45).
+
+  - Place commas (`,`), periods (`.`), exclamation marks (`!`), and question marks (`?`) <u>inside quotation marks</u>; all other punctuation marks are placed <u>outside quotation marks.</u>
+
+    | **Punctuation mark**                                         | **In relation to closing quotation mark, place it…** | **Example**                                                  | **Notes**                                                    |
+    | ------------------------------------------------------------ | ---------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+    | Comma                                                        | Inside                                               | Many dream images were characterized as <span style='color:#00CC66'>“</span>raw<span style='color:#00CC66'>,” “</span>powerful<span style='color:#00CC66'>,”</span> and <span style='color:#00CC66'>“</span>evocative<span style='color:#00CC66'>.”</span> |                                                              |
+    | Period                                                       | Inside                                               | Participants who kept dream diaries described themselves as <span style='color:#00CC66'>“</span>introspective<span style='color:#00CC66'>”</span> and <span style='color:#00CC66'>“</span>thoughtful<span style='color:#00CC66'>.”</span> |                                                              |
+    | Question mark or exclamation point (<span style='color:#00CC66'>part of quoted material</span>) | Inside                                               | The Dream Questionnaire items included <span style='color:#00CC66'>“</span>How often do you remember your dreams<span style='color:#00CC66'>?”</span> and <span style='color:#00CC66'>“</span>What do you most often dream about<span style='color:#00CC66'>?”</span> We found intriguing results. | When a quotation ending in a question mark or exclamation point ends a sentence, no extra period is needed. |
+    | Quotation within a quotation + period or comma               | Inside                                               | Some participants were skeptical about the process<span style='color:#00CC66'>: “</span>I don’t put any stock in these <span style='color:#00CC66'>‘</span>dream diaries<span style='color:#00CC66'>.’”</span> | When multiple quotation marks are used for quotations within quotations, keep the quotation marks together (put periods and commas inside both; put semi-colons, colons, etc., outside both). |
+    |                                                              |                                                      |                                                              |                                                              |
+    | Parentheses                                                  | Outside                                              | Barris (2010) argued that <span style='color:#00CC66'>“</span>dreams express and work with the logic of gaining a sense of and a relation to ourselves, our lives, or our sense of reality as a whole<span style='color:#00CC66'>” (p. 4).</span> | See more examples of how to cite direct quotations [here](https://blog.apastyle.org/apastyle/2010/03/how-to-cite-direct-quotations.html). |
+    | Semi-colon                                                   | Outside                                              | At the beginning of the study, participants described their dream recall rate as <span style='color:#00CC66'>“</span>low to moderate<span style='color:#00CC66'>”;</span> at the end, they described it as “moderate to high<span style='color:#00CC66'>.”</span> |                                                              |
+    | Colon                                                        | Outside                                              | Participants stated they were <span style='color:#00CC66'>“</span>excited to begin<span style='color:#00CC66'>”:</span> We controlled for participants' expectations in our study. |                                                              |
+    | Question mark or exclamation point (<span style='color:#00CC66'>**NOT** part of quoted material</span>) | Outside                                              | How will this study impact participants who stated at the outset<span style='color:#00CC66'>, “</span>I never remember my dreams<span style='color:#00CC66'>”?</span> We hypothesized their dream recall would increase. |                                                              |
+
+     Table source: <https://blog.apastyle.org/apastyle/2011/08/punctuating-around-quotation-marks.html>
+
+- Within double quotation marks, convert double quotation marks to single quotation marks: She told me, "It seems like everyone is always looking down at their phones, but, as Plato said, 'It is clear to everyone that astronomy at all events compels the soul to look upwards, and draws it from the things of this world to the other' (ca. 375 B.C.E./1908)." 
+- Do not use quotation marks when:
+  - Highlighting a key term or phrase for which a definition will be provided; instead, use italics: the principle of *reciprocity* can be defined as...
+  - The meaning of a number is clear: Alex wears the number 13 jersey.
+  - Note that <u>after the first time</u> you define a key term, you will format it normally.
 
 
 
@@ -361,7 +537,7 @@ If more are required, they can be doubled up: double asterisks (**), double sing
 
 The following chart shows some of the major differences in punctuation style between The Associated Press Stylebook (2018 edition) and The Chicago Manual of Style (17th edition).
 
-|                                                    | The Chicago Manual of Style                                  | The Associated Press Stylebook                               |
+|                                                    | [The Chicago Manual of Style](https://www.chicagomanualofstyle.org/home.html) | The Associated Press Stylebook                               |
 | -------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Serial comma**                                   | Include a comma before the conjunction.   <br />My favorite composers are Beethoven, Brahms, Mahler<span style='color:#00CC66'>, and</span> Mozart. | Do not include a comma before the conjunction.   <br />My favorite composers are Beethoven, Brahms, Mahler <span style='color:#00CC66'>and</span> Mozart. |
 | **Spacing between initials in name**               | Include a space between initials.   <br />E. L. Doctorow     | Do not include a space between initials.   <br />E.L. Doctorow |
@@ -372,13 +548,52 @@ The following chart shows some of the major differences in punctuation style bet
 
 
 
+#### Abbreviations
+
+If an organisation's name is long and you will use it multiple times (more than 3 times), you can use an abbreviation in your citations.
+
+The general tips for abbreviation are: 
+
+- **If the term will be used three times or fewer, do not abbreviate**. However, you may use a recognisable abbreviation if it appears fewer than three times and helps avoid cumbersome language.
+- **Do not define abbreviations in headings**. Use abbreviations in headings **only** if they have been previously defined.
+- **Use the abbreviation consistently**. Do not alternate between the abbreviation and the full term.
+- **Make abbreviations plural by adding "s"** (e.g., hours = hrs); do not use an apostrophe.
+- **Do not use periods** with abbreviations (e.g., NASA, not N.A.S.A).
+
+
+
+**Latin Abbreviations**
+
+Many Latin abbreviations are used in APA Style papers to save space. Use the following standard Latin abbreviations <u>only in parenthetical material</u>; in the narrative, use the translation of the Latin term. In both cases, punctuate as if the abbreviation were spelled out in the language in which you are writing.
+
+| Latin abbreviation | Meaning           |
+| :----------------- | :---------------- |
+| cf.                | compare           |
+| e.g.,              | for example,      |
+| , etc.             | , and so forth    |
+| i.e.,              | that is,          |
+| viz.,              | namely,           |
+| vs.                | versus or against |
+
+-  if you want to give a [list of examples within parentheses](https://apastyle.apa.org/style-grammar-guidelines/lists), use the abbreviation “e.g.,” (including the comma) before the examples. If the words “for example” appear outside of parentheses, do not use the abbreviation “e.g.”
+
+  > Participants watched different kinds of funny movies (e.g., featuring either slapstick, self-deprecating, or dark humor).
+
+- Use the Latin abbreviation “et al.” (which means “and others”) in both [narrative and parenthetical citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
+
+
+
+
+
 ## References
 
-Citing sources in APA style 7th ed.
+Citing sources in [APA style](https://apastyle.apa.org) 7th ed.
 
 <https://libraryguides.vu.edu.au/apa-referencing/7Books>
 
 <https://www.scribbr.com/apa-examples/book/>
+
+All types of reference materials: <https://libguides.murdoch.edu.au/APA/all>
 
 APA style: refer to "Publication Manual of the American Psychological Association".
 
@@ -391,6 +606,22 @@ Citations vs. References
 **Styling**
 
 - The first line of each citation is left adjusted. Every subsequent line is indented 5-7 spaces.
+
+
+
+**Parenthetical vs Narrative citations**
+
+|                   | Parenthetical citation       | Narrative citation          |
+| :---------------- | :--------------------------- | :-------------------------- |
+| 1 author          | (Smith, 2007)                | Smith (2007)                |
+| 2 authors         | (Mihrshahi & Baur, 2018)     | Mihrshahi and Baur (2018)   |
+| 3 or more authors | (Hewit et al., 2016)         | Hewit et al. (2016)         |
+| Group author      | (Department of Health, 2020) | Department of Health (2020) |
+
+Table source: <https://ecu.au.libguides.com/referencing/in-text-citations>
+
+- If the work you are citing has **one or two authors**, include them in your citation every time. Separate two authors with an ampersand (&) in parenthetical citations, but write out the word 'and' if discussing the work in-text.
+- If the work has **3 or more authors**, your in-text citation will give only the family name of the first author, followed by "et al." (which means "and others").
 
 
 
@@ -445,7 +676,7 @@ It is not necessary for an ISBN and DOI to be issued for the same publication un
 
 
 
-
+Phrasebank: <https://www.phrasebank.manchester.ac.uk/giving-examples/>
 
 
 

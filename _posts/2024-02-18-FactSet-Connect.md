@@ -15,6 +15,7 @@ title: Connect to FactSet
 <li>  Whitelist your IP address in the FactSet <a href="https://controlcenter.factset.com/enterprise-data/cloud-credentials">Control Center</a>. 
 <img src="https://drive.google.com/thumbnail?id=1sn8lGriU_wuDikhrJDrz_yWjjlNyvzau&sz=w1000" alt="Whitelist IP" style="display: block; margin-right: auto; margin-left: auto; zoom:100%;" />
 </li>
+  Remember to click "Save All Changes"!
 
 <li>  Install Microsoft ODBC SQL driver. </li>
 <li>  Install Azure Data Studio to connect to the SQL database.
@@ -27,7 +28,7 @@ title: Connect to FactSet
 
 ##  Install Microsoft ODBC
 
-Installation of MS-SQL driver.
+Installation of <span style='color:#00CC66'>**MS-SQL** (**SQL Server**) </span>driver.
 
 1. To install Microsoft ODBC driver 17 for **SQL Server** on macOS, run the following commands:
    ```bash
@@ -92,7 +93,7 @@ Server info
 
 
 
-The connection window looks like this:
+Azure Data Studio connection window looks like this:
 
 <img src="https://drive.google.com/thumbnail?id=1OTqG-rNRKL247_73Ja9_Ttf02g4ebIDC&sz=w1000" alt="Azure Connection" style="display: block; margin-right: auto; margin-left: auto; zoom:100%;" />
 
@@ -104,18 +105,39 @@ Important tips:
 
 
 
-Q: What are differencec between `.sql` and `.ipynb`?  
-A: `.sql` can run one single query. Notebooks (`.ipynb`) can put multiple queries together.
+___
+
+## Migrate to VS Code
+
+Azure Data Studio is [retiring on February 28, 2026](https://learn.microsoft.com/en-us/lifecycle/definitions#retirement). We recommend that you use [Visual Studio Code](https://code.visualstudio.com/). For more information about migrating to Visual Studio Code, visit [What's happening to Azure Data Studio?](https://learn.microsoft.com/en-us/azure-data-studio/whats-happening-azure-data-studio)
+
+VS Code MSSQL connection:
+
+<https://learn.microsoft.com/en-us/sql/tools/visual-studio-code-extensions/mssql/mssql-extension-visual-studio-code?view=sql-server-ver16>
+
+<img src="https://drive.google.com/thumbnail?id=136PQMkqsMJ6xuYYhv2fdjKs34MGGr2vE&sz=w1000" alt="VS Code SQL Connect" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+
+
+
+Q: What is the difference between `.sql` and `.ipynb`?  
+A: `.sql` can run one single query. Notebooks (`.ipynb`) can put multiple queries together. Need to set kernel as `SQL`.
 
 
 
 #### Azure Jupyter Notebook shortcuts
 
-| Command                   | Keybinding       |
-| ------------------------- | ---------------- |
-| Run Current Cell          | F5               |
-| Add Code Cell end of file | ctrl + shift + C |
-| Add Text Cell end of file | ctrl + shift + T |
+Create and run a SQL Server notebook:
+
+<https://learn.microsoft.com/en-us/azure-data-studio/notebooks/notebooks-sql-kernel>
+
+
+
+| Command                                                      | Keybinding       |
+| ------------------------------------------------------------ | ---------------- |
+| Show all commands<br />If you want to do sth and you don't see a button, press *F1*. | F1               |
+| Run Current Cell                                             | F5               |
+| Add Code Cell end of file                                    | ctrl + shift + C |
+| Add Text Cell end of file                                    | ctrl + shift + T |
 
 ___
 
@@ -129,7 +151,7 @@ After setting a large max rows, the whole table can be displayed. Then click `Sa
 
 <img src="https://drive.google.com/thumbnail?id=1Oa-vOxuSKl_rqwP6N7i0vmcHwPebxh2L&sz=w1000" alt="ADS max rows" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
-
+___
 
 Q: Long lines cannot be printed. Warning message like the following:
 
@@ -160,7 +182,7 @@ SELECT top 10 * from fp_v2.fp_basic_prices;
 
 
 
-
+___
 
 ## Troubleshooting
 
