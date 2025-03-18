@@ -466,11 +466,37 @@ For **Nordland, Troms og Finnmark** gjelder kravet til minimum 3 millimeter møn
 
 2. 移开油门，不要踩刹车。踩刹车会让情况更严重。
 
-   
 
 
 
+___
 
+### Maintenance
+
+<img src="https://drive.google.com/thumbnail?id=1e3Uo4GEF9RcELa2Dsas0WV1LN2yITX7H&sz=w1000" alt="Toyota Car Service" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+Q: Which service should I choose? Do I have to choose 6 years or 90k km?   
+A: 
+
+___
+
+Q: How long does the service take? I need to leave my car at the store for how long time?  
+A: 
+
+___
+
+Q: What does the maintenance include?  
+A: When the Service is completed, you will receive a year of free roadside assistance, car software updates, Hybrid health check and Toyota Relax.
+
+___
+
+Q: What is Toyota Relax?  
+A: Toyota Relax goes significantly beyond the well-established concept of a new or used vehicle warranty to give cover that can extend for up to 10 years or 100,000 miles of driving.  The Relax warranty is automatically activated on the completion of a scheduled full or interim vehicle service at an official Toyota centre. By keeping to their vehicle’s service schedule, customers can extend their Relax warranty by an extra 12 months/10,000 miles, year after year, until the 10-year/100,000-mile limit is reached.
+
+____
+
+Q: What does Toyouta Relax cover?  
+A: The Relax warranty covers the same parts and labour as the three-year manufacturer’s warranty provided on new Toyota vehicles and the one-year manufacturer warranty that’s standard with approved used vehicles. It does NOT include wear and tear items, bodywork, paint, interior trims and maintenance parts. A vehicle health check is part of the service package, which includes all mechanical and electronic parts, which helps potential problems to be detected at an early stage. Any existing defects present at the time of service are excluded from the warranty.
 
 
 

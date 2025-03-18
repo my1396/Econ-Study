@@ -21,7 +21,7 @@ Widehat `\widehat{\beta}` gives $\widehat{\beta}$
 
 Ordinary hat `\hat{\beta}` gives $\hat{\beta}$.
 
-`\textvisiblespace` gives `␣`.
+`\textvisiblespace` gives `␣`. 空格占位符
 
 `\S` gives section symbol $\S\,1$ (`\S\,1`)
 
