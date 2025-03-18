@@ -498,9 +498,19 @@ ____
 Q: What does Toyouta Relax cover?  
 A: The Relax warranty covers the same parts and labour as the three-year manufacturer’s warranty provided on new Toyota vehicles and the one-year manufacturer warranty that’s standard with approved used vehicles. It does NOT include wear and tear items, bodywork, paint, interior trims and maintenance parts. A vehicle health check is part of the service package, which includes all mechanical and electronic parts, which helps potential problems to be detected at an early stage. Any existing defects present at the time of service are excluded from the warranty.
 
+___
 
+2025 Service
 
+Vi bekrefter avtale for din bil med reg.nr. YF16565 fredag 16.05.2025 08:30 i Stormyrveien 25. Bilen leveres MINIMUM 15 minutter før. Nøkkel kan utenom åpningstider leveres i Sharebox i hovedinngangen: https://bit.ly/henteoglevere. Hilsen Nordvik AS Bodø.
 
+Hei Menghan!
+
+Vi bekrefter time hos Nordvik AS - Bodø den 16.05.2025 for YF16565.
+
+Detaljer for timen finner du her: https://digital.toyota.no/l/3sxVS6rXtyF94A
+
+Vennlig hilsen Nordvik AS - Bodø
 
 
 
