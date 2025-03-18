@@ -476,12 +476,12 @@ ___
 <img src="https://drive.google.com/thumbnail?id=1e3Uo4GEF9RcELa2Dsas0WV1LN2yITX7H&sz=w1000" alt="Toyota Car Service" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 Q: Which service should I choose? Do I have to choose 6 years or 90k km?   
-A: 
+A: My service is done every May annually. <u>Big and small services rotates</u>. 2025 May I get small service, costs about 3.6k.  Toyota requires service either every year or every 15k km, whichever satisfied first. I will receive a SMS message about the appointment.
 
 ___
 
 Q: How long does the service take? I need to leave my car at the store for how long time?  
-A: 
+A: Small service take about 1 hour. I need to drive my car to the factory 15 mins before my appointment. 
 
 ___
 
