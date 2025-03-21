@@ -473,6 +473,9 @@ ___
 
 ### Maintenance
 
+小的 Service 4000 大的 8000 是比较合理的价格  
+1万以上算是超大的了 会给你检查零件，看有没有什么该修的，当下就交钱修或者换就好了。不然下次预约又要交费。
+
 <img src="https://drive.google.com/thumbnail?id=1e3Uo4GEF9RcELa2Dsas0WV1LN2yITX7H&sz=w1000" alt="Toyota Car Service" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 Q: Which service should I choose? Do I have to choose 6 years or 90k km?   
@@ -514,9 +517,11 @@ Vennlig hilsen Nordvik AS - Bodø
 
 
 
+___
 
+车检可以提早4个月，最好安排在保养之后。这样中间过的时间短，出问题的几率要低。
 
-
+车检的时候，车要有什么问题不过关，就会限制一定期限修好，然后再车检。
 
 
 

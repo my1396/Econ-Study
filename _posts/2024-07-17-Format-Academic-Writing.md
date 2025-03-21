@@ -444,6 +444,18 @@ Use a comma (often called a “serial comma” or “Oxford comma”) before the
 
 
 
+**Forward Slashes** (/)
+
+- If the slash divides <u>two words</u>, there is NO need to include a space on either side of a forward slash.
+
+  E.g., apples/bananas 
+
+- If it divides <u>two phrases or sentences</u> (or a single word from a phrase), it requires a space before and after. 
+
+  E.g., truwana / Cape Barren Island 
+
+
+
 ___
 
 **Ellipsis**
