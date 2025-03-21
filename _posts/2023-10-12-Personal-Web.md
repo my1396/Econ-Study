@@ -133,3 +133,10 @@ My personal understanding or to say my personal usage of Gist and GitHub is:
 - Gist
 
   More like a memo. For example, you can write the implementation of a small feature and share it to your blog, or write down what you think about the project and share it with your teammates. Gist is used for more like code *snippet* thing. So normally if you work on a project, you use GitHub.
+
+
+
+___
+
+Q: How to check if a gem is installed?  
+A: To get the full list of gems that are installed: `gem list`.  To test for a particular gem, you can use `-i` with a regex: `gem list -i "^gem_name$"`.

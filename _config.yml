@@ -11,6 +11,11 @@ description: >
 
 # Build settings
 markdown: kramdown
+# Syntax highlighting
+highlighter: 
+kramdown:
+  input: GFM 
+  syntax_highlighter: rouge
 
 baseurl: /Econ-Study
 # Use the following plug-ins
@@ -59,3 +64,4 @@ header_pages:
 # Set to `true` to show excerpts on the homepage.
 #
 # show_excerpts: false
+

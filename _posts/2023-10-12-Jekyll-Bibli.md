@@ -129,6 +129,10 @@ scholar:
 
 
 
+- Add your bib to `./_bibliography/references.bib`
+
+
+
 ### Citation
 
 Use the following code to add citation.  `cite` tag with the appropriate key of the item you want to cite.
