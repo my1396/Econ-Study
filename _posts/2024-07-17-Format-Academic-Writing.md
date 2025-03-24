@@ -9,7 +9,7 @@ update: 2024-07-16
 
 ## **Math Symbols & Equations**
 
-- **<span style='color:#32CD32'>A space</span> should be placed between the numerical value and the unit symbol.** 
+- **<span style='color:#00CC66'>A space</span> should be placed between the numerical value and the unit symbol.** 
 
   数字和单位之间需要加空格！例外：百分号，摄氏度，华氏度。
 
@@ -24,15 +24,15 @@ update: 2024-07-16
 
   E.g., 3 g, 6 cm, 6 days, 7 years.
 
-  **Exceptions** for percentage and temperatures. 10% and 17ºC. They do <span style='color:#32CD32'>not</span> need a space between numbers and units.
+  **Exceptions** for percentage and temperatures. 10% and 17ºC. They do <span style='color:#00CC66'>not</span> need a space between numbers and units.
 
-- **Physical units must <span style='color:#32CD32'>not</span> be italicized.** For example, 1.2 dB is correct, while 1.2 *dB* is not.
+- **Physical units must <span style='color:#00CC66'>not</span> be italicized.** For example, 1.2 dB is correct, while 1.2 *dB* is not.
 
-- Constant *e*, the imaginary unit *i* and the function symbol *f(x)* should be <span style='color:#32CD32'>*italicized*</span>. 
+- Constant *e*, the imaginary unit *i* and the function symbol *f(x)* should be <span style='color:#00CC66'>*italicized*</span>. 
 
 -  There should be a space before and after arithematic operators. E.g., 2.5 ± 0.07. 
 
-- Number range: Use <span style='color:#32CD32'>two hypens</span> or opt + hypen ( <span style='color:#32CD32'>an en dash</span>) and do not include a space either before or after the dash.
+- Number range: Use <span style='color:#00CC66'>two hypens</span> or opt + hypen ( <span style='color:#00CC66'>an en dash</span>) and do not include a space either before or after the dash.
 
   Read chapters 7–9 before Friday.
 
@@ -42,19 +42,19 @@ update: 2024-07-16
 
 - When to spell out numbers?
 
-  - <span style='color:#32CD32'>When the number is less than 10, they should be spelled out;</span> 10 以下的数字要拼写。
+  - <span style='color:#00CC66'>When the number is less than 10, they should be spelled out;</span> 10 以下的数字要拼写。
   - Use Arabic numerals for 10 and above; 10 以及 10 以上的数字用阿拉伯数字表示。
-  - <span style='color:#32CD32'>When numbers appear in the beginning of a sentence.</span> 以数字开头的句子，数字要拼写出来。
+  - <span style='color:#00CC66'>When numbers appear in the beginning of a sentence.</span> 以数字开头的句子，数字要拼写出来。
 
 - Decades are written in numerals without an apostrophe: 1970s. 年份都是用numerals.
 
 - Currency format
 
-  - All currency symbols are placed before the number amount <span style='color:#32CD32'>without any spacing</span>. 
+  - All currency symbols are placed before the number amount <span style='color:#00CC66'>without any spacing</span>. 
 
     E.g, $500.
 
-  - The abbreviation of a currency (e.g. USD or, EUR) should precede the number amount <span style='color:#32CD32'>with a space</span>.
+  - The abbreviation of a currency (e.g. USD or, EUR) should precede the number amount <span style='color:#00CC66'>with a space</span>.
 
     E.g., EUR 400.
 
@@ -81,7 +81,7 @@ update: 2024-07-16
 
 - Vectors should be in **bold** type.
 - Functions should be as roman type. E.g., $\exp, \ln, \arg$.
-- If you need to break <u>one long expression</u>, the <span style='color:#32CD32'>math operator such as `+` should be on the next line</span>.
+- If you need to break <u>one long expression</u>, the <span style='color:#00CC66'>math operator such as `+` should be on the next line</span>.
 
 
 
@@ -89,7 +89,7 @@ update: 2024-07-16
 
 Why put numbers inside `$...$`?
 
-- Sometimes you use <span style='color:#32CD32'>different fonts</span> for math-mode numerals and text-mode numerals. This is when you want to put all your numbers inside dollar signs `$...$`.
+- Sometimes you use <span style='color:#00CC66'>different fonts</span> for math-mode numerals and text-mode numerals. This is when you want to put all your numbers inside dollar signs `$...$`.
 
   The main takeaway is that numbers should have a consistent font.
 
@@ -299,12 +299,12 @@ Use `Eq. (1)` when citing one equation, `Eqs. (1) and (2)` for citing more than 
 
 Use `Table 1` (or `Tables 1 and 2` for plural) to refer to tables. No abbreviations for tables. 
 
-- Table labels, titles, and captions are placed on <span style='color:#32CD32'>top</span> of the table.
+- Table labels, titles, and captions are placed on <span style='color:#00CC66'>top</span> of the table.
 - Below the table, there can be explanatory footnotes as necessary. Footnotes apply to a specific part of the table; while notes that apply to the whole table should be treated as captions.
 
 Use `Figs. 1` (or `Figs 1a and 1b` for plural) to refer to figures. Use abbreviations for figures.
 
-- Figure titles and captions go <span style='color:#32CD32'>below</span> the figure.
+- Figure titles and captions go <span style='color:#00CC66'>below</span> the figure.
 - Subplots are denoted using a lowercase letter within parentheses.
 
 
@@ -314,7 +314,7 @@ Use `Figs. 1` (or `Figs 1a and 1b` for plural) to refer to figures. Use abbrevia
 For a list that contains full sentences:
 
 - Always use a lead-in line, ending with a colon.  开头的介绍要以冒号结尾。
-- Ensure that each bullet item is a full sentence.  每个点是句子的时候要<span style='color:#32CD32'>大写首字母</span>，且以<span style='color:#32CD32'>句号结尾</span>。
+- Ensure that each bullet item is a full sentence.  每个点是句子的时候要<span style='color:#00CC66'>大写首字母</span>，且以<span style='color:#00CC66'>句号结尾</span>。
 - Start each bullet item (sentence) with an uppercase letter.
 - Use a full stop at the end of each bullet item.
 
@@ -323,7 +323,7 @@ For a list whose bullet points are not full sentences:
 - introduce the list with a lead-in line (that ends with a colon)
 - ensure that each bullet point makes sense reading on from the lead-in line
 - use a consistent form/structure for each bullet point
-- start each bullet point with a lowercase letter  每个点不是完整句子的时候，<span style='color:#32CD32'>首字母小写</span>，<span style='color:#32CD32'>结尾不加标点</span>
+- start each bullet point with a lowercase letter  每个点不是完整句子的时候，<span style='color:#00CC66'>首字母小写</span>，<span style='color:#00CC66'>结尾不加标点</span>
 - omit punctuation at the end of individual bullet points, including the last  即使最后一个点也不加标点！
 
 
@@ -540,10 +540,31 @@ ___
 
 
 
+### Footnotes
+
 The most common sequence of footnote reference marks is: 1. asterisk (*), 2. dagger (†, `\dagger`), 3. double dagger (††), 4. paragraph symbol (¶), 5. section mark (§), 6. parallel rules (\|\|), 7. number sign (#).   
 If more are required, they can be doubled up: double asterisks (**), double single daggers (††, `\dagger\dagger`), double double daggers (††††), etc. However, when many footnotes are used, it is more practical to use consecutive numbers to identify each footnote.
 
 
+
+This is a sentence with a footnote.<sup>[1]</sup>
+
+<sup>[1]</sup>Supplementary information about the sentence.
+
+
+
+Note that
+
+- the superscript number <sup>[1]</sup> follows the sentence in the text directly, with <u>no space</u> before a footnote callout. 
+- should be placed after any punctuation, except an end parenthesis if the footnote pertains specifically to the text inside the parentheses  
+- Depending on the referencing methods – APA, MLA, Oxford, Chicago, etc, there are different styles for the footnotes:
+  - Turabian Style (or Chicago Style): Leave <u>no space</u> between the superscript (footnote number) and the first word in the footnote.
+  - APA 7: put a space between the footnote number and the footnote itself.
+
+
+
+
+___
 
 ## Styles
 
@@ -558,7 +579,7 @@ The following chart shows some of the major differences in punctuation style bet
 
 
 
-
+___
 
 #### Abbreviations
 
@@ -613,7 +634,7 @@ Citations vs. References
 
 - Traditionally the term "citation" is used to refer to an in-text source, 
 
-- while "reference " is the correct term for a source listed on the reference page of a paper.
+- while "reference" is the correct term for a source listed on the reference page of a paper.
 
 **Styling**
 
@@ -674,7 +695,9 @@ Should include the following info:
 
 
 
-##### What is an ISBN and a DOI?
+###  ISBN and DOI
+
+What is an ISBN and a DOI?
 
 - An International Standard Book Number (ISBN) identifies a book by format (print, audio etc.), edition and publisher.
   - It is a 13 (after 1 January 2007) or 10 (before 2007) digits number assigned to all books and book-like publications that are published internationally.
@@ -686,7 +709,9 @@ It is not necessary for an ISBN and DOI to be issued for the same publication un
 
 
 
+___
 
+**Useful Resources**:
 
 Phrasebank: <https://www.phrasebank.manchester.ac.uk/giving-examples/>
 
