@@ -7,7 +7,7 @@ update: 2024-07-16
 
 
 
-## **Math Symbols & Equations**
+## Math Symbols & Equations
 
 - **<span style='color:#00CC66'>A space</span> should be placed between the numerical value and the unit symbol.** 
 
@@ -26,11 +26,15 @@ update: 2024-07-16
 
   **Exceptions** for percentage and temperatures. 10% and 17ºC. They do <span style='color:#00CC66'>not</span> need a space between numbers and units.
 
+- Put a space before and after a mathematical operator (e.g., minus, plus, greater than, less than).
+
+  For a negative value, put a space only before the minus sign, not after it (e.g., –8.25).
+
 - **Physical units must <span style='color:#00CC66'>not</span> be italicized.** For example, 1.2 dB is correct, while 1.2 *dB* is not.
 
 - Constant *e*, the imaginary unit *i* and the function symbol *f(x)* should be <span style='color:#00CC66'>*italicized*</span>. 
 
--  There should be a space before and after arithematic operators. E.g., 2.5 ± 0.07. 
+- There should be a space before and after arithematic operators. E.g., 2.5 ± 0.07. 
 
 - Number range: Use <span style='color:#00CC66'>two hypens</span> or opt + hypen ( <span style='color:#00CC66'>an en dash</span>) and do not include a space either before or after the dash.
 
@@ -38,7 +42,15 @@ update: 2024-07-16
 
   It must have been 1–2 degrees yesterday.
 
-  - Do not mix en dash with ‘between/and’ and ‘from/to'.
+  - Do <span style='color:red'>NOT</span> mix en dash with ‘between/and’ and ‘from/to'. ❌
+
+    Michaelmas term runs from October to December. ✅
+
+    Michaelmas term runs October–December. ✅
+
+    Michaelmas term runs from October–December. ❌
+
+  - If using dash symbols cause confusion, such as when negative values are involved, use words. For example, "from –0.2 to –0.14" and from "–3 to 3."
 
 - When to spell out numbers?
 
@@ -223,6 +235,28 @@ ___
 Q: How to type a minus sign stand alone?
 
 A: use `\textminus` , `\si{-}` (lowercase), or `\unit{-}`.
+
+___
+
+More about minus sign
+
+- No space between the minus sign and the number
+
+- Format negative values in tables
+
+  See the following two examples with correctly formatted negative values. This can be achieved by 
+
+  - `D` column type in the  `dcolumn` package
+
+    `\newcolumntype{d}[1]{D{.}{.}{#1}}`, or
+
+  - `S` column type in the `siunitx` package.
+
+    `S[table-format=3.2]` is equivalent to `D{.}{.}{3.2}`. 
+
+  <img src="https://drive.google.com/thumbnail?id=1oqJLONxbOIZSQKS8oy1NEzC0oTSuGV70&sz=w1000" alt="Table with negative value" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+  <img src="https://drive.google.com/thumbnail?id=1QPQldSvgt-x__eZ_COzAVnH6ghmZ6qBw&sz=w1000" alt="Table with negative value" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 
 
@@ -599,14 +633,14 @@ The general tips for abbreviation are:
 
 Many Latin abbreviations are used in APA Style papers to save space. Use the following standard Latin abbreviations <u>only in parenthetical material</u>; in the narrative, use the translation of the Latin term. In both cases, punctuate as if the abbreviation were spelled out in the language in which you are writing.
 
-| Latin abbreviation | Meaning           |
-| :----------------- | :---------------- |
-| cf.                | compare           |
-| e.g.,              | for example,      |
-| , etc.             | , and so forth    |
-| i.e.,              | that is,          |
-| viz.,              | namely,           |
-| vs.                | versus or against |
+| Latin abbreviation | Meaning                                                      |
+| :----------------- | :----------------------------------------------------------- |
+| cf.                | *compare*, used to indicate that the cited source supports a different claim (propoition) than the one just made |
+| e.g.,              | for example,                                                 |
+| , etc.             | , and so forth                                               |
+| i.e.,              | that is,                                                     |
+| viz.,              | namely,                                                      |
+| vs.                | versus or against                                            |
 
 -  if you want to give a [list of examples within parentheses](https://apastyle.apa.org/style-grammar-guidelines/lists), use the abbreviation “e.g.,” (including the comma) before the examples. If the words “for example” appear outside of parentheses, do not use the abbreviation “e.g.”
 
