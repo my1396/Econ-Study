@@ -743,6 +743,18 @@ It is not necessary for an ISBN and DOI to be issued for the same publication un
 
 
 
+## Prepare for submission 
+
+- Include page numbers and continuous line numbers in the manuscript file.
+
+  Line numbers DO NOT begin with "1" on each page. 
+
+  Reviewers might refer to line numbers.
+
+- Font size: 12 pt
+
+
+
 ___
 
 **Useful Resources**:

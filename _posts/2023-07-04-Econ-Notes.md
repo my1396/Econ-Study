@@ -514,11 +514,19 @@ assosiative property: 结合律
 - Numberator is in cardinal (one, two, three 基数词); denominator is in ordinal (first, second, third 序数词).
 - E.g., $1/2$ (one-half), $2/3$ (two-thirds), $3/11$ (three-elevenths), $3 5/7$ (three and five-sevenths)
 
-Decrease/increase a negative number: "Decrease" and "increase" refer to the absolute value. 
-- Decreasing a nagative number means move toward zero; i.e., add a positive number to it. E.g, decreasing -5 by 3 results in -2.
-- Increaseing a negative number means move apart from zero;
+**Decrease/increase** a negative number:
+"increase" means move to the right (become "more positive") and "decrease" means move to the left (become "more negative").
+
+- Decreasing a nagative number means move away zero; i.e., add a negative number to it. E.g, decreasing –5 by 3 results in –8; decreasing –3 by 2 results in –5.
+- Increaseing a negative number means move to zero; i.e., add a positive number to it. E.g, increasing –5 by 3 results in –2; increasing -3 by 2 results in –1.
+
+But there are different answers:
+> Positive and negative numbers are “directed numbers.” In terms of “absolute value,” the direction no longer applies. The decreasing of a negative number is the same as the decreasing value of a positive number —toward zero.
 
 
+Compare negative numbers: the one to the left on the number line is smaller.
+- –3 is less than –1 because –3 is to the left of –1
+- –5 is less than –3 because –5 is to the left of –3
 
 ## Polynomial and Exponential 
 
