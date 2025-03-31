@@ -127,4 +127,18 @@ Add some style adjustment:
 
 
 
-  
+___
+
+### Embed pdf files
+
+Using Object Tag
+
+```html
+<object class="pdf" 
+        data=
+"{{site.baseurl}}/images/应用已损坏.pdf"
+        width="800"
+        height="500">
+</object>
+```
+

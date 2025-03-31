@@ -12,6 +12,39 @@ Use `which -a`  to see all python executables.
 
 
 
+**Conda Commands**
+
+<https://docs.conda.io/projects/conda/en/stable/commands/init.html>
+
+`conda init ` will add your conda executable file in your `$PATH` variable.
+
+`conda init [SHELLS]`  Available shells: ['bash', 'fish', 'powershell', 'tcsh', 'xonsh', 'zsh']. One or more shells to be initialized. If not given, the default value is <span style='color:#00CC66'>'bash' on unix</span> and 'cmd.exe' & 'powershell' on Windows. 
+
+On Mac, when you install Anaconda or Miniconda, `.bash_profile` gets updated with the following code:
+
+```bash
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/menghan/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/menghan/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/menghan/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/menghan/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+```
+
+Issue: The result of default `conda init` is that the environment variable is inserted in `.bash_profile` even if `zsh` is your default shell.
+
+Fix: You need to specify explicitly <span style='color:#00CC66'>the shell to be `zsh`</span>. Run `conda init zsh` will add the same code to `.zshrc`.
+
+
+
 `conda info` display info about current conda install.
 
 
