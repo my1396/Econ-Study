@@ -243,6 +243,14 @@ veldig, svært, skikkelig, ganske, spesielt,
 
 
 
+| 当...的时候                                     | Da ... 从句, ... 主句 (倒桩) |
+| ----------------------------------------------- | ---------------------------- |
+| Da jeg lærte å ..., ble teskene mine mye bedre. |                              |
+
+
+
+
+
 **原因**
 
 | Det er nok også litt av <span style='color:#32CD32'>grunnen til at</span> han ga seg. | That's probably part of the reason he gave up. |
