@@ -76,7 +76,7 @@ Or VS Code includes a button in the Settings UI gutter which can be used to swit
 
 
 Q: How to spell check code and document?  
-A: Use the extension [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker). Click on the 💡(lightbulb), then use `Cmd`+`.` to select.
+A: Use the extension [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker). Put your cursor in the word, use `Cmd`+`.` to show suggestions and select.
 
 
 
