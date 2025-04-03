@@ -46,7 +46,7 @@ Furthermore, DataCamp Classrooms accounts and their members gain access to an up
 
 
 
-
+___
 
 ## VS Code
 
@@ -72,6 +72,13 @@ A: follow the following steps:
 Or VS Code includes a button in the Settings UI gutter which can be used to switch between JSON and graphical view.
 
 <img src="https://drive.google.com/thumbnail?id=1-l2nIxBZuTRE5_zHkirjS4HzZ_5c-be5&sz=w1000" alt="VS Settings" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
+
+Q: How to spell check code and document?  
+A: Use the extension [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker). Click on the 💡(lightbulb), then use `Cmd`+`.` to select.
+
+
 
 ___
 
