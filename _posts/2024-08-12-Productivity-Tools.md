@@ -50,6 +50,12 @@ ___
 
 ## VS Code
 
+Markdown Preview: <https://code.visualstudio.com/docs/languages/markdown#_markdown-preview>
+
+
+
+___
+
 Q: Is it possible to set max lines of a table printed in notebook?  
 A: The simple answer is NO. Seetings → Feasures → Notebook only limits the cell size of a pure text based output. It does NOT apply to outputs such as matrices, dataframes or other spreadsheet-like outputs (e.g. from the `View()` function in R.)
 
@@ -61,6 +67,22 @@ Change settings of VS
 - open Code → Settings (cmd + ,)
 
 
+
+Q: How to preview a markdown file?  
+A: Two options:
+
+- Open Preview (⇧⌘V)
+- Open Preview to the Side (⌘K V)
+
+Use either the keyboard shortcuts or click the Preview button. 
+
+- Double clicking an element in the Markdown preview will automatically open the editor for the file and scroll to the line nearest the clicked element.
+
+<img src="https://drive.google.com/thumbnail?id=14rY5JBq2TNjT7Z4Nc5x5_jMa0esNGlN5&sz=w1000" alt="VS code: preview markdown" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
+
+___
 
 Q: How to open the User settings?  
 A: follow the following steps:

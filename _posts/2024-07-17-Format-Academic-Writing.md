@@ -597,6 +597,12 @@ Note that
 
 
 
+**Proper names**
+
+- Don’t capitalize proper names even if they are at the start of a sentence.
+
+
+
 
 ___
 

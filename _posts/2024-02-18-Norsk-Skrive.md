@@ -399,3 +399,4 @@ Man må ikke stikke seg ut og være god til noe, og hvis man fremhever de beste,
 
 Technologien har tatt over mange av arbeidsoppgavene på fabrikkene og byggeplassene.
 
+​	
