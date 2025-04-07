@@ -52,6 +52,12 @@ ___
 
 Markdown Preview: <https://code.visualstudio.com/docs/languages/markdown#_markdown-preview>
 
+**Keyboard shortcuts**
+
+| Shortcut | Function            |
+| -------- | ------------------- |
+| ⇧⌘K      | Delete current line |
+
 
 
 ___

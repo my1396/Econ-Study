@@ -146,7 +146,7 @@ Reference: <https://www.principlesofeconometrics.com/poe5/writing/abadir_magnus.
 
 `viz.`: namely, that is to say.
 
-`Q.E.D`: Latin words to indicate this is the *end* of a mathematical proof. At the begining, you simply write `Proof:`.
+`Q.E.D`: Latin words to indicate this is the *end* of a mathematical proof. At the beginning, you simply write `Proof:`.
 
 Ceteris paribus:  Latin phrase that generally means "all other things being equal."
 
@@ -313,7 +313,7 @@ parallelogram /ˌpærəˈleləɡræm / 平行四边形
 
 parallelepiped /ˌpærəˌleləˈpaɪˌpɪd / 平行六面体 (倾斜长方体)
 
-tetrahedron / ˌtetrəˈhiːdrən/ 四面体, also called "tiangular pyramid", 三角锥, is a polyhedron composed of four triangular faces.
+tetrahedron /ˌtetrəˈhiːdrən/ 四面体, also called "tiangular pyramid", 三角锥, is a polyhedron composed of four triangular faces.
 
 polyhedron 多面体 \
 cube 正方体 \
@@ -333,7 +333,7 @@ sector 扇形  \
 Volume of a sphere (ball) $V=\frac{4}{3}\pi r^3$, $r$ is radius. Surface $S=4\pi r^2$.
 
 secant line 割线 \
-tagent line 切线
+tangent line 切线
 
 **直线方程的各种形式**
 
