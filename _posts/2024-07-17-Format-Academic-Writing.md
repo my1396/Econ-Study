@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Style Guidelines
+title: "Academic Writing: Style Guidelines"
 tag: study
 update: 2024-07-16
 ---

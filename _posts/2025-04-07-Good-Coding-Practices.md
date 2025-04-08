@@ -20,42 +20,54 @@ ___
 **项目整体结构 project file structure**
 
 - Avoid writing excessively long scripts; do one thing in one script; 一个文档做一件事  
-  If it is difficult to understand your code without comments, this can indicate that your code is too complex and might benefit from being broken down, or ‘refactored’, into smaller units. 
+  If it is difficult to understand your code without comments, this can indicate that your code is too complex and might benefit from being broken down, or "refactored", into smaller units. 
   
     - Start with file description about what this file does, what output it generates; preferably add edit time;
-        - Last edit: `yy-mm-dd` (ISO8601); to show when you change the script last time;
-    - Date naming convention: `yy-mm-dd`; add date to output files to indicate historical versions;
+        - Last edit: `yyyy-mm-dd` (ISO 8601); to show when you change the script last time;
+    - Date naming convention: `yyyy-mm-dd`; add date to output files to indicate historical versions;
+  
 - Script naming conventions: `1-1-1_function-of-script`; 
     - the first digit denote main procedures; the second denotes sub-procedures, the third denotes various versions;
-    - `function-of-script` describes what the script does;  
-    Should follow "Context + verb + noun". Scripts that belong to the same context should start with the same prefix, i.e., context.
-    - 画图文件不要用图1，2，3来命名，因为后期可能调换位置。用图的内容命名。
-    - If your file names include numbers, make sure to pad them with the appropriate number of zeros.
-
-    ```
-    # good file names
-    01-load-data.R
-    02-exploratory-analysis.R
-    03-model-approach-1.R
-    04-model-approach-2.R
-    2025-01-01-report.Rmd
-    2025-02-01.report.Rmd
-    ```
-    Don’t use “final” or similar words in file names. Put the date in the file name to indicate historical versions.
-    ```
-    # good
-    report-2022-03-20.qmd
-    report-2022-04-02.qmd
     
-    # bad
-    finalreport.qmd
-    FinalReport-2.qmd
-    ```
+    - `function-of-script` describes what the script does;  
+      Should follow "Context + verb + noun". Scripts that belong to the same context should start with the same prefix, i.e., context.
+    
+    - Do not name image files as "Figure1.png", "Figure2.png", "Figure3.png", etc., because their positions may change later. → Name them based on their content instead.
+    
+      画图文件不要用图1，2，3来命名，因为后期可能调换位置。用图的内容命名。
+    
+    - In case of you have many files, say $\ge$ 10 files, and your file names include numbers to indicate order, make sure to <u>pad them</u> with the appropriate number of zeros, so that (e.g.) 11 doesn’t get sorted before 2. 
+    
+      ```
+      # good file names
+      01-load-data.R
+      02-exploratory-analysis.R
+      03-model-approach-1.R
+      04-model-approach-2.R
+      # chronological order
+      2025-01-01-report.Rmd
+      2025-02-01.report.Rmd
+      ```
+      
+      Don’t use “final” or similar words in file names. Put the date in the file name to indicate historical versions.
+      
+      ```
+      # good
+      report-2022-03-20.qmd
+      report-2022-04-02.qmd
+      
+      # bad
+      finalreport.qmd
+      FinalReport-2.qmd
+      ```
+    
+- Write project file structure guide, i.e., a ReadMe file, as the project progresses;
 
-- Write project file structure guide; ReadMe file;
-- When writing big projects, worth writing a notes of <span style='color:#00CC66'>important variables</span> to help keep track of things;
-- Avoid repetition; organize codes frequently;  
-- If something is not used but you want to keep it as a backup, label it as deprecated.
+- When working on big projects, it's worth keeping notes on <span style='color:#00CC66'>key variables</span> to help keep track of everything;
+
+- Avoid repetition; organize code frequently;  
+
+- If something is no longer used but you want to keep it as a historical record, label it as "deprecated."
 
 
 ___
@@ -64,7 +76,10 @@ ___
 
 **具体每个 script**
 
-- Name variables meaningfully; consistently (variables that hold the same type of things should have consistent naming with <span style='color:#00CC66'>suffix</span> to denote variations); 
+- Name variables meaningfully and consistently.  
+  For variables that hold the same type of data, use a consistent naming scheme: 
+  - Start with the same context or base name
+  - Use <span style='color:#00CC66'>suffixes</span> to indicate variations 
 - File path \
     Avoid using absolute path. Store file names in variables so you can change easily.
 - If your script uses add-on packages, load them all at once at the very beginning of the file.   
@@ -75,8 +90,8 @@ ___
 
 **Spacing**
 
-- Place spaces around all infix operators (`=`, `+`, `-`, `<-`, etc. 中缀运算符). 
-- The same rule applies when using `=` in function calls. 
+- Place spaces around all *infix operators* (`=`, `+`, `-`, `<-`, etc. 中缀运算符). 
+- The same rule applies when using `=` (as assignment operator) in function calls. 
 - Always put a space after a comma, and never before.
 
     ```r
@@ -89,7 +104,7 @@ ___
 
 There are **a few exceptions**, where infix operators should NEVER be surrounded by spaces:
 
-- The operators with [high precedence](https://rdrr.io/r/base/Syntax.html) `:`, `::`, `:::`, `$`, `@`, `[`, `[[`, `^`, unary `-`, unary `+`, and `:`.
+- The operators with [high precedence](https://rdrr.io/r/base/Syntax.html): `::`, `:::`, `$`, `@`, `[`, `[[`, `^`, unary `-`, unary `+`, and `:`.
 
     ```r
     # Good

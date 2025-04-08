@@ -104,7 +104,7 @@ li:first-child {
   font-size: 20px;
   line-height: 1.7;
   text-transform: capitalize; /* capitalize 1st letter */
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", SimSun, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, SimSun, sans-serif;
 }
 .one-tag-list .post-preview {
   position: relative;
@@ -153,7 +153,7 @@ hr {
 
 /* general typesetting */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", SimSun, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, SimSun, sans-serif;
   line-height: 1.7;
   font-size: 18px;
   color: #404040; /* color for main text */
@@ -172,7 +172,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", SimSun, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, SimSun, sans-serif;
   line-height: 1.7;
   font-weight: bold;
 }
