@@ -27,7 +27,9 @@ ___
     - Date naming convention: `yyyy-mm-dd`; add date to output files to indicate historical versions;
   
 - Script naming conventions: `1-1-1_function-of-script`; 
-    - the first digit denote main procedures; the second denotes sub-procedures, the third denotes various versions;
+    - If files need to be run in sequence, <u>prefix them with numbers</u>:
+    
+      The first digit denote main procedures; the second denotes sub-procedures, the third denotes various versions;
     
     - `function-of-script` describes what the script does;  
       Should follow "Context + verb + noun". Scripts that belong to the same context should start with the same prefix, i.e., context.
@@ -44,6 +46,7 @@ ___
       02-exploratory-analysis.R
       03-model-approach-1.R
       04-model-approach-2.R
+      
       # chronological order
       2025-01-01-report.Rmd
       2025-02-01.report.Rmd
@@ -76,19 +79,164 @@ ___
 
 **具体每个 script**
 
+- Order of code
+  
+  1. Call your libraries on top of code
+  2. Set all default variables or global options and all the path variables at the top of the code.
+  3. Source all the code at the beginning
+  4. Call all the data-files at the top
+  
+- Put all the external dependencies on top of your code in the following order:
+
+  1. Libraries are external to the file.
+  2. path variables
+  3. other files apart from one you are working is external as well.
+  4. databases and CSV
+
+  ```R
+  # load libraries -------------------------------------------
+  # set defaults ---------------------------------------------
+  # source files ---------------------------------------------
+  # get Data -------------------------------------------------
+  ```
+
 - Name variables meaningfully and consistently.  
+
   For variables that hold the same type of data, use a consistent naming scheme: 
+
   - Start with the same context or base name
   - Use <span style='color:#00CC66'>suffixes</span> to indicate variations 
+
+  See more about naming conventions [HERE](#Naming)
+
 - File path \
     Avoid using absolute path. Store file names in variables so you can change easily.
+
 - If your script uses add-on packages, load them all at once at the very beginning of the file.   
     Do NOT use `library()` calls throughout your code or having hidden dependencies that are loaded in a startup file, such as `.Rprofile`. ❌
+
 - Prefer `TRUE` and `FALSE` over `T` and `F`.
+
+- If you use larger numbers, use scientific annotations `1e6` for million as zeros are hard to count when there are many but `1e6` indicates 6 zeros directly.
 
 ___
 
-**Spacing**
+### Indentation
+
+- **Vertical alignment**
+
+  Continuation lines should align wrapped elements vertically.
+
+  ```python
+  # Good
+  # Aligned with opening delimiter.
+  foo = long_function_name(var_one, var_two,
+                           var_three, var_four)
+  # Another example
+  foo2 <- function(
+    first_arg, second_arg, third_arg
+  ){
+    create_file <- readxl::read_excel(path = first_arg, sheet = second_arg, 
+                                      range = third_arg)
+  }
+  ```
+
+- **Hanging indent**
+
+  Q: What is a hanging indent?  
+  A: Alternatively called a negative indent, a hanging indent is an indent that indents all text except the first line. Below is an example of a hanging indent, which is commonly used in a bibliography.
+
+  <img src="https://www.computerhope.com/jargon/h/hangiden.png" alt="Hanging indent" style="display: block; margin-right: auto; margin-left: auto; zoom:100%;" />
+
+  Could use a hanging indent where there should be no arguments on the first line and further indentation should be used to clearly distinguish itself as a continuation line.
+
+  ```python
+  # Good
+  # Add 4 spaces (an extra level of indentation) to distinguish arguments from the rest.
+  def long_function_name(
+          var_one, var_two, var_three,
+          var_four):
+      print(var_one)
+  
+  # Hanging indents *may* be indented to other than 4 spaces.
+  foo = long_function_name(
+    var_one, var_two,
+    var_three, var_four)
+  
+  # Bad
+  # Hanging indents should add a level.
+  foo = long_function_name(
+      var_one, var_two,
+      var_three, var_four)
+  
+  # Arguments on first line forbidden when not using vertical alignment.
+  foo = long_function_name(var_one, var_two,
+      var_three, var_four)
+  
+  # Further indentation required as indentation is not distinguishable.
+  def long_function_name(
+      var_one, var_two, var_three,
+      var_four):
+      print(var_one)
+      
+  # God
+  # Add some extra indentation on the conditional continuation line.
+  # This creates distinguishment.
+  if (this_is_one_thing
+          and that_is_another_thing):
+      do_something()
+  ```
+
+- The closing brace/bracket/parenthesis on multiline constructs may either line up under the first non-whitespace character of the last line of list, as in:
+
+  ```python
+  # line up under the first non-whitespace character
+  my_list = [
+      1, 2, 3,
+      4, 5, 6,
+      ]
+  result = some_function_that_takes_arguments(
+      'a', 'b', 'c',
+      'd', 'e', 'f',
+      )
+  ```
+
+  or it may be lined up under the first character of the line that starts the multiline construct, as in:
+
+  ```python
+  # line up with the variable definition
+  my_list = [
+      1, 2, 3,
+      4, 5, 6,
+  ]
+  result = some_function_that_takes_arguments(
+      'a', 'b', 'c',
+      'd', 'e', 'f',
+  )
+  ```
+
+
+
+
+
+___
+
+**Line Break for Binary Operators**
+
+```python
+# line break "before" binary operators
+income = (gross_wages
+          + taxable_interest
+          + (dividends - qualified_dividends)
+          - ira_deduction
+          - student_loan_interest)
+```
+
+
+
+___
+
+### Spacing
 
 - Place spaces around all *infix operators* (`=`, `+`, `-`, `<-`, etc. 中缀运算符). 
 - The same rule applies when using `=` (as assignment operator) in function calls. 
@@ -96,9 +244,13 @@ ___
 
     ```r
     # Good
+    x[,␣1]
     average <- mean(feet / 12 + inches, na.rm = TRUE)
     
     # Bad
+    x[,1]
+    x[␣,1]     # space before comma
+    x[␣,␣1]		 # space before and after comma
     average<-mean(feet/12+inches,na.rm=TRUE)
     ```
 
@@ -162,7 +314,7 @@ There are **a few exceptions**, where infix operators should NEVER be surrounded
 
 ___
 
-**Code Sessions**
+### Code Sessions
 
 Another important use of comments is to break up your file into easily readable chunks. Use long lines of `-` and `=` to make it easy to spot the breaks.
 
@@ -172,9 +324,27 @@ Another important use of comments is to break up your file into easily readable 
 # Plot data ======================================
 ```
 
+The long lines are more visible, but you can create sections by adding 4 dashes (`-`), 4 equals (`=`), or 4 hash symbols (`#`).
+
+```r
+# some comment ----
+# some comment ====
+# some comment ####
+```
+
+You can also create **subsection** in R by adding hash symbols in front of a section.
+
+```r
+## some comment ----
+### some comment ----
+#### some comment ----
+```
+
+
+
 ___
 
-**Pipes**
+### Pipes
 
 - Migrate from `magrittr`’s `%>%` to the native pipe `|>`.
 - Same keyboard shortcut: ⇧⌘M
@@ -183,9 +353,24 @@ ___
 
 ___
 
-**Parentheses**
+### Parentheses
 
-Do not put spaces inside or outside parentheses for regular function calls.
+Do NOT place spaces around code in parentheses or square brackets.
+
+```r
+# Good
+if (debug) do(x)
+diamonds[5,␣]
+
+# Bad
+if ( debug ) do(x)  # No spaces around debug
+x[1,]   # Needs a space after the comma
+x[1␣,]  # Space goes after comma not before
+```
+
+
+
+Do NOT put spaces inside or outside parentheses for regular function calls.
 
 ```r
 # Good
@@ -225,38 +410,44 @@ function(x){}
 
 ___
 
+### Embracing Operator \{\{
+
 The [embracing operator][embrace-operator], "\{\{" (curly-curly operator), should always have inner spaces to help emphasis its special behavior:
 
 ```r
-# Good
+{% raw %}# Good
 max_by <- function(data, var, by) {
   data |>
     group_by({{␣by␣}}) |>
     summarise(maximum = max({{ var }}, na.rm = TRUE))
 }
-
 # Bad
 max_by <- function(data, var, by) {
   data |>
     group_by({{by}}) |>
     summarise(maximum = max({{var}}, na.rm = TRUE))
-}
+} {% endraw %}
 ```
-
 
 
 ___
 
-Distinguish from **braced expressions**, `{}`
+### Braced Expressions \{
+
+Distinguish the embracing operator from **braced expressions**, `{}`
 
 It allows you to group multiple R expressions together into a single expression. The most common places to use braced expressions are in function definitions, control flow, and in certain function calls (e.g. `tryCatch()` and `test_that()`).
 
 To make this hierarchy easy to see:
 
-- `{` should be the last character on the line.  
-    Related code (e.g., an `if` clause, a function declaration, a trailing comma, …) must be on the same line as the opening brace.
+- `{` An opening curly brace should be the last character on the line.  
+    Related code (e.g., an `if` clause, a function declaration, a trailing comma, …) must be <u>on the same line</u> as the opening brace.
 
-- `}` should be the first character on the line.
+     `{` should never go on its own line and should always be followed by a new line. 
+    
+- `}` A closing curly brace should be the first character on the line.
+
+    `}` should always go on its own line, unless it’s followed by `else`.
 
 ```r
 # Good
@@ -277,7 +468,8 @@ if (y == 0) {
 test_that("call1 returns an ordered factor", {
   expect_s3_class(call1(x, y), c("factor", "ordered"))
 })
-
+# It’s ok to leave very short statements on the same line
+if (y < 0 && debug) message("Y is negative")
 ```
 
 
@@ -289,9 +481,21 @@ ___
 
 ## Functions
 
+### Naming
+
 - Function names should tell what the function does. It should be short, but it’s better to be clear than short, as coding editors’ autocomplete makes it easy to type long names.
-- Function names should be verbs, and arguments should be nouns. 
-- nouns are ok if the function computes a very well known noun. 
+
+    Use informative names, e.g., sales_data_2020, api_token, rate_of_interest.
+
+- Generally function names should be verbs, and argument/variable name should be nouns. 
+
+- Don’t include dots ( . ) in names.
+
+    Base R uses dots in function names (`contrib.url()`) and class names (`data.frame`), but it’s better to <u>reserve dots exclusively for the S3</u> object system. 
+
+    In S3, methods are given the name `function.class`; if you also use `.` in function and class names, you end up with confusing methods like `as.data.frame.data.frame()`.
+
+- Nouns are ok if the function computes a very well known noun. 
     - `mean()` is better than `compute_mean()` and  `coef()` is better than `get_coefficients()`
     - A good sign that a noun might be a better choice is if you’re using a very broad verb like “get”, “compute”, “calculate”, or “determine”. ❌
 
@@ -307,16 +511,35 @@ ___
     collapse_years()
     ```
 
-- “snake_case”, where each lowercase word is separated by an underscore.
-    - "camelCase" is a popular alternative. 
-    - It doesn’t really matter which one you pick, the important thing is to be consistent: pick one or the other and stick with it.
+- Use a short unique prefix to group related names together. 
+  
+    For instance, functions in `stringr` pkg start with `str_`, e.g., `str_sub`, `str_split`.
 
+- You may <span style='color:#00CC66'>prefix data-types before variable names</span>.
+  
+    ```r
+    int_currency <- 1:10
+    chr_letters <- letters
+    dt_mtcars <- data.table::data.table(mtcars)
+    tbl_mtcars <- tibble::tibble(mtcars)
+    # `num_` indicates numerical values so you don't put strings
+    join <- function(num_x, num_y) num_x + num_y
+    ```
+    
+- <span style='color:#00CC66'>`snake_case`</span>, where <span style='color:#00CC66'>each lowercase word is separated by an underscore</span>.
+  
+    - `CamelCase` or `camelCase` (differs from `CamelCase` by initial lowercase character) is a popular alternative. 
+    - Other options: `UPPERCASE`, `UPPER_CASE_WITH_UNDERSCORES`
+    - Note: When using acronyms in `CamelCase`, capitalize all the letters of the acronym. Thus HTTPServerError is better than HttpServerError.
+    - Do NOT use `Capitalized_Words_With_Underscores`.
+    - It doesn’t really matter which one you pick, the important thing is to <span style='color:#00CC66'>be consistent</span>: pick one or the other and stick with it.
+    
     ```r
     # Never do this!
     col_mins <- function(x, y) {}
     rowMaxes <- function(y, x) {}
     ```
-
+    
     - If you have a family of functions that do similar things, make sure they have consistent names and arguments. \
         <span style='color:#00CC66'>Use a common prefix</span> to indicate that they are connected. That’s better than a common suffix because autocomplete allows you to type the prefix and see all the members of the family.
     
@@ -335,9 +558,83 @@ ___
 
 - The arguments to a function typically fall into two broad sets: 
     - *Data arguments* supply the data to compute on, and 
+
     - *Detail arguments* supply arguments that control the details of the computation. 
+
     - Generally, data arguments should come first. Detail arguments should go on the end, and usually should have default values. 
+
     - *Arbitrary number of inputs*. When you see `…` (dot-dot-dot), it captures any number of arguments that aren’t otherwise matched.
+
+      In other programming languages, this type of argument is often called *varargs* (short for variable arguments), and a function that uses it is said to be variadic.
+
+      Usa example of `...`
+
+      ```r
+      i01 <- function(y, z) {
+        list(y = y, z = z)
+      }
+      
+      i02 <- function(x, ...) {
+        i01(...)
+      }
+      
+      str(i02(x = 1, y = 2, z = 3))
+      #> List of 2
+      #>  $ y: num 2
+      #>  $ z: num 3
+      
+      # ----------------------------------
+      # Use `..N` to refer to elements of `...` by position.
+      i03 <- function(...) {
+        list(first = ..1, third = ..3)
+      }
+      str(i03(1, 2, 3))
+      #> List of 2
+      #>  $ first: num 1
+      #>  $ third: num 3
+      ```
+
+      If your function takes a function as an argument, you want some way to pass additional arguments to that function. In this example, `lapply()` uses `...` to pass `na.rm` on to `mean()`:
+
+      ```r
+      x <- list(c(1, 3, NA), c(4, NA, 6))
+      str(lapply(x, mean, na.rm = TRUE))
+      #> List of 2
+      #>  $ : num 2
+      #>  $ : num 5
+      ```
+
+      
+
+- Always use named parameters
+
+    Named parameters are more readable.
+
+    ```r
+    # Code with named parameters
+    call_cognitive_endpoint(
+      endpoint = speech$get_endpoint(),
+      operation = "models/base",
+      body = list(),
+      options = list(),
+      headers = list(`content-type` = 'audio/wav'),
+      http_verb = "POST"
+    )
+    
+    # -----------------
+    
+    # Code without named parameters
+    call_cognitive_endpoint(
+      speech$get_endpoint(),
+      "models/base",
+      list(),
+      list(),
+      list(`content-type` = 'audio/wav'),
+      "POST"
+    )
+    ```
+
+    
 
 In `mean(x, trim = 0, na.rm = FALSE)`, the data is `x`, and the details are how much data to trim from the ends (`trim`) and how to handle missing values (`na.rm`).
 
@@ -367,6 +664,7 @@ ___
 - Capitalize first letter
 - If 1 sentence, don’t add period; if >1 sentence, add period.
 - Add a single space after `#`
+- Paragraphs inside a block comment are separated by a line containing a single `#`.
 
 Insert *Roxygen Comments*: ⇧⌥⌘R 
 
@@ -444,6 +742,31 @@ plot_colours <- function(colours) {
 ```
 
 
+
+
+
+___
+
+## Data Management
+
+- Always keep a copy of the original data.
+
+- Don't use numbers for columns
+
+  Index with names in stead of numbers whenever possible.
+
+  ```r
+  # Good
+  > mtcars[1, c("mpg","disp","hp","drat", "vs")]
+  # Bad
+  > mtcars[1, c(1,3:5, 8)]
+  ```
+
+  
+
+
+
+
 ___
 
 <p style="font-weight:600; font-size:21px">References:</p>
@@ -451,7 +774,9 @@ ___
 R for Data Scince, <https://r4ds.had.co.nz/functions.html>  
 R package development workshop, <https://combine-australia.github.io/r-pkg-dev/other-documentation.html>  
 Tidyverse Style Guide, <https://style.tidyverse.org>  
-Python Style Guide, <https://peps.python.org/pep-0008/>  
+Google's R Style Guide, <https://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html>  
+Python Style Guide, <https://peps.python.org/pep-0008/>   
+Best Coding Practices for R, <https://bookdown.org/content/d1e53ac9-28ce-472f-bc2c-f499f18264a3/>  
 
 
 

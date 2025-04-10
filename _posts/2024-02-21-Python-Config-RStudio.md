@@ -7,7 +7,7 @@ title: Run Python in Rstudio
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
 
-The *reticulate* package provides an interface to embed Python sessions within R sessions.
+The `reticulate` package provides an interface to embed Python sessions within R sessions.
 
 Specify Python interpreter
 

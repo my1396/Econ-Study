@@ -13,6 +13,7 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-pdf-embed'
   gem 'jekyll-scholar'
+  gem 'jekyll-gist'
 end
 
 gem "webrick", "~> 1.8"

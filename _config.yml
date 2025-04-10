@@ -24,7 +24,8 @@ plugins:
   - jekyll-seo-tag    # output metadata for search engines to better index and display
   - jekyll-pdf-embed  # embed pdf files
   - jekyll-sitemap    # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-scholar    # for bibliography
+  - jekyll-scholar    # add references and bibliography
+  - jekyll-gist       # embed gist
 
 google_analytics: G-SHRDBGDKKC
 
