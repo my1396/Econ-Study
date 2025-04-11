@@ -24,14 +24,16 @@ When you view the source file on GitHub.com, the relative link will continue to 
 **Embed images using <span style='color:#00CC66'>relative path</span>**
 
 ```html
-<img src="{{site.baseurl}}/images/image-20230730113759915.png" alt="quadrant geometry" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
+{% raw  %}<img src="{{site.baseurl}}/images/image-20230730113759915.png" alt="quadrant geometry" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />{% endraw %}
 ```
 
-- The drawback with this method is that it does not provide local preview in desktop apps, like Visual Studio or Typora.
+- The drawback with this method is that it does not provide local preview in desktop apps, like Visual Studio or Typora do.
 
 - <span style='color:#00CC66'>Support preview using the local host `http://127.0.0.1:4000/`</span> though.
 
 - The advantage is that it does not rely on any cloud services, such as Google Drive. The image folder is hosted on GitHub, meaning it won't have domin restrictions when travel abroad or it won't be affected by service updates from Google.
+
+- <code>{% raw  %}{{site.baseurl}}{% endraw %}</code> (Liquid tag) will be evaluated as `/Econ-Study`.
 
 - `baseurl` is set in the `_config.yml`, it is the name of sub-directory the site is served from. 
 
@@ -39,9 +41,9 @@ When you view the source file on GitHub.com, the relative link will continue to 
 
   - `url` is `https://my1396.github.io`; 
 
-  - `baseurl` is `/Econ-Study`; 
+  - `baseurl` is `/Econ-Study`; the repository name; 
 
-  - page url is `/2023/10/03/HTML.html`.
+  - page url is `/2023/10/03/HTML.html`; each individual post.
 
 
 

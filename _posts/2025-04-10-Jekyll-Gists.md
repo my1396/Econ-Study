@@ -35,9 +35,17 @@ ___
 
 ## Adding the Gist to the Post
 
-Now we can embed existing gists using the `gist` Liquid template tag and the gist ID.
+Now we can embed existing Gists using the `gist` Liquid template tag and the gist ID.
 
 Use the tag as follows in your Jekyll pages, posts and collections:
+
+Basic syntax:
+
+```liquid
+{% raw %}{% gist <gist_id> <optional_file_name> %}{% endraw %}
+```
+
+Use example:
 
 ```liquid
 {% raw %}{% gist c08ee0f2726fd0e3909d %}{% endraw %}
@@ -55,7 +63,9 @@ You may optionally specify a `filename` after the `gist_id`:
 {% raw %}{% gist c08ee0f2726fd0e3909d test.md %}{% endraw %}
 ```
 
-Which will be rendered as
+This will produce the correct URL to show just the specified file in your post rather than the entire Gist.
+
+It will be rendered as
 
 {% gist 9edcb9c13ecc2aa657e4e24a41cbeef8 R_style_embrace_opt.R %}
 

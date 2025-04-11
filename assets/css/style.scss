@@ -309,4 +309,7 @@ th:hover, tr:hover {
   background-color: #D6EEEE;
 }
   
-
+/* remove line number in embeded Gists */
+.js-line-number {
+  display: none;
+}
