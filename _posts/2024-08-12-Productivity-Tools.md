@@ -91,7 +91,7 @@ Use either the keyboard shortcuts or click the Preview button.
 ___
 
 Q: How to open the User settings?  
-A: follow the following steps:
+A: Follow the following steps:
 
 - Open the command palette (either with F1 or Ctrl+Shift+P)
 - Type *"open settings"*
@@ -105,6 +105,15 @@ Or VS Code includes a button in the Settings UI gutter which can be used to swit
 
 Q: How to spell check code and document?  
 A: Use the extension [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker). Put your cursor in the word, use `Cmd`+`.` to show suggestions and select.
+
+
+
+Q: How to ignore unknown words?  
+A: Go to Settings (⌘,) → `cSpell.diagnosticLevel` → Choose `Hint`  from the drop down menu. 
+
+<img src="https://drive.google.com/thumbnail?id=1ZxDhrGmvNKGtokZ88epXUw7zw7hEG3Dl&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+
+
 
 
 

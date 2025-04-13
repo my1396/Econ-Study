@@ -494,7 +494,9 @@ ___
 
 **Ellipsis**
 
-- Use a space both before and after an ellipsis. 
+- An ellipsis should be treated as a three-letter word.
+
+- Use <span style='color:#00CC66'>a space both before and after</span> an ellipsis. 
 
 - Do not add a full stop if the ellipsis ends a sentence.
 

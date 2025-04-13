@@ -102,8 +102,8 @@ $.
 
 Vectors are lowercase and matrices are uppercase symbols. Both vectors and matrices are written in bold-italic. 
 
-- Vectos $\boldsymbol a$, $\boldsymbol b, \boldsymbol c$  are produced by `\mathbfit a` or `\boldsymbol a`... ; vectors can also be denoted by Greek lowercase letters: $\boldsymbol{\alpha, \ldots \omega}$
-- Matrices $\boldsymbol A, \boldsymbol B, \boldsymbol C$ by `\mathbfit A` or `\boldsymbol a` ... ; matrices can also be deonoted by Greek uppercase letters: $\boldsymbol{\Gamma, \ldots, \Theta}$
+- Vector $\boldsymbol a$, $\boldsymbol b, \boldsymbol c$  are produced by `\mathbfit a` or `\boldsymbol a`... ; vectors can also be denoted by Greek lowercase letters: $\boldsymbol{\alpha, \ldots \omega}$
+- Matrices $\boldsymbol A, \boldsymbol B, \boldsymbol C$ by `\mathbfit A` or `\boldsymbol a` ... ; matrices can also be denoted by Greek uppercase letters: $\boldsymbol{\Gamma, \ldots, \Theta}$
   - $A=[a_{i,j}]$ to show the components of matrix $\boldsymbol A$.
 - Sets are denoted by capital letters $A, B, C, \ldots$
 
