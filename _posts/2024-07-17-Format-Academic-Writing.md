@@ -478,6 +478,17 @@ Use a comma (often called a “serial comma” or “Oxford comma”) before the
 
 
 
+Q: When "etc." is at the end of a sentence, should I put an extra period after it?  
+A: No. For example:
+
+> It’s all about apples, oranges, bananas, etc.
+
+This one is simple enough: never double up periods.
+
+A more general rule: when an abbreviation comes at the end of a sentence, only one full stop is written. 
+
+
+
 **Forward Slashes** (/)
 
 - If the slash divides <u>two words</u>, there is NO need to include a space on either side of a forward slash.
@@ -732,7 +743,7 @@ Should include the following info:
 | ------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Book: 2 Authors, and Edition    | According to Moran and Toner (2017)… <br />**OR**<br /> … this is evident (Moran & Toner, 2017). | Moran, A., & Toner, J. (2017). A critical introduction to sport psychology (3rd ed.). Routledge.<br/><br/>**The edition number is included after the title of the work (not necessary for first editions).** |
 | Book: 3 to 20 Authors, with DOI | Interval training involves "performing for a comparatively shorter time period during each exercise session" (Haile et al., 2015, p. 135).<br/>OR<br/>Haile et al. (2015) note that interval training involves "performing for a comparatively shorter time period during each exercise session" (p.135).<br/><br/>**Where there are 3 or more authors cite only the first author's surname followed by et al.** | Haile, L., Gallagher, M., & Robertson, R. J. (2015). Perceived exertion laboratory manual: From standard practice to contemporary application. Springer. https://doi.org/10.1007/978-1-4939-1917-8<br/><br/>**Provide the names of all authors in the reference list, up to and including 20 authors.**<br/><br/>**For a book with 21 or more authors follow the same author format as for a journal article with 21 or more authors.** |
-| Book chapter: Case Study        | Scerri & Presbury (2022) use a service language model...     | Scerri, M., & Presbury, M. (2022). The power of words: A case study of service language in an Australian five-star hotel. In S. M. Perry (Ed.), Case based research in tourism, travel, hospitality and events (pp. 117-133). Springer. https://doi. https://doi.org/10.1007/978-981-16-4671-3_7 |
+| Book chapter: Case Study        | Scerri & Presbury (2022) use a service language model...     | - General syntax: Author(s) (year). Title of chapter, *Title of book* (in italics), page reference, publisher. DOI/URL.<br />- Example: Scerri, M., & Presbury, M. (2022). The power of words: A case study of service language in an Australian five-star hotel. In *S. M. Perry (Ed.), Case based research in tourism, travel, hospitality and events* (pp. 117-133). Springer. <https://doi.https://doi.org/10.1007/978-981-16-4671-3_7> |
 |                                 |                                                              |                                                              |
 
 
