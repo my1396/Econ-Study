@@ -579,7 +579,9 @@ ___
   - The meaning of a number is clear: Alex wears the number 13 jersey.
   - Note that <u>after the first time</u> you define a key term, you will format it normally.
 
+- Curly vs Straight
 
+  Recommend to use curly quotation marks because they are more legible.
 
 **Useful resources**:
 
@@ -771,6 +773,12 @@ It is not necessary for an ISBN and DOI to be issued for the same publication un
   Reviewers might refer to line numbers.
 
 - Font size: 12 pt
+
+
+
+### Revision
+
+A summary of what was done for the revision, main updates. It helps reviewers to refresh memory.
 
 
 

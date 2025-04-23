@@ -214,13 +214,31 @@ Document: <https://tevgeniou.github.io/EquityRiskFactors/CompustatManualChpt5.pd
 
 
 
-**Fama-French data library** 
+___
+
+## Fama-French data library
 
 <http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html>
 
+The Fama/French factors are constructed using the 6 **value-weight** portfolios formed on size (small-big) and book-to-market (value-neutral-growth).
 
 
 
+K. French's data library gets **updated with a delay**. As of April 2025, the data is up to the end of 2024.
+
+Alternatives of the FF data library are:
+
+- Mkt-RF: [Dow Jones U.S. Total Stock Market Index](https://www.spglobal.com/spdji/en/indices/equity/dow-jones-us-total-stock-market-index/#overview) minus [S&P U.S. Treasury Bill 0-3 Month Index](https://www.spglobal.com/spdji/en/indices/fixed-income/sp-us-treasury-bill-0-3-month-index/#overview)
+- SMB: [Dow Jones U.S. Thematic Market Neutral Size Index](https://www.spglobal.com/spdji/en/indices/dividends-factors/dow-jones-us-thematic-market-neutral-size-index/#overview)
+- HML: [Dow Jones U.S. Thematic Market Neutral Value Index](https://www.spglobal.com/spdji/en/indices/dividends-factors/dow-jones-us-thematic-market-neutral-value-index/#overview)
+
+Dow Jones US Thematic Indices are equal-weighted. See Methodology [HERE](https://www.spglobal.com/spdji/en/documents/methodologies/methodology-dj-us-thematic-neutral.pdf).
+
+It's important that we use market-neutral indices to replace the factors. A value or large-cap index or ETF would not do the trick, as these only cover the long side.
+
+
+
+___
 
 ## Norway
 
