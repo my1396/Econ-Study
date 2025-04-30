@@ -32,7 +32,25 @@ update: 2024-07-16
 
 - **Physical units must <span style='color:#00CC66'>not</span> be italicized.** For example, 1.2 dB is correct, while 1.2 *dB* is not.
 
-- Constant *e*, the imaginary unit *i* and the function symbol *f(x)* should be <span style='color:#00CC66'>*italicized*</span>. 
+- Mathematical constants whose values never change, such as $\uppi, \mathrm e$, the imaginary unit $\mathrm i^2=-1$, are recommended to be not in italic SO 80000, IUPAC, NIST, and ACS, but italicizing these expressions is <u>also very common</u>.  
+
+- The generic function symbols, such as $f(x)$ and $g(x)$, should be <span style='color:#00CC66'>*italicized*</span>. 
+
+  The standard function names, such as $\sin$ and $\cos$, should be in upright.
+
+  The general rule is <span style='color:#00CC66'>*italic*</span> vs. <span style='color:#FF9900'>upright</span>:
+
+  - Physical <span style='color:#00CC66'>quantities or variables</span> are in <span style='color:#00CC66'>*italic*</span>
+
+    <span style='color:#00CC66'>Vectors, tensors, and matrices</span> are usually denoted using a bold-face (heavy) font, but they should still be italic since they are still quantities.
+
+  - Symbols representing <span style='color:#FF9900'>units or labels</span>, are <span style='color:#FF9900'>roman (upright)</span>, using `\text{}` (math symbols won't be rendered) or `\mathrm{}` (math symbols will be rendered as usual)
+
+    Quantities, or variables, can be given a value, but labels cannot.
+
+    > When the symbol $\mu$ is used to denote a physical quantity (such as mass or reduced mass) it should be italic, but when it is used in a unit such as the microgram, $\upmu \mathrm{g}$ , or when it is used as the symbol for the muon, $\upmu$, it should be roman.
+
+    Descriptive supersripts/subscripts should be in upright; but upersripts/subscripts that refer to a physical quantity or a mathematical variable, should be in italic.
 
 - There should be a space before and after arithematic operators. E.g., 2.5 ± 0.07. 
 
@@ -179,8 +197,8 @@ ___
     - Use <span style='color:#00CC66'>`\textemdash`</span> safe to encoding changes, ✅
     - Option + Shift + hyphen key (<span style='color:#FF9900'>Required unicode support! **Not safe**.</span>)
   
-  - Function: An em dash is usually used to mark abreak in a sentence in place of a semicolon (`;`) or colon (`:`).   
-    Can also be used in paris to add additional information that is not essential to understand the sentence. Function similarly to parentheses or a pair of commas.
+  - Function: An em dash is usually used to mark a break in a sentence in place of a semicolon (`;`) or colon (`:`).   
+    Can also be used in paris to <u>add additional information</u>, such as examples, explanatoryor descriptive phrases, or supplemental facts, that is not essential to understand the sentence. Function similarly to parentheses or a pair of commas.
   
     E.g.,   
     Dark, leafy greens — such as spinach, kale, and chard — are an important part of a healthy diet.
@@ -671,6 +689,25 @@ Many Latin abbreviations are used in APA Style papers to save space. Use the fol
 
 
 
+**Italic Fonts**
+
+An italic font is generally used for emphasis in running text, but it has a quite specific meaning when used for symbols in scientific text and equations.
+
+Rule of thumb:
+
+- Physical <span style='color:#00CC66'>quantities or variables</span> are in <span style='color:#00CC66'>*italic*</span>
+- Symbols representing <span style='color:#FF9900'>units or labels</span>, are <span style='color:#FF9900'>roman (upright)</span>, using `\mathrm{}`
+
+ Further readings:
+
+- The ISO Standards Handbook, *Quantities and Units*, ISO 8000, need to purchase to read
+- BIPM: [The International System of Units (SI)](http://www.bipm.org/en/publications/si-brochure/), free
+
+- IUPAC: [Quantities, Units and Symbols in Physical Chemistry (Green Book) 2011](https://iupac.org/wp-content/uploads/2019/05/IUPAC-GB3-2012-2ndPrinting-PDFsearchable.pdf), free
+- NIST: [Guide for the Use of the International System of Units (SI)](http://www.nist.gov/pml/pubs/sp811/)
+- ACS: [The ACS Style Guide](http://dx.doi.org/10.1021/bk-2006-STYG)
+- Related question on [TeX.SE](https://tex.stackexchange.com/questions/33120/should-subscripts-in-math-mode-be-upright)
+
 
 
 ## References
@@ -764,9 +801,9 @@ It is not necessary for an ISBN and DOI to be issued for the same publication un
 
 
 
-## Prepare for submission 
+## Prepare for submission
 
-- Include page numbers and continuous line numbers in the manuscript file.
+- Include page numbers and continuous <span style='color:#00CC66'>line numbers</span> in the manuscript file.
 
   Line numbers DO NOT begin with "1" on each page. 
 
@@ -776,9 +813,17 @@ It is not necessary for an ISBN and DOI to be issued for the same publication un
 
 
 
+___
+
 ### Revision
 
-A summary of what was done for the revision, main updates. It helps reviewers to refresh memory.
+- A summary of what was done for the revision, main updates. It helps reviewers to refresh memory. 方便他人也就方便了自己。
+
+- Point-to-point reviewer response letter
+
+  可以用颜色区分，reviewer 的点 (蓝色) 和文章回应 (黑色)。
+
+  或者用字体区分，reviewer 的点 (serif) 和文章回应 (sans-sarif)。
 
 
 

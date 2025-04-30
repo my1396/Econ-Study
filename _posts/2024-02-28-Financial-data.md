@@ -14,7 +14,7 @@ Financial data processing caveats:
 
 2. Mind the unit. Many returns are denominated in percentage.
    1. Returns must have matched frequency. E.g., CAPM, monthly equity returns to monthly factors, annual to annual.
-   1. Remember to annualize the return if the data is monthly in order to get comparable return results.
+   1. Remember to annualize the return if the data is monthly/daily in order to get comparable return results.
    
 3. Missing values
    1. choose samples with a threshold length, such that individuals with too few observations are removed.
@@ -24,6 +24,12 @@ Financial data processing caveats:
    For instance, a monthly return is unlikely to be 20%, annual return of 20% makes more sense. 
 
    If you see a monthly return 1.73, it is likely that it is pct-based, i.e., 1.73%, rather than 1.73 times.
+
+
+
+Common return terms
+
+- YTD: year-to-date, measures the return over the period starting from the beginning of the current year up to the present day.
 
 
 
