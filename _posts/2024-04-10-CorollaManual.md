@@ -96,6 +96,34 @@ F 显示变更按钮
 
 
 
+## 电子驻车制动器
+
+手动模式下
+
+- 拉起启动驻车制动
+- 按下解除驻车制动
+
+自动模式
+
+- 车辆停止时，拉起驻车制动开关，直至多信息显示屏显示信息，“EPS和换挡的互锁功能已启动”。
+
+  <img src="https://drive.google.com/thumbnail?id=1ZyFKOo23nqWcMPwAaYPSnFs0Bl8u4E5a&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+自动模式打开时，驻车制动如下工作。
+
+- 将换档杆移出P 档时，将解除驻车制动，且驻车制动指示灯和驻车制动灯将熄灭。
+- 将换档杆移入P 档时，将设定驻车制动，且驻车制动指示灯和驻车制动灯将点亮。
+
+关闭自动模式
+
+- 车辆停止且踩下制动踏板时，按住驻车制动开关直至多信息显示屏上显示信息，“EPS和换挡的互锁功能已解除”。
+
+  <img src="https://drive.google.com/thumbnail?id=1QfOyddy8qgFkO6dUUG19qCshyU97Wu7F&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
+
+
+
 ___
 
 ## 轮胎
@@ -129,7 +157,7 @@ ___
 
 7. 按下 &and; 或者 &or; 选择“设置轮胎气压”，按下 OK 直至轮胎压力警告灯闪烁3次。
 
-8. 以约40 km/h （公里/ 小时）或更高速度直线行驶（偶尔左右转向）约10 至30分钟。
+8. 以约 40 km/h （公里/ 小时）或更高速度直线行驶（偶尔左右转向）约10 至30分钟。
 
    各轮胎位置确定且多信息显示屏上显示各轮胎气压时，初始化完成。
    在某些情形下(如车辆等红绿灯而长时间停车时)，初始化时间可能超过约1小时。

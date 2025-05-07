@@ -2591,8 +2591,86 @@ For a constant significance level,  $\alpha$ , if $n$ increases, $\beta$ decreas
 
 **Confusion matrix**
 
-<img src="https://drive.google.com/thumbnail?id=18fKUj-dZ7ZLhxPAegyud4Smxqsij8Ahj&sz=w1000" alt="Confusion matrix" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+<img src="https://drive.google.com/thumbnail?id=11N5Zr3pnTKJiTAlStrvt3hervdmG3XNj&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
+**Precision** is the proportion of all the model's positive classifications that are actually positive.
+
+$$
+\text{Precision} = 
+\frac{\text{correctly classified actual positives}}
+{\text{everything classified as positive}} 
+= \frac{TP}{TP+FP}
+$$
+
+
+The **True Positive Rate** (TPR), or the proportion of all actual positives that were classified correctly as positives, is also known as **recall**.
+
+A hypothetical perfect model would have zero false negatives and therefore a recall (TPR) of 1.0, which is to say, a 100% **detection rate**.
+
+In an imbalanced dataset where the number of actual positives is very low, recall is a more meaningful metric than accuracy because it measures the ability of the model to correctly identify all positive instances. For applications like disease prediction, <u>correctly identifying the positive cases is crucial</u>. A false negative typically has more serious consequences than a false positive. 
+
+$$
+\text{Recall (or True Positive Rate, TPR)} = 
+\frac{\text{correctly classified actual positives}}
+{\text{all actual positives}} 
+= \frac{TP}{TP+FN}
+$$
+
+
+The **False Positive Rate** (FPR) is the proportion of all actual negatives that were classified incorrectly as positives, also known as the **probability of false alarm**. 
+
+$$
+\text{FPR} =
+\frac{\text{incorrectly classified actual negatives}}
+{\text{all actual negatives}}
+= \frac{FP}{FP+TN}
+$$
+
+Precision improves as false positives decrease, while recall improves when false negatives decrease.
+
+
+**Receiver-operating characteristic curve** (ROC)
+
+The ROC curve is a visual representation of model performance across all thresholds.
+
+
+The ROC curve is drawn by calculating the true positive rate (TPR) and false positive rate (FPR) at every possible threshold (in practice, at selected intervals), then graphing TPR over FPR. 
+
+
+A perfect model, which at some threshold has a TPR of 1.0 and a FPR of 0.0, can be represented by either a point at (0, 1) if all other thresholds are ignored, or by the following:
+
+<figure style="text-align: center;">
+<img src="https://developers.google.com/static/machine-learning/crash-course/images/auc_1-0.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+<figcaption>ROC and AUC of a hypothetical perfect model. Source: <a href="https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc#:~:text=The%20ROC%20curve%20is%20a,holdover%20from%20WWII%20radar%20detection.">Machine Learning, Google for Developers.</a> </figcaption>
+</figure>
+
+Toggle thresholds and see how metrics and ROC curve change:
+<https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc#auc_and_roc_for_choosing_model_and_threshold>
+
+
+The area under the ROC curve (AUC) represents the probability that the model, if given a randomly chosen positive and negative example, will rank the positive higher than the negative.
+
+<figure style="text-align: center;">
+<img src="https://developers.google.com/static/machine-learning/crash-course/images/auc_0-5.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:100%;" />
+<figcaption>ROC and AUC of completely random guesses.</figcaption>
+</figure>
+
+
+For a binary classifier, a model that does exactly as well as random guesses or coin flips has a ROC that is a diagonal line from (0,0) to (1,1). The AUC is 0.5, representing a 50% probability of correctly ranking a random positive and negative example.
+
+The points on a ROC curve closest to (0,1) represent a range of the best-performing thresholds for the given model.
+
+<figure style="text-align: center;">
+<img src="https://developers.google.com/static/machine-learning/crash-course/images/auc_abc.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:100%;" />
+<figcaption>Three labeled points representing thresholds.</figcaption>
+</figure>
+
+If false positives (false alarms) are highly costly, it may make sense to choose a threshold that gives a lower FPR, like the one at point A, even if TPR is reduced. Conversely, if false positives are cheap and false negatives (missed true positives) highly costly, the threshold for point C, which maximizes TPR, may be preferable. If the costs are roughly equivalent, point B may offer the best balance between TPR and FPR.
+
+A concrete example: Imagine a situation where it's better to allow some spam to reach the inbox than to send a business-critical email to the spam folder. You've trained a spam classifier for this situation where the positive class is spam and the negative class is not-spam. In this use case, it's better to minimize false positives, even if true positives also decrease. Choose point A.
+
+
+___
 
 Q: When should we use one-tailed hypothesis testing? \
 A: Authors should explain why they are more interested in an effect in one direction not the other.
