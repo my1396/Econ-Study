@@ -117,7 +117,7 @@ And hence
 
 $$
 \sqrt{n} (\hat{\beta}-\beta) \xrightarrow{d} N(0, M_{XX}^{-1} M_{X\Omega X} M_{XX}^{-1}).
-$$ 
+$$
 <span style="float:right">$\square$</span>
 
 
@@ -239,9 +239,12 @@ $$
 
 $t_k$ will be compared with the crit. value of $\text{N}(0,1)$ at the desired sig. level.
 
-
 Why can we treat $t_k$ here as a draw from the standard normal distribution, even though we have estimated the unknown $\sigma_2$? \
 This is justified by an asymptotic approximation that a $t(n-K)$ random variable converges in distribution to a $\text{N}(0,1)$ as $n\to\infty$.
+
+
+
+___
 
 
 ## Multiple linear restrictions
@@ -277,6 +280,10 @@ $$
 This test only has an asymptotic justification, and we know that $p$ times a $F(p, n-K)$ random variable converges in distribution to a $\chi^2(p)$ as $n\to\infty$.
 
 $w$ is called an Wald statistic, the corresponding test is called an **Wald test**.
+
+
+
+___
 
 
 ## The Delta Method

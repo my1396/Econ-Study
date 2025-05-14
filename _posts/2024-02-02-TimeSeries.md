@@ -235,7 +235,7 @@ ___
 
 ## Strictly Stationary
 
-We say $\lbrace Z_t\rbrace_{t=0}^n$ is <span style='color:#008B45FF'>*strictly (or strongly) stationary*</span> if the same joint distribution of
+We say $\lbrace Z_t\rbrace_{t=0}^n$ is <span style='color:#008B45'>*strictly (or strongly) stationary*</span> if the same joint distribution of
 
 $$
 (Z_{t_1}, \ldots, Z_{t_n})
@@ -269,9 +269,9 @@ Basic properties of a strictly stationary time series $\lbrace Z_t\rbrace$:
 3. Since the above condition holds for all sets of time points $t_1, t_2, \ldots, t_n$, it must hold when $n = 2$; i.e., there are only two time points. \
 This implies 
 
-    $$
+   $$
     (Y_t, Y_s) \overset{\rm d}{=} (Y_{t-k}, Y_{s-k}).
-    $$
+   $$
 
     for all $t,s,$ and $k$.
 
@@ -297,6 +297,7 @@ $$
 In many situations, a nonstationary process $\{Y_t\}$ can be “transformed” into a stationary process by *taking (first) differences*. For example, the random walk $Y_t = Y_{t−1} + \varepsilon_t$, where $\varepsilon_t \sim \text{iid } N (0, \sigma_\varepsilon^2)$, is not stationary. However, the first difference process $\Delta Y_t = Y_t − Y_{t−1} = \varepsilon_t$ is zero mean white noise, which is stationary.
 
 <span style='color:#337ab7'>Stationarity does NOT mean</span>
+
 - limited dependence \
   The autocovariance relies on the time shift.
 - absence of periodic patterns \
@@ -305,10 +306,9 @@ In many situations, a nonstationary process $\{Y_t\}$ can be “transformed” i
 
 Useful properties of stationarity
 
-<div class = "boxed" style="margin-bottom: 40px;">
+<div class = "boxed">
 <strong>Theorem</strong>  If $\boldsymbol{y}_t$ is strictly stationary and $\boldsymbol{x}_t=\boldsymbol{\phi}(\boldsymbol{y}_t, \boldsymbol{y}_{t-1}, \boldsymbol{y}_{t-2}, \ldots) \in \mathbb{R}^q$ is a random vector, then $\boldsymbol{x}_t$ is strictly stationary.
 </div>
-
 
 - Stationarity is preserved by transformation. That is,
 transformations of strictly stationary processes are also strictly stationary.

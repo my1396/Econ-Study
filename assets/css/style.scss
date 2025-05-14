@@ -7,15 +7,10 @@
   "minima/initialize";
 
 /* Bullet List */
-ol, ul {
-  margin-top: -20px;
-}
 li {
   margin-top: 10px;
 }
-li:first-child {
-  margin-top: 20px;
-}
+
 
 /* Margin for social icons */
 #social {
@@ -161,10 +156,16 @@ body {
 }
 /* Chinese font */
 .comment {
-  font-family: STKaiti, BiauKai, KaiTi, sans-serif;
+  font-family: STKaiti, BiauKai, KaiTi, SimSun, sans-serif;
+}
+:lang(ch) {
+  font-family: STKaiti, BiauKai, KaiTi, SimSun, sans-serif;
 }
 p {
-  margin: 30px 0;
+  margin: 18px 0; /* paragraph spacing */
+}
+mjx-container[display="true"] {
+  margin: .5em 0 ! important; /* spacing around eqs */
 }
 h1,
 h2,
@@ -232,7 +233,7 @@ pre {
 
 .toc ul>li:first-child {
   // nested bullet list
-  margin-top: 20px !important;
+  margin-top: 5px !important;
 }
 
 /* Back-to-top button */

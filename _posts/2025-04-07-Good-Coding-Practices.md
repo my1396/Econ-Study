@@ -127,6 +127,8 @@ ___
 
   Continuation lines should align wrapped elements vertically.
 
+  function arguments align with opening delimiter 函数参数与起始括号对齐
+
   ```python
   # Good
   # Aligned with opening delimiter.
@@ -136,7 +138,8 @@ ___
   foo2 <- function(
     first_arg, second_arg, third_arg
   ){
-    create_file <- readxl::read_excel(path = first_arg, sheet = second_arg, 
+    create_file <- readxl::read_excel(path = first_arg, 
+                                      sheet = second_arg, 
                                       range = third_arg)
   }
   ```
@@ -148,7 +151,7 @@ ___
 
   <img src="https://www.computerhope.com/jargon/h/hangiden.png" alt="Hanging indent" style="display: block; margin-right: auto; margin-left: auto; zoom:100%;" />
 
-  Could use a hanging indent where there should be no arguments on the first line and further indentation should be used to clearly distinguish itself as a continuation line.
+  Could use a hanging indent where there should be <u>no arguments on the first line</u> (i.e., the last non-whitespace character of the line is the opening parenthesis) and <u>further indentation should be used</u> to clearly distinguish itself as a continuation line until the closing parenthesis.
 
   ```python
   # Good
@@ -159,20 +162,29 @@ ___
       print(var_one)
   
   # Hanging indents *may* be indented to other than 4 spaces.
+  # Indent by 2 spaces
   foo = long_function_name(
     var_one, var_two,
     var_three, var_four)
-  
-  # Bad
-  # Hanging indents should add a level.
+  # Indent by 4 spaces
   foo = long_function_name(
       var_one, var_two,
       var_three, var_four)
   
+  # Add 4 spaces (an extra level of indentation) to 
+  # distinguish arguments from the rest.
+  def long_function_name(
+        var_one, var_two, var_three,
+        var_four):
+      print(var_one)
+      
+  # Bad
   # Arguments on first line forbidden when not using vertical alignment.
+  # This makes it hard to spot where the definition begins and ends.
   foo = long_function_name(var_one, var_two,
       var_three, var_four)
   
+  # Hanging indents should add a level.
   # Further indentation required as indentation is not distinguishable.
   def long_function_name(
       var_one, var_two, var_three,
@@ -187,8 +199,10 @@ ___
       do_something()
   ```
 
-- The closing brace/bracket/parenthesis on multiline constructs may either line up under the first non-whitespace character of the last line of list, as in:
+- The closing brace/bracket/parenthesis on multiline constructs may 
 
+  - either line up under the first non-whitespace character of the last line of list, as in:
+  
   ```python
   # line up under the first non-whitespace character
   my_list = [
@@ -201,8 +215,8 @@ ___
       )
   ```
 
-  or it may be lined up under the first character of the line that starts the multiline construct, as in:
-
+  - or it may be lined up under the first character of the line that starts the multiline construct, as in:
+  
   ```python
   # line up with the variable definition
   my_list = [
@@ -732,8 +746,9 @@ plot_colours <- function(colours) {
     plot_data <- data.frame(Colour = colours)
     
     ggplot2::ggplot(plot_data,
-                    ggplot2::aes(x = .data$Colour, y = 1, fill = .data$Colour,
-                                 label = .data$Colour)) +
+        ggplot2::aes(x = .data$Colour, y = 1, 
+                     fill = .data$Colour,
+                     label = .data$Colour)) +
         ggplot2::geom_tile() +
         ggplot2::geom_text(angle = "90") +
         ggplot2::scale_fill_identity() +

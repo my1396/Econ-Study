@@ -117,6 +117,19 @@ A: Go to Settings (⌘,) → `cSpell.diagnosticLevel` → Choose `Hint`  from th
 
 
 
+Q: How to get a preview of Rmarkdown?  
+A: Open `settings.json`, add the following code inside the braces.
+
+```css
+"files.associations": {
+     "*.Rmd": "markdown"
+}
+```
+
+
+
+
+
 ___
 
 ### SQL Server (MSSQL)

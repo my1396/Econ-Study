@@ -282,7 +282,11 @@ Homepage: <https://uit.no/forskning/forskningsgrupper/sub?sub_id=417205&p_docume
 
 TITLON is a database with financial data on stocks, indicies, bonds, funds and derivatives from all exhanges at EURONEXT and with data from Oslo Stock Exchange back to 1980. 
 
+You need to be connected to your institution vis VPN, or be at the institution, in order to download data from TITLON.
+
 Field Description: <https://titlon.uit.no/tabledefs.php>
+
+But there is NO documentation providing details or explaining the methodology behind the fields.
 
 - Table `equity`
 
@@ -343,7 +347,7 @@ Field Description: <https://titlon.uit.no/tabledefs.php>
 | <span style='color:#00CC66'>lnDeltaOSEBX</span>        | float(8)    | log return of the OSEBX index, market benchmark return       |
 | lnDeltaOBX                                             | float(8)    | log return of the OBX index                                  |
 | <span style='color:#00CC66'>NOWA_DayLnrate</span>      | float(8)    | Log difference of Norwegian Overnight Weighted Average rate from the norwegian central bank after 2013. NIBOR before that. Risk-free rate. |
-| <span style='color:#00CC66'>bills_3month_Lnrate</span> | float(8)    | 3 months Norwegian Goverment Bills, from the bondindex table, CloseYield field. |
+| <span style='color:#00CC66'>bills_3month_Lnrate</span> | float(8)    | risk free rate given by 3 months Norwegian Goverment Bills, from the `bondindex` table, `CloseYield` field. |
 | Sector                                                 | varchar(50) | Sector                                                       |
 | IN_OSEBX                                               | int(4)      | True if the stock is in the OSEBX index at the moment        |
 | Equity                                                 | float(8)    | Amount of Equity                                             |
@@ -354,14 +358,17 @@ Field Description: <https://titlon.uit.no/tabledefs.php>
 
 
 
-
+___
 
 ### Risk free rate (RFR)
 
 - Before 2013 NIBOR: [Norges Bank](https://www.norges-bank.no/en/topics/Statistics/Historical-monetary-statistics/)
 
 - After 2013 Norwegian Overnight Weighted Average rate: [Norske Finansielle Referenser AS (NoRe)](https://nore-benchmarks.com)
-- [Titlon](https://titlon.uit.no/tabledefs.php): 3 months Norwegian Government Bills, from the `bondindex` table, `CloseYield field`.
+
+- [Titlon](https://titlon.uit.no/tabledefs.php): 3 months Norwegian Government Bills, from the `bondindex` table, `CloseYield` field.
+
+  Interactive charts 2015–2023: <https://www.worldgovernmentbonds.com/bond-historical-data/norway/3-months/>
 
 
 
@@ -371,11 +378,17 @@ Financial service companies publish surveys about financial data. For instance, 
 
 
 
+Regarding risk free rates, it is important to use common sense to determine:
+
+- if the interest rate is in percent;
+- if the interest rate is annualized;
 
 
 
+___
 
 **Asset Pricing data at OSE**
 
 <https://ba-odegaard.no/financial_data/ose_asset_pricing_data/index.html>
 
+It is important to match return frequency, e.g., daily, monthly, etc.

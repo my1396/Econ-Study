@@ -5,6 +5,8 @@ tag: study
 update: 2024-07-16
 ---
 
+<a class="top-link hide" href="#" id="js-top">↑</a>
+
 
 
 ## Math Symbols & Equations
@@ -96,11 +98,13 @@ update: 2024-07-16
 
   - Negative currency numbers are indicated in several ways
 
-    - Parentheses. E.g., ($100).
+    - Parentheses. E.g., (\\$$100$).
 
-    - A minus sign in front of the currency symbol. E.g., -$100. Do NOT put a space between the minus sign and the value.
+    - A minus sign in front of the currency symbol. E.g., $-\\$100$. Do NOT put a space between the minus sign and the value.
 
-      In EU countries, minus sign is also put behind the currency symbol, e.g., $-100.
+      In EU countries, minus sign is also put behind the currency symbol, e.g., $\\$\text{–}100$.
+      
+      
 
 
 
@@ -110,8 +114,40 @@ update: 2024-07-16
   - Identifiers (which can be superscript or subscript words, letters, or numbers) are not italicized. E.g., $M_{\text{girls}}=4.22,$ the symbol for mean is italicized, but the nonvariable identifier `girls` is NOT italicized.
 
 - Vectors should be in **bold** type.
+
 - Functions should be as roman type. E.g., $\exp, \ln, \arg$.
-- If you need to break <u>one long expression</u>, the <span style='color:#00CC66'>math operator such as `+` should be on the next line</span>.
+
+- If you need to break <u>one long expression</u>, the <span style='color:#00CC66'>math operator such as `+` should be on the next line</span> and the continuing lines shall have additional indentation.
+
+  长公式换行的时候，运算符放在下一行，且需要缩进。
+
+  
+  $$
+  \begin{equation*}
+  \begin{split}
+  f(x,y) & =a\\
+         & =b\\
+         &\phantom{=}\, +c\\
+         &\phantom{=}\, +d.
+  \end{split}
+  \end{equation*}
+  $$
+  
+
+  This is achieved with `\phantom{=}` command.
+
+  ```latex
+  \begin{equation}
+  \begin{split}
+  f(x,y) & =a\\
+         & =b\\
+         &\phantom{=}\, +c\\
+         &\phantom{=}\, +d.
+  \end{split}
+  \end{equation}
+  ```
+
+  
 
 
 
@@ -614,19 +650,21 @@ If more are required, they can be doubled up: double asterisks (**), double sing
 
 
 
+
+
 This is a sentence with a footnote.<sup>[1]</sup>
 
-<sup>[1]</sup>Supplementary information about the sentence.
+<sup>[1]</sup> Supplementary information about the sentence.
 
 
 
 Note that
 
-- the superscript number <sup>[1]</sup> follows the sentence in the text directly, with <u>no space</u> before a footnote callout. 
-- should be placed after any punctuation, except an end parenthesis if the footnote pertains specifically to the text inside the parentheses  
+- Should be <u>placed after any punctuation</u>, except an end parenthesis if the footnote pertains specifically to the text inside the parentheses.
+- The superscript number <sup>[1]</sup> follows the sentence in the text directly, with <u>no space</u> before a footnote callout. 
 - Depending on the referencing methods – APA, MLA, Oxford, Chicago, etc, there are different styles for the footnotes:
+  - APA 7: <u>put a space</u> between the footnote number and the footnote itself.
   - Turabian Style (or Chicago Style): Leave <u>no space</u> between the superscript (footnote number) and the first word in the footnote.
-  - APA 7: put a space between the footnote number and the footnote itself.
 
 
 
