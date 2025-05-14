@@ -128,6 +128,9 @@ A: Open `settings.json`, add the following code inside the braces.
 
 
 
+Q: How to change [Markdown preview security](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview-security)?  
+A: You can change what content is allowed in the Markdown preview by clicking on the popup or running the `Markdown: Change preview security settings` command in any Markdown file.
+
 
 
 ___

@@ -20,43 +20,16 @@
 </html>
 
 
-<!-- enable inline eqn and add new macro definitions -->
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [   // start/end delimiter pairs for in-line math
-        ['$', '$'], 
-        ['\\(', '\\)'] 
-      ],
-      displayMath: [  // start/end delimiter pairs for display math
-        ['$$', '$$'],
-        ['\\[', '\\]']
-      ],
-      processEscapes: true, // use \$ to produce a literal dollar sign
-      macros: { // define your own commands here
-        indep: "{\\perp \\!\\!\\! \\perp}",
-      },
-      tags: 'ams',
-    },
-
-    svg: {
-      fontCache: 'global'
-    },
-
-    tex2jax: {
-      inlineMath: [ ['$','$'], ['\\(','\\)'] ],
-      processEscapes: true, 
-    },
-  };
-</script>
+<!-- load MathJax config file -->
+<script src="{{site.baseurl}}/assets/js/mathjax-config.js" defer></script>
 
 <!-- load MathJax -->
-<script type="text/javascript" id="MathJax-script" async
+<script type="text/javascript" id="MathJax-script" defer
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
 <!-- load custom js script -->
-<script src="{{ site.baseurl}}/assets/js/script.js"></script>
+<script src="{{site.baseurl}}/assets/js/script.js"></script>
 
 <!-- load syntax css -->
 <link href="{{site.baseurl}}/assets/css/syntax.css" rel="stylesheet" >

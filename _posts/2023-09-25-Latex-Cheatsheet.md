@@ -29,9 +29,9 @@ Ordinary hat `\hat{\beta}` gives $\hat{\beta}$.
 
 ## Vectors
 
-`\vec`: $\vec{A}$
+`\vec{A}`: $\vec{A}$
 
-`\overrightarrow`: $\overrightarrow{AB}$
+`\overrightarrow{AB}`: $\overrightarrow{AB}$
 
 Sample average: $\overline{X}$ (`\overline{X}`, line is longer), $\bar{X}$ (`\bar{X}`, bar is shorter)
 
