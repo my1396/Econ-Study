@@ -135,41 +135,20 @@ scholar:
 
 ### Citation
 
-Use the following code to add citation.  `cite` tag with the appropriate key of the item you want to cite.
+<ol>
+<li> Add citation with liquid tags. <br> 
+Use `cite` tag with the appropriate key of the item you want to cite. <br>
 
-{: .text-justify}
+{% highlight liquid %}{% raw %}{% cite Wallace2018 %}{% endraw %}{% endhighlight %} <p style="margin-top:-1.5cm;">&nbsp;</p>
+will always show a parenthesis citing: {% cite Wallace2018 %}
+</li>
 
-{% highlight liquid %}
+<li> 	Add bibliography. <br> 
+The `--cited` option includes only those entries you cited on the page. <br>
+{% highlight liquid %}{% raw %}{% bibliography --cited %}{% endraw %}{% endhighlight %} 
+</li>
 
-{% raw %}
-{% cite Wallace2018 %}
-
-{% endraw %}
-
-{% endhighlight %}
-
-{: .text-justify}
-
-{% cite Wallace2018 %}
-
-
-
-Use this to add bibliography. The `cited` option includes only those entries you cited on the page.
-
-{: .text-justify}
-
-{% highlight liquid %}
-
-{% raw %}
-
-
-{% bibliography --cited %}
-
-{% endraw %}
-
-{% endhighlight %}
-
-{: .text-justify}
+</ol>
 
 
 
@@ -178,6 +157,8 @@ Special thanks to the tutorials in the blogs from [{% cite Danks %}](https://ope
 This blog is build on their original contents. 
 
 
+
+___
 
 **References**
 

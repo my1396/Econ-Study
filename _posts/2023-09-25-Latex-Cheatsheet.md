@@ -59,14 +59,14 @@ Sometimes, hat or bar symbols look too light. You might want a bolder version of
 | :----------------------------------------------------------- | :-------------------------------------------------- | :---------------------------------------------------- |
 | Plain                                                        | `\begin{matrix}1 & 2 & 3\\ a & b & c\end{matrix}`   | $$\begin{matrix}1 & 2 & 3\\ a & b & c\end{matrix}$$   |
 | Parentheses; round brackets                                  | `\begin{pmatrix}1 & 2 & 3\\ a & b & c\end{pmatrix}` | $$\begin{pmatrix}1 & 2 & 3\\ a & b & c\end{pmatrix}$$ |
-| <span style='color:#32CD32'>Brackets</span>; square brackets | `\begin{bmatrix}1 & 2 & 3\\ a & b & c\end{bmatrix}` | $$\begin{bmatrix}1 & 2 & 3\\ a & b & c\end{bmatrix}$$ |
+| <span style='color:#008B45'>Brackets</span>; square brackets | `\begin{bmatrix}1 & 2 & 3\\ a & b & c\end{bmatrix}` | $$\begin{bmatrix}1 & 2 & 3\\ a & b & c\end{bmatrix}$$ |
 | Braces; curly brackets                                       | `\begin{Bmatrix}1 & 2 & 3\\ a & b & c\end{Bmatrix}` | $$\begin{Bmatrix}1 & 2 & 3\\ a & b & c\end{Bmatrix}$$ |
 | Pipes                                                        | `\begin{vmatrix}1 & 2 & 3\\ a & b & c\end{vmatrix}` | $$\begin{vmatrix}1 & 2 & 3\\ a & b & c\end{vmatrix}$$ |
 | Double pipes                                                 | `\begin{Vmatrix}1 & 2 & 3\\ a & b & c\end{Vmatrix}` | $$\begin{Vmatrix}1 & 2 & 3\\ a & b & c\end{Vmatrix}$$ |
 
 Note: 
 
-- <span style='color:#32CD32'>`\\`</span> for <span style='color:#32CD32'>row</span> break, <span style='color:#32CD32'>`&`</span> for <span style='color:#32CD32'>column</span> separation.
+- <span style='color:#008B45'>`\\`</span> for <span style='color:#008B45'>row</span> break, <span style='color:#008B45'>`&`</span> for <span style='color:#008B45'>column</span> separation.
   - sometimes `\\` doesn't work in cloumn vectors, use `\cr` instead.
 
 
@@ -216,7 +216,7 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
 **Note:** 
 
-- use `\vert` or `\mid` ($\vert$) to show a pipe operator, otherwise <span style='color:#32CD32'>Markdown recognizes it as a table column separator</span> in inline equations (block equations enclosed in `$$...$$` works fine though). 
+- use `\vert` or `\mid` ($\vert$) to show a pipe operator, otherwise <span style='color:#008B45'>Markdown recognizes it as a table column separator</span> in inline equations (block equations enclosed in `$$...$$` works fine though). 
 
   - `\lVert` and `\rVert` ($\rVert$) used to take the norm of a vector;
 
@@ -409,7 +409,7 @@ On mac, use `Shift+Opt+9` to type `·`
 
 $\arccos$, $\arcsin$, $\arctan$, $\cos$, $\cosh$, $\cot$, $\coth$, $\sec$, $\sin$, $\sinh$, 
 
-$\deg$, $\det$, $\dim$, ${\color{#32CD32}\exp}$, $\gcd$, $\hom$, $\injlim$, $\projlim$, 
+$\deg$, $\det$, $\dim$, ${\color{#008B45}\exp}$, $\gcd$, $\hom$, $\injlim$, $\projlim$, 
 
 $\lim$, $\liminf$, $\limsup$, 
 
@@ -439,7 +439,7 @@ $\sup$, $\inf$
 
   - $\exp \\{-\frac{1}{2}\left(\frac{x-\mu}{\sigma^2}\right)^2 \\}$ (`\exp \\{-\frac{1}{2}\left(\frac{x-\mu}{\sigma^2}\right)^2 \\}`)
 
-  - If still encounter problems, use `\lbrace` and `\rbrace`: $\exp \lbrace \ldots \rbrace$ (`\exp \lbrace \ldots \rbrace`) and $\lbrace Z_t \rbrace_{t=0}^T$ (`\lbrace Z_t \rbrace_{t=0}^T`). This is the <span style='color:#32CD32'>**safest**</span> way.
+  - If still encounter problems, use `\lbrace` and `\rbrace`: $\exp \lbrace \ldots \rbrace$ (`\exp \lbrace \ldots \rbrace`) and $\lbrace Z_t \rbrace_{t=0}^T$ (`\lbrace Z_t \rbrace_{t=0}^T`). This is the <span style='color:#008B45'>**safest**</span> way.
 
   - Use `\left\lbrace` and `\right\rbrace` if you want to scale the braces with the expression inside. This is called "dynamic delimiter sizing."
 
@@ -461,7 +461,7 @@ $\sup$, $\inf$
 
 **Colored math symbols**
 
-`${\color{#32CD32}\exp}$` ${\color{#32CD32}\exp}$ Need to quote the part you want to color in curly braces; otherwise, everything behind will change color too.
+`${\color{#008B45}\exp}$` ${\color{#008B45}\exp}$ Need to quote the part you want to color in curly braces; otherwise, everything behind will change color too.
 
 
 

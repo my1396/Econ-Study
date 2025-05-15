@@ -5,9 +5,6 @@ tag: study
 update: 2024-10-27
 ---
 
-$$
-\newcommand{\indep}{\perp \!\!\! \perp}
-$$
 
 <head>
     <style>
@@ -69,7 +66,7 @@ where $S$ is the sample space, $\mathcal F(S)=[E_1, E_1, \ldots, ]$ is the event
 
 Sometimes you see a sphere denoted $\mathbb{S}$ or a torus denoted $\mathbb{T}$. 
 
-Mathematical calligraphic font or script letters 花体 (`\mathcal`), uppercase only, font for categories and sheaves.
+Mathematical calligraphic font or script letters 花体 (`\mathcal`), uppercase only, font for categories and sheaves (拓扑空间，层).
 
 -   $\mathcal L$（`\mathcal L`）常用来表示损失函数; log likelihood function;
 -   $\mathcal D$（`\mathcal D`）表示样本集;
@@ -83,6 +80,10 @@ Mathematical sans serif `\mathsf`. Used in expectations, such as $\mathsf E(X)$.
 
 Usually the font command works obly on the following letter. If you want the font to apply to an entire expression, enclose the expression with braces `{}`.
 
+
+$\indep$ independence
+
+$\perp$ uncorrelated
 
 `:=` and $\triangleq$ are used to define a variable.
 
@@ -2574,9 +2575,9 @@ $$\beta=P(\text{fail to reject} H_0\vert H_0 \text{ is false})\,.$$
 $\beta$ is related to the *Power of a test*.
 $\beta = 1-\text{Power of a test} = 1-P(\text{reject } H_0\vert H_0 \text{ is false})\,.$
 
-In hypothesis testing, the <span style='color:#32CD32'>*size of a test*</span> is the (maximum) probability of committing a Type I error, that is, of incorrectly rejecting the null hypothesis when it is true.
+In hypothesis testing, the <span style='color:#008B45'>*size of a test*</span> is the (maximum) probability of committing a Type I error, that is, of incorrectly rejecting the null hypothesis when it is true.
 
-The <span style='color:#32CD32'>*power of a test*</span> refers to the probability of correctly rejecting $H_0$ when $H_1$ is true.
+The <span style='color:#008B45'>*power of a test*</span> refers to the probability of correctly rejecting $H_0$ when $H_1$ is true.
 
 
 

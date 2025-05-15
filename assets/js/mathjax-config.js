@@ -2,15 +2,15 @@
 window.MathJax = {
     tex: {
         inlineMath: [   // start/end delimiter pairs for in-line math
-          ['$', '$'], 
-          ['\\(', '\\)'] 
+          ['$', '$'],
+          ['\\(', '\\)']
         ],
         displayMath: [  // start/end delimiter pairs for display math
           ['$$', '$$'],
           ['\\[', '\\]']
         ],
         processEscapes: true, // use \$ to produce a literal dollar sign
-        tags: 'ams',
+        tags: 'ams',  // should be 'ams', 'none', or 'all'
         macros: { // define your own commands here
           indep: "{\\perp \\!\\!\\! \\perp}",
           // bold face capital letter
@@ -39,7 +39,7 @@ window.MathJax = {
           bX: "\\boldsymbol{X}",
           bY: "\\boldsymbol{Y}",
           bZ: "\\boldsymbol{Z}",
-          
+
           // bold face lowercase letter
           ba: "\\boldsymbol{a}",
           bb: "\\boldsymbol{b}",
@@ -61,7 +61,7 @@ window.MathJax = {
           bx: "\\boldsymbol{x}",
           by: "\\boldsymbol{y}",
 
-          // math calligraphic font
+          // math calligraphic font 花体
           Acal: "\\mathcal{A}",
           Bcal: "\\mathcal{B}",
           Ccal: "\\mathcal{C}",
@@ -89,7 +89,33 @@ window.MathJax = {
           Ycal: "\\mathcal{Y}",
           Zcal: "\\mathcal{Z}",
 
-          
+          // blackboard face 黑板粗体
+          A: "\\mathbb{A}",
+          B: "\\mathbb{B}",
+          C: "\\mathbb{C}",
+          D: "\\mathbb{D}",
+          E: "\\mathbb{E}",
+          F: "\\mathbb{F}",
+          G: "\\mathbb{G}",
+          H: "\\mathbb{H}",
+          I: "\\mathbb{I}",
+          J: "\\mathbb{J}",
+          K: "\\mathbb{K}",
+          L: "\\mathbb{L}",
+          M: "\\mathbb{M}",
+          N: "\\mathbb{N}",
+          O: "\\mathbb{O}",
+          P: "\\mathbb{P}",
+          Q: "\\mathbb{Q}",
+          R: "\\mathbb{R}",
+          S: "\\mathbb{S}",
+          T: "\\mathbb{T}",
+          U: "\\mathbb{U}",
+          V: "\\mathbb{V}",
+          W: "\\mathbb{W}",
+          X: "\\mathbb{X}",
+          Y: "\\mathbb{Y}",
+          Z: "\\mathbb{Z}",
 
           // uppercase greeks
           bAlpha: "\\boldsymbol{\\Alpha}",
@@ -105,7 +131,7 @@ window.MathJax = {
           bSigma: "\\boldsymbol{\\Sigma}",
           bTau: "\\boldsymbol{\\tau}",
           bXi: "\\boldsymbol{\\Xi}",
-          
+
           // lowercase greeks
           bbeta: "\\boldsymbol{\\beta}",
           bdelta: "\\boldsymbol{\\delta}",
@@ -117,16 +143,12 @@ window.MathJax = {
           brho: "\\boldsymbol{\\rho}",
           bsigma: "\\boldsymbol{\\sigma}",
           btau: "\\boldsymbol{\\tau}",
-          bxi: "\\boldsymbol{\\xi}", 
+          bxi: "\\boldsymbol{\\xi}",
           },
       },
-  
+
     svg: {
         fontCache: 'global'
     },
-  
-    tex2jax: {
-        inlineMath: [ ['$','$'], ['\\(','\\)'] ],
-        processEscapes: true, 
-    },
+
 };

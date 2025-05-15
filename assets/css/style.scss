@@ -204,6 +204,7 @@ a img:focus {
 pre {
   white-space : pre-wrap !important; /* soft-wrap */
   word-break: break-word; /* avoid word break */
+  margin-bottom: 0px;
 }
 
 /* Table of contents */
@@ -293,6 +294,7 @@ figure {
   margin-right: auto; 
   margin-left: auto;
 }
+
 
 /**
  * Tables

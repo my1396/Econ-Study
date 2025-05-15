@@ -58,6 +58,10 @@ Markdown Preview: <https://code.visualstudio.com/docs/languages/markdown#_markdo
 | -------- | ------------------- |
 | ⇧⌘K      | Delete current line |
 
+Useful Extensions:
+
+- `Markdown Preview Enhanced`, `Markdown+Math`
+
 
 
 ___
@@ -67,10 +71,31 @@ A: The simple answer is NO. Seetings → Feasures → Notebook only limits the c
 
 ___
 
-Change settings of VS
+[Change settings of VS Code](https://code.visualstudio.com/docs/configure/settings)
 
 - change directly in the user settings file (`settings.json`), or
 - open Code → Settings (cmd + ,)
+
+Setting file locations: 
+
+- **macOS** `$HOME/Library/Application\ Support/Code/User/settings.json`
+
+
+
+Run `Open Config Script` to open `config.js` (a JavaScript configuration file):
+
+- define TeX macros `KatexConfig`, `mathjaxConfig` ...
+
+
+
+Q: What is the [difference between `.json` and `.js`](https://www.koombea.com/blog/json-vs-javascript/)?  
+A: `.json` is a subset of `.js`, which stands for JavaScript. 
+
+- If you store only data, use `.json`; 
+
+  You can think of `.json` as a YAML frontmatter in markdown.
+
+- if you have some sort of logic (functions, conditions, loops ...), use `.js`.
 
 
 
@@ -130,6 +155,46 @@ A: Open `settings.json`, add the following code inside the braces.
 
 Q: How to change [Markdown preview security](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview-security)?  
 A: You can change what content is allowed in the Markdown preview by clicking on the popup or running the `Markdown: Change preview security settings` command in any Markdown file.
+
+
+
+Q: How to define MathJax macros?  
+A: You can configure MathJax by running command `Markdown Preview Enhanced: Open MathJax Config`.
+
+
+
+Q: How to set Math Rendering Engine?  
+A: Run command `Markdown Preview Enhanced: Math Rendering Option`.
+
+<img src="https://drive.google.com/thumbnail?id=1rH7Yf7_8nzpEoHKeqnKBfRPSRzj4JE41&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+References:
+
+- <https://github.com/shd101wyy/vscode-markdown-preview-enhanced/issues/67>
+
+
+
+Q: How to enable automatic numbering for MathJax?  
+A: Run `Open Config Script` (will open `config.js`, a JavaScript configuration file), and add 
+
+```css
+mathjaxConfig: {
+  tex: {
+    tags: 'ams'
+  }
+};
+```
+
+to tell the TeX input processor to use the AMS **numbering** rules (where only certain environments produce numbered equations, as they would be in LaTeX, e.g., `\begin{equation}`).
+
+You can use `\notag` or `\nonumber` to prevent individual equations from being numbered, and `\tag{}` can be used to override the usual equation number with your own symbol instead (or to add an equation tag even when automatic **numbering** is off).
+
+
+
+Q: How to use dark theme for Markdown Preview Enhanced (MPE)?  
+A:  Run command `Markdown Preview Enhanced: Preview Theme`, choose `github-dark.css`.
+
+<img src="https://drive.google.com/thumbnail?id=1cyw-XBsexYGX08gR79k0WqjvRC9gH1f4&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 
 
