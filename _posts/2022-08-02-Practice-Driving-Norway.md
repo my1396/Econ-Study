@@ -473,7 +473,7 @@ For **Nordland, Troms og Finnmark** gjelder kravet til minimum 3 millimeter møn
 
 ___
 
-### Maintenance
+## Maintenance
 
 小的 Service 4000 大的 8000 是比较合理的价格  
 1万以上算是超大的了 会给你检查零件，看有没有什么该修的，当下就交钱修或者换就好了。不然下次预约又要交费。
@@ -521,9 +521,39 @@ Vennlig hilsen Nordvik AS - Bodø
 
 ___
 
+## EU-kontroll
+
+Mandatory roadworthiness test (“EU test”)
+
 车检可以提早4个月，最好安排在保养之后。这样中间过的时间短，出问题的几率要低。
 
 车检的时候，车要有什么问题不过关，就会限制一定期限修好，然后再车检。
+
+> As long as your vehicle passes the test and is approved before the deadline, it is up to you how early you wish to have your vehicle tested. The deadline is final, so you should makes sure you have enough time to take the main test, to fix any defects the test may reveal, and to have the vehicle reinspected and approved.
+
+[Check my DDL](https://www.vegvesen.no/en/vehicles/own-and-maintain/eu-mandatory-roadworthiness-test-eu-test/deadline-roadworthiness-test/?registreringsnummer=YF16565)
+
+> - Latest approved mandatory roadworthiness test
+>
+>   31.01.2024
+>
+> - Deadline for approved mandatory roadworthiness test
+>
+>   03.02.2026
+
+We will send you a reminder of the test two months before the deadline expires.
+
+
+
+Q: How often is the EU-kontroll?  
+A: Every 2 years.
+
+Q: Where can I book the EU-kontroll?  
+A: The Norwegian Public Roads Administration (Statens vegvesen) does not carry out roadworthiness tests, but we approve and inspect the garages / testing centre that are authorised to carry out such tests. Find a garage/testing centre near you, where you can book a session for the mandatory roadworthiness test (“EU test”).
+
+The price of a mandatory roadworthiness test is determined by the individual garage.
+
+<https://www.vegvesen.no/kjoretoy/eie-og-vedlikeholde/finn-godkjent-verksted/>
 
 
 

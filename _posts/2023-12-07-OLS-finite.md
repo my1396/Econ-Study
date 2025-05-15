@@ -168,7 +168,7 @@ $$
 
 ## Classical linear regression models
 
-CLRM correspond to exact finite sample properties. (Gauss-Markov Assumptions)
+CLRM (Classical linear regression models) correspond to exact finite sample properties. (Gauss-Markov Assumptions)
 
 1. $y=X\beta+u$. There is a linear relationship between $y$ and $X$. $u$ is called *disturbances* or *errors*.
 
