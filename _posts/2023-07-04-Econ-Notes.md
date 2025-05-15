@@ -1262,7 +1262,6 @@ $$
 \begin{aligned}
   \mathbb{E}[Y|X=1] &= 7, \;\;\;  \mathbb{P}(X=1) = 0.1\\
   \mathbb{E}[Y|X=0] &= 8, \;\;\;  \mathbb{P}(X=0) = 0.9 \\
-
 \end{aligned}
 $$
 

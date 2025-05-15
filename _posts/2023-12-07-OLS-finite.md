@@ -168,7 +168,9 @@ $$
 
 ## Classical linear regression models
 
-CLRM (Classical linear regression models) correspond to exact finite sample properties. (Gauss-Markov Assumptions)
+CLRM (Classical linear regression models) correspond to exact finite sample properties. 
+
+<span style="font-weight:600; font-size:21px">Gauss-Markov Assumptions</span>
 
 1. $y=X\beta+u$. There is a linear relationship between $y$ and $X$. $u$ is called *disturbances* or *errors*.
 
@@ -188,7 +190,7 @@ $$
 
 This implies that the error term $u_i$ is not only uncorrelated with $x_i$, but also uncorrelated with the explanatory variables for all other observations $j$, $j=1,\ldots,n$. Therefore, called "strict exogeneity".
 
-Given that assumption 3 assumes diagonal covarianc matrix, meaning observations on $(y_i, x_i')$ are *independent* over $i=1,\ldots, n
+Given that assumption 3 assumes diagonal covariance matrix, meaning observations on $(y_i, x_i')$ are *independent* over $i=1,\ldots, n
 $, so that
 
 $$
