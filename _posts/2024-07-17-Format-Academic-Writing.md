@@ -22,7 +22,7 @@ update: 2024-07-16
   - In LaTex, can use `\degree` from `gensymb` package.
   - Another alternative is the `\textdegree` command, which is provided by the `textcomp` package. 
 
-  If you are writing in LaTeX, I recommend you use the siunitx by `\usepackage{siunitx}`. The command `\SI{<value>}{<unit>}` automatically prints the space between the numerical value and the unit symbol. 
+  If you are writing in LaTeX, I recommend you use the siunitx by `\usepackage{siunitx}`. The command `\SI{value}{unit}` automatically prints the space between the numerical value and the unit symbol. 
 
   E.g., 3 g, 6 cm, 6 days, 7 years.
 

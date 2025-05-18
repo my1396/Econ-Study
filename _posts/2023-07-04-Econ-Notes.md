@@ -94,7 +94,7 @@ Sometimes, you see people use colon (`:`) to define sets, e.g., $\\{x: x\in A\\}
 
 In any given problem, the set containing all possible elements of interest is called the *universe*, *universal set*, or *sample space*, often denoted as $S$ or $\Omega$.
 
-- $\setminus$
+- $\setminus$ means remove from a set. Given two sets $S$ and $T$, $S\setminus T$ is used to denote the set $\\{x\mid x\in S \text{ and } x\notin T\\}.$ For example $\\{1,2,3\\} \setminus \\{3,4,5\\} = \\{1,2\\}.$ Often we assume $T\subseteq S$ as well. Sometimes a minus sign is used, e.g., $X-T.$
 
 A random experiment is *completely characterized* by:
 
@@ -104,9 +104,11 @@ $$
 
 where 
 
-- $S$ is the sample space; 
-- $\mathcal F(S)=[E_1, E_1, \ldots, ]$ is the event space; and
-- $\mathbb P(.): \mathcal F(S) \rightarrow [0,1]$ is the probability measure that assigns probability to each of the event in the event space.
+- $S$ is the *sample space*; 
+- $\mathcal F(S)=[E_1, E_1, \ldots, ]$ is the *event space*; and
+- $\mathbb P(.): \mathcal F(S) \rightarrow [0,1]$ is the *probability measure* that assigns probability to each of the event in the event space.
+
+If $\P(A)=1,$ we say $A$ occurs *almost surely*.
 
 Sometimes you see a sphere denoted $\mathbb{S}$ or a torus denoted $\mathbb{T}$. 
 
@@ -1282,7 +1284,7 @@ $$
 
 It repsents a transformation from condictional to unconditional expectaion.
 The expected value (this expectation is with respect to  $X$) of the conditional expectation of $Y$ given $X$ is the expected value of $Y$.
- 
+
 LIE is also calld the *law of total expectation*, which can be derived from the *law of total probability*. We will see this in what follows. LIE is also referred to as "Adam’s Law."
 
 ___
@@ -2383,7 +2385,7 @@ $$
     $$
 
     That is, the $n$th moment about zero is the <span style='color:#337ab7'>$n$th derivative of the moment generating function</span>, evaluated at $t=0.$
- 
+
 - The MGF (if it exists) uniquely determines the distribution.
 
 

@@ -182,6 +182,7 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 |        `\in` | $\in$        |                     `\notin` |                   $\notin$ |
 |    `\exists` | $\exists$    |                `\not\exists` |              $\not\exists$ |
 |    `\forall` | $\forall$    | `\emptyset` or `\varnothing` | $\emptyset$, $\varnothing$ |
+|  `\setminus` | $\setminus$  |                              |                            |
 
 - use `\not` before an operator to negate it. 
 - Union
@@ -189,17 +190,20 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
   - $\bigcup_{i \in I} A_i$ (`\bigcup_{i \in I} A_i`)
 
 
-
+- Set difference 
+  - $A\setminus B$  (`\setminus`, good margins)
+  - $A\backslash B$  (`\backslash`, narrow margins)
+  - $A\mathbin{\backslash} B$  (`\mathbin{\backslash}`, good margins)
 
 
 
 ### Binary operators
 
-|    LaTex |              |    LaTex |          |
-| -------: | ------------ | -------: | -------: |
-| `\wedge` | ∧ (and)      |   `\vee` |   ∨ (or) |
-|   `\neg` | $\neg$ (not) |   `\div` |   $\div$ |
-|   `\ast` | $\ast$       | `\times` | $\times$ |
+|             LaTex |                      |           LaTex |                    |
+| ----------------: | -------------------- | --------------: | -----------------: |
+| `\and` or `\land` | $\and$ (logical and) | `\or` or `\;or` | $\or$ (logical or) |
+|            `\neg` | $\neg$ (not)         |          `\div` |             $\div$ |
+|            `\ast` | $\ast$               |        `\times` |           $\times$ |
 
 
 

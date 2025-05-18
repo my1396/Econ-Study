@@ -1,9 +1,13 @@
 ---
 layout: post
-title: Jekyll Search bar
+title: Jekyll Search Field
 tag: programming
 update: 2025-05-18
 ---
+
+Setting up lunr.js in Jekyll
+
+
 
 Google didn’t index every page on my site, so using a Google custom search wasn’t worth it. 
 
@@ -18,9 +22,24 @@ The key features of `Junr.js` we will be using for searching static sites like J
 
 Overview of steps:
 
-1. Creating the static site search results page
-2. Creating the static site search element `search-box.html`
-3. Creating the static site search JavaScript `search.js`
+1. Creating the static site search results page `search.md`
+2. Creating the static site search JavaScript `search.js`
+3. Creating the static site search element `search-box.html`
+4. Add `search-box.html` at the location where you want your system to display the search bar or functionality.
+
+
+
+`search.md`
+
+Create search data. Located in the root directory of your website. The location where you have your `index.md` file.
+
+
+
+`search.js`
+
+Contains JavaScript that implement the search method.
+
+It basically adds an event listener and once the required event is triggered it performs the search. 
 
 
 
@@ -48,9 +67,21 @@ document.getElementById('search-box').setAttribute("value", searchTerm);
 
 
 
+Jekyllcodex provides a solution, but there are uni-code errors.
+
+<https://jekyllcodex.org/without-plugin/search-lunr/>
 
 
-References:
+
+[jekyll-lunr-js-search](https://github.com/slashdotdash/jekyll-lunr-js-search) plugin
+
+<https://stackoverflow.com/questions/28255836/why-am-i-getting-an-error-when-installing-lunr-js-search-on-jekyll>
+
+___
+
+**References**:
+
+- https://kevquirk.com/blog/how-to-add-search-jekyll
 
 - <https://www.stephanmiller.com/static-site-search/>
 
@@ -62,4 +93,4 @@ References:
 
 - `search-box` null error: <https://talk.jekyllrb.com/t/lunr-js-not-giving-results/1466/3>
 
-- <https://jekyllcodex.org/without-plugin/search-lunr/>
+  
