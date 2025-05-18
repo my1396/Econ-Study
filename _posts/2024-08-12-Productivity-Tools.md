@@ -118,11 +118,13 @@ ___
 Q: How to open the User settings?  
 A: Follow the following steps:
 
-- Open the command palette (either with F1 or Ctrl+Shift+P)
-- Type *"open settings"*
-- You are presented with a few options, choose **Open User Settings (JSON)**
+1. Open the command palette (either with F1 or Ctrl+Shift+P)
+2. Type *"open settings"*
+3. You are presented with a few options, choose **Open User Settings (JSON)**
 
-Or VS Code includes a button in the Settings UI gutter which can be used to switch between JSON and graphical view.
+You can change setting using the UI or there is a `settings.json` file which saves all configurations.
+
+VS Code includes a button in the Settings UI gutter which can be used to switch between JSON and graphical view.
 
 <img src="https://drive.google.com/thumbnail?id=1-l2nIxBZuTRE5_zHkirjS4HzZ_5c-be5&sz=w1000" alt="VS Settings" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
@@ -158,6 +160,15 @@ A: You can change what content is allowed in the Markdown preview by clicking on
 
 
 
+Q: How to show my installed extensions?  
+A: By default, the Extensions view will show the extensions you currently have installed, and all extensions that are recommended for you. You can use the **Extensions: Focus on Installed View** command, to show the installed ones.
+
+
+
+___
+
+### Markdown Preview Enhanced
+
 Q: How to define MathJax macros?  
 A: You can configure MathJax by running command `Markdown Preview Enhanced: Open MathJax Config`.
 
@@ -180,7 +191,13 @@ A: Run `Open Config Script` (will open `config.js`, a JavaScript configuration f
 ```css
 mathjaxConfig: {
   tex: {
-    tags: 'ams'
+    tags: 'ams',
+    "macros": {
+        bold: ["{\\boldsymbol #1}", 1], // use \bold as a shorthand
+        indep: "{\\perp \\!\\!\\! \\perp}",
+        // bold face capital letter
+        bA: "\\boldsymbol{A}",
+    }
   }
 };
 ```
@@ -189,12 +206,79 @@ to tell the TeX input processor to use the AMS **numbering** rules (where only c
 
 You can use `\notag` or `\nonumber` to prevent individual equations from being numbered, and `\tag{}` can be used to override the usual equation number with your own symbol instead (or to add an equation tag even when automatic **numbering** is off).
 
+You can also define your TeX macros in `config.js`.
+
+File path: `/Users/menghan/.local/state/crossnote/config.js`
+
 
 
 Q: How to use dark theme for Markdown Preview Enhanced (MPE)?  
 A:  Run command `Markdown Preview Enhanced: Preview Theme`, choose `github-dark.css`.
 
 <img src="https://drive.google.com/thumbnail?id=1cyw-XBsexYGX08gR79k0WqjvRC9gH1f4&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
+
+Q: How to get separate preview for individual files?  
+A:  MPE has one preview tab for all files by default. You can change this by going to preferences > Markdown Preview Enhanced > Preview Mode > Set to Multiple Previews. Restart VS Code to activate the setting.
+
+<img src="https://drive.google.com/thumbnail?id=1eCCWZT7c8UZA3o_WpTRGP8xsfN6tfvrX&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
+
+___
+
+### Markdown+Math
+
+https://marketplace.visualstudio.com/items?itemName=goessner.mdmath
+
+Use KaTeX, which is supposedly a fast math renderer.
+
+Function: Simplify the process of authoring and live previewing markdown documents containing math formulas.
+
+Use: Typeset in your markdown source window and see the preview window live updating.
+
+**Define macros for mdmath**
+
+Option 1: use user settings
+
+opt+, open pereferences, add your macros directly there.
+
+```css
+"mdmath.macros": {
+        "\\indep": "{\\perp \\!\\!\\! \\perp}",
+        "\\E": "\\mathbb{E}",
+    },
+```
+
+Option 2: save macros in a file and add the file path. The file take priority. That means the defined macros in option 1 will be ignored if a definition file exists.
+
+Issue: This does not work somehow.
+
+```css
+"mdmath.macroFile": "/Users/menghan/Documents/mac_setup/config_files/mdmath_macros.json",
+```
+
+After adding the macros in preferences, need to restart VS Code to enable them.
+
+
+
+___
+
+### Quarto
+
+You can install the Quarto extension from the [VS Code Extension Marketplace](https://marketplace.visualstudio.com/items?itemName=quarto.quarto).
+
+But if you have associated `.qmd` with Markdown previewer as follows
+
+```css
+"files.associations": {
+   "*.Rmd": "markdown",
+	 "*.qmd": "markdown",
+}
+```
+
+then it won't be recognized by the Quarto extension and will be processed as a regular markdown file.
 
 
 

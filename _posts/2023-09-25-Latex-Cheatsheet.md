@@ -184,6 +184,10 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 |    `\forall` | $\forall$    | `\emptyset` or `\varnothing` | $\emptyset$, $\varnothing$ |
 
 - use `\not` before an operator to negate it. 
+- Union
+  - $A \cup B$ (`A \cup B`)
+  - $\bigcup_{i \in I} A_i$ (`\bigcup_{i \in I} A_i`)
+
 
 
 
@@ -218,12 +222,22 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
 - use `\vert` or `\mid` ($\vert$) to show a pipe operator, otherwise <span style='color:#008B45'>Markdown recognizes it as a table column separator</span> in inline equations (block equations enclosed in `$$...$$` works fine though). 
 
-  - `\lVert` and `\rVert` ($\rVert$) used to take the norm of a vector;
+  - `\lVert` and `\rVert` ($\rVert$) used to take the <span style='color:#008B45'>norm</span> of a vector;
 
-  - `\lvert` and `\vert` ($\lvert$) used to take absolute value of real numbers and modulus of complex numbers;
+  - `\lvert` and `\rvert` ($\lvert$) used to take <span style='color:#008B45'>absolute value</span> of real numbers and modulus of complex numbers;
 
-  - `\mid` is often used as delimitor, $\{a\in S \mid \text{\(a=0\) or \(a\) is odd}\}$; $\mid$ in set theory means "such that", to introduce properties of the set; in probability, meaning conditional on;
+    The issue with `\vert` is that it does not deal with the space around binary operators such as `+` and `-`. See examples as follows.
 
+    | Poor                                | Good                                                   |
+    | ----------------------------------- | ------------------------------------------------------ |
+    | $\vert-x\vert$ (`$\vert-x\vert$`)   | $\lvert-x\rvert$ (`$\lvert-x\rvert $`, absolute value) |
+    | $\vert a+\vert$ (`$\vert a+\vert$`) | $\lvert a+\rvert$  (`$\lvert a+\rvert$ `)              |
+    | $\Vert+z\Vert$ (`$\Vert+z\Vert$`)   | $\lVert +z\rVert$ (`$\lVert +z\rVert$`, norm)          |
+  
+    
+  
+  - `\mid` is often used as delimitor, $\{a\in S \mid \text{\(a=0\) or \(a\) is odd}\}$; $\mid$ in set theory means "such that", to introduce properties of the set; in probability, meaning <span style='color:#008B45'>conditional on</span>;
+  
   - `\mid` is also used to divide numbers. $4 \mid 12=3$, meaning $\text{\(4\) divides \(12\)}$. $a \mid b$ meaning $b$ is completely divisible by $a$. E.g., 
     $$
     \{𝑥\in \mathbb{Z}\mid 4\mid𝑥\}
@@ -239,7 +253,11 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
     $$
     p\text{-value} = P(Z\le z \mid H_0 \text{ is true}) = F(z)
     $$
-    `\mid` creates nicer margins to the left and right compared to `\vert`.
+    `\mid` creates **nicer margins** to the left and right compared to `\vert`.
+    
+    $\E[Y \mid X]$ (`$\E[Y \mid X]$`, whitespace around vertical bar) ✅
+    
+    vs. $\E[Y \vert X]$ ($\E[Y \vert X]$, more compact)
   
 - `\perp` ($\perp$) indicates zero correlation; `\indep` ($\indep$) indicates independece.
 
@@ -446,6 +464,16 @@ $\sup$, $\inf$
     You could also use `\left\{` and `\right\}`. 
 
     Here is a nice [guide](https://www.overleaf.com/learn/latex/Brackets_and_Parentheses).
+
+- Braces under/above eqs.
+
+  Text under eqs: `\underbrace{eqn}_\text{...under...}`
+
+  $\underbrace{x+1}_\text{addition}$ (`\underbrace{x+1}_\text{addition}`)
+
+  Text over eqs: `\overbrace{eqn}^\text{...over...}`
+
+  $\overbrace{x+1}^\text{addition}$ (`\overbrace{x+1}^\text{addition}`)
 
 - Square brakets: $E\lbrack x \rbrack$ (`E\lbrack x \rbrack`)
 

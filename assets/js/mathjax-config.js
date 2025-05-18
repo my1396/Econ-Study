@@ -12,6 +12,7 @@ window.MathJax = {
         processEscapes: true, // use \$ to produce a literal dollar sign
         tags: 'ams',  // should be 'ams', 'none', or 'all'
         macros: { // define your own commands here
+          bold: ["{\\boldsymbol #1}", 1], // use \bold as a shorthand
           indep: "{\\perp \\!\\!\\! \\perp}",
           // bold face capital letter
           bA: "\\boldsymbol{A}",
@@ -40,7 +41,7 @@ window.MathJax = {
           bY: "\\boldsymbol{Y}",
           bZ: "\\boldsymbol{Z}",
 
-          // bold face lowercase letter
+          // bold face small letter
           ba: "\\boldsymbol{a}",
           bb: "\\boldsymbol{b}",
           bc: "\\boldsymbol{c}",
@@ -117,10 +118,10 @@ window.MathJax = {
           Y: "\\mathbb{Y}",
           Z: "\\mathbb{Z}",
 
-          // uppercase greeks
+          // bold face uppercase Greeks
           bAlpha: "\\boldsymbol{\\Alpha}",
-          bBeta: "\\boldsymbol{\\beta}",
-          bDelta: "\\boldsymbol{\\delta}",
+          bBeta: "\\boldsymbol{\\Beta}",
+          bDelta: "\\boldsymbol{\\Delta}",
           bEta: "\\boldsymbol{\\eta}",
           bGamma: "\\boldsymbol{\\Gamma}",
           bLambda: "\\boldsymbol{\\Lambda}",
@@ -132,7 +133,7 @@ window.MathJax = {
           bTau: "\\boldsymbol{\\tau}",
           bXi: "\\boldsymbol{\\Xi}",
 
-          // lowercase greeks
+          // bold face lowercase Greeks
           bbeta: "\\boldsymbol{\\beta}",
           bdelta: "\\boldsymbol{\\delta}",
           blambda: "\\boldsymbol{\\lambda}",

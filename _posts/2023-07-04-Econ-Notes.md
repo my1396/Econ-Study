@@ -35,18 +35,25 @@ $\text{Pr}(.)$ and $\mathbb{P}(.)$ denote the probability of an event.
 
 Blackboard bold 黑板粗体 (`\mathbb`) is often used to denote **sets of numbers**, e.g. $\mathbb{N}$, $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$, $\mathbb{O}$, or a general field $\mathbb{F}$ or $\mathbb{K}$, and in probability to denote expectation of a random variable $\mathbb{E}(X)$ , written as `\mathbb{E}(X)`, or probability of an event $\mathbb{P}(E)$, written as `\mathbb{P}(E)`. 
 
-- $\mathbb{Z}$ denotes the set of all integers.
-- $\mathbb{Q}$ denotes the set of all rational numbers.
-- $\mathbb{R}$ denotes the set of all real numbers.
+- $\mathbb{N}$ denotes the set of all natural numbers: $\\{1,2,3,\dots\\}$.
+- $\mathbb{Z}$ denotes the set of all integers: $\\{\dots, -3,-2,-1,0,1,2,3,\dots \\}$.
+- $\mathbb{Q}$ denotes the set of all rational numbers. The sets of all fractions $\frac{a}{b}$ where $a$ and $b$ are integers and $b\ne 0$
+- $\mathbb{R}$ denotes the set of all real numbers. This includes things like $\pi, \sqrt{2}, \dots$
+
+- $\forall$ (`\forall`) means for all (or for every).
+- $\exists$ means there exists.
+- $\not\exists$ means there does not exist.
 
 There are two standard ways to describe a set:
 
-- The *extensional* method simply lists out all the elements of the set. For example $S = \{0, 2, 4, 6, 8, 10\}$.
-- The intensional method describes a set by listing the common properties of the elements of the set. For example, 
+- The *extensional method* simply lists out all the elements of the set. For example $S = \\{0, 2, 4, 6, 8, 10\\}$.
+- The *intensional method* describes a set by listing the common properties of the elements of the set. For example, 
+
   $$
   S = \{n \in \mathbb{Z} \; | \; n \;  \textrm{is even }, 0 \leq n \leq 10\}.
   $$
-  By putting $``\in \mathbb{Z}''$ before the vertical bar, we know that we only concern with integers in this set. This is called the *universe*. We read the first brace as "the set of all" and the vertical bar as "such that". So the expression is read as the set of all integer $n$ such that $n$ is even which is greater than or equal to 0 and less than or equal to 10. 
+
+  By putting $n\in \mathbb{Z}$ before the vertical bar, we know that we only concern with integers in this set. This is called the **universe**. We read the first brace as "the set of all" and the vertical bar as "such that". So the expression is read as the set of all integer $n$ such that $n$ is even which is greater than or equal to 0 and less than or equal to 10. 
 
   The general syntax of the intensional method is
   $$
@@ -54,15 +61,52 @@ There are two standard ways to describe a set:
   $$
 
 
-Sample space is usually denoted as $S$ or $\Omega$.
+Sometimes, you see people use colon (`:`) to define sets, e.g., $\\{x: x\in A\\}.$ This is equivalent to $\\{x\mid x\in A\\}.$ There are pros and cons for using either convention.
 
-In any given problem, the set containing all possible elements of interest is called the universe, universal set, or space, often denoted as $S$.
+- With `:`, it confuses with sets of maps
 
-A random experiment is completely characterized by:
+    $$
+    \{f: f: \R \to \C \text{ with} f(6)=24\} .
+    $$
+
+    In this case, it is easier to read with bar separator
+
+    $$
+    \{f\mid f: \R \to \C \text{ with} f(6)=24\} .
+    $$
+
+
+- With `|`, it confuses with norms and conditional statements, risking overloading bars.
+
+    $$
+    \{A \subset X \mid \P(B \mid A) > 0.42\}
+    \quad\text{vs}\quad
+    \{A \subset X : \P(B \mid A) > 0.42\}
+    $$
+
+    $$
+    \{A \subset X \mid \P(B \mid A) > 0.42\}
+    \quad\text{vs}\quad
+    \{A \subset X : \P(B \mid A) > 0.42\}
+    $$
+
+    In this case, it is better to use colons.
+
+In any given problem, the set containing all possible elements of interest is called the *universe*, *universal set*, or *sample space*, often denoted as $S$ or $\Omega$.
+
+- $\setminus$
+
+A random experiment is *completely characterized* by:
+
 $$
 \{ S, \mathcal F(S), \mathbb P(.) \}
 $$
-where $S$ is the sample space, $\mathcal F(S)=[E_1, E_1, \ldots, ]$ is the event space, and $\mathbb P(.): \mathcal F(S) \rightarrow [0,1]$ is the probability measure that assigns probability to each of the event in the event space.
+
+where 
+
+- $S$ is the sample space; 
+- $\mathcal F(S)=[E_1, E_1, \ldots, ]$ is the event space; and
+- $\mathbb P(.): \mathcal F(S) \rightarrow [0,1]$ is the probability measure that assigns probability to each of the event in the event space.
 
 Sometimes you see a sphere denoted $\mathbb{S}$ or a torus denoted $\mathbb{T}$. 
 
@@ -74,11 +118,11 @@ Mathematical calligraphic font or script letters 花体 (`\mathcal`), uppercase 
 -   $\ell$（`\ell`）：用于和 $l$ 和 数字 1 相区分。
 -   $\mathcal{T}$ (`\mathcal{T}`) used to denote topological spaces.
 
-Mathematical roman `\mathrm`. Used in ordinary differential equations, such as $\displaystyle \frac{\mathrm dx}{\mathrm dy}$ .
+Mathematical roman `\mathrm` (or `\text`). Used in ordinary differential equations, such as $\displaystyle \frac{\mathrm dx}{\mathrm dy}$ or variance $\mathrm{Var}$.
 
 Mathematical sans serif `\mathsf`. Used in expectations, such as $\mathsf E(X)$.
 
-Usually the font command works obly on the following letter. If you want the font to apply to an entire expression, enclose the expression with braces `{}`.
+Usually the font command <u>works only on the following letter</u>. If you want the font to apply to an entire expression, enclose the expression with braces `{}`.
 
 
 $\indep$ independence
@@ -117,7 +161,7 @@ Vectors are lowercase and matrices are uppercase symbols. Both vectors and matri
 - Variance-covariance matrices: $\boldsymbol{\Omega}, \boldsymbol{\Sigma}, \boldsymbol{V}, \boldsymbol{G}$.
 - $\text{aVar}[.]$ denotes the *asymptotic* variance operator.
 
-- The letters $f$, $g$,and $h$ are often used to represent functions.
+- The letters $f$, $g$, and $h$ are often used to represent functions.
 
 - $f(x) \approx g(x)$ (`\approx`) if the two functions are approximately equal in some sense depending on the context. 
 - $f(x) \propto g(x)$ (`\propto`) If $f(x)$ is proportional to $g(x)$ we write. 
@@ -729,7 +773,7 @@ X_2 \\
 X_p
 \end{bmatrix}
 $$
-of $p$ jointly distributed random variables.
+of $p$ jointly distributed random variables $X_i,$ where $i=1,\ldots,p$.
 
 - Expectation $\mathbb{E}[\vec{X}]$ is given by
 
@@ -791,6 +835,9 @@ E[(X_3-E[X_3])(Y_1-E[Y_1])] & E[(X_3-E[X_3])(Y_2-E[Y_2])] \\
 $$
 
 Note that, in general, the cross-covariance is *not* symmetric.
+
+More about variance-covariance matrix of random vectors: <https://www.math.kent.edu/~reichel/courses/monte.carlo/alt4.7d.pdf>
+
 
 **Autocovariance matrix**
 
@@ -1236,7 +1283,7 @@ $$
 It repsents a transformation from condictional to unconditional expectaion.
 The expected value (this expectation is with respect to  $X$) of the conditional expectation of $Y$ given $X$ is the expected value of $Y$.
  
-LIE is also calld the *law of total expectation*, which can be derived from the *law of total probability*. We will see this in what follows.
+LIE is also calld the *law of total expectation*, which can be derived from the *law of total probability*. We will see this in what follows. LIE is also referred to as "Adam’s Law."
 
 ___
 
@@ -1285,6 +1332,36 @@ $$
 $$
 
 ___
+
+**Identities for conditional expectations**
+
+- LIE (Adam's Law) $\mathbb{E}[Y] = \mathbb{E}\left[\mathbb{E}\right(Y\mid X\left)\right].$
+- Generalized Adam’s Law 
+
+    $$
+    \E\left[ \E[Y \mid g(X)] \mid f(g(X)) \right] = \E[Y\mid f(g(X))]
+    $$
+
+    for any $f$ and $g$ with compatible domains and ranges. We also have that 
+
+    $$
+    \E\left[ \E[Y \mid g(X)] \mid f(g(X)=z) \right] = \E[Y\mid f(g(X))=z]
+    $$
+
+- Independence: $\E[Y\mid X] = \E[Y]$ if $X$ and $Y$ are independent.
+
+- Taking out what is known: $\E[h(X)Z\mid X]=h(X)\E[Z\mid X]$
+
+- Linearity: $\E[aX+bY\mid Z] = a\E[X\mid Z] + b\E[Y\mid Z],$ for any $a, b\in \R.$
+
+- Projection interpretation: $\E\left[\left(Y-\E[Y\mid X]\right)h(X)\right] = 0$ for any function $h: \Xcal \to \R.$
+
+- Keeping just what is needed: $\E[XY] = \E[X\E[Y\mid X]]$ for $X, Y\in \R.$
+
+More about LIE: <https://davidrosenberg.github.io/ttml2021fall/background/conditional-expectation-notes.pdf>
+
+___
+
 
 ### Partitioning and Conditioning
 

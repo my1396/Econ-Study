@@ -2,6 +2,11 @@
 layout: base
 ---
 
+<!-- This is the homepage of website -->
+
+<!-- Search box -->
+{% include search-lunr.html %}
+
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
@@ -66,3 +71,5 @@ layout: base
   {%- endif -%}
 
 </div>
+
+

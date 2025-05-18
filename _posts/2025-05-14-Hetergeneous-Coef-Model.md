@@ -58,7 +58,7 @@ For identification purposes, we will generally focus on the case where the numbe
 
 Note that model (\ref{eq-time_invariant}) includes a particular special case — the random intercept model (confusingly also called the "fixed effects model"). 
 
-> In the panel data literature, approaches that do not restrict the dependence between the unobserved and the observed components are called "fixed effects". 
+> In the panel data literature, approaches that **do not restrict the dependence between the unobserved and the observed components** are called "fixed effects". 
 
 The random intercept model imposes homogeneity on all parameters except the intercept term. In the one-way case, the model takes the form: 
 

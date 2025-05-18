@@ -165,6 +165,7 @@ y &=  \boldsymbol{x}'\boldsymbol{\beta} + u \\
 $$
 </div>
 
+___
 
 ## Classical linear regression models
 
@@ -174,7 +175,7 @@ CLRM (Classical linear regression models) correspond to exact finite sample prop
 
 1. $y=X\beta+u$. There is a linear relationship between $y$ and $X$. $u$ is called *disturbances* or *errors*.
 
-2. $\text{E}[u\vert X] = 0$ or equivalently $\text{E}[y\vert X]=X\beta$. This is called *linear conditional expectation* or zero *conditional mean* assumption. The linear conditional expectation assumption is sometimes referred to as "strict exogeneity".
+2. $\text{E}[u\vert X] = 0$ or equivalently $\text{E}[y\vert X]=X\beta$. This is called *linear conditional expectation* or zero *conditional mean* assumption. The linear conditional expectation assumption is sometimes referred to as "strict exogeneity."
 
 3. $\text{Var}[u\vert X] = \sigma^2I$. This is a *conditional homoskedasticity assumption*.
 
@@ -189,6 +190,27 @@ E(u_i\vert x_1, x_2, \ldots, x_n)=0 \quad \text{for } i=1,\ldots, n
 $$
 
 This implies that the error term $u_i$ is not only uncorrelated with $x_i$, but also uncorrelated with the explanatory variables for all other observations $j$, $j=1,\ldots,n$. Therefore, called "strict exogeneity".
+
+Strict exogeneity implies
+
+1. Orthogonality  
+  
+    That is, $\E[\bx u_i] = \bold{0}$ or $\mathrm{Cov}[u_i, \bx]=0$
+
+    $$
+    \begin{split}
+    \E[\bx u_i] &=  \E \left[\E[\bx u_i \vert \bx] \right] \quad \text{(by LIE)} \\
+    &=  \E \left[\bx \,\E[ u_i \vert \bx] \right] \\
+    &=  \E \left[\bx \, 0 \right] \\
+    &= 0
+    \end{split}
+    $$
+
+2. $\E[u_i]=0$ the unconditional mean is also zero.
+
+    $$
+    \E[u_i] = \E \left[\E[ u_i \vert \bx]\right] = 0
+    $$
 
 Given that assumption 3 assumes diagonal covariance matrix, meaning observations on $(y_i, x_i')$ are *independent* over $i=1,\ldots, n
 $, so that
@@ -212,12 +234,14 @@ $$
 
 Classical linear regression models with **normally distributed errors**
 
-In additon to the above assumptions, we now assume $u\vert X \sim N(0, \sigma^2I)$.
+In addition to the above assumptions, we now assume $u\vert X \sim N(0, \sigma^2I)$.
 
-With the normally distributed errors, we can derive the distibution of $\hat{\beta}_{OLS}\sim N(\beta, \sigma^2(X'X)^{-1})$.
+With the normally distributed errors, we can derive the distribution of $\hat{\beta}_{OLS}\sim N(\beta, \sigma^2(X'X)^{-1})$.
 
-Without the assumption that $u\vert X$ (or equivalently $y\vert X$) has a normal distribution, we can still characterize the distribution of $\hat{\beta}_{OLS}$ in large samples by using the asymptotoic distribution results.
+Without the assumption that $u\vert X$ (or equivalently $y\vert X$) has a normal distribution, we can still characterize the distribution of $\hat{\beta}_{OLS}$ in large samples by using the asymptotic distribution results.
 
+
+___
 
 ## Linear projection model
 
@@ -227,13 +251,13 @@ $\text{E}[X'u]=\vec{0}$ can be written as $\text{E}[x_iu_i]=\vec{0}$, which impl
 With an intercept, e.g., $x_{1i}=1$ for all $i$, $\text{E}[x_1iu_i]$ implies $\text{E}[u_i]=0$.
 
 $\text{E}[x_{ki}u_i]=0$ for $k=1,\ldots, K$ then implies $\text{Cov}(x_{ki}, u_i)=0$. \
-$\Rightarrow$ Zero convarianze implies zero correlation. \
+$\Rightarrow$ Zero covariance implies zero correlation. \
 $\Rightarrow$ So $\text{E}[x_iu_i]=\vec{0}$ implies that each of the included explanatory variables is *uncorrelated with*, or *orthogonal to*, the error term $u_i$ in the linear projection model.
 
 Difference between strict exogeneity $(\text{E}(u\vert X)=\vec{0})$ and orthogonality assumptions $(\text{E}[X'u]=\vec{0})$:
 
 - The linear conditional expectation assumption $\text{E}(u\vert X)=\vec{0}$ implies that the error term $u$ is uncorrelated with any function of each of the included explanatory variables. \
-  For example, $u_i$ is uncorrealted with $x_{3i}^2$ or $\exp(x_{4i})$
+  For example, $u_i$ is uncorrelated with $x_{3i}^2$ or $\exp(x_{4i})$
 - Theses properties are NOT implied by the orthogonality assumption $\text{E}[X'u]=\vec{0}$. \
   Unless $x_{3i}^2$ and $\exp(x_{4i})$ happen to be included as additional explanatory variables in the model.
 - Strict exogeneity $(\text{E}(u\vert X)=\vec{0})$ implies orthogonality assumptions $(\text{E}[X'u]=\vec{0})$.
