@@ -27,6 +27,20 @@ Ordinary hat `\hat{\beta}` gives $\hat{\beta}$.
 
 
 
+## Brackets and Braces
+
+| LaTeX markup                                                | Renders as                                                  |
+| ----------------------------------------------------------- | ----------------------------------------------------------- |
+| `\bigl( \Bigl( \biggl( \Biggl(`                             | $\bigl( \Bigl( \biggl( \Biggl($                             |
+| `\bigr] \Bigr] \biggr] \Biggr]`                             | $\bigr] \Bigr] \biggr] \Biggr]$                             |
+| `\bigl\{ \Bigl\{ \biggl\{ \Biggl\{`                         | $\bigl\{ \Bigl\{ \biggl\{ \Biggl\{$                         |
+| `\bigl \langle \Bigl \langle \biggl \langle \Biggl \langle` | $\bigl \langle \Bigl \langle \biggl \langle \Biggl \langle$ |
+| `\bigr \rangle \Bigr \rangle \biggr \rangle \Biggr \rangle` | $\bigr \rangle \Bigr \rangle \biggr \rangle \Biggr \rangle$ |
+
+
+
+
+
 ## Vectors
 
 `\vec{A}`: $\vec{A}$
@@ -211,16 +225,17 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
 ### Relational Symbols
 
-|           LaTex |                 |       LaTex |             |
-| --------------: | --------------- | ----------: | ----------: |
-|          `\geq` | ≥               |      `\leq` |           ≤ |
-|        `\equiv` | ≡               |      `\sim` |      $\sim$ |
-|           `\gg` | ≫               |       `\ll` |       $\ll$ |
-|          `\mid` | $\mid$          |   `\propto` |   $\propto$ |
-|         `\perp` | ⊥               | `\parallel` | $\parallel$ |
-|  `\vartriangle` | $\vartriangle$  |  `\leadsto` |  $\leadsto$ |
-|    `\triangleq` | $\triangleq$    |   `\approx` |   $\approx$ |
-| `\triangledown` | $\triangledown$ |    `\nabla` |    $\nabla$ |
+|           LaTex |                 |             LaTex |                   |
+| --------------: | --------------- | ----------------: | ----------------: |
+|          `\geq` | ≥               |            `\leq` |                 ≤ |
+|        `\equiv` | ≡               |            `\sim` |            $\sim$ |
+|           `\gg` | ≫               |             `\ll` |             $\ll$ |
+|          `\mid` | $\mid$          |         `\propto` |         $\propto$ |
+|         `\perp` | ⊥               |       `\parallel` |       $\parallel$ |
+| `\Vert X \Vert` | $\Vert X \Vert$ | `\lVert X \rVert` | $\lVert X \rVert$ |
+|  `\vartriangle` | $\vartriangle$  |        `\leadsto` |        $\leadsto$ |
+|    `\triangleq` | $\triangleq$    |         `\approx` |         $\approx$ |
+| `\triangledown` | $\triangledown$ |          `\nabla` |          $\nabla$ |
 
 **Note:** 
 
@@ -230,7 +245,7 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
   - `\lvert` and `\rvert` ($\lvert$) used to take <span style='color:#008B45'>absolute value</span> of real numbers and modulus of complex numbers;
 
-    The issue with `\vert` is that it does not deal with the space around binary operators such as `+` and `-`. See examples as follows.
+    The issue with `\vert` is that it does not deal with the space around *binary operators* such as `+` and `-`. See examples as follows.
 
     | Poor                                | Good                                                   |
     | ----------------------------------- | ------------------------------------------------------ |
@@ -324,10 +339,10 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
     $$
     \begin{align*}
     \widetilde{\beta}_{k}^{\rm ridge} &= \underset{b\in \mathbb{R}^{p+1}}{\rm arg\, min}  \lVert y-X b  \rVert ^{2} \\
-    \hat{\boldsymbol{\beta}} &= \arg\underset{\boldsymbol{\beta}}{\min} \sum_{i=1}^n \varepsilon_i^2
+    \hat{\boldsymbol{\beta}} &= \underset{\boldsymbol{\beta}}{\arg\min} \sum_{i=1}^n \varepsilon_i^2
     \end{align*}
     $$
-     `\arg\underset{\boldsymbol{\beta}}{\min}` gives you $\arg\underset{\boldsymbol{\beta}}{\min}$.
+     `\underset{\boldsymbol{\beta}}{\arg\min}` gives you $\underset{\boldsymbol{\beta}}{\arg\min}$.
 
 - Text above arrows. $\xrightarrow{d}$ `\xrightarrow{d}` convergence in distribution.
 

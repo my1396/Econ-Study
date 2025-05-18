@@ -193,7 +193,7 @@ Reference: <https://www.principlesofeconometrics.com/poe5/writing/abadir_magnus.
 
 `viz.`: namely, that is to say.
 
-`Q.E.D`: Latin words to indicate this is the *end* of a mathematical proof. At the beginning, you simply write `Proof:`.
+`Q.E.D` or `QED`: Latin words to indicate this is the *end* of a mathematical proof. At the beginning, you simply write `Proof:`.
 
 Ceteris paribus:  Latin phrase that generally means "all other things being equal."
 
@@ -501,6 +501,26 @@ Geometric illustraion: \
 
 ## Inner and Outer Product
 
+If $X$ and $Y$ are random variables, then the inner product is given by 
+
+$$
+\langle X, Y\rangle = \E[XY]
+$$
+
+and norm is given by $\Vert Y \Vert^2 = \langle Y, Y\rangle = \E Y^2.$
+
+A random variable $S'$ is called a **projection** (or $L_2$-projection) of $Y$ onto $\Scal$ if $S'\in \Scal$ and 
+
+$$
+\E(Y-S')^2 \le \E(Y-S)^2 \quad \forall S\in \Scal.
+$$
+
+In words, $S'$ is the projection of $Y$ onto $\Scal$ if its the best approximation of $Y$ in $\Scal$ in terms of mean squared error (MSE).
+
+$\E[Y\mid X]$ is the function of $X$ that has the smallest possible MSE for predicting $Y.$ Thus $\E[Y\mid X]$ is the projection of $Y$ onto the set of random variables $\\{h(X)\mid h \text{ is any real-valued function}\\}.$
+
+___
+
 If $\boldsymbol{u}$ and $\boldsymbol{v}$ are column vectors with the same size, then $\boldsymbol{u}^T \boldsymbol{v}$ is the inner product; if $\boldsymbol{u}$ and $\boldsymbol{v}$ are column vectors of any size, then $\boldsymbol{u} \boldsymbol{v}^T$ is the outer product.
 
 - Inner product is a *number*;
@@ -551,14 +571,14 @@ $3:5$: three to five.
 
 commutative property: 交换律
 
-assosiative property: 结合律
+associative property: 结合律
 
 
 **Fractions in word**
 
 - Use hyphen between the numerator and the denominator. 
-  - When the numerator or the denominator includes a hyphen already, then the hypen between the numerator and the denominator is often dropped for style purposes. E.g., $3/35$ (three thirty-fifths)
-- Numberator is in cardinal (one, two, three 基数词); denominator is in ordinal (first, second, third 序数词).
+  - When the numerator or the denominator includes a hyphen already, then the hyphen between the numerator and the denominator is often dropped for style purposes. E.g., $3/35$ (three thirty-fifths)
+- Numerator is in cardinal (one, two, three 基数词); denominator is in ordinal (first, second, third 序数词).
 - E.g., $1/2$ (one-half), $2/3$ (two-thirds), $3/11$ (three-elevenths), $3 5/7$ (three and five-sevenths)
 
 **Decrease/increase** a negative number:
