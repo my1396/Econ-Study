@@ -28,6 +28,10 @@ title: Norsk Grammar
 
 
 
+Leddsetninger (subordinate clauses) 从句
+
+
+
 ___
 
 ## Ubestemt og bestemt form

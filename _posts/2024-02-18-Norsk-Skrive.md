@@ -33,9 +33,11 @@ det er klart at ...
 
 
 
-In addition
+**In addition** (adding extra info)
 
 i tillegg
+
+samtidlig
 
 
 
@@ -94,13 +96,25 @@ i hvert fall, i alle fall
 
 **There be**
 
-Det finnes/er (ikke) ...  (不) 存在...
+<span style='color:#008B45'>**Det finnes/er**</span> (ikke) ...  (不) 存在...
 
 E.g.
 
 *Det finnes* mange måter å oppdra barn på.
 
 *Det er ingen* unnskyldning for å komme for sent.  There is no excuse for coming too late.
+
+Use of "finnes":
+
+- 主语可以是 "det", dummy subject
+
+  Det finnes alternativer. (There are alternatives.)
+
+- 真正主语 real subject
+
+  Flere muligheter finnes for pasientene. 
+
+
 
 
 
@@ -127,7 +141,7 @@ at 从句
 
 
 
-**联系**
+### **联系**
 
 en klar <span style='color:#32CD32'>sammenheng</span> mellom ... og ...
 
@@ -222,9 +236,10 @@ veldig, svært, skikkelig, ganske, spesielt,
 
 ### 时间的表述
 
-| English               | Norsk            | 中文     |
-| --------------------- | ---------------- | -------- |
-| In the last few years | i de siste årene | 最近几年 |
+| English                                | Norsk            | 中文             |
+| -------------------------------------- | ---------------- | ---------------- |
+| In the last few years                  | i de siste årene | 最近几年         |
+| Earlier / Previously / In the past ... | Tidligere ...    | 以前，过去，早先 |
 
 
 
@@ -251,7 +266,7 @@ veldig, svært, skikkelig, ganske, spesielt,
 
 
 
-**原因**
+### **原因**
 
 | Det er nok også litt av <span style='color:#32CD32'>grunnen til at</span> han ga seg. | That's probably part of the reason he gave up. |
 | ------------------------------------------------------------ | ---------------------------------------------- |
@@ -270,9 +285,13 @@ gi gode/negative resultalter
 | ----------- | ------- |
 | slik at     | so that |
 
-dette fører til at ...
+Dette fører til at ... This leads to ...
 
-så + adj + at 从句 
+Ex.
+
+Samtidig finnes stadig bedre behandlinger for sykdommer, og *dette fører til* at levedalderen øker.
+
+**så + adj + at** 从句 
 
 - Lønningene i Norge er <span style='color:#32CD32'>så</span> høye <span style='color:#32CD32'>at</span> det ikke lønner seg å produsere varene her.
 
