@@ -295,3 +295,9 @@ Microsoft Entra authentication uses identities in Microsoft Entra ID to access d
 `Active Directory Interactive` authentication supports multifactor authentication technology to connect to Azure SQL data sources. If you provide this authentication mode in the connection string, an Azure authentication screen appears and asks the user to enter valid credentials. You can't specify the password in the connection string.
 
 Issue: cannot run SQL notebook as in Azure Data Studio
+
+
+
+___
+
+Q: How to share scripts among multiple projects in one solution? For instance, mathjax config file? 

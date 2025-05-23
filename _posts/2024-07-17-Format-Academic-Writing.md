@@ -825,6 +825,27 @@ Should include the following info:
 
 
 
+Q: Is et al. used with a singular or plural verb?  
+A: In theory, if you mean the publication, use single; if you mean the authors, use plural. But in practice, the distinction is blury. 
+
+But you see examples as follows.
+
+> Smith et al. (2015) show that ... → plural ✅
+>
+> Smith et al. (2015) show<span style='color:#FF9900'>s</span> that ... ❌
+
+In most common case, we are describing the results from the paper, the usual convetion is to trent the authors, NOT the paper, as the subject, and use **plural**.
+
+Another example:
+
+> Watson and Crick (1953) demonstrate the double-helical structure of DNA. → plural
+
+To avoid this confusion, recommend to use past tense, "<span style='color:#008B45'>showed</span>", you won't have this problem at all.
+
+
+
+
+
 ###  ISBN and DOI
 
 What is an ISBN and a DOI?

@@ -1,3 +1,4 @@
+// Local JavaScript config file 
 // enable inline eqn and add new macro definitions
 window.MathJax = {
     tex: {
@@ -136,6 +137,7 @@ window.MathJax = {
           // bold face lowercase Greeks
           bbeta: "\\boldsymbol{\\beta}",
           bdelta: "\\boldsymbol{\\delta}",
+          btheta: "\\boldsymbol{\\theta}",
           blambda: "\\boldsymbol{\\lambda}",
           bmu: "\\boldsymbol{\\mu}",
           bphi: "\\boldsymbol{\\phi}",

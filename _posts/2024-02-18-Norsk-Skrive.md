@@ -224,7 +224,11 @@ Tor og Ed har **annerledes** biler. $\rightarrow$ Alle de andre vennene har Toyo
 
 People
 
-folk, personer, mennesker, innbyggerne
+man, folk
+
+personer, mennesker, innbyggerne
+
+befolkningen (population)
 
 
 
@@ -236,10 +240,10 @@ veldig, svært, skikkelig, ganske, spesielt,
 
 ### 时间的表述
 
-| English                                | Norsk            | 中文             |
-| -------------------------------------- | ---------------- | ---------------- |
-| In the last few years                  | i de siste årene | 最近几年         |
-| Earlier / Previously / In the past ... | Tidligere ...    | 以前，过去，早先 |
+| English                                | Norsk              | 中文             |
+| -------------------------------------- | ------------------ | ---------------- |
+| In the last few years                  | i *de siste årene* | 最近几年         |
+| Earlier / Previously / In the past ... | Tidligere ...      | 以前，过去，早先 |
 
 
 
@@ -249,6 +253,10 @@ veldig, svært, skikkelig, ganske, spesielt,
 | ------------------------------- | ------------------------------------------------------------ |
 
 
+
+越来越...
+
+Stagig flere/bedre ... 越来越多/好
 
 
 
@@ -264,12 +272,16 @@ veldig, svært, skikkelig, ganske, spesielt,
 
 
 
+Nå det **gjerlder** noe ... → When it comes to ...
+
 
 
 ### **原因**
 
 | Det er nok også litt av <span style='color:#32CD32'>grunnen til at</span> han ga seg. | That's probably part of the reason he gave up. |
 | ------------------------------------------------------------ | ---------------------------------------------- |
+| den vanligste årsaken til .... er ...                        | the most common cause of ... is ...            |
+| å følge av noe                                               | 由…引起的                                      |
 
 nok: probably
 
@@ -293,7 +305,11 @@ Samtidig finnes stadig bedre behandlinger for sykdommer, og *dette fører til* a
 
 **så + adj + at** 从句 
 
-- Lønningene i Norge er <span style='color:#32CD32'>så</span> høye <span style='color:#32CD32'>at</span> det ikke lønner seg å produsere varene her.
+- Lønningene i Norge er <span style='color:#32CD32'>så</span> høye <span style='color:#32CD32'>at</span> det <u>ikke</u> lønner seg å produsere varene her.
+
+  注意从句中 ikke 提前
+
+
 
 
 
@@ -305,8 +321,21 @@ prisen å betale er ...
 
 **挑战，困难**
 
-| å gi store utfordringer for noen | give sb big challenges |
-| -------------------------------- | ---------------------- |
+| å gi store utfordringer for noen            | give sb big challenges                    |
+| ------------------------------------------- | ----------------------------------------- |
+| beskymringer noen ikke klarer å takle alene | concerns that someone cannot handle alone |
+
+
+
+**组成<span style='color:#008B45'>部分</span>**
+
+*Den største delen* er ... (Note the triple definite form) → The largest part is ...
+
+Mesteparten av ... → Most of ...
+
+... utgjør *den største delen*. 
+
+En annen viktig del av ... 
 
 
 
