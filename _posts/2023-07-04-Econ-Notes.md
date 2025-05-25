@@ -495,7 +495,7 @@ Reference: <https://zhuanlan.zhihu.com/p/26263309>
   \end{align*}
   $$
 
-Geometric illustraion: \
+Geometric illustration: \
 <https://math.stackexchange.com/a/1730547>
 
 
@@ -604,7 +604,7 @@ A standard polynomial is one where the highest degree is the first term, and the
 - The number multiplied by a variable is called the "coefficient". 
 - The number without any variable is called a "constant".
 
-$A^B$: $A$ is called the base (底数), $B$ is exponent (指数).
+$A^B$: $A$ is called the base (幂底数), $B$ is exponent (幂指数).
 
 Polynomials, $x$ in the base. constant ($x^0$), linear ($x$), quadratic ($x^2$), cubic ($x^3$), quartic terms ($x^4$).
 
@@ -624,6 +624,10 @@ A binomial is a polynomial with two terms. (只有两项的多项式)
 因式分解，或多项式因式分解（Polynomial Factorization），是把一个多项式分解为两个或多个的因式的过程。在这个过后会得出一堆较原式简单的多项式的积。例如单元多项式 $x^{2}-1^{2}$ 可被因式分解为 $\left(x+1\right)\left(x-1\right)$。
 
 
+- Collect terms: 合并同类项
+- Collect like powers of $L$: 合并 $L$ 的同次幂，e.g., $aL^2+bL^2=(a+b)L^2$
+
+
 **Exponential** $x$ in the exponent.
 
 If there is a *variable* in the exponent, the ordinal is not used. $x^y$ is read as "x to <span style='color:#008B45FF'>*the*</span> y". The -th is dropped.
@@ -638,7 +642,7 @@ $\sqrt[n]{b}$: the $n$-th root of $b$.
 
 $e^x$: take the exponential of $x$ or apply the exponential function to $x$.
 
-*Scientific e notation*:  Because superscript exponents like $10^7$ can be inconvenient to display or type, the letter "E" or "e" (for "exponent") is often used to represent "times ten raised to the power of", so that the notation m E n for a decimal significand m and integer exponent n means the same as m × 10n. E.g., $6\times 10^7$ can be written as 6e7.
+*Scientific e notation*:  Because superscript exponents like $10^7$ can be inconvenient to display or type, the letter "E" or "e" (for "exponent") is often used to represent "times ten raised to the power of", so that the notation m E n for a decimal significand m and integer exponent n means the same as $m \times 10^n$. E.g., $6\times 10^7$ can be written as 6e7.
 
 - e+n or en: $10^n$ (`+` can be omitted for positive exponent)
 - e-n: $10^{-n}$
@@ -706,6 +710,11 @@ $a_1, a_2, ..., a_n$ has common ratio $q$.
 - Definite: there is a clear end.
 - Indefinitely: means you don't know when something is going to end. E.g., Due to Covid-19, the schools have been closed indefinitely. 
 
+- **Filtering:** The operation of taking a weighted average of (possibly infinitely many) successive values of a process. E.g., 
+
+$$
+y_t = \mu + \sum_{j=0}^\infty \phi_j\varepsilon_{t-j}
+$$
 
 
 **Distribution Functions**
@@ -1684,7 +1693,7 @@ where the sum and integral are over the supports of $X$ and $Y$.
 For linear transformations, we have
 
 $$
-\text{Cov}(a+bX, c+dY) = bd\text{Cov}{X,Y}
+\text{Cov}(a+bX, c+dY) = bd\,\text{Cov}(X,Y)
 $$
 
 for known constants $a,b,c,d$.
@@ -1700,11 +1709,11 @@ $$
 More generally,
 
 $$
-\text{Cov}\left(\sum_{i=1}^m a_iX_i, \sum_{j=1}^n b_iY_i\right) =
+\color{#008B45}\text{Cov}\left(\sum_{i=1}^m a_iX_i, \sum_{j=1}^n b_iY_i\right) =
 \sum_{i=1}^m\sum_{j=1}^n a_ib_j\text{Cov}(X_i, Y_j).
 $$
 
-One of the applications of covariance is finding the variance of a sum of several random variables.
+One of the applications of covariance is finding the variance of a <span style='color:#008B45'>**sum of several random variables**</span>.
 In particular, if $Z=X+Y$, then
 
 $$
@@ -1712,21 +1721,21 @@ $$
 \text{Var}(Z) &= \text{Cov}(Z,Z) \\
 &= \text{Cov}(X+Y, X+Y) \\
 &= \text{Cov}(X,X) + \text{Cov}(X,Y) + \text{Cov}(Y,X) + \text{Cov}(Y,Y) \\
-&= \text{Var}(X) + \text{Var}(X) + 2\text{Cov}(X,Y).
+&= \color{#008B45}\text{Var}(X) + \text{Var}(X) + 2\text{Cov}(X,Y).
 \end{aligned}
 $$
 
 More generally, for $a_i\in \mathbb{R}, i=1,\ldots,n$, we conclude:
 
 $$
-\text{Var}\left(\sum_{i=1}^n a_iX_i \right) = 
+\color{#008B45} \text{Var}\left(\sum_{i=1}^n a_iX_i \right) = 
 \sum_{i=1}^n a_i^2 \text{Var}(X_i) + \sum_{i=1}^n\sum_{j=1}^n a_ia_j \text{Cov}(X_i, X_j).
 $$
 
 Or equivalently, 
 
 $$
-\text{Var}\left(\sum_{i=1}^n a_iX_i \right) = 
+\color{#008B45} \text{Var}\left(\sum_{i=1}^n a_iX_i \right) = 
 \sum_{i=1}^n a_i^2 \text{Var}(X_i) + 2\sum_{i=2}^n\sum_{j=1}^{i-1} a_ia_j \text{Cov}(X_i, X_j).
 $$
 
@@ -1790,6 +1799,65 @@ and so $\text{Cov}(X, f(X))=0$.
 
 $f(X)=X^2$ is an even function, which satisfies the condition.
 
+
+___
+
+**Properties of covariance**
+
+1. The covariance of a variable with itself is the variance of the random variable.
+
+    $$
+    \cov(X, X) = \var(X)
+    $$
+2. The covariance of a random variable, $X$, with a constant, $c$ is zero.
+  
+    $$
+    \cov(c, X) = 0 
+    $$
+3. The covariance is commutative.
+  
+    $$
+    \cov(X, Y) = \cov(Y,X)
+    $$
+4. If $X$ and $Y$ are independent then 
+
+    $$\cov(X,Y)=0$$
+5. Adding a constant to either or both random variables does not change their covariances.
+
+    $$
+    \cov(X+c, Y+k) = \cov(X,Y)
+    $$
+6. Multiplying a random variable by a constant multiplies the covariance by that constant.
+
+    $$
+    \cov(cX, kY) = ck\times\cov(X,Y)
+    $$
+7. The covariance of a random variable with a sum of random variables is the sum of the covariances with each of the random variables.
+
+    $$
+    \cov(X+Y, Z) = \cov(X,Z) + \cov(Y,Z)
+    $$
+8. More generally, covariance of sum of random variables:
+
+    $$
+    \cov\left(\sum_{i=1}^ma_iX_i, \sum_{j=1}^nb_jY_j\right)= \sum_{i=1}^m\sum_{j=1}^na_ib_j\cov(X_i,Y_j)
+    $$
+
+___
+
+Properties for correlation coefficients
+
+1. Adding a constant to a random variable does not change their correlation coefficient.
+
+    $$
+    \cor(X+c, Y+k) = \cor(X,Y)
+    $$
+2. Multiplying a random variable by a constant does not change their correlation coefficient.
+
+    $$
+    \cor(cX, dY) = \cor(X,Y)
+    $$
+
 ___
 
 ## Joint Distributions and Independence
@@ -1806,6 +1874,7 @@ F(x_1, x_2) &= P(X_1\le x_1, X_2\le x_2) \\
 	\end{array} \right.
 \end{aligned}
 $$
+
 
 
 **Joint Density Function (Joint PDF)**

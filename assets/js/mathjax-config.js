@@ -147,6 +147,20 @@ window.MathJax = {
           bsigma: "\\boldsymbol{\\sigma}",
           btau: "\\boldsymbol{\\tau}",
           bxi: "\\boldsymbol{\\xi}",
+
+          // function names
+          curl: ["\\left\\lbrace#1\\right\\rbrace", 1],
+          floor: ["\\left\\lfloor#1\\right\\rfloor", 1],
+          ceil: ["\\left\\lceil#1\\right\\rceil", 1],
+          abs: ["\\left\\lvert#1\\right\\rvert", 1],
+          norm: ["\\left\\lVert#1\\right\\rVert", 1],
+
+          var: "\\mathrm{Var}",
+          cov: "\\mathrm{Cov}",
+          cor: "\\mathrm{Corr}",
+          diag: "\\mathrm{diag}",
+          rank: "\\mathrm{rank}",
+          vecc: "\\mathrm{vec}",
           },
       },
 

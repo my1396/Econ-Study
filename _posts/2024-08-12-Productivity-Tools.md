@@ -142,16 +142,28 @@ A: Go to Settings (⌘,) → `cSpell.diagnosticLevel` → Choose `Hint`  from th
 
 
 
+Q: How to show my installed extensions?  
+A: By default, the Extensions view will show the extensions you currently have installed, and all extensions that are recommended for you. You can use the **Extensions: Focus on Installed View** command, to show the installed ones.
 
+
+
+
+
+___
+
+### Markdown
 
 Q: How to get a preview of Rmarkdown?  
 A: Open `settings.json`, add the following code inside the braces.
 
 ```css
 "files.associations": {
-     "*.Rmd": "markdown"
-}
+    "*.Rmd": "markdown",
+    "*.qmd": "markdown",
+},
 ```
+
+A drawback of this setting is that you cannot run codes inside the markdown files.
 
 
 
@@ -160,8 +172,15 @@ A: You can change what content is allowed in the Markdown preview by clicking on
 
 
 
-Q: How to show my installed extensions?  
-A: By default, the Extensions view will show the extensions you currently have installed, and all extensions that are recommended for you. You can use the **Extensions: Focus on Installed View** command, to show the installed ones.
+**Visual Mode and Source Mode**
+
+Visual Mode has inline prview of eqns, and in time preview of your markdown, like in Typora.
+
+Side-to-side preview can be slow and the previewer can crash for a large file. That's where Visual Mode comes in handy.
+
+<img src="https://drive.google.com/thumbnail?id=1j_Btjvfn-PXR6lnNvIafGh4EOo1mK_xW&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
 
 
 
@@ -300,4 +319,5 @@ Issue: cannot run SQL notebook as in Azure Data Studio
 
 ___
 
-Q: How to share scripts among multiple projects in one solution? For instance, mathjax config file? 
+Q: How to share scripts among multiple projects in one solution? For instance, mathjax config file?   
+A: Unresolved yet …

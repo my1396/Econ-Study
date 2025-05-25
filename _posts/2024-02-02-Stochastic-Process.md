@@ -24,7 +24,6 @@ $$
 $\mu_t$ depends on time $t$, as, for example, processes with a seasonal or periodical structure or processes with a deterministic trend.
 
 **Autocovariance Function**
-
 $$
 \begin{align*}
 \gamma(t,\tau)=\text{Cov}(X_t, X_{t-\tau})
@@ -42,11 +41,11 @@ $$
 \end{align*}
 $$
 
-The autocorrelation function $\rho$ of a covaraince stochastic process is normalized on the interval $[-1,1]$.  $\rho$ depends only on one parameter, the lag $\tau$.
+The autocorrelation function $\rho$ of a covaraince stochastic process is normalized on the interval $[-1,1]$.  $\rho$ depends only on one parameter, the lag $\tau$.  The sequence, $\{\rho_\tau\},$ is called correlogram.
 
 
 
-**White Noise (WN)**
+## White Noise (WN)
 
 If $X_t$ is white noise, then
 
@@ -107,15 +106,14 @@ On the other hand, the values of $X$ at distant time points are less and less co
 
 
 
-**AR(1) process**
+## AR(1) process
 
+Model set up
 $$
-\begin{align*}
-X_t=c+\alpha X_{t-1}+\varepsilon_t
-\end{align*}
+X_t = c+\alpha X_{t-1}+\varepsilon_t, \quad \varepsilon_t\sim \mathrm{WN}(0, \sigma^2).
 $$
 
-with $ \vert\alpha \vert<1$.
+In order for $\{x_t\}$ to converge, we need $ \vert\alpha \vert<1$.
 
 By iterative substitutions, 
 
@@ -128,10 +126,12 @@ $$
 For $K\to \infty$,
 
 $$
-\begin{align*}
-X_t = \frac{c}{1-\alpha}+\sum^\infty_{i=0}\alpha^i\varepsilon_{t-i}
-\end{align*}
+\begin{align}
+X_t = \frac{c}{1-\alpha}+\sum^\infty_{i=0}\alpha^i\varepsilon_{t-i} \label{eq:ma-representation}
+\end{align}
 $$
+
+Eq. $\eqref{eq:ma-representation}$ is called the moving-average representation, MA($\infty$).
 
 Moment functions:
 
@@ -146,10 +146,20 @@ For ACF, $\rho_\tau$,
 
 When we have $\alpha>0$, for small $\alpha$, like 0.5, it converges very fast; for large $\alpha$, like 0.99, it converges quite slow.
 
+___
+
+
+There are cases where $\abs{\phi}\ge1$:
+
+- if $\abs{\phi}>1$ the AR(1) process is stationary but not causal.
+
+- if $\abs{\phi}=1$ we have a non-stationary process (called random walk when $\phi=1$) and we say that this process has a unit root.
+
+___
 
 **Autocovariance Matrix**
 
-If $\{X_t \}$ is a stantionary process, we define a $p\times 1$ random vector $X$:
+If $\{X_t \}$ is a stationary process, we define a $p\times 1$ random vector $X$:
 
 $$
 X' = [X_t, X_{t+1}, \ldots, X_{t+p} ] \,.
@@ -198,6 +208,45 @@ We say that $\Sigma_{XX}$  is "<span style='color:#008B45FF'>positive semi-defin
 $$
 \sum_{r=1}^p\sum_{s=1}^p a_r\, a_s\, \rho(r-s) \ge 0 \,.
 $$
+
+
+
+**MA($\bold{\infty}$) representation**
+
+Leg $\{\varepsilon_t\}$ be white noise and $\{\psi_j\}$ be a sequence of real numbers that is absolutely summable. Then
+
+1. For each $t$,
+	
+	$$
+	y_t = \mu + \sum_{j=0}^\infty\psi_j\varepsilon_{t-j}
+	$$
+
+    converges in mean square. $\{y_t\}$ is covariance-stationary. (The process $\{y_t\}$ is called the infinite-order moving-average process (MA($\infty$)).)
+
+2. The mean of $y_t$ is $\mu.$ The autocovariances $\{\gamma_j\}$ are given by 
+
+    $$
+    \gamma_j = \sigma^2\sum_{k=0}^\infty \psi_{j+k}\psi_k \quad (j=0,1,2,\dots).
+    $$
+
+3. The autocovariances are absolutely summable:
+
+    $$
+    \sum_{j=0}^\infty \vert \gamma_j \vert < \infty.
+    $$
+
+4. If, in addition, $\{\varepsilon_t\}$ is i.i.d, then the process $\{y_t\}$ is (strictly) stationary and ergodic.
+
+
+$$
+y_t = c + \phi y_{t-1} + \varepsilon_{t}
+$$
+
+
+$$
+y_t = \mu - \sum_{j=1}^\infty \phi^{-j}\varepsilon_{t+j}
+$$
+
 
 **Markov Process**
 
@@ -311,11 +360,9 @@ $$
 
 ___
 
-**Lag Operator**
+## Lag Operator
 
 $LX_t=X_{t-1}$ and  $L^kX_t=X_{t-k}$
-
-$\Delta=1-L$, $\Delta X_t=X_t-X_{t-1}$ and $\Delta^k=(1-L)^k$
 
 
 Sometimes also called as "backshift operator", and denoted as $B$.
@@ -323,19 +370,66 @@ Sometimes also called as "backshift operator", and denoted as $B$.
 **Autoregressive Polynomial**
 
 $$
-\phi(L) = 1 - \phi_1 L - \phi_2 L^2 - \cdots - \phi_p L^p
+\begin{equation}
+\phi(L) = 1 - \phi_1 L - \phi_2 L^2 - \cdots - \phi_p L^p \label{lag-poly}
+\end{equation}
 $$
 
-Using an AR(1) model, $X_t=\phi_1 X_{t-1} + \varepsilon_t$, as an example.  
+Eq. $\eqref{lag-poly}$ is common to see in ARMA process. 
 
-Let $\phi(L)=1-\phi_1 L\,,$ then we can express the innovation as
+Using an AR(1) model, 
+$$
+\begin{equation}
+Y_t=\phi_1 Y_{t-1} + \varepsilon_t,\label{AR1}
+\end{equation}
+$$
+
+as an example.  
+
+Let $\phi(L)=1-\phi_1 L\,,$ then we can express the innovation in $\eqref{AR1}$ as
 
 $$
-\varepsilon_t = \phi(L) X_t \,.
+\begin{equation}
+\varepsilon_t = Y_t-\phi_1 Y_{t-1} = \phi(L) Y_t \,.
+\end{equation}
 $$
+
+Other common lag polynomials:
+
+- General form: $\beta(L)=\beta_0 + \beta_1L + \beta_2L^2 + \cdots$
+- $\alpha(L)=1 + \alpha L + (\alpha L)^2 + (\alpha L)^3 + \cdots$
+
+We also call these lag polynomials "filters."
+
+**Product** of two filters $\alpha(L)$ and $\beta(L)$ 
+$$
+\delta(L) = \alpha(L)\beta(L)
+$$
+
+If follows the same rules as common polynomials. For example, for $\alpha(L)=1+\alpha_1L$ and $\beta(L)=1+\beta_1L$, we have
+
+$$
+\delta(L)=(1+\alpha_1L)(1+\beta_1L) = 1+ (\alpha_1+\beta_1)L + \alpha_1\beta_1L^2.
+$$
+
+The product of two filters is called "convolution" of $\{\alpha_{j}\}$ and $\{\beta_{j}\}.$
+
+$$
+\begin{gathered}
+\delta_0 = \alpha_0\beta_0 \\
+\delta_1 = \alpha_0\beta_1 + \alpha_1\beta_0 \\
+\delta_2 = \alpha_0\beta_2 + \alpha_1\beta_1 + \alpha_2\beta_0 \\
+\vdots
+\end{gathered}
+$$
+
+**Inverses** of $\alpha(L)$ is to find $\beta(L)$ such that $\alpha(L)\beta(L)=1$, we say $\beta(L)$ is the inverse of $\alpha(L)$, denoted as $\alpha(L)^{-1}$ or $1/\alpha(L).$
+
+
+
+**Difference Operator**: $\Delta=1-L$, $\Delta X_t=X_t-X_{t-1}$ and $\Delta^k=(1-L)^k$
 
 **Unit Root Tests**
-
 $$
 X_t = c+\alpha X_{t-1}+\varepsilon_t
 $$
@@ -357,7 +451,7 @@ Python code: <https://matthew-brett.github.io/teaching/smoothing_intro.html>
 
 
 
-## GMM	
+## GMM
 
 `gmm(g, x, t0=NULL, gradv=NULL, type=c("twoStep","cue","iterative"), wmatrix = c("optimal","ident"), vcov=c("HAC","MDS","iid","TrueFixed"), ..., data)`
 
@@ -376,7 +470,6 @@ VAR model allows feedback to occur between the variables in the model. For examp
 -   A systematic but flexible approach for capturing complex real-world behavior.
     Better forecasting performance.
     Ability to capture the intertwined dynamics of time series data.
-
 
 
 
