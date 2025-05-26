@@ -23,7 +23,7 @@ Ordinary hat `\hat{\beta}` gives $\hat{\beta}$.
 
 `\textvisiblespace` gives `␣`. 空格占位符
 
-`\S` (from basic LaTex) or `\textsection` (from `textcomp` package) gives  the section symbol $\S1$ (`\S1`)
+`\S` (from basic LaTex) or `\textsection` (from `textcomp` package) gives  the section symbol §1 (`\S1`)
 
 
 

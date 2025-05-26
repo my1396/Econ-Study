@@ -362,13 +362,63 @@ ___
 
 ## Lag Operator
 
-$LX_t=X_{t-1}$ and  $L^kX_t=X_{t-k}$
-
+The lag operator, $L$, shifts a time value $X_t$ back by one epriod. For example, $LX_t=X_{t-1}$ and  $L^kX_t=X_{t-k}.$
 
 Sometimes also called as "backshift operator", and denoted as $B$.
 
-**Autoregressive Polynomial**
+Useful results of $L$:
 
+- $L^0=1$
+- The lag of a constant is the same constant: 
+
+	$$
+  La=a .
+  $$
+  
+- The lag operator is commutative:
+
+  $$
+	L(\beta y_t) = \beta L y_t.
+  $$
+  
+- The lag operator is distributive:
+
+  $$
+	L(x_t+y_t) = L z_t = z_{t-1} = x_{t-1} + y_{t-1} = L x_t + L
+  y_t,
+  $$
+  where $z_t=x_t+y_t.$
+
+- Factorizing polynomials
+
+  $$
+  \smash{1-\phi_1 z - \phi_2 z^2 - \ldots - \phi_p z^p =
+(1-\lambda_1z)(1-\lambda_2z) \cdots (1-\lambda_pz).}
+  $$
+
+  - $\left\{\frac{1}{\lambda_i}\right\}_{i=1}^p$ are the $p$ roots of the polynomial. 
+  - Some of the roots may be complex and some may be identical.
+
+  If we factor the $p$-th order lag polynomial in the same way as a real-valued polynomial:
+
+  $$
+  \begin{split}
+& (1-\phi_1 L - \phi_2 L^2 - \ldots - \phi_p L^p)y_t \\
+& \hspace{0.5in} = (1-\lambda_1 L)(1-\lambda_2 L) \cdots
+(1-\lambda_p L) y_t = w_t.
+\end{split}
+  $$
+
+  If $\abs{\lambda_i}<1,$
+
+  $$
+  (1 - \lambda_i L)^{-1} = \sum_{j=0}^{\infty} \lambda_i^j L^j,
+\,\,\,\,\, \forall i.
+  $$
+
+More properties: <https://ealdrich.github.io/Teaching/Econ211C/LectureNotes/Unit1-ARMA/lagOperators.html>
+
+**Autoregressive Polynomial**
 $$
 \begin{equation}
 \phi(L) = 1 - \phi_1 L - \phi_2 L^2 - \cdots - \phi_p L^p \label{lag-poly}
@@ -390,7 +440,7 @@ Let $\phi(L)=1-\phi_1 L\,,$ then we can express the innovation in $\eqref{AR1}$ 
 
 $$
 \begin{equation}
-\varepsilon_t = Y_t-\phi_1 Y_{t-1} = \phi(L) Y_t \,.
+\varepsilon_t = Y_t-\phi_1 Y_{t-1} = (1-\phi_1L)Y_t = \phi(L) Y_t \,.
 \end{equation}
 $$
 
