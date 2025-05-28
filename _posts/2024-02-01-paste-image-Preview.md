@@ -172,8 +172,9 @@ The `Eqnarray` mode is a handy shortcut to make multi-lines equations. It automa
 % table with white background
 \begin{table}
 \caption{my caption}
-\colorbox{white}{
-    \centering
+\colorbox{white}{ % \colorbox is inside table environment
+\centering
+		% provide your table data here
     \begin{tabular}{@{}ll|ll|l@{}}
     &  \multicolumn{1}{c}{}   & \multicolumn{2}{c}{\textbf{sex}} &     \\ 
     &     & 0 (male)         & 1 (female)         & Sum \\
@@ -182,13 +183,14 @@ The `Eqnarray` mode is a handy shortcut to make multi-lines equations. It automa
     & 1 (presence)   & 117        & 89         & 206 \\
     \cline{2-5}
                                 & Sum & 202        & 249        & 451 \\ 
-    \end{tabular}}
+    \end{tabular}
+} % end colorbox
 \end{table}
 
 \end{document}
 ```
 
-
+If you want to **suppress caption numbering** `Table 1`, use `\caption*` instead of `\caption`. This is useful if you need to provide costom numbering/labels.
 
 
 
