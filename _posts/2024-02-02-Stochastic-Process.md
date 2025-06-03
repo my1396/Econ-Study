@@ -11,7 +11,11 @@ $$
 
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
-A stochastic process $X_t$ is a family of random variables. At a specific time point $t$, $X_t$ is a random variable with a specific density function. A stochastic process is defined in a probability space $(\Omega, \mathcal{F}, P)$.
+A stochastic process $X_t$ is a family/sequence of random variables indexed by time $t$. "Stochastic"  is a synonym for random. 
+
+When we collecta time series data set, we obtain one possible outcome, or *realization*, of the stochastic process. We can only see a single realization, because we cannot go back in time and startthe process over again. (This is analogous to cross-sectional analysis where we can collectonly one random sample.)
+
+At a specific time point $t$, $X_t$ is a random variable with a specific density function. A stochastic process is defined in a probability space $(\Omega, \mathcal{F}, P)$.
 
 Mean function $\mu_t$ 
 
@@ -387,33 +391,34 @@ Useful results of $L$:
 	L(x_t+y_t) = L z_t = z_{t-1} = x_{t-1} + y_{t-1} = L x_t + L
   y_t,
   $$
+
   where $z_t=x_t+y_t.$
 
 - Factorizing polynomials
 
   $$
-  \smash{1-\phi_1 z - \phi_2 z^2 - \ldots - \phi_p z^p =
-(1-\lambda_1z)(1-\lambda_2z) \cdots (1-\lambda_pz).}
+  1-\phi_1 z - \phi_2 z^2 - \ldots - \phi_p z^p =
+  (1-\lambda_1z)(1-\lambda_2z) \cdots (1-\lambda_pz).
   $$
 
-  - $\left\{\frac{1}{\lambda_i}\right\}_{i=1}^p$ are the $p$ roots of the polynomial. 
+  - $\lbrace\frac{1}{\lambda_i}\rbrace_{i=1}^p$ are the $p$ roots of the polynomial. 
   - Some of the roots may be complex and some may be identical.
 
   If we factor the $p$-th order lag polynomial in the same way as a real-valued polynomial:
 
   $$
   \begin{split}
-& (1-\phi_1 L - \phi_2 L^2 - \ldots - \phi_p L^p)y_t \\
-& \hspace{0.5in} = (1-\lambda_1 L)(1-\lambda_2 L) \cdots
-(1-\lambda_p L) y_t = w_t.
-\end{split}
+  & (1-\phi_1 L - \phi_2 L^2 - \ldots - \phi_p L^p)y_t \\
+  & \hspace{0.5in} = (1-\lambda_1 L)(1-\lambda_2 L) \cdots
+  (1-\lambda_p L) y_t = w_t.
+  \end{split}
   $$
 
   If $\abs{\lambda_i}<1,$
 
   $$
   (1 - \lambda_i L)^{-1} = \sum_{j=0}^{\infty} \lambda_i^j L^j,
-\,\,\,\,\, \forall i.
+  \,\,\,\,\, \forall i.
   $$
 
 More properties: <https://ealdrich.github.io/Teaching/Econ211C/LectureNotes/Unit1-ARMA/lagOperators.html>
@@ -520,6 +525,15 @@ VAR model allows feedback to occur between the variables in the model. For examp
 -   A systematic but flexible approach for capturing complex real-world behavior.
     Better forecasting performance.
     Ability to capture the intertwined dynamics of time series data.
+
+
+___
+
+**Conventions**
+
+$\Delta$ means "change" or "difference." If an original variable is named $y$ then its change of difference is often denoted $cy$ or $dy.$ For example, the change in $price$ might be denoted $cprice.$
+
+If an original variable is named $y$ then its growth rate is often denoted $gy,$ so that for each $t,$ $gy_t=\log(y_t)- \log(y_{t-1})$ or $gy_t=(y_t-y_{t-1})/y_t.$
 
 
 

@@ -173,8 +173,8 @@ The `Eqnarray` mode is a handy shortcut to make multi-lines equations. It automa
 \begin{table}
 \caption{my caption}
 \colorbox{white}{ % \colorbox is inside table environment
-\centering
-		% provide your table data here
+\centering 
+    % provide your table data here
     \begin{tabular}{@{}ll|ll|l@{}}
     &  \multicolumn{1}{c}{}   & \multicolumn{2}{c}{\textbf{sex}} &     \\ 
     &     & 0 (male)         & 1 (female)         & Sum \\
