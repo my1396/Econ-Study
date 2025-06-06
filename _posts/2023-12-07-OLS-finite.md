@@ -240,6 +240,8 @@ With the normally distributed errors, we can derive the distribution of $\hat{\b
 
 Without the assumption that $u\vert X$ (or equivalently $y\vert X$) has a normal distribution, we can still characterize the distribution of $\hat{\beta}_{OLS}$ in large samples by using the asymptotic distribution results.
 
+Under Assumptions 1–5, the OLS estimator is the <span style='color:#337ab7'>**best linear unbiased estimator**</span> (BLUE). "Best" in terms of *having the smallest variance*.
+
 
 ___
 
@@ -263,6 +265,9 @@ Difference between strict exogeneity $(\text{E}(u\vert X)=\vec{0})$ and orthogon
 - Strict exogeneity $(\text{E}(u\vert X)=\vec{0})$ implies orthogonality assumptions $(\text{E}[X'u]=\vec{0})$.
 
 
+___
+
+
 ## OLS estimator
 
 OLS estimator minimizes the *sum of the squared residuals* (**RSS**).
@@ -276,8 +281,8 @@ $$
 Let $\hat{\beta}$ denote an estimator of $\beta$.
 
 It is important to differentiate $u$ from $\hat{u}$. 
-- $u$ refers to erros that cannot be observed. 
-- $\hat{u}$ refers to residuals that can be observed. 
+- $u$ refers to **errors** that cannot be observed. 
+- $\hat{u}$ refers to **residuals** that can be observed. 
 
 We can write the sum of squared residuals as:
 
@@ -303,13 +308,13 @@ $$
 \hat{\beta}_{OLS} = \underset{\hat{\beta}}{\text{argmin}}\, S(\hat{\beta})
 $$
 
-Take 1st derivetate and set it to zero 
+Take 1st derivative and set it to zero 
 
 $$
-\frac{\partial \hat{u}'\hat{u}}{\partial \hat{\beta}} = -2X'y+2X'X\hat{\beta} = \vec{0}
+\frac{\partial \hat{u}'\hat{u}}{\partial \hat{\beta}} = -2X'y+2X'X\hat{\beta} = \vec{0},
 $$
 
-which gives us the so-called the "normal equations"
+which gives us the so-called the "normal equations":
 
 $$
 X'y = X'X\hat{\beta}.
@@ -318,7 +323,7 @@ $$
 A variation of the normal equations is 
 
 $$
-X'(y-X'\hat{\beta}) = X'\hat{u} = \vec{0}
+X'(y-X'\hat{\beta}) = X'\hat{u} = \vec{0},
 $$
 
 $\vec{0}$ here is a $K\times 1$ zero vector.
@@ -327,7 +332,7 @@ $\vec{0}$ here is a $K\times 1$ zero vector.
 Hence the OLS estimator is given as
 
 $$
-\hat{\beta} = (X'X)^{-1}X'y
+\hat{\beta} = (X'X)^{-1}X'y.
 $$
 
 Note: The primary property of OLS estimators is that they satisfy the criteria of minimizing the sum of squared residuals. However, there are other properties. These properties do NOT depend on any assumptions - they will always be true so long as we compute them in the manner just shown.
@@ -353,16 +358,32 @@ This last development takes account of the fact that $X'\hat{u}= 0$. </li>
 
 These properties *always hold true*. You should be careful not to infer anything from the residuals about the disturbances/ errors. For example, you cannot infer that the sum of the disturbances is zero or that the mean of the disturbances is zero just because this is true of the residuals - this is true of the residuals just because we decided to minimize the sum of squared residuals.
 
-
+___
 
 ## Hypothesis testing
 
-in finite sample, we know that error follows normal distribution $u\vert X \sim N(0, \sigma^2I)$.
+In finite sample, we know that error follows normal distribution $u\vert X \sim N(0, \sigma^2I)$.
+
 1. When we know error variance $\sigma^2$, we use standard normal test.
-2. When we do not know error variance, then we estimate using $\hat{\sigma}^2_{OLS} =\frac{\hat{u}'\hat{u}}{n-K}$. Then use $t$-distribution.
+2. When we do not know error variance, then we estimate using 
+
+    $$
+    \hat{\sigma}^2_{OLS} =\frac{\hat{u}'\hat{u}}{n-K}.
+    $$
+
+    Then use $t$-distribution.
+
+    Note that $K$ here is the number of independent variables *including* the intercept. $df$ is essentially the number of observations minus the number of estimated parameters.
+
+    $\hat{\sigma}$ is called the **standard error of the regression** (SER), or standard error of the estimate. The SER is an estimator of the standard deviation of the error term.
+
+    Under the Gauss-Markov assumptions 1–5, $\hat{\sigma}^2_{OLS}$ is an **unbiased** estimator of $\sigma^2,$ that is, 
+    
+    $$\E(\hat{\sigma}^2_{OLS})=\sigma^2.$$
 
 
-Joint hypothesis with one or more restrictions
+
+**Joint hypothesis** with one or more restrictions
 
 $$
 \begin{align*}
@@ -375,7 +396,11 @@ With normally distributed errors, we have
 
 $$\hat{\theta}\vert X \overset{\text{a}}{\sim} \text{N}\left(\theta,\sigma^2 H(X'X)^{-1}H'\right). $$
 
-We estimate $\text{Var}(\hat{\theta}\vert X)$ using $\widehat{\text{Var}}(\hat{\theta}\vert X) = H \widehat{\text{Var}}(\hat{\beta}\vert X)H' = H\left[\hat{\sigma}^2(X'X)^{-1}\right]H'=\hat{\sigma}^2D^{-1}$, where $D^{-1}=H(X'X)^{-1}H'$.
+We estimate $\text{Var}(\hat{\theta}\vert X)$ using 
+
+$$\widehat{\text{Var}}(\hat{\theta}\vert X) = H \widehat{\text{Var}}(\hat{\beta}\vert X)H' = H\left[\hat{\sigma}^2(X'X)^{-1}\right]H'=\hat{\sigma}^2D^{-1},$$ 
+
+where $D^{-1}=H(X'X)^{-1}H'$.
 
 We have the test statistic
 
@@ -386,4 +411,42 @@ v &= \left(\frac{1}{p}\right) (\hat{\theta}-\theta)' \left[\widehat{\text{Var}}(
 &\sim \; F(p, n-K).
 \end{align*}
 $$
+
+
+
+___
+
+## Practical versus Statistical Significance
+
+- The sign and magnitude of $\bar{y}$ determine its **practical significance** and allow us to discuss the direction of an intervention or policy effect, and whether the estimated effect is  "large" or "small." 
+
+- On the other hand, statistical significance of $\bar{y}$ depends on the magnitude of its $t$ statistic. 
+
+  For testing $H_0: \mu = 0$, the $t$ statistic is simply $t = \bar{y}/\text{se}(\bar{y})$. In other words, statistical significance depends on the ratio of $\bar{y}$ to its standard error. Consequently, a $t$ statistic can be large because $\bar{y}$ is large or $\text{se}(\bar{y})$ is small. 
+
+In applications, it is important to discuss <u>both practical and statistical significance</u>, being aware that an estimate can be statistically significant without being especially large in a practical sense. Whether an estimate is practically important depends on the context as well as on one’s judgment, so there are no set rules for determining practical significance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

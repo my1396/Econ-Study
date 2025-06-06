@@ -514,7 +514,7 @@ Python code: <https://matthew-brett.github.io/teaching/smoothing_intro.html>
 * `x`     The matrix or vector of data from which the function $g(\theta,x)$is computed. If "g" is a formula, it is an n × Nh matrix of instruments or a formula.
 * `wmatrix`     Which weighting matrix should be used in the objective function. 
   * By default, it is the inverse of the covariance matrix of $g(\theta,x)$, `optimal`. 
-  * The other choice is the identity matrix which is usually used to obtain a first step estimate of $\theta$. `ident`
+  * The other choice is the identity matrix which is usually used to obtain a first step estimate of $\theta$. 
 
 
 

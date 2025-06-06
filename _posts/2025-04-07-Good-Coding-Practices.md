@@ -100,12 +100,20 @@ ___
   # get Data -------------------------------------------------
   ```
 
-- Name variables meaningfully and consistently.  
+- **Name variables** meaningfully and consistently.  
 
   For variables that hold the same type of data, use a consistent naming scheme: 
 
   - Start with the same context or base name
   - Use <span style='color:#00CC66'>suffixes</span> to indicate variations 
+
+  E.g., 
+
+  - `gfr` stands for general fertility rate
+  - `gfr_sq`: `gfr`^2, squared term
+  - `cgfr` or `dgfr`: change in `gfr`: `gfr` – `gfr_1`.
+  - `gfr_1`: first order lagged `gfr`
+  - `gfr_2`: second order lagged `gfr`
 
   See more about naming conventions [HERE](#Naming)
 
