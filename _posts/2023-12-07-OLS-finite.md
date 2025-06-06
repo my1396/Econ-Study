@@ -341,7 +341,14 @@ Note: The primary property of OLS estimators is that they satisfy the criteria o
 **Properties of the OLS Estimator**:
 
 <ol>
-<li> The observed values of $X$ are uncorrelated with the residuals. $X'\hat{u}=\vec{0}$. </li>
+<li> The observed values of $X$ are uncorrelated with the residuals. 
+$$
+\begin{aligned}
+\hat{u} &= y-X\hat{\beta} \\
+X'\hat{u} &= \vec{0}
+\end{aligned}
+$$ 
+</li>
 <li> The sum of the residuals is zero. <br/>
 If there is a constant, then the first column in $X$ (i.e. $X_1$) will be a column of ones. This means that for the first element in the $X′e$ vector to be zero, it must be the case that $\sum_{i}\hat{u}_i=0$. </li>
 <li> The sample mean of the residuals is zero. </li>
@@ -358,6 +365,48 @@ This last development takes account of the fact that $X'\hat{u}= 0$. </li>
 
 These properties *always hold true*. You should be careful not to infer anything from the residuals about the disturbances/ errors. For example, you cannot infer that the sum of the disturbances is zero or that the mean of the disturbances is zero just because this is true of the residuals - this is true of the residuals just because we decided to minimize the sum of squared residuals.
 
+
+**Projection Matrix**
+
+Define the matrix 
+
+$$
+P = X(X'X)^{-1}X',
+$$
+
+then 
+
+$$
+PX = X(X'X)^{-1}X'X = X,
+$$
+
+and 
+
+$$
+Py = X(X'X)^{-1}X'y = X\hat{\beta} = \hat{y}.
+$$
+
+Note that $Py$ gives the fitted value in a OLS regression.
+
+A special case is when $X=\mathbf{1}_n$ is an $n$-vector of ones. Then
+
+$$
+\begin{aligned}
+P &= \mathbf{1}_n (\mathbf{1}_n'\mathbf{1}_n)^{-1}\mathbf{1}_n' \\
+&= \frac{1}{n} \mathbf{1}_n\mathbf{1}_n'
+\end{aligned}
+$$
+
+Note that in this case
+
+$$
+\begin{aligned}
+Py &= \mathbf{1}_n (\mathbf{1}_n'\mathbf{1}_n)^{-1}\mathbf{1}_n'y \\
+&= \mathbf{1}_n \bar{y}
+\end{aligned}
+$$
+
+creates an $n$-vector whose elements are the sample mean $\bar{y}$ of $y_i.$
 ___
 
 ## Hypothesis testing

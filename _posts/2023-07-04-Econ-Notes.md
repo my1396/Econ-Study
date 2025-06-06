@@ -734,6 +734,96 @@ ___
 
 ╱ Minor, Counter, Secondary, Anti-; diagonal ╱
 
+**Identity/unit matrix** $I$: A diagonal matrix with all its diagonal elements equal to 1, and 0 everywhere else. A subscript indicates the size of the identify matrix, e.g., 
+
+$$
+I_2 = \begin{bmatrix}
+1 & 0 \\
+0 & 1
+\end{bmatrix}
+$$
+
+
+$\bi$ is often used to denote a column of ones. Then
+
+- $\sum_{i=1}^n x_i = \bi'\bx$
+- $\bar{x} = \frac{1}{n} \bi'\bx$
+
+Transform a matrix to deviations from their mean. First,
+
+$$
+\bi\bar{x} = \bi \frac{1}{n}\bi'\bx = 
+\begin{bmatrix}
+\bar{x} \\
+\bar{x} \\
+\vdots \\
+\bar{x}
+\end{bmatrix} 
+= \frac{1}{n} \bi\bi'x
+$$
+
+The matrix $1/n\bi\bi'$ is an $n\times n$ matrix with every element equal to $1/n.$
+The set of values in deviations form is 
+
+$$
+\begin{bmatrix}
+x_1 - \bar{x} \\
+x_2 - \bar{x} \\
+\vdots \\
+x_n - \bar{x}
+\end{bmatrix}  
+= [\bx - \bi\bar{x}]
+= \begin{bmatrix}
+\bx - \frac{1}{n}\bi\bi'\bx 
+\end{bmatrix} 
+= \begin{bmatrix}
+\bI - \frac{1}{n}\bi\bi'  
+\end{bmatrix} \bx
+$$
+
+$\mathbf{1}_n$ is also used to denote a $n\times 1$ vector of ones.
+
+**Matrix Multiplication**
+
+Let  $A$  be an  $m\times n$  matrix and let  $B$  be an  $n\times p$  matrix of the form
+
+$$
+B = \begin{bmatrix} b_{1} & \cdots & b_{p} \end{bmatrix}
+$$
+
+Then the  $m\times p$  matrix  $AB$  is defined as follows:
+
+$$
+AB = A \begin{bmatrix} b_{1} & \cdots & b_{p} \end{bmatrix} 
+= \begin{bmatrix} Ab_{1} & \cdots & Ab_{p} \end{bmatrix}
+$$
+
+where $Ab_{j}$ is the $j$-th column of $AB$.
+
+Writing $A$ in a **row vector** form
+
+$$
+AB = \begin{bmatrix} a_{1} & \cdots & a_{n} \end{bmatrix}
+\begin{bmatrix} b_{1} \\ \vdots  \\ b_{n} \end{bmatrix} 
+= [a_1b_1 + a_2b_2 + \cdots + a_nb_n]
+$$
+
+Writing $A$ in a **column vector** form
+
+$$
+AB = \begin{bmatrix} a_{1} \\ \vdots  \\ a_{m} \end{bmatrix} B
+= \begin{bmatrix} a_{1}B \\ \vdots  \\ a_{m}B \end{bmatrix} 
+$$
+
+General rules for matrix multiplication:
+
+- Associative law: $(AB)C = A(BC)$
+- Distributive law: $A(B+C) = AB + BC$
+- Transpose of a product: $(AB)' = B'A'$
+- Transpose of an extended product: $(ABC)' = C'B'A'$ 
+- Matrix multiplication is NOT commutative: $AB \ne BA$
+
+
 **Inverse** 
 
 $A^{-1} = \frac{1}{\vert A \vert} \text{Adj}(A)$ where $\text{Adj}(A)$ is the adjoint matrix. The inverse of matrix $A$ can be computed by dividing the adjoint of a matrix by the determinant of the matrix.  </br>
