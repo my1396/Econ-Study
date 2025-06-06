@@ -746,8 +746,10 @@ $$
 
 $\bi$ is often used to denote a column of ones. Then
 
-- $\sum_{i=1}^n x_i = \bi'\bx$
-- $\bar{x} = \frac{1}{n} \bi'\bx$
+- $\bi'\bi = n$
+- $\bi'\bx = \sum_{i=1}^n x_i $
+- $\frac{1}{n} \bi'\bx = \bar{x}$
+- $\bi\bi'$ is a $n\times n$ matrix of ones
 
 Transform a matrix to deviations from their mean. First,
 
@@ -759,7 +761,7 @@ $$
 \vdots \\
 \bar{x}
 \end{bmatrix} 
-= \frac{1}{n} \bi\bi'x
+= \color{#008B45} \frac{1}{n} \bi\bi'x
 $$
 
 The matrix $1/n\bi\bi'$ is an $n\times n$ matrix with every element equal to $1/n.$
@@ -781,7 +783,7 @@ x_n - \bar{x}
 \end{bmatrix} \bx
 $$
 
-$\mathbf{1}_n$ is also used to denote a $n\times 1$ vector of ones.
+$\mathbf{1}_n$ is also used to denote a $n\times 1$ vector of ones. But $\mathbf{1}_n$ can seem similar to $I_n$ (identity matrix), which causes confusion.
 
 **Matrix Multiplication**
 
