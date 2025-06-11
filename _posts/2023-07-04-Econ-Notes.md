@@ -947,8 +947,50 @@ d & -b \\
 \end{aligned}
 $$
 
+___
 
+**Kronecker product**
 
+If $\bA$ is an $m \times n$ matrix and $\bB$ is a $p \times q$ matrix, then the Kronecker product $A \otimes B$ is the $pm \times qn$ block matrix:
+
+$$
+A \otimes B = \begin{bmatrix}
+a_{11}B & a_{12}B & \cdots & a_{1n}B \\
+a_{21}B & a_{22}B & \cdots & a_{2n}B \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m1}B & a_{m2}B & \cdots & a_{mn}B \\
+\end{bmatrix}
+$$
+
+where
+
+$$
+a_{11}B = \begin{bmatrix}
+a_{11}b_{11} & a_{11}b_{12} & \cdots & a_{11}b_{1q} \\ 
+a_{11}b_{21} & a_{11}b_{22} & \cdots & a_{11}b_{2q} \\ 
+\vdots & \vdots & \ddots & \vdots \\
+a_{11}b_{p1} & a_{11}b_{p2} & \cdots & a_{11}b_{pq} \\ 
+\end{bmatrix}
+$$
+
+In other words, the Kronecker product $A\otimes B$ is a block matrix whose $(i,j)$-th block is equal to the $(i,j)$-th entry of $A$ multiplied by the matrix $B.$
+
+Note that, unlike the ordinary product between two matrices, the Kronecker product is defined *regardless of the dimensions* of the two matrices  $A$ and  $B$.
+
+Example: Let $\bI$ be the $2\times 2$ identity matrix and $B$ be any matrix. Then their Kronecker product is the block matrix
+
+$$
+\bI \otimes B = \begin{bmatrix}
+B & 0 \\
+0 & B
+\end{bmatrix}
+$$
+
+Example: Let $a$ be a scalar and $B$ be any matrix. Then their Kronecker product is the same as multiplying $B$ by the scalar:
+
+$$
+a \otimes B = aB
+$$
 
 **Expectation and Variance of Random Vectors**
 

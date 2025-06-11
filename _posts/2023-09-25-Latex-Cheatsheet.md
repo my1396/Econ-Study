@@ -87,12 +87,12 @@ Note:
 
 
 
-| Common symbols                                          | Matrices                                             |
-| ------------------------------------------------------- | ---------------------------------------------------- |
-| $\boldsymbol{I}_n$ (`\boldsymbol{I}_n`)                 | $n\times n$ identity matrix                          |
-| $\mathbb{1}_n$ (`\mathbb{1}` from `\usepackage{bbold}`) | $n\times n$ identity matrix, double 1 representation |
-| $\boldsymbol{1}_n$  (`\boldsymbol{1}_n`)                | $n\times 1$ vector of ones                           |
-| $\boldsymbol{1}(a)$ (`\boldsymbol{1}(a)`)               | Indicator function (1 if a is true, else 0)          |
+| Common symbols                                               | Matrices                                             |
+| ------------------------------------------------------------ | ---------------------------------------------------- |
+| $\boldsymbol{I}_n$ (`\boldsymbol{I}_n`)                      | $n\times n$ identity matrix                          |
+| $\mathbb{1}_n$ (`\mathbb{1}` from `\usepackage{bbold}`)      | $n\times n$ identity matrix, double 1 representation |
+| $\boldsymbol{1}_n$ or $\boldsymbol{i}_n$ (`\boldsymbol{1}_n` or `\boldsymbol{i}_n`) | $n\times 1$ vector of ones                           |
+| $\boldsymbol{1}(a)$ (`\boldsymbol{1}(a)`)                    | Indicator function (1 if a is true, else 0)          |
 
 
 
@@ -213,11 +213,12 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
 ### Binary operators
 
-|             LaTex |                      |           LaTex |                    |
-| ----------------: | -------------------- | --------------: | -----------------: |
-| `\and` or `\land` | $\and$ (logical and) | `\or` or `\;or` | $\or$ (logical or) |
-|            `\neg` | $\neg$ (not)         |          `\div` |             $\div$ |
-|            `\ast` | $\ast$               |        `\times` |           $\times$ |
+|             LaTex |                                               |           LaTex |                    |
+| ----------------: | --------------------------------------------- | --------------: | -----------------: |
+| `\and` or `\land` | $\and$ (logical and)                          | `\or` or `\;or` | $\or$ (logical or) |
+|            `\neg` | $\neg$ (not)                                  |          `\div` |             $\div$ |
+|            `\ast` | $\ast$                                        |        `\times` |           $\times$ |
+|         `\otimes` | $\otimes$ (Kronecker product, tensor product) |                 |                    |
 
 
 

@@ -1,4 +1,4 @@
-// Local JavaScript config file 
+// Local JavaScript config file
 // enable inline eqn and add new macro definitions
 window.MathJax = {
     tex: {
@@ -62,6 +62,7 @@ window.MathJax = {
           bw: "\\boldsymbol{w}",
           bx: "\\boldsymbol{x}",
           by: "\\boldsymbol{y}",
+          bz: "\\boldsymbol{z}",
 
           // math calligraphic font 花体
           Acal: "\\mathcal{A}",

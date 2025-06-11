@@ -366,7 +366,7 @@ ___
 
 ## Lag Operator
 
-The lag operator, $L$, shifts a time value $X_t$ back by one epriod. For example, $LX_t=X_{t-1}$ and  $L^kX_t=X_{t-k}.$
+The lag operator, $L$, shifts a time value $X_t$ back by one period. For example, $LX_t=X_{t-1}$ and  $L^kX_t=X_{t-k}.$
 
 Sometimes also called as "backshift operator", and denoted as $B$.
 
