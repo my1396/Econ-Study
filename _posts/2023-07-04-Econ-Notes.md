@@ -542,6 +542,31 @@ $1/x$: the reciprocal of x.
 
 $3:5$: three to five.
 
+
+**Asymmetric deviations**
+
+- $(x-\bar{x})^+$ deviation above the mean. $(x - \bar{x})^+ = \max(0, {\color{#008B45} x - \bar{x}})$, or
+
+$$
+(x - \bar{x})^+ = 
+\begin{cases}
+x - \bar{x}, & \text{if } x > \bar{x} \\
+0, & \text{otherwise}
+\end{cases}
+$$
+
+- $(x-\bar{x})^-$ deviation below the mean. $(x - \bar{x})^- = \max(0, {\color{#008B45}\bar{x} - x})$, or
+
+$$
+(x - \bar{x})^- = 
+\begin{cases}
+\bar{x} - x, & \text{if } x < \bar{x} \\
+0, & \text{otherwise}
+\end{cases}
+
+$$
+
+
 **How to spell out numbers**
 
 - 两位数的英文写法 (21-99): write the tens part, then, put a hyphen (-), and write the ones part. E.g., 68 (sixty-eight).
@@ -749,7 +774,44 @@ $\bi$ is often used to denote a column of ones. Then
 - $\bi'\bi = n$
 - $\bi'\bx = \sum_{i=1}^n x_i $
 - $\frac{1}{n} \bi'\bx = \bar{x}$
-- $\bi\bi'$ is a $n\times n$ matrix of ones
+- $\bi\bi'$ is a $n\times n$ matrix of ones.
+  
+    Let $n=3$
+
+    $$
+    \bi\bi' = \begin{bmatrix}
+    1 \\
+    1 \\ 
+    1
+    \end{bmatrix}  
+     \begin{bmatrix}
+    1 & 1 & 1
+    \end{bmatrix}  
+    = \begin{bmatrix}
+    1 & 1 & 1 \\
+    1 & 1 & 1 \\ 
+    1 & 1 & 1
+    \end{bmatrix}  
+    $$
+
+    Postmultiplying $\bi'\bi$ by a vector $\bx$ gives the sum of the elements in the vector. 
+
+    $$
+    \bi'\bi \bx = \begin{bmatrix}
+    1 & 1 & 1 \\
+    1 & 1 & 1 \\ 
+    1 & 1 & 1
+    \end{bmatrix} \begin{bmatrix}
+    x_1 \\
+    x_2 \\ 
+    x_3
+    \end{bmatrix} =  \begin{bmatrix}
+    \sum_{i=1}^3x_i \\
+    \sum_{i=1}^3x_i \\ 
+    \sum_{i=1}^3x_i
+    \end{bmatrix}
+    $$
+
 
 Transform a matrix to deviations from their mean. First,
 
@@ -783,11 +845,13 @@ x_n - \bar{x}
 \end{bmatrix} \bx
 $$
 
-$\mathbf{1}_n$ is also used to denote a $n\times 1$ vector of ones. But $\mathbf{1}_n$ can seem similar to $I_n$ (identity matrix), which causes confusion.
+$\mathbf{1}_n$ is also used to denote a $n\times 1$ vector of ones. But $\mathbf{1}_n$ can seem similar to $I_n$ (identity matrix), which causes confusion. One difference is that the identity matrix is italic, but the matrix of one is upright.
+
+___
 
 **Matrix Multiplication**
 
-Let  $A$  be an  $m\times n$  matrix and let  $B$  be an  $n\times p$  matrix of the form
+Let  $A$  be an  $m\times n$  matrix and let  $B$  be an  $n\times p$  matrix of the column-form
 
 $$
 B = \begin{bmatrix} b_{1} & \cdots & b_{p} \end{bmatrix}
@@ -825,6 +889,7 @@ General rules for matrix multiplication:
 - Transpose of an extended product: $(ABC)' = C'B'A'$ 
 - Matrix multiplication is NOT commutative: $AB \ne BA$
 
+___
 
 **Inverse** 
 
@@ -888,6 +953,7 @@ $$
 **Expectation and Variance of Random Vectors**
 
 A random vector $\vec{X}$ is a vector 
+
 $$
 \vec{X}=\begin{bmatrix}
 X_1 \\
@@ -896,6 +962,7 @@ X_2 \\
 X_p
 \end{bmatrix}
 $$
+
 of $p$ jointly distributed random variables $X_i,$ where $i=1,\ldots,p$.
 
 - Expectation $\mathbb{E}[\vec{X}]$ is given by
@@ -928,7 +995,10 @@ $$
 \end{bmatrix}_{p\times p}
 $$
 
-Cross-covariance matrix is defined for two random vectors $X$ and $Y$, containing the covariances between all possible couples of random variables formed by one entry of $X$ and one entry of $Y$.
+
+___
+
+**Cross-covariance matrix** is defined for two random vectors $X$ and $Y$, containing the covariances between all possible couples of random variables formed by one entry of $X$ and one entry of $Y$.
 
 Formally, let $X$ be a $K\times 1$ random vector and $Y$ be a $L\times 1$ random vector. The cross-covariance matrix between $X$ and $Y$ is a $K\times L$ matrix, denoted by $\text{Cov}(X,Y)$ and defined as follows:
 
@@ -958,8 +1028,16 @@ E[(X_3-E[X_3])(Y_1-E[Y_1])] & E[(X_3-E[X_3])(Y_2-E[Y_2])] \\
 $$
 
 Note that, in general, the cross-covariance is *not* symmetric.
+For example, if $X$ is $K\times 1$ and $Y$ is $L\times 1,$ then $\cov(X,Y)$ is $K\times L$ and $\cov(Y,X)$ is $L\times K.$
 
-More about variance-covariance matrix of random vectors: <https://www.math.kent.edu/~reichel/courses/monte.carlo/alt4.7d.pdf>
+
+When $Y=X$ then the cross-covariance matrix coincides with the covariance matrix of $X:$
+
+$$
+\cov(X,X) = E\left[(X-E[X])(X-E[X])^T \right] = \var(X).
+$$
+
+___
 
 
 **Autocovariance matrix**
@@ -970,17 +1048,31 @@ Let $⟨X_t⟩$ be a sequence of random vectors. Then the cross-covariance matri
 **Covariance Stationary**
 
 A sequence of random vectors $⟨X_t⟩$ is said to be *covariance or weakly stationary* if and only if
+
 $$
 \begin{aligned}
-& E[X_t] = \mu, \text{ and } \\
+& E[X_t] = \bmu, \text{ and } \\
 & \text{Cov}(X_t, X_{t-j}) = \Gamma_j \text{ for } \forall j\ge 0.
 \end{aligned}
 $$
-where $\mu$ is a $K\times 1$ vector and $\Gamma_j$ is a $K\times K$ matrix.
-- $E[X_t] = \mu$ means that all the random vectors belonging to the sequence $⟨X_t⟩$ must have the same mean.
 
-- The cross-covaraince between a term and the term that is located $j$ positions before it must always be the same. 
-That is, <span style='color:#337ab7'>$\text{Cov}(X_t, X_{t-j}) = \Gamma_j$ depends only on the lag $j$</span> (the number of time periods between the two variables) and *not* on $t$.
+where $\bmu$ is a $K\times 1$ vector and $\Gamma_j$ is a $K\times K$ matrix.
+
+- $E[X_t] = \bmu$ means that all the random vectors belonging to the sequence $⟨X_t⟩$ must have the same mean.
+
+- The cross-covariance between a term and the term that is located $j$ positions before it must always be the same. 
+That is, <span style='color:#337ab7'>$\text{Cov}(X_t, X_{t-j}) = \Gamma_j$ depends only on the time lag $j$</span> (the number of time periods between the two variables) and *not* on $t$.
+
+
+Further readings: 
+
+- Taboga, Marco (2021). "Cross-covariance matrix", Lectures on probability theory and mathematical statistics. Kindle Direct Publishing. Online appendix. <https://www.statlect.com/glossary/cross-covariance-matrix>
+- Random vectors: <https://www.probabilitycourse.com/chapter6/6_1_5_random_vectors.php>
+- Variance-covariance matrix of random vectors: <https://www.math.kent.edu/~reichel/courses/monte.carlo/alt4.7d.pdf>
+
+
+___
+
 
 **Trace Properties** 
 

@@ -393,7 +393,7 @@ A special case is when $X=\mathbf{1}_n$ is an $n$-vector of ones. Then
 $$
 \begin{aligned}
 P &= \mathbf{1}_n (\mathbf{1}_n'\mathbf{1}_n)^{-1}\mathbf{1}_n' \\
-&= \frac{1}{n} \mathbf{1}_n\mathbf{1}_n' \qquad\qquad (\bi'\bi = n)
+&= \frac{1}{n} \mathbf{1}_n\mathbf{1}_n' \qquad\qquad (\mathbf{1}_n'\mathbf{1}_n = n)
 \end{aligned}
 $$
 
@@ -409,13 +409,13 @@ $$
 creates an $n$-vector whose elements are the sample mean $\bar{y}$ of $y_i.$
 
 
-$\mathbf{P} = \mathbf{X} (\mathbf{X}' \mathbf{X})^{-1} \mathbf{X}'$  for any $ n \times k $ matrix $ \mathbf{X} $ with $ n \geq k $ has the following algebraic properties:
+$\mathbf{P} = \mathbf{X} (\mathbf{X}' \mathbf{X})^{-1} \mathbf{X}'$  for any $ n \times K $ matrix $ \mathbf{X} $ with $ n \geq K $ has the following algebraic properties:
 
 1. $ \mathbf{P} $ is **symmetric** ($ \mathbf{P}' = \mathbf{P} $).
 2. $ \mathbf{P} $ is **idempotent** ($ \mathbf{P} \mathbf{P} = \mathbf{P} $).
-3. $ \mathrm{tr}(\mathbf{P}) = k $.
+3. $ \mathrm{tr}(\mathbf{P}) = K $.
 4. The **eigenvalues** of $ \mathbf{P} $ are 1 and 0. There are $ k $ eigenvalues equal to 1, and $ n - k $ equal to 0.
-5. $ \mathrm{rank}(\mathbf{P}) = k $.
+5. $ \mathrm{rank}(\mathbf{P}) = K $.
 
 
 **Residual Maker**
@@ -436,7 +436,9 @@ We have
 - $MX = 0$
 - $M$ creates the OLS residuals: $My = y-Py = y-X\hat{\beta} = \hat{u}$
 - $M$ is symmetric ($M'=M$) and idempotent ($MM=M$)
-- $\mathrm{tr}(M) = n-k$
+- $\mathrm{tr}(M) = n-K$
+
+
 
 ___
 
