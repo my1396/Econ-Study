@@ -41,8 +41,8 @@ Blackboard bold 黑板粗体 (`\mathbb`) is often used to denote **sets of numbe
 - $\mathbb{R}$ denotes the set of all real numbers. This includes things like $\pi, \sqrt{2}, \dots$
 
 - $\forall$ (`\forall`) means for all (or for every).
-- $\exists$ means there exists.
-- $\not\exists$ means there does not exist.
+- $\exists$ (`\exists`) means there exists.
+- $\not\exists$ (`\not\exists`) means there does not exist.
 
 There are two standard ways to describe a set:
 
@@ -1104,6 +1104,30 @@ where $\bmu$ is a $K\times 1$ vector and $\Gamma_j$ is a $K\times K$ matrix.
 
 - The cross-covariance between a term and the term that is located $j$ positions before it must always be the same. 
 That is, <span style='color:#337ab7'>$\text{Cov}(X_t, X_{t-j}) = \Gamma_j$ depends only on the time lag $j$</span> (the number of time periods between the two variables) and *not* on $t$.
+
+
+If $X_t\in \R,$ the autocovariance matrix $V$ is given by
+
+$$
+\begin{aligned}
+V &= 
+\begin{bmatrix}
+\cov(x_1, x_1) & \cov(x_1, x_2) & \cdots & \cov(x_1, x_{T-1}) & \cov(x_1, x_{T}) \\
+\cov(x_2, x_1) & \cov(x_2, x_2) & \cdots & \cov(x_2, x_{T-1}) & \cov(x_2, x_{T}) \\
+\vdots & \vdots & \ddots & \vdots & \vdots \\
+\cov(x_{T-1}, x_1) & \cov(x_{T-1}, x_2) & \cdots & \cov(x_{T-1}, x_{T-1}) & \cov(x_{T-1}, x_{T}) \\
+\cov(x_{T}, x_1) & \cov(x_{T}, x_2) & \cdots & \cov(x_{T}, x_{T-1}) & \cov(x_{T}, x_{T}) \\
+\end{bmatrix} \\
+&= 
+\begin{bmatrix}
+\gamma_0 & \gamma_1 & \cdots & \gamma_{T-2} & \gamma_{T-1} \\ 
+\gamma_1 & \gamma_0 & \cdots & \gamma_{T-3} & \gamma_{T-2} \\
+\vdots & \vdots & \ddots & \vdots & \vdots \\
+\gamma_{T-2} & \gamma_{T-3} & \cdots & \gamma_{0} & \gamma_{1} \\ 
+\gamma_{T-1} & \gamma_{T-2} & \cdots & \gamma_{1} & \gamma_{0} \\ 
+\end{bmatrix}
+\end{aligned}
+$$
 
 
 Further readings: 

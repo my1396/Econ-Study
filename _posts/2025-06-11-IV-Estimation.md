@@ -56,7 +56,7 @@ $$
 
 where $\bu_i$ is a $K\times 1$ vector and $\bU$ is a $n\times K$ matrix.
 
-$\bz_i$ is exogeneous:
+$\bz_i$ is exogenous:
 
 $$
 \E(\bz_i\bu_i') = \boldsymbol{0}.
@@ -94,7 +94,7 @@ $$
 \E(\bz_i v_i) = \E(\bz_i\bu_i')\bbeta + \E(\bz_ie_i) = \boldsymbol{0}.
 $$
 
-Eq. $\eqref{eq:model-reduced-y}$ is the reduced form for $y_i,$ as it expresses $y_i$ as a function of exogeneous variables only.
+Eq. $\eqref{eq:model-reduced-y}$ is the reduced form for $y_i,$ as it expresses $y_i$ as a function of exogenous variables only.
 
 The reduced form coefficient $\blambda$ can be obtained by
 
