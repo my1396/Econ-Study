@@ -253,6 +253,10 @@ $$
 - Multiplying or dividing both sides by a negative number **reverses**/ **flips** the inequality. This means $<$ changes to $>$, and vice versa.
 
 
+**Natural experiment** (or a **quasi-experiment**) occurs when some exogenous event -- often a change in government policy -- changes the environment in which individuals, families, firms, or cities operate.
+
+A natural experiment always has a *control group*, which is not affected by the policy change, and a *treatment group*, which is thought to be affected by the policy change. Unlike a true experiment, in which treatment and control groups are randomly and explicitly chosen, the control and treatment groups in natural experiments arise from the particular policy change.
+
 **Random Variables**
 
 Given a random experiment with sample space $S$, a random variable $X$ is a set function that assigns one and only one real number to each element $s$ that belongs in the sample space $S$.
