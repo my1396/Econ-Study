@@ -81,23 +81,43 @@ A: 可以前往签证申请中心领取结果也可以通过<u>快递送达</u>�
 
 - **个人旅游签证** Individual Tourists
 
-  - 偿付能力证明 (放在了第一位，说明其重要性): 最近 3 个月的银行对账单。退休人员提供退休证明或养老金证明或其他固定收入证明。
+  - 在职证明 Letter of employment
+
+    使用公司或学校正式的信头纸并加盖公章且签字。包括：完整的公司地址和联系方式 + 准假证明以及准假人姓名和职位。
+
+  - 偿付能力证明 Proof of solvency
+
+    最近 3 个月的银行对账单。
+
+    退休人员提供退休证明或养老金证明或其他固定收入证明。
 
     若子女承担费用：提供子女的银行对账单及签字的同意支付费用声明 (英语，无需公正)，还需提供<u>家庭关系公证书</u>并带有由外交部或认可外事办公室签发的附加证明书，原件+1 份复印件。
 
-  - 护照原件 + 户口本复印件
+  - 护照原件
 
-  - 机票预定单 [感觉脑子有点儿不够用了。不买机票上哪儿搞机票预定单？]
+    新护照要求在签证有效期后仍有不少于 3 个月有效期，包含至少 2 页空白页，且近 10 年内颁发的。新护照的个人信息页复印件。
 
-    > Flight reservation for Round-trip to China and the trips in Schengen area. Should not be bought
-    > before visa has been issued. \
-    > 机票预订单：往返中国及整个申根地区间的机票预订单，机票应在签证颁发后出票付款。
+    如果您的新护照在过去一年内签发，请提交旧护照原件或者该旧护照身份页及所有包含出入境章和签证的各页复印件。
 
-  - 住宿证明
+  - 旅行行程单
+
+    > Detailed information about the tourist attractions etc. that the applicant is planning to visit, including dates, transportation plan (confirmation from rental- /bus company) and hotels (bookings).
+    > 
+    > 申请人计划游览景点等的详细信息，包括日期，交通方式 （如租车，请提供租车证明）和酒店预订单。
+
+    住宿证明
 
     > Proof of accommodation: Detailed Hotel reservations for the whole duration of the intended stay in
     > Schengen area. \
     > 住宿证明：提供整个申根地区停留期间的酒店预订单详情。
+
+    机票预订单
+
+    > **Flight reservation** for Round-trip to China and the trips in Schengen area. Should not be bought before visa has been issued.
+    >
+    > 机票预订单：往返中国及整个申根地区间的机票预订单，机票应在签证颁发后出票付款。
+
+    就很奇怪，机票不付款不能预定。哪里有可以不先付款的机票啊？
 
   - <a id="travel-insurance">旅行医疗保险</a>
 
@@ -157,7 +177,7 @@ A: 可以前往签证申请中心领取结果也可以通过<u>快递送达</u>�
     > 或者，出具由挪威担保人完整填写且签字的出行费用和/或个人住宿担保表格（可接受复印件）。
     > 如申请人可提供材料证明满足本人每天 500 挪威克朗的费用要求，则不需要提供此担保表格。
 
-  - 护照原件 + 户口本复印件
+  - 护照原件
   - <a href="#travel-insurance">旅行医疗保险</a>
 
 

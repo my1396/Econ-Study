@@ -773,7 +773,209 @@ I_2 = \begin{bmatrix}
 $$
 
 
-$\bi$ is often used to denote a column of ones. Then
+If $A$ is an $m\times n$ matrix, then
+
+$$
+I_mA = AI_n = A
+$$
+
+This shows that as long as the size of the matrix is considered, multiplying by the identity is like multiplying by 1 with numbers.
+
+Examples
+
+左乘 $I_mA=A$
+
+$$
+\begin{bmatrix}
+\color{red}1 & \color{red}0 \\
+\color{blue}0 & \color{blue}1
+\end{bmatrix}
+\begin{bmatrix}
+1 & 2 & 3 & 4 \\
+5 & 6 & 7 & 8
+\end{bmatrix} 
+= \begin{bmatrix}
+\color{red}1 & \color{red}2 & \color{red}3 & \color{red}4 \\
+\color{blue}5 & \color{blue}6 & \color{blue}7 & \color{blue}8
+\end{bmatrix}
+$$
+
+右乘 $AI_n=A$
+
+$$
+\begin{bmatrix}
+1 & 2 & 3 & 4 \\
+5 & 6 & 7 & 8
+\end{bmatrix}
+\begin{bmatrix}
+\color{red}1 & \color{blue}0 & \color{#008B45}0 & \color{purple}0 \\
+\color{red}0 & \color{blue}1 & \color{#008B45}0 & \color{purple}0 \\
+\color{red}0 & \color{blue}0 & \color{#008B45}1 & \color{purple}0 \\
+\color{red}0 & \color{blue}0 & \color{#008B45}0 & \color{purple}1 \\
+\end{bmatrix} 
+= \begin{bmatrix}
+\color{red}1 & \color{blue}2 & \color{#008B45}3 & \color{purple}4 \\
+\color{red}5 & \color{blue}6 & \color{#008B45}7 & \color{purple}8
+\end{bmatrix}
+$$
+
+___
+
+
+Define a diagonal matrix $A=\diag{(\alpha_1, \alpha_2, \ldots, \alpha_n)}$, then
+
+$$
+\begin{bmatrix}
+\alpha_1 & & & & \\
+& \ddots & & & \\
+& & \alpha_i & & \\ 
+& & & \ddots & \\
+& & & & \alpha_n\\
+\end{bmatrix}
+\begin{bmatrix}
+\color{red}{x_1}  \\
+\vdots \\
+\color{blue}{x_i} \\ 
+\vdots \\
+\color{#008B45}{x_n} \\ 
+\end{bmatrix}
+= {\color{red}x_1} \begin{bmatrix}
+\alpha_1  \\
+ \\
+ \\ 
+ \\
+ \\ 
+\end{bmatrix} 
++ \cdots 
++ {\color{blue}x_i} \begin{bmatrix}
+  \\
+ \\
+\alpha_i  \\ 
+ \\
+ \\ 
+\end{bmatrix} 
++ \cdots 
++ {\color{#008B45}x_n} \begin{bmatrix}
+  \\
+ \\
+  \\ 
+ \\
+\alpha_n \\ 
+\end{bmatrix} 
+$$
+
+___
+
+
+Define $A$ as a $m\times n$ matrix, $\bb$ as a $n\times 1$ vector, then
+
+$$
+A\bb = \begin{bmatrix}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+a_{21} & a_{22} & \cdots & a_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m1} & a_{m2} & \cdots & a_{mn} \\
+\end{bmatrix} 
+\begin{bmatrix}
+{\color{red}b_1} \\
+{\color{blue}b_2} \\
+\vdots \\
+{\color{#008B45}b_n} \\
+\end{bmatrix} 
+= {\color{red}b_1} \begin{bmatrix}
+a_{11} \\
+a_{21} \\
+\vdots \\
+a_{m1} \\
+\end{bmatrix} 
++ {\color{blue}b_2} \begin{bmatrix}
+a_{12} \\
+a_{22} \\
+\vdots \\
+a_{m2} \\
+\end{bmatrix} 
++ \cdots
++ {\color{#008B45}b_n} \begin{bmatrix}
+a_{1n} \\
+a_{2n} \\
+\vdots \\
+a_{mn} \\
+\end{bmatrix} 
+$$
+
+Note that in linear regression, we often encounter the following form:
+
+$$
+\by = \bX \bbeta
+$$
+
+where $\by\in \R^n$ is the dependent variable, $\bX\in \R^{n\time K}$ is the independent variable, and $\bbeta\in \R^K$ is the coefficient vector. One way to think about this equation is that $\bX$ represents a system of $n$ linear equations, each with $K$ variables, and $bbeta$ represents a solution to this system.
+
+
+___
+
+Define $A$ as a $m\times n$ matrix, $B$ as a $n\times p$ matrix, then
+
+- if writing $B$ as a row vector
+
+    $$
+    AB = A \begin{bmatrix}
+    \color{red}\bb_{\cdot 1} & \color{blue}\bb_{\cdot 2} & \cdots & \color{#008B45}\bb_{\cdot p}
+    \end{bmatrix} 
+    = \begin{bmatrix}
+    \color{red}A\bb_{\cdot 1} & \color{blue}A\bb_{\cdot 2} & \cdots & \color{#008B45}A\bb_{\cdot p}
+    \end{bmatrix}_{m\times p} ,
+    $$
+
+    where $\bb_{\cdot j}$ is the $j$-th columns of $B$ 
+
+    $$
+    \bb_{\cdot j} = \begin{bmatrix}
+    b_{1j} \\
+    b_{2j} \\
+    \vdots \\
+    b_{nj} \\
+    \end{bmatrix} \text{ for } j = 1, 2, \ldots, p
+    $$
+
+- alternatively, writing $B$ as a column vector
+
+    $$
+    AB = \begin{bmatrix}
+    \color{red}a_{11} & \color{red}a_{12} & \cdots & \color{red}a_{1n} \\
+    \color{blue}a_{21} & \color{blue}a_{22} & \cdots & \color{blue}a_{2n} \\
+    \vdots & \vdots & \ddots & \vdots \\
+    \color{#008B45}a_{m1} & \color{#008B45}a_{m2} & \cdots & \color{#008B45}a_{mn} \\
+    \end{bmatrix} 
+    \begin{bmatrix}
+    \bb_{1\cdot} \\
+    \bb_{2\cdot} \\
+    \vdots \\
+    \bb_{n\cdot} \\
+    \end{bmatrix} 
+    = \begin{bmatrix}
+    \color{red}a_{11}\bb_{1\cdot} + a_{12}\bb_{2\cdot} + \cdots + a_{1n}\bb_{n\cdot} \\
+    \color{blue}a_{21}\bb_{1\cdot} + a_{22}\bb_{2\cdot} + \cdots + a_{2n}\bb_{n\cdot} \\
+    \vdots \\
+    \color{#008B45}a_{m1}\bb_{1\cdot} + a_{m2}\bb_{2\cdot} + \cdots + a_{mn}\bb_{n\cdot} \\
+    \end{bmatrix} 
+    $$
+
+    where $\bb_{i\cdot}$ is the $i$-th row of $B$
+
+    $$
+    \bb_{i\cdot} = 
+    \begin{bmatrix}
+    b_{i1} & b_{i2} & \cdots & b_{ip}
+    \end{bmatrix} \text{ for } i = 1, 2, \ldots, m.
+    $$
+
+
+___
+
+
+
+$\bi$ is often used to denote a **column of ones**. Then
 
 - $\bi'\bi = n$
 - $\bi'\bx = \sum_{i=1}^n x_i $
