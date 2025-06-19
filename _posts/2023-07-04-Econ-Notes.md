@@ -274,6 +274,10 @@ called the **support**, space, or range, of $X$.
 In other words, a random variable $X$ has a single possible value. E.g., a weighted die (or one that has a number 6 on all faces) always lands on the number six, so the probability of a six is 1, i.e., $P_X(X=6)=1$.
 
 
+Spherical disturbances: homoskedasticity and non-autocorrelation
+
+Nonspherical disturbances: heteroskedasticity and autocorrelation
+
 *Average* ($\overline{X}$) usually denotes sample, *expected value* ($E[X]$) and *mean* ($\mu$) denote population.
 
 
@@ -822,15 +826,17 @@ $$
 ___
 
 
-Define a diagonal matrix $A=\diag{(\alpha_1, \alpha_2, \ldots, \alpha_n)}$, then
+Define a **diagonal matrix** $A=\diag{(a_1, a_2, \ldots, a_n)}$, then
+
+- Postmultiply by a vector
 
 $$
 \begin{bmatrix}
-\alpha_1 & & & & \\
+a_1 & & & & \\
 & \ddots & & & \\
-& & \alpha_i & & \\ 
+& & a_i & & \\ 
 & & & \ddots & \\
-& & & & \alpha_n\\
+& & & & a_n\\
 \end{bmatrix}
 \begin{bmatrix}
 \color{red}{x_1}  \\
@@ -840,7 +846,7 @@ $$
 \color{#008B45}{x_n} \\ 
 \end{bmatrix}
 = {\color{red}x_1} \begin{bmatrix}
-\alpha_1  \\
+a_1  \\
  \\
  \\ 
  \\
@@ -850,7 +856,7 @@ $$
 + {\color{blue}x_i} \begin{bmatrix}
   \\
  \\
-\alpha_i  \\ 
+a_i  \\ 
  \\
  \\ 
 \end{bmatrix} 
@@ -860,17 +866,68 @@ $$
  \\
   \\ 
  \\
-\alpha_n \\ 
+a_n \\ 
 \end{bmatrix} 
 $$
 
+
+- Product of diagonal matrices
+
+    $$
+    \begin{bmatrix}
+    a_1 & & & & \\
+    & \ddots & & & \\
+    & & a_i & & \\ 
+    & & & \ddots & \\
+    & & & & a_n\\
+    \end{bmatrix}
+    \begin{bmatrix}
+    b_1 & & & & \\
+    & \ddots & & & \\
+    & & b_i & & \\ 
+    & & & \ddots & \\
+    & & & & b_n\\
+    \end{bmatrix}
+    = \begin{bmatrix}
+    a_1b_1 & & & & \\
+    & \ddots & & & \\
+    & & a_ib_i & & \\ 
+    & & & \ddots & \\
+    & & & & a_nb_n\\
+    \end{bmatrix}
+    $$
+
+- Inverse of a diagonal matrix
+
+    $$
+    \begin{bmatrix}
+    a_1 & & & & \\
+    & \ddots & & & \\
+    & & a_i & & \\ 
+    & & & \ddots & \\
+    & & & & a_n\\
+    \end{bmatrix}^{-1}
+    = \begin{bmatrix}
+    a_1^{-1} & & & & \\
+    & \ddots & & & \\
+    & & a_i^{-1} & & \\ 
+    & & & \ddots & \\
+    & & & & a_n^{-1}\\
+    \end{bmatrix}
+    $$
+
+    Note that $A$ is invertible if and only if all diagonal entries are nonzero.
+
 ___
 
+**Postmultiply a column vector**
 
-Define $A$ as a $m\times n$ matrix, $\bb$ as a $n\times 1$ vector, then
+Define $A$ as a $m\times n$ matrix, $\bb$ as a $n\times 1$ column vector, then
 
 $$
-A\bb = \begin{bmatrix}
+\begin{equation} \label{postmultiply-column}
+\begin{split}
+A\bb &= \begin{bmatrix}
 a_{11} & a_{12} & \cdots & a_{1n} \\
 a_{21} & a_{22} & \cdots & a_{2n} \\
 \vdots & \vdots & \ddots & \vdots \\
@@ -881,8 +938,8 @@ a_{m1} & a_{m2} & \cdots & a_{mn} \\
 {\color{blue}b_2} \\
 \vdots \\
 {\color{#008B45}b_n} \\
-\end{bmatrix} 
-= {\color{red}b_1} \begin{bmatrix}
+\end{bmatrix} \\
+&= {\color{red}b_1} \begin{bmatrix}
 a_{11} \\
 a_{21} \\
 \vdots \\
@@ -900,8 +957,13 @@ a_{1n} \\
 a_{2n} \\
 \vdots \\
 a_{mn} \\
-\end{bmatrix} 
+\end{bmatrix} \\
+&= [{\color{red}b_1}\ba_{\cdot 1}] + [{\color{blue}b_2}\ba_{\cdot 2}] + \cdots + [{\color{#008B45}b_n}\ba_{\cdot n}]
+\end{split}
+\end{equation}
 $$
+
+That is, postmultiplying a column vector to a matrix is like a linear combination of <span style='color:#337ab7'>**columns**</span> of the matrix.
 
 Note that in linear regression, we often encounter the following form:
 
@@ -909,14 +971,49 @@ $$
 \by = \bX \bbeta
 $$
 
-where $\by\in \R^n$ is the dependent variable, $\bX\in \R^{n\time K}$ is the independent variable, and $\bbeta\in \R^K$ is the coefficient vector. One way to think about this equation is that $\bX$ represents a system of $n$ linear equations, each with $K$ variables, and $bbeta$ represents a solution to this system.
+where $\by\in \R^n$ is the dependent variable, $\bX\in \R^{n\times K}$ is the independent variable, and $\bbeta\in \R^K$ is the coefficient vector. One way to think about this equation is that $\bX$ represents a system of $n$ linear equations, each with $K$ variables, and $\bbeta$ represents a solution to this system.
 
+___
+
+**Premultiply a row vector**
+
+Define $\ba$ as a $1\times n$ row vector, $B$ as a a $n\times p$ matrix, then
+
+$$
+\begin{equation}\label{premultiply-row}
+\begin{split}
+\ba B &= \begin{bmatrix}
+\color{red}a_1 & \color{blue}a_2 & \cdots & \color{#008B45}a_n
+\end{bmatrix} 
+\begin{bmatrix}
+b_{11} & b_{12} & \cdots & b_{1p} \\
+b_{21} & b_{22} & \cdots & b_{2p} \\
+\vdots & \vdots & \ddots & \vdots \\
+b_{n1} & b_{n2} & \cdots & b_{np} \\
+\end{bmatrix} \\
+&= {\color{red}a_1} \begin{bmatrix}
+b_{11} & b_{12} & \cdots & b_{1p}
+\end{bmatrix} 
++ {\color{blue}a_2} \begin{bmatrix}
+b_{21} & b_{22} & \cdots & b_{2p}
+\end{bmatrix}  
++ \cdots \\
+&\phantom{=} \quad
++ {\color{#008B45}a_n} \begin{bmatrix}
+b_{n1} & b_{n2} & \cdots & b_{np} 
+\end{bmatrix} \\
+&= [{\color{red}a_1}\bb_{1\cdot}] + [{\color{blue}a_2}\bb_{2\cdot}] + \cdots + [{\color{#008B45}a_n}\bb_{n\cdot}]
+\end{split}
+\end{equation}
+$$
+
+That is, premultiplying a row vector to a matrix is like a linear combination of <span style='color:#337ab7'>**rows**</span> of the matrix.
 
 ___
 
 Define $A$ as a $m\times n$ matrix, $B$ as a $n\times p$ matrix, then
 
-- if writing $B$ as a row vector
+- If writing $B$ in terms of columns vectors
 
     $$
     AB = A \begin{bmatrix}
@@ -927,7 +1024,7 @@ Define $A$ as a $m\times n$ matrix, $B$ as a $n\times p$ matrix, then
     \end{bmatrix}_{m\times p} ,
     $$
 
-    where $\bb_{\cdot j}$ is the $j$-th columns of $B$ 
+    where $\bb_{\cdot j}$ is the $j$-th columns of $B:$ 
 
     $$
     \bb_{\cdot j} = \begin{bmatrix}
@@ -938,7 +1035,58 @@ Define $A$ as a $m\times n$ matrix, $B$ as a $n\times p$ matrix, then
     \end{bmatrix} \text{ for } j = 1, 2, \ldots, p
     $$
 
-- alternatively, writing $B$ as a column vector
+    Refer to $\eqref{postmultiply-column}$ for $A\bb_{\cdot j}.$
+
+    Expanding $\bb_{\cdot j}$
+
+    $$
+    \begin{split}
+    AB &= \begin{bmatrix}
+    a_{\cdot 1} & a_{\cdot 2} & \cdots & a_{\cdot n}
+    \end{bmatrix}
+    \begin{bmatrix}
+    \color{red}b_{11} & \color{blue}b_{12} & \cdots & \color{#008B45}b_{1p} \\
+    \color{red}b_{21} & \color{blue}b_{22} & \cdots & \color{#008B45}b_{2p} \\
+    \vdots & \vdots & \ddots & \vdots \\
+    \color{red}b_{n1} & \color{blue}b_{n2} & \cdots & \color{#008B45}b_{np} \\
+    \end{bmatrix} \\
+    &= \begin{bmatrix}
+    \color{red}b_{11}a_{\cdot 1} + b_{21}a_{\cdot 2} + \cdots + b_{n1}a_{\cdot n} & 
+    \color{blue}b_{12}a_{\cdot 1} + b_{22}a_{\cdot 2} + \cdots + b_{n2}a_{\cdot n} &
+    \color{#008B45}b_{1p}a_{\cdot 1} + b_{2p}a_{\cdot 2} + \cdots + b_{np}a_{\cdot n}
+    \end{bmatrix}
+    \end{split}
+    $$
+
+    Each column in $AB$ is a linear combination of columns in $A.$
+
+- Alternatively, writing $A$ in terms of row vectors
+
+    $$
+    AB = \begin{bmatrix}
+    \color{red}\ba_{1\cdot} \\
+    \color{blue}\ba_{2\cdot} \\
+    \vdots \\
+    \color{#008B45}\ba_{m\cdot} \\
+    \end{bmatrix} B
+    = \begin{bmatrix}
+    {\color{red}\ba_{1\cdot}}B \\
+    {\color{blue}\ba_{2\cdot}}B \\
+    \vdots \\
+    {\color{#008B45}\ba_{m\cdot}}B \\
+    \end{bmatrix}
+    $$
+
+    where $\ba_{i\cdot}$ is the $i$-th row of $A:$
+
+    $$
+    \ba_{i\cdot} = 
+    \begin{bmatrix}
+    a_{i1} & a_{i2} & \cdots & a_{in}
+    \end{bmatrix} \text{ for } i = 1, 2, \ldots, m.
+    $$
+
+    Expanding $\ba_{i\cdot}$
 
     $$
     AB = \begin{bmatrix}
@@ -961,16 +1109,8 @@ Define $A$ as a $m\times n$ matrix, $B$ as a $n\times p$ matrix, then
     \end{bmatrix} 
     $$
 
-    where $\bb_{i\cdot}$ is the $i$-th row of $B$
-
-    $$
-    \bb_{i\cdot} = 
-    \begin{bmatrix}
-    b_{i1} & b_{i2} & \cdots & b_{ip}
-    \end{bmatrix} \text{ for } i = 1, 2, \ldots, m.
-    $$
-
-
+    Each row in $AB$ is a linear combination of rows in $B.$
+    
 ___
 
 

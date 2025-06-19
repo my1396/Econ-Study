@@ -64,6 +64,18 @@ Useful Extensions:
 
 
 
+**Find and Replace in Selection**
+
+1. cmd + F to open Find/Replace
+2. Select your line of text
+3. Click the "Fine in selection" icon to the right (or using keyboard shortcut opt + cmd + L)
+4. Enter your find and replace characters in their inputs
+5. Click the Replace all icon
+
+
+
+
+
 ___
 
 Q: Is it possible to set max lines of a table printed in notebook?  

@@ -134,9 +134,12 @@ window.MathJax = {
           bSigma: "\\boldsymbol{\\Sigma}",
           bTau: "\\boldsymbol{\\tau}",
           bXi: "\\boldsymbol{\\Xi}",
-
+          bLambda: "\\boldsymbol{\\Lambda}",
+          
           // bold face lowercase Greeks
           bbeta: "\\boldsymbol{\\beta}",
+          bepsilon: "\\boldsymbol{\\epsilon}",
+          bvarepsilon: "\\boldsymbol{\\varepsilon}",
           bdelta: "\\boldsymbol{\\delta}",
           btheta: "\\boldsymbol{\\theta}",
           blambda: "\\boldsymbol{\\lambda}",

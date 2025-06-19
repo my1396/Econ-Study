@@ -337,12 +337,14 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
   - `\overset{#1}{#2}` put argument #1 (in script style) over argument #2. E.g., $\overset{\text{a}}{\sim}$ `\overset{\text{a}}{\sim}` or `\overset{\rm a}{\sim}`. `\rm` for Roman font (upright). A side note: Words in subscripts or superscripts should be upright.
 
   - `\underset{#1}{#2}` put argument #1 (in script style) under argument #2. E.g.,
+
     $$
     \begin{align*}
     \widetilde{\beta}_{k}^{\rm ridge} &= \underset{b\in \mathbb{R}^{p+1}}{\rm arg\, min}  \lVert y-X b  \rVert ^{2} \\
     \hat{\boldsymbol{\beta}} &= \underset{\boldsymbol{\beta}}{\arg\min} \sum_{i=1}^n \varepsilon_i^2
     \end{align*}
     $$
+    
      `\underset{\boldsymbol{\beta}}{\arg\min}` gives you $\underset{\boldsymbol{\beta}}{\arg\min}$.
 
 - Text above arrows. $\xrightarrow{d}$ `\xrightarrow{d}` convergence in distribution.
