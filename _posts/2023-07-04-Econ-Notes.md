@@ -785,7 +785,7 @@ $$
 
 This shows that as long as the size of the matrix is considered, multiplying by the identity is like multiplying by 1 with numbers.
 
-Examples
+**Examples**
 
 左乘 $I_mA=A$
 
@@ -1234,6 +1234,98 @@ General rules for matrix multiplication:
 - Transpose of a product: $(AB)' = B'A'$
 - Transpose of an extended product: $(ABC)' = C'B'A'$ 
 - Matrix multiplication is NOT commutative: $AB \ne BA$
+
+___
+
+**Useful Notations**
+
+Let $\bX$ be a $n\times K$ matrix
+
+$$
+\bX = \begin{pmatrix}
+\bx_1\color{red}^\prime\\
+\bx_2\color{red}^\prime\\
+\vdots \\
+\bx_n\color{red}^\prime\\ 
+\end{pmatrix}
+= \begin{pmatrix}
+x_{11} & x_{12} &  \cdots & x_{1K} \\
+x_{21} & x_{22} & \cdots & x_{2K} \\
+\vdots & \vdots & \ddots & \vdots \\
+x_{n1} & x_{n2} & \cdots & x_{nK} 
+\end{pmatrix}_{n\times K},
+$$
+
+where
+
+$$
+\boldsymbol{x}_i = \begin{pmatrix}
+x_{i1} \\
+x_{i2} \\
+\vdots \\
+x_{iK}
+\end{pmatrix}_{K\times 1} .
+$$
+
+Then 
+
+$$
+\bX' = \begin{pmatrix}
+\bx_1 & \bx_2 & \cdots & \bx_n
+\end{pmatrix}
+$$
+
+and 
+
+$$
+\begin{split}
+\bX'\bX 
+&= \begin{pmatrix}
+\bx_1 & \bx_2 & \cdots & \bx_n
+\end{pmatrix}
+\begin{pmatrix}
+\bx_1'\\
+\bx_2'\\
+\vdots \\
+\bx_n'\\ 
+\end{pmatrix}  \\
+&= \sum_{i=1}^n \bx_{i} \bx_{i}'
+\end{split}
+$$
+
+
+Define $\bZ$ as a $n\times L$ matrix, $\bX$ as a $n\times K$ matrix, then
+
+- $\bZ'\bX$ is a $L\times K$ matrix
+
+$$
+\bZ'\bX = \begin{pmatrix}
+\bz_1 & \bz_2 & \cdots & \bz_n
+\end{pmatrix} 
+\begin{pmatrix}
+\bx_1'\\
+\bx_2'\\
+\vdots \\
+\bx_n'\\ 
+\end{pmatrix}
+= \sum_{i=1}^n \bz_{i} \bx_{i}'
+$$
+
+- $\bX'\bZ$ is a $K\times L$ matrix 
+
+$$
+\bX'\bZ = \begin{pmatrix}
+\bx_1 & \bx_2 & \cdots & \bx_n
+\end{pmatrix}
+\begin{pmatrix}
+\bz_1'\\
+\bz_2'\\
+\vdots \\
+\bz_n'\\ 
+\end{pmatrix}
+= \sum_{i=1}^n \bx_{i} \bz_{i}'
+$$
+
 
 ___
 

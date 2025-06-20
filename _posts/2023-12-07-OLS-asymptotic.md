@@ -11,6 +11,13 @@ $$
 
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
+
+The asymptotic properties of estimators are their properties as the number of observations in a sample becomes very large and tends to infinity.
+
+Q: Why are we interested in large sample properties, like consistency, when in practice we have finite samples? \
+A: As a first approximation, the answer is that if we can show that an estimator has good large sample properties, then we may be optimistic about its finite sample properties. For example, if an estimator is inconsistent, we know that for finite samples it will definitely be biased.
+
+
 For OLS estimator to be *consistent*, a set of assumptions need to be met:
 <ol type="p1">
 <li id="ass1"> $y_i=x_i'\beta+u_i$ for $i=1, \ldots, n$ or $y=X\beta+u$. In other words, DGP is correctly specified.</li>
