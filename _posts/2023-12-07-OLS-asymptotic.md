@@ -64,7 +64,7 @@ $$
 With iid data and assumption <a href="#ass3">3)</a>, by LLN, the $K\times K$ matrix of sample means converges in probability to the moment matrix.
 
 $$
-\frac{1}{n} \sum_{i=1}^n x_ix_i' \xrightarrow{P} \text{E}[x_ix_i'] = M_{XX}
+\widehat{M}^{-1}_{XX} = \frac{1}{n} \sum_{i=1}^n x_ix_i' \xrightarrow{P} \text{E}[x_ix_i'] = M_{XX}
 $$
 
 Hence we have
@@ -88,7 +88,7 @@ For OLS estimator to have a limit distribution which is normal (aka *asyptotic n
 &emsp;&ensp;Conditions <a href="#ass1">**1)**</a> to <a href="#ass3">**3)**</a> in the consistency assumptions above; in additon to a new assumption:
 
 <ol type="p1" start="4">
-<li id="ass4"> The $K\times K$ moment matrix $M_{X\Omega X}=\mathbb{E}[u_i^2x_ix_i']$ exists and is non-singular, where $\Omega=\mathbb{E}[uu'\vert X]$ is the error covariance matrix. (this assumption ensures asymptotic normality) </li>
+<li id="ass4"> The $K\times K$ moment matrix $\color{#008B45}M_{X\Omega X}=\mathbb{E}[u_i^2x_ix_i']$ exists and is non-singular, where $\color{#008B45}\Omega=\mathbb{E}[uu'\vert X]$ is the <strong>error covariance matrix</strong>. (this assumption ensures asymptotic normality) </li>
 </ol>
 
 Conditions <a href="#ass4">**4)**</a> satisfies the 2nd order moment requirement, combining with <a href="#ass3">**3)**</a>, the 1st order moment condition, we can apply the Central Limit Theorem to $\frac{1}{n}X'u$.
@@ -125,7 +125,8 @@ And hence
 $$
 \sqrt{n} (\hat{\beta}-\beta) \xrightarrow{d} N(0, M_{XX}^{-1} M_{X\Omega X} M_{XX}^{-1}).
 $$
-<span style="float:right">$\square$</span>
+
+<div style='margin-top:-2em; margin-bottom:3em'><span style='float:right; margin-right:10px; '>&#9633;</span></div>
 
 
 Multiplying $(\hat{\beta}-\beta)$ by $\sqrt{n}$ is a stabilizing transformation — i.e., the moments do not depend on $n$.
@@ -159,19 +160,96 @@ $$
 also can be written as 
 
 $$
-\sqrt{n} (\hat{\beta}_{OLS}-\beta) \xrightarrow{d} N(0, V), \text{or}
+\begin{equation} \label{eq-beta-distribution-hansen}
+\sqrt{n} (\hat{\beta}_{OLS}-\beta) \xrightarrow{d} N(0, V_\beta), 
+\end{equation}
 $$
+ 
+or equivalently,
 
 $$
-\hat{\beta}_{OLS} \overset{a}{\sim} N(\beta, V/n)
+\begin{equation} \label{eq-beta-distribution-greene}
+\hat{\beta}_{OLS} \overset{a}{\sim} N(\beta, V_\beta/n)
+\end{equation}
 $$
 
-where $V=\sigma^2M^{-1}_{XX}$. \
-$V/n$ is called the asymptotic variance. \
+where 
+
+$$
+V_\beta=\sigma^2M^{-1}_{XX}
+$$ 
+
+is the variance of the asymptotic distribution of $$\sqrt{n} (\hat{\beta}_{OLS}-\beta).$$ 
+Consequently, $V_\beta$ is often referred to as the **asymptotic covariance matrix** of $$\sqrt{n} \hat{\beta}_{OLS}.$$ $\sqrt{n}\beta$ can be omitted, as adding or subtracting a constant does not change the covariance.
+
+In practice, $\sqrt{n}$ is often omitted too, you may see $V_\beta$ referred to as the asymptotic variance of $ \hat{\beta}_{OLS},$ with $\sqrt{n}$ omitted. This is indeed confusing, but it is the common convention used in the literature. You have to determine whether the asymptotic variance is stabilized.
+
+- Eq $\eqref{eq-beta-distribution-hansen}$ is used in Hansen's textbook. Always implies stabilized variance with a factor of $\sqrt{n},$ whether or not written explicitly. 
+
+- Eq $\eqref{eq-beta-distribution-greene}$ is used in Greene's textbook and in the core econometric course at Oxford. Unstabilized variance. The variance of the estimator depends on the sample size. But the benefit with this notation is that $V_\beta/n$ coincides with the finite sample variance.
+
+**Alternative notation** for the asymptotic variance of $\sqrt{n} (\hat{\beta}_{OLS}-\beta):$
+
+$$
+V_\beta = \color{#008B45}\text{aVar}\left(\sqrt{n} (\hat{\beta}_{OLS}-\beta) \right)
+$$
+
+
 $\overset{a}{\sim}$ stands for "approximate (asymptotic)" distribution.
 
+
+Distinguish the asymptotic variance $V_\beta$ from the finite-sample conditional variance (or exact variance) $V_{\hat{\beta}}$:
+
 $$
-\left(\frac{1}{n}\sum_{i=1}^nx_ix_i'\right)^{-1} \xrightarrow{p} M^{-1}_{XX}
+\begin{split}
+V_\beta &= \text{aVar}\left(\sqrt{n} (\hat{\beta}-\beta) \right) = \sigma^2M^{-1}_{XX} \\
+V_{\hat{\beta}} &= \var{(\hat{\beta} \mid X)} = \sigma^2 (X'X)^{-1} .
+\end{split}
+$$
+
+Notice that $V_{\hat{\beta}}$ is the exact conditional variance of $\hat{\beta}$ and $V_\beta$ is the asymptotic variance of $\sqrt{n} (\hat{\beta}-\beta).$
+
+Given 
+
+$$
+\frac{1}{n}(X'X) \xrightarrow{p} M_{XX}
+$$
+
+then 
+
+$$
+n(X'X)^{-1} \xrightarrow{p} M_{XX}^{-1}  .
+$$
+
+$V_\beta$ should be (roughly) $n$ times as large as $V_{\hat{\beta}}$, or $V_\beta \approx n V_{\hat{\beta}}.$
+As $n\to \infty$
+
+$$
+n V_{\hat{\beta}} \xrightarrow{p} V_\beta .
+$$
+
+- $V_{\hat{\beta}}$ is useful for practical inferences (such as computation of standard errors and test) since it is the variance of the estimator $\hat{\beta}.$
+
+- $V_\beta$ is useful for asymptotic theory as it is well defined in the limit as $n$ goes to infinity. 
+
+
+___
+
+
+## Covariance Matrix Estimation
+
+We have shown that $\sqrt{n}(\hat{\beta}-\beta)$ is asymptotically normal with asymptotic covariance matrix $B_\beta.$ For asymptotic inferences (such as confidence intervals and tests) we need a consistent estimator of $V_\beta.$ 
+
+The standard moment estimator of $M_{XX}$ is $\widehat{M}_{XX}$ defined as
+
+$$
+\widehat{M}_{XX} = \frac{1}{n} \sum_{i=1}^n x_i x_i'
+$$
+
+and an estimator for $$M^{-1}_{XX}$$ is $\widehat{M}^{-1}_{XX}.$
+
+$$
+\widehat{M}^{-1}_{XX} = \left(\frac{1}{n}\sum_{i=1}^nx_ix_i'\right)^{-1} \xrightarrow{p} \E(x_ix_i') = M^{-1}_{XX}
 $$
 
 or
@@ -196,16 +274,18 @@ $$
 
 are consistent estimators of $\sigma^2$ (only $\hat{\sigma}^2_{OLS}$ is unbiased).
 
-Using Slutsky's theorem, 
+Using Slutsky's theorem (continuous mapping theorem), a natural plug-in estimator for $V_\beta$ is
 
 $$
-\hat{V} = \hat{\sigma}^2_{OLS} \left(\frac{X'X}{n}\right)^{-1} \xrightarrow{p} V.
+\widehat{V}_\beta = \hat{\sigma}^2_{OLS} \left(\frac{X'X}{n}\right)^{-1} \xrightarrow{p} \sigma^2 M_{XX}^{-1} = V_\beta .
 $$
 
-Replacing $V$ with $\hat{V}$ in the asymptotoic distribution, we have
+So that $$\widehat{V}_\beta$$ is consistent for $V_\beta,$ as desired.
+
+Replacing $V$ with $\hat{V}$ in the asymptotic distribution, we have
 
 $$
-\hat{\beta}_{OLS} \overset{a}{\sim} N(\beta, \hat{V}/n)
+\hat{\beta}_{OLS} \overset{a}{\sim} N(\beta, \widehat{V}_\beta/n)
 $$
 
 which is the form used to construct approximate confidence intervals and asymptotically valid test statistics.
@@ -214,15 +294,16 @@ Note that
 
 $$
 \begin{align*}
-\hat{V}/n &= \left(\frac{1}{n}\right) \hat{\sigma}^2_{OLS} \left(\frac{X'X}{n}\right)^{-1} \\
+\widehat{V}_\beta/n &= \left(\frac{1}{n}\right) \hat{\sigma}^2_{OLS} \left(\frac{X'X}{n}\right)^{-1} \\
 &= \left(\frac{1}{n}\right) \hat{\sigma}^2_{OLS}\, n\, \left({X'X}\right)^{-1} \\
-&= \hat{\sigma}^2_{OLS}\left({X'X}\right)^{-1}
+&= \hat{\sigma}^2_{OLS}\left({X'X}\right)^{-1}  \\
+&= \widehat{V}_{\hat{\beta}}
 \end{align*}
 $$
 
-which is the same as the exact finite sample conditional variance $\text{Var}(\hat{\beta}_{OLS}\vert X)$ that we obtianed in the classical linear regression model with nomally distributed errors.
+which is the same as the exact finite sample conditional variance $\text{Var}(\hat{\beta}_{OLS}\vert X)$ that we obtained in the classical linear regression model with normally distributed errors.
 
-
+___
 
 ## Hypothesis testing
 
@@ -271,7 +352,7 @@ w &= (\hat{\theta}_{OLS}-\theta)'\left[\widehat{\text{Var}}(\hat{\theta}_{OLS \v
 \end{align*}
 $$
 
-has the aymptotic distrbution
+has the asymptotic distribution
 
 $$
 w \overset{\text{a}}{\sim} \chi^2(p).
@@ -326,5 +407,11 @@ Let's say you are interested in knowing the variance of $\widehat{VD}\equiv \fra
 Then you could apply the delta method to $f(\hat{\theta}_1, \hat{\theta}_2) \equiv \frac{\hat{\theta}_1}{\hat{\theta}_2}$, where $\hat{\theta}_1\equiv \hat{\sigma}_b^2-\hat{\sigma}_a^2$, $\hat{\theta}_2\equiv \hat{\sigma}_a^2$, and observe that $\hat{\sigma}_b^2-\hat{\sigma}_a^2$ and $\hat{\sigma}_a^2$ are asymptotically uncorrelated because $\hat{\sigma}_a^2$ is an efficient estimator.
 
 **References**
+
+- Chapter 7 Asymptotic Theory for Least Squares. **Econometrics**. by Bruce Hansen, 2022. 
+-  Chapter 5 Large-Sample Properties. **Econometric Analysis** , 5th Edition, by William H. Greene, Prentice Hall, 2003. 
+- Simulation of OLS estimators: 
+    - Introduction to Econometrics with R: <https://www.econometrics-with-r.org/4.5-tsdotoe.html>
+    - Asymptotic Theory, Regression Analysis and Potential Outcomes: <https://rpubs.com/SSJ/991088>
 
 {% bibliography --cited %}

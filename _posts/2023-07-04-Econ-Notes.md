@@ -1430,6 +1430,25 @@ $$
 a \otimes B = aB
 $$
 
+
+Kronecker products satisfy the **distributive rule**
+
+$$
+(A\otimes B)(C\otimes S) = AC \otimes BD,
+$$
+
+assuming all matrix products are well defined.
+
+**Inverses** of Kronecker products:
+
+$$
+(A\otimes B)^{-1} = A^{-1} B^{-1} ,
+$$
+
+assuming both $A$ and $B$ are invertible.
+
+___
+
 **Expectation and Variance of Random Vectors**
 
 A random vector $\vec{X}$ is a vector 
