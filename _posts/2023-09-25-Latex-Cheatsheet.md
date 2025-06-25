@@ -156,16 +156,17 @@ Note:
 
 ## Other Symbols
 
-|             LaTex |                                 |               LaTex |                     |
-| ----------------: | ------------------------------- | ------------------: | ------------------: |
-|        `\partial` | ∂                               |            `\infty` |                   ∞ |
-|          `\wedge` | ∧                               |              `\vee` |                   ∨ |
-|     `\neg` `\not` | ¬                               |                     |                     |
-|            `\bot` | ⊥                               |              `\top` |                   ⊤ |
-|          `\nabla` | ∇                               |       `\varnothing` |                   ∅ |
-|          `\angle` | ∠                               |    `\measuredangle` |                   ∡ |
-|           `\surd` | √                               |           `\forall` |                   ∀ |
-| `\lceil{x}\rceil` | $\left \lceil{x}\right \rceil $ | `\lfloor x \rfloor` | $\lfloor x \rfloor$ |
+|                       LaTex |                                 |               LaTex |                     |
+| --------------------------: | ------------------------------- | ------------------: | ------------------: |
+|                  `\partial` | ∂                               | `\infty` (infinity) |                   ∞ |
+| `\propto` (proportional to) | $\propto$                       |                     |                     |
+|                    `\wedge` | ∧                               |              `\vee` |                   ∨ |
+|               `\neg` `\not` | ¬                               |                     |                     |
+|                      `\bot` | ⊥                               |              `\top` |                   ⊤ |
+|                    `\nabla` | ∇                               |       `\varnothing` |                   ∅ |
+|                    `\angle` | ∠                               |    `\measuredangle` |                   ∡ |
+|                     `\surd` | √                               |           `\forall` |                   ∀ |
+|           `\lceil{x}\rceil` | $\left \lceil{x}\right \rceil $ | `\lfloor x \rfloor` | $\lfloor x \rfloor$ |
 
 - `'` prime symbol is a shorthand for `^\prime` .
 
@@ -348,6 +349,12 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
      `\underset{\boldsymbol{\beta}}{\arg\min}` gives you $\underset{\boldsymbol{\beta}}{\arg\min}$.
 
 - Text above arrows. $\xrightarrow{d}$ `\xrightarrow{d}` convergence in distribution.
+
+  If you want to use a longer arrow, you can use `\overset`: $\overset{d}{\longrightarrow}$ (`\overset{d}{\longrightarrow}`).
+
+- $n\to\infty$  (`n\to\infty`): as $n$ approximates to infinity.
+
+
 
 
 
