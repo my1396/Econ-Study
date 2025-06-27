@@ -219,7 +219,7 @@ The N-vector $\by_j$ can be further stacked into an $MN$-dimensional vector $\by
 $$
 \begin{bmatrix}
 \by_{1}  \\
-\by_{j}  \\
+\by_{2}  \\
 \vdots \\
 \by_{M}  
 \end{bmatrix}
@@ -231,13 +231,13 @@ $$
 \end{bmatrix}
 \begin{bmatrix}
 \bbeta_{1}  \\
-\bbeta_{j}  \\
+\bbeta_{2}  \\
 \vdots \\
 \bbeta_{M}  
 \end{bmatrix} +
 \begin{bmatrix}
 \bvarepsilon_{1}  \\
-\bvarepsilon_{j}  \\
+\bvarepsilon_{2}  \\
 \vdots \\
 \bvarepsilon_{M}  
 \end{bmatrix}
@@ -255,19 +255,19 @@ where
 $$
 \underset{(MN\times 1)}{\by} = \begin{bmatrix}
 \by_{1}  \\
-\by_{j}  \\
+\by_{2}  \\
 \vdots \\
 \by_{M}  
 \end{bmatrix} ,
 \underset{(MN\times 1)}{\bvarepsilon} = \begin{bmatrix}
 \bvarepsilon_{1}  \\
-\bvarepsilon_{j}  \\
+\bvarepsilon_{2}  \\
 \vdots \\
 \bvarepsilon_{M}  
 \end{bmatrix} ,
 \underset{(K\times 1)}{\bbeta} = \begin{bmatrix}
 \bbeta_{1}  \\
-\bbeta_{j}  \\
+\bbeta_{2}  \\
 \vdots \\
 \bbeta_{M}  
 \end{bmatrix} 

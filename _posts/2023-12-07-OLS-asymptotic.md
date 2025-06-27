@@ -198,12 +198,12 @@ $$
 $\overset{a}{\sim}$ stands for "approximate (asymptotic)" distribution.
 
 
-Distinguish the asymptotic variance $V_\beta$ from the finite-sample conditional variance (or exact variance) $V_{\hat{\beta}}$:
+Distinguish the <span style='color:#008B45'>**asymptotic variance** $V_\beta$</span> from the <span style='color:#337ab7'>**finite-sample conditional variance** (or **exact variance**) $V_{\hat{\beta}}$</span>:
 
 $$
 \begin{split}
-V_\beta &= \text{aVar}\left(\sqrt{n} (\hat{\beta}-\beta) \right) = \sigma^2M^{-1}_{XX} \\
-V_{\hat{\beta}} &= \var{(\hat{\beta} \mid X)} = \sigma^2 (X'X)^{-1} .
+V_\beta &= \text{aVar}\left(\sqrt{n} (\hat{\beta}-\beta) \right) = \color{#008B45}\sigma^2M^{-1}_{XX} \\
+V_{\hat{\beta}} &= \var{(\hat{\beta} \mid X)} = \color{#337ab7} \sigma^2 (X'X)^{-1} .
 \end{split}
 $$
 
@@ -228,9 +228,9 @@ $$
 n V_{\hat{\beta}} \xrightarrow{p} V_\beta .
 $$
 
-- $V_{\hat{\beta}}$ is useful for practical inferences (such as computation of standard errors and test) since it is the variance of the estimator $\hat{\beta}.$
+- <span style='color:#337ab7'>$V_{\hat{\beta}}$ is useful for practical inferences</span> (such as computation of standard errors and test) since it is the variance of the estimator $\hat{\beta}.$
 
-- $V_\beta$ is useful for asymptotic theory as it is well defined in the limit as $n$ goes to infinity. 
+- <span style='color:#008B45'>$V_\beta$ is useful for asymptotic theory</span> as it is well defined in the limit as $n$ goes to infinity. 
 
 
 ___

@@ -13,7 +13,7 @@ $$
 
 A stochastic process $X_t$ is a family/sequence of random variables indexed by time $t$. "Stochastic"  is a synonym for random. 
 
-When we collecta time series data set, we obtain one possible outcome, or *realization*, of the stochastic process. We can only see a single realization, because we cannot go back in time and startthe process over again. (This is analogous to cross-sectional analysis where we can collectonly one random sample.)
+When we collect time series data set, we obtain one possible outcome, or *realization*, of the stochastic process. We can only see a single realization, because we cannot go back in time and start the process over again. (This is analogous to cross-sectional analysis where we can collect only one random sample.)
 
 At a specific time point $t$, $X_t$ is a random variable with a specific density function. A stochastic process is defined in a probability space $(\Omega, \mathcal{F}, P)$.
 
@@ -34,7 +34,7 @@ $$
 \end{align*}
 $$
 
-If we define <span style='color:red'>**covariance stationary**</span>, then $\gamma(t,\tau)=\gamma_\tau$, means covaraince only depends on the time interval apart $\tau$, not the start point $t$.
+If we define <span style='color:red'>**covariance stationary**</span>, then $\gamma(t,\tau)=\gamma_\tau$, means covariance only depends on the time interval apart $\tau$, not the start point $t$.
 
 
 **Autocorrelation Function** (ACF)
@@ -45,7 +45,7 @@ $$
 \end{align*}
 $$
 
-The autocorrelation function $\rho$ of a covaraince stochastic process is normalized on the interval $[-1,1]$.  $\rho$ depends only on one parameter, the lag $\tau$.  The sequence, $\{\rho_\tau\},$ is called correlogram.
+The autocorrelation function $\rho$ of a covariance stochastic process is normalized on the interval $[-1,1]$.  $\rho$ depends only on one parameter, the lag $\tau$.  The sequence, $\{\rho_\tau\},$ is called correlogram.
 
 
 
@@ -113,6 +113,7 @@ On the other hand, the values of $X$ at distant time points are less and less co
 ## AR(1) process
 
 Model set up
+
 $$
 X_t = c+\alpha X_{t-1}+\varepsilon_t, \quad \varepsilon_t\sim \mathrm{WN}(0, \sigma^2).
 $$

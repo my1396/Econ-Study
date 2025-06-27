@@ -119,18 +119,72 @@ so the ros as well as the columns of $\bC$ are orthogonal.
 ___
 
 
-Diagonalization of a Matrix
+**Diagonalization of a Matrix**
 
 $$
 \bC'\bA\bC = \bC'\bC \bLambda = \bI\bLambda = \bLambda
 $$
 
-Spectral Decomposition of a Matrix
+**Spectral Decomposition of a Matrix**
 
 $$
 \bA = \bC \bLambda \bC' = \sum_{k=1}^K \lambda_k \bc_k\bc_k'
 $$
 
+**Powers of a Matrix**
+
+$$
+\begin{split}
+\bA\bA &= \bA^2 = (\bC \bLambda \bC')(\bC \bLambda \bC') = \bC \bLambda \bC'\bC \bLambda \bC' = \bC \bLambda \mathbf{I} \bLambda \bC' =  \bC \bLambda \bLambda \bC' \\
+&= \bC \bLambda^2 \bC' 
+\end{split}
+$$
+
+**Square root of a Matrix**
+
+$$
+\bA^{1/2} = \bC \bLambda^{1/2} \bC' = \bC
+\begin{bmatrix}
+\sqrt{\lambda_{1}} & 0  & \cdots & 0 \\
+0 & \sqrt{\lambda_{2}} & \cdots & 0 \\
+\vdots & \vdots & \ddots & \vdots \\
+0 & 0  & \cdots & \sqrt{\lambda_{n}} \\
+\end{bmatrix} \bC' .
+$$
+
+We can verify this by 
+
+$$
+\bA^{1/2}\bA^{1/2} = \bC \bLambda^{1/2} \bC'\bC \bLambda^{1/2} \bC' = \bC \bLambda \bC' = \bA .
+$$
+
+
+This rule generalizes to for any real number $r$ and a positive definite matrix $\bA$:
+
+$$
+\bA^{r} = \bC \bLambda^{r} \bC' .
+$$
+
+___
+
+
+In some applications, such as GLS, we shall require a transform matrix $\bP$ such that
+
+$$
+\bP'\bP = \bA^{-1}
+$$
+
+One choice is
+
+$$
+\bP = \bLambda^{-1/2} \bC'
+$$
+
+so that
+
+$$
+\bP'\bP = \bC'\bLambda^{-1/2}\bLambda^{-1/2}\bC = \bC'\bLambda^{-1}\bC = \bA^{-1}.
+$$
 
 ___
 

@@ -137,6 +137,7 @@ window.MathJax = {
           bLambda: "\\boldsymbol{\\Lambda}",
           
           // bold face lowercase Greeks
+          balpha: "\\boldsymbol{\\alpha}",
           bbeta: "\\boldsymbol{\\beta}",
           bepsilon: "\\boldsymbol{\\epsilon}",
           bvarepsilon: "\\boldsymbol{\\varepsilon}",

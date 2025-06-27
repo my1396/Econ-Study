@@ -197,6 +197,8 @@ Reference: <https://www.principlesofeconometrics.com/poe5/writing/abadir_magnus.
 
 `Q.E.D` or `QED`: Latin words to indicate this is the *end* of a mathematical proof. At the beginning, you simply write `Proof:`.
 
+`NB`: Latin phrase meaning "note well" or "pay special attention."
+
 Ceteris paribus:  Latin phrase that generally means "all other things being equal."
 
 axiom or postulate: a fundamental assumption that is accepted without proof.

@@ -185,7 +185,7 @@ Two scenarios for the solution $\bbeta:$
     More generally, it is common to refer to any estimator of the form 
 
     $$
-    \hat{\bbeta}_{\mathrm{iv}} = (\bW'\bX)^{-1} (\bW'\by)
+    \color{#008B45} \hat{\bbeta}_{\mathrm{iv}} = (\bW'\bX)^{-1} (\bW'\by)
     $$
 
     given an $n\times K$ matrix $\bW$ as an IV estimator for $\bbeta$ using the instrument $\bW.$
@@ -201,6 +201,7 @@ Two scenarios for the solution $\bbeta:$
     Under $\eqref{eq:full-rank1}$, the matrix $\Gamma'\Gamma$ is invertible so the solution is unique.
 
 
+___
 
 ## Two-Stage Least Squares
 
@@ -275,10 +276,10 @@ Replacing $\Gamma$ with $\widehat{\Gamma}$ in $\eqref{eq:2sls-beta}$, we obtain
 $$
 \begin{equation}
 \begin{split}
-\widehat{\bbeta}_{2\text{sls}} 
+\color{#008B45} \widehat{\bbeta}_{2\text{sls}} 
 &= (\widehat{\Gamma}'\bZ'\bZ\widehat{\Gamma})^{-1} (\widehat{\Gamma}'\bZ'y) \\
 &= \left[\bX'\bZ (\bZ'\bZ)^{-1} (\bZ'\bZ) (\bZ'\bZ)^{-1} \bZ'\bX \right]^{-1} \left[\bX'\bZ (\bZ'\bZ)^{-1} \bZ'\by \right] \\
-&= \left[\bX'\bZ (\bZ'\bZ)^{-1} \bZ'\bX \right]^{-1} \left[\bX'\bZ (\bZ'\bZ)^{-1} \bZ'\by \right] .
+&= \color{#008B45} \left[\bX'\bZ (\bZ'\bZ)^{-1} \bZ'\bX \right]^{-1} \left[\bX'\bZ (\bZ'\bZ)^{-1} \bZ'\by \right] .
 \end{split} 
 \end{equation}
 $$
