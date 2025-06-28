@@ -145,7 +145,7 @@ at 从句
 
 en klar <span style='color:#32CD32'>sammenheng</span> mellom ... og ...
 
-
+sammenlignet med mange andre europeiske land  (compared to other European countries)
 
 **不同**
 
@@ -171,7 +171,7 @@ Tor og Ed har **annerledes** biler. $\rightarrow$ Alle de andre vennene har Toyo
 
 如果主语是**一个主体**，句子比较两个对象 
 
-1. 作为短语说明A与B不同。$\rightarrow$ <u>*Annerledes enn*</u> er det samme som <u>*forskjellig fra*</u>.
+1. 作为短语说明 A 与 B 不同。$\rightarrow$ <u>*Annerledes enn*</u> er det samme som <u>*forskjellig fra*</u>.
 
    E.g., A er annerledes enn B. = A er forskjellig fra B.
 

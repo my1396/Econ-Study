@@ -443,10 +443,84 @@ We have
 ___
 
 
+## Goodness-of-fit
+
+we can define the **total sum of squares** (SST), the **explained
+sum of squares** (SSE), and the **residual sum of squares** or sum of squared residuals (SSR) as
+
+$$
+\begin{aligned}
+SST &\equiv \sum_{i=1}^n (y_i-\overline{y})^2  \\
+SSE &\equiv \sum_{i=1}^n (\hat{y}_i-\overline{y})^2  \\
+SSR &\equiv \sum_{i=1}^n (\hat{u}_i)^2 .
+\end{aligned}
+$$
+
+We can see that 
+
+$$
+SST = SSE + SSR .
+$$
+
+In other words, the total variation in $\{y_i\}$ is the sum of the total variations in $\{\hat{y}_i\}$ and in $\{\hat{u}_i\}.$
+
+
+**R-squared** is defined to be
+
+$$
+R^2 = \frac{SSE}{SST} = 1-\frac{SSR}{SST} ,
+$$
+
+and it is interpreted as the proportion of the sample variation in $\{y_i\}$ that is explained by the OLS regression line. By definition, $R^2$ is a number between zero and one.
+
+$R^2$ is called the **coefficient of determination**.
+
+The population R-squared is defined as
+
+$$
+\rho^2 = 1-\frac{\sigma^2_u}{\sigma^2_y} ,
+$$
+
+where $\sigma^2_u$ denotes the population variance of the error term, $u,$ and $\sigma^2_y$ as the population variance of $y.$ $\rho^2$ measures the proportion of the variation in $y$ in the population explained by the independent variables.
+
+$R^2$ estimate $\sigma^2_u$ by $SSR/n$ and $\sigma^2_y$ by $SST/n,$ which we known to be biased. 
+
+$R^2$ can also be shown to equal the squared correlation coefficient between the actual $y_i$ and the fitted values $\hat{y}_i$. That is,
+
+$$
+R^2 = \frac{ \left(
+\sum_{i=1}^{n} (y_i - \bar{y})(\hat{y}_i - \bar{\hat{y}}) \right)^2
+}{
+\left(\sum_{i=1}^{n} (y_i - \bar{y})^2\right) \left( \sum_{i=1}^{n} (\hat{y}_i - \bar{\hat{y}})^2 \right)
+}
+$$
+
+$R^2$ never decreases when any variable is added to a regression: this is because SSR never goes up as more independent variables are added.
+This fact makes it a poor tool for deciding whether one variable or several variables should be added to a model. The factor that should determine whether an explanatory variable belongs in a model is whether the explanatory variable has a nonzero partial effect on $y$ in the population.
+
+$R^2$ allows us to test a group of variables to see if it is important for explaining $y.$
+
+We introduced an adjusted R-squared, $\overline{R}^2$, which imposes a penalty for adding additional independent variables to a model.
+
+$\overline{R}^2$ uses the unbiased estimators for $\sigma^2_u$ and $\sigma^2_y:$
+
+$$
+\overline{R}^2 = 1 - \frac{\frac{SSR}{n-K}}{\frac{SST}{n-1}}.
+$$
+
+It relates to the $R^2$ as
+
+$$
+\overline{R}^2 = 1 - \frac{n-1}{n-K}(1-R^2) .
+$$
+
+
+___
+
 
 ## Hypothesis testing
 
-In finite sample, we know that error follows normal distribution $u\vert X \sim N(0, \sigma^2I)$.
+In finite sample, we know that error follows normal distribution $u\mid X \sim N(0, \sigma^2I)$.
 
 1. When we know error variance $\sigma^2$, we use standard normal test.
 2. When we do not know error variance, then we estimate using 
@@ -511,14 +585,90 @@ ___
 In applications, it is important to discuss <u>both practical and statistical significance</u>, being aware that an estimate can be statistically significant without being especially large in a practical sense. Whether an estimate is practically important depends on the context as well as on one’s judgment, so there are no set rules for determining practical significance.
 
 
+___
 
+## Partitioned Regression
 
+Partition 
 
+$$
+\bX = \begin{bmatrix} \bX_1 & \bX_2
+\end{bmatrix}
+$$
 
+and 
 
+$$
+\bbeta = \begin{bmatrix} \bbeta_1 \\ \bbeta_2
+\end{bmatrix} .
+$$
 
+Then the regression model can be rewritten as
 
+$$
+\begin{align} \label{eq-partition}
+\by = \bX_1\bbeta_1 + \bX_2\bbeta_2 + \bu .
+\end{align}
+$$
 
+The least-squares estimator $(\hat{\bbeta}_1, \hat{\bbeta}_2)$ has the algebraic solution
+
+$$
+\begin{aligned}
+\hat{\bbeta}_1 &= (\bX_1'\bM_2\bX_2)^{-1}(\bX_1'\bM_2\by)  \\
+\hat{\bbeta}_2 &= (\bX_2'\bM_1\bX_1)^{-1}(\bX_2'\bM_1\by)  \\
+\end{aligned}
+$$
+
+where 
+
+$$
+\bM_1 = \mathbf{I}_n - \bX_1(\bX_1'\bX_1)^{-1}\bX_1'
+$$
+
+is the orthogonal projection matrix (residual maker) for $\bX_1,$ and 
+
+$$
+\bM_2 = \mathbf{I}_n - \bX_2(\bX_2'\bX_2)^{-1}\bX_2'
+$$
+
+is the orthogonal projection matrix (residual maker) for $\bX_2.$ 
+
+Since the residual make is idempotent, $\bM_1 = \bM_1\bM_1$ and thus
+
+$$
+\begin{split}
+\hat{\bbeta}_2 &= (\bX_2'\bM_1\bX_1)^{-1}(\bX_2'\bM_1\by) \\
+&= (\bX_2'\bM_1\bM_1\bX_1)^{-1}(\bX_2'\bM_1\bM_1\by) \\
+&= (\widetilde{\bX}_2'\widetilde{\bX})^{-1} (\widetilde{\bX}_2' \widetilde{\bu}_1)
+\end{split}
+$$
+
+where
+
+$$
+\widetilde{\bX}_2 = \bM_1 \bX_2, 
+$$
+
+the columns of $\bX_2$ are the least-squares residuals from the regressions of the columns of $\bX_2$ on $\bX_1.$ And
+
+$$
+\widetilde{\bu}_1 = \bM_1\by ,
+$$
+
+which is the least-squares residual from a regression of $\by$ on $\bX_1.$
+
+<div class = "boxed">
+<strong>Frisch-Waugh-Lovell (FWL) Theorem</strong> <br/>
+
+In the model $\eqref{eq-partition},$ the OLS estimator of $\bbeta_2$ and the OLS residuals $
+\hat{\bu}$ may be computed via the following algorithm:
+<ol>
+<li>Regress $\by$ on $\bX_1,$ obtain the residuals $\widetilde{\bu}_1$; </li>
+<li>Regress $\bX_2$ on $\bX_1,$ obtain the residuals $\widetilde{\bX}_2$; </li>
+<li>Regress $\widetilde{\bu}_1$ on $\widetilde{\bX}_2$, obtain the OLS estimates $\bbeta_2$ and residuals $\hat{\bu}$. </li>
+</ol>
+</div>
 
 
 
