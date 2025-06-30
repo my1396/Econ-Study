@@ -45,7 +45,7 @@ $$
 \end{align*}
 $$
 
-The autocorrelation function $\rho$ of a covariance stochastic process is normalized on the interval $[-1,1]$.  $\rho$ depends only on one parameter, the lag $\tau$.  The sequence, $\{\rho_\tau\},$ is called correlogram.
+The autocorrelation function $\rho$ of a covariance stochastic process is normalized on the interval $[-1,1]$.  $\rho$ depends only on one parameter, the lag $\tau$.  The sequence, $\lbrace\rho_\tau\rbrace,$ is called correlogram.
 
 
 
@@ -56,7 +56,7 @@ If $X_t$ is white noise, then
 $$
 \begin{align*}
 1.&\ \mu_t=0,  and \\
-2.&\ \gamma_\tau=\left\{
+2.&\ \gamma_\tau=\left\lbrace
 	\begin{array}{ll}
 	\sigma^2 & \text{when $\tau=0$} \\
 	0 & \text{(uncorrelated) when $\tau\neq0$}
@@ -118,7 +118,7 @@ $$
 X_t = c+\alpha X_{t-1}+\varepsilon_t, \quad \varepsilon_t\sim \mathrm{WN}(0, \sigma^2).
 $$
 
-In order for $\{x_t\}$ to converge, we need $ \vert\alpha \vert<1$.
+In order for $\lbracex_t\rbrace$ to converge, we need $ \vert\alpha \vert<1$.
 
 By iterative substitutions, 
 
@@ -164,7 +164,7 @@ ___
 
 **Autocovariance Matrix**
 
-If $\{X_t \}$ is a stationary process, we define a $p\times 1$ random vector $X$:
+If $\lbraceX_t \rbrace$ is a stationary process, we define a $p\times 1$ random vector $X$:
 
 $$
 X' = [X_t, X_{t+1}, \ldots, X_{t+p} ] \,.
@@ -218,7 +218,7 @@ $$
 
 **MA($\bold{\infty}$) representation**
 
-Leg $\{\varepsilon_t\}$ be white noise and $\{\psi_j\}$ be a sequence of real numbers that is absolutely summable. Then
+Leg $\lbrace\varepsilon_t\rbrace$ be white noise and $\lbrace\psi_j\rbrace$ be a sequence of real numbers that is absolutely summable. Then
 
 1. For each $t$,
 	
@@ -226,9 +226,9 @@ Leg $\{\varepsilon_t\}$ be white noise and $\{\psi_j\}$ be a sequence of real nu
 	y_t = \mu + \sum_{j=0}^\infty\psi_j\varepsilon_{t-j}
 	$$
 
-    converges in mean square. $\{y_t\}$ is covariance-stationary. (The process $\{y_t\}$ is called the infinite-order moving-average process (MA($\infty$)).)
+    converges in mean square. $\lbrace y_t\rbrace$ is covariance-stationary. (The process $\lbrace y_t\rbrace$ is called the infinite-order moving-average process (MA($\infty$)).)
 
-2. The mean of $y_t$ is $\mu.$ The autocovariances $\{\gamma_j\}$ are given by 
+2. The mean of $y_t$ is $\mu.$ The autocovariances $\lbrace\gamma_j\rbrace$ are given by 
 
     $$
     \gamma_j = \sigma^2\sum_{k=0}^\infty \psi_{j+k}\psi_k \quad (j=0,1,2,\dots).
@@ -240,7 +240,7 @@ Leg $\{\varepsilon_t\}$ be white noise and $\{\psi_j\}$ be a sequence of real nu
     \sum_{j=0}^\infty \vert \gamma_j \vert < \infty.
     $$
 
-4. If, in addition, $\{\varepsilon_t\}$ is i.i.d, then the process $\{y_t\}$ is (strictly) stationary and ergodic.
+4. If, in addition, $\lbrace\varepsilon_t\rbrace$ is i.i.d, then the process $\lbrace y_t\rbrace$ is (strictly) stationary and ergodic.
 
 
 $$
@@ -269,9 +269,9 @@ Two examples: random walk with independent $\varepsilon_t$ and the AR(1) process
 
 
 
-**Martingale**
+## Martingale
 
-Let $\{X_t\}$ denote a sequence of random variables and let $\mathcal F_{t} = \{X_{t}, X_{t-1},\ldots, X_0\}$ denote a set of conditioning information or *information set* based on the past history of $X_{t}.$ The sequence $\{X_t, \mathcal F_t\}$ is called a martingale if
+Let $\lbrace X_t\rbrace$ denote a sequence of random variables and let $\mathcal F_{t} = \lbrace X_{t}, X_{t-1},\ldots, X_0\rbrace$ denote a set of conditioning information or *information set* based on the past history of $X_{t}.$ The sequence $\lbrace X_t, \mathcal F_t\rbrace$ is called a martingale if
 
 $$
 E[X_t \mid X_{t-1}=x_{t-1}, \ldots, X_{t-k}=x_{t-k}] = x_{t-1}
@@ -304,20 +304,37 @@ since $E[\varepsilon_t \vert \mathcal F_{t-1}]=0.$
 
 **Martingale Difference Sequence** (MDS)
 
-Let $\{\varepsilon_t\}$ be a sequence of random variables with an associated information set $\{\mathcal F_t\}$. The sequence $\{\varepsilon_t, \mathcal F_t\}$ is called a *martingale difference sequence* (MDS) if
+Let $\lbrace \varepsilon_t\rbrace$ be a sequence of random variables with an associated information set $\lbrace\mathcal F_t\rbrace$. The sequence $\lbrace\varepsilon_t, \mathcal F_t\rbrace$ is called a *martingale difference sequence* (MDS) if
 
 $$
 E[\varepsilon_t | \mathcal F_{t-1}] = 0 \,.
 $$
 
-If $\{y_t, \mathcal F_t\}$ is a martingale, a MDS $\{\varepsilon_t, \mathcal F_t\}$ may be constructed by defining
+If $\lbrace X_t, \mathcal F_t\rbrace$ is a martingale, then its first difference sequence $\lbrace \Delta X_t, \mathcal F_t\rbrace$ is 
+a MDS. Define
 
 $$
-\varepsilon_t = y_t - E[y_t|\mathcal F_{t-1}] \,.
+\varepsilon_t \equiv \Delta X_t = X_t - X_{t-1} ,
 $$
 
+$\lbrace\varepsilon_t, \mathcal F_t\rbrace$ is a MDS.
 
-Useful properties of a MDS.
+To show that $\lbrace\varepsilon_t, \mathcal F_t\rbrace$ is MDS, we need
+
+$$
+\begin{split}
+E[\varepsilon_t | \mathcal F_{t-1}] 
+&= E[X_t|\mathcal F_{t-1}] - E[X_t|\mathcal F_{t-1}] \\
+&= X_{t-1} -  X_{t-1} \\
+&= 0 \,.
+\end{split}
+$$
+
+<div style='margin-top:-1em; margin-bottom:3em'><span style='float:right; margin-right:10px; '>&#9633;</span></div>
+
+
+**Useful properties of a MDS**:
+
 1. A MDS is mean zero.
 
     $$
@@ -338,29 +355,35 @@ Useful properties of a MDS.
     $$
 
 
-The term "martingale difference sequence" refers to the fact that the summed process 
+    The term "martingale difference sequence" refers to the fact that the summed process (assuming $S_0=0$)
 
-$$
-S_t = \sum_{j=1}^t \varepsilon_j
-$$
+    $$
+    S_t = \sum_{j=1}^t \varepsilon_j
+    $$
 
-is a martingale, and $e_t$ is its first-difference. We can verify that 
+    is a martingale, and $\varepsilon_t$ is its first difference. We can verify that 
 
-$$
-E[S_t | \mathcal F_{t-1}] = S_{t-1} \,,
-$$
+    $$
+    \begin{split}
+    E[S_t | \mathcal F_{t-1}] 
+    &= E[S_{t-1} + \varepsilon_t | \mathcal F_{t-1}]  \\
+    &= E[S_{t-1} | \mathcal F_{t-1}] + E[\varepsilon_t | \mathcal F_{t-1}] \\
+    &= S_{t-1} + 0 \\
+    &= S_{t-1} \,,
+    \end{split}
+    $$
 
-which satisfies the martingale property.
+    which satisfies the martingale property.
 
-If $\varepsilon_t$ is i.i.d. and mean zero, then it is a MDS, but the reverse is not true.
+3. If $\varepsilon_t$ is i.i.d. and mean zero, then it is a MDS, but the reverse is not true.
 
-Example: 
+    Example: 
 
-Let $u_t$ be i.i.d. $N(0,1)$ and set 
+    Let $u_t$ be i.i.d. $N(0,1)$ and set 
 
-$$
-\varepsilon_t = u_tu_{t-1}
-$$
+    $$
+    \varepsilon_t = u_tu_{t-1}
+    $$
 
 
 ___
@@ -468,7 +491,7 @@ $$
 \delta(L)=(1+\alpha_1L)(1+\beta_1L) = 1+ (\alpha_1+\beta_1)L + \alpha_1\beta_1L^2.
 $$
 
-The product of two filters is called "convolution" of $\{\alpha_{j}\}$ and $\{\beta_{j}\}.$
+The product of two filters is called "convolution" of $\lbrace\alpha_{j}\rbrace$ and $\lbrace\beta_{j}\rbrace.$
 
 $$
 \begin{gathered}

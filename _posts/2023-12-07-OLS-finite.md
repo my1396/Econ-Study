@@ -338,21 +338,100 @@ $$
 Note: The primary property of OLS estimators is that they satisfy the criteria of minimizing the sum of squared residuals. However, there are other properties. These properties do NOT depend on any assumptions - they will always be true so long as we compute them in the manner just shown.
 
 
-**Properties of the OLS Estimator**:
+## Variance of Least Squares Estimator
+
+Define
+
+$$
+\bV_{\hat\bbeta} \overset{def}{=} \var(\hat\bbeta \mid \bX)
+$$
+
+as the **conditional covariance matrix of the regression coefficient estimates**.
+
+
+Assuming homoskedastic errors, we have the conditional covariance matrix of the $n\times 1$ regression error $\bu$ is the $n\times n$ matrix
+
+$$
+\var(\by\mid \bX) = {\color{#008B45}\E(\bu\bu'\mid \bX) \overset{def}{=} \bD} = \mathbf I_n \sigma^2.
+$$
+
+
+For any $n \times r$ matrix $\bA = \bA(\bX)$,
+
+$$
+\mathrm{Var}(\bA'\by \mid \bX) = \mathrm{Var}(\bA'\bu \mid \bX) = \bA'\bD\bA.
+$$
+
+In particular, we can write $\hat{\bbeta} = \bA'\by$ where $\bA = \bX(\bX'\bX)^{-1}$, and thus
+
+$$
+\bV_{\hat{\bbeta}} = \mathrm{Var}(\hat{\bbeta} \mid \bX) = \bA'\bD \bA = (\bX'\bX)^{-1} \bX'\bD\bX (\bX'\bX)^{-1}.
+$$
+
+It is useful to note that
+
+$$
+\bX'\bD\bX = \sum_{i=1}^{n} \bx_i \bx_i' \sigma_i^2
+$$
+
+is a weighted version of $\bX'\bX$.
+
+In the special case of the linear homoskedastic regression model, $\bD = I_n \sigma^2$, so $\bX'\bD\bX = \bX'\bX \sigma^2$, and the variance matrix simplifies to
+
+$$
+\bV_{\hat{\bbeta}} = (\bX'\bX)^{-1} \sigma^2.
+$$
+
+
+<div class = "boxed">
+<strong>Theorem Variance of Least-Squares Estimator</strong><br/>
+
+In the linear regression model and i.i.d. sampling:  
+
+$$
+\color{#008B45} V_{\hat{\bbeta}} = \mathrm{var}(\hat{\bbeta} \mid \bX) = (\bX'\bX)^{-1} (\bX'\bD\bX)(\bX'\bX)^{-1} 
+$$
+
+where $\bD=\E(\bu\bu'\mid \bX).$
+In the homoskedastic linear regression model and i.i.d. sampling:  
+
+$$
+\bV_{\hat{\bbeta}} = \sigma^2 (\bX'\bX)^{-1}.
+$$
+
+</div>
+
+___
+
+## Properties of the OLS Estimator
 
 <ol>
 <li> The observed values of $X$ are uncorrelated with the residuals. 
 $$
 \begin{aligned}
-\hat{u} &= y-X\hat{\beta} \\
-X'\hat{u} &= \vec{0}
+\hat{\bu} &= \by-\bX\hat{\bbeta} \\
+\bX'\hat{\bu} &= \bold{0}
 \end{aligned}
 $$ 
 </li>
 <li> The sum of the residuals is zero. <br/>
-If there is a constant, then the first column in $X$ (i.e. $X_1$) will be a column of ones. This means that for the first element in the $X′e$ vector to be zero, it must be the case that $\sum_{i}\hat{u}_i=0$. </li>
-<li> The sample mean of the residuals is zero. </li>
-<li> The regression hyperplane passes through the means of the observed values ($\overline{X}$ and $\overline{y}$). </li>
+If there is a constant, then the first column in $X$ (i.e. $X_1$) will be a column of ones. This means that for the first element in the $X'\bu$ vector to be zero, it must be the case that $\sum_{i}\hat{u}_i=0$. </li>
+<li> The sample mean of the residuals is zero. 
+$$
+\overline{\hat{u}} = 0
+$$
+</li>
+<li> The regression hyperplane passes through the means of the observed values ($\overline{X}$ and $\overline{y}$). 
+Given
+$$
+\hat{\bu} = \by - \bX \hat{\bbeta}
+$$
+Sum all observations and divide by $n:$
+$$
+\overline{\hat{u}} = \overline{y} - \overline{\bX}\hat{\bbeta} .
+$$
+Given $\overline{\hat{u}}$, we have $\overline{y} = \overline{\bX}\hat{\bbeta}.$  That is, the regression hyperplane passes through the means of the observed values, $(\overline{\bX}, \overline{y})$.
+</li>
 <li> The predicted values of y are uncorrelated with the residuals. <br/>
 The predicted values of y are equal to $X\hat{\beta}$, i.e. $\hat{y}=X\hat{\beta}$. From this we have
 $$
@@ -360,10 +439,22 @@ $$
 $$
 This last development takes account of the fact that $X'\hat{u}= 0$. </li>
 
-<li> The mean of the predicted $Y$’s for the sample will equal the mean of the observed $Y$’s i.e. $\overline{\hat{y}} = \overline{y}$. </li>
+<li> The mean of the predicted $Y$’s for the sample will equal the mean of the observed $Y$’s i.e. $\overline{\hat{y}} = \overline{y}$. 
+$$
+\begin{aligned}
+\overline{y} &= \frac{1}{n} \sum_{i=1}^n y_i \\
+&= \frac{1}{n} \sum_{i=1}^n (\hat{y}_i+\hat{u}_i) \qquad (y_i=\hat{y}_i+\hat{u}_i) \\
+&= \frac{1}{n} \sum_{i=1}^n \hat{y}_i + \frac{1}{n} \sum_{i=1}^n \hat{u}_i \qquad (\overline{\hat{u}}=0) \\
+&= \overline{\hat{y}}
+\end{aligned}
+$$
+</li>
 </ol>
 
 These properties *always hold true*. You should be careful not to infer anything from the residuals about the disturbances/ errors. For example, you cannot infer that the sum of the disturbances is zero or that the mean of the disturbances is zero just because this is true of the residuals - this is true of the residuals just because we decided to minimize the sum of squared residuals.
+
+
+___
 
 
 **Projection Matrix**
@@ -418,6 +509,10 @@ $\mathbf{P} = \mathbf{X} (\mathbf{X}' \mathbf{X})^{-1} \mathbf{X}'$  for any $ n
 5. $ \mathrm{rank}(\mathbf{P}) = K $.
 
 
+
+___
+
+
 **Residual Maker**
 
 Define 
@@ -445,7 +540,7 @@ ___
 
 ## Goodness-of-fit
 
-we can define the **total sum of squares** (SST), the **explained
+We can define the **total sum of squares** (SST), the **explained
 sum of squares** (SSE), and the **residual sum of squares** or sum of squared residuals (SSR) as
 
 $$
@@ -465,7 +560,7 @@ $$
 In other words, the total variation in $\{y_i\}$ is the sum of the total variations in $\{\hat{y}_i\}$ and in $\{\hat{u}_i\}.$
 
 
-**R-squared** is defined to be
+A commonly reported measure of regression fit is the regression **R-squared** is defined to be
 
 $$
 R^2 = \frac{SSE}{SST} = 1-\frac{SSR}{SST} ,
@@ -475,10 +570,10 @@ and it is interpreted as the proportion of the sample variation in $\{y_i\}$ tha
 
 $R^2$ is called the **coefficient of determination**.
 
-The population R-squared is defined as
+$R^2$ can be viewed as an estimator of the population parameter
 
 $$
-\rho^2 = 1-\frac{\sigma^2_u}{\sigma^2_y} ,
+\rho^2 = \frac{\var(\bx_i'\bbeta)}{\var{y_i}} = 1-\frac{\sigma^2_u}{\sigma^2_y} ,
 $$
 
 where $\sigma^2_u$ denotes the population variance of the error term, $u,$ and $\sigma^2_y$ as the population variance of $y.$ $\rho^2$ measures the proportion of the variation in $y$ in the population explained by the independent variables.
@@ -500,7 +595,7 @@ This fact makes it a poor tool for deciding whether one variable or several vari
 
 $R^2$ allows us to test a group of variables to see if it is important for explaining $y.$
 
-We introduced an adjusted R-squared, $\overline{R}^2$, which imposes a penalty for adding additional independent variables to a model.
+We introduced an **adjusted R-squared** or **R-bar-squared**, $\overline{R}^2$, which imposes a penalty for adding additional independent variables to a model.
 
 $\overline{R}^2$ uses the unbiased estimators for $\sigma^2_u$ and $\sigma^2_y:$
 
@@ -533,7 +628,7 @@ In finite sample, we know that error follows normal distribution $u\mid X \sim N
 
     Note that $K$ here is the number of independent variables *including* the intercept. $df$ is essentially the number of observations minus the number of estimated parameters.
 
-    $\hat{\sigma}$ is called the **standard error of the regression** (SER), or standard error of the estimate. The SER is an estimator of the standard deviation of the error term.
+    $\hat{\sigma}$ is called the <span style='color:#008B45'>**standard error of the regression**</span> (SER), or standard error of the estimate. The SER is an estimator of the standard deviation of the error term.
 
     Under the Gauss-Markov assumptions 1–5, $\hat{\sigma}^2_{OLS}$ is an **unbiased** estimator of $\sigma^2,$ that is, 
     
@@ -584,6 +679,184 @@ ___
 
 In applications, it is important to discuss <u>both practical and statistical significance</u>, being aware that an estimate can be statistically significant without being especially large in a practical sense. Whether an estimate is practically important depends on the context as well as on one’s judgment, so there are no set rules for determining practical significance.
 
+
+
+
+___
+
+## Mean-Square Forecast Error
+
+
+One use of an estimated regression is to predict out-of-sample values. Consider an out-of-sample $(y_{n+1}, \bx_{n+1})$ where $\bx_{n+1}$ is observed but not $y_{n+1}.$ The point estimate of $\E(y_{n+1}\mid \bx_{n+1}) = \bx_{n+1}'\bbeta$ is:
+
+$$
+\tilde{y}_{n+1} = \bx_{n+1}'\hat\bbeta
+$$
+
+The **forecast error** is 
+
+$$
+\tilde{u}_{n+1} = y_{n+1} - \tilde{y}_{n+1} ,
+$$
+
+which is the difference between the actual value $y_{n+1}$ and the point forecast $\tilde{y}_{n+1}.$
+
+The **mean-squared forecast error** (MSFE) is its expected squared value
+
+$$
+\text{MSFE}_n = \E(\tilde{u}_{n+1}^2)
+$$
+
+
+Plug in $\tilde{u}_{n+1}$
+
+
+$$
+\begin{align} 
+\text{MSFE}_n &= \E(\bx_{n+1}'\bbeta + u_{n+1} - \bx_{n+1}'\hat\bbeta)^2 \nonumber \\
+&= \E [\bx_{n+1}'(\bbeta-\hat\bbeta) + u_{n+1} ]^2 \nonumber \\
+&= \E [\bx_{n+1}'(\bbeta-\hat\bbeta)(\bbeta-\hat\bbeta)\bx_{n+1} ] + 2\E[u_{n+1}\bx_{n+1}'(\bbeta-\hat\bbeta)] + \E[u_{n+1}^2] \label{eq-msfe}
+\end{align}
+$$
+
+The second item in $\eqref{eq-msfe}$ is zero and the first item can be simplified as 
+
+$$
+\E(\bx_{n+1}'\bV_{\hat\bbeta}\bx_{n+1}) .
+$$
+
+Thus
+
+$$
+\begin{align} 
+\text{MSFE}_n = \sigma^2 + \E(\bx_{n+1}'\bV_{\hat\bbeta}\bx_{n+1}) . \label{eq-msfe2}
+\end{align}
+$$
+
+
+We can interpret as the variance of the forecast error $\left( \E(\tilde{u}_{n+1}^2) \right)$ is equal to the sum of the variance of the regression $(\sigma^2)$ and the variance of the forecast $\left( \E(\bx_{n+1}'\bV_{\hat\bbeta}\bx_{n+1}) \right)$.
+
+Under conditional homoskedasticity, $\eqref{eq-msfe2}$ simplifies to
+
+$$
+\text{MSFE}_n = \sigma^2 \left( 1 + \E(\bx_{n+1}' (\bX'\bX)^{-1} \bx_{n+1}) \right) .
+$$
+
+
+A simple estimator for the MSFE is obtained by averaging the squared prediction errors
+
+$$
+\tilde{\sigma}^2 = \frac{1}{n} \sum_{i=1}^{n} \tilde{u}_i^2 ,
+$$
+
+where $$\tilde{u}_i = y_i - x_i' \hat{\beta}_{(-i)} = \hat{u}_i (1 - h_{ii})^{-1},$$ where $h_{ii}$ are the leverage values defined as
+
+$$
+h_{ii} = \bx_i'(\bX'\bX)\bx_i.
+$$
+
+$h_{ii}$ is a normalized length of the observed regressor vector $\bx_i.$ It measures how unusual the $i$-th observation $\bx_i$ is relative to the other values in the sample. A high $h_{ii}$ occurs when $\bx_i$ is quite different from the other sample values. 
+
+Indeed, we can calculate that
+
+$$
+\begin{split}
+\mathbb{E}(\tilde{\sigma}^2) &= \mathbb{E}(\tilde{u}_i^2) \\
+&= \mathbb{E} \left( u_i - x_i' (\hat{\bbeta}_{(-i)} - \bbeta) \right)^2  \\
+&= \sigma^2 + \mathbb{E} \left[ x_i' (\hat{\bbeta}_{(-i)} - \bbeta)(\hat{\bbeta}_{(-i)} - \bbeta)' x_i \right] ,
+\end{split}
+$$
+
+where $\hat{\bbeta}_{(-i)}$ is the regression coefficient with the $i$th observation omitted.
+
+We find
+
+$$
+\mathbb{E}(\tilde{\sigma}^2) = \sigma^2 + \mathbb{E} \left( \bx_i' \bV_{\hat{\bbeta}_{(-i)}} \bx_i \right) = \text{MSFE}_{n-1} .
+$$
+
+This is the MSFE based on a sample of size $n - 1$, rather than size $n$. 
+The difference arises because the in-sample prediction errors $$\tilde{e}_i$$ for $i \leq n$ are calculated using an effective sample size of $n - 1$, while the out-of-sample prediction error $$\tilde{e}_{n+1}$$ is calculated from a sample with the full $n$ observations. 
+Unless $n$ is very small, we should expect $\text{MSFE}_{n-1}$ (the MSFE based on $n - 1$ observations) to be close to $\text{MSFE}_n$ (the MSFE based on $n$ observations). Thus $\tilde{\sigma}^2$ is a reasonable estimator for $\text{MSFE}_n$.
+
+
+<div class = "boxed">
+<strong>Theorem Mean-Square Forecast Error (MSFE)</strong> <br/>
+In the linear regression model and i.i.d. sampling :  
+
+$$
+\text{MSFE}_n = \mathbb{E}(u_{n+1}^2) = \sigma^2 + \mathbb{E} \left( x_{n+1}' V_{\hat{\beta}} x_{n+1} \right)
+$$
+
+where $V_{\hat{\beta}} = \mathrm{var}(\hat{\beta} \mid x)$. Furthermore, $\tilde{\sigma}^2$ defined in (3.47) is an unbiased estimator of $\text{MSFE}_{n-1}$:
+
+$$
+\mathbb{E}(\tilde{\sigma}^2) = \text{MSFE}_{n-1}.
+$$
+</div>
+
+___
+
+## Regression Intervals
+
+The conditional mean of $y_i$ given $\bx_i = \bx$ is
+
+$$
+m(x) = \E(y_i\mid \bx_i = \bx) = \bx'\bbeta .
+$$
+
+The point estimate under OLS estimator is the conditional mean:
+
+$$
+\widehat{m}(\bx) = \bx'\hat\bbeta
+$$
+
+The variance is given by 
+
+$$
+\var(\widehat{m}(\bx)) = \bx'\bV_{\hat{\bbeta}}\bx .
+$$
+
+Thus an asymptotic 95% confidence interval for $m(\bx)$ is 
+
+$$
+\left[ \bx'\hat\bbeta \pm 1.96 \sqrt{\bx'\bV_{\hat{\bbeta}}\bx} \right] ,
+$$
+
+which is a function of $\bx;$ the width of the confidence interval is dependent on $\bx.$
+
+
+___
+
+
+## Forecast Interval
+
+Suppose we are given a value of the regressor vector $\bx_{n+1}$ for an individual outside the sample, and we want to forecast (guess) $y_{n+1}$ for this individual. This is equivalent to forecasting $y_{n+1}$ given $\bx_{n+1}=\bx,$ which will generally be a function of $\bx.$
+
+
+The forecast error is
+
+$$
+\tilde{u}_{n+1} = y_{n+1} - \tilde{y}_{n+1} = y_{n+1} 
+$$
+
+and it has the conditional variance
+
+$$
+\mathbb{E}(\tilde{\sigma}^2 \mid \bx_{n+1}=\bx) = \sigma^2(\bx) +  \bx' \bV_{\hat{\bbeta}} \bx .
+$$
+
+A simple estimator is
+
+$$
+\var(\tilde{u}_{n+1} \mid \bx) = \hat{\sigma}^2 + \bx' \hat{\bV}_{\hat{\bbeta}} \bx .
+$$
+
+The conventional 95% forecast interval for $y_{n+1}$ uses a normal approximation and sets
+
+$$
+\left[ \bx'\hat\bbeta \pm 1.96 \sqrt{ \hat{\sigma}^2 + \bx'\hat{\bV}_{\hat{\bbeta}}\bx} \right] ,
+$$
 
 ___
 
