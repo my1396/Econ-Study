@@ -621,7 +621,7 @@ In finite sample, we know that error follows normal distribution $u\mid X \sim N
 2. When we do not know error variance, then we estimate using 
 
     $$
-    \hat{\sigma}^2_{OLS} =\frac{\hat{u}'\hat{u}}{n-K}.
+    \hat{\sigma}^2_{OLS} =\frac{\hat{u}'\hat{u}}{n-K} = \frac{\sum_{i=1}^n (\hat{u}_i)^2}{n-K}.
     $$
 
     Then use $t$-distribution.
@@ -687,7 +687,7 @@ ___
 ## Mean-Square Forecast Error
 
 
-One use of an estimated regression is to predict out-of-sample values. Consider an out-of-sample $(y_{n+1}, \bx_{n+1})$ where $\bx_{n+1}$ is observed but not $y_{n+1}.$ The point estimate of $\E(y_{n+1}\mid \bx_{n+1}) = \bx_{n+1}'\bbeta$ is:
+One use of an estimated regression is to predict out-of-sample values. Consider an out-of-sample $(y_{n+1}, \bx_{n+1})$ where $\bx_{n+1}$ is observed but not $y_{n+1}.$ The point estimate of $y_{n+1}$ is the expected value of $y_{n+1}$ given $x_{n+1}$, i.e., $\E(y_{n+1}\mid \bx_{n+1}) = \bx_{n+1}'\bbeta,$ which we estimate from the OLS regression line:
 
 $$
 \tilde{y}_{n+1} = \bx_{n+1}'\hat\bbeta
@@ -696,19 +696,52 @@ $$
 The **forecast error** is 
 
 $$
-\tilde{u}_{n+1} = y_{n+1} - \tilde{y}_{n+1} ,
+\begin{align}
+\tilde{u}_{n+1} &= y_{n+1} - \tilde{y}_{n+1} \nonumber \\
+&= \bx_{n+1}'\bbeta + u_{n+1} - \tilde{y}_{n+1} \label{eq-forecast_error1} \\ 
+&= \bx_{n+1}'\bbeta + u_{n+1} - \bx_{n+1}'\hat\bbeta  , \label{eq-forecast_error2} 
+\end{align}
 $$
 
 which is the difference between the actual value $y_{n+1}$ and the point forecast $\tilde{y}_{n+1}.$
 
-The **mean-squared forecast error** (MSFE) is its expected squared value
+Because the unobserved error $u_{n+1}$ has zero mean and $\hat\bbeta$ is unbiased,
+
+$$
+\E(\tilde{u}_{n+1}\mid \bx_{n+1}) = 0 .
+$$
+
+We have shown that the expected prediction error is zero.
+
+
+The **mean-squared forecast error** (MSFE) is its expected squared value:
 
 $$
 \text{MSFE}_n = \E(\tilde{u}_{n+1}^2)
 $$
 
+MSFE is essentially the variance of the prediction error.
+Because $u_{n+1}$ and $\tilde{y}_{n+1}$ are uncorrelated, Eq $\eqref{eq-forecast_error1}$ shows that 
 
-Plug in $\tilde{u}_{n+1}$
+$$
+\begin{align}
+\var(\tilde{u}_{n+1}) &= \var(u_{n+1}) + \var(\tilde{y}_{n+1}) \nonumber \\
+&= \sigma^2 + \var(\tilde{y}_{n+1}) \label{eq-var_decomp}
+\end{align}
+$$
+
+We have shown that there are two sources of variation in $\tilde{u}_{n+1}:$
+
+- $\sigma^2=\var(u_{n+1})$ is the variance of the error in the population.
+
+- $$\var(\tilde{y}_{n+1})$$ is the sampling error in $\tilde{y}_{n+1},$ which arises because we have estimated $\bbeta.$
+
+    $$\var(\tilde{y}_{n+1})$$ is proportional to $1/n.$ This means that, for large samples, $\var(\tilde{y}_{n+1})$ can be very small.
+
+- By contrast, $\sigma^2$ does not change with the sample size. In many examples, $\sigma^2$ will be the dominant term in $\eqref{eq-var_decomp}.$
+
+
+Plug in $\tilde{u}_{n+1}$ $\eqref{eq-forecast_error2},$ we have
 
 
 $$
@@ -719,13 +752,13 @@ $$
 \end{align}
 $$
 
-The second item in $\eqref{eq-msfe}$ is zero and the first item can be simplified as 
+The second item in $\eqref{eq-msfe}$ is zero and the first item can be simplified to
 
 $$
 \E(\bx_{n+1}'\bV_{\hat\bbeta}\bx_{n+1}) .
 $$
 
-Thus
+Thus,
 
 $$
 \begin{align} 
@@ -734,7 +767,7 @@ $$
 $$
 
 
-We can interpret as the variance of the forecast error $\left( \E(\tilde{u}_{n+1}^2) \right)$ is equal to the sum of the variance of the regression $(\sigma^2)$ and the variance of the forecast $\left( \E(\bx_{n+1}'\bV_{\hat\bbeta}\bx_{n+1}) \right)$.
+We can interpret as the variance of the forecast error $$\left( \E(\tilde{u}_{n+1}^2) \right)$$ is equal to the sum of the variance of the regression $(\sigma^2)$ and the variance of the forecast $\left( \E(\bx_{n+1}'\bV_{\hat\bbeta}\bx_{n+1}) \right)$.
 
 Under conditional homoskedasticity, $\eqref{eq-msfe2}$ simplifies to
 
@@ -746,24 +779,103 @@ $$
 A simple estimator for the MSFE is obtained by averaging the squared prediction errors
 
 $$
+\begin{align} \label{eq-MSFE_estimator}
 \tilde{\sigma}^2 = \frac{1}{n} \sum_{i=1}^{n} \tilde{u}_i^2 ,
+\end{align}
 $$
 
-where $$\tilde{u}_i = y_i - x_i' \hat{\beta}_{(-i)} = \hat{u}_i (1 - h_{ii})^{-1},$$ where $h_{ii}$ are the leverage values defined as
+where $\tilde{u}_i$ is the leave-one-out residual, prediction error, or prediction residual given by:
 
 $$
-h_{ii} = \bx_i'(\bX'\bX)\bx_i.
+\begin{align} 
+\tilde{u}_i 
+&= y_i - \tilde{y}_i  \\
+&= y_i - \bx_i' \hat{\bbeta}_{(-i)} \label{eq-prediction_error_leave_one_out}  \\
+&= \color{#008B45} \hat{u}_i (1 - h_{ii})^{-1}, \label{eq-prediction_error}
+\end{align}
+$$ 
+
+where $h_{ii}$ are the leverage values defined as
+
 $$
+h_{ii} = \bx_i'(\bX'\bX)\bx_i ,
+$$
+
+and 
+
+$$
+\hat{u}_i = y_i - \hat{y}_i .
+$$
+
+$\hat{u}_i$ is the residual from the full sample regression, while $\tilde{u}_i$ is the forecast error.
 
 $h_{ii}$ is a normalized length of the observed regressor vector $\bx_i.$ It measures how unusual the $i$-th observation $\bx_i$ is relative to the other values in the sample. A high $h_{ii}$ occurs when $\bx_i$ is quite different from the other sample values. 
 
-Indeed, we can calculate that
+
+
+Eq $\eqref{eq-prediction_error_leave_one_out}$ means that the predicted value $\tilde{y}_i$ is obtained by 
+
+1. First estimate $\bbeta$ on the sample <span style='color:#008B45'>without observation $i:$</span> 
+
+    $$
+    \begin{split}
+    \hat{\bbeta}_{(-i)} &= \left(\bX_{(-i)}'\bX_{(-i)}\right)^{(-1)} \left(\bX_{(-i)}\by_{(-i)}\right)  \\
+    &= \left(\sum_{j\ne i} \bx_j\bx_j' \right)^{-1} \left(\sum_{j\ne i} \bx_jy_j' \right) .
+    \end{split}
+    $$
+
+    Here $\bX_{(-i)}$ and $\by_{(-i)}$ are the data matrices omitting the $i$th row. $\hat{\bbeta}_{(-i)}$ denotes an estimator with the $i$th observation omitted.
+
+
+2. Then use the covariate vector $\bx_i$ to predict $y_i.$
+
+    $$
+    \tilde{y}_i = \bx_i' \hat{\bbeta}_{(-i)}
+    $$
+
+Note that $\tilde{y}_i$ is an *authentic prediction* as $y_i$ is not used to construct $\tilde{y}_i.$ This is in contrast to the fitted value $\hat{y}_i$ which are functions of $y_i.$ The consequence of this is that the prediction errors $$\tilde{u}_i$$ are better estimates than the residuals $$\hat{u}_i,$$ since the former are based on authentic predictions.
+
+
+Eq $\eqref{eq-prediction_error_leave_one_out}$ gives the unfortunate impression that the leave-one-out coefficients and errors are computationally cumbersome, requiring $n$ separate regressions. But fortunately, Eq $\eqref{eq-prediction_error}$ gives us a simple linear expression for $\tilde{u}_i$.
+
+
+Eq $\eqref{eq-prediction_error}$ relates prediction errors to residuals.
+Note that the prediction errors $$\tilde{u}_i$$ are a simple scaling of the residuals $$\hat{u}_i,$$ with the scaling depending on the leverage value $h_{ii}.$
+
+- If $h_{ii}$ is large, then $\tilde{u}_i$ can be quite different from $\hat{u}_i.$
+- If $h_{ii}$ is small, then $\tilde{u}_i \approx \hat{u}_i.$
+
+Thus, the difference between the residuals and predicted values depends on the leverage values, that is, how unusual $\bx_i$ is relative to the other observations.
+
+
+Moreover, we can write $\hat{\bbeta}_{(-i)}$ as
+
+$$
+\hat{\bbeta}_{(-i)} = \hat{\bbeta} - (\bX'\bX)^{-1}\bx_i\tilde{u}_i
+$$
+
+We can rewrite $\eqref{eq-MSFE_estimator}$ as
+
+$$
+\tilde{\sigma}^2 = \frac{1}{n} \sum_{i=1}^{n} \tilde{u}_i^2 = \frac{1}{n} \sum_{i=1}^{n} \hat{u}_i^2 (1 - h_{ii})^{-2} .
+$$
+
+This is also known as the **sample mean squared prediction error**. Its square root 
+
+$$
+\tilde{\sigma} = \sqrt{\tilde{\sigma}^2}
+$$
+
+is the **prediction standard error**.
+
+
+We can calculate that
 
 $$
 \begin{split}
 \mathbb{E}(\tilde{\sigma}^2) &= \mathbb{E}(\tilde{u}_i^2) \\
-&= \mathbb{E} \left( u_i - x_i' (\hat{\bbeta}_{(-i)} - \bbeta) \right)^2  \\
-&= \sigma^2 + \mathbb{E} \left[ x_i' (\hat{\bbeta}_{(-i)} - \bbeta)(\hat{\bbeta}_{(-i)} - \bbeta)' x_i \right] ,
+&= \mathbb{E} \left( u_i - x_i' \left(\hat{\bbeta}_{(-i)} - \bbeta \right) \right)^2  \\
+&= \sigma^2 + \mathbb{E} \left[ x_i' \left(\hat{\bbeta}_{(-i)} - \bbeta\right)\left(\hat{\bbeta}_{(-i)} - \bbeta\right)' x_i \right] ,
 \end{split}
 $$
 
@@ -788,12 +900,17 @@ $$
 \text{MSFE}_n = \mathbb{E}(u_{n+1}^2) = \sigma^2 + \mathbb{E} \left( x_{n+1}' V_{\hat{\beta}} x_{n+1} \right)
 $$
 
-where $V_{\hat{\beta}} = \mathrm{var}(\hat{\beta} \mid x)$. Furthermore, $\tilde{\sigma}^2$ defined in (3.47) is an unbiased estimator of $\text{MSFE}_{n-1}$:
+where $V_{\hat{\beta}} = \mathrm{var}(\hat{\beta} \mid x)$. <br/>
+
+Furthermore, $\tilde{\sigma}^2$ defined in $\eqref{eq-MSFE_estimator}$ is an unbiased estimator of $\text{MSFE}_{n-1}$:
 
 $$
 \mathbb{E}(\tilde{\sigma}^2) = \text{MSFE}_{n-1}.
 $$
 </div>
+
+
+**Reference**: Chapter 4.12, Hansen, Econometrics.
 
 ___
 
@@ -817,13 +934,44 @@ $$
 \var(\widehat{m}(\bx)) = \bx'\bV_{\hat{\bbeta}}\bx .
 $$
 
+The 95% confidence interval for $m(\bx)$ is
+
+$$
+\left[\widehat{m}(\bx) \pm t_{.025}\cdot \mathrm{se}\left(\widehat{m}(\bx)\right) \right] ,
+$$
+
+where 
+
+$$
+\mathrm{se}\left(\widehat{m}(\bx)\right) = \sqrt{\bx'\bV_{\hat{\bbeta}}\bx}
+$$
+
+and 
+
+$$
+\P\left( -t_{.025}\leq \frac{\widehat{m}(\bx) - m(\bx)}{\mathrm{se}\left(\widehat{m}(\bx)\right)} \leq t_{.025} \right) = .95 .
+$$
+
+$t_{.025}$ is the $97.5$th percentile in the $t_{n-K}$ distribution. 
+
+The 95% confidence interval is given by
+
+$$
+\left[ \widehat{m}(\bx) \pm t_{.025} \cdot\mathrm{se}\left(\widehat{m}(\bx)\right) \right] .
+$$
+
+For large $n-K,$ recall that $t_{.025} \approx 1.96.$
 Thus an asymptotic 95% confidence interval for $m(\bx)$ is 
 
 $$
-\left[ \bx'\hat\bbeta \pm 1.96 \sqrt{\bx'\bV_{\hat{\bbeta}}\bx} \right] ,
+\begin{align}
+\left[ \bx'\hat\bbeta \pm 1.96 \sqrt{\bx'\bV_{\hat{\bbeta}}\bx} \right] \label{eq-regression_interval},
+\end{align}
 $$
 
 which is a function of $\bx;$ the width of the confidence interval is dependent on $\bx.$
+
+Unless for small $df,$ $\left[ \widehat{m}(\bx) \pm 1.96 \cdot\mathrm{se}\left(\widehat{m}(\bx)\right) \right]$ is a good approximation.
 
 
 ___
@@ -855,9 +1003,12 @@ $$
 The conventional 95% forecast interval for $y_{n+1}$ uses a normal approximation and sets
 
 $$
-\left[ \bx'\hat\bbeta \pm 1.96 \sqrt{ \hat{\sigma}^2 + \bx'\hat{\bV}_{\hat{\bbeta}}\bx} \right] ,
+\begin{align}
+\left[ \bx'\hat\bbeta \pm 1.96 \sqrt{ \hat{\sigma}^2 + \bx'\hat{\bV}_{\hat{\bbeta}}\bx} \right] . \label{eq-forecast_interval}
+\end{align}
 $$
 
+The prediction interval $\eqref{eq-forecast_interval}$ is often much wider than the regression interval $\eqref{eq-regression_interval}$ because of the regression error $\hat{\sigma}^2.$
 ___
 
 ## Partitioned Regression

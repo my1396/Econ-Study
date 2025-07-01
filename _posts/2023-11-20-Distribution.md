@@ -81,11 +81,15 @@ The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ ident
     v=\frac{w_1/m}{w_2/n} \sim F(m,n)
   $$
 
-  The ratio of two independent chi-squared random variables, each divided by their respective degrees of freedom, has a <em>F-distibution</em>.
+  The ratio of two independent chi-squared random variables, each divided by their respective degrees of freedom, has a <em>F-distribution</em>.
+
+  <div style="height:12px;"><br></div>
 
   <div class = "boxed"> 
   <strong>Theorem</strong>  If $v \sim F(m,n)$, the limiting distribution of $mv$ as $n\to\infty$ is the $\chi^2(m)$.
   </div>
+
+  <div style="height:12px;"><br></div>
 
   Proof: 
   $$
@@ -100,7 +104,7 @@ The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ ident
 
   with $Y_1,Y_2,\ldots,Y_{n}$ mutually independent $\chi^2(1)$.
 
-  By the Strong Law of Large Numers,
+  By the Strong Law of Large Numbers,
 
   $$
     w_2/n = \frac{Y_1+Y_2+\cdots+Y_{n}}{n} \xrightarrow{a.s} \text{E}(Y_1) \quad \text{as } n\to\infty
