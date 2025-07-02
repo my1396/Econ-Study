@@ -910,7 +910,7 @@ $$
 </div>
 
 
-**Reference**: Chapter 4.12, Hansen, Econometrics.
+**Reference**: Chapter 4.12, pp.112, Hansen, Econometrics.
 
 ___
 

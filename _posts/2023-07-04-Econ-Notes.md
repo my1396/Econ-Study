@@ -151,8 +151,29 @@ Vectors are lowercase and matrices are uppercase symbols. Both vectors and matri
 
 - Vector $\boldsymbol a$, $\boldsymbol b, \boldsymbol c$  are produced by `\mathbfit a` or `\boldsymbol a`... ; vectors can also be denoted by bold face Greek lowercase letters: $\boldsymbol{\alpha, \ldots \omega}$
 
-- Matrices $\boldsymbol A, \boldsymbol B, \boldsymbol C$ by `\mathbfit A` or `\boldsymbol a` ... ; matrices can also be denoted by bold face Greek uppercase letters: $\boldsymbol{\Gamma, \ldots, \Theta}$
-  - $A=[a_{i,j}]$ to show the components of matrix $\boldsymbol A$.
+- Matrices $\boldsymbol A, \boldsymbol B, \boldsymbol C$ by `\mathbfit A` or `\boldsymbol A` ... ; matrices can also be denoted by bold face Greek uppercase letters: $\boldsymbol{\Gamma, \ldots, \Theta}$
+  - $\bA = [a_{ik}] = [\bA]_{ik}$ to show the $(i,k)$ components of matrix $\boldsymbol A$.
+
+
+  - $\ba_k,$ $\ba_l,$ $\ba_m,$ denote column $k,$ $l,$ or $m$ of the matrix $\bA.$
+
+  $$
+  \underset{n\times K}{\bA} = \begin{bmatrix}
+  \ba_1 & \cdots & \ba_l & \cdots & \ba_K 
+  \end{bmatrix}
+  $$
+
+  - $\ba_i,$ $\ba_j,$ $\ba_s,$ or $\ba_t,$ denote the column vector formed by the transpose of row $i,$ $j,$ $t,$ or $s$ of matrix $\bA.$ Thus $\ba_i'$ is row $i$ of $\bA.$
+
+  $$
+  \underset{n\times K}{\bA} = \begin{bmatrix}
+  \ba_1' \\
+  \vdots \\
+  \ba_i' \\
+  \vdots \\
+  \ba_n' \\
+  \end{bmatrix}
+  $$
 
 - Sets are denoted by capital letters, optionally in calligraphy, $A, B, C, \ldots$
 
@@ -760,352 +781,6 @@ Visualization tool: <https://seeing-theory.brown.edu/probability-distributions/>
 
 Plot a function: <https://www.desmos.com/calculator>
 
-___
-
-**Expectation and Variance of Random Vectors**
-
-A random vector $\vec{X}$ is a vector 
-
-$$
-\vec{X}=\begin{bmatrix}
-X_1 \\
-X_2 \\
-\vdots \\
-X_p
-\end{bmatrix}
-$$
-
-of $p$ jointly distributed random variables $X_i,$ where $i=1,\ldots,p$.
-
-- Expectation $\mathbb{E}[\vec{X}]$ is given by
-
-$$
-\mathbb{E}[\vec{X}]=\begin{bmatrix}
-\mathbb{E}X_1 \\
-\mathbb{E}X_2 \\
-\vdots \\
-\mathbb{E}X_p
-\end{bmatrix}
-$$
-
-- Variance-Covariance Matrix of a random vector $\vec{X}$ is given by:
-
-$$
-\begin{align*}
-\text{Cov}(\vec{X}) &= \mathbb{E}\left[ (\vec{X}-\mathbb{E}[\vec{X}])(\vec{X}-\mathbb{E}[\vec{X}])^T \right] \\
-&= \mathbb{E}[\vec{X}\vec{X}^T] - \mathbb{E}[\vec{X}] (\mathbb{E}[\vec{X}])^T
-\end{align*}
-$$
-
-$$
-\text{Cov}(\vec{X}) = 
-\begin{bmatrix}
-\text{Var}(X_1) &  \text{Cov}(X_1, X_2) &  \cdots &  \text{Cov}(X_1, X_p) \\
-\text{Cov}(X_2, X_1) &  \text{Var}(X_2) &  \cdots &  \text{Cov}(X_2, X_p) \\
-\vdots & \vdots & \ddots & \vdots \\
-\text{Cov}(X_p, X_1) &  \text{Cov}(X_2, X_p) &  \cdots &   \text{Var}(X_p)
-\end{bmatrix}_{p\times p}
-$$
-
-
-___
-
-**Cross-covariance matrix** is defined for two random vectors $X$ and $Y$, containing the covariances between all possible couples of random variables formed by one entry of $X$ and one entry of $Y$.
-
-Formally, let $X$ be a $K\times 1$ random vector and $Y$ be a $L\times 1$ random vector. The cross-covariance matrix between $X$ and $Y$ is a $K\times L$ matrix, denoted by $\text{Cov}(X,Y)$ and defined as follows:
-
-$$
-\text{Cov}(X,Y) = E\left[(X-E[X])(Y-E[Y])^T \right].
-$$
-
-Note that in the formula above $(X-E[X])$ is a column vector and $(Y-E[Y])^T$ is a row vector.
-
-Example: $X=[X_1, X_2, X_3]^T$ and $Y=[Y_1, Y_2]^T$.
-
-The cross-covariance matrix between $X$ and $Y$ is:
-
-$$
-\begin{aligned}
-\text{Cov}(X,Y) &= \begin{bmatrix}
-E[(X_1-E[X_1])(Y_1-E[Y_1])] & E[(X_1-E[X_1])(Y_2-E[Y_2])] \\
-E[(X_2-E[X_2])(Y_1-E[Y_1])] & E[(X_2-E[X_2])(Y_2-E[Y_2])] \\
-E[(X_3-E[X_3])(Y_1-E[Y_1])] & E[(X_3-E[X_3])(Y_2-E[Y_2])] \\
-\end{bmatrix} \\
-&= \begin{bmatrix}
-\text{Cov}(X_1,Y_1) & \text{Cov}(X_1,Y_2) \\
-\text{Cov}(X_2,Y_1) & \text{Cov}(X_2,Y_2) \\
-\text{Cov}(X_3,Y_1) & \text{Cov}(X_3,Y_2) \\
-\end{bmatrix}
-\end{aligned}
-$$
-
-Note that, in general, the cross-covariance is *not* symmetric.
-For example, if $X$ is $K\times 1$ and $Y$ is $L\times 1,$ then $\cov(X,Y)$ is $K\times L$ and $\cov(Y,X)$ is $L\times K.$
-
-
-When $Y=X$ then the cross-covariance matrix coincides with the covariance matrix of $X:$
-
-$$
-\cov(X,X) = E\left[(X-E[X])(X-E[X])^T \right] = \var(X).
-$$
-
-___
-
-
-**Autocovariance matrix**
-
-Let $⟨X_t⟩$ be a sequence of random vectors. Then the cross-covariance matrix between $X_t$ and $X_{t-j}$, $\text{Cov}(X_t, X_{t-j})$ is called autocovariance matrix.
-
-
-**Covariance Stationary**
-
-A sequence of random vectors $⟨X_t⟩$ is said to be *covariance or weakly stationary* if and only if
-
-$$
-\begin{aligned}
-& E[X_t] = \bmu, \text{ and } \\
-& \text{Cov}(X_t, X_{t-j}) = \Gamma_j \text{ for } \forall j\ge 0.
-\end{aligned}
-$$
-
-where $\bmu$ is a $K\times 1$ vector and $\Gamma_j$ is a $K\times K$ matrix.
-
-- $E[X_t] = \bmu$ means that all the random vectors belonging to the sequence $⟨X_t⟩$ must have the same mean.
-
-- The cross-covariance between a term and the term that is located $j$ positions before it must always be the same. 
-That is, <span style='color:#337ab7'>$\text{Cov}(X_t, X_{t-j}) = \Gamma_j$ depends only on the time lag $j$</span> (the number of time periods between the two variables) and *not* on $t$.
-
-
-If $X_t\in \R,$ the autocovariance matrix $V$ is given by
-
-$$
-\begin{aligned}
-V &= 
-\begin{bmatrix}
-\cov(x_1, x_1) & \cov(x_1, x_2) & \cdots & \cov(x_1, x_{T-1}) & \cov(x_1, x_{T}) \\
-\cov(x_2, x_1) & \cov(x_2, x_2) & \cdots & \cov(x_2, x_{T-1}) & \cov(x_2, x_{T}) \\
-\vdots & \vdots & \ddots & \vdots & \vdots \\
-\cov(x_{T-1}, x_1) & \cov(x_{T-1}, x_2) & \cdots & \cov(x_{T-1}, x_{T-1}) & \cov(x_{T-1}, x_{T}) \\
-\cov(x_{T}, x_1) & \cov(x_{T}, x_2) & \cdots & \cov(x_{T}, x_{T-1}) & \cov(x_{T}, x_{T}) \\
-\end{bmatrix} \\
-&= 
-\begin{bmatrix}
-\gamma_0 & \gamma_1 & \cdots & \gamma_{T-2} & \gamma_{T-1} \\ 
-\gamma_1 & \gamma_0 & \cdots & \gamma_{T-3} & \gamma_{T-2} \\
-\vdots & \vdots & \ddots & \vdots & \vdots \\
-\gamma_{T-2} & \gamma_{T-3} & \cdots & \gamma_{0} & \gamma_{1} \\ 
-\gamma_{T-1} & \gamma_{T-2} & \cdots & \gamma_{1} & \gamma_{0} \\ 
-\end{bmatrix}
-\end{aligned}
-$$
-
-
-Further readings: 
-
-- Taboga, Marco (2021). "Cross-covariance matrix", Lectures on probability theory and mathematical statistics. Kindle Direct Publishing. Online appendix. <https://www.statlect.com/glossary/cross-covariance-matrix>
-- Random vectors: <https://www.probabilitycourse.com/chapter6/6_1_5_random_vectors.php>
-- Variance-covariance matrix of random vectors: <https://www.math.kent.edu/~reichel/courses/monte.carlo/alt4.7d.pdf>
-
-
-___
-
-
-**Trace Properties** 
-
-The trace of a square matrix A, denoted $\text{tr}(A)$, is defined to be the sum of elements on the main diagonal. The trace is only defined for a square matrix ($n \times n$).
-
-$$\text{tr}(A) = \sum_{i=1}^n a_{ii}$$ 
-
-Basic properties: \
-$\text{tr}(\boldsymbol{I}_K) = K$ \
-$\text{tr}(cA) = c \cdot \text{tr}(A)$ \
-$\text{tr}(XA) = \text{tr}(AX)$ \
-$\text{tr}(A+B) = \text{tr}(A) + \text{tr}(B)$
-
-
-For a random vector $z$ with $\mathbb{E}(z)=\mu$ and $\text{Var}(z)=\Sigma$, then 
-
-$$
-\mathbb{E}(z'z) = \text{tr} (\Sigma) + \mu'\mu .
-$$
-
-Multiplication by a full-rank square matrix preserves rank.
-<ul>
-<li> Let $A$ be a $K\times L$ matrix and $B$ a square $L\times L$ matrix. If $B$ is full-rank, then
-
-$$
-\text{rank}(AB) = \text{rank}(A).
-$$
-</li>
-
-<li> Let $A$ be a $K\times L$ matrix and $B$ a square $K\times K$ matrix. If $B$ is full-rank, then
-
-$$
-\text{rank}(BA) = \text{rank}(A).
-$$
-</li>
-</ul>
-
-**Diagonal Matrix Properties**
-
-If $D$ is a $n\times n$ diagonal matrix, then 
-
-$D=D^{T}$
-
-$D_1 \times D_2 = D_2 \times D_1 = C$  Diagonal Matrices multiplication are commutative. 
-$$
-c_{ii} = d1_{ii} d2_{ii}
-$$
-
-$$
-D^{-1}_{ii} = \frac{1}{d_{ii}}
-$$
-Inverse is taking the inverse of each entry. 
-
-$\vert D \vert = \prod_{i=1}^n d_{ii}$ Determinant is the product of the elements of $D$. 
-
-左乘 (pre-multiply) 一个对角矩阵: $D$ is $K\times K$, $A$ is $K\times L$. For the product $DA$, each row $i$ is equal to the $i$-th row of $A$ multiplied by $D_{ii}$. 
-
-右乘 (post-multiply) 一个对角矩阵: $A$ is $K\times L$, $D$ is $L\times L$. For the product $DA$, each column $j$ is equal to the $j$-th column of $A$ multiplied by $D_{jj}$. 
-
-**Definiteness**
-
-Let  $S$ be the space of all  $Kx1$ vectors having real entries. A  $K	\times K$ real symmetric matrix  $A$ is said to be:
-
-1. positive definite iff  $x^{T}Ax>0$ for any non-zero  $x \in S$;
-2. positive semi-definite iff  $x^{T}Ax\geq 0$ for any  $x \in S$;
-3. negative definite iff  $x^{T}Ax<0$ for any non-zero  $x \in S$;
-4. negative semi-definite iff  $x^{T}Ax\leq 0$ for any  $x \in S$;
-5. indefinite iff there exist  $x,y\in S$ such that  $x^{T}Ax>0$ and  $y^{T}Ay<0$.
-
-Let $A$ be a  $K	\times K$ matrix. If  $A$ is positive definite, then it is full-rank.
-
-A real symmetric  $K	\times K$ matrix  $A$ is positive definite if and only if all its eigenvalues are strictly positive real numbers. \
-A real symmetric  $K	\times K$ matrix  $A$ is positive semi-definite if and only if all its eigenvalues are positive real numbers.
-
-
-**Matrix Diagonalization - Eigen Deceomposition**
-
-Let $A\in \mathbb{R}^{K\times K}$ be a square matrix. Then 
-
-<ul>
-<li> All the eigenvalues of $A$ are real; </li>
-<li>  $A$ is orthogonally diagonalizable, i.e., there exists an orthogonal matrix $P$ and a diagonal matrix $\Lambda$ such that 
-
-$$
-A = P\Lambda P^{-1}
-$$
-
-$\Lambda = \text{diag}(\lambda_1, \ldots, \lambda_K)$ is a diagonal matrix with eigenvalues being the diagonal. 
-
-$$
-\Lambda = \begin{bmatrix} \lambda_1 & 0 & \cdots & 0 \\
-0 & \lambda_2 &  \cdots & 0 \\
-\vdots & \vdots & \ddots & \vdots \\
-0 & 0 &  \cdots & \lambda_K
-\end{bmatrix}
-$$
-
-$P=[X_1, \ldots, X_K]$ be the matrix of eigenvectors corresponding to $\lambda_1, \ldots, \lambda_K$.
-
-$$
-\begin{align*}
-P &= \begin{bmatrix} X_1 & X_2 & \cdots & X_K \end{bmatrix}
-&=\begin{bmatrix} x_{11} & x_{21} & \cdots & x_{K1} \\
-x_{12} & x_{22} &  \cdots & x_{K2} \\
-\vdots & \vdots & \ddots & \vdots \\
-x_{1K} & x_{2K} &  \cdots & x_{KK}
-\end{bmatrix}
-\end{align*}
-$$
-
-Then we have
-
-$$
-\begin{align*}
-AP &= A \begin{bmatrix} X_1 & X_2 & \cdots & X_K \end{bmatrix} \\
-
-&= \begin{bmatrix} AX_1 & AX_2 & \cdots & AX_K \end{bmatrix} \\
-
-&= \begin{bmatrix} \lambda_1X_1 & \lambda_1X_2 & \cdots & \lambda_1X_K \end{bmatrix} \\
-
-&=\begin{bmatrix} \lambda_1x_{11} & \lambda_2x_{21} & \cdots & \lambda_kx_{K1} \\
-\lambda_1x_{12} & \lambda_2x_{22} &  \cdots & \lambda_Kx_{K2} \\
-\vdots & \vdots & \ddots & \vdots \\
-\lambda_1x_{1K} & \lambda_2x_{2K} &  \cdots & \lambda_Kx_{KK} \\
-\end{bmatrix} \\
-
-&= \begin{bmatrix} x_{11} & x_{21} & \cdots & x_{K1} \\
-x_{12} & x_{22} &  \cdots & x_{K2} \\
-\vdots & \vdots & \ddots & \vdots \\
-x_{1K} & x_{2K} &  \cdots & x_{KK} \end{bmatrix}
-\begin{bmatrix} \lambda_1 & 0 & \cdots & 0 \\
-0 & \lambda_2 &  \cdots & 0 \\
-\vdots & \vdots & \ddots & \vdots \\
-0 & 0 &  \cdots & \lambda_K
-\end{bmatrix} \\
-
-&= P\Lambda
-
-\end{align*}
-$$
-
-Hence
-
-$$
-A = P\Lambda P^{-1}
-$$
-
-
-An important application of the eigenvalue decomposition is to calculate the power of matrices.
-
-$$
-\begin{align*}
-A^2 &= (P\Lambda P^{-1}) (P\Lambda P^{-1}) \\
-&= P\Lambda^2 P^{-1}
-\end{align*}
-$$
-
-By induction,
-
-$$
-A^n = P\Lambda^n P^{-1}
-$$
-
-</li>
-
-<li>
-For <strong>symmetric matrices</strong> $A$, the eigenvalue decomposition is also called the <em>spectral decomposition</em>.
-
-$A$ is orthogonally diagonalizable, i.e., there exists and orthogonal matrix $Q$ and a diagonal matrix $\Lambda$ such that 
-
-$$
-A = Q\Lambda Q^{T},
-$$
-
-or equivalently written as
-
-$$
-A = \sum_{i=1}^K \lambda_i q_i q_i^{T}.
-$$
-
-The converse is also true. Therefore, a matrix is symmetric if and only if it is orthogonally diagonalizable.
-
-</li>
-</ul>
-
-An **orthogonal matrix** is a square matrix whose columns and rows are both orthogonal unit vectors (i.e., orthonormal vectors):
-
-$$
-Q^TQ = QQ^T = I,
-$$
-
-or equivalently, 
-
-$$
-Q^{-1} = Q^T.
-$$
-
 
 ___
 
@@ -1237,7 +912,7 @@ $$
 Z=X+Y
 $$
 
-and denote the pmf of  Z by  $p_Z(z)$. Then,
+and denote the pmf of $Z$ by  $p_Z(z)$. Then,
 
 $$
 \begin{align*}
