@@ -1197,11 +1197,17 @@ Further readings:
 ___
 
 
-## Moments of a Linear Function
+## Moments of Linear Functions
 
 Let
 
 $$
+\ba = \begin{bmatrix}
+a_1 \\
+a_2 \\
+\vdots \\
+a_n
+\end{bmatrix}, \quad
 \bx = \begin{bmatrix}
 x_1 \\
 x_2 \\
@@ -1213,12 +1219,6 @@ x_n
 \mu_2 \\
 \vdots \\
 \mu_n
-\end{bmatrix}, \quad
-\ba = \begin{bmatrix}
-a_1 \\
-a_2 \\
-\vdots \\
-a_n
 \end{bmatrix}
 $$
 
@@ -1247,7 +1247,7 @@ $$
 y_i = \ba_i \bx ,
 $$
 
-where $\ba_i$ is a column vector formed by the transpose of the $i-th$ row of $\bA$.
+where $\ba_i$ is a column vector formed by the transpose of the $i$th row of $\bA$.
 
 
 We have the following results.
@@ -1263,5 +1263,67 @@ $$
 $$
 
 This matrix will be nonnegative definite.
+
+
+___
+
+## Moments of Nonlinear Functions
+
+Consider a set of nonlinear functions of $\bx,$ $\by=g(\bx).$ Each element of $\by$ can be approximated with a linear Taylor series.
+
+Let $\bj^{i}$ be the row vector of partial derivatives of the $i$th function with respect to the $n$ elements of $\bx:$
+
+$$
+\bj^{i}(\bx) = \frac{\partial g_i(\bx)}{\partial \bx'} = \frac{\partial y_i}{\partial \bx'}
+$$
+
+
+The linear Taylor expansion at $\bmu$, the mean vector of $\bx$, is:
+
+$$
+\bg_i(\bx) \approx g_{i}(\bmu) + \bj^{i}(\mu)(\bx-\bmu) .
+$$
+
+From this, we obtain
+
+$$
+\begin{aligned}
+\E[\bg_i(\bx)] &\approx g_{i}(\bmu)  \\
+\var[\bg_i(\bx)] &\approx \bj^i(\bmu)\var(\bx)\bj^i(\bmu)'
+\end{aligned}
+$$
+
+and 
+
+$$
+\cov(\bg_i(\bx), \bg_j(\bx)) \approx \bj^i(\bmu)\var(\bx)\bj^j(\bmu)'
+$$
+
+Then
+
+$$
+\begin{aligned}
+\E[\bg(\bx)] &\approx \bg(\bmu)  \\
+\E[\bg(\bx)] &\approx \bJ(\bmu)\var(\bx)\bJ(\bmu)'
+\end{aligned}
+$$
+
+$\bJ(\bmu)$ is obtained by collecting the row vectors $\bj^i(\bmu)$ in a matrix:
+
+$$
+\bJ(\bmu) = \left. \frac{\partial \by}{\partial \bx'} \right\vert_{\bx=\bmu} \;.
+$$
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -51,6 +51,7 @@ window.MathJax = {
           bg: "\\boldsymbol{g}",
           bh: "\\boldsymbol{h}",
           bi: "\\boldsymbol{i}",
+          bj: "\\boldsymbol{j}",
           bm: "\\boldsymbol{m}",
           bp: "\\boldsymbol{p}",
           bq: "\\boldsymbol{q}",

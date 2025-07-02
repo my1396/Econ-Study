@@ -472,6 +472,14 @@ $\sup$, $\inf$
 
 - `\right .` creates an "invisible" delimiter that is used to match a corresponding `\left`, e.g., in multi-case function definition, you only need one left brace, then you use `\right .` to indicate the end of the function.
 
+  ```latex
+  \left. \frac{\partial \by}{\partial \bx'} \right\vert_{\bx=\bmu}
+  ```
+
+  $$
+  \left. \frac{\partial \by}{\partial \bx'} \right\vert_{\bx=\bmu}
+  $$
+
 - In `markdown`, you can define your own commands by putting the following codes at the beginning of the file.
 
   ```markdown

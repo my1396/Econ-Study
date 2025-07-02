@@ -9,7 +9,7 @@ Taylor Polynomial at $x=a$
 
 - Constant: $f(x) \approx f(a)$
 - Linear: $f(x) \approx f(a) + f'(a)(x-a)$
-- Quadratic $f(x) \approx f(a) + f'(a)(x-a) + \frac{1}{2}f''(a)(x-a)^2$ 
+- Quadratic $f(x) \approx f(a) + f'(a)(x-a) + \frac{1}{2}f^{\prime\prime}(a)(x-a)^2$ 
 
 We write $f^{(n)}(x)$ to mean the $n$th derivative of $f(x)$, and $T_n(x)$ to mean the $n$th degree Taylor polynomial of $f(x)$.
 
