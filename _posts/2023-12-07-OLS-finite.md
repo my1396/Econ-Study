@@ -1009,6 +1009,7 @@ $$
 $$
 
 The prediction interval $\eqref{eq-forecast_interval}$ is often much wider than the regression interval $\eqref{eq-regression_interval}$ because of the regression error $\hat{\sigma}^2.$
+
 ___
 
 ## Partitioned Regression

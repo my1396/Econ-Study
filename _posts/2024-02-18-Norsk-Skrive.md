@@ -147,6 +147,8 @@ en klar <span style='color:#32CD32'>sammenheng</span> mellom ... og ...
 
 sammenlignet med mange andre europeiske land  (compared to other European countries)
 
+*i likehet med* similar to, like
+
 **不同**
 
 **annerledes vs. forskjellig**
@@ -222,7 +224,7 @@ Tor og Ed har **annerledes** biler. $\rightarrow$ Alle de andre vennene har Toyo
 
 
 
-People
+**People**
 
 man, folk
 
@@ -232,9 +234,21 @@ befolkningen (population)
 
 
 
-Very
+**Very**
 
 veldig, svært, skikkelig, ganske, spesielt, 
+
+
+
+**影响**
+
+å påvirke, 
+
+å berøre (active); berøres (passive)
+
+*blir rammet av noe* (negative) impacts; be affected/bit by
+
+
 
 
 
@@ -432,6 +446,8 @@ Det er bedre at barna selv <span style='color:#32CD32'>opplever glede av mestrin
 **重要**
 
 sette noe høyt; verdsette noe høyt
+
+… har blitt uvesentlige, og … har blitt enda viktigere enn før.   [… have become insignificant, and … has become even more important than before.]
 
 
 

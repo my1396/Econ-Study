@@ -333,20 +333,7 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
   For example, I can define a function $𝑓:\mathbb{R}\rightarrow\mathbb{R}$ by $𝑓(𝑥):=2𝑥$. Notice that the $\rightarrow$ is between the two real number sets. But, I can also express that $𝑓(3)=6$ by $3\mapsto 6$. More generally, $𝑓(𝑥):=2𝑥$ can be written as $𝑥 \mapsto 2𝑥$.
 
-- Text above or under symbols or other text, e.g., $\sim$ 
 
-  - `\overset{#1}{#2}` put argument #1 (in script style) over argument #2. E.g., $\overset{\text{a}}{\sim}$ `\overset{\text{a}}{\sim}` or `\overset{\rm a}{\sim}`. `\rm` for Roman font (upright). A side note: Words in subscripts or superscripts should be upright.
-
-  - `\underset{#1}{#2}` put argument #1 (in script style) under argument #2. E.g.,
-
-    $$
-    \begin{align*}
-    \widetilde{\beta}_{k}^{\rm ridge} &= \underset{b\in \mathbb{R}^{p+1}}{\rm arg\, min}  \lVert y-X b  \rVert ^{2} \\
-    \hat{\boldsymbol{\beta}} &= \underset{\boldsymbol{\beta}}{\arg\min} \sum_{i=1}^n \varepsilon_i^2
-    \end{align*}
-    $$
-    
-     `\underset{\boldsymbol{\beta}}{\arg\min}` gives you $\underset{\boldsymbol{\beta}}{\arg\min}$.
 
 - Text above arrows. $\xrightarrow{d}$ `\xrightarrow{d}` convergence in distribution.
 
@@ -502,7 +489,22 @@ $\sup$, $\inf$
 
     Here is a nice [guide](https://www.overleaf.com/learn/latex/Brackets_and_Parentheses).
 
-- Braces under/above eqs.
+- Text above or under symbols or other text, e.g., $\sim$ 
+
+  - `\overset{#1}{#2}` put argument #1 (in script style) over argument #2. E.g., $\overset{\text{a}}{\sim}$ `\overset{\text{a}}{\sim}` or `\overset{\rm a}{\sim}`. `\rm` for Roman font (upright). A side note: Words in subscripts or superscripts should be upright.
+
+  - `\underset{#1}{#2}` put argument #1 (in script style) under argument #2. E.g.,
+
+    $$
+    \begin{align*}
+    \widetilde{\beta}_{k}^{\rm ridge} &= \underset{b\in \mathbb{R}^{p+1}}{\rm arg\, min}  \lVert y-X b  \rVert ^{2} \\
+    \hat{\boldsymbol{\beta}} &= \underset{\boldsymbol{\beta}}{\arg\min} \sum_{i=1}^n \varepsilon_i^2
+    \end{align*}
+    $$
+    
+     `\underset{\boldsymbol{\beta}}{\arg\min}` gives you $\underset{\boldsymbol{\beta}}{\arg\min}$.
+
+- Braces under/above eqs. Use `_` for under, and `^` for above.
 
   Text under eqs: `\underbrace{eqn}_\text{...under...}`
 

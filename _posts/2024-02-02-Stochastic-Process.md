@@ -118,7 +118,7 @@ $$
 X_t = c+\alpha X_{t-1}+\varepsilon_t, \quad \varepsilon_t\sim \mathrm{WN}(0, \sigma^2).
 $$
 
-In order for $\lbracex_t\rbrace$ to converge, we need $ \vert\alpha \vert<1$.
+In order for $\lbrace x_t\rbrace$ to converge, we need $ \vert\alpha \vert<1$.
 
 By iterative substitutions, 
 
@@ -164,13 +164,13 @@ ___
 
 **Autocovariance Matrix**
 
-If $\lbraceX_t \rbrace$ is a stationary process, we define a $p\times 1$ random vector $X$:
+If $\lbrace X_t \rbrace$ is a stationary process, we define a $p\times 1$ random vector $X$:
 
 $$
 X' = [X_t, X_{t+1}, \ldots, X_{t+p} ] \,.
 $$
 
-We define $\Sigma_{XX}$ as the $p\times p$ autocovaraince matrix of the random vector $X$ that has the following form:
+We define $\Sigma_{XX}$ as the $p\times p$ autocovariance matrix of the random vector $X$ that has the following form:
 
 $$
 \Sigma_{XX} = {\color{#008B45FF}\sigma^2} \begin{bmatrix}
