@@ -1,6 +1,6 @@
 ---
 layout: post
-tag: study
+tag: Norsk
 title: Norsk Skrive
 ---
 
@@ -8,7 +8,9 @@ title: Norsk Skrive
 
 ## Argument 要怎么写
 
-我的想法是...
+**我的想法**是...
+
+**Neutural**:
 
 ..., det er min mening.
 
@@ -18,11 +20,43 @@ Jeg ser for meg at ... I imagine/envision that ...
 
 en mer positiv holdning (a more positive attitude)
 
+Det er delte meninger om ...
+
+det synes jeg også → I also think that
+
+**Negative opinon**:
+
+Jeg er litt skeptisk til at ...
+
+
+
+**起承转折的连词**
+
+**However** 
+
+> imidlertid; likevel (nonetheless);
+
+**In addition** (adding extra info)
+
+> i tillegg; samtidlig; dessuten
+
+**If**
+
+> hivs; dersom; 
+
 
 
 **很明显**...
 
-det er klart at ...
+det er klart/tydelig at ...
+
+
+
+这是一个…问题
+
+Man kan se på som ....
+
+Man kan se på som en positiv utvikling og et resultat av at ... → It can be viewed as a positive development and a result of ...
 
 
 
@@ -32,12 +66,6 @@ det er klart at ...
 | ------------------------------------------------------------ | ------------------------- |
 
 
-
-**In addition** (adding extra info)
-
-i tillegg
-
-samtidlig
 
 
 
@@ -149,6 +177,10 @@ sammenlignet med mange andre europeiske land  (compared to other European countr
 
 *i likehet med* similar to, like
 
+*I likehet med de fleste andre land i verden* ... Similar to most other countries in the world ...
+
+
+
 **不同**
 
 **annerledes vs. forskjellig**
@@ -232,6 +264,17 @@ personer, mennesker, innbyggerne
 
 befolkningen (population)
 
+形容词作为名词代指一类人
+
+| de minste          | the smallest ones, young children   |
+| ------------------ | ----------------------------------- |
+| de største         | the biggest ones; the greatest ones |
+| de unge, ungdommen | the youth                           |
+| de eldre           | the elderly                         |
+| de rike/fattige    | the rich/poor                       |
+
+
+
 
 
 **Very**
@@ -250,6 +293,10 @@ veldig, svært, skikkelig, ganske, spesielt,
 
 
 
+**Løsning**
+
+*For å lette situasjonen* ... To ease/alleviate the situation
+
 
 
 ### 时间的表述
@@ -257,14 +304,17 @@ veldig, svært, skikkelig, ganske, spesielt,
 | English                                | Norsk              | 中文             |
 | -------------------------------------- | ------------------ | ---------------- |
 | In the last few years                  | i *de siste årene* | 最近几年         |
+| recently, lately                       | i det siste        | 最近             |
 | Earlier / Previously / In the past ... | Tidligere ...      | 以前，过去，早先 |
+| Two years ago                          | For to år siden    | 两年前           |
 
 
 
 最近几年，涌现了… 
 
-| There arise ... in recent years | De siste årene har det <span style='color:#32CD32'>dukket opp</span> ... |
-| ------------------------------- | ------------------------------------------------------------ |
+| De siste årene har det <span style='color:#32CD32'>dukket opp</span> ... | There arise ... in recent years |
+| ------------------------------------------------------------ | ------------------------------- |
+| De siste årene har det blitt mer og mer vanlig å ...         |                                 |
 
 
 
@@ -274,19 +324,40 @@ Stagig flere/bedre ... 越来越多/好
 
 
 
+趋势
+
+Et økende antall nordmenn ønsker å ... → An increasing number of Norwegians wish to ...
+
+en vesentlig økning av antall nordmenn over 80 → A significant increase in the number of Norwegians over 80
+
+A går ned samtidig som B øker → 伴随着 B 的上升，A 在下降
+
+Det blir en ond sirkel. → It becomes a vivious circle.
+
+
+
 | Slike ..., men ...                                           | 尽管… 但是…                       |
 | ------------------------------------------------------------ | --------------------------------- |
 | Slike foreldre har <span style='color:#32CD32'>de beste intensjoner</span>, men konsekvensen kan bli at ... | 尽管出发点是好的，但是结果可能是… |
 
 
 
-| 当...的时候                                     | Da ... 从句, ... 主句 (倒桩) |
-| ----------------------------------------------- | ---------------------------- |
-| Da jeg lærte å ..., ble teskene mine mye bedre. |                              |
+| 当...的时候                                                  | Da ... 从句 (正常语序), ... 主句 (倒装)                   |
+| ------------------------------------------------------------ | --------------------------------------------------------- |
+| Da jeg lærte å ..., ble teskene mine mye bedre.              |                                                           |
+| Da skoler stengte ned i midten av mars, var mange bekymret for ... | When schools were closed down, many were worried about .. |
 
 
 
-Nå det **gjerlder** noe ... → When it comes to ...
+Nå det **gjelder** noe ... → When it comes to ...
+
+Dette gjelder også i Norge. → This also applies in Norway.
+
+
+
+当 nå 作为 “现在”使用时，需要倒装。
+
+Nå *er* det høy tid at vi takker ungdommene.  «Er» 提前到主语之前。
 
 
 
@@ -313,6 +384,10 @@ gi gode/negative resultalter
 
 Dette fører til at ... This leads to ...
 
+Det fører også med seg … This also brings along …
+
+
+
 Ex.
 
 Samtidig finnes stadig bedre behandlinger for sykdommer, og *dette fører til* at levedalderen øker.
@@ -338,6 +413,8 @@ prisen å betale er ...
 | å gi store utfordringer for noen            | give sb big challenges                    |
 | ------------------------------------------- | ----------------------------------------- |
 | beskymringer noen ikke klarer å takle alene | concerns that someone cannot handle alone |
+| en del utfordringer                         | lots of challenges                        |
+| å møte disse unfordringene                  | to face these challenges                  |
 
 
 
@@ -349,7 +426,9 @@ Mesteparten av ... → Most of ...
 
 ... utgjør *den største delen*. 
 
-En annen viktig del av ... 
+*En annen viktig del av* ... Another important part of ...
+
+*Store deler av* ... Large parts of ...
 
 
 
@@ -463,4 +542,27 @@ Man må ikke stikke seg ut og være god til noe, og hvis man fremhever de beste,
 
 Technologien har tatt over mange av arbeidsoppgavene på fabrikkene og byggeplassene.
 
-​	
+
+
+
+
+**整形** Plastisk kirurgi
+
+Hva synes dere om at man kan få utført en operasjon for å få et bedre utseende?
+
+> <span style='color:#008B45'>Jeg ser på dette som et problem knyttet til</span> fri vilje. Selv om vi vil ikke forandre utseende vårt, må vi respektere andres valg. Jeg vil vise til Kardemomme-loven:
+>
+> «Mann skal ikke plage andre, man skal være grei og snill, og for øvrig kan man gjøre hva man vil.»
+>
+> Kosmetisk kirurgi gjøre ingen skader. Det må være greit å lag seg operere for å få bedre livskvalitet og trives bdre i egen kropp. 
+>
+> I tillegg må de dekke hele kostnaden selv, så det påvirker ikke andres velferd. 
+
+
+
+*å holde seg frisk* to stay healthy
+
+å holde oss/barna frisk<u>e</u> 
+
+
+

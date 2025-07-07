@@ -1,6 +1,6 @@
 ---
 layout: post
-tag: study
+tag: Norsk
 title: Norsk Grammar
 ---
 
@@ -29,6 +29,71 @@ title: Norsk Grammar
 
 
 Leddsetninger (subordinate clauses) 从句
+
+
+
+## 时态
+
+presens perfektum 现在完成时
+
+1. 事件未完成，尚继续
+
+   Jeg har bodd i Norge siden 2018.
+
+2. 事件对目前有影响，或者事件发生时间不重要，强调发生过。
+
+   Han har vært her.
+
+3. 表示未来
+
+   Til sommeren har jeg vært ansatt her i ti år.
+
+4. 用于描述事件发生条件。一旦… 就会…
+
+   Når dere har bestått B2, kan dere studere.
+
+
+
+**Presenssystemet**
+
+| Presens perfektum | Presens     | Presens futurum |
+| ----------------- | ----------- | --------------- |
+| (før nå)          | (nå)        | (etter nå)      |
+| Han har vasket.   | Han vasker. | Han skal vaske. |
+
+
+
+**Preteritumssystemet**
+
+| Preteritum perfektum | Preteritum  | Preteritum futurum |
+| -------------------- | ----------- | ------------------ |
+| (før fortid)         | (fortid)    | (etter fortid)     |
+| Han hadde vasket.    | Han vasket. | Han skulle vaske.  |
+
+
+
+
+
+## 情态动词
+
+Modal Auxiliaries
+
+skal, vil, kan, må, bør
+
+| **Infinitive** | **Presens** | **Preteritum** | **Presens Perfektum** |
+| -------------- | ----------- | -------------- | --------------------- |
+| å skulle             | skal (shall) | skulle (should) | har skullet           |
+| å ville              | vil (will)  | ville (would) | har villet            |
+| å kunne | kan (can) | kunne (could) | har kunnet |
+| å måtte | må (must) | måtte | har måttet |
+| å burde | bør (ought) | burde | har burdet |
+| å tore | tør (dare) | torte | har turt |
+| å få | får (may) | fikk (might) | har fått |
+
+- 很多情态动词的<u>过去式</u>和<u>不定式</u>是一样的
+- 用的最多的是现在式和过去式，完成式基本见不到用。
+
+
 
 
 
@@ -189,6 +254,37 @@ Hverdagen 为 definite form, singular masuline, 对应的possessive pronoun应�
         <td>next winter/summer</td>
     </tr>
 </table>
+
+
+
+
+## Personal pronouns
+
+| Person | Number   | Subject   | Object    | Reflexive        |
+| ------ | -------- | --------- | --------- | ---------------- |
+| 1st    | Singular | jeg       | meg       | meg (myself)     |
+| 1st    | Plural   | vi        | oss       | oss (ourselves)  |
+| 2nd    | Singular | du        | deg       | deg (yourself)   |
+| 2nd    | Plural   | dere      | dere      | dere (yourself)  |
+| 3rd    | Singular | han       | ham       | seg (himself)    |
+| 3rd    | Singular | hun       | henne     | seg (herself)    |
+| 3rd    | Singular | den / det | den / det | seg (itself)     |
+| 3rd    | Plural   | de        | dem       | seg (themselves) |
+
+- Reflexives in Norwegian are often used in 固定搭配
+
+  å vaske seg (to wash oneself) 
+
+  ▸  Jeg vasker meg. 
+
+  ▸  Han vasker seg.
+
+  å skynde seg (to hurry up)
+
+  å ønske seg (to wish)
+
+
+
 
 
 
@@ -430,6 +526,48 @@ How long:
 
 1. hvor lenge
 2. hvor lang tid
+
+
+
+
+
+___
+
+Would have done
+
+"Skulle + past participle" something you **wish you could do or had done**, but couldn't do
+
+*Jeg skulle gjerne vært der.*  I would have liked to be there.
+
+*Vi skulle gjerne møtt deg tidligere.* We would have liked to meet you earlier.
+
+
+
+## 被动
+
+**Passiv**
+
+1. **s-passive** = infinitiv + s
+
+   Brukes bare i presens og etter modelverb. 只能用于现在时态和情态动词之后。
+
+   Modelverb: skal, vil, kan, må, bør.
+
+   Kampen **spilles** på Sentrum. (The match is being played at Sentrum.)
+
+   Hvor ofte *må* vinduene **vaskes**?
+
+2. **bli-passive** = bli + perfektum partisipp
+
+   Kan brukes i alle tider.
+
+   Kampen **vil bli spilt** på Sentrum. (The match will be played at Sentrum.)
+
+   Kampen **blir split** på Sentrum. (The match is being played at Sentrum.)
+
+   Kampen **ble split** på Senturm. (The match was played at Sentrum.)
+
+   Kampen **har blitt** split på Senturm. (The match has been played at Sentrum.)
 
 
 
