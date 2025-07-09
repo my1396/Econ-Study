@@ -147,7 +147,7 @@ $.
 
 **Upper- and lower-case letters**
 
-Vectors are lowercase and matrices are uppercase symbols. Both vectors and matrices are written in bold-italic. 
+Vectors are lowercase and matrices are uppercase symbols. Both vectors and matrices are written in ***bold-italic***. 
 
 - Vector $\boldsymbol a$, $\boldsymbol b, \boldsymbol c$  are produced by `\mathbfit a` or `\boldsymbol a`... ; vectors can also be denoted by bold face Greek lowercase letters: $\boldsymbol{\alpha, \ldots \omega}$
 
