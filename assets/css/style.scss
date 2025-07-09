@@ -200,11 +200,14 @@ a img:focus {
   cursor: zoom-in;
 }
 
-/* Code */
+/* Code blocks */
 pre {
   white-space : pre-wrap !important; /* soft-wrap */
   word-break: break-word; /* avoid word break */
   margin-bottom: 0px;
+}
+pre.nowrap{
+  white-space: pre !important; /* no soft-wrap */
 }
 
 /* Table of contents */

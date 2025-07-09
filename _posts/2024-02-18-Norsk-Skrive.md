@@ -6,6 +6,16 @@ title: Norsk Skrive
 
 
 
+## Development of a Paragraph
+
+Utbygging av avsnit
+
+Temasetnning → Kommentarsetninger → Avsluttende setning
+
+*For det første* ... First of all ...
+
+
+
 ## Argument 要怎么写
 
 **我的想法**是...
@@ -44,11 +54,25 @@ Jeg er litt skeptisk til at ...
 
 > hivs; dersom; 
 
+**So**
+
+> altså;
+
 
 
 **很明显**...
 
-det er klart/tydelig at ...
+det er *klart/tydelig* at ...
+
+
+
+**强调必要性**
+
+rett og slett
+
+det er i hvert fall *på sin plass* at …  → It is certainly fitting that …
+
+… har aldri vært mer viktig/trendy enn nå.  → … has never been more important/trendy than now.
 
 
 
@@ -62,7 +86,7 @@ Man kan se på som en positiv utvikling og et resultat av at ... → It can be v
 
 **可能** gå an
 
-| Det <span style='color:#32CD32'>går kanskje ikke an</span> å gjøre noe. | It is not possible to do. |
+| Det <span style='color:#008B45'>går kanskje ikke an</span> å gjøre noe. | It is not possible to do. |
 | ------------------------------------------------------------ | ------------------------- |
 
 
@@ -79,7 +103,7 @@ Man kan se på som en positiv utvikling og et resultat av at ... → It can be v
 
 **Verken … eller**
 
-| Barn <span style='color:#32CD32'>verken</span> viser respekt for voksne <span style='color:#32CD32'>eller</span> andre barn. | Children show <span style='color:#32CD32'>neither</span> respect for adults <span style='color:#32CD32'>nor</span> other children. |
+| Barn <span style='color:#008B45'>verken</span> viser respekt for voksne <span style='color:#008B45'>eller</span> andre barn. | Children show <span style='color:#008B45'>neither</span> respect for adults <span style='color:#008B45'>nor</span> other children. |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 
@@ -88,7 +112,7 @@ Man kan se på som en positiv utvikling og et resultat av at ... → It can be v
 
 noen ganger … andre ganger …
 
-<span style='color:#32CD32'>Noen ganger</span> er vi overbeskyttende, <span style='color:#32CD32'>andre ganger</span> får barna bestemme for mye selv. 注意动词的倒装。
+<span style='color:#008B45'>Noen ganger</span> er vi overbeskyttende, <span style='color:#008B45'>andre ganger</span> får barna bestemme for mye selv. 注意动词的倒装。
 
 
 
@@ -171,7 +195,7 @@ at 从句
 
 ### **联系**
 
-en klar <span style='color:#32CD32'>sammenheng</span> mellom ... og ...
+en klar <span style='color:#008B45'>sammenheng</span> mellom ... og ...
 
 sammenlignet med mange andre europeiske land  (compared to other European countries)
 
@@ -213,7 +237,7 @@ Tor og Ed har **annerledes** biler. $\rightarrow$ Alle de andre vennene har Toyo
 
    E.g., Tor har blondt hår, men Ed er annerledes. ✅
 
-   Tor har blondt hår, men Ed er forskjellig. ❌ (作为表语时，Forskjellig 不能<span style='color:#32CD32'>单独</span>用于形容<span style='color:#32CD32'>一个</span>主体，必须与 fra 搭配作为短语出现。Forskjellig 作为表语时，主语必须由<span style='color:#32CD32'>两部分</span>构成，"forskjellig"表述<span style='color:#32CD32'>两部分之间</span>的差异。)
+   Tor har blondt hår, men Ed er forskjellig. ❌ (作为表语时，Forskjellig 不能<span style='color:#008B45'>单独</span>用于形容<span style='color:#008B45'>一个</span>主体，必须与 fra 搭配作为短语出现。Forskjellig 作为表语时，主语必须由<span style='color:#008B45'>两部分</span>构成，"forskjellig"表述<span style='color:#008B45'>两部分之间</span>的差异。)
 
    Tor og Pavel er like, men Tor og Ed er **forskjellige**. ✅ $\rightarrow$ Vi sammenligner to deler av subjektet. (Tor og Ed).
 
@@ -312,7 +336,7 @@ veldig, svært, skikkelig, ganske, spesielt,
 
 最近几年，涌现了… 
 
-| De siste årene har det <span style='color:#32CD32'>dukket opp</span> ... | There arise ... in recent years |
+| De siste årene har det <span style='color:#008B45'>dukket opp</span> ... | There arise ... in recent years |
 | ------------------------------------------------------------ | ------------------------------- |
 | De siste årene har det blitt mer og mer vanlig å ...         |                                 |
 
@@ -338,7 +362,7 @@ Det blir en ond sirkel. → It becomes a vivious circle.
 
 | Slike ..., men ...                                           | 尽管… 但是…                       |
 | ------------------------------------------------------------ | --------------------------------- |
-| Slike foreldre har <span style='color:#32CD32'>de beste intensjoner</span>, men konsekvensen kan bli at ... | 尽管出发点是好的，但是结果可能是… |
+| Slike foreldre har <span style='color:#008B45'>de beste intensjoner</span>, men konsekvensen kan bli at ... | 尽管出发点是好的，但是结果可能是… |
 
 
 
@@ -363,7 +387,7 @@ Nå *er* det høy tid at vi takker ungdommene.  «Er» 提前到主语之前。
 
 ### **原因**
 
-| Det er nok også litt av <span style='color:#32CD32'>grunnen til at</span> han ga seg. | That's probably part of the reason he gave up. |
+| Det er nok også litt av <span style='color:#008B45'>grunnen til at</span> han ga seg. | That's probably part of the reason he gave up. |
 | ------------------------------------------------------------ | ---------------------------------------------- |
 | den vanligste årsaken til .... er ...                        | the most common cause of ... is ...            |
 | å følge av noe                                               | 由…引起的                                      |
@@ -394,7 +418,7 @@ Samtidig finnes stadig bedre behandlinger for sykdommer, og *dette fører til* a
 
 **så + adj + at** 从句 
 
-- Lønningene i Norge er <span style='color:#32CD32'>så</span> høye <span style='color:#32CD32'>at</span> det <u>ikke</u> lønner seg å produsere varene her.
+- Lønningene i Norge er <span style='color:#008B45'>så</span> høye <span style='color:#008B45'>at</span> det <u>ikke</u> lønner seg å produsere varene her.
 
   注意从句中 ikke 提前
 
@@ -452,7 +476,7 @@ Eksempler av detter er …
 
 **优势和劣势**
 
-Hvilke <span style='color:#32CD32'>fordeler og ulemper</span> er det ved å flytte vareproduksjon utenlands？
+Hvilke <span style='color:#008B45'>fordeler og ulemper</span> er det ved å flytte vareproduksjon utenlands？
 
 What are the advantages and disadvantages of .... 注意跟英文的不同。挪威语用的是 hvilke, 英文用的是 what.
 
@@ -508,7 +532,7 @@ få en urettferdig **karakter**: receive an unfair grade
 
 Det er høye krav til både utdanning og norsknivå.
 
-满足要求 oppfylle kravene
+满足要求 oppfylle/utføre et krav
 
 害怕要求 frykte kravene
 
@@ -520,7 +544,7 @@ På norskkurs <u>ble vi oppmuntret til å</u> lese barnebøker og se på barne-T
 
 **精通**
 
-Det er bedre at barna selv <span style='color:#32CD32'>opplever glede av mestringen</span>.
+Det er bedre at barna selv <span style='color:#008B45'>opplever glede av mestringen</span>.
 
 **重要**
 
@@ -566,3 +590,8 @@ Hva synes dere om at man kan få utført en operasjon for å få et bedre utseen
 
 
 
+**环保**
+
+gjenbruk 循环利用
+
+gjenbruk i sted for å kjøpe nytt
