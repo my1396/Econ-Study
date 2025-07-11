@@ -34,9 +34,15 @@ Det er delte meninger om ...
 
 det synes jeg også → I also think that
 
+
+
 **Negative opinon**:
 
 Jeg er litt skeptisk til at ...
+
+Jeg har virkelig igen tro på at … → I don't believe sth
+
+Det provoserer meg at … → It provokes me that …
 
 
 
@@ -44,7 +50,9 @@ Jeg er litt skeptisk til at ...
 
 **However** 
 
-> imidlertid; likevel (nonetheless);
+> imidlertid; likevel (nonetheless); 
+
+
 
 **In addition** (adding extra info)
 
@@ -58,6 +66,10 @@ Jeg er litt skeptisk til at ...
 
 > altså;
 
+**Still, even now**
+
+> Fremedeles; ennå;
+
 
 
 **很明显**...
@@ -68,7 +80,7 @@ det er *klart/tydelig* at ...
 
 **强调必要性**
 
-rett og slett
+rett og slett → simply (need to do sth)
 
 det er i hvert fall *på sin plass* at …  → It is certainly fitting that …
 
@@ -381,7 +393,9 @@ Dette gjelder også i Norge. → This also applies in Norway.
 
 当 nå 作为 “现在”使用时，需要倒装。
 
-Nå *er* det høy tid at vi takker ungdommene.  «Er» 提前到主语之前。
+*Nå er det høy tid at* vi takker ungdommene.  «Er» 提前到主语之前。 → 现在正是 … 的时候
+
+类似表达：Nå er det virkelig på tide at …
 
 
 
@@ -471,6 +485,10 @@ gi seg utslag i/på
 **举例**
 
 Eksempler av detter er …
+
+det finnes det eksempler på … → There are examples of …
+
+ i noen tilfellers … → in some cases
 
 
 
