@@ -27,366 +27,9 @@ update: 2024-10-27
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
 
-## Geometry
 
-**Quadrant** (plane geometry)
 
-The axes of a two-dimensional Cartesian system divide the plane into four infinite regions, called quadrants, each bounded by two half-axes.
-
--   the numbering goes counter-clockwise starting from the upper right ("northeast") quadrant.
-
-<img src="{{ site.baseurl}}/images/quadrant geometry.png" alt="quadrant geometry" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
-
-orthographic projection (正射投影): top view, front view, (right) side view.
-
-锐角 acute angel \
-钝角 obtuse angel \
-直角 right angel
-
-complementary angel 互余角 $\alpha+\beta=\frac{\pi}{2}$.
-
-supplementary angel 互补角 $\alpha+\beta=\pi$.
-
-<img src="{{ site.baseurl}}/images/triangel.png" alt="triangel" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
-
-斜边 hypotenuse  /haɪˈpɑːtənuːs/ \
-邻边 adjacent side \
-对边 opposite side
-
-<span style='color:#008B45FF'>Pythagoras’ /pəˈθægərəs/ or Pythagorean /pəˌθæɡəˈriən/ theorem</span> 勾股定理
-
-**Law of Cosine**: tells the length of the 3rd side of a triangle if we know 2 sides and the angle between them.
-
-$$
-\begin{align*}c^2=a^2+b^2-2ab\cos\theta\end{align*}
-$$
-
-
-circumference /sərˈkʌmfərəns/ 周长
-
-trapezoid 梯形 $A=\frac{(a+b)}{2}\cdot h$. (上底 + 下底) $\times$ 高/2.
-
-parallelogram /ˌpærəˈleləɡræm / 平行四边形
-
-parallelepiped /ˌpærəˌleləˈpaɪˌpɪd / 平行六面体 (倾斜长方体)
-
-tetrahedron /ˌtetrəˈhiːdrən/ 四面体, also called "tiangular pyramid", 三角锥, is a polyhedron composed of four triangular faces.
-
-polyhedron 多面体 \
-cube 正方体 \
-cuboid 长方体 
-
-sector 扇形  \
-已知弧长 $A=\frac{1}{2}l\cdot r$。 $l$ 为扇形弧长，$r$ 为半径。与三角形面积类比，$\frac{1}{2}$底$\times$高，半径可看作底，弧长看作高。
-
-已知圆心角 $A=\frac{n}{360}\pi r^2=\frac{1}{2}\theta\cdot r^2$。$n$单位为度数degree， $\theta$ 为圆心角，单位为弧度radian。
-
--   度数弧度转换公式：$\frac{n}{180}\pi=\theta$。
-
--   弧长公式：$l=\theta \cdot r$ (圆心角弧度 $\times$ 半径)。
-
-    圆周长 $C=2\pi r$，弧长 $l=\frac{\theta}{2\pi}\cdot C=\frac{\theta}{2\pi}\cdot 2\pi r=\theta r$。
-
-Volume of a sphere (ball) $V=\frac{4}{3}\pi r^3$, $r$ is radius. Surface $S=4\pi r^2$.
-
-secant line 割线 \
-tangent line 切线
-
-**直线方程的各种形式**
-
-<ol>
-<li>一般式: $Ax+By+C=0$ <br/>
-
-斜率: $k=-\frac{A}{B}$ <br/>
-法向量: $\overrightarrow{\textbf{n}}=(A,B)$ <br/>
-方向向量: $\overrightarrow{\textbf{a}}=(B,-A)$ 
-
-</li>
-
-
-<li>点斜式: $y-y_0=k(x-x_0)$ <br/>
-
-点斜式是由一个定点 $P(x_0,y_0)$ 和斜率 $k$ 确定的直线方程。<br/>
-
-斜率: $k$ <br/>
-法向量: $\overrightarrow{\textbf{n}}=(k,-1)$ <br/>
-方向向量: $\overrightarrow{\textbf{a}}=(1,k)$ 
-
-</li>
-
-<li> 斜截式: $y=kx+b$ <br/>
-
-斜截式是由斜率 $k$ 和 $y$ 轴上的截距 $b$ 确定的直线方程。<br/>
-
-斜率: $k$ <br/>
-法向量: $\overrightarrow{\textbf{n}}=(k,-1)$ <br/>
-方向向量: $\overrightarrow{\textbf{a}}=(1,k)$ 
-
-</li>
-
-<li> 两点式: $\displaystyle \frac{y-y_1}{y_2-y_1} = \frac{x-x_1}{x_2-x_1}$ <br/>
-
-两点式是由已知的两个点 $(x_1,y_1)$, $(x_2,y_2)$ 确定的直线方程。<br/>
-
-斜率: $k = \frac{y_2-y_1}{x_2-x_1}$ <br/>
-法向量: $\overrightarrow{\textbf{n}}=(y_2-y_1,x_1-x_2)$ <br/>
-方向向量: $\overrightarrow{\textbf{a}}=(x_2-x_1,y_2-y_1)$ 
-
-</li>
-
-<li> 点向式: $\displaystyle \frac{y-y_0}{b} = \frac{x-x_0}{a}$ <br/>
-
-点向式是由已知的定点 $P(x_0,y_0)$ 和方向向量 $\overrightarrow{\textbf{a}}=(a,b)$ 所确定的直线方程。<br/>
-
-斜率: $k = \frac{b}{a}$ <br/>
-法向量: $\overrightarrow{\textbf{n}}=(b,-a)$ <br/>
-方向向量: $\overrightarrow{\textbf{a}}=(a,b)$ 
-
-</li>
-
-<li> 参数式: $\left\{\begin{aligned}&x=x_0+at & \\ &y = y_0+bt & \end{aligned}\right.$ <br/>
-
-这里的参数是$t$，是点向式的变式，也是由定点 $P(x_0,y_0)$ 和方向向量 $\overrightarrow{\textbf{a}}=(a,b)$ 所确定的直线方程。<br/>
-
-斜率: $k = \frac{b}{a}$ <br/>
-法向量: $\overrightarrow{\textbf{n}}=(b,-a)$ <br/>
-方向向量: $\overrightarrow{\textbf{a}}=(a,b)$ 
-
-</li>
-
-<li> 特别参数式: $\left\{\begin{aligned}&x=x_0+t\cos \alpha & \\ &y = y_0+t\sin \alpha & \end{aligned}\right.$ <br/>
-
-这里的参数是 $t$，是参数式的特例，即以直线的倾角。<br/>
-
-斜率: $k = \tan \alpha$ <br/>
-法向量: $\overrightarrow{\textbf{n}}=(\sin \alpha, -\cos \alpha)$ <br/>
-方向向量: $\overrightarrow{\textbf{a}}=(\cos \alpha, \sin \alpha)$ 
-
-</li>
-
-<li> 点法式: $A(x-x_0)+B(y-y_0)=0$ <br/>
-
-点向式是由已知的定点 $P(x_0,y_0)$ 和法向量 $\overrightarrow{\textbf{a}}=(a,b)$ 所确定的直线方程。<br/>
-
-斜率: $k = -\frac{A}{B}$ <br/>
-法向量: $\overrightarrow{\textbf{n}}=(A,B)$ <br/>
-方向向量: $\overrightarrow{\textbf{a}}=(B,-A)$ 
-
-</li>
-
-</ol>
-Reference: <https://zhuanlan.zhihu.com/p/26263309>
-
-**dot product** vs. **cross product**
-
-- dot product is a scalar, used to calculate projection along a direction ($\vec{A}\cdot \hat{u}$ is the component of $\vec{A}$ along $\hat{u}$, ^ indicates a unit vector); determine if two vectors are <span style='color:#008B45FF'>orthogonal</span> (if $\vec{A}\cdot\vec{B}=0$, then $\vec{A}\perp\vec{B}$);
-
-  - The magnitude of the dot product is the same as the magnitude of one of them, multiplied by the component of one vector that is parallel to the other. 
-
-  $$
-  \begin{align*}
-  \vec{A}\cdot\vec{B} &= \sum_i a_ib_i \\
-  \vec{A}\cdot\vec{B} &= \vert\vec{A}\vert\vert\vec{B}\vert \cos\theta \\
-  \vec{A}\cdot\vec{A} &= \vert A\vert^2 \quad (\cos0=1)
-  \end{align*}
-  $$
-
-  
-
-- cross product is a vector, used to 1) calculate area of parallelogram formed by two vectors; 2) get the normal vector; if $\vec{A}\times\vec{B}=0$, then $\vec{A}\parallel\vec{B}$ (<span style='color:#008B45FF'>parallel</span>);
-
-  - The magnitude of the cross product is the same as the magnitude of one of them, multiplied by the component of one vector that is perpendicular to the other. 
-  - If $\vec{A}\parallel\vec{B}$, no component is perpendicular to the other vector. Hence, the cross product is 0 although you can still find a perpendicular vector to both of these. 
-
-  $$
-  \begin{align*}
-  \vec{A}\times\vec{B} &=\vert\vec{A}\vert\vert\vec{B}\vert \sin\theta\cdot\vec{n},\; \vec{n} \textrm{ decided by right-hand rule.} \\
-  \vec{A}\times\vec{A}&=0 \quad (\sin0=0\textrm{, area of a line is 0})
-  \end{align*}
-  $$
-
-Geometric illustration: \
-<https://math.stackexchange.com/a/1730547>
-
-
-## Inner and Outer Product
-
-If $X$ and $Y$ are random variables, then the inner product is given by 
-
-$$
-\langle X, Y\rangle = \E[XY]
-$$
-
-and norm is given by $\Vert Y \Vert^2 = \langle Y, Y\rangle = \E Y^2.$
-
-A random variable $S'$ is called a **projection** (or $L_2$-projection) of $Y$ onto $\Scal$ if $S'\in \Scal$ and 
-
-$$
-\E(Y-S')^2 \le \E(Y-S)^2 \quad \forall S\in \Scal.
-$$
-
-In words, $S'$ is the projection of $Y$ onto $\Scal$ if its the best approximation of $Y$ in $\Scal$ in terms of mean squared error (MSE).
-
-$\E[Y\mid X]$ is the function of $X$ that has the smallest possible MSE for predicting $Y.$ Thus $\E[Y\mid X]$ is the projection of $Y$ onto the set of random variables $\\{h(X)\mid h \text{ is any real-valued function}\\}.$
-
-___
-
-If $\boldsymbol{u}$ and $\boldsymbol{v}$ are column vectors with the same size, then $\boldsymbol{u}^T \boldsymbol{v}$ is the inner product; if $\boldsymbol{u}$ and $\boldsymbol{v}$ are column vectors of any size, then $\boldsymbol{u} \boldsymbol{v}^T$ is the outer product.
-
-- Inner product is a *number*;
-- Outer product is a *matrix*. Let $\boldsymbol{u}$ be $n\times 1$ and $\boldsymbol{v}$ be $m\times 1$, then $\boldsymbol{u} \boldsymbol{v}^T$ is $n\times m$.
-
-
-___
-
-
-**Change of Variable Formula**
-
-Given the distribution of $X$, we can obtain the distribution of a continuous function of $X$, e.g. $Y=g(X)$.
-
-
-$$
-\begin{align*}
-F_Y(y)&=P(Y\le y)=P\left(g(X)\le y\right) \\
-&=\left\{
-	\begin{array}{ll}
-	P\left(X\le g^{-1}(y)\right) = F_X(g^{-1}(y)) & \text{when $g(x)$ is $\uparrow$} \\
-	P\left(X\ge g^{-1}(y)\right) = 1- F_X(g^{-1}(y))  & \text{when $g(x)$ is $\downarrow$}
-	\end{array} \right. \\
-f_Y(y) &= f_X(g^{-1}(y)) \cdot \left\vert \frac{\partial }{\partial y} g^{-1}(y) \right\vert
-\end{align*}
-$$
-
-
-Change of Variable for a **Double Integral**
-
-Let $X$ and $Y$ be two jointly continuous random variables. Let $(Z, W) = g(X,Y) = (g_1(X,Y), g_2(X,Y))$, where $g$: $\mathbb{R}^2 \mapsto \mathbb{R}^2$ is a continuous one-to-one (invertiable) funtion with continuous partial derivatives.
-
-Let $h=g^{-1}$, i.e., the inverse function that takes $(Z,W)$ and returns $(X,Y)$, $(X,Y)=h(Z,W)=(h_1(Z,W),h_2(Z,W))$. 
-
-Then $Z$ and $W$ are jointly continuous and their joint PDF, $f_{ZW}(z,w)$, for $(z,w)\in R_{ZW}$ is given by
-
-$$
-f_{ZW}(z,w)=f_{XY}(h_1(z,w),h_2(z,w)) \cdot \vert \boldsymbol{J}\vert,
-$$
-
-where $\boldsymbol{J}$ is the Jacobian of $h$, defined by 
-
-$$
-\boldsymbol{J} =
-\text{det} \begin{bmatrix}
-\frac{\partial h_1}{\partial z} & \frac{\partial h_1}{\partial w} \\
-\frac{\partial h_2}{\partial z} & \frac{\partial h_2}{\partial w}
-\end{bmatrix} =
-\frac{\partial h_1}{\partial z} \cdot \frac{\partial h_2}{\partial w} - \frac{\partial h_1}{\partial w} \cdot \frac{\partial h_2}{\partial z}
-$$
-
-Let $X$ and $Y$ be two random variables with joint PDF $f_{XY}(x,y)$. Let $Z=X+Y$. Find $f_Z(z)$.
-
-To apply the change of variable, we need two random variables $Z$ and $W$. Define
-
-$$
-\begin{align*}
-\left\{ 
-	\begin{array}{ll}
-	z = x+y & \text{i.e., }g_1(x,y)\\
-	w = x & \text{i.e., }g_2(x,y)
-	\end{array}
-\right.
-\end{align*}
-$$
-
-Then we can find the inverse transform:
-
-$$
-\begin{align*}
-\left\{ 
-	\begin{array}{ll}
-	x = w & \text{i.e., }h_1(x,y)\\
-	y = z-w & \text{i.e., }h_2(x,y)
-	\end{array}
-\right.
-\end{align*}
-$$
-
-Then, we have absolute value of the Jacobian
-
-$$
-\vert \boldsymbol{J} \vert = 
-\vert \text{det} \begin{bmatrix}
-0 & 1 \\
-1 & -1
-\end{bmatrix} \vert 
-=
-\vert 
-0-1
-\vert =
-1
-$$
-
-Thus,
-
-$$
-f_{ZW}(z,w)=f_{XY}(w,z−w).
-$$
-
-But since we are interested in the marginal PDF, $f_Z(z)$, we have
-
-$$
-f_Z(z)=\int_{-\infty}^{\infty}f_{XY}(w,z−w)dw.
-$$
-
-Note that, if $X$ and $Y$ are independent, then $f_{XY}(x,y)=f_X(x)fY(y)$ and we conclude that
-$$
-f_Z(z)=\int_{-\infty}^{\infty}f_X(w)f_Y(z−w)dw.
-$$
-
-The above integral is called the *convolution* of $f_X$ and $f_Y$, and we write
-
-$$
-f_Z(z)=f_X(z)*f_Y(z) = \int_{-\infty}^{\infty}f_X(w)f_Y(z−w)dw = \int_{-\infty}^{\infty}f_Y(w)f_X(z−w)dw.
-$$
-
-<div class = "boxed">
-<strong>Theorem</strong>  If X and Y are two jointly continuous random variables and $Z=X+Y$, then
-
-$$
-f_Z(z)=\int_{-\infty}^{\infty}f_{XY}(w,z−w)dw.
-$$
-
-If X and Y are also independent, then
-
-$$
-f_Z(z) = \int_{-\infty}^{\infty}f_Y(w)f_X(z−w)dw.
-$$
-</div>
-
-Let  $X$ and  $Y$ be two independent discrete random variables. Denote their respective pmfs (probability mass function) by  $p_X(x)$ and  $p_Y(y)$, and their supports by  $R_X$ and  $R_{Y}$. Let
-
-$$
-Z=X+Y
-$$
-
-and denote the pmf of $Z$ by  $p_Z(z)$. Then,
-
-$$
-\begin{align*}
-p_Z(z) &= \sum_{k=-\infty}^{\infty} p_X(x=k)\cdot p_Y(y=z-k) \\
-&= \sum_{x\in R_X} p_X(x=k)\cdot p_Y(y=z-k)
-\end{align*}
-$$
-
-or
-
-$$
-p_Z(z) = \sum_{y\in R_y} p_X(x=z-k)\cdot p_Y(y=k).
-$$
-
-
-___
-
-
-**Expectation**
+## Expectation
 
 Expectation are denoted by $\mathbb{E}(X)$ or $\mathbb{E}_X(X)$ to denote the expectation is taken over the RV $X.$
 
@@ -652,9 +295,12 @@ $$
  + \mathbb{E}_\mathbf{x}[\text{Var}(y\vert \mathbf{x})]
 $$
 
-In plain language, the variance of $Y$ deceomposes into the variance of the conditional mean plus the expected variance around the conditional mean.
+In plain language, the variance of $Y$ decomposes into the variance of the conditional mean plus the expected variance around the conditional mean.
 
-**Population and Sample**
+
+___
+
+## Population and Sample
 
 Population quantities need to know the DGP. Any thing you observe is for samples.
 
@@ -814,7 +460,9 @@ See proof [here](https://www.statlect.com/fundamentals-of-statistics/variance-es
 
 Distinguish the sample variance $(S^2_n)$ from the variance of sample mean $(\text{Var}(\overline{X}))$. 
 
-**Covariance and Correlation**
+___
+
+## Covariance and Correlation
 
 *Covariance and correlation* measure the linear association btw two RVs $X$ and $Y$
 
@@ -939,7 +587,7 @@ p(x) = \left\{
 \right.
 $$
 
-Now we have $X$ as an odd funcction and $[-1,1]$ is a symmetric domain. That means as long as $f(x)$ is an even function, we have $xf(x)p(x)$ as on odd function. It then follows that
+Now we have $X$ as an odd function and $[-1,1]$ is a symmetric domain. That means as long as $f(x)$ is an even function, we have $xf(x)p(x)$ as on odd function. It then follows that
 
 $$
 \int_{-a}^a x\,f(x)\,p(x)\, dx = 0,
@@ -1452,7 +1100,7 @@ ___
 ## Moments
 
 
-We often summarise properties of distributions using their moments.
+We often summarize properties of distributions using their moments.
 
 
 The $r^{\text{th}}$ order moment is defined by
@@ -1636,7 +1284,8 @@ Linear Algebra \
 
 ___
 
-**Convergence**
+## Convergence
+
 - Formal definition of convergence is: \
   Let $X_n=c+\frac{1}{n}$ for $n=1,2, \ldots$ and some constant $c$. $X_n$ converges to $c$ iff for $\forall \delta>0$, there exists some values $n^{\ast}$ such that for all $n>n^*$ we have $\vert X_n-c \vert < \delta$.
 
@@ -1660,6 +1309,8 @@ $$
   \hat{\theta} \xrightarrow{p} \theta.
 $$
 
+
+___
 
 ## Law of Large Numbers (LLN)
 
@@ -1851,6 +1502,152 @@ $$
 $$
 
 The conditions for the theorem are similar to the Lindeberg-Lévy CLT. The only difference is that the i.i.d. assumption has been replaced by the assumption of a strictly stationarity and ergodic MDS.
+
+
+___
+
+
+## Change of Variable Formula
+
+Given the distribution of $X$, we can obtain the distribution of a continuous function of $X$, e.g. $Y=g(X)$.
+
+
+$$
+\begin{align*}
+F_Y(y)&=P(Y\le y)=P\left(g(X)\le y\right) \\
+&=\left\{
+	\begin{array}{ll}
+	P\left(X\le g^{-1}(y)\right) = F_X(g^{-1}(y)) & \text{when $g(x)$ is $\uparrow$} \\
+	P\left(X\ge g^{-1}(y)\right) = 1- F_X(g^{-1}(y))  & \text{when $g(x)$ is $\downarrow$}
+	\end{array} \right. \\
+f_Y(y) &= f_X(g^{-1}(y)) \cdot \left\vert \frac{\partial }{\partial y} g^{-1}(y) \right\vert
+\end{align*}
+$$
+
+
+Change of Variable for a **Double Integral**
+
+Let $X$ and $Y$ be two jointly continuous random variables. Let $(Z, W) = g(X,Y) = (g_1(X,Y), g_2(X,Y))$, where $g$: $\mathbb{R}^2 \mapsto \mathbb{R}^2$ is a continuous one-to-one (invertiable) funtion with continuous partial derivatives.
+
+Let $h=g^{-1}$, i.e., the inverse function that takes $(Z,W)$ and returns $(X,Y)$, $(X,Y)=h(Z,W)=(h_1(Z,W),h_2(Z,W))$. 
+
+Then $Z$ and $W$ are jointly continuous and their joint PDF, $f_{ZW}(z,w)$, for $(z,w)\in R_{ZW}$ is given by
+
+$$
+f_{ZW}(z,w)=f_{XY}(h_1(z,w),h_2(z,w)) \cdot \vert \boldsymbol{J}\vert,
+$$
+
+where $\boldsymbol{J}$ is the <span style='color:#008B45'>**Jacobian**</span> of $h$, its determinant is defined by 
+
+$$
+\abs{\boldsymbol{J}} =
+\text{det} \begin{bmatrix}
+\frac{\partial h_1}{\partial z} & \frac{\partial h_1}{\partial w} \\
+\frac{\partial h_2}{\partial z} & \frac{\partial h_2}{\partial w}
+\end{bmatrix} =
+\frac{\partial h_1}{\partial z} \cdot \frac{\partial h_2}{\partial w} - \frac{\partial h_1}{\partial w} \cdot \frac{\partial h_2}{\partial z}
+$$
+
+Let $X$ and $Y$ be two random variables with joint PDF $f_{XY}(x,y)$. Let $Z=X+Y$. Find $f_Z(z)$.
+
+To apply the change of variable, we need two random variables $Z$ and $W$. Define
+
+$$
+\begin{align*}
+\left\{ 
+	\begin{array}{ll}
+	z = x+y & \text{i.e., }g_1(x,y)\\
+	w = x & \text{i.e., }g_2(x,y)
+	\end{array}
+\right.
+\end{align*}
+$$
+
+Then we can find the inverse transform:
+
+$$
+\begin{align*}
+\left\{ 
+	\begin{array}{ll}
+	x = w & \text{i.e., }h_1(x,y)\\
+	y = z-w & \text{i.e., }h_2(x,y)
+	\end{array}
+\right.
+\end{align*}
+$$
+
+Then, we have absolute value of the Jacobian
+
+$$
+\vert \boldsymbol{J} \vert = 
+\vert \text{det} \begin{bmatrix}
+0 & 1 \\
+1 & -1
+\end{bmatrix} \vert 
+=
+\vert 
+0-1
+\vert =
+1
+$$
+
+Thus,
+
+$$
+f_{ZW}(z,w)=f_{XY}(w,z−w).
+$$
+
+But since we are interested in the marginal PDF, $f_Z(z)$, we have
+
+$$
+f_Z(z)=\int_{-\infty}^{\infty}f_{XY}(w,z−w)dw.
+$$
+
+Note that, if $X$ and $Y$ are independent, then $f_{XY}(x,y)=f_X(x)fY(y)$ and we conclude that
+$$
+f_Z(z)=\int_{-\infty}^{\infty}f_X(w)f_Y(z−w)dw.
+$$
+
+The above integral is called the *convolution* of $f_X$ and $f_Y$, and we write
+
+$$
+f_Z(z)=f_X(z)*f_Y(z) = \int_{-\infty}^{\infty}f_X(w)f_Y(z−w)dw = \int_{-\infty}^{\infty}f_Y(w)f_X(z−w)dw.
+$$
+
+<div class = "boxed">
+<strong>Theorem</strong>  If X and Y are two jointly continuous random variables and $Z=X+Y$, then
+
+$$
+f_Z(z)=\int_{-\infty}^{\infty}f_{XY}(w,z−w)dw.
+$$
+
+If X and Y are also independent, then
+
+$$
+f_Z(z) = \int_{-\infty}^{\infty}f_Y(w)f_X(z−w)dw.
+$$
+</div>
+
+Let  $X$ and  $Y$ be two independent discrete random variables. Denote their respective pmfs (probability mass function) by  $p_X(x)$ and  $p_Y(y)$, and their supports by  $R_X$ and  $R_{Y}$. Let
+
+$$
+Z=X+Y
+$$
+
+and denote the pmf of $Z$ by  $p_Z(z)$. Then,
+
+$$
+\begin{align*}
+p_Z(z) &= \sum_{k=-\infty}^{\infty} p_X(x=k)\cdot p_Y(y=z-k) \\
+&= \sum_{x\in R_X} p_X(x=k)\cdot p_Y(y=z-k)
+\end{align*}
+$$
+
+or
+
+$$
+p_Z(z) = \sum_{y\in R_y} p_X(x=z-k)\cdot p_Y(y=k).
+$$
 
 
 ___

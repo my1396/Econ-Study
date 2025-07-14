@@ -33,11 +33,11 @@ Ordinary hat `\hat{\beta}` gives $\hat{\beta}$.
 | ----------------------------------------------------------- | ----------------------------------------------------------- |
 | `\bigl( \Bigl( \biggl( \Biggl(`                             | $\bigl( \Bigl( \biggl( \Biggl($                             |
 | `\bigr] \Bigr] \biggr] \Biggr]`                             | $\bigr] \Bigr] \biggr] \Biggr]$                             |
-| `\bigl\{ \Bigl\{ \biggl\{ \Biggl\{`                         | $\bigl\{ \Bigl\{ \biggl\{ \Biggl\{$                         |
+| `\bigl\{ \Bigl\{ \biggl\{ \Biggl\{`                         | $$\bigl\{ \Bigl\{ \biggl\{ \Biggl\{$$                       |
 | `\bigl \langle \Bigl \langle \biggl \langle \Biggl \langle` | $\bigl \langle \Bigl \langle \biggl \langle \Biggl \langle$ |
 | `\bigr \rangle \Bigr \rangle \biggr \rangle \Biggr \rangle` | $\bigr \rangle \Bigr \rangle \biggr \rangle \Biggr \rangle$ |
 
-
+- Parentheses (`(`) and brackets (`[`) don't need to be espcaped; need to escape curly braces (`{`).
 
 
 
@@ -92,7 +92,7 @@ Note:
 | $\boldsymbol{I}_n$ (`\boldsymbol{I}_n`)                      | $n\times n$ identity matrix                          |
 | $\mathbb{1}_n$ (`\mathbb{1}` from `\usepackage{bbold}`)      | $n\times n$ identity matrix, double 1 representation |
 | $\boldsymbol{1}_n$ or $\boldsymbol{i}_n$ (`\boldsymbol{1}_n` or `\boldsymbol{i}_n`) | $n\times 1$ vector of ones                           |
-| $\boldsymbol{1}(a)$ (`\boldsymbol{1}(a)`)                    | Indicator function (1 if a is true, else 0)          |
+| $\mathbb{1}(a)$ (`\mathbb{1}(a)`) or $\boldsymbol{I}(a)$ (`\boldsymbol{I}(a)`) | Indicator function (1 if $a$ is true, else 0)        |
 
 
 
@@ -117,40 +117,40 @@ Note:
 #### Capital
 
 |      LaTex |      |    LaTex |      |
-| ---------: | ---: | -------: | ---: |
-|   `\Gamma` |    Γ | `\Delta` |    ∆ |
-|  `\Lambda` |    Λ |   `\Phi` |    Φ |
-|      `\Pi` |    Π |   `\Psi` |    Ψ |
-|   `\Sigma` |    Σ | `\Theta` |    Θ |
-| `\Upsilon` |    Υ |    `\Xi` |    Ξ |
-|   `\Omega` |    Ω |          |      |
+| ---------: | --- | -------: | --- |
+|   `\Gamma` | $\Gamma$ | `\Delta` | $\Delta$ |
+|  `\Lambda` | $\Lambda$ |   `\Phi` | $\Phi$ |
+|      `\Pi` | $\Pi$ |   `\Psi` | $\Psi$ |
+|   `\Sigma` | $\Sigma$ | `\Theta` | $\Theta$ |
+| `\Upsilon` | $\Upsilon$ |    `\Xi` | $\Xi$ |
+|   `\Omega` | $\Omega$ |          |      |
 
 #### Lowercase
 
-|      LaTex |      |     LaTex |      |
-| ---------: | ---: | --------: | ---: |
-|   `\alpha` |    α |     `\nu` |    ν |
-|    `\beta` |    β |  `\kappa` |    κ |
-|   `\gamma` |    γ | `\lambda` |    λ |
-|   `\delta` |    δ |     `\mu` |    µ |
-| `\epsilon` |    ϵ |   `\zeta` |    ζ |
-|     `\eta` |    η |  `\theta` |    θ |
-|    `\iota` |    ι |     `\xi` |    ξ |
-|      `\pi` |    π |    `\rho` |    ρ |
-|   `\sigma` |    σ |    `\tau` |    τ |
-| `\upsilon` |    υ |    `\phi` |    φ |
-|     `\chi` |    χ |    `\psi` |    ψ |
-|   `\omega` |    ω |           |      |
+|      LaTex |      |             LaTex |              |
+| ---------: | --- | ----------------: | ----------- |
+|   `\alpha` |    α |             `\nu` |            ν |
+|    `\beta` |    β | `\kappa`, `\varkappa` | κ, $\varkappa$ |
+|   `\gamma` |    γ |         `\lambda` |            λ |
+|   `\delta` |    δ |             `\mu` |            µ |
+| `\epsilon`, `\varepsilon` | ϵ, $\varepsilon$ |           `\zeta` |            ζ |
+|     `\eta` |    η | `\theta`, `\vartheta` | θ, $\vartheta$ |
+|    `\iota` |    ι |             `\xi` |            ξ |
+| `\pi`, `\varpi` | π, $\varpi$ | `\rho`, `\varrho` | ρ, $\varrho$ |
+| `\sigma`, `\varsigma` | σ, $\varsigma$ |            `\tau` |            τ |
+| `\upsilon` |    υ | `\phi`, `\varphi` | φ, $\varphi$ |
+|     `\chi` |    χ |            `\psi` |            ψ |
+|   `\omega` |    ω |                   |              |
 
 #### Other
 
-|       LaTex |             |        LaTex |         |
-| ----------: | ----------- | -----------: | ------: |
-|  `\digamma` | ϝ           | `varepsilon` |       ε |
-| `\varkappa` | ϰ           |    `\varphi` |       ϕ |
-|    `\varpi` | $\varpi$    |    `\varrho` |       ϱ |
-| `\varsigma` | $\varsigma$ |  `\vartheta` |       ϑ |
-|      `\eth` | ð           |      `\hbar` | $\hbar$ |
+|       LaTex |             |         LaTex |               |
+| ----------: | ----------- | ------------: | ------------: |
+|  `\digamma` | $\digamma$  | `\varepsilon` | $\varepsilon$ |
+| `\varkappa` | $\varkappa$ |     `\varphi` |     $\varphi$ |
+|    `\varpi` | $\varpi$    |     `\varrho` |     $\varrho$ |
+| `\varsigma` | $\varsigma$ |   `\vartheta` |   $\vartheta$ |
+|      `\eth` | $\eth$      |       `\hbar` |       $\hbar$ |
 
 
 
@@ -184,6 +184,27 @@ Unicode characters for geometric shapes: <http://www.unicode.org/charts/nameslis
 
 A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is in decimal form, `hhhh` is in hexadecimal form. The `&#` and `;` are required.
 
+Use `\tag*{\(\square\)}` to avoid QED showing on top of the equation.
+
+```latex
+$$
+  \begin{align*}
+    E\left[g(X)h(Y)\vert Y\right] &= \sum_x g(x) h(y) P(x|y) \\
+    &= h(y) \sum_x g(x) P(x|y) \\
+    &= h(y)\, \mathbb E[g(X)|Y=y] \tag*{\(\square\)}
+  \end{align*} 
+$$
+```
+
+
+$$
+\begin{align*}
+    E\left[g(X)h(Y)\vert Y\right] &= \sum_x g(x) h(y) P(x|y) \\
+    &= h(y) \sum_x g(x) P(x|y) \\
+    &= h(y)\, \mathbb E[g(X)|Y=y] \tag*{\(\square\)}
+  \end{align*}
+$$
+
 
 
 ### Sets
@@ -214,12 +235,12 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 
 ### Binary operators
 
-|             LaTex |                                               |           LaTex |                    |
-| ----------------: | --------------------------------------------- | --------------: | -----------------: |
-| `\and` or `\land` | $\and$ (logical and)                          | `\or` or `\;or` | $\or$ (logical or) |
-|            `\neg` | $\neg$ (not)                                  |          `\div` |             $\div$ |
-|            `\ast` | $\ast$                                        |        `\times` |           $\times$ |
-|         `\otimes` | $\otimes$ (Kronecker product, tensor product) |                 |                    |
+|             LaTex |                                               |           LaTex |                     |
+| ----------------: | --------------------------------------------- | --------------: | ------------------ |
+| `\and` or `\land` | $\land$ (logical and)                         | `\or` or `\lor` | $\lor$ (logical or) |
+| `\neg` or `\lnot` | $\neg$ (not)                                  |          `\div` |              $\div$ |
+|            `\ast` | $\ast$                                        |        `\times` |            $\times$ |
+|         `\otimes` | $\otimes$ (Kronecker product, tensor product) |                 |                     |
 
 
 
@@ -228,15 +249,16 @@ A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is 
 ### Relational Symbols
 
 |           LaTex |                 |             LaTex |                   |
-| --------------: | --------------- | ----------------: | ----------------: |
+| --------------: | --------------- | ----------------: | ---------------- |
 |          `\geq` | ≥               |            `\leq` |                 ≤ |
 |        `\equiv` | ≡               |            `\sim` |            $\sim$ |
+|       `\approx` | $\approx$       | `\simeq` | $\simeq$ |
 |           `\gg` | ≫               |             `\ll` |             $\ll$ |
 |          `\mid` | $\mid$          |         `\propto` |         $\propto$ |
 |         `\perp` | ⊥               |       `\parallel` |       $\parallel$ |
 | `\Vert X \Vert` | $\Vert X \Vert$ | `\lVert X \rVert` | $\lVert X \rVert$ |
-|  `\vartriangle` | $\vartriangle$  |        `\leadsto` |        $\leadsto$ |
-|    `\triangleq` | $\triangleq$    |         `\approx` |         $\approx$ |
+| `\leadsto` | $\leadsto$ |  |                   |
+|    `\triangleq` | $\triangleq$    | `\vartriangle` | $\vartriangle$ |
 | `\triangledown` | $\triangledown$ |          `\nabla` |          $\nabla$ |
 
 **Note:** 
