@@ -209,6 +209,11 @@ pre {
 pre.nowrap{
   white-space: pre !important; /* no soft-wrap */
 }
+kbd {
+  border-radius: 2px;
+  padding: 2px;
+  border: 1px solid black;
+}
 
 /* Table of contents */
 .toc {

@@ -22,7 +22,7 @@ Interactive Manual: <https://www.toyota.com/owners/warranty-owners-manuals/digit
 **停止发动机**
 
 1. 完全停止车辆。
-2. 将换档杆换至 <span style='color:#32CD32'>P 档</span>。
+2. 将换档杆换至 <span style='color:#008B45'>P 档</span>。
 3. 按下发动机开关。发动机将停止且仪表显示将消失。
 4. 松开制动踏板，检查并确认多信息显示屏上未显示 “ACCESSORY” 或 “IGNITION ON”。
 
@@ -218,7 +218,7 @@ Auto 头灯，日间行驶灯，自动启动和关闭
 
 #### **雾灯**
 
-<span style='color:#32CD32'>左侧操控杆</span>，上下转动调节环。
+<span style='color:#008B45'>左侧操控杆</span>，上下转动调节环。
 
 档位：1 关闭 $\rightarrow$ 2. 前雾灯 $\rightarrow$ 3. 前雾灯+后雾灯
 
@@ -238,7 +238,7 @@ Auto 头灯，日间行驶灯，自动启动和关闭
 
 1. 启用 / 禁用车门位置
 
-   启用：后车内灯与前车内灯同时点亮 / 熄灭。前车内灯和后车内灯车门位置启用的情况下，<span style='color:#32CD32'>打开车门</span>，此灯点亮。
+   启用：后车内灯与前车内灯同时点亮 / 熄灭。前车内灯和后车内灯车门位置启用的情况下，<span style='color:#008B45'>打开车门</span>，此灯点亮。
 
 2. 打开 / 关闭此灯
 
@@ -266,7 +266,7 @@ Auto 头灯，日间行驶灯，自动启动和关闭
 
 **防止蓄电池电量耗尽**
 
-发动机开关关闭时，如果车内灯仍点亮，则 20 分钟后将自动熄灭。[此功能不甚可靠。建议<span style='color:#32CD32'>自行确保</span>灯光在<u>发动机关闭</u>的情况下，是关闭的。]
+发动机开关关闭时，如果车内灯仍点亮，则 20 分钟后将自动熄灭。[此功能不甚可靠。建议<span style='color:#008B45'>自行确保</span>灯光在<u>发动机关闭</u>的情况下，是关闭的。]
 
 
 
@@ -440,59 +440,78 @@ pull 一般是往上拉，但也有可能是往下拉
 
 只在必要时使用空调，如此有助于减少汽油过度消耗。
 
-- 夏季时：天气炎热时请使用<span style='color:#32CD32'>**车内空气再循环模式 (F)**</span>。刚开始打开空调时可以用外循环加快降温，此时车内温度高于车外；等温度降下来以后，开启内循环模式隔绝外部热空气。如此有助于减轻空调系统的负担并且降低油耗。
+- 夏季时：天气炎热时请使用<span style='color:#008B45'>**车内空气再循环模式 (F)**</span>。刚开始打开空调时可以用外循环加快降温，此时车内温度高于车外；等温度降下来以后，开启内循环模式隔绝外部热空气。如此有助于减轻空调系统的负担并且降低油耗。
 
 - 冬季时：由于汽油引擎暖车前以及车内变暖前，汽油引擎不会自动熄火， 因此会消耗燃油，此外，藉由避免过度使用暖气，亦可改善油耗。
 
 
 
-<span style='color:#32CD32'>**除雾**</span>
+| 按钮         | 功能                                                         |
+| ------------ | ------------------------------------------------------------ |
+| <kbd>C</kbd> | “DUAL” switch                                                |
+| <kbd>D</kbd> | Press <span style='color:#008B45'>“A/C” switch</span> to turn on cooling and dehumidification function.<br />If “A/C” switch is NOT pressed, the system will blow ambient temperature air or heated air. |
+| <kbd>E</kbd> | Outside air mode switch                                      |
+| <kbd>F</kbd> | Recirculated air mode switch                                 |
+| <kbd>G</kbd> | <span style='color:#008B45'>Airflow mode</span> control switch |
+| <kbd>H</kbd> | Fan speed increases switch                                   |
+| <kbd>I</kbd> | Fan speed decreases switch                                   |
+| <kbd>J</kbd> | “FAST/ECO” switch                                            |
+| <kbd>K</kbd> | Rear window defogger and outside rear view mirror defoggers switch |
+| <kbd>L</kbd> | Windshield defogger switch                                   |
+| <kbd>M</kbd> | Press Off switch to turn off the fan                         |
+| <kbd>N</kbd> | Automatic mode switch                                        |
 
-L Windshield defogger switch 前挡风玻璃除雾
+
+
+
+
+
+
+<span style='color:#008B45'>**除雾**</span>
+
+<kbd>L</kbd> Windshield defogger switch 前挡风玻璃除雾
 
 - 前挡风玻璃除雾模式下，如果目前设定在车内空气再循环模式， 请将气流模式变更为车外空气模式。 ( 模式会自动改变。)
 - 要快速清除挡风玻璃及前侧窗雾气时， 请将气流及温度调高。
 - 挡风玻璃除雾完成时，若要恢复先前模式，请再按一下挡风玻璃除雾器开关。
 
-K Rear window defogger and outside rear view mirror defoggers switch 后挡风玻璃和外后视镜除雾
+<kbd>K</kbd> Rear window defogger and outside rear view mirror defoggers switch 后挡风玻璃和外后视镜除雾
 
 - 后挡除雾是使用除雾器。按下后挡除雾器开关。 除雾器在使用一段时间后会自动关闭。
 
 
 
-<span style='color:#32CD32'>**空气再循环模式**</span>
+<span style='color:#008B45'>**空气再循环模式**</span>
 
-F Recirculated air mode switch 车内空气再循环模式
+<kbd>F</kbd> Recirculated air mode switch 车内空气再循环模式
 
 - 建议设定为车内空气再循环模式以免脏空气进入车内，并且有助于在车外气温较高时冷却车内。
 
-E Outside air mode switch 车外空气再循环模式
+<kbd>E</kbd> Outside air mode switch 车外空气再循环模式
 
 - 要引入新鲜空气，请将空调系统设定为车外空气模式。
 
 
 
-D “A/C” switch.  If “A/C” switch is not pressed, the system will blow ambient temperature air or heated air.
+**Change the airflow mode**
 
-
-
-G 改变气流模式。顺序如下
+<kbd>G</kbd> 改变气流模式。顺序如下
 
 - Upper body $\rightarrow$ Upper body and feet $\rightarrow$ Feet $\rightarrow$ Feet and the windshield defogger operates
 
 
 
-Using the Climate Preference <span style='color:#32CD32'>**节能空调模式**</span>。空调是以降低风速等的低油耗优先方式控制。
+Using the Climate Preference <span style='color:#008B45'>**节能空调模式**</span>。空调是以降低风速等的低油耗优先方式控制。
 
-- 按 N 或者 J 调整到节能模式。
+- 按 <kbd>N</kbd> 或者 <kbd>J</kbd> 调整到节能模式。
 
 Each time the “FAST/ECO” switch is pressed, the fan speed setting mode toggles as follows.
 
 Normal $\rightarrow$ “ECO” $\rightarrow$ “FAST” $\rightarrow$ Normal
 
-When “ECO” is displayed on the air conditioning screen, the air conditioning is controlled with low fuel consumption prioritized such as reducing fan speed, etc.
+- When “ECO” is displayed on the air conditioning screen, the air conditioning is controlled with low fuel consumption prioritized such as reducing fan speed, etc.
 
-When “FAST” is displayed on the screen, fan speed will be increased.
+- When “FAST” is displayed on the screen, fan speed will be increased.
 
 
 
@@ -543,11 +562,11 @@ LTA(车道保持辅助)
 
 <img src="https://drive.google.com/thumbnail?id=1ANKPf3cnS5awHJxj6xYQJ7VgKZdGHDwo&sz=w1000" alt="巡航控制" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
-1. 按下巡航控制<span style='color:#32CD32'>主开关</span>，激活巡航控制。
+1. 按下巡航控制<span style='color:#008B45'>主开关</span>，激活巡航控制。
 
    动态雷达巡航控制指示灯将点亮，且多信息显示屏上将显示信息。再次按下此开关，解除巡航控制。
 
-2. 操作加速踏板，加速或减速至所需车速(约 30 km/h [公里/小时] 或更高)，然后按下 “<span style='color:#32CD32'>-SET</span>” 开关设定速度。
+2. 操作加速踏板，加速或减速至所需车速(约 30 km/h [公里/小时] 或更高)，然后按下 “<span style='color:#008B45'>-SET</span>” 开关设定速度。
 
    巡航控制 “SET” 指示灯将点亮。 松开开关时的车速即为**设定速度**。
 
@@ -646,7 +665,7 @@ As the key may be damaged if the following procedure is not performed properly, 
 
 | 部件 | 用处                                            |
 | ---- | ----------------------------------------------- |
-| A    | <span style='color:#32CD32'>喷洗液</span>储液罐 |
+| A    | <span style='color:#008B45'>喷洗液</span>储液罐 |
 | B    | 发动机冷却液储液罐                              |
 | C    | 保险丝盒                                        |
 | D    | 发动机机油加注口盖                              |
@@ -663,7 +682,7 @@ As the key may be damaged if the following procedure is not performed properly, 
 
 - 为防止严重损坏发动机，应当定期检查机油油位。
 
-- 发动机处于<span style='color:#32CD32'>工作温度</span>且已<span style='color:#32CD32'>关闭</span>的情况下，用机油尺检查机油油位。
+- 发动机处于<span style='color:#008B45'>工作温度</span>且已<span style='color:#008B45'>关闭</span>的情况下，用机油尺检查机油油位。
 
 **检查发动机机油**
 
@@ -771,9 +790,9 @@ At slow speeds or when traveling down a gentle slope, the gasoline engine is sto
 
 > 在低速或是行驶于缓降坡时，电动马达驱动车辆。
 
-The gasoline engine is predominantly used. The electric motor (traction motor) charges the <span style='color:#32CD32'>**hybrid battery (traction battery)**</span> as necessary.
+The gasoline engine is predominantly used. The electric motor (traction motor) charges the <span style='color:#008B45'>**hybrid battery (traction battery)**</span> as necessary.
 
-> **主要使用汽油引擎**。必要时，电动马达会对<span style='color:#32CD32'>**油电复合动力电池 (牵引电池)**</span> 进行充电。
+> **主要使用汽油引擎**。必要时，电动马达会对<span style='color:#008B45'>**油电复合动力电池 (牵引电池)**</span> 进行充电。
 
 When the accelerator pedal is depressed heavily, the power of the hybrid battery (traction battery) is added to that of the gasoline engine via the electric motor (traction motor).
 
