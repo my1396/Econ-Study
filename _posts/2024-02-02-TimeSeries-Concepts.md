@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Time Series
+title: Time Series Concepts
 tag: study
 update: 2024-02-04
 ---

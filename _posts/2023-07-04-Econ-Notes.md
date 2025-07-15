@@ -1484,7 +1484,7 @@ $$
 
 ### MDS CLT
 
-CLT for martingale differences
+**CLT for Martingale Differences**
 
 
 We are interested in an asymptotic approximation for the distribution of standardized sample means such as
@@ -1495,11 +1495,13 @@ $$
 
 where $\boldsymbol{u}_t$ is mean zero with finite variance $E[\boldsymbol{u}_t\boldsymbol{u}_t']=\boldsymbol{\Sigma}<\infty$.
 
-The MDS CLT theorem says if $\boldsymbol{u}_t$ is a strictly stationary and ergodic martingale difference sequence and $E[\boldsymbol{u}_t\boldsymbol{u}_t']=\boldsymbol{\Sigma}<\infty$, then as $n\to\infty,$
+<div class = "boxed">
+<strong>The MDS CLT theorem</strong> If $\boldsymbol{u}_t$ is a strictly stationary and ergodic martingale difference sequence and $E[\boldsymbol{u}_t\boldsymbol{u}_t']=\boldsymbol{\Sigma}<\infty$, then as $n\to\infty,$
 
 $$
 \boldsymbol{S}_n = \frac{1}{\sqrt{n}} \sum_{t=1}^n \boldsymbol{u}_t \overset{d}{\to} N(\boldsymbol{0}, \boldsymbol{\Sigma}).
 $$
+</div>
 
 The conditions for the theorem are similar to the Lindeberg-Lévy CLT. The only difference is that the i.i.d. assumption has been replaced by the assumption of a strictly stationarity and ergodic MDS.
 
@@ -1842,3 +1844,5 @@ ___
     - Hendry, D.F. and Nielsen, B. (2007) ***Econometric Modeling***. Princeton.
     - Hoel, P.G., Port, S.C. and Stone, C.J. (1971) ***Introduction to Probability***. Boston: Houghton-Mifflin.
 
+- Resources
+  - Fundamental Theorems for Econometrics: <https://bookdown.org/ts_robinson1994/10EconometricTheorems/dm.html>

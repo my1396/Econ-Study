@@ -608,8 +608,31 @@ Hva synes dere om at man kan få utført en operasjon for å få et bedre utseen
 
 
 
-**环保**
+**Miljø 环保**
 
 gjenbruk 循环利用
 
 gjenbruk i sted for å kjøpe nytt
+
+*fornybare ressurer* renewable resources
+
+Hva tenker dere om at undom streiker for miljøsaken?
+
+> Det virker at undom er ivrig med deltakelse i offenlig velferd og de andres velvære. Det er en positive tegn at undom ha hensyn til andre. Selv om klimaendringer kanskje påvirker ikke livene dere direkte eller vensenlig, de streiker for å gi en takevekker til politikere. De bryr seg sterkt om miljøet. Det gir håp for fremtida.
+
+Er det noen poenger i talen til Grete Thunberg som dere synes er spesielt gode?
+
+> Vi må ta tiltak nå. Vi kan ikke sitte stille og vente på at håpet skal komme. Vi må gjøre hva vi kan for å oppnå målet. Miljøvern er et stort oppdrag. Noen tenker at det spiller ingen rolle hva enkeltpersoner gjør, for det utgjør minimal forskjell. Men hvis ingen gjør noe, skal situation blir verre. Vi bør ikke gi opp selv om vi ikk kan oppnå målet. Det er bra hvis vi er **litt nærmere til målet**. Jeg tror vi **til slutt** skal nå målet, etter innsats fra mange personer over mange år.
+
+
+
+
+
+
+
+
+
+
+
+
+

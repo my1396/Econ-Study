@@ -215,6 +215,63 @@ $$
 $$
 
 
+___
+
+
+## MA(1) process
+
+$$
+\varepsilon_t = u_t + \lambda u_{t-1}
+$$
+
+where $u_t\sim WN(0, \sigma^2_u).$
+
+
+The memory is only one period: the MA(1) process has a non-zero first autocorrelation, with the remainder zero.
+
+- $\gamma(0) = \var(\varepsilon_t) = (1+\lambda^2)\sigma^2_u$
+- $\gamma(1) = \cov(\varepsilon_t, \varepsilon_{t+1}) = \lambda \sigma^2_u$
+- $\rho(1)=\frac{\gamma(1)}{\gamma(0)} = \frac{\lambda}{1+\lambda^2}$
+- $\gamma(s) = \rho(s) = 0$ for $s>1$
+
+
+An MA(1) process with $\lambda\ne 1$ is serially correlated, with each pair of adjacent observations $(y_t, y_{t-1})$ correlated. 
+
+- If $\lambda> 0$ the pair are positively correlated, while 
+- if $\lambda< 0$ they are negatively correlated. 
+
+The serial correlation, however, is limited in that observations separated by multiple periods are mutually independent.
+
+
+___
+
+**MA($q$) process**
+
+
+$$
+\varepsilon_t = \lambda_0 u_t + \lambda_1 u_{t-1} + \lambda_2 u_{t-2} + \cdots  + \lambda_q u_{t-q}
+$$
+
+where $\lambda_0=1.$
+
+
+An MA(q) has the following moments.
+
+- $\gamma(0) = \var(\varepsilon_t) = \left(\sum_{j=0}^q\lambda^2_j\right)\sigma^2_u$
+
+- $\gamma(k) = \cov(\varepsilon_t, \varepsilon_{t+k}) = \left(\sum_{j=0}^{q-k}\lambda_{j+k}\lambda_j\right)\sigma^2_u, $ for $k\le q$
+
+- $\rho(k) = \frac{\gamma(k)}{\gamma(0)} = \frac{\sum_{j=0}^{q-k}\lambda_{j+k}\lambda_j}{\sum_{j=0}^q\lambda^2_j},$ for $k\le q$
+
+- $\gamma(k) = \rho(k) = 0,$ for $k> q$
+
+
+A MA(q) has $q$ non-zero autocorrelations, with the remainder zero.
+
+An MA(q) process $\varepsilon_t$ is strictly stationary and ergodic.
+
+___
+
 
 **MA($\bold{\infty}$) representation**
 
@@ -252,6 +309,169 @@ $$
 y_t = \mu - \sum_{j=1}^\infty \phi^{-j}\varepsilon_{t+j}
 $$
 
+___
+
+
+## AR(p) and Impulse Response Function
+
+Consider the $p$th order autoregressive process, denoted $AR(p)$:
+
+$$
+y_t = \alpha_0 + \alpha_1y_{t-1} + \alpha_2y_{t-2} + \cdots  + \alpha_py_{t-p} + \varepsilon_t ,
+$$
+
+where $\varepsilon_t$ is a strictly stationary and ergodic white noise process, $\varepsilon_t\sim WN(0, \sigma^2)$.
+
+Using the lag operator,
+
+$$
+y_t  - \alpha_1y_{t-1} - \alpha_2y_{t-2} - \cdots  - \alpha_py_{t-p} = \alpha_0 + \varepsilon_t ,
+$$
+
+or 
+
+$$
+\alpha(L)y_t = \alpha_0 + \varepsilon_t,
+$$
+
+where
+
+$$
+\alpha(L) = 1-\alpha_1L-\alpha_2L^2-\cdots-\alpha_pL^p .
+$$
+
+We call $\alpha(z)$ the autoregressive polynomial of $y_t.$
+
+
+$y_t$ can be rewritten as
+
+$$
+\begin{aligned}
+y_t &= \alpha(L)^{-1}(\alpha_0 + \varepsilon_t) \\
+&= \frac{\alpha_0}{1-\alpha_1-\cdots-\alpha_p} + \alpha(L)^{-1}\varepsilon_t \\
+&= \mu + \psi(L)\varepsilon_t
+\end{aligned}
+$$
+
+where $\alpha(L)^{-1}=\psi(L)= \sum_{j=0}^\infty \psi_j L^j.$
+
+$y_t=\mu + \psi(L)\varepsilon_t$ is called the *Wold representation* in lag operator.
+
+
+In the Wold form, it can be shown that
+
+$$
+\begin{aligned}
+\E[y_t] &= \mu \\
+\var(\varepsilon_t) &= \gamma(0) = \left(\sum_{j=0}^\infty\psi^2_j\right)\sigma^2  \\
+\gamma(k) &= \left(\sum_{j=0}^{\infty}\psi_{j+k}\psi_j\right)\sigma^2 \\
+\rho(k) &= \frac{\sum_{j=0}^{\infty}\psi_{j+k}\psi_j}{\sum_{j=0}^\infty\psi^2_j}
+\end{aligned}
+$$
+
+
+
+
+
+The coefficients of the moving average representation
+
+$$
+\begin{aligned}
+y_t &= \mu + \psi(L) \varepsilon_t \\ 
+&= \mu + \sum_{j=0}^\infty \psi_j \varepsilon_{t-j}  \\
+&= \mu + \psi_0\varepsilon_{t} + \psi_1\varepsilon_{t-1} + \psi_2\varepsilon_{t-2} + \cdots
+\end{aligned}
+$$
+
+are known among economists as the impulse response function (IRF). 
+(Often scaled by the standard deviation of $\varepsilon_t.$)
+
+
+In linear models, the IRF is defined as the change in $y_{t+j}$ due to a shock at time $t$. This is,
+
+$$
+\frac{\partial}{\partial \varepsilon_t} y_{t+j} = \psi_j,\; j=1,2,\ldots
+$$
+
+This means that the coefficients $\psi_j$ can be interpreted as the magnitude of the impact of a time $t$ shock on the time $t + j$ variable. Plots of $\psi_j$ against $j$ can then be used to assess the time-propagation of shocks. This is a standard method of analysis for multivariate time series.
+
+For a stationary and ergodic time series, 
+
+$$
+\lim_{j\to\infty} \psi_j = 0 ,
+$$
+
+and the long-run cumulative impulse response is finite
+
+$$
+\sum_{j=0}^\infty \psi_j < \infty .
+$$
+
+
+___
+
+
+The **autoregressive-moving-average process**, denoted $ARMA(p,q),$ is 
+
+$$
+\begin{aligned}
+y_t &= \alpha_0 + \alpha_1y_{t-1} + \alpha_2y_{t-2} + \cdots  + \alpha_py_{t-p} \\
+&\phantom{=} \quad + \theta_0\varepsilon_t + \theta_1\varepsilon_{t-1} + \theta_2\varepsilon_{t-2} + \cdots + \theta_q\varepsilon_{t-q} 
+\end{aligned}
+$$
+
+where $\varepsilon_t \sim WN(0, \sigma^2).$
+
+
+It can be written using the lag operator notation as
+
+$$
+\alpha(L)y_t = \alpha_0 + \theta(L)\varepsilon_t .
+$$
+
+The **autoregressive-integrated moving-average process**, denoted $ARIMA(p,d,q),$ is 
+
+$$
+\alpha(L)(1-L)^d y_t = \alpha_0 + \theta(L)\varepsilon_t .
+$$
+
+That is, $\Delta^d y_t$ is $ARMA(p,q).$ 
+
+___
+
+
+**Partial Autocorrelation Function** (PACF)
+
+
+The PACF is based on estimating the sequence of AR models
+
+
+$$
+\begin{aligned}
+z_t &= \phi_{11} z_{t-1} + \varepsilon_{1t} \\
+z_t &= \phi_{21} z_{t-1} + \phi_{22} z_{t-2} + \varepsilon_{2t} \\
+& \qquad \vdots \\
+z_t &= \phi_{p1} z_{t-1} + \phi_{p2} z_{t-2} + \cdots + \phi_{pp} z_{t-p} + \varepsilon_{pt} \\
+\end{aligned}
+$$
+
+where $z_t = y_t-\mu$ is the demeaned data.
+
+The coefficients $\phi_{jj}$ for $j=1,\ldots,p$ (i.e., the last coefficients in each AR(p) model) are called the partial autocorrelation coefficients.
+
+
+- In an AR(1) model the first partial autocorrelation
+coefficient $\phi_{11}$ is non-zero, and the remaining partial autocorrelation coefficients $\phi_{jj}$ for $j > 1$ are equal to zero. 
+
+- Similarly, in an AR(2), the first and second partial autocorrelation coefficients $\phi_{11}$ and $\phi_{22}$ are non-zero and the rest are zero for $j > 2$. 
+
+- For an AR(p) all of the first $p$ partial autocorrelation coefficients are non-zero, and the rest are zero for $j > p$.
+
+The sample partial autocorrelation coefficients up to lag $p$ are essentially obtained by estimating the above sequence of $p$ AR models by least squares and retaining the estimated coefficients $\phi_{jj}.$
+
+
+
+___
 
 **Markov Process**
 

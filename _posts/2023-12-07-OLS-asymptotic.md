@@ -83,18 +83,71 @@ Consistency *further* requires that $\text{Var}(\hat{\theta})\rightarrow 0$ as $
 
 
 
-For OLS estimator to have a limit distribution which is normal (aka *asyptotic normality*), the following set of assumptions need to be met:
+For OLS estimator to have a limit distribution which is normal (aka *asymptotic normality*), the following set of assumptions need to be met:
 
-&emsp;&ensp;Conditions <a href="#ass1">**1)**</a> to <a href="#ass3">**3)**</a> in the consistency assumptions above; in additon to a new assumption:
+&emsp;&ensp;Conditions <a href="#ass1">**1)**</a> to <a href="#ass3">**3)**</a> in the consistency assumptions above; in addition to a new assumption:
 
 <ol type="p1" start="4">
-<li id="ass4"> The $K\times K$ moment matrix $\color{#008B45}M_{X\Omega X}=\mathbb{E}[u_i^2x_ix_i']$ exists and is non-singular, where $\color{#008B45}\Omega=\mathbb{E}[uu'\vert X]$ is the <strong>error covariance matrix</strong>. (this assumption ensures asymptotic normality) </li>
+<li id="ass4"> The $K\times K$ moment matrix $\color{#008B45}M_{X\Omega X}=\mathbb{E}[x_iu_iu_i'x_i']$ exists and is non-singular, where $\color{#008B45}\Omega=\mathbb{E}[uu'\vert X]$ is the <strong>error covariance matrix</strong>. (this assumption ensures asymptotic normality) </li>
 </ol>
+
+Different forms of error covariance matrices:
+
+
+- **Homoskedasticity and Non-Autocorrelation** (spherical disturbances)
+
+$$
+\bOmega = \sigma^2\begin{bmatrix}
+1 & 0 & \cdots & 0 \\
+0 & 1 & \cdots & 0 \\
+\vdots & \vdots & \ddots & \vdots \\
+0 & 0 & \cdots & 1
+\end{bmatrix} = \sigma^2 \bI_n
+$$
+
+- **Heteroskedasticity and Non-Autocorrelation**
+
+$$
+\bOmega = \sigma^2\begin{bmatrix}
+\omega_{11} & 0 & \cdots & 0 \\
+0 & \omega_{22} & \cdots & 0 \\
+\vdots & \vdots & \ddots & \vdots \\
+0 & 0 & \cdots & \omega_{nn}
+\end{bmatrix} = \begin{bmatrix}
+\sigma^2_1 & 0 & \cdots & 0 \\
+0 & \sigma^2_2 & \cdots & 0 \\
+\vdots & \vdots & \ddots & \vdots \\
+0 & 0 & \cdots & \sigma^2_n
+\end{bmatrix}
+$$
+
+
+- **Autocorrelation and Homoskedasticity**
+
+$$
+\bOmega = \sigma^2\begin{bmatrix}
+1 & \rho_1 & \cdots & \rho_{n-1} \\
+\rho_1 & 1 & \cdots & \rho_{n-2} \\
+\vdots & \vdots & \ddots & \vdots \\
+\rho_{n-1} & \rho_{n-2} & \cdots & 1
+\end{bmatrix} 
+$$
 
 Conditions <a href="#ass4">**4)**</a> satisfies the 2nd order moment requirement, combining with <a href="#ass3">**3)**</a>, the 1st order moment condition, we can apply the Central Limit Theorem to $\frac{1}{n}X'u$.
 
 
-$x_iu_i$ are iid (assumption <a href="#ass2">2)</a>, and we have $E(x_iu_i)=0$ (assumption <a href="#ass3">3)</a> and $\text{Var}(x_iu_i)=E[(x_iu_i)(x_iu_i)']=E(u_i^2x_ix_i')=M_{X\Omega X}$ finite (assumption <a href="#ass4">4)</a>. 
+$x_iu_i$ are iid (assumption <a href="#ass2">2)</a>, and we have $E(x_iu_i)=0$ (assumption <a href="#ass3">3)</a> and 
+
+$$
+\begin{aligned}
+\text{Var}(x_iu_i) 
+&= E[(x_iu_i)(x_iu_i)'] \\
+&= E(u_i^2x_ix_i') \quad (\text{This holds only for Non-Autocorrelation disturbances})\\
+&= M_{X\Omega X}
+\end{aligned}
+$$ 
+
+finite (assumption <a href="#ass4">4)</a>. 
 
 Using the <a href="#CLT random vector">*CLT for random vectors*</a>, 
 
@@ -114,7 +167,7 @@ $$
 \sqrt{n} (\hat{\beta}-\beta) = \left(\frac{X'X}{n}\right)^{-1}  \left(\frac{X'u}{\sqrt{n}}\right)
 $$
 
-We also have $\left(\frac{X'X}{n}\right)^{-1} \xrightarrow{p} M_{XX}^{-1} $. Then using generalized Slutsky's Thm., and the symmetry of $M_{XX}^{-1}$, we obtain the limit distibution of the product
+We also have $\left(\frac{X'X}{n}\right)^{-1} \xrightarrow{p} M_{XX}^{-1} $. Then using generalized Slutsky's Thm., and the symmetry of $M_{XX}^{-1}$, we obtain the limit distribution of the product
 
 $$
 \left(\frac{X'X}{n}\right)^{-1}  \left(\frac{X'u}{\sqrt{n}}\right) \xrightarrow{d} N(0, M_{XX}^{-1} M_{X\Omega X} M_{XX}^{-1}).
@@ -134,19 +187,26 @@ Multiplying $(\hat{\beta}-\beta)$ by $\sqrt{n}$ is a stabilizing transformation 
 - stabilize the variance: $\text{Var}(\sqrt{n}\hat{\beta}) \xrightarrow{p} M_{XX}^{-1} M_{X\Omega X} M_{XX}^{-1}$
 - stabilize the mean: $\text{E}[\sqrt{n}(\hat{\beta}-\beta)] = 0$
 
-
+<div class = "boxed">
 <div id="CLT random vector"><strong>CLT for random vectors</strong></div>
 
-Suppose that $z_1, \ldots, z_n$ are iid distributed $K\times 1$ random vectors, with $E(z_i)=\mu$ and $\text{Var}(z_i)=\Sigma$ finite. \
-Let $\bar{z}\_n = \frac{1}{n}\sum_{i=1}^n z_i$ donote the $K\times 1$ vector os sample means for a sample of size $n$, and let $w_n = \sqrt{n}(\bar{z}\_n-\mu) = \frac{1}{\sqrt{n}}\sum_{i=1}^n(\bar{z}\_n-\mu)$. Then
+Suppose that $z_1, \ldots, z_n$ are iid distributed $K\times 1$ random vectors, with $E(z_i)=\mu$ and $\text{Var}(z_i)=\Sigma$ finite. <br/>
+
+Let $\bar{z}_n = \frac{1}{n}\sum_{i=1}^n z_i$ denote the $K\times 1$ vector of sample means for a sample of size $n$, and let 
+
+$$
+w_n = \sqrt{n}(\bar{z}_n-\mu) = \frac{1}{\sqrt{n}}\sum_{i=1}^n(\bar{z}_n-\mu).
+$$ 
+
+Then
 
 $$
 w_n \xrightarrow{d} N(\vec{0},\Sigma).
 $$
+</div>
 
 
-
-Note that, we do NOT require any of the following in order to ensure aymptotic normality:
+Note that, we do NOT require any of the following in order to ensure asymptotic normality:
 1. conditional homoskedasticity $(\text{Var}(u_i\vert x_i) = \sigma^2)$;
 2. linear conditional expectation $(\mathbb{E}(y_i\vert x_i) = x_i'\beta$ or the stronger form $\mathbb{E}(y\vert X) = X'\beta)$;
 3. normal conditional distribution $(y\vert X \sim N(X\beta, \sigma^2I))$.
@@ -164,7 +224,7 @@ $$
 \sqrt{n} (\hat{\beta}_{OLS}-\beta) \xrightarrow{d} N(0, V_\beta), 
 \end{equation}
 $$
- 
+
 or equivalently,
 
 $$
@@ -177,7 +237,7 @@ where
 
 $$
 V_\beta=\sigma^2M^{-1}_{XX}
-$$ 
+$$
 
 is the variance of the asymptotic distribution of $$\sqrt{n} (\hat{\beta}_{OLS}-\beta).$$ 
 Consequently, $V_\beta$ is often referred to as the **asymptotic covariance matrix** of $$\sqrt{n} \hat{\beta}_{OLS}.$$ $\sqrt{n}\beta$ can be omitted, as adding or subtracting a constant does not change the covariance.
@@ -209,7 +269,7 @@ $$
 
 Notice that $V_{\hat{\beta}}$ is the exact conditional variance of $\hat{\beta}$ and $V_\beta$ is the asymptotic variance of $\sqrt{n} (\hat{\beta}-\beta).$
 
-Given 
+Given
 
 $$
 \frac{1}{n}(X'X) \xrightarrow{p} M_{XX}
@@ -223,7 +283,6 @@ $$
 
 $V_\beta$ should be (roughly) $n$ times as large as $V_{\hat{\beta}}$, or $V_\beta \approx n V_{\hat{\beta}}.$
 As $n\to \infty$
-
 $$
 n V_{\hat{\beta}} \xrightarrow{p} V_\beta .
 $$
@@ -387,6 +446,190 @@ $$
 
 which follows from first-order Taylor series approximation for $f(\boldsymbol{\theta})$ around $\boldsymbol{\theta}_0$. 
 Higher-order terms converge to zero faster than $1/\sqrt{T}$ hence only the first term of the expansion matters for the asymptotic distribution of $f(\hat{\boldsymbol{\theta}})$.
+
+___
+
+**Sketch proof**
+
+Given Taylor's theorem, as long as $f$ is a continuous and derivable up to the $k$th derivative, where $k\ge ,2$ then at the point $\mu:$
+
+$$
+f(X_n)\approx f(\mu) + f'(\mu)(X_n-\mu).
+$$
+
+Subtracting $g(\mu),$ we have
+
+$$
+f(X_n)- f(\mu)\approx  f'(\mu)(X_n-\mu) .
+$$
+
+Assume
+
+$$
+X_n - \mu \overset{d}{\to} N(0, \frac{\sigma^2}{n}),
+$$
+
+
+we can rewrite the above as
+
+$$
+f(X_n)- f(\mu)\approx  f'(\mu)\, N(0, \frac{\sigma^2}{n}).
+$$
+
+Hence, we can write the distribution of $f(X_n)$ as
+
+$$
+f(X_n) \sim N\left(f(\mu),  \frac{f'(\mu)^2\sigma^2}{n}\right) .
+$$
+
+
+___
+
+**Example 1** Suppose that a sequence of $2\times 1$ random vector $\{\hat{\btheta}_n\}$ satisfies
+
+$$
+\sqrt{n}(\hat{\btheta}_n - \btheta_0) \overset{d}{\to} N(\bold{0},\bV)
+$$
+
+where the asymptotic mean is
+
+$$
+\btheta_0 = \begin{bmatrix}
+1 \\
+2
+\end{bmatrix}
+$$
+
+and the asymptotic covariance matrix is 
+
+$$
+\bV = \begin{bmatrix}
+2 & 1 \\
+1 & 1
+\end{bmatrix}
+$$
+
+We want to derive the asymptotic distribution of the sequence $$\{\hat{\theta}_{n,1}^2 + \hat{\theta}_{n,2}^3\}.$$
+
+
+Define the function 
+
+$$
+f(\btheta) = f(\theta_1, \theta_2) = \theta_1^2 + \theta_2^3 
+$$
+
+is continuously differentiable, so we can apply the delta method. The asymptotic mean of the transformed sequence is
+
+$$
+f(\btheta_0) = \hat{\theta}_{0,1}^2 + \hat{\theta}_{0,2}^3 = 1^2+2^3 = 8
+$$
+
+In order to compute the asymptotic covariance matrix, we need to compute the Jacobian of the function $f(\btheta)$, which is
+
+$$
+\begin{aligned}
+\bJ(\btheta) &= \nabla f(\boldsymbol{\theta}) \\
+&= \begin{bmatrix}
+\frac{\partial f(\theta_1, \theta_2)}{\partial \theta_1} & 
+\frac{\partial f(\theta_1, \theta_2)}{\partial \theta_2}
+\end{bmatrix}  \\
+&= \begin{bmatrix}
+2\theta_1 & 
+3\theta_2^2
+\end{bmatrix}
+\end{aligned}
+$$
+
+Evaluate at $\btheta_0:$
+
+$$
+\begin{aligned}
+\bJ(\btheta_0) &= \begin{bmatrix}
+2\theta_{0,1} & 
+3\theta_{0,2}^2
+\end{bmatrix} \\
+&= \begin{bmatrix}
+2\cdot 1 & 
+3\cdot 2^2
+\end{bmatrix} \\
+&= \begin{bmatrix}
+2 & 12
+\end{bmatrix}
+\end{aligned}
+$$
+
+
+Therefore, the asymptotic variance is
+
+$$
+\bJ(\btheta_0) \bV \bJ(\btheta_0)' = \begin{bmatrix}
+2 & 12
+\end{bmatrix}
+\begin{bmatrix}
+2 & 1 \\
+1 & 1
+\end{bmatrix}
+\begin{bmatrix}
+2 \\ 12
+\end{bmatrix} = 200
+$$
+
+and we can write
+
+$$
+\sqrt{n} \left(\hat{\theta}_{n,1}^2 + \hat{\theta}_{n,2}^3 - 9\right) \overset{d}{\to} N(0, 200)
+$$
+
+
+
+
+
+
+___
+
+**Example 2** Assume the same setup.
+Let $f(\boldsymbol{\theta}) = \theta_1 / \theta_2$. We want the asymptotic distribution of $$\{\hat{\theta}_{n,1}/ \hat{\theta}_{n,2}\}.$$
+
+**Step 1:** Gradient of $f$ at $\boldsymbol{\theta}_0$:
+
+$$
+\nabla f(\boldsymbol{\theta}) =
+\begin{bmatrix}
+\frac{\partial}{\partial \theta_1} \left( \frac{\theta_1}{\theta_2} \right) & \frac{\partial}{\partial \theta_2} \left( \frac{\theta_1}{\theta_2} \right)
+\end{bmatrix}
+= \begin{bmatrix}
+\frac{1}{\theta_2} & -\frac{\theta_1}{\theta_2^2}
+\end{bmatrix}
+$$
+
+Evaluate at $\boldsymbol{\theta}_0$:
+
+$$
+\nabla f(\boldsymbol{\theta}_0) = \begin{bmatrix} \frac{1}{2} & -\frac{1}{4} \end{bmatrix}
+$$
+
+
+**Step 2:** Apply the Delta Method:
+
+$$
+\sqrt{n} \left( f(\hat{\boldsymbol{\theta}}_n) - f(\boldsymbol{\theta}_0) \right)
+\overset{d}{\to} N\left(0, \nabla f(\boldsymbol{\theta}_0) \boldsymbol{V} \nabla f(\boldsymbol{\theta}_0)^\top \right)
+$$
+
+
+Compute the variance:
+
+$$
+\begin{aligned}
+\sigma^2 &= \begin{bmatrix} \frac{1}{2} & -\frac{1}{4} \end{bmatrix}
+\begin{bmatrix} 2 & 1 \\ 1 & 1 \end{bmatrix}
+\begin{bmatrix} \frac{1}{2} \\ -\frac{1}{4} \end{bmatrix} \\
+&=  \frac{5}{16}
+\end{aligned}
+$$
+
+
+___
 
 {% cite Hausman1978 %} exploits the fact that any asymptotically efficient estimator of a parameter $\theta$, say $\hat{\theta}_e$, must possess the property that it is asymptotically <u>uncorrelated</u>
 with the difference $\hat{\theta}_a - \hat{\theta}_e$, where $\hat{\theta}_a$ is any other estimator of $\theta$. 

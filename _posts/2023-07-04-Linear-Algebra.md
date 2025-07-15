@@ -1259,7 +1259,7 @@ $$
 and
 
 $$
-\var(\bA\bx) = \bA \var(\bx) \bA'.
+\color{#008B45}\var(\bA\bx) = \bA \var(\bx) \bA'.
 $$
 
 This matrix will be nonnegative definite.
