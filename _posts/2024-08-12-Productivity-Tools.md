@@ -60,7 +60,8 @@ Markdown Preview: <https://code.visualstudio.com/docs/languages/markdown#_markdo
 
 Useful Extensions:
 
-- `Markdown Preview Enhanced`, `Markdown+Math`
+- Markdown: `Markdown Preview Enhanced`, `Markdown+Math`, `Markdown All in One`
+- TeX: `LaTeX-Workshop`
 
 
 
@@ -73,6 +74,30 @@ Useful Extensions:
 5. Click the Replace all icon
 
 
+
+**Language Identifiers**
+
+In Visual Studio Code, each [language mode](https://code.visualstudio.com/docs/languages/overview#_changing-the-language-for-the-selected-file) has a unique specific language identifier. That identifier is rarely seen by the user except in the settings, for example, when associating file extensions to a language:
+
+```css
+"files.associations": {
+    "*.myphp": "php"
+}
+```
+
+Note that <span style='color:#008B45'>casing matters</span> for <span style='color:#008B45'>exact identifier</span> matching ('Markdown' != 'markdown')
+
+Every language defines its *id* through the `languages` configuration point in the extension's `package.json` file:
+
+```css
+"languages": [{
+    "id": "java",
+    "extensions": [ ".java", ".jav" ],
+    "aliases": [ "Java", "java" ]
+}]
+```
+
+You can find a list of known identifiers in the [language identifier reference](https://code.visualstudio.com/docs/languages/identifiers#_known-language-identifiers).
 
 
 
@@ -108,6 +133,22 @@ A: `.json` is a subset of `.js`, which stands for JavaScript.
   You can think of `.json` as a YAML frontmatter in markdown.
 
 - if you have some sort of logic (functions, conditions, loops ...), use `.js`.
+
+
+
+Q: How to customize language-specific setttings?  
+A: Open User Settings → Type `@lang:markdown` into the search widget. This will show configurable settings for that specific language. Alternatively, you can change directly in the settings JSON file.
+
+```css
+"[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "all",
+    "editor.acceptSuggestionOnEnter": "off"
+  }
+```
+
+
 
 
 
@@ -169,6 +210,7 @@ Q: How to get a preview of Rmarkdown?
 A: Open `settings.json`, add the following code inside the braces.
 
 ```css
+/* this adds additional file extensions to markdown */
 "files.associations": {
     "*.Rmd": "markdown",
     "*.qmd": "markdown",
@@ -176,6 +218,22 @@ A: Open `settings.json`, add the following code inside the braces.
 ```
 
 A drawback of this setting is that you cannot run codes inside the markdown files.
+
+
+
+Q: How to get autocomplete, syntax highlighting in Markdown?  
+A: Install `Latex Workshop` by James Yu → Switch Language Mode from `Markdown` to `markdown_latex_combined`.
+
+This will disable markdown preview! Therefore, not recommended. ❌
+
+Use `Markdown All in One` extension instead. ✅
+
+
+
+Q: How to change the language for the selected file?  
+A: In the status bar, click the language indicator. This will bring up the **Select Language Mode** dropdown where you can select another language for the current file.
+
+<img src="https://drive.google.com/thumbnail?id=1d1R_ErtbQeWARja7SbsTsusiP_5Z5hS1&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:120%;" />
 
 
 
@@ -261,7 +319,7 @@ ___
 
 ### Markdown+Math
 
-https://marketplace.visualstudio.com/items?itemName=goessner.mdmath
+<https://marketplace.visualstudio.com/items?itemName=goessner.mdmath>
 
 Use KaTeX, which is supposedly a fast math renderer.
 
@@ -310,6 +368,48 @@ But if you have associated `.qmd` with Markdown previewer as follows
 ```
 
 then it won't be recognized by the Quarto extension and will be processed as a regular markdown file.
+
+
+
+___
+
+### LaTeX-Workshop
+
+Snippets: <https://github.com/James-Yu/LaTeX-Workshop/wiki/Snippets#Handy-mathematical-snippets>
+
+The following works in `markdown` inside math environment
+
+| Prefix | Command |
+| ------ | ------- |
+| `__`   | `_{$1}` |
+| `**`   | `^{$1}` |
+| `...`  | `\dots` |
+
+Environment snippets works directly in `tex`, you type `B`, a drop-down list will show up for you to choose
+
+- In markdown, these cmds work only inside math environments (`$...$`)
+
+| Prefix | Environment name                           |
+| ------ | ------------------------------------------ |
+| `BEQ`  | `equation`                                 |
+| `BSEQ` | `equation*`                                |
+| `BAL`  | `align`                                    |
+| `BSAL` | `align*`                                   |
+| `BGA`  | `gather`                                   |
+| `BSGA` | `gather*`                                  |
+| `BMU`  | `multline`                                 |
+| `BSMU` | `multline*`                                |
+| `BIT`  | `itemize`                                  |
+| `BEN`  | `enumerate`                                |
+| `BSPL` | <span style='color:#008B45'>`split`</span> |
+| `BCAS` | `cases`                                    |
+| `BFR`  | `frame`                                    |
+| `BFI`  | `figure`                                   |
+| `BTA`  | `table`                                    |
+
+
+
+
 
 
 

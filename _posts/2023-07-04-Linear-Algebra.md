@@ -645,13 +645,14 @@ AB = \begin{bmatrix} a_{1} \\ \vdots  \\ a_{m} \end{bmatrix} B
 = \begin{bmatrix} a_{1}B \\ \vdots  \\ a_{m}B \end{bmatrix} 
 $$
 
-General rules for matrix multiplication:
+**General rules for matrix multiplication:**
 
-- Associative law: $(AB)C = A(BC)$
+- Associative law: $(AB)C = A(BC)$ 结合律 ✅
 - Distributive law: $A(B+C) = AB + BC$
 - Transpose of a product: $(AB)' = B'A'$
 - Transpose of an extended product: $(ABC)' = C'B'A'$ 
-- Matrix multiplication is NOT commutative: $AB \ne BA$
+- Matrix multiplication is NOT commutative: $AB \ne BA$ 交换律 ❌
+
 
 ___
 

@@ -510,9 +510,11 @@ What are the advantages and disadvantages of .... 注意跟英文的不同。挪
 
    
 
+<span style='color:#008B45'>å oppdra</span>, oppdrar, oppdro, har oppdratt: to raise, rear, bring up, educate
+
 godt oppdratt:  well brought up, well-raised
 
-en oppdragelse: upbringing*,* education
+en <span style='color:#008B45'>oppdragelse</span>: upbringing*,* education
 
 å sette grenser: to set boundaries
 
@@ -618,7 +620,7 @@ gjenbruk i sted for å kjøpe nytt
 
 Hva tenker dere om at undom streiker for miljøsaken?
 
-> Det virker at undom er ivrig med deltakelse i offenlig velferd og de andres velvære. Det er en positive tegn at undom ha hensyn til andre. Selv om klimaendringer kanskje påvirker ikke livene dere direkte eller vensenlig, de streiker for å gi en takevekker til politikere. De bryr seg sterkt om miljøet. Det gir håp for fremtida.
+> Det virker at undom er ivrig<span style='color:red'>e etter å delta</span> ~~med deltakelse~~ i offenlig velferd og de andres velvære. Det er en positive tegn at undom ~~ha~~ <span style='color:red'>ta**r**</span> hensyn til andre. Selv om klimaendringer kanskje <span style='color:red'>ikke</span> påvirker ~~ikke~~ livene dere<span style='color:red'>**s**</span> direkte eller vensenlig, <span style='color:red'>streiker</span> de ~~streiker~~ for å gi en tankevekke<span style='color:red'>**r**</span> til politikere. <u>De bryr seg sterkt om</u> miljøet. Det gir håp for fremtida.
 
 Er det noen poenger i talen til Grete Thunberg som dere synes er spesielt gode?
 

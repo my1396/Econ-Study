@@ -212,8 +212,7 @@ Strict exogeneity implies
     \E[u_i] = \E \left[\E[ u_i \vert \bx]\right] = 0
     $$
 
-Given that assumption 3 assumes diagonal covariance matrix, meaning observations on $(y_i, x_i')$ are *independent* over $i=1,\ldots, n
-$, so that
+Given that assumption 3 assumes diagonal covariance matrix, meaning observations on $(y_i, x_i')$ are *independent* over $i=1,\ldots, n$, so that
 
 $$
 \begin{align*}

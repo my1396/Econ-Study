@@ -17,7 +17,7 @@ A **realization** is a particular instance of a time series. It is one of the in
 
 An **ensemble** is the theoretical totality of all possible realizations. It is the *ensemble of realizations*. We can think of that as the population of realizations. When we are thinking of means and variances, we think of them in terms of the ensemble, even though we may only be able to look at a single realization.
 
-Say we have a stochastic process $\\{Z_t\\}_{t=1}^\infty$, we want to estimate the mean of the process, $\mu(Z_t)$. We have two candiate estimators: *ensemble average* and *time average*.
+Say we have a stochastic process $\\{Z_t\\}_{t=1}^\infty$, we want to estimate the mean of the process, $\mu(Z_t)$. We have two candidate estimators: *ensemble average* and *time average*.
 
 - Ensemble Average $\;\overline{\overline{z}} = \frac{1}{N}\sum_{k=1}^N Z_{t_0}^{(k)}$, where $N$ is the number of realizations we have in the ensemble; $t_0$ is any point in time.
 
@@ -139,20 +139,23 @@ Mean and Variance
   Q: Is stationarity sufficient for using time average as an estimator to the real mean? \
   A: No. Stationarity does not rule out autocorrelation, that is the covariance/correlation depends on how far apart the two time points are. Therefore, we need *Ergodicity* to reach this goal.
 
-- Ergodic **Theorem** \
-  If $Z_t$ is strictly stationary and ergodic and $E[Z_t]<\infty$, and if $\overline{Z}\_T = \frac{1}{T}\sum_{t=1}^T Z_t$, then as $T\to\infty$
+  <div class = "boxed">
+  <strong>Ergodic Theorem </strong>
+  If $\{Z_t\}_{t=-\infty}^{t=\infty}$ is a time series process which is strictly stationary and ergodic, and $E[\abs{Z_t}]<\infty$, and if $\overline{Z}_T = \frac{1}{T}\sum_{t=1}^T Z_t$, then as $T\to\infty$
 
   $$
-  \sqrt{T}\, \overline{Z}_T \xrightarrow{p} E[Z_t].
+  \overline{Z}_T \xrightarrow{a.s.} E[Z_t].
   $$
+  </div>
 
   The ergodic theorem is a LLN for stochastic processes. It is a substantial generalization of Kolmongorov’s LLN because it allows for serial dependence in the time series.
 
   These results allow us to consistently estimate parameters using time series moments. Recall that consistency of an estimator means:
   - the estimator is asymptotically unbiased, and
-  - its variance asymptotically collapeses to zero.
+  - its variance asymptotically collapses to zero.
 
-  Q: Is the time average is asympototically unbiased? Yes. Stationarity ensures that.
+  Q: Is the time average is asymptotically unbiased? \
+  A: Yes. Stationarity ensures that.
 
   $$
   \begin{aligned}
@@ -162,7 +165,8 @@ Mean and Variance
   \end{aligned}
   $$
 
-  Q: Is the variance going to zero as $T$ grows? Yes. Ergodicity ensures that.
+  Q: Is the variance going to zero as $T$ grows? \
+  A: Yes. Ergodicity ensures that.
   
   $$
   \begin{aligned}
@@ -173,11 +177,13 @@ Mean and Variance
   &= \frac{\gamma_0}{T^2} \sum_{t=1}^n\sum_{s=1}^n \rho_{t-s} \\
   &= \frac{\gamma_0}{T^2} \sum_{t=1}^n (\rho_{t-1}+\rho_{t-2}+\cdots+\rho_{t-n}) \\
   &= \frac{\gamma_0}{T^2} \left(T\rho_0 + 2(T-1)\rho_1 + 2(T-2)\rho_2 + \cdots + 2\,\rho_{T-1} \right) \\
-  &= \frac{\gamma_0}{T} \sum_{k=1-T}^{T-1} (1-\frac{\vert k \vert}{T})\rho_k
+  &= \color{#008B45}\frac{\gamma_0}{T} \sum_{k=1-T}^{T-1} (1-\frac{\vert k \vert}{T})\rho_k
   \end{aligned}
   $$
 
-  $\gamma(t-s)$ is called the auto-covariance funtion. It is a function of the time shift, $k$. $\gamma(0)$ is the variance, $\gamma(0)=\sigma^2$.
+  $\gamma(t-s)$ is called the auto-covariance function. It is a function of the time shift, $k$. 
+  
+  $\gamma(0)$ is the variance, $\gamma(0)=\sigma^2$.
 
   $\rho(t-s)$ is the auto-correlation function. 
 
@@ -229,13 +235,13 @@ The mean function $\mu_t$ is independent of $t$;
 2. $\text{Cov}(X_t, X_{t-j}) = \Gamma_j \text{ for } \forall j\ge 0 \,.$\
  The covariance between two observations, $\gamma_t(k)$, <span style='color:#337ab7'>depends only on the time lag $k$ and is independent of $t$</span>.
 
-*Nothing* is assumed about the collection of *joint distributions* of the process. Instead, we only are specifying the characteristics of the first two **moments** of the process.
+*Nothing* is assumed about the collection of *joint distributions* of the process. Instead, we only are specifying the characteristics of the <span style='color:#337ab7'>first two **moments**</span> of the process.
 
 ___
 
 ## Strictly Stationary
 
-We say $\lbrace Z_t\rbrace_{t=0}^n$ is <span style='color:#008B45'>*strictly (or strongly) stationary*</span> if the same joint distribution of
+We say $\lbrace Z_t\rbrace_{t=0}^n$ is <span style='color:#008B45'>*strictly (or strongly) stationary*</span> if the <span style='color:#337ab7'>joint distribution</span> of
 
 $$
 (Z_{t_1}, \ldots, Z_{t_n})
@@ -279,7 +285,7 @@ This implies
 
     $\gamma_{t, t-k}$ can be simplied as $\gamma(k)$ as the covariance between any two observations depends only on the time lag between them, not on $t$.
 
-4. An IID sequence is strictly stationary.
+1. An IID sequence is strictly stationary.
 
 *REMARK*: Strict stationarity is a condition that is much *too restrictive* for most applications. Moreover, it is difficult to assess the validity of this assumption in practice. Rather than imposing conditions on all possible (marginal and joint) distributions of a process, we will use a milder form of stationarity that only deals with the first two moments — Weak Stationarity.
 
@@ -317,20 +323,20 @@ are functions of sample averages of squares and cross-products of the original d
 
 
 <div class = "boxed">
-<strong>Theorem</strong>  Any transformation $g(.)$ of a stationary and ergodic process $\{Y_t\}$ is also stationary and ergodic. That is,  $\{g(Y_t)\}$ is stationary and ergodic. Therefore, if $E[g(Y_t)]$ exists then the ergodic theorem gives
+<strong>Ergodicity of Functions Theorem</strong>  Any transformation $g(.)$ of a stationary and ergodic process $\{Y_t\}$ is also stationary and ergodic. That is,  $\{g(Y_t)\}$ is stationary and ergodic. Therefore, if $E[g(Y_t)]$ exists then the ergodic theorem gives
 
 $$
 \overline{g} = \frac{1}{T} \sum_{t=1}^T g(Y_t) \xrightarrow{p} E[g(Y_t)]
 $$
 </div>
 
-Application of the theorem: the sample autocovariances 
+Application of the theorem: the <span style='color:#337ab7'>sample autocovariances</span> 
 
 $$
 \hat{\gamma}_{t}(j) = \frac{1}{T} \sum_{t=j+1}^T (Y_t-\overline{Y})(Y_{t-j}-\overline{Y})
 $$
 
-converge in probability to the population autocovariances 
+converge in probability to the <span style='color:#337ab7'>population autocovariances</span> 
 
 $$
 \gamma_{t}(j) = \text{Cov}(Y_t, Y_{t-j}) = E[(Y_t-\mu)(Y_{t-j}-\mu)].
@@ -338,3 +344,8 @@ $$
 
 - $\gamma$ denotes *autocovariance* coefficients; $\rho$ denotes *autocorrelation* coefficients. \
   $\gamma(1)$ is called the autocovariance function of lag 1 and $\rho(1)$ the autocorrelation function or lag 1.
+
+
+References:
+
+- Chapter 12.4 Serial Correlation, Greene, Econometric Analysis, 5ed, pp 259.

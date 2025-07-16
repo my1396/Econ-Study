@@ -88,11 +88,10 @@ For OLS estimator to have a limit distribution which is normal (aka *asymptotic 
 &emsp;&ensp;Conditions <a href="#ass1">**1)**</a> to <a href="#ass3">**3)**</a> in the consistency assumptions above; in addition to a new assumption:
 
 <ol type="p1" start="4">
-<li id="ass4"> The $K\times K$ moment matrix $\color{#008B45}M_{X\Omega X}=\mathbb{E}[x_iu_iu_i'x_i']$ exists and is non-singular, where $\color{#008B45}\Omega=\mathbb{E}[uu'\vert X]$ is the <strong>error covariance matrix</strong>. (this assumption ensures asymptotic normality) </li>
+<li id="ass4"> The $K\times K$ moment matrix $\color{#008B45}M_{X\Omega X}=\mathbb{E}[x_iu_iu_i'x_i']$ exists and is non-singular, where $\color{#008B45}\Omega=\mathbb{E}[uu'\vert X]$ is an $n\times n$ <strong>error covariance matrix</strong>. (this assumption ensures asymptotic normality) </li>
 </ol>
 
 Different forms of error covariance matrices:
-
 
 - **Homoskedasticity and Non-Autocorrelation** (spherical disturbances)
 
@@ -133,6 +132,18 @@ $$
 \end{bmatrix} 
 $$
 
+
+- **Autocorrelation and Heteroskedasticity**
+
+$$
+\bOmega = \begin{bmatrix}
+\sigma_{11} & \sigma_{12} & \cdots & \sigma_{1n} \\
+\sigma_{12} & \sigma_{22} & \cdots & \sigma_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+\sigma_{1n} & \sigma_{2n} & \cdots & \sigma_{nn}
+\end{bmatrix} 
+$$
+
 Conditions <a href="#ass4">**4)**</a> satisfies the 2nd order moment requirement, combining with <a href="#ass3">**3)**</a>, the 1st order moment condition, we can apply the Central Limit Theorem to $\frac{1}{n}X'u$.
 
 
@@ -142,7 +153,7 @@ $$
 \begin{aligned}
 \text{Var}(x_iu_i) 
 &= E[(x_iu_i)(x_iu_i)'] \\
-&= E(u_i^2x_ix_i') \quad (\text{This holds only for Non-Autocorrelation disturbances})\\
+&= E(u_i^2x_ix_i') \\
 &= M_{X\Omega X}
 \end{aligned}
 $$ 
@@ -211,7 +222,25 @@ Note that, we do NOT require any of the following in order to ensure asymptotic 
 2. linear conditional expectation $(\mathbb{E}(y_i\vert x_i) = x_i'\beta$ or the stronger form $\mathbb{E}(y\vert X) = X'\beta)$;
 3. normal conditional distribution $(y\vert X \sim N(X\beta, \sigma^2I))$.
 
-The limit distribution is
+<span style='color:#008B45'>Under classical assumptions</span>, i.e., homoskedastic and no serial correlation errors, 
+
+
+$$
+M_{X\Omega X}=\sigma^2\E(x_ix_i')=\sigma^2M_{XX} .
+$$
+
+The asymptotic covariance matrix of $\sqrt{n}(\hat{\beta}-\beta)$ is then
+
+$$
+\begin{split}
+V_{\beta} 
+&= M_{XX}^{-1}M_{X\Omega X}M_{XX}^{-1} \\
+&= \sigma^2M_{XX}^{-1}M_{XX}M_{XX}^{-1} \\
+&= \sigma^2M_{XX}^{-1} .
+\end{split}
+$$
+
+Hence, the limit distribution is
 
 $$
 \sqrt{n} (\hat{\beta}_{OLS}-\beta) \xrightarrow{d} N(0, \sigma^2M^{-1}_{XX})
@@ -251,7 +280,7 @@ In practice, $\sqrt{n}$ is often omitted too, you may see $V_\beta$ referred to 
 **Alternative notation** for the asymptotic variance of $\sqrt{n} (\hat{\beta}_{OLS}-\beta):$
 
 $$
-V_\beta = \color{#008B45}\text{aVar}\left(\sqrt{n} (\hat{\beta}_{OLS}-\beta) \right)
+V_\beta = \color{#008B45}\text{avar}\left(\sqrt{n} (\hat{\beta}_{OLS}-\beta) \right)
 $$
 
 
@@ -262,7 +291,7 @@ Distinguish the <span style='color:#008B45'>**asymptotic variance** $V_\beta$</s
 
 $$
 \begin{split}
-V_\beta &= \text{aVar}\left(\sqrt{n} (\hat{\beta}-\beta) \right) = \color{#008B45}\sigma^2M^{-1}_{XX} \\
+V_\beta &= \text{avar}\left(\sqrt{n} (\hat{\beta}-\beta) \right) = \color{#008B45}\sigma^2M^{-1}_{XX} \\
 V_{\hat{\beta}} &= \var{(\hat{\beta} \mid X)} = \color{#337ab7} \sigma^2 (X'X)^{-1} .
 \end{split}
 $$
@@ -282,7 +311,8 @@ n(X'X)^{-1} \xrightarrow{p} M_{XX}^{-1}  .
 $$
 
 $V_\beta$ should be (roughly) $n$ times as large as $V_{\hat{\beta}}$, or $V_\beta \approx n V_{\hat{\beta}}.$
-As $n\to \infty$
+As $n\to \infty,$
+
 $$
 n V_{\hat{\beta}} \xrightarrow{p} V_\beta .
 $$
@@ -331,7 +361,7 @@ $$
 \hat{\sigma}^2_{ML} = \frac{\hat{u}'\hat{u}}{n}
 $$
 
-are consistent estimators of $\sigma^2$ (only $\hat{\sigma}^2_{OLS}$ is unbiased).
+are **consistent** estimators of $\sigma^2$ (only <span style='color:#008B45'>$\hat{\sigma}^2_{OLS}$ is **unbiased**</span>).
 
 Using Slutsky's theorem (continuous mapping theorem), a natural plug-in estimator for $V_\beta$ is
 
@@ -364,13 +394,203 @@ which is the same as the exact finite sample conditional variance $\text{Var}(\h
 
 ___
 
+
+## Nonspherical disturbances
+
+Under nonspherical disturbances, we need a more general form of the estimator for the asymptotic covariance matrix of $\sqrt{n}(\hat{\beta}-\beta).$
+
+$M_{X\Omega X}$ cannot be simplified to $\sigma^2 M_{XX}$ anymore.
+
+$$
+\begin{split}
+\text{Var}(\hat{\beta}-\beta)
+&= (X'X)^{-1}(X'uu'X)(X'X)^{-1} \\ 
+&= \frac{1}{n} \left(\frac{1}{n}X'X\right)^{-1} \left(\frac{1}{n}X'uu'X\right) \left(\frac{1}{n}X'X\right)^{-1}
+\end{split}
+$$
+
+Multiple by $\sqrt{n}$
+
+$$
+\begin{split}
+\text{Var}(\sqrt{n}(\hat{\beta}-\beta))
+&=  \left(\frac{1}{n}X'X\right)^{-1} \left(\frac{1}{n}X'uu'X\right) \left(\frac{1}{n}X'X\right)^{-1}
+\end{split}
+$$
+
+We still let 
+
+$$
+\text{plim} \left(\frac{1}{n}X'X\right)^{-1} = M_{XX}^{-1} .
+$$
+
+Now we focus on the central part.
+
+$$
+\begin{split}
+X'uu'X &= \begin{pmatrix}
+x_1 & x_2 & \cdots & x_n
+\end{pmatrix}
+\begin{pmatrix}
+    \sigma_{11} & \sigma_{12} & \cdots & \sigma_{1n} \\
+    \sigma_{21} & \sigma_{22} & \cdots & \sigma_{2n} \\
+    \vdots & \vdots & \ddots & \vdots \\
+    \sigma_{1n} & \sigma_{2n} & \cdots & \sigma_{nn}
+\end{pmatrix}
+\begin{pmatrix}
+    x_1' \\
+    x_2' \\
+    \vdots \\
+    x_n'
+\end{pmatrix} \\
+&= \begin{pmatrix} 
+x_1\sigma_{11} + x_2\sigma_{21} + \cdots + x_n\sigma_{n1} \\
+x_1\sigma_{12} + x_2\sigma_{22} + \cdots + x_n\sigma_{n2} \\
+\vdots \\
+x_1\sigma_{1n} + x_2\sigma_{2n} + \cdots + x_n\sigma_{nn}
+\end{pmatrix}'
+\begin{pmatrix}
+    x_1' \\
+    x_2' \\
+    \vdots \\
+    x_n'
+\end{pmatrix} \\
+&= x_1\sigma_{11}x_1' + x_2\sigma_{22}x_1' + \cdots + x_n\sigma_{n1}x_1' \\ 
+&\phantom{=} \quad + x_1\sigma_{12}x_2' + x_2\sigma_{22}x_2' + \cdots + x_n\sigma_{n2}x_2' \\
+&\phantom{=} \quad + \cdots \\
+&\phantom{=} \quad + x_1\sigma_{1b}x_n' + x_2\sigma_{2b}x_n' + \cdots + x_n\sigma_{nn}x_n' \\
+&= \sum_{i=1}^n \sum_{j=1}^n x_ix_j'\sigma_{ij} 
+\end{split}
+$$
+
+Case 1: Homoskedastic and no serial correlation
+
+$$
+\begin{split}
+\sigma_{ij} &= 0 & \quad & \text{ for } i\ne j \text{ and } \\
+\sigma_{ii} &= \sigma^2 & \quad & \text{ for } i=1, \ldots, n 
+\end{split}
+$$
+
+Then we have
+
+$$
+\frac{1}{n} X'uu'X = \frac{1}{n}\sum_{i=1}^n x_ix_i'\sigma^2 = \frac{\sigma^2}{n} \sum_{i=1}^n x_ix_i' =  \frac{\sigma^2}{n}X'X
+$$
+
+Case 2: Heteroskedastic and no serial correlation
+
+$$
+\begin{split}
+\sigma_{ij} &= 0 & \quad & \text{ for } i\ne j \text{ and } \\
+\sigma_{ii} &= \sigma^2_i & \quad & \text{ for } i=1, \ldots, n 
+\end{split}
+$$
+
+Then we have
+
+$$
+\begin{split}
+\frac{1}{n} X'uu'X &= \frac{1}{n}\sum_{i=1}^n x_ix_i'\sigma^2_i \\
+&= \frac{1}{n}X'\begin{pmatrix}
+\sigma_1^2 & 0 & \cdots & 0 \\
+0 & \sigma_2^2 & \cdots & 0 \\
+\vdots & \vdots & \ddots & \vdots \\
+0 & 0 & \cdots & \sigma_n^2
+\end{pmatrix}X
+\end{split}
+$$
+
+Case 3: Heteroskedastic and serial correlation
+
+$$
+\begin{split}
+\frac{1}{n} X'uu'X &= \frac{1}{n}\sum_{i=1}^n x_ix_i'\sigma_{ij} \\
+\end{split}
+$$
+
+
+
+Recall the asymptotic covariance is given by
+
+$$
+V_{\beta} = \text{avar}(\sqrt{n}(\hat{\beta}-\beta)) = M_{XX}^{-1}M_{X\Omega X}M_{XX}^{-1}
+$$
+
+
+Estimators for the asymptotic covariance matrix:
+
+$$
+\widehat{V}_\beta = \widehat{M}_{XX}^{-1} \widehat{M}_{X\Omega X} \widehat{M}_{XX}^{-1}
+$$
+
+The moment estimators are given by:
+
+$$
+\begin{split}
+\widehat{M}_{XX} &= \frac{1}{n}\sum_{i=1}^n x_ix_i' \xrightarrow{p} \E(x_ix_i) = M_{XX} \\
+\widehat{M}_{X\Omega X} &= \frac{1}{n}\sum_{i=1}^n\sum_{i=h}^n x_ix_j'\hat{u}_i\hat{u}_j \xrightarrow{p} \E(x_ix_j\sigma_{ij}) = M_{X\Omega X} \\
+\end{split}
+$$
+
+Thus
+
+$$
+\widehat{V}_\beta = \left(\frac{1}{n}\sum_{i=1}^n x_ix_i' \right)^{-1} \left(\frac{1}{n}\sum_{i=1}^n x_ix_i'  \hat{u}_i\hat{u}_j \right) \left(\frac{1}{n}\sum_{i=1}^n x_ix_i' \right)^{-1}
+$$
+
+- Under **homoskedasticity and no serial correlation**, we have
+
+    $$
+    \widehat{M}_{X\Omega X} = \frac{\hat{\sigma}^2}{n}\sum_{i=1}^n x_ix_i' 
+    $$
+
+    where
+
+    $$
+    \hat{\sigma}^2 = \frac{\sum_{i=1}^n \hat{u}_i^2}{n-K}
+    $$
+
+    and
+
+    $$
+    \begin{split}
+    \widehat{V}_\beta &= \left(\frac{1}{n}\sum_{i=1}^n x_ix_i' \right)^{-1} \left(\frac{\hat{\sigma}^2}{n}\sum_{i=1}^n x_ix_i' \right) \left(\frac{1}{n}\sum_{i=1}^n x_ix_i' \right)^{-1} \\
+    &= \hat{\sigma}^2 \left(\frac{1}{n}\sum_{i=1}^n x_ix_i' \right)^{-1} \\
+    &= n\,\hat{\sigma}^2 (X'X)^{-1}  \\
+    &= n\, \widehat{V}_{\hat{\beta}} 
+    \end{split}
+    $$
+
+    where $$\widehat{V}_{\hat{\beta}} = \hat{\sigma}^2 (X'X)^{-1}$$ is the estimator of the finite sample conditional variance of $\hat{\beta}_{OLS}$.
+
+- Under **heteroskedasticity and no serial correlation**, we have
+
+    $$
+    \widehat{M}_{X\Omega X} = \frac{1}{n}\sum_{i=1}^n x_ix_i' \hat{u}^2_i
+    $$
+
+    and
+
+    $$
+    \begin{split}
+    \widehat{V}_\beta &= \left(\frac{1}{n}\sum_{i=1}^n x_ix_i' \right)^{-1} \left(\frac{1}{n}\sum_{i=1}^n x_ix_i'  \hat{u}^2_i\right) \left(\frac{1}{n}\sum_{i=1}^n x_ix_i' \right)^{-1}  \\
+    \widehat{V}_\hat{\beta} &= \widehat{V}_\beta/n 
+    \end{split}
+    $$
+
+
+___
+
 ## Hypothesis testing
 
-Without knowing the distribution of $u\vert X$, we use asymptotic results to approximate the distribution of $\hat{\beta}_{OLS}$ in large finite sample.
+Without knowing the distribution of $u\vert X$, we use asymptotic results to approximate the distribution of $\hat{\beta}_{OLS}$ in **large finite sample**.
 
-Let the scalar $\hat{v}_{kk}$ denote the $k^{\text{th}}$ element of the main diagonal of the variance matrix. 
+Let the scalar $\hat{v}_{kk}$ denote the $k^{\text{th}}$ element of the main diagonal of the variance matrix
 
-$\hat{V}/n=\hat{\sigma}^2_{OLS}(X'X)^{-1}$. 
+$$
+\widehat{V}_{\beta}/n=\hat{\sigma}^2_{OLS}(X'X)^{-1} .
+$$
 
 Since 
 
@@ -639,8 +859,8 @@ efficiency of $\hat{\theta}_e$. The result follows directly, then, since:
 
 $$
 \begin{aligned}
-\text{aVar} [\hat{\theta}_a] &= \text{aVar} [\hat{\theta}_e + \hat{\theta}_a - \hat{\theta}_e] = \text{aVar} [\hat{\theta}_e] + \text{aVar} [\hat{\theta}_a - \hat{\theta}_e] \\
-& \Longrightarrow \text{aVar} [\hat{\theta}_a - \hat{\theta}_e] = \text{aVar} [\hat{\theta}_a] - \text{aVar} [\hat{\theta}_e]
+\text{avar} [\hat{\theta}_a] &= \text{avar} [\hat{\theta}_e + \hat{\theta}_a - \hat{\theta}_e] = \text{avar} [\hat{\theta}_e] + \text{avar} [\hat{\theta}_a - \hat{\theta}_e] \\
+& \Longrightarrow \text{avar} [\hat{\theta}_a - \hat{\theta}_e] = \text{avar} [\hat{\theta}_a] - \text{avar} [\hat{\theta}_e]
 \end{aligned}
 $$
 

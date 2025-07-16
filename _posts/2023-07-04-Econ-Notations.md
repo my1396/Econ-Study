@@ -22,6 +22,10 @@ Blackboard bold 黑板粗体 (`\mathbb`) is often used to denote **sets of numbe
 - $\exists$ (`\exists`) means there exists.
 - $\not\exists$ (`\not\exists`) means there does not exist.
 
+- $E\left[\abs{Z_t}\right]<\infty$ means the expected value of the absolute value of $Z_t$ is finite.
+
+
+___
 
 **Indicator function**: $\mathbb{1}(\text{condition})$ or $I(\text{condition})$
 

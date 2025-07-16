@@ -357,9 +357,9 @@ $$
 
 
 
-- Text above arrows. $\xrightarrow{d}$ `\xrightarrow{d}` convergence in distribution.
+- Text above arrows. $\xrightarrow{d}$ <span style='color:#008B45'>`\xrightarrow{d}`</span> convergence in distribution.
 
-  If you want to use a longer arrow, you can use `\overset`: $\overset{d}{\longrightarrow}$ (`\overset{d}{\longrightarrow}`).
+  If you want to use a longer arrow, you can use <span style='color:#008B45'>`\overset`</span>: $\overset{d}{\longrightarrow}$ (`\overset{d}{\longrightarrow}`).
 
 - $n\to\infty$  (`n\to\infty`): as $n$ approximates to infinity.
 

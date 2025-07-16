@@ -104,10 +104,10 @@ $$
 \end{align*}
 $$
 
-It repsents a transformation from condictional to unconditional expectaion.
+It represents a transformation from conditional to unconditional expectation.
 The expected value (this expectation is with respect to  $X$) of the conditional expectation of $Y$ given $X$ is the expected value of $Y$.
 
-LIE is also calld the *law of total expectation*, which can be derived from the *law of total probability*. We will see this in what follows. LIE is also referred to as "Adam’s Law."
+LIE is also called the *law of total expectation*, which can be derived from the *law of total probability*. We will see this in what follows. LIE is also referred to as "Adam’s Law."
 
 ___
 
@@ -273,12 +273,12 @@ $$
 
 Ths is, $\mathbb{E}(y)$ is simply a weighted average of the $\mathbb{E}(y\vert \mathbf{x}=\mathbf{c}_i)$, where the weight $p_i$ is the probability that $\mathbf{x}$ takes on the value of $\mathbf{c}_i$. In other words, a weighted average of averages.
 
-E.g., suppose we are intrested in average IQ generally, but we have measures of average IQ by gender. We could figure out the quantity of interest by weighting average IQ by the relative proportions of men and women.
+E.g., suppose we are interested in average IQ generally, but we have measures of average IQ by gender. We could figure out the quantity of interest by weighting average IQ by the relative proportions of men and women.
 
 
 Bayes' Theorem 贝叶斯定理
 
-Partition Theorem (total expectation theorem, law of total probability) Ituition
+Partition Theorem (total expectation theorem, law of total probability) Intuition
 
 $$
 \mathbb{P}(\text{eventual goal}) = \sum_{\text{options}} \mathbb{P}(\text{eventual goal}|\text{option})\, \mathbb{P}(\text{option})
@@ -929,7 +929,7 @@ f_{X_2\vert X_1}(X_2=x_2\vert X_1=x_1) &= \frac{f_{X_1 X_2}(X_1=x_1, X_2=x_2)}{f
 $$
 
 Note that nominator is the <span style='color:#337ab7'>joint density</span>, denominator is the <span style='color:#337ab7'>marginal density</span>.\
-Conditinal pdf could be written more succinctly as
+Conditional pdf could be written more succinctly as
 
 $$
 \begin{aligned}
@@ -1289,7 +1289,7 @@ ___
 - Formal definition of convergence is: \
   Let $X_n=c+\frac{1}{n}$ for $n=1,2, \ldots$ and some constant $c$. $X_n$ converges to $c$ iff for $\forall \delta>0$, there exists some values $n^{\ast}$ such that for all $n>n^*$ we have $\vert X_n-c \vert < \delta$.
 
-- Convergence in Probabiliy, $\lim_{n\to\infty}P(\vert X_n-c\vert < \varepsilon) =1$, denoted as $\text{plim}_{n\to\infty}X_n=c$, or $X_n \xrightarrow{p} c$.
+- Convergence in Probability, $\lim_{n\to\infty}P(\vert X_n-c\vert < \varepsilon) =1$, denoted as $\text{plim}_{n\to\infty}X_n=c$, or $X_n \xrightarrow{p} c$.
 
 - Almost Sure Convergence, $P(\lim_{n\to\infty}\vert X_n-c\vert =0)=1$, denoted as $X_n \xrightarrow{a.s.} c$.
 
@@ -1400,7 +1400,7 @@ ___
 
   The ergodic theorem shows that ergodicity is sufficient for consistent estimation.
 
-  Note that instead of requireing iid, ergodicity imposes a weaker assumption which requires only stationarity and ergodicity. That is, serial dependence is allowed for in the time series.
+  Note that instead of requiring iid, ergodicity imposes a weaker assumption which requires only stationarity and ergodicity. That is, serial dependence is allowed for in the time series.
 
 
 
@@ -1529,7 +1529,7 @@ $$
 
 Change of Variable for a **Double Integral**
 
-Let $X$ and $Y$ be two jointly continuous random variables. Let $(Z, W) = g(X,Y) = (g_1(X,Y), g_2(X,Y))$, where $g$: $\mathbb{R}^2 \mapsto \mathbb{R}^2$ is a continuous one-to-one (invertiable) funtion with continuous partial derivatives.
+Let $X$ and $Y$ be two jointly continuous random variables. Let $(Z, W) = g(X,Y) = (g_1(X,Y), g_2(X,Y))$, where $g$: $\mathbb{R}^2 \mapsto \mathbb{R}^2$ is a continuous one-to-one (invertible) function with continuous partial derivatives.
 
 Let $h=g^{-1}$, i.e., the inverse function that takes $(Z,W)$ and returns $(X,Y)$, $(X,Y)=h(Z,W)=(h_1(Z,W),h_2(Z,W))$. 
 
