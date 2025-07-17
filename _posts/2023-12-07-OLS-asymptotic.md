@@ -413,7 +413,7 @@ Multiple by $\sqrt{n}$
 
 $$
 \begin{split}
-\text{Var}(\sqrt{n}(\hat{\beta}-\beta))
+\text{Var}\left(\sqrt{n}(\hat{\beta}-\beta)\right)
 &=  \left(\frac{1}{n}X'X\right)^{-1} \left(\frac{1}{n}X'uu'X\right) \left(\frac{1}{n}X'X\right)^{-1}
 \end{split}
 $$
@@ -463,7 +463,7 @@ x_1\sigma_{1n} + x_2\sigma_{2n} + \cdots + x_n\sigma_{nn}
 \end{split}
 $$
 
-Case 1: Homoskedastic and no serial correlation
+**Case 1**: Homoskedastic and no serial correlation
 
 $$
 \begin{split}
@@ -478,7 +478,7 @@ $$
 \frac{1}{n} X'uu'X = \frac{1}{n}\sum_{i=1}^n x_ix_i'\sigma^2 = \frac{\sigma^2}{n} \sum_{i=1}^n x_ix_i' =  \frac{\sigma^2}{n}X'X
 $$
 
-Case 2: Heteroskedastic and no serial correlation
+**Case 2**: Heteroskedastic and no serial correlation
 
 $$
 \begin{split}
@@ -501,7 +501,7 @@ $$
 \end{split}
 $$
 
-Case 3: Heteroskedastic and serial correlation
+**Case 3**: Heteroskedastic and serial correlation
 
 $$
 \begin{split}
@@ -518,13 +518,13 @@ V_{\beta} = \text{avar}(\sqrt{n}(\hat{\beta}-\beta)) = M_{XX}^{-1}M_{X\Omega X}M
 $$
 
 
-Estimators for the asymptotic covariance matrix:
+The estimator for the asymptotic covariance matrix:
 
 $$
 \widehat{V}_\beta = \widehat{M}_{XX}^{-1} \widehat{M}_{X\Omega X} \widehat{M}_{XX}^{-1}
 $$
 
-The moment estimators are given by:
+The moment estimators under general dependence are given by:
 
 $$
 \begin{split}
@@ -536,7 +536,9 @@ $$
 Thus
 
 $$
+\begin{equation}\label{eq-V-beta-general}
 \widehat{V}_\beta = \left(\frac{1}{n}\sum_{i=1}^n x_ix_i' \right)^{-1} \left(\frac{1}{n}\sum_{i=1}^n x_ix_i'  \hat{u}_i\hat{u}_j \right) \left(\frac{1}{n}\sum_{i=1}^n x_ix_i' \right)^{-1}
+\end{equation}
 $$
 
 - Under **homoskedasticity and no serial correlation**, we have
@@ -573,11 +575,48 @@ $$
     and
 
     $$
+    \begin{equation}\label{eq-V-beta-heteroskedasticity}
     \begin{split}
     \widehat{V}_\beta &= \left(\frac{1}{n}\sum_{i=1}^n x_ix_i' \right)^{-1} \left(\frac{1}{n}\sum_{i=1}^n x_ix_i'  \hat{u}^2_i\right) \left(\frac{1}{n}\sum_{i=1}^n x_ix_i' \right)^{-1}  \\
     \widehat{V}_\hat{\beta} &= \widehat{V}_\beta/n 
-    \end{split}
+    \end{split}    
+    \end{equation}
     $$
+
+    Eq. \eqref{eq-V-beta-heteroskedasticity} is called the **White heteroskedasticity consistent estimator**. It can be used to estimate the asymptotic covariance matrix of OLS estimator under heteroskedasticity.
+
+- Eq \eqref{eq-V-beta-general} is an extension of White's estimator to the more general case of autocorrelation.
+
+There are two problems wth the following estimator:
+
+$$
+\begin{equation}\label{eq-MX-omegaX}
+\widehat{M}_{X\Omega X} = \frac{1}{n}\sum_{i=1}^n\sum_{i=h}^n x_ix_j'\hat{u}_i\hat{u}_j
+\end{equation}
+$$
+
+1. $\widehat{M}_{X\Omega X}$ is $\frac{1}{n}$ times a sum of $n^2$ terms, so it is difficult to conclude yet that it will converge to a finite limit as $n\to\infty$. This is most likely to arise in a time-series setting. 
+
+    To obtain convergence, it is necessary to assume that $\sigma_{ij}$ would diminish as $\abs{i-j}$ increases, i.e., the covariance between $u_i$ and $u_j$ is small for large $\abs{i-j}$. This is a common assumption in time series econometrics, known as **stationarity**.
+
+    In practical terms, observation pairs are progressively less correlated as their separation in time grows.
+
+
+2. The estimator in Eq. \eqref{eq-MX-omegaX} is not guaranteed to be positive definite, which is a requirement for the covariance matrix. This can be resolved by using a more general form of the estimator. Newey and West (1987) proposed an estimator that overcomes this difficulty:
+
+    $$
+    \begin{equation}\label{eq-MX-omegaX-NW}
+    \widehat{M}_{X\Omega X} = \frac{1}{n}\sum_{i=1}^n x_tx_t' \hat{u}^2_t + \frac{1}{n}\sum_{\ell=1}^L\sum_{t=\ell+1}^n \left(1-\frac{\ell}{L+1}\right) \hat{u}_t\hat{u}_{t-\ell} \left(x_tx_{t-\ell}'+x_{t-\ell}x_t'\right)
+    \end{equation}
+    $$
+
+    Eq. \eqref{eq-MX-omegaX-NW} is called the **Newey-West autocorrelation consistent covariance estimator** (or **Heteroskedasticity and Autocorrelation Consistent (HAC) estimator**). It is a generalization of White's heteroskedasticity consistent estimator to the case of autocorrelation.
+
+    In practice, $L\sim T^{1/4}.$
+
+    Note that the term $\left(x_t x_{t-\ell}' + x_{t-\ell} x_t'\right)$ is not always equal to $2 x_t x_{t-\ell}'$, unless $x_t x_{t-\ell}'$ is symmetric (which is only true if $x_t = x_{t-\ell}$ or if $x_t$ and $x_{t-\ell}$ are scalars).
+
+
 
 
 ___
