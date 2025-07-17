@@ -11,6 +11,48 @@ $$
 
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
+
+## Convergent Series
+
+A series $S_N=\sum_{j=0}^N a_j$ is convergent if it has a finite limit as $N\to\infty$; thus $S_N\to S=\sum_{j=0}^N a_j$ with $\abs{S}<\infty.$
+
+$S_N$ is **absolutely convergent** if $\sum_{j=0}^N \abs{a_j}$ has a finite limit, which holds if $\sum_{j=0}^N \abs{a_j}<\infty .$ Absolutely convergence implies convergence.
+
+<div class = "boxed">
+<strong>Silverman-Toeplitz</strong> If $a_\ell\to A$ as $\ell\to\infty$, and for weights $w_{n\ell}$ such that $\sum_{\ell=1}^n w_{n\ell} \to 1$ for each $\ell$ as $n\to\infty$, then
+
+$$
+\lim_{n\to\infty} \sum_{\ell=1}^n w_{n\ell} a_\ell = A.
+$$
+</div>
+
+Setting  $w_{n\ell} = 1/n$ we obtain the following.
+
+<div class = "boxed">
+<strong>Theorem of Cesàro Means</strong> If $a_\ell\to A$ as $\ell\to\infty$, then
+
+$$
+\lim_{n\to\infty} \frac{1}{n}\sum_{\ell=1}^n a_\ell = A.
+$$
+</div>
+
+
+Now we present a useful property. The Cesàro sum of the autocovariances limits to zero.
+
+<div class = "boxed">
+<strong>Cesàro Mean of Autocovariances</strong> If $Z_t$ is strictly stationary, ergodic, and $\E(Z_t^2)<\infty$, then 
+
+$$
+\lim_{n\to\infty} \frac{1}{n}\sum_{\ell=1}^n \cov(Z_t, Z_{t-\ell}) = 0.
+$$
+</div>
+
+
+The result can be interpreted as that the covariances "on average" tend to zero.
+
+
+___
+
 ## Ergodicity
 
 A **realization** is a particular instance of a time series. It is one of the infinitely many possible time series that could have been observed. As a time series is a stochastic process, each one could be entirely different. The realization Is the one that was actually observed.
@@ -24,12 +66,15 @@ Say we have a stochastic process $\\{Z_t\\}_{t=1}^\infty$, we want to estimate t
 - Time Series Average $\;\overline{z} = \frac{1}{T}\sum_{t=1}^T Z_t$
 
 Q: Which estimator is the most appropriate? \
-A: Ensemble Average. But, it is impossible to calculate. We only observe one realization of $Z_t$.
+A: Ensemble Average. But, it is <span style='color:#EE0000FF'>impossible</span> to calculate. <span style='color:#337ab7'>We only observe one realization of $Z_t$.</span>
 
 Q: Under which circumstances we can use the time average (only one realization of ${Z_t}$)? Is the time average an unbiased and consistent estimator of the mean? \
 A: The Ergodic Theorem ensures we can use time average converges to the ensemble average as $N$ and $T$ go to infinity.
 
-Mean and Variance
+
+___
+
+**Mean and Variance**
 
 - $\mu_t$ is the mean of all possible realization of $Z_t$ **for a fixed t**. Since we have only one realization, we use the long run average to estimate the expected value.
 
@@ -52,13 +97,17 @@ Mean and Variance
   $E[Z_t] = \mu_t$ stands for the (cross-sectional) mean value of the process at a fixed $t$; corresponds to the distribution of $Z_t$ in the ensemble.
 
   - Continuous case: 
-    - the mean is $\mu_t = E[Z_t] = \int_{-\infty}^\infty z_t f_{Z_t}(z_t)\, dz_t$. $f_{Z_t}(z_t)$ denotes the unconditional density of $Z_t$.
+    - the mean is $\mu_t = E[Z_t] = \int_{-\infty}^\infty z_t f_{Z_t}(z_t)\, dz_t,$ where $f_{Z_t}(z_t)$ denotes the unconditional density of $Z_t$.
     - the variance is $\gamma_{0t} \equiv E(Z_t-\mu_t)^2 = \int_{-\infty}^\infty (z_t-\mu_t)^2 f_{Z_t}(z_t)\, dz_t $
   - Discrete case: $\mu_t = E[Z\_t] = \text{plim}_{N\to\infty} \frac{1}{N} \sum\_{i=1}^N  Z_t^{(i)}$
 
-  Given covariance-stationarity, the 1st moment should be constant. That is $E[Z_t] = \mu_t=\mu$ for all $t$.
-
-  A sufficient condition for ergodicity for the mean is 
+  Given covariance-stationarity, the 1st moment should be constant. That is 
+  
+  $$
+  E[Z_t] = \mu_t=\mu \quad \text{for all } t.
+  $$ 
+  
+  A condition for ergodicity for the mean is 
 
   $$
   \rho_k \to 0 \text{  as  } k\to\infty.
@@ -172,10 +221,10 @@ Mean and Variance
   \begin{aligned}
   \text{Var}[\overline{Z}_T] &= \text{Var} \left[\frac{1}{T}\sum_{t=1}^TZ_t\right] \\
   &= \frac{1}{T^2}  \text{Var} \left[\sum_{t=1}^TZ_t\right] \\
-  &= \frac{1}{T^2} \sum_{t=1}^n\sum_{s=1}^n \text{Cov}(Z_t, Z_s) \\
-  &= \frac{1}{T^2} \sum_{t=1}^n\sum_{s=1}^n \gamma(t-s) \\
-  &= \frac{\gamma_0}{T^2} \sum_{t=1}^n\sum_{s=1}^n \rho_{t-s} \\
-  &= \frac{\gamma_0}{T^2} \sum_{t=1}^n (\rho_{t-1}+\rho_{t-2}+\cdots+\rho_{t-n}) \\
+  &= \frac{1}{T^2} \sum_{t=1}^T\sum_{s=1}^T \text{Cov}(Z_t, Z_s) \\
+  &= \color{#008B45} \frac{1}{T^2} \sum_{t=1}^T\sum_{s=1}^T \gamma(t-s) \\
+  &= \frac{\gamma_0}{T^2} \sum_{t=1}^T\sum_{s=1}^T \rho_{t-s} \\
+  &= \frac{\gamma_0}{T^2} \sum_{t=1}^T (\rho_{t-1}+\rho_{t-2}+\cdots+\rho_{t-n}) \\
   &= \frac{\gamma_0}{T^2} \left(T\rho_0 + 2(T-1)\rho_1 + 2(T-2)\rho_2 + \cdots + 2\,\rho_{T-1} \right) \\
   &= \color{#008B45}\frac{\gamma_0}{T} \sum_{k=1-T}^{T-1} (1-\frac{\vert k \vert}{T})\rho_k
   \end{aligned}
@@ -211,6 +260,25 @@ Mean and Variance
   
   Hence $\text{Var}(\overline{Z}_T)\to 0$ as $T\to 0$.
 
+Alternative notation for $\text{Var}(\overline{Z}_T)$ using $\gamma(\ell)$
+
+$$
+\text{Var}(\overline{Z}_T) = \frac{\sigma^2}{T^2} + \frac{2}{T^2} \sum_{\ell=0}^{T-1} (T-\ell) \gamma(\ell)
+$$
+
+$$
+\frac{2}{T^2} \sum_{\ell=0}^{T-1} (T-\ell) \gamma(\ell) 
+= \sum_{\ell=0}^{T-1} w_{nl}\left(\frac{1}{\ell}\sum_{j=1}^\ell\gamma(j) \right) 
+$$
+
+where
+
+$$
+w_{nl} = \frac{2\ell}{T^2}
+$$
+
+___
+
 ## Stationarity
 
 Broadly speaking, a time series is said to be stationary if 
@@ -222,7 +290,13 @@ In other words, the properties of one section of the data are much like those of
 
 Measure of dependence for a stochastic process $\lbrace Z_t: t=0,1,2,\ldots, n \rbrace$
 - mean function $\mu_t = E(Z_t)$
-- autocovariance function $\gamma_t(k)=\text{Cov}(Z_t, Z_{t-k})=E\big[(Z_t-\mu_t)(Z_{t-k}-\mu_{t-k})\big]$, where $k$ is the time lag; sometimes also denoted by two time points, $t$ and $t-k$, as in $\gamma_{t, t-k}\,.$
+- autocovariance function at lag $k$ is given by
+    
+    $$
+    \gamma_t(k)=\text{Cov}(Z_t, Z_{t-k})=E\big[(Z_t-\mu_t)(Z_{t-k}-\mu_{t-k})\big],
+    $$ 
+    
+    where $k$ is the time lag; sometimes also denoted by two time points, $t$ and $t-k$, as in $\gamma_{t, t-k}\,.$
 - autocorrelation function $\rho_t(k)=\text{Corr}(Z_t, Z_{t-k})$. Also denoted as $\rho_{t, t-k}$.
 
 ___
@@ -342,10 +416,22 @@ $$
 \gamma_{t}(j) = \text{Cov}(Y_t, Y_{t-j}) = E[(Y_t-\mu)(Y_{t-j}-\mu)].
 $$
 
-- $\gamma$ denotes *autocovariance* coefficients; $\rho$ denotes *autocorrelation* coefficients. \
-  $\gamma(1)$ is called the autocovariance function of lag 1 and $\rho(1)$ the autocorrelation function or lag 1.
+That is
+
+$$
+\hat{\gamma}_{t}(j) \xrightarrow{p} \gamma_{t}(j)
+$$
+
+- $\gamma$ denotes *autocovariance* coefficients; $\rho$ denotes *autocorrelation* coefficients. 
+  
+  - $\gamma(1)$ is called the autocovariance function of lag 1 and
+  - $\rho(1)$ the autocorrelation function of lag 1.
+
+- $\gamma(0)=\var(Y_t)$ is the variance of the process.
+
 
 
 References:
 
+- Chapter 14 Time Series, Econometrics, Hansen, pp 511. 
 - Chapter 12.4 Serial Correlation, Greene, Econometric Analysis, 5ed, pp 259.

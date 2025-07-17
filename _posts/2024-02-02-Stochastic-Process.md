@@ -725,8 +725,38 @@ $$
 **Inverses** of $\alpha(L)$ is to find $\beta(L)$ such that $\alpha(L)\beta(L)=1$, we say $\beta(L)$ is the inverse of $\alpha(L)$, denoted as $\alpha(L)^{-1}$ or $1/\alpha(L).$
 
 
+___
 
-**Difference Operator**: $\Delta=1-L$, $\Delta X_t=X_t-X_{t-1}$ and $\Delta^k=(1-L)^k$
+
+**Difference Operator**: $\Delta=1-L$, 
+
+The first difference of a series $X_t$ is
+
+$$
+\Delta X_t = X_t - X_{t-1}
+$$ 
+
+The second difference is
+
+$$
+\Delta^2 X_t = \Delta X_t - \Delta X_{t-1} = X_t - 2X_{t-1} + X_{t-2}
+$$
+
+
+In general, we have
+
+$$
+\Delta^k=(1-L)^k .
+$$
+
+The change of a series $X_t$ with frequency $s$ is
+
+$$
+\Delta_s X_t = X_t - X_{t-s} = (1-L^s)X_t
+$$
+
+___
+
 
 **Unit Root Tests**
 $$

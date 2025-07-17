@@ -27,7 +27,80 @@ update: 2024-10-27
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
 
+## Basic Probability Properties
 
+- **Probability of a union**
+
+  $$
+  P(A \cup B) = P(A) + P(B) - P(A \cap B)
+  $$
+
+  If $A$ and $B$ are mutually exclusive, then 
+
+  $$
+  \begin{split}
+  P(A \cap B) &= 0 \\
+  P(A \cup B) &= P(A) + P(B).
+  \end{split}
+  $$
+
+  This is also called the *addition rule*.
+
+- **Conditional probability**
+
+  $$
+  P(A|B) = \frac{P(A \cap B)}{P(B)}
+  $$
+
+  If A and $B$ are independent, then $P(A\vert B) = P(A)$ and $P(B\vert A) = P(B)$.
+
+- **Multiplication rule**
+
+  $$
+  P(A \cap B) = P(A|B) P(B) = P(B|A) P(A)
+  $$
+
+  If A and $B$ are independent, then 
+  
+  $$
+  P(A \cap B) = P(A) P(B) .
+  $$
+
+- **The partition rule**
+
+  If $B_1, B_2, \ldots, B_m$ form a partition of the sample space $\Omega$, then
+
+  $$
+  P(A) = \sum_{i=1}^m P(A \cap B_i)= \sum_{i=1}^m P(A|B_i) P(B_i)
+  $$
+
+  for any event $A$.
+
+  As a special case, $B$ and $\overline{B}$ partition $\Omega,$ so
+
+  $$
+  \begin{split}
+  P(A) &= P(A\cap B) + P(A\cap \overline{B})  \\
+  &= P(A|B) P(B) + P(A|\overline{B}) P(\overline{B}).
+  \end{split}
+  $$
+
+- **Bayes' theorem**
+
+$$
+P(B_j|A) = \frac{P(A|B_j) P(B_j)}{\sum_{i=1}^m P(A|B_i) P(B_i)}
+$$
+
+- **Chains of events**
+
+  If $A_1, A_2, \ldots, A_n$ are events in the sample space $\Omega$, then
+
+  $$
+  P(A_1 \cap A_2 \cap \cdots \cap A_n) = P(A_1) P(A_2|A_1) P(A_3|A_1 \cap A_2) \cdots P(A_n|A_1 \cap A_2 \cap \cdots \cap A_{n-1}).
+  $$
+
+
+___
 
 ## Expectation
 
@@ -1280,230 +1353,6 @@ $$
 Linear Algebra \
 <https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab>
 
-
-
-___
-
-## Convergence
-
-- Formal definition of convergence is: \
-  Let $X_n=c+\frac{1}{n}$ for $n=1,2, \ldots$ and some constant $c$. $X_n$ converges to $c$ iff for $\forall \delta>0$, there exists some values $n^{\ast}$ such that for all $n>n^*$ we have $\vert X_n-c \vert < \delta$.
-
-- Convergence in Probability, $\lim_{n\to\infty}P(\vert X_n-c\vert < \varepsilon) =1$, denoted as $\text{plim}_{n\to\infty}X_n=c$, or $X_n \xrightarrow{p} c$.
-
-- Almost Sure Convergence, $P(\lim_{n\to\infty}\vert X_n-c\vert =0)=1$, denoted as $X_n \xrightarrow{a.s.} c$.
-
-- Convergence in Mean Square, $\lim_{n\to\infty}\mathbb{E}[(X_n-c)^2]=0$,  denoted as $X_n \xrightarrow{m.s.} c$.
-
-- Convergence in Distribution, $P(X_n\le x) \rightarrow P(X\le x)$ as $n\rightarrow \infty$, $X_n\xrightarrow{d}X$. If $X\sim N(\mu, \sigma^2)$, then $X_n \xrightarrow{d} N(\mu, \sigma^2)$.
-
-Note: 
-- Convergence in probability is weaker than both a.s. and m.s. convergence. Obtaining any type of convergence is sufficient. In certain cases, proving one type can be easier than another type.
-- Convergence in probability implies convergence in distribution. Convergence in probability means that two objects converge to each other. Convergence in distribution means that the distributions of two different objects become the same.
-
-**Consistent estimator**
-
-$\hat{\theta}$ is a consistent estimator of $\theta$ if 
-
-$$
-  \hat{\theta} \xrightarrow{p} \theta.
-$$
-
-
-___
-
-## Law of Large Numbers (LLN)
-
-- Chebyshev's (week) LLN\
-  Let $X_1, \ldots, X_n$ be an iid sequence with mean $\mathbb{E}(X_i)=\mu$ and $\text{Var}(X_i)=\sigma^2$. Then,
-
-  $$
-  \begin{align*}
-  \frac{1}{n}\sum_{i=1}^nX_i &\xrightarrow{p} \mathbb{E}(X_i). \\
-  (\text{i.e., } \overline{X}_n &\xrightarrow{p} \mu )
-  \end{align*}
-  $$
-
-  LLN tells us that the sample mean is a consistent estimator of the expected value. \
-  Note that 3 assumptions need to be satisfied: 
-  1. $X_1, \ldots, X_n$ are an iid distributed;
-  2. exist finite mean $\mu$; and
-  3. exist finite variance $\sigma^2$.
-
-
-- Kolmogorov's (strong) LLN \
-  Let $X_1, \ldots, X_n$ be an iid sequence with mean $\mathbb{E}(X_i)=\mu$. Then
-
-  $$
-  \frac{1}{n}\sum_{i=1}^nX_i \xrightarrow{a.s.} \mathbb{E}(X_i).
-  $$
-
-  Note that the strong LLN requires *only finite mean*.
-
-  Kolmogorov's LLN is very hard to prove. Weak LLN can be easily proved by showing m.s. convergence, which implies convergence in probability.
-
-  Proof of weak LLN:
-
-  Let $$\overline{X}_n = \frac{1}{n}\sum_{i=1}^n X_i$$ be the sample average. 
-  To prove weak LLN, we can show $\lim_{n\to\infty}\mathbb{E}(\overline{X}_n-\mu)^2=0$.
-
-  $$
-  \begin{align*}
-  \lim_{n\to\infty}\mathbb{E}(\overline{X}_n-\mu)^2 &=
-  \lim_{n\to\infty} \text{Var}[\overline{X}_n] \\
-  &= \lim_{n\to\infty} \frac{\sigma^2}{n} \\
-  &= 0
-  \end{align*}
-  $$
-  
-  This shows $\overline{X}_n \xrightarrow{m.s} \mu$, which implies $\overline{X}_n \xrightarrow{p} \mu$.
-
-- LLN for random vectors \
-  For $\boldsymbol{y}\in \mathbb{R}^m$, if $\boldsymbol{y}_i$ are independent and identically distributed and $E\,\vert\vert \boldsymbol{y} \vert\vert <\infty$, then as $n\to\infty$,
-
-  $$
-  \overline{\boldsymbol{y}} = \frac{1}{n}\sum_{i=1}^n\boldsymbol{y}_i \xrightarrow{p} E\,[\boldsymbol{y}].
-  $$
-
-  Note: convergence in probability of a vector can be defined as convergence in probability of all elements in the vector.
-
-  $E\,\vert\vert \boldsymbol{y} \vert\vert <\infty \Leftrightarrow E\,\vert y_j \vert <\infty $. Saying that the expected value of Euclidean norm is finite is equivalent to say that the expected value of each element is finite.
-
-  $$
-  \overline{\boldsymbol{y}} = \frac{1}{n}\sum_{i=1}^n\boldsymbol{y}_i = \begin{pmatrix} 
-  \overline{y}_1 \\
-  \overline{y}_2 \\
-  \vdots         \\
-  \overline{y}_m \\
-  \end{pmatrix}
-  $$
-
-  - <span style='color:#797D7F'> $E\,\vert\vert \boldsymbol{y} \vert\vert <\infty$ indicates 1st moment finite; </span>
-  - <span style='color:#797D7F'> $E\,\vert\vert \boldsymbol{y} \vert\vert^2 <\infty$ indicates 2nd moment finite.  </span>
-  
-
-  **Ergodic Theorem**
-
-  If $\boldsymbol{y}_t$ is strictly stationary, ergodic, and $E\,\vert\vert \boldsymbol{y} \vert\vert <\infty $, then as $n\to\infty$,
-
-  $$
-  E\vert\vert \overline{\boldsymbol{y}}-\boldsymbol{\mu} \vert\vert \to 0
-  $$
-
-  and
-
-  $$
-  \overline{\boldsymbol{y}} \xrightarrow{p} \boldsymbol{\mu}
-  $$
-
-  where $\boldsymbol{\mu}=E[\boldsymbol{y}_t]$.
-
-  The ergodic theorem shows that ergodicity is sufficient for consistent estimation.
-
-  Note that instead of requiring iid, ergodicity imposes a weaker assumption which requires only stationarity and ergodicity. That is, serial dependence is allowed for in the time series.
-
-
-
-**Unbiasedness vs Consistency**
-
-- Unbiasedness, $\mathbb{E}(\hat{\theta})=\theta$, is a finite sample property, that holds for any sample size.
-- Consistency, $\hat{\theta}\xrightarrow{p}\theta$, is a asymptotic property, that holds in the limit as $n\to \infty$.
-- Note: neither property implies the other. 
-  + If we are interested in bias, we take the **expectation** on both sides of the equation.
-  + When we are interested in consistency we take the **probability limit**.
-
-
-___
-
-## Central Limit Theorem (CLT)
-
-Suppose that $X_1, \ldots, X_n$ is an iid sequence with mean $\mathbb{E}(X_i)=\mu$ and $\text{Var}(X_i)=\sigma^2$. Let $\overline{X}=\sum_{i=1}^n X_i.$ Then,
-
-$$
-\frac{\overline{X}-\mathbb{E}[\overline{X}]}{\sqrt{\text{Var}[\overline{X}]}} 
-= \frac{\overline{X}-\mu}{\sqrt{\sigma^2/n}} 
-= {\color{#008B45FF} \sqrt{n}} \cdot \frac{\overline{X}-\mu}{\sigma} 
-\xrightarrow{d} N(0,1)
-$$
-
-equivalently, we can write 
-
-$$
-\sqrt{n}\cdot\frac{\overline{X}-\mu}{\sigma} 
-\overset{a}{\sim} N(0,1)
-$$
-
-$\overset{\rm a}{\sim}$ means "*approximately distributed with*". \
-Or we can also write as
-
-$$
-\begin{align*}
-
-\begin{array}{rlrl}
-	\sqrt{n} (\overline{X}-\mu)  &\xrightarrow{d} N(0,\sigma^2),  &
-  \sqrt{n} (\overline{X}-\mu)  &\overset{a}{\sim} N(0,\sigma^2) \\
-  
-  \overline{X} -\mu  &\xrightarrow{d} N(0,\sigma^2/n), &
-  \overline{X} -\mu  &\overset{a}{\sim} N(0,\sigma^2/n) \\
-
-  \overline{X} &\xrightarrow{d} N(\mu,\sigma^2/n), &
-  {\color{#008B45FF} \overline{X}} & {\color{#008B45FF} \overset{a}{\sim} N(\mu,\sigma^2/n) }.
-\end{array} 
-
-\end{align*}
-$$
-
-Note: The CLT is a very powerful result. $X_1, \ldots, X_n$ can be from any possible distribution (*iid* with *finite mean and variance*), and still their normalized sample mean will be standard normal.
-
-- In practice, we replace $\sigma$ with $\widehat{\sigma}$ because we do not observe $\sigma$ but we do observe $\widehat{\sigma}$.
-- Population variance estimators, $\widehat{\sigma}^2$. Two versions: 
-  - biased sample variance: $$s_1^2 = \frac{1}{n} \sum_{i=1}^n [(X_i-\overline{X})^2]$$ and 
-  - unbiased sample variance: $$s_2^2 = \frac{1}{n-1} \sum_{i=1}^n [(X_i-\overline{X})^2]$$
-  - Both options are consistent; using either is fine.
-
-Define the *partial sum* $S_n := \sum_{i=1}^n X_i = n\overline{X}_n$. By LLN, we have
-
-$$
-\frac{\overline{X}-\mu}{\sigma/\sqrt{n}} \xrightarrow{d} N(0,1) 
-$$
-
-Multiply the denominator and numerator by $n$, we have
-
-$$
-\begin{align*}
-\frac{n\overline{X}-n\mu}{n\cdot\sigma/\sqrt{n}}  = \frac{S_n-n\mu}{\sigma\sqrt{n}} 
-\end{align*}
-$$
-
-which converges in distribution to
-
-$$
-\frac{S_n-n\mu}{\sigma \sqrt{n}} \xrightarrow{d} N(0,1) .
-$$
-
-
-### MDS CLT
-
-**CLT for Martingale Differences**
-
-
-We are interested in an asymptotic approximation for the distribution of standardized sample means such as
-
-$$
-\boldsymbol{S}_n = \frac{1}{\sqrt{n}} \sum_{t=1}^n \boldsymbol{u}_t
-$$
-
-where $\boldsymbol{u}_t$ is mean zero with finite variance $E[\boldsymbol{u}_t\boldsymbol{u}_t']=\boldsymbol{\Sigma}<\infty$.
-
-<div class = "boxed">
-<strong>The MDS CLT theorem</strong> If $\boldsymbol{u}_t$ is a strictly stationary and ergodic martingale difference sequence and $E[\boldsymbol{u}_t\boldsymbol{u}_t']=\boldsymbol{\Sigma}<\infty$, then as $n\to\infty,$
-
-$$
-\boldsymbol{S}_n = \frac{1}{\sqrt{n}} \sum_{t=1}^n \boldsymbol{u}_t \overset{d}{\to} N(\boldsymbol{0}, \boldsymbol{\Sigma}).
-$$
-</div>
-
-The conditions for the theorem are similar to the Lindeberg-Lévy CLT. The only difference is that the i.i.d. assumption has been replaced by the assumption of a strictly stationarity and ergodic MDS.
 
 
 ___

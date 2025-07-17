@@ -54,14 +54,15 @@ Markdown Preview: <https://code.visualstudio.com/docs/languages/markdown#_markdo
 
 **Keyboard shortcuts**
 
-| Shortcut | Function            |
-| -------- | ------------------- |
-| ⇧⌘K      | Delete current line |
+| Shortcut | Function         |
+| -------- | ---------------- |
+| dd       | use vim shortcut |
 
 Useful Extensions:
 
 - Markdown: `Markdown Preview Enhanced`, `Markdown+Math`, `Markdown All in One`
-- TeX: `LaTeX-Workshop`
+- TeX: `LaTeX-Workshop` (this installs `intellisense` automatically)
+- Spell check, autocomplete: `Code Spell Checker`, `intellisense`
 
 
 
@@ -79,7 +80,7 @@ Useful Extensions:
 
 In Visual Studio Code, each [language mode](https://code.visualstudio.com/docs/languages/overview#_changing-the-language-for-the-selected-file) has a unique specific language identifier. That identifier is rarely seen by the user except in the settings, for example, when associating file extensions to a language:
 
-```css
+```json
 "files.associations": {
     "*.myphp": "php"
 }
@@ -89,7 +90,7 @@ Note that <span style='color:#008B45'>casing matters</span> for <span style='col
 
 Every language defines its *id* through the `languages` configuration point in the extension's `package.json` file:
 
-```css
+```json
 "languages": [{
     "id": "java",
     "extensions": [ ".java", ".jav" ],
@@ -103,6 +104,132 @@ You can find a list of known identifiers in the [language identifier reference](
 
 ___
 
+**Code Actions**
+
+Code Actions can provide both refactorings and **Quick Fixes** for detected issues (highlighted with <span style='color:#EE0000FF'>red squiggles</span>). When the cursor is on a squiggle or on a selected text region, VS Code shows a light bulb icon 💡 in the editor to indicate that a Code Action is available. If you select the Code Action light bulb or use the **Quick Fix** command ⌘., the Quick Fixes and refactorings control is presented.
+
+> If you have enabled GitHub Copilot, you can choose to fix with Copilot. This is a very convenient way to debug your code.
+
+Q: What is refactoring?  
+A: Visual Studio Code supports refactoring operations (*refactorings*) such as [Extract Method](https://refactoring.com/catalog/extractMethod.html) and [Extract Variable](https://refactoring.com/catalog/extractVariable.html) to improve your codebase from within the editor. For example, a common refactoring used to avoid duplicating code (a maintenance headache) is the [Extract Method](https://refactoring.com/catalog/extractMethod.html) refactoring, where you select source code and pull it out into its own shared method, so that can reuse the code elsewhere.
+
+
+
+___
+
+### **Snippets**
+
+Snippets files are written in JSON, support C-style comments, and can define an *unlimited number* of snippets. Snippets support most TextMate syntax for dynamic behavior, intelligently format whitespace based on the insertion context, and allow easy multiline editing.
+
+- a **language** snippet file
+
+  Single-language user-defined snippets are defined in a specific language's snippet file (for example `javascript.json`), which you can access by language identifier through **Snippets: Configure Snippets**. 
+
+  A snippet is only accessible when editing the language for which it is defined.
+
+- a **global** snippet file
+
+  Multi-language and global user-defined snippets are all defined in "global" snippet files (JSON with the file suffix `.code-snippets`), which is also accessible through **Snippets: Configure Snippets**. 
+
+  File path: `$HOME/Library/Application Support/Code/User/snippets`
+
+Creata your own snippets: `Code` > `Settings` > `Configure Snippets`
+
+**Syntax**
+
+```json
+// in file 'Code/User/snippets/javascript.json'
+{
+  "For Loop": {
+    "prefix": ["for", "for-const"],
+    "body": ["for (const ${2:element} of ${1:array}) {", "\t$0", "}"],
+    "description": "A for loop."
+  }
+}
+```
+
+- "For Loop" is the snippet name. 
+
+  `prefix` defines one or more <span style='color:#008B45'>trigger words</span> that display the snippet in IntelliSense. Substring matching is performed on prefixes, so in this case, "fc" could match "for-const".
+
+  `body` is one or more lines of content, which will be joined as multiple lines upon insertion. Newlines and embedded tabs will be formatted according to the context in which the snippet is inserted.
+
+  `description` is an *optional* description of the snippet displayed by IntelliSense.
+
+  `scope` optional property that takes one or more [language identifiers](https://code.visualstudio.com/docs/languages/identifiers), which makes the snippet available only for those specified languages. If no `scope` property is given, then the global snippet is available in **all** languages.
+
+- Use `$1`, `$2` to specify cursor locations. The number is the order in which tabstops will be visited, whereas `$0` denotes the final cursor position. 
+
+  The `body` of the example above has three placeholders (listed in order of traversal): `${1:array}`, `${2:element}`, and `$0`. You can quickly jump to the next placeholder with <kbd>Tab</kbd>.
+
+  `$0` is an optional special case that always comes last.
+
+- **Placeholders** are tabstops with values, like `${1:foo}`. The placeholder text will be inserted and selected such that it can be easily changed. Placeholders can be nested, like `${1:another ${2:placeholder}}`.
+
+  The string after the colon `:` (if any) is the default text. 
+
+- **Variables**: With `$name` or `${name:default}`, you can insert the value of a variable. 
+
+  - <span style='color:#008B45'>`TM_SELECTED_TEXT`</span> The currently selected text or the empty string.
+
+-  With `\` (backslash), you can escape `$`, `}`, and `\`. 
+- Multilined `body`: simply wrap each line with double quotes.
+
+Q: When using `$TM_SELECTED_TEXT`, if you type the prefix, the selected text will be overwritten. What to do with it?  
+A: VS code remembers the text. When you finish typing the prefix, the formated text will show up accordingly.
+
+```json
+// customer defined snippets
+{
+	"Colored Span Green": {
+		"prefix": "cs-green",
+		"body": [
+			"<span style=\"color: #008B45;\">$TM_SELECTED_TEXT</span>$0"
+		],
+		"description": "Insert a green colored span"
+	},
+	"Math Helper Parentheses": {
+		"scope": "markdown, latex",
+		"prefix": "\\(",
+		"body": [
+			"\\left($1\\right)$0"
+		],
+		"description": "Insert parentheses with LaTeX math formatting"
+	},
+	"Math Helper Brackets": {
+		"scope": "markdown, latex",
+		"prefix": "\\[",
+		"body": [
+			"\\left[$1\\right]$0"
+		],
+		"description": "Insert brackets with LaTeX math formatting"
+	},
+}
+```
+
+- `"scope": "markdown, latex"` set `scope` to  `"markdown, latex"` such that `\(` works inside dollar signs.
+
+- To [escape double backslashes](https://github.com/microsoft/vscode/issues/33933#issuecomment-328793257), you have to use `\\\\\\\\`.
+  - In TextMate you *can* but must not escape a backslash with a backslash, so to insert 1 backslash have either `\` or `\\`
+  - In JSON you *must* escape a backslash with another backslash, so to insert 1 backslash have either `\\` or `\\\\`, to insert 2 `\\\\\\\\`
+
+list of user defined snippets
+
+| prefix                           | command           |
+| -------------------------------- | ----------------- |
+| `cs-green` / `cs-red`/ `cs-blue` | colored html span |
+| `\(`                             | `\left(\right)`   |
+| `\[`                             | `\left[\right]`   |
+| `vec`                            | row vector        |
+| `cvec`                           | column vector     |
+| `mat`                            | variance matrix   |
+
+
+
+
+
+___
+
 Q: Is it possible to set max lines of a table printed in notebook?  
 A: The simple answer is NO. Seetings → Feasures → Notebook only limits the cell size of a pure text based output. It does NOT apply to outputs such as matrices, dataframes or other spreadsheet-like outputs (e.g. from the `View()` function in R.)
 
@@ -110,8 +237,8 @@ ___
 
 [Change settings of VS Code](https://code.visualstudio.com/docs/configure/settings)
 
-- change directly in the user settings file (`settings.json`), or
-- open Code → Settings (cmd + ,)
+- **Menu bar**: Code → Settings (keyboard shortcut: <kbd>cmd</kbd> + <kbd>,</kbd>)
+- **Configuration file**: change directly in the user settings file (`settings.json`)
 
 Setting file locations: 
 
@@ -139,7 +266,7 @@ A: `.json` is a subset of `.js`, which stands for JavaScript.
 Q: How to customize language-specific setttings?  
 A: Open User Settings → Type `@lang:markdown` into the search widget. This will show configurable settings for that specific language. Alternatively, you can change directly in the settings JSON file.
 
-```css
+```json
 "[markdown]": {
     "editor.formatOnSave": true,
     "editor.wordWrap": "on",
@@ -168,10 +295,10 @@ Use either the keyboard shortcuts or click the Preview button.
 
 ___
 
-Q: How to open the User settings?  
+Q: How to open the User settings json file?  
 A: Follow the following steps:
 
-1. Open the command palette (either with F1 or Ctrl+Shift+P)
+1. Open the command palette (either with F1 or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>)
 2. Type *"open settings"*
 3. You are presented with a few options, choose **Open User Settings (JSON)**
 
@@ -200,6 +327,9 @@ A: By default, the Extensions view will show the extensions you currently have i
 
 
 
+Q: Disable <kbd>Enter</kbd> to accept suggestions as this confuses inserting a new line.  
+A: Set **Editor: Accept Suggestion On Enter** to `off`. 
+
 
 
 ___
@@ -209,7 +339,7 @@ ___
 Q: How to get a preview of Rmarkdown?  
 A: Open `settings.json`, add the following code inside the braces.
 
-```css
+```json
 /* this adds additional file extensions to markdown */
 "files.associations": {
     "*.Rmd": "markdown",
@@ -333,18 +463,18 @@ Option 1: use user settings
 
 opt+, open pereferences, add your macros directly there.
 
-```css
+```json
 "mdmath.macros": {
         "\\indep": "{\\perp \\!\\!\\! \\perp}",
         "\\E": "\\mathbb{E}",
-    },
+},
 ```
 
 Option 2: save macros in a file and add the file path. The file take priority. That means the defined macros in option 1 will be ignored if a definition file exists.
 
 Issue: This does not work somehow.
 
-```css
+```json
 "mdmath.macroFile": "/Users/menghan/Documents/mac_setup/config_files/mdmath_macros.json",
 ```
 
@@ -360,10 +490,10 @@ You can install the Quarto extension from the [VS Code Extension Marketplace](ht
 
 But if you have associated `.qmd` with Markdown previewer as follows
 
-```css
+```json
 "files.associations": {
    "*.Rmd": "markdown",
-	 "*.qmd": "markdown",
+   "*.qmd": "markdown",
 }
 ```
 
@@ -408,6 +538,53 @@ Environment snippets works directly in `tex`, you type `B`, a drop-down list wil
 | `BTA`  | `table`                                    |
 
 
+
+[`@` suggestsion](https://github.com/James-Yu/latex-workshop/wiki/Intellisense#-suggestions)
+
+LaTeX-Workshop provides an independent intellisense mechanism triggered by `@`. For example, you can type `@a` for `\alpha`. It works for most Greeks and have some useful mathmatical helpers.
+
+| Prefix | Command               |
+| ------ | --------------------- |
+| `@(`   | `\left( $1 \right)`   |
+| `@{`   | `\left\{ $1 \right\}` |
+| `@[`   | `\left[ $1 \right]`   |
+| `@^`   | `\Hat{$1}`            |
+| `@_`   | `\bar{$1}`            |
+
+
+
+___
+
+### Code Spell Checker
+
+Words not in the dictionary files will have a squiggly underline.
+
+Its configuration starts with `cSpell`
+
+
+
+___
+
+### [Intellisense](https://code.visualstudio.com/docs/editing/intellisense)
+
+IntelliSense is a general term for various code editing features including: code completion, parameter info, quick info, and member lists. IntelliSense features are sometimes called by other names such as "code completion", "content assist", and "code hinting."
+
+The inferred symbols are presented first, followed by the global identifiers (indicated by the `abc` word icon).
+
+<img src="https://drive.google.com/thumbnail?id=1gqkzo3mHgWLM140lZFbUdohqffb0rNu3&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+
+The editor supports *tab completion*, which inserts the best matching completion when pressing <kbd>Tab</kbd>.
+
+**Settings**
+
+```json
+// Controls if quick suggestions should show up while typing
+"editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+},
+```
 
 
 

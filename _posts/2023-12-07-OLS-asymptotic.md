@@ -181,7 +181,7 @@ $$
 We also have $\left(\frac{X'X}{n}\right)^{-1} \xrightarrow{p} M_{XX}^{-1} $. Then using generalized Slutsky's Thm., and the symmetry of $M_{XX}^{-1}$, we obtain the limit distribution of the product
 
 $$
-\left(\frac{X'X}{n}\right)^{-1}  \left(\frac{X'u}{\sqrt{n}}\right) \xrightarrow{d} N(0, M_{XX}^{-1} M_{X\Omega X} M_{XX}^{-1}).
+\color{#008B45} \left(\frac{X'X}{n}\right)^{-1}  \left(\frac{X'u}{\sqrt{n}}\right) \xrightarrow{d} N(0, M_{XX}^{-1} M_{X\Omega X} M_{XX}^{-1}).
 $$
 
 And hence 
@@ -475,7 +475,16 @@ $$
 Then we have
 
 $$
-\frac{1}{n} X'uu'X = \frac{1}{n}\sum_{i=1}^n x_ix_i'\sigma^2 = \frac{\sigma^2}{n} \sum_{i=1}^n x_ix_i' =  \frac{\sigma^2}{n}X'X
+\begin{split}
+\frac{1}{n} X'uu'X &= \frac{1}{n}\sum_{i=1}^n x_ix_i'\sigma^2 = \frac{\sigma^2}{n} \sum_{i=1}^n x_ix_i' \\
+&=  \frac{\sigma^2}{n}X'X  \\
+&= \frac{1}{n}X'\begin{pmatrix}
+\sigma^2 & 0 & \cdots & 0 \\
+0 & \sigma^2 & \cdots & 0 \\
+\vdots & \vdots & \ddots & \vdots \\
+0 & 0 & \cdots & \sigma^2
+\end{pmatrix}X
+\end{split}
 $$
 
 **Case 2**: Heteroskedastic and no serial correlation
@@ -505,7 +514,7 @@ $$
 
 $$
 \begin{split}
-\frac{1}{n} X'uu'X &= \frac{1}{n}\sum_{i=1}^n x_ix_i'\sigma_{ij} \\
+\frac{1}{n} X'uu'X &= \frac{1}{n}\sum_{i=1}^n\sum_{j=1}^n x_ix_j'\sigma_{ij} \\
 \end{split}
 $$
 
@@ -529,7 +538,17 @@ The moment estimators under general dependence are given by:
 $$
 \begin{split}
 \widehat{M}_{XX} &= \frac{1}{n}\sum_{i=1}^n x_ix_i' \xrightarrow{p} \E(x_ix_i) = M_{XX} \\
-\widehat{M}_{X\Omega X} &= \frac{1}{n}\sum_{i=1}^n\sum_{i=h}^n x_ix_j'\hat{u}_i\hat{u}_j \xrightarrow{p} \E(x_ix_j\sigma_{ij}) = M_{X\Omega X} \\
+\widehat{M}_{X\Omega X} &= \frac{1}{n}\sum_{i=1}^n\sum_{j=1}^n x_ix_j'\hat{u}_i\hat{u}_j \xrightarrow{p} \E(x_ix_j'\sigma_{ij}) = M_{X\Omega X} \\
+\end{split}
+$$
+
+
+In time series setting, you often see the alternative notation:
+
+$$
+\begin{split}
+M_{X\Omega X} &= \sum_{\ell=-\infty}^{\infty} \E(x_{t-\ell}x_t'\sigma_{t,t-\ell}) \\
+&= \sum_{\ell=-\infty}^{\infty} \E(x_{t-\ell}x_t'u_{t}u_{t-\ell}).
 \end{split}
 $$
 
