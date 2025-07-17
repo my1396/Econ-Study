@@ -610,3 +610,8 @@ ___
 
 Q: How to share scripts among multiple projects in one solution? For instance, mathjax config file?   
 A: Unresolved yet …
+
+
+
+
+

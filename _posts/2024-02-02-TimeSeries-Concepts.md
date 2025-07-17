@@ -5,6 +5,7 @@ tag: study
 update: 2024-02-04
 ---
 
+
 $$
 \newcommand{\indep}{\perp \!\!\! \perp}
 $$
@@ -19,7 +20,7 @@ A series $S_N=\sum_{j=0}^N a_j$ is convergent if it has a finite limit as $N\to\
 $S_N$ is **absolutely convergent** if $\sum_{j=0}^N \abs{a_j}$ has a finite limit, which holds if $\sum_{j=0}^N \abs{a_j}<\infty .$ Absolutely convergence implies convergence.
 
 <div class = "boxed">
-<strong>Silverman-Toeplitz</strong> If $a_\ell\to A$ as $\ell\to\infty$, and for weights $w_{n\ell}$ such that $\sum_{\ell=1}^n w_{n\ell} \to 1$ for each $\ell$ as $n\to\infty$, then
+<strong>Silverman-Toeplitz Theorem</strong> If $a_\ell\to A$ as $\ell\to\infty$, and for weights $w_{n\ell}$ such that $\sum_{\ell=1}^n w_{n\ell} \to 1$ for each $\ell$ as $n\to\infty$, then
 
 $$
 \lim_{n\to\infty} \sum_{\ell=1}^n w_{n\ell} a_\ell = A.
@@ -263,19 +264,100 @@ ___
 Alternative notation for $\text{Var}(\overline{Z}_T)$ using $\gamma(\ell)$
 
 $$
-\text{Var}(\overline{Z}_T) = \frac{\sigma^2}{T^2} + \frac{2}{T^2} \sum_{\ell=0}^{T-1} (T-\ell) \gamma(\ell)
+\begin{equation}\label{eq-var-time-average}
+\text{Var}(\overline{Z}_T) = \frac{\sigma^2}{T} + \frac{2}{T^2} \sum_{\ell=T}^{T-1} (T-\ell) \gamma(\ell)
+\end{equation}
 $$
 
+This is a rather intriguing expression. It shows that the variance of the time average is not just the variance of the process divided by $T$, but also includes a term that accounts for the autocovariances at different lags.
+
+- The first term $\frac{\sigma^2}{T}$ is the variance of the sample mean under i.i.d. sampling.
+- The second term is a weighted Cesàro Mean of the autocovariances. It equals zero under i.i.d. sampling, but is non-zero when there is serial correlation in the data.
+
+    We will show in what follows that it converges to zero under ergodicity. Hence,
+
+    $$
+    \var(\overline{Z}_T) \to 0 \text{ as } T\to\infty.
+    $$
+
+    Markov's inequality establishes that
+
+    $$
+    \overline{Z}_T \xrightarrow{a.s.} \mu.
+    $$
+
+We can rewrite the second term in \eqref{eq-var-time-average} using Cesàro Means:
+
 $$
-\frac{2}{T^2} \sum_{\ell=0}^{T-1} (T-\ell) \gamma(\ell) 
-= \sum_{\ell=0}^{T-1} w_{nl}\left(\frac{1}{\ell}\sum_{j=1}^\ell\gamma(j) \right) 
+\begin{equation}\label{eq-var-time-average-cesaro}
+\boxed{\frac{2}{T^2} \sum_{\ell=1}^{T-1} (T-\ell) \gamma(\ell) 
+= \sum_{\ell=1}^{T-1} w_{Tl}\left(\frac{1}{\ell}\sum_{j=1}^\ell\gamma(j) \right) }
+\end{equation}
 $$
 
 where
 
 $$
-w_{nl} = \frac{2\ell}{T^2}
+w_{Tl} = \frac{2\ell}{T^2} .
 $$
+
+To shows this, let 
+
+$$
+S = \frac{2}{T^2} \sum_{\ell=1}^{T-1} (T-\ell) \gamma(\ell) ,
+$$
+
+then
+
+$$
+\text{Var}(\overline{Z}_T) = \frac{\sigma^2}{T} + S .
+$$
+
+Given
+
+$$
+\sum_{\ell=1}^{T-1} (T-\ell) \gamma(\ell) = \sum_{\ell=1}^{T-1}\sum_{j=1}^\ell \gamma(j) ,
+$$
+
+we can rewrite $S$ using a double sum
+
+$$
+S = \frac{2}{T^2} \sum_{\ell=1}^{T-1}\sum_{j=1}^\ell \gamma(j) .
+$$
+
+This is not exactly the same as the RHS of \eqref{eq-var-time-average-cesaro}, we need to get $\frac{1}{\ell}\sum_{j=1}^\ell\gamma(j)$ in order to apply the Theorem of the Cesàro Means.
+
+Therefore, we multiply and divide $S$ by $\ell$:
+
+$$
+\begin{align*}
+S &= \frac{2}{T^2} \sum_{\ell=1}^{T-1} \ell \cdot \frac{1}{\ell} \sum_{j=1}^\ell \gamma(j) \\
+&= \sum_{\ell=1}^{T-1} \frac{2\ell}{T^2} \cdot \left(\frac{1}{\ell} \sum_{j=1}^\ell \gamma(j)\right) \\
+&= \sum_{\ell=1}^{T-1} w_{Tl} \left(\frac{1}{\ell}\sum_{j=1}^\ell\gamma(j) \right)  
+\end{align*} 
+$$
+
+where $w_{Tl} = \frac{2\ell}{T^2}$. <span style='float:right; margin-right:10px'>&#9633;</span>
+
+
+
+Now we need to show convergence of $\sum_{\ell=1}^Tw_{Tl} \to 1$ as $T\to\infty .$
+
+$$
+\begin{split}
+\sum_{\ell=1}^T w_{Tl} 
+&= \frac{2}{T^2}\sum_{\ell=1}^T \ell \\
+&= \frac{2}{T^2} \cdot \frac{T(T+1)}{2} \\
+&= \frac{T+1}{T} \to 1 \text{ as } T\to\infty.
+\end{split}
+$$
+
+Given $\frac{1}{\ell}\sum_{j=1}^\ell\gamma(j) \to 0$ (ergodicity implies $\gamma(j)\to 0$ as $j\to\infty$), we have
+
+$$
+S \to 0 \text{ as } T\to\infty.
+$$
+
 
 ___
 
