@@ -521,6 +521,7 @@ $$
 
 since $E[\varepsilon_t \vert \mathcal F_{t-1}]=0.$
 
+___
 
 **Martingale Difference Sequence** (MDS)
 
@@ -555,13 +556,13 @@ $$
 
 **Useful properties of a MDS**:
 
-1. A MDS is mean zero.
+1. A MDS has **mean zero**.
 
     $$
     E[\varepsilon_t] = E \left[E[\varepsilon_t | \mathcal F_{t-1}]\right] =0 
     $$
 
-2. By construction, a MDS is an uncorrelated process. The covariance of $\varepsilon_t$ and $\varepsilon_{t-k}$, for $k>0$, is 
+2. By construction, a MDS is **an uncorrelated process**. The covariance of $\varepsilon_t$ and $\varepsilon_{t-k}$, for $k>0$, is 
 
     $$
     \begin{aligned}

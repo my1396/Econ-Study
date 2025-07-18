@@ -261,11 +261,11 @@ ___
   
   Hence $\text{Var}(\overline{Z}_T)\to 0$ as $T\to 0$.
 
-Alternative notation for $\text{Var}(\overline{Z}_T)$ using $\gamma(\ell)$
+Alternative notation of $\text{Var}(\overline{Z}_T)$ using $\gamma(\ell)$
 
 $$
 \begin{equation}\label{eq-var-time-average}
-\text{Var}(\overline{Z}_T) = \frac{\sigma^2}{T} + \frac{2}{T^2} \sum_{\ell=T}^{T-1} (T-\ell) \gamma(\ell)
+\text{Var}(\overline{Z}_T) = \frac{\sigma^2}{T} + \frac{2}{T^2} \color{#008B45}\sum_{\ell=1}^{T-1} (T-\ell) \gamma(\ell)
 \end{equation}
 $$
 
@@ -358,6 +358,66 @@ $$
 S \to 0 \text{ as } T\to\infty.
 $$
 
+___
+
+Let's take a closer look at the expression $\color{#008B45}\sum_{\ell=1}^{T-1} (T-\ell) \gamma(\ell).$ 
+
+
+$$
+\begin{split}
+\sum_{\ell=1}^{T-1} (T-\ell) \gamma(\ell) &= (T-1)\gamma(1) + (T-2)\gamma(2) + \cdots \\
+&\phantom{=} \quad + 2\cdot\gamma(T-2) + 1\cdot\gamma(T-1).
+\end{split}
+$$
+
+Each $\gamma(\ell)$ appears $T-\ell$ times.
+
+It is related to the **Toeplitz covariance matrix** given by:
+
+$$
+\boldsymbol{\Gamma}_T =
+\begin{bmatrix}
+\gamma(0)      & \color{#008B45}{\gamma(1)}      & \color{#008B45}{\gamma(2)}      & \cdots & \color{#008B45}{\gamma(T-2)}     & \color{#008B45}{\gamma(T-1)} \\
+\gamma(1)      & \gamma(0)      & \color{#008B45}{\gamma(1)}      & \cdots & \color{#008B45}{\gamma(T-3)}     & \color{#008B45}{\gamma(T-2)} \\
+\gamma(2)      & \gamma(1)      & \gamma(0)      & \cdots & \color{#008B45}{\gamma(T-4)}     & \color{#008B45}{\gamma(T-3)} \\
+\vdots         & \vdots         & \vdots         & \ddots & \vdots          & \color{#008B45}{\vdots}      \\
+\gamma(T-2)    & \gamma(T-3)    & \gamma(T-4)    & \cdots & \gamma(0)       & \color{#008B45}{\gamma(1)}   \\
+\gamma(T-1)    & \gamma(T-2)    & \gamma(T-3)    & \cdots & \gamma(1)       & \gamma(0)
+\end{bmatrix}_{T\times T},
+$$
+
+which is usually used to denote the $T\times T$ autocovariance matrix of a stationary time series $\lbrace Z_t\rbrace_{t=1}^T$ with autocovariance function $\gamma(\ell).$ 
+
+Its $(t,j)$ element is $\gamma(\abs{t-j}).$
+The diagonal elements are $\gamma(0)=\sigma^2,$ the first off-diagonal elements are $\gamma(1),$ the second off-diagonal elements are $\gamma(2)$ and so on.
+
+There are $T$ diagonal elements of $\sigma^2,$ $2(T-1)$ elements of $\gamma(1).$ 
+
+For $T=4$, the Toeplitz matrix is given by:
+
+$$
+\boldsymbol{\Gamma}_4 =
+\begin{bmatrix}
+\gamma(0) & \gamma(1) & \gamma(2) & \gamma(3) \\
+\gamma(1) & \gamma(0) & \gamma(1) & \gamma(2) \\
+\gamma(2) & \gamma(1) & \gamma(0) & \gamma(1) \\
+\gamma(3) & \gamma(2) & \gamma(1) & \gamma(0)
+\end{bmatrix} .
+$$
+
+$\var(Z_t)$ can be expressed as the sum of all components in $\boldsymbol{\Gamma}_T$ scaled by $\frac{1}{T^2}$:
+
+$$
+\begin{split}
+\var(Z_t) &= \frac{1}{T^2} \sum_{\ell=0}^{T-1} (T-\ell) \gamma(\ell) \\
+&= \frac{1}{T^2} \bold{1}_T' \boldsymbol{\Gamma}_T \bold{1}_T ,
+\end{split}
+$$
+
+where $\bold{1}_T$ is a $T\times 1$ column of ones.
+
+
+
 
 ___
 
@@ -385,11 +445,127 @@ ___
 
 ## Weakly Stationary
 
-The time series $\lbrace Z_t\rbrace_{t=0}^n$ is <span style='color:#008B45FF'>*(weakly, second-order, or covariance) stationary*</span> if
-1. $E[X_t] = \mu \,.$ \
+Consider a time series $\lbrace \bZ_t\rbrace_{t=0}^n$ with $m$-dimensional random vectors $\bZ_t = (Z_{t1}, Z_{t2}, \ldots, Z_{tm})'$, where $Z_{ti}$ is the $i$-th component of the vector at time $t$.
+The time series $\lbrace \bZ_t\rbrace_{t=0}^n$ is <span style='color:#008B45FF'>*(weakly, second-order, or covariance) stationary*</span> if
+1. $E[\bZ_t] = \bmu \,.$ \
 The mean function $\mu_t$ is independent of $t$;
-2. $\text{Cov}(X_t, X_{t-j}) = \Gamma_j \text{ for } \forall j\ge 0 \,.$\
- The covariance between two observations, $\gamma_t(k)$, <span style='color:#337ab7'>depends only on the time lag $k$ and is independent of $t$</span>.
+2. $\var(\bZ_t) = \E\left[(\bZ_t-\bmu)(\bZ_t-\bmu)'\right] = \bSigma$ \
+The variance matrix $\Sigma$ is independent of $t.$
+3. $\text{Cov}(\bZ_t, \bZ_{t-k}) = \E\left[(\bZ_t-\mu)(\bZ_{t-k}-\mu)'\right] = \bGamma_k \text{ for } \forall \,k \,.$\
+ The autocovariance between two observations, $\bGamma_t(k)$, <span style='color:#337ab7'>depends only on the time lag $k$ and is independent of $t$</span>.
+
+
+By symmetry, we have 
+
+$$
+\text{Cov}(\bZ_t, \bZ_{t-k}) = \bGamma(k) = \bGamma(-k)' = \text{Cov}(\bZ_{t-k}, \bZ_t)'.
+$$
+
+The symmetry property $\bGamma(k) = \bGamma(-k)'$ follows from the identity
+
+$$
+\color{#008B45}\cov(\bX, \bY) = \cov(\bY, \bX)' .
+$$
+
+___
+
+We calculate the lag-$k$ covariance matrix as
+
+$$
+\begin{split}
+\bGamma(k) &= \text{Cov}(\bZ_t, \bZ_{t-k}) \\
+&= \E\left(\bZ_t \bZ_{t-k}'\right) - \E(\bZ_t)\E(\bZ_{t-k})' \\
+&= \E\left(\bZ_t \bZ_{t-k}'\right) - \bmu \bmu'
+\end{split}
+$$
+
+where
+
+$$
+\begin{split}
+\E\left(\bZ_t \bZ_{t-k}'\right) 
+&= \E\left\{
+\begin{pmatrix}
+Z_{t1} \\ 
+Z_{t2} \\
+\vdots \\
+Z_{tm}
+\end{pmatrix}
+\begin{pmatrix}
+Z_{t-k,1} &
+Z_{t-k,2} &
+\cdots &
+Z_{t-k,m}
+\end{pmatrix}
+\right\} \\
+&= 
+\begin{pmatrix}
+\E[Z_{t1} Z_{t-k,1}] & \E[Z_{t1} Z_{t-k,2}] & \cdots & \E[Z_{t1} Z_{t-k,m}] \\
+\E[Z_{t2} Z_{t-k,1}] & \E[Z_{t2} Z_{t-k,2}] & \cdots & \E[Z_{t2} Z_{t-k,m}] \\
+\vdots & \vdots & \ddots & \vdots \\
+\E[Z_{tm} Z_{t-k,1}] & \E[Z_{tm} Z_{t-k,2}] & \cdots & \E[Z_{tm} Z_{t-k,m}]
+\end{pmatrix}
+\end{split}
+$$
+
+Covariance of the reverse time order is given by
+
+$$
+\begin{split}
+\bGamma(-k) &= \text{Cov}(\bZ_{t-k}, \bZ_t) \\
+&= \E\left(\bZ_{t-k}\bZ_t' \right) - \E(\bZ_{t-k})\E(\bZ_{t})' \\
+&= \E\left(\bZ_{t-k}\bZ_t'\right) - \bmu \bmu'
+\end{split}
+$$
+
+where
+
+$$
+\begin{split}
+\E\left(\bZ_{t-k} \bZ_t'\right) 
+&= \E\left\{
+\begin{pmatrix}
+Z_{t-k,1} \\ 
+Z_{t-k,2} \\
+\vdots \\
+Z_{t-k,m}
+\end{pmatrix}
+\begin{pmatrix}
+Z_{t1} &
+Z_{t2} &
+\cdots &
+Z_{tm}
+\end{pmatrix}
+\right\} \\
+&= 
+\begin{pmatrix}
+\E[Z_{t-k,1} Z_{t1}] & \E[Z_{t-k,1} Z_{t2}] & \cdots & \E[Z_{t-k,1} Z_{tm}] \\
+\E[Z_{t-k,2} Z_{t1}] & \E[Z_{t-k,2} Z_{t2}] & \cdots & \E[Z_{t-k,2} Z_{tm}] \\
+\vdots & \vdots & \ddots & \vdots \\
+\E[Z_{t-k,m} Z_{t1}] & \E[Z_{t-k,m} Z_{t2}] & \cdots & \E[Z_{t-k,m} Z_{tm}]
+\end{pmatrix}
+\end{split}
+$$
+
+This is simply the transpose of the earlier moment matrix due to the reversal of the time indices. As expected from the symmetry property:
+
+$$
+\E\left(\bZ_t \bZ_{t-k}'\right) = \left[\E\left(\bZ_{t-k} \bZ_t'\right)\right]' 
+$$
+
+Thus
+
+$$
+\text{Cov}(\bZ_t, \bZ_{t-k}) = \bGamma(k) = \bGamma(-k)' = \text{Cov}(\bZ_{t-k}, \bZ_t)'. \tag*{\(\square\)}
+$$
+
+___
+
+In the *univariate* cases where $Z_t$ is a scaler, the above conditions can be simplified as follows:
+
+- $E[Z_t] = \mu$ 
+- $\var(Z_t) = \E\left[(Z_t-\mu)(Z_t-\mu)'\right] = \sigma^2$
+- $\cov(Z_t,Z_{t-k}) = \E\left[(Z_t-\mu)(Z_{t-k}-\mu)'\right] = \gamma(k)$
 
 *Nothing* is assumed about the collection of *joint distributions* of the process. Instead, we only are specifying the characteristics of the <span style='color:#337ab7'>first two **moments**</span> of the process.
 
@@ -413,9 +589,17 @@ for all time points $t_1, t_2, \ldots, t_n$ and for all time lags $k$.
 
 In other words, shifting the time origin by an amount $k$ has no effect on the joint distributions, which must therefore depend only on the intervals between $t_1, t_2, \ldots, t_n$. This is a very strong condition.
 
+If $\lbrace Z_t\rbrace_{t=0}^n$ is strictly stationary, then the joint distribution of any finite collection of time points is invariant to shifts in time. 
+
+Mathematically, the joint distribution of $(Z_t, \ldots, Z_{t+\ell})$ is independent of $t$ for all $\ell.$
+
+This means that the statistical properties of the process do not change over time.
+
+
+
 Basic properties of a strictly stationary time series $\lbrace Z_t\rbrace$:
 1. $Z_t$'s are from the same distribution.\
-   Since the above condition holds for all sets of time points $t_1, t_2, \ldots, t_n$, it must hold when $n = 1$; i.e., there is only one time point. This implies $Z_t$ and $Z_{t-k}$ have the same margianl distribution for all $t$ and $k$.
+   Since the above condition holds for all sets of time points $t_1, t_2, \ldots, t_n$, it must hold when $n = 1$; i.e., there is only one time point. This implies $Z_t$ and $Z_{t-k}$ have the same marginal distribution for all $t$ and $k$.
 2. Because these marginal distributions are the same,
 
     $$
@@ -440,8 +624,8 @@ This implies
     $\overset{\rm d}{=}$ means having th same distribution.
 
     $\gamma_{t, t-k}$ can be simplied as $\gamma(k)$ as the covariance between any two observations depends only on the time lag between them, not on $t$.
+4. An IID sequence is strictly stationary.
 
-1. An IID sequence is strictly stationary.
 
 *REMARK*: Strict stationarity is a condition that is much *too restrictive* for most applications. Moreover, it is difficult to assess the validity of this assumption in practice. Rather than imposing conditions on all possible (marginal and joint) distributions of a process, we will use a milder form of stationarity that only deals with the first two moments — Weak Stationarity.
 
@@ -466,14 +650,27 @@ In many situations, a nonstationary process $\{Y_t\}$ can be “transformed” i
   For instance, $y_t=(-1)^tZ$ and $y_t=Z\cos(\theta t)$ are stationary processes for a random variable $Z$ symmetrically distributed about 0.
 
 
-Useful properties of stationarity
+___
+
+**Useful properties of stationarity**
 
 <div class = "boxed">
 <strong>Theorem</strong>  If $\boldsymbol{y}_t$ is strictly stationary and $\boldsymbol{x}_t=\boldsymbol{\phi}(\boldsymbol{y}_t, \boldsymbol{y}_{t-1}, \boldsymbol{y}_{t-2}, \ldots) \in \mathbb{R}^q$ is a random vector, then $\boldsymbol{x}_t$ is strictly stationary.
 </div>
 
-- Stationarity is preserved by transformation. That is,
+- **Stationarity is preserved by transformation.** That is,
 transformations of strictly stationary processes are also strictly stationary.
+
+  As an example, the theorem applies to the infinite-order moving average transform:
+
+  $$
+  x_t = \sum_{j=0}^\infty a_j y_{t-j}
+  $$
+
+  where $a_j$ are coefficients and are absolutely convergent ($\sum_{j=0}^\infty \abs{a_j} <\infty$). 
+
+  Then if $y_t$ is strictly stationary, then $x_t$ is also strictly stationary.
+
 - This is useful for the study of stochastic processes which are constructed from underlying errors, and for the study of sample statistics such as linear regression estimators which
 are functions of sample averages of squares and cross-products of the original data.
 

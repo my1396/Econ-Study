@@ -631,7 +631,7 @@ $$
 
     Eq. \eqref{eq-MX-omegaX-NW} is called the **Newey-West autocorrelation consistent covariance estimator** (or **Heteroskedasticity and Autocorrelation Consistent (HAC) estimator**). It is a generalization of White's heteroskedasticity consistent estimator to the case of autocorrelation.
 
-    In practice, $L\sim T^{1/4}.$
+    In practice, $L\approx T^{1/4}.$
 
     Note that the term $\left(x_t x_{t-\ell}' + x_{t-\ell} x_t'\right)$ is not always equal to $2 x_t x_{t-\ell}'$, unless $x_t x_{t-\ell}'$ is symmetric (which is only true if $x_t = x_{t-\ell}$ or if $x_t$ and $x_{t-\ell}$ are scalars).
 
