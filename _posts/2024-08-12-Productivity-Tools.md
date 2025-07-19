@@ -131,7 +131,7 @@ Snippets files are written in JSON, support C-style comments, and can define an 
 
   Multi-language and global user-defined snippets are all defined in "global" snippet files (JSON with the file suffix `.code-snippets`), which is also accessible through **Snippets: Configure Snippets**. 
 
-  File path: `$HOME/Library/Application Support/Code/User/snippets`
+  File path: <span style='color:#008B45'>`$HOME/Library/Application Support/Code/User/snippets`</span>
 
 Creata your own snippets: `Code` > `Settings` > `Configure Snippets`
 
@@ -587,6 +587,15 @@ The editor supports *tab completion*, which inserts the best matching completion
 ```
 
 
+
+___
+
+### GitHub Copilot
+
+Q: How to delete chat histories?  
+A: In the chat window, click the <img src="https://drive.google.com/thumbnail?id=1D0LNpQUiAxzdsyQ2W3anXc3_UREkdBgM&sz=w1000" alt="" style="zoom:5%;" /> icon, it will show history chats in the command palette. You can delete any chats from there. 
+
+Chat histories are stored in `/Users/menghan/Library/Application Support/Code/User/workspaceStorage/[long-serial-number...]/chatSessions`
 
 
 
