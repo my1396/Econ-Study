@@ -72,6 +72,24 @@ Det provoserer meg at … → It provokes me that …
 
 
 
+In this way
+
+På den måten …
+
+slik sett → in this sense
+
+det store spørsmålet er ... → The big question is … The key issue is …
+
+
+
+... is (hence) considered ...
+
+... regnes (derfor) som …
+
+Bruk av fornybare energikilder regens som barekraflig og miljøvennlig.
+
+
+
 **很明显**...
 
 det er *klart/tydelig* at ...
@@ -360,15 +378,17 @@ Stagig flere/bedre ... 越来越多/好
 
 
 
-趋势
+**趋势**
 
-Et økende antall nordmenn ønsker å ... → An increasing number of Norwegians wish to ...
+Et *økende* antall nordmenn ønsker å ... → An increasing number of Norwegians wish to ...
 
-en vesentlig økning av antall nordmenn over 80 → A significant increase in the number of Norwegians over 80
+*en vesentlig økning av* antall nordmenn over 80 → A significant increase in the number of Norwegians over 80
 
-A går ned samtidig som B øker → 伴随着 B 的上升，A 在下降
+A *går ned samtidig som* B øker → 伴随着 B 的上升，A 在下降
 
-Det blir en ond sirkel. → It becomes a vivious circle.
+å bli redusert → to be reduced
+
+Det blir en ond *sirkel*. → It becomes a vivious circle.
 
 
 
@@ -401,10 +421,12 @@ Dette gjelder også i Norge. → This also applies in Norway.
 
 ### **原因**
 
-| Det er nok også litt av <span style='color:#008B45'>grunnen til at</span> han ga seg. | That's probably part of the reason he gave up. |
-| ------------------------------------------------------------ | ---------------------------------------------- |
-| den vanligste årsaken til .... er ...                        | the most common cause of ... is ...            |
-| å følge av noe                                               | 由…引起的                                      |
+| Det er nok også litt av <span style='color:#008B45'>grunnen til at</span> han ga seg. | That's probably part of the reason he gave up.               |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| av den grunn ... 倒装                                        | because of this ...                                          |
+| den vanligste årsaken til .... er ...                        | the most common cause of ... is ...                          |
+| å følge av noe                                               | 由…引起的                                                    |
+| Dette har **sammenheng** med at ...                          | This is related / due to the fact that ...<br />This has to do with the fact that ...<br />This is because ... |
 
 nok: probably
 
@@ -612,11 +634,21 @@ Hva synes dere om at man kan få utført en operasjon for å få et bedre utseen
 
 **Miljø 环保**
 
+bærekraftig: sustainable
+
+miljøvennlig: environmental friendly
+
+å unngå / redusere utslipp →  to avoid/ reduce emissions
+
+Det er fattige land som *rammes hardest av* klimaendringene. → Poor countries were affected most.
+
 gjenbruk 循环利用
 
 gjenbruk i sted for å kjøpe nytt
 
-*fornybare ressurer* renewable resources
+*fornybare ressurer / energikilder* renewable resources / energy
+
+storbyer som normalt sliter med dårlig luft på grunn av utslipp fra transport og fabrikkerr
 
 Hva tenker dere om at undom streiker for miljøsaken?
 
@@ -628,7 +660,11 @@ Er det noen poenger i talen til Grete Thunberg som dere synes er spesielt gode?
 
 
 
+**Koronapandeminen**
 
+å bli rammet av ...
+
+*å stenge ned*  shut down, lock down
 
 
 

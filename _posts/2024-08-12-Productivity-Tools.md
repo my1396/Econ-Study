@@ -52,11 +52,20 @@ ___
 
 Markdown Preview: <https://code.visualstudio.com/docs/languages/markdown#_markdown-preview>
 
+### Layout
+
+<img src="https://drive.google.com/thumbnail?id=1Ibf8FiPU7Ghc_ckzu1btT44VlRFnVJ4d&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+- **Panel** (<kbd>cmd</kbd> + <kbd>J</kbd>)- An additional space for views below the editor region. By default, it contains output, debug information, errors and warnings, and an integrated terminal. The Panel can also be moved to the left or right for more vertical space.
+
+
+
 **Keyboard shortcuts**
 
-| Shortcut | Function         |
-| -------- | ---------------- |
-| dd       | use vim shortcut |
+| Shortcut                       | Function         |
+| ------------------------------ | ---------------- |
+| `dd`                           | use vim shortcut |
+| <kbd>cmd</kbd> + <kbd> J</kbd> | toggle Panel     |
 
 Useful Extensions:
 
@@ -99,6 +108,16 @@ Every language defines its *id* through the `languages` configuration point in t
 ```
 
 You can find a list of known identifiers in the [language identifier reference](https://code.visualstudio.com/docs/languages/identifiers#_known-language-identifiers).
+
+___
+
+**Source Control**
+
+Error: No source control providers registered.  
+Cause: Git built-in extension was disabled.  
+Fix: Go to Extensions, type: `@builtin git`, then **Enable** Git from the Git extension settings.
+
+
 
 
 
@@ -559,7 +578,9 @@ ___
 
 Words not in the dictionary files will have a squiggly underline.
 
-Its configuration starts with `cSpell`
+Its configuration starts with `cSpell`.
+
+In text-based documents like `.md` and `.qmd` files, the spell checker checks all words. In code-based documents like `.py` and `.R` files, the spell checker only checks strings and comments.
 
 
 

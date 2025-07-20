@@ -25,7 +25,8 @@ $$
 \E(\bx_ie_i) = 0
 $$
 
-$\bx_i$ is said to be endogenous for $\bbeta.$ We call $\eqref{eq:model-struct}$ a **structural equation** and $\bbeta$ a **structural parameter**.
+$\bx_i$ is said to be endogenous for $\bbeta.$ We call $\eqref{eq:model-struct}$ a **structural equation**, $\bbeta$ a **structural parameter**, and $\be$ **structural errors**.
+The name comes from the fact that the structural equation  is derivable from *economic theory* and has a *causal interpretation*.
 
 We introduce a $\ell\times 1$ random vector $\bz_i$ as an instrumental variable for $\bx_i$. $\bz_i$ needs to satisfy the following conditions:
 

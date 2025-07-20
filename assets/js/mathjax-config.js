@@ -167,8 +167,8 @@ window.MathJax = {
           diag: "\\mathrm{diag}",
           rank: "\\mathrm{rank}",
           vecc: "\\mathrm{vec}",
-          },
-      },
+        },
+    },
 
     svg: {
         fontCache: 'global'

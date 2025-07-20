@@ -10,10 +10,11 @@ update: 2025-06-19
 
 **Multivariate regression** is a system of regression equations. Multivariate regression is commonly used as reduced form models for instrumental variable estimation, vector autoregressions, demand systems (demand for multiple goods), and GMM estimation for a system of equations.
 
-Multivariate regression is also called by the name **systems of regression equations**. Closely related is the method of **Seemingly Unrelated Regressions** (SUR).
+Multivariate regression is also called by the name <span style="color: #008B45;">
+**systems of regression equations**</span>. Closely related is the method of <span style="color: #008B45;">**Seemingly Unrelated Regressions** (SUR)</span>.
 
 
-Examples where systems of regression equations are useful: There are many settings in which disturbances are correlated across units. In these contexts, it makes sense to consider the several models jointly.
+Examples where systems of regression equations are useful: There are many settings in which disturbances are correlated across units. In these contexts, it makes sense to consider the several models iointly.
 
 
 **Example 1**
@@ -21,11 +22,10 @@ Examples where systems of regression equations are useful: There are many settin
 The CAPM model
 
 $$
-r_{it} - r_{ft} = \alpha_i + \beta_{i} (r_{mt}-r_{ft}) + \varepsilon_{it}.
+r_{it} - r_{ft} = \alpha_i + {\color{#008B45}\beta_{i}} (r_{mt}-r_{ft}) + \varepsilon_{it}.
 $$
 
-The disturbances can be correlated across securities. The knowledge that the return on security $i$ exceeds the risk-free rate by a given amount gives some information about the excess return of security $j$, at least for some $j$’s. It may be useful to estimate the equations
-jointly rather than ignore this connection.
+The disturbances can be correlated across securities. The knowledge that the return on security $i$ exceeds the risk-free rate by a given amount gives some information about the excess return of security $i$, at least for some $i$’s. It may be useful to estimate the equations iointly rather than ignore this connection.
 
 
 ___
@@ -82,139 +82,189 @@ $$
 \end{equation}
 $$
 
-where $\by_j$ and $\bvarepsilon_j,$ $j=1,\ldots,M,$ are $N\times 1$ vectors. 
+where $\by_i$ and $\bvarepsilon_i,$ $i=1,\ldots,M,$ are $N\times 1$ vectors. 
 There are $M$ equations and $N$ observations in the sample of data used to estimate them.
-$\bX_j$ is an $N\times K_j$ matrix, where 
+$\bX_i$ is an $N\times K_i$ matrix, where 
 
 $$
-K_j = \text{dim}(\bbeta_j)
+K_i = \text{dim}(\bbeta_i)
 $$
 
-is the number of regressors for the $j$-th regression. 
+is the number of regressors for the $i$-th regression. 
+
+**Distinguish** from the panel data model, where we assume identical coefficients across equations.
+
+|      | SUR                                 | Panel                                                 |
+| ---- | ----------------------------------- | ----------------------------------------------------- |
+| $M$  | variables; equations → assume depd. | individuals; firms; units; → assume indepd.           |
+| $N$  | observations; → assume indepd.      | Time periods; often denoted $T$ → assume serial depd. |
+
+
+
+
 
 ___
 
+A system of linear regressions assumes that, there are $M$ dependent variables, $\by_{1},$ $\by_{2}, \ldots,$ $\by_{M},$
 
-A system of linear regressions assumes that, for each individual observation $i,$ there are $M$ dependent variables, $y_{1i},$ $y_{2i}, \ldots,$ $y_{Mi},$
+$$
+\underbrace{\by_{i}}_{N\times 1} = \begin{pmatrix}
+y_{i1} \\ 
+y_{i2} \\
+\vdots \\
+y_{iN}
+\end{pmatrix} \quad \text{ for } i = 1,\ldots, M,
+$$
+
+where
 
 $$
 \begin{equation} \label{eq-sur}
-y_{ji} = \underbrace{\bx_{ji}'}_{1\times K_j}\; \underbrace{\bbeta_{j}}_{K_j\times 1} + \varepsilon_{ji}, \quad j=1,\ldots, M,
+y_{it} = \underbrace{\bx_{it}'}_{1\times K_i}\; \underbrace{\color{#008B45}\bbeta_{i}}_{K_i\times 1} + \varepsilon_{it}, \quad t = 1,\ldots, N,
 \end{equation}
 $$
 
-$j=1,\ldots, M$ indexes variables; and $i=1,\ldots, N$ indexes *individuals*, *groups*, or *firms*.
+- $i=1,\ldots, M$ indexes variables, equations; 
+- and $t=1,\ldots, N$ indexes observations.
 
-**Stacking of observations over** $i$, for each equation $j=1,\ldots,M$, we have
+**Stacking of observations over** $i$, for each equation $i=1,\ldots,M$, we have
 
 $$
 \begin{bmatrix}
-y_{j1}  \\
-y_{j2}  \\
+y_{i1}  \\
+y_{i2}  \\
 \vdots \\
-y_{jN}  \\
+y_{iN}  \\
 \end{bmatrix}
 = \begin{bmatrix}
-\bx_{j1}'  \\
-\bx_{j2}'  \\
+\bx_{i1}'  \\
+\bx_{i2}'  \\
 \vdots \\
-\bx_{jN}'  \\
+\bx_{iN}'  \\
 \end{bmatrix}
-\bbeta_{j} + 
+\bbeta_{i} + 
 \begin{bmatrix}
-\varepsilon_{j1}  \\
-\varepsilon_{j2}  \\
+\varepsilon_{i1}  \\
+\varepsilon_{i2}  \\
 \vdots \\
-\varepsilon_{jN}  \\
+\varepsilon_{iN}  \\
 \end{bmatrix}
 $$
 
 or
 
 $$
-\by_j = \underbrace{\bX_j}_{N\times K_j} \bbeta_j + \bvarepsilon_j , \quad j=1,\ldots,M
+\by_i = \underbrace{\bX_i}_{N\times K_i} \bbeta_i + \bvarepsilon_i , \quad i=1,\ldots,M
 $$
 
 It is typical to assume
 
 
-- $y_{ji}$ independent across observations $i$, namely
+- $y_{it}$ independent between observations $t$ and $t'$, namely
 
     $$
-    \cov (\varepsilon_{ji}, \varepsilon_{ji'}) = 0 ,
+    \cov (\varepsilon_{it}, \varepsilon_{it'}) = 0 ,
     $$
 
-    where $i\ne i'.$
+    where $t\ne t'.$
 
-    And
+    And 
 
     $$
-    \var(\varepsilon_{ji}) = \sigma_{jj}
+    \var(\varepsilon_{it}) = \sigma_{ii}
     $$
 
     In matrix form:
 
     $$
     \begin{split}
-    \E[\bvarepsilon_j\bvarepsilon_j'] 
+    \E[\bvarepsilon_i\bvarepsilon_i'] 
     &= \begin{bmatrix} 
-    \E(\varepsilon_{j1}\varepsilon_{j1}) & \E(\varepsilon_{j1}\varepsilon_{j2})  & \cdots &  \E(\varepsilon_{j1}\varepsilon_{jN}) \\
-    \E(\varepsilon_{j1}\varepsilon_{j2}) &  \E(\varepsilon_{j2}\varepsilon_{j2})  & \cdots &  \E(\varepsilon_{j2}\varepsilon_{jN}) \\
+    \E(\varepsilon_{i1}\varepsilon_{i1}) & \E(\varepsilon_{i1}\varepsilon_{i2})  & \cdots &  \E(\varepsilon_{i1}\varepsilon_{iN}) \\
+    \E(\varepsilon_{i1}\varepsilon_{i2}) &  \E(\varepsilon_{i2}\varepsilon_{i2})  & \cdots &  \E(\varepsilon_{i2}\varepsilon_{iN}) \\
     \vdots & \vdots & \ddots & \vdots \\
-    \E(\varepsilon_{j1}\varepsilon_{jN}) &  \E(\varepsilon_{j2}\varepsilon_{jN})  & \cdots &  \E(\varepsilon_{jN}\varepsilon_{jN}) \\
+    \E(\varepsilon_{i1}\varepsilon_{iN}) &  \E(\varepsilon_{i2}\varepsilon_{iN})  & \cdots &  \E(\varepsilon_{iN}\varepsilon_{iN}) \\
     \end{bmatrix} \\
     &= \begin{bmatrix} 
-    \sigma_{jj} & 0  & \cdots & 0 \\
-    0 & \sigma_{jj}  & \cdots & 0 \\
+    \sigma_{ii} & 0  & \cdots & 0 \\
+    0 & \sigma_{ii}  & \cdots & 0 \\
     \vdots & \vdots & \ddots & \vdots \\
-    0 & 0  & \cdots & \sigma_{jj} \\
+    0 & 0  & \cdots & \sigma_{ii} \\
     \end{bmatrix} \\
-    &= \sigma_{jj} I_N .
+    &= \sigma_{ii} I_N .
     \end{split}
     $$
 
 
-- but **correlated across variables (equations)** $j$,
+- but **correlated across variables (equations)** $i$ and $j$,
 
     $$
-    \cov(\varepsilon_{si}, \varepsilon_{ti}) = \sigma_{st} .
+    \cov(\varepsilon_{it}, \varepsilon_{jt}) = \sigma_{ij} .
     $$
 
-    That is, for individual $i$, the error terms across equations (variables) $s$ and $k$ are correlated.
+    where $i\ne j$.
+    That is, for observation (time period) $t$, the error terms across equations (variables) $i$ and $j$ are correlated.
+
+    $$
+    \cov(\varepsilon_{it}, \varepsilon_{jt'}) = 0 .
+    $$
+
+    where $t\ne t'$.
+    
+    This means that error terms across different equations are uncorrelated when they occur in different time periods or observations. In other words, the error in equation $i$ at time $t$ is independent of the error in equation $j$ at a different time $t'$. 
+    
+    This assumption maintains temporal independence across equations while still allowing for contemporaneous correlation (at the same time $t$) between different equations.
 
     In matrix form:
 
     $$
     \begin{split}
-    \E[\bvarepsilon_s\bvarepsilon_t'] 
-     &= \begin{bmatrix} 
-    \E(\varepsilon_{s1}\varepsilon_{t1}) & \E(\varepsilon_{s1}\varepsilon_{t2})  & \cdots &  \E(\varepsilon_{s1}\varepsilon_{tN}) \\
-    \E(\varepsilon_{s1}\varepsilon_{t2}) &  \E(\varepsilon_{s2}\varepsilon_{t2})  & \cdots &  \E(\varepsilon_{s2}\varepsilon_{tN}) \\
+    \E[\bvarepsilon_i\bvarepsilon_j'] 
+    &= \begin{bmatrix} 
+    \E(\varepsilon_{i1}\varepsilon_{j1}) & \E(\varepsilon_{i1}\varepsilon_{j2})  & \cdots &  \E(\varepsilon_{i1}\varepsilon_{jN}) \\
+    \E(\varepsilon_{i2}\varepsilon_{j1}) &  \E(\varepsilon_{i2}\varepsilon_{j2})  & \cdots &  \E(\varepsilon_{i2}\varepsilon_{jN}) \\
     \vdots & \vdots & \ddots & \vdots \\
-    \E(\varepsilon_{s1}\varepsilon_{tN}) &  \E(\varepsilon_{s2}\varepsilon_{tN})  & \cdots &  \E(\varepsilon_{sN}\varepsilon_{tN}) \\
+    \E(\varepsilon_{iN}\varepsilon_{j1}) &  \E(\varepsilon_{iN}\varepsilon_{j2})  & \cdots &  \E(\varepsilon_{iN}\varepsilon_{jN}) \\
     \end{bmatrix} \\
     &= \begin{bmatrix} 
-    \sigma_{st} & 0  & \cdots & 0 \\
-    0 & \sigma_{st}  & \cdots & 0 \\
+    \sigma_{ij} & 0  & \cdots & 0 \\
+    0 & \sigma_{ij}  & \cdots & 0 \\
     \vdots & \vdots & \ddots & \vdots \\
-    0 & 0  & \cdots & \sigma_{st} \\
+    0 & 0  & \cdots & \sigma_{ij} \\
     \end{bmatrix} \\
-    &= \sigma_{st} I_N .
+    &= \sigma_{ij} I_N .
     \end{split}
     $$
 
 
 
 
-As an example, the observations $y_{ji}$ could be expenditures by household $i$ on goods $j$. The standard assumptions are that households are mutually independent, but expenditures by an individual household are correlated across goods.
+As an example, let the observations $y_{it}$ be expenditures on goods $i$ by household $t.$
 
+- The standard assumptions are that households are mutually independent.
+
+    $$
+    \cov(\varepsilon_{it}, \varepsilon_{it'}) = 0 , \text{ for } t\ne t'.
+    $$
+
+    Household 1's spending decisions are independent of household 2's decisions.
+
+- Expenditures by an individual household are correlated across goods.
+
+    $$
+    \cov(\varepsilon_{1t}, \varepsilon_{2t}) = \sigma_{12} \neq 0
+    $$
+
+    If household $t$ has an unexpectedly high food expenditure (positive $\varepsilon_{1t}$), they might also have high housing expenditure (positive $\varepsilon_{2t}$) due to higher income or different preferences.
+
+Summary: This correlation structure captures the economic reality that spending decisions across different categories are related for the same household, but spending patterns are independent across different households.
 
 ___
 
 ## Kronecker Product Notation
 
 
-The N-vector $\by_j$ can be further stacked into an $MN$-dimensional vector $\by$:
+The N-vector $\by_i$ can be further stacked into an $MN$-dimensional vector $\by$:
 
 $$
 \begin{bmatrix}
@@ -288,11 +338,11 @@ $$
 with 
 
 $$
-K\equiv  \sum_{j=1}^M K_j .
+K\equiv  \sum_{i=1}^M K_i .
 $$
 
 
-With this notation, and the individual assumptions for each equation $j,$ it follows that 
+With this notation, and the individual assumptions for each equation $i,$ it follows that 
 
 $$
 \E[\by] = \bX\bbeta
@@ -322,7 +372,7 @@ $$
 \end{bmatrix} 
 $$
 
-and the $N\times N$ identity matrix $\bI_N.$ We can rewrite the covariance matrix as
+and the $N\times N$ identity matrix $\bI_N.$ We can rewrite the error covariance matrix as
 
 $$
 \bOmega = \bSigma \otimes \bI_N .
@@ -338,7 +388,8 @@ $$
 \begin{split}
 \hat{\bbeta} 
 &= [\bX'\bOmega^{-1}\bX]^{-1} [\bX'\bOmega^{-1}\by] \\
-&=  \left[\bX'(\bSigma \otimes \bI_N)^{-1}\bX\right]^{-1} \left[\bX'(\bSigma \otimes \bI_N)^{-1}\by\right] .
+&=  \left[\bX'(\bSigma \otimes \bI_N)^{-1}\bX\right]^{-1} \left[\bX'(\bSigma \otimes \bI_N)^{-1}\by\right] \\
+&= \left[\bX'(\bSigma^{-1} \otimes \bI_N)\bX\right]^{-1} \left[\bX'(\bSigma^{-1} \otimes \bI_N)\by\right] \quad \left((\bSigma \otimes \bI_N)^{-1} = \bSigma^{-1} \otimes \bI_N \right) 
 \end{split}
 $$
 
@@ -353,18 +404,18 @@ $$
 \sigma_{M1} \mathbf{X}_M' \mathbf{X}_1 & \sigma_{M2} \mathbf{X}_M' \mathbf{X}_2 & \cdots & \sigma_{MM} \mathbf{X}_M' \mathbf{X}_M
 \end{bmatrix}^{-1}
 \begin{bmatrix}
-\sum\limits_{j=1}^{M} \sigma_{1j} \mathbf{X}_1' \mathbf{y}_j \\
-\sum\limits_{j=1}^{M} \sigma_{2j} \mathbf{X}_2' \mathbf{y}_j \\
+\sum\limits_{i=1}^{M} \sigma_{1i} \mathbf{X}_1' \mathbf{y}_i \\
+\sum\limits_{i=1}^{M} \sigma_{2i} \mathbf{X}_2' \mathbf{y}_i \\
 \vdots \\
-\sum\limits_{j=1}^{M} \sigma_{Mj} \mathbf{X}_M' \mathbf{y}_j
+\sum\limits_{i=1}^{M} \sigma_{Mi} \mathbf{X}_M' \mathbf{y}_i
 \end{bmatrix}.
 $$
 
 **Relationship with OLS**
 
-1. If the equations are actually unrelated—that is, if $\sigma_{ij}=0$ for $i\ne j$, then there is obviously no payoff to GLS estimation of the full set of equations. Indeed, full GLS is equation by equation OLS.
+1. If the equations are actually unrelated—that is, if $\sigma_{ii}=0$ for $i\ne i$, then there is obviously no payoff to GLS estimation of the full set of equations. Indeed, full GLS is equation by equation OLS.
 
-2. If the equations have identical explanatory variables—that is, if $\bX_i = \bX_j$, then OLS and GLS are identical. 
+2. If the equations have identical explanatory variables—that is, if $\bX_i = \bX_i$, then OLS and GLS are identical. 
 
 3. If the regressors in one block of equations are a subset of those in another, then GLS brings no efficiency gain over OLS in estimation of the smaller set of equations; thus, GLS and OLS are once again identical. 
 
@@ -379,4 +430,4 @@ ___
 
 -  Chapters 14 System of Regression Equations. **Econometric Analysis** , 5th Edition, by William H. Greene, Prentice Hall, 2003. 
 
-- Chapter 11 Multivariate Regression. **Econometrics**. by Bruce Hansen, 2022. 
+- Chapter 15 Multivariate Regression. **Econometrics**. by Bruce Hansen, 2022. 
