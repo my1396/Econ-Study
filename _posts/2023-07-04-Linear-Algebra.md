@@ -861,10 +861,30 @@ assuming all matrix products are well defined.
 **Inverses** of Kronecker products:
 
 $$
-(A\otimes B)^{-1} = A^{-1} B^{-1} ,
+(A\otimes B)^{-1} = A^{-1} \otimes B^{-1} ,
 $$
 
 assuming both $A$ and $B$ are invertible.
+
+**Transpose** of Kronecker products:
+
+$$
+(A\otimes B)' = A' \otimes B' .
+$$
+
+**Trace** of Kronecker products:
+
+$$
+\text{tr}(A\otimes B) = \text{tr}(A)\text{tr}(B) .
+$$
+
+**Determinant** of Kronecker products:
+
+$$
+\vert A \otimes B \vert = \vert A \vert^m \vert B \vert^n ,
+$$
+
+where $A$ is an $m \times m$ matrix and $B$ is a $n \times n$ matrix.
 
 ___
 

@@ -111,11 +111,29 @@ You can find a list of known identifiers in the [language identifier reference](
 
 ___
 
-**Source Control**
+**Version Control**
+
+Visual Studio Code has integrated source control management (SCM) and includes [Git](https://git-scm.com/) support out-of-the-box.
+
+Use the Source Control icon <img src="https://drive.google.com/thumbnail?id=1WI9raE7rHUOpel0q-qKOD0B5DtVWGrc3&sz=w1000" alt="" style="zoom:10%;" /> in the activity bar to access the Source Control view.
 
 Error: No source control providers registered.  
 Cause: Git built-in extension was disabled.  
 Fix: Go to Extensions, type: `@builtin git`, then **Enable** Git from the Git extension settings.
+
+The Source Control view shows the details of your current repository changes: CHANGES, STAGED CHANGES and MERGE CHANGES.
+
+When you select a file in the Source Control view, you will see the changes that you have made to that file in a diff editor.
+
+<img src="https://drive.google.com/thumbnail?id=17hy2XUkkIHQ6BytDXQ1raHOYVmq7mcEE&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
+
+File version control status
+
+- **U** - Untracked file
+- **A** - Added file
+- **M** - Modified file
 
 
 

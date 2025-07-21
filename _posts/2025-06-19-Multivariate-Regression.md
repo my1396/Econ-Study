@@ -10,12 +10,13 @@ update: 2025-06-19
 
 **Multivariate regression** is a system of regression equations. Multivariate regression is commonly used as reduced form models for instrumental variable estimation, vector autoregressions, demand systems (demand for multiple goods), and GMM estimation for a system of equations.
 
-Multivariate regression is also called by the name <span style="color: #008B45;">
-**systems of regression equations**</span>. Closely related is the method of <span style="color: #008B45;">**Seemingly Unrelated Regressions** (SUR)</span>.
+Multivariate regression is also called by the name <span style="color: #008B45;">**systems of regression equations**</span>. Closely related is the method of <span style="color: #008B45;">**Seemingly Unrelated Regressions** (SUR)</span>.
 
 
-Examples where systems of regression equations are useful: There are many settings in which disturbances are correlated across units. In these contexts, it makes sense to consider the several models iointly.
+Examples where systems of regression equations are useful: There are many settings in which **contemporaneous disturbances are correlated across units**. In these contexts, it makes sense to consider the several models jointly.
 
+
+The most common multivariate time series models used by economists are the vector autoregressions (VARs) and vector error correction models (VECMs). These models are used to capture the dynamic relationships between multiple time series variables, allowing for contemporaneous correlations in their disturbances.
 
 **Example 1**
 
@@ -25,7 +26,7 @@ $$
 r_{it} - r_{ft} = \alpha_i + {\color{#008B45}\beta_{i}} (r_{mt}-r_{ft}) + \varepsilon_{it}.
 $$
 
-The disturbances can be correlated across securities. The knowledge that the return on security $i$ exceeds the risk-free rate by a given amount gives some information about the excess return of security $i$, at least for some $i$’s. It may be useful to estimate the equations iointly rather than ignore this connection.
+The disturbances can be correlated across securities. The knowledge that the return on security $i$ exceeds the risk-free rate by a given amount gives some information about the excess return of security $i$, at least for some $i$’s. It may be useful to estimate the equations jointly rather than ignore this connection.
 
 
 ___
@@ -124,8 +125,8 @@ y_{it} = \underbrace{\bx_{it}'}_{1\times K_i}\; \underbrace{\color{#008B45}\bbet
 \end{equation}
 $$
 
-- $i=1,\ldots, M$ indexes variables, equations; 
-- and $t=1,\ldots, N$ indexes observations.
+- $i = 1,\ldots, M$ indexes variables, equations; 
+- and $t=1,\ldots, N$ indexes observations. $N$ is the sample size, the number of observations for each equation.
 
 **Stacking of observations over** $i$, for each equation $i=1,\ldots,M$, we have
 
@@ -163,10 +164,10 @@ It is typical to assume
 - $y_{it}$ independent between observations $t$ and $t'$, namely
 
     $$
-    \cov (\varepsilon_{it}, \varepsilon_{it'}) = 0 ,
+    \cov (\varepsilon_{it}, \varepsilon_{it'}) = 0, \quad \text{ for } t\ne t'.
     $$
 
-    where $t\ne t'.$
+    
 
     And 
 
@@ -199,17 +200,14 @@ It is typical to assume
 - but **correlated across variables (equations)** $i$ and $j$,
 
     $$
-    \cov(\varepsilon_{it}, \varepsilon_{jt}) = \sigma_{ij} .
+    \cov(\varepsilon_{it}, \varepsilon_{jt}) = \sigma_{ij},\quad \text{for } i\ne j.
     $$
 
-    where $i\ne j$.
     That is, for observation (time period) $t$, the error terms across equations (variables) $i$ and $j$ are correlated.
 
     $$
-    \cov(\varepsilon_{it}, \varepsilon_{jt'}) = 0 .
+    \cov(\varepsilon_{it}, \varepsilon_{jt'}) = 0, \quad \text{for } i\ne j \text{ and } t\ne t'.
     $$
-
-    where $t\ne t'$.
     
     This means that error terms across different equations are uncorrelated when they occur in different time periods or observations. In other words, the error in equation $i$ at time $t$ is independent of the error in equation $j$ at a different time $t'$. 
     
@@ -237,6 +235,7 @@ It is typical to assume
     $$
 
 
+--------------------------------------------------------------------------------
 
 
 As an example, let the observations $y_{it}$ be expenditures on goods $i$ by household $t.$
@@ -415,7 +414,9 @@ $$
 
 1. If the equations are actually unrelated—that is, if $\sigma_{ii}=0$ for $i\ne i$, then there is obviously no payoff to GLS estimation of the full set of equations. Indeed, full GLS is equation by equation OLS.
 
-2. If the equations have identical explanatory variables—that is, if $\bX_i = \bX_i$, then OLS and GLS are identical. 
+2. If the equations have identical explanatory variables—that is, if $\bX_i = \bX_j$ for $\forall i,j$, then GLS is equivalent to equation by equation OLS.
+    
+    This is the case with CAPM model, where all equations have the same regressors, namely the market return $r_{mt}$ and the risk-free rate $r_{ft}.$
 
 3. If the regressors in one block of equations are a subset of those in another, then GLS brings no efficiency gain over OLS in estimation of the smaller set of equations; thus, GLS and OLS are once again identical. 
 
@@ -428,6 +429,14 @@ ___
 
 **References**
 
--  Chapters 14 System of Regression Equations. **Econometric Analysis** , 5th Edition, by William H. Greene, Prentice Hall, 2003. 
-
+-  Chapter 14 System of Regression Equations. **Econometric Analysis** , 5th Edition, by William H. Greene, Prentice Hall, 2003. 
+-  Chapter 4 Multiple-Equation GMM, pp. 258 (276). Fumio Hayashi, Econometrics, Princeton University Press, 2000.
 - Chapter 15 Multivariate Regression. **Econometrics**. by Bruce Hansen, 2022. 
+    
+   Unlike Greene, who stacks over observations, Hansen stacks over variables. E.g.,
+
+   $$
+   \by_t = (y_{1t},y_{2t},\dots,y_{mt})'
+   $$ 
+
+   is an $m\times 1$ vector process observed in sequence over time, $t=1,2,\ldots,n.$
