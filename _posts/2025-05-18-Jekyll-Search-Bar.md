@@ -5,7 +5,7 @@ tag: programming
 update: 2025-05-18
 ---
 
-Setting up lunr.js in Jekyll
+Setting up `lunr.js` in Jekyll
 
 
 
@@ -20,7 +20,9 @@ The key features of `Junr.js` we will be using for searching static sites like J
 - The ability to do full text search in JSON
 - The ability to search in the browser
 
-Overview of steps:
+
+
+**Overview of steps**:
 
 1. Creating the static site search results page `search.md`
 2. Creating the static site search JavaScript `search.js`
@@ -28,6 +30,8 @@ Overview of steps:
 4. Add `search-box.html` at the location where you want your system to display the search bar or functionality.
 
 
+
+**Step-by-Step breakdown**:
 
 `search.md`
 
@@ -51,7 +55,7 @@ This file has a search box, a placeholder for displaying results.
 
 Error Message
 
-Jekyll lurn search-box Cannot read properties of null (reading 'setAttribute')
+Jekyll `lunr` search-box Cannot read properties of null (reading 'setAttribute')
 
 ```
 search.js:38 Uncaught TypeError: Cannot read properties of null (reading 'setAttribute')
@@ -73,7 +77,7 @@ Jekyllcodex provides a solution, but there are uni-code errors.
 
 
 
-[jekyll-lunr-js-search](https://github.com/slashdotdash/jekyll-lunr-js-search) plugin
+[`jekyll-lunr-js-search`](https://github.com/slashdotdash/jekyll-lunr-js-search) plugin
 
 <https://stackoverflow.com/questions/28255836/why-am-i-getting-an-error-when-installing-lunr-js-search-on-jekyll>
 
@@ -81,7 +85,7 @@ ___
 
 **References**:
 
-- https://kevquirk.com/blog/how-to-add-search-jekyll
+- <https://kevquirk.com/blog/how-to-add-search-jekyll>
 
 - <https://www.stephanmiller.com/static-site-search/>
 
