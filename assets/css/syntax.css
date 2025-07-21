@@ -211,3 +211,261 @@
 .highlight {
   background-color: #f8f8f8;
 }
+
+/* ===== DARK THEME SYNTAX HIGHLIGHTING ===== */
+
+/* Enhanced Dark Mode Syntax Highlighting */
+[data-theme="dark"] .highlight {
+  background-color: #212121 !important;
+  border-radius: 4px;
+  padding: 1em;
+  overflow-x: auto;
+}
+
+[data-theme="dark"] .highlight pre {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+[data-theme="dark"] .highlight code {
+  background-color: transparent;
+  color: #EEFFFF;
+}
+
+/* Dark mode syntax highlighting colors - Material Theme Darker inspired */
+[data-theme="dark"] .highlight .c,
+[data-theme="dark"] .highlight .ch,
+[data-theme="dark"] .highlight .cm,
+[data-theme="dark"] .highlight .c1,
+[data-theme="dark"] .highlight .cs,
+[data-theme="dark"] .highlight .cd,
+[data-theme="dark"] .highlight .cpf {
+  color: #546E7A; 
+  font-style: italic;
+}
+
+[data-theme="dark"] .highlight .k,
+[data-theme="dark"] .highlight .kc,
+[data-theme="dark"] .highlight .kd,
+[data-theme="dark"] .highlight .kn,
+[data-theme="dark"] .highlight .kp,
+[data-theme="dark"] .highlight .kr,
+[data-theme="dark"] .highlight .kv {
+  color: #89DDFF; 
+  font-weight: bold;
+}
+
+[data-theme="dark"] .highlight .kt {
+  color: #FFCB6B; 
+  font-weight: bold;
+}
+
+[data-theme="dark"] .highlight .s,
+[data-theme="dark"] .highlight .sb,
+[data-theme="dark"] .highlight .sc,
+[data-theme="dark"] .highlight .s2,
+[data-theme="dark"] .highlight .sh,
+[data-theme="dark"] .highlight .si,
+[data-theme="dark"] .highlight .sx,
+[data-theme="dark"] .highlight .s1,
+[data-theme="dark"] .highlight .sr,
+[data-theme="dark"] .highlight .ss,
+[data-theme="dark"] .highlight .sd,
+[data-theme="dark"] .highlight .sa,
+[data-theme="dark"] .highlight .dl {
+  color: #C3E88D;
+}
+
+[data-theme="dark"] .highlight .m,
+[data-theme="dark"] .highlight .mf,
+[data-theme="dark"] .highlight .mh,
+[data-theme="dark"] .highlight .mi,
+[data-theme="dark"] .highlight .mo,
+[data-theme="dark"] .highlight .il,
+[data-theme="dark"] .highlight .mb,
+[data-theme="dark"] .highlight .mx {
+  color: #F78C6C;
+}
+
+[data-theme="dark"] .highlight .nf,
+[data-theme="dark"] .highlight .fm {
+  color: #82AAFF; 
+  font-weight: bold;
+}
+
+[data-theme="dark"] .highlight .nc,
+[data-theme="dark"] .highlight .nt,
+[data-theme="dark"] .highlight .vc {
+  color: #FFCB6B; 
+  font-weight: bold;
+}
+
+[data-theme="dark"] .highlight .nb,
+[data-theme="dark"] .highlight .nv,
+[data-theme="dark"] .highlight .vm,
+[data-theme="dark"] .highlight .vg,
+[data-theme="dark"] .highlight .vi,
+[data-theme="dark"] .highlight .w,
+[data-theme="dark"] .highlight .se {
+  color: #EEFFFF;
+}
+
+[data-theme="dark"] .highlight .na {
+  color: #F07178;
+}
+
+[data-theme="dark"] .highlight .no {
+  color: #FFCB6B;
+}
+
+[data-theme="dark"] .highlight .bp {
+  color: #89DDFF;
+}
+
+[data-theme="dark"] .highlight .err {
+  color: #FF5370; 
+  background-color: transparent;
+}
+
+[data-theme="dark"] .highlight .o,
+[data-theme="dark"] .highlight .ow {
+  color: #89DDFF; 
+  font-weight: bold;
+}
+
+[data-theme="dark"] .highlight .gh {
+  color: #C3E88D; 
+  font-weight: bold;
+}
+
+[data-theme="dark"] .highlight .gu {
+  color: #FFCB6B; 
+  font-weight: bold;
+}
+
+[data-theme="dark"] .highlight .gp {
+  color: #546E7A;
+}
+
+[data-theme="dark"] .highlight .go {
+  color: #EEFFFF;
+}
+
+[data-theme="dark"] .highlight .gd {
+  color: #FF5370;
+  background-color: #311B23;
+}
+
+[data-theme="dark"] .highlight .gi {
+  color: #C3E88D;
+  background-color: #1B2B1C;
+}
+
+[data-theme="dark"] .highlight .gr {
+  color: #FF5370;
+}
+
+[data-theme="dark"] .highlight .gt {
+  color: #FF5370;
+}
+
+[data-theme="dark"] .highlight .gs {
+  font-weight: bold;
+}
+
+[data-theme="dark"] .highlight .ge {
+  font-style: italic;
+}
+
+[data-theme="dark"] .highlight .nd {
+  color: #82AAFF;
+  font-weight: bold;
+}
+
+[data-theme="dark"] .highlight .ni {
+  color: #F07178;
+}
+
+[data-theme="dark"] .highlight .ne {
+  color: #FF5370;
+  font-weight: bold;
+}
+
+[data-theme="dark"] .highlight .nl {
+  color: #82AAFF;
+  font-weight: bold;
+}
+
+[data-theme="dark"] .highlight .nn {
+  color: #FFCB6B;
+}
+
+/* Line numbers for dark mode */
+[data-theme="dark"] .highlight .lineno {
+  color: #546E7A;
+  background-color: #263238;
+  padding-right: 1em;
+  border-right: 1px solid #37474F;
+}
+
+/* Table styling for highlighted code blocks */
+[data-theme="dark"] .highlight table td {
+  padding: 5px;
+  border: none;
+}
+
+[data-theme="dark"] .highlight table pre {
+  margin: 0;
+}
+
+/* Inline code styling for dark mode */
+[data-theme="dark"] code {
+  background-color: #263238 !important;
+  color: #EEFFFF !important;
+  border: 1px solid #37474F;
+  border-radius: 3px;
+  padding: 2px 4px;
+  font-size: 85%;
+}
+
+[data-theme="dark"] pre code {
+  background-color: transparent !important;
+  border: none;
+  padding: 0;
+}
+
+/* Blockquote styling for dark mode */
+[data-theme="dark"] blockquote {
+  color: #B0BEC5 !important;
+  border-left: 4px solid #546E7A !important;
+  background-color: #263238;
+  padding: 1em;
+  border-radius: 4px;
+}
+
+/* Table styling for dark mode */
+[data-theme="dark"] table {
+  background-color: #263238;
+  border: 1px solid #37474F;
+}
+
+[data-theme="dark"] th {
+  background-color: #37474F;
+  color: #EEFFFF;
+  border: 1px solid #546E7A;
+}
+
+[data-theme="dark"] td {
+  border: 1px solid #37474F;
+  color: #B0BEC5;
+}
+
+[data-theme="dark"] tr:nth-child(even) {
+  background-color: #2A2A2A;
+}
+
+[data-theme="dark"] tr:hover {
+  background-color: #37474F !important;
+}

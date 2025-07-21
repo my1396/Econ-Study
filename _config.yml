@@ -36,6 +36,7 @@ scholar:
 # Theme-specific settings
 theme: minima
 minima:
+  skin: auto
   social_links:
     - { platform: github,         user_url: "https://github.com/my1396" }
     - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
