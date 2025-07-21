@@ -1336,11 +1336,184 @@ $$
 $$
 
 
+## Partitioned Matrices
+
+A partitioned matrix is a matrix that is divided into smaller submatrices, called blocks. This is useful for simplifying complex matrix operations and for organizing data in a structured way.
+For example, a partitioned matrix can be represented as follows:
+
+$$
+\begin{bmatrix}
+A_{11} & A_{12} & \cdots & A_{1n} \\
+A_{21} & A_{22} & \cdots & A_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+A_{m1} & A_{m2} & \cdots & A_{mn} \\
+\end{bmatrix}
+$$
+
+For simplicity, we use $2\times 2$ partitioned matrices:
+$$
+\begin{bmatrix}
+A_{11} & A_{12} \\
+A_{21} & A_{22}
+\end{bmatrix}
+$$
+
+- **Addition**
+
+  If $A$ and $B$ are partitioned matrices of the same size, then their sum is defined as:
+  $$
+  A + B = \begin{bmatrix}
+  A_{11} + B_{11} & A_{12} + B_{12} \\
+  A_{21} + B_{21} & A_{22} + B_{22}
+  \end{bmatrix}
+  $$
+
+- **Scalar multiplication**
+
+  If $c$ is a scalar and $A$ is a partitioned matrix, then the scalar multiplication is defined as:
+  $$
+  cA = \begin{bmatrix}
+  cA_{11} & cA_{12} \\
+  cA_{21} & cA_{22}
+  \end{bmatrix}
+  $$
+
+- **Transpose**
+
+  If $A$ is a partitioned matrix, then the transpose is defined as:
+  
+  $$
+  A^T = \begin{bmatrix}
+  A_{11}^T & A_{21}^T \\
+  A_{12}^T & A_{22}^T
+  \end{bmatrix}
+  $$
+
+- **Multiplication**
+
+  - If $A$ is a partitioned matrix and $B$ is a matrix, then the product is defined as:
+  
+  $$
+  AB = \begin{bmatrix}
+  A_{11}B & A_{12}B \\
+  A_{21}B & A_{22}B
+  \end{bmatrix}
+  $$
+
+  - If $A$ is a partitioned matrix and $B$ is another partitioned matrix, then the product is defined as:
+  
+  $$
+  \begin{split}
+  AB &= 
+  \begin{bmatrix}
+  A_{11} & A_{12} \\
+  A_{21} & A_{22}
+  \end{bmatrix} 
+  \begin{bmatrix}
+  B_{11} & B_{12} \\
+  B_{21} & B_{22}
+  \end{bmatrix}\\
+  &= \begin{bmatrix}
+  A_{11}B_{11} + A_{12}B_{21} & A_{11}B_{12} + A_{12}B_{22} \\
+  A_{21}B_{11} + A_{22}B_{21} & A_{21}B_{12} + A_{22}B_{22}
+  \end{bmatrix}
+  \end{split}
+  $$
+
+  - If $B$ is a partitioned as a column vector, then the product is defined as:
+  
+  $$
+  \begin{split}
+  AB &= 
+  \begin{bmatrix}
+  A_{11} & A_{12} \\
+  A_{21} & A_{22}
+  \end{bmatrix}
+  \begin{bmatrix} B_1 \\ B_2 \end{bmatrix} \\
+  &= B_1 \begin{bmatrix}
+  A_{11} \\
+  A_{21} 
+  \end{bmatrix} + 
+  B_2 \begin{bmatrix}
+  A_{12} \\
+  A_{22} 
+  \end{bmatrix} \\
+  &= \begin{bmatrix}
+  A_{11}B_1 + A_{12}B_2 \\
+  A_{21}B_1 + A_{22}B_2
+  \end{bmatrix}
+  \end{split}
+  $$
+
+  - If $B$ is a partitioned as a row vector, then the product is defined as:
+    
+    $$
+    \begin{split}
+    AB &= 
+    A \begin{bmatrix} B_1 & B_2 & B_3 \end{bmatrix} \\
+    &= \begin{bmatrix}
+    AB_1 & AB_2 & AB_3 
+    \end{bmatrix}
+    \end{split}
+    $$
+
+    The columns of AB are the columns of A multiplied by the columns of B.
+
+  - If $A$ is partitioned as a column vector, then the product is defined as:
+  
+    $$
+    \begin{split}
+    AB &= \begin{bmatrix} A_1 \\ A_2 \\ A_3 \end{bmatrix} B \\
+    &= \begin{bmatrix}
+    A_1B \\ A_2B \\ A_3B
+    \end{bmatrix} 
+    \end{split}
+    $$
+
+    The rows of AB are the rows of A multiplied by the matrix B.
+
+  - If $A$ is partitioned as a row vector, and $B$ is partitioned as a column vector, then the product is defined as:
+
+    $$
+    \begin{split}
+    AB &= \begin{bmatrix} A_1 & A_2 & A_3 \end{bmatrix} 
+    \begin{bmatrix} B_1 \\ B_2 \\ B_3 \end{bmatrix} \\
+    &= A_1B_1 + A_2B_2 + A_3B_3
+    \end{split}
+    $$
+
+    This is called expressing $AB$ as a sum of outer products.
 
 
+- **Inverse**
 
+    A partitioned matrix $A$ is said to be block diagonal if the matrices on the main diagonal are square matrices and the off-diagonal blocks are zero matrices. The inverse of a block diagonal matrix is simply the inverse of each block on the diagonal.
 
+    $$
+    \begin{split}
+    A &= \begin{bmatrix}
+    D_1 & 0 & \cdots & 0 \\
+    0 & D_2 & \cdots & 0 \\
+    \vdots & \vdots & \ddots & \vdots \\
+    0 & 0 & \cdots & D_m
+    \end{bmatrix} 
+    \end{split}
+    $$
 
+    where $D_1,D_2,\ldots,D_k$ are square matrices.
+
+    Then its inverse is given by:
+
+    $$
+    A^{-1} = \begin{bmatrix}
+    D_1^{-1} & 0 & \cdots & 0 \\
+    0 & D_2^{-1} & \cdots & 0 \\
+    \vdots & \vdots & \ddots & \vdots \\
+    0 & 0 & \cdots & D_m^{-1}
+    \end{bmatrix} 
+    $$
+
+    
 
 
 

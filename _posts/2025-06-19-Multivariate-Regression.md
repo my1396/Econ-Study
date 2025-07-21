@@ -16,7 +16,7 @@ Multivariate regression is also called by the name <span style="color: #008B45;"
 Examples where systems of regression equations are useful: There are many settings in which **contemporaneous disturbances are correlated across units**. In these contexts, it makes sense to consider the several models jointly.
 
 
-The most common multivariate time series models used by economists are the vector autoregressions (VARs) and vector error correction models (VECMs). These models are used to capture the dynamic relationships between multiple time series variables, allowing for contemporaneous correlations in their disturbances.
+The most common multivariate time series models used by economists are the **vector autoregressions** (VARs) and **vector error correction models** (VECMs). These models are used to capture the dynamic relationships between multiple time series variables, allowing for contemporaneous correlations in their disturbances.
 
 **Example 1**
 
