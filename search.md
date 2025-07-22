@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Search Results
+permalink: /search/
 ---
 
 <style>

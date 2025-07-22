@@ -24,7 +24,16 @@ document.addEventListener('DOMContentLoaded', function() {
     if (searchTerm) {
       // Get the base URL from the data attribute (set by Jekyll)
       var baseUrl = searchBox.getAttribute('data-baseurl') || '';
-      window.location.href = baseUrl + '/search/?query=' + encodeURIComponent(searchTerm);
+      
+      // Ensure baseUrl doesn't end with slash and construct URL properly
+      var searchUrl = baseUrl + '/search/?query=' + encodeURIComponent(searchTerm);
+      
+      // For GitHub Pages, ensure proper URL construction
+      if (window.location.hostname === 'my1396.github.io' && !baseUrl) {
+        searchUrl = '/Econ-Study/search/?query=' + encodeURIComponent(searchTerm);
+      }
+      
+      window.location.href = searchUrl;
     }
   }
 });
