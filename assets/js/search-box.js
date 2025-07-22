@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', function() {
   function submitSearch() {
     var searchTerm = searchBox.value.trim();
     if (searchTerm) {
-      var baseUrl = window.location.origin;
-      var sitePath = window.location.pathname.includes('/Econ-Study') ? '/Econ-Study' : '';
-      window.location.href = baseUrl + sitePath + '/search/?query=' + encodeURIComponent(searchTerm);
+      // Get the base URL from the data attribute (set by Jekyll)
+      var baseUrl = searchBox.getAttribute('data-baseurl') || '';
+      window.location.href = baseUrl + '/search/?query=' + encodeURIComponent(searchTerm);
     }
   }
 });
