@@ -175,7 +175,23 @@
     if (searchBox) {
       searchBox.addEventListener('keypress', function(e) {
         if (e.key === 'Enter') {
-          performSearch();
+          e.preventDefault();
+          var searchTerm = searchBox.value.trim();
+          if (searchTerm) {
+            window.location.href = (window.location.origin + '/search/?query=' + encodeURIComponent(searchTerm)).replace(/\/+/g, '/').replace(/:\//,'://');
+          }
+        }
+      });
+    }
+    
+    // Also handle form submission
+    var searchForm = document.querySelector('.header-search-form');
+    if (searchForm) {
+      searchForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        var searchTerm = searchBox.value.trim();
+        if (searchTerm) {
+          window.location.href = (window.location.origin + '/search/?query=' + encodeURIComponent(searchTerm)).replace(/\/+/g, '/').replace(/:\//,'://');
         }
       });
     }
