@@ -62,7 +62,6 @@ minima:
 header_pages:
   - 01_tags.md
   - 02_about.md
-  - search.md
 
 # Set to `true` to show excerpts on the homepage.
 #
