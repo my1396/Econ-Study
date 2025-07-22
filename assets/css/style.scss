@@ -203,6 +203,24 @@ li {
   box-shadow: 0 2px 4px rgba(33, 150, 243, 0.3) !important;
 }
 
+/* Dark mode homepage search button styling */
+[data-theme="dark"] .homepage-search input[type="submit"] {
+  background: #4169E1 !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+
+[data-theme="dark"] .homepage-search input[type="submit"]:hover {
+  background: #0066b3 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: none !important;
+}
+
+[data-theme="dark"] .homepage-search input[type="submit"]:active {
+  transform: translateY(0) !important;
+  box-shadow: none !important;
+}
+
 .theme-toggle:hover {
   border-color: var(--minima-brand-color);
   transform: scale(1.05);
