@@ -37,6 +37,50 @@ scrollToTop.onclick = function(e) {
     scrollToTop();
 };
 
+// TOC Active Section Highlighting
+function updateActiveTOCSection() {
+    const toc = document.querySelector('.toc');
+    if (!toc) return;
+    
+    const tocLinks = toc.querySelectorAll('a');
+    const headings = document.querySelectorAll('h2, h3, h4, h5, h6');
+    
+    if (tocLinks.length === 0 || headings.length === 0) return;
+    
+    let activeHeading = null;
+    const scrollPosition = window.scrollY + 100; // Offset for better detection
+    
+    // Find the current heading
+    for (let i = headings.length - 1; i >= 0; i--) {
+        const heading = headings[i];
+        if (heading.offsetTop <= scrollPosition) {
+            activeHeading = heading;
+            break;
+        }
+    }
+    
+    // Clear all active classes
+    tocLinks.forEach(link => {
+        link.classList.remove('active');
+        link.parentElement.classList.remove('active');
+    });
+    
+    if (activeHeading) {
+        const activeId = activeHeading.id;
+        const activeLink = toc.querySelector(`a[href="#${activeId}"]`);
+        
+        if (activeLink) {
+            // Mark current section as active
+            activeLink.classList.add('active');
+            activeLink.parentElement.classList.add('active');
+        }
+    }
+}
+
+// Update TOC on scroll
+window.addEventListener('scroll', updateActiveTOCSection);
+// Update TOC on page load
+window.addEventListener('load', updateActiveTOCSection);
 
 function displayResult() {
   document.getElementById("myHeader").innerHTML = "Have a nice day!";

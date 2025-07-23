@@ -5,6 +5,7 @@ tag: study
 update: 2025-06-19
 ---
 
+<a class="top-link hide" href="#" id="js-top">↑</a>
 
 ## Introduction
 

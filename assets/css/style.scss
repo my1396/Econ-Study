@@ -259,6 +259,12 @@ li {
   transform: translateY(0);
 }
 
+/* Remove thin border strip in light mode */
+[data-theme="light"] .site-header,
+:root:not([data-theme="dark"]) .site-header {
+  border-top: none !important;
+}
+
 /* Remove thin border strip at top in dark mode */
 [data-theme="dark"] .site-header {
   border-top: none !important;
@@ -364,14 +370,14 @@ li {
 
 [data-theme="dark"] #tag_cloud a,
 [data-theme="dark"] #tag_cloud .tag {
-  border: 1px solid #546E7A;
+  border: 1px solid #4169E1;
   border-radius: 999em;
   padding: 5px 10px;
   line-height: 28px;
   font-size: 14px;
   margin: 0 1px;
   margin-bottom: 6px;
-  background: #37474F;
+  background: #4169E1;
   color: #EEFFFF !important;
 }
 
@@ -438,6 +444,14 @@ li {
   border-top: 1px solid #eee;
 }
 
+/* Dark mode horizontal line */
+[data-theme="dark"] hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #404040;
+}
+
 /* general typesetting - Only apply in light mode */
 [data-theme="light"] body,
 :root:not([data-theme="dark"]) body {
@@ -446,6 +460,20 @@ li {
   font-size: 18px;
   color: #404040; /* color for main text */
   overflow-x: hidden;
+  max-width: 1200px !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+
+/* Apply same layout to dark mode */
+[data-theme="dark"] body {
+  max-width: 1200px !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
 }
 /* Chinese font */
 .comment {
@@ -516,32 +544,193 @@ kbd {
 
 /* Table of contents */
 .toc {
-  // border: 1px solid #2a7ae2;
-  border-radius: 0.25rem;
-  padding-top: 15px;
-  padding-right: 15px;
-  margin-left: 15px;
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  width: 200px;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  background-color: var(--minima-background-color);
+  border: 1px solid var(--minima-border-color-01);
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+/* Dark mode TOC styling */
+[data-theme="dark"] .toc {
+  background-color: #2d2d2d;
+  border-color: #404040;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Dark mode TOC links and symbols */
+[data-theme="dark"] .toc a {
+  color: #79B8FF;
+}
+
+[data-theme="dark"] .toc a:hover {
+  color: #AECBFA;
+  background-color: #404040;
+}
+
+[data-theme="dark"] .toc li:before {
+  color: #79B8FF;
+}
+
+[data-theme="dark"] .toc ul ul li:before {
+  color: #79B8FF;
+}
+
+[data-theme="dark"] .toc ul ul ul li:before {
+  color: #79B8FF;
+}
+
+/* Active/current section highlighting */
+.toc a.active {
+  background-color: rgba(33, 150, 243, 0.1) !important;
+  color: var(--minima-brand-color) !important;
+  font-weight: 500;
+  border-radius: 4px;
+  padding-left: 6px !important;
+}
+
+.toc li.active:before {
+  color: var(--minima-brand-color) !important;
+  font-weight: bold;
+}
+
+/* Dark mode active section */
+[data-theme="dark"] .toc a.active {
+  background-color: rgba(121, 184, 255, 0.15) !important;
+  color: #79B8FF !important;
+}
+
+[data-theme="dark"] .toc li.active:before {
+  color: #79B8FF !important;
 }
 
 .toc b {
-  margin-left: 20px;
+  margin-left: 0;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: var(--minima-text-color);
+  border-bottom: 1px solid var(--minima-border-color-01);
+  padding-bottom: 5px;
 }
 
 .toc ul {
-  // list-style: none;
-  margin-left: 10px;
-  line-height: 25px;
-  // margin-top: 5px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
 }
 
 .toc li {
-  margin-left: 10px;
-  margin-top: 5px;
+  margin: 0;
+  margin-bottom: 5px;
+  padding-left: 15px;
+  position: relative;
 }
 
-.toc ul>li:first-child {
-  // nested bullet list
-  margin-top: 5px !important;
+/* level 2 TOC items */
+.toc li:before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--minima-brand-color);
+  font-size: 14px !important;
+}
+
+.toc ul > li:first-child {
+  margin-top: 0;
+}
+
+.toc a {
+  color: var(--minima-text-color);
+  text-decoration: none;
+  display: block;
+  padding: 2px 0;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+}
+
+.toc a:hover {
+  color: var(--minima-brand-color);
+  background-color: var(--minima-border-color-01);
+  padding-left: 5px;
+}
+
+/* Nested TOC items */
+.toc ul ul {
+  margin-left: 15px;
+  margin-top: 5px;
+}
+/* level 2 headers */
+.toc ul ul li:before {
+  content: "▸";
+  font-size: 12px !important;
+}
+
+/* Third 4+ headers */
+.toc ul ul ul li:before {
+  content: "▹";
+  font-size: 10px !important;
+}
+
+/* Hide TOC on smaller screens */
+@media screen and (max-width: 1200px) {
+  .toc {
+    display: none;
+  }
+}
+
+/* Adjust main content margin when TOC is visible */
+@media screen and (min-width: 1201px) {
+  .post-content,
+  .page-content {
+    margin-right: 220px;
+    max-width: none;
+  }
+}
+
+/* Handle wide equations and content overflow */
+.post-content,
+.page-content {
+  overflow-x: auto;
+  width: 100%;
+}
+
+/* Make equations scrollable when they're too wide */
+mjx-container[display="true"] {
+  margin: .5em 0 !important;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/* Ensure math containers don't force content width */
+.MathJax_Display {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* Table containers should also be scrollable */
+table {
+  max-width: 100%;
+  overflow-x: auto;
+  display: block;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 1201px) {
+  table {
+    display: table;
+    white-space: normal;
+  }
 }
 
 /* Back-to-top button - Only apply in light mode */
@@ -663,6 +852,36 @@ th, td {
 :root:not([data-theme="dark"]) th:hover, 
 :root:not([data-theme="dark"]) tr:hover {
   background-color: #D6EEEE;
+}
+
+/* Dark mode table styling */
+[data-theme="dark"] table {
+  
+  border: 1px solid #37474F;
+}
+
+/* Table header */
+[data-theme="dark"] th {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  border: 1px solid #34495e;
+}
+/* Table body */
+[data-theme="dark"] td {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] tr:nth-child(even) td {
+  background-color: #242424;
+}
+
+[data-theme="dark"] tr:hover td {
+  background-color: #333333 !important;
+}
+
+[data-theme="dark"] th:hover {
+  background-color: #404040;
 }
   
 /* remove line number in embeded Gists */

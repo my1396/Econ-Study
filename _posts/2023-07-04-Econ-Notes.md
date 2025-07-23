@@ -1083,7 +1083,7 @@ Here, we "average over" the $X$ variable, and we are left with a function of $Y$
 
 ___
 
-### **Conditional expectation for several variables**
+### Conditional expectation for several variables
 
 We extend to three variables.
 
