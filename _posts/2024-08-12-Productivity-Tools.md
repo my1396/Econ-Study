@@ -62,10 +62,12 @@ Markdown Preview: <https://code.visualstudio.com/docs/languages/markdown#_markdo
 
 **Keyboard shortcuts**
 
-| Shortcut                       | Function         |
-| ------------------------------ | ---------------- |
-| `dd`                           | use vim shortcut |
-| <kbd>cmd</kbd> + <kbd> J</kbd> | toggle Panel     |
+| Shortcut                                        | Function                  |
+| ----------------------------------------------- | ------------------------- |
+| <kbd>dd</kbd>                                   | use vim shortcut          |
+| <kbd>cmd</kbd> + <kbd> J</kbd>                  | toggle Panel              |
+| <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>I</kbd> | open GitHub Copilot chat  |
+| <kbd>opt</kbd> + <kbd>cmd</kbd> + <kbd>B</kbd>  | close GitHub Copilot chat |
 
 Useful Extensions:
 
@@ -277,9 +279,23 @@ ___
 - **Menu bar**: Code → Settings (keyboard shortcut: <kbd>cmd</kbd> + <kbd>,</kbd>)
 - **Configuration file**: change directly in the user settings file (`settings.json`)
 
-Setting file locations: 
+**Setting file locations**: 
 
-- **macOS** `$HOME/Library/Application\ Support/Code/User/settings.json`
+- **macOS User Settings:** Global settings that apply to **all VS Code workspaces and projects**
+
+  Located in the user's home directory in the VS Code application data folder: `$HOME/Library/Application\ Support/Code/User/settings.json`
+
+  Examples: Theme, font size, editor preferences, extensions settings, etc.
+
+  Lower priority (can be overridden by workspace settings)
+
+- Workspace Settings: Project-specific settings that apply only to the current workspace/project.
+
+  Located in `.vscode/settings.json` inside the project folder.
+
+  Examples: Project-specific linting rules, build configurations, language settings for this project
+
+  **Priority**: Higher priority (overrides user settings)
 
 
 
@@ -635,6 +651,53 @@ Q: How to delete chat histories?
 A: In the chat window, click the <img src="https://drive.google.com/thumbnail?id=1D0LNpQUiAxzdsyQ2W3anXc3_UREkdBgM&sz=w1000" alt="" style="zoom:5%;" /> icon, it will show history chats in the command palette. You can delete any chats from there. 
 
 Chat histories are stored in `/Users/menghan/Library/Application Support/Code/User/workspaceStorage/[long-serial-number...]/chatSessions`
+
+
+
+Q: In chat window, set <kbd>Enter</kbd> to line break and <kbd>Shift</kbd> + <kbd>Enter</kbd> to submit.  
+A: Add the following settings to `keybindings.json`
+
+```json
+{
+    "key": "shift+enter",
+    "command": "workbench.action.chat.submit",
+    "when": "inChatInput"
+},
+{
+    "key": "enter",
+    "command": "-workbench.action.chat.submit",
+    "when": "inChatInput"
+},
+{
+    "key": "enter",
+    "command": "editor.action.insertLineAfter",
+    "when": "inChatInput"
+}
+```
+
+To summarize the Enter behavior:
+
+- **Enter** now creates a new line in GitHub Copilot Chat
+- **Shift+Enter** submits your message
+
+
+
+Explain different modes of Github Copilot:
+
+- **Agent Mode** 🤖
+  - Complex, multi-step tasks that require planning and coordination
+  - Tasks that span multiple files or require understanding project structure
+  - When you need systematic problem-solving with multiple tool invocations
+  - Research and analysis tasks that require gathering information from various sources
+- **Edit Mode** ✏️
+  - Direct code modifications and quick fixes
+  - When you know exactly what needs to be changed
+  - Focused, single-purpose edits
+  - Implementing specific functionality or bug fixes
+- **Ask Mode** 💬
+  - Learning and understanding concepts
+  - No code modifications
+  - Educational and consultative
 
 
 
