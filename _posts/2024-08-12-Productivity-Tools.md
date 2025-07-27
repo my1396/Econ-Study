@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Research and Teaching Tools
+title: Productivity Tools
 tag: life
 update: 2024-08-12
 ---
 
-
+<a class="top-link hide" href="#" id="js-top">↑</a>
 
 ## Notion
 
@@ -50,8 +50,6 @@ ___
 
 ## VS Code
 
-Markdown Preview: <https://code.visualstudio.com/docs/languages/markdown#_markdown-preview>
-
 ### Layout
 
 <img src="https://drive.google.com/thumbnail?id=1Ibf8FiPU7Ghc_ckzu1btT44VlRFnVJ4d&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
@@ -75,16 +73,18 @@ Useful Extensions:
 - TeX: `LaTeX-Workshop` (this installs `intellisense` automatically)
 - Spell check, autocomplete: `Code Spell Checker`, `intellisense`
 
+--------------------------------------------------------------------------------
 
 
 **Find and Replace in Selection**
 
-1. cmd + F to open Find/Replace
+1. <kbd>cmd</kbd> + <kbd>F</kbd> to open Find/Replace
 2. Select your line of text
-3. Click the "Fine in selection" icon to the right (or using keyboard shortcut opt + cmd + L)
+3. Click the "Find in Selection" icon to the right (or using keyboard shortcut <kbd>opt</kbd> + <kbd>cmd</kbd> + <kbd>L</kbd>)
 4. Enter your find and replace characters in their inputs
-5. Click the Replace all icon
+5. Click the "Replace All" icon
 
+--------------------------------------------------------------------------------
 
 
 **Language Identifiers**
@@ -117,7 +117,7 @@ ___
 
 Visual Studio Code has integrated source control management (SCM) and includes [Git](https://git-scm.com/) support out-of-the-box.
 
-Use the Source Control icon <img src="https://drive.google.com/thumbnail?id=1WI9raE7rHUOpel0q-qKOD0B5DtVWGrc3&sz=w1000" alt="" style="zoom:10%;" /> in the activity bar to access the Source Control view.
+Use the Source Control icon <img src="https://drive.google.com/thumbnail?id=1WI9raE7rHUOpel0q-qKOD0B5DtVWGrc3&sz=w1000" alt="" style="zoom:8%;" /> in the activity bar to access the Source Control view.
 
 Error: No source control providers registered.  
 Cause: Git built-in extension was disabled.  
@@ -149,7 +149,7 @@ Code Actions can provide both refactorings and **Quick Fixes** for detected issu
 
 > If you have enabled GitHub Copilot, you can choose to fix with Copilot. This is a very convenient way to debug your code.
 
-Q: What is refactoring?  
+Q: What is *refactoring*?  
 A: Visual Studio Code supports refactoring operations (*refactorings*) such as [Extract Method](https://refactoring.com/catalog/extractMethod.html) and [Extract Variable](https://refactoring.com/catalog/extractVariable.html) to improve your codebase from within the editor. For example, a common refactoring used to avoid duplicating code (a maintenance headache) is the [Extract Method](https://refactoring.com/catalog/extractMethod.html) refactoring, where you select source code and pull it out into its own shared method, so that can reuse the code elsewhere.
 
 
@@ -158,7 +158,7 @@ ___
 
 ### **Snippets**
 
-Snippets files are written in JSON, support C-style comments, and can define an *unlimited number* of snippets. Snippets support most TextMate syntax for dynamic behavior, intelligently format whitespace based on the insertion context, and allow easy multiline editing.
+Snippets files are written in JSON, support C-style comments (`//`), and can define an *unlimited number* of snippets. Snippets support most TextMate syntax for dynamic behavior, intelligently format whitespace based on the insertion context, and allow easy multiline editing.
 
 - a **language** snippet file
 
@@ -172,7 +172,7 @@ Snippets files are written in JSON, support C-style comments, and can define an 
 
   File path: <span style='color:#008B45'>`$HOME/Library/Application Support/Code/User/snippets`</span>
 
-Creata your own snippets: `Code` > `Settings` > `Configure Snippets`
+Create your own snippets: `Code` > `Settings` > `Configure Snippets`
 
 **Syntax**
 
@@ -215,44 +215,44 @@ Creata your own snippets: `Code` > `Settings` > `Configure Snippets`
 - Multilined `body`: simply wrap each line with double quotes.
 
 Q: When using `$TM_SELECTED_TEXT`, if you type the prefix, the selected text will be overwritten. What to do with it?  
-A: VS code remembers the text. When you finish typing the prefix, the formated text will show up accordingly.
+A: VS code remembers the text. When you finish typing the prefix, the formatted text will show up accordingly.
 
 ```json
 // customer defined snippets
 {
-	"Colored Span Green": {
-		"prefix": "cs-green",
-		"body": [
-			"<span style=\"color: #008B45;\">$TM_SELECTED_TEXT</span>$0"
-		],
-		"description": "Insert a green colored span"
-	},
-	"Math Helper Parentheses": {
-		"scope": "markdown, latex",
-		"prefix": "\\(",
-		"body": [
-			"\\left($1\\right)$0"
-		],
-		"description": "Insert parentheses with LaTeX math formatting"
-	},
-	"Math Helper Brackets": {
-		"scope": "markdown, latex",
-		"prefix": "\\[",
-		"body": [
-			"\\left[$1\\right]$0"
-		],
-		"description": "Insert brackets with LaTeX math formatting"
-	},
+  "Colored Span Green": {
+    "prefix": "cs-green",
+    "body": [
+      "<span style=\"color: #008B45;\">$TM_SELECTED_TEXT</span>$0"
+    ],
+    "description": "Insert a green colored span"
+  },
+  "Math Helper Parentheses": {
+    "scope": "markdown, latex",
+    "prefix": "\\(",
+    "body": [
+      "\\left($1\\right)$0"
+    ],
+    "description": "Insert parentheses with LaTeX math formatting"
+  },
+  "Math Helper Brackets": {
+    "scope": "markdown, latex",
+    "prefix": "\\[",
+    "body": [
+      "\\left[$1\\right]$0"
+    ],
+    "description": "Insert brackets with LaTeX math formatting"
+  },
 }
 ```
 
 - `"scope": "markdown, latex"` set `scope` to  `"markdown, latex"` such that `\(` works inside dollar signs.
 
-- To [escape double backslashes](https://github.com/microsoft/vscode/issues/33933#issuecomment-328793257), you have to use `\\\\\\\\`.
+- To [escape double backslashes](https://github.com/microsoft/vscode/issues/33933#issuecomment-328793257), you have to use `\\\\\\\\` (8 backslashes).
   - In TextMate you *can* but must not escape a backslash with a backslash, so to insert 1 backslash have either `\` or `\\`
   - In JSON you *must* escape a backslash with another backslash, so to insert 1 backslash have either `\\` or `\\\\`, to insert 2 `\\\\\\\\`
 
-list of user defined snippets
+**List of user defined snippets:**
 
 | prefix                           | command           |
 | -------------------------------- | ----------------- |
@@ -389,6 +389,9 @@ ___
 
 ### Markdown
 
+**Markdown Preview Settings**: <https://code.visualstudio.com/docs/languages/markdown#_markdown-preview>
+
+
 Q: How to get a preview of Rmarkdown?  
 A: Open `settings.json`, add the following code inside the braces.
 
@@ -402,6 +405,7 @@ A: Open `settings.json`, add the following code inside the braces.
 
 A drawback of this setting is that you cannot run codes inside the markdown files.
 
+--------------------------------------------------------------------------------
 
 
 Q: How to get autocomplete, syntax highlighting in Markdown?  
@@ -412,6 +416,7 @@ This will disable markdown preview! Therefore, not recommended. ❌
 Use `Markdown All in One` extension instead. ✅
 
 
+--------------------------------------------------------------------------------
 
 Q: How to change the language for the selected file?  
 A: In the status bar, click the language indicator. This will bring up the **Select Language Mode** dropdown where you can select another language for the current file.
@@ -423,6 +428,7 @@ A: In the status bar, click the language indicator. This will bring up the **Sel
 Q: How to change [Markdown preview security](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview-security)?  
 A: You can change what content is allowed in the Markdown preview by clicking on the popup or running the `Markdown: Change preview security settings` command in any Markdown file.
 
+--------------------------------------------------------------------------------
 
 
 **Visual Mode and Source Mode**
@@ -460,7 +466,7 @@ References:
 Q: How to enable automatic numbering for MathJax?  
 A: Run `Open Config Script` (will open `config.js`, a JavaScript configuration file), and add 
 
-```css
+```js
 mathjaxConfig: {
   tex: {
     tags: 'ams',

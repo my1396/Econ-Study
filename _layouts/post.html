@@ -27,7 +27,7 @@ layout: base
   </header>
 
   <!-- custom TOC class, css in /assets/css/style.scss -->
-  <div class="toc"> 
+  <div class="toc" id="toc-container"> 
     <!-- <b>Jump to:</b> -->
     {% include toc.html html=content %}
   </div>
@@ -35,6 +35,33 @@ layout: base
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  <script>
+    // Function to move TOC based on screen size
+    function repositionTOC() {
+      const toc = document.getElementById('toc-container');
+      const postContent = document.querySelector('.post-content');
+      const postHeader = document.querySelector('.post-header');
+      
+      if (!toc || !postContent) return;
+      
+      if (window.innerWidth <= 1200) {
+        // Move TOC to top of content on small screens
+        if (postContent && toc.parentNode !== postContent.parentNode) {
+          postContent.parentNode.insertBefore(toc, postContent);
+        }
+      } else {
+        // Keep TOC in original position for larger screens
+        if (postHeader && toc.parentNode !== postHeader.parentNode) {
+          postHeader.parentNode.insertBefore(toc, postContent);
+        }
+      }
+    }
+    
+    // Run on page load and window resize
+    document.addEventListener('DOMContentLoaded', repositionTOC);
+    window.addEventListener('resize', repositionTOC);
+  </script>
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}

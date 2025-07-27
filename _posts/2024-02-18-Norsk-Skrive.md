@@ -28,9 +28,9 @@ Etter min mening ...
 
 Jeg ser for meg at ... I imagine/envision that ...
 
-en mer positiv holdning (a more positive attitude)
+en mer positiv *holdning* (a more positive attitude)
 
-Det er delte meninger om ...
+Det er *delte meninger* om ...
 
 det synes jeg også → I also think that
 
@@ -43,6 +43,12 @@ Jeg er litt skeptisk til at ...
 Jeg har virkelig igen tro på at … → I don't believe sth
 
 Det provoserer meg at … → It provokes me that …
+
+
+
+**Uncertain**
+
+Mitt inntrykk er at ... → my impression is that …
 
 
 

@@ -131,6 +131,17 @@ ___
 
 ### Indentation
 
+- **Spaces over Tabs**
+
+  It is recommended to use spaces over Tabs for consistency across different systems and editors.
+
+  For example, a Tab is 4 spaces on Windows and 8 spaces on Linux.
+
+- One indentation can be 2 or 4 spaces.
+
+  - 4 spaces are used in Python
+  - 2 spaces are used in CSS, js, that need many nested levels with long lines.
+  
 - **Vertical alignment**
 
   Continuation lines should align wrapped elements vertically.
