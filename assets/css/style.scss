@@ -11,6 +11,11 @@ li {
   margin-top: 10px;
 }
 
+/* Reduce paragraph spacing within list items */
+li p {
+  margin: 4px 0;
+}
+
 /* Margin for social icons */
 #social {
   margin-top: 20px;

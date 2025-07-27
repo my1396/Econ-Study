@@ -18,7 +18,28 @@ layout: base
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
-    {% assign posts = site.posts %}
+    {% comment %} Sort posts by the date that's actually displayed (update or date) {% endcomment %}
+    {% assign posts_with_display_date = "" | split: "" %}
+    
+    {% for post in site.posts %}
+      {% if post.update %}
+        {% assign display_date = post.update %}
+      {% else %}
+        {% assign display_date = post.date %}
+      {% endif %}
+      {% assign post_entry = display_date | append: "|||" | append: forloop.index0 %}
+      {% assign posts_with_display_date = posts_with_display_date | push: post_entry %}
+    {% endfor %}
+    
+    {% comment %} Sort by display date (newest first) {% endcomment %}
+    {% assign posts_with_display_date = posts_with_display_date | sort | reverse %}
+    
+    {% comment %} Rebuild posts array in correct order {% endcomment %}
+    {% assign posts = "" | split: "" %}
+    {% for entry in posts_with_display_date %}
+      {% assign index = entry | split: "|||" | last | plus: 0 %}
+      {% assign posts = posts | push: site.posts[index] %}
+    {% endfor %}
   {% endif %}
 
   <a class="top-link hide" href="#" id="js-top">↑</a>

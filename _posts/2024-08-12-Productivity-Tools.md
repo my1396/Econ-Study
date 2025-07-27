@@ -54,9 +54,24 @@ ___
 
 <img src="https://drive.google.com/thumbnail?id=1Ibf8FiPU7Ghc_ckzu1btT44VlRFnVJ4d&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
+- **Secondary Side Bar** is located toThe left of the editor region. It can be useful to see two views open at the same time. It is often used by the Copilot Chat.
+  
+- **Editor Groups**
+  
+  By default, each opened editor goes into the same editor group and open new file as a tab to the right. 
+  
+  You can create new editor groups in order to group similar or related files, or to allow side by side editing of the same file. 
+
+  Create a new editor group by dragging an editor to the side, or using one of the Split commands in the context menu to duplicate the current editor into a new editor group to the left, right, above, or below.
+
 - **Panel** (<kbd>cmd</kbd> + <kbd>J</kbd>)- An additional space for views below the editor region. By default, it contains output, debug information, errors and warnings, and an integrated terminal. The Panel can also be moved to the left or right for more vertical space.
 
+Q: How to change Panel position?  
+A: Right-click on the Panel title bar > Panel Position > choose from Left | Right | Bottom | Top, default is Bottom. Or choose "**View: Toggle Panel Position**" from the command palette.
 
+Custom layout: <https://code.visualstudio.com/docs/configure/custom-layout> 
+
+--------------------------------------------------------------------------------
 
 **Keyboard shortcuts**
 
