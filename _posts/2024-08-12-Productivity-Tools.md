@@ -61,7 +61,7 @@ ___
   By default, each opened editor goes into the same editor group and open new file as a tab to the right. 
   
   You can create new editor groups in order to group similar or related files, or to allow side by side editing of the same file. 
-
+  
   Create a new editor group by dragging an editor to the side, or using one of the Split commands in the context menu to duplicate the current editor into a new editor group to the left, right, above, or below.
 
 - **Panel** (<kbd>cmd</kbd> + <kbd>J</kbd>)- An additional space for views below the editor region. By default, it contains output, debug information, errors and warnings, and an integrated terminal. The Panel can also be moved to the left or right for more vertical space.
@@ -71,22 +71,40 @@ A: Right-click on the Panel title bar > Panel Position > choose from Left | Righ
 
 Custom layout: <https://code.visualstudio.com/docs/configure/custom-layout> 
 
+
+--------------------------------------------------------------------------------
+
+**Explorer View**
+
+The [Explorer view](https://code.visualstudio.com/docs/getstarted/userinterface#_explorer-view) is used to browse, open, and manage the files and folders in your project. 
+
+- Type <kbd>⌘P</kbd> (Quick Open) to quickly search and open a file by its name.
+
 --------------------------------------------------------------------------------
 
 **Keyboard shortcuts**
 
-| Shortcut                                        | Function                  |
-| ----------------------------------------------- | ------------------------- |
-| <kbd>dd</kbd>                                   | use vim shortcut          |
-| <kbd>cmd</kbd> + <kbd> J</kbd>                  | toggle Panel              |
-| <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>I</kbd> | open GitHub Copilot chat  |
-| <kbd>opt</kbd> + <kbd>cmd</kbd> + <kbd>B</kbd>  | close GitHub Copilot chat |
+| Shortcut                                        | Function                                               |
+| ----------------------------------------------- | ------------------------------------------------------ |
+| <kbd>dd</kbd>                                   | use vim shortcut                                       |
+| <kbd>cmd</kbd> + <kbd> J</kbd>                  | toggle Panel                                           |
+| <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>I</kbd> | open GitHub Copilot chat                               |
+| <kbd>opt</kbd> + <kbd>cmd</kbd> + <kbd>B</kbd>  | close GitHub Copilot chat                              |
+| <kbd>cmd</kbd> + <kbd>P</kbd>                   | search file names in the current workspace or project. |
 
 Useful Extensions:
 
 - Markdown: `Markdown Preview Enhanced`, `Markdown+Math`, `Markdown All in One`
 - TeX: `LaTeX-Workshop` (this installs `intellisense` automatically)
 - Spell check, autocomplete: `Code Spell Checker`, `intellisense`
+
+
+**Extension Reload**
+
+Sometimes you need to reload an extension to apply changes.
+
+Command Palette → “Developer: Reload Window”
+
 
 --------------------------------------------------------------------------------
 

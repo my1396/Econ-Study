@@ -137,7 +137,7 @@ Man kan se på som en positiv utvikling og et resultat av at ... → It can be v
 
 
 
-**Verken … eller**
+**Verken … eller** (neither … nor …)
 
 | Barn <span style='color:#008B45'>verken</span> viser respekt for voksne <span style='color:#008B45'>eller</span> andre barn. | Children show <span style='color:#008B45'>neither</span> respect for adults <span style='color:#008B45'>nor</span> other children. |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -171,6 +171,12 @@ Staten gåt alfor langt i å regulere folks privatliv.
 | det stikk motsatte av | the opposite of    |
 | --------------------- | ------------------ |
 | i motsetning til ...  | in contrary to ... |
+
+
+
+一方面… 另一方面…
+
+På den energy siden … (正常语序), men på den andre siden … (倒装)
 
 
 
