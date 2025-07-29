@@ -1647,7 +1647,7 @@ $H_0$: new supplier = target value \
 $H_1$: new supplier > target value 
 
 
-Ex1: We want to know if the battery life is greathn than the orignal after a manufacturing change.
+Ex1: We want to know if the battery life is greater than the original after a manufacturing change.
 
 $H_0$: new battery life = original life \
 $H_1$: new battery life > original life

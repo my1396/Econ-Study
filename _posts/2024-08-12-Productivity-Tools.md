@@ -303,9 +303,12 @@ A: VS code remembers the text. When you finish typing the prefix, the formatted 
 ___
 
 Q: Is it possible to set max lines of a table printed in notebook?  
-A: The simple answer is NO. Seetings → Feasures → Notebook only limits the cell size of a pure text based output. It does NOT apply to outputs such as matrices, dataframes or other spreadsheet-like outputs (e.g. from the `View()` function in R.)
+A: The simple answer is NO. Seetings → Features → Notebook only limits the cell size of a pure text based output. It does NOT apply to outputs such as matrices, dataframes or other spreadsheet-like outputs (e.g. from the `View()` function in R.)
+
 
 ___
+
+
 
 [Change settings of VS Code](https://code.visualstudio.com/docs/configure/settings)
 
@@ -365,7 +368,7 @@ A: Open User Settings → Type `@lang:markdown` into the search widget. This wil
 
 
 
-Q: How to preview a markdown file?  
+Q: How to **preview a markdown file**?  
 A: Two options:
 
 - Open Preview (⇧⌘V)
@@ -377,6 +380,11 @@ Use either the keyboard shortcuts or click the Preview button.
 
 <img src="https://drive.google.com/thumbnail?id=14rY5JBq2TNjT7Z4Nc5x5_jMa0esNGlN5&sz=w1000" alt="VS code: preview markdown" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
+
+To set **html preview** using external browser, you need to change setting for the two extensions:
+
+- Quarto Preview: personally I prefer to use the build-in preview as it basically provides a live preview just like *Markdown Preview Enhanced*.
+- Live Preview: set to external browser, as Live Preview is more often used to preview the whole website.
 
 
 ___
@@ -398,7 +406,6 @@ VS Code includes a button in the Settings UI gutter which can be used to switch 
 
 Q: How to spell check code and document?  
 A: Use the extension [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker). Put your cursor in the word, use `Cmd`+`.` to show suggestions and select.
-
 
 
 Q: How to ignore unknown words?  
@@ -466,7 +473,7 @@ A: You can change what content is allowed in the Markdown preview by clicking on
 
 **Visual Mode and Source Mode**
 
-Visual Mode has inline prview of eqns, and in time preview of your markdown, like in Typora.
+Visual Mode has inline preview of eqns, and in time preview of your markdown, like in Typora.
 
 Side-to-side preview can be slow and the previewer can crash for a large file. That's where Visual Mode comes in handy.
 
@@ -553,7 +560,7 @@ Use: Typeset in your markdown source window and see the preview window live upda
 
 Option 1: use user settings
 
-opt+, open pereferences, add your macros directly there.
+opt+, open preferences, add your macros directly there.
 
 ```json
 "mdmath.macros": {
@@ -633,7 +640,7 @@ Environment snippets works directly in `tex`, you type `B`, a drop-down list wil
 
 [`@` suggestsion](https://github.com/James-Yu/latex-workshop/wiki/Intellisense#-suggestions)
 
-LaTeX-Workshop provides an independent intellisense mechanism triggered by `@`. For example, you can type `@a` for `\alpha`. It works for most Greeks and have some useful mathmatical helpers.
+LaTeX-Workshop provides an independent intellisense mechanism triggered by `@`. For example, you can type `@a` for `\alpha`. It works for most Greeks and have some useful mathematical helpers.
 
 | Prefix | Command               |
 | ------ | --------------------- |
@@ -655,6 +662,21 @@ Its configuration starts with `cSpell`.
 
 In text-based documents like `.md` and `.qmd` files, the spell checker checks all words. In code-based documents like `.py` and `.R` files, the spell checker only checks strings and comments.
 
+Q: How to let cSpell ignore certain envoronments, such as `code` and `math`? \
+A: Add the following to your `settings.json` file:
+
+```json
+// Configure spell checker to ignore certain patterns
+"cSpell.ignoreRegExpList": [
+  "/```[\\s\\S]*?```/g",  // Ignores fenced code blocks (```)
+  "/`[^`\\r\\n]*`/g",     // Ignores inline code (`)
+  "/@\\w+/g",             // Ignores @ mentions (like @username)
+  "/\\$\\$[\\s\\S]*?\\$\\$/g", // Block LaTeX math ($$...$$)
+  "/\\$[^$\\r\\n]*\\$/g"  // Inline LaTeX math ($...$)
+]
+```
+
+- The key is that the inline code config comes **before** the LaTeX patterns. This way, cSpell will first ignore anything in backticks, so `$HOME` (environment variable) inside backticks is not seen as LaTeX math. 
 
 
 ___
