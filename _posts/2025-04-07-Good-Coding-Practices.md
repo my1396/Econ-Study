@@ -133,7 +133,7 @@ ___
 
 - **Spaces over Tabs**
 
-  It is recommended to use spaces over Tabs for consistency across different systems and editors.
+  It is recommended to use **spaces** over Tabs for consistency across different systems and editors.
 
   For example, a Tab is 4 spaces on Windows and 8 spaces on Linux.
 
@@ -173,13 +173,22 @@ ___
   Could use a hanging indent where there should be <u>no arguments on the first line</u> (i.e., the last non-whitespace character of the line is the opening parenthesis) and <u>further indentation should be used</u> to clearly distinguish itself as a continuation line until the closing parenthesis.
 
   ```python
-  # Good
+  # Good Examples
   # Add 4 spaces (an extra level of indentation) to distinguish arguments from the rest.
   def long_function_name(
           var_one, var_two, var_three,
           var_four):
       print(var_one)
-  
+
+  long_function_name <- function(
+      a = "a long argument",
+      b = "another argument",
+      c = "another long argument"
+  ) {
+    # As usual code is indented by two spaces.
+  }
+
+ 
   # Hanging indents *may* be indented to other than 4 spaces.
   # Indent by 2 spaces
   foo = long_function_name(
@@ -210,7 +219,7 @@ ___
       var_four):
       print(var_one)
       
-  # God
+  # Good
   # Add some extra indentation on the conditional continuation line.
   # This creates distinguishment.
   if (this_is_one_thing
@@ -218,7 +227,7 @@ ___
       do_something()
   ```
 
-- The closing brace/bracket/parenthesis on multiline constructs may 
+- The **closing delimiter** (e.g., brace/bracket/parenthesis) on multiline constructs may 
 
   - either line up under the first non-whitespace character of the last line of list, as in:
   
@@ -255,6 +264,8 @@ ___
 ___
 
 **Line Break for Binary Operators**
+
+Operator goes to the next line.
 
 ```python
 # line break "before" binary operators
