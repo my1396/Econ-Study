@@ -50,6 +50,9 @@ ___
 
 ## VS Code
 
+<!-- load VS code codicon -->
+<link rel="stylesheet" href="https://microsoft.github.io/vscode-codicons/dist/codicon.css">
+
 ### Layout
 
 <img src="https://drive.google.com/thumbnail?id=1Ibf8FiPU7Ghc_ckzu1btT44VlRFnVJ4d&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
@@ -66,11 +69,16 @@ ___
 
 - **Panel** (<kbd>cmd</kbd> + <kbd>J</kbd>)- An additional space for views below the editor region. By default, it contains output, debug information, errors and warnings, and an integrated terminal. The Panel can also be moved to the left or right for more vertical space.
 
+
+
+**Custom layout**: <https://code.visualstudio.com/docs/configure/custom-layout> 
+
+- Read the webpage to see how to reorganize the default layout
+
+--------------------------------------------------------------------------------
+
 Q: How to change Panel position?  
-A: Right-click on the Panel title bar > Panel Position > choose from Left | Right | Bottom | Top, default is Bottom. Or choose "**View: Toggle Panel Position**" from the command palette.
-
-Custom layout: <https://code.visualstudio.com/docs/configure/custom-layout> 
-
+A: Right-click on the Panel title bar > Panel Position > choose from Left | Right | Bottom | Top, default is Bottom. Or choose "**View: Toggle Panel Position**" from the Command Palette.
 
 --------------------------------------------------------------------------------
 
@@ -78,32 +86,47 @@ Custom layout: <https://code.visualstudio.com/docs/configure/custom-layout>
 
 The [Explorer view](https://code.visualstudio.com/docs/getstarted/userinterface#_explorer-view) is used to browse, open, and manage the files and folders in your project. 
 
-- Type <kbd>⌘P</kbd> (Quick Open) to quickly search and open a file by its name.
+- Type <kbd>cmd</kbd> + <kbd>P</kbd> (Quick Open) to quickly search and open a file by its name.
 
 --------------------------------------------------------------------------------
 
-**Keyboard shortcuts**
+### Keyboard shortcuts
 
-| Shortcut                                        | Function                                               |
-| ----------------------------------------------- | ------------------------------------------------------ |
-| <kbd>dd</kbd>                                   | use vim shortcut                                       |
-| <kbd>cmd</kbd> + <kbd> J</kbd>                  | toggle Panel                                           |
-| <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>I</kbd> | open GitHub Copilot chat                               |
-| <kbd>opt</kbd> + <kbd>cmd</kbd> + <kbd>B</kbd>  | close GitHub Copilot chat                              |
-| <kbd>cmd</kbd> + <kbd>P</kbd>                   | search file names in the current workspace or project. |
+Command Palette > "**Preferences: Open Keyboard Shortcuts**" to open the Keyboard Shortcuts editor.
 
-Useful Extensions:
+| Shortcut                                         | Function                                                     |
+| ------------------------------------------------ | ------------------------------------------------------------ |
+| <kbd>dd</kbd>                                    | use vim shortcut                                             |
+| <kbd>cmd</kbd> + <kbd> J</kbd>                   | toggle Panel                                                 |
+| <kbd>ctrl</kbd> + <kbd> I </kbd>                 | Github CoPilot: Start inline chat (default shortcut `cmd-I` collapses with italic style) |
+| <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>I</kbd>  | open GitHub Copilot chat                                     |
+| <kbd>opt</kbd> + <kbd>cmd</kbd> + <kbd>B</kbd>   | close GitHub Copilot chat in the [Secondary Side Bar](https://code.visualstudio.com/docs/configure/custom-layout#_secondary-side-bar) |
+| <kbd>cmd</kbd> + <kbd>P</kbd>                    | search file names in the current workspace or project.       |
+| <kbd>shift</kbd>+<kbd>cmd</kbd> + <kbd>P</kbd>   | Bring up the **Command Palette**                             |
+| <kbd>cmd</kbd> + <kbd> opt </kbd> + <kbd>V</kbd> | Markdown Paste: convert rick text to Markdown, such as bold face. |
+| <kbd>cmd</kbd> + <kbd> opt </kbd> + <kbd>C</kbd> | Markdown Paste: paste code with auto-detecting language.     |
+|                                                  |                                                              |
+
+
+
+**Useful Extensions:**
 
 - Markdown: `Markdown Preview Enhanced`, `Markdown+Math`, `Markdown All in One`
 - TeX: `LaTeX-Workshop` (this installs `intellisense` automatically)
 - Spell check, autocomplete: `Code Spell Checker`, `intellisense`
 
 
+
 **Extension Reload**
 
 Sometimes you need to reload an extension to apply changes.
 
-Command Palette → “Developer: Reload Window”
+Command Palette → “**Developer: Reload Window**”
+
+- This is equivalent to restarting VS Code, but it only reloads the current window and does not close the entire application.
+- A quick reload ensures that your environment is up-to-date and functioning as intended, preventing potential disruptions in your workflow. 
+  - Generally, changes in settings apply immediately, but some settings require a reload to take effect.
+
 
 
 --------------------------------------------------------------------------------
@@ -116,6 +139,16 @@ Command Palette → “Developer: Reload Window”
 3. Click the "Find in Selection" icon to the right (or using keyboard shortcut <kbd>opt</kbd> + <kbd>cmd</kbd> + <kbd>L</kbd>)
 4. Enter your find and replace characters in their inputs
 5. Click the "Replace All" icon
+
+
+**Search Across Files**
+
+
+Press <kbd>shift</kbd> + <kbd>cmd</kbd> + <kbd>F</kbd> and enter your search term. VS Code will search over all files in the currently opened folder. 
+
+Command Palette approach: enter the **Search: Quick Search** command.
+
+Search results are grouped into files containing the search term, with an indication of the hits in each file and its location. Expand a file to see a preview of all of the hits within that file. Then single-click on one of the hits to view it in the editor.
 
 --------------------------------------------------------------------------------
 
@@ -308,7 +341,7 @@ A: The simple answer is NO. Seetings → Features → Notebook only limits the c
 
 ___
 
-
+### Configuration
 
 [Change settings of VS Code](https://code.visualstudio.com/docs/configure/settings)
 
@@ -325,7 +358,7 @@ ___
 
   Lower priority (can be overridden by workspace settings)
 
-- Workspace Settings: Project-specific settings that apply only to the current workspace/project.
+- **Workspace Settings:** Project-specific settings that apply only to the current workspace/project.
 
   Located in `.vscode/settings.json` inside the project folder.
 
@@ -333,6 +366,8 @@ ___
 
   **Priority**: Higher priority (overrides user settings)
 
+
+You can toggle between User and Workspace Settings by choosing the tab in the UI or if you are using the json file, you can determine which settings you are working on by looking at the file path.
 
 
 Run `Open Config Script` to open `config.js` (a JavaScript configuration file):
@@ -392,7 +427,7 @@ ___
 Q: How to open the User settings json file?  
 A: Follow the following steps:
 
-1. Open the command palette (either with F1 or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>)
+1. Open the Command Palette (either with F1 or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>)
 2. Type *"open settings"*
 3. You are presented with a few options, choose **Open User Settings (JSON)**
 
@@ -406,7 +441,6 @@ VS Code includes a button in the Settings UI gutter which can be used to switch 
 
 Q: How to spell check code and document?  
 A: Use the extension [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker). Put your cursor in the word, use `Cmd`+`.` to show suggestions and select.
-
 
 Q: How to ignore unknown words?  
 A: Go to Settings (⌘,) → `cSpell.diagnosticLevel` → Choose `Hint`  from the drop down menu. 
@@ -708,15 +742,67 @@ ___
 
 ### GitHub Copilot
 
+
+- Open chat view: `^⌘I` 
+- Start inline chat: `^I` (modified from `⌘I` to avoid conflict with italic style)
+
+#### Code Completion
+
+[**Code Completion Quick Start**](https://code.visualstudio.com/docs/copilot/ai-powered-suggestions#_inline-suggestions)
+
+[Settings](https://code.visualstudio.com/docs/copilot/ai-powered-suggestions#_settings)
+
+- [<span class="codicon codicon-settings-gear dynamic-setting-icon" title="Open 'github.copilot.enable' in Settings Editor"></span> github.copilot.enable](vscode://settings/github.copilot.enable) - enable or disable inline completions for all or specific languages.
+- [<span class="codicon codicon-settings-gear dynamic-setting-icon" title="Open 'github.copilot.enable' in Settings Editor"></span> editor.inlineSuggest.fontFamily](vscode://settings/editor.inlineSuggest.fontFamily) - configure the font for the inline completions.
+- [<span class="codicon codicon-settings-gear dynamic-setting-icon" title="Open 'github.copilot.enable' in Settings Editor"></span> editor.inlineSuggest.showToolbar](vscode://settings/editor.inlineSuggest.showToolbar) - enable or disable the toolbar that appears for inline completions.
+- [<span class="codicon codicon-settings-gear dynamic-setting-icon" title="Open 'github.copilot.enable' in Settings Editor"></span> editor.inlineSuggest.syntaxHighlightingEnabled](vscode://settings/editor.inlineSuggest.syntaxHighlightingEnabled) - enable or disable syntax highlighting for inline completions.
+
+Q: How does **inline suggestions** work?
+<figure style="text-align: center;">
+<img src="https://i.sstatic.net/ufcjJ.gif" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+<figcaption> Source: @Mark, <a href="https://stackoverflow.com/a/68264996" target="_blank" rel="noopener">https://stackoverflow.com/a/68264996</a></figcaption>
+</figure>
+
+
+Q: How to partially accept suggestions? \
+A: You might not want to accept an entire suggestion from GitHub Copilot. You can use the `⌘→` keyboard shortcut to accept either the next word of a suggestion, or the next line.
+
+Q: How to see alternative suggestions? \
+A: For any given input, Copilot might offer multiple, alternative suggestions. You can hover over the suggestion to any of the other suggestions. 
+
+<img src="https://code.visualstudio.com/assets/docs/copilot/inline-suggestions/copilot-hover-highlight.png" alt="GitHub Copilot hover highlight" style="display: block; margin-left: auto; margin-right: auto; max-width: 60%;" />
+
+--------------------------------------------------------------------------------
+
+#### Next Edit Suggestion
+
+Copilot next edit suggestions ([Copilot NES](https://code.visualstudio.com/docs/copilot/ai-powered-suggestions#_next-edit-suggestions)) is a feature that provides suggestions for the next edit you might want to make in your code.
+
+<img src="https://code.visualstudio.com/assets/docs/copilot/inline-suggestions/gutter-menu-highlighted-updated.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+- Navigate to the Next suggested code changes with the `Tab` key.
+  -  You can then accept a suggestion with the `Tab` key again.
+-  An arrow in the gutter indicates if there is an edit suggestion available.
+
+  You can hover over the arrow to explore the edit suggestion menu, which includes keyboard shortcuts and settings configuration:
+
+Q: How to reduce districtions by edit suggestions? \
+A: To disable showing the code changes in the editor, enable the [<span class="codicon codicon-settings-gear dynamic-setting-icon" title="Open 'github.copilot.enable' in Settings Editor"></span> editor.inlineSuggest.edits.showCollapsed](vscode://settings/editor.inlineSuggest.edits.showCollapsed) setting in the Settings editor.
+
+
+--------------------------------------------------------------------------------
+
+
 Q: How to delete chat histories?  
-A: In the chat window, click the <img src="https://drive.google.com/thumbnail?id=1D0LNpQUiAxzdsyQ2W3anXc3_UREkdBgM&sz=w1000" alt="" style="zoom:5%;" /> icon, it will show history chats in the command palette. You can delete any chats from there. 
+A: When you have a long chat, Copilot takes time to load the conversation history and might get slow. Deleting the history helps Copilot to have quick reactions. In the chat window, click the <img src="https://drive.google.com/thumbnail?id=1D0LNpQUiAxzdsyQ2W3anXc3_UREkdBgM&sz=w1000" alt="" style="zoom:5%;" /> icon, it will show history chats in the command palette. You can delete any chats from there. 
 
 Chat histories are stored in `/Users/menghan/Library/Application Support/Code/User/workspaceStorage/[long-serial-number...]/chatSessions`
 
 
 
+
 Q: In chat window, set <kbd>Enter</kbd> to line break and <kbd>Shift</kbd> + <kbd>Enter</kbd> to submit.  
-A: Add the following settings to `keybindings.json`
+A: Add the following settings to `keybindings.json` (Command Palette, type "Preferences: Open Keyboard Shortcuts"):
 
 ```json
 {
@@ -761,6 +847,45 @@ Explain different modes of Github Copilot:
   - Educational and consultative
 
 
+
+**Choose AI Coorect Model**
+
+| Model type         | Models                                                       |
+| :----------------- | :----------------------------------------------------------- |
+| Fast coding        | GPT-4o<br />Claude Sonnet 3.5<br />Claude Sonnet 3.7<br />Gemini 2.0 Flash |
+| Reasoning/planning | Claude Sonnet 3.7 Thinking<br />o1<br />o3-mini              |
+
+
+
+--------------------------------------------------------------------------------
+
+### GitLens
+
+**Inline Blame**
+
+Q: How to disable inline blame? \
+A: Open Settings and type `GitLens: Current Line`, uncheck the `Enabled` box.
+
+<figure style="text-align: center;">
+<img src="https://i.sstatic.net/eX11J.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+<figcaption> GitLens toolbar in editors.</figcaption>
+</figure>
+
+Q: How to remove toolbar in the open editor panel? \
+A: Set the following in the `settings.json` file:
+
+```json
+"gitlens.menus": {
+    "editorGroup": {
+        "blame": false,
+        "compare": false
+    }
+},
+```
+
+Ref:
+
+- <https://help.gitkraken.com/gitlens/gitlens-settings/>
 
 ___
 
