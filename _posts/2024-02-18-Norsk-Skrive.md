@@ -78,6 +78,14 @@ Mitt inntrykk er at ... → my impression is that …
 
 
 
+**altså**
+
+1. that is, in other words (clarification)
+2. therefore, so (concludsion)
+3. indeed, readlly (emphasis, spoken)
+
+
+
 In this way
 
 På den måten …
@@ -571,10 +579,21 @@ få en urettferdig **karakter**: receive an unfair grade
 
 困难：vansklighet, motstand, hindring
 
+vurderes etter bokstavkarakterer → be graded using letter grades
+
+bestått: pass
+
+stryke i faget: ikke bestå (fail the course)
+
+klar og tydelig kildehenvisning →clear and explicit source referencing
+
 | stor konkurranse                       | big competition                      |
 | -------------------------------------- | ------------------------------------ |
 | Det var en stor skuffelse å mislykkes. | It was a big disappointment to fail. |
 | Jeg fikk mye selvtillit.               | I receive much confidence.           |
+| Utfordringen kan være å gjøre noe      | The challenge can be to do sth       |
+
+Detter er mer tilpasset dagens samfunn der all informasjon er tilgjerngelig. → This is more adapted to today's society, where all information is readily accessible.
 
 
 
