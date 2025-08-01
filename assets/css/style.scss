@@ -594,6 +594,14 @@ kbd {
   font-size: 85%;
 }
 
+/* Liquid tags */
+/* fix large margins surrounding it */
+figure.highlight {
+  margin: 0 !important;
+  padding: 0 1em !important;
+  text-align: left !important; /* force liquid code to left align, defaults to center aligned */
+}
+
 /* Table of contents */
 .toc {
   position: fixed;

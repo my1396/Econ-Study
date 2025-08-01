@@ -140,6 +140,7 @@ Command Palette → “**Developer: Reload Window**”
 4. Enter your find and replace characters in their inputs
 5. Click the "Replace All" icon
 
+Close Find/Replace with <kbd>esc</kbd>.
 
 **Search Across Files**
 
@@ -222,7 +223,7 @@ A: Visual Studio Code supports refactoring operations (*refactorings*) such as [
 
 ___
 
-### **Snippets**
+### Snippets
 
 Snippets files are written in JSON, support C-style comments (`//`), and can define an *unlimited number* of snippets. Snippets support most TextMate syntax for dynamic behavior, intelligently format whitespace based on the insertion context, and allow easy multiline editing.
 
@@ -758,10 +759,11 @@ ___
 - [<span class="codicon codicon-settings-gear dynamic-setting-icon" title="Open 'github.copilot.enable' in Settings Editor"></span> editor.inlineSuggest.syntaxHighlightingEnabled](vscode://settings/editor.inlineSuggest.syntaxHighlightingEnabled) - enable or disable syntax highlighting for inline completions.
 
 Q: How does **inline suggestions** work?
-<figure style="text-align: center;">
-<img src="https://i.sstatic.net/ufcjJ.gif" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+<figure style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+<img src="https://drive.google.com/thumbnail?id=1XVHyR2iQK5MTvSuF07rU1W5_o6LoMGl9&sz=w1000" alt="inline suggestions.gif" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 <figcaption> Source: @Mark, <a href="https://stackoverflow.com/a/68264996" target="_blank" rel="noopener">https://stackoverflow.com/a/68264996</a></figcaption>
 </figure>
+
 
 
 Q: How to partially accept suggestions? \
@@ -794,7 +796,7 @@ A: To disable showing the code changes in the editor, enable the [<span class="
 
 
 Q: How to delete chat histories?  
-A: When you have a long chat, Copilot takes time to load the conversation history and might get slow. Deleting the history helps Copilot to have quick reactions. In the chat window, click the <img src="https://drive.google.com/thumbnail?id=1D0LNpQUiAxzdsyQ2W3anXc3_UREkdBgM&sz=w1000" alt="" style="zoom:5%;" /> icon, it will show history chats in the command palette. You can delete any chats from there. 
+A: When you have a long chat, Copilot takes time to load the conversation history and might get slow. Deleting the history helps Copilot to have quick reactions. In the chat window, click the <img src="https://drive.google.com/thumbnail?id=1D0LNpQUiAxzdsyQ2W3anXc3_UREkdBgM&sz=w1000" alt="" style="zoom:5%;" />  icon, it will show history chats in the command palette. You can delete any chats from there. 
 
 Chat histories are stored in `/Users/menghan/Library/Application Support/Code/User/workspaceStorage/[long-serial-number...]/chatSessions`
 
@@ -867,11 +869,11 @@ Q: How to disable inline blame? \
 A: Open Settings and type `GitLens: Current Line`, uncheck the `Enabled` box.
 
 <figure style="text-align: center;">
-<img src="https://i.sstatic.net/eX11J.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+<img src="https://drive.google.com/thumbnail?id=11Zo0Tm1qlWhVc-dWz_neeMlemjFY6t_V&sz=w1000" alt="gitlens" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 <figcaption> GitLens toolbar in editors.</figcaption>
 </figure>
 
-Q: How to remove toolbar in the open editor panel? \
+Q: How to remove GitLens' toolbar in the open editor panel? \
 A: Set the following in the `settings.json` file:
 
 ```json

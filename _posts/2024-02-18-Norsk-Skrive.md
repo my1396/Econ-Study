@@ -58,7 +58,9 @@ Mitt inntrykk er at ... → my impression is that …
 
 > imidlertid; likevel (nonetheless); 
 
+**Contrast**
 
+> derimot (on the other hand); 
 
 **In addition** (adding extra info)
 
@@ -581,6 +583,8 @@ få en urettferdig **karakter**: receive an unfair grade
 
 vurderes etter bokstavkarakterer → be graded using letter grades
 
+gode karakterer → good grades
+
 bestått: pass
 
 stryke i faget: ikke bestå (fail the course)
@@ -594,6 +598,10 @@ klar og tydelig kildehenvisning →clear and explicit source referencing
 | Utfordringen kan være å gjøre noe      | The challenge can be to do sth       |
 
 Detter er mer tilpasset dagens samfunn der all informasjon er tilgjerngelig. → This is more adapted to today's society, where all information is readily accessible.
+
+Lærerne vurderer elevenes **prestasjoner og fremgang** → the teachers evaluate the students' performance and progress
+
+
 
 
 
