@@ -395,13 +395,18 @@ li p {
   border-color: #79B8FF;
 }
 
-
+/* set tag icon to inline, otherwise will show on its own line */
+.fa {
+  display: inline !important;
+}
+/* Tag label in the list */
 .one-tag-list .tag-text {
-  font-weight: 200; /* thickness of tag font */
+  font-weight: 600; /* thickness of tag font */
   font-size: 20px;
   line-height: 1.7;
   text-transform: capitalize; /* capitalize 1st letter */
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, SimSun, sans-serif;
+  margin-left: 2px; /* space between tag icon and text */
 }
 .one-tag-list .post-preview {
   position: relative;

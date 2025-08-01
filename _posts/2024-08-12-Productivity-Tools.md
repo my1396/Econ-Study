@@ -347,6 +347,13 @@ ___
 [Change settings of VS Code](https://code.visualstudio.com/docs/configure/settings)
 
 - **Menu bar**: Code → Settings (keyboard shortcut: <kbd>cmd</kbd> + <kbd>,</kbd>)
+  
+  A useful feature is to copy the json for the settings of interest in the UI. 
+
+  <img src="https://drive.google.com/thumbnail?id=10iN98_ZJ4sUFzOngKsFMCxZxGldixVOA&sz=w1000" alt="copy as json" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+  When you hover over the **title** of the setting, a gear icon <span class="codicon codicon-settings-gear dynamic-setting-icon"></span> will appear, choose "Copy Setting as JSON" to copy the setting in json format.
+
 - **Configuration file**: change directly in the user settings file (`settings.json`)
 
 **Setting file locations**: 
@@ -765,14 +772,41 @@ Q: How does **inline suggestions** work?
 </figure>
 
 
-
 Q: How to partially accept suggestions? \
-A: You might not want to accept an entire suggestion from GitHub Copilot. You can use the `⌘→` keyboard shortcut to accept either the next word of a suggestion, or the next line.
+A: You might not want to accept an entire suggestion from GitHub Copilot. You can use 
+
+- `⌘→`  to accept the next word of a suggestion, and
+
+- `⌘]` to accept the next line.
+
+  Does NOT work; conflict with system indent.
+
+Or you can hover the ghost text, a dialog (see below) will apear, click `…` to Accpet Line.
+
+<figure style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+<img src="https://code.visualstudio.com/assets/docs/copilot/inline-suggestions/copilot-hover-highlight.png" alt="GitHub Copilot hover highlight" style="display: block; margin-left: auto; margin-right: auto; max-width: 60%;" />
+<figcaption> Inline Suggestion Dialog.</figcaption>
+</figure>
 
 Q: How to see alternative suggestions? \
-A: For any given input, Copilot might offer multiple, alternative suggestions. You can hover over the suggestion to any of the other suggestions. 
+A: For any given input, Copilot might offer multiple, alternative suggestions. You can hover over the suggestion and click `<` or `>` to navigate to any of the other suggestions.  Keyboard shortcut: `Option` + `]` to cycle through suggestions.
 
-<img src="https://code.visualstudio.com/assets/docs/copilot/inline-suggestions/copilot-hover-highlight.png" alt="GitHub Copilot hover highlight" style="display: block; margin-left: auto; margin-right: auto; max-width: 60%;" />
+
+Q: How to make inline suggestions (ghost text) automatically disappear after a delay if you don’t accept them? \
+A: No native support for this feature yet.
+
+Q: ESC which is both used for closing inline suggestions and for entering command mode in Vim, how to avoid conflict? \
+A: You can change the keybinding for inline suggestions.
+
+```json
+{
+  "key": "ctrl+u",
+  "command": "editor.action.inlineSuggest.hide",
+  "when": "editorTextFocus && inlineSuggestionVisible && vim.mode == 'Insert'"
+}
+```
+
+This will allow you to use <kbd>Ctrl</kbd> + <kbd>U</kbd> to close inline suggestions while still using <kbd>Esc</kbd> for command mode in Vim.
 
 --------------------------------------------------------------------------------
 

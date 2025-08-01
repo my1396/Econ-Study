@@ -218,15 +218,16 @@
 [data-theme="dark"] .highlight {
   background-color: #212121 !important;
   border-radius: 4px;
-  padding: 1em;
+  padding: 0em 1em;
   overflow-x: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 [data-theme="dark"] .highlight pre {
   background-color: transparent;
   border: none;
-  margin: 0;
-  padding: 0;
+  padding: 2px 1px;
 }
 
 [data-theme="dark"] .highlight code {
