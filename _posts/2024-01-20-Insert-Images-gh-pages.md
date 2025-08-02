@@ -88,7 +88,7 @@ For example:
 
 - my link: `https://drive.google.com/file/d/1L07w0_Qg9q-0Ukm4-K3i8ffyk34FqTzA/view?usp=sharing`
 - \<ID of image\> is after `d` and before `view?usp=sharing`, i.e., `1L07w0_Qg9q-0Ukm4-K3i8ffyk34FqTzA` in this case.
-- my embeddinwg link: `https://drive.google.com/uc?id=1L07w0_Qg9q-0Ukm4-K3i8ffyk34FqTzA`
+- my embedding link: `https://drive.google.com/uc?id=1L07w0_Qg9q-0Ukm4-K3i8ffyk34FqTzA`
 
 To embed an image using markdown, use the following:
 
@@ -129,7 +129,8 @@ Add some style adjustment:
 
 
 
-___
+--------------------------------------------------------------------------------
+
 
 ### Embed pdf files
 
@@ -137,8 +138,7 @@ Using Object Tag
 
 ```html
 <object class="pdf" 
-        data=
-"{{site.baseurl}}/images/应用已损坏.pdf"
+        data="{{site.baseurl}}/images/应用已损坏.pdf"
         width="800"
         height="500">
 </object>

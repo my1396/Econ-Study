@@ -20,25 +20,13 @@
 
 </html>
 
-<!--
-  This HTML template serves as the main layout for a Jekyll-generated website.
-  It dynamically includes standard components such as the head, header, and footer via Liquid templating.
-  The main content area is populated with page-specific content using the {{ content }} placeholder.
-  
-  Additional resources are loaded to support:
-    - MathJax rendering for mathematical notation
-    - Custom JavaScript functionality
-    - Syntax highlighting for code blocks using Rouge
-    - Font Awesome 7 icon library for UI icons
-    - Search box functionality
 
-  Language fallback is handled through the `page.lang` or `site.lang` variable.
--->
-
-<!-- load MathJax config file -->
-<script src="{{site.baseurl}}/assets/js/mathjax-config.js" defer></script>
+<!-- This HTML template serves as the main layout for a Jekyll-generated website. -->
+<!-- Additional resources are loaded for all pages -->
 
 <!-- ===================== Loading external js and css ===================== -->
+<!-- load MathJax config file -->
+<script src="{{site.baseurl}}/assets/js/mathjax-config.js" defer></script>
 <!-- load MathJax -->
 <script type="text/javascript" id="MathJax-script" defer
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
