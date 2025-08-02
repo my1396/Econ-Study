@@ -2,7 +2,19 @@
 
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
- {%- include head.html -%}
+  <head>
+    {%- include head.html -%}
+    
+    <!-- ============= Loading external CSS =============== -->
+    <!-- load syntax highlight css for Rouge -->
+    <link href="{{site.baseurl}}/assets/css/syntax.css" rel="stylesheet" >
+    
+    <!-- ===================== Icon Library ====================== -->
+    <!-- load Font Awesome 6 icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+    <!-- Load MS codicon library -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vscode/codicons@latest/dist/codicon.css">
+  </head>
 
   <body>
 
@@ -16,32 +28,20 @@
 
     {%- include footer.html -%}
 
+    <!-- ============= Loading external JavaScript =============== -->
+    <!-- load MathJax config file -->
+    <script src="{{site.baseurl}}/assets/js/mathjax-config.js" defer></script>
+    <!-- load MathJax -->
+    <script type="text/javascript" id="MathJax-script" defer
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+
+    <!-- load custom js script -->
+    <script src="{{site.baseurl}}/assets/js/script.js"></script>
+
+    <!-- load search box functionality -->
+    <script src="{{site.baseurl}}/assets/js/search-box.js"></script>
+
   </body>
 
 </html>
-
-
-<!-- This HTML template serves as the main layout for a Jekyll-generated website. -->
-<!-- Additional resources are loaded for all pages -->
-
-<!-- ===================== Loading external js and css ===================== -->
-<!-- load MathJax config file -->
-<script src="{{site.baseurl}}/assets/js/mathjax-config.js" defer></script>
-<!-- load MathJax -->
-<script type="text/javascript" id="MathJax-script" defer
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-
-<!-- load custom js script -->
-<script src="{{site.baseurl}}/assets/js/script.js"></script>
-
-<!-- load search box functionality -->
-<script src="{{site.baseurl}}/assets/js/search-box.js"></script>
-
-<!-- load syntax highlight css for Rouge -->
-<link href="{{site.baseurl}}/assets/css/syntax.css" rel="stylesheet" >
-
-<!-- load Font Awesome 6 icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
-
-<!-- ========================================================================= -->
