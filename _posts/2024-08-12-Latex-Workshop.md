@@ -102,3 +102,19 @@ Overleaf Workshop Extension: <https://github.com/iamhyc/overleaf-workshop>
 Log in with Cookies
 
 <img src="https://raw.githubusercontent.com/iamhyc/Overleaf-Workshop/master/docs/assets/demo01-login.gif" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
+**Highlight features:**
+
+- Sync with Overleaf Cloud
+  
+  User cursor indicator will show your position.
+- Chat with Collaborators (copy line reference)
+  
+  <img src="https://raw.githubusercontent.com/iamhyc/Overleaf-Workshop/master/docs/assets/demo06-chat.gif" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
+
+Caveats:
+
+- Do not use the Overleaf Workshop "Open Projects Locally" feature. Using a local version leads to major issues, including edit conflicts and data loss. See this [GitHub issue](https://github.com/iamhyc/Overleaf-Workshop/issues/180).

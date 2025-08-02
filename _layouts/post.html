@@ -1,6 +1,18 @@
 ---
 layout: base
 ---
+
+<!-- 
+  Post Layout Template
+  
+  This layout renders individual blog posts with:
+  - Post header with title, publication/update dates, and author info
+  - Responsive table of contents (TOC) that shows H1-H3 headings
+  - Main post content
+  - Optional Disqus comments
+  - JavaScript for responsive TOC positioning (sidebar on desktop, top on mobile)
+-->
+
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -27,9 +39,11 @@ layout: base
   </header>
 
   <!-- custom TOC class, css in /assets/css/style.scss -->
+  <!-- toc.html is in _includes/ -->
+  <!-- h_max=3 set max level to show as 3, hide level 4 and higher -->>
   <div class="toc" id="toc-container"> 
     <!-- <b>Jump to:</b> -->
-    {% include toc.html html=content %}
+    {% include toc.html html=content h_max=3%}
   </div>
 
   <div class="post-content e-content" itemprop="articleBody">
