@@ -51,21 +51,24 @@ Bus1 Mørkvedmarka skole
 
 [Friluft Salten](https://friluft.salten.no/?id=1340255371)
 
+
+常见图示介绍
+
 Graderingen for vandring har fire nivåer:
 
-Grønn = enkel
+<i class="fa-solid fa-person-walking" style="color:green; font-size:1.5em"></i> Grønn = enkel
 
 > Korte turer som passer for nybegynnere og ikke krever spesielle ferdigheter. Turen overstige vanligvis ikke 5 km lengde og 300 høydemeter stigning. 
 
-Blå = middels
+<i class="fa-solid fa-person-walking" style="color:blue; font-size:1.5em"></i>Blå = middels
 
 > Turer som passer middels trente turgåere med grunnleggende turferdigheter og med litt erfaring i terreng. Turen overstiger vanligvis ikke 10 km lenge og 600 høydemeter stigning. 
 
-Rød = krevende
+<i class="fa-solid fa-person-walking" style="color:red; font-size:1.5em"></i>Rød = krevende
 
 > Turer som passer erfarne turgåere med god utholdenhet og nødvendig turutstyr som gode fjellsko. Overstiger vanligvis ikke 20 km lengde og 1000 høydemeter stigning. 
 
-Svart = ekstra krevende
+<i class="fa-solid fa-person-walking" style="font-size:1.5em"></i>Svart = ekstra krevende
 
 > Turer som passer erfarne fjellfolk med god utholdenhet og nødvendig turutstyr som gode fjellsko. Denne typen tur har ingen maksimal høyde eller lengde.
 
@@ -78,6 +81,8 @@ Svart = ekstra krevende
 
 
 [Keiservarden](https://www.telltur.no/turmaal/myghxi9g/5271)
+
+- [Fottur til Keiservarden fra parkeringsplass Rønvikfjellet](https://ut.no/turforslag/114649/fottur-til-keiservarden-fra-parkeringsplass-rnvikfjellet): 4.7 km; 2 timer;
 
 **Parkering/start:** Parkeringsplass ved turisthytta
 
