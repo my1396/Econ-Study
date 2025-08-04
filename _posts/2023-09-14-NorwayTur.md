@@ -31,13 +31,23 @@ Bus1 Mørkvedmarka skole
 
 **Salten** is a traditional district in Nordland county, Norway. It includes the municipalities of Gildeskål, Bodø, Beiarn, Saltdal, Fauske, Sørfold, Steigen, and Hamarøy. 
 
+--------------------------------------------------------------------------------
+
+**Useful websites for hiking:**
+
 [TellTur](https://www.telltur.no/turmaal/myghxi9g/5271#:~:text=Kjør%252C%2520sykle%2520eller%2520gå%2520Fjellveien,på%2520merket%2520sti%2520ved%2520Kretjønna.)
 
 [GodTur](https://www.godtur.no/)
 
-[UT.no ](https://ut.no) Download GPX file and create route maps in Google Maps. 
-
 [Kart.1881](https://kart.1881.no) Nice map
+
+[Friluft Salten](https://friluft.salten.no/?id=1340255371)
+
+[UT.no](https://ut.no) Download GPX file and create route maps in Google Maps. 
+
+--------------------------------------------------------------------------------
+
+**Show route maps in Google Maps:**
 
 1. Go to the “Menu” represented as three lines and select”Saved”.
 
@@ -49,8 +59,8 @@ Bus1 Mørkvedmarka skole
 
    <img src="https://drive.google.com/thumbnail?id=1rX5Irb-ztnkTDWvmFCbyHkTzA7qZ67zL&sz=w1000" alt="New Maps" style="display: block; margin-right: auto; margin-left: auto; zoom:100%;" />
 
-[Friluft Salten](https://friluft.salten.no/?id=1340255371)
 
+--------------------------------------------------------------------------------
 
 常见图示介绍
 
@@ -73,12 +83,15 @@ Graderingen for vandring har fire nivåer:
 > Turer som passer erfarne fjellfolk med god utholdenhet og nødvendig turutstyr som gode fjellsko. Denne typen tur har ingen maksimal høyde eller lengde.
 
 
+--------------------------------------------------------------------------------
 
 **Kajakk**
 
 <https://www.seakayakingnorway.com/> 
 
+--------------------------------------------------------------------------------
 
+**Nice places to hike in Bodø**
 
 [Keiservarden](https://www.telltur.no/turmaal/myghxi9g/5271)
 
@@ -92,7 +105,7 @@ Graderingen for vandring har fire nivåer:
 
 **Høyeste punkt**: 366 moh; (Meter Over Havet 海拔)
 
-L**engde**: 5.5 km rundtur
+**Lengde**: 5.5 km rundtur
 
 **Tidsanslag**: 2.5 timer
 

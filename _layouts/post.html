@@ -41,10 +41,15 @@ layout: base
   <!-- custom TOC class, css in /assets/css/style.scss -->
   <!-- toc.html is in _includes/ -->
   <!-- h_max=3 set max level to show as 4, hide level 5 and higher -->
-  <div class="toc" id="toc-container"> 
-    <!-- <b>Jump to:</b> -->
-    {% include toc.html html=content h_max=4%}
-  </div>
+  {% capture toc_content %}
+    {% include toc.html html=content h_min=1 h_max=4 %}
+  {% endcapture %}
+  {% if toc_content contains "<li" %}
+    <div class="toc" id="toc-container"> 
+      <!-- <b>Jump to:</b> -->
+      {{ toc_content }}
+    </div>
+  {% endif %}
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
