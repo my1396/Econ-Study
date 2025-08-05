@@ -94,18 +94,18 @@ The [Explorer view](https://code.visualstudio.com/docs/getstarted/userinterface#
 
 Command Palette > "**Preferences: Open Keyboard Shortcuts**" to open the Keyboard Shortcuts editor.
 
-| Shortcut                                         | Function                                                     |
-| ------------------------------------------------ | ------------------------------------------------------------ |
-| <kbd>dd</kbd>                                    | use vim shortcut                                             |
-| <kbd>cmd</kbd> + <kbd> J</kbd>                   | toggle Panel                                                 |
-| <kbd>ctrl</kbd> + <kbd> I </kbd>                 | Github CoPilot: Start inline chat (default shortcut `cmd-I` collapses with italic style) |
-| <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>I</kbd>  | open GitHub Copilot chat                                     |
-| <kbd>opt</kbd> + <kbd>cmd</kbd> + <kbd>B</kbd>   | close GitHub Copilot chat in the [Secondary Side Bar](https://code.visualstudio.com/docs/configure/custom-layout#_secondary-side-bar) |
-| <kbd>cmd</kbd> + <kbd>P</kbd>                    | search file names in the current workspace or project.       |
-| <kbd>shift</kbd>+<kbd>cmd</kbd> + <kbd>P</kbd>   | Bring up the **Command Palette**                             |
-| <kbd>cmd</kbd> + <kbd> opt </kbd> + <kbd>V</kbd> | Markdown Paste: convert rick text to Markdown, such as bold face. |
-| <kbd>cmd</kbd> + <kbd> opt </kbd> + <kbd>C</kbd> | Markdown Paste: paste code with auto-detecting language.     |
-|                                                  |                                                              |
+| Shortcut             | Function                                                     |
+| -------------------- | ------------------------------------------------------------ |
+| `dd`                 | use vim shortcut                                             |
+| `cmd` + `J`          | toggle Panel                                                 |
+| `ctrl` + `I`         | Github CoPilot: Start inline chat (default shortcut `cmd-I` collapses with italic style) |
+| `ctrl` + `cmd` + `I` | open GitHub Copilot chat                                     |
+| `opt` + `cmd` + `B`  | close GitHub Copilot chat in the [Secondary Side Bar](https://code.visualstudio.com/docs/configure/custom-layout#_secondary-side-bar) |
+| `cmd` + `P`          | search file names in the current workspace or project.       |
+| `shift` + `cmd` + `P`  | Bring up the **Command Palette**                             |
+| `cmd` + `opt` + `V`  | Markdown Paste: convert rick text to Markdown, such as bold face. |
+| `cmd` + `opt` + `C`  | Markdown Paste: paste code with auto-detecting language.     |
+| `ctrl` + `I`         | User modified: toggle btw editor and terminal                |
 
 
 
@@ -177,6 +177,18 @@ Every language defines its *id* through the `languages` configuration point in t
 ```
 
 You can find a list of known identifiers in the [language identifier reference](https://code.visualstudio.com/docs/languages/identifiers#_known-language-identifiers).
+
+| Language   | Identifier |
+| ---------- | ---------- |
+| LaTeX      | `latex`    |
+| Markdown   | `markdown` |
+| R          | `r`        |
+| R Markdown | `rmd`      |
+| Quarto     | `quarto`   |
+
+- Note that all identifiers are in lower cases.
+
+
 
 ___
 
@@ -256,7 +268,7 @@ Create your own snippets: `Code` > `Settings` > `Configure Snippets`
 
 - "For Loop" is the snippet name. 
 
-  `prefix` defines one or more <span style='color:#008B45'>trigger words</span> that display the snippet in IntelliSense. Substring matching is performed on prefixes, so in this case, "fc" could match "for-const".
+  `prefix` defines <span style='color:#008B45'>**one or more** trigger words</span> that display the snippet in IntelliSense. Substring matching is performed on prefixes, so in this case, "fc" could match "for-const".
 
   `body` is one or more lines of content, which will be joined as multiple lines upon insertion. Newlines and embedded tabs will be formatted according to the context in which the snippet is inserted.
 
@@ -937,6 +949,32 @@ Microsoft Entra authentication uses identities in Microsoft Entra ID to access d
 
 Issue: cannot run SQL notebook as in Azure Data Studio
 
+--------------------------------------------------------------------------------
+
+Q: How to pad line with dashes until 80 characters long.
+A: No quick fix. Can use vim to do this.
+
+1. Select the lines you want to pad.
+2. Press `:` to enter the command-line mode and type.
+   
+   ```vim
+   :'<,'>normal 80A-<Esc>81|dw
+   ```
+   
+   Command breakdown:
+
+   - `:'<,'>`: Selects the current visual selection.
+   - `normal `: Enters normal mode for the selected lines.
+   - `80A-`: Appends at the end of the line a dash (`-`) 80 times
+   - `<Esc>`: Exits insert mode.
+   - `81|dw`: Moves the cursor to the column 81 (`81|`) and deletes the rest of the line (`dw`, delete until the beginning of next word; dashes count as one word).
+   
+   Note that `:norm` is a shorthand for `:normal`, which allows you to run normal mode commands on the selected lines. 
+3. Press `Enter` to execute the command.
+
+ref:
+
+- Vim: <https://vi.stackexchange.com/questions/415/adding-80-column-wide-comment-header-block-with-centered-text>
 
 
 ___
