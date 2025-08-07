@@ -553,6 +553,8 @@ kbd {
   border: 1px solid black;
 }
 
+
+
 /* kbd styling for dark mode */
 [data-theme="dark"] kbd {
   background-color: #263238 !important;
@@ -1032,3 +1034,22 @@ th, td {
   color: #B0BEC5 !important;
 }
 
+/* Environment variable colors adaptive to light/dark mode */
+.env-green {
+  color: #008B45 !important; /* Default green color */
+  /* Light mode */
+}
+
+[data-theme="dark"] .env-green {
+  color: #C3E88D !important;
+}
+
+.env-green>code,
+.env-green code {
+  color: #008B45 !important;
+}
+
+[data-theme="dark"] .env-green>code,
+[data-theme="dark"] .env-green code {
+  color: #C3E88D !important;
+}

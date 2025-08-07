@@ -668,13 +668,18 @@ The following works in `markdown` inside math environment
 | `**`   | `^{$1}` |
 | `...`  | `\dots` |
 
-Environment snippets works directly in `tex`, you type `B`, a drop-down list will show up for you to choose
+Environment snippets works directly in `tex`, you type `B`, a drop-down list will show up for you to choose.
 
-- In markdown, these cmds work only inside math environments (`$...$`)
+- The prefixes start with `B` and are followed by an abbreviation of the environment name.
+- The unnumbered versions of the environments are prefixed with `BS`, e.g., `BSEQ` for `equation*`.
+- In `tex`, these cmds work in both math and text environments.
+- However, it is more restrictive in markdown, where these cmds work only inside math environments (`$...$`)
+
+
 
 | Prefix | Environment name                           |
 | ------ | ------------------------------------------ |
-| `BEQ`  | `equation`                                 |
+| <span class="env-green">`BEQ`</span>  | `equation`  |
 | `BSEQ` | `equation*`                                |
 | `BAL`  | `align`                                    |
 | `BSAL` | `align*`                                   |
@@ -684,7 +689,7 @@ Environment snippets works directly in `tex`, you type `B`, a drop-down list wil
 | `BSMU` | `multline*`                                |
 | `BIT`  | `itemize`                                  |
 | `BEN`  | `enumerate`                                |
-| `BSPL` | <span style='color:#008B45'>`split`</span> |
+| <span class="env-green">`BSPL`</span>  | `split`    |
 | `BCAS` | `cases`                                    |
 | `BFR`  | `frame`                                    |
 | `BFI`  | `figure`                                   |
