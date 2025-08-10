@@ -3,6 +3,7 @@ layout: post
 tag: misc
 date: 2023-9-11
 ---
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
@@ -39,17 +40,19 @@ ___
 
 
 $Na_2CO_3$: sodium carbonate. It is mainly used in industry production for making glass, cleansers and detergents. 
-- 苏打，碱面。吸水性强，容易结成硬块。高温下分解，易溶于水，水溶液呈碱性。
+- baking soda 苏打，碱面。吸水性强，容易结成硬块。高温下分解，易溶于水，水溶液呈碱性。
 - 在日常生活中，我们可以在厨房见到碳酸钠的身影，一般用来洗涤油污 (detergent for dirt and grease)，
 - 苏打还可用于产生气体从而增加面食松软度，常在制作包子、馒头的时候添加。
 - 碳酸钠的碱性更强，碳酸氢钠只是弱碱性。两种物质均可以用于洗涤油污，碳酸钠效用更强一些。
 - 比例: Mix 3-5 tablespoons in 10 liters of water to make a basic detergent for bottles, for example. Rinse thoroughly with clean water afterwards.
 
-$NaHCO_3$: sodium bicarbonate, or <u>baking soda</u>, or sodium hydrogen carbonate, is also used as an odour neutraliser, cleaning or exfoliating agent, and sometimes as a temporary fire extinguisher. It is mainly used for household purposes, especially cooking and cleaning. 小苏打或泡打粉。在潮湿空气或热空气中即缓慢分解，产生二氧化碳。
+$NaHCO_3$: sodium bicarbonate, or <u>baking soda</u>, or sodium hydrogen carbonate, is also used as an odour neutraliser, cleaning or exfoliating agent, and sometimes as a temporary fire extinguisher. It is mainly used for household purposes, especially cooking and cleaning. 俗称**小苏打**。在潮湿空气或热空气中即缓慢分解，产生二氧化碳。
 
-- 加热易分解，当加热至270℃完全分解，分解产物为碳酸钠和水、二氧化碳。
+- 碱性；加热易分解，当加热至270℃完全分解，分解产物为碳酸钠和水、二氧化碳。
 - 在食品加工中，它是一种应用最广泛的疏松剂，用于生产饼干、面包等，是汽水饮料中二氧化碳的发生剂；可与明矾复合为碱性发酵粉。
 - 小苏打粉应用于家庭清洁，可以去污、除臭。因油腻、污渍或难闻气味，大多属于酸性物质($H^+$，如脂肪酸)，当弱碱性的氢氧根$OH^{-}$ 与酸性物质相遇，便会产生中和作用。
+
+Baking Power (泡打粉)：中性；是由「小苏打粉+酸性物质+淀粉」混合而成的复合型膨胀剂，遇到水与高温时会发生中和作用，产生二氧化碳而使产品膨大。本身包含酸碱成份，所以可以自己发生反应，在使用上比小苏打粉更为方便
 
 Soda Crystals: cleaning product, Hydrated Sodium Carbonate, $NaHCO_3$, soluble natural laundry and cleaning product.
 

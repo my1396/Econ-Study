@@ -1044,8 +1044,10 @@ th, td {
   color: #C3E88D !important;
 }
 
+/* Apply color to inline code */
 .env-green>code,
 .env-green code {
+  // light mode
   color: #008B45 !important;
 }
 

@@ -4,7 +4,20 @@ tag: Norsk
 title: Norsk Skrive
 ---
 
+<head>
+<style>
+.env-green {
+  color: #008B45 !important; /* Default green color */
+  /* Light mode */
+}
+[data-theme="dark"] .env-green {
+  color: #C3E88D !important;
+}
+</style>
+</head>
 
+
+<a class="top-link hide" href="#" id="js-top">↑</a>
 
 ## Development of a Paragraph
 
@@ -56,7 +69,7 @@ Mitt inntrykk er at ... → my impression is that …
 
 **However** 
 
-> imidlertid; likevel (nonetheless); 
+> imidlertid; likevel (nonetheless); fremdeles (still);
 
 **Contrast**
 
@@ -64,7 +77,7 @@ Mitt inntrykk er at ... → my impression is that …
 
 **In addition** (adding extra info)
 
-> i tillegg; samtidlig; dessuten
+> i tillegg; samtidlig; <span style='color:#008B45'>dessuten</span>;
 
 **If**
 
@@ -408,7 +421,9 @@ Et *økende* antall nordmenn ønsker å ... → An increasing number of Norwegia
 
 A *går ned samtidig som* B øker → 伴随着 B 的上升，A 在下降
 
-å bli redusert → to be reduced
+å bli *redusert / kuttes* → to be reduced / cut
+
+å *synke* → to sink 
 
 Det blir en ond *sirkel*. → It becomes a vivious circle.
 
@@ -447,6 +462,7 @@ Dette gjelder også i Norge. → This also applies in Norway.
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | av den grunn ... 倒装                                        | because of this ...                                          |
 | den vanligste årsaken til .... er ...                        | the most common cause of ... is ...                          |
+| **hovedårsaken** til at … er at ...                          | the major reason why … is …                                  |
 | å følge av noe                                               | 由…引起的                                                    |
 | Dette har **sammenheng** med at ...                          | This is related / due to the fact that ...<br />This has to do with the fact that ...<br />This is because ... |
 
@@ -464,9 +480,11 @@ gi gode/negative resultalter
 | ----------- | ------- |
 | slik at     | so that |
 
-Dette fører til at ... This leads to ...
+Dette *fører til at* ... This leads to ...
 
-Det fører også med seg … This also brings along …
+Det *fører* også *med seg* … This also brings along …
+
+Mindre stress *fører til* lavere sykefravær → less stress leads to lower sick leave
 
 
 
@@ -635,6 +653,48 @@ sette noe høyt; verdsette noe høyt
 
 
 
+___
+
+### Opplæring og utdanning
+
+2025-08-10 skritlig øvelse
+
+**Oppgave 1** (80 ord; 30 min): I kommunen der du bor, har voksenopplæringen bestemt at de skal legge ned B2-kurset. Skriv en e-post til rektor og forklar hvorfor dette er et problem.
+
+> 1. innvandrer har ikke lett tilgjenlig ressur å lære norsk. 
+> 2. Vanskelig å få job. Kan ikke forsørge seg selv.
+> 3. Staten må betale for å sikre at innvandrer har mat å spise og et sted å bo. Det bruker mye penger i lang sikt. 
+> 4. Innvandrer kan ikke bli integret i samfunnet. Og de blir en belastning. Det påvirker barn sine også.
+>
+> Hei,
+>
+> Jeg bli <span style='color:red'>be</span>visst at voksenopplæringen vår skal legge ned B2-kurset. Jeg forstår at kommunen har  redusert ~~finans~~ buskjet<span style='color:red'>tet</span>, men ~~språk utdanning~~ <span style='color:red'>språkopplæring</span> er særlig viktig til velferd<span style='color:red'>en</span> og ~~lykke~~ <span style='color:red'>trivselen</span>for både ~~norsk~~ <span style='color:red'>nordmenn</span> og innvandrer<span style='color:red'>e</span>. Det påvirker innvandrer<span style='color:red'>e</span> direkt<span style='color:red'>e</span> fordi de <span style='color:red'>ikke</span> har ~~ikke~~ lett ~~tilgjenlig~~ <span style='color:red'>tilgjengelige</span> ressur<span style='color:red'>er</span> for å lære norsk. Det føre<span style='color:red'>r</span> til store problemer. ~~Først~~ <span style='color:red'>For det første</span>, uten <span style='color:red'>et</span> høy ~~språk nivå~~ <span style='color:red'>språknivå</span> som B2, kan innvandrer<span style='color:red'>e</span> ikke få <span style='color:red'>en</span> god utdanning eller ~~få~~ en jobb. De kunne ikke forsørge dem selv. Da <span style='color:red'>må</span> staten ~~må~~ betale for å sik<span style='color:red'>r</span>e at alle har mat å spise og et sted å bo. Det<span style='color:red'>te</span> bruker mye penger ~~i~~ <span style='color:red'>på</span> lag sikt. Det ser ut at det spare~~r~~<span style='color:red'>s</span> penger hvis voksenopplæringen kutte<span style='color:red'>r</span> B2-kurset. Men, det fører til en større problem for sammfunnet at innvandre <span style='color:red'>ikke</span> kunne ~~ikke~~ bli integret ~~til norsk~~ <span style='color:red'>i det norske</span> sammfunnet. Det skal <span style='color:red'>til slutt</span> påvirke nordmenns velferd ~~endelig~~. 
+>
+> ~~To~~ <span style='color:red'>Til</span> slutt, det har ~~mer negative påvirkning enn positivt~~ <span style='color:red'>flere negative virkninger enn positive</span>. Jeg håper kommunen ~~kunne~~ <span style='color:red'>kan</span> vurdere ~~igjen om bestemmen~~<span style='color:red'>beslutningen på nytt</span>.
+>
+> Med vennlig hilsen, 
+>
+> Abby
+
+I become aware of … → Jeg har fått vite at … / Jeg har hørt at …
+
+lett tilgjengelige ressurser → readily available resources (plural, adj agreement)
+
+总结 grammer
+
+1. adj agreement
+2. V2 原则
+
+**Oppgave 2** (250-350 ord; 1.5 timer): Argumentere. Ta stilling til spørsmålet, og argumenter for ditt syn.
+
+Bør foreldrene bestemme når barna skal begynne på skolen?
+
+Forskning viser at barn som er født sent på året, risikerer å bli skoletapere. Derfor mener noen at barn som ikke er skolemedne bør begynne senere på skolen. Andre mener at alle i samme klasse bør være like gamle, men at læreren bør tilpasse undervisningen.
+
+
+
+___
+
 ### Kultur
 
 **Jantelov**
@@ -642,6 +702,8 @@ sette noe høyt; verdsette noe høyt
 Man må ikke stikke seg ut og være god til noe, og hvis man fremhever de beste, får man kritikk med en gang.
 
 
+
+___
 
 **科技与生活**
 
@@ -651,7 +713,7 @@ Technologien har tatt over mange av arbeidsoppgavene på fabrikkene og byggeplas
 
 
 
-**整形** Plastisk kirurgi
+### **整形** Plastisk kirurgi
 
 Hva synes dere om at man kan få utført en operasjon for å få et bedre utseende?
 
@@ -671,7 +733,9 @@ Hva synes dere om at man kan få utført en operasjon for å få et bedre utseen
 
 
 
-**Miljø 环保**
+___
+
+### Miljø 环保
 
 bærekraftig: sustainable
 
@@ -699,11 +763,13 @@ Er det noen poenger i talen til Grete Thunberg som dere synes er spesielt gode?
 
 
 
-**Koronapandeminen**
+___
+
+### Koronapandeminen
 
 å bli rammet av ...
 
-*å stenge ned*  shut down, lock down
+*å stenge ned*  → shut down, lock down
 
 
 
