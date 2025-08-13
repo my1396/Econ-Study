@@ -127,27 +127,6 @@ If payment is not registered within 48 hours, an invoice is sent to the car owne
 
 
 
-### Dekkhotell
-
-tyre hotel
-
-**SALTEN DEKKSENTER AS – BERTNES**
-Munarvollveien 1, 8020 Bodø
-Tlf. [755 51 050](tel:75551050)
-
-1200 kr per season. 600 kr if only need the changing tyre service.
-
-Per year, 2400 kr.
-
-
-
-**Vianor**
-
-1150 kr per dekksesong
-
-<https://vianor.no/dekkverksted/dekkhotell/>
-
-
 
 **Register vehicle** 
 
@@ -441,6 +420,8 @@ Part two put at home.
 
 ### Winter tires
 
+冬季轮胎
+
 Oct 16 — April 30
 
 For **Nordland, Troms og Finnmark** gjelder kravet til minimum 3 millimeter mønsterdybde fra og med 16. oktober til og med 30. april.
@@ -467,6 +448,27 @@ For **Nordland, Troms og Finnmark** gjelder kravet til minimum 3 millimeter møn
 1. The general rule is to do as little as possible and allow the car to pass over the ice.
 
 2. 移开油门，不要踩刹车。踩刹车会让情况更严重。
+
+
+### Dekkhotell
+
+tyre hotel
+
+**SALTEN DEKKSENTER AS – BERTNES**
+Munarvollveien 1, 8020 Bodø
+Tlf. [755 51 050](tel:75551050)
+
+1200 kr per season. 600 kr if only need the changing tyre service.
+
+Per year, 2400 kr.
+
+
+
+**Vianor**
+
+1150 kr per dekksesong
+
+<https://vianor.no/dekkverksted/dekkhotell/>
 
 
 

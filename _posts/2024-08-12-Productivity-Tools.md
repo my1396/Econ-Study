@@ -102,7 +102,7 @@ Command Palette > "**Preferences: Open Keyboard Shortcuts**" to open the Keyboar
 | `ctrl` + `cmd` + `I` | open GitHub Copilot chat                                     |
 | `opt` + `cmd` + `B`  | close GitHub Copilot chat in the [Secondary Side Bar](https://code.visualstudio.com/docs/configure/custom-layout#_secondary-side-bar) |
 | `cmd` + `P`          | search file names in the current workspace or project.       |
-| `shift` + `cmd` + `P`  | Bring up the **Command Palette**                             |
+| `shift` + `cmd` + `P`| Bring up the <span class="env-green">**Command Palette**</span> |
 | `cmd` + `opt` + `V`  | Markdown Paste: convert rick text to Markdown, such as bold face. |
 | `cmd` + `opt` + `C`  | Markdown Paste: paste code with auto-detecting language.     |
 | `ctrl` + `I`         | User modified: toggle btw editor and terminal                |

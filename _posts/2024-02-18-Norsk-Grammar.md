@@ -170,7 +170,7 @@ IKKE: ~~Bilen er dyre.~~ ❌
 
 Bilen er dy. ✅ (The car is expensive)
 
-形容词作为表语不用 definite form，但是需要根据性别和数量变格。
+**形容词作为表语**不用 definite form，但是需要根据性别和数量变格。
 
 <table>
   <tr>
@@ -207,10 +207,10 @@ Bilen er dy. ✅ (The car is expensive)
 
 Which of the following is correct?
 
-- [ ] Hverdagen vår er ofte hektisk. ✅
-- [ ] Hverdag vår er ofte hektisk. ❌
+- Hverdagen vår er ofte hektisk. ✅
+- Hverdag vår er ofte hektisk. ❌
 
-Hverdagen 为 definite form, singular masuline, 对应的possessive pronoun应该要在gender和number上匹配 — "vår" 匹配singular masculine。  
+Hverdagen 为 definite form, singular masuline, 对应的 possessive pronoun 应该要在 gender 和 number 上匹配 — "vår" 匹配 singular masculine。  
 
 
 

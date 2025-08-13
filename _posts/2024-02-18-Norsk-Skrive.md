@@ -1,21 +1,8 @@
 ---
 layout: post
 tag: Norsk
-title: Norsk Skrive
+title: Norsk Skriftlig
 ---
-
-<head>
-<style>
-.env-green {
-  color: #008B45 !important; /* Default green color */
-  /* Light mode */
-}
-[data-theme="dark"] .env-green {
-  color: #C3E88D !important;
-}
-</style>
-</head>
-
 
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
@@ -25,7 +12,11 @@ Utbygging av avsnit
 
 Temasetnning → Kommentarsetninger → Avsluttende setning
 
-*For det første* ... First of all ...
+<span style='color:#008B45'>*For det første*</span> ... for det andre … Firstly ... secondly …
+
+I tillegg …
+
+Til slutt …
 
 
 
@@ -65,7 +56,13 @@ Mitt inntrykk er at ... → my impression is that …
 
 
 
+## Connectors
+
 **起承转折的连词**
+
+- Avoid repeating the same connector more than twice in one answer. 
+
+- Use synonyms to score higher on **cohesion**.
 
 **However** 
 
@@ -73,23 +70,49 @@ Mitt inntrykk er at ... → my impression is that …
 
 **Contrast**
 
-> derimot (on the other hand); 
+> derimot (on the contrary; however); på den andre siden;
+
+**Concession** 让步
+
+> selv om;
 
 **In addition** (adding extra info)
 
-> i tillegg; samtidlig; <span style='color:#008B45'>dessuten</span>;
+> i tillegg (til å); samtidlig; <span style='color:#008B45'>dessuten</span> (moreover);
 
 **If**
 
-> hivs; dersom; 
+> hivs; <span style='color:#008B45'>dersom</span>; 
 
 **So**
 
-> altså;
+> altså; <span style='color:#008B45'>derfor</span>;
 
 **Still, even now**
 
 > Fremedeles; ennå;
+
+**Wrap up**; introduce the last point
+
+> For å oppsummere (to summarize); 
+>
+> avslutningvis (in conclusion); 
+>
+> til slutt (finally);
+
+**Emphasis**
+
+> ikke minst (not least); faktisk (in fact) 
+
+**For example**
+
+> for eksempel; slik som; 
+
+**Sequence**
+
+> i begynnelsen … senere … til slutt (in the beginning … later … finally);
+
+
 
 
 
@@ -101,7 +124,7 @@ Mitt inntrykk er at ... → my impression is that …
 
 
 
-In this way
+**In this way**
 
 På den måten …
 
@@ -121,7 +144,7 @@ Bruk av fornybare energikilder regens som barekraflig og miljøvennlig.
 
 **很明显**...
 
-det er *klart/tydelig* at ...
+det er *klart/<span style='color:#008B45'>tydelig</span>* at ...
 
 
 
@@ -152,18 +175,77 @@ Man kan se på som en positiv utvikling og et resultat av at ... → It can be v
 
 
 
-**Not only … but also**
+**Ikke bare … men også …** 
 
-**Ikke bare** blie det vanskeligere for disse kvinnene å komme seg ut i arbeidslivet, **men** det fører **også** til at barna deres ikke går i barnehage.
+Not only … but also …
 
-注意主句 ikke 的位置，提前到<u>动词之前</u>。
+**Ikke bare** blir det vanskeligere for disse kvinnene å komme seg ut i arbeidslivet, **men** det fører **også** til at barna deres ikke går i barnehage.
+
+- 两个分句 都要遵循 V2 原则
+
+  **Ikke bare** **+ verb** + [subject/rest of clause] **, men også** + verb + [rest of second clause].
+
+- 注意 men også 句 ikke 的位置，提前到<u>动词之前</u>。
+
+Ex
+
+- **Ikke bare** *lærte jeg norsk*, **men også** *forsto jeg kulturen bedre*.
+- **Ikke bare** *snakker hun tre språk*, **men også** *skriver hun dem flytende*.
+- **Ikke bare** *er dette en billig løsning*, **men også** *en effektiv en*.
+
+___
+
+**How to use in B2 exam writing**
+
+1. ### General statement
+
+   **Ikke bare** *[verb + subject + rest]*, **men også** *[verb + subject + rest]*.
+
+   > **Ikke bare** *gir dette bedre resultater*, **men også** *skaper det et mer motiverende læringsmiljø*.
+   > *Not only does this give better results, but it also creates a more motivating learning environment.*
+
+2. ### Opinion with reason
+
+   **Ikke bare** *[verb + subject + rest]*, **men også** *[reason/consequence]*.
+
+   > **Ikke bare** *er norsk viktig for studier i Norge*, **men også** *for å kunne delta aktivt i samfunnet*.
+   > *Not only is Norwegian important for studying in Norway, but also for participating actively in society.*
+
+3. ### Comparison
+
+   **Ikke bare** *[subject + verb + quality]*, **men også** *[subject + verb + another quality]*.
+
+   > **Ikke bare** *er dette kurset praktisk*, **men også** *svært lærerikt*.
+   > *Not only is this course practical, but it is also very educational.*
+
+4. ### Cause–effect emphasis
+
+   **Ikke bare** *[cause]*, **men også** *[effect]*.
+
+   > **Ikke bare** *øker fysisk aktivitet helsen*, **men også** *forbedrer den humøret*.
+   > *Not only does physical activity improve health, but it also boosts mood.*
+
+5. ### Argument in debate
+
+   **Ikke bare** *[point supporting your argument]*, **men også** *[additional strong point]*.
+
+   > **Ikke bare** *vil tiltaket redusere forurensningen*, **men også** *skape nye arbeidsplasser*.
+   > *Not only will the measure reduce pollution, but it will also create new jobs.*
+
+小结：如果主语一致，第二个分句 (men også) 主语可以省略。如此便不需纠结 V2 原则。Ikke bare 则必须使用 V2 原则。
 
 
+
+
+
+___
 
 **Verken … eller** (neither … nor …)
 
 | Barn <span style='color:#008B45'>verken</span> viser respekt for voksne <span style='color:#008B45'>eller</span> andre barn. | Children show <span style='color:#008B45'>neither</span> respect for adults <span style='color:#008B45'>nor</span> other children. |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+
+- distinguish from "enten … eller …", which means "either … or …"
 
 
 
@@ -189,7 +271,7 @@ Staten gåt alfor langt i å regulere folks privatliv.
 
 
 
-相反，…的反面
+相反, … 的反面
 
 | det stikk motsatte av | the opposite of    |
 | --------------------- | ------------------ |
@@ -197,9 +279,9 @@ Staten gåt alfor langt i å regulere folks privatliv.
 
 
 
-一方面… 另一方面…
+一方面 … 另一方面… (on the one hand, on the other hand)
 
-På den energy siden … (正常语序), men på den andre siden … (倒装)
+På den ene siden … (正常语序), men på den andre siden … (倒装)
 
 
 
@@ -208,6 +290,12 @@ På den energy siden … (正常语序), men på den andre siden … (倒装)
 无论如何 anyway
 
 i hvert fall, i alle fall
+
+
+
+**强调普适**
+
+i de fleste sammenheng → most likely
 
 
 
@@ -249,7 +337,7 @@ det neyste begrepet er ... the newest notion is ...
 
 at 从句
 
-- 注意要setningsadverb提前到动词前
+- 注意要 setningsadverb 提前到动词前
 
 | Norsk                       | Engelsk                              |
 | --------------------------- | ------------------------------------ |
@@ -486,7 +574,7 @@ Det *fører* også *med seg* … This also brings along …
 
 Mindre stress *fører til* lavere sykefravær → less stress leads to lower sick leave
 
-
+Det innebærer at ... → It means / implies that … 
 
 Ex.
 
@@ -562,7 +650,7 @@ What are the advantages and disadvantages of .... 注意跟英文的不同。挪
 
 
 
-### Familie og utlandning
+## Familie og utlandning
 
 1. Eer det viktig at mor og far deler på permisjonen nå barna er små? Hvorfor / hvorfor ikke?
 
@@ -584,16 +672,22 @@ Hva synes du er viktigst å lære dine barn?
 
 uavhengighet (independence)
 
-| Jeg bestemmer selv mine mål i livet. | I decide  my own life goals. |
-| ------------------------------------ | ---------------------------- |
+| Norsk                                | Engelsk                     |
+| ------------------------------------ | --------------------------- |
+| Jeg bestemmer selv mine mål i livet. | I decide my own life goals. |
 
 
 
 
 
-### 学习
+## 学习
 
 få en urettferdig **karakter**: receive an unfair grade
+
+eksamenskarakter / standpunktkarakter / karaktergjennomsnitt
+
+- Standpunktkarakter er den endelige karakteren du får i et fag basert på alt arbeidet og vurderingene gjennom skoleåret. 
+- Eksamenskarakter er resultatet du får på selve eksamenen. (selve, definit form)
 
 å anstrenge seg: to make an effort, try hard
 
@@ -608,6 +702,8 @@ bestått: pass
 stryke i faget: ikke bestå (fail the course)
 
 klar og tydelig kildehenvisning →clear and explicit source referencing
+
+plagiat → plagiarism
 
 | stor konkurranse                       | big competition                      |
 | -------------------------------------- | ------------------------------------ |
@@ -645,17 +741,23 @@ På norskkurs <u>ble vi oppmuntret til å</u> lese barnebøker og se på barne-T
 
 Det er bedre at barna selv <span style='color:#008B45'>opplever glede av mestringen</span>.
 
+å mestre noe → to master sth
+
+
+
 **重要**
 
-sette noe høyt; verdsette noe høyt
+sette noe høyt; verdsette noe høyt;
 
 … har blitt uvesentlige, og … har blitt enda viktigere enn før.   [… have become insignificant, and … has become even more important than before.]
+
+<span style='color:#008B45'>vesentlig</span> → significant
 
 
 
 ___
 
-### Opplæring og utdanning
+## Opplæring og utdanning
 
 2025-08-10 skritlig øvelse
 
@@ -668,9 +770,9 @@ ___
 >
 > Hei,
 >
-> Jeg bli <span style='color:red'>be</span>visst at voksenopplæringen vår skal legge ned B2-kurset. Jeg forstår at kommunen har  redusert ~~finans~~ buskjet<span style='color:red'>tet</span>, men ~~språk utdanning~~ <span style='color:red'>språkopplæring</span> er særlig viktig til velferd<span style='color:red'>en</span> og ~~lykke~~ <span style='color:red'>trivselen</span>for både ~~norsk~~ <span style='color:red'>nordmenn</span> og innvandrer<span style='color:red'>e</span>. Det påvirker innvandrer<span style='color:red'>e</span> direkt<span style='color:red'>e</span> fordi de <span style='color:red'>ikke</span> har ~~ikke~~ lett ~~tilgjenlig~~ <span style='color:red'>tilgjengelige</span> ressur<span style='color:red'>er</span> for å lære norsk. Det føre<span style='color:red'>r</span> til store problemer. ~~Først~~ <span style='color:red'>For det første</span>, uten <span style='color:red'>et</span> høy ~~språk nivå~~ <span style='color:red'>språknivå</span> som B2, kan innvandrer<span style='color:red'>e</span> ikke få <span style='color:red'>en</span> god utdanning eller ~~få~~ en jobb. De kunne ikke forsørge dem selv. Da <span style='color:red'>må</span> staten ~~må~~ betale for å sik<span style='color:red'>r</span>e at alle har mat å spise og et sted å bo. Det<span style='color:red'>te</span> bruker mye penger ~~i~~ <span style='color:red'>på</span> lag sikt. Det ser ut at det spare~~r~~<span style='color:red'>s</span> penger hvis voksenopplæringen kutte<span style='color:red'>r</span> B2-kurset. Men, det fører til en større problem for sammfunnet at innvandre <span style='color:red'>ikke</span> kunne ~~ikke~~ bli integret ~~til norsk~~ <span style='color:red'>i det norske</span> sammfunnet. Det skal <span style='color:red'>til slutt</span> påvirke nordmenns velferd ~~endelig~~. 
+> Jeg bli <span style='color:red'>be</span>visst at voksenopplæringen vår skal legge ned B2-kurset. Jeg forstår at kommunen har  redusert ~~finans~~ buskjet<span style='color:red'>tet</span>, men ~~språk utdanning~~ <span style='color:red'>språkopplæring</span> er særlig viktig til velferd<span style='color:red'>en</span> og ~~lykke~~ <span style='color:red'>trivselen</span>for både ~~norsk~~ <span style='color:red'>nordmenn</span> og innvandrer<span style='color:red'>e</span>. Det påvirker innvandrer<span style='color:red'>e</span> direkt<span style='color:red'>e</span> fordi de <span style='color:#FF9900'>ikke</span> har ~~ikke~~ lett ~~tilgjenlig~~ <span style='color:red'>tilgjengelige</span> ressur<span style='color:red'>er</span> for å lære norsk. Det føre<span style='color:red'>r</span> til store problemer. ~~Først~~ <span style='color:red'>For det første</span>, uten <span style='color:red'>et</span> høy ~~språk nivå~~ <span style='color:red'>språknivå</span> som B2, kan innvandrer<span style='color:red'>e</span> ikke få <span style='color:red'>en</span> god utdanning eller ~~få~~ en jobb. De kunne ikke forsørge dem selv. Da <span style='color:#FF9900'>må</span> staten ~~må~~ betale for å sik<span style='color:red'>r</span>e at alle har mat å spise og et sted å bo. Det<span style='color:red'>te</span> bruker mye penger ~~i~~ <span style='color:red'>på</span> lagt sikt. Det ser ut at det sparer penger hvis voksenopplæringen kutte<span style='color:red'>r</span> B2-kurset~~.~~<span style='color:red'>,</span> ~~M~~<span style='color:red'>m</span>en, det fører til e<span style='color:red'>t</span>~~n~~ større problem for sam~~m~~funnet<span style='color:red'>:</span> at innvandre <span style='color:#FF9900'>ikke kan</span> ~~kunne~~ ~~ikke~~ bli integre<span style='color:red'>r</span>t ~~til norsk~~ <span style='color:red'>i det norske</span> sam~~m~~funnet. Det skal <span style='color:red'>til slutt</span> påvirke nordmenns velferd ~~endelig~~. 
 >
-> ~~To~~ <span style='color:red'>Til</span> slutt, det har ~~mer negative påvirkning enn positivt~~ <span style='color:red'>flere negative virkninger enn positive</span>. Jeg håper kommunen ~~kunne~~ <span style='color:red'>kan</span> vurdere ~~igjen om bestemmen~~<span style='color:red'>beslutningen på nytt</span>.
+> ~~To~~ <span style='color:red'>Til</span> slutt, det har ~~mer negative påvirkning enn positivt~~ <span style='color:red'>flere negative virkninger enn positive</span>. Jeg håper kommunen ~~kunne~~ <span style='color:red'>kan</span> vurdere ~~igjen om bestemmen~~ <span style='color:red'>beslutningen på nytt</span>.
 >
 > Med vennlig hilsen, 
 >
@@ -680,10 +782,13 @@ I become aware of … → Jeg har fått vite at … / Jeg har hørt at …
 
 lett tilgjengelige ressurser → readily available resources (plural, adj agreement)
 
-总结 grammer
+vurdere beslutningen på nytt → re-evaluate the decision
+
+<span style='color:#008B45'>总结 grammer 易错点</span>
 
 1. adj agreement
-2. V2 原则
+2. V2 原则 副词在句首，需要动词提前。da
+3. 从句中，ikke 要提前到动词前
 
 **Oppgave 2** (250-350 ord; 1.5 timer): Argumentere. Ta stilling til spørsmålet, og argumenter for ditt syn.
 
@@ -695,7 +800,7 @@ Forskning viser at barn som er født sent på året, risikerer å bli skoletaper
 
 ___
 
-### Kultur
+## Kultur
 
 **Jantelov**
 
@@ -713,7 +818,7 @@ Technologien har tatt over mange av arbeidsoppgavene på fabrikkene og byggeplas
 
 
 
-### **整形** Plastisk kirurgi
+## **整形** Plastisk kirurgi
 
 Hva synes dere om at man kan få utført en operasjon for å få et bedre utseende?
 
@@ -735,13 +840,15 @@ Hva synes dere om at man kan få utført en operasjon for å få et bedre utseen
 
 ___
 
-### Miljø 环保
+## Miljø 环保
 
 bærekraftig: sustainable
 
 miljøvennlig: environmental friendly
 
 å unngå / redusere utslipp →  to avoid/ reduce emissions
+
+tiltak som reduserer *forurensningen* → measures that reduce pollution
 
 Det er fattige land som *rammes hardest av* klimaendringene. → Poor countries were affected most.
 
@@ -765,7 +872,7 @@ Er det noen poenger i talen til Grete Thunberg som dere synes er spesielt gode?
 
 ___
 
-### Koronapandeminen
+## Koronapandeminen
 
 å bli rammet av ...
 
