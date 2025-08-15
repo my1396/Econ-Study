@@ -2,6 +2,7 @@
 layout: post
 title: Driving in Norway
 tag: driving
+update: 2024-08-13
 ---
 
 <a class="top-link hide" href="#" id="js-top">↑</a>
@@ -60,7 +61,7 @@ Charging period: Avgift kl. 0800 - 1600 mandag - lørdag. (Fee 8-16, Monday to S
 
 
 
-**Bodø Lufthavn**
+#### Bodø Lufthavn
 
 Bodø Airport parking: <https://avinor.no/flyplass/bodo/parkering/>
 
@@ -95,11 +96,33 @@ Fri gjennomkjøring 10 minutter.
 
 Note: You can change or cancel your parking reservation <span style='color:#32CD32'>within the 24 hours</span> after booking, should your travel plans change.
 
+- P1 short stay
+  
+  P1-area at Bodø Airport is nearest to the terminal. 1 min walk to the terminal.
+- P2 long stay
+  
+  P2 is an outdoor area, 2 min to terminal. \
+  如果需要在机场停留超过1小时，建议使用P2停车场。
 
+  Recommended for long trips or family holidays. 
+  In advance, you are guaranteed space for a good price.
+- P6 long stay
+  
+  P6 is located a 7 minute walk from the terminal building. This parking area is primarally for longer stays.
 
+--------------------------------------------------------------------------------
 
+Q: How to book a parking place? \
+A: You can book parking online at [avinor.no](https://avinor.no/en/airport/bodo-airport/parking/). Note that the default shows booking for a full week. You can change the date by clicking the "Change" button for shorter stays, e.g., several days.
 
+The price is calculated by the increment of 1 day. Price per day is approximately 300 kr.
 
+Booking rules:
+
+- This car park is open for bookings until 2 hours betore you want to drive in/enter. - Make sure to type the correct license plate on your car, so we recognize when you arrive. 
+- Personal details and registration number can be changed up to 2 hours before the parking starts.
+
+--------------------------------------------------------------------------------
 
 **Payment**
 
@@ -118,6 +141,7 @@ Pay within <u>48 hours</u> to avoid invoice fees. No payment is required if driv
 If payment is not registered within 48 hours, an invoice is sent to the car owner for: the ordinary parking fee + an invoice fee of 12.5 kr + pay later fixed price of 50 kr. 
 
 
+--------------------------------------------------------------------------------
 
 ### Notification for closed roads
 

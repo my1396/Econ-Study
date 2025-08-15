@@ -2,7 +2,7 @@
 layout: post
 title: Corolla Manual
 tag: driving
-update: 2024-04-10
+update: 2024-04-11
 ---
 
 Interactive Manual: <https://www.toyota.com/owners/warranty-owners-manuals/digital/>
