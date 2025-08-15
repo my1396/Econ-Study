@@ -8,11 +8,11 @@ update: 2025-08-14
 
 Useful resources:
 
-- [Knowledge center (快速教程)](https://support.ugnas.com/knowledgecenter/#/)
+- [快速入门教程 Knowledge center](https://support.ugnas.com/knowledgecenter/#/)
 
-- [应用指南 detail documentation](https://support.ugnas.com/knowledgecenter/#/detail/eyJ0eXBlIjoidGFnMDAxIiwibGFuZ3VhZ2UiOiJ6aC1DTiIsImlkIjo0MywiY2xpZW50VHlwZSI6IlBDIiwiYXJ0aWNsZVZlcnNpb24iOiIiLCJwYXRoQ29kZSI6InBybzAwMSx3b3RzMWoifQ==)
+- [应用指南 Detail Documentation](https://support.ugnas.com/knowledgecenter/#/detail/eyJ0eXBlIjoidGFnMDAxIiwibGFuZ3VhZ2UiOiJ6aC1DTiIsImlkIjo0MywiY2xpZW50VHlwZSI6IlBDIiwiYXJ0aWNsZVZlcnNpb24iOiIiLCJwYXRoQ29kZSI6InBybzAwMSx3b3RzMWoifQ==)
 
-- [UGREEN 绿联 CN](https://www.lulian.cn/n_questions/)
+- [UGREEN 绿联 CN FAQ](https://www.lulian.cn/n_questions/)
 - [UGREEN 绿联 搜索](https://www.ugnas.com/search/?keyword=Samba)
 
 Q: What is my NAS IP? \
@@ -85,6 +85,18 @@ SMB协议：允许用户在局域网环境中将 NAS 设备上的共享文件夹
 
 文件管理提供多种从本地计算机上传文件和文件夹至绿联云 NAS 的方法。
 
+--------------------------------------------------------------------------------
+
+## 移动端文件管理
+
+
+
+ref: [绿联云移动端/平板文件管理](https://support.ugnas.com/#/detail/eyJpZCI6MTIzLCJ0eXBlIjoidGFnMDAxIiwicGF0aENvZGUiOiJwcm8wMDEsbmo0cHQ3IiwibGFuZ3VhZ2UiOiJ6aC1DTiIsImNsaWVudFR5cGUiOiJNT0JJTEUiLCJhcnRpY2xlVmVyc2lvbiI6IiJ9)
+
+
+ref: [绿联云移动端文件管理][]
+
+[绿联云移动端文件管理]: https://support.ugnas.com/#/detail/eyJpZCI6MjM4LCJ0eXBlIjoidGFnMDAxIiwicGF0aENvZGUiOiJwcm8wMDEsbmo0cHQ3LDgzZWE5MiIsImxhbmd1YWdlIjoiemgtQ04iLCJjbGllbnRUeXBlIjoiTU9CSUxFIiwiYXJ0aWNsZVZlcnNpb24iOiIifQ==
 
 
 --------------------------------------------------------------------------------
@@ -171,7 +183,7 @@ ref:
 
 如何将绿联 NAS 文件同步到本地电脑？
 
-如果您还希望在另一台计算机B上同步这些数据，可以在该计算机上安装绿联云客户端，并使用同步功能将计算机路径设置为指定文件夹，绿联云路径依然为共享文件夹A。通过这种设置，计算机B 的数据将与 NAS 云端储存的文件夹保持同步。
+如果您还希望在另一台计算机B上同步这些数据，可以在该计算机上安装绿联云客户端，并使用同步功能将计算机路径设置为指定文件夹，绿联云路径依然为共享文件夹A。通过这种设置，计算机B的数据将与 NAS 云端储存的文件夹保持同步。
 
 
 --------------------------------------------------------------------------------

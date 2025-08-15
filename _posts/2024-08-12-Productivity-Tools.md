@@ -737,6 +737,19 @@ A: Add the following to your `settings.json` file:
 
 - The key is that the inline code config comes **before** the LaTeX patterns. This way, cSpell will first ignore anything in backticks, so `$HOME` (environment variable) inside backticks is not seen as LaTeX math. 
 
+--------------------------------------------------------------------------------
+
+**Foreign language support**
+
+Here is an example of how to enable Norwegian Bokmål spell checking in VS Code using the Code Spell Checker extension:
+
+1. Install [Norwegian Bokmål](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-norwegian-bokmal) -- Norwegian Bokmål dictionary extension for VS Code.
+
+2. Adding `nb` to the `cSpell.language` setting, will enable the Norwegian Bokmål dictionary. Example using both English and Norwegian Bokmål dictionaries:
+
+   ```json
+   "cSpell.language": "en,nb",
+   ```
 
 ___
 

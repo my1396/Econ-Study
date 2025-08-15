@@ -102,7 +102,7 @@ Note: You can change or cancel your parking reservation <span style='color:#32CD
 - P2 long stay
   
   P2 is an outdoor area, 2 min to terminal. \
-  如果需要在机场停留超过1小时，建议使用P2停车场。
+  如果需要在机场<span class="env-green">停留超过1小时，建议使用 **P2** 停车场。</span> 不太远，但是会便宜很多。
 
   Recommended for long trips or family holidays. 
   In advance, you are guaranteed space for a good price.

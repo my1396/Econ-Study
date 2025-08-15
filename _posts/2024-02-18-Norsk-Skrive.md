@@ -22,7 +22,7 @@ Til slutt …
 
 ## Argument 要怎么写
 
-**我的想法**是...
+**我的想法是**...
 
 **Neutural**:
 
@@ -40,11 +40,11 @@ det synes jeg også → I also think that
 
 
 
-**Negative opinon**:
+**Negative opinion**:
 
 Jeg er litt skeptisk til at ...
 
-Jeg har virkelig igen tro på at … → I don't believe sth
+Jeg har virkelig ingen tro på at … → I don't believe sth
 
 Det provoserer meg at … → It provokes me that …
 
@@ -78,11 +78,11 @@ Mitt inntrykk er at ... → my impression is that …
 
 **In addition** (adding extra info)
 
-> i tillegg (til å); samtidlig; <span style='color:#008B45'>dessuten</span> (moreover);
+> i tillegg (til å); samtidig; <span style='color:#008B45'>dessuten</span> (moreover);
 
 **If**
 
-> hivs; <span style='color:#008B45'>dersom</span>; 
+> hvis; <span style='color:#008B45'>dersom</span>; 
 
 **So**
 
@@ -90,7 +90,7 @@ Mitt inntrykk er at ... → my impression is that …
 
 **Still, even now**
 
-> Fremedeles; ennå;
+> Fremdeles; ennå;
 
 **Wrap up**; introduce the last point
 
@@ -119,8 +119,8 @@ Mitt inntrykk er at ... → my impression is that …
 **altså**
 
 1. that is, in other words (clarification)
-2. therefore, so (concludsion)
-3. indeed, readlly (emphasis, spoken)
+2. therefore, so (conclusion)
+3. indeed, really (emphasis, spoken)
 
 
 
@@ -138,7 +138,7 @@ det store spørsmålet er ... → The big question is … The key issue is …
 
 ... regnes (derfor) som …
 
-Bruk av fornybare energikilder regens som barekraflig og miljøvennlig.
+Bruk av fornybare energikilder regens som bærekraftig og miljøvennlig.
 
 
 
@@ -263,11 +263,11 @@ Språk er nøkkelen til å bli integrert i samfunnet.
 
 
 
-gå alfor langt i å gjøre noe 
+gå altfor langt i å gjøre noe 
 
 ... 做的太过火了
 
-Staten gåt alfor langt i å regulere folks privatliv.
+Staten gåt altfor langt i å regulere folks privatliv.
 
 
 
@@ -331,7 +331,7 @@ den typen ...
 
 最高级
 
-det neyste begrepet er ... the newest notion is ...
+det nyeste begrepet er ... the newest notion is ...
 
 
 
@@ -368,7 +368,7 @@ sammenlignet med mange andre europeiske land  (compared to other European countr
 
 - annerledes
 
-  subjeket er ulikt noe annet 主语作为一个整体，与其他所有对象相比。
+  subjektet er ulikt noe annet 主语作为一个整体，与其他所有对象相比。
 
 - forskjellig
 
@@ -376,7 +376,7 @@ sammenlignet med mange andre europeiske land  (compared to other European countr
 
 Tor og Ed har **forskjellige** biler. $\rightarrow$ Tor har en Mercedes, og Ed har en BMW. (Vi sammenligner to deler av subjektet.)
 
-Tor og Ed har **annerledes** biler. $\rightarrow$ Alle de andre vennene har Toyota. Bare Tor og Ed har biler som er annerlede enn de andre bilene. (Vi sammenligner subjektet med noe annet)
+Tor og Ed har **annerledes** biler. $\rightarrow$ Alle de andre vennene har Toyota. Bare Tor og Ed har biler som er annerledes enn de andre bilene. (Vi sammenligner subjektet med noe annet)
 
 
 
@@ -428,8 +428,8 @@ Tor og Ed har **annerledes** biler. $\rightarrow$ Alle de andre vennene har Toyo
 
 | Det alminnelig ikke lenger verdsettes som godt nok. | The ordinary is no longer valued as good enough.             |
 | --------------------------------------------------- | ------------------------------------------------------------ |
-| alminelig/gjennomsnitt menneske                     | the common people                                            |
-| gjennomsnittlig                                     | 1. adj. average, ordinary *den gjennomsnittlige elev*  <br />2. adv. on the average *prisen er gjenomsnittlig 10 kr per kilo* |
+| alminnelig/gjennomsnitt menneske                     | the common people                                            |
+| gjennomsnittlig                                     | 1. adj. average, ordinary *den gjennomsnittlige elev*  <br />2. adv. on the average *prisen er gjennomsnittlig 10 kr per kilo* |
 
 
 
@@ -513,7 +513,7 @@ A *går ned samtidig som* B øker → 伴随着 B 的上升，A 在下降
 
 å *synke* → to sink 
 
-Det blir en ond *sirkel*. → It becomes a vivious circle.
+Det blir en ond *sirkel*. → It becomes a vicious circle.
 
 
 
@@ -525,7 +525,7 @@ Det blir en ond *sirkel*. → It becomes a vivious circle.
 
 | 当...的时候                                                  | Da ... 从句 (正常语序), ... 主句 (倒装)                   |
 | ------------------------------------------------------------ | --------------------------------------------------------- |
-| Da jeg lærte å ..., ble teskene mine mye bedre.              |                                                           |
+| Da jeg lærte å ..., ble tekstene mine mye bedre.              |                                                           |
 | Da skoler stengte ned i midten av mars, var mange bekymret for ... | When schools were closed down, many were worried about .. |
 
 
@@ -560,7 +560,7 @@ nok: probably
 
 **结果**
 
-et resultat, en konsekvense,
+et resultat, en konsekvens,
 
 gi gode/negative resultalter
 
@@ -684,6 +684,10 @@ uavhengighet (independence)
 
 få en urettferdig **karakter**: receive an unfair grade
 
+kunnskap
+
+ferdighet
+
 eksamenskarakter / standpunktkarakter / karaktergjennomsnitt
 
 - Standpunktkarakter er den endelige karakteren du får i et fag basert på alt arbeidet og vurderingene gjennom skoleåret. 
@@ -701,9 +705,9 @@ bestått: pass
 
 stryke i faget: ikke bestå (fail the course)
 
-klar og tydelig kildehenvisning →clear and explicit source referencing
+**plagiat** → plagiarism
 
-plagiat → plagiarism
+klar og tydelig **kildehenvisning** → clear and explicit source referencing
 
 | stor konkurranse                       | big competition                      |
 | -------------------------------------- | ------------------------------------ |
@@ -711,7 +715,7 @@ plagiat → plagiarism
 | Jeg fikk mye selvtillit.               | I receive much confidence.           |
 | Utfordringen kan være å gjøre noe      | The challenge can be to do sth       |
 
-Detter er mer tilpasset dagens samfunn der all informasjon er tilgjerngelig. → This is more adapted to today's society, where all information is readily accessible.
+Detter er mer tilpasset dagens samfunn der all informasjon er tilgjengelig. → This is more adapted to today's society, where all information is readily accessible.
 
 Lærerne vurderer elevenes **prestasjoner og fremgang** → the teachers evaluate the students' performance and progress
 
@@ -812,7 +816,7 @@ ___
 
 **科技与生活**
 
-Technologien har tatt over mange av arbeidsoppgavene på fabrikkene og byggeplassene.
+Teknologien har tatt over mange av arbeidsoppgavene på fabrikkene og byggeplassene.
 
 
 
@@ -826,7 +830,7 @@ Hva synes dere om at man kan få utført en operasjon for å få et bedre utseen
 >
 > «Mann skal ikke plage andre, man skal være grei og snill, og for øvrig kan man gjøre hva man vil.»
 >
-> Kosmetisk kirurgi gjøre ingen skader. Det må være greit å lag seg operere for å få bedre livskvalitet og trives bdre i egen kropp. 
+> Kosmetisk kirurgi gjøre ingen skader. Det må være greit å lag seg operere for å få bedre livskvalitet og trives bedre i egen kropp. 
 >
 > I tillegg må de dekke hele kostnaden selv, så det påvirker ikke andres velferd. 
 
@@ -858,11 +862,11 @@ gjenbruk i sted for å kjøpe nytt
 
 *fornybare ressurer / energikilder* renewable resources / energy
 
-storbyer som normalt sliter med dårlig luft på grunn av utslipp fra transport og fabrikkerr
+storbyer som normalt sliter med dårlig luft på grunn av utslipp fra transport og fabrikker
 
-Hva tenker dere om at undom streiker for miljøsaken?
+Hva tenker dere om at ungdom streiker for miljøsaken?
 
-> Det virker at undom er ivrig<span style='color:red'>e etter å delta</span> ~~med deltakelse~~ i offenlig velferd og de andres velvære. Det er en positive tegn at undom ~~ha~~ <span style='color:red'>ta**r**</span> hensyn til andre. Selv om klimaendringer kanskje <span style='color:red'>ikke</span> påvirker ~~ikke~~ livene dere<span style='color:red'>**s**</span> direkte eller vensenlig, <span style='color:red'>streiker</span> de ~~streiker~~ for å gi en tankevekke<span style='color:red'>**r**</span> til politikere. <u>De bryr seg sterkt om</u> miljøet. Det gir håp for fremtida.
+> Det virker at ungdom er ivrig<span style='color:red'>e etter å delta</span> ~~med deltakelse~~ i offentlig velferd og de andres velvære. Det er en positive tegn at ungdom ~~ha~~ <span style='color:red'>ta**r**</span> hensyn til andre. Selv om klimaendringer kanskje <span style='color:red'>ikke</span> påvirker ~~ikke~~ livene dere<span style='color:red'>**s**</span> direkte eller vesentlig, <span style='color:red'>streiker</span> de ~~streiker~~ for å gi en tankevekke<span style='color:red'>**r**</span> til politikere. <u>De bryr seg sterkt om</u> miljøet. Det gir håp for fremtida.
 
 Er det noen poenger i talen til Grete Thunberg som dere synes er spesielt gode?
 
