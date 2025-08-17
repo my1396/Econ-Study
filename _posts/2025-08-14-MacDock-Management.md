@@ -11,8 +11,13 @@ Hiding icons from dock while keeping the application open.
 
 此方法适用于某些在菜单栏中显示的应用程序，如微信、QQ 等。通过这种方式，可以将这些应用程序的图标从 Dock 中移除，但仍然可以通过菜单栏访问它们。
 
+
+## 将微信图标从 Dock 中移除
+
 主要步骤如下：  
 备份 plist 文件 → 修改 plist 文件 → codesign 签名 → 重启应用程序
+
+Caveat: 许多应用程序可能不允许修改 Info.plist 文件，或者修改后会影响应用程序的功能。需谨慎操作。建议修改之前备份原始的 Info.plist 文件，以防修改后出现问题。
 
 以微信为例，将微信图标从 Dock 中移除，详细步骤如下：
 
@@ -66,6 +71,23 @@ A: 只需要删除 Info.plist 中与 `LSUIElement` 键相关的两行代码即�
 Q: 可以隐藏 Mac OS 系统应用吗？  
 A: 我尝试过修改 <img src="https://drive.google.com/thumbnail?id=1zPJ5QudJZixhwiFx8GjhU0JoBEDJNuUO&sz=w1000" alt="" style="zoom:5%; vertical-align: middle; " /> Stickies 的 Info.plist 文件，添加 `LSUIElement` 键，但并没有成功。可能是因为系统应用的权限更高，或者有其他限制。
 
+--------------------------------------------------------------------------------
+
+## Other tips
+
+**Other tips** to organize Dock, making it less cluttered:
+
+The idea is to keep only the running apps in the Dock. If you can disable an app from showing in the Dock while keeping it running, configure that, such as for WeChat. But such settings are not available for all apps. 
+
+Users might not have the necessary file permission (Read & Write) to modify the Info.plist file. Or, the setting will interfere with the app's functionality. It is not worth it then.
+
+Things you can try to keep the Dock clean:
+
+- Settings → Desktop & Dock → Turn off "Show suggested and recent apps in Dock".
+- Remove unused apps from Dock and use Spotlight / Alfred to launch them when needed.
+- Use VS Code SCM (Source Code Management) tools  <i class="codicon codicon-git-merge" style="font-size:1.5em; vertical-align: middle;"></i> to manage git repositories instead of using GitHub Desktop.
+  
+  This way, one app fewer hogging the Dock.
 
 --------------------------------------------------------------------------------
 
