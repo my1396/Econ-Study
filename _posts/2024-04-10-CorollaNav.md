@@ -5,22 +5,26 @@ tag: driving
 update: 2024-04-10
 ---
 
-
+多媒体用户手册
 
 **Instrument Panel** 
 
 <img src="https://drive.google.com/thumbnail?id=1Mzed4MzzOS6wEHrwR4OF-Btx_9TditPk&sz=w1000" alt="Panel" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
-
-G. With navigation function: Press to display the map screen.
-
-Without navigation function: When an Apple CarPlay connection is established, press to display the Maps app screen.
 
 B. Press to seek up or down for a radio station or to access a desired track/file.
 
 <span style='color:#32CD32'>**C.**</span> Press to access the Bluetooth® hands-free system. 
 When an <span style='color:#32CD32'>Apple CarPlay connection is established, press to display the Phone app screen</span>.
 
-E. F. 广播 	E. 左右转调频道 F. 摁的话是打开或者关闭广播；左右转调音量。
+D. Press to display the "Setup" screen.
+
+G. With navigation function: Press to display the map screen.
+
+Without navigation function: When an Apple CarPlay connection is established, press to display the Maps app screen.
+
+E. 左右转调频道 
+
+F. 摁的话是打开或者关闭广播；左右转调音量。
 
 
 
@@ -74,7 +78,7 @@ I. Displays traffic events on the route.
 1. Press the “MAP” button.
 2. Check that the current position map is displayed.
 
-> While driving, the current vehicle posi- tion mark is fixed on the screen and the map moves.
+> While driving, the current vehicle position mark is fixed on the screen and the map moves.
 
 
 
@@ -85,8 +89,8 @@ I. Displays traffic events on the route.
 
 The scale of the map screen can also be changed the following ways:
 
-- Draggingthescalebarmarkingtothe desired point.
-- Pinchoutwardonthescreentozoom in and pinch inward to zoom out.
+- Dragging the scale bar marking to the desired point.
+- Pinch outward on the screen to zoom in and pinch inward to zoom out.
 
 Each time is `AUTOZOOM` selected, the automatic map zoom is turned on/off.
 
@@ -110,4 +114,4 @@ Navigation database updates
 
 Navigation database which contains system software, map data, etc., can be updated using a USB memory or Internet.
 
-For details, contact Toyota dealer or refer to Toyota portal site (www.my.toyota.eu).
+For details, contact Toyota dealer or refer to Toyota portal site (<www.my.toyota.eu>).

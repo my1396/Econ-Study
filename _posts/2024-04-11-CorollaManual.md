@@ -7,6 +7,8 @@ update: 2024-04-11
 
 Interactive Manual: <https://www.toyota.com/owners/warranty-owners-manuals/digital/>
 
+Download PDF: <https://www.toyota-europe.com/customer/manuals>
+
 用户手册分两部分：普通功能手册 + 影音功能手册。
 
 

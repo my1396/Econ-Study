@@ -14,29 +14,168 @@ Temasetnning → Kommentarsetninger → Avsluttende setning
 
 <span style='color:#008B45'>*For det første*</span> ... for det andre … Firstly ... secondly …
 
-I tillegg …
+I tillegg … ikke minst er det …
 
-Til slutt …
+På den enne siden …, mens på den annen siden …
+
+Til slutt … Kort oppsummert … Som nevt tidligere … Alt i alt mener jeg at … 
 
 
 
 ## Argument 要怎么写
 
-**我的想法是**...
+**Oppgave:**
+*Snakk sammen om fordeler og ulemper med hjemmeeksamen.*
+
+*Bør det innføres kortere arbeidsuke i Norge?*
+
+**Les teksten:**
+*(Then there is a short paragraph with someone’s opinion or description of the topic.)*
+
+--------------------------------------------------------------------------------
+
+
+Q: Why is there a paragraph?  
+A: That little **paragraph after the question** is not “extra reading” — it’s **the stimulus text**. It’s there to give you:
+
+1. **Context** → so you know exactly what situation to write about.
+2. **Ideas** → words, arguments, and expressions you can use.
+3. **A starting point** → you should connect your own text to it.
+
+--------------------------------------------------------------------------------
+
+Q: How should I use it?  
+A: The following shows some ideas:
+
+- **Refer to it in your introduction**
+- **Borrow useful vocabulary/expressions**
+- **Show you understand it, but then add your own thoughts**
+
+**Take-away points**
+
+- You **don’t need to summarize** the whole text.
+
+- You **should not ignore it** either, because examiners want to see that you can interact with a given source.
+
+- Use it as a springboard for your own argumentation. 
+
+  Mention the paragraph briefly in your **intro**, then focus 90% on your own arguments.
+
+
+
+--------------------------------------------------------------------------------
+
+### Grading Criteria
+
+- 内容方面 Coherence
+
+  - Clear introduction and reference the text given
+
+  - Balanced arguments
+
+    Give concrete examples to support each argument
+
+  - Logical conclusion
+
+    Clear conclusion
+
+- 衔接 Cohesion
+
+  Good connectors (*for det første, dessuten, likevel, alt i alt, dermed*) → good flow
+
+- Choice of word
+
+- Grammer
+
+--------------------------------------------------------------------------------
+
+
+Q: Should I take one clear side? Or should I comment on both?
+
+A: You **do not need** to write both pros and cons if the task is to argue for your opinion. We recommend that you only argue for one viewpoint, since including counterarguments can make it harder to structure the text.
+
+--------------------------------------------------------------------------------
+
+如何准备
+
+- 多写是肯定的
+- 即使不写完整的文章，也要写要点，论点。
+
+Use the following **mock exam** to practice before the actual exam:
+
+- [Eksempeloppgaver skriveprøven nivå, B1–B2](https://test.flexiteexam.com/adapt-it/project_j_spring_security_check?j_username=1781392&j_password=default)
+
+
+
+
+--------------------------------------------------------------------------------
+
+### Structure
+
+#### 🔹 1. Innledning (Introduction)
+
+- *I teksten blir det tatt opp spørsmålet om …*
+- *Dette er et aktuelt tema som mange har meninger om.*
+- *Jeg vil i denne teksten diskutere både fordeler og ulemper, og til slutt komme med min egen mening.*
+
+------
+
+#### 🔹 2. Argumenter for (Pros)
+
+- *For det første …*
+- *Dessuten …*
+- *Et annet positivt aspekt er at …*
+- *Et eksempel på dette er …*
+- *Dette kan føre til at …*
+
+------
+
+#### 🔹 3. Argumenter mot (Cons)
+
+- *På den andre siden …*
+- *Likevel finnes det ulemper.*
+- *Et problem med dette er at …*
+- *Det kan også føre til at …*
+- *Noen mener dessuten at …*
+
+------
+
+#### 🔹 4. Konklusjon (Conclusion)
+
+- *Etter å ha sett på begge sider, mener jeg at …*
+- *Alt i alt synes jeg at …*
+- *Dermed konkluderer jeg med at …*
+- *Jeg forstår argumentene mot, men likevel mener jeg at …*
+
+
+
+___
+
+## Commonly used phrases
+
+### **我的想法是**...
 
 **Neutural**:
 
 ..., det er min mening.
 
-Etter min mening ...
+Etter min mening er det / bør vi  ...
+
+Derfor mener jeg at …
 
 Jeg ser for meg at ... I imagine/envision that ...
 
+ut fra mitt perspektiv → From my perspective
+
 en mer positiv *holdning* (a more positive attitude)
+
+et annet positivt aspekt er …
 
 Det er *delte meninger* om ...
 
 det synes jeg også → I also think that
+
+Likevel er det flere som mener at … → However, there are many who think that … / Nevertheless, many people still think that …
 
 
 
@@ -56,7 +195,69 @@ Mitt inntrykk er at ... → my impression is that …
 
 
 
+### Introduction / referencing the topic
+
+- *I teksten blir det tatt opp spørsmålet om …* → The text raises the question of …
+- *Dette er et aktuelt tema som mange har meninger om.* → This is a current topic that many have opinions about.
+- *Mange mener at …* → Many believe that …
+- *Noen hevder at …, mens andre mener at …* → Some argue that …, while others think that …
+- *Etter min mening bør vi …* → In my opinion, we should …
+- *Jeg vil i denne teksten diskutere både fordeler og ulemper.* → I will discuss both pros and cons.
+
+
+
+### Presenting arguments (pros / reasons for)
+
+- *For det første …* → First of all …
+- *Dessuten …* → Furthermore / In addition …
+- *Et annet positivt aspekt er at …* → Another positive aspect is that …
+- *Hovedargumentet for … er at …* → The main argument for … is that …
+- *Dette betyr at …* → This means that …
+- *Et eksempel på dette er …* → An example of this is …
+- *Det kan føre til at …* → It can lead to …
+
+
+
+### Presenting counterarguments (cons / reasons against)
+
+- *På den annen side …* → On the other hand …
+- *Likevel finnes det ulemper …* → Nevertheless, there are disadvantages …
+- *Et problem med dette er at …* → A problem with this is that …
+- *Selv om noen …, varer effekten bare en kort periode.* → Even if some …, the effect lasts only a short time.
+- *Dette kan føre til at …* → This can cause …
+- *Det er motsatt av hva … ønsker.* → This is the opposite of what … wants.
+
+
+
+### Suggesting alternatives / solutions
+
+Løsning
+
+- *I stedet for å …, kan det være bedre å …* → Instead of …, it may be better to …
+- *En mulig løsning er at …* → A possible solution is that …
+- *For å lette situasjonen* ... → To ease/alleviate the situation
+- *Det kan være praktisk å tillate …* → It may be practical to allow …
+- *Alternativt kan de …* → Alternatively, they can …
+- *Det er forståelig at …, men kanskje kan de …* → It is understandable that …, but maybe they can …
+
+
+
+### Conclusion / summarizing opinion
+
+- *På grunn av punktene ovenfor mener jeg at …* → *Because of the points above, I believe that …*
+- *Dermed konkluderer jeg med at …* → Therefore, I conclude that …
+- *Dette hjelper både … og …, samtidig som …* → *This helps both … and …, while …*
+- *Folk kan uansett ha god balanse mellom …* → *People can still have a good balance between …*
+- *Alt i alt synes jeg at …* → *All in all, I think …*
+- Som nevnt tidligere, … → As mentioned earlier, … 倒装
+
+
+
+
+
 ## Connectors
+
+**Tekstbinding**
 
 **起承转折的连词**
 
@@ -66,11 +267,13 @@ Mitt inntrykk er at ... → my impression is that …
 
 **However** 
 
-> imidlertid; likevel (nonetheless); fremdeles (still);
+> imidlertid; <span style='color:#008B45'>likevel</span> (nonetheless); fremdeles (still);
 
 **Contrast**
 
 > derimot (on the contrary; however); på den andre siden;
+
+*For noen er … viktige argumenter for dette, mens andre er opptatt av …* → *For some, … are important reasons, while others care about …*
 
 **Concession** 让步
 
@@ -86,7 +289,11 @@ Mitt inntrykk er at ... → my impression is that …
 
 **So**
 
-> altså; <span style='color:#008B45'>derfor</span>;
+> altså; <span style='color:#008B45'>derfor</span>; dermed; 
+
+Because
+
+> Fordi; ettersom; 
 
 **Still, even now**
 
@@ -107,6 +314,8 @@ Mitt inntrykk er at ... → my impression is that …
 **For example**
 
 > for eksempel; slik som; 
+>
+> Det finners eksempler på …
 
 **Sequence**
 
@@ -273,15 +482,16 @@ Staten gåt altfor langt i å regulere folks privatliv.
 
 相反, … 的反面
 
-| det stikk motsatte av | the opposite of    |
-| --------------------- | ------------------ |
-| i motsetning til ...  | in contrary to ... |
+| det stikk motsatte av        | the opposite of         |
+| ---------------------------- | ----------------------- |
+| Dette er motsatt av … ønsker | the oppsite of … wishes |
+| i motsetning til ...         | in contrary to ...      |
 
 
 
 一方面 … 另一方面… (on the one hand, on the other hand)
 
-På den ene siden … (正常语序), men på den andre siden … (倒装)
+På den ene siden … (倒装语序), men på den annen siden … (倒装)
 
 
 
@@ -296,6 +506,30 @@ i hvert fall, i alle fall
 **强调普适**
 
 i de fleste sammenheng → most likely
+
+*Jeg tror det er mange som meg.* → I think there are many like me.
+
+
+
+**强调特殊性**
+
+*Kanskje gjelder det for noen personer, men …* → Maybe it applies to some, but …
+
+
+
+*Selv om noen …, varer effekten bare en kort periode.* → Even if some …, the effect lasts only a short time.
+
+*Dette er motsatt av hva … ønsker.* → This is the opposite of what … wants.
+
+
+
+替代建议 alternative suggestions
+
+*I stedet for å …, kan det være mer praktisk å …* → Instead of …, it may be more practical to …
+
+*Det er forståelig at …, men kanskje kan de …* → It is understandable that …, but maybe they can …
+
+*Alternativt kan de …* → Alternatively, they can …
 
 
 
@@ -335,6 +569,8 @@ det nyeste begrepet er ... the newest notion is ...
 
 
 
+
+
 at 从句
 
 - 注意要 setningsadverb 提前到动词前
@@ -346,15 +582,29 @@ at 从句
 
 
 
-### **联系**
+### **比较**
 
-en klar <span style='color:#008B45'>sammenheng</span> mellom ... og ...
+**联系**
 
-sammenlignet med mange andre europeiske land  (compared to other European countries)
+En klar <span style='color:#008B45'>sammenheng</span> mellom ... og ... → A clear link / relationship between … and …
 
-*i likehet med* similar to, like
+*Sammenlignet med* mange andre europeiske land  … → Compared to other European countries …
 
-*I likehet med de fleste andre land i verden* ... Similar to most other countries in the world ...
+
+
+**类似**
+
+*like … som …* → as … as …
+
+like høy som broren sin → as tall as …
+
+like vakkert som en profesjonell → as beautiful as a professional
+
+like mange epler som dere → 
+
+*i likehet med* → similar to, like
+
+*I likehet med de fleste andre land i verden* ... → Similar to most other countries in the world ...
 
 
 
@@ -417,8 +667,8 @@ Tor og Ed har **annerledes** biler. $\rightarrow$ Alle de andre vennene har Toyo
 
 …可以理解的
 
-| Det er forståelig at … | It is understandable that … |
-| ---------------------- | --------------------------- |
+| Det er <span style='color:#008B45'>forståelig</span> at … | It is understandable that … |
+| --------------------------------------------------------- | --------------------------- |
 
 
 
@@ -441,7 +691,7 @@ personer, mennesker, innbyggerne
 
 befolkningen (population)
 
-形容词作为名词代指一类人
+形容词 (de + adj definitive form) 作名词代指一类人
 
 | de minste          | the smallest ones, young children   |
 | ------------------ | ----------------------------------- |
@@ -470,9 +720,7 @@ veldig, svært, skikkelig, ganske, spesielt,
 
 
 
-**Løsning**
 
-*For å lette situasjonen* ... To ease/alleviate the situation
 
 
 
@@ -484,6 +732,7 @@ veldig, svært, skikkelig, ganske, spesielt,
 | recently, lately                       | i det siste        | 最近             |
 | Earlier / Previously / In the past ... | Tidligere ...      | 以前，过去，早先 |
 | Two years ago                          | For to år siden    | 两年前           |
+| on the long/short term                 | på lang/kort sikt  |                  |
 
 
 
@@ -548,17 +797,30 @@ Dette gjelder også i Norge. → This also applies in Norway.
 
 | Det er nok også litt av <span style='color:#008B45'>grunnen til at</span> han ga seg. | That's probably part of the reason he gave up.               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Det kan være mange grunner til …                             |                                                              |
 | av den grunn ... 倒装                                        | because of this ...                                          |
 | den vanligste årsaken til .... er ...                        | the most common cause of ... is ...                          |
-| **hovedårsaken** til at … er at ...                          | the major reason why … is …                                  |
-| å følge av noe                                               | 由…引起的                                                    |
+| <span style='color:#008B45'>**hovedårsaken**</span> til at … er at ... | the major reason why … is …                                  |
+| <span style='color:#008B45'>**hovedargumentet**</span> for … at … | the main argument for … is that …                            |
+| å følge av noe                                               | as a result of, due to 由…引起的                             |
 | Dette har **sammenheng** med at ...                          | This is related / due to the fact that ...<br />This has to do with the fact that ...<br />This is because ... |
 
-nok: probably
+
+
+Ex «som følge av»
+
+- *Mange mistet jobben som følge av finanskrisen.*
+  (*Many lost their jobs as a result of the financial crisis.*)
+
+- *Som følge av været ble konserten avlyst.*
+  (*Due to the weather, the concert was canceled.*)
+
+- *Som følge av utviklingen i samfunnet, trenger vi nye regler.* 
+	(Due to developments in society, we need new rules.)
 
 
 
-**结果**
+**导致…结果**
 
 et resultat, en konsekvens,
 
@@ -574,7 +836,9 @@ Det *fører* også *med seg* … This also brings along …
 
 Mindre stress *fører til* lavere sykefravær → less stress leads to lower sick leave
 
-Det innebærer at ... → It means / implies that … 
+Det *innebærer* at ... → It means / implies that … 
+
+Dette *gjøre* at … → It makes …
 
 Ex.
 
@@ -596,10 +860,15 @@ prisen å betale er ...
 
 
 
+nok: probably
+
+
+
 **挑战，困难**
 
 | å gi store utfordringer for noen            | give sb big challenges                    |
 | ------------------------------------------- | ----------------------------------------- |
+| en utfordring kan være …                    |                                           |
 | beskymringer noen ikke klarer å takle alene | concerns that someone cannot handle alone |
 | en del utfordringer                         | lots of challenges                        |
 | å møte disse unfordringene                  | to face these challenges                  |
@@ -636,7 +905,7 @@ gi seg utslag i/på
 
 Eksempler av detter er …
 
-det finnes det eksempler på … → There are examples of …
+det finnes det eksempler <span style='color:#008B45'>på</span> … → There are examples of …
 
  i noen tilfellers … → in some cases
 
@@ -670,11 +939,13 @@ en <span style='color:#008B45'>oppdragelse</span>: upbringing*,* education
 
 Hva synes du er viktigst å lære dine barn?
 
-uavhengighet (independence)
+uavhengighet, selvstendighet (independence)
 
-| Norsk                                | Engelsk                     |
-| ------------------------------------ | --------------------------- |
-| Jeg bestemmer selv mine mål i livet. | I decide my own life goals. |
+Det sosiale er viktigere enn hvordan man <span style='color:#008B45'>presterer</span>. [N.B. «å prestere» means "to perform, achieve, do well"; while «å presentere» means "to present (a show, a talk, etc)"]
+
+| Norsk                                  | Engelsk                     |
+| -------------------------------------- | --------------------------- |
+| Jeg *bestemmer selv* mine mål i livet. | I decide my own life goals. |
 
 
 
@@ -745,7 +1016,7 @@ På norskkurs <u>ble vi oppmuntret til å</u> lese barnebøker og se på barne-T
 
 Det er bedre at barna selv <span style='color:#008B45'>opplever glede av mestringen</span>.
 
-å mestre noe → to master sth
+å <span style='color:#008B45'>mestre</span> noe → to master sth
 
 
 

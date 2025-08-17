@@ -592,11 +592,45 @@ A:  Run command `Markdown Preview Enhanced: Preview Theme`, choose `github-dark.
 
 
 Q: How to get separate preview for individual files?  
-A:  MPE has one preview tab for all files by default. You can change this by going to preferences > Markdown Preview Enhanced > Preview Mode > Set to Multiple Previews. Restart VS Code to activate the setting.
+A: MPE has one preview tab for all files by default. You can change this by going to preferences > Markdown Preview Enhanced > Preview Mode > Set to Multiple Previews. Restart VS Code to activate the setting.
 
 <img src="https://drive.google.com/thumbnail?id=1eCCWZT7c8UZA3o_WpTRGP8xsfN6tfvrX&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
+Q: How to add a custom CSS to MPE?  
+A: To customize CSS for your markdown file, press `cmd-shift-p` and then run the `Markdown Preview Enhanced: Customize CSS (Global)` or `Markdown Preview Enhanced: Customize CSS (Workspace)` command.
 
+The `style.less` file will open, and you can override existing style like this:
+
+```css
+.markdown-preview.markdown-preview {
+  // please write your custom style here
+  // eg:
+  //  color: blue;          // change font color
+  //  font-size: 14px;      // change font size
+  // custom pdf output style
+  @media print {
+  }
+
+  // custom prince pdf export style
+  &.prince {
+  }
+
+  // custom presentation style
+  .reveal .slides {
+    // modify all slides
+  }
+
+  .slides > section:nth-child(1) {
+    // this will modify `the first slide`
+  }
+}
+
+.md-sidebar-toc.md-sidebar-toc {
+  // sidebar TOC style
+}
+```
+
+ref: [MPE Customize CSS](https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css)
 
 ___
 

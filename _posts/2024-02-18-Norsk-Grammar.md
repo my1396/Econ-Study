@@ -496,13 +496,57 @@ ___
 
 **Subject in relative clauses**
 
-When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» si the subject of arelative clause, <span style='color:#32CD32'>«som» is obligatory</span>.
+关系从句
+
+When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» is the <span style='color:#32CD32'>subject</span> of arelative clause, <span style='color:#32CD32'>«som» is obligatory</span>.
 
 - Hvem kommer? $\rightarrow$ Hvem 作主语，som 不可省略。Jeg vet ikke *hvem som* kommer. 
 - Hvem bad hun? (Who did she invite?) $\rightarrow$ Hvem 作宾语，som 可以省略。Jeg vet ikke *hvem* hun bad. (I don't know whom she invited.)
 - Hva er i veien?  (What's wrong?) $\rightarrow$ Hva 作主语，som 不可省略。Jeg vet ikke *hva som* er i veien. (I don't know what's wrong)
 
 
+
+
+
+«Som» 引导的关系从句
+
+- You can only drop som when it is the object.
+  If som is the subject, you must keep it:
+  Subject → must keep som
+  Alle ressurser som ligger på nettet er tilgjengelige.
+  (All the resources that are on the internet are available.)
+  → Here som = subject of ligger.
+- Object → som optional
+  Alle ressurser (som) de finner.
+  (All the resources they find.)
+  → Here som = object of finner, so it can be dropped.
+
+
+
+«Der» 引导的关系从句
+
+When you add supportive / descriptive information about a <span style='color:#008B45'>*situation, place, time, or condition*</span>, you use **der**. 
+
+- Differentiate from «hvor». 
+
+  **hvor** = question word or in indirect questions.
+
+Ex of «**der**»: relative clasuses
+
+Hjemmeeksamen skaper en situasjon **der** studentene kan bruke alle hjelpemidler.
+
+*Jeg husker et tidspunkt **der** alt endret seg.* 
+
+Ex of «**hvor**»: direct / indirect questions
+
+- Direkte: *Hvor bor du?* (Where do you live?)
+
+- Indirekte: *Jeg vet ikke **hvor** han bor.* (I don’t know where he lives.)
+
+**Common mistake:** Learners often use *hvor* instead of *der* in relative clauses:
+
+❌ *en situasjon hvor studentene kan bruke …*
+✅ *en situasjon der studentene kan bruke …*
 
 
 
@@ -571,7 +615,9 @@ Would have done
 
 
 
+**Subjunksjon** (subordinating conjuction) is a little word that introduces a **leddsetning** (subordinate clause).
 
+It connects the main clause with a subordinate clause and if there is a adverb, put it before the verb. 
 
 
 
