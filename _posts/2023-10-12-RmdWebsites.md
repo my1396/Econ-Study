@@ -83,16 +83,38 @@ What is `_bookdown.yml`?
 A configuration file for **bookdown**.
 
 
+--------------------------------------------------------------------------------
+
+### Host Your Website on GitHub
 
 How to host your website on GitHub?
 
 GitHub Pages has a [new feature](https://github.com/blog/2228-simpler-github-pages-publishing) which allows you to use a `docs/` folder in the master branch of your repo to publish a static website. This allows you to track the source files for your book and the published HTML files in the same branch, eliminating the need for that pesky `gh-pages` branch.
 
-1. Create an empty text file `.nojekyll` and save it at the root of the site. This tells Github not to try and build the site with jekyll (the default for Github).
-2. On [GitHub.com](https://github.com/), link you local project to a remote repo, then go Settings $\rightarrow$ Pages $\rightarrow$ Branch $\rightarrow$ Set to deploy from `main` branch and `/docs` folder.
-3. Wait for a couple of minutes (but not long, Github needs to recognize the website), your webpages will be live at your GitHub project domain.
+1. Create an empty text file `.nojekyll` and save it at the root of the site folder. 
+   
+   This tells Github not to try and build the site with jekyll, which is the default static site generator for GitHub Pages..
+2. Git initialize your local project folder.
+   
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   ```
+3. On [GitHub.com](https://github.com/), link you local project to a remote repo.
+   
+   ```bash
+   git remote add origin <GitHub-repo-URL>
+   git branch -M main
+   git push -u origin main
+   ```
+4. Click Settings $\rightarrow$ Pages $\rightarrow$ Branch $\rightarrow$ Set to deploy from `main` branch and `/docs` folder.
+   <img src="https://drive.google.com/thumbnail?id=1ifs9yvYUte1SEIxZ5o23gd84SiAluqJR&sz=w1000" alt="GH pages" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+5. Wait for a couple of minutes (but not long, Github needs to recognize the website), your webpages will be live at your GitHub project domain.
 
+ref: [GitHub Docs: Publishing from a branch](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch)
 
+--------------------------------------------------------------------------------
 
 **Troubleshoot**: RPC failed; HTTP 400 curl 22 The requested URL returned error: 400 Bad Request.
 
