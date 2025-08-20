@@ -271,6 +271,52 @@ $$
 
 - Multiplying or dividing both sides by a negative number **reverses**/ **flips** the inequality. This means $<$ changes to $>$, and vice versa.
 
+--------------------------------------------------------------------------------
+
+**关于公式变形的描述**
+
+* algebraic manipulation
+* rearranging the formula
+* transforming the equation
+* rewriting the expression
+* simplifying
+
+Common actions and phrases
+
+* **Rearrange to make \$x\$ the subject.**
+* **Solve for \$x\$.**
+* **Isolate \$x\$.**
+* **Collect like terms.**
+* **Move terms to the other side.**
+* **Add or subtract \$k\$ from both sides.**
+* **Multiply or divide both sides by \$k\$.**
+* **Expand** \$(a+b)^2 = a^2 + 2ab + b^2\$.
+* **Factor** \$x^2 - 9 = (x-3)(x+3)\$.
+* **Complete the square.**
+* **Take logarithms on both sides.**
+* **Exponentiate both sides.**
+* **Cross multiply** \$\frac{a}{b}=\frac{c}{d}\Rightarrow ad=bc\$.
+* **Clear denominators.**
+* **Rationalize the denominator.**
+* **Apply the inverse function.**
+* **Differentiate both sides with respect to \$x\$.**
+* **Integrate both sides.**
+
+### Useful sentence patterns
+
+* Starting from \$U = E(r) - \tfrac{1}{2}A\sigma^2\$, **solve for \$A\$**.
+  Add \$\tfrac{1}{2}A\sigma^2\$ to both sides, subtract \$U\$, then multiply by \$2\$ and divide by \$\sigma^2\$:
+
+  $$
+  A = \frac{2\,(E(r)-U)}{\sigma^2}\quad(\sigma\neq 0)
+  $$
+* **Bring all terms to the left hand side** and **factor out \$x\$**.
+* **Take logs to linearize the relationship.**
+* **Hence** or **therefore** or **it follows that** to state the result.
+
+
+--------------------------------------------------------------------------------
+
 
 **Natural experiment** (or a **quasi-experiment**) occurs when some exogenous event -- often a change in government policy -- changes the environment in which individuals, families, firms, or cities operate.
 
