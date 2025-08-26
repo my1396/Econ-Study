@@ -1055,3 +1055,8 @@ th, td {
 [data-theme="dark"] .env-green code {
   color: #C3E88D !important;
 }
+
+/* To support previous colored code */
+span[style*="#00CC66"]>code {
+  color: #00CC66 !important;
+}

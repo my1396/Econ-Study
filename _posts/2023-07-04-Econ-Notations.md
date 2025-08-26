@@ -436,7 +436,7 @@ $$
 
 - $z^+$ is the positive part of $z$
 - $z^-$ is the negative part of $z$, but made positive, so $z^-\ge 0.$ 
-
+$$
 ____
 
 **How to spell out numbers**

@@ -1026,6 +1026,8 @@ sette noe høyt; verdsette noe høyt;
 
 … har blitt uvesentlige, og … har blitt enda viktigere enn før.   [… have become insignificant, and … has become even more important than before.]
 
+… blir viktigere enn *noen gang* → becomes more important *than ever*
+
 <span style='color:#008B45'>vesentlig</span> → significant
 
 
