@@ -322,6 +322,15 @@ A: VS code remembers the text. When you finish typing the prefix, the formatted 
     ],
     "description": "Insert brackets with LaTeX math formatting"
   },
+  "Separator":{
+		"scope": "markdown, latex, quarto",
+		"prefix": ["---", "dash"],
+		"body": [
+			"--------------------------------------------------------------------------------",
+			"$0"
+		],
+		"description": "Insert a horizontal separator line"
+	},
 }
 ```
 
@@ -333,14 +342,15 @@ A: VS code remembers the text. When you finish typing the prefix, the formatted 
 
 **List of user defined snippets:**
 
-| prefix                           | command           |
-| -------------------------------- | ----------------- |
-| `cs-green` / `cs-red`/ `cs-blue` | colored html span |
-| `\(`                             | `\left(\right)`   |
-| `\[`                             | `\left[\right]`   |
-| `vec`                            | row vector        |
-| `cvec`                           | column vector     |
-| `mat`                            | variance matrix   |
+| prefix                           | command                                                      |
+| -------------------------------- | ------------------------------------------------------------ |
+| `cs-green` / `cs-red`/ `cs-blue` | colored html span                                            |
+| `\(`                             | `\left(\right)`                                              |
+| `\[`                             | `\left[\right]`                                              |
+| `vec`                            | row vector                                                   |
+| `cvec`                           | column vector                                                |
+| `mat`                            | variance matrix                                              |
+| `---` or `dash`                  | insert separator horizontal line<br />Note that in `Rmd` and `qmd`, since <span class="env-green">`---` clashes with yaml, use `dash` instead</span>. |
 
 
 
