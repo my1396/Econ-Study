@@ -94,18 +94,18 @@ The [Explorer view](https://code.visualstudio.com/docs/getstarted/userinterface#
 
 Command Palette > "**Preferences: Open Keyboard Shortcuts**" to open the Keyboard Shortcuts editor.
 
-| Shortcut             | Function                                                     |
-| -------------------- | ------------------------------------------------------------ |
-| `dd`                 | use vim shortcut                                             |
-| `cmd` + `J`          | toggle Panel                                                 |
-| `ctrl` + `I`         | Github CoPilot: Start inline chat (default shortcut `cmd-I` collapses with italic style) |
-| `ctrl` + `cmd` + `I` | open GitHub Copilot chat                                     |
-| `opt` + `cmd` + `B`  | close GitHub Copilot chat in the [Secondary Side Bar](https://code.visualstudio.com/docs/configure/custom-layout#_secondary-side-bar) |
-| `cmd` + `P`          | search file names in the current workspace or project.       |
-| `shift` + `cmd` + `P`| Bring up the <span class="env-green">**Command Palette**</span> |
-| `cmd` + `opt` + `V`  | Markdown Paste: convert rick text to Markdown, such as bold face. |
-| `cmd` + `opt` + `C`  | Markdown Paste: paste code with auto-detecting language.     |
-| `ctrl` + `I`         | User modified: toggle btw editor and terminal                |
+| Shortcut              | Function                                                                                                                              |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `dd`                  | use vim shortcut                                                                                                                      |
+| `cmd` + `J`           | toggle Panel                                                                                                                          |
+| `ctrl` + `I`          | Github CoPilot: Start **inline chat** (default shortcut `cmd-I` collapses with italic style)                                          |
+| `ctrl` + `cmd` + `I`  | open GitHub Copilot chat                                                                                                              |
+| `opt` + `cmd` + `B`   | close GitHub Copilot chat in the [Secondary Side Bar](https://code.visualstudio.com/docs/configure/custom-layout#_secondary-side-bar) |
+| `cmd` + `P`           | search file names in the current workspace or project.                                                                                |
+| `shift` + `cmd` + `P` | Bring up the <span class="env-green">**Command Palette**</span>                                                                       |
+| `cmd` + `opt` + `V`   | Markdown Paste: convert rick text to Markdown, such as bold face.                                                                     |
+| `cmd` + `opt` + `C`   | Markdown Paste: paste code with auto-detecting language.                                                                              |
+| `ctrl` + `` ` ``      | `ctrl` + backticks; <br />User modified: toggle btw editor and terminal                                                               |
 
 
 
@@ -342,14 +342,14 @@ A: VS code remembers the text. When you finish typing the prefix, the formatted 
 
 **List of user defined snippets:**
 
-| prefix                           | command                                                      |
-| -------------------------------- | ------------------------------------------------------------ |
-| `cs-green` / `cs-red`/ `cs-blue` | colored html span                                            |
-| `\(`                             | `\left(\right)`                                              |
-| `\[`                             | `\left[\right]`                                              |
-| `vec`                            | row vector                                                   |
-| `cvec`                           | column vector                                                |
-| `mat`                            | variance matrix                                              |
+| prefix                           | command                                                                                                                                               |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `cs-green` / `cs-red`/ `cs-blue` | colored html span                                                                                                                                     |
+| `\(`                             | `\left(\right)`                                                                                                                                       |
+| `\[`                             | `\left[\right]`                                                                                                                                       |
+| `vec`                            | row vector                                                                                                                                            |
+| `cvec`                           | column vector                                                                                                                                         |
+| `mat`                            | variance matrix                                                                                                                                       |
 | `---` or `dash`                  | insert separator horizontal line<br />Note that in `Rmd` and `qmd`, since <span class="env-green">`---` clashes with yaml, use `dash` instead</span>. |
 
 
@@ -721,23 +721,23 @@ Environment snippets works directly in `tex`, you type `B`, a drop-down list wil
 
 
 
-| Prefix | Environment name                           |
-| ------ | ------------------------------------------ |
-| <span class="env-green">`BEQ`</span>  | `equation`  |
-| `BSEQ` | `equation*`                                |
-| `BAL`  | `align`                                    |
-| `BSAL` | `align*`                                   |
-| `BGA`  | `gather`                                   |
-| `BSGA` | `gather*`                                  |
-| `BMU`  | `multline`                                 |
-| `BSMU` | `multline*`                                |
-| `BIT`  | `itemize`                                  |
-| `BEN`  | `enumerate`                                |
-| <span class="env-green">`BSPL`</span>  | `split`    |
-| `BCAS` | `cases`                                    |
-| `BFR`  | `frame`                                    |
-| `BFI`  | `figure`                                   |
-| `BTA`  | `table`                                    |
+| Prefix                                | Environment name |
+| ------------------------------------- | ---------------- |
+| <span class="env-green">`BEQ`</span>  | `equation`       |
+| `BSEQ`                                | `equation*`      |
+| `BAL`                                 | `align`          |
+| `BSAL`                                | `align*`         |
+| `BGA`                                 | `gather`         |
+| `BSGA`                                | `gather*`        |
+| `BMU`                                 | `multline`       |
+| `BSMU`                                | `multline*`      |
+| `BIT`                                 | `itemize`        |
+| `BEN`                                 | `enumerate`      |
+| <span class="env-green">`BSPL`</span> | `split`          |
+| `BCAS`                                | `cases`          |
+| `BFR`                                 | `frame`          |
+| `BFI`                                 | `figure`         |
+| `BTA`                                 | `table`          |
 
 
 
@@ -960,10 +960,10 @@ Explain different modes of Github Copilot:
 
 **Choose AI Coorect Model**
 
-| Model type         | Models                                                       |
-| :----------------- | :----------------------------------------------------------- |
+| Model type         | Models                                                                     |
+| :----------------- | :------------------------------------------------------------------------- |
 | Fast coding        | GPT-4o<br />Claude Sonnet 3.5<br />Claude Sonnet 3.7<br />Gemini 2.0 Flash |
-| Reasoning/planning | Claude Sonnet 3.7 Thinking<br />o1<br />o3-mini              |
+| Reasoning/planning | Claude Sonnet 3.7 Thinking<br />o1<br />o3-mini                            |
 
 
 

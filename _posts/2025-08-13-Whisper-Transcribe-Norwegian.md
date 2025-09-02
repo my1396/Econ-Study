@@ -65,7 +65,7 @@ Key Distinction 
 
 --------------------------------------------------------------------------------
 
-Q: How do show the transcripts when playing the audio?
+Q: How do show the transcripts when playing the audio? \
 A: Play the MP3 file in VLC then go to Audio > Visualizations > Spectrometer. Now the subtitles should display. 
 
 <img src="https://drive.google.com/thumbnail?id=1IgD5OY9lhQ_lpttTqClDHptEEoTe1vGu&sz=w1000" alt="use srt with audio.png" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />

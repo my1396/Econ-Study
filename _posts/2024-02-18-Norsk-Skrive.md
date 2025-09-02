@@ -12,7 +12,7 @@ Utbygging av avsnit
 
 Temasetnning → Kommentarsetninger → Avsluttende setning
 
-<span style='color:#008B45'>*For det første*</span> ... for det andre … Firstly ... secondly …
+<span style='color:#00CC66'>*For det første*</span> ... <span style='color:#00CC66'>*for det andre*</span> …  → Firstly ... secondly …
 
 I tillegg … ikke minst er det …
 
@@ -267,7 +267,7 @@ Løsning
 
 **However** 
 
-> imidlertid; <span style='color:#008B45'>likevel</span> (nonetheless); fremdeles (still);
+> imidlertid; <span style='color:#00CC66'>likevel</span> (nonetheless); fremdeles (still);
 
 **Contrast**
 
@@ -281,15 +281,15 @@ Løsning
 
 **In addition** (adding extra info)
 
-> i tillegg (til å); samtidig; <span style='color:#008B45'>dessuten</span> (moreover);
+> i tillegg (til å); samtidig; <span style='color:#00CC66'>dessuten</span> (moreover);
 
 **If**
 
-> hvis; <span style='color:#008B45'>dersom</span>; 
+> hvis; <span style='color:#00CC66'>dersom</span>; 
 
 **So**
 
-> altså; <span style='color:#008B45'>derfor</span>; dermed; 
+> altså; <span style='color:#00CC66'>derfor</span>; dermed; 
 
 Because
 
@@ -353,7 +353,7 @@ Bruk av fornybare energikilder regens som bærekraftig og miljøvennlig.
 
 **很明显**...
 
-det er *klart/<span style='color:#008B45'>tydelig</span>* at ...
+det er *klart/<span style='color:#00CC66'>tydelig</span>* at ...
 
 
 
@@ -377,7 +377,7 @@ Man kan se på som en positiv utvikling og et resultat av at ... → It can be v
 
 **可能** gå an
 
-| Det <span style='color:#008B45'>går kanskje ikke an</span> å gjøre noe. | It is not possible to do. |
+| Det <span style='color:#00CC66'>går kanskje ikke an</span> å gjøre noe. | It is not possible to do. |
 | ------------------------------------------------------------ | ------------------------- |
 
 
@@ -451,7 +451,7 @@ ___
 
 **Verken … eller** (neither … nor …)
 
-| Barn <span style='color:#008B45'>verken</span> viser respekt for voksne <span style='color:#008B45'>eller</span> andre barn. | Children show <span style='color:#008B45'>neither</span> respect for adults <span style='color:#008B45'>nor</span> other children. |
+| Barn <span style='color:#00CC66'>verken</span> viser respekt for voksne <span style='color:#00CC66'>eller</span> andre barn. | Children show <span style='color:#00CC66'>neither</span> respect for adults <span style='color:#00CC66'>nor</span> other children. |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 - distinguish from "enten … eller …", which means "either … or …"
@@ -462,7 +462,7 @@ ___
 
 noen ganger … andre ganger …
 
-<span style='color:#008B45'>Noen ganger</span> er vi overbeskyttende, <span style='color:#008B45'>andre ganger</span> får barna bestemme for mye selv. 注意动词的倒装。
+<span style='color:#00CC66'>Noen ganger</span> er vi overbeskyttende, <span style='color:#00CC66'>andre ganger</span> får barna bestemme for mye selv. 注意动词的倒装。
 
 
 
@@ -535,7 +535,7 @@ i de fleste sammenheng → most likely
 
 **There be**
 
-<span style='color:#008B45'>**Det finnes/er**</span> (ikke) ...  (不) 存在...
+<span style='color:#00CC66'>**Det finnes/er**</span> (ikke) ...  (不) 存在...
 
 E.g.
 
@@ -586,7 +586,7 @@ at 从句
 
 **联系**
 
-En klar <span style='color:#008B45'>sammenheng</span> mellom ... og ... → A clear link / relationship between … and …
+En klar <span style='color:#00CC66'>sammenheng</span> mellom ... og ... → A clear link / relationship between … and …
 
 *Sammenlignet med* mange andre europeiske land  … → Compared to other European countries …
 
@@ -640,7 +640,7 @@ Tor og Ed har **annerledes** biler. $\rightarrow$ Alle de andre vennene har Toyo
 
    E.g., Tor har blondt hår, men Ed er annerledes. ✅
 
-   Tor har blondt hår, men Ed er forskjellig. ❌ (作为表语时，Forskjellig 不能<span style='color:#008B45'>单独</span>用于形容<span style='color:#008B45'>一个</span>主体，必须与 fra 搭配作为短语出现。Forskjellig 作为表语时，主语必须由<span style='color:#008B45'>两部分</span>构成，"forskjellig"表述<span style='color:#008B45'>两部分之间</span>的差异。)
+   Tor har blondt hår, men Ed er forskjellig. ❌ (作为表语时，Forskjellig 不能<span style='color:#00CC66'>单独</span>用于形容<span style='color:#00CC66'>一个</span>主体，必须与 fra 搭配作为短语出现。Forskjellig 作为表语时，主语必须由<span style='color:#00CC66'>两部分</span>构成，"forskjellig"表述<span style='color:#00CC66'>两部分之间</span>的差异。)
 
    Tor og Pavel er like, men Tor og Ed er **forskjellige**. ✅ $\rightarrow$ Vi sammenligner to deler av subjektet. (Tor og Ed).
 
@@ -667,7 +667,7 @@ Tor og Ed har **annerledes** biler. $\rightarrow$ Alle de andre vennene har Toyo
 
 …可以理解的
 
-| Det er <span style='color:#008B45'>forståelig</span> at … | It is understandable that … |
+| Det er <span style='color:#00CC66'>forståelig</span> at … | It is understandable that … |
 | --------------------------------------------------------- | --------------------------- |
 
 
@@ -738,7 +738,7 @@ veldig, svært, skikkelig, ganske, spesielt,
 
 最近几年，涌现了… 
 
-| De siste årene har det <span style='color:#008B45'>dukket opp</span> ... | There arise ... in recent years |
+| De siste årene har det <span style='color:#00CC66'>dukket opp</span> ... | There arise ... in recent years |
 | ------------------------------------------------------------ | ------------------------------- |
 | De siste årene har det blitt mer og mer vanlig å ...         |                                 |
 
@@ -768,7 +768,7 @@ Det blir en ond *sirkel*. → It becomes a vicious circle.
 
 | Slike ..., men ...                                           | 尽管… 但是…                       |
 | ------------------------------------------------------------ | --------------------------------- |
-| Slike foreldre har <span style='color:#008B45'>de beste intensjoner</span>, men konsekvensen kan bli at ... | 尽管出发点是好的，但是结果可能是… |
+| Slike foreldre har <span style='color:#00CC66'>de beste intensjoner</span>, men konsekvensen kan bli at ... | 尽管出发点是好的，但是结果可能是… |
 
 
 
@@ -795,13 +795,13 @@ Dette gjelder også i Norge. → This also applies in Norway.
 
 ### **原因**
 
-| Det er nok også litt av <span style='color:#008B45'>grunnen til at</span> han ga seg. | That's probably part of the reason he gave up.               |
+| Det er nok også litt av <span style='color:#00CC66'>grunnen til at</span> han ga seg. | That's probably part of the reason he gave up.               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Det kan være mange grunner til …                             |                                                              |
 | av den grunn ... 倒装                                        | because of this ...                                          |
 | den vanligste årsaken til .... er ...                        | the most common cause of ... is ...                          |
-| <span style='color:#008B45'>**hovedårsaken**</span> til at … er at ... | the major reason why … is …                                  |
-| <span style='color:#008B45'>**hovedargumentet**</span> for … at … | the main argument for … is that …                            |
+| <span style='color:#00CC66'>**hovedårsaken**</span> til at … er at ... | the major reason why … is …                                  |
+| <span style='color:#00CC66'>**hovedargumentet**</span> for … at … | the main argument for … is that …                            |
 | å følge av noe                                               | as a result of, due to 由…引起的                             |
 | Dette har **sammenheng** med at ...                          | This is related / due to the fact that ...<br />This has to do with the fact that ...<br />This is because ... |
 
@@ -846,7 +846,7 @@ Samtidig finnes stadig bedre behandlinger for sykdommer, og *dette fører til* a
 
 **så + adj + at** 从句 
 
-- Lønningene i Norge er <span style='color:#008B45'>så</span> høye <span style='color:#008B45'>at</span> det <u>ikke</u> lønner seg å produsere varene her.
+- Lønningene i Norge er <span style='color:#00CC66'>så</span> høye <span style='color:#00CC66'>at</span> det <u>ikke</u> lønner seg å produsere varene her.
 
   注意从句中 ikke 提前
 
@@ -875,7 +875,7 @@ nok: probably
 
 
 
-**组成<span style='color:#008B45'>部分</span>**
+**组成<span style='color:#00CC66'>部分</span>**
 
 *Den største delen* er ... (Note the triple definite form) → The largest part is ...
 
@@ -905,7 +905,7 @@ gi seg utslag i/på
 
 Eksempler av detter er …
 
-det finnes det eksempler <span style='color:#008B45'>på</span> … → There are examples of …
+det finnes det eksempler <span style='color:#00CC66'>på</span> … → There are examples of …
 
  i noen tilfellers … → in some cases
 
@@ -913,7 +913,7 @@ det finnes det eksempler <span style='color:#008B45'>på</span> … → There ar
 
 **优势和劣势**
 
-Hvilke <span style='color:#008B45'>fordeler og ulemper</span> er det ved å flytte vareproduksjon utenlands？
+Hvilke <span style='color:#00CC66'>fordeler og ulemper</span> er det ved å flytte vareproduksjon utenlands？
 
 What are the advantages and disadvantages of .... 注意跟英文的不同。挪威语用的是 hvilke, 英文用的是 what.
 
@@ -929,11 +929,11 @@ What are the advantages and disadvantages of .... 注意跟英文的不同。挪
 
    
 
-<span style='color:#008B45'>å oppdra</span>, oppdrar, oppdro, har oppdratt: to raise, rear, bring up, educate
+<span style='color:#00CC66'>å oppdra</span>, oppdrar, oppdro, har oppdratt: to raise, rear, bring up, educate
 
 godt oppdratt:  well brought up, well-raised
 
-en <span style='color:#008B45'>oppdragelse</span>: upbringing*,* education
+en <span style='color:#00CC66'>oppdragelse</span>: upbringing*,* education
 
 å sette grenser: to set boundaries
 
@@ -941,7 +941,7 @@ Hva synes du er viktigst å lære dine barn?
 
 uavhengighet, selvstendighet (independence)
 
-Det sosiale er viktigere enn hvordan man <span style='color:#008B45'>presterer</span>. [N.B. «å prestere» means "to perform, achieve, do well"; while «å presentere» means "to present (a show, a talk, etc)"]
+Det sosiale er viktigere enn hvordan man <span style='color:#00CC66'>presterer</span>. [N.B. «å prestere» means "to perform, achieve, do well"; while «å presentere» means "to present (a show, a talk, etc)"]
 
 | Norsk                                  | Engelsk                     |
 | -------------------------------------- | --------------------------- |
@@ -1014,9 +1014,9 @@ På norskkurs <u>ble vi oppmuntret til å</u> lese barnebøker og se på barne-T
 
 **精通**
 
-Det er bedre at barna selv <span style='color:#008B45'>opplever glede av mestringen</span>.
+Det er bedre at barna selv <span style='color:#00CC66'>opplever glede av mestringen</span>.
 
-å <span style='color:#008B45'>mestre</span> noe → to master sth
+å <span style='color:#00CC66'>mestre</span> noe → to master sth
 
 
 
@@ -1028,7 +1028,7 @@ sette noe høyt; verdsette noe høyt;
 
 … blir viktigere enn *noen gang* → becomes more important *than ever*
 
-<span style='color:#008B45'>vesentlig</span> → significant
+<span style='color:#00CC66'>vesentlig</span> → significant
 
 
 
@@ -1061,7 +1061,7 @@ lett tilgjengelige ressurser → readily available resources (plural, adj agreem
 
 vurdere beslutningen på nytt → re-evaluate the decision
 
-<span style='color:#008B45'>总结 grammer 易错点</span>
+<span style='color:#00CC66'>总结 grammer 易错点</span>
 
 1. adj agreement
 2. V2 原则 副词在句首，需要动词提前。da
@@ -1099,7 +1099,7 @@ Teknologien har tatt over mange av arbeidsoppgavene på fabrikkene og byggeplass
 
 Hva synes dere om at man kan få utført en operasjon for å få et bedre utseende?
 
-> <span style='color:#008B45'>Jeg ser på dette som et problem knyttet til</span> fri vilje. Selv om vi vil ikke forandre utseende vårt, må vi respektere andres valg. Jeg vil vise til Kardemomme-loven:
+> <span style='color:#00CC66'>Jeg ser på dette som et problem knyttet til</span> fri vilje. Selv om vi vil ikke forandre utseende vårt, må vi respektere andres valg. Jeg vil vise til Kardemomme-loven:
 >
 > «Mann skal ikke plage andre, man skal være grei og snill, og for øvrig kan man gjøre hva man vil.»
 >
