@@ -993,9 +993,27 @@ A: Set the following in the `settings.json` file:
 },
 ```
 
+
+--------------------------------------------------------------------------------
+
+#### Restore to Previous Revision
+
+Sidebar > GitLens Inspect > File History, all previous revisions of the file will be listed.
+
+Find the version you want to restore to.
+You can open them to view or compare with the current version.
+
+Right click the version you want to restore to, you have two options:
+
+- "Restore Changes (Checkout)" is equivalent to performing a `git checkout <commit-id> <file-path>` or `git restore --source=<commit-id> <file-path>` command. It specifically targets a file and restores its content to the state it was in at a particular commit. This is useful when you want to revert a single file to an earlier version without affecting other files or your current branch.
+
+- "Restore Previous Changes" leverages VS Code's internal file history tracking, which can be useful for recovering lost work or reverting **uncommitted changes**. This is distinct from Git's version control and operates on the local file system's history.
+
+
 Ref:
 
 - <https://help.gitkraken.com/gitlens/gitlens-settings/>
+- [GitLens Views](https://help.gitkraken.com/gitlens/side-bar/)
 
 ___
 
