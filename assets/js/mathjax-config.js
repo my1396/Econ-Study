@@ -2,6 +2,7 @@
 // enable inline eqn and add new macro definitions
 window.MathJax = {
     tex: {
+        extensions: ["color.js"],
         inlineMath: [   // start/end delimiter pairs for in-line math
           ['$', '$'],
           ['\\(', '\\)']

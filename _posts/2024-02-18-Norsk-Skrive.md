@@ -189,6 +189,12 @@ Det provoserer meg at … → It provokes me that …
 
 
 
+**Positive opinion:**
+
+Jeg er tilhenger av … → I am a supporter of …
+
+
+
 **Uncertain**
 
 Mitt inntrykk er at ... → my impression is that …
@@ -590,6 +596,8 @@ En klar <span style='color:#00CC66'>sammenheng</span> mellom ... og ... → A cl
 
 *Sammenlignet med* mange andre europeiske land  … → Compared to other European countries …
 
+*til sammenligning* → for reference / comparison
+
 
 
 **类似**
@@ -764,7 +772,7 @@ A *går ned samtidig som* B øker → 伴随着 B 的上升，A 在下降
 
 Det blir en ond *sirkel*. → It becomes a vicious circle.
 
-
+↓: å redusere / senke / begrense
 
 | Slike ..., men ...                                           | 尽管… 但是…                       |
 | ------------------------------------------------------------ | --------------------------------- |
@@ -1130,6 +1138,8 @@ tiltak som reduserer *forurensningen* → measures that reduce pollution
 Det er fattige land som *rammes hardest av* klimaendringene. → Poor countries were affected most.
 
 gjenbruk 循环利用
+
+å *disponere* ressurser → to allocate resources
 
 gjenbruk i sted for å kjøpe nytt
 

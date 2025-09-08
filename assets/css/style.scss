@@ -935,6 +935,7 @@ figure {
 }
 figcaption {
   font-size: 100%;
+  text-align: justify;
 }
 
 /**
@@ -1039,9 +1040,15 @@ th, td {
   color: #008B45 !important; /* Default green color */
   /* Light mode */
 }
+.env-orange {
+  color: #D2691E !important;
+}
 
 [data-theme="dark"] .env-green {
   color: #C3E88D !important;
+}
+[data-theme="dark"] .env-orange {
+  color: #FF9900 !important;
 }
 
 /* Apply color to inline code */
@@ -1051,9 +1058,19 @@ th, td {
   color: #008B45 !important;
 }
 
+.env-orange>code,
+.env-orange code {
+  color: #D2691E !important;
+}
+
 [data-theme="dark"] .env-green>code,
 [data-theme="dark"] .env-green code {
   color: #C3E88D !important;
+}
+
+[data-theme="dark"] .env-orange>code,
+[data-theme="dark"] .env-orange code {
+  color: #FF9900 !important;
 }
 
 /* To support previous colored code */

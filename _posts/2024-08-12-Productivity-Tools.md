@@ -606,6 +606,10 @@ A: MPE has one preview tab for all files by default. You can change this by goin
 
 <img src="https://drive.google.com/thumbnail?id=1eCCWZT7c8UZA3o_WpTRGP8xsfN6tfvrX&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
+___
+
+#### Customize CSS
+
 Q: How to add a custom CSS to MPE?  
 A: To customize CSS for your markdown file, press `cmd-shift-p` and then run the `Markdown Preview Enhanced: Customize CSS (Global)` or `Markdown Preview Enhanced: Customize CSS (Workspace)` command.
 
@@ -641,6 +645,39 @@ The `style.less` file will open, and you can override existing style like this
 ```
 
 ref: [MPE Customize CSS](https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css)
+
+
+___
+
+#### Configuration
+
+There is a global `config.js` script that could be used to configure the Markdown Preview Enhanced extension. 
+
+Open command palette (⇧⌘P), then run `Markdown Preview Enhanced: Open Config Script (Global)` command to open it.
+
+- You can add your custom macros.
+- You can add more configurations to this script. A list of available configurations can be found [here](https://github.com/shd101wyy/crossnote#notebook-configuration).
+
+
+Below is an example of the `config.js` script:
+
+```js
+({
+  katexConfig: {
+    macros: {},
+  },
+
+  mathjaxConfig: {
+    tex: {},
+    options: {},
+    loader: {},
+  },
+
+  mermaidConfig: {
+    startOnLoad: false,
+  },
+});
+```
 
 ___
 
