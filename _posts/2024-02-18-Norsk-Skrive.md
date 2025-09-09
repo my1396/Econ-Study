@@ -1127,7 +1127,9 @@ ___
 
 ## Miljø 环保
 
-bærekraftig: sustainable
+bærekraftig: sustainable 可持续
+
+*fornybare ressurer / energikilder* →  renewable resources / energy 可再生能源
 
 miljøvennlig: environmental friendly
 
@@ -1142,8 +1144,6 @@ gjenbruk 循环利用
 å *disponere* ressurser → to allocate resources
 
 gjenbruk i sted for å kjøpe nytt
-
-*fornybare ressurer / energikilder* renewable resources / energy
 
 storbyer som normalt sliter med dårlig luft på grunn av utslipp fra transport og fabrikker
 
