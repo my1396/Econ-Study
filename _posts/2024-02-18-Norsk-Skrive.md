@@ -155,7 +155,7 @@ ___
 
 ### **我的想法是**...
 
-**Neutural**:
+#### Neutural:
 
 ..., det er min mening.
 
@@ -177,21 +177,49 @@ det synes jeg også → I also think that
 
 Likevel er det flere som mener at … → However, there are many who think that … / Nevertheless, many people still think that …
 
+Etter min mening er det ikke snakk om *enten eller*, men ja takk, begge deler. → In my opinion, it’s not a question of *either/or*, but yes please, both.
 
 
-**Negative opinion**:
 
-Jeg er litt skeptisk til at ...
+#### Negative opinion:
+
+Jeg er litt *skeptisk* til at ...
 
 Jeg har virkelig ingen tro på at … → I don't believe sth
 
 Det provoserer meg at … → It provokes me that …
 
+*uaktuell* → out of the question 
+
+være *negativ* til at … → oppsed to or against sth; disapproval or disagreement
+
+> 注意此处表示态度负面，并不表示某事是否会发生。
+
+være *imot* noe → against sth; stronger than negative til; actively against sth
+
+Jeg er *motstander* av …  → I am an opponent of / oppsed of …
+
+svak, svakt, svake → weak, lame, poor; 
 
 
-**Positive opinion:**
 
-Jeg er tilhenger av … → I am a supporter of …
+#### Positive opinion:
+
+Jeg er *tilhenger* av … → I am a supporter of … (不定冠词 en 可省略)
+
+> Antonym  
+> Jeg er *motstander* av …  → I am an opponent of / oppsed of …  (strong and formal)
+
+Det er (veldig) synd at / hvis … → It is (very) unfortunate if …  / It is (really) a shame if … (Expresses **regret, disappointment, or sympathy** about a situation.)
+
+> 注意此处 synd 作为 pity, shame 讲，不可数，<span class="env-orange">不用不定冠词 en</span>。  
+> en synd 意思为 a sin，表一种罪过。
+
+… skader ikke → it does not hurt to do …
+
+<span class="env-green">*kvaliteten og effektiviteten*</span> ved … blir bedre → the quality and efficiency with … will be better
+
+Det føler jeg gir en stor trygghet. → I feel it gives a strong sense of safty.
 
 
 
@@ -277,7 +305,7 @@ Løsning
 
 **Contrast**
 
-> derimot (on the contrary; however); på den andre siden;
+> derimot (on the contrary; however); på den andre siden; tvert imot (on the contrary; quite the opposite);
 
 *For noen er … viktige argumenter for dette, mens andre er opptatt av …* → *For some, … are important reasons, while others care about …*
 
@@ -287,7 +315,7 @@ Løsning
 
 **In addition** (adding extra info)
 
-> i tillegg (til å); samtidig; <span style='color:#00CC66'>dessuten</span> (moreover);
+> i tillegg (til å); samtidig; <span style='color:#00CC66'>dessuten</span> (moreover); for øvrig; 
 
 **If**
 
@@ -488,14 +516,14 @@ Staten gåt altfor langt i å regulere folks privatliv.
 
 相反, … 的反面
 
-| det stikk motsatte av        | the opposite of         |
+| det stikk <span style='color:#00CC66'>motsatte</span> av        | the opposite of         |
 | ---------------------------- | ----------------------- |
 | Dette er motsatt av … ønsker | the oppsite of … wishes |
 | i motsetning til ...         | in contrary to ...      |
 
 
 
-一方面 … 另一方面… (on the one hand, on the other hand)
+一方面 … 另一方面… (on the one hand, on the other hand)c
 
 På den ene siden … (倒装语序), men på den annen siden … (倒装)
 
@@ -846,11 +874,15 @@ Mindre stress *fører til* lavere sykefravær → less stress leads to lower sic
 
 Det *innebærer* at ... → It means / implies that … 
 
-Dette *gjøre* at … → It makes …
+Dette <span style="color: #00CC66;">*gjøre*</span> at … → It makes …
 
 Ex.
 
 Samtidig finnes stadig bedre behandlinger for sykdommer, og *dette fører til* at levedalderen øker.
+
+At innbyggene i Norge kan <u>velge fritt</u> (choose freely) blant offentlige eller private behandlingssteder, *gjør at* disse behandlingsstedene må være på topp til enhver tid. [前摇 at 从句真的很长…]
+
+
 
 **så + adj + at** 从句 
 
