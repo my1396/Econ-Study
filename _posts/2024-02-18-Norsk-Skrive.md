@@ -301,11 +301,11 @@ Løsning
 
 **However** 
 
-> imidlertid; <span style='color:#00CC66'>likevel</span> (nonetheless); fremdeles (still);
+> imidlertid; <span style='color:#00CC66'>likevel</span> (nonetheless); fremdeles (still); 
 
 **Contrast**
 
-> derimot (on the contrary; however); på den andre siden; tvert imot (on the contrary; quite the opposite);
+> derimot (on the contrary; however); på den andre siden; tvert imot (on the contrary; quite the opposite); derimot; 
 
 *For noen er … viktige argumenter for dette, mens andre er opptatt av …* → *For some, … are important reasons, while others care about …*
 
@@ -411,8 +411,9 @@ Man kan se på som en positiv utvikling og et resultat av at ... → It can be v
 
 **可能** gå an
 
-| Det <span style='color:#00CC66'>går kanskje ikke an</span> å gjøre noe. | It is not possible to do. |
-| ------------------------------------------------------------ | ------------------------- |
+| Det <span style='color:#00CC66'>går kanskje ikke an</span> å gjøre noe. | It is not possible to do.             |
+| ------------------------------------------------------------ | ------------------------------------- |
+| det er større sannsynlighet for at …                         | there is a greater probability that … |
 
 
 
