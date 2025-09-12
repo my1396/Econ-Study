@@ -834,6 +834,7 @@ Dette gjelder også i Norge. → This also applies in Norway.
 
 | Det er nok også litt av <span style='color:#00CC66'>grunnen til at</span> han ga seg. | That's probably part of the reason he gave up.               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Grunnen til dette kan være …                                 | The reason for this can be …                                 |
 | Det kan være mange grunner til …                             |                                                              |
 | av den grunn ... 倒装                                        | because of this ...                                          |
 | den vanligste årsaken til .... er ...                        | the most common cause of ... is ...                          |
@@ -974,9 +975,11 @@ What are the advantages and disadvantages of .... 注意跟英文的不同。挪
 
 godt oppdratt:  well brought up, well-raised
 
-en <span style='color:#00CC66'>oppdragelse</span>: upbringing*,* education
+en <span style='color:#00CC66'>oppdragelse / oppvekst</span>: upbringing*,* education
 
 å sette grenser: to set boundaries
+
+alle barn bør vokse opp i trygge og stabilie familier
 
 Hva synes du er viktigst å lære dine barn?
 
@@ -1168,7 +1171,7 @@ miljøvennlig: environmental friendly
 
 å unngå / redusere utslipp →  to avoid/ reduce emissions
 
-tiltak som reduserer *forurensningen* → measures that reduce pollution
+tiltak som reduserer <span style="color: #00CC66;">*forurensningen*</span> → measures that reduce pollution
 
 Det er fattige land som *rammes hardest av* klimaendringene. → Poor countries were affected most.
 
@@ -1179,6 +1182,16 @@ gjenbruk 循环利用
 gjenbruk i sted for å kjøpe nytt
 
 storbyer som normalt sliter med dårlig luft på grunn av utslipp fra transport og fabrikker
+
+motsetninger mellom naturvern og økonomisk vekst → conflicts btw environment protection and economic growth
+
+å redusere $CO_2$ utslipp → to reduce $CO_2$ emissions
+
+Vi må ta vare på kloden. → We must take care of the globe.
+
+å <span style='color:#00CC66'>fase ut</span> bruken av fossil energi → to phase out the use of fossil energy
+
+ladestasjoner for elbiler → 电动车充电桩
 
 Hva tenker dere om at ungdom streiker for miljøsaken?
 
