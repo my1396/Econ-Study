@@ -1,5 +1,4 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
 @import
@@ -552,6 +551,63 @@ kbd {
   padding: 2px;
   border: 1px solid black;
 }
+
+/* Copy code button */
+figure.highlight,
+pre {
+  position: relative;
+}
+
+/* Add a bit of right padding only when a copy button exists so code doesn't overlap */
+figure.highlight.has-copy-btn pre,
+pre.has-copy-btn {
+  padding-right: 28px;
+}
+
+.copy-code-btn {
+  position: absolute;
+  top: 4px;           /* tighter top gap for one-line blocks */
+  right: 4px;
+  padding: 2px 4px;   /* smaller footprint */
+  border-radius: 4px;
+  border: none;       /* flat, no border */
+  background: transparent; /* flat look */
+  color: var(--minima-text-color);
+  font-size: 14px;    /* icon size */
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0.6; /* default visible level */
+  z-index: 2;
+  transition: opacity .15s ease, transform .1s ease;
+}
+
+.copy-code-btn:hover { opacity: 1; }
+.copy-code-btn:active { transform: scale(0.96); }
+
+/* Hide icon until hover/focus to keep UI minimal */
+figure.highlight.has-copy-btn .copy-code-btn,
+pre.has-copy-btn .copy-code-btn {
+  opacity: 0;
+}
+
+figure.highlight.has-copy-btn:hover .copy-code-btn,
+figure.highlight.has-copy-btn:focus-within .copy-code-btn,
+pre.has-copy-btn:hover .copy-code-btn,
+pre.has-copy-btn:focus-within .copy-code-btn {
+  opacity: 0.6;
+}
+
+/* On touch devices (no hover), keep the icon visible for usability */
+@media (hover: none) {
+  figure.highlight.has-copy-btn .copy-code-btn,
+  pre.has-copy-btn .copy-code-btn {
+    opacity: 0.6;
+  }
+}
+
+[data-theme="dark"] .copy-code-btn { color: #EEFFFF; }
+
+.copy-code-btn.copied { color: #2e7d32; }
 
 
 
