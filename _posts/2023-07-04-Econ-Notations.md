@@ -5,6 +5,8 @@ tag: study
 update: 2024-10-27
 ---
 
+<a class="top-link hide" href="#" id="js-top">↑</a>
+
 ## Notation
 
 $\mathbb{E}_Y$ and $\mathrm{Var}_Y$ denote expectation over $Y$ and variance over $Y$.
