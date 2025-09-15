@@ -5,11 +5,11 @@ tag: programming
 update: 2023-10-12
 ---
 
-Reserve this url to 
+Reserve the following urls to 
 
-- build your own site: <http://username.github.io> 
+- build your own site: `http://username.github.io`
 
-- build project websites: <http://username.github.io/repository>
+- build project websites: `http://username.github.io/<repository>`
 
 Nice personal website template from a professor: <https://ryancordell.org>
 
@@ -121,6 +121,7 @@ How to get custom domain name?
 - Go to DNS Management page from where you buy your domain.
 
 
+--------------------------------------------------------------------------------
 
 **Difference btw Gist and Project Repository**
 

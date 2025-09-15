@@ -112,6 +112,11 @@ GitHub Pages has a [new feature](https://github.com/blog/2228-simpler-github-pag
    <img src="https://drive.google.com/thumbnail?id=1ifs9yvYUte1SEIxZ5o23gd84SiAluqJR&sz=w1000" alt="GH pages" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 5. Wait for a couple of minutes (but not long, Github needs to recognize the website), your webpages will be live at your GitHub project domain.
 
+Note: 
+
+- GitHub Actions will build and render your site for you whenever you push changes to your repository. But it seems to have a limit of how many sites you can build simultaneously. 
+- Tip: <span class="env-orange">Don't push websites at the same time.</span> They might be be rendered otherwise. → Push one, wait for it to be built, then push the next one.
+
 ref: [GitHub Docs: Publishing from a branch](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch)
 
 --------------------------------------------------------------------------------
