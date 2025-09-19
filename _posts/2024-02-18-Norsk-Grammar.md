@@ -164,13 +164,46 @@ Når substantivet står i bestemt form, legger vi til *bestemt artikkel* (定冠
 
  
 
+**Another example**
+
+**lik** = “equal / alike / similar”
+
+| Form                              | Example                                 |
+| --------------------------------- | --------------------------------------- |
+| **masculine / feminine singular** | en *lik* situasjon, ei *lik* behandling |
+| **neuter singular**               | et *likt* tilfelle (a similar case)     |
+| **plural**                        | *like* regler                           |
+| **definite (all genders)**        | den *like* saken, de *like* sakene      |
+
+**Tips:**
+
+- Most adj have same form for masculine and feminine forms. 
+- There are exceptions where adj have special feminine forms, e.g., liten / lita / lite 
+
+| Gender    | Form  | Example       |                                                              |
+| --------- | ----- | ------------- | ------------------------------------------------------------ |
+| Masculine | liten | en liten gut  | den lille gutt<span style='color:#00CC66'>en</span> (the small boy) |
+| Feminine  | lita  | ei lita jente | den lille jent<span style='color:#00CC66'>a</span>           |
+| Neuter    | lite  | et lite hus   | den lille hus<span style='color:#00CC66'>et</span>           |
+| Plural    | små   | små barn      | de små barn<span style='color:#00CC66'>a</span>              |
+
+In **everyday Bokmål**, many people skip the feminine forms (*ei lita bok* → *en liten bok*).
+
+bestemt form:
+
+- singular (fem / mas / neut): lille
+- plural: små
+- 注意<span style='color:#00CC66'>名词也要变特指</span>
+
+
+
 Legg merke til at vi ikke bruker bestemt form av adjektivet i *predikativ stiling*:
 
 IKKE: ~~Bilen er dyre.~~ ❌
 
 Bilen er dy. ✅ (The car is expensive)
 
-**形容词作为表语**不用 definite form，但是需要根据性别和数量变格。
+**形容词作为<span style='color:#00CC66'>表语</span>**不用 definite form，但是需要根据性别和数量变格。
 
 <table>
   <tr>

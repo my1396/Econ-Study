@@ -416,6 +416,27 @@ A: `.json` is a subset of `.js`, which stands for JavaScript.
 - if you have some sort of logic (functions, conditions, loops ...), use `.js`.
 
 
+Q: How to sync settings across devices?  
+A: Turn on Setttings Sync.
+
+<img src="https://code.visualstudio.com/assets/docs/configure/settings-sync/turn-on-sync.png" alt="
+" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+To use Sync settings, you need to sign in (GitHub or Microsoft account) and select which settings you want to sync. Currently, the Settings Sync supports the following settings:
+
+-   Settings
+-   Keyboard shortcuts
+-   User snippets
+-   User tasks
+-   UI State
+-   Extensions
+-   Profiles
+
+Q: How to view historical settings data?  
+A: Type `Settings Sync: Show Synced Data` in the Command Palette. [↩︎](https://code.visualstudio.com/docs/configure/settings-sync#_restoring-data)
+
+
+--------------------------------------------------------------------------------
 
 Q: How to customize language-specific setttings?  
 A: Open User Settings → Type `@lang:markdown` into the search widget. This will show configurable settings for that specific language. Alternatively, you can change directly in the settings JSON file.
@@ -429,8 +450,7 @@ A: Open User Settings → Type `@lang:markdown` into the search widget. This wil
   }
 ```
 
-
-
+--------------------------------------------------------------------------------
 
 
 Q: How to **preview a markdown file**?  
