@@ -46,7 +46,7 @@ update: 2024-10-27
 
   This is also called the *addition rule*.
 
-- **Conditional probability**
+- **Conditional probability** 
 
   $$
   P(A|B) = \frac{P(A \cap B)}{P(B)}

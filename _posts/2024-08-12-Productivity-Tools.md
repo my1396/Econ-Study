@@ -832,11 +832,15 @@ Here is an example of how to enable Norwegian Bokmål spell checking in VS Code 
    "cSpell.language": "en,nb",
    ```
 
+
+Q: Code Spell Checker does not check files that are in gitignore. How to fix? \
+A: Set `"cSpell.useGitignore": false` in `settings.json`.
+
 ___
 
-### [Intellisense](https://code.visualstudio.com/docs/editing/intellisense)
+### IntelliSense
 
-IntelliSense is a general term for various code editing features including: code completion, parameter info, quick info, and member lists. IntelliSense features are sometimes called by other names such as "code completion", "content assist", and "code hinting."
+[Intellisense](https://code.visualstudio.com/docs/editing/intellisense) is a general term for various code editing features including: code completion, parameter info, quick info, and member lists. IntelliSense features are sometimes called by other names such as "code completion", "content assist", and "code hinting."
 
 The inferred symbols are presented first, followed by the global identifiers (indicated by the `abc` word icon).
 
@@ -853,9 +857,12 @@ The editor supports *tab completion*, which inserts the best matching completion
     "comments": false,
     "strings": false
 },
+// Enable command autocompletion, path, command help
+"terminal.integrated.suggest.enabled": true,
 ```
 
-
+Q: How to enable code autocomplettion in the terminal? \
+A: Set `"terminal.integrated.suggest.enabled": true` in `settings.json`. It supports command and file path completion.
 
 ___
 
