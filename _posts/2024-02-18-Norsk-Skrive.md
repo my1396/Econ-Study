@@ -201,6 +201,8 @@ Jeg er *motstander* av …  → I am an opponent of / oppsed of …
 
 svak, svakt, svake → weak, lame, poor; 
 
+jeg har *liten forståelse* for … → I don't understand …
+
 
 
 #### Positive opinion:
@@ -801,7 +803,11 @@ A *går ned samtidig som* B øker → 伴随着 B 的上升，A 在下降
 
 Det blir en ond *sirkel*. → It becomes a vicious circle.
 
-↓: å redusere / senke / begrense
+↓: å redusere / senke / begrense / bremse
+
+⭕️: å stoppe / stanse
+
+没多少: de færreste av os; et fåtall av; 
 
 | Slike ..., men ...                                           | 尽管… 但是…                       |
 | ------------------------------------------------------------ | --------------------------------- |
@@ -1167,6 +1173,8 @@ bærekraftig: sustainable 可持续
 
 *fornybare ressurer / energikilder* →  renewable resources / energy 可再生能源
 
+*Det satses stadig mer* på fornybar energi. → *There is an increasing focus* on renewable energy.
+
 miljøvennlig: environmental friendly
 
 å unngå / redusere utslipp →  to avoid/ reduce emissions
@@ -1193,6 +1201,8 @@ Vi må ta vare på kloden. → We must take care of the globe.
 
 ladestasjoner for elbiler → 电动车充电桩
 
+mange kommer til å feriere i eget land, i stedet for å fly jorda rundt. → 在国内度假
+
 Hva tenker dere om at ungdom streiker for miljøsaken?
 
 > Det virker at ungdom er ivrig<span style='color:red'>e etter å delta</span> ~~med deltakelse~~ i offentlig velferd og de andres velvære. Det er en positive tegn at ungdom ~~ha~~ <span style='color:red'>ta**r**</span> hensyn til andre. Selv om klimaendringer kanskje <span style='color:red'>ikke</span> påvirker ~~ikke~~ livene dere<span style='color:red'>**s**</span> direkte eller vesentlig, <span style='color:red'>streiker</span> de ~~streiker~~ for å gi en tankevekke<span style='color:red'>**r**</span> til politikere. <u>De bryr seg sterkt om</u> miljøet. Det gir håp for fremtida.
@@ -1213,7 +1223,11 @@ ___
 
 
 
+## Digital Hverdag
 
+
+
+## Folkehelse
 
 
 
