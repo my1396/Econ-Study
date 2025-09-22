@@ -415,7 +415,8 @@ Man kan se på som en positiv utvikling og et resultat av at ... → It can be v
 
 | Det <span style='color:#00CC66'>går kanskje ikke an</span> å gjøre noe. | It is not possible to do.             |
 | ------------------------------------------------------------ | ------------------------------------- |
-| det er større sannsynlighet for at …                         | there is a greater probability that … |
+| det er større *sannsynlighet* for at …                       | there is a greater probability that … |
+| antakelig                                                    | probably 可能                         |
 
 
 
@@ -545,6 +546,8 @@ i hvert fall, i alle fall
 i de fleste sammenheng → most likely
 
 *Jeg tror det er mange som meg.* → I think there are many like me.
+
+
 
 
 
@@ -795,7 +798,9 @@ Et *økende* antall nordmenn ønsker å ... → An increasing number of Norwegia
 
 *en vesentlig økning av* antall nordmenn over 80 → A significant increase in the number of Norwegians over 80
 
-A *går ned samtidig som* B øker → 伴随着 B 的上升，A 在下降
+A *går ned samtidig som* B *øker* → 伴随着 B 的上升，A 在下降
+
+… må *heves* → … must be improved
 
 å bli *redusert / kuttes* → to be reduced / cut
 
@@ -910,6 +915,8 @@ prisen å betale er ...
 
 nok: probably
 
+antelig
+
 
 
 **挑战，困难**
@@ -927,13 +934,21 @@ nok: probably
 
 *Den største delen* er ... (Note the triple definite form) → The largest part is ...
 
-Mesteparten av ... → Most of ...
-
 ... utgjør *den største delen*. 
 
-*En annen viktig del av* ... Another important part of ...
+*Mesteparten* av ... → Most of ...
 
-*Store deler av* ... Large parts of ...
+de fleste ... → most …
+
+*En annen viktig del av* ... → Another important part of ...
+
+*Store deler av* ... → Large parts of ...
+
+de *færreste* / et *fåtall* av … → few … (表否定，数量少)
+
+en håndful av … → a handful of …
+
+være sammensatt av … → be composed of; to consist of
 
 
 
@@ -1125,6 +1140,14 @@ Forskning viser at barn som er født sent på året, risikerer å bli skoletaper
 
 
 
+## Arbeidsliv
+
+kvinneperspektivet: 用于描述传统女性为主的专业，行业
+
+
+
+
+
 ___
 
 ## Kultur
@@ -1201,7 +1224,13 @@ Vi må ta vare på kloden. → We must take care of the globe.
 
 ladestasjoner for elbiler → 电动车充电桩
 
-mange kommer til å feriere i eget land, i stedet for å fly jorda rundt. → 在国内度假
+mange kommer til <span style='color:#00CC66'>å *feriere i eget land*</span>, i stedet for å fly jorda rundt. → 在国内度假
+
+utenlands: foreign, international 国外 (utenfor hjemmelandet)
+
+matvane 饮食习惯
+
+vegetarianer 素食者
 
 Hva tenker dere om at ungdom streiker for miljøsaken?
 
@@ -1228,6 +1257,68 @@ ___
 
 
 ## Folkehelse
+
+
+
+## Politikk
+
+| Norsk                  | English                 |
+| ---------------------- | ----------------------- |
+| likehet                | equality  公平          |
+| å *telle* like mye     | to count equally        |
+| å gjennomføre / utføre | to implement, carry out |
+
+
+
+
+
+## Lov
+
+Tingretten → Lagmannsretten → Høysterett
+
+district court → court of appeals → Supreme Court 
+
+
+
+| Norsk                   | English                                                   |
+| ----------------------- | --------------------------------------------------------- |
+| rettsikkerhet           | rule of law 法治                                          |
+| en tiltalt              | 被告 <br />注意与 tillate 的过去分词区别, bli tillatt å … |
+| være tiltalt for mord   | be charged with murder                                    |
+| å beskylde noen for noe | to accuse sb of sth                                       |
+| en forsvare             | 辩护律师                                                  |
+| justismord              | justice miscarriage                                       |
+| en krausjon             | bail, bond 保释金                                         |
+| å blie fengslet         | be imprisoned                                             |
+| å bli dømt til          | be sentenced …                                            |
+
+*Han ble beskyldt for å stjele penger.* → He was accused of stealing money.
+
+*Hun beskyldte meg for å lyve.* → She accused me of lying.
+
+*De beskyldte læreren for urettferdig behandling.* → They accused the teacher of unfair treatment.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

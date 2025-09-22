@@ -558,7 +558,7 @@ When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» is the <span style=
 
 «Der» 引导的关系从句
 
-When you add supportive / descriptive information about a <span style='color:#008B45'>*situation, place, time, or condition*</span>, you use **der**. 
+When you add supportive / descriptive information about a <span style='color:#00CC66'>*situation, place, time, or condition*</span>, you use **der**. 
 
 - Differentiate from «hvor». 
 
@@ -578,7 +578,7 @@ Ex of «**hvor**»: direct / indirect questions
 
 **Common mistake:** Learners often use *hvor* instead of *der* in relative clauses:
 
-❌ *en situasjon hvor studentene kan bruke …*
+❌ *en situasjon hvor studentene kan bruke …*  
 ✅ *en situasjon der studentene kan bruke …*
 
 
@@ -647,6 +647,28 @@ Would have done
    Kampen **har blitt** split på Senturm. (The match has been played at Sentrum.)
 
 
+
+**主动表被动**
+
+få 见 <a href="{{site.baseurl}}/2024/02/18/Norsk-Liv.html">Norsk Liv Språk</a> 
+
+Tillate, tillater, tillot, har tillatt
+
+1. **bli tillatt, er tillatt** → allowed to do; most common way, formal; 
+
+   *Det er tillatt å parkere her.* → Parking is allowed here.
+
+   *Det er ikke tillatt å røyke.* → Smoking is not allowed.
+
+2. **man tillater å** … → also means allowed to do sth; literary, old-fashioned
+
+   *Man tillater å bruke mobiltelefon i pausen.* → It is permitted to use mobile phones during the break.
+
+   *Man tillater ikke adgang uten billett.* → Entry without a ticket is not permitted.
+
+
+
+从属连词
 
 **Subjunksjon** (subordinating conjuction) is a little word that introduces a **leddsetning** (subordinate clause).
 
