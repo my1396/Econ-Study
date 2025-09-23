@@ -10,15 +10,15 @@ title: Norsk Skriftlig
 
 Utbygging av avsnit
 
-Temasetnning → Kommentarsetninger → Avsluttende setning
+Temasetning → Kommentarsetninger → Avsluttende setning
 
 <span style='color:#00CC66'>*For det første*</span> ... <span style='color:#00CC66'>*for det andre*</span> …  → Firstly ... secondly …
 
 I tillegg … ikke minst er det …
 
-På den enne siden …, mens på den annen siden …
+På den ene siden …, mens på den annen siden … (it is often used as på den andre siden; used more in spoken language)
 
-Til slutt … Kort oppsummert … Som nevt tidligere … Alt i alt mener jeg at … 
+Til slutt … Kort oppsummert … Som nevnt tidligere … Alt i alt mener jeg at … 
 
 
 
@@ -114,40 +114,89 @@ Use the following **mock exam** to practice before the actual exam:
 
 #### 🔹 1. Innledning (Introduction)
 
-- *I teksten blir det tatt opp spørsmålet om …*
-- *Dette er et aktuelt tema som mange har meninger om.*
-- *Jeg vil i denne teksten diskutere både fordeler og ulemper, og til slutt komme med min egen mening.*
+- *I teksten blir det tatt opp spørsmålet om …* → The text raises the question of …
+- *Dette er et aktuelt tema som mange har meninger om.* → This is a current topic that many have opinions about.
+- *Mange mener at …* → Many believe that …
+- *Noen hevder at …, mens andre mener at …* → Some argue that …, while others think that …
+- *Etter min mening bør vi …* → In my opinion, we should …
+- *Jeg vil i denne teksten diskutere både fordeler og ulemper, og til slutt komme med min egen mening.* → I will discuss both pros and cons, and end with my own opinion.
 
 ------
 
-#### 🔹 2. Argumenter for (Pros)
+#### 🔹 2. Argumenter for (Pros / reasons for)
 
-- *For det første …*
-- *Dessuten …*
-- *Et annet positivt aspekt er at …*
-- *Et eksempel på dette er …*
-- *Dette kan føre til at …*
+- *For det første …* → First of all …
+
+- *Dessuten …* → Furthermore / In addition …
+
+- *Et annet positivt aspekt er at …* → Another positive aspect is that …
+
+- *Hovedargumentet for … er at …* → The main argument for … is that …
+
+- *Dette betyr at …* → This means that …
+
+- *Et eksempel på dette er …* → An example of this is …
+
+- *Det kan føre til at …* → It can lead to … 
+
+- beneficial / contributes to / helps achieve sth
+
+  - *å legge til rette for* → to facilitate, to make possible, to create conditions for
+
+    Skolen bør legge til rette for at alle elever får delta i aktivitetene. → The school should facilitate that all students can participate in the activities.
+
+  - *bidra til* → contribute to, to help achieve
+
+    Regelmessig trening kan bidra til bedre helse. → Regular exercise can contribute to better health.
+
+  - *å fremme* utvikling / vekst / læring→ to promote, to advance
+
+    Myndighetene bør fremme likestilling mellom kvinner og menn. → Authorities should promote equality between women and men.
+
+  - *være til fordel for*… → to be beneficial for 
+
+    Det er til fordel for barn å ha foreldre som engasjerer seg i lekser. → It is beneficial for children to have parents who are involved in homework.
+
+  
 
 ------
 
-#### 🔹 3. Argumenter mot (Cons)
+#### 🔹 3. Argumenter mot (Cons  / reasons against)
 
-- *På den andre siden …*
-- *Likevel finnes det ulemper.*
-- *Et problem med dette er at …*
-- *Det kan også føre til at …*
-- *Noen mener dessuten at …*
+- *På den annen / andre side …* → On the other hand …
+- *Likevel finnes det ulemper …* → Nevertheless, there are disadvantages …
+- *Et problem med dette er at …* → A problem with this is that …
+- *Selv om noen …, varer effekten bare en kort periode.* → Even if some …, the effect lasts only a short time.
+- *Dette kan også føre til at …* → This can cause …
+- *Noen mener dessuten at …* → Some people also believe that …
+- *Det er motsatt av hva … ønsker.* → This is the opposite of what … wants.
 
 ------
 
-#### 🔹 4. Konklusjon (Conclusion)
+#### 🔹 4.  Suggesting alternatives / solutions
 
-- *Etter å ha sett på begge sider, mener jeg at …*
-- *Alt i alt synes jeg at …*
-- *Dermed konkluderer jeg med at …*
-- *Jeg forstår argumentene mot, men likevel mener jeg at …*
+Løsning
 
+- *I stedet for å …, kan det være bedre å …* → Instead of …, it may be better to …
+- *En mulig løsning er at …* → A possible solution is that …
+- *For å lette situasjonen* ... → To ease/alleviate the situation
+- *Det kan være praktisk å tillate …* → It may be practical to allow …
+- *Alternativt kan de …* → Alternatively, they can …
+- *Det er forståelig at …, men kanskje kan de …* → It is understandable that …, but maybe they can …
 
+___
+
+#### 🔹 5.  Konklusjon (Conclusion)
+
+- *Jeg forstår argumentene mot, men likevel mener jeg at …* → I understand the counterarguments, but nevertheless I think that …
+- *Dette hjelper både … og …, samtidig som …* → *This helps both … and …, while …*
+- *Etter å ha sett på begge sider, mener jeg at …* → After considering both sides, I believe that …
+- Som nevnt tidligere, … → As mentioned earlier, … 倒装
+
+- *På grunn av punktene <u>ovenfor</u> mener jeg at …* → *Because of the points above, I believe that …*
+- *Dermed konkluderer jeg med at …* → Therefore, I conclude that …
+- *Folk kan uansett ha god balanse mellom …* → *People can still have a good balance between …*
+- *Alt i alt synes jeg at …* → *All in all, I think …*
 
 ___
 
@@ -163,7 +212,7 @@ Etter min mening er det / bør vi  ...
 
 Derfor mener jeg at …
 
-Jeg ser for meg at ... I imagine/envision that ...
+Jeg ser for meg at ... → I imagine/envision that ...
 
 ut fra mitt perspektiv → From my perspective
 
@@ -203,7 +252,7 @@ svak, svakt, svake → weak, lame, poor;
 
 jeg har *liten forståelse* for … → I don't understand …
 
-
+litt 表肯定; liten 表否定
 
 #### Positive opinion:
 
@@ -212,12 +261,12 @@ Jeg er *tilhenger* av … → I am a supporter of … (不定冠词 en 可省略
 > Antonym  
 > Jeg er *motstander* av …  → I am an opponent of / oppsed of …  (strong and formal)
 
-Det er (veldig) synd at / hvis … → It is (very) unfortunate if …  / It is (really) a shame if … (Expresses **regret, disappointment, or sympathy** about a situation.)
+Det er (veldig) *synd* at / hvis … → It is (very) unfortunate if …  / It is (really) a shame if … (Expresses **regret, disappointment, or sympathy** about a situation.)
 
 > 注意此处 synd 作为 pity, shame 讲，不可数，<span class="env-orange">不用不定冠词 en</span>。  
 > en synd 意思为 a sin，表一种罪过。
 
-… skader ikke → it does not hurt to do …
+… *skader* ikke → it does not hurt to do …
 
 <span class="env-green">*kvaliteten og effektiviteten*</span> ved … blir bedre → the quality and efficiency with … will be better
 
@@ -231,61 +280,11 @@ Mitt inntrykk er at ... → my impression is that …
 
 
 
-### Introduction / referencing the topic
-
-- *I teksten blir det tatt opp spørsmålet om …* → The text raises the question of …
-- *Dette er et aktuelt tema som mange har meninger om.* → This is a current topic that many have opinions about.
-- *Mange mener at …* → Many believe that …
-- *Noen hevder at …, mens andre mener at …* → Some argue that …, while others think that …
-- *Etter min mening bør vi …* → In my opinion, we should …
-- *Jeg vil i denne teksten diskutere både fordeler og ulemper.* → I will discuss both pros and cons.
 
 
 
-### Presenting arguments (pros / reasons for)
-
-- *For det første …* → First of all …
-- *Dessuten …* → Furthermore / In addition …
-- *Et annet positivt aspekt er at …* → Another positive aspect is that …
-- *Hovedargumentet for … er at …* → The main argument for … is that …
-- *Dette betyr at …* → This means that …
-- *Et eksempel på dette er …* → An example of this is …
-- *Det kan føre til at …* → It can lead to …
 
 
-
-### Presenting counterarguments (cons / reasons against)
-
-- *På den annen side …* → On the other hand …
-- *Likevel finnes det ulemper …* → Nevertheless, there are disadvantages …
-- *Et problem med dette er at …* → A problem with this is that …
-- *Selv om noen …, varer effekten bare en kort periode.* → Even if some …, the effect lasts only a short time.
-- *Dette kan føre til at …* → This can cause …
-- *Det er motsatt av hva … ønsker.* → This is the opposite of what … wants.
-
-
-
-### Suggesting alternatives / solutions
-
-Løsning
-
-- *I stedet for å …, kan det være bedre å …* → Instead of …, it may be better to …
-- *En mulig løsning er at …* → A possible solution is that …
-- *For å lette situasjonen* ... → To ease/alleviate the situation
-- *Det kan være praktisk å tillate …* → It may be practical to allow …
-- *Alternativt kan de …* → Alternatively, they can …
-- *Det er forståelig at …, men kanskje kan de …* → It is understandable that …, but maybe they can …
-
-
-
-### Conclusion / summarizing opinion
-
-- *På grunn av punktene ovenfor mener jeg at …* → *Because of the points above, I believe that …*
-- *Dermed konkluderer jeg med at …* → Therefore, I conclude that …
-- *Dette hjelper både … og …, samtidig som …* → *This helps both … and …, while …*
-- *Folk kan uansett ha god balanse mellom …* → *People can still have a good balance between …*
-- *Alt i alt synes jeg at …* → *All in all, I think …*
-- Som nevnt tidligere, … → As mentioned earlier, … 倒装
 
 
 
@@ -303,11 +302,13 @@ Løsning
 
 **However** 
 
-> imidlertid; <span style='color:#00CC66'>likevel</span> (nonetheless); fremdeles (still); 
+> imidlertid (meanwhile); <span style='color:#00CC66'>likevel</span> (nonetheless); fremdeles (still); egentlig (actually);
+
+Han kan bli oppfattet som arrogant, men egentlig er han bare sjenert. → He can be perceived as arrogant, but he is just shy. 
 
 **Contrast**
 
-> derimot (on the contrary; however); på den andre siden; tvert imot (on the contrary; quite the opposite); derimot; 
+> derimot (on the contrary; however); på den annen / andre siden; tvert imot (on the contrary; quite the opposite);
 
 *For noen er … viktige argumenter for dette, mens andre er opptatt av …* → *For some, … are important reasons, while others care about …*
 
@@ -317,7 +318,7 @@ Løsning
 
 **In addition** (adding extra info)
 
-> i tillegg (til å); samtidig; <span style='color:#00CC66'>dessuten</span> (moreover); for øvrig; 
+> i tillegg (til å); <span style='color:#00CC66'>samtidig finnes det</span> …; <span style='color:#00CC66'>dessuten</span> (moreover); for øvrig; 
 
 **If**
 
@@ -327,7 +328,7 @@ Løsning
 
 > altså; <span style='color:#00CC66'>derfor</span>; dermed; 
 
-Because
+**Because**
 
 > Fordi; ettersom; 
 
@@ -416,7 +417,10 @@ Man kan se på som en positiv utvikling og et resultat av at ... → It can be v
 | Det <span style='color:#00CC66'>går kanskje ikke an</span> å gjøre noe. | It is not possible to do.             |
 | ------------------------------------------------------------ | ------------------------------------- |
 | det er større *sannsynlighet* for at …                       | there is a greater probability that … |
-| antakelig                                                    | probably 可能                         |
+| antakelig / antagelig                                        | probably 可能                         |
+| sannsynlig                                                   | likely                                |
+| trolig                                                       | likely                                |
+| nok                                                          | 也可作 probably 使用                  |
 
 
 
@@ -444,35 +448,35 @@ ___
 
 **How to use in B2 exam writing**
 
-1. ### General statement
+### 1. General statement
 
    **Ikke bare** *[verb + subject + rest]*, **men også** *[verb + subject + rest]*.
 
    > **Ikke bare** *gir dette bedre resultater*, **men også** *skaper det et mer motiverende læringsmiljø*.
    > *Not only does this give better results, but it also creates a more motivating learning environment.*
 
-2. ### Opinion with reason
+### 2. Opinion with reason
 
    **Ikke bare** *[verb + subject + rest]*, **men også** *[reason/consequence]*.
 
    > **Ikke bare** *er norsk viktig for studier i Norge*, **men også** *for å kunne delta aktivt i samfunnet*.
    > *Not only is Norwegian important for studying in Norway, but also for participating actively in society.*
 
-3. ### Comparison
+### 3. Comparison
 
    **Ikke bare** *[subject + verb + quality]*, **men også** *[subject + verb + another quality]*.
 
    > **Ikke bare** *er dette kurset praktisk*, **men også** *svært lærerikt*.
    > *Not only is this course practical, but it is also very educational.*
 
-4. ### Cause–effect emphasis
+### 4. Cause–effect emphasis
 
    **Ikke bare** *[cause]*, **men også** *[effect]*.
 
    > **Ikke bare** *øker fysisk aktivitet helsen*, **men også** *forbedrer den humøret*.
    > *Not only does physical activity improve health, but it also boosts mood.*
 
-5. ### Argument in debate
+### 5. Argument in debate
 
    **Ikke bare** *[point supporting your argument]*, **men også** *[additional strong point]*.
 
@@ -913,9 +917,9 @@ prisen å betale er ...
 
 
 
-nok: probably
 
-antelig
+
+
 
 
 
@@ -1011,6 +1015,17 @@ Det sosiale er viktigere enn hvordan man <span style='color:#00CC66'>presterer</
 | Norsk                                  | Engelsk                     |
 | -------------------------------------- | --------------------------- |
 | Jeg *bestemmer selv* mine mål i livet. | I decide my own life goals. |
+
+
+
+
+
+| dyd                   | 美德          |
+| --------------------- | ------------- |
+| beskjedenhet          | modesty       |
+| besluttsom /  bestemt | determined    |
+| personlig egenskap    | personality   |
+| sosiale egenskaper    | social skills |
 
 
 
@@ -1144,7 +1159,7 @@ Forskning viser at barn som er født sent på året, risikerer å bli skoletaper
 
 kvinneperspektivet: 用于描述传统女性为主的专业，行业
 
-
+husarbeid: housework
 
 
 
@@ -1262,11 +1277,12 @@ ___
 
 ## Politikk
 
-| Norsk                  | English                 |
-| ---------------------- | ----------------------- |
-| likehet                | equality  公平          |
-| å *telle* like mye     | to count equally        |
-| å gjennomføre / utføre | to implement, carry out |
+| Norsk                    | English                 |
+| ------------------------ | ----------------------- |
+| likehet                  | equality  公平          |
+| rettferdig / urettferdig | fair / unfair           |
+| å *telle* like mye       | to count equally        |
+| å gjennomføre / utføre   | to implement, carry out |
 
 
 

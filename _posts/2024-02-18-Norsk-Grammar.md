@@ -579,7 +579,7 @@ Ex of «**hvor**»: direct / indirect questions
 **Common mistake:** Learners often use *hvor* instead of *der* in relative clauses:
 
 ❌ *en situasjon hvor studentene kan bruke …*  
-✅ *en situasjon der studentene kan bruke …*
+✅ *en situasjon <span style='color:#00CC66'>der</span> studentene kan bruke …*
 
 
 
