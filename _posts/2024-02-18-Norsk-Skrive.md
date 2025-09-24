@@ -129,6 +129,8 @@ Use the following **mock exam** to practice before the actual exam:
 
 - *Dessuten …* → Furthermore / In addition …
 
+- … vil ha mange fordeler. → … will have mange benefits.
+
 - *Et annet positivt aspekt er at …* → Another positive aspect is that …
 
 - *Hovedargumentet for … er at …* → The main argument for … is that …
@@ -166,6 +168,8 @@ Use the following **mock exam** to practice before the actual exam:
 - *På den annen / andre side …* → On the other hand …
 
 - *Likevel finnes det ulemper …* → Nevertheless, there are disadvantages …
+
+- Samtidig finnes det utfordringer. → At the same time, there are challenges.
 
 - *Et problem med dette er at …* → A problem with this is that …
 
@@ -434,6 +438,8 @@ rett og slett → simply (need to do sth)
 det er i hvert fall *på sin plass* at …  → It is certainly fitting that …
 
 … har aldri vært mer viktig/trendy enn nå.  → … has never been more important/trendy than now.
+
+重要同义词: avgjørende
 
 
 
@@ -958,6 +964,7 @@ prisen å betale er ...
 
 | fullstendig | completely |
 | ----------- | ---------- |
+| ekstremt    | extremely  |
 
 
 
@@ -1222,17 +1229,84 @@ ___
 
 **Jantelov**
 
-Man må ikke stikke seg ut og være god til noe, og hvis man fremhever de beste, får man kritikk med en gang.
+Man må ikke stikke seg ut og være god til noe, og hvis man fremhever de beste, får man kritikk med en gang. → 主旨思想: 大家水平都要平均; 不支持优秀突出。
 
 
 
 ___
 
-**科技与生活**
+## Medier og teknologi
+
+科技与生活
 
 Teknologien har tatt over mange av arbeidsoppgavene på fabrikkene og byggeplassene.
 
+| Norsk               | English          |
+| ------------------- | ---------------- |
+| teknologi           | technology       |
+| kunstig intelligens | KI / AI 人工智能 |
 
+### <span style='color:#00CC66'>**KI**</span>
+
+Jeg bruker det nesten uten å tenke over det. → 说明一件事潜移默化的渗入日常生活中。
+
+Jeg har for eksempel en robutstøvsuger hjemme som tar seg av rengjøringen men jeg er på jobb. 
+
+Jeg har begynt å bruke AI til å organisere kalenderen min. Det hjelper meg med å holde oversikt over avtaler og oppgaver. Har du prøvd noe lignende?
+
+Jeg bruker en digital assisstent til å minne meg på ting som avtaler eller når jeg må betale regninger.
+
+Jeg kan sende meldninger ved å snakke med telefonen. Det er praktisk når jeg kjører. Og jeg kan også sette alarmer og påminnelser med stemmen, noe som gjør det enklere når jeg larger mat eller holder på med andre oppgaver samtig.
+
+Nåt det gjelder kunstig intelligens, hva tenker du om personver? ← beskymringene
+
+> Jeg er litt skeptisk til hvor mye informasjon disse systemene samler inn om oss. Vi må være forsiktig hva vi deler og med hvem, slik at vi kan beskytte oss selv. Jeg slår av lokalliseringstjenester når jeg ikke trenger dem.
+>
+> - lokalliseringstjennester / posisjontjenester
+
+Hvordan kunstig intelligens påvirker arbeidsmarkedet?
+
+> Det hjelper mye <span style='color:red'>~~for~~</span> <span style='color:#00CC66'>i</span> jobben min. Jeg underviser på tre kurs. Jeg bruker alltid <span style='color:red'>~~for~~ til</span> å lage slides and oppgaver for studenter. Jeg gir bare an instru<span style='color:red'>~~ct~~ksj~~i~~</span>on om hvilket tema<span style='color:red'>~~et~~</span> og <span style='color:red'>hvilken tekstbok~~a~~</span> jeg bruker, og AI er veldig effektivt med disse oppgaver.
+>
+> - lage læringsmateriellet
+>
+> AI reduserer vansklighet for å skrive <span style='color:red'>~~c~~k</span>ode. Alle kan program<span style='color:red'>mere</span> nå. Alle kan <span style='color:red'>gjøre</span> dataanalyse nå. Jeg trenger ikke å lære al<span style='color:red'>t</span>~~le~~ fra begynnelse<span style='color:red'>n</span>. Jeg bare forteller AI hva jeg skal gjøre, og AI <span style='color:red'>~~kan~~</span> skrive <span style='color:red'>~~c~~k</span>ode<span style='color:red'>n</span> for å utføre oppgavene. Det sparer mye tid for meg og gjør jobb <span style='color:red'>~~mye gøy~~ morsommere</span>.
+>
+> Selvfølgelig <span style='color:red'>~~er~~finnes</span> det ut<span style='color:red'>for</span>dringer også. Med utvikling<span style='color:red'>en</span> av AI, forsvinner <span style='color:red'>noen</span> jobb muligheter fordi AI kan gjøre nå oppgaver som <span style='color:red'>tidligere</span> må<span style='color:red'>tte</span> gjort av mennesker. For eksempel oversett<span style='color:red'>elser</span>. AI er så flink <span style='color:red'>~~med~~ til</span> å oversett<span style='color:red'>e</span>. <span style='color:red'>~~Du~~ Man</span> kan bruke det for å berbrede språket. Jeg bruker det alltid for å skrive <span style='color:red'>~~papir~~ artikler</span> og jeg tenker det er ekstremt <span style='color:red'>~~helpsomt~~ nyttig</span> <span style='color:red'>~~med~~ for</span> å lære norsk. Det kan rette tekste<span style='color:red'>~~r~~ene</span> min. Hvis jeg har spørsmål om grammatikk, <span style='color:red'>~~har~~</span> AI alltid <span style='color:red'>en</span> god forklaring.
+
+
+
+Noen jobber blir overflød. → Some jobs become redundant.
+
+> Oversettelse; sjåfør (selvgående biler); 
+
+Det kan skape mye muligheter. Vi må bare lære oss å jobbe med teknologien.
+
+Mennesker og kunstig intelligens jobber sammen for å oppnå bedre resultater. 
+
+
+
+What is irreplaceable about mennesker? → uerstattelig
+
+> Kompanjon; menneskelige kontakten og forståelsen (avhengig av kultor og bakgrunn);  
+>
+> lærere er uerstattelige, særlig når det gjelder å motivere og inspirere elevene.
+
+
+
+Hvordan tror du kunstig intelligens kan på virke arbeidet ditt i fremtiden?
+
+
+
+Hvilken ferdigheter tror du vil være viktige i arbeidet med kunstig intelligens?
+
+> Jeg tror det er flere ferdigheter som blir viktige når man jobber med kunstig intelligens. Først og fremst er det viktig å ha gode <span style='color:#00CC66'>**tekniske ferdigheter**</span>, som programmering og dataanalyse. Man må kunne forstå hvordan algoritmer fungerer og hvordan man kan bruke dem i praktiske løsninger.
+>
+> I tillegg er <span style='color:#00CC66'>**kritisk tenkning** og **problemløsning**</span> viktig, fordi man må kunne vurdere hvilke data som er relevante og hvilke resultater som gir mening. Kreativitet er også viktig, spesielt når man skal utvikle nye løsninger og finne nye bruksområder for AI.
+>
+> Til slutt tror jeg <span style='color:#00CC66'>**kommunikasjon** og **samarbeid**</span>  blir essensielt, fordi mange AI-prosjekter krever teamarbeid mellom teknikere, forskere og andre fagpersoner. Man må kunne forklare komplekse konsepter på en enkel måte til andre som ikke er eksperter.
+>
+> Alt i alt tror jeg en kombinasjon av **tekniske ferdigheter, analytisk tenkning, kreativitet og gode samarbeidsevner** vil være avgjørende i arbeidet med kunstig intelligens.
 
 
 
@@ -1240,7 +1314,7 @@ Teknologien har tatt over mange av arbeidsoppgavene på fabrikkene og byggeplass
 
 Hva synes dere om at man kan få utført en operasjon for å få et bedre utseende?
 
-> <span style='color:#00CC66'>Jeg ser på dette som et problem knyttet til</span> fri vilje. Selv om vi vil ikke forandre utseende vårt, må vi respektere andres valg. Jeg vil vise til Kardemomme-loven:
+> <span style='color:#00CC66'>Jeg ser på dette som et problem knyttet til</span> fri vilje. Selv om vi vil ikke forandre <u>utseende</u> vårt, må vi respektere andres valg. Jeg vil vise til Kardemomme-loven:
 >
 > «Mann skal ikke plage andre, man skal være grei og snill, og for øvrig kan man gjøre hva man vil.»
 >
@@ -1331,10 +1405,6 @@ ___
 Myndighetene prøver å begrense smitte av influensa. → The authorities try to limit the spread of influenza.
 
 
-
-
-
-## Digital Hverdag
 
 
 
