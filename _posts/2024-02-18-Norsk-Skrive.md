@@ -12,7 +12,7 @@ Utbygging av avsnit
 
 Temasetning → Kommentarsetninger → Avsluttende setning
 
-<span style='color:#00CC66'>*For det første*</span> ... <span style='color:#00CC66'>*for det andre*</span> …  → Firstly ... secondly …
+<span style='color:#00CC66'>*For det første*</span> (倒装) ... <span style='color:#00CC66'>*for det andre*</span> (倒装) …  → Firstly ... secondly …
 
 I tillegg … ikke minst er det …
 
@@ -164,12 +164,38 @@ Use the following **mock exam** to practice before the actual exam:
 #### 🔹 3. Argumenter mot (Cons  / reasons against)
 
 - *På den annen / andre side …* → On the other hand …
+
 - *Likevel finnes det ulemper …* → Nevertheless, there are disadvantages …
+
 - *Et problem med dette er at …* → A problem with this is that …
+
 - *Selv om noen …, varer effekten bare en kort periode.* → Even if some …, the effect lasts only a short time.
+
 - *Dette kan også føre til at …* → This can cause …
+
 - *Noen mener dessuten at …* → Some people also believe that …
+
 - *Det er motsatt av hva … ønsker.* → This is the opposite of what … wants.
+
+- Det risikerer at … → It risks that …
+
+  Det risikerer å gjøre noe → It risks of doing sth
+
+- Det *skaper unødvendige problemer* både for arbeidsplassen og for sammfunnet. → It creates unnecessary problems for both the working place and the society.
+
+- There is no point in doing …
+
+  - *Det er ikke noe poeng i å gjøre noe.*
+
+    Det er ikke noe poeng i å klage. → There is no point in complaining.
+
+  - *Det gir ingen mening å gjøre noe.*
+
+    Det gir ingen mening å starte nå. → There is no point in starting now.
+
+  - *Det er meningsløst å gjøre noe.*
+
+    Det er meningsløst å krangle om småting. → It is pointless to argue about small things.
 
 ------
 
@@ -178,6 +204,7 @@ Use the following **mock exam** to practice before the actual exam:
 Løsning
 
 - *I stedet for å …, kan det være bedre å …* → Instead of …, it may be better to …
+- *I stedet er det bedre å gjøre noe* → In stead, it is better to do …
 - *En mulig løsning er at …* → A possible solution is that …
 - *For å lette situasjonen* ... → To ease/alleviate the situation
 - *Det kan være praktisk å tillate …* → It may be practical to allow …
@@ -238,6 +265,8 @@ Jeg har virkelig ingen tro på at … → I don't believe sth
 
 Det provoserer meg at … → It provokes me that …
 
+*Jeg er helt <span style='color:#00CC66'>uenig i dette.</span>* → I completely disagree with that.
+
 *uaktuell* → out of the question 
 
 være *negativ* til at … → oppsed to or against sth; disapproval or disagreement
@@ -253,6 +282,8 @@ svak, svakt, svake → weak, lame, poor;
 jeg har *liten forståelse* for … → I don't understand …
 
 litt 表肯定; liten 表否定
+
+
 
 #### Positive opinion:
 
@@ -346,7 +377,7 @@ Han kan bli oppfattet som arrogant, men egentlig er han bare sjenert. → He can
 
 **Emphasis**
 
-> ikke minst (not least); faktisk (in fact) 
+> ikke minst (not least); faktisk (in fact); først og fremst (first and foremost; most important thing); 
 
 **For example**
 
@@ -356,9 +387,11 @@ Han kan bli oppfattet som arrogant, men egentlig er han bare sjenert. → He can
 
 **Sequence**
 
-> i begynnelsen … senere … til slutt (in the beginning … later … finally);
+> i begynnelsen … senere … til slutt (in the beginning … later … finally); deretter (after that); etterpå; 
 
+Indeed
 
+> faktisk; virkelig
 
 
 
@@ -448,39 +481,39 @@ ___
 
 **How to use in B2 exam writing**
 
-### 1. General statement
+1. **General statement**
 
    **Ikke bare** *[verb + subject + rest]*, **men også** *[verb + subject + rest]*.
 
-   > **Ikke bare** *gir dette bedre resultater*, **men også** *skaper det et mer motiverende læringsmiljø*.
+   > **Ikke bare** *gir dette bedre resultater*, **men også** *skaper det et mer motiverende læringsmiljø*.  
    > *Not only does this give better results, but it also creates a more motivating learning environment.*
 
-### 2. Opinion with reason
+2. **Opinion with reason**
 
-   **Ikke bare** *[verb + subject + rest]*, **men også** *[reason/consequence]*.
+   **Ikke bare** *[verb + subject + rest]*, **men også** *[reason / consequence]*.
 
-   > **Ikke bare** *er norsk viktig for studier i Norge*, **men også** *for å kunne delta aktivt i samfunnet*.
+   > **Ikke bare** *er norsk viktig for studier i Norge*, **men også** *for å kunne delta aktivt i samfunnet*.  
    > *Not only is Norwegian important for studying in Norway, but also for participating actively in society.*
 
-### 3. Comparison
+3. **Comparison**
 
    **Ikke bare** *[subject + verb + quality]*, **men også** *[subject + verb + another quality]*.
 
-   > **Ikke bare** *er dette kurset praktisk*, **men også** *svært lærerikt*.
+   > **Ikke bare** *er dette kurset praktisk*, **men også** *svært lærerikt*.  
    > *Not only is this course practical, but it is also very educational.*
 
-### 4. Cause–effect emphasis
+4. **Cause–effect emphasis**
 
    **Ikke bare** *[cause]*, **men også** *[effect]*.
 
-   > **Ikke bare** *øker fysisk aktivitet helsen*, **men også** *forbedrer den humøret*.
+   > **Ikke bare** *øker fysisk aktivitet helsen*, **men også** *forbedrer den humøret*.  
    > *Not only does physical activity improve health, but it also boosts mood.*
 
-### 5. Argument in debate
+5. Argument in debate
 
    **Ikke bare** *[point supporting your argument]*, **men også** *[additional strong point]*.
 
-   > **Ikke bare** *vil tiltaket redusere forurensningen*, **men også** *skape nye arbeidsplasser*.
+   > **Ikke bare** *vil tiltaket redusere forurensningen*, **men også** *skape nye arbeidsplasser*.  
    > *Not only will the measure reduce pollution, but it will also create new jobs.*
 
 小结：如果主语一致，第二个分句 (men også) 主语可以省略。如此便不需纠结 V2 原则。Ikke bare 则必须使用 V2 原则。
@@ -806,7 +839,11 @@ A *går ned samtidig som* B *øker* → 伴随着 B 的上升，A 在下降
 
 … må *heves* → … must be improved
 
-å bli *redusert / kuttes* → to be reduced / cut
+forbedre mental helse → improve mental health 
+
+å bli *redusert / kuttes* → to be reduced / cut 
+
+å minske → to lower 
 
 å *synke* → to sink 
 
@@ -917,6 +954,11 @@ prisen å betale er ...
 
 
 
+程度
+
+| fullstendig | completely |
+| ----------- | ---------- |
+
 
 
 
@@ -1016,16 +1058,17 @@ Det sosiale er viktigere enn hvordan man <span style='color:#00CC66'>presterer</
 | -------------------------------------- | --------------------------- |
 | Jeg *bestemmer selv* mine mål i livet. | I decide my own life goals. |
 
+være opptatt av tilbakemeldinger → bry seg om hva andre sier til deg在意别人想法
 
 
 
-
-| dyd                   | 美德          |
-| --------------------- | ------------- |
-| beskjedenhet          | modesty       |
-| besluttsom /  bestemt | determined    |
-| personlig egenskap    | personality   |
-| sosiale egenskaper    | social skills |
+| dyd                   | 美德                 |
+| --------------------- | -------------------- |
+| beskjedenhet          | modesty              |
+| besluttsom /  bestemt | determined           |
+| personlig egenskap    | personality          |
+| sosiale egenskaper    | social skills        |
+| jordnær               | realistic, pragmatic |
 
 
 
@@ -1161,6 +1204,16 @@ kvinneperspektivet: 用于描述传统女性为主的专业，行业
 
 husarbeid: housework
 
+arbeidstakere / ansatte: employees
+
+arbeidssøkere: jobb seekers
+
+arbeidsgivere: employers
+
+søknadsbrev: application letter
+
+
+
 
 
 ___
@@ -1264,6 +1317,20 @@ ___
 å bli rammet av ...
 
 *å stenge ned*  → shut down, lock down
+
+å smitte 
+
+1. verb. to infect
+
+   å hindre / begrense / unngå smitte: to avoid infection
+
+2. noun. infection, contagion
+
+   Han smittet mange andre med forkjølelse. → He infected many others with a cold.
+
+Myndighetene prøver å begrense smitte av influensa. → The authorities try to limit the spread of influenza.
+
+
 
 
 
