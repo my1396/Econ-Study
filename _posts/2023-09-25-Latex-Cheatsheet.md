@@ -73,14 +73,14 @@ Sometimes, hat or bar symbols look too light. You might want a bolder version of
 | :----------------------------------------------------------- | :-------------------------------------------------- | :---------------------------------------------------- |
 | Plain                                                        | `\begin{matrix}1 & 2 & 3\\ a & b & c\end{matrix}`   | $$\begin{matrix}1 & 2 & 3\\ a & b & c\end{matrix}$$   |
 | Parentheses; round brackets                                  | `\begin{pmatrix}1 & 2 & 3\\ a & b & c\end{pmatrix}` | $$\begin{pmatrix}1 & 2 & 3\\ a & b & c\end{pmatrix}$$ |
-| <span style='color:#008B45'>Brackets</span>; square brackets | `\begin{bmatrix}1 & 2 & 3\\ a & b & c\end{bmatrix}` | $$\begin{bmatrix}1 & 2 & 3\\ a & b & c\end{bmatrix}$$ |
+| <span style='color:#00CC66'>Brackets</span>; square brackets | `\begin{bmatrix}1 & 2 & 3\\ a & b & c\end{bmatrix}` | $$\begin{bmatrix}1 & 2 & 3\\ a & b & c\end{bmatrix}$$ |
 | Braces; curly brackets                                       | `\begin{Bmatrix}1 & 2 & 3\\ a & b & c\end{Bmatrix}` | $$\begin{Bmatrix}1 & 2 & 3\\ a & b & c\end{Bmatrix}$$ |
 | Pipes                                                        | `\begin{vmatrix}1 & 2 & 3\\ a & b & c\end{vmatrix}` | $$\begin{vmatrix}1 & 2 & 3\\ a & b & c\end{vmatrix}$$ |
 | Double pipes                                                 | `\begin{Vmatrix}1 & 2 & 3\\ a & b & c\end{Vmatrix}` | $$\begin{Vmatrix}1 & 2 & 3\\ a & b & c\end{Vmatrix}$$ |
 
 Note: 
 
-- <span style='color:#008B45'>`\\`</span> for <span style='color:#008B45'>row</span> break, <span style='color:#008B45'>`&`</span> for <span style='color:#008B45'>column</span> separation.
+- <span style='color:#00CC66'>`\\`</span> for <span style='color:#00CC66'>row</span> break, <span style='color:#00CC66'>`&`</span> for <span style='color:#00CC66'>column</span> separation.
   - sometimes `\\` doesn't work in cloumn vectors, use `\cr` instead.
 
 
@@ -263,11 +263,11 @@ $$
 
 **Note:** 
 
-- use `\vert` or `\mid` ($\vert$) to show a pipe operator, otherwise <span style='color:#008B45'>Markdown recognizes it as a table column separator</span> in inline equations (block equations enclosed in `$$...$$` works fine though). 
+- use `\vert` or `\mid` ($\vert$) to show a pipe operator, otherwise <span style='color:#00CC66'>Markdown recognizes it as a table column separator</span> in inline equations (block equations enclosed in `$$...$$` works fine though). 
 
-  - `\lVert` and `\rVert` ($\rVert$) used to take the <span style='color:#008B45'>norm</span> of a vector;
+  - `\lVert` and `\rVert` ($\rVert$) used to take the <span style='color:#00CC66'>norm</span> of a vector;
 
-  - `\lvert` and `\rvert` ($\lvert$) used to take <span style='color:#008B45'>absolute value</span> of real numbers and modulus of complex numbers;
+  - `\lvert` and `\rvert` ($\lvert$) used to take <span style='color:#00CC66'>absolute value</span> of real numbers and modulus of complex numbers;
 
     The issue with `\vert` is that it does not deal with the space around *binary operators* such as `+` and `-`. See examples as follows.
 
@@ -279,7 +279,7 @@ $$
   
     
   
-  - `\mid` is often used as delimitor, $\{a\in S \mid \text{\(a=0\) or \(a\) is odd}\}$; $\mid$ in set theory means "such that", to introduce properties of the set; in probability, meaning <span style='color:#008B45'>conditional on</span>;
+  - `\mid` is often used as delimitor, $\{a\in S \mid \text{\(a=0\) or \(a\) is odd}\}$; $\mid$ in set theory means "such that", to introduce properties of the set; in probability, meaning <span style='color:#00CC66'>conditional on</span>;
   
   - `\mid` is also used to divide numbers. $4 \mid 12=3$, meaning $\text{\(4\) divides \(12\)}$. $a \mid b$ meaning $b$ is completely divisible by $a$. E.g., 
     $$
@@ -357,9 +357,9 @@ $$
 
 
 
-- Text above arrows. $\xrightarrow{d}$ <span style='color:#008B45'>`\xrightarrow{d}`</span> convergence in distribution.
+- Text above arrows. $\xrightarrow{d}$ <span style='color:#00CC66'>`\xrightarrow{d}`</span> convergence in distribution.
 
-  If you want to use a longer arrow, you can use <span style='color:#008B45'>`\overset`</span>: $\overset{d}{\longrightarrow}$ (`\overset{d}{\longrightarrow}`).
+  If you want to use a longer arrow, you can use <span style='color:#00CC66'>`\overset`</span>: $\overset{d}{\longrightarrow}$ (`\overset{d}{\longrightarrow}`).
 
 - $n\to\infty$  (`n\to\infty`): as $n$ approximates to infinity.
 
@@ -391,7 +391,7 @@ Summation operators: $\displaystyle\sum_{i=1}^n$ (`\displaystyle\sum_{i=1}^n`) v
 
 
 
-### Differtials
+### Differentials
 
 Display shows eqns in block, text style shows inline.
 
@@ -465,7 +465,7 @@ On mac, use `Shift+Opt+9` to type `·`
 
 $\arccos$, $\arcsin$, $\arctan$, $\cos$, $\cosh$, $\cot$, $\coth$, $\sec$, $\sin$, $\sinh$, 
 
-$\deg$, $\det$, $\dim$, ${\color{#008B45}\exp}$, $\gcd$, $\hom$, $\injlim$, $\projlim$, 
+$\deg$, $\det$, $\dim$, ${\color{#00CC66}\exp}$, $\gcd$, $\hom$, $\injlim$, $\projlim$, 
 
 $\lim$, $\liminf$, $\limsup$, 
 
@@ -503,7 +503,7 @@ $\sup$, $\inf$
 
   - $\exp \\{-\frac{1}{2}\left(\frac{x-\mu}{\sigma^2}\right)^2 \\}$ (`\exp \\{-\frac{1}{2}\left(\frac{x-\mu}{\sigma^2}\right)^2 \\}`)
 
-  - If still encounter problems, use `\lbrace` and `\rbrace`: $\exp \lbrace \ldots \rbrace$ (`\exp \lbrace \ldots \rbrace`) and $\lbrace Z_t \rbrace_{t=0}^T$ (`\lbrace Z_t \rbrace_{t=0}^T`). This is the <span style='color:#008B45'>**safest**</span> way.
+  - If still encounter problems, use `\lbrace` and `\rbrace`: $\exp \lbrace \ldots \rbrace$ (`\exp \lbrace \ldots \rbrace`) and $\lbrace Z_t \rbrace_{t=0}^T$ (`\lbrace Z_t \rbrace_{t=0}^T`). This is the <span style='color:#00CC66'>**safest**</span> way. 
 
   - Use `\left\lbrace` and `\right\rbrace` if you want to scale the braces with the expression inside. This is called "dynamic delimiter sizing."
 
@@ -550,7 +550,7 @@ $\sup$, $\inf$
 
 **Colored math symbols**
 
-`${\color{#008B45}\exp}$` ${\color{#008B45}\exp}$ Need to quote the part you want to color in curly braces; otherwise, everything behind will change color too.
+`${\color{#00CC66}\exp}$` ${\color{#00CC66}\exp}$ Need to quote the part you want to color in curly braces; otherwise, everything behind will change color too.
 
 
 

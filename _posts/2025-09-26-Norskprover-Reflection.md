@@ -1,0 +1,47 @@
+---
+layout: post
+tag: Norsk
+title: Norskprøver B2
+update: 2025-09-26
+---
+
+24 和 25 号两天参加了挪威语 B2 级别的 Norskprøver。总结一下心得。
+
+首先是考试系统。非常原始的系统，大概请我去做一下都能做一个功能跟完备的系统。不能想象系统竟然会没有倒计时功能，考试时间到了也不会自动交卷。非常需要 "人工" 智能的干预。有考试监考员提示倒计时15分钟，5分钟，到时候要交卷了。非常可笑。
+
+比较欣慰的点是，听力可以用自己的耳机。一开始我的耳机因为接口问题，连不上。监考员过来帮我连了蓝牙。非常感激这位监考员。
+
+接下来对考试内容做一些总结。
+
+## 听力
+
+- 没有足够时间阅读题目和选项。阅读太慢了。
+- 方言的问题。适应不同方言。
+
+## 阅读
+
+- 时间上是够的 75 min 足够完成所有题目
+- 挺多不认的单词的，继续阅读，继续积累。
+
+## 口语
+
+话题大概有以下几种：
+
+1. sosiale medier; mobiltelefon
+   
+   Bør vokser og barn ha mobiltelefon?
+2. utdanning
+   
+   Negativ og positiv med høy utdanning
+3. kultur
+   
+   Tror du at nordmenn har lite kontakt med innvandrere?
+4. arbeidsliv
+   
+   balanse mellom jobb og fritid
+
+
+
+## 写作
+
+So easy. 90 min 即可完成。
