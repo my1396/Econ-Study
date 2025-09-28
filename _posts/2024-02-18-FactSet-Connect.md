@@ -6,19 +6,21 @@ title: Connect to FactSet
 
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
+## Overview
+
 **Steps overview to set up FactSet**:
 
 <ol>
-<li> Accept the invitation from FactSet. 
+<li> <strong>Accept the invitation from FactSet.</strong><div style="height:7px;"><br></div>
 <img src="https://drive.google.com/thumbnail?id=1mIURDf2KsAGCs7OgWDLuciSACUAeCAVA&sz=w1000" alt="invitation" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
 </li>
-<li>  Whitelist your IP address in the FactSet <a href="https://controlcenter.factset.com/enterprise-data/cloud-credentials">Control Center</a>. 
+<li> <strong>Whitelist your IP address in the FactSet <a href="https://controlcenter.factset.com/enterprise-data/cloud-credentials">Control Center</a>.</strong> <div style="height:7px;"><br></div>
 <img src="https://drive.google.com/thumbnail?id=1sn8lGriU_wuDikhrJDrz_yWjjlNyvzau&sz=w1000" alt="Whitelist IP" style="display: block; margin-right: auto; margin-left: auto; zoom:100%;" />
 </li>
   Remember to click "Save All Changes"!
 
-<li>  Install Microsoft ODBC SQL driver. </li>
-<li>  Install Azure Data Studio to connect to the SQL database.
+<li> <strong>Install Microsoft ODBC SQL driver. </strong></li>
+<li> <strong>Install Azure Data Studio to connect to the SQL database.</strong>
 
    <ol type="pa"> 
    <li> Alternatively, could use Python Programmatic Access. Need to install <code>pyodbc</code> to manage the connection. </li>

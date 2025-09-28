@@ -883,7 +883,9 @@ table {
   display: block;
   white-space: nowrap;
 }
-
+table {
+  border: none !important; /* remove border frame surrounding the whole table */
+}
 @media screen and (min-width: 1201px) {
   table {
     display: table;

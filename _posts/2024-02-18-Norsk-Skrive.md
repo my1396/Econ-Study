@@ -177,6 +177,8 @@ Use the following **mock exam** to practice before the actual exam:
 
 - *Dette kan også føre til at …* → This can cause …
 
+- … kan gå utover … → to affect negatively; to harm;
+
 - *Noen mener dessuten at …* → Some people also believe that …
 
 - *Det er motsatt av hva … ønsker.* → This is the opposite of what … wants.
@@ -767,12 +769,22 @@ Tor og Ed har **annerledes** biler. $\rightarrow$ Alle de andre vennene har Toyo
 | gjennomsnittlig                                     | 1. adj. average, ordinary *den gjennomsnittlige elev*  <br />2. adv. on the average *prisen er gjennomsnittlig 10 kr per kilo* |
 
 
+--------------------------------------------------------------------------------
+
 
 **People**
 
 man, folk
 
-personer, mennesker, innbyggerne
+personer, mennesker, 
+
+| norsk     | English                                                      |
+| --------- | ------------------------------------------------------------ |
+| innbygger | inhabitant, refer to general population                      |
+| borger    | citizen, refer to legal rights, duties, and political belongings |
+| beboere    | resident of a specific place, like a house, apartment building; |
+
+
 
 befolkningen (population)
 
@@ -787,6 +799,16 @@ befolkningen (population)
 
 
 
+
+
+
+
+
+**程度**
+
+| fullstendig | completely |
+| ----------- | ---------- |
+| ekstremt    | extremely  |
 
 
 **Very**
@@ -804,20 +826,19 @@ veldig, svært, skikkelig, ganske, spesielt,
 *blir rammet av noe* (negative) impacts; be affected/bit by
 
 
-
-
-
+--------------------------------------------------------------------------------
 
 
 ### 时间的表述
 
-| English                                | Norsk              | 中文             |
-| -------------------------------------- | ------------------ | ---------------- |
-| In the last few years                  | i *de siste årene* | 最近几年         |
-| recently, lately                       | i det siste        | 最近             |
-| Earlier / Previously / In the past ... | Tidligere ...      | 以前，过去，早先 |
-| Two years ago                          | For to år siden    | 两年前           |
-| on the long/short term                 | på lang/kort sikt  |                  |
+| Norsk              | English                                | 中文             |
+| ------------------ | -------------------------------------- | ---------------- |
+| i *de siste årene* | In the last few years                  | 最近几年         |
+| i det siste        | recently, lately                       | 最近             |
+| Tidligere ...      | Earlier / Previously / In the past ... | 以前，过去，早先 |
+| For to år siden    | Two years ago                          | 两年前           |
+| på lang/kort sikt  | on the long/short term                 |                  |
+
 
 
 
@@ -957,15 +978,6 @@ At innbyggene i Norge kan <u>velge fritt</u> (choose freely) blant offentlige el
 **代价**
 
 prisen å betale er ...
-
-
-
-程度
-
-| fullstendig | completely |
-| ----------- | ---------- |
-| ekstremt    | extremely  |
-
 
 
 
@@ -1162,6 +1174,48 @@ sette noe høyt; verdsette noe høyt;
 
 
 
+**学习压力过大**
+
+> Jeg blir helt fortvilet over de kravene som stilles til elevene i dagens samfunn.  
+> Det unge utsettes for så mye press fra alle kanter at det til slutt kan komme til å gå utover den psykiske helsa.
+>
+> - å bli fortvitlet over: be desparate about …
+> - å utsettes for så mye press: to undergo so much stress
+> - å gå utover noe: to negatively affect sth
+
+> Det forventes hele tiden at folk skal være så vellykka, de skal være flinke på skolen, best i idrett, ta seg godt ut og være populære.
+>
+> - vellykket / vellykka: successful
+
+超多考试
+
+> Hver fredag har klassen ukeprøve, og ofte har de både innleveringer og fagprøver i tillegg.  
+> Dessuten har vi de nasjonale prøvene, som er ment til kartlegging, men som brukes til et resultatjag uten sidestykke.  
+> Det testregimet som vi ser i skolen i dag er helt ekstremt.  
+> Det virker nesten som om de har glemt at ungdommene også skal lære andre ting enn fag på skolen.
+
+
+
+**å lære vs. lære seg**
+
+- Use **lære** when it’s general learning or teaching.
+
+  **Læreren lærer bort matematikk til elevene.**  → The teacher teaches math to the students.
+
+  **Jeg lærer norsk på skolen.**  → I am learning Norwegian at school.
+
+  **Han lærte mye på kurset.**  → He learned a lot in the course.
+
+- Use **lære seg** when you mean *practically acquire a skill by yourself*.
+
+  **Jeg lærte meg å spille gitar.** → I taught myself / learned to play the guitar.
+
+  **Hun har lært seg å lage italiensk mat.** → She has learned (acquired the skill of) making Italian food.
+
+  **Vi må lære oss å bruke det nye systemet.** → We need to learn how to use the new system (and actually be able to do it).
+
+
+
 ___
 
 ## Opplæring og utdanning
@@ -1245,6 +1299,13 @@ Teknologien har tatt over mange av arbeidsoppgavene på fabrikkene og byggeplass
 | ------------------- | ---------------- |
 | teknologi           | technology       |
 | kunstig intelligens | KI / AI 人工智能 |
+| skjermtid           | screen time      |
+
+
+
+>  Da synes jeg at det er viktigere at barna lærer <span style='color:#00CC66'>god bruk av kilder og å være kildekritiske</span>. Det digitale kan ikke gå på bekostning av ekte bøker.
+
+
 
 ### <span style='color:#00CC66'>**KI**</span>
 
@@ -1410,6 +1471,14 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 
 ## Folkehelse
 
+| norsk | English |
+| ----- | ------- |
+| hals  | throat  |
+
+
+
+
+
 
 
 ## Politikk
@@ -1422,6 +1491,10 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 | å gjennomføre / utføre   | to implement, carry out |
 
 
+
+## Borettslag
+
+Dette er et så fint *nabolag*. → This is such a nice neighborhood.
 
 
 

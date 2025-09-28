@@ -203,27 +203,27 @@ IKKE: ~~Bilen er dyre.~~ ❌
 
 Bilen er dy. ✅ (The car is expensive)
 
-**形容词作为<span style='color:#00CC66'>表语</span>**不用 definite form，但是需要根据性别和数量变格。
+**形容词作为<span style='color:#00CC66'>表语</span>**<span style='color:#FF9900'>不用 definite form</span>，但是需要<span style='color:#00CC66'>根据性别和数量变格</span>。
 
 <table>
   <tr>
     <td>Masc.</td>
-    <td>Bilen er stor.</td>
+    <td><span style='color:#00CC66'>Bilen er stor.</span></td>
     <td>The car is big.</td>
   </tr>
   <tr>
     <td>Fem.</td>
-    <td>Hytta er stor.</td>
+    <td><span style='color:#00CC66'>Hytta er stor.</span></td>
     <td>The cottage is big.</td>
   </tr>
   <tr>
     <td>Neut.</td>
-    <td>Huset er stort.</td>
+    <td><span style='color:#00CC66'>Huset er stort.</span></td>
     <td>The house is big.</td>
   </tr>
   <tr>
     <td rowspan=3>Plural</td>
-    <td>Bilene er store.</td>
+    <td><span style='color:#00CC66'>Bilene er store.</span></td>
     <td>The cars are big.</td>
   </tr>
   <tr>
@@ -235,6 +235,7 @@ Bilen er dy. ✅ (The car is expensive)
     <td>The houses are big.</td>
   </tr>
 </table>
+
 
 
 
@@ -325,22 +326,22 @@ Hverdagen 为 definite form, singular masuline, 对应的 possessive pronoun 应
 
 <https://norsksidene.no/web/PageND.aspx?id=99215>
 
-**Possessive pronouns**
+**Possessive pronouns** 所有格
 
 只有 Min (我), Din (你), 和 Vår (我们) 有变形。Hans (他), hennes (她), deres (你们，他们) 没有变形。
 
-|                         | English                | **Masculine Gender** | Feminine Gender   | Neuter Gender       | Plural              |
-| ----------------------- | ---------------------- | -------------------- | ----------------- | ------------------- | ------------------- |
-| **1st person singular** | *My; mine*             | Min                  | Mi                | Mitt                | Mine                |
-| **2nd person singular** | *Your; yours*          | Din                  | Di                | Ditt                | Dine                |
-| **3rd person singular** | *His*                  | Hans / sin*          | Hans / si*        | Hans / sitt*        | Hans / sine*        |
-|                         | *Her; hers*            | Hennes / sin*        | Hennes / si*      | Hennes / sitt*      | Hennes / sine*      |
-|                         | *Its*                  | Dens / dets / sin*   | Dens / dets / si* | Dens / dets / sitt* | Dens / dets / sine* |
-| **1st person plural**   | *Our; ours*            | Vår                  | Vår               | Vårt                | Våre                |
-| **2nd person plural**   | *Your; yours (plural)* | Deres                | Deres             | Deres               | Deres               |
-| **3rd person plural**   | *Their; theirs*        | Deres                | Deres             | Deres               | Deres               |
+|                                                            | English                | **Masculine Gender** | Feminine Gender   | Neuter Gender       | Plural              |
+| ---------------------------------------------------------- | ---------------------- | -------------------- | ----------------- | ------------------- | ------------------- |
+| **1st person <span style='color:#00CC66'>singular</span>** | *My; mine*             | Min                  | Mi                | Mitt                | Mine                |
+| **2nd person <span style='color:#00CC66'>singular</span>** | *Your; yours*          | Din                  | Di                | Ditt                | Dine                |
+| **3rd person <span style='color:#00CC66'>singular</span>** | *His*                  | Hans / sin*          | Hans / si*        | Hans / sitt*        | Hans / sine*        |
+|                                                            | *Her; hers*            | Hennes / sin*        | Hennes / si*      | Hennes / sitt*      | Hennes / sine*      |
+|                                                            | *Its*                  | Dens / dets / sin*   | Dens / dets / si* | Dens / dets / sitt* | Dens / dets / sine* |
+| **1st person <span style='color:#00CC66'>plural</span>**   | *Our; ours*            | Vår                  | Vår               | Vårt                | Våre                |
+| **2nd person <span style='color:#00CC66'>plural</span>**   | *Your; yours (plural)* | Deres                | Deres             | Deres               | Deres               |
+| **3rd person <span style='color:#00CC66'>plural</span>**   | *Their; theirs*        | Deres                | Deres             | Deres               | Deres               |
 
-\* The easiest way to know if you should use “sin, si, sitt, sine” (reflective possessives, 她/他/它(们)自己的，只有第三人称有反身代词) is ask yourself if “own” can be inserted into the sentence in English and make sense.
+\* The easiest way to know if you should use <span style='color:#00CC66'>“sin, si, sitt, sine”</span> (reflective possessives, 她/他/它(们)自己的，只有第三人称有反身代词) is ask yourself if “own” can be inserted into the sentence in English and make sense.
 
 
 
