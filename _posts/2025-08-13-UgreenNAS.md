@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ugreen NAS Setup
+title: Ugreen NAS Guide
 tag: programming
 update: 2025-08-14
 ---
@@ -17,6 +17,9 @@ Useful resources:
 
 Q: What is my NAS IP? \
 A: "控制面板"中，找到【网络设置】，点击【网络连接】。可以查看到当前分配给 NAS 设备的 IP 地址。E.g., my IP: `10.0.0.7`.
+
+Q: Which model is my NAS?  
+A: 打开【控制面板】→ 点击系统服务中【关于本机】，可以查看到 NAS 的型号和序列号。我的型号为 `DXP2800`.
 
 ## 设置用户
 
@@ -279,7 +282,42 @@ ref: [文件版本管理](https://support.ugnas.com/#/detail/eyJpZCI6MjgxLCJ0eXB
 
 5. 文档分享和导出: 可将文档分享给他人，或导出为本地文件
 
+Issue: 在线文档不支持移动设备端，ipad, 手机等，只能在电脑端使用。
 
+--------------------------------------------------------------------------------
+
+## 家庭相册
+
+1. 打开应用中心，下载并安装【相册】应用。
+2. 两种选项
+    
+   <ol type='pi'>
+      <li><strong>邀请好友上传</strong>
+        <p>上传者无需登录 NAS 账号，打开链接即可上传照片和视频。此方案适合快速 <span class="env-green">收集亲友拍摄的照片</span> 和视频，而朋友无须查看共享相册中的内容。</p>
+        <p>新建一个相册，点击右上角【···】更多，选择【邀请好友上传】。</p>
+        <img src="https://www.ugnas.com/file/collection/2025072115452881.webp" alt="" style="display: block; margin: 0 auto; zoom:50%;" />
+      </li>
+      <li><span class="env-green" style="font-weight:bold;">共享相册</span>
+        <p>好友需下载绿联云 App 并登录 NAS 账号。<br>
+        登录后可浏览、下载、上传照片和视频。此方案是一个共享文件夹，适合亲友之间共享和管理照片和视频。</p>
+        <p>点击菜单栏的 ⛭ 进入设置页面 → 选择 【共享图库】→ 在访问权限下，点击【设置权限】，可添加用户。</p>
+      </li>
+    </ol>
+
+
+
+**备份相册**
+
+IOS设备的文件夹选择：iOS目前只支持备份“相簿” (Albums) 中的内容，包括以下几类：最近项目、自己创建的相簿、第三方应用创建的相簿、共享相簿、来自Mac的相簿（注意：这个选项只有在关闭 iCloud 时才会显示）。 勾选需要备份的相簿后，点击“确定”即可完成设置。
+
+
+
+
+**绿联知识中心: **
+
+- [将手机相片备份到绿联云](https://support.ugnas.com/knowledgecenter-h5/#/articleDetail?articleInfoId=480&clientType=MOBILE)
+- [邀请好友上传相片](https://support.ugnas.com/knowledgecenter-h5/#/articleDetail?custom=eyJ0eXBlIjoidGFnMDAyIiwibGFuZ3VhZ2UiOiJ6aC1DTiIsImlkIjoxMDg3LCJhcnRpY2xlSW5mb0lkIjozNjcsImNsaWVudFR5cGUiOiJQQyIsImFydGljbGVWZXJzaW9uIjoiIiwicGF0aENvZGUiOiIifQ%3D%3D)
+- [共享图库权限设置](https://support.ugnas.com/knowledgecenter/#/detail/eyJpZCI6MzQ0LCJ0eXBlIjoidGFnMDAxIiwicGF0aENvZGUiOiJwcm8wMDIsZXVrZmptLGtrZ3R6YiIsImxhbmd1YWdlIjoiemgtQ04iLCJjbGllbnRUeXBlIjoiUEMiLCJhcnRpY2xlVmVyc2lvbiI6IiJ9)
 
 
 

@@ -45,6 +45,13 @@ DataCamp Classrooms grant full Teams access for six months for all members of th
 Furthermore, DataCamp Classrooms accounts and their members gain access to an upgraded version of DataLab with more 2xCPU and 4 GB RAM and full access to DataCamp Certification and DataCamp Jobs.
 
 
+___
+
+## Google Colab
+
+Go to the main page of [Google Colab](https://colab.research.google.com/), then upload your local `.ipynb` file. This will create a copy of the notebook in your Google Drive and the file is opened by Google Colab by default. Successfully recognized file will show an icon <img src="{{site.baseurl}}/images/google-colab.svg" alt="" style="zoom:80%;" /> before file names.
+
+If you directly upload to Google Drive, you need to right-click on the file, then choose "Open with" > "Google Colaboratory". This creates issues when you share the file with others. They will see a bunch of json code until they choose to "Open with" > "Google Colaboratory".
 
 ___
 
@@ -235,7 +242,7 @@ A: Visual Studio Code supports refactoring operations (*refactorings*) such as [
 
 ___
 
-### Snippets
+### Code Snippets
 
 Snippets files are written in JSON, support C-style comments (`//`), and can define an *unlimited number* of snippets. Snippets support most TextMate syntax for dynamic behavior, intelligently format whitespace based on the insertion context, and allow easy multiline editing.
 
@@ -276,7 +283,11 @@ Create your own snippets: `Code` > `Settings` > `Configure Snippets`
 
   `scope` optional property that takes one or more [language identifiers](https://code.visualstudio.com/docs/languages/identifiers), which makes the snippet available only for those specified languages. If no `scope` property is given, then the global snippet is available in **all** languages.
 
-- Use `$1`, `$2` to specify cursor locations. The number is the order in which tabstops will be visited, whereas `$0` denotes the final cursor position. 
+**Rules for Body:**
+
+- Enclosed in an array of strings. Each entry in the array represents one line of the inserted snippet.
+
+- Use `$1`, `$2` to specify cursor locations. The number is the order in which tabstops will be visited, whereas `$0` denotes the <span class="env-green">final cursor position</span>. 
 
   The `body` of the example above has three placeholders (listed in order of traversal): `${1:array}`, `${2:element}`, and `$0`. You can quickly jump to the next placeholder with <kbd>Tab</kbd>.
 
@@ -290,7 +301,9 @@ Create your own snippets: `Code` > `Settings` > `Configure Snippets`
 
   - <span style='color:#008B45'>`TM_SELECTED_TEXT`</span> The currently selected text or the empty string.
 
--  With `\` (backslash), you can escape `$`, `}`, and `\`. 
+- Escape specail characters.
+  
+  With `\` (backslash), you can escape `$`, `}`, `\`, and `"`. 
 - Multilined `body`: simply wrap each line with double quotes.
 
 Q: When using `$TM_SELECTED_TEXT`, if you type the prefix, the selected text will be overwritten. What to do with it?  
