@@ -112,6 +112,11 @@ ref: [绿联云移动端文件管理][]
 
 - 方式1: 你可通过网页链接实现远程访问，<https://ug.link/DXP2800-01C7-bC9d>
 - 方式2: 或在客户端输入 UGREENlink ID (`DXP2800-01C7-bC9d`) 完成登录。
+  
+  如何查看 UGREENlink ID:
+  
+  控制面板 → 设备连接 → 远程访问
+  <img src="https://drive.google.com/thumbnail?id=1LV2krpn-goZtGN-7x8oEWam1kMpKqQd1&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 
 [UgreenLink quick start][]
@@ -286,6 +291,17 @@ Issue: 在线文档不支持移动设备端，ipad, 手机等，只能在电脑�
 
 --------------------------------------------------------------------------------
 
+
+## 为亲友设置使用空间
+
+1. 邀请好友注册账户
+   <img src="https://drive.google.com/thumbnail?id=1sPcRxqc8IgaiH0UUp4-zGpl8IUue3x2K&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:20%;" />
+2. 管理员接受申请
+3. 分配权限，为用户设置个人文件夹
+4. 申请人下载并登录 <a href="https://apps.apple.com/cn/app/绿联云/id6458647408" target="_blank" rel="noopener noreferrer">绿联云 App</a>，使用 UGREENlink ID 和自己在步骤1设置的账号和密码登录 NAS 设备。
+   
+   UGREENlink ID: `DXP2800-01C7-bC9d`
+
 ## 家庭相册
 
 1. 打开应用中心，下载并安装【相册】应用。
@@ -298,12 +314,16 @@ Issue: 在线文档不支持移动设备端，ipad, 手机等，只能在电脑�
         <img src="https://www.ugnas.com/file/collection/2025072115452881.webp" alt="" style="display: block; margin: 0 auto; zoom:50%;" />
       </li>
       <li><span class="env-green" style="font-weight:bold;">共享相册</span>
-        <p>好友需下载绿联云 App 并登录 NAS 账号。<br>
+        <p>好友需下载 <a href="https://apps.apple.com/cn/app/绿联云/id6458647408" target="_blank" rel="noopener noreferrer">绿联云 App</a> 并登录 NAS 账号。注意需要用 UGREENLink ID 登录。<br>
         登录后可浏览、下载、上传照片和视频。此方案是一个共享文件夹，适合亲友之间共享和管理照片和视频。</p>
         <p>点击菜单栏的 ⛭ 进入设置页面 → 选择 【共享图库】→ 在访问权限下，点击【设置权限】，可添加用户。</p>
       </li>
     </ol>
 
+
+
+- 相册可以用来分类管理照片，比如按照旅行、节日等主题创建不同的相册。
+- 图库则是一个更大的集合，可以包含多个相册，方便统一管理和浏览所有照片。
 
 
 **备份相册**
@@ -313,7 +333,7 @@ IOS设备的文件夹选择：iOS目前只支持备份“相簿” (Albums) 中�
 
 
 
-**绿联知识中心: **
+**绿联知识中心文档:**
 
 - [将手机相片备份到绿联云](https://support.ugnas.com/knowledgecenter-h5/#/articleDetail?articleInfoId=480&clientType=MOBILE)
 - [邀请好友上传相片](https://support.ugnas.com/knowledgecenter-h5/#/articleDetail?custom=eyJ0eXBlIjoidGFnMDAyIiwibGFuZ3VhZ2UiOiJ6aC1DTiIsImlkIjoxMDg3LCJhcnRpY2xlSW5mb0lkIjozNjcsImNsaWVudFR5cGUiOiJQQyIsImFydGljbGVWZXJzaW9uIjoiIiwicGF0aENvZGUiOiIifQ%3D%3D)
