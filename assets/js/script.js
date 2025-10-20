@@ -1,3 +1,7 @@
+// Custom JavaScript can be added here
+
+// JavaScript for Scroll to Top Button
+
 // Set a variable (handle) for our button element.
 const scrollToTopButton = document.getElementById('js-top');
 

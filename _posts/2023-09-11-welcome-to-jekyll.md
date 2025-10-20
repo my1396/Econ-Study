@@ -115,7 +115,13 @@ How do I reactivate Skype Credit?
 2. Select **Reactivate Credit** .
 
 
+### Miscellaneous
 
+12 AM: means midnight; the beginning of the day;
+
+12 PM: means noon; the middle of the day.
+
+To avoid confusion, use a 24-hour clock, e.g., 00:00 for the beginning of the day, 12:00 for the middle of the day, and 24:00 for the end of the day.
 
 
 

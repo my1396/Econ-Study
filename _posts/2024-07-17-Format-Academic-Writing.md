@@ -13,20 +13,22 @@ update: 2024-07-16
 
 - **<span style='color:#00CC66'>A space</span> should be placed between the numerical value and the unit symbol.** 
 
-  数字和单位之间需要加空格！例外：百分号，摄氏度，华氏度。
+  数字和单位之间需要加空格！
 
-  For example, 1.2 dB is correct, while 1.2dB is not. 
-
-  20ºC, 60ºF. (温度不需要加空格, C 和 F 不需斜体)
-
-  - In LaTex, can use `\degree` from `gensymb` package.
-  - Another alternative is the `\textdegree` command, which is provided by the `textcomp` package. 
+  For example, 1.2 dB is correct, while 1.2dB is not.
 
   If you are writing in LaTeX, I recommend you use the siunitx by `\usepackage{siunitx}`. The command `\SI{value}{unit}` automatically prints the space between the numerical value and the unit symbol. 
 
   E.g., 3 g, 6 cm, 6 days, 7 years.
 
-  **Exceptions** for percentage and temperatures. 10% and 17ºC. They do <span style='color:#00CC66'>not</span> need a space between numbers and units.
+  <span style='color:#00CC66'>**Exceptions**</span> for percentage and temperatures. 10% and 17ºC. They do <span style='color:#00CC66'>NOT</span> need a space between numbers and units.
+
+  > 例外 (不需要加空格的)：百分号，摄氏度，华氏度。
+  >
+  > 20ºC, 60ºF. (温度不需要加空格, C 和 F 不需斜体)
+
+  - In LaTex, can use `\degree` from `gensymb` package.
+  - Another alternative is the `\textdegree` command, which is provided by the `textcomp` package. 
 
 - Put a space before and after a mathematical operator (e.g., minus, plus, greater than, less than).
 
@@ -34,7 +36,7 @@ update: 2024-07-16
 
 - **Physical units must <span style='color:#00CC66'>not</span> be italicized.** For example, 1.2 dB is correct, while 1.2 *dB* is not.
 
-- Mathematical constants whose values never change, such as $\uppi, \mathrm e$, the imaginary unit $\mathrm i^2=-1$, are recommended to be not in italic SO 80000, IUPAC, NIST, and ACS, but italicizing these expressions is <u>also very common</u>.  
+- Mathematical constants whose values never change, such as $\uppi$ (`\uppi` supported by `library(upgreek)`, upright Greeks) , $\mathrm e$, the imaginary unit $\mathrm i^2=-1$, are recommended to be not in italic SO 80000, IUPAC, NIST, and ACS, but italicizing these expressions is <u>also very common</u>.  
 
 - The generic function symbols, such as $f(x)$ and $g(x)$, should be <span style='color:#00CC66'>*italicized*</span>. 
 
@@ -50,13 +52,13 @@ update: 2024-07-16
 
     Quantities, or variables, can be given a value, but labels cannot.
 
-    > When the symbol $\mu$ is used to denote a physical quantity (such as mass or reduced mass) it should be italic, but when it is used in a unit such as the microgram, $\upmu \mathrm{g}$ , or when it is used as the symbol for the muon, $\upmu$, it should be roman.
+    > When the symbol $\mu$ is used to denote a physical quantity (such as mass or reduced mass) it should be italic, but when it is used in a unit such as the microgram, $\upmu \mathrm{g}$ (`\upmu \mathrm{g}`), or when it is used as the symbol for the muon, $\upmu$, it should be roman.
 
-    Descriptive supersripts/subscripts should be in upright; but upersripts/subscripts that refer to a physical quantity or a mathematical variable, should be in italic.
+    Descriptive supersripts/subscripts should be in upright; but supersripts/subscripts that refer to a physical quantity or a mathematical variable, should be in italic.
 
-- There should be a space before and after arithematic operators. E.g., 2.5 ± 0.07. 
+- There should be a space before and after arithmetic operators. E.g., 2.5 ± 0.07. 
 
-- Number range: Use <span style='color:#00CC66'>two hypens</span> or opt + hypen ( <span style='color:#00CC66'>an en dash</span>) and do not include a space either before or after the dash.
+- Number range: Use <span style='color:#00CC66'>two hypens</span> or opt + hyphen ( <span style='color:#00CC66'>an en dash</span>) and do not include a space either before or after the dash.
 
   Read chapters 7–9 before Friday.
 

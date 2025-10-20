@@ -1,7 +1,13 @@
-// Local JavaScript config file
+// Mathjax V3.x local JavaScript config file
 // enable inline eqn and add new macro definitions
 window.MathJax = {
+    loader: {
+        load: ['[tex]/upgreek']
+    },
     tex: {
+        packages: { 
+           '[+]': ['upgreek'] 
+        },
         extensions: ["color.js"],
         inlineMath: [   // start/end delimiter pairs for in-line math
           ['$', '$'],

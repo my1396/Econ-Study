@@ -5,6 +5,8 @@ tag: driving
 update: 2024-04-11
 ---
 
+<a class="top-link hide" href="#" id="js-top">↑</a>
+
 Interactive Manual: <https://www.toyota.com/owners/warranty-owners-manuals/digital/>
 
 Download PDF: <https://www.toyota-europe.com/customer/manuals>
