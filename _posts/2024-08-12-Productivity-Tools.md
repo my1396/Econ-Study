@@ -139,7 +139,7 @@ Command Palette → “**Developer: Reload Window**”
 --------------------------------------------------------------------------------
 
 
-**Find and Replace in Selection**
+<span class="env-green">**Find and Replace in Selection**</span>
 
 1. <kbd>cmd</kbd> + <kbd>F</kbd> to open Find/Replace
 2. Select your line of text
