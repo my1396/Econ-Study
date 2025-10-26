@@ -348,3 +348,12 @@ IOS设备的文件夹选择：iOS目前只支持备份“相簿” (Albums) 中�
 使用 Samba 服务：通过绿联 NAS 提供的 Samba 服务，可以将 NAS 存储映射为 PC 上的网络驱动器。在“我的电脑”中会显示为一个网络位置，用户可以直接对其进行操作，就像本地硬盘一样。
 
 「Samba」是一种**局域网**内基于SMB网络通讯协议的共享文件服务，它为局域网内不同计算机和联网设备之间提供文件资源的共享服务。局域网内通过Samba，其它设备使用 IP 地址和账号密码，可访问设备上的文件数据，进行传输操作。
+
+___
+
+## FAQ
+
+Q: 如何删除共享文件夹? \
+A: 打开文件管理器，在对应文件夹右上角选择【共享文件夹管理】<i class="fa-solid fa-briefcase"></i>，点击删除相应文件夹即可。此操作需要管理员权限，并输入管理员密码。
+
+<img src="https://drive.google.com/thumbnail?id=1zJudt-HphRsW_-Gp2Duga8NWQHbQv0Mk&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
