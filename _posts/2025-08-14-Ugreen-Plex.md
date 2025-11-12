@@ -31,11 +31,15 @@ ___
 
 Log in to Plex: <https://app.plex.tv/desktop/#!/>
 
+Q: What is Plex? What does Plex do?  
+A: Plex is a media server platform that allows you to access and stream your personal media collection (movies, TV shows, music, photos, etc.) across various devices at home (using wifi). Remote access outside your home network requires a Plex Pass subscription.
 
-第二种解决方案为 Docker + Plex Server。主要步骤如下：
 
-1. 安装 Docker
-2. 创建 Plex 容器
+
+为了观看 NAS 里存储的影片，第二种解决方案为 Docker + Plex Server。主要步骤如下：
+
+1. 在 NAS 安装 Docker
+2. 安装 Plex 镜像
 3. 配置 Plex 服务器
 4. 访问 Plex 服务器
 
@@ -73,6 +77,10 @@ Ref: [绿联知识中心 Docker](https://support.ugnas.com/knowledgecenter/#/det
    └── music/         # Music files
    ```
 
+   - Be sure to separate movie and television content into separate main directories. Otherwise Plex may have difficulty correctly identifying your media. Plex uses specific naming conventions to identify and organize media files, so maintaining a clear folder structure is crucial.
+   
+   - You can have subfolders within these main directories. E.g., if you chose to categorize your children's content separate from more "adult" content (e.g. `/TV Shows/Kids/ShowName` vs `/TV Shows/Regular/ShowName`), then you would specify `/TV Shows/Kids` as the source location for a "kids" TV library.
+
 4. Set Storage Volumes
 
    When creating the Plex container, set the storage volumes to map the folders created in the previous step to the appropriate paths inside the container.
@@ -83,7 +91,7 @@ Ref: [绿联知识中心 Docker](https://support.ugnas.com/knowledgecenter/#/det
    - `/tvshows` -> `/共享文件夹/docker/plex/tvshows`
    - `/music` -> `/共享文件夹/docker/plex/music`
 
-4. Create Plex Container
+5. Create Plex Container
    
    在镜像下载完成后，我们开始创建容器，在【镜像 > 本地镜像】的列表中选择刚下载的 linuxserver/plex 镜像。点击 "+" 或双击镜像文件创建容器，配置容器参数。
 
@@ -109,7 +117,7 @@ Ref: [绿联知识中心 Docker](https://support.ugnas.com/knowledgecenter/#/det
 
    确保配置信息正确后，**点击 “完成” 创建容器**。
 
-5. 访问容器 Web UI
+6. 访问容器 Web UI
    
    容器启动后，可以通过浏览器访问容器的Web UI，访问URL `http://<NAS_IP>:32400/web`，将 NAS 的 IP 替换成您的 NAS IP 地址。
 
@@ -120,7 +128,7 @@ Ref: [绿联知识中心 Docker](https://support.ugnas.com/knowledgecenter/#/det
    - 第一次载入可使用 Google 账号登录。
    - 服务器设置，全部选择**下一步**。在资料媒体库页面，选择媒体类型（电影、电视剧、音乐等），并添加对应的媒体文件夹路径 on your NAS（如 `/videos`）。 
 
-6. Set up TV Plex Client
+7. Set up TV Plex Client
    
    在支持 Plex 的电视或设备上安装 Plex 客户端应用, 并登录您的 Plex 账号。 连接到您的 Plex 服务器，浏览并播放存储在 NAS 上的媒体文件。
 
@@ -155,6 +163,132 @@ ___
 Q: 如何修改语言?  
 A: [登录 Plex 服务器](https://app.plex.tv/desktop/#!/)，点击右上角的扳手工具 <i class="fa-solid fa-wrench"></i>，选择【Account】->【语言】，选择所需语言并保存更改。
 
+Q: How to add local subtitles to videos in Plex? 添加字幕  
+A: You can enable [**Local Media Assets**](https://support.plex.tv/articles/200220677-local-media-assets-movies/) and then Plex will scan for subtitle files in the same directory as your media files. You may need to refresh metadata.
+
+Supported subtitle file formats: `.srt`, `.smi`, `.ass`, `.ssa`, `.vtt`.
+
+For the video `MovieName (Release Date).mp4`, its subtitle files need to be named as follows:
+
+-   `MovieName (Release Date).[Language_Code].srt` or
+-   `Movies/MovieName (Release Date).[Language_Code].srt`
+-   `Movies/MovieName (Release Date).[Language_Code].forced.srt`
+
+Need to include the video name file, plus a language code before the file extension. Don't need the square brackets.
+
+Where `[Language_Code]` is defined by the ISO-639-1 (2-letter) or ISO-639-2/B (3-letter) standard.
+
+- English: `en` or `eng`
+- Chinese (Simplified): `zh` or `zho`
+
+Examples:
+
+-  Movie file structure with subtitles:
+
+   ```
+   Movies/
+   ├── /Avatar (2009)
+   │   ├──  Avatar (2009).mkv
+   │   ├──  poster.jpg
+   │   ├──  Avatar (2009).en.srt
+   │   └──  Avatar (2009).fr.srt
+   ```
+
+-  TV Episodes file structure with subtitles:
+
+   ```
+   TV Shows/
+   ├── Absolutely Fabulous/
+   │   ├── Season 02/
+   │       ├── Absolutely Fabulous - s02e03.avi
+   │       ├── Absolutely Fabulous - s02e03.eng.smi
+   │       └── Absolutely Fabulous - s02e03.en.forced.smi
+   ```
+
+   As of server version 1.41.0 using the Plex Series or Plex Movie agents you can put external subtitles in a subtitle directory.
+
+   Must in the same parent directory of the video files.  
+   The folder can be named "**subs**" or "**subtitles**"; case insensitive.
+
+   ```
+   TV Shows/
+   ├── Absolutely Fabulous/
+   │   ├── Season 02/
+   │       ├── Absolutely Fabulous - s02e03.avi
+   │       ├── subtitles/
+   │           ├── Absolutely Fabulous - s02e03.eng.smi
+   │           └── Absolutely Fabulous - s02e03.en.forced.smi
+   ```
+
+Without language code, Plex apps will show “Unknown” instead of the subtitle language and the automatic process which determines if the subtitle should be shown or not will not work as intended.
+
+
+ref:
+
+- [Plex Quick Start: Adding Local Subtitles to Your Media](https://support.plex.tv/articles/200471133-adding-local-subtitles-to-your-media/)
+- [Plex Guide Collection: Using Subtitles](https://support.plex.tv/articles/categories/your-media/using-subtitles/)
+- [Wiki: ISO Language Code](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes)
+
+Q: What does Local Media Assets do? [↩](https://support.plex.tv/articles/200220677-local-media-assets-movies/)  
+A: You might have your own image files for movie posters & backgrounds, subtitles, your own movie "extras", etc. To use these, ensure they are named and organized, and that the Local Media Assets source is enabled and ordered correctly.
+
+
+___
+
+### FAQ
+
+Q: Why Plex is not adding certain movies or TV shows to my library? [↩︎](https://support.plex.tv/articles/201543057-why-is-some-of-my-content-not-found/)  
+A: The biggest reason by far for items to not be found during a library scan is due to <span class="env-orange">naming</span>. 
+
+- The movie scanners will skip content that is named like a television episode (including date-based episodes)
+- The TV scanners will skip content that is ***not*** named like a television episode
+
+___
+
+Q: What is the convention for naming my media files? [↩︎](https://support.plex.tv/articles/naming-and-organizing-your-tv-show-files/)  
+A: For TV Shows, 
+
+- it is recommended to always include the year alongside the series title in folder and file names, e.g. `/Band of Brothers (2001)/Season 01/Band of Brothers (2001) - s01e01 - Currahee.mkv`
+- Be sure to use the English word “Season” when creating season directories, even if your content is in another language.
+- Many of our naming instructions mention having Optional_Info at the end of the file name and put it in brackets `[]`, e.g. `/Band of Brothers (2001) - s01e01 - Currahee [1080p Bluray].mkv`, whatever you put in the brackets will be ignored by Plex during matching.
+
+The naming is more relaxed for Movies.
+
+
+Example of how to organize TV Shows:
+
+```
+/TV Shows
+   /Doctor Who (1963)
+      /Season 01
+         Doctor Who (1963) - s01e01 - An Unearthly Child (1).mp4
+         Doctor Who (1963) - s01e02 - The Cave of Skulls (2).mp4
+   /From the Earth to the Moon (1998)
+      /Season 01
+         From the Earth to the Moon (1998) - s01e01.mp4
+         From the Earth to the Moon (1998) - s01e02.mp4
+   /Grey's Anatomy (2005)
+      /Season 00
+         Grey's Anatomy (2005) - s00e01 - Straight to the Heart.mkv
+      /Season 01
+         Grey's Anatomy (2005) - s01e01 - pt1.avi
+         Grey's Anatomy (2005) - s01e01 - pt2.avi
+         Grey's Anatomy (2005) - s01e02 - The First Cut is the Deepest.avi
+         Grey's Anatomy (2005) - s01e03.mp4
+      /Season 02
+         Grey's Anatomy (2005) - s02e01-e03.avi
+         Grey's Anatomy (2005) - s02e04.m4v
+   /The Colbert Report (2005)
+      /Season 08
+         The Colbert Report (2005) - 2011-11-15 - Elijah Wood.avi
+   /The Office (UK) (2001) {tmdb-2996}
+      /Season 01
+         The Office (UK) - s01e01 - Downsize.mp4
+   / The Office (US) (2005) {tvdb-73244}
+      /Season 01
+         The Office (US) - s01e01 - Pilot.mkv
+```
+
 ___
 
 ### Setting Up Remote Access
@@ -165,7 +299,7 @@ You will need a Remote Watch Pass subscription (as of April 29, 2025).
 
 Different plans for Plex services: [Plex: Free vs Paid](https://support.plex.tv/articles/202526943-plex-free-vs-paid/)
 
-Manage Subscriptions: <https://account.plex.tv/payments>
+Manage Plex Pass Subscriptions: <https://account.plex.tv/payments>
 
 - Remote Watch Pass: 2 USD/month
 
@@ -191,6 +325,8 @@ Match Metadata
 - Songs: Need to click singer name and then go to the song, click the three dots on the right, then "Match" Metadata.
 - Movies/TV Shows: Click the three dots on the right of the title, then choose "Match" Metadata.
 
+
+
 ___
 
 ## Android TV 端
@@ -199,12 +335,43 @@ ___
 
 U 盘安装
 
-1. 去官网 <https://nas.ugreen.com/pages/app-download> 找到 Android TV 平台的软件包并下载，接着将软件包保存到 U 盘。
+1. 去官网 <https://nas.ugreen.com/pages/app-download> 找到 Android TV 平台的 apk 软件包并下载，接着将软件包保存到 U 盘。
 2. 将 U 盘插到电视上，电视会自动弹出提示界面，直接打开 U 盘，然后找到对应的 apk 软件包，点击安装就行，风险警告直接忽略就行。
 
-Issue: You <span class="env-orange">cannot</span> install the UGREEN Android TV client directly on a <span class="env-orange">Samsung TV</span> because Samsung uses its own Tizen OS, not Android.
+Issue: You <span class="env-orange">cannot</span> install the UGREEN Android TV client directly on a <span class="env-orange">Samsung TV</span> because Samsung uses its own Tizen OS, not Android. You need a `tpk` package to install apps on Samsung Smart TVs.
 
-Workaround: Use DLNA or Plex instead.
+Workaround: 
+
+1. Use DLNA or Plex instead.
+2. 电视盒子
+   
+   电视盒子可支持安装各种应用程序，如视频播放器、游戏等，扩展电视功能。打破智能电视原有系统的限制，比如 Tizen 不支持 安卓 app。
+
+
+How to change language on Samsung TV? [↩︎](https://www.samsung.com/ie/support/tv-audio-video/how-do-i-change-the-menu-language-on-my-samsung-tv/)
+
+
+
+**Enable Unknown Sources on Samsung TV** [↩︎](https://www.partitionwizard.com/partitionmanager/how-to-install-3rd-party-apps-on-samsung-smart-tv.html)
+
+Usually, third-party applications are regarded as unknown sources by the operating system of Smart TV. But you can turn on the Unknown Sources feature on the Samsung Smart TV. This feature allows you to install the apps without limits.
+
+Go to Settings > System > Add-ons > turn on the switch next to **Unknown Sources**
+
+
+**Enable the Developer Mode** [↩︎](https://developer.samsung.com/smarttv/develop/getting-started/using-sdk/tv-device.html)
+
+1. Settings > Smart Hub 
+2. Navigate to the **Apps** section, click on it, and then you will be asked to enter a **pin**. 
+   
+   Here you can enter **12345** as the pin, which is the default code for all Samsung Smart TVs. The developer mode configuration popup appears.
+3. Switch "Developer mode" to "On".
+4. Reboot your Smart TV.
+
+   You can turn off the TV by holding the power button for 2 sec, then restart it.
+
+   When you open the "Apps" panel after the reboot, "Developer mode" is marked at the top of the screen.
+   <img src="https://developer.samsung.com/media/3649/tv_device_4.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 ### 「影视中心」基本操作
 
@@ -240,6 +407,82 @@ ___
    - 完整覆盖：遍历媒体库中所有视频文件，刮削并替换所有视频信息字段。
 
 ref: [绿联 NAS 影视中心媒体库管理](https://www.ugnas.com/tutorial-detail/id-69.html)
+
+--------------------------------------------------------------------------------
+
+### 添加外挂字幕
+
+**字幕查找网站:**
+
+-   [Zimuku](https://www.zimuku.org/)：以中文字幕为主，适合查找中文或中英双语字幕。✅
+-   [OpenSubtitles](https://www.opensubtitles.org/)：最大的字幕资源库之一，支持多语言字幕的搜索和下载，还提供 API 服务。
+-   [Subscene](https://subscene.com/)：提供多语种字幕，支持通过影视作品名称搜索对应字幕文件。
+
+___
+
+**播放器如何自动识别本地字幕**
+
+- 字幕文件与视频文件需要位于同一文件夹中
+- 命名为与视频文件匹配的名称
+  - 视频文件名: `Interlaced.Scenes.S01E06.2024.mkv`
+    - `S01E06` 表示第一季第六集，此处非常严格，必须包含 `SxxExx` 格式。
+      
+      <span class="env-orange">`EPx` 不被识别。</span>
+    - `2024` 可以放在紧跟视频名后面，如 `Interlaced.Scenes.2024.S01E06.mkv`
+  - 直接命名为视频名: `视频文件名.srt`
+  - 可选择添加语言代码: `视频文件名.语言代码.srt`
+
+
+```
+TV Shows/Interlaced Scenes (2024)/
+├—— Interlaced.Scenes.S01E06.2024.mkv
+├—— Interlaced.Scenes.S01E06.2024.srt
+├—— Interlaced.Scenes.S01E06.2024.zh-cn.srt
+```
+
+- 可手动添加字幕，但是播放器<span class="env-green">无法保留上次播放字幕文件的记忆</span>，每次播放都需要重新选择。比较麻烦。
+- 更加容易的方式:
+  - 将字幕文件重命名为与视频文件相同的名称并置于同一文件夹内，播放器会自动识别加载字幕。
+  - 用视频处理软件，如 mkvtoolnix，内嵌字幕到视频文件中。→ This is called "softsubbing." [↩︎](https://superuser.com/a/609126)
+  - use online tool to burn subtitles into video files → This is called "hardsubbing." 这种方式不是很灵活，相当于永久添加字幕，没办法选择不同语言或者关闭字幕。
+- 影视中心播放时，可能需要一段时间加载，等二三十秒左右，字幕才会显示出来。
+
+<span class="env-green">**AI prompts**</span> for subtitle management:
+
+> I need to rename and relocate my subtitle files so that my video player can automatically detect them.
+>
+> **Requirement:**
+>
+> - put `.srt` in the same directory as .mp4
+> - for `video.mp4`, the subtitle should be named as `video.en.srt`
+>
+> **Instructions:**
+>
+> - TV shows path: `~/Downloads/tmp/Prison.Break.S01.1080p.BluRay.x265-RARBG`
+> - My subtitle files are in `~/Downloads/tmp/Prison.Break.S01.1080p.BluRay.x265-RARBGSubs/episode_name/name.srt` you should match folder name `Subs/episode_name/` and use the first `.srt` files in the folder, rename to match video, then move to the target directory.
+
+`.py` scirpt is in `./script/match_subtitles.py`
+
+```python
+python3 script/match_subtitles.py 
+  --video-dir "/path/to/show/season" 
+  --subs-dir "/path/to/show/season/Subs" 
+  --apply
+```
+
+Example;
+
+```
+python3 "/Users/menghan/Documents/PhD Courses/Econ-Study/script/match_subtitles.py" --video-dir "/Users/menghan/Downloads/tmp/Prison.Break.S01.1080p.BluRay.x265-RARBG" --subs-dir "/Users/menghan/Downloads/tmp/Prison.Break.S01.1080p.BluRay.x265-RARBG/Subs" --apply
+```
+
+如果字幕不是很同步，可以调整字幕的时间轴。
+
+- 1s = 1000 ms
+
+ref: 
+
+- [绿联 NAS 影视中心如何在播放器中添加外挂字幕？](https://www.ugnas.com/play-detail/id-60.html)
 
 ___
 

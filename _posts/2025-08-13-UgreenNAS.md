@@ -14,12 +14,13 @@ Useful resources:
 
 - [UGREEN 绿联 CN FAQ](https://www.lulian.cn/n_questions/)
 - [UGREEN 绿联 搜索](https://www.ugnas.com/search/?keyword=Samba)
+- [主页](https://www.ugnas.com/tutorial) > 文档教程 > 教程与问题，点击右侧 `>` 进入知识中心 > 勾选左侧菜单栏中 `应用指南`
 
 Q: What is my NAS IP? \
 A: "控制面板"中，找到【网络设置】，点击【网络连接】。可以查看到当前分配给 NAS 设备的 IP 地址。E.g., my IP: `10.0.0.7`.
 
 Q: Which model is my NAS?  
-A: 打开【控制面板】→ 点击系统服务中【关于本机】，可以查看到 NAS 的型号和序列号。我的型号为 `DXP2800`.
+A: 打开【控制面板】→ 点击系统服务中【关于本机】，可以查看到 NAS 的型号和序列号。我的型号为 <span class="env-green">`DXP2800`</span>.
 
 ## 设置用户
 
@@ -348,6 +349,164 @@ IOS设备的文件夹选择：iOS目前只支持备份“相簿” (Albums) 中�
 使用 Samba 服务：通过绿联 NAS 提供的 Samba 服务，可以将 NAS 存储映射为 PC 上的网络驱动器。在“我的电脑”中会显示为一个网络位置，用户可以直接对其进行操作，就像本地硬盘一样。
 
 「Samba」是一种**局域网**内基于SMB网络通讯协议的共享文件服务，它为局域网内不同计算机和联网设备之间提供文件资源的共享服务。局域网内通过Samba，其它设备使用 IP 地址和账号密码，可访问设备上的文件数据，进行传输操作。
+
+
+___
+
+## NAS 加速方案
+
+下载东西（互联网）和与NAS的传输（局域网）速度理论最高只有 120MB/s 左右，实际在 70~100MB/s。如果是无线wifi 还会有损耗（距离、穿墙、设备能力等），5-60 MB/s 甚至更低也很正常。
+
+内网都升级成全2.5G 读写最大从 120 MB 提升到 260 MB 左右。
+
+Mb (Megabit) to MB (Megabyte) 转换公式：8 Mb (传输速度) = 1 MB (文件大小) 
+
+- 路由器/交换机 千兆 (接口为 1000M 或者 1G) 换 2.5G
+  
+  路由器顺带升级成了 4 个 2.5G的 小米7000。成功升级为了 2.5G 网络（wifi 接 5G 频段）。
+  
+  买的时候要考虑路由器上面网线插口的数量，最常见的WIFI路由器，一般都是5个网线插口的（其中1个是主线插口WAN + 4个连接设备用的 LAN），但是也有一些产品，精简了插口数量，比如小米的某些型号，总共就只有4个插口，WAN 占据一个，剩下的设备插口就只有3个了，插口数量需求的多少，根据你自家实际情况来判断。
+  比如几台电脑、几个电视盒子、还有 NAS 下载器之类的，其中用 WIFI 的可以排除，追求稳定要插网线的就必须算上。
+
+  <img src="https://drive.google.com/thumbnail?id=1i_bsmLDPJF-56kJhLImMMQQr_GMxyaqE&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+  
+  如果插网线的设备很多，一般就用上网络交换机了，毕竟常见的WIFI一般就只有4个 LAN 口。
+
+- USB 2.5G 网卡
+  
+  NAS 有线网络直接连接到路由器。
+  
+  路由器和绿联之间要用 NAS 自带的 7 类网线，绝大部分电脑的网卡都是千兆的，要升级为更高规格的网卡，可以搭配绿联的2.5G外接网卡，C口 A口都有，百十块钱就搞定。
+
+
+**更换路由器**
+
+先确认你的宽带服务商是否支持更换路由器。有些宽带套餐会赠送路由器，但如果你选择自购路由器，记得提前联系客服确认兼容性。
+
+
+Q: 如何查看路由器 LAN 口的网速？  
+A: 要查看路由器 LAN 口速度，请通过网线将电脑连接到路由器，然后在电脑上查找网络连接状态。在macOS中，可以在“网络偏好设置”的“硬件”选项中查找速率。 
+
+通过路由器的网关IP地址（如192.168.0.1或192.168.1.1）进入管理界面。查看“网络设置”或“WAN口设置”，通常会显示支持的网络带宽类型。
+
+选购路由器时，确保其支持至少 2.5G 的 WAN 和 LAN 端口。
+
+- WAN 口: 连接着宽带猫，网络从这个口进入路由器，影响着你使用路由器的最大网速
+- LAN 口: 网线输出口，一般用来连接电脑、电视等设备，影响着你电脑、电视的网速。
+  
+  比如说，你的宽带是 200M 的，WAN 口是千兆口（1000M），而 Lan 口是百兆的（100M），那么你如果用网线连接电脑、电视，它们依然是百兆的。
+
+- 看无线 WIFI 的速率：这个就是商家在商品标题中给出的速率，如450M、1200M、2600M等。
+
+1. 购买支持 2.5G 或更高网速的路由器/交换机。将连接猫的网线插入路由器的 WAN 口。
+   
+   如果你家的宽带，没用用到猫；那么就把入户的那根上网网线，直接插在新路由器的 WAN 接口。
+
+2. 登录路由器管理界面
+   
+   不同厂商的路由器设置页面是不同的，配置页面的网址，一般都写在路由器背面的出厂标签上面（或者说明书上面肯定也有）
+
+   有的路由器，只要是没有进行过初始配置的，你用浏览器打开任意网页，就会自动跳转到配置页面。
+
+   进入配置页面以后，这里有两种可能性，一种可能性是要求输入厂家出厂自带的‘管理员密码’，这个路由器背面标签上面肯定也有写，看一下就知道了（如果是这种情况，输入管理密码进去以后，记得去路由器的设置菜单里面修改一下管理密码，因为出厂密码过于简单，任何人都猜得到），另外一种情况，就是要求你新输入一个管理密码，这里要记得，管理密码不要过于简单了，尽量复杂一点，但是自己也要记住，以后修改路由器用得着。
+
+3. 设置 WAN 口网络连接类型
+   
+   通过情况下，此时路由器会自动检测“上网方式”，一般需要2-3秒左右的时间；然后我们根据检测结果，进行对应的设置就可以了。
+
+   - 一般家庭宽带都是动态 IP，不需要额外设置，直接点击下一即可。
+   - 如果是电信光纤宽带，可能需要设置 PPPoE 拨号，输入网络运营商给你的宽带账号和密码。如果不记得或者丢失了，可以通过拨打运营商的服务热线解决。
+
+4. 设置 WIFI 信息
+   
+   - 修改 WIFI 名称和密码，建议使用 WPA2-PSK 或 WPA3-PSK 加密方式，确保网络安全。
+   
+   现在新买的WIFI路由器，一般都是 2.4G 和 5G 双频的，也就是说，在WIFI设置这里，你可能会看到它让你设置2个热点名字和密码，分别设置就是了，把 5G 频率的那个加上一个后缀用来区分，比如分别叫做 my-wifi 和my-wifi-5G，密码可以一样也可以不一样。
+
+   至于使用的时候，优先用 `-5G` 这个热点，因为 5G 频段的传输速度更快，延迟更低。但是 5G 穿墙性能不如 2.4G。
+
+
+Q: 什么是 猫 (Modem)?  
+A: 猫 (Modem) 是调制解调器的简称，它的功能就是使你的电脑通过拨号连接到指定的网络。
+
+<img src="https://drive.google.com/thumbnail?id=11FVzeAfmEaNwnRib1Q5rGiJ-fT3NpqLn&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+ref:
+
+- [提升 NAS 带宽](https://zhuanlan.zhihu.com/p/658640504)
+- [家里更换无线路由器后怎么设置](https://www.win7sky.com/zhishi/6950.html)
+
+___
+
+## SSD缓存加速
+
+SSD 缓存 (也称为闪存缓存) 可用于提高 (小) 文件的随机读写性能 → 家用场景用处不大。提升家用速度，主要还是靠升级内网速度到 2.5G。
+
+DXP2800 自带两个 M.2 SSD 插槽 (NVMe 2280 SSD)
+
+Q: What does an M.2 SSD do?  
+A: M.2 SSDs can be used as a normal storage drive or as a read/write cache to improve reading and writing performance for frequently accessed data.
+
+Q: HDD+SSD 缓存是如何工作的？  
+A: 在绿联 NAS 读取数据时，系统会自动将读取的数据缓存至 SSD 中。如果用户再次访问这些数据，系统可以直接从 SSD 获取，显著提升传输速度。而在写入时，数据会先被缓存到 SSD，再逐步转移到 HDD 上，减少用户等待时间，并减轻 HDD 的工作负载。
+
+SSD 缓存在绿联 NAS 中的实际效果
+
+SSD 缓存的应用场景非常广泛，无论是办公室团队需要共享素材、家庭成员分享旅行影集，还是导入大量照片和文件进行索引，SSD 缓存都能有效提升访问速度和用户体验。特别是在搭建虚拟机，与 UGOS Pro系统进行频繁交互时，SSD 缓存都能潜移默化地加快这些操作的响应速度。
+
+
+[兼容性列表](https://www.ugnas.com/compatible)
+
+[应用指南: 硬盘管理](https://support.ugnas.com/knowledgecenter/#/detail/eyJpZCI6OTUxLCJ0eXBlIjoidGFnMDAxIiwibGFuZ3VhZ2UiOiJ6aC1DTiIsImNsaWVudFR5cGUiOiJQQyIsImFydGljbGVJbmZvSWQiOjMxNCwiYXJ0aWNsZVZlcnNpb24iOiIxLjAiLCJwYXRoQ29kZSI6InBybzAwMSxqb3pyY2kscGc3NDN1In0=)
+
+
+安装 M.2 SSD 之后，重启 NAS 设备，然后在【存储管理】中配置 SSD 缓存加速。
+
+注意
+
+- Before inserting or removing any hard drive (including M.2 SSDs) / memory module, please power off the system completely: turn off NAS and disconnect it from power supply.
+  
+  插拔硬盘前要先关机，并断电，以免数据丢失。
+
+- 拆卸 M.2 SSD 时，需要先前往 绿联云 app 移除 SSD 缓存，否则可能导致数据丢失。
+  
+  即使设备已关机，未正确移除 SSD 可能导致存储空间损毁。因此，确保缓存数据同步完成后，再进行相关操作。
+
+
+
+### 支持的 SSD 缓存类型
+
+绿联 NAS 支持通过将频繁访问的小文件缓存至 SSD，提升随机访问性能。系统支持以下两种类型的缓存模式：
+
+1. 只读缓存：
+
+   只读缓存主要用于加速<span class="env-green">数据读取</span>，适合用于处理那些需要被频繁读取，但很少被修改的数据。
+
+   配置要求：至少 1 块 M.2 NVMe SSD，支持 `Basic` 和 `RAID 0`。
+
+   性能作用：提升随机读取速度。
+
+   适用场景：适合经常读取但很少修改的小文件或添加后几乎不再更改的文件，例如共享的学习资料等。
+
+   数据保护机制：只读缓存存储的是数据副本，即使 SSD 损坏，也不会影响原始数据安全。
+
+2. 读写缓存：
+
+   读写缓存是可以同时加速数据<span class="env-green">读取和写入</span>的技术，适合用于处理那些需要被频繁访问，并且经常被修改或编辑的数据。
+
+   配置要求：至少 **2 块 M.2 NVMe SSD**，支持 <span class="env-green">`RAID 1`</span> 与 `RAID 5`。
+
+   性能作用：同时提升随机读写速度，优化整体 I/O 性能。
+
+   适用场景：适用于频繁读写的小型文件块，例如数据库或虚拟机存储等。
+
+   数据保护机制：当缓存降级时，系统会自动停止新的 I/O 操作，并将缓存数据同步至 HDD。同步完成后，即使 SSD 损坏，也不会导致数据丢失。
+
+
+ref: 
+
+- [HDD+SSD 缓存是如何工作的？](https://support.ugnas.com/knowledgecenter/#/detail/eyJpZCI6MTM0NSwidHlwZSI6InRhZzAwMiIsImxhbmd1YWdlIjoiemgtQ04iLCJjbGllbnRUeXBlIjoiUEMiLCJhcnRpY2xlSW5mb0lkIjo0NDcsImFydGljbGVWZXJzaW9uIjoiMS4wIiwicGF0aENvZGUiOiIifQ==)
+- [如何为存储空间创建 SSD 缓存加速？](https://www.ugnas.com/play-detail/id-25.html)
 
 ___
 
