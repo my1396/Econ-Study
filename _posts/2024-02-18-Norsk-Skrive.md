@@ -1220,11 +1220,11 @@ ___
 
 ## Opplæring og utdanning
 
-2025-08-10 skritlig øvelse
+2025-08-10 skriftlig øvelse
 
 **Oppgave 1** (80 ord; 30 min): I kommunen der du bor, har voksenopplæringen bestemt at de skal legge ned B2-kurset. Skriv en e-post til rektor og forklar hvorfor dette er et problem.
 
-> 1. innvandrer har ikke lett tilgjenlig ressur å lære norsk. 
+> 1. innvandrer har ikke lett tilgjengelig ressur å lære norsk. 
 > 2. Vanskelig å få job. Kan ikke forsørge seg selv.
 > 3. Staten må betale for å sikre at innvandrer har mat å spise og et sted å bo. Det bruker mye penger i lang sikt. 
 > 4. Innvandrer kan ikke bli integret i samfunnet. Og de blir en belastning. Det påvirker barn sine også.
@@ -1273,7 +1273,15 @@ arbeidsgivere: employers
 
 søknadsbrev: application letter
 
+常见职业:
 
+ingeniør, kassamedarbeider, sykepleier, lærer, advokat, lege, forsker, ...
+
+Ikke alle yrker møter den samme <span class="env-green">holdningen og respekten</span> i samfunnet. → Not all professions receive the same attitude and respect in society.
+
+Noen yrker er mindre verdt enn andre. → Some professions are worth less than others.
+
+yrkesfag vs. høy utdanning
 
 
 
