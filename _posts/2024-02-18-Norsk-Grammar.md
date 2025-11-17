@@ -149,7 +149,7 @@ Når substantivet står i bestemt form, legger vi til *bestemt artikkel* (定冠
 
 1. 名词加后缀 «-en/-et»，叫做 "articles in relation to nouns".
 
-2. 如果有形容词修饰，那么形容词用 definite form。
+2. 如果有形容词修饰，那么形容词一律用特指 definite form。
 
    <span style='color:#32CD32'>形容词的 definite form 和 plural form 是一样的。</span>
 
@@ -203,7 +203,7 @@ IKKE: ~~Bilen er dyre.~~ ❌
 
 Bilen er dy. ✅ (The car is expensive)
 
-**形容词作为<span style='color:#00CC66'>表语</span>**<span style='color:#FF9900'>不用 definite form</span>，但是需要<span style='color:#00CC66'>根据性别和数量变格</span>。
+**形容词作为<span style='color:#00CC66'>表语</span>**<span style='color:#FF9900'>不用 definite form (特指)</span>，但是需要<span style='color:#00CC66'>根据性别和数量变格</span>。
 
 <table>
   <tr>
@@ -290,6 +290,41 @@ Hverdagen 为 definite form, singular masuline, 对应的 possessive pronoun 应
 </table>
 
 
+--------------------------------------------------------------------------------
+
+
+## 指示代词
+
+Demonstrative Pronouns + Definite Form
+
+Demonstrative pronouns specify objects as well as **distance** to the objects.  
+
+- **Near** → this / these  
+- **Far** → that / those  
+
+| Gender / Number      | Near  | Far |
+| -------------------- | ----- | --- |
+| Masculine & Feminine | denne | den |
+| Neuter               | dette | det |
+| Plural               | disse | de  |
+
+> **Note:** The nouns following the demonstratives take the **definite form**.
+
+## Examples
+
+| Distance         | Example      | Translation  |
+| ---------------- | ------------ | ------------ |
+| Near (Masculine) | denne bilen  | this car     |
+| Near (Feminine)  | denne veska  | this handbag |
+| Near (Neuter)    | dette kartet | this map     |
+| Near (Plural)    | disse bilene | these cars   |
+| Far (Masculine)  | den bilen    | that car     |
+| Far (Feminine)   | den veska    | that handbag |
+| Far (Neuter)     | det kartet   | that map     |
+| Far (Plural)     | de bilene    | those cars   |
+
+
+--------------------------------------------------------------------------------
 
 
 ## Personal pronouns
@@ -676,9 +711,47 @@ Tillate, tillater, tillot, har tillatt
 It connects the main clause with a subordinate clause and if there is a adverb, put it before the verb. 
 
 
+## 介词
+
+Preposisjoner (prepositions) 
+
+**Over:**
+
+| Norsk | English   |
+|-------|-----------|
+| tenke over | think about |
+| ta over  | take over  |
+| være klar over | be aware of |
+| være imponert / overrasket / skuffet over | be impressed / surprised / disappointed about |
+| gå over | pass |
+
+Det går over. → It will pass.
 
 
+**Under:**
 
+1. 表示位置 under bordet / under stolen / under broen
+2. 表示时间, during, in the course of
+   
+
+
+**Til:**
+
+| Norsk | English   |
+|-------|-----------|
+| tilbringe tid til | spend time to |
+| ha tid til | have time to |
+| ha lyst til | want to, feel like |
+| ha anledning til | be able to, be in a position to |
+| ha mulighet til | be able to, have the possibility of |
+| til frokost | for breakfast |
+| glede seg til | look forward to |
+| være vant til | be used to |
+| være flink til | be good at |
+| være hjelp til | be of help |
+| føre til | lead to |
+| passe (til) | match, suit |
+| grue til | dread, be anxious about |
 
 
 

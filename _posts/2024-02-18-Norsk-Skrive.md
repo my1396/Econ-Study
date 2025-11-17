@@ -719,7 +719,7 @@ Tor og Ed har **annerledes** biler. $\rightarrow$ Alle de andre vennene har Toyo
 
 如果主语是**一个主体**，句子比较两个对象 
 
-1. 作为短语说明 A 与 B 不同。$\rightarrow$ <u>*Annerledes enn*</u> er det samme som <u>*forskjellig fra*</u>.
+1. 作为短语说明 A 与 B 不同。$\rightarrow$ <u><em>Annerledes enn</em></u> er det samme som <u><em>forskjellig fra</em></u>.
 
    E.g., A er annerledes enn B. = A er forskjellig fra B.
 
@@ -740,22 +740,22 @@ Tor og Ed har **annerledes** biler. $\rightarrow$ Alle de andre vennene har Toyo
 | Hva er annerledes nå enn før?                           | What is different now than before?                      |
 
 
+**By contrast**
 
+i kontrast til, i motsetning til, derimot, på den annen side
 
 
 
 
 某事是不为社会接受的
 
-| Det var lite sosialt akseptert (ikke) å gjøre noe | Sth is not socially acceptable. |
-| ------------------------------------------------- | ------------------------------- |
+Det var lite sosialt akseptert (ikke) å gjøre noe → Sth is not socially acceptable. 
 
 
 
 …可以理解的
 
-| Det er <span style='color:#00CC66'>forståelig</span> at … | It is understandable that … |
-| --------------------------------------------------------- | --------------------------- |
+Det er <span style='color:#00CC66'>forståelig</span> at … → It is understandable that … 
 
 
 
@@ -1273,15 +1273,46 @@ arbeidsgivere: employers
 
 søknadsbrev: application letter
 
-常见职业:
+skoleflink: good at school
 
-ingeniør, kassamedarbeider, sykepleier, lærer, advokat, lege, forsker, ...
+drittjobber: shitty jobs (negative connotation)
+
+arbeidsmoral: work ethic
+
+å levere tjenester: to provide services
+
+**常见职业:**
+
+ingeniør, <span class="env-green">kassamedarbeider</span>, sykepleier, elektriker, lærer, advokat, lege, forsker, ...
 
 Ikke alle yrker møter den samme <span class="env-green">holdningen og respekten</span> i samfunnet. → Not all professions receive the same attitude and respect in society.
 
 Noen yrker er mindre verdt enn andre. → Some professions are worth less than others.
 
-yrkesfag vs. høy utdanning
+å snakke ned jobben sin → to talk down one's job
+
+sammfunnsnyttig: socially useful
+
+**yrkesfag vs. akademisk utdanning fordeler**
+
+|     yrkesfag    |    akademisk    |
+| --------------- | --------------- |
+| praktiske ferdigheter | teoretisk kunnskap |
+| skape noe og se konkrete resultater av det du gjør | bidra til forskning og utvikling, kreativ |
+| komme seg raskt ut i jobb | lengre utdanning |
+| ofte lavere lønn | ofte høyere lønn |
+| lav status i samfunnet, respekten, holdningen | høy status i samfunnet |
+| ofte fysisk krevende arbeid | ofte mindre fysisk krevende arbeid |
+| håndtere verktøy og maskiner | bruke datamaskiner og teknologi |
+
+**Useful phrases:**
+
+- like verdt, viktig
+- Noen <span class="env-green">ser ned</span> på yrkesfag og <span class="env-green">mener at</span> bare akademisk utdanning er ordentlig.
+- respekten for alle ærlig arbeid. Vi må heve respekten for yrkesfag.
+- deres innsats er ikke viktig → Their effort is not important
+- arbeidet de gjør er mindreverdig → The work they do is inferior
+- det er rent snobberi → It is pure snobbery
 
 
 
