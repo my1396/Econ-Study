@@ -4,6 +4,7 @@ tag: Norsk
 title: Norsk Grammar
 ---
 
+<a class="top-link hide" href="#" id="js-top">↑</a>
 
 
 副词在句首的倒装

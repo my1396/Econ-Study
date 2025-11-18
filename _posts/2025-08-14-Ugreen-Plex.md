@@ -5,6 +5,8 @@ tag: programming
 update: 2025-10-24
 ---
 
+<a class="top-link hide" href="#" id="js-top">↑</a>
+
 Q: 如何在电视上观看 NAS 里的影片？
 
 A: 最简单方式是使用 DLNA (Digital Living Network Alliance，数字生活网络联盟)。在 NAS 上开启 DLNA 功能后，支持 DLNA 的设备（如电视、电脑、电视盒等）在局域网内可访问NAS设备上的媒体文件（如音乐、视频、图片等文件数据）。
@@ -414,9 +416,11 @@ ref: [绿联 NAS 影视中心媒体库管理](https://www.ugnas.com/tutorial-det
 
 **字幕查找网站:**
 
--   [Zimuku](https://www.zimuku.org/)：以中文字幕为主，适合查找中文或中英双语字幕。✅
--   [OpenSubtitles](https://www.opensubtitles.org/)：最大的字幕资源库之一，支持多语言字幕的搜索和下载，还提供 API 服务。
--   [Subscene](https://subscene.com/)：提供多语种字幕，支持通过影视作品名称搜索对应字幕文件。
+-   [Zimuku](https://www.zimuku.org/): 以中文字幕为主，适合查找中文或中英双语字幕。✅
+-   [OpenSubtitles org](https://www.opensubtitles.org/): 最大的字幕资源库之一，支持多语言字幕的搜索和下载，还提供 API 服务。
+    
+    Use [OpenSubtitles com](https://www.opensubtitles.com/) if .org does not work.
+-   [Subscene](https://sub-scene.com): 提供多语种字幕。
 
 ___
 

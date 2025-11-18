@@ -66,7 +66,7 @@ For ODBC 18 (latest version in 2024): <https://learn.microsoft.com/en-us/sql/con
 | `msodbcsqlr18.rll`or `msodbcsqlr17.rll`            | The accompanying resource file for the driver library. This file is installed in `[driver .dylib directory]../share/msodbcsql18/resources/en_US/` for Driver 18, `[driver .dylib directory]../share/msodbcsql17/resources/en_US/` for Driver 17. |
 
 
-
+Windows Users: [Install SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/ssms/install/install)
 
 
 ___
