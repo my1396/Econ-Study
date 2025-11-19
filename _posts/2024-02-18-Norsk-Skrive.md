@@ -1122,6 +1122,8 @@ stryke i faget: ikke bestå (fail the course)
 
 klar og tydelig **kildehenvisning** → clear and explicit source referencing
 
+kritisk tenkning → critical thinking
+
 | stor konkurranse                       | big competition                      |
 | -------------------------------------- | ------------------------------------ |
 | Det var en stor skuffelse å mislykkes. | It was a big disappointment to fail. |
@@ -1160,6 +1162,7 @@ Det er bedre at barna selv <span style='color:#00CC66'>opplever glede av mestrin
 
 å <span style='color:#00CC66'>mestre</span> noe → to master sth
 
+å beherske noe → to be proficient in sth
 
 
 **重要**
@@ -1280,6 +1283,8 @@ drittjobber: shitty jobs (negative connotation)
 arbeidsmoral: work ethic
 
 å levere tjenester: to provide services
+
+å skrive møtereferat / rapporter: to write meeting minutes / reports
 
 **常见职业:**
 
