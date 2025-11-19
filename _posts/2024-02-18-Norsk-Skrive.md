@@ -1288,7 +1288,7 @@ arbeidsmoral: work ethic
 
 **常见职业:**
 
-ingeniør, <span class="env-green">kassamedarbeider</span>, sykepleier, elektriker, lærer, advokat, lege, forsker, ...
+ingeniør, <span class="env-green">kassamedarbeider</span>, sykepleier, elektriker, kokk (厨师), lærer, advokat, lege, forsker, ...
 
 Ikke alle yrker møter den samme <span class="env-green">holdningen og respekten</span> i samfunnet. → Not all professions receive the same attitude and respect in society.
 
