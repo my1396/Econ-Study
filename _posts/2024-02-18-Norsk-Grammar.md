@@ -110,8 +110,8 @@ Substantiv bøyes i ulike <span style='color:#32CD32'>former</span>, og det kan 
 
 Which one is correct?
 
-- [ ] Noen oppgaver er enkle. ✅
-- [ ] Noen oppgave er enkle. ❌
+- Noen oppgaver er enkle. ✅
+- Noen oppgave er enkle. ❌
 
 > "enkle" (enkel, enkelt, enkle) is in plural form (*flertall*), so the subject should be plural.
 
@@ -125,13 +125,18 @@ Which one is correct?
 - Har du noen **ide**? Ser du noen **bil** i garasjen?
 - Jeg har dessverre ikke noen **kopp**. Vi har ikke noen katt lenger.
 
+--------------------------------------------------------------------------------
 
 
 ### Ubestemt form
 
 De fleste adjektiv slutter på **‑t** når de beskriver *substantiv i ubestemt form intetkjønn* og **‑e** når de beskriver *substantiv i ubestemt form flertall*. Adjektivet kan stå før substantivet, eller etter **være**/**bli**.
 
-形容词 + 名词结构，非特指的情况下，形容词需要在 gender 和 number 上匹配。
+- 形容词 + 名词结构 (定语形容词)
+  - 非特指的情况下，形容词需要在 gender 和 number 上匹配。
+  - 特指的情况下 (prefixed by den/det/de)，形容词一律用特指 definite form。
+
+- være / bli + 形容词结构 (表语形容词)，即使主语为特指的情况下，形容词用 indefinite form, 根据 gender 和 number 变格。
 
 |                           | Attributiv: adjektiv før substantivet<br />定语形容词 | Predikativ: adjektiv sammen med være/bli<br />表语形容词 |
 | ------------------------- | ----------------------------------------------------- | -------------------------------------------------------- |
@@ -140,7 +145,57 @@ De fleste adjektiv slutter på **‑t** når de beskriver *substantiv i ubestemt
 | Substantiv i *intetkjønn* | et dyr**t** bord                                      | Bordet *er* dyr**t**.                                    |
 | Substantiv i *flertall*   | dyr**e** biler/senger/bord                            | Bilene/Sengene/Bordene *er*dyr**e**.                     |
 
- 
+
+**Norwegian Adjective Bøying (Inflection) Guide:**
+
+
+```
+以下为定语形容词的变格规则
+
+NORWEGIAN ADJECTIVE BØYING
+├── DEFINITE (Bestemt form)
+│   └── All genders & numbers: "-e" ending
+│       (den/det/de + adjective-e + noun)
+│
+└── INDEFINITE (Ubestemt form)
+    ├── PLURAL
+    │   └── All genders: "-e" ending
+    │       (adjective-e + nouns)
+    │
+    └── SINGULAR
+        ├── Masculine/Feminine
+        │   └── Base form (no ending)
+        │       (en/ei + adjective + noun)
+        │
+        └── Neuter
+            └── "-t" ending
+                (et + adjective-t + noun)
+
+表语形容词见上图中 INDEFINITE (Ubestemt form) 部分。表语形容词无特指形式。
+```
+
+**all/alle/alt**
+
+- all/alle/alt 只有非特指形式 (ubestemt form)。换句话说，不根据名词的特指/非特指形式变格。
+- 名词
+  - plural: alle
+  - singular / mass (uncountable) noun:
+    - Masc./Fem.: all
+    - Neut.: alt
+
+| Gender       | Form     | Example                |
+| ------------ | -------- | ---------------------- |
+| Masc./Fem.  | all      | all varme maten, all dagen, all tiden, all ny snø   |
+| Neut.        | alt      | alt arbeidet, alt håpet, alt huset, alt nytt stoff          |
+| Plural       | alle     | alle barna, alle bøkene, alle dagene |
+
+alle + definite plural nouns: specific things
+
+alle + indefinite plural nouns: general things
+
+
+- alle barn = all children (in general)  
+  alle barna = all the children (a specific group)
 
 ### Bestemt form
 
@@ -202,7 +257,7 @@ Legg merke til at vi ikke bruker bestemt form av adjektivet i *predikativ stilin
 
 IKKE: ~~Bilen er dyre.~~ ❌
 
-Bilen er dy. ✅ (The car is expensive)
+Bilen er dyr. ✅ (The car is expensive)
 
 **形容词作为<span style='color:#00CC66'>表语</span>**<span style='color:#FF9900'>不用 definite form (特指)</span>，但是需要<span style='color:#00CC66'>根据性别和数量变格</span>。
 
@@ -249,18 +304,24 @@ Hverdagen 为 definite form, singular masuline, 对应的 possessive pronoun 应
 
 
 
-当有 <span style='color:#32CD32'>**«hele/halve»**</span> 出现的时候，形容词冠词 (the definite article in relation to the adjective) <span style='color:#32CD32'>**必须拿掉**</span>。
+当有 <span style='color:#32CD32'>**«hele/halve»**</span> 出现的时候，特指情况下，形容词冠词 (the definite article in relation to the adjective) <span style='color:#32CD32'>**必须拿掉**</span>。
 
 | 完全体                   | 形容词和名词冠词都省略 | 仅省略形容词冠词    |
 | ------------------------ | ---------------------- | ------------------- |
 | Wrong: den hele dagen ❌  | i hele dag             | hele dagen/eplet ✅  |
 | Wrong: den halve dagen ❌ | —                      | halve dagen/eplet ✅ |
 
+非特指情况下，遵从一般规则: 根据 gender 和 number 变格。
 
+| Gender        | Form      | Example            |
+| ------------- | --------- | ------------------ |
+| Masc. / Fem.  | hel       | en hel dagen       |
+| Neut.         | helt      | et helt eple / år  |
+| Plural        | hele      | to hele dagene / eplene / år |
 
 <span style='color:#32CD32'>**Ordinal numbers and «sist», «neste», «forrige», and «samme»**</span>
 
-一般都是特指，可选择是否省略冠词。省略冠词的情况下，又分为 ⑴ 名词冠词和形容词冠词都省略；⑵ 仅省略形容词冠词。
+一般都是特指，可选择是否省略冠词。省略冠词的情况下，又分为 (1) 名词冠词和形容词冠词都省略；(2) 仅省略形容词冠词。
 
 | 完全体              | 形容词和名词冠词都省略 | 仅省略形容词冠词<br />(更常见) |
 | ------------------- | ---------------------- | ------------------------------ |
@@ -733,7 +794,7 @@ Det går over. → It will pass.
 
 1. 表示位置 under bordet / under stolen / under broen
 2. 表示时间, during, in the course of
-   
+
 
 
 **Til:**
@@ -755,21 +816,73 @@ Det går over. → It will pass.
 | grue til | dread, be anxious about |
 
 
+**与地点相关的介词**
+
+一个地点可与不同的介词搭配使用，表示不同的含义:
+
+- «Til» + place → go/travel/come to a place, used with verbs of motion; directional; moving towards a place
+
+  Jeg skal til Norge neste uke. (I am going to Norway next week.)
 
 
+- «I» + place → be in a place, used with verbs of state
+
+  Jeg bor i Norge. (I live in Norway.)
+
+- «På» + place → *at* a place (stative 静态) or *going* to a place (directional 动态)
+  
+  Used with islands (not indep. countries), small towns/villages, public places, institutions, etc.
+
+  Jeg skal på Svalbard. (I am going to Svalbard.)
+
+  Jeg skal på butikken. (I am going to the store.)
+
+  > «gå» vs. «skal»  
+  > If you are going to some place in general, not meaning walking, use «skal».  
+  > «Gå» emphasizes *walking* to the place.
+
+  «Være på» = being at a place, «skal på» = going to a place
+  
+  - Jeg *er på* apoteket/kino/postkontoret/restaurant → I am at the pharmacy/movie theater/post office/restaurant
+
+  - Jeg *skal på* apoteket/kino/postkontoret/restaurant → I am going to the pharmacy/movie theater/post office/restaurant
+
+--------------------------------------------------------------------------------
+
+«Skolen» combined with different «verbs + prepositions» mean different things:
+
+- Jeg *er* på skolen. (I am at school.)
+- Jeg *går* på skolen. (I attend school. Meaning I am a student.)
+- Jeg *går* til skolen. (I am going to school. Meaning I am *walking* to school.)
+- Jeg *skal* til skolen. (I am going to school. Meaning I am going to school in general, not necessarily walking.)
+
+--------------------------------------------------------------------------------
+
+«basseng» (swimming pool)
+
+- Jeg skal *til* bassenget. (I am going to the swimming pool. Meaning the location.)
+- Jeg skal i *bassenget*. (I am going into the swimming pool. Meaning entering the water and swimming.)
 
 
+--------------------------------------------------------------------------------
+
+«Buttikken»
+
+«Buttikken» can be used with «på» and «til» with similar meanings.
+
+- Jeg *skal på*/i butikken. (I am going to the store.)
+- Jeg *er på*/i butikken. (I am at the store.)
 
 
+--------------------------------------------------------------------------------
 
+«Kirken»
 
+- Hun *er i* kirken. (She's at church.)
+- Hun *går i* kirken. (She goes to church. Meaning she *attends church service* regularly.)
+- Hun *går til* kirken. (She goes to the church. Meaning she is walking to *the church building*, but not necessarily going inside to a service.)
 
-
-
-
-
-
-
+--------------------------------------------------------------------------------
 
 
 

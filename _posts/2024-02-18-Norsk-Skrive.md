@@ -281,7 +281,7 @@ være *negativ* til at … → oppsed to or against sth; disapproval or disagree
 
 være *imot* noe → against sth; stronger than negative til; actively against sth
 
-Jeg er *motstander* av …  → I am an opponent of / oppsed of …
+Jeg er <span class="env-green">*motstander av*</span>  …  → I am an opponent of / opposed of …
 
 svak, svakt, svake → weak, lame, poor; 
 
@@ -293,7 +293,7 @@ litt 表肯定; liten 表否定
 
 #### Positive opinion:
 
-Jeg er *tilhenger* av … → I am a supporter of … (不定冠词 en 可省略)
+Jeg er <span class="env-green">*tilhenger av*</span> … → I am a supporter of … (不定冠词 en 可省略)
 
 > Antonym  
 > Jeg er *motstander* av …  → I am an opponent of / oppsed of …  (strong and formal)
@@ -693,9 +693,47 @@ like mange epler som dere →
 
 *I likehet med de fleste andre land i verden* ... → Similar to most other countries in the world ...
 
+--------------------------------------------------------------------------------
 
+lignende (også liknende) → similar
+
+Har du opplevd *noe lignende*? → Have you experienced something similar?
+
+De to filmene er *ganske liknende*. → The two movies are quite similar.
+
+--------------------------------------------------------------------------------
+
+de er *like* → they are similar / the same
+
+på *samme* måte → in the same way
+
+--------------------------------------------------------------------------------
 
 **不同**
+
+ulike → different; various
+
+annen/andre → other; different
+
+i kontrast, i motsetning til, til forskjell fra → in contrast to; unlike
+
+--------------------------------------------------------------------------------
+
+**forskjell**
+
+Det er en (stor) forskjell *på* … og … → There is a (big) difference between … and …
+
+Note the use of "på" after "forskjell".
+
+- Det er <span class="env-green">liten</span> forskjell på de to modellene. → There is little difference between the two models. Meaning the two models are *very similar*.
+- Det er stor forskjell på hvordan barna lærer.→ There is a big difference in how the children learn.
+
+gjøre en forskjell → make a difference
+
+Forskjellen mellom de to bilene er stor. → The difference between the two cars is big.
+
+--------------------------------------------------------------------------------
+
 
 **annerledes vs. forskjellig**
 
@@ -804,7 +842,7 @@ befolkningen (population)
 
 
 
-**程度**
+## 程度
 
 | fullstendig | completely |
 | ----------- | ---------- |
@@ -817,19 +855,34 @@ veldig, svært, skikkelig, ganske, spesielt,
 
 
 
-**影响**
+## 影响
 
-å påvirke, 
+å påvirke (neutral)
 
 å berøre (active); berøres (passive)
 
-*blir rammet av noe* (negative) impacts; be affected/bit by
+*blir rammet av noe* (negative) → impacts; be affected/bit by storms, disasters, crises, illness, accidents, or other misfortunes.
+
+- Huset ble rammet av et tre under stormen. → The house was hit by a tree during the storm.
+- Mange familier ble rammet av nedleggelsen av fabrikken. → Many families were affected by the closure of the factory.
+- Landet ble rammet av en økonomisk krise. → The country was hit by an economic crisis.
+
+--------------------------------------------------------------------------------
+
+*å gå utover noe* → to affect negatively; to harm;
+
+Mangel på søvn kan gå utover konsentrasjonen. → Lack of sleep can affect concentration negatively.
+
+Hvis du jobber for mye, kan det gå utover helsen din. → If you work too much, it can harm your health.
+
+Konflikten gikk utover vennskapet deres. → The conflict harmed their friendship.
+
 
 
 --------------------------------------------------------------------------------
 
 
-### 时间的表述
+## 时间的表述
 
 | Norsk              | English                                | 中文             |
 | ------------------ | -------------------------------------- | ---------------- |
@@ -909,7 +962,7 @@ Dette gjelder også i Norge. → This also applies in Norway.
 
 
 
-### **原因**
+## 原因
 
 | Det er nok også litt av <span style='color:#00CC66'>grunnen til at</span> han ga seg. | That's probably part of the reason he gave up.               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -967,12 +1020,36 @@ At innbyggene i Norge kan <u>velge fritt</u> (choose freely) blant offentlige el
 
 **så + adj + at** 从句 
 
+表示 adj 的程度很高，以至于导致了从句中的结果。
+
 - Lønningene i Norge er <span style='color:#00CC66'>så</span> høye <span style='color:#00CC66'>at</span> det <u>ikke</u> lønner seg å produsere varene her.
 
   注意从句中 ikke 提前
 
+--------------------------------------------------------------------------------
 
 
+## 条件
+
+“så lenge” + clause: as long as / provided that / on the condition that ...; 
+
+- Så lenge du gjør ditt beste, er jeg fornøyd.  
+  → So long as you do your best, I am satisfied.
+
+- Du kan bli her så lenge du vil.  
+  → You can stay here as long as you want.  
+  (Here it expresses duration, not a condition.)
+
+- Vi klarer oss fint så lenge vi samarbeider.  
+  → We manage well so long as we cooperate.
+
+- Så lenge det ikke regner, går vi en tur.  
+  → So long as it does not rain, we will go for a walk.
+
+- Jobbene deres bør respekteres så lenge de forsørger seg selv.  
+  → Their jobs should be respected so long as they support themselves.
+
+--------------------------------------------------------------------------------
 
 
 **代价**
@@ -1047,7 +1124,7 @@ What are the advantages and disadvantages of .... 注意跟英文的不同。挪
 
 
 
-## Familie og utlandning
+## Familie og utdanning
 
 1. Eer det viktig at mor og far deler på permisjonen nå barna er små? Hvorfor / hvorfor ikke?
 
@@ -1077,8 +1154,15 @@ Det sosiale er viktigere enn hvordan man <span style='color:#00CC66'>presterer</
 | -------------------------------------- | --------------------------- |
 | Jeg *bestemmer selv* mine mål i livet. | I decide my own life goals. |
 
-være opptatt av tilbakemeldinger → bry seg om hva andre sier til deg在意别人想法
+være opptatt av tilbakemeldinger → *bry* seg om hva andre sier til deg 在意别人想法
 
+
+«bry seg om» = care about; mind
+
+«bry» verb (bøying: bryr, brydde, har brydd)
+
+- Jeg bryr meg om deg. (I care about you.)
+- Hun bryr seg ikke om det. (she doesn't care about that.)
 
 
 | dyd                   | 美德                 |
@@ -1096,6 +1180,8 @@ være opptatt av tilbakemeldinger → bry seg om hva andre sier til deg在意别
 ## 学习
 
 få en urettferdig **karakter**: receive an unfair grade
+
+Det er viktig å få gode karakterer på eksamener. (It's important to get good grades on exams.)
 
 kunnskap
 
@@ -1223,12 +1309,13 @@ ___
 
 ## Opplæring og utdanning
 
+
 2025-08-10 skriftlig øvelse
 
 **Oppgave 1** (80 ord; 30 min): I kommunen der du bor, har voksenopplæringen bestemt at de skal legge ned B2-kurset. Skriv en e-post til rektor og forklar hvorfor dette er et problem.
 
 > 1. innvandrer har ikke lett tilgjengelig ressur å lære norsk. 
-> 2. Vanskelig å få job. Kan ikke forsørge seg selv.
+> 2. Vanskelig å få job. Kan ikke <span style="color: #00CC66;">forsørge seg selv</span>.
 > 3. Staten må betale for å sikre at innvandrer har mat å spise og et sted å bo. Det bruker mye penger i lang sikt. 
 > 4. Innvandrer kan ikke bli integret i samfunnet. Og de blir en belastning. Det påvirker barn sine også.
 >
@@ -1242,11 +1329,11 @@ ___
 >
 > Abby
 
-I become aware of … → Jeg har fått vite at … / Jeg har hørt at …
+I become aware of … → Jeg har fått vite at … / Jeg har hørt at … / Jeg blir bevisst på at ...
 
 lett tilgjengelige ressurser → readily available resources (plural, adj agreement)
 
-vurdere beslutningen på nytt → re-evaluate the decision
+vurdere beslutningen <span style="color: #00CC66;">på nytt</span> → re-evaluate the decision
 
 <span style='color:#00CC66'>总结 grammer 易错点</span>
 
@@ -1254,12 +1341,16 @@ vurdere beslutningen på nytt → re-evaluate the decision
 2. V2 原则 副词在句首，需要动词提前。da
 3. 从句中，ikke 要提前到动词前
 
+--------------------------------------------------------------------------------
+
 **Oppgave 2** (250-350 ord; 1.5 timer): Argumentere. Ta stilling til spørsmålet, og argumenter for ditt syn.
 
 Bør foreldrene bestemme når barna skal begynne på skolen?
 
 Forskning viser at barn som er født sent på året, risikerer å bli skoletapere. Derfor mener noen at barn som ikke er skolemedne bør begynne senere på skolen. Andre mener at alle i samme klasse bør være like gamle, men at læreren bør tilpasse undervisningen.
 
+
+--------------------------------------------------------------------------------
 
 
 ## Arbeidsliv
@@ -1282,9 +1373,13 @@ drittjobber: shitty jobs (negative connotation)
 
 arbeidsmoral: work ethic
 
-å levere tjenester: to provide services
+å <span style="color: #00CC66;">levere</span> tjenester: to provide services
 
 å skrive møtereferat / rapporter: to write meeting minutes / reports
+
+en karriere: career
+
+fremgangsrik karriere: successful career
 
 **常见职业:**
 
@@ -1329,9 +1424,30 @@ ___
 
 Man må ikke stikke seg ut og være god til noe, og hvis man fremhever de beste, får man kritikk med en gang. → 主旨思想: 大家水平都要平均; 不支持优秀突出。
 
+**Kardemommeloven**
+
+Man skal ikke plage andre, man skal være grei og snill, og for øvrig kan man gjøre hva man vil. → 主旨思想: 尊重他人，友善待人。
+
+外国人
+
+innvandrere, utlendinger, 
+
+难民 
+
+flyktninger
 
 
-___
+外国的 (adj)
+
+fremmede, utenlandske
+
+
+å føle seg utenfor → to feel like an outsider
+
+
+
+--------------------------------------------------------------------------------
+
 
 ## Medier og teknologi
 
@@ -1495,7 +1611,11 @@ ___
 
 å bli rammet av ...
 
-*å stenge ned*  → shut down, lock down
+*å stenge ned*  → shut down, lock down (verb); temporarily
+
+nedstenging (substantiv) → shutdown (noun)
+
+nedleggelse → close down; discontinuation (more permanently)
 
 å smitte 
 
@@ -1518,12 +1638,24 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 | norsk | English |
 | ----- | ------- |
 | hals  | throat  |
+| forkjølelse | cold |
 
 
+--------------------------------------------------------------------------------
 
+**感冒**
 
+noun
 
+- Jeg har fått en forkjølelse. → I have caught a cold.
+- Han er hjemme fra jobb på grunn av forkjølelse. → He is home from work because of a cold.
 
+verb
+
+- Jeg prøver å unngå *å bli forkjølet*. → I’m trying to avoid catching a cold.
+- Jeg *forkjølet meg* i helgen. → I *caught a cold* over the weekend.
+
+--------------------------------------------------------------------------------
 
 ## Politikk
 
