@@ -259,6 +259,17 @@ Løsning
 - *Alternativt kan de …* → Alternatively, they can …
 - *Det er forståelig at …, men kanskje kan de …* → It is understandable that …, but maybe they can …
 
+- *tiltak* → measure, initiative
+
+  - *Regjeringen bør iverksette tiltak for å …* → The government should implement measures to …
+
+  - *Skolen kan ta i bruk ulike tiltak for å …* → The school can use various measures to …
+
+  - *Det er nødvendig med tiltak for å …* → It is necessary with measures to …
+
+- alle har en viktig rolle å spille i å løse dem → everyone has an important role to play in solving them
+
+
 ___
 
 #### 🔹 5. Konklusjon (Conclusion)
@@ -438,9 +449,9 @@ Han kan bli oppfattet som arrogant, men egentlig er han bare sjenert. → He can
 
 > For å oppsummere (to summarize); 
 >
-> avslutningvis (in conclusion); 
+> avslutningvis (in conclusion); altså;
 >
-> til slutt (finally);
+> til slutt (finally); alt i alt;
 
 **Emphasis**
 
@@ -1060,7 +1071,7 @@ Ex «som følge av»
 
 **导致…结果**
 
-et resultat, en konsekvens,
+et resultat, en <span class="env-green">konsekvens</span>,
 
 gi gode/negative resultalter
 
@@ -1101,6 +1112,10 @@ virkning/effekt → effect, impact
 
 
 ## 条件
+
+forutsetning → prerequisite, condition
+
+Norsk er en <span style='color:#00CC66'>forutsetning</span> for å få jobb i Norge. → Norwegian is a prerequisite for getting a job in Norway.
 
 **“så lenge” + clause**: as long as / provided that / on the condition that ...; 
 
@@ -1156,6 +1171,7 @@ prisen å betale er ...
 | ------------------------------------------- | ----------------------------------------- |
 | en utfordring kan være …                    |                                           |
 | beskymringer noen ikke klarer å takle alene | concerns that someone cannot handle alone |
+| noe er av stor bekymring for ...            | sth is of great concern.         |
 | en del utfordringer                         | lots of challenges                        |
 | å møte disse unfordringene                  | to face these challenges                  |
 
@@ -1592,6 +1608,8 @@ Man skal ikke plage andre, man skal være grei og snill, og for øvrig kan man g
 
 I Norge er det stor vekt på individuell frihet og personlig valg. Folk oppfordres til å ta ansvar for sine egne liv og gjøre valg som passer deres egne verdier og interesser. Dette gjelder alt fra utdanning og karrierevalg til livsstil og fritidsaktiviteter. Samfunnet legger til rette for at <span class="env-green">folk skal kunne leve slik de ønsker</span>, så lenge de respekterer andres rettigheter (right) og friheter (freedom).
 
+respektere mangfold → respect diversity
+
 
 --------------------------------------------------------------------------------
 
@@ -1851,6 +1869,8 @@ bærekraftig: sustainable 可持续
 
 *fornybare ressurer / energikilder* →  renewable resources / energy 可再生能源
 
+- solenergi, vindkraft og vannkraft
+
 *Det satses stadig mer* på fornybar energi. → *There is an increasing focus* on renewable energy.
 
 miljøvennlig: environmental friendly
@@ -1858,6 +1878,21 @@ miljøvennlig: environmental friendly
 å unngå / redusere utslipp →  to avoid/ reduce emissions
 
 tiltak som reduserer <span style="color: #00CC66;">*forurensningen*</span> → measures that reduce pollution
+
+å ta miljøvennlige valg → to make environmentally friendly choices
+
+å redusere forbruk av plast og resirkulere mer → to reduce plastic consumption and recycle more
+
+å redusere avfall → to reduce waste
+
+å redusere gassutslipp → to reduce gas emissions  
+å redusere $CO_2$ utslipp → to reduce $CO_2$ emissions
+
+- bruke mindre bil og mer kollektivtransport som buss og tog
+
+vi må passer på naturen vår → we must take care of our nature
+
+Vi må ta vare på kloden. → We must take care of the globe.
 
 Det er fattige land som *rammes hardest av* klimaendringene. → Poor countries were affected most.
 
@@ -1871,9 +1906,7 @@ storbyer som normalt sliter med dårlig luft på grunn av utslipp fra transport 
 
 motsetninger mellom naturvern og økonomisk vekst → conflicts btw environment protection and economic growth
 
-å redusere $CO_2$ utslipp → to reduce $CO_2$ emissions
-
-Vi må ta vare på kloden. → We must take care of the globe.
+Politikerne må lage lover som beskytter miljøet. → Politicians must make laws that protect the environment.
 
 å <span style='color:#00CC66'>fase ut</span> bruken av fossil energi → to phase out the use of fossil energy
 
@@ -1895,9 +1928,38 @@ Er det noen poenger i talen til Grete Thunberg som dere synes er spesielt gode?
 
 > Vi må ta tiltak nå. Vi kan ikke sitte stille og vente på at håpet skal komme. Vi må gjøre hva vi kan for å oppnå målet. Miljøvern er et stort oppdrag. Noen tenker at det spiller ingen rolle hva enkeltpersoner gjør, for det utgjør minimal forskjell. Men hvis ingen gjør noe, skal situation blir verre. Vi bør ikke gi opp selv om vi ikk kan oppnå målet. Det er bra hvis vi er **litt nærmere til målet**. Jeg tror vi **til slutt** skal nå målet, etter innsats fra mange personer over mange år.
 
+--------------------------------------------------------------------------------
 
+Muntlig. Uttrykke synspunkter og meninger (individuell), B1
+Hva synes du om at folk i dag reiser sa mye, bade innenlands og utenlands? Begrunn svaret ditt.
+Hva mener du er det viktigste vi kan gjore for á ta vare pà miljoet? Begrunn svaret ditt.
 
-___
+--------------------------------------------------------------------------------
+
+Muntlig. Utveksle synspunkter og meninger (samtale), B1-B2
+Snakk sammen om dere synes det er viktig a sortere soppel for å ta vare på miljøet. Hvorfor / hvorfor ikke?
+
+--------------------------------------------------------------------------------
+
+Muntlig. Argumentere (individuell), B2
+Påstand A: Folk i dag har for høyt forbruk.
+
+Oppfølgingssporsmal:
+• Hva kan myndighetene gjøre for a få ned forbruket i private husholdninger?
+• Hva kan vi selv gjøre for à redusere forbruket?
+• Hvordan kan man unngå matsvinn?
+
+--------------------------------------------------------------------------------
+
+Påstand B: Det bor være en grense for hvor ofte folk kan fly.
+
+Oppfølgingssporsmal:
+• Synes du flybilletter bor bli dyrere enn de er i dag?
+• Er det andre tiltak som er mer miljøvennlige enn à slutte à fly, mener du?
+• Er det noen ulemper ved at folk slutter à bruke fly?
+
+--------------------------------------------------------------------------------
+
 
 ## Koronapandeminen
 
@@ -1946,6 +2008,18 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 å ha behov for hjelp / veiledning → to need help / guidance
 
 trivsel → well-being
+
+Gamle vaner er vanskelige å endre. → Old habits are hard to change.
+
+Røyking er avhengighetsskapende. → Smoking is addictive.
+
+avhengighet + skapende
+
+- avhengighet = addiction / dependency
+- skapende = creating / causing
+
+
+Jeg er takknemlig for at jeg er frisk nok til å leve det livet jeg ønsker. → I am grateful that I am healthy enough to live the life I want.
 
 --------------------------------------------------------------------------------
 
