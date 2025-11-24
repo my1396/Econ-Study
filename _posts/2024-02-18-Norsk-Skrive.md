@@ -1376,7 +1376,7 @@ sette noe høyt; verdsette noe høyt;
 
 … har blitt uvesentlige, og … har blitt enda viktigere enn før.   [… have become insignificant, and … has become even more important than before.]
 
-… blir viktigere enn *noen gang* → becomes more important *than ever*
+… blir viktigere enn *noen gang* → becomes more important *than ever* 前所未有的重要
 
 <span style='color:#00CC66'>vesentlig</span> → significant
 
@@ -1484,6 +1484,8 @@ arbeidssøkere: jobb seekers
 
 arbeidsgivere: employers
 
+arbeidsgiveren min: my employer
+
 søknadsbrev: application letter
 
 skoleflink: good at school
@@ -1538,7 +1540,40 @@ sammfunnsnyttig: socially useful
 - understreke viktigheten av ... → emphasize the importance of ...
 - anerkjenne verdien av ... → recognize the value of ...
 
+--------------------------------------------------------------------------------
 
+**Hvorfor trenger man å jobbe?**
+
+Arbeid gir mennesker en følelse av mening og <span class="env-green">mestring</span>, fordi det gir dem mulighet til å bidra til samfunnet og utvikle sine ferdigheter. Gjennom arbeid kan man oppleve <span class="env-green">stolthet</span> over det man gjør, bygge selvtillit og føle at man er en del av noe større. For mange er arbeid ikke bare en måte å tjene penger på, men også en viktig <span class="env-green">kilde til</span> identitet og personlig tilfredsstillelse.
+
+å trives i jobb → to thrive at work
+
+tilfredsstillelse → satisfaction
+
+
+--------------------------------------------------------------------------------
+
+
+**Velferdgoder**
+
+welfare benefits
+
+De kan tilbys fra arbeidsgiver eller staten.
+
+Arbeidsgiver
+
+- støtte til språkkurs
+- treningsavtale
+- helseforsikring
+
+Staten
+
+- sykepenger
+- arbeidsledighetstrygd
+- foreldrepermisjon
+- gratis helsetjenester
+- utdanning støtte
+- pensjon
 
 --------------------------------------------------------------------------------
 
@@ -1710,11 +1745,23 @@ Noen jobber blir **overflød**. → Some jobs become redundant.
 
 > Oversettelse; sjåfør (selvgående biler); butikkmedarbeider (selvbetjening); kundeservice (chatbots); fabrikkarbeider (automatisering); rengjøringen
 
+Sjåfører (selvgående biler); 
+
+Drosjer i fremtiden uten sjåfører. Man bestiller en tur, og en drosje kommer uten en drosje. Leveringbilen vil bli utstyrt med en robot. Når det når adressen, roboten tar pakken og leverer utendørs.
+
+kokk; rengjøring
+
+Forestille at nå man kommer hjem fra jobb, og en god middag venter på deg. Man trenger ikke å rydde hus lenger. Er det ikke bra? Med hjelpen av roboter, slipper vi kjedelig husarbeid og har mer tid til fritidsaktiviteter. Vi kan delta sosiale aktiviteter eller gå på tur mer ofte. Dette bidrar til et lykkelig liv for mennesker.  
+
+--------------------------------------------------------------------------------
+
+
 Det kan skape mye muligheter. Vi må bare lære oss å jobbe med teknologien.
 
 Mennesker og kunstig intelligens jobber sammen for å oppnå bedre resultater. 
 
 
+--------------------------------------------------------------------------------
 
 What is irreplaceable about mennesker? → **uerstattelig**
 
@@ -1723,6 +1770,25 @@ What is irreplaceable about mennesker? → **uerstattelig**
 > lærere er uerstattelige, særlig når det gjelder å motivere og inspirere elevene.
 > 
 
+
+Hvilke yrker skal bli mer aktuelle?
+
+- Programmering og dataanalyse. 
+  
+  Disse jobbene utvikler KI. Jeg tror det skal bli <span class="env-green">større behov for</span> dem i fremtiden.
+
+- Data sikkerhet og personvern.   
+
+  Med økt bruk av KI, bli personlig informasjon samlet inn og lagret 
+  blir det viktigere å beskytte data og sikre personvernet.
+
+- Yrker innen psykisk helse Mer personer er deprimert i det siste. 
+  
+  Folk er undre mer stress enn tidligere. Det fører til dårligere psykisk helse. Mer personer skal trenge råd fra psykisk leger. 
+
+- Lærere og veiledereMed rakst teknologisk utvikling vil det bli viktigere enn noen gang å lære mennesker å lære. 
+  
+  Vi trenger noen å hjelpe folk med å utvikle kritisk tenkning og digitale ferdigheter.
 
 --------------------------------------------------------------------------------
 
@@ -1864,6 +1930,16 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 | mindre fett | less fat | 
 
 
+**Psykisk helse**
+
+| norsk | English |
+| ----- | ------- |
+| depresjon | depression |
+
+å ha behov for hjelp / veiledning → to need help / guidance
+
+trivsel → well-being
+
 --------------------------------------------------------------------------------
 
 **感冒**
@@ -1890,15 +1966,25 @@ verb
 | likehet                  | equality 公平           |
 | frihet                   | freedom 自由            |
 | rettferdig / urettferdig | fair / unfair           |
+| rettferdighet            | justice 公正            |
+| demokrati                | democracy 民主          |
+| ytringsfrihet            | freedom of speech 言论自由 |
+| likestilling            | equal opportunity 性别平等    |
+| å diskriminere          | to discriminate         |
+| å stemme ved valg       | to vote in elections    |
+| å delta i politikken    | to participate in politics |
+| å engasjere seg i ...   | to get involved in ...  |
 | å *telle* like mye       | to count equally        |
 | å gjennomføre / utføre   | to implement, carry out |
+| å uttrykke egne verdier  | to express one's values |
+| å kjempe for egne interesser | to fight for one's interests |
+| å telle like mye         | to count equally        |
 
+Interessene til alle skal telle like mye. → The interests of all should count equally.
 
+Interessene til alle bør bli tatt hensyn til. → The interests of all should be taken into account. → The interests of all should be considered.
 
-## Borettslag
-
-Dette er et så fint *nabolag*. → This is such a nice neighborhood.
-
+Interessene til alle bør beskyttes. → The interests of all should be protected.
 
 
 ## Lov
@@ -1928,6 +2014,9 @@ district court → court of appeals → Supreme Court
 *De beskyldte læreren for urettferdig behandling.* → They accused the teacher of unfair treatment.
 
 
+## Borettslag
+
+Dette er et så fint *nabolag*. → This is such a nice neighborhood.
 
 
 
