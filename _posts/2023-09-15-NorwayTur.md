@@ -35,6 +35,9 @@ Bus1 Mørkvedmarka skole
 
 **Useful websites for hiking:**
 
+
+[Turistforeningen](https://www.dnt.no/dnt-der-du-er/bodo-og-omegns-turistforening/) Regular hikes information; need to register
+
 [TellTur](https://www.telltur.no/turmaal/myghxi9g/5271#:~:text=Kjør%252C%2520sykle%2520eller%2520gå%2520Fjellveien,på%2520merket%2520sti%2520ved%2520Kretjønna.)
 
 [GodTur](https://www.godtur.no/)

@@ -43,23 +43,27 @@ Rules: <https://www.vegvesen.no/en/traffic-information/along-the-road/norwegian-
 
 ### Parking Fee
 
-Free parking after 4pm on weekdays. Free on Sunday.
+<span class="env-green">Free parking <u>after 4pm</u> from Monday to Saturday. Free on <u>Sunday</u>.</span>
 
 Charging period: Avgift kl. 0800 - 1600 mandag - lørdag. (Fee 8-16, Monday to Saturday.)
 
 - Zone 1
 
-  1st h: 35 kr
+  1st h: 35 kr → 39 kr   
+  2nd h: 41 kr → 46 kr  
+  longer time: 53 kr → 59 kr
 
-  2nd h: 41 kr
-
-  longer time: 53 kr 
+  Avgiftsperiode: klokken 08:00–16:00 (mandag–lørdag)
 
 - Zone 2
 
   24 kr/time
 
+  Månedskort: 926 kr
 
+  Avgift klokken 08:00–16:00 (mandag til lørdag)
+
+ref: [Bodø Kommune: Betaling og priser](https://bodo.kommune.no/tjenester/avfall-vei-vann-og-avlop/parkering/betaling-og-priser/)
 
 #### Bodø Lufthavn
 

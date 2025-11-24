@@ -8,13 +8,13 @@ title: Norsk Skriftlig
 
 ## Development of a Paragraph
 
-Utbygging av avsnit
+🎯 **Utbygging av avsnit**
 
 Temasetning → Kommentarsetninger → Avsluttende setning
 
 <span style='color:#00CC66'>*For det første*</span> (倒装) ... <span style='color:#00CC66'>*for det andre*</span> (倒装) …  → Firstly ... secondly …
 
-I tillegg … ikke minst er det …
+I tillegg … dessuten ... for øvrig ... ikke minst er det …
 
 På den ene siden …, mens på den annen siden … (it is often used as på den andre siden; used more in spoken language)
 
@@ -66,6 +66,8 @@ A: The following shows some ideas:
 --------------------------------------------------------------------------------
 
 ### Grading Criteria
+
+**Kriteriene**
 
 - 内容方面 Coherence
 
@@ -147,9 +149,15 @@ Use the following **mock exam** to practice before the actual exam:
 
     Skolen bør legge til rette for at alle elever får delta i aktivitetene. → The school should facilitate that all students can participate in the activities.
 
+  - å gjøre det mulig → make it possible
+  
   - *bidra til* → contribute to, to help achieve
 
     Regelmessig trening kan bidra til bedre helse. → Regular exercise can contribute to better health.
+
+    ... bidrar til et bedre samfunn. → ... contribute to a better society.
+
+    God helse bidrar til et lykkelig live av mennesker. → ... contribute to a happy life of people.
 
   - *å fremme* utvikling / vekst / læring→ to promote, to advance
 
@@ -159,17 +167,47 @@ Use the following **mock exam** to practice before the actual exam:
 
     Det er til fordel for barn å ha foreldre som engasjerer seg i lekser. → It is beneficial for children to have parents who are involved in homework.
 
+- to make sure ...
   
+  - å *sørge for at* → to ensure, to provide
+
+    Regjeringen må sørge for at alle har tilgang til helsetjenester. → The government must ensure that everyone has access to healthcare services.
+  
+  - *legge vekt på* → to emphasize, to stress
+
+    Skolen bør legge vekt på praktisk læring. → The school should emphasize practical learning.
+  
+  - å sikre at → to secure, to ensure
+
+    **Tiltakene** skal sikre at alle barn får en god utdanning. → The measures will ensure that all children receive a good education.
+
+- <span class="env-green">vesentlig</span> → significant, essential
+
+  - *Det er vesentlig for … at …* → It is essential for … that …
+
+    Det er vesentlig for elevenes læring at de får tilbakemelding fra læreren. → It is essential for students' learning that they receive feedback from the teacher.
+
+- få betydning for ... → to have an impact on ...
+
+  - *Dette kan få stor betydning for …* → This can have a big impact on …
+
+    Dette kan få stor betydning for miljøet. → This can have a big impact on the environment.
+
+    Dette vil få stor betydning for hvordan folk tenker. → This will have a big impact on how people think.
+  - være av stor betydning for noe(n) → to be of great importance to sth/sb
+
+    Utdanning er av stor betydning for samfunnets utvikling. → Education is of great importance to society's development.
+
 
 ------
 
-#### 🔹 3. Argumenter mot (Cons  / reasons against)
+#### 🔹 3. Argumenter mot (Cons / reasons against)
 
 - *På den annen / andre side …* → On the other hand …
 
 - *Likevel finnes det ulemper …* → Nevertheless, there are disadvantages …
 
-- Samtidig finnes det utfordringer. → At the same time, there are challenges.
+- Samtidig *finnes det utfordringer*. → At the same time, there are challenges.
 
 - *Et problem med dette er at …* → A problem with this is that …
 
@@ -177,7 +215,11 @@ Use the following **mock exam** to practice before the actual exam:
 
 - *Dette kan også føre til at …* → This can cause …
 
-- … kan gå utover … → to affect negatively; to harm;
+- Det er *skadelig* for … → It is harmful to …
+
+- Det er ikke bra for … → It is not good for …
+ 
+- … kan gå *utover* … → to affect negatively; to harm;
 
 - *Noen mener dessuten at …* → Some people also believe that …
 
@@ -187,7 +229,7 @@ Use the following **mock exam** to practice before the actual exam:
 
   Det risikerer å gjøre noe → It risks of doing sth
 
-- Det *skaper unødvendige problemer* både for arbeidsplassen og for sammfunnet. → It creates unnecessary problems for both the working place and the society.
+- Det *skaper unødvendige problemer* både for arbeidsplassen og for samfunnet. → It creates unnecessary problems for both the working place and the society.
 
 - There is no point in doing …
 
@@ -205,29 +247,29 @@ Use the following **mock exam** to practice before the actual exam:
 
 ------
 
-#### 🔹 4.  Suggesting alternatives / solutions
+#### 🔹 4. Suggesting alternatives / solutions
 
 Løsning
 
 - *I stedet for å …, kan det være bedre å …* → Instead of …, it may be better to …
 - *I stedet er det bedre å gjøre noe* → In stead, it is better to do …
 - *En mulig løsning er at …* → A possible solution is that …
-- *For å lette situasjonen* ... → To ease/alleviate the situation
-- *Det kan være praktisk å tillate …* → It may be practical to allow …
+- *For å <u>lette</u> situasjonen* ... → To ease/alleviate the situation
+- *Det kan være praktisk å <u>tillate</u> …* → It may be practical to allow …
 - *Alternativt kan de …* → Alternatively, they can …
 - *Det er forståelig at …, men kanskje kan de …* → It is understandable that …, but maybe they can …
 
 ___
 
-#### 🔹 5.  Konklusjon (Conclusion)
+#### 🔹 5. Konklusjon (Conclusion)
 
 - *Jeg forstår argumentene mot, men likevel mener jeg at …* → I understand the counterarguments, but nevertheless I think that …
 - *Dette hjelper både … og …, samtidig som …* → *This helps both … and …, while …*
 - *Etter å ha sett på begge sider, mener jeg at …* → After considering both sides, I believe that …
-- Som nevnt tidligere, … → As mentioned earlier, … 倒装
+- Som <u>nevnt</u> tidligere, … → As mentioned earlier, … 倒装
 
 - *På grunn av punktene <u>ovenfor</u> mener jeg at …* → *Because of the points above, I believe that …*
-- *Dermed konkluderer jeg med at …* → Therefore, I conclude that …
+- <em><u>Dermed</u> konkluderer jeg med at …</em> → Therefore, I conclude that …
 - *Folk kan uansett ha god balanse mellom …* → *People can still have a good balance between …*
 - *Alt i alt synes jeg at …* → *All in all, I think …*
 
@@ -261,19 +303,64 @@ Likevel er det flere som mener at … → However, there are many who think that
 
 Etter min mening er det ikke snakk om *enten eller*, men ja takk, begge deler. → In my opinion, it’s not a question of *either/or*, but yes please, both.
 
+根据我的经验...
 
+- *Basert på min erfaring* ... → Based on my experience ...
+- Etter / Ifølge min erfaring ... → According to my experience ...
+
+注意 V2 原则
+
+ex
+
+- Etter min erfaring er det viktig å øve hver dag for å lære et nytt språk.   
+  → According to my experience, it is important to practice every day to learn a new language.
+- Etter min erfaring fungerer denne metoden godt.   
+  → Based on my experience, this method works well.
+- Ifølge min erfaring kan det være utfordrende å tilpasse seg en ny kultur.   
+  → According to my experience, it can be challenging to adapt to a new culture.
+
+
+--------------------------------------------------------------------------------
+
+#### Positive opinion:
+
+Jeg er <span class="env-green">*tilhenger av*</span> … → I am a supporter of … (不定冠词 en 可省略)
+
+> Antonym  
+> Jeg er *motstander* av …  → I am an opponent of / oppsed of …  (strong and formal)
+
+Det er (veldig) *synd* at / hvis … → It is (very) unfortunate if …  / It is (really) a shame if … (Expresses **regret, disappointment, or sympathy** about a situation.)
+
+> 注意此处 synd 作为 pity, shame 讲，不可数，<span class="env-orange">不用不定冠词 en</span>。  
+> en synd 意思为 a sin，表一种罪过。
+
+… *skader* ikke → it does not hurt to do …
+
+- Det skader ikke å prøve. → It does not hurt to try.
+
+<span class="env-green">*kvaliteten og effektiviteten*</span> ved … blir bedre → the quality and efficiency with … will be better
+
+Det føler jeg gir en stor trygghet. → I feel it gives a strong sense of safety.
+
+- Jeg er <span class="env-green">liksom</span> enig. → I kind of agree with that. [agree in genearl, but not 100%]
+- Jeg er <span class="env-green">stort sett</span> enig. → I mostly agree with that. 
+- Jeg er <span class="env-green">i hovedsak</span> enig. → I am basically / fundamentally agree.
+
+- Jeg er <span class="env-green">helt / delvis</span> enig. → I completely/partially agree with that.
+
+--------------------------------------------------------------------------------
 
 #### Negative opinion:
 
 Jeg er litt *skeptisk* til at ...
 
-Jeg har virkelig ingen tro på at … → I don't believe sth
+Jeg *har virkelig ingen tro på* at … → I don't believe sth
 
 Det provoserer meg at … → It provokes me that …
 
 *Jeg er helt <span style='color:#00CC66'>uenig i dette.</span>* → I completely disagree with that.
 
-*uaktuell* → out of the question 
+*uaktuell* → out of the question; impossible 
 
 være *negativ* til at … → oppsed to or against sth; disapproval or disagreement
 
@@ -290,39 +377,13 @@ jeg har *liten forståelse* for … → I don't understand …
 litt 表肯定; liten 表否定
 
 
+--------------------------------------------------------------------------------
 
-#### Positive opinion:
-
-Jeg er <span class="env-green">*tilhenger av*</span> … → I am a supporter of … (不定冠词 en 可省略)
-
-> Antonym  
-> Jeg er *motstander* av …  → I am an opponent of / oppsed of …  (strong and formal)
-
-Det er (veldig) *synd* at / hvis … → It is (very) unfortunate if …  / It is (really) a shame if … (Expresses **regret, disappointment, or sympathy** about a situation.)
-
-> 注意此处 synd 作为 pity, shame 讲，不可数，<span class="env-orange">不用不定冠词 en</span>。  
-> en synd 意思为 a sin，表一种罪过。
-
-… *skader* ikke → it does not hurt to do …
-
-<span class="env-green">*kvaliteten og effektiviteten*</span> ved … blir bedre → the quality and efficiency with … will be better
-
-Det føler jeg gir en stor trygghet. → I feel it gives a strong sense of safty.
-
-
-
-**Uncertain**
+#### Uncertain
 
 Mitt inntrykk er at ... → my impression is that …
 
-
-
-
-
-
-
-
-
+Jeg er usikker *på* om ... → I am uncertain whether ...
 
 
 
@@ -349,9 +410,9 @@ Han kan bli oppfattet som arrogant, men egentlig er han bare sjenert. → He can
 
 *For noen er … viktige argumenter for dette, mens andre er opptatt av …* → *For some, … are important reasons, while others care about …*
 
-**Concession** 让步
+**Concession** 让步; 尽管
 
-> selv om;
+> selv om; til tross for at;
 
 **In addition** (adding extra info)
 
@@ -395,10 +456,15 @@ Han kan bli oppfattet som arrogant, men egentlig er han bare sjenert. → He can
 
 > i begynnelsen … senere … til slutt (in the beginning … later … finally); deretter (after that); etterpå; 
 
-Indeed
+**Actually**
 
-> faktisk; virkelig
+> faktisk; virkelig; egentlig;
 
+**Possibly**
+
+> mulig; sannsynlig; trolig; antakelig; eventuelt; 
+
+Note: «antakelig» can also mean «akseptabel».
 
 
 **altså**
@@ -447,7 +513,7 @@ det er i hvert fall *på sin plass* at …  → It is certainly fitting that …
 
 这是一个…问题
 
-Man kan se på som ....
+Man kan <span class="env-green">se på som</span> ....
 
 Man kan se på som en positiv utvikling og et resultat av at ... → It can be viewed as a positive development and a result of ...
 
@@ -464,8 +530,7 @@ Man kan se på som en positiv utvikling og et resultat av at ... → It can be v
 | nok                                                          | 也可作 probably 使用                  |
 
 
-
-
+--------------------------------------------------------------------------------
 
 **Ikke bare … men også …** 
 
@@ -477,7 +542,7 @@ Not only … but also …
 
   **Ikke bare** **+ verb** + [subject/rest of clause] **, men også** + verb + [rest of second clause].
 
-- 注意 men også 句 ikke 的位置，提前到<u>动词之前</u>。
+- 注意 men også 句 ikke 的位置，提前到<u>动词之前</u>。遵从 Leddsetninger 的规则。
 
 Ex
 
@@ -536,6 +601,7 @@ ___
 
 | Barn <span style='color:#00CC66'>verken</span> viser respekt for voksne <span style='color:#00CC66'>eller</span> andre barn. | Children show <span style='color:#00CC66'>neither</span> respect for adults <span style='color:#00CC66'>nor</span> other children. |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| |
 
 - distinguish from "enten … eller …", which means "either … or …"
 
@@ -915,6 +981,8 @@ Et *økende* antall nordmenn ønsker å ... → An increasing number of Norwegia
 
 *en vesentlig økning av* antall nordmenn over 80 → A significant increase in the number of Norwegians over 80
 
+vesentlig lavere pris på ... → significantly lower price on ...
+
 A *går ned samtidig som* B *øker* → 伴随着 B 的上升，A 在下降
 
 … må *heves* → … must be improved
@@ -1017,6 +1085,9 @@ Samtidig finnes stadig bedre behandlinger for sykdommer, og *dette fører til* a
 At innbyggene i Norge kan <u>velge fritt</u> (choose freely) blant offentlige eller private behandlingssteder, *gjør at* disse behandlingsstedene må være på topp til enhver tid. [前摇 at 从句真的很长…]
 
 
+virkning/effekt → effect, impact
+
+
 
 **så + adj + at** 从句 
 
@@ -1031,7 +1102,7 @@ At innbyggene i Norge kan <u>velge fritt</u> (choose freely) blant offentlige el
 
 ## 条件
 
-“så lenge” + clause: as long as / provided that / on the condition that ...; 
+**“så lenge” + clause**: as long as / provided that / on the condition that ...; 
 
 - Så lenge du gjør ditt beste, er jeg fornøyd.  
   → So long as you do your best, I am satisfied.
@@ -1048,6 +1119,24 @@ At innbyggene i Norge kan <u>velge fritt</u> (choose freely) blant offentlige el
 
 - Jobbene deres bør respekteres så lenge de forsørger seg selv.  
   → Their jobs should be respected so long as they support themselves.
+
+--------------------------------------------------------------------------------
+
+**Regardless of** ...
+
+<span class="env-green">Uansett om</span> ...
+
+Alle jobber er verdifulle, uansett om man jobber på en fabrikk eller på kontor.
+
+Vi drar på tur uansett om det regner.
+
+Hun kommer til å lykkes, uansett om andre tviler på henne.
+
+<span class="env-green">uavhengig av om</span> ... [formal]
+
+Prosjektet fortsetter uavhengig av om noen er enige eller ikke.
+
+Alle skal ha rett til utdanning, uavhengig av om de bor i byen eller på landet.
 
 --------------------------------------------------------------------------------
 
@@ -1126,13 +1215,30 @@ What are the advantages and disadvantages of .... 注意跟英文的不同。挪
 
 ## Familie og utdanning
 
-1. Eer det viktig at mor og far deler på permisjonen nå barna er små? Hvorfor / hvorfor ikke?
+1.  Eer det viktig at mor og far deler på permisjonen nå barna er små? Hvorfor / hvorfor ikke?
 
-   | Engelsk                                                      | Norsk |
-   | ------------------------------------------------------------ | ----- |
-   | - Children need to form a close bond with parents, which is best achieved when parents take maternity or paternity leave. This dedicated time allows parents to spend time with their kid, fostering a strong and lasting connection.  <br />- |       |
+    - Children need to form a close bond with parents, which is best achieved when parents take maternity or paternity leave. This dedicated time allows parents to spend time with their kid, fostering a strong and lasting connection.
 
-   
+2.  Synes du at barn bør gå i barnehage?
+
+    Ja, jeg synes barn bør gå i barnehage. 
+
+    - Utvikle sosiale ferdigheter 
+      
+      De møter andre barn som er på samme alder. De snakker sammen, leker sammen, og lærer å dele og samarbeide. Dette hjelper dem å utvikle viktige sosiale ferdigheter som de vil ha nytte av senere i livet.
+
+    - Foreldrene kan jobbe
+      
+      - bedre *økonomisk* situasjon for familien.
+      - *har råd til* flere aktiviteter for barna sine. f.eks. reise til utland for å se nye steder og oppleve nye kulturer. 
+        
+        Når de er eldre, får de muligheten til å gå på private skoler som kanskje har bedre læringsmiljø og flere ressurser enn offentlige skoler.
+    
+    - Det finnes familier som lære barn selv hjemme (home schooling)
+
+      - hvis foreldrene har kapasitet og kunnskap til å gi barna en god utdanning, kan hjemmeundervisning være et godt alternativ. Barn får mer individuell oppmerksomhet og får lære tilpasset for deres behov og interesser.
+      - Men hvis foreldrene ikke nok ressurser eller kunnskap, kan det føre til at barna ikke får det klare når de begynner på skolen. f.eks. noen foreldrene er fra utland og ikke snakker norsk. Hvis barne deres går ikke i barnehage, kan det være vanskelig for dem å henge med i klassen. 
+
 
 <span style='color:#00CC66'>å oppdra</span>, oppdrar, oppdro, har oppdratt: to raise, rear, bring up, educate
 
@@ -1142,11 +1248,14 @@ en <span style='color:#00CC66'>oppdragelse / oppvekst</span>: upbringing*,* educ
 
 å sette grenser: to set boundaries
 
-alle barn bør vokse opp i trygge og stabilie familier
+We should not foster <span class="env-green">a sense of rivalry</span> among teenagers.  攀比心  → Vi bør ikke fremme <span class="env-green">konkurranseånd</span> blant tenåringer.
 
-Hva synes du er viktigst å lære dine barn?
+**鼓励, 促进:** fremme, oppmuntre til, støtte, oppfordre
 
-uavhengighet, selvstendighet (independence)
+alle barn bør vokse opp i trygge og stabile familier
+
+Q: Hva synes du er viktigst å lære dine barn?  
+A: uavhengighet, selvstendighet (independence), samarbeide, respekt for andre, ansvarlighet , empati (empathy), ærlighet (honesty)
 
 Det sosiale er viktigere enn hvordan man <span style='color:#00CC66'>presterer</span>. [N.B. «å prestere» means "to perform, achieve, do well"; while «å presentere» means "to present (a show, a talk, etc)"]
 
@@ -1175,6 +1284,7 @@ være opptatt av tilbakemeldinger → *bry* seg om hva andre sier til deg 在意
 
 
 
+--------------------------------------------------------------------------------
 
 
 ## 学习
@@ -1194,7 +1304,7 @@ eksamenskarakter / standpunktkarakter / karaktergjennomsnitt
 
 å anstrenge seg: to make an effort, try hard
 
-困难：vansklighet, motstand, hindring
+困难：vanskelighet, motstand, hindring
 
 vurderes etter bokstavkarakterer → be graded using letter grades
 
@@ -1203,6 +1313,11 @@ gode karakterer → good grades
 bestått: pass
 
 stryke i faget: ikke bestå (fail the course)
+
+å henge med i klassen → to keep up with the pace of the class
+
+- *Henger du med i* spansktimene?  
+  → Can you follow the Spanish classes?
 
 **plagiat** → plagiarism
 
@@ -1220,7 +1335,11 @@ Detter er mer tilpasset dagens samfunn der all informasjon er tilgjengelig. → 
 
 Lærerne vurderer elevenes **prestasjoner og fremgang** → the teachers evaluate the students' performance and progress
 
+å rette opp → to correct, fix; implies *repairing consequences*, not just marking it as corrected.
 
+å rette noen feil → to correct (a specific error)
+
+rette/fikse grammatikkfeilene
 
 
 
@@ -1379,11 +1498,13 @@ arbeidsmoral: work ethic
 
 en karriere: career
 
+Words for "job": yrke, bransje, industri
+
 fremgangsrik karriere: successful career
 
 **常见职业:**
 
-ingeniør, <span class="env-green">kassamedarbeider</span>, sykepleier, elektriker, kokk (厨师), lærer, advokat, lege, forsker, ...
+ingeniør, <span class="env-green">kassamedarbeider</span>, sykepleier, elektriker, kokk (厨师), frisør (hairdresser), lærer, advokat, lege, forsker, ...
 
 Ikke alle yrker møter den samme <span class="env-green">holdningen og respekten</span> i samfunnet. → Not all professions receive the same attitude and respect in society.
 
@@ -1400,23 +1521,26 @@ sammfunnsnyttig: socially useful
 | praktiske ferdigheter | teoretisk kunnskap |
 | skape noe og se konkrete resultater av det du gjør | bidra til forskning og utvikling, kreativ |
 | komme seg raskt ut i jobb | lengre utdanning |
-| ofte lavere lønn | ofte høyere lønn |
+| ofte lavere lønn i begynnelsen, men nå man jobber seg opp fra gulvet, kan de bli en vellykket bedriftleder endelig | ofte høyere lønn |
 | lav status i samfunnet, respekten, holdningen | høy status i samfunnet |
 | ofte fysisk krevende arbeid | ofte mindre fysisk krevende arbeid |
 | håndtere verktøy og maskiner | bruke datamaskiner og teknologi |
 
 **Useful phrases:**
 
-- like verdt, viktig
+- like verdt; verdifull; viktig; 
 - Noen <span class="env-green">ser ned</span> på yrkesfag og <span class="env-green">mener at</span> bare akademisk utdanning er ordentlig.
 - respekten for alle ærlig arbeid. Vi må heve respekten for yrkesfag.
-- deres innsats er ikke viktig → Their effort is not important
-- arbeidet de gjør er mindreverdig → The work they do is inferior
+- deres innsats er like viktige → Their effort is equally important.
+- Vi må sette pris <span class="env-green">på</span> innsatsen <span class="env-green">til</span> alle som jobber ærlig. → We must appreciate the efforts of all who work honestly.
+- arbeidet de gjør er <span class="env-green">mindreverdig</span> → The work they do is inferior
 - det er rent snobberi → It is pure snobbery
+- understreke viktigheten av ... → emphasize the importance of ...
+- anerkjenne verdien av ... → recognize the value of ...
 
 
 
-___
+--------------------------------------------------------------------------------
 
 ## Kultur
 
@@ -1428,9 +1552,19 @@ Man må ikke stikke seg ut og være god til noe, og hvis man fremhever de beste,
 
 Man skal ikke plage andre, man skal være grei og snill, og for øvrig kan man gjøre hva man vil. → 主旨思想: 尊重他人，友善待人。
 
+--------------------------------------------------------------------------------
+
 外国人
 
 innvandrere, utlendinger, 
+
+folk fra vestlige land → people from western countries 西方人
+
+- <span class="env-green">Vestlige</span> spiser vanligvis ikke sterk mat. → Westerners usually do not eat spicy food.
+- <span class="env-green">Østlige</span> kulturer legger stor vekt på familieverdier. → Eastern cultures place great emphasis on family values.
+- Nordlige
+- Sørlige
+
 
 难民 
 
@@ -1441,9 +1575,65 @@ flyktninger
 
 fremmede, utenlandske
 
+en fremmed vs. å fremme
+
+- å fremme: to promote, advance
+
+- en fremmed: foreigner, stranger
+  
+  fremmede (plural)
+
 
 å føle seg utenfor → to feel like an outsider
 
+å føle seg inkludert / velkommen → to feel included / welcomed
+
+å bli integret i samfunnet → to be integrated into society
+
+Q: Hva er tegn på at en person er integrert i samfunnet?  
+A: Språkferdigheter (språket er nøkkelen), deltakelse i sosiale aktiviteter, forståelse av kulturelle normer, og å ha venner fra forskjellige bakgrunner, føler seg inkludert,
+
+- ha rett til å <span class="env-green">stemme ved valg</span> → have the right to vote in elections
+- ha tilgang til utdanning og helsetjenester → have access to education and healthcare services
+- Ha representasjon i politikken og kunne <span class="env-green">uttrykke egne verdier</span> og <span class="env-green">kjempe for egne interesser</span> → have representation in politics and be able to express one's values and fight for one's interests
+
+
+«Stemme» as noun, means "vote" and "sound".
+
+«Å stemme» means "to vote".
+
+--------------------------------------------------------------------------------
+
+**Typisk Norsk**
+
+de *grunnleggende* verdiene → the fundamental values
+
+tillit, likestilling, likhet, rettferdighet, janteloven, demokrati, åpenhet, ytringsfrihet (free of speech), 
+
+velferdsstat, ro og orden (peace and order), 
+
+<span class="env-green">dugnad</span>, naturen, friluftsliv, ski, hytte, sol
+
+Personlighet: høflighet, ærlighet, pålitelighet, arbeidsmoral, beskjedenhet (modesty, humility), respekt for privatliv, presis,
+
+
+Personlig rom → Personal space
+
+- **Personlig rom er viktig for nordmenn.**
+  
+  Et tydelig tegn av dette er at de setter stor pris på hytta. Når de har ferie, er hytte det første stedet de tenker om å dra til. Den ligger som regel langt fra byer, midt i naturen med fjord og skog. Her kan de nyte freden og roen og slappen av.  
+
+- Det er ikke lett å bli kjent med nordmenn plutselig. Hvis du møter dem på gaten eller i buss stoppen, vil nordmenn vanligvis ikke starte en samtale med deg. De tenker det er rart / uvanlig å snakke med noen på gata de ikke kjenner.
+
+- Det tar en lang tid å bygge vennskap med nordmenn. Må være tålmodig.
+
+--------------------------------------------------------------------------------
+
+Hva er den beste måten å bli kjent med nordmenn på?
+
+- Bli med i en klubb eller forening som interesserer deg, som en sportsklubb, bokklubb eller hobbygruppe. Dette gir deg muligheten til å møte folk med lignende interesser i en avslappet setting.
+- Ta initiativ til å invitere nordmenn til å gjøre ting sammen, som å ta en kaffe, gå på tur eller delta på kulturelle arrangementer.
+- Gå på bar sammen. Alkohol hjelper folk å slappe av og åpne seg mer. Folk blir mer pratsomme og åpne.
 
 
 --------------------------------------------------------------------------------
@@ -1471,21 +1661,20 @@ Teknologien har tatt over mange av arbeidsoppgavene på fabrikkene og byggeplass
 
 Jeg bruker det nesten uten å tenke over det. → 说明一件事潜移默化的渗入日常生活中。
 
-Jeg har for eksempel en robutstøvsuger hjemme som tar seg av rengjøringen men jeg er på jobb. 
+Jeg har for eksempel en robotstøvsuger hjemme som tar seg av rengjøringen men jeg er på jobb. 
 
 Jeg har begynt å bruke AI til å organisere kalenderen min. Det hjelper meg med å holde oversikt over avtaler og oppgaver. Har du prøvd noe lignende?
 
-Jeg bruker en digital assisstent til å minne meg på ting som avtaler eller når jeg må betale regninger.
+Jeg bruker en digital assisstent til å <span class="env-green">**minne meg på**</span> ting som avtaler eller når jeg må betale regninger.
 
-Jeg kan sende meldninger ved å snakke med telefonen. Det er praktisk når jeg kjører. Og jeg kan også sette alarmer og påminnelser med stemmen, noe som gjør det enklere når jeg larger mat eller holder på med andre oppgaver samtig.
+Jeg kan <span class="env-green">sende meldinger ved å snakke med telefonen</span>. Det er praktisk når jeg kjører. Og jeg kan også sette alarmer og påminnelser med stemmen, noe som gjør det enklere når jeg larger mat eller <span class="env-green">holder på med</span> andre oppgaver samtidig.
 
-Nåt det gjelder kunstig intelligens, hva tenker du om personver? ← beskymringene
 
-> Jeg er litt skeptisk til hvor mye informasjon disse systemene samler inn om oss. Vi må være forsiktig hva vi deler og med hvem, slik at vi kan beskytte oss selv. Jeg slår av lokalliseringstjenester når jeg ikke trenger dem.
->
-> - lokalliseringstjennester / posisjontjenester
+--------------------------------------------------------------------------------
 
 Hvordan kunstig intelligens påvirker arbeidsmarkedet?
+
+- Roboter skal hjelpe oss å spare tid. De kan ta seg av <span class="env-green">rutineoppgaver</span>, slik at vi kan fokusere på mer kreative og komplekse oppgaver.
 
 > Det hjelper mye <span style='color:red'>~~for~~</span> <span style='color:#00CC66'>i</span> jobben min. Jeg underviser på tre kurs. Jeg bruker alltid <span style='color:red'>~~for~~ til</span> å lage slides and oppgaver for studenter. Jeg gir bare an instru<span style='color:red'>~~ct~~ksj~~i~~</span>on om hvilket tema<span style='color:red'>~~et~~</span> og <span style='color:red'>hvilken tekstbok~~a~~</span> jeg bruker, og AI er veldig effektivt med disse oppgaver.
 >
@@ -1496,10 +1685,30 @@ Hvordan kunstig intelligens påvirker arbeidsmarkedet?
 > Selvfølgelig <span style='color:red'>~~er~~finnes</span> det ut<span style='color:red'>for</span>dringer også. Med utvikling<span style='color:red'>en</span> av AI, forsvinner <span style='color:red'>noen</span> jobb muligheter fordi AI kan gjøre nå oppgaver som <span style='color:red'>tidligere</span> må<span style='color:red'>tte</span> gjort av mennesker. For eksempel oversett<span style='color:red'>elser</span>. AI er så flink <span style='color:red'>~~med~~ til</span> å oversett<span style='color:red'>e</span>. <span style='color:red'>~~Du~~ Man</span> kan bruke det for å berbrede språket. Jeg bruker det alltid for å skrive <span style='color:red'>~~papir~~ artikler</span> og jeg tenker det er ekstremt <span style='color:red'>~~helpsomt~~ nyttig</span> <span style='color:red'>~~med~~ for</span> å lære norsk. Det kan rette tekste<span style='color:red'>~~r~~ene</span> min. Hvis jeg har spørsmål om grammatikk, <span style='color:red'>~~har~~</span> AI alltid <span style='color:red'>en</span> god forklaring.
 
 
+Hvordan tror du kunstig intelligens kan påvirke arbeidet ditt i fremtiden?
 
-Noen jobber blir overflød. → Some jobs become redundant.
+--------------------------------------------------------------------------------
 
-> Oversettelse; sjåfør (selvgående biler); 
+**Hvordan KI påvirker livet ditt?**
+
+- <span class="env-green">KI kan hjelpe meg å organisere hverdagen min bedre. </span>
+  
+  For eksempel kan KI organisere kalenderen min, minne meg på viktige avtaler, og hjelpe meg med å planlegge oppgaver mer effektivt.
+
+- <span class="env-green">KI kan også hjelpe meg med å finne informasjon raskere. </span>
+  
+  Hvis jeg trenger å lære noe nytt eller finne svar på spørsmål, kan KI gi meg raske og relevante svar.
+
+- <span class="env-green">KI hjelper meg å spare tid, slipper meg kjedelig husarbeid. </span>
+  
+  For eksempel kan roboter ta seg av rutineoppgaver som rengjøring, slik at jeg kan holde meg med fritidsaktiviteter eller slappe av.
+
+--------------------------------------------------------------------------------
+
+
+Noen jobber blir **overflød**. → Some jobs become redundant.
+
+> Oversettelse; sjåfør (selvgående biler); butikkmedarbeider (selvbetjening); kundeservice (chatbots); fabrikkarbeider (automatisering); rengjøringen
 
 Det kan skape mye muligheter. Vi må bare lære oss å jobbe med teknologien.
 
@@ -1507,17 +1716,15 @@ Mennesker og kunstig intelligens jobber sammen for å oppnå bedre resultater.
 
 
 
-What is irreplaceable about mennesker? → uerstattelig
+What is irreplaceable about mennesker? → **uerstattelig**
 
 > Kompanjon; menneskelige kontakten og forståelsen (avhengig av kultor og bakgrunn);  
 >
 > lærere er uerstattelige, særlig når det gjelder å motivere og inspirere elevene.
+> 
 
 
-
-Hvordan tror du kunstig intelligens kan på virke arbeidet ditt i fremtiden?
-
-
+--------------------------------------------------------------------------------
 
 Hvilken ferdigheter tror du vil være viktige i arbeidet med kunstig intelligens?
 
@@ -1530,8 +1737,20 @@ Hvilken ferdigheter tror du vil være viktige i arbeidet med kunstig intelligens
 > Alt i alt tror jeg en kombinasjon av **tekniske ferdigheter, analytisk tenkning, kreativitet og gode samarbeidsevner** vil være avgjørende i arbeidet med kunstig intelligens.
 
 
+--------------------------------------------------------------------------------
 
-## **整形** Plastisk kirurgi
+**信息安全**
+
+Nåt det gjelder kunstig intelligens, hva tenker du om **personver**? ← beskymringene
+
+> Jeg er litt skeptisk til hvor mye informasjon disse systemene samler inn om oss. Vi må være forsiktig hva vi deler og med hvem, slik at vi kan beskytte oss selv. Jeg slår av lokalliseringstjenester når jeg ikke trenger dem.
+>
+> - lokalliseringstjennester / posisjontjenester
+
+
+--------------------------------------------------------------------------------
+
+## 整形 Plastisk kirurgi
 
 Hva synes dere om at man kan få utført en operasjon for å få et bedre utseende?
 
@@ -1639,6 +1858,10 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 | ----- | ------- |
 | hals  | throat  |
 | forkjølelse | cold |
+| fedme / overvekt | obesity |
+| ernæring / næring | nutrition |
+| protein | protein (en 同 no) |
+| mindre fett | less fat | 
 
 
 --------------------------------------------------------------------------------
@@ -1657,11 +1880,15 @@ verb
 
 --------------------------------------------------------------------------------
 
+
+
+
 ## Politikk
 
 | Norsk                    | English                 |
 | ------------------------ | ----------------------- |
-| likehet                  | equality  公平          |
+| likehet                  | equality 公平           |
+| frihet                   | freedom 自由            |
 | rettferdig / urettferdig | fair / unfair           |
 | å *telle* like mye       | to count equally        |
 | å gjennomføre / utføre   | to implement, carry out |
@@ -1691,7 +1918,7 @@ district court → court of appeals → Supreme Court
 | en forsvare             | 辩护律师                                                  |
 | justismord              | justice miscarriage                                       |
 | en krausjon             | bail, bond 保释金                                         |
-| å blie fengslet         | be imprisoned                                             |
+| å bli fengslet         | be imprisoned                                             |
 | å bli dømt til          | be sentenced …                                            |
 
 *Han ble beskyldt for å stjele penger.* → He was accused of stealing money.

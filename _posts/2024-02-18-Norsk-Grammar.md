@@ -140,10 +140,19 @@ De fleste adjektiv slutter på **‑t** når de beskriver *substantiv i ubestemt
 
 |                           | Attributiv: adjektiv før substantivet<br />定语形容词 | Predikativ: adjektiv sammen med være/bli<br />表语形容词 |
 | ------------------------- | ----------------------------------------------------- | -------------------------------------------------------- |
-| Substantiv i *hankjønn*   | en dyr bil                                            | Bilen *er* dyr.                                          |
-| Substantiv i *hunkjønn*   | ei dyr seng                                           | Senga *er* dyr.                                          |
-| Substantiv i *intetkjønn* | et dyr**t** bord                                      | Bordet *er* dyr**t**.                                    |
-| Substantiv i *flertall*   | dyr**e** biler/senger/bord                            | Bilene/Sengene/Bordene *er*dyr**e**.                     |
+| Substantiv i *hankjønn*   | en dyr bil; en pen kjole | Bilen *er* dyr.    |
+| Substantiv i *hunkjønn*   | ei dyr seng       | Senga *er* dyr.    |
+| Substantiv i *intetkjønn* | et dyr**t** bord  | Bordet *er* dyr**t**.   |
+| Substantiv i *flertall*   | dyr**e** biler/senger/bord      | Bilene/Sengene/Bordene *er*dyr**e**.  |
+
+**Flere intetkjønns-eksempler**
+
+| Norsk | English |
+| ----- | ------- |
+| et typisk inntrykk | a typical impression |
+
+
+
 
 
 **Norwegian Adjective Bøying (Inflection) Guide:**
@@ -185,7 +194,7 @@ NORWEGIAN ADJECTIVE BØYING
 
 | Gender       | Form     | Example                |
 | ------------ | -------- | ---------------------- |
-| Masc./Fem.  | all      | all varme maten, all dagen, all tiden, all ny snø   |
+| Masc./Fem.   | all      | all varme maten, all dagen, all tiden, all ny snø   |
 | Neut.        | alt      | alt arbeidet, alt håpet, alt huset, alt nytt stoff          |
 | Plural       | alle     | alle barna, alle bøkene, alle dagene |
 
@@ -218,7 +227,13 @@ Når substantivet står i bestemt form, legger vi til *bestemt artikkel* (定冠
 | Substantiv i *intetkjønn* | **det** dyr**e** bordet                |
 | Substantiv i *flertall*   | **de** dyr**e** bilene/sengene/bordene |
 
- 
+
+**Mer Intetkjønn Eksempler**
+
+| Norsk | English |
+| ----- | ------- |
+| det norske samfunnet | the Norwegian society |
+| det gamle huset | the old house |
 
 **Another example**
 
@@ -795,6 +810,19 @@ Det går over. → It will pass.
 1. 表示位置 under bordet / under stolen / under broen
 2. 表示时间, during, in the course of
 
+Foran / bak
+
+| Norsk | English   |
+|-------|-----------|
+| stå foran | stand in front of |
+| ligge foran | be ahead of |
+| ligge bak | be behind |
+| komme bak | fall behind |
+| være bak | be behind |
+
+Det er ingen biler bak. → There are no cars behind.  
+Det er ingen biler foran. → There are no cars in front.
+
 
 
 **Til:**
@@ -829,6 +857,8 @@ Det går over. → It will pass.
 
   Jeg bor i Norge. (I live in Norway.)
 
+  i barnehagen
+
 - «På» + place → *at* a place (stative 静态) or *going* to a place (directional 动态)
   
   Used with islands (not indep. countries), small towns/villages, public places, institutions, etc.
@@ -840,6 +870,10 @@ Det går over. → It will pass.
   > «gå» vs. «skal»  
   > If you are going to some place in general, not meaning walking, use «skal».  
   > «Gå» emphasizes *walking* to the place.
+
+  Jeg bor *på landet*. (I live in the countryside.)
+
+  Jeg bor *i byen*. (I live in the city.)
 
   «Være på» = being at a place, «skal på» = going to a place
   
@@ -886,3 +920,14 @@ Det går over. → It will pass.
 
 
 
+## Sammenligne
+
+少
+
+liten – mindre – minst [uncountable]  
+få – færre – færrest [countable]
+
+多
+
+mer – mest [uncountable]  
+flere – flest [countable]  
