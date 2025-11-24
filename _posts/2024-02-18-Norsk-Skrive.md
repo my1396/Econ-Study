@@ -1587,6 +1587,12 @@ Man må ikke stikke seg ut og være god til noe, og hvis man fremhever de beste,
 
 Man skal ikke plage andre, man skal være grei og snill, og for øvrig kan man gjøre hva man vil. → 主旨思想: 尊重他人，友善待人。
 
+
+**Free Choice**
+
+I Norge er det stor vekt på individuell frihet og personlig valg. Folk oppfordres til å ta ansvar for sine egne liv og gjøre valg som passer deres egne verdier og interesser. Dette gjelder alt fra utdanning og karrierevalg til livsstil og fritidsaktiviteter. Samfunnet legger til rette for at <span class="env-green">folk skal kunne leve slik de ønsker</span>, så lenge de respekterer andres rettigheter (right) og friheter (freedom).
+
+
 --------------------------------------------------------------------------------
 
 外国人
@@ -1669,6 +1675,7 @@ Hva er den beste måten å bli kjent med nordmenn på?
 - Bli med i en klubb eller forening som interesserer deg, som en sportsklubb, bokklubb eller hobbygruppe. Dette gir deg muligheten til å møte folk med lignende interesser i en avslappet setting.
 - Ta initiativ til å invitere nordmenn til å gjøre ting sammen, som å ta en kaffe, gå på tur eller delta på kulturelle arrangementer.
 - Gå på bar sammen. Alkohol hjelper folk å slappe av og åpne seg mer. Folk blir mer pratsomme og åpne.
+
 
 
 --------------------------------------------------------------------------------
@@ -1969,7 +1976,7 @@ verb
 | rettferdighet            | justice 公正            |
 | demokrati                | democracy 民主          |
 | ytringsfrihet            | freedom of speech 言论自由 |
-| likestilling            | equal opportunity 性别平等    |
+| likestilling            | equal opportunity 性别平等  |
 | å diskriminere          | to discriminate         |
 | å stemme ved valg       | to vote in elections    |
 | å delta i politikken    | to participate in politics |
@@ -1979,6 +1986,8 @@ verb
 | å uttrykke egne verdier  | to express one's values |
 | å kjempe for egne interesser | to fight for one's interests |
 | å telle like mye         | to count equally        |
+| å delta i beslutningsprosesser | to participate in decision-making processes |
+| å delta <span class="env-green">på</span> møter    | to attend meetings      |
 
 Interessene til alle skal telle like mye. → The interests of all should count equally.
 
@@ -1986,6 +1995,11 @@ Interessene til alle bør bli tatt hensyn til. → The interests of all should b
 
 Interessene til alle bør beskyttes. → The interests of all should be protected.
 
+Vi bør ha hensyn til de eldre i samfunnet. → We should take the elderly into consideration in society.
+
+de eldre / yngre / rike / fattige / innvandrere 
+
+- de + adj plural = 一类人
 
 ## Lov
 
