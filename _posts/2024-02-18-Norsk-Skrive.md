@@ -114,6 +114,23 @@ Use the following **mock exam** to practice before the actual exam:
 
 ### Structure
 
+#### Bruk «fyllord» i Muntligoppgaver
+
+**filler words**
+
+- Når skal vi se. → Well, let's see.
+- La meg tenke litt → Let me think a bit.
+- Det er et godt/interessant spørsmål → That is a good question.
+- Det var liksom litt vanskelig å si. → It was kind of difficult to say.
+- Kanskje det kan fungere. → Maybe that can work.
+- Det kommer an på … → It depends on …
+
+**思考角度**
+
+- 我做
+- 对别人的影响
+- 对社会整体的影响
+
 #### 🔹 1. Innledning (Introduction)
 
 - *I teksten blir det tatt opp spørsmålet om …* → The text raises the question of …
@@ -129,7 +146,7 @@ Use the following **mock exam** to practice before the actual exam:
 
 - *For det første …* → First of all …
 
-- *Dessuten …* → Furthermore / In addition …
+- *Dessuten / Videre …* → Furthermore / In addition …
 
 - … vil ha mange fordeler. → … will have mange benefits.
 
@@ -140,6 +157,8 @@ Use the following **mock exam** to practice before the actual exam:
 - *Dette betyr at …* → This means that …
 
 - *Et eksempel på dette er …* → An example of this is …
+
+- Når det gjelder … → When it comes to …
 
 - *Det kan føre til at …* → It can lead to … 
 
@@ -186,6 +205,11 @@ Use the following **mock exam** to practice before the actual exam:
   - *Det er vesentlig for … at …* → It is essential for … that …
 
     Det er vesentlig for elevenes læring at de får tilbakemelding fra læreren. → It is essential for students' learning that they receive feedback from the teacher.
+
+- noe <span class="env-green">er grunnlaget for</span> alt annet → sth is the basis for everything else
+
+  - Utdanning er grunnlaget for alt annet fordi det gir folk kunnskap og ferdigheter. → Education is the basis for everything else because it gives people knowledge and skills.
+  - God helse er grunnlaget for et lykkelig liv. → Good health is the basis for a happy life.
 
 - meningsfull → meaningful
 
@@ -339,7 +363,7 @@ ex
   → According to my experience, it is important to practice every day to learn a new language.
 - Etter min erfaring fungerer denne metoden godt.   
   → Based on my experience, this method works well.
-- Ifølge min erfaring kan det være utfordrende å tilpasse seg en ny kultur.   
+- Ifølge min erfaring kan det være utfordrende å <span class="env-green">tilpasse seg</span> en ny kultur.   
   → According to my experience, it can be challenging to adapt to a new culture.
 
 
@@ -942,14 +966,14 @@ befolkningen (population)
 
 ## 程度
 
+**非常，尤其**
+
 | fullstendig | completely |
 | ----------- | ---------- |
 | ekstremt    | extremely  |
-
-
-**Very**
-
-veldig, svært, skikkelig, ganske, spesielt, 
+| veldig, svært, skikkelig, ganske | very |
+| virkelig    | really     |
+| spesielt    | especially |
 
 
 
@@ -1223,7 +1247,13 @@ prisen å betale er ...
 
 *Mesteparten* av ... → Most of ...
 
-de fleste ... → most …
+de fleste ... → most … [countable]
+
+for det meste → mostly; for the most part [uncountable]
+
+stor sett → largely; to a large extent
+
+i hovedsak → basically; fundamentally
 
 *Store deler av* ... → Large parts of ...
 
@@ -1324,9 +1354,15 @@ What are the advantages and disadvantages of .... 注意跟英文的不同。挪
 
 <span style='color:#00CC66'>å oppdra</span>, oppdrar, oppdro, har oppdratt: to raise, rear, bring up, educate
 
+Jeg ble oppdratt til å respektere andre mennesker. → I was raised to respect other people.
+
+Jeg er født og oppvokst i Kina. → I was born and raised in China.
+
 godt oppdratt:  well brought up, well-raised
 
 en <span style='color:#00CC66'>oppdragelse / oppvekst</span>: upbringing*,* education
+
+Jeg må <span class="env-green">tilpasse meg</span> det norske samfunnet. → I have to adapt to the Norwegian society.
 
 å sette grenser: to set boundaries
 
@@ -1336,8 +1372,23 @@ We should not foster <span class="env-green">a sense of rivalry</span> among tee
 
 alle barn bør vokse opp i trygge og stabile familier
 
+--------------------------------------------------------------------------------
+
 Q: Hva synes du er viktigst å lære dine barn?  
 A: uavhengighet, selvstendighet (independence), samarbeide, respekt for andre, ansvarlighet , empati (empathy), ærlighet (honesty)
+
+**Persistence, perseverance** 坚持不懈
+
+motstandskraft
+
+utholdenhet – endurance / perseverance (more about persistence than emotional resilience)
+
+robusthet – robustness (can be used metaphorically, but often about systems or physical strength)
+
+robust [robˈust] adj. – robust, sturdy, strong
+
+
+--------------------------------------------------------------------------------
 
 Det sosiale er viktigere enn hvordan man <span style='color:#00CC66'>presterer</span>. [N.B. «å prestere» means "to perform, achieve, do well"; while «å presentere» means "to present (a show, a talk, etc)"]
 
@@ -1790,6 +1841,11 @@ en fremmed vs. å fremme
 
 å bli integret i samfunnet → to be integrated into society
 
+å tilpasse seg det norske samfunnet → to adapt to Norwegian society
+
+- legge merke til uten preposisjon etter «tilpasser seg»
+- å tilpasse seg noe → to adapt to sth
+
 Q: Hva er tegn på at en person er integrert i samfunnet?  
 A: Språkferdigheter (språket er nøkkelen), deltakelse i sosiale aktiviteter, forståelse av kulturelle normer, og å ha venner fra forskjellige bakgrunner, føler seg inkludert,
 
@@ -1896,8 +1952,20 @@ Negative sider:
 
 --------------------------------------------------------------------------------
 
+### Sosiale medier
 
-### <span style='color:#00CC66'>**KI**</span>
+**Sosiale medier påvirker samfunnet vårt på både positive og negative måter.**
+
+- Folk er så påvirket av sosiale medier. De bruker mye tid på å bla gjennom innlegg, se på bilder og videoer, og kommunisere med venner og familie. Dette kan føre til avhengighet og redusert produktivitet i hverdagen.
+- Sosiale medier kan også føre til sammenligning og misunnelse. Når folk ser andres perfekte liv på sosiale medier, kan de føle seg utilstrekkelige og misfornøyde med sitt eget liv.
+- På den annen side, sosiale medier kan også være en positiv kraft i samfunnet. De gir en plattform for folk å dele sine meninger, erfaringer og historier, og kan bidra til å øke bevisstheten om viktige saker og hendelser.
+- Sosiale medier kan også hjelpe folk å holde kontakten med venner og familie, spesielt de som bor langt unna. De gir en enkel og praktisk måte å kommunisere og dele informasjon på.
+
+
+--------------------------------------------------------------------------------
+
+
+## <span style='color:#00CC66'>**KI**</span>
 
 Jeg bruker det nesten uten å tenke over det. → 说明一件事潜移默化的渗入日常生活中。
 
@@ -2026,6 +2094,10 @@ Nåt det gjelder kunstig intelligens, hva tenker du om **personver**? ← beskym
 --------------------------------------------------------------------------------
 
 ## 整形 Plastisk kirurgi
+
+en kirurgi [çirurgi:´]
+
+synom.: plastisk operasjon 
 
 Hva synes dere om at man kan få utført en operasjon for å få et bedre utseende?
 
@@ -2212,6 +2284,19 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 | helsetjenester    | healthcare services |
 | helsekost         | health food         |
 | varietet [varietˈet] | variety (en 同 no) |
+| være i form      | stay in shape       |
+| være til <span class="env-green">bryde</span> for noen | be a bother / burden to sb |
+
+
+**噪音**
+
+| Norsk  | English          |
+| ------ | ---------------- |
+| bråk   | noise            |
+| støy   | background noise |
+| en lyd | a sound          |
+
+Lyder med høy tone, som barn som skriker, er <span class="env-green">irriterende</span> for meg. → High-pitched sounds, like children screaming, are irritating to me.
 
 
 **kost vs. kosthold**
