@@ -187,6 +187,8 @@ Use the following **mock exam** to practice before the actual exam:
 
     Det er vesentlig for elevenes læring at de får tilbakemelding fra læreren. → It is essential for students' learning that they receive feedback from the teacher.
 
+- meningsfull → meaningful
+
 - få betydning for ... → to have an impact on ...
 
   - *Dette kan få stor betydning for …* → This can have a big impact on …
@@ -245,6 +247,12 @@ Use the following **mock exam** to practice before the actual exam:
 
     Det er meningsløst å krangle om småting. → It is pointless to argue about small things.
 
+- … kan føre til negative <span class="env-green">konsekvenser</span> for … → can lead to negative consequences for …
+
+- … har en negativ innvirkning på … → has a negative impact on …
+
+- … blir et økende problem i mange land. → … is becoming an increasing problem in many countries.
+
 ------
 
 #### 🔹 4. Suggesting alternatives / solutions
@@ -268,7 +276,11 @@ Løsning
   - *Det er nødvendig med tiltak for å …* → It is necessary with measures to …
 
 - alle har en viktig rolle å spille i å løse dem → everyone has an important role to play in solving them
-
+- å samarbeide for å finne løsninger → to collaborate to find solutions
+- å ta ansvar for noe → to take responsibility for sth
+- å forbrede noe <span class="env-green">ved</span> å gjøre … → to improve sth by doing sth 
+- å fortsette å gjøre noe til ... → to continue doing sth until ...
+  - Jeg vil fortsette å prøve til jeg når B2-nivå.
 
 ___
 
@@ -478,6 +490,21 @@ Han kan bli oppfattet som arrogant, men egentlig er han bare sjenert. → He can
 Note: «antakelig» can also mean «akseptabel».
 
 
+--------------------------------------------------------------------------------
+
+区别几个形近词
+
+| Norsk     | English         |
+| --------- | --------------- |
+| dessuten  | moreover        |
+| derfor    | so              |
+| dermed    | so              |
+| dersom    | if              |
+| derimot   | on the contrary |
+
+
+--------------------------------------------------------------------------------
+
 **altså**
 
 1. that is, in other words (clarification)
@@ -494,13 +521,9 @@ slik sett → in this sense
 
 det store spørsmålet er ... → The big question is … The key issue is …
 
+… regnes (derfor) som … → … is (hence) considered …
 
-
-... is (hence) considered ...
-
-... regnes (derfor) som …
-
-Bruk av fornybare energikilder regens som bærekraftig og miljøvennlig.
+Bruk av fornybare energikilder *regens som* bærekraftig og miljøvennlig.
 
 
 
@@ -522,7 +545,7 @@ det er i hvert fall *på sin plass* at …  → It is certainly fitting that …
 
 
 
-这是一个…问题
+这是一个 … 的问题
 
 Man kan <span class="env-green">se på som</span> ....
 
@@ -535,10 +558,10 @@ Man kan se på som en positiv utvikling og et resultat av at ... → It can be v
 | Det <span style='color:#00CC66'>går kanskje ikke an</span> å gjøre noe. | It is not possible to do.             |
 | ------------------------------------------------------------ | ------------------------------------- |
 | det er større *sannsynlighet* for at …                       | there is a greater probability that … |
-| antakelig / antagelig                                        | probably 可能                         |
+| antakelig / antagelig                                        | probably 可能                          |
 | sannsynlig                                                   | likely                                |
 | trolig                                                       | likely                                |
-| nok                                                          | 也可作 probably 使用                  |
+| nok                                                          | 也可作 probably 使用                    |
 
 
 --------------------------------------------------------------------------------
@@ -632,9 +655,7 @@ Språk er nøkkelen til å bli integrert i samfunnet.
 
 
 
-gå altfor langt i å gjøre noe 
-
-... 做的太过火了
+gå altfor langt i å gjøre noe  → … 做的太过火了
 
 Staten gåt altfor langt i å regulere folks privatliv.
 
@@ -659,7 +680,7 @@ På den ene siden … (倒装语序), men på den annen siden … (倒装)
 
 无论如何 anyway
 
-i hvert fall, i alle fall
+i hvert fall, i alle fall, uansett
 
 
 
@@ -936,13 +957,21 @@ veldig, svært, skikkelig, ganske, spesielt,
 
 å påvirke (neutral)
 
+påvirkning → impact; influence
+
+å ha stor <span class="env-green">påvirkning / innflytelse / effekt</span> på noe(n) → to have a big impact on sth/sb
+
 å berøre (active); berøres (passive)
+
+berømmelse → fame, celebrity
 
 *blir rammet av noe* (negative) → impacts; be affected/bit by storms, disasters, crises, illness, accidents, or other misfortunes.
 
 - Huset ble rammet av et tre under stormen. → The house was hit by a tree during the storm.
 - Mange familier ble rammet av nedleggelsen av fabrikken. → Many families were affected by the closure of the factory.
 - Landet ble rammet av en økonomisk krise. → The country was hit by an economic crisis.
+
+
 
 --------------------------------------------------------------------------------
 
@@ -963,11 +992,12 @@ Konflikten gikk utover vennskapet deres. → The conflict harmed their friendshi
 
 | Norsk              | English                                | 中文             |
 | ------------------ | -------------------------------------- | ---------------- |
-| i *de siste årene* | In the last few years                  | 最近几年         |
+| i ***de** siste årene* | In the last few years                | 最近几年        |
+| i **de** siste dagene/månedene | In the last few days/months  | 最近几天/几个月  |
 | i det siste        | recently, lately                       | 最近             |
-| Tidligere ...      | Earlier / Previously / In the past ... | 以前，过去，早先 |
+| Tidligere ...      | Earlier / Previously / In the past ... | 以前，过去，早先   |
 | For to år siden    | Two years ago                          | 两年前           |
-| på lang/kort sikt  | on the long/short term                 |                  |
+| på lang/kort sikt  | on the long/short term                 |                 |
 
 
 
@@ -986,9 +1016,11 @@ Stagig flere/bedre ... 越来越多/好
 
 
 
-**趋势**
+## 趋势
 
 Et *økende* antall nordmenn ønsker å ... → An increasing number of Norwegians wish to ...
+
+… blir et økende problem → … is becoming an increasing problem
 
 *en vesentlig økning av* antall nordmenn over 80 → A significant increase in the number of Norwegians over 80
 
@@ -1008,7 +1040,9 @@ forbedre mental helse → improve mental health
 
 Det blir en ond *sirkel*. → It becomes a vicious circle.
 
-↓: å redusere / senke / begrense / bremse
+↑: å øke / stige / forbedre / heve / vokse / ekspandere / utvikle
+
+↓: å redusere / senke / begrense / bremse / minimere
 
 ⭕️: å stoppe / stanse
 
@@ -1163,6 +1197,7 @@ prisen å betale er ...
 
 
 
+--------------------------------------------------------------------------------
 
 
 **挑战，困难**
@@ -1170,14 +1205,17 @@ prisen å betale er ...
 | å gi store utfordringer for noen            | give sb big challenges                    |
 | ------------------------------------------- | ----------------------------------------- |
 | en utfordring kan være …                    |                                           |
-| beskymringer noen ikke klarer å takle alene | concerns that someone cannot handle alone |
-| noe er av stor bekymring for ...            | sth is of great concern.         |
+| bekymringer noen ikke klarer å takle alene | concerns that someone cannot handle alone |
+| noe er <span class="env-green">av stor bekymring</span> for ...  | sth is of great concern.  |
 | en del utfordringer                         | lots of challenges                        |
-| å møte disse unfordringene                  | to face these challenges                  |
+| å møte disse utfordringene                  | to face these challenges                  |
 
+--------------------------------------------------------------------------------
 
 
 **组成<span style='color:#00CC66'>部分</span>**
+
+大多数
 
 *Den største delen* er ... (Note the triple definite form) → The largest part is ...
 
@@ -1187,8 +1225,6 @@ prisen å betale er ...
 
 de fleste ... → most …
 
-*En annen viktig del av* ... → Another important part of ...
-
 *Store deler av* ... → Large parts of ...
 
 de *færreste* / et *fåtall* av … → few … (表否定，数量少)
@@ -1197,28 +1233,52 @@ en håndful av … → a handful of …
 
 være sammensatt av … → be composed of; to consist of
 
+*En annen viktig del av* ... → Another important part of ...
+
+Deler + er en del av ... → Sth is a part of ...
+
+Deler + utgjør en del av ... → Sth constitutes a part of ...
+
+- Frivillig arbeid utgjør en viktig del av samfunnet.  
+  → Voluntary work forms an important part of society.
+
+- Trening og kostnad utgjør en stor del av en sunn livsstil.  
+  → Exercise and diet constitute a large part of a healthy lifestyle.
+
+Noe + består av + deler → Sth consists of parts
+
+- En familie består av foreldre og barn. 
+  → A family consists of parents and children.
+
+--------------------------------------------------------------------------------
 
 
 **表现形式**
 
-komme til uttrykk ved
+Causes + komme til uttrykk ved + Consequences → manifest as; be reflected in; show itself in
 
 - Norsk uavhengighet kommer til uttrykk ved at mange norske ungdommer flytter hjemmefra tidlig.
 
-gi seg utslag i/på
+synonym: gi seg utslag i/på 
 
+- Stresset ga seg utslag i søvnproblemer.
+- Mangel på motivasjon gir seg utslag i lav produktivitet.
 
-
+--------------------------------------------------------------------------------
 
 
 **举例**
 
-Eksempler av detter er …
+Eksempler av dette er …
 
 det finnes det eksempler <span style='color:#00CC66'>på</span> … → There are examples of …
 
- i noen tilfellers … → in some cases
+i noen tilfellers … → in some cases
 
+i tilfelle av … → in case of …
+
+
+--------------------------------------------------------------------------------
 
 
 **优势和劣势**
@@ -1227,6 +1287,7 @@ Hvilke <span style='color:#00CC66'>fordeler og ulemper</span> er det ved å flyt
 
 What are the advantages and disadvantages of .... 注意跟英文的不同。挪威语用的是 hvilke, 英文用的是 what.
 
+--------------------------------------------------------------------------------
 
 
 ## Familie og utdanning
@@ -1254,6 +1315,11 @@ What are the advantages and disadvantages of .... 注意跟英文的不同。挪
 
       - hvis foreldrene har kapasitet og kunnskap til å gi barna en god utdanning, kan hjemmeundervisning være et godt alternativ. Barn får mer individuell oppmerksomhet og får lære tilpasset for deres behov og interesser.
       - Men hvis foreldrene ikke nok ressurser eller kunnskap, kan det føre til at barna ikke får det klare når de begynner på skolen. f.eks. noen foreldrene er fra utland og ikke snakker norsk. Hvis barne deres går ikke i barnehage, kan det være vanskelig for dem å henge med i klassen. 
+
+- private skoler vs offentlige skoler
+  - private skoler kan tilby bedre læringsmiljø og flere ressurser enn offentlige skoler
+  - <span class="env-green">et bedre tilbud på</span> mat og aktiviteter
+
 
 
 <span style='color:#00CC66'>å oppdra</span>, oppdrar, oppdro, har oppdratt: to raise, rear, bring up, educate
@@ -1299,6 +1365,23 @@ være opptatt av tilbakemeldinger → *bry* seg om hva andre sier til deg 在意
 | jordnær               | realistic, pragmatic |
 
 
+**Snakk sammen om hvorvidt jenter og gutter bør få samme oppdragelse.**
+
+Jenter og gutter bør få samme oppdragelse.
+
+- Mennesker bør ha like grunnleggende ferdigheter uavhengig av kjønn. Dette inkluderer ferdigheter som kommunikasjon, samarbeid, selvstendighet og problemløsning. Alle må leve selvstendig en dag. Når dagen kommer, må de klare seg selv. De må lagge sin egen mat, vaske klærne sine, betale regninger, og så videre. Derfor bør både jenter og gutter lære disse ferdighetene fra en tidlig alder.
+- I det andre, forventer for menn og kvinner er mer lingenede nå enn før. Tidligere var det mer tradisjonelle kjønnsroller, der menn ble forventet å være forsørgere og kvinner å ta seg av hjemmet og barna. Nå er det mer vanlig at både menn og kvinner jobber utenfor hjemmet og deler på husarbeidet og barneoppdragelsen. Derfor oppdragelsen bør være lik for begge kjønn.
+- Videre, ved å gi både jenter og gutter samme oppdragelse, kan vi bidra til å kjønnlikestilling og respekt. Dette fører til mindre distriminering og stereotyper basert på kjønn, og skaper et mer inkluderende samfunn der alle har like muligheter til å lykkes.
+
+
+**Synes du at ungdom bør hjelpe til med husarbeid hjemme?**
+
+Ja, jeg synes ungdom bør hjelpe til med husarbeid hjemme.
+
+- Det lærer dem ansvar og selvstendighet. Når ungdom hjelper til med husarbeid, lærer de viktige ferdigheter som matlaging, rengjøring og organisering. Disse ferdighetene er nødvendige for å leve selvstendig senere i livet.
+- Videre, ved å bidra til husarbeid, annekjenne ungdom at foreldrene dere gjør mye for dem. Dette kan fremme en følelse av takknemlighet og respekt for foreldrene deres. Det fører til et bedre familiebånd og forhold.
+- I tillegg, når ungdom hjelper til med husarbeid, kan det bidra til <span class="env-green">å lette byrden på</span> foreldrene deres. Foreldre kan slappe av litt mer når de vet at ungdommen deres bidrar til å holde hjemmet rent og organisert. 
+
 
 --------------------------------------------------------------------------------
 
@@ -1341,13 +1424,21 @@ klar og tydelig **kildehenvisning** → clear and explicit source referencing
 
 kritisk tenkning → critical thinking
 
-| stor konkurranse                       | big competition                      |
+å bruke mye tid på forderedelser → to use lots of time on preparations
+
+å pusse på noe → to polish sth; brush up sth
+
+- Jeg må pusse litt mer på oppgaven → I have to polish my work some more.
+
+
+| Norsk                                  | English                              |
 | -------------------------------------- | ------------------------------------ |
+| stor konkurranse                       | big competition                      |
 | Det var en stor skuffelse å mislykkes. | It was a big disappointment to fail. |
 | Jeg fikk mye selvtillit.               | I receive much confidence.           |
 | Utfordringen kan være å gjøre noe      | The challenge can be to do sth       |
 
-Detter er mer tilpasset dagens samfunn der all informasjon er tilgjengelig. → This is more adapted to today's society, where all information is readily accessible.
+<span class="env-green">Dette er mer tilpasset dagens samfunn</span> der all informasjon er tilgjengelig. → This is more adapted to today's society, where all information is readily accessible.
 
 Lærerne vurderer elevenes **prestasjoner og fremgang** → the teachers evaluate the students' performance and progress
 
@@ -1356,6 +1447,16 @@ Lærerne vurderer elevenes **prestasjoner og fremgang** → the teachers evaluat
 å rette noen feil → to correct (a specific error)
 
 rette/fikse grammatikkfeilene
+
+god konkurranse: healthy competition
+
+- inspirere; motivere;
+
+hard / brutal [brutˈal] konkurranse: vicious/fierce competition
+
+- stressende
+- aldri godt nok; alltid press for å gjøre det bedre
+- føler seg mindreverdig hvis man ikke er like flink som andre → feel inferior if one is not as good as others
 
 
 
@@ -1389,6 +1490,12 @@ Det er bedre at barna selv <span style='color:#00CC66'>opplever glede av mestrin
 **重要**
 
 sette noe høyt; verdsette noe høyt;
+
+å satse på noe; prioritere noe;
+
+å legge vekt på noe [note vekt here without any article] → to emphasize sth
+
+det er stor vekt på … → there is great emphasis on … 
 
 … har blitt uvesentlige, og … har blitt enda viktigere enn før.   [… have become insignificant, and … has become even more important than before.]
 
@@ -1487,6 +1594,20 @@ Forskning viser at barn som er født sent på året, risikerer å bli skoletaper
 
 --------------------------------------------------------------------------------
 
+**Synes du at staten bør endre utdanningsprogrammet i skolen?**
+
+Ja, jeg synes staten bør endre utdanningsprogrammet i skolen.
+
+- For det første, bør skolen fokusere mer på <span class="env-green">praktiske ferdigheter</span> som er relevante for arbeidslivet. Mange elever føler at de ikke lærer ferdigheter som vil hjelpe dem i deres fremtidige karrierer. Ved å inkludere mer praktisk opplæring, kan skolen forberede elevene bedre for arbeidsmarkedet.
+
+- I tillegg, bør skolen legge mer vekt på <span class="env-green">mental helse og velvære</span>. Mange elever opplever stress og press i skolen, noe som kan påvirke deres mentale helse negativt. Ved å inkludere programmer som fokuserer på mental helse, kan skolen hjelpe elevene med å håndtere stress og utvikle sunne mestringsstrategier.
+
+- Videre, bør skolen fremme <span class="env-green">kreativitet og kritisk tenkning</span>. I dagens samfunn er det viktig å kunne tenke kreativt og kritisk for å løse komplekse problemer. Ved å inkludere mer kreativitet og kritisk tenkning i utdanningsprogrammet, kan skolen forberede elevene bedre for fremtidige utfordringer.
+
+
+
+--------------------------------------------------------------------------------
+
 
 ## Arbeidsliv
 
@@ -1519,6 +1640,11 @@ en karriere: career
 Words for "job": yrke, bransje, industri
 
 fremgangsrik karriere: successful career
+
+forretning: business  
+bedrift: company
+
+psykologer [sykolå:´g]: psychologists
 
 **常见职业:**
 
@@ -1599,6 +1725,13 @@ Staten
 
 Man må ikke stikke seg ut og være god til noe, og hvis man fremhever de beste, får man kritikk med en gang. → 主旨思想: 大家水平都要平均; 不支持优秀突出。
 
+**Likestilling**
+
+Det er viktig at alle mennesker har like rettigheter og muligheter, uavhengig av kjønn, alder, etnisitet [etnisitˈet] eller bakgrunn.
+
+Alle er verdt like mye respekt. → Everyone is worthy of equal respect.
+
+
 **Kardemommeloven**
 
 Man skal ikke plage andre, man skal være grei og snill, og for øvrig kan man gjøre hva man vil. → 主旨思想: 尊重他人，友善待人。
@@ -1606,9 +1739,17 @@ Man skal ikke plage andre, man skal være grei og snill, og for øvrig kan man g
 
 **Free Choice**
 
-I Norge er det stor vekt på individuell frihet og personlig valg. Folk oppfordres til å ta ansvar for sine egne liv og gjøre valg som passer deres egne verdier og interesser. Dette gjelder alt fra utdanning og karrierevalg til livsstil og fritidsaktiviteter. Samfunnet legger til rette for at <span class="env-green">folk skal kunne leve slik de ønsker</span>, så lenge de respekterer andres rettigheter (right) og friheter (freedom).
+<span class="env-green">I Norge er det stor vekt på</span> **individuell frihet** og **personlig valg**. Folk oppfordres til å ta ansvar for sine egne liv og gjøre valg som passer deres egne verdier og interesser. Dette gjelder alt fra utdanning og karrierevalg til livsstil og fritidsaktiviteter. Samfunnet legger til rette for at <span class="env-green">folk skal kunne leve slik de ønsker</span>, så lenge de respekterer andres rettigheter (right) og friheter (freedom).
 
 respektere mangfold → respect diversity
+
+respekere preferanser → respect preferences
+
+People have self-discipline, and take responsibility for their own actions. Government should minimize interference in people's lives. → Folk har selvdisiplin, og tar ansvar for sine egne handlinger. Regjeringen bør minimere innblanding i folks liv.
+
+Å røyke eller drikke alkohol har mange negative konsekvenser for både individet og samfunnet som helhet. <span class="env-green">Men til tross for dette, er frihet og personlig valg høyt verdsatt i Norge. </span>
+<span class="env-green">Derfor bør personlig valg respekteres.</span> Staten kan utføre andre tiltak for å redusere røyking, for eksempel ved å øke skatten på tobakk og alkohol. Men å <span class="env-green">forby det helt er ikke i tråd med norske verdier om frihet og personlig ansvar.</span>
+
 
 
 --------------------------------------------------------------------------------
@@ -1632,7 +1773,7 @@ flyktninger
 
 外国的 (adj)
 
-fremmede, utenlandske
+fremmed (bøying: fremmed [neut.], fremmede [plur.]), utenlandsk (bøying: utenlandsk, utenlandske)
 
 en fremmed vs. å fremme
 
@@ -1698,6 +1839,15 @@ Hva er den beste måten å bli kjent med nordmenn på?
 
 --------------------------------------------------------------------------------
 
+**Hva tenker du om dialektene i Norge?**
+
+- Jeg synes dialektene i Norge er veldig interessante og viktige for landets kulturarv. 
+- Dialektene gjenspeiler Norges geografiske mangfold og historie, og de bidrar til å bevare lokale tradisjoner og identiteter.
+- På den annen side kan dialektene også skape noen utfordringer for kommunikasjon mellom folk fra forskjellige regioner, spesielt for innvandrere som lærer norsk som andrespråk. Noen dialekter kan være vanskelige å forstå for dem, noe som kan føre til misforståelser og frustrasjon.
+
+
+--------------------------------------------------------------------------------
+
 
 ## Medier og teknologi
 
@@ -1715,6 +1865,36 @@ Teknologien har tatt over mange av arbeidsoppgavene på fabrikkene og byggeplass
 
 >  Da synes jeg at det er viktigere at barna lærer <span style='color:#00CC66'>god bruk av kilder og å være kildekritiske</span>. Det digitale kan ikke gå på bekostning av ekte bøker.
 
+en kjendis, kjendisen, <span class="env-green">kjendiser</span>, kjendisene → celebrity, a famous person
+
+
+**Hva tenker dere – er det positivt eller negativt å være populær og kjent?**
+
+Det har begge positive og negative sider å være populær og kjent.
+
+Positive sider:
+
+- Følele av selvtillit og stolthet. 
+- Inspirasjon for andre.
+- De kan bruke sin plattform til å skape positiv forandring. F.eks, å fremme miljø saker eller sosial rettferdighet.
+
+Negative sider:
+
+- Mangel på privatliv. 
+  
+  Privatliv er på nyheter og sosiale medier alltid. En eksempel er når kjendiser spiser på restaurant, folk tar bilder av dem uten deres samtykke og legger det ut på sosiale medier. Det er et dårlig opplevelse for dem.
+
+- Press for å opprettholde et bestemt bilde eller standard.
+  
+  Kjendiser må alltid se bra ut og oppføre seg på en bestemt måte. Det kan være stressende og krevende. Forestille at du skal kaste søppel, men du må se perfekt ut for kameraer rundt deg fordi reportere venter utenfor huset ditt døgnet rundt.
+
+- Vanskelig å stole på andres intensjoner.
+
+  Hvis noen blir venn med deg, vet du ikke om de virkelig liker deg for den du er, eller om de bare er interessert i berømmelsen din og fordelene som følger med det.
+
+å opprettholde [å`prethålə]: to maintain, uphold  
+
+--------------------------------------------------------------------------------
 
 
 ### <span style='color:#00CC66'>**KI**</span>
@@ -1770,6 +1950,8 @@ Noen jobber blir **overflød**. → Some jobs become redundant.
 
 > Oversettelse; sjåfør (selvgående biler); butikkmedarbeider (selvbetjening); kundeservice (chatbots); fabrikkarbeider (automatisering); rengjøringen
 
+Det skal være mindre behov for mennesker i disse yrkene fordi KI kan utføre oppgavene mer effektivt og nøyaktig.
+
 Sjåfører (selvgående biler); 
 
 Drosjer i fremtiden uten sjåfører. Man bestiller en tur, og en drosje kommer uten en drosje. Leveringbilen vil bli utstyrt med en robot. Når det når adressen, roboten tar pakken og leverer utendørs.
@@ -1797,6 +1979,8 @@ What is irreplaceable about mennesker? → **uerstattelig**
 
 
 Hvilke yrker skal bli mer aktuelle?
+
+Det skal bli større behov for disse yrkene:
 
 - Programmering og dataanalyse. 
   
@@ -1865,11 +2049,47 @@ ___
 
 ## Miljø 环保
 
+
+**Hva kan vi gjøre for å ta vare på miljøet?**
+
+1. i hverdagen
+   
+   å ta miljøvennlige valg → to make environmentally friendly choices
+
+   - å redusere forbruk av plast og resirkulere mer → to reduce plastic consumption and recycle more
+     
+     å redusere avfall → to reduce waste 
+   
+   - bruke mindre bil og mer kollektivtransport som buss og tog
+   
+   - gjenbruk 循环利用  
+     gjenbruk i sted for å kjøpe nytt
+   
+   - mange kommer til <span style='color:#00CC66'>å *feriere i eget land*</span>, i stedet for å fly jorda rundt. → 在国内度假
+
+2. på samfunnsnivå
+   
+   å redusere gassutslipp → to reduce gas emissions  
+   å redusere $CO_2$ utslipp → to reduce $CO_2$ emissions
+   
+   - å <span style='color:#00CC66'>fase ut</span> bruken av fossil energi → to phase out the use of fossil energy
+   
+   - satse på fornybar [fårny:´bar] energi → focus on renewable energy
+     - solenergi, vindkraft og vannkraft
+
+   - lage lover som beskytter miljøet → make laws that protect the environment
+     - tiltak som reduserer <span style="color: #00CC66;">*forurensningen*</span>   
+       → measures that reduce pollution
+
+   - investere i grønn teknologi → invest in green technology
+     - ladestasjoner for elbiler → 电动车充电桩
+     - forskning og utvikling av nye miljøvennlige løsninger → research and development of new environmentally friendly solutions
+
+
+
 bærekraftig: sustainable 可持续
 
 *fornybare ressurer / energikilder* →  renewable resources / energy 可再生能源
-
-- solenergi, vindkraft og vannkraft
 
 *Det satses stadig mer* på fornybar energi. → *There is an increasing focus* on renewable energy.
 
@@ -1877,42 +2097,21 @@ miljøvennlig: environmental friendly
 
 å unngå / redusere utslipp →  to avoid/ reduce emissions
 
-tiltak som reduserer <span style="color: #00CC66;">*forurensningen*</span> → measures that reduce pollution
+Vi kan <span class="env-green">forbrede miljøet ved å</span> ... → We can improve the environment by ...
 
-å ta miljøvennlige valg → to make environmentally friendly choices
-
-å redusere forbruk av plast og resirkulere mer → to reduce plastic consumption and recycle more
-
-å redusere avfall → to reduce waste
-
-å redusere gassutslipp → to reduce gas emissions  
-å redusere $CO_2$ utslipp → to reduce $CO_2$ emissions
-
-- bruke mindre bil og mer kollektivtransport som buss og tog
-
-vi må passer på naturen vår → we must take care of our nature
+Vi må passer på naturen vår → we must take care of our nature
 
 Vi må ta vare på kloden. → We must take care of the globe.
 
 Det er fattige land som *rammes hardest av* klimaendringene. → Poor countries were affected most.
 
-gjenbruk 循环利用
-
 å *disponere* ressurser → to allocate resources
 
-gjenbruk i sted for å kjøpe nytt
-
-storbyer som normalt sliter med dårlig luft på grunn av utslipp fra transport og fabrikker
+storbyer som normalt <span class="env-green">sliter med</span> dårlig luft på grunn av utslipp fra transport og fabrikker
 
 motsetninger mellom naturvern og økonomisk vekst → conflicts btw environment protection and economic growth
 
 Politikerne må lage lover som beskytter miljøet. → Politicians must make laws that protect the environment.
-
-å <span style='color:#00CC66'>fase ut</span> bruken av fossil energi → to phase out the use of fossil energy
-
-ladestasjoner for elbiler → 电动车充电桩
-
-mange kommer til <span style='color:#00CC66'>å *feriere i eget land*</span>, i stedet for å fly jorda rundt. → 在国内度假
 
 utenlands: foreign, international 国外 (utenfor hjemmelandet)
 
@@ -1931,32 +2130,36 @@ Er det noen poenger i talen til Grete Thunberg som dere synes er spesielt gode?
 --------------------------------------------------------------------------------
 
 Muntlig. Uttrykke synspunkter og meninger (individuell), B1
+
 Hva synes du om at folk i dag reiser sa mye, bade innenlands og utenlands? Begrunn svaret ditt.
-Hva mener du er det viktigste vi kan gjore for á ta vare pà miljoet? Begrunn svaret ditt.
+
+Hva mener du er det viktigste vi kan gjøre for å ta vare på miljøet? Begrunn svaret ditt.
 
 --------------------------------------------------------------------------------
 
 Muntlig. Utveksle synspunkter og meninger (samtale), B1-B2
+
 Snakk sammen om dere synes det er viktig a sortere soppel for å ta vare på miljøet. Hvorfor / hvorfor ikke?
 
 --------------------------------------------------------------------------------
 
 Muntlig. Argumentere (individuell), B2
+
 Påstand A: Folk i dag har for høyt forbruk.
 
 Oppfølgingssporsmal:
-• Hva kan myndighetene gjøre for a få ned forbruket i private husholdninger?
-• Hva kan vi selv gjøre for à redusere forbruket?
-• Hvordan kan man unngå matsvinn?
+- Hva kan myndighetene gjøre for a få ned forbruket i private husholdninger?
+- Hva kan vi selv gjøre for à redusere forbruket?
+- Hvordan kan man unngå matsvinn?
 
 --------------------------------------------------------------------------------
 
 Påstand B: Det bor være en grense for hvor ofte folk kan fly.
 
 Oppfølgingssporsmal:
-• Synes du flybilletter bor bli dyrere enn de er i dag?
-• Er det andre tiltak som er mer miljøvennlige enn à slutte à fly, mener du?
-• Er det noen ulemper ved at folk slutter à bruke fly?
+- Synes du flybilletter bor bli dyrere enn de er i dag?
+- Er det andre tiltak som er mer miljøvennlige enn à slutte à fly, mener du?
+- Er det noen ulemper ved at folk slutter à bruke fly?
 
 --------------------------------------------------------------------------------
 
@@ -1985,29 +2188,86 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 
 
 
+--------------------------------------------------------------------------------
 
 
 ## Folkehelse
 
-| norsk | English |
-| ----- | ------- |
-| hals  | throat  |
-| forkjølelse | cold |
-| fedme / overvekt | obesity |
-| ernæring / næring | nutrition |
-| protein | protein (en 同 no) |
-| mindre fett | less fat | 
+| Norsk             | English             |
+| ----------------- | ------------------- |
+| hals              | throat              |
+| forkjølelse       | cold                |
+| fedme / overvekt  | obesity             |
+| ernæring / næring | nutrition           |
+| protein           | protein (en 同 no)  |
+| mindre fett       | less fat            |
+| måltid            | meal                |
+| en sunn kost      | a helthy diet       |
+| et sunt kosthold  | a healthy diet      |
+| livsstil          | lifestyle           |
+| fysisk aktivitet  | physical activity   |
+| trening           | exercise            |
+| kondisjon         | fitness             |
+| helseforsikring   | health insurance    |
+| helsetjenester    | healthcare services |
+| helsekost         | health food         |
+| varietet [varietˈet] | variety (en 同 no) |
+
+
+**kost vs. kosthold**
+
+- kost = diet (the food one eats)
+  
+  matvarer man spiser
+
+- kosthold = dietary habits / eating habits
+  
+  Handle om spisevaner og livsstil
+
+
+Trening og kosthold utgjør en stor del av en sunn livsstil. → Exercise and diet make up a large part of a healthy lifestyle.
+
+Common food:
+
+- grønnsaker, frukt
+- fersk fisk, kylling, kjøtt
+- Søppelmat: skadelig for helsen; typisk mat som inneholder mye fett, sukker og salt; svært prosessert mat;
+  potetgull (chips / crisps), brus, godteri (candy), 
+  hurtigmat (fast food): pommes frites [påmfri´t:], nuggets, hamburgere, pizza, pølser
+- snacks (same as eng.)
+- sukker, salt, krydder
+
+
+Et balansert kosthold er viktig for å <span class="env-green">holde seg frisk</span>. → A balanced diet is important to stay healthy.
+
+Fedme blir et økende problem i mange land, og mange må ta medisiner for å kontrollere vekten sin. → Obesity is becoming an increasing problem in many countries.
+
+Det er viktig å spise sunt for å holde seg i form. → It is important to eat healthy to stay in shape.
+
+Mindre sannsynlighet for fedme;
+
+- ✅ føler seg energisk; fokusere bedre; sove bedre; redusere stress; forbedre humøret; 
+- mindre risiko for sykdommer som hjertesykdommer og diabetes; 
+- lavere / høyere sjanse for å 
+  
+  Trening gir lavere sjanse for å bli syk.
 
 
 **Psykisk helse**
 
-| norsk | English |
-| ----- | ------- |
-| depresjon | depression |
+| Norsk             | English        |
+| ----------------- | -------------- |
+| depresjon         | depression     |
+| angst             | anxiety        |
+| stress            | stress         |
+| søvnproblemer     | sleep problems |
+| velvære / trivsel | well-being     |
+| psykologer        | psychologists  |
+| psykologi         | psychology     |
+| terapeuter /terapøyt/ | therapists |
+| rådgivere         | counselors     |
 
 å ha behov for hjelp / veiledning → to need help / guidance
-
-trivsel → well-being
 
 Gamle vaner er vanskelige å endre. → Old habits are hard to change.
 
@@ -2037,7 +2297,18 @@ verb
 
 --------------------------------------------------------------------------------
 
+**Hvordan vil du beskrive en god lege?**
 
+- klare diagnoser raskt og nøyaktig
+- flink til å utføre operasjoner når det trengs
+- god kommunikasjon med pasienter
+  - forklare medisinske begreper på en enkel måte
+  - lytte til pasientens bekymringer og spørsmål
+  - vise empati og forståelse for pasientens situasjon
+  - gi klare instruksjoner for behandling og oppfølging
+  - være tilgjengelig for spørsmål og oppfølging etter konsultasjonen
+
+--------------------------------------------------------------------------------
 
 
 ## Politikk
@@ -2045,6 +2316,7 @@ verb
 | Norsk                    | English                 |
 | ------------------------ | ----------------------- |
 | likehet                  | equality 公平           |
+| likestilling             | equality       |
 | frihet                   | freedom 自由            |
 | rettferdig / urettferdig | fair / unfair           |
 | rettferdighet            | justice 公正            |
@@ -2074,6 +2346,8 @@ Vi bør ha hensyn til de eldre i samfunnet. → We should take the elderly into 
 de eldre / yngre / rike / fattige / innvandrere 
 
 - de + adj plural = 一类人
+
+Alle har like muligheter til å lykkes. → Everyone has equal opportunities to succeed.
 
 ## Lov
 
@@ -2106,11 +2380,23 @@ district court → court of appeals → Supreme Court
 
 Dette er et så fint *nabolag*. → This is such a nice neighborhood.
 
+vedlikehold [veli:`kə-] eller [vedli:`kə-] (d is slient or not) → maintenance 修缮，维护
 
+**Hva slags bolig er det best å bo i?**
 
+<span class="env-green">Det kommer an på personlig situasjon og preferanser.</span> 
 
+Jeg bor i <span class="env-green">en</span> leilighet i byen. Jeg tror det passer meg best fordi jeg liker å <span class="env-green">være nær</span> butikker, restauranter og kollektivtransport. Det er også lettere å møte venner og delta i sosiale aktiviteter når man bor i byen.
 
+Dessuten bor jeg i et borettslag. De passer på fellesområdene som hage og lekeplass, og jeg slipper å luke om sommeren og måke snø om vinteren. 
 
+Jeg liker også at det er flere naboer rundt meg, så jeg føler meg tryggere. Naboer og jeg treffes ofte i fellesområdene og prater litt. Det skaper et godt fellesskap i borettslaget. Og vi har dugnad en gang i året, noe som gjør at vi blir bedre kjent med hverandre. 
+
+Ikke minst er at borettslaget tar ansvar for vedlikehold av bygningen, så jeg slipper å tenke på det. Alt i alt trives jeg veldig godt i borettslaget mitt.
+
+På en annen siden, hvis jeg hadde barn, kanskje jeg ville foretrukket å bo i et hus i et roligere område, med mer plass til barna å leke ute. Det ville også vært fint å ha en hage hvor barna kunne utforske naturen og ha plass til hagearbeid.
+
+Alt i alt, tror jeg det beste boligvalget <span class="env-green">avhenger av ens livsstil og behov.</span>
 
 
 

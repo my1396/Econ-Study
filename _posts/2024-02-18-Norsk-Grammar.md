@@ -138,18 +138,21 @@ De fleste adjektiv slutter på **‑t** når de beskriver *substantiv i ubestemt
 
 - være / bli + 形容词结构 (表语形容词)，即使主语为特指的情况下，形容词用 indefinite form, 根据 gender 和 number 变格。
 
-|                           | Attributiv: adjektiv før substantivet<br />定语形容词 | Predikativ: adjektiv sammen med være/bli<br />表语形容词 |
-| ------------------------- | ----------------------------------------------------- | -------------------------------------------------------- |
+|         | Attributiv: adjektiv før substantivet<br />定语形容词 | Predikativ: adjektiv sammen med være/bli<br />表语形容词 |
+| ------------------------- | ---------------------------- | ----------------- |
 | Substantiv i *hankjønn*   | en dyr bil; en pen kjole | Bilen *er* dyr.    |
 | Substantiv i *hunkjønn*   | ei dyr seng       | Senga *er* dyr.    |
-| Substantiv i *intetkjønn* | et dyr**t** bord  | Bordet *er* dyr**t**.   |
+| Substantiv i *intetkjønn* | et dyr**t** bord  | Bordet *er* dyr**t**.     |
 | Substantiv i *flertall*   | dyr**e** biler/senger/bord      | Bilene/Sengene/Bordene *er*dyr**e**.  |
 
 **Flere intetkjønns-eksempler**
 
-| Norsk | English |
-| ----- | ------- |
+| Norsk              | English              |
+| ------------------ | -------------------- |
 | et typisk inntrykk | a typical impression |
+| et godt tilbud     | a good offer         |
+| et godt spørsmål   | a good question      |
+| et vanskelig valg  | a difficult choice   |
 
 
 
@@ -464,7 +467,7 @@ Demonstrative pronouns specify objects as well as **distance** to the objects.
 
 **Examples**
 
-Possessives
+- **Possessives**
 
 |          | Maskulin     | Feminin     | Neutral      | Plural         |
 | -------- | ------------ | ----------- | ------------ | -------------- |
@@ -480,7 +483,7 @@ Possessives
 
 
 
-Reflecsive possessives
+- **Reflexive possessives**
 
 <table>
 <tbody>
@@ -508,7 +511,7 @@ Reflecsive possessives
 </table>
 
 
-[Oving 1](https://norsknettskole.no/globalskolen/ressurssidene/Nye/grammatikk/determinativer/bm/3/3.htm)
+[Øving 1](https://norsknettskole.no/globalskolen/ressurssidene/Nye/grammatikk/determinativer/bm/3/3.htm)
 
 
 
@@ -542,9 +545,10 @@ ___
 
 ### Det 的用法
 
-det er/finnes
+Det er / finnes …
 
-- Innenfor helsesektoren vil *det* alltid *være* behov for folk.  倒装，重要的信息放在句首。正常语序: Det vil alltid være behov for folk innenfor helsesektoren.
+- Innenfor helsesektoren vil *det* alltid *være* behov for folk. 倒装，重要的信息放在句首。[听起来有点奇怪]  
+  → 正常语序: *Det vil alltid være behov for* folk innenfor helsesektoren. [听起来自然很多]
 
 
 
@@ -552,7 +556,7 @@ det er/finnes
 
 那个/那些
 
-|                       | 那个/那些  | 这个/这些     |
+|                       | 那个/那些   | 这个/这些       |
 | --------------------- | ---------- | ------------- |
 | Singular — Masc./Fem. | den (that) | denne (this)  |
 | Singular — Neuter     | det (that) | dette (this)  |
@@ -881,6 +885,17 @@ Det er ingen biler foran. → There are no cars in front.
 
   - Jeg *skal på* apoteket/kino/postkontoret/restaurant → I am going to the pharmacy/movie theater/post office/restaurant
 
+  på skolen = at school (being there)
+  på kurset = at the course (being there)
+  på jobb = at work (being there)
+  på universitetet = at the university (being there)
+  på kontoret = at the office (being there)
+  på møte = at the meeting (being there)
+  på biblioteket = at the library (being there)
+  på sykehuset = at the hospital (being there)
+  på ferie = on vacation (being there)
+  på butikken = at the store (being there)
+
 --------------------------------------------------------------------------------
 
 «Skolen» combined with different «verbs + prepositions» mean different things:
@@ -916,18 +931,78 @@ Det er ingen biler foran. → There are no cars in front.
 - Hun *går i* kirken. (She goes to church. Meaning she *attends church service* regularly.)
 - Hun *går til* kirken. (She goes to the church. Meaning she is walking to *the church building*, but not necessarily going inside to a service.)
 
+
+--------------------------------------------------------------------------------
+
+**for/med/ved + å**
+
+for å
+
+1. in order to (purpose, intention)
+
+   - Jeg studerer norsk **for å** bli bedre i språket.  
+     → I study Norwegian in order to become better in the language.
+   - Jeg jobber hardt for å lykkes.  
+     → I work hard in order to succeed.
+
+2. so that (result, consequence)
+   
+   noe(n) + er i fare **for å** + verb → … is in danger of doing something
+
+   Fjorden er i fare **for å** forsvinne.  
+   → The fjord is in danger of disappearing.
+
+--------------------------------------------------------------------------------
+
+med å = with doing something (informal)
+
+- Han hjalp meg med å flytte møblene.  
+  → He helped me with moving the furniture.
+
+--------------------------------------------------------------------------------
+
+ved å = by doing something (formal)
+
+- forbedre ved å øve  
+  → improve by practicing
+- Man oppnår god resultater ved å samarbeide godt.  
+  → One achieves good results by cooperating well.
+
+
+
+
+--------------------------------------------------------------------------------
+ 
+## Sammenligne
+
+
+Countable
+
+少 flere – flest  
+多 få – færre – færrest 
+
+
+Uncountable
+
+少 liten – mindre – minst  
+多 mer – mest  
+
+
 --------------------------------------------------------------------------------
 
 
+## Synonyms
 
-## Sammenligne
+**inneholde vs. inkludere**
 
-少
+- inneholde = to contain, to comprise (inside);
+  
+  Denne retten *inneholder* nøtter.  
+  Boken *inneholder* mange kapitler.
 
-liten – mindre – minst [uncountable]  
-få – færre – færrest [countable]
+  innhold n. content; table of contents
 
-多
-
-mer – mest [uncountable]  
-flere – flest [countable]  
+- inkludere = to include (as part of a whole);
+  
+  Prisen *inkluderer* frokost.  
+  Måltidet *inkluderer* dessert.

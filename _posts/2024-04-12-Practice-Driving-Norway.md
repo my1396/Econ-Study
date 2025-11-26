@@ -7,7 +7,7 @@ update: 2024-08-13
 
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
-### Rundkjøring
+## Rundkjøring
 
 Rules: <https://www.vegvesen.no/en/traffic-information/along-the-road/norwegian-traffic-rules/driving-in-roundabouts/>
 
@@ -41,7 +41,7 @@ Rules: <https://www.vegvesen.no/en/traffic-information/along-the-road/norwegian-
 
 
 
-### Parking Fee
+## Parking Fee
 
 <span class="env-green">Free parking <u>after 4pm</u> from Monday to Saturday. Free on <u>Sunday</u>.</span>
 
@@ -147,7 +147,7 @@ If payment is not registered within 48 hours, an invoice is sent to the car owne
 
 --------------------------------------------------------------------------------
 
-### Notification for closed roads
+## Notification for closed roads
 
 - Use [Stengt tunnel](https://stengttunnel.no).
 - Use [Vegvesen trafikk](https://www.vegvesen.no/trafikk). They also have a app to push notifications for closed and reopened roads.
@@ -166,7 +166,7 @@ It is the dealer who pays the registration transfer fee, registers the vehicle a
 
 
 
-### Bompeng Toll
+## Bompeng Toll
 
 If the Token is not read when passing, the Customer is responsible for the toll incurred on the basis of photographing the number plate when passing the toll station. For vehicles without a valid Agreement, the Operator will demand a toll fee directly from the person registered as the vehicle's owner. 
 
@@ -334,7 +334,7 @@ How to attach the toll tag
 
 ___
 
-### Bilforsikring
+## Bilforsikring
 
 保险人是第一方（一般是指保险公司），被保险人是第二方（根据保险合同,其财产利益或人身受保险合同保障,在保险事故发生后,享有保险金请求权的人）。
 
@@ -414,7 +414,7 @@ Egenandel (Deductible) 免赔额，就是说在保险公司支付你的索赔之
 
 
 
-### Digital driving licence
+## Digital driving licence
 
 Make your driving licence available on your mobile phone, and leave your physical licence at home when you drive in Norway.
 
@@ -443,9 +443,6 @@ Part one put in the car;
 Part two put at home.
 
 
-
-
-
 ### Winter tires
 
 冬季轮胎
@@ -456,29 +453,7 @@ For **Nordland, Troms og Finnmark** gjelder kravet til minimum 3 millimeter møn
 
 冬季胎压要高一些，抓地更好。
 
-
-
-### 冰上行驶
-
-- 保持合理行驶速度。不要过快，否则刹不住车；不要过慢，否则如果遇到上坡，没有足够动力，上不去。
-  - 过弯提前减速。
-- 不要过度靠路边行驶，大雪盖路，看不到路肩，容易撞上，损坏车圈。
-- 开车之前，把后视镜，挡风玻璃，侧玻璃，雨刷，车顶，车灯上的积雪。
-  - 塑料头的雪铲只能用于玻璃，会损伤车漆。
-  - 车漆用刷子。
-  - 车顶上的雪不扫的话，车开起来一旦刹车，雪可能会滑落到前挡风玻璃，阻挡视线，看不到路况。
-  - 雨刷要确保打扫干净，且没有被冻住。否则一旦下雪，需要雨刷扫雪，但是雨刷被冻住不能动，会危险。
-
-
-
-发生侧滑怎么办
-
-1. The general rule is to do as little as possible and allow the car to pass over the ice.
-
-2. 移开油门，不要踩刹车。踩刹车会让情况更严重。
-
-
-### Dekkhotell
+## Dekkhotell
 
 tyre hotel
 
@@ -499,9 +474,33 @@ Per year, 2400 kr.
 <https://vianor.no/dekkverksted/dekkhotell/>
 
 
+--------------------------------------------------------------------------------
 
 
-___
+## 冰上行驶
+
+- 保持合理行驶速度。不要过快，否则刹不住车；不要过慢，否则如果遇到上坡，没有足够动力，上不去。
+  - 过弯提前减速。
+- 不要过度靠路边行驶，大雪盖路，看不到路肩，容易撞上，损坏车圈。
+- 开车之前，把后视镜，挡风玻璃，侧玻璃，雨刷，车顶，车灯上的积雪。
+  - 塑料头的雪铲只能用于玻璃，会损伤车漆。
+  - 车漆用刷子。
+  - 车顶上的雪不扫的话，车开起来一旦刹车，雪可能会滑落到前挡风玻璃，阻挡视线，看不到路况。
+  - 雨刷要确保打扫干净，且没有被冻住。否则一旦下雪，需要雨刷扫雪，但是雨刷被冻住不能动，会危险。
+
+
+
+发生侧滑怎么办
+
+1. The general rule is to do as little as possible and allow the car to pass over the ice.
+
+2. 移开油门，不要踩刹车。踩刹车会让情况更严重。
+
+
+
+
+--------------------------------------------------------------------------------
+
 
 ## Maintenance
 
@@ -549,7 +548,8 @@ Vennlig hilsen Nordvik AS - Bodø
 
 
 
-___
+--------------------------------------------------------------------------------
+
 
 ## EU-kontroll
 
@@ -574,19 +574,19 @@ Mandatory roadworthiness test (“EU test”)
 We will send you a reminder of the test two months before the deadline expires.
 
 
-
 Q: How often is the EU-kontroll?  
 A: Every 2 years.
 
 Q: Where can I book the EU-kontroll?  
-A: The Norwegian Public Roads Administration (Statens vegvesen) does not carry out roadworthiness tests, but we approve and inspect the garages / testing centre that are authorised to carry out such tests. Find a garage/testing centre near you, where you can book a session for the mandatory roadworthiness test (“EU test”).
+A: The Norwegian Public Roads Administration (Statens vegvesen) does not carry out roadworthiness tests, but we approve and inspect the garages / testing centre that are authorized to carry out such tests. Find a garage/testing centre near you, where you can book a session for the mandatory roadworthiness test (“EU test”).
 
 The price of a mandatory roadworthiness test is determined by the individual garage.
 
-<https://www.vegvesen.no/kjoretoy/eie-og-vedlikeholde/finn-godkjent-verksted/>
+[Finn godkjent verksted](https://www.vegvesen.no/kjoretoy/eie-og-vedlikeholde/finn-godkjent-verksted/)
 
+Tips: 
 
-
+Might as well do the EU-kontroll at Toyota Nordvik AS Bodø where I do the maintenance. If possible, arrange the EU-kontroll right after the maintenance.
 
 
 
