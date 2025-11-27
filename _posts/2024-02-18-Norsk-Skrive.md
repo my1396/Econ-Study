@@ -18,7 +18,11 @@ I tillegg … dessuten ... for øvrig ... ikke minst er det …
 
 På den ene siden …, mens på den annen siden … (it is often used as på den andre siden; used more in spoken language)
 
+Selv om noen mener at …, tror jeg at … (Even if some believe that ..., I think that ... 表转折，表对比)
+
 Til slutt … Kort oppsummert … Som nevnt tidligere … Alt i alt mener jeg at … 
+
+Det er min personlig mening om dette spørsmålet.
 
 
 
@@ -127,9 +131,26 @@ Use the following **mock exam** to practice before the actual exam:
 
 **思考角度**
 
-- 我做
+解题思路
+
+- 对个人的影响
 - 对别人的影响
 - 对社会整体的影响
+
+角度
+
+- economically
+  
+  贵不贵; 大家是否 <span class="env-green">都</span> 可以负担得起;
+
+  有人负担不起怎么办; (ikke alle har råd til det)
+
+- socially
+  
+  公不公平
+
+- environmentally
+
 
 #### 🔹 1. Innledning (Introduction)
 
@@ -139,6 +160,8 @@ Use the following **mock exam** to practice before the actual exam:
 - *Noen hevder at …, mens andre mener at …* → Some argue that …, while others think that …
 - *Etter min mening bør vi …* → In my opinion, we should …
 - *Jeg vil i denne teksten diskutere både fordeler og ulemper, og til slutt komme med min egen mening.* → I will discuss both pros and cons, and end with my own opinion.
+- *Jeg har lest at … *→ I have read that …
+- *Det har absolutt sine fordeler, men det har også ulemper, mener jeg.* → It absolutely has its advantages, but it also has drawbacks, I think.
 
 ------
 
@@ -243,7 +266,13 @@ Use the following **mock exam** to practice before the actual exam:
 
 - Det er *skadelig* for … → It is harmful to …
 
+- være/bli en byrde <span class="env-green">for</span> noe(n) → to be/become a burden to sth/sb 
+  
+  … være til byrde for samfunnet → … becomes a burden to society
+
 - Det er ikke bra for … → It is not good for …
+
+- Det kan bli stress å tenke på … for mye. → It can be stressful to think about … too much.
  
 - … kan gå *utover* … → to affect negatively; to harm;
 
@@ -273,9 +302,10 @@ Use the following **mock exam** to practice before the actual exam:
 
 - … kan føre til negative <span class="env-green">konsekvenser</span> for … → can lead to negative consequences for …
 
-- … har en negativ innvirkning på … → has a negative impact on …
+- … har en negativ <span class="env-green">innvirkning / innflytelse</span> på … → has a negative impact on …
 
 - … blir et økende problem i mange land. → … is becoming an increasing problem in many countries.
+
 
 ------
 
@@ -284,8 +314,11 @@ Use the following **mock exam** to practice before the actual exam:
 Løsning
 
 - *I stedet for å …, kan det være bedre å …* → Instead of …, it may be better to …
+- *I stedet for å …, kan det være mer praktisk å …* → Instead of …, it may be more practical to …
 - *I stedet er det bedre å gjøre noe* → In stead, it is better to do …
 - *En mulig løsning er at …* → A possible solution is that …
+- *nøkkelen til å gjøre noe* → the key to doing sth
+  - *Nøkkelen til å lykkes er å …* → The key to success is to …
 - *For å <u>lette</u> situasjonen* ... → To ease/alleviate the situation
 - *Det kan være praktisk å <u>tillate</u> …* → It may be practical to allow …
 - *Alternativt kan de …* → Alternatively, they can …
@@ -303,8 +336,22 @@ Løsning
 - å samarbeide for å finne løsninger → to collaborate to find solutions
 - å ta ansvar for noe → to take responsibility for sth
 - å forbrede noe <span class="env-green">ved</span> å gjøre … → to improve sth by doing sth 
+- å styrke noe → to strengthen sth
+- å øke noe → to increase sth
+
+  - å øke bevisstheten om noe → to increase awareness of sth 增强 … 的意识
+
+    Vi må øke bevisstheten om miljøvern. → We must increase awareness of environmental protection.
+    
+    bevissthet [bevˈissthet] → awareness, consciousness  
+    vern [væ:rn] → protection, conservation
+
 - å fortsette å gjøre noe til ... → to continue doing sth until ...
   - Jeg vil fortsette å prøve til jeg når B2-nivå.
+
+- Man må være klar over at … → One must be aware that …
+- Jeg vil si at det handler om å gjøre noe → I would say that it is about doing sth
+- Jeg vil si at det å gjøre noe er viktig fordi … → I would say that doing sth is important because …
 
 ___
 
@@ -319,6 +366,9 @@ ___
 - <em><u>Dermed</u> konkluderer jeg med at …</em> → Therefore, I conclude that …
 - *Folk kan uansett ha god balanse mellom …* → *People can still have a good balance between …*
 - *Alt i alt synes jeg at …* → *All in all, I think …*
+- *Det er min personlig mening om dette spørsmålet.* → This is my personal opinion on this matter.
+
+
 
 ___
 
@@ -451,6 +501,8 @@ Jeg er usikker *på* om ... → I am uncertain whether ...
 
 Han kan bli oppfattet som arrogant, men egentlig er han bare sjenert. → He can be perceived as arrogant, but he is just shy. 
 
+Noe(n) kan virke ..., men ... → … seems … but …
+
 **Contrast**
 
 > derimot (on the contrary; however); på den annen / andre siden; tvert imot (on the contrary; quite the opposite);
@@ -463,7 +515,10 @@ Han kan bli oppfattet som arrogant, men egentlig er han bare sjenert. → He can
 
 **In addition** (adding extra info)
 
-> i tillegg (til å); <span style='color:#00CC66'>samtidig finnes det</span> …; <span style='color:#00CC66'>dessuten</span> (moreover); for øvrig; 
+> i tillegg (til å); <span style='color:#00CC66'>samtidig finnes det</span> …; <span style='color:#00CC66'>dessuten</span> (moreover); for øvrig; videre; 
+>
+> med andre ord (in other words);
+
 
 **If**
 
@@ -555,18 +610,33 @@ Bruk av fornybare energikilder *regens som* bærekraftig og miljøvennlig.
 
 det er *klart/<span style='color:#00CC66'>tydelig</span>* at ...
 
+--------------------------------------------------------------------------------
 
+## 重要
 
-**强调必要性**
+<span class="env-green">**强调必要性**</span>
 
 rett og slett → simply (need to do sth)
 
 det er i hvert fall *på sin plass* at …  → It is certainly fitting that …
 
-… har aldri vært mer viktig/trendy enn nå.  → … has never been more important/trendy than now.
+… har aldri vært mer viktig / trendy enn nå.  → … has never been more important/trendy than now. [trendy no 同 en，注意发音]
 
-重要同义词: avgjørende
+synonym: avgjørende
 
+sette noe høyt; verdsette noe høyt;
+
+å satse på noe; prioritere noe;
+
+å legge vekt på noe [note vekt here without any article] → to emphasize sth
+
+det er stor vekt på … → there is great emphasis on … 
+
+… har blitt uvesentlige, og … har blitt enda viktigere enn før.   [… have become insignificant, and … has become even more important than before.]
+
+… blir viktigere enn *noen gang* → becomes more important *than ever* 前所未有的重要
+
+<span style='color:#00CC66'>vesentlig</span> → significant
 
 
 这是一个 … 的问题
@@ -575,17 +645,30 @@ Man kan <span class="env-green">se på som</span> ....
 
 Man kan se på som en positiv utvikling og et resultat av at ... → It can be viewed as a positive development and a result of ...
 
+**betydelig** → significant, considerable
 
+- Det er betydelig forskjell på ... og ...   
+  → There is a significant difference between ... and ... [attributive 定语]
+
+- Det er betydelig å finne balanse mellom ... og ...   
+  → It is important to find a balance between ... and ... [predicative 表语]
+
+
+--------------------------------------------------------------------------------
 
 **可能** gå an
 
+不可能 gå ikke an → not possible
+
+| Norsk                | English                   |
+|----------------------|---------------------------|
 | Det <span style='color:#00CC66'>går kanskje ikke an</span> å gjøre noe. | It is not possible to do.             |
-| ------------------------------------------------------------ | ------------------------------------- |
-| det er større *sannsynlighet* for at …                       | there is a greater probability that … |
-| antakelig / antagelig                                        | probably 可能                          |
-| sannsynlig                                                   | likely                                |
-| trolig                                                       | likely                                |
-| nok                                                          | 也可作 probably 使用                    |
+| det er større *sannsynlighet* for at … | there is a greater probability that … |
+| antakelig / antagelig | probably 可能             |
+| sannsynlig            | likely                   |
+| trolig                | likely                   |
+| nok                   | 也可作 probably 使用       |
+
 
 
 --------------------------------------------------------------------------------
@@ -673,15 +756,7 @@ noen ganger … andre ganger …
 
 
 
-nøkkelen til å gjøre noe
 
-Språk er nøkkelen til å bli integrert i samfunnet.
-
-
-
-gå altfor langt i å gjøre noe  → … 做的太过火了
-
-Staten gåt altfor langt i å regulere folks privatliv.
 
 
 
@@ -694,18 +769,15 @@ Staten gåt altfor langt i å regulere folks privatliv.
 
 
 
-一方面 … 另一方面… (on the one hand, on the other hand)c
+一方面 … 另一方面… (on the one hand, on the other hand)
 
 På den ene siden … (倒装语序), men på den annen siden … (倒装)
 
 
 
-
-
-无论如何 anyway
+**无论如何** anyway
 
 i hvert fall, i alle fall, uansett
-
 
 
 **强调普适**
@@ -730,19 +802,13 @@ i de fleste sammenheng → most likely
 
 
 
-替代建议 alternative suggestions
 
-*I stedet for å …, kan det være mer praktisk å …* → Instead of …, it may be more practical to …
-
-*Det er forståelig at …, men kanskje kan de …* → It is understandable that …, but maybe they can …
-
-*Alternativt kan de …* → Alternatively, they can …
-
+--------------------------------------------------------------------------------
 
 
 **There be**
 
-<span style='color:#00CC66'>**Det finnes/er**</span> (ikke) ...  (不) 存在...
+<span style='color:#00CC66'>**Det finnes / er**</span> (ikke) ...  (不) 存在...
 
 E.g.
 
@@ -1509,7 +1575,22 @@ hard / brutal [brutˈal] konkurranse: vicious/fierce competition
 - aldri godt nok; alltid press for å gjøre det bedre
 - føler seg mindreverdig hvis man ikke er like flink som andre → feel inferior if one is not as good as others
 
+--------------------------------------------------------------------------------
 
+forberede til noe → prepare for sth
+
+forberede seg til eksamen → prepare for exams
+
+forbedrede seg til timen → prepare for class
+
+Hun forberedte seg til eksamen ved å lese på stoffet i pensumet → she prepared for the exam by swotting the subjects in the syllabus
+
+区别与 forberede noe
+
+- Jeg forberedte en presentasjon → I prepared a presentation 强调准备某一件事
+- Jeg forberedte meg til presentasjonen → I prepared myself for the presentation 强调为某一件事做准备; 重点在“自己”; prepare yourself mentally/physically.
+
+--------------------------------------------------------------------------------
 
 **要求**
 
@@ -1538,21 +1619,7 @@ Det er bedre at barna selv <span style='color:#00CC66'>opplever glede av mestrin
 å beherske noe → to be proficient in sth
 
 
-**重要**
 
-sette noe høyt; verdsette noe høyt;
-
-å satse på noe; prioritere noe;
-
-å legge vekt på noe [note vekt here without any article] → to emphasize sth
-
-det er stor vekt på … → there is great emphasis on … 
-
-… har blitt uvesentlige, og … har blitt enda viktigere enn før.   [… have become insignificant, and … has become even more important than before.]
-
-… blir viktigere enn *noen gang* → becomes more important *than ever* 前所未有的重要
-
-<span style='color:#00CC66'>vesentlig</span> → significant
 
 
 
@@ -1703,6 +1770,8 @@ ingeniør, <span class="env-green">kassamedarbeider</span>, sykepleier, elektrik
 
 Ikke alle yrker møter den samme <span class="env-green">holdningen og respekten</span> i samfunnet. → Not all professions receive the same attitude and respect in society.
 
+holdning [hå`ldniŋ] → attitude
+
 Noen yrker er mindre verdt enn andre. → Some professions are worth less than others.
 
 å snakke ned jobben sin → to talk down one's job
@@ -1732,6 +1801,20 @@ sammfunnsnyttig: socially useful
 - det er rent snobberi → It is pure snobbery
 - understreke viktigheten av ... → emphasize the importance of ...
 - anerkjenne verdien av ... → recognize the value of ...
+- Vi må <span class="env-green">styrke holdningen til</span> praktiske yrker. → We must strengthen the attitude towards practical professions. 
+
+--------------------------------------------------------------------------------
+
+**Hvordan øke folks vilje til å ta praktiske yrker?**
+
+- <span class="env-green">Øke lønnen og forbedre arbeidsforholdene</span> i praktiske yrker for å gjøre dem mer attraktive for arbeidssøkere.
+  
+  arbeidsforholdene → working conditions
+
+- Tilby subsidier og skattefordeler for de som velger praktiske yrker.
+
+- Øke respecten og anerkjennelsen for praktiske yrker i samfunnet gjennom kampanjer og utdanning.
+
 
 --------------------------------------------------------------------------------
 
@@ -1767,6 +1850,24 @@ Staten
 - gratis helsetjenester
 - utdanning støtte
 - pensjon
+
+
+**Bør folk jobbe når de er syke?**
+
+Nei.
+
+- De kan ikke jobbe <span class="env-green">effektivt</span> når de er syke. Det kan føre til lavere produktivitet og dårligere kvalitet på arbeidet.
+- Det kan føre til at <span class="env-green">sykdommen</span> blir verre og at de tar lengre tid å bli friske.
+- De kan <span class="env-green">smitte andre</span> på arbeidsplassen, noe som kan føre til flere sykedager blant kollegaer.
+- <span class="env-green">Det er viktig å prioritere helse og velvære.</span> Å ta seg tid til å hvile og komme seg kan bidra til raskere bedring og bedre helse på lang sikt.
+
+
+**trivsel vs velvære**
+
+- 均可表示 well-being, comfort, welfare
+- trivsel: more about happiness, satisfaction, enjoyment
+- velvære: more about health, physical and mental well-being 跟注重与健康相关
+
 
 --------------------------------------------------------------------------------
 
@@ -1858,9 +1959,15 @@ A: Språkferdigheter (språket er nøkkelen), deltakelse i sosiale aktiviteter, 
 
 «Å stemme» means "to vote".
 
+### Språk
+
+
+Språk er nøkkelen til å bli integrert i samfunnet.
+
+
 --------------------------------------------------------------------------------
 
-**Typisk Norsk**
+### Typisk Norsk
 
 de *grunnleggende* verdiene → the fundamental values
 
@@ -1882,6 +1989,9 @@ Personlig rom → Personal space
 - Det er ikke lett å bli kjent med nordmenn plutselig. Hvis du møter dem på gaten eller i buss stoppen, vil nordmenn vanligvis ikke starte en samtale med deg. De tenker det er rart / uvanlig å snakke med noen på gata de ikke kjenner.
 
 - Det tar en lang tid å bygge vennskap med nordmenn. Må være tålmodig.
+
+- Nordmenn kan virke reserverte og ikke veldig sosiale ved førsteinntrykk, men når du tilbringer tid sammen med dem og blir bedre kjent, vil du oppdage at de er genuint varme mennesker.  
+  → Norwegians may seem reserved and not very social at first impression, but when you spend time with them and get to know them better, you will discover that they are genuinely warm people.
 
 --------------------------------------------------------------------------------
 
@@ -1957,8 +2067,12 @@ Negative sider:
 **Sosiale medier påvirker samfunnet vårt på både positive og negative måter.**
 
 - Folk er så påvirket av sosiale medier. De bruker mye tid på å bla gjennom innlegg, se på bilder og videoer, og kommunisere med venner og familie. Dette kan føre til avhengighet og redusert produktivitet i hverdagen.
+
 - Sosiale medier kan også føre til sammenligning og misunnelse. Når folk ser andres perfekte liv på sosiale medier, kan de føle seg utilstrekkelige og misfornøyde med sitt eget liv.
+  - føle seg dårlig hvis de ikke ser «perfekt» ut som andre på sosiale medier.
+
 - På den annen side, sosiale medier kan også være en positiv kraft i samfunnet. De gir en plattform for folk å dele sine meninger, erfaringer og historier, og kan bidra til å øke bevisstheten om viktige saker og hendelser.
+
 - Sosiale medier kan også hjelpe folk å holde kontakten med venner og familie, spesielt de som bor langt unna. De gir en enkel og praktisk måte å kommunisere og dele informasjon på.
 
 
@@ -2098,6 +2212,10 @@ Nåt det gjelder kunstig intelligens, hva tenker du om **personver**? ← beskym
 en kirurgi [çirurgi:´]
 
 synom.: plastisk operasjon 
+
+skjønnhetspress og kroppspress: beauty and body pressure 外貌和身材压力
+
+<span class="env-green">Det å ha fokus på</span> skjønnhet og kropp <span class="env-green">er viktig</span> for et menneske, men skjennhetspress og kroppspress gir ikke bedre helse.
 
 Hva synes dere om at man kan få utført en operasjon for å få et bedre utseende?
 
@@ -2284,9 +2402,10 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 | helsetjenester    | healthcare services |
 | helsekost         | health food         |
 | varietet [varietˈet] | variety (en 同 no) |
-| være i form      | stay in shape       |
-| være til <span class="env-green">bryde</span> for noen | be a bother / burden to sb |
+| være i form       | stay in shape       |
+| være til <span class="env-green">byrde for</span> noen | be a bother / burden to sb |
 
+en byrde [by`r-də]: burden, load
 
 **噪音**
 
@@ -2325,11 +2444,13 @@ Common food:
 
 Et balansert kosthold er viktig for å <span class="env-green">holde seg frisk</span>. → A balanced diet is important to stay healthy.
 
-Fedme blir et økende problem i mange land, og mange må ta medisiner for å kontrollere vekten sin. → Obesity is becoming an increasing problem in many countries.
+<span class="env-green">Fedme</span> blir et økende problem i mange land, og mange må ta medisiner for å kontrollere vekten sin. → Obesity is becoming an increasing problem in many countries.
+
+Related words to «fedme»: <span class="env-green">fet</span> (adj, fat); å bli fet (to become fat); overvektig (adj, overweight); <span class="env-green">overvekt</span> (noun, overweight)
 
 Det er viktig å spise sunt for å holde seg i form. → It is important to eat healthy to stay in shape.
 
-Mindre sannsynlighet for fedme;
+Mindre sannsynlighet for fedme; [mindre sjanse for å bli fet]
 
 - ✅ føler seg energisk; fokusere bedre; sove bedre; redusere stress; forbedre humøret; 
 - mindre risiko for sykdommer som hjertesykdommer og diabetes; 
@@ -2337,6 +2458,22 @@ Mindre sannsynlighet for fedme;
   
   Trening gir lavere sjanse for å bli syk.
 
+- Mindre sykdom
+  
+  Trening og sunt kosthold 
+  - fører til sterekere kroppen
+  - gjøre kroppen sterkere
+
+- bedre humør
+  - Trening kan hjelpe mot stress og depresjon.
+
+- Det er også viktig at vi <span class="env-green">ikke blir overdriver med</span> trening og kosthold. → It is also important that we do not become excessive with exercise and diet. [Don't overdo it]
+
+- være fornøyd med seg selv → be satisfied with oneself 
+
+- Jeg vil si at det handler om å finne en balanse mellom å ta vare på helsen sin og å nyte livet. → I would say that it is about finding a balance between taking care of one's health and enjoying life.
+
+--------------------------------------------------------------------------------
 
 **Psykisk helse**
 
@@ -2352,13 +2489,16 @@ Mindre sannsynlighet for fedme;
 | terapeuter /terapøyt/ | therapists |
 | rådgivere         | counselors     |
 
+
+--------------------------------------------------------------------------------
+
 å ha behov for hjelp / veiledning → to need help / guidance
 
 Gamle vaner er vanskelige å endre. → Old habits are hard to change.
 
-Røyking er avhengighetsskapende. → Smoking is addictive.
+Røyking er *avhengighetsskapende*. → Smoking is addictive.
 
-avhengighet + skapende
+compound word: avhengighet + skapende
 
 - avhengighet = addiction / dependency
 - skapende = creating / causing
@@ -2434,13 +2574,51 @@ de eldre / yngre / rike / fattige / innvandrere
 
 Alle har like muligheter til å lykkes. → Everyone has equal opportunities to succeed.
 
+fattig [fa`t:i] → poor
+
+Staten bør sørge for at det ikke er store forskjeller mellom fattige og rike. → The state should ensure that there are not large differences between the poor and the rich. 贫富差距
+
+
+
+### Statens roller
+
+**The state's roles in society**
+
+gå altfor langt i å gjøre noe  → … 做的太过火了
+
+Staten gåt altfor langt i å regulere folks privatliv.
+
+Staten bør ikke <span class="env-green">blande seg for mye i</span> folks privatliv. → The state should not interfere too much in people's private lives.
+
+
+**Hvilke oppgaver synes du staten bør ha ansvar for?**
+
+- likhet og rettferdighet
+  
+  Staten bør sikre at alle har like muligheter og at rettferdigheten blir opprettholdt i samfunnet.
+
+- utdanning og helsevesen
+  
+  Staten bør sørge for at alle har tilgang til god utdanning og helsetjenester, uavhengig av deres bakgrunn eller økonomiske situasjon.
+
+- sosial velferd
+
+- tilby grunnleggende tjenester
+  
+  infrastruktur, transport, energi og kommunikasjon
+
+- miljøvern
+  
+  Staten bør ta ansvar for å beskytte miljøet og fremme bærekraftig utvikling.
+
+
+--------------------------------------------------------------------------------
+
 ## Lov
 
 Tingretten → Lagmannsretten → Høysterett
 
 district court → court of appeals → Supreme Court 
-
-
 
 | Norsk                   | English                                                   |
 | ----------------------- | --------------------------------------------------------- |
@@ -2465,7 +2643,18 @@ district court → court of appeals → Supreme Court
 
 Dette er et så fint *nabolag*. → This is such a nice neighborhood.
 
-vedlikehold [veli:`kə-] eller [vedli:`kə-] (d is slient or not) → maintenance 修缮，维护
+*vedlikehold* \[veli:\`kə-\] eller \[vedli:\`kə-\] (d is slient or not) → maintenance 修缮，维护
+
+| Norsk                | English          |
+| -------------------- | ---------------- |
+| nabolag              | neighborhood     |
+| borettslag           | housing cooperative |
+| fellesområder        | common areas     |
+| lekeplass            | playground       |
+| dugnad               | community work   |
+| vedlikehold          | maintenance      |
+
+--------------------------------------------------------------------------------
 
 **Hva slags bolig er det best å bo i?**
 
@@ -2477,7 +2666,7 @@ Dessuten bor jeg i et borettslag. De passer på fellesområdene som hage og leke
 
 Jeg liker også at det er flere naboer rundt meg, så jeg føler meg tryggere. Naboer og jeg treffes ofte i fellesområdene og prater litt. Det skaper et godt fellesskap i borettslaget. Og vi har dugnad en gang i året, noe som gjør at vi blir bedre kjent med hverandre. 
 
-Ikke minst er at borettslaget tar ansvar for vedlikehold av bygningen, så jeg slipper å tenke på det. Alt i alt trives jeg veldig godt i borettslaget mitt.
+Ikke minst er at *borettslaget tar ansvar for vedlikehold* av bygningen, så jeg slipper å tenke på det. Alt i alt trives jeg veldig godt i borettslaget mitt.
 
 På en annen siden, hvis jeg hadde barn, kanskje jeg ville foretrukket å bo i et hus i et roligere område, med mer plass til barna å leke ute. Det ville også vært fint å ha en hage hvor barna kunne utforske naturen og ha plass til hagearbeid.
 
@@ -2487,13 +2676,53 @@ Alt i alt, tror jeg det beste boligvalget <span class="env-green">avhenger av en
 
 
 
+--------------------------------------------------------------------------------
 
 
+## Muntlig
+
+Introduce yourself. → Be short.
+
+Oppgave 1: Si din mening om et tema og begrunne meningen din.
+
+> Er det bra at folk er opptatt av helse og trening i dag? Hvorfor / hvorfor ikke?
+
+- 这是一个问句。要有明确的回答 "是" "不是"，或者部分 "是"。 Jeg er delvis enig med det.
+
+Du kan få oppfølgingsspørsmål fra eksaminator. Du snakker i ca. 2-3 minutter.
+
+--------------------------------------------------------------------------------
+
+Oppgave 2: Samtale med en annen kandidat om et tema.
+
+> Synes dere at all helsebehandling bør være gratis? Hvorfor/hvorfor ikke?
+
+Dere snakker i ca. 5-7 minutter til sammen.
+
+--------------------------------------------------------------------------------
+
+Oppgaver 3: Argumentere for eller imot en påstand.
+
+en påstand: statement
+
+> Alle voksne bør være i arbeid og betale skatt. Hva synes du om det?
+
+Du skal ta stilling til en påstand og begrunne synspunktet ditt.
+
+Du kan ta notater.
+
+I denne oppgaven skal du først snakke selvstendig om påstanden i 2-3 minutter før eksaminator går over til å stille oppfølgingsspørsmål i 2-3 minutter.
+
+Til sammen snakker du i ca. 4-6 minutter. 
 
 
+自己说 2-3 分钟，然后考官提问 2-3 分钟。考官不打断的话，要持续说直到被打断。
 
+与 oppgave 1 不同的是，这里是开放性问题，要求你对某个观点进行辩论。
 
+❌ 不能说 jeg er enig / uenig. 因为没有问你是否同意。
 
+✅ 正确的回答方式是：Jeg mener at ... 然后你的理由，论据。
 
 
 

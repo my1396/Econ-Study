@@ -339,7 +339,10 @@ Hverdagen 为 definite form, singular masuline, 对应的 possessive pronoun 应
 
 <span style='color:#32CD32'>**Ordinal numbers and «sist», «neste», «forrige», and «samme»**</span>
 
-一般都是特指，可选择是否省略冠词。省略冠词的情况下，又分为 (1) 名词冠词和形容词冠词都省略；(2) 仅省略形容词冠词。
+一般都是特指，可选择是否省略冠词。省略冠词的情况下，又分为 
+
+(1) 名词冠词和形容词冠词都省略；  
+(2) 仅省略形容词冠词。
 
 | 完全体              | 形容词和名词冠词都省略 | 仅省略形容词冠词<br />(更常见) |
 | ------------------- | ---------------------- | ------------------------------ |
@@ -349,6 +352,15 @@ Hverdagen 为 definite form, singular masuline, 对应的 possessive pronoun 应
 | den forrige måneden | forrige måned          | forrige måneden                |
 | den første dagen    | første dag             | første dagen                   |
 | de alle dagene      | alle dager             | alle dagene                    |
+
+min først<span class="env-green">e</span> gang (posessive 在前，more common and casual) = først<span class="env-green">e</span> gangen min (posessive 在后，formal)
+
+💡 At any case, adj must be in definite form "-e".
+
+**More ex:**
+
+første etasje → first floor  
+andre mulighet → second opportunity
 
 
 
@@ -976,17 +988,18 @@ ved å = by doing something (formal)
 ## Sammenligne
 
 
-Countable
+**Countable**
 
-少 flere – flest  
-多 få – færre – færrest 
+多 flere – flest  
+少 få – <span class="env-green">færre</span> – færrest 
 
 
-Uncountable
+**Uncountable**
 
-少 liten – mindre – minst  
 多 mer – mest  
+少 liten – mindre – minst
 
+å ha liten kontakt med noen = to have little contact with someone
 
 --------------------------------------------------------------------------------
 
