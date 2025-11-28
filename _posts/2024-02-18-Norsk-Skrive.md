@@ -136,6 +136,15 @@ Use the following **mock exam** to practice before the actual exam:
 - 对个人的影响
 - 对别人的影响
 - 对社会整体的影响
+- 通常来怎么样 有没有个例 (et) unntak (话不能说的太满)
+  
+  gerally ..., men det kommer an på ... ; men det gjelder ikke alltid ... 
+
+  Det er unntak <span class="env-green">fra</span> denne regelen. → There are exceptions to this rule.
+
+  Folk har ulike talenter / evner. → People have different talents / abilities / capacities.
+
+  folk bør få velge etter sine evne / evenene sine. → people should choose according to their abilities.
 
 角度
 
@@ -277,6 +286,8 @@ Use the following **mock exam** to practice before the actual exam:
 - … kan gå *utover* … → to affect negatively; to harm;
 
 - *Noen mener dessuten at …* → Some people also believe that …
+- Noen mener at alle voksne bør jobbe og bidra, mens andre mener at <span class="env-green">det ikke kan gjelde generelt</span>.   
+  → Some believe that all adults should work and contribute, while others think that it cannot apply generally.
 
 - *Det er motsatt av hva … ønsker.* → This is the opposite of what … wants.
 
@@ -316,6 +327,9 @@ Løsning
 - *I stedet for å …, kan det være bedre å …* → Instead of …, it may be better to …
 - *I stedet for å …, kan det være mer praktisk å …* → Instead of …, it may be more practical to …
 - *I stedet er det bedre å gjøre noe* → In stead, it is better to do …
+
+> Legg merke til at «i stedet for» betyr «instead of» og «i sted» betyr «a moment ago, a (little) while ago, just now».
+
 - *En mulig løsning er at …* → A possible solution is that …
 - *nøkkelen til å gjøre noe* → the key to doing sth
   - *Nøkkelen til å lykkes er å …* → The key to success is to …
@@ -324,13 +338,15 @@ Løsning
 - *Alternativt kan de …* → Alternatively, they can …
 - *Det er forståelig at …, men kanskje kan de …* → It is understandable that …, but maybe they can …
 
-- *tiltak* → measure, initiative
+- *et tiltak* → measure, initiative
 
   - *Regjeringen bør iverksette tiltak for å …* → The government should implement measures to …
 
   - *Skolen kan ta i bruk ulike tiltak for å …* → The school can use various measures to …
 
   - *Det er nødvendig med tiltak for å …* → It is necessary with measures to …
+
+  > 形近词 et unntak → an exception
 
 - alle har en viktig rolle å spille i å løse dem → everyone has an important role to play in solving them
 - å samarbeide for å finne løsninger → to collaborate to find solutions
@@ -866,6 +882,15 @@ En klar <span style='color:#00CC66'>sammenheng</span> mellom ... og ... → A cl
 *til sammenligning* → for reference / comparison
 
 
+i forbindelse med noe → in connection with sth
+
+å bryte all forbindelse med noe(n) → to break all connection with sth/sb
+
+opprette diplomatisk forbindelse med et land → to establish diplomatic relations with a country
+
+myndighetene i forbindelse med bygging av både industri, boliger og veier → the authorities in connection with the construction of both industry, housing and roads
+
+--------------------------------------------------------------------------------
 
 **类似**
 
@@ -1936,16 +1961,20 @@ en fremmed vs. å fremme
   fremmede (plural)
 
 
-å føle seg utenfor → to feel like an outsider
 
-å føle seg inkludert / velkommen → to feel included / welcomed
+| Norsk                               | English                       |
+| ----------------------------------- | ----------------------------- |
+| å føle seg utenfor                  | to feel like an outsider      |
+| å føle seg inkludert / velkommen    | to feel included / welcomed   |
+| å bli integre<span class="env-green">r</span>t i samfunnet | to be integrated into society |
+| å tilpasse seg det norske samfunnet | to adapt to Norwegian society |
+| å tilpasse seg nye forhold          | to adjust to new conditions   |
 
-å bli integret i samfunnet → to be integrated into society
 
-å tilpasse seg det norske samfunnet → to adapt to Norwegian society
-
-- legge merke til uten preposisjon etter «tilpasser seg»
+- legge merke til <span class="env-orange">uten preposisjon</span> etter «tilpasser seg»
 - å tilpasse seg noe → to adapt to sth
+
+
 
 Q: Hva er tegn på at en person er integrert i samfunnet?  
 A: Språkferdigheter (språket er nøkkelen), deltakelse i sosiale aktiviteter, forståelse av kulturelle normer, og å ha venner fra forskjellige bakgrunner, føler seg inkludert,
@@ -2253,7 +2282,7 @@ ___
    - bruke mindre bil og mer kollektivtransport som buss og tog
    
    - gjenbruk 循环利用  
-     gjenbruk i sted for å kjøpe nytt
+     gjenbruk i stedet for å kjøpe nytt
    
    - mange kommer til <span style='color:#00CC66'>å *feriere i eget land*</span>, i stedet for å fly jorda rundt. → 在国内度假
 
@@ -2496,6 +2525,18 @@ Mindre sannsynlighet for fedme; [mindre sjanse for å bli fet]
 
 Gamle vaner er vanskelige å endre. → Old habits are hard to change.
 
+en vane, vanen, vaner, vanene → habit
+
+形近词: en evne → ability, aptitude, capability (注意区分)
+
+vant, vant, vante (til) → accustomed (to)
+
+å venne, venner, vennet, har vent → to get used to
+
+å venne seg til noe → to get used to sth
+
+
+
 Røyking er *avhengighetsskapende*. → Smoking is addictive.
 
 compound word: avhengighet + skapende
@@ -2672,7 +2713,7 @@ På en annen siden, hvis jeg hadde barn, kanskje jeg ville foretrukket å bo i e
 
 Alt i alt, tror jeg det beste boligvalget <span class="env-green">avhenger av ens livsstil og behov.</span>
 
-
+*fellesskap*: community, fellowship, companionship 共同体意识 / 归属感
 
 
 
@@ -2714,7 +2755,6 @@ Du kan ta notater.
 I denne oppgaven skal du først snakke selvstendig om påstanden i 2-3 minutter før eksaminator går over til å stille oppfølgingsspørsmål i 2-3 minutter.
 
 Til sammen snakker du i ca. 4-6 minutter. 
-
 
 自己说 2-3 分钟，然后考官提问 2-3 分钟。考官不打断的话，要持续说直到被打断。
 

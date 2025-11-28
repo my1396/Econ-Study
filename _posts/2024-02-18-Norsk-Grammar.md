@@ -799,29 +799,39 @@ Tillate, tillater, tillot, har tillatt
 
 从属连词
 
-**Subjunksjon** (subordinating conjuction) is a little word that introduces a **leddsetning** (subordinate clause).
+**Subjunksjon** (subordinating conjunction) is a little word that introduces a **leddsetning** (subordinate clause).
 
 It connects the main clause with a subordinate clause and if there is a adverb, put it before the verb. 
 
+--------------------------------------------------------------------------------
 
 ## 介词
 
-Preposisjoner (prepositions) 
+**Preposisjoner (prepositions)** 
 
-**Over:**
+### Over
 
-| Norsk | English   |
-|-------|-----------|
-| tenke over | think about |
-| ta over  | take over  |
-| være klar over | be aware of |
+| Norsk           | English       |
+|-----------------|---------------|
+| tenke over      | think about   |
+| ta over         | take over     |
+| være klar over  | be aware of   |
 | være imponert / overrasket / skuffet over | be impressed / surprised / disappointed about |
-| gå over | pass |
+
+**Surprise**
+
+være overrasket over noe → be surprised about sth  
+en overraskelse over noe → a surprise about sth
+
+| Norsk   | English |
+| ------- | ------- |
+| gå over | pass    |
 
 Det går over. → It will pass.
 
+--------------------------------------------------------------------------------
 
-**Under:**
+### Under
 
 1. 表示位置 under bordet / under stolen / under broen
 2. 表示时间, during, in the course of
@@ -840,25 +850,168 @@ Det er ingen biler bak. → There are no cars behind.
 Det er ingen biler foran. → There are no cars in front.
 
 
+--------------------------------------------------------------------------------
 
-**Til:**
+### Til
 
-| Norsk | English   |
-|-------|-----------|
-| tilbringe tid til | spend time to |
-| ha tid til | have time to |
-| ha lyst til | want to, feel like |
-| ha anledning til | be able to, be in a position to |
-| ha mulighet til | be able to, have the possibility of |
-| til frokost | for breakfast |
-| glede seg til | look forward to |
-| være vant til | be used to |
-| være flink til | be good at |
-| være hjelp til | be of help |
-| føre til | lead to |
-| passe (til) | match, suit |
-| grue til | dread, be anxious about |
+| Norsk                  | English                      |
+| ---------------------- | ---------------------------- |
+| tilbringe tid til      | spend time to                |
+| ha tid til å gjøre noe | have time to                 |
+| å ha lyst til å gjøre  | want to, feel like doing sth |
+| å ha lyst på noe       | want, feel like (something)  |
 
+Jeg har lyst til å gå en tur. → I feel like going for a walk.  
+Jeg har lyst på en kopp te. → I feel like having a cup of tea.
+
+
+| Norsk              | English                       |
+|--------------------|-------------------------------|
+| ha <span class="env-green">anledning</span> [anlˈedning] til | be able to, be in a position to |
+
+Han har ikke anledning til å komme i dag. → He is not able to come today.
+
+| Norsk              | English                       |
+|--------------------|-------------------------------|
+| ha mulighet / sjanse(n) til | be able to, have the possibility of |
+
+Du kan se at «ha mulighet for å gjøre noe» brukes også.
+
+| Norsk              | English                       |
+|--------------------|-------------------------------|
+| til frokost        | for breakfast                 |
+| glede seg til      | look forward to               |
+| være vant til      | be used to                    |
+| være flink til å gjøre | be good at doing          |
+
+Han er flink til å synge. → He is good at singing.
+
+«Være flink **i** noe» = be good in sth (a subject at school, e.g., math, English, etc.)
+
+Han er flink i matematikk. → He is good at math.
+
+| Norsk              | English                       |
+|--------------------|-------------------------------|
+| være hjelp til / være til hjelp | be of help       |
+| være til nytte     | be of use                     |
+| føre til           | lead to                       |
+| passe (til)        | match, suit                   |
+
+
+**å passe** can be used together with different prepositions:
+
+> If you want to say sth is suitable for sb/sth, you can use «å passe til / for / på noe/noen».
+> Some special meanings when combined with different prepositions:
+> «Å passe for» can also mean "to be careful of / watch out for sth/sb".
+> «Å passe på» can mean "look after / take care of sth/sb".
+
+
+- å passe til noe/nogen = to suit, to match
+  
+  Kjolen passer til henne. → The dress suits her.
+
+- «å passe for» can mean two things:
+  
+  1. to be suitable for sth/sb 
+  
+     Denne jobben passer for deg. → This job is suitable for you.
+     
+     > Note: This means the same as «å passe til noe/noen». But «passe til» is more common when you want to say sth is suitable for sb/sth.
+  
+  2. to be careful of / watch out for sth/sb
+
+     Pass for bussen! → Watch out for the bus!  
+     Pass for hunden! → Watch out for the dog!
+
+- å passe på noe/noen 
+
+  1. to suit / be ok for sth/sb
+  
+     Tiden passer på meg. → The time suits me.
+
+  2. to take care of sth/sb; to watch sth/sb
+
+     Kan du passe barna mens jeg handler? → Can you take care of the kids while I shop?
+
+- å passe noen 
+
+  1. to look after sb
+  
+     Hun passer barna for naboen. → She looks after the neighbor's kids.
+
+  2. to fit sb
+     
+     Det passer bra. → That works well. / That's fine.
+
+
+--------------------------------------------------------------------------------
+
+
+| Norsk              | English                       |
+|--------------------|-------------------------------|
+| å grue seg til     | dread, be anxious about       |
+| å venne seg til    | get used to                   |
+
+Jeg gruer meg til eksamen  → I dread the exam.
+
+--------------------------------------------------------------------------------
+
+| Norsk           | English                 |
+| --------------- | ----------------------- |
+| å venne seg til | get used to             |
+
+- Du må venne deg til det nye klimaet.  
+  → You have to get used to the new climate.
+
+- Du må venne deg til den norske maten hvis du skal bo her. 
+  → You have to get used to the Norwegian food if you are going to live here.
+
+--------------------------------------------------------------------------------
+
+| Norsk           | English        |
+| --------------- | -------------- |
+| ha evne til      | have the ability to |
+| ha kapasitet til | have the capacity to |
+
+Han har ikke even til å forstå det. → He doesn't have the ability to understand it.
+
+--------------------------------------------------------------------------------
+
+| Norsk           | English        |
+| --------------- | -------------- |
+| adressen til    | the address of |
+| ha kjennskap til   | know about sth  |
+
+Har du noe kjennskap til dette? → Do you know anything about this?
+
+
+--------------------------------------------------------------------------------
+
+| Norsk           | English        |
+| --------------- | -------------- |
+| være knyttet til | be connected to |
+| være relatert til | be related to  |
+| i forhold til   | in relation to |
+| i forbindelse med | in connection with |
+
+- prisen har gått opp med 100 kroner i forhold til i fjor → the price has gone up by 100 kroner on last year
+- han er stor i forhold til alderen → he's big for his age
+
+--------------------------------------------------------------------------------
+
+| Norsk       | English              |
+| ----------- | -------------------- |
+| ringe til   | call sb              |
+| ringe etter | call for (a service) |
+
+
+Kan du ringe henne etter kl 3? → Can you call her after 3 o'clock?
+
+
+
+--------------------------------------------------------------------------------
+
+### Locations
 
 **与地点相关的介词**
 
@@ -874,6 +1027,11 @@ Det er ingen biler foran. → There are no cars in front.
   Jeg bor i Norge. (I live in Norway.)
 
   i barnehagen
+
+  i Storgata → in the High Street  
+  i Kirkenveien → in Church Road
+
+  i byen → in the city
 
 - «På» + place → *at* a place (stative 静态) or *going* to a place (directional 动态)
   
@@ -895,7 +1053,7 @@ Det er ingen biler foran. → There are no cars in front.
   
   - Jeg *er på* apoteket/kino/postkontoret/restaurant → I am at the pharmacy/movie theater/post office/restaurant
 
-  - Jeg *skal på* apoteket/kino/postkontoret/restaurant → I am going to the pharmacy/movie theater/post office/restaurant
+  - Jeg *skal på* apoteket/kino/postkontoret/restaurant/kino → I am going to the pharmacy/movie theater/post office/restaurant
 
   på skolen = at school (being there)
   på kurset = at the course (being there)
@@ -907,6 +1065,12 @@ Det er ingen biler foran. → There are no cars in front.
   på sykehuset = at the hospital (being there)
   på ferie = on vacation (being there)
   på butikken = at the store (being there)
+
+  - hus / hjemme 相关
+    
+    på kjøkkenet / badet / soverommet / stua [-et 用 «på»]
+
+    i hagen / garasjen / kjelleren / loftet / boden / gangen / balkongen [-en / -ei 用 «i»]
 
 --------------------------------------------------------------------------------
 
@@ -946,9 +1110,9 @@ Det er ingen biler foran. → There are no cars in front.
 
 --------------------------------------------------------------------------------
 
-**for/med/ved + å**
+**for/med/ved + å + gjøre**
 
-for å
+**for å**
 
 1. in order to (purpose, intention)
 
@@ -966,25 +1130,401 @@ for å
 
 --------------------------------------------------------------------------------
 
-med å = with doing something (informal)
+**med å** = with doing something (informal)
 
 - Han hjalp meg med å flytte møblene.  
   → He helped me with moving the furniture.
 
 --------------------------------------------------------------------------------
 
-ved å = by doing something (formal)
+**ved å** = by doing something (formal)
 
 - forbedre ved å øve  
   → improve by practicing
 - Man oppnår god resultater ved å samarbeide godt.  
   → One achieves good results by cooperating well.
 
+--------------------------------------------------------------------------------
 
+<span class="env-green">**Tenke + på / om / over**</span> 
+
+- tenke på noe/nogen = think about sth/sb (most common)
+
+  Jeg tenker på deg hele tiden.  
+  → I think about you all the time.
+
+- tenke over noe = consider, reflect on sth
+
+  Jeg må tenke over tilbudet ditt.  
+  → I have to think over your offer.
+
+  Jeg må tenke over disse spørsmålene.  
+  → I have to think about these questions.
+
+
+ > **tenke på vs. tenke over**
+ > 
+ > - «tenke på»  to think of / to think about someone or something in a light, casual way
+ > It often means having something in mind or remembering it.
+ > - «tenke over» to think something over in a deeper, more serious way, often before making a decision.
+
+- tenke om noe/nogen = have an <span class="env-green">opinion</span> about sth/sb
+
+  Hva tenker du om den nye filmen?  
+  → What do you think about the new movie?
+
+--------------------------------------------------------------------------------
+
+### på
+
+
+| Norsk           | English                 |
+|-----------------|-------------------------|
+| stole på        | rely on, trust          |
+| fokusere på     | focus on                |
+| konsentrere seg på | concentrate on       |
+| satse på        | bet on, rely on         |
+| svare på        | answer to               |
+| påvirke på      | influence on            |
+| ha innflytelse / innvirkning på | have influence on     |
+| legge vekt på   | emphasize, stress       |
+| forskjellen på  | the difference between  |
+
+Hva er forskjellen på disse to produktene?  
+→ What is the difference between these two products?
+
+
+Hva er forskjellen på rik og fattig?  
+→ What is the difference between rich and poor?
+
+
+Det er forskjell på rik og fattig.  
+→ There is a difference between rich and poor. 
+
+| Norsk           | English                 |
+|-----------------|-------------------------|
+| eksempel på     | example of              |
+| sikker på       | sure of                 |
+| sint <span class="env-green">på noen</span> | angry with/at sb |
+
+Jeg er sint på ham.  
+→ I am angry with him.
+
+være sint <span class="env-green">på noe</span> → be angry about sth
+
+Hva er du sint på?  
+→ What are you angry about?
+
+
+| Norsk           | English                 |
+|-----------------|-------------------------|
+| gjøre inntrykk på | make an impression on |
+
+
+De sultne barna gjorde sterkt inntrykk på oss.  
+→ The hungry children made a deep impression on us.
+
+
+| Norsk           | English                 |
+|-----------------|-------------------------|
+| pris på         | price of                |
+
+Hva er prisen på denne boken?  
+→ What is the price of this book?
+
+| Norsk           | English                 |
+|-----------------|-------------------------|
+| tvile på        | doubt about             |
+
+Jeg tviler på at han kommer.  
+→ I doubt that he is coming.
+
+Jeg tviler på at det går.  
+→ I doubt that will work.
+
+| Norsk           | English                 |
+|-----------------|-------------------------|
+| høre på noen    | listen to sb            |
+
+Vil du høre på meg?  
+→ Do you want to listen to me?
+
+| Norsk           | English                 |
+|-----------------|-------------------------|
+| være basert på  | be based on             |
+
+Beslutningen er basert på fakta.  
+→ The decision is based on facts.
+
+Filmen er basert på en sann historie.  
+→ The movie is based on a true story.
+
+Rapporten er basert på forskning.  
+→ The report is based on research.
+
+Basert på + [noun / clause], + main clause [V2 rule; verb 提前]
+
+Basert på at været blir dårlig, utsetter vi turen.  
+→ Based on the fact that the weather will be bad, we are postponing the trip.
+
+Basert på det vi har sett, tar vi en avgjørelse i morgen.  
+→ Based on what we have seen, we will make a decision tomorrow.
+
+--------------------------------------------------------------------------------
+
+### med
+
+| Norsk                | English             |
+| -------------------- | ------------------- |
+| være fornøyd med     | be satisfied with   |
+| være enig med noen   | agree with sb       |
+
+**være enig <span class="env-green">med noen</span>** → agree with sb
+
+Jeg er enig med deg. [agree with sb]  
+→ I agree with you.
+
+**være enig <span class="env-green">i noe</span>** → agree in sth
+
+Han var enig i det forslaget. [agree in sth]  
+→ He agreed with that proposal.
+
+Vi er enig i planen.  
+→ We agree with the plan.
+
+Jeg er enig i det du sier.  
+→ I agree with what you say.
+
+**være enig <span class="env-green">om å gjøre</span> noe** → agree to do sth
+
+Vi er enige om å møtes i morgen.  
+→ We agree to meet tomorrow.
+
+Vi er enige om å starte møtet kl 10.  
+→ We agree to start the meeting at 10 o'clock.
+
+| Norsk            | English                 |
+|----------------- |-------------------------|
+| føle med         | sympathize with         |
+
+Jeg føler med deg.  
+→ I sympathize with you. 我很同情你。
+
+| Norsk            | English                 |
+|----------------- |-------------------------|
+| ha noe med       | have something to do with |
+
+Hva har dette med saken å gjøre?  
+→ What does this have to do with the matter?
+
+| Norsk            | English                 |
+|----------------- |-------------------------|
+| være opptatt med | be busy with            |
+| være ferdig med  | be finished with        |
+| Ta det med ro!   | Take it easy!           |
+| til og med       | until, up to and including |
+
+Han skal være der til og med søndag.  
+→ He will be there until Sunday.
+
+
+| Norsk            | English                 |
+|----------------- |-------------------------|
+| hjelpe med       | help with               |
+
+Kan du hjelpe meg med dette?  
+→ Can you help me with this?
+
+
+### om
+
+| Norsk           | English                 |
+|-----------------|-------------------------|
+| handle om       | be about, deal with     |
+| snakke om     | talk about              |
+
+Vi snakket om været.  
+→ We talked about the weather.
+
+snakke med noen om noe = talk with sb about sth
+
+Hvem snakker du med om dette?  
+→ Who are you talking with about this?
+
+### etter
+
+| Norsk           | English                 |
+|-----------------|-------------------------|
+| lengte etter    | long for, yearn for     |
+
+Jeg lengter etter sommeren.  
+→ I long for the summer.
+
+| Norsk           | English                 |
+|-----------------|-------------------------|
+| se/lete etter   | look for                |
+
+Jeg ser etter nøklene mine.  
+→ I am looking for my keys.
+
+### for
+
+| Norsk             | English                 |
+|-------------------|-------------------------|
+| være kjent for    | be known for            |
+| vare lett / vanskelig for noen        | be easy/difficult for sb            |
+| å ha lett / vanskelig for å gjøre noe | to find easy/difficult to do sth    |
+| å ha vanskeligheter med å gjøre noe   | to have difficulties in doing sth   |
+
+Jeg har lett for å lære språk.  
+→ I find it easy to learn languages.
+
+Jeg har vanskelig for å forstå dialekter.  
+→ I find it difficult to understand dialects.
+
+Alternativ form: 
+
+Jeg har vanskeligheter <span class="env-green">**med å**</span> forstå dialekter.  
+→ I have difficulties understanding dialects.
+
+
+| Norsk             | English                 |
+|-------------------|-------------------------|
+| være morsomt for noen | be fun for sb       |
+
+Det er morsomt for barna å gå på sirkus.  
+→ It is fun for the children to go to the circus.
+
+| Norsk             | English                 |
+|-------------------|-------------------------|
+| kjempe for        | fight for               |
+| forklare for noen | explain to sb           |
+| ha ansvar for     | be responsible for      |
+| foretrekke for noe | prefer sth             |
+
+Jeg foretrekker sigarer for (el. fremfor) sigaretter  
+→ I prefer cigars to cigarettes 
+
+Takk, jeg foretrekker å vente  
+→ Thank you, I prefer to wait.
 
 
 --------------------------------------------------------------------------------
- 
+
+| Norsk      | English    |
+| ---------- | ---------- |
+| for en ... | what a ... |
+
+For en vakker dag! → What a beautiful day!  
+For en interessant bok! → What an interesting book!  
+For en flott idé! → What a great idea!
+
+| Norsk          | English             |
+| -------------- | ------------------- |
+| for det første | in the first place  |
+| for det andre  | in the second place |
+| for det tredje | in the third place  |
+
+
+| Norsk          | English             |
+| -------------- | ------------------- |
+| ta for gitt    | take for granted    |
+
+
+--------------------------------------------------------------------------------
+
+### fra
+
+
+| Norsk              | English              |
+| ------------------ | -------------------- |
+| være forskjell fra | be different from    |
+
+Det er stor forskjell fra by og land.  
+→ There is a big difference between city and countryside.
+
+Norge er forskjellig fra andre land.  
+→ Norway is different from other countries.
+
+| Norsk              | English              |
+| ------------------ | -------------------- |
+| si (i)fra          | say so, let one know |
+
+Bare si (i)fra hvis du trenger hjelp!  
+→ Just let me know if you need help!
+
+Kan du si fra når vi skal gå av bussen?  
+→ Can you let us know when to get off the bus?
+
+Si fra hvis det er noe dere ikke liker!  
+→ Say so if there's something you don't like!
+
+**si fra vs si ifra**
+
+- si ifra: more formal, often used in written language
+- si fra: more common in spoken language
+
+
+| Norsk          | English               |
+| -------------- | --------------------- |
+| ta avstand fra | distance oneself from |
+
+Han tok avstand fra landets politikk.  
+→ He dissociated himself from the country's politics.
+
+| Norsk          | English               |
+| -------------- | --------------------- |
+| beskytte fra   | protect from          |
+| fra før        | previously, already   |
+| fra og med (f.o.m)  | starting from    |
+
+
+--------------------------------------------------------------------------------
+
+### i
+
+| Norsk              | English                 |
+|--------------------|-------------------------|
+| delta i            | participate in          |
+| være involvert i   | be involved in          |
+| være interessert i | be interested in        |
+| i det hele tatt    | at all, together        |
+
+Ham kom ikke i det hele tatt.  
+→ He didn't come at all.
+
+Det er i det hele tatt vanskelig å forstå dette.  
+→ It is altogether difficult to understand this.
+
+| Norsk              | English                 |
+|--------------------|-------------------------|
+| være god i         | be good at              |
+| være dårlig i      | be bad at               |
+| ha rett i          | be right about          |
+| i veien            | what's wrong            |
+
+Hva er i veien med deg?  
+→ What's wrong with you?
+
+| Norsk              | English                 |
+|--------------------|-------------------------|
+| ha vondt i         | have pain in            |
+
+Jeg har vondt i ryggen.
+→ I have back pain.
+
+Jeg har vondt i hodet.
+→ I have a headache.
+
+Jeg har vondt i magen.
+→ I have a stomachache.
+
+Jeg har vondt i halsen.
+→ I have a sore throat.
+
+
+--------------------------------------------------------------------------------
+
 ## Sammenligne
 
 
