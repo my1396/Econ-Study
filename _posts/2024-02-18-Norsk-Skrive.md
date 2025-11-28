@@ -34,6 +34,7 @@ Det er min personlig mening om dette spørsmålet.
 *Bør det innføres kortere arbeidsuke i Norge?*
 
 **Les teksten:**
+
 *(Then there is a short paragraph with someone’s opinion or description of the topic.)*
 
 --------------------------------------------------------------------------------
@@ -160,6 +161,7 @@ Use the following **mock exam** to practice before the actual exam:
 
 - environmentally
 
+--------------------------------------------------------------------------------
 
 #### 🔹 1. Innledning (Introduction)
 

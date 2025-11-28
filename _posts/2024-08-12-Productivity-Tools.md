@@ -712,7 +712,35 @@ Below is an example of the `config.js` script:
 });
 ```
 
+#### Export as PDF
+
+With MPE, you can export your markdown file as PDF.
+
+1.  Need to install Prince XML first.
+
+    ```bash
+    brew install --cask prince
+    ```
+2.  Open preview of your markdown file, hover over the bottom right corner, click the menue button.
+
+3.  Export > PDF (Prince)
+
+This approach is fast. Drawback: no toc.
+
 ___
+
+Alternatively, for best paper quality, you can use Markdown PDF (by yzane) extension to export PDF.
+
+Right-click anywhere in the markdown file editor, then select `Markdown PDF: Export (pdf)` from the context menu.
+
+It generates a PDF with support of more content format, e.g., block quotes, auto-inserting page numbers, and contents more compact, but it is significantly slower. It has no TOC.
+
+___
+
+If you want a full control of the PDF output, you can use Quarto to render the markdown file to PDF.
+
+--------------------------------------------------------------------------------
+
 
 ### Markdown+Math
 
