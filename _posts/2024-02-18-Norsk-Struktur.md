@@ -138,14 +138,30 @@ Use the following **mock exam** to practice before the actual exam:
 - Kanskje det kan fungere. → Maybe that can work.
 - Det kommer an på … → It depends on …
 
-**思考角度**
 
-解题思路
+<a id="thinking-angles"></a>
+**思考角度** 
+
+1. 观点是什么
+
+   此处可以对问题用自己的话进行简单描述。一般来说问题比较宽泛，可以先把问题具体化。
+   → 联系自身经历 (erfaring)，背景 (bakgrunn)，定义问题 (konsepter)，设置问题背景框架。
+
+2. Hovedargumentet 
+   
+   好处是什么，为什么要这做 (原因); 结果是什么; 影响是什么;
+
+3. 从反面来看
+   
+   不这样的坏处 (the other side) 是什么; 结果是什么; 影响是什么;
+
+
+**解题思路**
 
 - 对个人的影响
 - 对别人的影响
 - 对社会整体的影响
-- 通常来怎么样 有没有个例 (et) unntak (话不能说的太满)
+- 通常来怎么样 有没有个例 (et) unntak (话不能说的太满，凡事总有特例)
   
   gerally ..., men det kommer an på ... ; men det gjelder ikke alltid ... 
 
@@ -155,7 +171,14 @@ Use the following **mock exam** to practice before the actual exam:
 
   folk bør få velge etter sine evne / evenene sine. → people should choose according to their abilities.
 
-角度
+  Det finners situasjoner hvor ... → There are situations where ...
+
+**角度**
+
+
+- healthwise
+  - fysisk helse
+  - psykisk helse: stress; ensomhet; sosial isolasjon; utbrent; angst;
 
 - economically
   
@@ -167,7 +190,12 @@ Use the following **mock exam** to practice before the actual exam:
   
   公不公平
 
+  Vi må ta hensyn til alle grupper i samfunnet. → We must take into account all groups in society.
+
+  Staten må sikre at alle har råd til <span style="color: #00CC66;">grunnleggende behov</span>. → The state must ensure that everyone can afford basic needs.
+
 - environmentally
+
 
 --------------------------------------------------------------------------------
 
@@ -1084,7 +1112,27 @@ befolkningen (population)
 
 
 
+## 取消
 
+å avlyse → to cancel (an event, meeting, reservation)
+
+å kansellere → to cancel (a flight, booking, subscription)
+
+å utsette → to postpone (to a later time)
+
+å si opp → to terminate (a contract, subscription, employment)
+
+å avbryte → to interrupt (a process, activity)
+
+å stoppe → to stop (a process, activity)
+
+å legge ned → to shut down (a business, operation)
+
+å trekke seg fra → to withdraw (from a competition, agreement)
+
+å avslutte → to end (a relationship, project)
+
+å avskaffe → to abolish (a law, system)
 
 
 

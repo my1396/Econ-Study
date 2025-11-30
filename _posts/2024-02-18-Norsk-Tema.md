@@ -1101,6 +1101,22 @@ Mindre sannsynlighet for fedme; [mindre sjanse for å bli fet]
 
 - Jeg vil si at det handler om å finne en balanse mellom å ta vare på helsen sin og å nyte livet. → I would say that it is about finding a balance between taking care of one's health and enjoying life.
 
+Mat som kan <span style="color: #00CC66;">oppbevares</span> lenge og som ikke blir dårlig.  
+→ Food that can be stored for a long time and does not go bad.
+
+Langvarig mat som ikke blir dårlig. → Long-lasting food that doesn’t go bad.
+
+Mat med lang holdbarhet. → Food with a long shelf life.
+
+Langvarig mat inneholder vanligvis mange <span style="color: #00CC66;">tilsetningsstoffer</span> som ikke er sunne. → Long-lasting food usually contains many additives that are not healthy.
+
+fryst mat → frozen food  
+mer prosessert mat → more processed food
+
+å prosessere [prosesˈere], prosesserer, prosesserte, har prosessert → to process
+
+
+
 --------------------------------------------------------------------------------
 
 **Psykisk helse**
@@ -1175,6 +1191,49 @@ verb
 
 --------------------------------------------------------------------------------
 
+## Public Life
+
+kollektivtransport → public transport
+
+Transportmidler:  
+buss / trikk / t-bane / tog / ferge / fly → bus / tram / subway / train / ferry / airplane
+
+periodekort → season ticket / pass
+
+**to go / travel from A to B**
+
+- å reise fra ... til ... → to travel from ... to ...
+- å dra fra ... til ... → to go from ... to ...
+- å gå / sykle / kjøre / ta buss / ta tog → to walk / bike / drive / take the bus / take the train
+
+Note that «å gå» refers to walking on foot, while «å dra» and «å reise» are more general terms for going or traveling.
+
+- <span style="color: #00CC66;">å komme seg til</span> ... → to get to ...
+
+Hvordan kommer man seg fra sentrum til flyplassen?   
+→ How does one get from the city center to the airport?
+
+Hvordan kommer du deg til jobben hver dag?   
+→ How do you get to work every day?
+
+
+- <span style="color: #00CC66;">å bevege seg rundt i byen</span> → to get around the city
+
+Det er lett å bevege seg rundt i byen med buss og trikk. → It is easy to get around the city by bus and tram.
+
+Vi brukte sykler for å bevege oss rundt i byen. → We used bikes to get around the city.
+
+Turister kan enkelt bevege seg rundt i byen til fots. → Tourists can easily get around the city on foot.
+
+Det finnes mange måter å bevege seg rundt i byen på. → There are many ways to get around the city.
+
+Hun liker å bevege seg rundt i byen og utforske nye områder. → She likes to get around the city and explore new areas.
+
+For å bevege seg rundt i byen trenger man ofte <span style="color: #00CC66;">et månedskort</span>. → To get around the city, one often needs a monthly pass.
+
+Jorden beveger seg rundt solen the earth revolves around the sun → The earth revolves around the sun.
+
+--------------------------------------------------------------------------------
 
 ## Politikk
 
@@ -1363,5 +1422,43 @@ Til sammen snakker du i ca. 4-6 minutter.
 
 ✅ 正确的回答方式是: Jeg mener/synes at ... 然后你的理由，论据。
 
+--------------------------------------------------------------------------------
+
+**Tips:**
+
+- 解决没的说的问题:
+  - 前期准备: 多熟悉一些话题
+  - 对于问题进行[分类](#tactics-classify) → 重点展开自己的意见 (generalt) → 举一个特例 (men det er også situasjoner hvor ..., men det gjelder ikke alltid; det er unntak også) → 结尾总结 (avslutte med en konklusjon)
+  - 现场应对: 举例子，展开细节，解释原因 (årsak)，说明影响 (konsekvenser)，描述感受等等
+
+- 解决卡壳的问题: 别那么死轴。
+  - 我最容易犯的问题是卡在一个词上了。→ 同一件事必定有多种表达方式。换一种说法继续说下去。<span style="color: #FF4C4C;">不要纠结于一个词!</span>
+  - 对于观点也不要死轴。观点不必完全符合自己真实想法，而是说出你能想到的理由。
+    
+    ❌ 真实想法经常会很复杂 (subtle, tricky)，难以用简单的语言表达出来。
+    
+    ✅ 你可以选择一个简单的观点，然后围绕它展开论据。
+
+更多关于 <span style="color: #00CC66;">解题思路</span>，参考 <a href="{{site.baseurl}}/2024/02/18/Norsk-Struktur.html#thinking-angles">这里 ↩︎</a>。
+
+--------------------------------------------------------------------------------
+
+<a id="tactics-classify"></a>
+战术之"问题分类"
+
+> 以 Hva synes du om matvarerprisens i Norge? 为例
+
+第一反应肯定是"贵" (generalt) → 贵的东西有啥 (fersk frukt og grønnsaker; kjøtt;) → 展开论据
+
+1. 跟 hjemmelandet 相比贵; 
+2. 为什么贵 (årsak) → 进口税; 运输成本; 气候不适合种植;
+3. 影响 (konsekvenser)  
+   → 少吃新鲜水果和蔬菜; 多吃垃圾食品; 不健康; 肥胖; 影响身体健康; 医疗费用增加;  
+   kjøre til sverige for å handle billigere;
+4. Optional additional point: 去餐馆吃更贵; 
+
+至此，hovedargumentet er ferdig, 可以举反例了。有没有便宜的东西?
+
+ferdig mat; fryst mat; → konsekvenser: ikke sunt; mer prosessert mat;
 
 

@@ -1279,6 +1279,24 @@ Basert på det vi har sett, tar vi en avgjørelse i morgen.
 
 --------------------------------------------------------------------------------
 
+**å minne**
+
+| Norsk                       | English            |
+| --------------------------- | ------------------ |
+| å minne noen om / på noe    | remind sb of sth   |
+| å minne noen på at + clause | remind sb that ... |
+
+Det du sa minner meg om en gang da vi var i Spania.  
+→ What you said reminds me of a time when we were in Spain.
+
+Det smaker godt, minner litt om ananas.   
+→ It tastes good, it's a bit like pineapple.
+
+Du må minne meg på at vi skal bort.  
+→ You must remind me that we're going out.
+
+--------------------------------------------------------------------------------
+
 ### med
 
 | Norsk                | English             |
