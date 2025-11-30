@@ -344,7 +344,7 @@ Hverdagen 为 definite form, singular masuline, 对应的 possessive pronoun 应
 (1) 名词冠词和形容词冠词都省略；  
 (2) 仅省略形容词冠词。
 
-| 完全体              | 形容词和名词冠词都省略 | 仅省略形容词冠词<br />(更常见) |
+| 完全体               | 形容词和名词冠词都省略     | 仅省略形容词冠词<br />(更常见)    |
 | ------------------- | ---------------------- | ------------------------------ |
 | den samme dagen     | samme dag              | samme dagen                    |
 | den neste kvelden   | neste kveld            | neste kvelden                  |
