@@ -353,7 +353,7 @@ Hverdagen 为 definite form, singular masuline, 对应的 possessive pronoun 应
 | den første dagen    | første dag             | første dagen                   |
 | de alle dagene      | alle dager             | alle dagene                    |
 
-min først<span class="env-green">e</span> gang (posessive 在前，more common and casual) = først<span class="env-green">e</span> gangen min (posessive 在后，formal)
+min først<span style='color:#00CC66'>e</span> gang (posessive 在前，more common and casual) = først<span style='color:#00CC66'>e</span> gangen min (posessive 在后，formal)
 
 💡 At any case, adj must be in definite form "-e".
 
@@ -444,9 +444,16 @@ Demonstrative pronouns specify objects as well as **distance** to the objects.
 
   å ønske seg (to wish)
 
+Jeg må ta vare på <span style="color: #00CC66;">meg selv</span>. → I have to take care of *myself*.  
+Vi må ta vare på <span style="color: #00CC66;">oss selv</span>. → We have to take care of *ourselves*.  
+Du må passe på <span style="color: #00CC66;">deg selv</span>. → You have to take care of *yourself*.  
+Dere må passe på <span style="color: #00CC66;">dere selv</span>. → You (pl.) have to take care of *yourselves*.  
 
 
+Han se <span style="color: #00CC66;">seg selv</span> i speilet. → He sees *himself* in the mirror.
 
+Barna leker med <span style="color: #00CC66;">seg selv</span>. → The children play by *themselves*.  
+Kjendiser deler bilder av <span style="color: #00CC66;">seg selv</span> på sosiale medier. → Celebrities share pictures of *themselves* on social media.
 
 
 ## Eiendomsord
@@ -867,7 +874,7 @@ Jeg har lyst på en kopp te. → I feel like having a cup of tea.
 
 | Norsk              | English                       |
 |--------------------|-------------------------------|
-| ha <span class="env-green">anledning</span> [anlˈedning] til | be able to, be in a position to |
+| ha <span style='color:#00CC66'>anledning</span> [anlˈedning] til | be able to, be in a position to |
 
 Han har ikke anledning til å komme i dag. → He is not able to come today.
 
@@ -1146,7 +1153,7 @@ Kan du ringe henne etter kl 3? → Can you call her after 3 o'clock?
 
 --------------------------------------------------------------------------------
 
-<span class="env-green">**Tenke + på / om / over**</span> 
+<span style='color:#00CC66'>**Tenke + på / om / over**</span> 
 
 - tenke på noe/nogen = think about sth/sb (most common)
 
@@ -1168,7 +1175,7 @@ Kan du ringe henne etter kl 3? → Can you call her after 3 o'clock?
  > It often means having something in mind or remembering it.
  > - «tenke over» to think something over in a deeper, more serious way, often before making a decision.
 
-- tenke om noe/nogen = have an <span class="env-green">opinion</span> about sth/sb
+- tenke om noe/nogen = have an <span style='color:#00CC66'>opinion</span> about sth/sb
 
   Hva tenker du om den nye filmen?  
   → What do you think about the new movie?
@@ -1205,12 +1212,12 @@ Det er forskjell på rik og fattig.
 |-----------------|-------------------------|
 | eksempel på     | example of              |
 | sikker på       | sure of                 |
-| sint <span class="env-green">på noen</span> | angry with/at sb |
+| sint <span style='color:#00CC66'>på noen</span> | angry with/at sb |
 
 Jeg er sint på ham.  
 → I am angry with him.
 
-være sint <span class="env-green">på noe</span> → be angry about sth
+være sint <span style='color:#00CC66'>på noe</span> → be angry about sth
 
 Hva er du sint på?  
 → What are you angry about?
@@ -1279,12 +1286,12 @@ Basert på det vi har sett, tar vi en avgjørelse i morgen.
 | være fornøyd med     | be satisfied with   |
 | være enig med noen   | agree with sb       |
 
-**være enig <span class="env-green">med noen</span>** → agree with sb
+**være enig <span style='color:#00CC66'>med noen</span>** → agree with sb
 
 Jeg er enig med deg. [agree with sb]  
 → I agree with you.
 
-**være enig <span class="env-green">i noe</span>** → agree in sth
+**være enig <span style='color:#00CC66'>i noe</span>** → agree in sth
 
 Han var enig i det forslaget. [agree in sth]  
 → He agreed with that proposal.
@@ -1295,7 +1302,7 @@ Vi er enig i planen.
 Jeg er enig i det du sier.  
 → I agree with what you say.
 
-**være enig <span class="env-green">om å gjøre</span> noe** → agree to do sth
+**være enig <span style='color:#00CC66'>om å gjøre</span> noe** → agree to do sth
 
 Vi er enige om å møtes i morgen.  
 → We agree to meet tomorrow.
@@ -1384,7 +1391,7 @@ Jeg har vanskelig for å forstå dialekter.
 
 Alternativ form: 
 
-Jeg har vanskeligheter <span class="env-green">**med å**</span> forstå dialekter.  
+Jeg har vanskeligheter <span style='color:#00CC66'>**med å**</span> forstå dialekter.  
 → I have difficulties understanding dialects.
 
 
@@ -1531,7 +1538,7 @@ Jeg har vondt i halsen.
 **Countable**
 
 多 flere – flest  
-少 få – <span class="env-green">færre</span> – færrest 
+少 få – <span style='color:#00CC66'>færre</span> – færrest 
 
 
 **Uncountable**

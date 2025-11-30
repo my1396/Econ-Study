@@ -417,10 +417,14 @@ ref: [绿联 NAS 影视中心媒体库管理](https://www.ugnas.com/tutorial-det
 **字幕查找网站:**
 
 -   [Zimuku](https://www.zimuku.org/): 以中文字幕为主，适合查找中文或中英双语字幕。✅
+-   [YIFY Subtitles](https://yifysubtitles.ch/movie-imdb/tt26270862)
 -   [OpenSubtitles org](https://www.opensubtitles.org/): 最大的字幕资源库之一，支持多语言字幕的搜索和下载，还提供 API 服务。
     
-    Use [OpenSubtitles com](https://www.opensubtitles.com/) if .org does not work.
+    Use [OpenSubtitles com](https://www.opensubtitles.com/) if .org does not work.  
+    [dl.opensubtitles](https://dl.opensubtitles.com)
 -   [Subscene](https://sub-scene.com): 提供多语种字幕。
+-   [Sub Source](https://subsource.net), [subf2m](https://subf2m.co)
+-   [更多字幕网站推荐](https://videoconverter.wondershare.com/subtitle/top-subtitle-download-sites.html)
 
 ___
 
