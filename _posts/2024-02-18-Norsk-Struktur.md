@@ -303,6 +303,8 @@ Use the following **mock exam** to practice before the actual exam:
 
 - *Likevel finnes det ulemper …* → Nevertheless, there are disadvantages …
 
+- Ulemper *med* … inkluderer … → Disadvantages of … include …
+
 - Samtidig *finnes det utfordringer*. → At the same time, there are challenges.
 
 - *Et problem med dette er at …* → A problem with this is that …
@@ -312,6 +314,12 @@ Use the following **mock exam** to practice before the actual exam:
 - *Dette kan også føre til at …* → This can cause …
 
 - Det er *skadelig* for … → It is harmful to …
+
+- … kan føre til negative <span style='color:#00CC66'>konsekvenser for</span>… → can lead to negative consequences for …
+
+- … har <span style='color:#00CC66'>negative effekter på</span> … → has negative effects on …
+
+- … har en negativ <span style='color:#00CC66'>innvirkning / innflytelse på</span> … → has a negative impact on …
 
 - være/bli en byrde <span style='color:#00CC66'>for</span> noe(n) → to be/become a burden to sth/sb 
   
@@ -349,9 +357,6 @@ Use the following **mock exam** to practice before the actual exam:
 
     Det er meningsløst å krangle om småting. → It is pointless to argue about small things.
 
-- … kan føre til negative <span style='color:#00CC66'>konsekvenser</span> for … → can lead to negative consequences for …
-
-- … har en negativ <span style='color:#00CC66'>innvirkning / innflytelse</span> på … → has a negative impact on …
 
 - … blir et økende problem i mange land. → … is becoming an increasing problem in many countries.
 
@@ -406,6 +411,16 @@ Løsning
 - Man må være klar over at … → One must be aware that …
 - Jeg vil si at det handler om å gjøre noe → I would say that it is about doing sth
 - Jeg vil si at det å gjøre noe er viktig fordi … → I would say that doing sth is important because …
+
+- Vi må <span style="color: #00CC66;">øke bevisstheten om</span> matsvinn i samfunnet. 
+  
+  具体措施  
+  1. Vi kan invitere eksperter til å holde taler om matsvinn på skoler og i lokalsamfunn. → 专家讲座
+  2. Vi kan bruke sosiale medier til å <span style="color: #00CC66;">spre informasjon om</span> matsvinn og hvordan unngå det.  → 社交媒体宣传
+  
+  好处  
+  Dette kan hjelpe folk å <span style="color: #00CC66;">forstå <strong>viktigheten av</strong> å redusere matsvinn og motivere dem til å ta tiltak.</span>
+
 
 ___
 
@@ -622,6 +637,9 @@ Noe(n) kan virke ..., men ... → … seems … but …
 
 Note: «antakelig» can also mean «akseptabel».
 
+**More likely:** mer sannsynlig; større sjanse for å gjøre; mer trolig; sannsynligheten øker; sjansen øker;
+
+**Less likely:** mindre sannsynlig; mindre sjanse for å gjøre; mindre trolig, sannsynligheten synker; sjansen synker;
 
 --------------------------------------------------------------------------------
 
@@ -648,21 +666,45 @@ Note: «antakelig» can also mean «akseptabel».
 
 **In this way**
 
-På den måten …
-
-slik sett → in this sense
-
-det store spørsmålet er ... → The big question is … The key issue is …
-
-… regnes (derfor) som … → … is (hence) considered …
-
-Bruk av fornybare energikilder *regens som* bærekraftig og miljøvennlig.
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| På den måten …                         | in that way; thus                  |
+| På denne måten …                       | in this way; more formal and specific |
+| slik sett                              | in this sense                      |
+| det store spørsmålet er ...            | The big question is … The key issue is … |
+| … regnes (derfor) som …                | … is (hence) considered …          |
+| Bruk av fornybare energikilder *regens som* bærekraftig og miljøvennlig. | The use of renewable energy sources *is considered* sustainable and environmentally friendly. |
 
 
 
 **很明显**...
 
-det er *klart/<span style='color:#00CC66'>tydelig</span>* at ...
+| Norsk                          | English                |
+| ------------------------------ | ---------------------- |
+| Det er klart at …              | It is clear that …     |
+| Det er tydelig at …            | It is evident that …   |
+| Selvsagt er det …              | Obviously, it is …     |
+| Det er åpenbart at …           | It is obvious that …   |
+
+
+tydelig vs betydelig 
+
+- tydelig → clear, evident, obvious
+
+  - Det er tydelig forskjell på ... og ...   
+    → There is a clear difference between ... and ... [attributive 定语]
+
+  - Det er tydelig å se at ...   
+    → It is clear to see that ... [predicative 表语]
+
+- betydelig → significant, considerable (数量，程度上) 显著
+
+  - Det er betydelig forskjell på ... og ...   
+    → There is a significant difference between ... and ... [attributive 定语]
+
+  - Det er betydelig å finne balanse mellom ... og ...   
+    → It is important to find a balance between ... and ... [predicative 表语]
+  
 
 --------------------------------------------------------------------------------
 
@@ -670,34 +712,39 @@ det er *klart/<span style='color:#00CC66'>tydelig</span>* at ...
 
 <span style='color:#00CC66'>**强调必要性**</span>
 
-rett og slett → simply (need to do sth)
 
-det er i hvert fall *på sin plass* at …  → It is certainly fitting that …
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| rett og slett                          | simply (need to do sth)            |
+| det er <span style="color: #00CC66;">avgjørende</span> at … | it is crucial that … |
+| det er helt avgjørende at …            | it is absolutely crucial that …    |
+| det er i hvert fall *på sin plass* at … | It is certainly fitting that …    |
+| det er nødvendig å …                   | it is necessary to …               |
+| <span style='color:#00CC66'>vesentlig</span> [ve:´s(ə)ntli] | significant   |
 
-… har aldri vært mer viktig / trendy enn nå.  → … has never been more important/trendy than now. [trendy no 同 en，注意发音]
 
-synonym: avgjørende
+Det er vesentlig for … at … → It is essential for … that …
 
-sette noe høyt; verdsette noe høyt;
-
-å satse på noe; prioritere noe;
-
-å legge vekt på noe [note vekt here without any article] → to emphasize sth
-
-det er stor vekt på … → there is great emphasis on … 
+- Det er vesentlig for elevenes læring at de får tilbakemelding fra læreren.   
+  → It is essential for students' learning that they receive feedback from the teacher.
 
 … har blitt uvesentlige, og … har blitt enda viktigere enn før.   [… have become insignificant, and … has become even more important than before.]
 
-… blir viktigere enn *noen gang* → becomes more important *than ever* 前所未有的重要
 
-<span style='color:#00CC66'>vesentlig</span> [ve:´s(ə)ntli] → significant
+--------------------------------------------------------------------------------
 
 
-这是一个 … 的问题
+**前所未有的重要**
 
-Man kan <span style='color:#00CC66'>se på som</span> ....
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| … blir viktigere enn *noen gang*       | becomes more important *than ever* |
+| … har aldri vært mer viktig / trendy enn nå. | … has never been more important/trendy than now. [trendy no 同 en，注意发音] |
 
-Man kan se på som en positiv utvikling og et resultat av at ... → It can be viewed as a positive development and a result of ...
+
+--------------------------------------------------------------------------------
+
+**Betydelig vs betydningsfull**
 
 **betydelig** → significant, considerable
 
@@ -732,6 +779,27 @@ Det er et betydningsfullt øyeblikk i livet ditt. → It is a significant moment
 | ------------------ | -------------------- | ------------------------- | ---------------------------- |
 | **betydelig**      | size, amount, degree | considerable, substantial | En betydelig sum penger      |
 | **betydningsfull** | importance, meaning  | meaningful, important     | En betydningsfull opplevelse |
+
+--------------------------------------------------------------------------------
+
+**强调**
+
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| sette / verdsette noe høyt             | to highly value sth                |
+| å satse på noe                         | to go in for sth; to bet on sth    |
+| å prioritere noe                       | to prioritize sth                  |
+| å legge vekt på noe [note vekt here without any article] | to emphasize sth |
+| det er stor vekt på …                  | there is great emphasis on …       |
+
+
+
+这是一个 … 的问题
+
+Man kan <span style='color:#00CC66'>se på som</span> ....
+
+Man kan se på som en positiv utvikling og et resultat av at ... → It can be viewed as a positive development and a result of ...
+
 
 
 --------------------------------------------------------------------------------
@@ -936,20 +1004,38 @@ at 从句
 
 **联系**
 
-En klar <span style='color:#00CC66'>sammenheng</span> mellom ... og ... → A clear link / relationship between … and …
+**sammenlignet** 相比
 
-*Sammenlignet med* mange andre europeiske land  … → Compared to other European countries …
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| <span style="color: #00CC66;">sammenlignet med</span> … | compared to …   |
+| i sammenheng med …                     | in connection with …               |
+| En klar <span style='color:#00CC66'>sammenheng</span> mellom ... og ... | A clear link / relationship between ... and ... |
+| *til sammenligning*                    | for reference / comparison         |
 
-*til sammenligning* → for reference / comparison
+*Sammenlignet med* mange andre europeiske land  … → Compared to other European countries … 与(其他欧洲国家)相比…
 
+--------------------------------------------------------------------------------
 
-i forbindelse med noe → in connection with sth
+**forbindelse** 有关
 
-å bryte all forbindelse med noe(n) → to break all connection with sth/sb
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| i forbindelse med noe                  | in connection with sth             |
+| å bryte all forbindelse med noe(n)     | to break all connection with sth/sb|
 
 opprette diplomatisk forbindelse med et land → to establish diplomatic relations with a country
 
 myndighetene i forbindelse med bygging av både industri, boliger og veier → the authorities in connection with the construction of both industry, housing and roads
+
+--------------------------------------------------------------------------------
+
+
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| i forhold til …                        | in relation to …                   |
+| i kontrast til …                       | in contrast to …                   |
+
 
 --------------------------------------------------------------------------------
 
@@ -1054,7 +1140,7 @@ Tor og Ed har **annerledes** biler. $\rightarrow$ Alle de andre vennene har Toyo
 
 **By contrast**
 
-i kontrast til, i motsetning til, derimot, på den annen side
+i kontrast til, i motsetning til, derimot, på den annen side, til forskjell fra
 
 
 
@@ -1135,23 +1221,64 @@ befolkningen (population)
 å avskaffe → to abolish (a law, system)
 
 
+--------------------------------------------------------------------------------
 
 ## 程度
 
 **非常，尤其**
 
-| fullstendig | completely |
-| ----------- | ---------- |
-| ekstremt    | extremely  |
-| veldig, svært, skikkelig, ganske | very |
-| virkelig    | really     |
-| spesielt    | especially |
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| fullstendig                            | completely                         |
+| ekstremt                               | extremely                          |
+| veldig, svært, skikkelig, ganske       | very                               |
+| virkelig                               | really                             |
+| spesielt                               | especially                         |
 
+**To some extent**
+
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| i noen grad                            | to some extent                     |
+| til en viss grad                       | to a certain extent                |
+| <span style="color: #00CC66;">for så vidt</span> | as far as; to the extent that |
+
+- Jeg er *for så vidt* enig. / Jeg er enig *til en viss grad*.   
+  → I agree to some extent.
+
+- Det stemmer for så vidt.   
+  → That is true to some extent.
+
+- Jeg skjønner det for så vidt, men jeg er ikke helt enig.   
+  → I understand that to some extent, but I don't completely agree.
+
+
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| delvis                                 | partially                          |
+| i stor grad                            | to a large extent                  |
+| i høy grad                             | to a high extent                   |
+| i betydelig grad                       | to a significant extent            |
+
+
+--------------------------------------------------------------------------------
 
 
 ## 影响
 
 å påvirke (neutral)
+
+- Klimaendringer påvirker været mer og mer.  
+  → Climate change is increasingly impacting the weather.
+
+- Sosiale medier påvirker hvordan unge tenker om seg selv.
+  → Social media affects how young people think about themselves.
+
+- Stress påvirker både kropp og sinn.  
+  → Stress affects both body and mind.
+
+- Matvanene vår<span style="color: #00CC66;">e</span> påvirker helsen vår.  
+  → Our eating habits affect our health.
 
 påvirkning → impact; influence
 

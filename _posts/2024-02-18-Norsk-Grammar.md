@@ -95,16 +95,39 @@ skal, vil, kan, må, bør
 - 用的最多的是现在式和过去式，完成式基本见不到用。
 
 
+--------------------------------------------------------------------------------
+
+
+## V2 rule
+
+**Adverbs that DO NOT trigger V2**
+
+These are usually modal or evaluative adverbs, expressing probability, possibility, doubt, or attitude.
+
+
+| Adverb        | Meaning               | Example                                                                 |
+| ------------- | --------------------- | ----------------------------------------------------------------------- |
+| <span style="color: #00CC66;">kanskje</span> | maybe | *Kanskje hun kommer i morgen.* → Maybe she comes tomorrow. |
+| trolig        | likely / probably     | *Trolig han har rett.* → He probably is right.                          |
+| muligens      | possibly              | *Muligens det blir regn i kveld.* → Possibly it will rain tonight.      |
+| antagelig     | presumably / probably | *Antagelig de vant konkurransen.* → They probably won the competition.  |
+
+Unntak: sannsynligvis (triggers V2)
+
+| Adverb        | Meaning               | Example                                                                 |
+| sannsynligvis | probably              | *Sannsynligvis kommer hun i morgen.* → She will probably come tomorrow. |
 
 
 
-___
+
+--------------------------------------------------------------------------------
+
 
 ## Ubestemt og bestemt form
 
 Indefinite and definite forms  (非特指和特指)
 
-Substantiv bøyes i ulike <span style='color:#32CD32'>former</span>, og det kan ofte være vanskelig å vite hvilken av <span style='color:#32CD32'>formene</span> man skal velge. Derfor kan det være lurt å gjøre mange <span style='color:#32CD32'>oppgaver</span> der du skal velge riktig <span style='color:red'>form</span>. Denne oppgaven er et eksempel på en nyttig <span style='color:#32CD32'>øving</span>. Når du har gjort slike <span style='color:#32CD32'>oppgaver</span> mange <span style='color:#32CD32'>ganger</span>, husker du kanskje alle <span style='color:#32CD32'>reglene</span> for ubestemt og bestemt form litt bedre når du skriver tekst selv.
+Substantiv bøyes i ulike <span style='color:#00CC66'>former</span>, og det kan ofte være vanskelig å vite hvilken av <span style='color:#00CC66'>formene</span> man skal velge. Derfor kan det være lurt å gjøre mange <span style='color:#00CC66'>oppgaver</span> der du skal velge riktig <span style='color:red'>form</span>. Denne oppgaven er et eksempel på en nyttig <span style='color:#00CC66'>øving</span>. Når du har gjort slike <span style='color:#00CC66'>oppgaver</span> mange <span style='color:#00CC66'>ganger</span>, husker du kanskje alle <span style='color:#00CC66'>reglene</span> for ubestemt og bestemt form litt bedre når du skriver tekst selv.
 
 **Note that**: riktig form is different from that of in English. In English, we say "you have to choose the correct form." But in Norwegian, it is in indefinite form.
 
@@ -155,7 +178,27 @@ De fleste adjektiv slutter på **‑t** når de beskriver *substantiv i ubestemt
 | et vanskelig valg  | a difficult choice   |
 
 
+| Hankjønn / Hunkjønn  | Intetkjønn | Flertall      |
+| -------------------- | ---------- | ------------- |
+| nær                  | nært       | nære          |
 
+Note: 
+
+- «nær» + location = close to, this is different from English, where we have a preposition "to" following "close".
+- «nær» which form we use depends on the noun that it refers to. 
+  
+  注意是与 <span style="color: #00CC66;">所指代的名词一致</span>，而 <span class="env-orange">不是与主语一致</span>。
+  
+  han- or hun-kjønn → nær  
+  intetkjønn → nært  
+  flertall → nære  
+
+  Jeg bor *nær* skolen. → «Skolen» is hankjønn.  
+  Jeg bor *nært* sentrum. → «Sentrum» is intetkjønn.  
+  Jeg bor *nære* butikkene. → «Butikkene» is flertall.
+
+
+--------------------------------------------------------------------------------
 
 
 **Norwegian Adjective Bøying (Inflection) Guide:**
@@ -170,11 +213,11 @@ NORWEGIAN ADJECTIVE BØYING
 │       (den/det/de + adjective-e + noun)
 │
 └── INDEFINITE (Ubestemt form)
-    ├── PLURAL
+    ├── PLURAL (Flertall)
     │   └── All genders: "-e" ending
     │       (adjective-e + nouns)
     │
-    └── SINGULAR
+    └── SINGULAR (Entall)
         ├── Masculine/Feminine
         │   └── Base form (no ending)
         │       (en/ei + adjective + noun)
@@ -198,7 +241,7 @@ NORWEGIAN ADJECTIVE BØYING
 | Gender       | Form     | Example                |
 | ------------ | -------- | ---------------------- |
 | Masc./Fem.   | all      | all varme maten, all dagen, all tiden, all ny snø   |
-| Neut.        | alt      | alt arbeidet, alt håpet, alt huset, alt nytt stoff          |
+| Neut.        | alt      | alt arbeidet, alt håpet, alt huset, alt nytt stoff  |
 | Plural       | alle     | alle barna, alle bøkene, alle dagene |
 
 alle + definite plural nouns: specific things
@@ -208,6 +251,9 @@ alle + indefinite plural nouns: general things
 
 - alle barn = all children (in general)  
   alle barna = all the children (a specific group)
+
+
+--------------------------------------------------------------------------------
 
 ### Bestemt form
 
@@ -219,7 +265,7 @@ Når substantivet står i bestemt form, legger vi til *bestemt artikkel* (定冠
 
 2. 如果有形容词修饰，那么形容词一律用特指 definite form。
 
-   <span style='color:#32CD32'>形容词的 definite form 和 plural form 是一样的。</span>
+   <span style='color:#00CC66'>形容词的 definite form 和 plural form 是一样的。</span>
 
 3. 并且根据性别 (Masc./Fem./Neut.) 和数量 (Singular/Plural)，前面要加 den/det/de，叫做 "articles in relation to adjectives"
 
@@ -322,7 +368,7 @@ Hverdagen 为 definite form, singular masuline, 对应的 possessive pronoun 应
 
 
 
-当有 <span style='color:#32CD32'>**«hele/halve»**</span> 出现的时候，特指情况下，形容词冠词 (the definite article in relation to the adjective) <span style='color:#32CD32'>**必须拿掉**</span>。
+当有 <span style='color:#00CC66'>**«hele/halve»**</span> 出现的时候，特指情况下，形容词冠词 (the definite article in relation to the adjective) <span style='color:#00CC66'>**必须拿掉**</span>。
 
 | 完全体                   | 形容词和名词冠词都省略 | 仅省略形容词冠词    |
 | ------------------------ | ---------------------- | ------------------- |
@@ -337,7 +383,7 @@ Hverdagen 为 definite form, singular masuline, 对应的 possessive pronoun 应
 | Neut.         | helt      | et helt eple / år  |
 | Plural        | hele      | to hele dagene / eplene / år |
 
-<span style='color:#32CD32'>**Ordinal numbers and «sist», «neste», «forrige», and «samme»**</span>
+<span style='color:#00CC66'>**Ordinal numbers and «sist», «neste», «forrige», and «samme»**</span>
 
 一般都是特指，可选择是否省略冠词。省略冠词的情况下，又分为 
 
@@ -421,6 +467,8 @@ Demonstrative pronouns specify objects as well as **distance** to the objects.
 
 ## Personal pronouns
 
+Reflexive Pronouns 反身代词
+
 | Person | Number   | Subject   | Object    | Reflexive        |
 | ------ | -------- | --------- | --------- | ---------------- |
 | 1st    | Singular | jeg       | meg       | meg (myself)     |
@@ -431,6 +479,9 @@ Demonstrative pronouns specify objects as well as **distance** to the objects.
 | 3rd    | Singular | hun       | henne     | seg (herself)    |
 | 3rd    | Singular | den / det | den / det | seg (itself)     |
 | 3rd    | Plural   | de        | dem       | seg (themselves) |
+
+
+- seg 管 himself, herself, itself, themselves, 第三人称单数和复数的反身代词。
 
 - Reflexives in Norwegian are often used in 固定搭配
 
@@ -454,6 +505,62 @@ Han se <span style="color: #00CC66;">seg selv</span> i speilet. → He sees *him
 
 Barna leker med <span style="color: #00CC66;">seg selv</span>. → The children play by *themselves*.  
 Kjendiser deler bilder av <span style="color: #00CC66;">seg selv</span> på sosiale medier. → Celebrities share pictures of *themselves* on social media.
+
+
+--------------------------------------------------------------------------------
+
+**English vs Norwegian reflexives**
+
+
+**In English:**
+
+-   "themselves" is used **both when it refers back to the subject** and when it's **the object of a preposition**.
+
+-   Example:
+
+    -   They take care of **themselves**. → Refers back to the subject.
+
+    -   It is good for **themselves**. → Object of the preposition "for"; does <span class="env-orange">NOT</span> refer back to the subject.
+
+    Notice that "themselves" is used in both sentences.
+
+    **In Norwegian:**
+
+    -   De tar vare på **<span style="color: #00CC66;">seg</span> selv**. → Refers back to the subject.
+    -   Det er bra for **<span style="color: #00CC66;">dem</span> selv**. → Object of the preposition "for"; does <span class="env-orange">NOT</span> refer back to the subject.
+
+-   Summary
+    -   English does **not** change form depending on whether it refers back to the subject or not.
+    -   Norwegian **does** change form depending on whether it refers back to the subject or not.
+        -   When it refers back to the subject, use reflexive pronouns (seg selv).
+        -   When it does not refer back to the subject, use object personal pronouns (ham, henne, dem, etc.).
+
+This is similar to <span style="color: #00CC66;">possessive pronouns</span> in Norwegian, where we have different forms depending on whether it refers back to the subject or not (sin, si, sitt, sine vs hans, hennes, deres).
+
+
+> **小结:**
+> - 当反身代词或者所有格指代主语时，用 meg/deg/oss/dere/<span style="color: #00CC66;">seg</span> selv 或者 <span style="color: #00CC66;">sin, si, sitt, sine</span>。
+> - 当反身代词或者所有格不指代主语时，用 meg/deg/oss/dere/<span style="color: #00CC66;">ham/henne/dem</span> 或者 hans, hennes, <span style="color: #00CC66;">deres</span>。
+> 
+> 注意: 第一人称 (包括单数+复数)，第二人称 (单数+复数) 没有变化，不根据宾语是否代指主语形变，只有第三人称单数和复数有变化。
+
+
+## verb + reflexive pronouns
+
+| Verb                | Meaning               | Example                              |
+| ------------------- | --------------------- | ------------------------------------ |
+| å glede seg         | to look forward to    | Jeg gleder meg til ferien.           |
+| å kose seg          | to have a good time   | Vi koser oss på festen.              |
+| å legge seg         | to go to bed          | Han legger seg tidlig.               |
+| å passe seg         | to take care of       | Du må passe deg.                     |
+| å skynde seg        | to hurry up           | Skynd deg!                           |
+| å slå seg ned       | to sit down           | Hun slår seg ned ved bordet.         |
+| å vaske seg         | to wash oneself       | Barna vasker seg før middag.         |
+| å <span style="color: #00CC66;">tilpasse seg</span> | to adapt oneself | De må tilpasse seg de nye reglene. |
+
+
+
+--------------------------------------------------------------------------------
 
 
 ## Eiendomsord
@@ -581,9 +688,9 @@ Det er / finnes …
 | Singular — Neuter     | det (that) | dette (this)  |
 | Plural                | de (those) | disse (these) |
 
-- <span style='color:#32CD32'>den</span> (+ adj bestemt form) + noun bestemt form: <span style='color:#32CD32'>那个</span>\[形容词，什么样子的\][名词，什么\]
+- <span style='color:#00CC66'>den</span> (+ adj bestemt form) + noun bestemt form: <span style='color:#00CC66'>那个</span>\[形容词，什么样子的\][名词，什么\]
 
-- <span style='color:#32CD32'>dette</span> (+ adj bestemt form) + noun bestemt form: <span style='color:#32CD32'>这个</span>\[形容词，什么样子的\][名词，什么\]
+- <span style='color:#00CC66'>dette</span> (+ adj bestemt form) + noun bestemt form: <span style='color:#00CC66'>这个</span>\[形容词，什么样子的\][名词，什么\]
 - den/dette 可以单独使用，表示那个/这个。
 
 <table>
@@ -629,13 +736,13 @@ pronoun.
 | Without adjective:                                           |                                                              |
 | stolen  <br />(the chair)                                    | den stolen / dette stolen  <br />(that chair / this chair)   |
 | With adjective:                                              |                                                              |
-| <span style='color:#32CD32'>den gode stolen</span> <br />(the good chair) | <span style='color:#32CD32'>den gode stolen</span> / dette gode stolen <br />(that good chair / this good chair) |
+| <span style='color:#00CC66'>den gode stolen</span> <br />(the good chair) | <span style='color:#00CC66'>den gode stolen</span> / dette gode stolen <br />(that good chair / this good chair) |
 
 **Wrong**: gode stolen ❌
 
 
 
-- Kan du gjenta <span style='color:#32CD32'>det</span> du sa? $\rightarrow$ Can you repeat what you just said? 
+- Kan du gjenta <span style='color:#00CC66'>det</span> du sa? $\rightarrow$ Can you repeat what you just said? 
 
 - Q: 这里的 det 可以用 hva 替换吗？
 
@@ -667,7 +774,7 @@ ___
 
 关系从句
 
-When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» is the <span style='color:#32CD32'>subject</span> of arelative clause, <span style='color:#32CD32'>«som» is obligatory</span>.
+When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» is the <span style='color:#00CC66'>subject</span> of relative clause, <span style='color:#00CC66'>«som» is obligatory</span>.
 
 - Hvem kommer? $\rightarrow$ Hvem 作主语，som 不可省略。Jeg vet ikke *hvem som* kommer. 
 - Hvem bad hun? (Who did she invite?) $\rightarrow$ Hvem 作宾语，som 可以省略。Jeg vet ikke *hvem* hun bad. (I don't know whom she invited.)
@@ -675,6 +782,7 @@ When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» is the <span style=
 
 
 
+--------------------------------------------------------------------------------
 
 
 «Som» 引导的关系从句
@@ -690,6 +798,8 @@ When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» is the <span style=
   (All the resources they find.)
   → Here som = object of finner, so it can be dropped.
 
+
+--------------------------------------------------------------------------------
 
 
 «Der» 引导的关系从句
@@ -754,6 +864,8 @@ Would have done
 
 *Vi skulle gjerne møtt deg tidligere.* We would have liked to meet you earlier.
 
+
+--------------------------------------------------------------------------------
 
 
 ## 被动
@@ -1241,13 +1353,23 @@ Hva er prisen på denne boken?
 
 | Norsk           | English                 |
 |-----------------|-------------------------|
-| tvile på        | doubt about             |
+| <span style="color: #00CC66;">tvile</span> på | doubt about |
 
 Jeg tviler på at han kommer.  
 → I doubt that he is coming.
 
 Jeg tviler på at det går.  
 → I doubt that will work.
+
+
+**Antonym:**
+
+- være sikker på noe → be sure of sth
+- være trygg på noe → be confident of sth
+- ha tillit til noe → have confidence in sth
+- ha tro på noe → have faith in sth
+- å stole på noe/noen → rely on / trust sth/sb
+
 
 | Norsk           | English                 |
 |-----------------|-------------------------|
@@ -1552,6 +1674,7 @@ Jeg har vondt i halsen.
 
 ## Sammenligne
 
+**Komparasjon**
 
 **Countable**
 
@@ -1564,7 +1687,54 @@ Jeg har vondt i halsen.
 多 mer – mest  
 少 liten – mindre – minst
 
-å ha liten kontakt med noen = to have little contact with someone
+å ha liten kontakt med noen = to have little contact with someone 表否定
+
+形容词比较级 
+
+1. 如果是加 "-ere" (superlative 用 "-est"), 则用 «enn» 引导比较对象。
+
+   Han er høyere **enn** broren sin.  
+   → He is taller than his brother.
+
+   Han er eldre **enn** meg.  
+   → He is older than me.
+
+2. 如果是加前缀，mer / mindre + adj (superlative 用 "mest / minst"). 
+   
+   Dette gjelder for eksempel adjektiv fra presens perfektum, flere lange ord og noen utenlandske ord.  
+   
+   Q: What is "adjektiv fra presens perfektum"?  
+   A: 形容词来自<span style="color: #00CC66;">现在完成时</span>的过去分词 (perfektum partisipp)，如 «interessert», «forberedt», «organisert», «komplisert», etc.
+
+   💡 现在分词 (presens partisipp) 形式的形容词一般以 "-ende" 结尾，如 «overraskende», «spennende», «skremmende», 也使用前缀形式的比较级。
+
+--------------------------------------------------------------------------------
+
+**过去分词 adj 的比较级**
+
+- Jeg blir mer interessert i norsk jo bedre jeg forstår det.  
+  → I become more interested in Norwegian the better I understand it.
+- Hun er mer interessert i økonomi enn i markedsføring.  
+  → She is more interested in economics than in marketing.
+- Studentene ble mer interessert etter at læreren forklarte temaet på en enklere måte.  
+  → The students became more interested after the teacher explained the topic in an easier way.
+- Han virker mer forberedt til eksamen nå.  
+  → He seems more prepared for the exam now.
+
+**现在分词 adj 的比较级**
+
+- Filmen var bra, men boka var mer spennende.  
+  → The movie was good, but the book was more exciting.
+- Jeg synes den andre delen av serien er mer spennende enn den første.  
+  → I think the second part of the series is more exciting than the first.
+- Det er alltid mer spennende å reise til et nytt sted.  
+  → It is always more exciting to travel to a new place.
+- Historien ble mer spennende etter hvert kapittel.  
+  → The story became more exciting after each chapter.
+
+ref:
+
+- [Adjektivets komparasjon](https://www.ntnu.edu/now2/4/grammatikk)
 
 --------------------------------------------------------------------------------
 
@@ -1584,3 +1754,38 @@ Jeg har vondt i halsen.
   
   Prisen *inkluderer* frokost.  
   Måltidet *inkluderer* dessert.
+
+**fersk vs. frisk**
+
+- fersk = fresh (food, produce); 东西新鲜
+  
+  Jeg kjøpte *fersk* brød i dag.  
+  Fisken er *fersk*.
+
+- frisk = fresh (air, water); healthy; 
+  
+  1. frisk + været / friluftsliv
+    
+     - Jeg trenger å få litt *frisk* luft.  
+       → I need to get some fresh air.
+     - Det blåser *frisk* ute.  
+       → It is blowing heavily outside.
+     - Værmeldingen sa at det skal bli *frisk* bris i morgen.  
+       → The weather forecast said there will be a fresh breeze tomorrow.
+  2. frisk + person / kropp / sinn: ikke syk
+     
+     - Jeg føler meg *frisk* igjen, så nå kan jeg jobbe.  
+       → I feel healthy again, so now I can work.
+     - Hun er alltid så *frisk* og opplagt om morgenen.  
+       → She is always so fresh and alert in the morning.
+
+Note that **fersk** og **frisk** får **-t** i *intetkjønn* selv om de slutter på **-sk**.
+
+| Gender / Number | fersk               | frisk           |
+| --------------- | ------------------- | --------------- |
+| Hankjønn        | en fersk appelsinen | en frisk mann   |
+| Hunkjønn        | ei fersk suppe      | ei frisk jente  |
+| Intetkjønn      | et fersk<span style="color: #00CC66;">t</span> brødet    | et frisk<span style="color: #00CC66;">t</span> pust  |
+| Flertall        | ferske grønnsaker   | friske blomster |
+
+

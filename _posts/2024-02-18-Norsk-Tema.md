@@ -62,6 +62,19 @@ We should not foster <span style='color:#00CC66'>a sense of rivalry</span> among
 
 alle barn bør vokse opp i trygge og stabile familier
 
+å vokse opp → to grow up
+
+å vokse, vokser, vokste, har vokst → to grow
+
+Jeg er født og oppvokst i Kina. → I was born and raised in China.
+
+å oppdra, oppdrar, oppdro, har oppdratt → to raise, rear, bring up, educate 培养教育(人)
+
+区别于 å dyrke noe → to cultivate sth; to farm sth 种植
+
+å dyrke grønnsaker → to grow vegetables 
+
+
 --------------------------------------------------------------------------------
 
 Q: Hva synes du er viktigst å lære dine barn?  
@@ -521,11 +534,13 @@ respektere mangfold → respect diversity
 
 respekere preferanser → respect preferences
 
-People have self-discipline, and take responsibility for their own actions. Government should minimize interference in people's lives. → Folk har selvdisiplin, og tar ansvar for sine egne handlinger. Regjeringen bør minimere innblanding i folks liv.
+Folk dømmer ikke så mye. → People don't judge as much.
+
+Folk har selvdisiplin, og tar ansvar for sine egne handlinger. Regjeringen bør minimere innblanding i folks liv.  
+→ People have self-discipline, and take responsibility for their own actions. Government should minimize interference in people's lives.
 
 Å røyke eller drikke alkohol har mange negative konsekvenser for både individet og samfunnet som helhet. <span style='color:#00CC66'>Men til tross for dette, er frihet og personlig valg høyt verdsatt i Norge. </span>
 <span style='color:#00CC66'>Derfor bør personlig valg respekteres.</span> Staten kan utføre andre tiltak for å redusere røyking, for eksempel ved å øke skatten på tobakk og alkohol. Men å <span style='color:#00CC66'>forby det helt er ikke i tråd med norske verdier om frihet og personlig ansvar.</span>
-
 
 
 --------------------------------------------------------------------------------
@@ -903,17 +918,29 @@ ___
      - ladestasjoner for elbiler → 电动车充电桩
      - forskning og utvikling av nye miljøvennlige løsninger → research and development of new environmentally friendly solutions
 
-
-
-bærekraftig: sustainable 可持续
-
-*fornybare ressurer / energikilder* →  renewable resources / energy 可再生能源
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| bærekraftig                            | sustainable 可持续                  |
+| fornybar energi                        | renewable energy 可再生能源          |
+| resurser                               | resources 资源                      |
+| å *disponere* ressurser                | to allocate resources 分配资源      |
+| energikilder                           | energy sources 能源来源             |
+| fornybare ressurer / energikilder      | renewable resources / energy 可再生能源 |
 
 *Det satses stadig mer* på fornybar energi. → *There is an increasing focus* on renewable energy.
 
-miljøvennlig: environmental friendly
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| klimaendringer                         | climate change 气候变化            |
+| miljøvennlig                           | environmentally friendly 环保的    |
+| utslipp                                | emissions 排放                     |
+| å unngå / redusere utslipp             | to avoid/ reduce emissions         |
+| naturvern                              | nature conservation 自然保护       |
+| økonomisk vekst                        | economic growth 经济增长           |
+| <span style="color: #00CC66;">klimaanlegg</span> | air conditioning 空调  |
+| forurensning                           | pollution 污染                     |
 
-å unngå / redusere utslipp →  to avoid/ reduce emissions
+
 
 Vi kan <span style='color:#00CC66'>forbrede miljøet ved å</span> ... → We can improve the environment by ...
 
@@ -921,9 +948,9 @@ Vi må passer på naturen vår → we must take care of our nature
 
 Vi må ta vare på kloden. → We must take care of the globe.
 
-Det er fattige land som *rammes hardest av* klimaendringene. → Poor countries were affected most.
+受到不同程度影响
 
-å *disponere* ressurser → to allocate resources
+Det er fattige land som *rammes hardest av* klimaendringene. → Poor countries were affected most.
 
 storbyer som normalt <span style='color:#00CC66'>sliter med</span> dårlig luft på grunn av utslipp fra transport og fabrikker
 
@@ -936,6 +963,47 @@ utenlands: foreign, international 国外 (utenfor hjemmelandet)
 matvane 饮食习惯
 
 vegetarianer 素食者
+
+--------------------------------------------------------------------------------
+
+**matsvinn**
+
+matsvinn → food waste, food loss 食物浪费
+
+Vi må redusere matsvinn. Vi kaster altfor mye mat. ← 现象描述
+
+- Man kan rett og slett unngå det ved å planlegge på forhånd nå de handler mat. ← 解决措施1: 个人层面
+  
+  Vi kan lage en handleliste basert på hva vi trenger for uken, og <span style="color: #00CC66;">kjøpe bare det vi trenger</span>. 
+  
+  影响
+
+  1. På den måten unngår vi å kjøpe for mye mat som vi ikke rekker å spise før den blir dårlig.
+
+  2. Det <span style="color: #00CC66;">ikke bare</span> unngår matsvinn <span style="color: #00CC66;">men også</span> sparer penger. 
+
+- Det er synd at vi kaster mye måt når det er folk som sulter i verden. I Africa og Asia et det mange som ikke har nok mat å spise. Nå vi tenke på dem, må vi gjøre vårt beste <span style="color: #00CC66;">for å</span> redusere matsvinn. ← 解决措施2: 社会层面
+
+- Vi må øke bevisstheten om matsvinn i samfunnet. ← 解决措施3: 思想层面
+  
+  具体来说
+  
+  1. Vi kan invitere eksperter til å holde taler om matsvinn på skoler og i lokalsamfunn. 
+  2. Vi kan bruke sosiale medier til å spre informasjon om matsvinn og hvordan unngå det. 
+  
+  影响  
+  Dette kan hjelpe folk å forstå viktigheten av å redusere matsvinn og motivere dem til å ta tiltak.
+
+- Matsvinn har negative konsekvenser for miljøet. 
+  
+  Det tar mye gassutslipp å produsere mat, spesielt kjøtt. Når vi kaster mat, kaster vi også bort alle ressursene som ble brukt til å produsere den.  
+  
+  Derfor er det viktig å redusere matsvinn for å beskytte miljøet.
+
+
+
+
+--------------------------------------------------------------------------------
 
 Hva tenker dere om at ungdom streiker for miljøsaken?
 
@@ -950,6 +1018,8 @@ Er det noen poenger i talen til Grete Thunberg som dere synes er spesielt gode?
 Muntlig. Uttrykke synspunkter og meninger (individuell), B1
 
 Hva synes du om at folk i dag reiser sa mye, bade innenlands og utenlands? Begrunn svaret ditt.
+
+
 
 Hva mener du er det viktigste vi kan gjøre for å ta vare på miljøet? Begrunn svaret ditt.
 
@@ -1277,6 +1347,10 @@ fattig [fa`t:i] → poor
 
 Staten bør sørge for at det ikke er store forskjeller mellom fattige og rike. → The state should ensure that there are not large differences between the poor and the rich. 贫富差距
 
+unge ves ungdommer
+
+- unge = young people (generally, kids to 30 years old)
+- ungdommer = teenagers (more specifically, 13--20 years old)
 
 
 ### Statens roller
@@ -1382,7 +1456,7 @@ Alt i alt, tror jeg det beste boligvalget <span style='color:#00CC66'>avhenger a
 
 Introduce yourself. → Be short.
 
-Oppgave 1: Si din mening om et tema og begrunne meningen din.
+**Oppgave 1:** Si din mening om et tema og begrunne meningen din.
 
 > Er det bra at folk er opptatt av helse og trening i dag? Hvorfor / hvorfor ikke?
 
@@ -1392,15 +1466,25 @@ Du kan få oppfølgingsspørsmål fra eksaminator. Du snakker i ca. 2-3 minutter
 
 --------------------------------------------------------------------------------
 
-Oppgave 2: Samtale med en annen kandidat om et tema.
+**Oppgave 2:** Samtale med en annen kandidat om et tema.
 
 > Synes dere at all helsebehandling bør være gratis? Hvorfor/hvorfor ikke?
 
-Dere snakker i ca. 5-7 minutter til sammen.
+Dere snakker i ca. 5-7 minutter <span style="color: #00CC66;">til sammen</span>.
+
+Tips: 
+
+- Begge må delta i samtalen. 
+- Du må kommentere på <span style="color: #00CC66;">den andres meninger</span>.
+- Du kan stille spørsmål til den andre kandidaten. 
+  
+  Hva synes du om det?
+
+- Du må uttrykke dine egne meninger.
 
 --------------------------------------------------------------------------------
 
-Oppgaver 3: Argumentere for eller imot en påstand.
+**Oppgaver 3:** Argumentere for eller imot en påstand.
 
 en påstand: statement
 
@@ -1421,6 +1505,15 @@ Til sammen snakker du i ca. 4-6 minutter.
 ❌ 不能说 jeg er enig / uenig. 因为没有问你是否同意。
 
 ✅ 正确的回答方式是: Jeg mener/synes at ... 然后你的理由，论据。
+
+
+Use this table to organize your thoughts:
+
+| +          | –         |
+| ---------- | --------- |
+| fordeler 1 | ulemper 1 |
+| fordeler 2 | ulemper 2 |
+| ...        | ...       |
 
 --------------------------------------------------------------------------------
 
