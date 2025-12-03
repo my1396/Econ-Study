@@ -309,7 +309,7 @@ Use the following **mock exam** to practice before the actual exam:
 
 - *Et problem med dette er at …* → A problem with this is that …
 
-- *Selv om noen …, varer effekten bare en kort periode.* → Even if some …, the effect lasts only a short time.
+- *Selv om noen …, <span style="color: #00CC66;">**varer**</span> effekten bare en kort periode.* → Even if some …, the effect lasts only a short time.
 
 - *Dette kan også føre til at …* → This can cause …
 
@@ -341,11 +341,12 @@ Use the following **mock exam** to practice before the actual exam:
 
   Det risikerer å gjøre noe → It risks of doing sth
 
-- Det *skaper unødvendige problemer* både for arbeidsplassen og for samfunnet. → It creates unnecessary problems for both the working place and the society.
+- Det *skaper unødvendige problemer* både for arbeidsplassen og for samfunnet.   
+  → It creates unnecessary problems for both the working place and the society.
 
 - There is no point in doing …
 
-  - *Det er ikke noe poeng i å gjøre noe.*
+  - *Det er ikke noe poeng [påˈeng] i å gjøre noe.*
 
     Det er ikke noe poeng i å klage. → There is no point in complaining.
 
@@ -687,7 +688,7 @@ Note: «antakelig» can also mean «akseptabel».
 | Det er åpenbart at …           | It is obvious that …   |
 
 
-tydelig vs betydelig 
+**tydelig vs betydelig**
 
 - tydelig → clear, evident, obvious
 
@@ -782,7 +783,7 @@ Det er et betydningsfullt øyeblikk i livet ditt. → It is a significant moment
 
 --------------------------------------------------------------------------------
 
-**强调**
+### 强调
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
@@ -1012,8 +1013,11 @@ at 从句
 | i sammenheng med …                     | in connection with …               |
 | En klar <span style='color:#00CC66'>sammenheng</span> mellom ... og ... | A clear link / relationship between ... and ... |
 | *til sammenligning*                    | for reference / comparison         |
+| lignende                               | similar                           |
 
 *Sammenlignet med* mange andre europeiske land  … → Compared to other European countries … 与(其他欧洲国家)相比…
+
+Forventningene til menn og kvinner er mer like nå enn før. → Expectations for men and women are more similar now than before.
 
 --------------------------------------------------------------------------------
 

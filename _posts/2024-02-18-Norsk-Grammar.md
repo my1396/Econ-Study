@@ -545,7 +545,7 @@ This is similar to <span style="color: #00CC66;">possessive pronouns</span> in N
 > 注意: 第一人称 (包括单数+复数)，第二人称 (单数+复数) 没有变化，不根据宾语是否代指主语形变，只有第三人称单数和复数有变化。
 
 
-## verb + reflexive pronouns
+## Verb + reflexive pronouns
 
 | Verb                | Meaning               | Example                              |
 | ------------------- | --------------------- | ------------------------------------ |
@@ -669,7 +669,7 @@ This is similar to <span style="color: #00CC66;">possessive pronouns</span> in N
 
 ___
 
-### Det 的用法
+## Det 的用法
 
 Det er / finnes …
 
@@ -748,6 +748,7 @@ pronoun.
 
   A: 可以。It is equivalent to say "Kan du gjenta hva du sa?"
 
+--------------------------------------------------------------------------------
 
 
 **Cleft sentences** 断裂句，强调句
@@ -785,24 +786,35 @@ When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» is the <span style=
 --------------------------------------------------------------------------------
 
 
-«Som» 引导的关系从句
+## «Som» 引导的关系从句
 
-- You can only drop som when it is the object.
-  If som is the subject, you must keep it:
-  Subject → must keep som
-  Alle ressurser som ligger på nettet er tilgjengelige.
-  (All the resources that are on the internet are available.)
-  → Here som = subject of ligger.
-- Object → som optional
-  Alle ressurser (som) de finner.
-  (All the resources they find.)
-  → Here som = object of finner, so it can be dropped.
 
+«Som» is similar to “that” or “which” in English. It’s used to introduce a clause that describes a specific noun.
+
+- If «som» is the **subject**, you must **keep** it.
+  
+  $\boxed{\text{Subject → must keep «som».}}$
+
+  Alle ressurser *som* ligger på nettet er tilgjengelige.  
+  (All the resources that are on the internet are available.)  
+  → Here *som* = subject of ligger.
+
+- You can only **drop** «som» when it is the **object**.
+
+  $\boxed{\text{Object → «som» optional.}}$
+
+  Alle ressurser (*som*) de finner.  
+  (All the resources they find.)  
+  → Here *som* = object of finner, so it can be dropped.
+
+  Det er ikke noe (*som*) jeg kan gjøre noe med.  
+  (There is nothing that I can do anything about.)  
+  → Here *som* = object of kan gjøre noe med, so it can be dropped.
 
 --------------------------------------------------------------------------------
 
 
-«Der» 引导的关系从句
+## «Der» 引导的关系从句
 
 When you add supportive / descriptive information about a <span style='color:#00CC66'>*situation, place, time, or condition*</span>, you use **der**. 
 
@@ -950,6 +962,48 @@ Det går over. → It will pass.
 
 --------------------------------------------------------------------------------
 
+**与 «over» 相关/形近 的介词**
+
+| Norsk   | English               |
+| ------- | --------------------- |
+| overfor | opposite, across from |
+
+Han bor *overfor* skolen. → He lives opposite the school.  
+Han bor *overfor* meg. → He lives across from me. (He lives opposite me.)  
+Hun satt *overfor* meg i møtet. → She sat across from me in the meeting.
+
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| ovenfor                                | above, over                        |
+| som ovenfor                            | as above                           |
+| som nedenfor                           | as below                           |
+| som nevnt ovenfor                      | as mentioned above                 |
+
+Han bor *ovenfor* meg i bygningen. → He lives above me in the building. (one floor up) 
+
+*Som nevnt ovenfor*, må du levere rapporten i morgen. → As mentioned above, you have to submit the report tomorrow.
+
+Se tabellen *nedenfor*. → See the table below.
+
+
+
+| Norsk           | English       |
+|-----------------|---------------|
+| overalt         | everywhere    | 
+
+Jeg har lett <span style="color: #00CC66;">*overalt*</span> etter nøklene mine. → I have looked everywhere for my keys.
+
+
+| Norsk            | English            |
+| ---------------- | ------------------ |
+| over tid         | over time          |
+| over hele verden | all over the world |
+
+Jeg jobbet over tid i dag. → I worked overtime today.
+
+
+--------------------------------------------------------------------------------
+
 ### Under
 
 1. 表示位置 under bordet / under stolen / under broen
@@ -957,13 +1011,13 @@ Det går over. → It will pass.
 
 Foran / bak
 
-| Norsk | English   |
-|-------|-----------|
-| stå foran | stand in front of |
-| ligge foran | be ahead of |
-| ligge bak | be behind |
-| komme bak | fall behind |
-| være bak | be behind |
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| stå foran                              | stand in front of                  |
+| ligge foran                            | be ahead of                        |
+| ligge bak                              | be behind                          |
+| komme bak                              | fall behind                        |
+| være bak                               | be behind                          |
 
 Det er ingen biler bak. → There are no cars behind.  
 Det er ingen biler foran. → There are no cars in front.
@@ -1324,7 +1378,8 @@ Det er forskjell på rik og fattig.
 |-----------------|-------------------------|
 | eksempel på     | example of              |
 | sikker på       | sure of                 |
-| sint <span style='color:#00CC66'>på noen</span> | angry with/at sb |
+| sint <span style='color:#00CC66'>på noen</span>     | angry with/at sb |
+| sint <span style="color: #00CC66;">for noe</span> | angry about sth  | 
 
 Jeg er sint på ham.  
 → I am angry with him.
@@ -1681,13 +1736,57 @@ Jeg har vondt i halsen.
 多 flere – flest  
 少 få – <span style='color:#00CC66'>færre</span> – færrest 
 
+flere muligheter = more opportunities  
+færre problemer = fewer problems
+
+større forskjeller = bigger differences  
+flere valg = more choices  
+flere alternativer = more alternatives
+
+flere sjanser = more chances  
+mindre sjanser = smaller chances
+
+Note there "mindre" is used with countable noun "sjanser" to mean "smaller chances". It emphasizes the overall amount rather than strict counting of individual items. "Sjanser" here is treated **collectively as a quantity**.
+
 
 **Uncountable**
 
-多 mer – mest  
+多 mye – mer – mest  
 少 liten – mindre – minst
 
 å ha liten kontakt med noen = to have little contact with someone 表否定
+
+
+mer behov = more need  
+mindre behov = less need
+
+
+
+**folk** [uncount.]
+
+| Norsk       | English      |
+| ----------- | ------------ |
+| mye folk    | many people  |
+| mindre folk | fewer people |
+| mest folk   | most people  |
+
+
+Det er mye folk nå byen når det <span style="color: #00CC66;">foregår</span> en <span style="color: #00CC66;">fotballkamp</span>.
+
+Det er mye folk i byen når det er fotballkamp.
+
+**en kamp** → a match, game, contest
+
+
+**mennesker** [count.]
+
+| Norsk           | English      |
+| --------------- | ------------ |
+| flere mennesker | more people  |
+| færre mennesker | fewer people |
+| flest mennesker | most people  |
+
+--------------------------------------------------------------------------------
 
 形容词比较级 
 

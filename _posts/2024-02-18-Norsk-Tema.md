@@ -14,7 +14,10 @@ This post contains useful phrases and arguments you can reuse in various topics 
 
 1.  Eer det viktig at mor og far deler på permisjonen nå barna er små? Hvorfor / hvorfor ikke?
 
-    - Children need to form a close bond with parents, which is best achieved when parents take maternity or paternity leave. This dedicated time allows parents to spend time with their kid, fostering a strong and lasting connection.
+    - Barn trenger å knytte et nært bånd til foreldrene sine, noe som best oppnås når foreldrene tar foreldrepermisjon. Denne dedikerte tiden gjør det mulig for foreldrene å tilbringe tid med barnet sitt, og fremmer en sterk og varig forbindelse.  
+      → Children need to form a close bond with parents, which is best achieved when parents take maternity or paternity leave. This dedicated time allows parents to spend time with their kid, fostering a strong and lasting connection.
+    - rettferdig hus arbeid og karriere [karriˈere] muligheter
+    - mama / papa forskjellig egenskaper
 
 2.  Synes du at barn bør gå i barnehage?
 
@@ -839,14 +842,22 @@ Hvilken ferdigheter tror du vil være viktige i arbeidet med kunstig intelligens
 
 --------------------------------------------------------------------------------
 
-**信息安全**
+### 信息安全
+
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| personopplysning<span style="color: #00CC66;">er</span> | personal information |
+| personvern                             | privacy protection; data privacy   |
 
 Nåt det gjelder kunstig intelligens, hva tenker du om **personver**? ← beskymringene
 
-> Jeg er litt skeptisk til hvor mye informasjon disse systemene samler inn om oss. Vi må være forsiktig hva vi deler og med hvem, slik at vi kan beskytte oss selv. Jeg slår av lokalliseringstjenester når jeg ikke trenger dem.
+> Jeg er litt skeptisk til hvor mye informasjon disse systemene samler inn <span style="color: #00CC66;">om</span> oss. Vi må være forsiktig hva vi deler og med hvem, slik at vi kan beskytte oss selv. Jeg slår av lokalliseringstjenester når jeg ikke trenger dem.
 >
 > - lokalliseringstjennester / posisjontjenester
 
+
+Vi må beskytte opplysningene våre. / Vi må ta vare på personvernet vårt.  
+→ We must protect our information. / We must take care of our privacy.
 
 --------------------------------------------------------------------------------
 
@@ -1107,11 +1118,11 @@ en byrde [by`r-də]: burden, load
 
 **噪音**
 
-| Norsk  | English          |
-| ------ | ---------------- |
-| bråk   | noise            |
-| støy   | background noise |
-| en lyd | a sound          |
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| bråk                                   | noise                              |
+| <span style="color: #00CC66;">støy</span> | background noise              |
+| en lyd                                 | a sound                            |
 
 Lyder med høy tone, som barn som skriker, er <span style='color:#00CC66'>irriterende</span> for meg. → High-pitched sounds, like children screaming, are irritating to me.
 
@@ -1380,10 +1391,19 @@ Staten bør ikke <span style='color:#00CC66'>blande seg for mye i</span> folks p
   
   infrastruktur, transport, energi og kommunikasjon
 
-- miljøvern
+- miljøvern → environmental protection
   
   Staten bør ta ansvar for å beskytte miljøet og fremme bærekraftig utvikling.
 
+Suffix «-vern» = protection / conservation / preservation
+
+personvern → privacy protection 信息安全  
+naturvern → nature conservation  
+miljøvern → environmental protection  
+dyrevern → animal protection  
+barnevern → child protection  
+sosialvern → social security  
+helsevern → health protection
 
 --------------------------------------------------------------------------------
 
@@ -1474,9 +1494,11 @@ Dere snakker i ca. 5-7 minutter <span style="color: #00CC66;">til sammen</span>.
 
 Tips: 
 
-- Begge må delta i samtalen. 
+- Begge må delta i <span style="color: #00CC66;">samtalen</span>. 
+  
+  Ikke en monolog! ❌
 - Du må kommentere på <span style="color: #00CC66;">den andres meninger</span>.
-- Du kan stille spørsmål til den andre kandidaten. 
+- Du må stille spørsmål til den andre kandidaten. 
   
   Hva synes du om det?
 
@@ -1502,9 +1524,11 @@ Til sammen snakker du i ca. 4-6 minutter.
 
 与 oppgave 1 不同的是，这里是开放性问题，要求你对某个观点进行辩论。
 
-❌ 不能说 jeg er enig / uenig. 因为没有问你是否同意。
+开头:
 
-✅ 正确的回答方式是: Jeg mener/synes at ... 然后你的理由，论据。
+Jeg er enig / uenig i den påstanden.
+
+Jeg mener/synes at ... 然后你的理由，论据。
 
 
 Use this table to organize your thoughts:
@@ -1514,6 +1538,10 @@ Use this table to organize your thoughts:
 | fordeler 1 | ulemper 1 |
 | fordeler 2 | ulemper 2 |
 | ...        | ...       |
+
+Karanse said we can take <span style="color: #00CC66;">2-3 minutes</span> to write down our thoughts before speaking.
+
+Source: Timestamp 14:40, <https://www.youtube.com/watch?v=8TbsNBM6wf0>
 
 --------------------------------------------------------------------------------
 
@@ -1533,6 +1561,14 @@ Use this table to organize your thoughts:
     ✅ 你可以选择一个简单的观点，然后围绕它展开论据。
 
 更多关于 <span style="color: #00CC66;">解题思路</span>，参考 <a href="{{site.baseurl}}/2024/02/18/Norsk-Struktur.html#thinking-angles">这里 ↩︎</a>。
+
+Q: 口语考试中嗓子干涩怎么办?  
+A: 带口香糖，一瓶水。
+
+- 多喝温水或蜂蜜水。
+- 温和发声练习：进行缓慢、轻柔的发声练习，比如从低到高再到低地发元音，或者用轻柔的声音朗读文章，避免大声喊叫。
+- 数数练习：可以从“一”数到“十”再回到“一”，或者从“一百”倒数到“一”，用轻柔的声音进行。
+- 喉部放松：轻轻按摩喉部，或者做一些缓慢的咽唾动作，以缓解喉部紧张感。 
 
 --------------------------------------------------------------------------------
 
