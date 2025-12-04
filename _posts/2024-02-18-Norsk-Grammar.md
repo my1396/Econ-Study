@@ -1130,8 +1130,10 @@ Han er flink i matematikk. → He is good at math.
 **å passe** can be used together with different prepositions:
 
 > If you want to say sth is suitable for sb/sth, you can use «å passe til / for / på noe/noen».
+> 
 > Some special meanings when combined with different prepositions:
-> «Å passe for» can also mean "to be careful of / watch out for sth/sb".
+> 
+> «Å passe for» can also mean "to be careful of / watch out for sth/sb".  
 > «Å passe på» can mean "look after / take care of sth/sb".
 
 
@@ -1145,7 +1147,8 @@ Han er flink i matematikk. → He is good at math.
   
      Denne jobben passer for deg. → This job is suitable for you.
      
-     > Note: This means the same as «å passe til noe/noen». But «passe til» is more common when you want to say sth is suitable for sb/sth.
+     > Note: This means the same as «å passe til noe/noen».  
+     > But «passe til» is more common when you want to say sth is suitable for sb/sth.
   
   2. to be careful of / watch out for sth/sb
 
