@@ -1117,6 +1117,15 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 | forkjølelse                                                | cold                       |
 | fedme / overvekt                                           | obesity                    |
 | ernæring / næring                                          | nutrition                  |
+
+ernæring 注意与 erfaring 区分
+
+- ernæring = nutrition 营养
+- erfaring = experience 经验
+
+
+| Norsk                                                      | English                    |
+| ---------------------------------------------------------- | -------------------------- |
 | protein                                                    | protein (en 同 no)         |
 | mindre fett                                                | less fat                   |
 | måltid                                                     | meal                       |
@@ -1198,6 +1207,9 @@ Mindre sannsynlighet for fedme; [mindre sjanse for å bli fet]
 - Det er også viktig at vi <span style='color:#00CC66'>ikke blir overdriver med</span> trening og kosthold. → It is also important that we do not become excessive with exercise and diet. [Don't overdo it]
 
 - være fornøyd med seg selv → be satisfied with oneself 
+
+- å hold seg i form uten å bli besatt av kroppsbilde   
+  → stay in shape without becoming obsessed with body image
 
 - Jeg vil si at det handler om å finne en balanse mellom å ta vare på helsen sin og å nyte livet. → I would say that it is about finding a balance between taking care of one's health and enjoying life.
 

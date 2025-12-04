@@ -1233,10 +1233,23 @@ Har du noe kjennskap til dette? → Do you know anything about this?
 | ringe til   | call sb              |
 | ringe etter | call for (a service) |
 
+- Vi må *ringe etter drosje* for å komme oss til flyplassen.   
+  → We have to call for a taxi to get to the airport.
+- Vi måtte *ringe etter hjelp* da bilen stoppet.   
+  → We had to call for help when the car stopped.
+- Hun *ringte etter legen* fordi hun følte seg dårlig.   
+  → She called for the doctor because she felt unwell.
 
-Kan du ringe henne etter kl 3? → Can you call her after 3 o'clock?
 
+| Norsk        | English               |
+| ------------ | --------------------- |
+| kravet til   | the requirement for   |
 
+- Kravet til faglig kompetanse er høyt.   
+  → The requirement for professional competence is high.
+
+- Kravet til deltakelse i kurset er at du har bestått grunnkurset.  
+  → The requirement for participation in the course is that you have passed the basic course.
 
 --------------------------------------------------------------------------------
 
@@ -1943,4 +1956,9 @@ Note that **fersk** og **frisk** får **-t** i *intetkjønn* selv om de s
 | Intetkjønn      | et fersk<span style="color: #00CC66;">t</span> brødet    | et frisk<span style="color: #00CC66;">t</span> pust  |
 | Flertall        | ferske grønnsaker   | friske blomster |
 
+--------------------------------------------------------------------------------
+
+## Nyttige Ressurer
+
+[Fagbokforlaget oppgaver: Håndbok i grammatikk og språkbruk](https://handbokigrammatikk.portfolio.no)
 

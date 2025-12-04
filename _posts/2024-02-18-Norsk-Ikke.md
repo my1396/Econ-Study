@@ -27,6 +27,18 @@ I denne setninger er «hvis været blir bedre» en leddsetning.
 
 E.g.: Hvis vi er syk, må vi holde senga og vi kan ikke jobbe. **→** husk: normal syntaks etter «og».
 
+
+### Derfor
+
+**Derfor** viser konsekvens og er et *adverb*. **Derfor** starter alltid ei *helsetning*. Etter **derfor** kommer verbet i helsetninga:
+
+| Årsak                             | Konsekvens                  |
+| --------------------------------- | --------------------------- |
+| Andreas ville ha gode karakterer. | Derfor jobbet han hardt.    |
+| Andreas ville ha gode karakterer, | og derfor jobbet han hardt. |
+
+
+
 --------------------------------------------------------------------------------
 
 ## Leddsetninger
@@ -99,34 +111,46 @@ jeg å gå tur = setningsrest på plass nummer 3
 
 Her er noen helsetninger som inneholder leddsetninger:
 
-- **Dersom** du *ikke* har tid til å komme i dag, <span style='color:#008B45'>kan</span> vi møtes i morgen. → 从句在前，主句倒装。
+- **Dersom** du *ikke* har tid til å komme i dag, <span style='color:#00CC66'>kan</span> vi møtes i morgen. → 从句在前，主句倒装。
 
   Vi kan møtes i morgen dersom du *ikke* har tid til å komme i dag
 
-- **Dersom** omsorgstilbudet *ikke* er godt til å møte denne eldrebølgen, <span style='color:#008B45'>kan</span> flere eldre stå i fare for å bli isolert i hjemmene sine.
+- **Dersom** omsorgstilbudet *ikke* er godt til å møte denne eldrebølgen, <span style='color:#00CC66'>kan</span> flere eldre stå i fare for å bli isolert i hjemmene sine.
 
-- **At** det (*ikke*) er ganske vanskelig å lære norsk, <span style='color:#008B45'>er</span> noe vi alle sammen vet.
+- **At** det (*ikke*) er ganske vanskelig å lære norsk, <span style='color:#00CC66'>er</span> noe vi alle sammen vet.
 
   Noe vi alle sammen vet er at det (ikke) er ganske vanskelig å lære norsk.
 
-- **Fordi** jeg må jobbe, <span style='color:#008B45'>kan</span> jeg *ikke* gå på tur i dag.
+- **Fordi** jeg må jobbe, <span style='color:#00CC66'>kan</span> jeg *ikke* gå på tur i dag.
 
   Jeg kan ikke gå på tur i dag fordi jeg må jobbe.
 
-- **Hvis** jeg *ikke* øver mye, <span style='color:#008B45'>blir</span> jeg ikke flink.
+- **Hvis** jeg *ikke* øver mye, <span style='color:#00CC66'>blir</span> jeg ikke flink.
 
   Jeg blir ikke flink hvis jeg *ikke* øver mye.
 
-- Vi skal lese en tekst **som** <span style='color:#008B45'>ikke</span> er så vanskelig.
+- Vi skal lese en tekst **som** <span style='color:#00CC66'>ikke</span> er så vanskelig.
 
 
+--------------------------------------------------------------------------------
 
+### Fordi
 
+Fordi viser en årsak og starter ei leddsetning
 
+从句在后
 
+| Konsekvens                     | Årsak                         |
+| ------------------------------ | ----------------------------- |
+| Andreas jobbet hardt **fordi** | han ville ha gode karakterer. |
 
+从句在前，加逗号
 
+| Årsak                                   | Konsekvens            |
+| --------------------------------------- | --------------------- |
+| **Fordi** han ville ha gode karakterer, | Andreas jobbet hardt. |
 
+--------------------------------------------------------------------------------
 
 
 

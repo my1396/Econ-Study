@@ -107,7 +107,13 @@ A: The following shows some ideas:
 
 Q: Should I take one clear side? Or should I comment on both?
 
-A: You **do not need** to write both pros and cons if the task is to argue for your opinion. We recommend that you only argue for one viewpoint, since including counterarguments can make it harder to structure the text.
+A: You **do not have to** to write both pros and cons if the task is to argue for your opinion. It is up to personal choice which side you choose. 
+
+> My personal strategy is to first *choose the side you think is easier to argue for*, write 2 points to suppot it, then 1 point to argue against it.
+> 
+> This way you can show that you have considered both sides.
+> 
+> End with a conclusion to restate your opinion. 
 
 --------------------------------------------------------------------------------
 
@@ -234,11 +240,15 @@ Use the following **mock exam** to practice before the actual exam:
 
 - beneficial / contributes to / helps achieve sth
 
-  - *å legge til rette for* → to facilitate, to make possible, to create conditions for
+  - <span style="color: #00CC66;">*å legge til rette for*</span> → to facilitate, to make possible, to create conditions for
 
     Skolen bør legge til rette for at alle elever får delta i aktivitetene. → The school should facilitate that all students can participate in the activities.
 
-  - å gjøre det mulig → make it possible
+  - *å gjøre det mulig* → make it possible
+ 
+  - å *avsløre* en vei til noe → to reveal a way to sth
+    
+    å avsløre en måte å gjøre noe → to reveal a way of doing sth
   
   - *bidra til* → contribute to, to help achieve
 
@@ -255,6 +265,8 @@ Use the following **mock exam** to practice before the actual exam:
   - *være til fordel for*… → to be beneficial for 
 
     Det er til fordel for barn å ha foreldre som engasjerer seg i lekser. → It is beneficial for children to have parents who are involved in homework.
+  
+  - Fordeler *med* dette er ... → Advantages of this are ...
 
 - to make sure ...
   
@@ -275,7 +287,8 @@ Use the following **mock exam** to practice before the actual exam:
   - *Det er vesentlig for … at …* → It is essential for … that …
 
     Det er vesentlig for elevenes læring at de får tilbakemelding fra læreren. → It is essential for students' learning that they receive feedback from the teacher.
-  - syn.: avgjørende, nødvendig, kritisk, betydelig
+  
+  - syn.: *avgjørende, nødvendig, kritisk, betydelig*
 
 - noe <span style='color:#00CC66'>er grunnlaget for</span> alt annet → sth is the basis for everything else
 
@@ -524,7 +537,7 @@ Det føler jeg gir en stor trygghet. → I feel it gives a strong sense of safet
 - Jeg er <span style='color:#00CC66'>stort sett</span> enig. → I mostly agree with that. 
 - Jeg er <span style='color:#00CC66'>i hovedsak</span> enig. → I am basically / fundamentally agree.
 
-- Jeg er <span style='color:#00CC66'>helt / delvis</span> enig. → I completely/partially agree with that.
+- Jeg er <span style='color:#00CC66'>helt / delvis</span> enig. → I completely / partially agree with that.
 
 --------------------------------------------------------------------------------
 
@@ -564,6 +577,7 @@ Mitt inntrykk er at ... → my impression is that …
 Jeg er usikker *på* om ... → I am uncertain whether ...
 
 
+--------------------------------------------------------------------------------
 
 
 ## Connectors
@@ -594,6 +608,16 @@ Noe(n) kan virke ..., men ... → … seems … but …
 
 > selv om; til tross for at;
 
+**Still, even now**
+
+> Fremdeles; ennå;
+
+
+**anyway** 无论如何
+
+> i hvert fall; i alle fall; uansett;
+
+
 **In addition** (adding extra info)
 
 > i tillegg (til å); <span style='color:#00CC66'>samtidig finnes det</span> …; <span style='color:#00CC66'>dessuten</span> (moreover); for øvrig; videre; 
@@ -613,9 +637,6 @@ Noe(n) kan virke ..., men ... → … seems … but …
 
 > Fordi; ettersom; 
 
-**Still, even now**
-
-> Fremdeles; ennå;
 
 **Wrap up**; introduce the last point
 
@@ -935,10 +956,6 @@ På den ene siden … (倒装语序), men på den annen siden … (倒装)
 
 
 
-**无论如何** anyway
-
-i hvert fall, i alle fall, uansett
-
 
 **强调普适**
 
@@ -1182,20 +1199,17 @@ Tor og Ed har **annerledes** biler. $\rightarrow$ Alle de andre vennene har Toyo
 i kontrast til, i motsetning til, derimot, på den annen side, til forskjell fra
 
 
-
-
-某事是不为社会接受的
-
-Det var lite sosialt akseptert (ikke) å gjøre noe → Sth is not socially acceptable. 
-
-
+--------------------------------------------------------------------------------
 
 …可以理解的
 
 Det er <span style='color:#00CC66'>forståelig</span> at … → It is understandable that … 
 
+--------------------------------------------------------------------------------
 
+某事是不为社会接受的
 
+Det var lite sosialt akseptert (ikke) å gjøre noe → Sth is not socially acceptable. 
 
 
 平凡是不够好的
@@ -1234,6 +1248,7 @@ befolkningen (population)
 | de eldre           | the elderly                         |
 | de rike/fattige    | the rich/poor                       |
 
+--------------------------------------------------------------------------------
 
 
 
@@ -1372,13 +1387,13 @@ Konflikten gikk utover vennskapet deres. → The conflict harmed their friendshi
 
 
 
+--------------------------------------------------------------------------------
+
+## 趋势
+
 越来越...
 
 Stagig flere/bedre ... 越来越多/好
-
-
-
-## 趋势
 
 Et *økende* antall nordmenn ønsker å ... → An increasing number of Norwegians wish to ...
 
@@ -1416,26 +1431,57 @@ Det blir en ond *sirkel*. → It becomes a vicious circle.
 
 
 
-| 当...的时候                                                  | Da ... 从句 (正常语序), ... 主句 (倒装)                   |
-| ------------------------------------------------------------ | --------------------------------------------------------- |
-| Da jeg lærte å ..., ble tekstene mine mye bedre.              |                                                           |
+| 当...的时候                            | Da ... 从句 (正常语序), ... 主句 (倒装) |
+| ------------------------------------  | ----------------------------------  |
+| Da jeg lærte å ..., ble tekstene mine mye bedre. |                          |
 | Da skoler stengte ned i midten av mars, var mange bekymret for ... | When schools were closed down, many were worried about .. |
-
 
 
 Nå det **gjelder** noe ... → When it comes to ...
 
 Dette gjelder også i Norge. → This also applies in Norway.
 
+«Nå»
+
+- 作为 “现在” (now) 使用时，需要倒装。
+
+  Nå skal vi spise middag. → Now we shall eat dinner.  
+  Nå har jeg forstått det. → Now I have understood it.
+
+  *Nå er det høy tid at* vi takker ungdommene.  «Er» 提前到主语之前。 → 现在正是 … 的时候
+
+  类似表达：Nå er det virkelig på tide at …
+
+- 区别于 «når»: “当…的时候” (when) 使用时，分句正常语序。
+  
+  分句作为 position 1, 主句倒装, 动词提前。
+
+  Når Linda kommer, skal de spise middag. → When Linda comes, they shall eat dinner.
 
 
-当 nå 作为 “现在”使用时，需要倒装。
 
-*Nå er det høy tid at* vi takker ungdommene.  «Er» 提前到主语之前。 → 现在正是 … 的时候
+注意 "当…的时候" 的引导词有两种
 
-类似表达：Nå er det virkelig på tide at …
+1. når (when) 从句: 
+   - 经常反复发生的事情
+     
+     Jeg pleier å lese avis **når** jeg spiser frokost. → I usually read the newspaper when I eat breakfast.
 
+     Jeg liker å slappe av **når** jeg kommer hjem fra jobb. → I like to relax when I come home from work. 
+     
+     Jeg likte å slappe av **når** jeg kom hjem fra jobb. → I liked to relax when I came home from work. [过去时]
+   
+   - 未来将要发生的事情
+     
+     jeg skal ta eksamen **når** kurset er ferdig. → I will take the exam when the course is finished.
 
+2. da: 事情发生在过去
+   
+   Jeg sanset ballett **da** jeg var liten. → I took ballet when I was little.
+
+   Han ble glad **da** hun sa ja. → He became happy when she said yes.
+
+--------------------------------------------------------------------------------
 
 ## 原因
 
