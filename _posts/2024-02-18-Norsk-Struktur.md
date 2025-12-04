@@ -163,7 +163,7 @@ Use the following **mock exam** to practice before the actual exam:
 - 对社会整体的影响
 - 通常来怎么样 有没有个例 (et) unntak (话不能说的太满，凡事总有特例)
   
-  gerally ..., men det kommer an på ... ; men det gjelder ikke alltid ... 
+  generalt ..., men det kommer an på ... ; men det gjelder ikke alltid ... 
 
   Det er unntak <span style='color:#00CC66'>fra</span> denne regelen. → There are exceptions to this rule.
 
@@ -207,7 +207,7 @@ Use the following **mock exam** to practice before the actual exam:
 - *Noen hevder at …, mens andre mener at …* → Some argue that …, while others think that …
 - *Etter min mening bør vi …* → In my opinion, we should …
 - *Jeg vil i denne teksten diskutere både fordeler og ulemper, og til slutt komme med min egen mening.* → I will discuss both pros and cons, and end with my own opinion.
-- *Jeg har lest at … *→ I have read that …
+- *Jeg har lest at …* → I have read that …
 - *Det har absolutt sine fordeler, men det har også ulemper, mener jeg.* → It absolutely has its advantages, but it also has drawbacks, I think.
 
 ------
@@ -275,6 +275,7 @@ Use the following **mock exam** to practice before the actual exam:
   - *Det er vesentlig for … at …* → It is essential for … that …
 
     Det er vesentlig for elevenes læring at de får tilbakemelding fra læreren. → It is essential for students' learning that they receive feedback from the teacher.
+  - syn.: avgjørende, nødvendig, kritisk, betydelig
 
 - noe <span style='color:#00CC66'>er grunnlaget for</span> alt annet → sth is the basis for everything else
 
@@ -293,7 +294,7 @@ Use the following **mock exam** to practice before the actual exam:
   - være av stor betydning for noe(n) → to be of great importance to sth/sb
 
     Utdanning er av stor betydning for samfunnets utvikling. → Education is of great importance to society's development.
-
+  - syn.: innflytelse, effekt, påvirkning
 
 ------
 
@@ -380,7 +381,13 @@ Løsning
 - *For å <u>lette</u> situasjonen* ... → To ease/alleviate the situation
 - *Det kan være praktisk å <u>tillate</u> …* → It may be practical to allow …
 - *Alternativt kan de …* → Alternatively, they can …
+
 - *Det er forståelig at …, men kanskje kan de …* → It is understandable that …, but maybe they can …
+  
+  Note: «Kanskje» 引导的分句可以是 V2 语序，也可以是 normal 语序。
+  
+  - kanskje kan de … → maybe they can … (V2 语序)
+  - kanskje de kan … → maybe they can … (normal 语序)
 
 - *et tiltak* → measure, initiative
 
@@ -396,7 +403,11 @@ Løsning
 - å samarbeide for å finne løsninger → to collaborate to find solutions
 - å ta ansvar for noe → to take responsibility for sth
 - å forbrede noe <span style='color:#00CC66'>ved</span> å gjøre … → to improve sth by doing sth 
-- å styrke noe → to strengthen sth
+- å <span style="color: #00CC66;">styrke</span> noe → to strengthen sth
+  
+  - å styrke samarbeidet mellom … → to strengthen the cooperation between …
+  - 区别形近词 å *styre* → to govern, to manage, to control
+
 - å øke noe → to increase sth
 
   - å øke bevisstheten om noe → to increase awareness of sth 增强 … 的意识
@@ -630,7 +641,7 @@ Noe(n) kan virke ..., men ... → … seems … but …
 
 **Actually**
 
-> faktisk; virkelig; egentlig;
+> faktisk; virkelig; egentlig; sannelig; 
 
 **Possibly**
 
@@ -1039,6 +1050,11 @@ myndighetene i forbindelse med bygging av både industri, boliger og veier → t
 | -------------------------------------- | ---------------------------------- |
 | i forhold til …                        | in relation to …                   |
 | i kontrast til …                       | in contrast to …                   |
+| være knyttet til noe(n)                | to be connected to sth/sb          |
+
+<span style="color: #00CC66;">Det er et problem knyttet til</span> fri vilje.  
+→ There is a problem connected to free will.
+
 
 
 --------------------------------------------------------------------------------
@@ -1059,17 +1075,36 @@ like mange epler som dere →
 
 --------------------------------------------------------------------------------
 
-lignende (også liknende) → similar
+<span style="color: #00CC66;">lignende</span> (også liknende) → similar
 
 Har du opplevd *noe lignende*? → Have you experienced something similar?
 
 De to filmene er *ganske liknende*. → The two movies are quite similar.
+
+**lignende vs. like**
+
+- **lignende** → similar 
+  
+  lignende interesser = similar interests  
+  noe lignende = something similar/like that  
+  med lignende = with similar (things)
+
+- **like** → equal / identical
+  
+  like rettigheter = equal rights  
+  like muligheter = equal opportunities  
+  like gamle = the same age  
+  like verdt = equally valuable
+
+Forventningene til menn og kvinner er mer *like* nå enn før. → Expectations for men and women are more *the same* now than before. [cannot use "lignende" here]
 
 --------------------------------------------------------------------------------
 
 de er *like* → they are similar / the same
 
 på *samme* måte → in the same way
+
+[Karense: V798 Like eller Samme?](https://www.youtube.com/watch?v=JUzpPoDGh-8)
 
 --------------------------------------------------------------------------------
 

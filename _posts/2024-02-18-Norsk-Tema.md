@@ -53,7 +53,7 @@ Jeg er født og oppvokst i Kina. → I was born and raised in China.
 
 godt oppdratt:  well brought up, well-raised
 
-en <span style='color:#00CC66'>oppdragelse / oppvekst</span>: upbringing*,* education
+en <span style='color:#00CC66'>oppdragelse / oppvekst</span>: upbringing, education
 
 Jeg må <span style='color:#00CC66'>tilpasse meg</span> det norske samfunnet. → I have to adapt to the Norwegian society.
 
@@ -127,7 +127,9 @@ være opptatt av tilbakemeldinger → *bry* seg om hva andre sier til deg 在意
 Jenter og gutter bør få samme oppdragelse.
 
 - Mennesker bør ha like grunnleggende ferdigheter uavhengig av kjønn. Dette inkluderer ferdigheter som kommunikasjon, samarbeid, selvstendighet og problemløsning. Alle må leve selvstendig en dag. Når dagen kommer, må de klare seg selv. De må lagge sin egen mat, vaske klærne sine, betale regninger, og så videre. Derfor bør både jenter og gutter lære disse ferdighetene fra en tidlig alder.
-- I det andre, forventer for menn og kvinner er mer lingenede nå enn før. Tidligere var det mer tradisjonelle kjønnsroller, der menn ble forventet å være forsørgere og kvinner å ta seg av hjemmet og barna. Nå er det mer vanlig at både menn og kvinner jobber utenfor hjemmet og deler på husarbeidet og barneoppdragelsen. Derfor oppdragelsen bør være lik for begge kjønn.
+
+- I det andre, forventer for menn og kvinner er mer like nå enn før. Tidligere var det mer tradisjonelle kjønnsroller, der menn ble forventet å være forsørgere og kvinner å ta seg av hjemmet og barna. Nå er det mer vanlig at både menn og kvinner jobber utenfor hjemmet og deler på husarbeidet og barneoppdragelsen. Derfor oppdragelsen bør være lik for begge kjønn.
+  
 - Videre, ved å gi både jenter og gutter samme oppdragelse, kan vi bidra til å kjønnlikestilling og respekt. Dette fører til mindre distriminering og stereotyper basert på kjønn, og skaper et mer inkluderende samfunn der alle har like muligheter til å lykkes.
 
 
@@ -151,7 +153,13 @@ Det er viktig å få gode karakterer på eksamener. (It's important to get good 
 
 kunnskap
 
-ferdighet
+grunnleggende kunnskap → basic knowledge
+
+Norskprøver trenger grunnleggende kunnskap om samfunnet og politikk for å lykkes.
+
+for å lykkes → in order to succeed; to succeed;
+
+et ferdighet
 
 eksamenskarakter / standpunktkarakter / karaktergjennomsnitt
 
@@ -400,7 +408,7 @@ Words for "job": yrke, bransje, industri
 fremgangsrik karriere: successful career
 
 forretning: business  
-bedrift: company
+bedrift / selskap: company
 
 psykologer [sykolå:´g]: psychologists
 
@@ -418,17 +426,19 @@ Noen yrker er mindre verdt enn andre. → Some professions are worth less than o
 
 sammfunnsnyttig: socially useful
 
+### Yrkesfag
+
 **yrkesfag vs. akademisk utdanning fordeler**
 
-| yrkesfag                                                                                                           | akademisk                                 |
-| ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------- |
-| praktiske ferdigheter                                                                                              | teoretisk kunnskap                        |
-| skape noe og se konkrete resultater av det du gjør                                                                 | bidra til forskning og utvikling, kreativ |
-| komme seg raskt ut i jobb                                                                                          | lengre utdanning                          |
-| ofte lavere lønn i begynnelsen, men nå man jobber seg opp fra gulvet, kan de bli en vellykket bedriftleder endelig | ofte høyere lønn                          |
-| lav status i samfunnet, respekten, holdningen                                                                      | høy status i samfunnet                    |
-| ofte fysisk krevende arbeid                                                                                        | ofte mindre fysisk krevende arbeid        |
-| håndtere verktøy og maskiner                                                                                       | bruke datamaskiner og teknologi           |
+| yrkesfag                               | akademisk                          |
+| -------------------------------------- | ---------------------------------- |
+| praktiske ferdigheter                  | teoretisk kunnskap                 |
+| skape noe og se konkrete resultater av det du gjør | bidra til forskning og utvikling, kreativ |
+| komme seg raskt ut i jobb              | lengre utdanning                   |
+| ofte lavere lønn i begynnelsen, men nå man jobber seg opp fra gulvet, kan de bli en vellykket bedriftleder endelig | ofte høyere lønn |
+| lav status i samfunnet, respekten, holdningen | høy status i samfunnet      |
+| ofte fysisk krevende arbeid            | ofte mindre fysisk krevende arbeid |
+| håndtere verktøy og maskiner           | bruke datamaskiner og teknologi    |
 
 **Useful phrases:**
 
@@ -440,6 +450,11 @@ sammfunnsnyttig: socially useful
 - arbeidet de gjør er <span style='color:#00CC66'>mindreverdig</span> → The work they do is inferior
 - det er rent snobberi → It is pure snobbery
 - understreke viktigheten av ... → emphasize the importance of ...
+
+  Vi må verdsette alle yrke på samme måte. → We must value all professions in the same way.  
+  Vi må *verdsette* alle yrke likt. → We must *value* all professions equally.  
+  Vi må *behandle* alle yrke likt. → We must *treat* all professions equally.
+
 - anerkjenne verdien av ... → recognize the value of ...
 - Vi må <span style='color:#00CC66'>styrke holdningen til</span> praktiske yrker. → We must strengthen the attitude towards practical professions. 
 
@@ -808,22 +823,26 @@ What is irreplaceable about mennesker? → **uerstattelig**
 
 Hvilke yrker skal bli mer aktuelle?
 
-Det skal bli større behov for disse yrkene:
+Det skal bli <span style="color: #00CC66;">større behov</span> for disse yrkene:
 
-- Programmering og dataanalyse. 
+- **Programmering og dataanalyse.**
   
   Disse jobbene utvikler KI. Jeg tror det skal bli <span style='color:#00CC66'>større behov for</span> dem i fremtiden.
 
-- Data sikkerhet og personvern.   
+- **Data sikkerhet og personvern.**
 
   Med økt bruk av KI, bli personlig informasjon samlet inn og lagret 
   blir det viktigere å beskytte data og sikre personvernet.
 
-- Yrker innen psykisk helse Mer personer er deprimert i det siste. 
+- Y**rker innen psykisk helse**
+  
+  Mer personer er deprimert i det siste. 
   
   Folk er undre mer stress enn tidligere. Det fører til dårligere psykisk helse. Mer personer skal trenge råd fra psykisk leger. 
 
-- Lærere og veiledereMed rakst teknologisk utvikling vil det bli viktigere enn noen gang å lære mennesker å lære. 
+- **Lærere og veiledere**
+  
+  Med rakst teknologisk utvikling vil det bli viktigere enn noen gang å lære mennesker å lære. 
   
   Vi trenger noen å hjelpe folk med å utvikle kritisk tenkning og digitale ferdigheter.
 

@@ -1,19 +1,21 @@
 ---
 layout: post
 tag: Norsk
-title: Placement of Ikke
+title: Placement of Ikke i Leddsetninger
 ---
 
-**Leddsetninger (clauses)**
+## Helsetninger
 
 Her er en helsetning:
 
 - Jeg liker å gå på tur i helga.
 
-Her er **helsetninger** som er knyttet sammen av en konjunksjon (_og, men, eller, så_):
+Her er **helsetninger** som er knyttet sammen av en konjunksjon (<span style="color: #00CC66;">_og, men, eller, så_</span>):
 
-- Å gå på tur er morsomt, og det er også bra å få frisk luft.
-- Det er flott vær i dag, så vi har planlagt å gå på tur.
+- Å gå på tur er morsomt, *og* det er også bra å få frisk luft.
+- Det er flott vær i dag, *så* vi har planlagt å gå på tur.
+
+Helsetninger are independent clauses. They are complete sentences that can stand alone. Connected by <span style="color: #00CC66;">coordinating conjunctions</span>.
 
 Her er en helsetning som inneholder en leddsetning:
 
@@ -25,15 +27,19 @@ I denne setninger er «hvis været blir bedre» en leddsetning.
 
 E.g.: Hvis vi er syk, må vi holde senga og vi kan ikke jobbe. **→** husk: normal syntaks etter «og».
 
-**Leddsetninger:**
+--------------------------------------------------------------------------------
 
-Leddsetninger kan ikke stå alene. De må være del av en helsetning. De starter med en subjunksjon.
+## Leddsetninger
+
+**Clauses**
+
+Leddsetninger kan ikke stå alene. De må være del av en helsetning. De starter med en subjunksjon (subordinating conjunctions).
 
 Her er noen **viktige subjunksjoner**:
 
-_at, som, om, når, da, hvis, fordi, dersom_
+<span style="color: #00CC66;">_at, som, om, når, da, hvis, fordi, dersom_</span>
 
-Andre vanlige subjunksjoner: _mens_ (while), _etter at_ (after that), _før_, _selv om_ (even if)
+Andre vanlige subjunksjoner: <span style="color: #00CC66;">_mens_ (while), _etter at_ (after that), _før_, _selv om_ (even if)</span>
 
 Spørreord i en helsetning (altså ikke et spørsmål) er også subjunksjoner:  
 (疑问代词引导的宾语从句)
@@ -48,7 +54,7 @@ If it were a question:
 
 1. subjunksjon 引导词
 2. subjekt 主语
-3. eventuelt _setningsadverbial_ (if it exists). E.g., _ikke_ 句子副词
+3. eventuelt _setningsadverbial_ (if it exists). E.g., <span style="color: #00CC66;">_ikke_</span> 句子副词
 4. verb 动词
 
 \*\*\* Viktig: setningsadverbialet kommer FØR verbet i en leddsetning.
@@ -62,7 +68,9 @@ Noen eksempler:
 - hvis det ikke (setningsadverbial) blir fint vær (med setningsadverbialet «ikke»)
 
 
-\*\* Other setningsadverbial: aldri, alltid, ofte, gjerne, likevel, derfor, kanskje, bare, dessverre, heldigvis, fremdeles ...
+最常见的 setningsadverbial: <span style="color: #00CC66;">ikke</span>
+
+\*\* Other setningsadverbial: <span style="color: #00CC66;">aldri, alltid, ofte, gjerne, likevel, derfor, kanskje, bare, dessverre, heldigvis, fremdeles ...</span>
 
 
 **从句**既可以在前，也可在后。例外: **som** 总是在后。
@@ -73,9 +81,9 @@ Noen eksempler:
 
 En leddsetning kan komme først eller sist i helsetningen (unntatt «som». «Som» kommer nesten alltid sist): 
 
-> Når det *ikke* regner, liker jeg å gå tur.
+> 从句在前: Når det *ikke* regner, liker jeg å gå tur.
 >
-> Jeg liker å gå tur når det *ikke* regner.
+> 主句在前: Jeg liker å gå tur når det *ikke* regner.
 
 Viktig: Når leddsetningen kommer først i helsetningen, skal vi bruke **komma** etter leddsetningen.
 

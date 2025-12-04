@@ -98,7 +98,55 @@ skal, vil, kan, må, bør
 --------------------------------------------------------------------------------
 
 
-## V2 rule
+## V2 Rule
+
+Ordstilling / V2-regelen
+
+Adverbet «kanskje» er et unntak fra ordstillingsregelen. Når «kanskje» står på 1. plass, kan du velge om du vil sette verbalet eller subjektet på 2. plass. 
+
+1. Kanskje kommer han i morgen. ✅
+2. Kanskje han kommer i morgen. ✅
+
+Both 1 and 2 are correct.  
+Case 1 follows the V2 rule, while case 2 is an exception.
+
+Q: Where to put setningsadverbial «ikke»?
+
+- For case 1: When the verb is in 2nd position, «ikke» comes after the verb and subject.
+
+  Kanskje kommer han **ikke** i morgen. ✅
+
+- For case 2:
+  
+  Note that if you need to put a setningsadverbial (sentence adverb, e.g., «ikke»), it should be before the verb, which is in contrast to the regular rule where «ikke» comes after the verb.
+
+  Kanskje han **ikke** kommer i morgen. ✅
+
+
+| | V2 | Not V2 |
+|--|----|-------|
+|陈述句 | Kanskje snakker vi i morgen. | Kanskje vi snakker i morgen. |
+|否定句 | Kanskje snakker vi **ikke** i morgen. | Kanskje vi **ikke** snakker i morgen. |
+| 陈述句 | Kanskje kjører bussen på søndager. | Kanskje bussen kjører på søndager. |
+| 否定句 | Kanskje kjører bussen **ikke** på søndager. | Kanskje bussen **ikke** kjører på søndager. |
+
+
+
+|  | V2 | Not V2 |
+|--|----|--------|
+|陈述句  | Kanskje snakker vi i morgen. | Kanskje vi snakker i morgen. |
+|否定句  | Kanskje snakker vi **ikke** i morgen. | Kanskje vi **ikke** snakker i morgen. |
+| 陈述句 | Kanskje kjører bussen på søndager. | Kanskje bussen kjører på søndager. |
+| 否定句 | Kanskje kjører bussen **ikke** på søndager. | Kanskje bussen **ikke** kjører på søndager. |
+
+
+其他 setningsadverbialer 同 «ikke»: aldri, alltid, virkelig, sannelig, ...
+
+ref: [Er «kanskje» et unntak fra ordstillingsregelen?](https://www.grammatikk.no/blog/85881-er-kanskje-et-unntak-fra)
+
+
+--------------------------------------------------------------------------------
+
 
 **Adverbs that DO NOT trigger V2**
 
@@ -557,6 +605,14 @@ This is similar to <span style="color: #00CC66;">possessive pronouns</span> in N
 | å slå seg ned       | to sit down           | Hun slår seg ned ved bordet.         |
 | å vaske seg         | to wash oneself       | Barna vasker seg før middag.         |
 | å <span style="color: #00CC66;">tilpasse seg</span> | to adapt oneself | De må tilpasse seg de nye reglene. |
+| å åpne seg          | to open up             | Hun åpner seg for nye ideer.        |
+
+Alkohol hjelper folk å åpne seg. → Alcohol helps people to open up.
+
+
+| Verb            | Meaning          | Example                            |
+| --------------- | ---------------- | ---------------------------------- |
+| å tilpasse seg  | to adapt oneself | De må tilpasse seg de nye reglene. |
 
 
 
