@@ -20,7 +20,7 @@ Nice personal website template from a professor: <https://ryancordell.org>
 If your webpages are not indexed, they can't be served on Google and hence not searchable. In order to index your website, need to 
 
 1. set up a `sitemap` for your website, and 
-2. submit it to Google Search Engine.
+2. submit it to [Google Search Engine](https://search.google.com/search-console/about).
 
 `sitemap` address: <https://my1396.github.io/sitemap.xml>
 

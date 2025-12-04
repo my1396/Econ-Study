@@ -1123,8 +1123,8 @@ Han er flink i matematikk. → He is good at math.
 |--------------------|-------------------------------|
 | være hjelp til / være til hjelp | be of help       |
 | være til nytte     | be of use                     |
-| føre til           | lead to                       |
-| passe (til)        | match, suit                   |
+| å føre til         | lead to                       |
+| å passe (til)      | match, suit                   |
 
 
 **å passe** can be used together with different prepositions:
@@ -1137,7 +1137,7 @@ Han er flink i matematikk. → He is good at math.
 > «Å passe på» can mean "look after / take care of sth/sb".
 
 
-- å passe til noe/nogen = to suit, to match
+- «å passe til noe(n)» = to suit, to match
   
   Kjolen passer til henne. → The dress suits her.
 
@@ -1155,7 +1155,7 @@ Han er flink i matematikk. → He is good at math.
      Pass for bussen! → Watch out for the bus!  
      Pass for hunden! → Watch out for the dog!
 
-- å passe på noe/noen 
+- «å passe på noe(n)» 
 
   1. to suit / be ok for sth/sb
   
@@ -1165,7 +1165,7 @@ Han er flink i matematikk. → He is good at math.
 
      Kan du passe barna mens jeg handler? → Can you take care of the kids while I shop?
 
-- å passe noen 
+- «å passe noen»
 
   1. to look after sb
   
