@@ -13,7 +13,7 @@ Reserve the following urls to
 
 Nice personal website template from a professor: <https://ryancordell.org>
 
-
+## Google Indexing
 
 **Make your site and pages appear on Google Search result**
 
@@ -87,9 +87,15 @@ Now, commit the changes and hit the URL `yourwebsite.com/sitemap.xml`. You shoul
 </urlset>
 ```
 
+After you have created the `sitemap.xml` file, you can submit it to Google Search Console.
 
+I takes 2 days to a week for Google to index your site after you submit the sitemap. You can check the indexing status on Google Search Console.
 
+Timeline:
 
+- 25-12-04: submitted sitemap to Google Search Console.
+
+--------------------------------------------------------------------------------
 
 **Discovered but not indexed**
 
@@ -101,8 +107,10 @@ Why can I do to speed up indexing?
 - build backlinks to your repository from other reputable websites.
 
 
+--------------------------------------------------------------------------------
 
-**Google Analytics** (GA)
+
+## Google Analytics (GA)
 
 1. create a account and a property.
 

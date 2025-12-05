@@ -17,6 +17,8 @@ Her er **helsetninger** som er knyttet sammen av en konjunksjon (<span style="co
 
 Helsetninger are independent clauses. They are complete sentences that can stand alone. Connected by <span style="color: #00CC66;">coordinating conjunctions</span>.
 
+并列句由并列连词连接，分句可以独立成句。
+
 Her er en helsetning som inneholder en leddsetning:
 
 - Vi kan gå på tur hvis været blir bedre.
@@ -46,6 +48,8 @@ E.g.: Hvis vi er syk, må vi holde senga og vi kan ikke jobbe. **→** husk: nor
 **Clauses**
 
 Leddsetninger kan ikke stå alene. De må være del av en helsetning. De starter med en subjunksjon (subordinating conjunctions).
+
+从句必须依附于主句，不能单独成句。
 
 Her er noen **viktige subjunksjoner**:
 

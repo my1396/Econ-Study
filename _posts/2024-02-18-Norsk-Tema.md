@@ -992,7 +992,9 @@ utenlands: foreign, international 国外 (utenfor hjemmelandet)
 
 matvane 饮食习惯
 
-vegetarianer 素食者
+<span style="color: #00CC66;">«vegetarianer»</span> [vegətaria:´nər] eller «vegetar» [vegetˈar] 素食者
+
+uten kjøtt
 
 --------------------------------------------------------------------------------
 
@@ -1118,7 +1120,7 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 | fedme / overvekt                                           | obesity                    |
 | ernæring / næring                                          | nutrition                  |
 
-ernæring 注意与 erfaring 区分
+er<span style="color: #00CC66;">nær</span>ing 注意与 er<span style="color: #00CC66;">far</span>ing 区分
 
 - ernæring = nutrition 营养
 - erfaring = experience 经验
@@ -1209,7 +1211,7 @@ Mindre sannsynlighet for fedme; [mindre sjanse for å bli fet]
 - være fornøyd med seg selv → be satisfied with oneself 
 
 - å hold seg i form uten å bli besatt av kroppsbilde   
-  → stay in shape without becoming obsessed with body image
+- → stay in shape without becoming obsessed with body image
 
 - Jeg vil si at det handler om å finne en balanse mellom å ta vare på helsen sin og å nyte livet. → I would say that it is about finding a balance between taking care of one's health and enjoying life.
 

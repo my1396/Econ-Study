@@ -203,18 +203,20 @@ Which one is correct?
 
 De fleste adjektiv slutter på **‑t** når de beskriver *substantiv i ubestemt form intetkjønn* og **‑e** når de beskriver *substantiv i ubestemt form flertall*. Adjektivet kan stå før substantivet, eller etter **være**/**bli**.
 
-- 形容词 + 名词结构 (定语形容词)
-  - 非特指的情况下，形容词需要在 gender 和 number 上匹配。
+- 形容词 + 名词结构 (<span style="color: #00CC66;">定语形容词</span>) → <span style="color: #00CC66;">先判断特指，再判断性数。</span>
   - 特指的情况下 (prefixed by den/det/de)，形容词一律用特指 definite form。
+    
+    特指形变同复数形变，一律加 -e。且前面要要根据性数加定冠词 den/det/de。 [↩︎](#definite-adjective)
+  - 非特指的情况下，形容词需要在 gender 和 number 上匹配。
 
-- være / bli + 形容词结构 (表语形容词)，即使主语为特指的情况下，形容词用 indefinite form, 根据 gender 和 number 变格。
+- være / bli + 形容词结构 (<span style="color: #00CC66;">表语形容词</span>)，即使主语为特指的情况下，形容词用 indefinite form, 根据 gender 和 number 变格。→ <span style="color: #00CC66;">只有性数变化，无特指变化。</span>
 
-|         | Attributiv: adjektiv før substantivet<br />定语形容词 | Predikativ: adjektiv sammen med være/bli<br />表语形容词 |
-| ------------------------- | ---------------------------- | ----------------- |
-| Substantiv i *hankjønn*   | en dyr bil; en pen kjole | Bilen *er* dyr.    |
-| Substantiv i *hunkjønn*   | ei dyr seng       | Senga *er* dyr.    |
-| Substantiv i *intetkjønn* | et dyr**t** bord  | Bordet *er* dyr**t**.     |
-| Substantiv i *flertall*   | dyr**e** biler/senger/bord      | Bilene/Sengene/Bordene *er*dyr**e**.  |
+|  | Attributiv: adjektiv før substantivet<br />定语形容词 | Predikativ: adjektiv sammen med være/bli<br />表语形容词 |
+| ----------------------- | ---------------------------- | ----------------- |
+| *entall* i *hankjønn*   | en dyr bil; en pen kjole | Bilen *er* dyr.    |
+| *entall* i *hunkjønn*   | ei dyr seng       | Senga *er* dyr.           |
+| *entall* i *intetkjønn* | et dyr**t** bord  | Bordet *er* dyr**t**.     |
+| *flertall*   | dyr**e** biler/senger/bord   | Bilene/Sengene/Bordene *er* dyr**e**. |
 
 **Flere intetkjønns-eksempler**
 
@@ -307,22 +309,32 @@ alle + indefinite plural nouns: general things
 
 Når substantivet står i bestemt form, legger vi til *bestemt artikkel* (定冠词 the) og **‑e** på adjektivet.
 
+<a id="definite-adjective"></a>
 名词特指的情况下，从后往前推进：
 
-1. 名词加后缀 «-en/-et»，叫做 "articles in relation to nouns".
+1. 名词加后缀 «-en/-et/-ene»，叫做 "articles in relation to nouns".
 
 2. 如果有形容词修饰，那么形容词一律用特指 definite form。
 
    <span style='color:#00CC66'>形容词的 definite form 和 plural form 是一样的。</span>
 
 3. 并且根据性别 (Masc./Fem./Neut.) 和数量 (Singular/Plural)，前面要加 den/det/de，叫做 "articles in relation to adjectives"
+   
+   复数用 de，单数用 den/det。Masc./Fem. 用 den，Neut. 用 det。
+
+   ```
+   ├── fleretall → de
+   └── entall
+       ├── hankjønn / hunkjønn → den
+       └── intetkjønn → det
+   ```
 
 |                           | **Bestemt form, attributiv**           |
 | ------------------------- | -------------------------------------- |
-| Substantiv i *hankjønn*   | **den** dyr**e** bilen                 |
-| Substantiv i *hunkjønn*   | **den** dyr**e** senga                 |
-| Substantiv i *intetkjønn* | **det** dyr**e** bordet                |
-| Substantiv i *flertall*   | **de** dyr**e** bilene/sengene/bordene |
+| *entall* i *hankjønn*     | **den** dyr**e** bilen                 |
+| *entall* i *hunkjønn*     | **den** dyr**e** senga                 |
+| *entall* i *intetkjønn*   | **det** dyr**e** bordet                |
+| *flertall*                | **de** dyr**e** bilene/sengene/bordene |
 
 
 **Mer Intetkjønn Eksempler**
@@ -338,10 +350,10 @@ Når substantivet står i bestemt form, legger vi til *bestemt artikkel* (定冠
 
 | Form                              | Example                                 |
 | --------------------------------- | --------------------------------------- |
-| **masculine / feminine singular** | en *lik* situasjon, ei *lik* behandling |
-| **neuter singular**               | et *likt* tilfelle (a similar case)     |
-| **plural**                        | *like* regler                           |
-| **definite (all genders)**        | den *like* saken, de *like* sakene      |
+| **Indef.: Masc./Fem. singular**   | en *lik* situasjon; ei *lik* behandling |
+| **Indef.: Neut. singular**        | et *likt* tilfelle (a similar case)     |
+| **Indef.: Plural**                | *like* regler                           |
+| **Definite (all genders)**        | den *like* saken; de *like* sakene      |
 
 **Tips:**
 
@@ -371,7 +383,7 @@ IKKE: ~~Bilen er dyre.~~ ❌
 
 Bilen er dyr. ✅ (The car is expensive)
 
-**形容词作为<span style='color:#00CC66'>表语</span>**<span style='color:#FF9900'>不用 definite form (特指)</span>，但是需要<span style='color:#00CC66'>根据性别和数量变格</span>。
+**形容词作为<span style='color:#00CC66'>表语</span>**<span style='color:#FF9900'>: 不用 definite form (特指)</span>，但是需要<span style='color:#00CC66'>根据性别和数量变格</span>。
 
 <table>
   <tr>
@@ -462,7 +474,7 @@ andre mulighet → second opportunity
 
 <table>
     <tr>
-      <td><em>i</em> venter/sommer</td>
+      <td><em>i</em> vinter/sommer</td>
         <td>this winter/summer</td>
     </tr>
     <tr>
@@ -1546,6 +1558,16 @@ Du må minne meg på at vi skal bort.
 
 --------------------------------------------------------------------------------
 
+**å vente** 
+
+- å vente på noe(n) = wait for sth/sb
+- å venten (+ på noe) i + tidsperiode = wait for sb/sth for some time
+  
+  Jeg har ventet på bussen i en time.  
+  → I have waited for the bus for an hour.
+
+--------------------------------------------------------------------------------
+
 ### med
 
 | Norsk                | English             |
@@ -1909,57 +1931,6 @@ ref:
 
 --------------------------------------------------------------------------------
 
-
-## Synonyms
-
-**inneholde vs. inkludere**
-
-- inneholde = to contain, to comprise (inside);
-  
-  Denne retten *inneholder* nøtter.  
-  Boken *inneholder* mange kapitler.
-
-  innhold n. content; table of contents
-
-- inkludere = to include (as part of a whole);
-  
-  Prisen *inkluderer* frokost.  
-  Måltidet *inkluderer* dessert.
-
-**fersk vs. frisk**
-
-- fersk = fresh (food, produce); 东西新鲜
-  
-  Jeg kjøpte *fersk* brød i dag.  
-  Fisken er *fersk*.
-
-- frisk = fresh (air, water); healthy; 
-  
-  1. frisk + været / friluftsliv
-    
-     - Jeg trenger å få litt *frisk* luft.  
-       → I need to get some fresh air.
-     - Det blåser *frisk* ute.  
-       → It is blowing heavily outside.
-     - Værmeldingen sa at det skal bli *frisk* bris i morgen.  
-       → The weather forecast said there will be a fresh breeze tomorrow.
-  2. frisk + person / kropp / sinn: ikke syk
-     
-     - Jeg føler meg *frisk* igjen, så nå kan jeg jobbe.  
-       → I feel healthy again, so now I can work.
-     - Hun er alltid så *frisk* og opplagt om morgenen.  
-       → She is always so fresh and alert in the morning.
-
-Note that **fersk** og **frisk** får **-t** i *intetkjønn* selv om de slutter på **-sk**.
-
-| Gender / Number | fersk               | frisk           |
-| --------------- | ------------------- | --------------- |
-| Hankjønn        | en fersk appelsinen | en frisk mann   |
-| Hunkjønn        | ei fersk suppe      | ei frisk jente  |
-| Intetkjønn      | et fersk<span style="color: #00CC66;">t</span> brødet    | et frisk<span style="color: #00CC66;">t</span> pust  |
-| Flertall        | ferske grønnsaker   | friske blomster |
-
---------------------------------------------------------------------------------
 
 ## Nyttige Ressurer
 

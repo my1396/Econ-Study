@@ -1300,12 +1300,13 @@ befolkningen (population)
 - Jeg er *for så vidt* enig. / Jeg er enig *til en viss grad*.   
   → I agree to some extent.
 
-- Det stemmer for så vidt.   
+- Det stemmer *for så vidt*.   
   → That is true to some extent.
 
-- Jeg skjønner det for så vidt, men jeg er ikke helt enig.   
+- Jeg skjønner det *for så vidt*, men jeg er ikke helt enig.   
   → I understand that to some extent, but I don't completely agree.
 
+  注意 «ikke» 的位置。因为是 由 «men» 连接的 helsetning, 分句正常语序, i.e., 放在动词后面 «er ikke»。
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
@@ -1313,6 +1314,10 @@ befolkningen (population)
 | i stor grad                            | to a large extent                  |
 | i høy grad                             | to a high extent                   |
 | i betydelig grad                       | to a significant extent            |
+| i <span style="color: #00CC66;">ulik</span> grad | to varying degrees     |
+
+按照语法规则，«ulik» 作为形容词，需与 «grad» 性数一致，理论上应该用复数形式 «ulike»。但此处固定搭配，«i ulik grad» 固定使用单数形式。
+
 
 
 --------------------------------------------------------------------------------
