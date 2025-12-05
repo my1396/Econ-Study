@@ -967,9 +967,8 @@ ___
 | å unngå / redusere utslipp             | to avoid/ reduce emissions         |
 | naturvern                              | nature conservation 自然保护       |
 | økonomisk vekst                        | economic growth 经济增长           |
-| <span style="color: #00CC66;">klimaanlegg</span> | air conditioning 空调  |
 | forurensning                           | pollution 污染                     |
-
+| <span style="color: #00CC66;">klimaanlegg</span> | air conditioning 空调  |
 
 
 Vi kan <span style='color:#00CC66'>forbrede miljøet ved å</span> ... → We can improve the environment by ...
@@ -1224,12 +1223,17 @@ Mat med lang holdbarhet. → Food with a long shelf life.
 
 Langvarig mat inneholder vanligvis mange <span style="color: #00CC66;">tilsetningsstoffer</span> som ikke er sunne. → Long-lasting food usually contains many additives that are not healthy.
 
-fryst mat → frozen food  
-mer prosessert mat → more processed food
+fryst mat → frozen food (forsne pizzaer, mikrobølgovn-måltider)  
+mer prosessert mat → more processed food  
+høyt prosessert mat → highly processed food (kake; godteri; potetgull; )
 
 å prosessere [prosesˈere], prosesserer, prosesserte, har prosessert → to process
 
+Prosessert mat har ofte lengre holdbarhet enn fersk mat. → Processed food often has a longer shelf life than fresh food.
 
+De inneholder konserveringsmidler og andre tilsetningsstoffer for å forlenge holdbarheten. → They contain preservatives and other additives to extend shelf life.
+
+Det er ikke like sunt å spiser høyt prosessert mat som fersk mat. → It is not as healthy to eat highly processed food as fresh food. 
 
 --------------------------------------------------------------------------------
 
@@ -1313,6 +1317,8 @@ Transportmidler:
 buss / trikk / t-bane / tog / ferge / fly → bus / tram / subway / train / ferry / airplane
 
 periodekort → season ticket / pass
+
+privatisere → privatize 私有化
 
 **to go / travel from A to B**
 

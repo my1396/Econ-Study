@@ -351,7 +351,7 @@ Use the following **mock exam** to practice before the actual exam:
 
 - *Det er motsatt av hva … ønsker.* → This is the opposite of what … wants.
 
-- Det risikerer at … → It risks that …
+- Det *risikerer* at … → It risks that …
 
   Det risikerer å gjøre noe → It risks of doing sth
 
@@ -375,6 +375,9 @@ Use the following **mock exam** to practice before the actual exam:
 
 - … blir et økende problem i mange land. → … is becoming an increasing problem in many countries.
 
+- Det er *en bekymring* at … → There is concern that …
+  
+  Det er *bekymringsfull* at … → It is worrisome that …
 
 ------
 
@@ -613,9 +616,9 @@ Noe(n) kan virke ..., men ... → … seems … but …
 > Fremdeles; ennå;
 
 
-**anyway** 无论如何
+**Anyway** 无论如何
 
-> i hvert fall; i alle fall; uansett;
+> i hvert fall; i alle fall; uansett; i alle tilfeller; 
 
 
 **In addition** (adding extra info)
@@ -1080,6 +1083,9 @@ myndighetene i forbindelse med bygging av både industri, boliger og veier → t
 
 *like … som …* → as … as …
 
+Det er ikke like sunt å spise prosessert mat som fersk mat.  
+→ It is not as healthy to eat processed food as fresh food.
+
 like høy som broren sin → as tall as …
 
 like vakkert som en profesjonell → as beautiful as a professional
@@ -1488,7 +1494,7 @@ Dette gjelder også i Norge. → This also applies in Norway.
 
 --------------------------------------------------------------------------------
 
-## 原因
+## 原因与结果
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
@@ -1519,7 +1525,7 @@ Ex «som følge av»
 
 
 
-**导致…结果**
+### 导致…结果
 
 et resultat, en <span style='color:#00CC66'>konsekvens</span>,
 
@@ -1548,6 +1554,7 @@ At innbyggene i Norge kan <u>velge fritt</u> (choose freely) blant offentlige el
 
 virkning/effekt → effect, impact
 
+--------------------------------------------------------------------------------
 
 
 **så + adj + at** 从句 
@@ -1557,6 +1564,22 @@ virkning/effekt → effect, impact
 - Lønningene i Norge er <span style='color:#00CC66'>så</span> høye <span style='color:#00CC66'>at</span> det <u>ikke</u> lønner seg å produsere varene her.
 
   注意从句中 ikke 提前
+
+--------------------------------------------------------------------------------
+
+å **resultere** i noe(n) → to result in sth
+
+å **volde** + skade / sorg / problemer → to cause damage / grief / problems
+
+bøying: å volde, volder, voldte, har voldt
+
+- Den nye loven kan *volde* store problemer for små bedrifter.  
+  → The new law can cause big problems for small businesses.
+- Uforsiktig kjøring kan *volde* alvorlig skade.  
+  → Careless driving can cause serious damage.
+- Hendelsen *voldte* stor sorg i familien.  
+  → The incident caused great grief in the family.
+
 
 --------------------------------------------------------------------------------
 
@@ -1602,6 +1625,12 @@ Hun kommer til å lykkes, uansett om andre tviler på henne.
 Prosjektet fortsetter uavhengig av om noen er enige eller ikke.
 
 Alle skal ha rett til utdanning, uavhengig av om de bor i byen eller på landet.
+
+
+<span style="color: #00CC66;">i alle tilfeller</span> → in any case; regardless
+
+Jeg vet ikke hva som skjer, men i alle tilfeller må vi være forberedt.  
+→ I don't know what will happen, but in any case we must be prepared.
 
 --------------------------------------------------------------------------------
 

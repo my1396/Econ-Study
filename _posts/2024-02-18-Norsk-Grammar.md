@@ -607,9 +607,21 @@ This is similar to <span style="color: #00CC66;">possessive pronouns</span> in N
 
 ## Verb + reflexive pronouns
 
+| Norsk           | English                                         |
+| --------------- | ----------------------------------------------- |
+| å glede seg til | to look forward to; to be excited / happy about |
+
+Note that «glede» is both verb and noun form.
+
+- Jeg gleder meg til ferien.  
+  → I look forward to the vacation.
+- Jeg gleder meg til å reise til Norge.  
+  → I look forward to traveling to Norway.
+- Gleden ved å lære norsk er stor. ["Gleden" as noun]  
+  → The joy of learning Norwegian is great.
+
 | Verb                | Meaning               | Example                              |
 | ------------------- | --------------------- | ------------------------------------ |
-| å glede seg         | to look forward to    | Jeg gleder meg til ferien.           |
 | å kose seg          | to have a good time   | Vi koser oss på festen.              |
 | å legge seg         | to go to bed          | Han legger seg tidlig.               |
 | å passe seg         | to take care of       | Du må passe deg.                     |
@@ -622,11 +634,19 @@ This is similar to <span style="color: #00CC66;">possessive pronouns</span> in N
 Alkohol hjelper folk å åpne seg. → Alcohol helps people to open up.
 
 
-| Verb            | Meaning          | Example                            |
-| --------------- | ---------------- | ---------------------------------- |
-| å tilpasse seg  | to adapt oneself | De må tilpasse seg de nye reglene. |
+| Verb            | Meaning           | Example                            |
+| --------------- | ----------------- | ---------------------------------- |
+| å tilpasse seg  | to adapt oneself  | De må tilpasse seg de nye reglene. |
+| å samle seg     | to gather together; <br/> pull oneself together / remain concentrated or calm | Han samlet seg før talen. |
 
+Hun tok et dypt pust for å samle seg. → She took a deep breath to pull herself together.
 
+Familien samlet seg rundt bordet. → The family gathered together around the table.
+
+**å samle noe** → to collect things
+
+Det er en bekymring at nettsider samler personlige data uten samtykke.  
+→ There is concern that websites collect personal data without consent.
 
 --------------------------------------------------------------------------------
 
@@ -1325,9 +1345,17 @@ Har du noe kjennskap til dette? → Do you know anything about this?
 
   - hus / hjemme 相关
     
-    på kjøkkenet / badet / soverommet / stua [-et 用 «på»]
+    <span style="color: #00CC66;">på</span> kjøkkenet / badet / soverommet  [<span style="color: #00CC66;">-et 用 «på»</span>]
 
-    i hagen / garasjen / kjelleren / loftet / boden / gangen / balkongen [-en / -ei 用 «i»]
+    Jeg lager middag på kjøkkenet. → I am making dinner in the kitchen.
+    
+    Jeg sover på soverommet. → I am sleeping in the bedroom.
+
+    Det ligger klær på soverommet.  → There are clothes lying in the bedroom.
+
+    <span style="color: #00CC66;">i</span> hagen / garasjen / kjelleren / stua / loftet / boden / gangen / balkongen [<span style="color: #00CC66;">-en / -ei 用 «i»</span>]
+
+    Jeg slapper av i stua. → I am relaxing in the living room.
 
 --------------------------------------------------------------------------------
 
@@ -1631,6 +1659,7 @@ Han skal være der til og med søndag.
 Kan du hjelpe meg med dette?  
 → Can you help me with this?
 
+--------------------------------------------------------------------------------
 
 ### om
 
@@ -1647,6 +1676,8 @@ snakke med noen om noe = talk with sb about sth
 Hvem snakker du med om dette?  
 → Who are you talking with about this?
 
+--------------------------------------------------------------------------------
+
 ### etter
 
 | Norsk           | English                 |
@@ -1662,6 +1693,8 @@ Jeg lengter etter sommeren.
 
 Jeg ser etter nøklene mine.  
 → I am looking for my keys.
+
+--------------------------------------------------------------------------------
 
 ### for
 
