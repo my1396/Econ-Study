@@ -1115,7 +1115,8 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 | Norsk                                                      | English                    |
 | ---------------------------------------------------------- | -------------------------- |
 | hals                                                       | throat                     |
-| forkjølelse                                                | cold                       |
+| <a href="#cold">forkjølelse</A>                            | cold                       |
+| hodepine                                                   | headache                   |
 | fedme / overvekt                                           | obesity                    |
 | ernæring / næring                                          | nutrition                  |
 
@@ -1282,12 +1283,14 @@ Jeg er takknemlig for at jeg er frisk nok til å leve det livet jeg ønsker. →
 
 --------------------------------------------------------------------------------
 
+<a name="cold"></a>
 **感冒**
 
 noun
 
 - Jeg har fått en forkjølelse. → I have caught a cold.
 - Han er hjemme fra jobb på grunn av forkjølelse. → He is home from work because of a cold.
+- Har du *kommet deg etter* forkjølelsen? → have you recovered from the cold?
 
 verb
 

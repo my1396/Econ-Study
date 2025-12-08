@@ -63,6 +63,12 @@ presens perfektum 现在完成时
 | Han har vasket.   | Han vasker. | Han skal vaske. |
 
 
+**nå vs. når**
+
+- nå = now 表示 <span style="color: #00CC66;">时间点</span>，当下
+
+- når = when 表示 <span style="color: #00CC66;">当…的时候; 如果</span>，用于条件从句; 疑问句中表示 “什么时候”。
+
 
 **Preteritumssystemet**
 
@@ -1502,13 +1508,23 @@ Hva er du sint på?
 → What are you angry about?
 
 
-| Norsk           | English                 |
-|-----------------|-------------------------|
+| Norsk             | English               |
+| ----------------- | --------------------- |
 | gjøre inntrykk på | make an impression on |
-
 
 De sultne barna gjorde sterkt inntrykk på oss.  
 → The hungry children made a deep impression on us.
+
+
+| Norsk               | English          |
+| ------------------- | ---------------- |
+| å trykke på knappen | press the button |
+
+Trykk på knappen for å starte.  
+→ Press the button to start.
+
+Han trykket på den røde knappen.  
+→ He pressed the red button.
 
 
 | Norsk           | English                 |
@@ -1898,7 +1914,7 @@ mindre behov = less need
 | mest folk   | most people  |
 
 
-Det er mye folk nå byen når det <span style="color: #00CC66;">foregår</span> en <span style="color: #00CC66;">fotballkamp</span>.
+Det er mye folk i byen når det <span style="color: #00CC66;">foregår</span> en <span style="color: #00CC66;">fotballkamp</span>.
 
 Det er mye folk i byen når det er fotballkamp.
 
