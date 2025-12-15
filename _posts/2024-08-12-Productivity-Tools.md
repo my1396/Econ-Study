@@ -9,12 +9,13 @@ update: 2024-08-12
 
 ## Notion
 
+[Notion](https://www.notion.com/)
+
+
 Pressing `/` in Notion brings up a full menu of content blocks you can choose to insert. You can shortcut this further by pressing `/` and then typing what you want. 
 
 
-
 How to center text: insert a block equation then use `\text{}`.
-
 
 
 | Shortcut | Function                   |

@@ -129,6 +129,8 @@ $\perp$ uncorrelated
 
 `:=` and $\triangleq$ are used to define a variable.
 
+Unequal signs: $\ne$ (`\ne`), `!=`, or `<>`.
+
 $\nabla:=\begin{pmatrix}\frac{\partial}{\partial x_1} \cr
 \vdots \cr
 \frac{\partial}{\partial x_n} \end{pmatrix}$, called "nabla symbol" or "nabla operator" (`\nabla`), commonly used in vector analysis and multivariate calculus.

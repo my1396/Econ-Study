@@ -559,6 +559,10 @@ Mandatory roadworthiness test (“EU test”)
 
 车检的时候，车要有什么问题不过关，就会限制一定期限修好，然后再车检。
 
+**Price:** 1550 kr as of 2025.
+
+注意: 车送厂车检或者保养都有手续费，如果有什么事情在同期，尽量安排在一起。
+
 > As long as your vehicle passes the test and is approved before the deadline, it is up to you how early you wish to have your vehicle tested. The deadline is final, so you should makes sure you have enough time to take the main test, to fix any defects the test may reveal, and to have the vehicle reinspected and approved.
 
 [Check my DDL](https://www.vegvesen.no/en/vehicles/own-and-maintain/eu-mandatory-roadworthiness-test-eu-test/deadline-roadworthiness-test/?registreringsnummer=YF16565)
@@ -591,6 +595,8 @@ Might as well do the EU-kontroll at Toyota Nordvik AS Bodø where I do the maint
 Nordvik Bodø: Bestill EU-kontroll via [link](https://www.nordvik.no/verksted). Use Chrome browser to open the link. Safari won't allow the pop-up window. [Not sure this works.]
 
 ✅ Call [+ 47 7552 9100](tel:+4775529100) to book the EU-kontroll. 
+
+<img src="https://drive.google.com/thumbnail?id=1ISBOsif4ofvOIzxbQU0KPZ_V_L9WpjZi&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:40%;" />
 
 - Better to arrange the EU-kontroll <span style="color: #00CC66;">three months</span> before the deadline, so you have sufficient time to fix any issues if anything happens. Or sometimes the workshop has a long queue and not easy to book a slot.
 

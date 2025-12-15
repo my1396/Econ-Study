@@ -1980,6 +1980,77 @@ ref:
 
 --------------------------------------------------------------------------------
 
+## Jo
+
+When a question has "ikke" in it (negative questions), the answer can use "jo" to confirm the positive.
+
+- Kommer du ikke på festen? → Jo, jeg gjør det. / Jo, det gjør jeg.  
+  
+  Aren't you coming to the party? → Yes, I am.
+
+- Har du ikke kjøpt billett? → Jo, jeg har det. / Jo, det har jeg.  
+  
+  Haven't you bought a ticket? → Yes, I have.
+
+Negative questions do not always contain "ikke", alternative words like "aldri" (never) or "ingen" (no one) can also create negative questions.
+
+- Har du aldri sett snø før? → Jo, det har jeg. / Jo, jeg har det.  
+  
+  Have you never seen snow before? → Yes, I have.
+
+
+«Jo da.» can be used to soften a negative statement or disagreement.
+
+
+--------------------------------------------------------------------------------
+
+Another use of "jo" is "jo ..., job ..." structure to express a correlation between two clauses, often translated as "the ..., the ...".
+
+
+- Jo mer du øver, jo bedre blir du.  
+  → The more you practice, the better you become.
+- Jo flere, jo dere.  
+  → The more, the merrier.
+
+
+The second «jo» can be replaced with «desto».
+
+- Jo flere, desto bedre.
+- Jo flere kokker, desto mer søl.  
+  → The more chefs, the more mess. [Too many cooks spoil the soup.]
+
+
+--------------------------------------------------------------------------------
+
+«Jo» in the middle of a sentence means that *something is obvious* and *already known* to the person we're talking to. «Jo» adds emphasis to the statement.
+
+- Det skal jo regne.  
+  → It is going to rain (as you know).
+- Han er jo flink i matematikk.  
+  → He is good at math (as you know).
+- Det er jo ikke sikker at alt går etter planen.  
+  → It is not certain that everything will go according to plan (as you know).
+
+
+--------------------------------------------------------------------------------
+
+## Vel
+
+Opposite to «jo», «vel» is used to express uncertainty or dampens the force of a statement, often translated as "I suppose", "I guess", or "probably".
+
+Nå en nordmenn sier noe med «vel» til det, så forventer de at du svarer med hva du mener om det. Du må *ta en stiling* på det de sier.
+
+Q: Vi må vel fyre i peisen.  
+A: Ja, det må vi vel. / Nei, det må vi ikke vel.
+
+
+Q: Du spiser vel ikke frokost, du.  
+A: Jo, det gjør jeg vel. / Nei, jeg har ikke så godt appetitt om morgenen.
+
+
+
+--------------------------------------------------------------------------------
+
 
 ## Nyttige Ressurer
 
