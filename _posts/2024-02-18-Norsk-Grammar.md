@@ -2048,6 +2048,18 @@ Q: Du spiser vel ikke frokost, du.
 A: Jo, det gjør jeg vel. / Nei, jeg har ikke så godt appetitt om morgenen.
 
 
+--------------------------------------------------------------------------------
+
+## Suffix
+
+«-varig» = lasting, -lasting
+
+| Norsk           | English                 |
+|-----------------|-------------------------|
+| kortvarig       | short-lasting           |
+| langvarig       | long-lasting            |
+
+
 
 --------------------------------------------------------------------------------
 

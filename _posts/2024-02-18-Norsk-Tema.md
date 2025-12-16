@@ -71,9 +71,16 @@ alle barn bør vokse opp i trygge og stabile familier
 
 Jeg er født og oppvokst i Kina. → I was born and raised in China.
 
+**problemet vokser** → the problem is growing
+
+Problemet med forurensning har vokst de siste årene.   
+→ The problem of pollution has grown in recent years. 
+
+
+
 å oppdra, oppdrar, oppdro, har oppdratt → to raise, rear, bring up, educate 培养教育(人)
 
-区别于 å dyrke noe → to cultivate sth; to farm sth 种植
+区别于 **å dyrke noe** → to cultivate sth; to farm sth 种植，培育 (农作物)
 
 å dyrke grønnsaker → to grow vegetables 
 
@@ -1145,6 +1152,17 @@ er<span style="color: #00CC66;">nær</span>ing 注意与 er<span style="color: #
 | være til <span style='color:#00CC66'>byrde for</span> noen | be a bother / burden to sb |
 
 en byrde [by`r-də]: burden, load
+
+| Norsk                                                      | English                    |
+| ---------------------------------------------------------- | -------------------------- |
+| restemat                                                   | food leftovers             |
+| søppelbøtte / søppelkasse                                  | trash can / garbage bin    |
+
+søppelbøtte → 家用垃圾箱
+
+søppelkasse → 公共垃圾箱
+
+
 
 **噪音**
 
