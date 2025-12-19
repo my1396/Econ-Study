@@ -17,3 +17,5 @@ group :jekyll_plugins do
 end
 
 gem "webrick", "~> 1.8"
+# Fix forwardable compatibility with Ruby 2.7
+gem 'forwardable', '~> 1.3.0'
