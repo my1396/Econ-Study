@@ -1610,6 +1610,9 @@ A perfect model, which at some threshold has a TPR of 1.0 and a FPR of 0.0, can 
 <figcaption>ROC and AUC of a hypothetical perfect model. Source: <a href="https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc#:~:text=The%20ROC%20curve%20is%20a,holdover%20from%20WWII%20radar%20detection.">Machine Learning, Google for Developers.</a> </figcaption>
 </figure>
 
+- Models with higher AUC are generally better.
+- Models with AUC less than 0.5 are worse than random guessing and should be rejected or reworked.
+
 Toggle thresholds and see how metrics and ROC curve change:
 <https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc#auc_and_roc_for_choosing_model_and_threshold>
 
@@ -1631,9 +1634,11 @@ The points on a ROC curve closest to (0,1) represent a range of the best-perform
 <figcaption>Three labeled points representing thresholds.</figcaption>
 </figure>
 
-If false positives (false alarms) are highly costly, it may make sense to choose a threshold that gives a lower FPR, like the one at point A, even if TPR is reduced. Conversely, if false positives are cheap and false negatives (missed true positives) highly costly, the threshold for point C, which maximizes TPR, may be preferable. If the costs are roughly equivalent, point B may offer the best balance between TPR and FPR.
+- If false positives (false alarms) are highly costly, it may make sense to choose a threshold that gives a lower FPR, like the one at point A, even if TPR is reduced. 
+- Conversely, if false positives are cheap and false negatives (missed true positives) highly costly, the threshold for point C, which maximizes TPR, may be preferable. 
+- If the costs are roughly equivalent, point B may offer the best balance between TPR and FPR.
 
-A concrete example: Imagine a situation where it's better to allow some spam to reach the inbox than to send a business-critical email to the spam folder. You've trained a spam classifier for this situation where the positive class is spam and the negative class is not-spam. In this use case, it's better to minimize false positives, even if true positives also decrease. Choose point A.
+A concrete example: Imagine a situation where it's better to allow some **spam** to reach the inbox than to send a business-critical email to the spam folder. You've trained a spam classifier for this situation where the positive class is spam and the negative class is not-spam. In this use case, it's better to minimize false positives, even if true positives also decrease. Choose **point A**.
 
 
 ___

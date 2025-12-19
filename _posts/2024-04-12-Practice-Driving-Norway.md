@@ -461,7 +461,7 @@ tyre hotel
 Munarvollveien 1, 8020 Bodø
 Tlf. [755 51 050](tel:75551050)
 
-1200 kr per season. 600 kr if only need the changing tyre service.
+1200 kr per season. **600 kr** if only need the changing tyre service.
 
 Per year, 2400 kr.
 
@@ -559,7 +559,7 @@ Mandatory roadworthiness test (“EU test”)
 
 车检的时候，车要有什么问题不过关，就会限制一定期限修好，然后再车检。
 
-**Price:** 1550 kr as of 2025.
+**Price:** <span class="env-green">1550 kr</span> (As of 2025).
 
 注意: 车送厂车检或者保养都有手续费，如果有什么事情在同期，尽量安排在一起。
 
@@ -594,7 +594,7 @@ Might as well do the EU-kontroll at Toyota Nordvik AS Bodø where I do the maint
 
 Nordvik Bodø: Bestill EU-kontroll via [link](https://www.nordvik.no/verksted). Use Chrome browser to open the link. Safari won't allow the pop-up window. [Not sure this works.]
 
-✅ Call [+ 47 7552 9100](tel:+4775529100) to book the EU-kontroll. 
+✅ Call [+ 47 7552 9100](tel:+4775529100) to book the EU-kontroll with Nordvik. 
 
 <img src="https://drive.google.com/thumbnail?id=1ISBOsif4ofvOIzxbQU0KPZ_V_L9WpjZi&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:40%;" />
 

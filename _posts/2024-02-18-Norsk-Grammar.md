@@ -1004,7 +1004,7 @@ Would have done
 
 **主动表被动**
 
-få 见 <a href="{{site.baseurl}}/2024/02/18/Norsk-Liv.html">Norsk Liv Språk</a> 
+få 见 <a href="{{site.baseurl}}/2024/02/18/Norsk-Liv.html#fa">Norsk Liv Språk</a> 
 
 Tillate, tillater, tillot, har tillatt
 
