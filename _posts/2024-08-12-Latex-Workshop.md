@@ -99,9 +99,23 @@ After changing `"latex-workshop.latex.outDir"`, LaTeX Workshop's `"Clean up au
 
 Overleaf Workshop Extension: <https://github.com/iamhyc/overleaf-workshop>
 
-Log in with Cookies
+**Log in with Cookies**
 
 <img src="https://raw.githubusercontent.com/iamhyc/Overleaf-Workshop/master/docs/assets/demo01-login.gif" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+1. Find Overleaf cookies:
+
+   <img src="https://drive.google.com/thumbnail?id=1GMargv1kBL1PgZEeZrn31QZQcDoY-_vE&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+   Go to [Overleaf homepage](https://www.overleaf.com/project) in Chrome > Open the browser developer tools (F12), go to <span class="env-green">"Network"</span> tab > In the Filter field, type "project" > Click the project under "Name" column > Go to <span class="env-green">"Headers"</span> tab > Scroll down to "Request Headers" section > Copy the value of <span class="env-green">"Cookie"</span>.
+
+2. In VS code:
+
+   Go to the Overleaf Workshop extension, click "log in with cookies", paste the cookies you copied from the browser, and click "Log in".
+
+When the login is successful, you will see your Overleaf projects listed in the extension sidebar. And you will see the server status at the bottom left corner of VS Code.
+
+<img src="https://drive.google.com/thumbnail?id=11DjiuuRo0RpFmWOqtQWSxQChnkNlyTRV&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 
 **Highlight features:**
@@ -109,12 +123,51 @@ Log in with Cookies
 - Sync with Overleaf Cloud
   
   User cursor indicator will show your position.
+
 - Chat with Collaborators (copy line reference)
   
   <img src="https://raw.githubusercontent.com/iamhyc/Overleaf-Workshop/master/docs/assets/demo06-chat.gif" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
+- **On-the-fly Compiling and Previewing**
+
+  Real-time PDF preview as you type.
+
+  - Cmd + Option + B (on macOS) to compile, and
+  - Cmd + Option + V to preview 
+
+  The [compiling](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#compile-the-project) is done on Overleaf servers. The pdf output together with all auxiliary files will be in a folder named `/.output/` in your project.
+  
+  Your lock latex compiler, such as Latex Workshop, <span class="env-orange">won't</span> work here.
+
+**Caveats:**
+
+- Do <span class="env-orange">NOT</span> use the Overleaf Workshop "Open Projects Locally" feature. 
+  
+  ❗️ Using a local version leads to major issues, including edit conflicts and data loss. See this [GitHub issue](https://github.com/iamhyc/Overleaf-Workshop/issues/180).
+
+--------------------------------------------------------------------------------
+
+Overleaf pdf viewer supports three **themes**: `default` (white), `light` (warm yellow, easy on eyes 👍), and `dark`. You can change the theme via clicking the theme button (the square) on the title bar in the Overleaf PDF viewer.  
+P.S. If you cannot see the theme button, please make sure the PDF viewer is wide enough.
+
+<img src="https://drive.google.com/thumbnail?id=1dJ3METG2LREwSDj3w4rLzj2vARE-RVg4&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+--------------------------------------------------------------------------------
+
+**SyncTeX and Reverse SyncTeX**
+
+The SyncTeX and Reverse SyncTeX are supported in the Overleaf PDF viewer.
+
+-   **SyncTeX, Jump to PDF**: put your cursor in the expected position in the document editor, then press `Ctrl`+`Alt`+`J` to jump to the corresponding position in the PDF.
+    
+    On Mac, use `Cmd`+`Option`+`J`.
+
+-   **Reverse SyncTeX, Jump to Code**: double click on the text on PDF to jump to the corresponding position in the editor.
 
 
-Caveats:
+Q: Editor stops responding when compiling tex for preview.   
+A: Disable auto build on save. This way, you can have a smooth editing experience and only compile when you need to preview. Use `⌥`+`⌘`+`B` to compile when needed.
 
-- Do not use the Overleaf Workshop "Open Projects Locally" feature. Using a local version leads to major issues, including edit conflicts and data loss. See this [GitHub issue](https://github.com/iamhyc/Overleaf-Workshop/issues/180).
+```json
+"overleaf-workshop.compileOnSave.enabled": false
+```
