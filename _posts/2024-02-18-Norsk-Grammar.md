@@ -322,7 +322,9 @@ Når substantivet står i bestemt form, legger vi til *bestemt artikkel* (定冠
 
 2. 如果有形容词修饰，那么形容词一律用特指 definite form。
 
-   <span style='color:#00CC66'>形容词的 definite form 和 plural form 是一样的。</span>
+   一般来说，<span style='color:#00CC66'>形容词的 definite form 和 plural form 是一样的。</span>
+
+   也有例外，比如 liten 复数形式为 små, 但特指形式为 lille。
 
 3. 并且根据性别 (Masc./Fem./Neut.) 和数量 (Singular/Plural)，前面要加 den/det/de，叫做 "articles in relation to adjectives"
    
@@ -370,8 +372,9 @@ Når substantivet står i bestemt form, legger vi til *bestemt artikkel* (定冠
 | --------- | ----- | ------------- | ------------------------------------------------------------ |
 | Masculine | liten | en liten gut  | den lille gutt<span style='color:#00CC66'>en</span> (the small boy) |
 | Feminine  | lita  | ei lita jente | den lille jent<span style='color:#00CC66'>a</span>           |
-| Neuter    | lite  | et lite hus   | den lille hus<span style='color:#00CC66'>et</span>           |
+| Neuter    | lite  | et lite hus; et lite barn;   | det lille hus<span style='color:#00CC66'>et</span>; det lille barnet           |
 | Plural    | små   | små barn      | de små barn<span style='color:#00CC66'>a</span>              |
+| Definite  | lille | den lille bilen; de små bilene | |
 
 In **everyday Bokmål**, many people skip the feminine forms (*ei lita bok* → *en liten bok*).
 
@@ -653,6 +656,13 @@ Familien samlet seg rundt bordet. → The family gathered together around the ta
 
 Det er en bekymring at nettsider samler personlige data uten samtykke.  
 → There is concern that websites collect personal data without consent.
+
+
+| Verb            | Meaning           | Example                            |
+| --------------- | ----------------- | ---------------------------------- |
+| å skaffe seg    | to get / obtain   | Han skaffer seg en ny jobb.        |
+| å reise seg     | to get up / stand up | Vennene reiste seg for å hilse på ham. |
+
 
 --------------------------------------------------------------------------------
 

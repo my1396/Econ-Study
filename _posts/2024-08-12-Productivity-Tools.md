@@ -801,60 +801,9 @@ ___
 
 ### LaTeX-Workshop
 
-Snippets: <https://github.com/James-Yu/LaTeX-Workshop/wiki/Snippets#Handy-mathematical-snippets>
+Refer to <a href="{{site.baseurl}}/2024/08/12/Latex-Workshop.html">LaTeX workshop</a>.
 
-The following works in `markdown` inside math environment
-
-| Prefix | Command |
-| ------ | ------- |
-| `__`   | `_{$1}` |
-| `**`   | `^{$1}` |
-| `...`  | `\dots` |
-
-Environment snippets works directly in `tex`, you type `B`, a drop-down list will show up for you to choose.
-
-- The prefixes start with `B` and are followed by an abbreviation of the environment name.
-- The unnumbered versions of the environments are prefixed with `BS`, e.g., `BSEQ` for `equation*`.
-- In `tex`, these cmds work in both math and text environments.
-- However, it is more restrictive in markdown, where these cmds work only inside math environments (`$...$`)
-
-
-
-| Prefix                                | Environment name |
-| ------------------------------------- | ---------------- |
-| <span class="env-green">`BEQ`</span>  | `equation`       |
-| `BSEQ`                                | `equation*`      |
-| `BAL`                                 | `align`          |
-| `BSAL`                                | `align*`         |
-| `BGA`                                 | `gather`         |
-| `BSGA`                                | `gather*`        |
-| `BMU`                                 | `multline`       |
-| `BSMU`                                | `multline*`      |
-| `BIT`                                 | `itemize`        |
-| `BEN`                                 | `enumerate`      |
-| <span class="env-green">`BSPL`</span> | `split`          |
-| `BCAS`                                | `cases`          |
-| `BFR`                                 | `frame`          |
-| `BFI`                                 | `figure`         |
-| `BTA`                                 | `table`          |
-
-
-
-[`@` suggestsion](https://github.com/James-Yu/latex-workshop/wiki/Intellisense#-suggestions)
-
-LaTeX-Workshop provides an independent intellisense mechanism triggered by `@`. For example, you can type `@a` for `\alpha`. It works for most Greeks and have some useful mathematical helpers.
-
-| Prefix | Command               |
-| ------ | --------------------- |
-| `@(`   | `\left( $1 \right)`   |
-| `@{`   | `\left\{ $1 \right\}` |
-| `@[`   | `\left[ $1 \right]`   |
-| `@^`   | `\Hat{$1}`            |
-| `@_`   | `\bar{$1}`            |
-
-
-
-___
+--------------------------------------------------------------------------------
 
 ### Code Spell Checker
 
@@ -1081,6 +1030,8 @@ Explain different modes of Github Copilot:
 
 Q: How to disable inline blame? \
 A: Open Settings and type `GitLens: Current Line`, uncheck the `Enabled` box.
+
+[Turn off git blame timeline](https://stackoverflow.com/questions/65004430/why-does-the-git-blame-timeline-sometimes-appear-in-vscode-and-how-do-i-hide)
 
 <figure style="text-align: center;">
 <img src="https://drive.google.com/thumbnail?id=11Zo0Tm1qlWhVc-dWz_neeMlemjFY6t_V&sz=w1000" alt="gitlens" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />

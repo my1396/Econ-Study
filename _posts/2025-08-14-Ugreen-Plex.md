@@ -7,6 +7,18 @@ update: 2025-10-24
 
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
+视频资源中心
+
+**Useful repos:**
+
+- [磁力熊](https://www.cilixiong.org)
+- [YTS](https://yts.unblockninja.com)
+- [1337x](https://www.1337x.to/home/)
+- [EXT Torrents](https://ext.to)
+  
+  [GitHub](https://github.com/ext-torrents/ext-torrents.github.io?tab=readme-ov-file)
+
+
 Q: 如何在电视上观看 NAS 里的影片？
 
 A: 最简单方式是使用 DLNA (Digital Living Network Alliance，数字生活网络联盟)。在 NAS 上开启 DLNA 功能后，支持 DLNA 的设备（如电视、电脑、电视盒等）在局域网内可访问NAS设备上的媒体文件（如音乐、视频、图片等文件数据）。

@@ -7,10 +7,77 @@ update: 2025-08-01
 
 Latex-Workshop GitHub: <https://github.com/James-Yu/LaTeX-Workshop/wiki/Install#usage>
 
-Configure LateX Workshop by Paul Wintz: <https://paulwintz.com/latex-in-vscode/>
+Configure LateX Workshop by Paul Wintz: <https://paulwintz.com/latex-in-vscode/> 👍
 
 Integrating Overleaf with VS Code: <https://www.youtube.com/watch?v=SaMRCYbsAek>
 
+Snippets: <https://github.com/James-Yu/LaTeX-Workshop/wiki/Snippets#Handy-mathematical-snippets>
+
+
+**Aesthetic themes** for LaTeX Workshop PDF viewer:
+
+```json
+"latex-workshop.view.pdf.color.dark.backgroundColor": "#F5F5DC",
+"latex-workshop.view.pdf.color.dark.pageColorsBackground": "#F5F5DC",
+```
+
+This changes the background color and the spacing btw pages in the PDF viewer to beige in dark mode, which is easier on the eyes.
+
+By default, LaTeX Workshop auto builds the pdf on every save. This can be too frequent and distracting.
+I set `"files.autoSave": "onFocusChange"` so that the pdf only rebuilds when I switch away from the tex file, not on every keystroke.
+
+The following works in `markdown` inside math environment
+
+| Prefix | Command |
+| ------ | ------- |
+| `__`   | `_{$1}` |
+| `**`   | `^{$1}` |
+| `...`  | `\dots` |
+
+Environment snippets works directly in `tex`, you type `B`, a drop-down list will show up for you to choose.
+
+- The prefixes start with `B` and are followed by an abbreviation of the environment name.
+- The unnumbered versions of the environments are prefixed with `BS`, e.g., `BSEQ` for `equation*`.
+- In `tex`, these cmds work in both math and text environments.
+- However, it is more restrictive in markdown, where these cmds work only inside math environments (`$...$`)
+
+
+
+| Prefix                                | Environment name |
+| ------------------------------------- | ---------------- |
+| <span class="env-green">`BEQ`</span>  | `equation`       |
+| `BSEQ`                                | `equation*`      |
+| `BAL`                                 | `align`          |
+| `BSAL`                                | `align*`         |
+| `BGA`                                 | `gather`         |
+| `BSGA`                                | `gather*`        |
+| `BMU`                                 | `multline`       |
+| `BSMU`                                | `multline*`      |
+| `BIT`                                 | `itemize`        |
+| `BEN`                                 | `enumerate`      |
+| <span class="env-green">`BSPL`</span> | `split`          |
+| `BCAS`                                | `cases`          |
+| `BFR`                                 | `frame`          |
+| `BFI`                                 | `figure`         |
+| `BTA`                                 | `table`          |
+
+
+
+[`@` suggestsion](https://github.com/James-Yu/latex-workshop/wiki/Intellisense#-suggestions)
+
+LaTeX-Workshop provides an independent intellisense mechanism triggered by `@`. For example, you can type `@a` for `\alpha`. It works for most Greeks and have some useful mathematical helpers.
+
+| Prefix | Command               |
+| ------ | --------------------- |
+| `@(`   | `\left( $1 \right)`   |
+| `@{`   | `\left\{ $1 \right\}` |
+| `@[`   | `\left[ $1 \right]`   |
+| `@^`   | `\Hat{$1}`            |
+| `@_`   | `\bar{$1}`            |
+
+
+
+___
 
 ## Build the document
 
@@ -99,6 +166,10 @@ After changing `"latex-workshop.latex.outDir"`, LaTeX Workshop's `"Clean up au
 
 Overleaf Workshop Extension: <https://github.com/iamhyc/overleaf-workshop>
 
+Overleaf is nice for collaboration, but you will loss the LaTeX Workshop features. E.g., snippets, better synctex (with highlighter of precise location), etc.
+
+A workaround is to use [GitHub integration](https://docs.overleaf.com/integrations-and-add-ons/git-integration-and-github-synchronization/git-integration) to sync Overleaf projects to your computer. Using Git incurs some overhead with pushing, pushing, and (possibly) merging, but it may be worth the upsides of editing Overleaf documents with the exact same tools as any of your local LaTeX documents.
+
 **Log in with Cookies**
 
 <img src="https://raw.githubusercontent.com/iamhyc/Overleaf-Workshop/master/docs/assets/demo01-login.gif" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
@@ -158,11 +229,25 @@ P.S. If you cannot see the theme button, please make sure the PDF viewer is wide
 
 The SyncTeX and Reverse SyncTeX are supported in the Overleaf PDF viewer.
 
--   **SyncTeX, Jump to PDF**: put your cursor in the expected position in the document editor, then press `Ctrl`+`Alt`+`J` to jump to the corresponding position in the PDF.
+-   **SyncTeX, Jump to PDF**: Also called forward sync. 
     
-    On Mac, use `Cmd`+`Option`+`J`.
+    Put your cursor in the expected position in the document editor, then press `Cmd`+`Option`+`J` (Mac) to jump to the corresponding position in the PDF.
 
--   **Reverse SyncTeX, Jump to Code**: double click on the text on PDF to jump to the corresponding position in the editor.
+    At first the keybinding did not work for me. To fix it, I need to change the `when` condition of the command `overleaf-workshop.compileManager.syncCode`.
+
+    Open Keyboard Shortcuts (`⌘`+`K`, `⌘`+`S`), search for `overleaf-workshop.compileManager.syncCode`. Right click the command, select `Change When Expression`, and change it to: "editorTextFocus && resourceScheme == 'overleaf-workshop'".
+
+    The final keybinding looks like this:
+    
+    ```json
+    {
+      "key": "alt+cmd+j",
+      "command": "overleaf-workshop.compileManager.syncCode",
+      "when": "editorTextFocus && resourceScheme == 'overleaf-workshop'"
+    }
+    ```
+
+-   **Reverse SyncTeX, Jump to Code**: backward sync. Double click on the text on PDF to jump to the corresponding position in the editor.
 
 
 Q: Editor stops responding when compiling tex for preview.   
@@ -171,3 +256,42 @@ A: Disable auto build on save. This way, you can have a smooth editing experienc
 ```json
 "overleaf-workshop.compileOnSave.enabled": false
 ```
+
+### GitHub Integration
+
+Left side bar > Integrations <i class="bi bi-file-code-fill" style="font-size: 1.5em"></i> > GitHub <i class="fa-brands fa-github" style="font-size: 1.5em"></i>
+
+This will create a GitHub repository and link it to your Overleaf project. You can then clone the repository to your local machine and use Git to sync changes between your local machine and Overleaf.
+
+**Cloning the repository to your computer**
+
+1. On GitHub, navigate to the main page of the repository.
+2. Click the green  **<i class="bi bi-code"></i> Code** button > Copy the URL for the repository.
+3. Open Terminal > Go to your local folder where you want to clone the repository, then run:
+
+   ```bash
+   git clone <repository URL>
+   ``` 
+
+
+**Synchronizing changes**
+
+Synchronization between GitHub and Overleaf does NOT happen automatically. Synchronization options are shown by clicking the **GitHub** option within **Integrations**.
+
+<img src="https://drive.google.com/thumbnail?id=1S54nTbx3W-l05m1r62v0AenZLw66H4Mw&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+- GitHub ahead of Overleaf: Pull changes from GitHub to Overleaf.
+- Overleaf ahead of GitHub: Push changes from Overleaf to GitHub.
+
+
+**Resolving merge conflicts**
+
+Merging conflicts happen when your collaborator changed a line in Overleaf and you **changed the same line** in the GitHub repository, Overleaf may not be able to choose which version to keep.
+
+Suggested practice: Always pull changes from GitHub to Overleaf before pushing changes from Overleaf to GitHub. This way, you can resolve any conflicts locally on your computer before pushing the changes to GitHub.
+
+
+ref: [GitHub synchronization](https://docs.overleaf.com/integrations-and-add-ons/git-integration-and-github-synchronization/github-synchronization)
+
+
+

@@ -228,7 +228,7 @@ hard / brutal [brutˈal] konkurranse: vicious/fierce competition
 
 - stressende
 - aldri godt nok; alltid press for å gjøre det bedre
-- føler seg mindreverdig hvis man ikke er like flink som andre → feel inferior if one is not as good as others
+- <span style="color: #00CC66;">føler seg mindreverdig</span> hvis man ikke er like flink som andre → feel inferior if one is not as good as others 自卑感
 
 --------------------------------------------------------------------------------
 
@@ -263,7 +263,9 @@ Det er høye krav til både utdanning og norsknivå.
 
 På norskkurs <u>ble vi oppmuntret til å</u> lese barnebøker og se på barne-TV. [encouraged to do sth]
 
+å oppfordre noen til å gjøre noe → to encourage sb to do sth
 
+bøying: å oppfordre, oppfordrer, oppfordret, har oppfordret
 
 **精通**
 
@@ -1125,6 +1127,7 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 | <a href="#cold">forkjølelse</A>                            | cold                       |
 | hodepine                                                   | headache                   |
 | fedme / overvekt                                           | obesity                    |
+| vektnedgang                                                | weight loss                |
 | ernæring / næring                                          | nutrition                  |
 
 er<span style="color: #00CC66;">nær</span>ing 注意与 er<span style="color: #00CC66;">far</span>ing 区分
@@ -1150,6 +1153,9 @@ er<span style="color: #00CC66;">nær</span>ing 注意与 er<span style="color: #
 | varietet [varietˈet]                                       | variety (en 同 no)         |
 | være i form                                                | stay in shape              |
 | være til <span style='color:#00CC66'>byrde for</span> noen | be a bother / burden to sb |
+| være redd for å bli alvorlig syk                           | be afraid of becoming seriously ill |
+| søvnløshet                                                 | insomnia 失眠               |
+| uro                                                        | anxiety; restlessness; unease |
 
 en byrde [by`r-də]: burden, load
 
@@ -1262,9 +1268,10 @@ Det er ikke like sunt å spiser høyt prosessert mat som fersk mat. → It is no
 | --------------------- | -------------- |
 | depresjon             | depression     |
 | angst                 | anxiety        |
+| uro                   | anxiety; unease|
 | stress                | stress         |
 | søvnproblemer         | sleep problems |
-| velvære / trivsel     | well-being     |
+| søvnløshet            | insomnia       |
 | psykologer            | psychologists  |
 | psykologi             | psychology     |
 | terapeuter /terapøyt/ | therapists     |
@@ -1306,14 +1313,20 @@ Jeg er takknemlig for at jeg er frisk nok til å leve det livet jeg ønsker. →
 
 noun
 
-- Jeg har fått en forkjølelse. → I have caught a cold.
-- Han er hjemme fra jobb på grunn av forkjølelse. → He is home from work because of a cold.
+- Jeg har fått en *forkjølelse*. → I have caught a cold.
+- Han er hjemme fra jobb på grunn av *forkjølelse*. → He is home from work because of a cold.
 - Har du *kommet deg etter* forkjølelsen? → have you recovered from the cold?
 
 verb
 
+- Jeg er blitt forkjølet. → I have a cold. 强调 change of state, 感冒正在发展 
+  
+  Jeg er <span style="color: #00CC66;">forkjølet</span>. → 强调现在的状态  
+  Jeg har blitt forkjølet. → 强调 becoming sick
 - Jeg prøver å unngå *å bli forkjølet*. → I’m trying to avoid catching a cold.
 - Jeg *forkjølet meg* i helgen. → I *caught a cold* over the weekend.
+
+å huste → to cough 咳嗽
 
 --------------------------------------------------------------------------------
 

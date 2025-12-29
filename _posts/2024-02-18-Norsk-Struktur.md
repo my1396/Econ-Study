@@ -609,7 +609,7 @@ Noe(n) kan virke ..., men ... → … seems … but …
 
 **Concession** 让步; 尽管
 
-> selv om; til tross for at;
+> selv om; selv når (even when, even if); til tross for at;
 
 **Still, even now**
 
