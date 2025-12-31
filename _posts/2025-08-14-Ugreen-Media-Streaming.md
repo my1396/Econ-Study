@@ -107,7 +107,7 @@ Ref: [绿联知识中心 Docker](https://support.ugnas.com/knowledgecenter/#/det
 
    When creating the Plex container, set the storage volumes to map the folders created in the previous step to the appropriate paths inside the container.
 
-   Example volume mappings:
+   Example <a href="#volume-mapping"><span class="env-green">volume mappings</span></a>:
    - `/config` -> `/共享文件夹/docker/plex/config`
    - `/movies` -> `/共享文件夹/docker/plex/movies`
    - `/tvshows` -> `/共享文件夹/docker/plex/tvshows`
@@ -115,7 +115,7 @@ Ref: [绿联知识中心 Docker](https://support.ugnas.com/knowledgecenter/#/det
    
    Changing the volume mappings later is possible. However, it will recreate the container and may lead to loss of existing data if not handled carefully.
      
-   The parent directory (i.e., `/movies`, `/tvshows`) is what matters when setting up the library in Plex. Plex will recursively scan all subfolders within the specified directory. That said, it means that you can change the subfolder structure later without needing to adjust the volume mappings, as long as the parent directory remains the same.
+   The parent directory (i.e., `/movies`, `/tvshows`) is what matters when setting up the library in Plex. Plex will recursively scan all subfolders within the specified directory. In other words, it means that you can change the subfolder structure later without needing to adjust the volume mappings, as long as the parent directory remains the same.
 
 5. Create Plex Container
    
@@ -170,7 +170,8 @@ Network and Access Settings:
 
 ___
 
-Q: What is a volume mapping in Docker?  
+<a id="volume-mapping"></a>
+Q: What is a <span class="env-green">**volume mapping**</span> in Docker?  
 A: Volume mapping in Docker is a way to link directories on the host machine (your NAS) to directories inside the Docker container. 
 
 ```
@@ -206,6 +207,10 @@ You can set subfolders for different user groups (e.g., Adult, Kids) or genres (
 
 You can change the subfolder structure later without needing to adjust the volume mappings, as long as the parent directory remains the same. No container rebuild, or config change is needed.
 
+
+___
+
+See [Here](https://english.cool/movie-genres/) for film genres. Refer to [IMDB](https://www.imdb.com/?ref_=tt_nv_home) for genres of specific movies.
 
 ___
 
