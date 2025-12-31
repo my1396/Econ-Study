@@ -17,15 +17,15 @@ update: 2025-10-24
 - [EXT Torrents](https://ext.to)
   
   [GitHub](https://github.com/ext-torrents/ext-torrents.github.io?tab=readme-ov-file)
-
+- [迅雷电影天堂](https://xunlei8.cc)
 
 Q: 如何在电视上观看 NAS 里的影片？
 
-A: 最简单方式是使用 DLNA (Digital Living Network Alliance，数字生活网络联盟)。在 NAS 上开启 DLNA 功能后，支持 DLNA 的设备（如电视、电脑、电视盒等）在局域网内可访问NAS设备上的媒体文件（如音乐、视频、图片等文件数据）。
+A: 最简单方式是使用 DLNA (Digital Living Network Alliance，数字生活网络联盟)。在 NAS 上开启 DLNA 功能后，支持 DLNA 的设备（如电视、电脑、电视盒等）在局域网内可访问 NAS 设备上的媒体文件（如音乐、视频、图片等文件数据）。
 
 DLNA 服务不仅支持多种常见的媒体格式，还具有自动发现功能，确保您可以在多个设备上同时访问并控制播放的媒体文件。
 
-<span class="env-orange">注意</span>: DLNA服务启用后，所添加的【媒体资源】将被局域网内其它设备匿名访问，为了您的隐私安全，请谨慎添加个人文件夹或敏感资源。
+<span class="env-orange">注意</span>: DLNA 服务启用后，所添加的【媒体资源】将被局域网内其它设备匿名访问，为了您的隐私安全，请谨慎添加个人文件夹或敏感资源。
 
 ## Ugreen NAS 开启 DLNA 服务
 
@@ -34,10 +34,11 @@ DLNA 服务不仅支持多种常见的媒体格式，还具有自动发现功能
 
 电视端会自动发现 NAS 设备，选择对应的 NAS 设备名称，即可浏览并播放 NAS 上的媒体文件。
 
-限制:
+**限制:**
 
 1. DLNA 仅支持局域网内访问，无法通过互联网访问 NAS 上的媒体文件。
 2. 安全性较低，所有同一局域网内的设备均可访问 DLNA 服务，建议仅添加公共媒体资源文件夹。
+3. 功能较为基础，缺乏高级媒体管理和播放功能，如海报墙、字幕支持、媒体库管理等。
 
 ___
 
@@ -46,7 +47,7 @@ ___
 Log in to Plex: <https://app.plex.tv/desktop/#!/>
 
 Q: What is Plex? What does Plex do?  
-A: Plex is a media server platform that allows you to access and stream your personal media collection (movies, TV shows, music, photos, etc.) across various devices at home (using wifi). Remote access outside your home network requires a Plex Pass subscription.
+A: Plex is a media server platform that allows you to <span class="env-green">access and stream your personal media collection (movies, TV shows, music, photos, etc.) across various devices at home (using Wifi)</span>. Remote access outside your home network requires a Plex Pass subscription.
 
 
 
@@ -85,15 +86,22 @@ Ref: [绿联知识中心 Docker](https://support.ugnas.com/knowledgecenter/#/det
    Example folder structure:
    ```
    /共享文件夹/docker/plex/
-   ├── config/          # Plex configuration files
+   ├── config/         # Plex configuration files
    ├── movies/         # Movie files
-   ├── tvshows/       # TV show files
-   └── music/         # Music files
+   ├── tvshows/        # TV show files
+   └── music/          # Music files
    ```
 
    - Be sure to separate movie and television content into separate main directories. Otherwise Plex may have difficulty correctly identifying your media. Plex uses specific naming conventions to identify and organize media files, so maintaining a clear folder structure is crucial.
    
-   - You can have subfolders within these main directories. E.g., if you chose to categorize your children's content separate from more "adult" content (e.g. `/TV Shows/Kids/ShowName` vs `/TV Shows/Regular/ShowName`), then you would specify `/TV Shows/Kids` as the source location for a "kids" TV library.
+   - You can have <span class="env-green">subfolders within these main directories</span>. 
+     
+     E.g., if you chose to categorize your children's content separate from more "adult" content (e.g. `/TV Shows/Kids/ShowName` vs `/TV Shows/Regular/ShowName`), then you would specify `/TV Shows/Kids` as the source location for a "kids" TV library.
+
+     Or you might want to separate movies by genre (e.g. `/Movies/Action`, `/Movies/Comedy`, etc.). In this case, you would specify `/Movies` as the source location for your movie library, and Plex would recursively scan all subfolders within that directory.
+
+     You can create subfolders within these main directories as needed to further organize your media files. This won't recreate the Plex container. Plex will scan all subfolders automatically.
+
 
 4. Set Storage Volumes
 
@@ -104,6 +112,10 @@ Ref: [绿联知识中心 Docker](https://support.ugnas.com/knowledgecenter/#/det
    - `/movies` -> `/共享文件夹/docker/plex/movies`
    - `/tvshows` -> `/共享文件夹/docker/plex/tvshows`
    - `/music` -> `/共享文件夹/docker/plex/music`
+   
+   Changing the volume mappings later is possible. However, it will recreate the container and may lead to loss of existing data if not handled carefully.
+     
+   The parent directory (i.e., `/movies`, `/tvshows`) is what matters when setting up the library in Plex. Plex will recursively scan all subfolders within the specified directory. That said, it means that you can change the subfolder structure later without needing to adjust the volume mappings, as long as the parent directory remains the same.
 
 5. Create Plex Container
    
@@ -117,7 +129,7 @@ Ref: [绿联知识中心 Docker](https://support.ugnas.com/knowledgecenter/#/det
    
    <img src="https://drive.google.com/thumbnail?id=1V3gWbaRnAltErdPU2L28Dos5lcaHFpIW&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
-   **存储空间配置**
+   **存储空间配置** (Volume Mapping)
 
    - 点击 `/config` 的自动分配按钮，选择要存放 plex 配置文件 config 的文件夹，类型选择读写。建议选择 NAS 中 `/共享文件夹/docker` 目录下的路径，类型选择“读写”，以防止容器在运行期间因权限不足出现问题。
    - 点击添加，选择存放 `transcode`（转码）的文件夹路径， 装载路径 `/transcode`，类型选择读写。
@@ -133,7 +145,7 @@ Ref: [绿联知识中心 Docker](https://support.ugnas.com/knowledgecenter/#/det
 
 6. 访问容器 Web UI
    
-   容器启动后，可以通过浏览器访问容器的Web UI，访问URL `http://<NAS_IP>:32400/web`，将 NAS 的 IP 替换成您的 NAS IP 地址。
+   容器启动后，可以通过浏览器访问容器的 Web UI，访问URL `http://<NAS_IP>:32400/web`，将 NAS 的 IP 替换成您的 NAS IP 地址。
 
    我的地址: `http://10.0.0.7:32400/web`
    
@@ -154,6 +166,45 @@ Network and Access Settings:
 
    Configure network settings to allow remote access if desired.
    Set appropriate access permissions for different user profiles.
+
+
+___
+
+Q: What is a volume mapping in Docker?  
+A: Volume mapping in Docker is a way to link directories on the host machine (your NAS) to directories inside the Docker container. 
+
+```
+/movies -> /共享文件夹/docker/plex/movies
+```
+
+- `/movies`: This is a virtual path inside the Plex container where Plex expects to find movie files. Plex only knows this path, not the host path.
+- `/共享文件夹/docker/plex/movies`: This is the real folder (host path) on your NAS where your movie files are stored.
+
+This is how your host folder looks like on your NAS:
+
+```
+/共享文件夹/docker/plex/movies/
+├── Adult/
+│   └── Movie A.mkv
+└── Kids/
+    └── Movie B.mkv
+```
+
+This is how Plex sees the folder structure inside the container:
+
+```
+/movies/
+├── Adult/
+│   └── Movie A.mkv
+└── Kids/
+    └── Movie B.mkv
+```
+
+Plex will scan the `/movies` directory inside the container and find all your movie files, even though they are actually stored on your NAS at `/共享文件夹/docker/plex/movies`.
+
+You can set subfolders for different user groups (e.g., Adult, Kids) or genres (e.g., Action, Comedy) within the main `/movies` directory. Plex will automatically scan all subfolders within the specified directory.
+
+You can change the subfolder structure later without needing to adjust the volume mappings, as long as the parent directory remains the same. No container rebuild, or config change is needed.
 
 
 ___
@@ -504,6 +555,17 @@ ref:
 
 - [绿联 NAS 影视中心如何在播放器中添加外挂字幕？](https://www.ugnas.com/play-detail/id-60.html)
 
+
+## 下载中心
+
+
+[下载中心]((https://support.ugnas.com/knowledgecenter/#/detail/eyJjb2RlIjoiMiYmMTgzIn0=))具有以下功能特点：
+
+- 丰富的下载方式集成：支持**种子（Torrent）、磁链（magnet）**、HTTP、FTP 等多种下载方式，可下载文件、视频、音乐等各类资源。集成 PT（Private Tracker）下载功能，支持私人追踪器的资源管理规则，用户下载后可继续上传做种，维护资源稳定性。
+- 多任务同时下载：允许用户同时下载多个文件，高效利用 NAS 的存储和网络资源，提升下载效率。
+- 远程管理：通过手机绿联云 APP 实现远程添加和管理下载任务，用户可随时随地操作，不受时间和空间限制。
+
+
 ___
 
 Ref:
@@ -514,3 +576,4 @@ Ref:
 - [Ugreen Docker Docker 搭建 plex 流媒体服务](https://support.ugnas.com/knowledgecenter/#/detail/eyJpZCI6MTA2NywidHlwZSI6InRhZzAwMiIsImxhbmd1YWdlIjoiemgtQ04iLCJjbGllbnRUeXBlIjoiUEMiLCJhcnRpY2xlSW5mb0lkIjozNjAsImFydGljbGVWZXJzaW9uIjoiMS4wIiwicGF0aENvZGUiOiIifQ==)
 - [The Ultimate Guide for Using NAS for Plex](https://nas.ugreen.com/blogs/how-to/best-nas-for-plex-setup)
 - [绿联 NAS 电视端怎么用？一文教会你 4 种技巧](https://post.smzdm.com/p/a2xo0dd2/)
+- [绿联 NAS 下载中心使用教程](https://support.ugnas.com/knowledgecenter/#/detail/eyJjb2RlIjoiMiYmMTgzIn0=)
