@@ -1116,8 +1116,34 @@ ref:
 
 ___
 
+### FAQ
+
 Q: How to share scripts among multiple projects in one solution? For instance, mathjax config file?   
-A: Unresolved yet …
+A: I put them in a common folder, e.g., `/Users/menghan/Library/CloudStorage/OneDrive-Norduniversitet/_shared-resources`, and then use <span class="env-green">relative file</span> path to reference them in different projects.
+
+```yaml
+filters:
+  - ../../_shared-resources/filters/color-text.lua
+  - ../../_shared-resources/filters/unlisted-sections.lua
+  - ../../_shared-resources/filters/nested-ordered-list.lua
+format:
+  pdf:
+    include-in-header: ../../_shared-resources/latex/preamble.tex
+    fontsize: 12pt
+```
+
+
+Q: The terminal shows a yellow warning as follows, how to disable it?  
+
+> The following extensions want to relaunch the terminal to contribute to its environment:
+> 
+> Python Debugger: Enables use of no-config debugging, debugpy <script.py>, in the terminal.
+
+A: This warning appears because the Python Debugger extension wants to modify the terminal environment. Open `settings.json`, add the following line to disable it:
+
+```json
+"python.terminal.activateEnvironment": false
+```
 
 
 

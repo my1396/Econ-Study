@@ -18,6 +18,8 @@ update: 2025-10-24
   
   [GitHub](https://github.com/ext-torrents/ext-torrents.github.io?tab=readme-ov-file)
 - [迅雷电影天堂](https://xunlei8.cc)
+  
+  [镜像1](https://www.xl720.com/thunder/14220.html)
 
 Q: 如何在电视上观看 NAS 里的影片？
 
