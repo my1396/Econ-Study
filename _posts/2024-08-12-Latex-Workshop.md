@@ -5,14 +5,35 @@ tag: life
 update: 2025-08-01
 ---
 
-Latex-Workshop GitHub: <https://github.com/James-Yu/LaTeX-Workshop/wiki/Install#usage>
 
-Configure LateX Workshop by Paul Wintz: <https://paulwintz.com/latex-in-vscode/> 👍
+[**LaTeX Workshop**](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) is a popular LaTeX extension for Visual Studio Code, providing a comprehensive set of features for LaTeX editing, compiling, and previewing. In the following, I summarize some useful settings and tips for using LaTeX Workshop effectively.
 
-Integrating Overleaf with VS Code: <https://www.youtube.com/watch?v=SaMRCYbsAek>
+**Highlight features:**
 
-Snippets: <https://github.com/James-Yu/LaTeX-Workshop/wiki/Snippets#Handy-mathematical-snippets>
+- **Writing assistance**
+  - AI prompts from GitHub Copilot
+    
+    This is the most important reason I use VS Code for LaTeX editing, rather than Overleaf (online LaTeX editor) or [TexShop](https://pages.uoregon.edu/koch/texshop/). It is also what distinguishes VS Code from the other LaTeX editors.
 
+    With an university email, you can get [GitHub Copilot Pro](https://docs.github.com/en/copilot/how-tos/manage-your-account/get-free-access-to-copilot-pro) for free. It is a powerful tool to help me to write academic papers, create reports, and prepare teaching materials. ✅
+
+    See <a href="{{site.baseurl}}/2023/10/12/GitHub101.html#github-education">HERE</a> for more details about GitHub Copilot Education benefits.
+
+- **Editing**
+  - Intellisense for code autocompletion
+  - Snippets for quickly insert commonly used commands and environments
+
+
+
+**Useful resources:**
+
+- Latex-Workshop GitHub repo: <https://github.com/James-Yu/LaTeX-Workshop/wiki/Install#usage>
+- Configure LateX Workshop by Paul Wintz: <https://paulwintz.com/latex-in-vscode/> 👍
+- Integrating Overleaf with VS Code: <https://www.youtube.com/watch?v=SaMRCYbsAek>
+- Snippets: <https://github.com/James-Yu/LaTeX-Workshop/wiki/Snippets#Handy-mathematical-snippets>
+
+
+--------------------------------------------------------------------------------
 
 **Aesthetic themes** for LaTeX Workshop PDF viewer:
 
@@ -21,12 +42,24 @@ Snippets: <https://github.com/James-Yu/LaTeX-Workshop/wiki/Snippets#Handy-mathem
 "latex-workshop.view.pdf.color.dark.pageColorsBackground": "#F5F5DC",
 ```
 
-This changes the background color and the spacing btw pages in the PDF viewer to beige in dark mode, which is easier on the eyes.
+This sets the background color and the spacing btw pages in the PDF viewer to **beige** in dark mode, which is easier on the eyes.
 
 By default, LaTeX Workshop auto builds the pdf on every save. This can be too frequent and distracting.
 I set `"files.autoSave": "onFocusChange"` so that the pdf only rebuilds when I switch away from the tex file, not on every keystroke.
 
-The following works in `markdown` inside math environment
+
+## Snippets
+
+
+Environment snippets works directly in `tex`, you type `B`, a drop-down list will show up for you to choose.
+
+- The prefixes start with `B` and are followed by an abbreviation of the environment name.
+- The unnumbered versions of the environments are prefixed with `BS`, e.g., `BSEQ` for `equation*`.
+- In `tex`, these cmds work in both math and text environments.
+- However, it is more restrictive in `markdown`, where these cmds work only inside math environments (`$...$`)
+
+
+### Mathematical symbols
 
 | Prefix | Command |
 | ------ | ------- |
@@ -34,14 +67,8 @@ The following works in `markdown` inside math environment
 | `**`   | `^{$1}` |
 | `...`  | `\dots` |
 
-Environment snippets works directly in `tex`, you type `B`, a drop-down list will show up for you to choose.
 
-- The prefixes start with `B` and are followed by an abbreviation of the environment name.
-- The unnumbered versions of the environments are prefixed with `BS`, e.g., `BSEQ` for `equation*`.
-- In `tex`, these cmds work in both math and text environments.
-- However, it is more restrictive in markdown, where these cmds work only inside math environments (`$...$`)
-
-
+### Environments
 
 | Prefix                                | Environment name |
 | ------------------------------------- | ---------------- |
@@ -63,9 +90,11 @@ Environment snippets works directly in `tex`, you type `B`, a drop-down list wil
 
 
 
-[`@` suggestsion](https://github.com/James-Yu/latex-workshop/wiki/Intellisense#-suggestions)
+### [`@` Suggestsions](https://github.com/James-Yu/latex-workshop/wiki/Intellisense#-suggestions)
 
 LaTeX-Workshop provides an independent intellisense mechanism triggered by `@`. For example, you can type `@a` for `\alpha`. It works for most Greeks and have some useful mathematical helpers.
+
+**Mathmetical helpers:**
 
 | Prefix | Command               |
 | ------ | --------------------- |
@@ -75,13 +104,21 @@ LaTeX-Workshop provides an independent intellisense mechanism triggered by `@`. 
 | `@^`   | `\Hat{$1}`            |
 | `@_`   | `\bar{$1}`            |
 
+**Inserting Greek letters:**
 
+| Prefix | Command    |
+| ------ | ---------- |
+| `@a`   | `\alpha`   |
+| `@b`   | `\beta`    |
+| `@g`   | `\gamma`   |
+| `@d`   | `\delta`   |
+| `@e`   | `\epsilon` |
 
 ___
 
 ## Build the document
 
-You can define several compiling toolchains to build LaTeX projects using [**LaTeX recipes**](https://github.com/James-Yu/latex-workshop/wiki/Compile#latex-recipes) and then call the command *Build with recipe* to choose the appropriate toolchain for actually building the project. Alternatively, you can directly select the appropriate recipe from the *TeX* badge <i class="fa-brands fa-tex" style="font-size: 1.5em"></i>.
+You can define several compiling <span class="env-green">toolchains</span> to build LaTeX projects using [**LaTeX recipes**](https://github.com/James-Yu/latex-workshop/wiki/Compile#latex-recipes) and then call the command *Build with recipe* to choose the appropriate toolchain for actually building the project. Alternatively, you can directly select the appropriate recipe from the *TeX* badge <i class="fa-brands fa-tex" style="font-size: 1.5em"></i>.
 
 Below are some commonly used examples:
 
@@ -105,13 +142,19 @@ Below are some commonly used examples:
 ]
 ```
 
--   The first one simply relies on the `latexmk` command. This is the **default** recipe to use when building a project.
+-   The first one simply relies on the `latexmk` command. This is the **default** recipe to use when building a project for the first time.
+    
+    <span class="env-green">If you want a different default recipe, put it as the first element</span> of the `latex-workshop.latex.recipes` array.
 
 -   The second one run the following sequence of commands `pdflatex` → `bibtex` → `pdflatex` → `pdflatex`.
 
--   Many of my projects use <span style="color: #008B45;">`xelatex`</span> instead of `pdflatex` to support Unicode characters and OpenType fonts. The recipe is similar to the second one, but it uses `xelatex` instead of `pdflatex`.
+-   Many of my projects use <span class="env-green">`xelatex`</span> instead of `pdflatex` to support <span class="env-green">Unicode</span> characters and OpenType fonts. 
+    
+    This recipe is similar to the second one, but it uses `xelatex` instead of `pdflatex`.
 
-You can change the default recipe by setting the [`latex-workshop.latex.recipe.default`](https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-workshoplatexrecipedefault). Recipes are referred to by their names as defined in `latex-workshop.latex.recipes`. Note there are two special values:
+You can change the **default recipe** by setting the [`latex-workshop.latex.recipe.default`](https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-workshoplatexrecipedefault). Recipes are referred to by their **names** as defined in `latex-workshop.latex.recipes`. 
+
+Note there are two special values:
 
 -   `"first"`: Use the first recipe defined in [`latex-workshop.latex.recipes`](https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-recipes).
 -   `"lastUsed"`: Use the last used recipe by the command *LaTeX Workshop: 
