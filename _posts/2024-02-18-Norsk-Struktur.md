@@ -1301,6 +1301,7 @@ befolkningen (population)
 | -------------------------------------- | ---------------------------------- |
 | i noen grad                            | to some extent                     |
 | til en viss grad                       | to a certain extent                |
+| delvis                                 | partially; to a certain extent     |
 | <span style="color: #00CC66;">for så vidt</span> | as far as; to the extent that |
 
 - Jeg er *for så vidt* enig. / Jeg er enig *til en viss grad*.   
@@ -1386,6 +1387,8 @@ Konflikten gikk utover vennskapet deres. → The conflict harmed their friendshi
 | Tidligere ...      | Earlier / Previously / In the past ... | 以前，过去，早先   |
 | For to år siden    | Two years ago                          | 两年前           |
 | på lang/kort sikt  | on the long/short term                 |                 |
+| på forhånd         | in advance                             | 提前             |
+| i etterkant       | afterwards                             | 事后             |
 
 
 

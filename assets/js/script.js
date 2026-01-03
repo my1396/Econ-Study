@@ -1,5 +1,51 @@
 // Custom JavaScript can be added here
 
+// Issue: Cross-reference not pointing to the correct position
+// Fix anchor link positioning with a 120px offset for fixed header
+(function() {
+    const HEADER_OFFSET = 120; // Adjust this value based on your header height
+    
+    // Handle anchor links on page load (if URL has hash)
+    function handleAnchorOnLoad() {
+        if (window.location.hash) {
+            setTimeout(function() {
+                const target = document.querySelector(window.location.hash);
+                if (target) {
+                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - HEADER_OFFSET;
+                    window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+                }
+            }, 0);
+        }
+    }
+    
+    // Handle clicks on anchor links
+    function handleAnchorClicks() {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                if (href === '#') return;
+                
+                const target = document.querySelector(href);
+                if (target) {
+                    e.preventDefault();
+                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - HEADER_OFFSET;
+                    window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+                    history.pushState(null, null, href);
+                }
+            });
+        });
+    }
+    
+    // Run on page load
+    window.addEventListener('load', function() {
+        handleAnchorOnLoad();
+        handleAnchorClicks();
+    });
+    
+    // Handle browser back/forward buttons
+    window.addEventListener('hashchange', handleAnchorOnLoad);
+})();
+
 // JavaScript for Scroll to Top Button
 
 // Set a variable (handle) for our button element.
