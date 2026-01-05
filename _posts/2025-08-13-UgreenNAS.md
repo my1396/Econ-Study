@@ -587,9 +587,51 @@ ref:
 
 ___
 
+## Connect to NAS via SSH
+
+Q: What is SSH?  
+A: SSH is a cryptographic network protocol used to securely log into the local NAS. It’s widely used for system administration and automated scripts.
+
+Q: What can I do with SSH on my NAS?  
+A: 通过 SSH，用户可以在远程计算机上执行命令、管理文件系统、查看日志等操作。
+
+
+### Enable SSH on NAS
+
+进入控制面板 > 终机端 > 勾选启用 SSH 服务。设置允许的端口（默认为 22），建议修改为其他端口以防止其暴露在公网，减少遭受恶意攻击的风险。点击 “应用” 使设置生效。
+
+<img src="https://drive.google.com/thumbnail?id=1SQo_lLyJmGtZ3Mr6-hKORtxOa17v3oCT&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+### MacOS 通过 SSH 连接 NAS
+
+打开 终端 (Terminal) 应用，输入以下命令：
+
+```bash
+ssh -p port username@NAS_IP
+例如
+ssh -p 22 ugreen_admin@192.168.31.34 
+```
+
+将 username 替换成您的管理员账号，将 NAS_IP 替换成您的 NAS ip 地址，port 替换成您的 SSH 端口号。绿联 NAS 的 IP 地址可以通过【控制面板 > 网络设置 ＞ 网络连接】中查看（如LAN1、LAN2）。
+
+输入您的管理员密码验证登录。
+
+> 不要用其他终端模拟软件。Warp 连接失败，但是自带的 Terminal 可以成功连接。
+
+ref:
+
+- [https://nas.ugreen.com/blogs/how-to/connect-nas-ssh-root-access](https://nas.ugreen.com/blogs/how-to/connect-nas-ssh-root-access)
+- [终端机 SSH 使用介绍](https://www.ugnas.com/tutorial-detail/id-190.html)
+
+--------------------------------------------------------------------------------
+
 ## FAQ
 
 Q: 如何删除共享文件夹? \
 A: 打开文件管理器，在对应文件夹右上角选择【共享文件夹管理】<i class="fa-solid fa-briefcase"></i>，点击删除相应文件夹即可。此操作需要管理员权限，并输入管理员密码。
 
 <img src="https://drive.google.com/thumbnail?id=1zJudt-HphRsW_-Gp2Duga8NWQHbQv0Mk&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
+Q: 如何打回收站?  
+A: 前往文件管理 > 工具图标 <i class="fa-solid fa-briefcase"></i> > [回收站管理](https://www.ugnas.com/tutorial-detail/id-129.html)。

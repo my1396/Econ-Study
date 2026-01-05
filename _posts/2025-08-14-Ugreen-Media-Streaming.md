@@ -62,7 +62,9 @@ A: Plex is a media server platform that allows you to <span class="env-green">ac
 
 使用 Docker 面板安装镜像容器前有哪些准备事项？
 
-在使用 UGOS Pro 的 Docker 面板安装容器之前，需要提前创建容器所需的存储空间文件夹和子文件夹，以确保容器能够顺利运行并且数据能够正确存储和管理。
+在使用 UGOS Pro 的 Docker 面板安装容器之前，需要提前创建容器所需的<span class="env-green">存储空间文件夹和**子文件夹**</span>，以确保容器能够顺利运行并且数据能够正确存储和管理。
+
+❗️子文件夹也要提前创建好。但是也不必过于担心，后续通过修改 Docker 面板的存储空间配置步骤，也可以添加所需的子文件夹。后续修改都是可以的，需要重新创建容器。有数据丢失风险。
 
 文件夹目录路径建议选择存放在 `/共享文件夹/docker` 目录内。
 
@@ -88,13 +90,19 @@ Ref: [绿联知识中心 Docker](https://support.ugnas.com/knowledgecenter/#/det
    Example folder structure:
    ```
    /共享文件夹/docker/plex/
-   ├── config/         # Plex configuration files
-   ├── movies/         # Movie files
-   ├── tvshows/        # TV show files
-   └── music/          # Music files
+   ├── config/            # Plex configuration files
+   ├── movies/            # Movie files
+   │   ├── Genre1/        # Subfolder for Genre 1
+   │   └── Genre2/        # Subfolder for Genre 2
+   ├── tvshows/           # TV show files
+   │   ├── 日韩剧
+   │   ├── 美剧
+   │   ├── 国产剧
+   │   └── ...
+   └── music/             # Music files
    ```
 
-   - Be sure to separate movie and television content into separate main directories. Otherwise Plex may have difficulty correctly identifying your media. Plex uses specific naming conventions to identify and organize media files, so maintaining a clear folder structure is crucial.
+   - Be sure to separate movie and television content into separate <span class="env-green">main directories</span>. Otherwise Plex may have difficulty correctly identifying your media. Plex uses specific naming conventions to identify and organize media files, so maintaining a clear folder structure is crucial.
    
    - You can have <span class="env-green">subfolders within these main directories</span>. 
      
@@ -102,7 +110,7 @@ Ref: [绿联知识中心 Docker](https://support.ugnas.com/knowledgecenter/#/det
 
      Or you might want to separate movies by genre (e.g. `/Movies/Action`, `/Movies/Comedy`, etc.). In this case, you would specify `/Movies` as the source location for your movie library, and Plex would recursively scan all subfolders within that directory.
 
-     You can create subfolders within these main directories as needed to further organize your media files. This won't recreate the Plex container. Plex will scan all subfolders automatically.
+     Note that when you have subfolders, you need to <span class="env-green">ensure the volume mappings in the next step point to each subfolder correctly</span>, e.g., `/TV Shows/Kids/` or `/Movies/Action`.
 
 
 4. Set Storage Volumes
@@ -112,12 +120,18 @@ Ref: [绿联知识中心 Docker](https://support.ugnas.com/knowledgecenter/#/det
    Example <a href="#volume-mapping"><span class="env-green">volume mappings</span></a>:
    - `/config` -> `/共享文件夹/docker/plex/config`
    - `/movies` -> `/共享文件夹/docker/plex/movies`
-   - `/tvshows` -> `/共享文件夹/docker/plex/tvshows`
+   - Add subfolder mappings for TV shows:
+     - `/tvshows/日韩剧` -> `/共享文件夹/docker/plex/tvshows/日韩剧`
+     - `/tvshows/美剧` -> `/共享文件夹/docker/plex/tvshows/美剧`
+     
+     Add other subfolders as needed.
    - `/music` -> `/共享文件夹/docker/plex/music`
    
    Changing the volume mappings later is possible. However, it will recreate the container and may lead to loss of existing data if not handled carefully.
-     
-   The parent directory (i.e., `/movies`, `/tvshows`) is what matters when setting up the library in Plex. Plex will recursively scan all subfolders within the specified directory. In other words, it means that you can change the subfolder structure later without needing to adjust the volume mappings, as long as the parent directory remains the same.
+
+   However, recreating the container is rather quick and since you have set up other settings and Plex Web UI before, you will only need to re-add the media subfolders in the Plex Web UI. 
+
+   Don't be intimidated anyways. My personal experience is that changing volume mappings is not a big deal. Better to have a clean setup than a messy one with lots of compromise workaround.
 
 5. Create Plex Container
    
@@ -137,7 +151,15 @@ Ref: [绿联知识中心 Docker](https://support.ugnas.com/knowledgecenter/#/det
    - 点击添加，选择存放 `transcode`（转码）的文件夹路径， 装载路径 `/transcode`，类型选择读写。
    - 点击添加，选择存放影片资源的文件夹路径，装载路径 `/video`，类型选择读写。
    
+   <figure style="text-align: center;">
    <img src="https://drive.google.com/thumbnail?id=1YryzzgMZiYTL0DKAy_ftqOjh4kO2jmEo&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+   <figcaption>This is a simple example with only root types.</figcaption>
+   </figure>
+
+   <figure style="text-align: center;">
+   <img src="https://drive.google.com/thumbnail?id=1y88633ViD8Og03blorISp3HbAQSwGSoU&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+   <figcaption>This is how my volume mapping looks like with subfolders for genres, as of Jan 2026.</figcaption>
+   </figure>
 
    **网络配置**
 
@@ -149,12 +171,15 @@ Ref: [绿联知识中心 Docker](https://support.ugnas.com/knowledgecenter/#/det
    
    容器启动后，可以通过浏览器访问容器的 Web UI，访问URL `http://<NAS_IP>:32400/web`，将 NAS 的 IP 替换成您的 NAS IP 地址。
 
-   我的地址: `http://10.0.0.7:32400/web`
+   我的地址: <span class="env-green">`http://10.0.0.7:32400/web`</span>
    
-   进入 plex 页面后，进行初始化配置，Plex 页面需要时间加载，才会进入媒体库配置。
+   进入 Plex 页面后，进行初始化配置，Plex 页面需要时间加载，才会进入媒体库配置。
 
    - 第一次载入可使用 Google 账号登录。
-   - 服务器设置，全部选择**下一步**。在资料媒体库页面，选择媒体类型（电影、电视剧、音乐等），并添加对应的媒体文件夹路径 on your NAS（如 `/videos`）。 
+   - 服务器设置，全部选择**下一步**。在资料媒体库页面，选择媒体类型（电影、电视剧、音乐等），并添加对应的媒体文件夹路径 on your NAS（如 `/videos`）。
+     - 建议一种媒体类型创建一个媒体库 (Library)，下面可以添加多个子文件夹路径。
+
+   <img src="https://drive.google.com/thumbnail?id=1JnqZUCxI1iKrw1BcmSMECDnzBLYZYdaP&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 7. Set up TV Plex Client
    
@@ -397,7 +422,94 @@ Match Metadata
 - Songs: Need to click singer name and then go to the song, click the three dots on the right, then "Match" Metadata.
 - Movies/TV Shows: Click the three dots on the right of the title, then choose "Match" Metadata.
 
+--------------------------------------------------------------------------------
 
+### Transcoder Error
+
+<img src="https://drive.google.com/thumbnail?id=17E-Qf32nNjUmbNag_no8vtTtKBpz7PaN&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+Fix:
+
+- I notice the error only exists for some `.srt` subtitle files. → Use `.ass` format will resolve the issue.
+- The error was due to encoding and line endings issues.
+  - No BOM (starts with 31 = "1")
+  - Unix line endings (0a instead of 0d 0a)
+
+To fix the SRT files: remove the BOM and Windows line endings.
+
+Use the script `fix_srt_files.sh` to fix the error
+
+```bash
+# Fix all SRT files in a directory (recursively)
+/Users/menghan/Downloads/tmp/fix_srt_files.sh /path/to/video/folder/TV Shows/Prison Break/Season 01/Prison Break - S01E01 - episode.mkv
+/TV Shows/Prison Break/Season 02/Prison Break - S02E01 - episode.mkv
+
+# Fix a single SRT file
+/Users/menghan/Downloads/tmp/fix_srt_files.sh /path/to/movie.srt
+```
+
+--------------------------------------------------------------------------------
+
+**Check log file using SSH**
+
+
+1. Check name of Plex container
+
+   ```bash
+   sudo docker ps | grep plex
+   ```
+   
+   My container name: `linuxserver_plex-1`
+
+2. Access your Plex container
+
+   ```bash
+   sudo docker exec -it linuxserver_plex-1 bash
+   ```
+   
+   This command will open a bash shell inside the Plex container. Once inside, you will see a command prompt that indicates you are now operating within the container's environment.
+
+   ```bash
+   root@<ugreen-nas-id>:/#
+   ```
+
+3. Navigate to the Plex logs directory
+
+   Once inside the container, you can check Plex Logs and configuration.
+   
+   ```bash
+   # View recent Plex logs
+   tail -100 "/config/Library/Application Support/Plex Media Server/Logs/Plex Media Server.log"
+   ```
+
+   ```bash
+   # Or search for transcode errors
+   grep -i "transcode\|subtitle\|error" "/config/Library/Application Support/Plex Media Server/Logs/Plex Media Server.log" | tail -50
+   ```
+
+Q: How to exit the container bash shell?  
+A: Type `exit` and press Enter to leave the container shell and return to your NAS's terminal session. Type `exit` again to close the SSH session.
+
+Check Plex docker folder structure for TV shows:
+
+```bash
+admin_my@DXP2800-01C7:~$ sudo docker exec -it linuxserver_plex-1 ls -la /tv/
+```
+
+Error: I created genres subfolders under `TV`, such as `美剧`, but Plex only recognizes one `S01` folder. So all TV shows are mixed together and mapped to the first show you added.
+
+Fix: Crete a symlink for each genre folder to point to `/tv/`. [This fails eventually. When there are only one symlink, it works. But **cannot** have multiple symlinks in `/tv/` pointing to different folders.]
+
+```bash
+# Create symlink at /tv/ root pointing to the show in 美剧
+sudo docker exec -it linuxserver_plex-1 bash -c "ln -s '/tv/美剧/All.Her.Fault' '/tv/All.Her.Fault'"
+
+# Check the symlink linked to the correct folder
+sudo docker exec -it linuxserver_plex-1 bash -c "ls -la /tv/ && echo '---' && ls -la /tv/美剧/"
+
+# Then scan library to clean up and re-add the show
+sudo docker exec -it linuxserver_plex-1 bash -c "export LD_LIBRARY_PATH=/usr/lib/plexmediaserver/lib && /usr/lib/plexmediaserver/'Plex Media Scanner' --scan --section 2"
+```
 
 ___
 
