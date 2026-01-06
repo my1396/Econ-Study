@@ -1021,6 +1021,11 @@ Explain different modes of Github Copilot:
 | Reasoning/planning | Claude Sonnet 3.7 Thinking<br />o1<br />o3-mini                            |
 
 
+--------------------------------------------------------------------------------
+
+Q: How to delete a chat session?  
+A: In the chat window, click the three dots on the menu bar, select `Show Chats...`, it will open the command palette with all chat sessions listed. You can delete any chat session from there. Click the `X` icon next to the chat session you want to delete. [↩︎](https://github.com/microsoft/vscode/issues/283425#issuecomment-3673977913)
+
 
 --------------------------------------------------------------------------------
 

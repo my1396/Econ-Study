@@ -88,7 +88,40 @@ Environment snippets works directly in `tex`, you type `B`, a drop-down list wil
 | `BFI`                                 | `figure`         |
 | `BTA`                                 | `table`          |
 
+**How to surround some selected text with an environment:**
 
+1. In editing mode, select the text you want to surround.
+2. Insert the environment by typing either
+   
+   - ✅ `\<envname>`, e.g., `\equation`, or
+     
+     This will surround the selected text with `\begin{envname}` and `\end{envname}`.
+     
+     <img src="https://github.com/James-Yu/LaTeX-Workshop/raw/master/demo_media/surround-envname.gif" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+   
+   - `\beginend`
+     
+     This will surround the selected text with `\begin{}` and `\end{}`, and enter the multi-cursor mode. Type your desired environment name in `\begin{}` and the same name will be automatically filled in the `\end{}`.
+
+     <img src="https://github.com/James-Yu/LaTeX-Workshop/raw/master/demo_media/surround-beginend.gif" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+--------------------------------------------------------------------------------
+
+Q: How to select the current environment, e.g., a table environment?  
+A: Place the cursor inside the environment, then press `Cmd`+`Shift`+`P` (Mac) to open the command palette, type `Latex Workshop: Select Current Environment`, and press `Enter`. This will select the entire environment, including the `\begin{}` and `\end{}` lines.
+
+<img src="https://drive.google.com/thumbnail?id=1508qMUl5GtzJ0OBamc3wYtJN4T93Hx77&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+- `LaTeX Workshop: Select the current environment content` only selects the content inside the environment, excluding the `\begin{}` and `\end{}` lines.
+- `LaTeX Workshop: Navigate to matching begin/end` moves the cursor to the matching `\begin{}` or `\end{}` of the current environment.
+- **Changing from one environment to another.** [↩︎](https://github.com/James-Yu/latex-workshop/wiki/Environments#changing-between--and-beginend)
+  
+  1. Place the cursor inside the environment you want to change.
+  2. `LaTeX Workshop: Select the current environment name` to select the environment name.
+  3. `LaTeX Workshop: Add a multi-cursor to the current environment name` to add a multi-cursor to both the `\begin{}` and `\end{}` lines.
+  4. Type the new environment name to replace the old one.
+
+--------------------------------------------------------------------------------
 
 ### [`@` Suggestsions](https://github.com/James-Yu/latex-workshop/wiki/Intellisense#-suggestions)
 
