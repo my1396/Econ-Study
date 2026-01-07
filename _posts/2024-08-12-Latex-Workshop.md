@@ -38,11 +38,16 @@ update: 2025-08-01
 **Aesthetic themes** for LaTeX Workshop PDF viewer:
 
 ```json
-"latex-workshop.view.pdf.color.dark.backgroundColor": "#F5F5DC",
-"latex-workshop.view.pdf.color.dark.pageColorsBackground": "#F5F5DC",
+"latex-workshop.view.pdf.color.dark.pageColorsBackground": "#F5F5DC", // The background color of the document
+"latex-workshop.view.pdf.color.dark.backgroundColor": "#F5F5DC",      // The background color of the viewer, spacing btw pages
 ```
 
 This sets the background color and the spacing btw pages in the PDF viewer to **beige** in dark mode, which is easier on the eyes.
+
+<span class="env-orange">A caveat</span> is that this interferes with textcolor in the document. If you use colored text `\textcolor{red}{...}`, the text won't appear red.
+
+
+In the documentation, when you see "Reload vscode to apply the changes", you can do this quickly by pressing `Cmd`+`Shift`+`P` (Mac) to open the command palette, typing `Developer: Reload Window`, and pressing `Enter`.
 
 By default, LaTeX Workshop auto builds the pdf on every save. This can be too frequent and distracting.
 I set `"files.autoSave": "onFocusChange"` so that the pdf only rebuilds when I switch away from the tex file, not on every keystroke.
@@ -148,6 +153,23 @@ LaTeX-Workshop provides an independent intellisense mechanism triggered by `@`. 
 | `@e`   | `\epsilon` |
 
 ___
+
+### Font cmds
+
+Select the text you want to change the font, then type the prefixes below.
+
+
+| Prefix | Command         | Font face         |
+| ------ | --------------- | ----------------- |
+| `FBF`  | `\textbf{ $1 }` | **Bold face**     |
+| `FIT`  | `\textit{ $1 }` | *Italic face*     |
+| `FTT`  | `\texttt{ $1 }` | `Typewriter face` |
+
+More font cmds can be found [HERE](https://github.com/James-Yu/latex-workshop/wiki/Snippets#font-commands-and-snippets).
+
+--------------------------------------------------------------------------------
+
+
 
 ## Build the document
 
@@ -350,15 +372,23 @@ This will create a GitHub repository and link it to your Overleaf project. You c
    ``` 
 
 
-**Synchronizing changes**
+<span class="env-green">**Synchronizing changes**</span>
 
-Synchronization between GitHub and Overleaf does NOT happen automatically. Synchronization options are shown by clicking the **GitHub** option within **Integrations**.
+Edit your local repository files using your preferred LaTeX editor (e.g., LaTeX Workshop in VS Code). After making changes, you can push them to GitHub and then pull them into Overleaf.
+
+Synchronization between GitHub and Overleaf does <span class="env-orange">NOT</span> happen automatically. Synchronization options are shown by clicking the **GitHub** option within **Integrations**.
 
 <img src="https://drive.google.com/thumbnail?id=1S54nTbx3W-l05m1r62v0AenZLw66H4Mw&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 - GitHub ahead of Overleaf: Pull changes from GitHub to Overleaf.
 - Overleaf ahead of GitHub: Push changes from Overleaf to GitHub.
 
+If you are writing together with collaborators, best practice is to frequently pull changes from GitHub to Overleaf to keep your Overleaf project up to date before you start making changes. 
+This helps to minimize the chances of merge conflicts when you push your changes back to GitHub.
+
+In case you and your collaborator both made changes to the sentence, following the next section on **Resolving merge conflicts**.
+
+--------------------------------------------------------------------------------
 
 **Resolving merge conflicts**
 
