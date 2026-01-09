@@ -593,7 +593,7 @@ Jeg er usikker *på* om ... → I am uncertain whether ...
 
 - Use synonyms to score higher on **cohesion**.
 
-**However** 
+**However** 转折
 
 > imidlertid (meanwhile); <span style='color:#00CC66'>likevel</span> (nonetheless); fremdeles (still); egentlig (actually);
 
@@ -601,15 +601,59 @@ Han kan bli oppfattet som arrogant, men egentlig er han bare sjenert. → He can
 
 Noe(n) kan virke ..., men ... → … seems … but …
 
-**Contrast**
+
+De vil gjerne kjøpe leilighet. Alt er **imidlertid** så dyrt.  
+→ They would like to buy an apartment. Everything is, however, so expensive.
+
+Alt er utsolgt. Vi regner **imidlertid** med å få nye varer i morgen.  
+→ Everything is sold out. We, however, expect to get new goods tomorrow.
+
+形近词 «midlertidig» → temporary, provisional
+
+Han hadde feber. **Likevel** gikk han på jobb. 
+
+Hun har ikke trent så mye, men **likevel** vil hun løpe maraton.
+
+Han gikk på jobb **selv om** han hadde feber. 
+
+**Selv om** hun ikke har trent så mye, vil hun løpe maraton.
+
+
+
+**Contrast** 对比
 
 > derimot (on the contrary; however); på den annen / andre siden; tvert imot (on the contrary; quite the opposite);
 
 *For noen er … viktige argumenter for dette, mens andre er opptatt av …* → *For some, … are important reasons, while others care about …*
 
+på den ene siden …, mens på den annen side … → on the one hand …, while on the other hand …
+
+Han vil til Paris. Hun, **derimot**, vil til Roma.  
+→ He wants to go to Paris. She, on the other hand, wants to go to Rome.
+
+Linda vil ha et lite bryllup. Espen ønsker seg **derimot** en stor fest.  
+→ Linda wants a small wedding. Espen, on the other hand, wants a big party.
+
+
 **Concession** 让步; 尽管
 
-> selv om; selv når (even when, even if); til tross for at;
+> selv om; selv når (even when, even if); til tross for at; enda;
+
+Hun har ikke trent så mye, men **til tross for det** vil hun løpe maraton.  
+→ She hasn't trained that much, but despite that she wants to run a marathon.
+
+Hun har ikke trent så mye. **Tross det** har hun planer om å løpe maraton.  
+→ She hasn't trained that much. Despite that, she plans to run a marathon.
+
+**Til tross for at** hun ikke har trent så mye, vil hun løpe maraton.  
+→ Despite not having trained that much, she wants to run a marathon.
+
+Han liker seg her <span style="color: #00CC66;">**enda**</span> han *ikke* har fått jobb.  
+→ He likes it here even though he hasn't got a job.
+
+Hun vil løpe maraton <span style="color: #00CC66;">**enda**</span> hun *ikke* har trent så mye.  
+→ She wants to run a marathon even though she hasn't trained that much.
+
 
 **Still, even now**
 
@@ -628,20 +672,84 @@ Noe(n) kan virke ..., men ... → … seems … but …
 > med andre ord (in other words);
 
 
-**If**
+**If** (vilkår / betingelse) 条件，假设
 
-> hvis; <span style='color:#00CC66'>dersom</span>; 
+> hvis; om; <span style='color:#00CC66'>dersom</span>; 
+> så sant; i tilfelle;
+> uten at / uten å;
 
-**So**
+Jeg kommer **så sant** jeg blir frisk nok.  
+→ I will come as long as I get well enough.
 
-> altså; <span style='color:#00CC66'>derfor</span>; dermed; 
+**I tilfelle** noe er uklart, er det bare å ta kontakt.  
+→ In case something is unclear, just get in touch.
 
-**Because**
+Hun klarer ikke førerprøven **uten at** du hjelper henne. 
+→ She can't pass the driving test unless you help her.
 
-> Fordi; ettersom; 
+Du klarer ikke førerprøven **uten å** øve mye.  
+→ You can't pass the driving test without practicing a lot.
+
+条件从句也可以没有引导词
+
+**Er dere sultne**, kan jeg lage mat nå. (= Hvis dere er sultne,)  
+→ If you are hungry, I can cook now.
+
+**Har du feber**, kan du ikke gå på jobben.  
+→ If you have a fever, you cannot go to work.
+
+**Har du lyst**, kan jeg hjelpe deg med oppgavene.  
+→ If you want, I can help you with the tasks.
 
 
-**Wrap up**; introduce the last point
+
+**So** 结果
+
+> så; altså; <span style='color:#00CC66'>derfor</span>; dermed; slik at; som følge av dette; gjøre at; føre til;   
+
+
+
+Det var streik, og **som en følge av det** kom ikke bussen.  
+→ There was a strike, and as a result, the bus did not come.
+
+Jeg må jobbe overtid, og det **gjør at** jeg kommer for sent.  
+→ I have to work overtime, and that causes me to be late.
+
+Hun ble skadet, og det **gjorde at** hun måtte droppe treningen.  
+→ She got injured, and that caused her to miss training.
+
+Det var isglatt på veiene, og det **førte til** kaos.  
+→ It was icy on the roads, and that led to chaos.
+
+
+
+
+**Because** 原因
+
+> Fordi; <span style="color: #00CC66;">ettersom;</span>; av den grunn at; siden; 
+
+**Ettersom** Jon løp så fort han kunne, rakk han bussen.   
+→ Because Jon ran as fast as he could, he caught the bus.
+
+Han hadde feber. **Av den grunn kunne** han ikke gå på jobb.  
+→ He had a fever. For that reason, he could not go to work.
+
+Hun har skadet seg, og **av den grunn** kan hun kanskje ikke løpe maraton.  
+→ She has injured herself, and for that reason, she may not be able to run the marathon.
+
+
+**Intention** 目的
+
+> for å; slik at; med det formål å; med hensikt å;
+
+Per løp for å rekke bussen. → Per ran to catch the bus.
+
+Per måtte løpe for at han skulle rekke bussen. → Per had to run so that he would catch the bus.
+
+Ida åpnet døra slik at katten kunne komme inn. → Ida opened the door so that the cat could come in.
+
+
+**Wrap up**; introduce the last point 总结
 
 > For å oppsummere (to summarize); 
 >
@@ -649,25 +757,25 @@ Noe(n) kan virke ..., men ... → … seems … but …
 >
 > til slutt (finally); alt i alt;
 
-**Emphasis**
+**Emphasis** 强调
 
 > ikke minst (not least); faktisk (in fact); først og fremst (first and foremost; most important thing); 
 
-**For example**
+**For example** 举例
 
 > for eksempel; slik som; 
 >
 > Det finners eksempler på …
 
-**Sequence**
+**Sequence** (rekkefølge) 序列
 
 > i begynnelsen … senere … til slutt (in the beginning … later … finally); deretter (after that); etterpå; 
 
-**Actually**
+**Actually** 事实上
 
 > faktisk; virkelig; egentlig; sannelig; 
 
-**Possibly**
+**Possibly** 可能
 
 > mulig; sannsynlig; trolig; antakelig; eventuelt; 
 
@@ -676,6 +784,28 @@ Note: «antakelig» can also mean «akseptabel».
 **More likely:** mer sannsynlig; større sjanse for å gjøre; mer trolig; sannsynligheten øker; sjansen øker;
 
 **Less likely:** mindre sannsynlig; mindre sjanse for å gjøre; mindre trolig, sannsynligheten synker; sjansen synker;
+
+--------------------------------------------------------------------------------
+
+**verken … eller** → either … or …
+
+Jeg skal **verken** til Paris **eller** til Roma.  
+→ I am not going to either Paris or Rome.
+
+Vi har **verken** brød **eller** kaffe.  
+→ We don't have either bread or coffee.
+
+
+--------------------------------------------------------------------------------
+
+**heller ikke** 
+
+Jeg skal ikke til Paris, og jeg skal **heller ikke** til Roma. 
+→ I am not going to Paris, and I am not going to Rome either.
+
+Vi har ikke brød, og vi har **ikke** kaffe **heller**.  
+→ We don't have bread, and we don't have coffee either.
+
 
 --------------------------------------------------------------------------------
 

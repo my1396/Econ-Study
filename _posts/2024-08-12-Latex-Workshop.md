@@ -1,7 +1,7 @@
 ---
 layout: post
-title: LaTeX Workshop
-tag: life
+title: VS code Extension – LaTeX Workshop
+tag: programming
 update: 2025-08-01
 ---
 
@@ -35,16 +35,30 @@ update: 2025-08-01
 
 --------------------------------------------------------------------------------
 
+
+## Dark Theme
+
 **Aesthetic themes** for LaTeX Workshop PDF viewer:
 
 ```json
 "latex-workshop.view.pdf.color.dark.pageColorsBackground": "#F5F5DC", // The background color of the document
-"latex-workshop.view.pdf.color.dark.backgroundColor": "#F5F5DC",      // The background color of the viewer, spacing btw pages
+"latex-workshop.view.pdf.color.dark.backgroundColor": "#F5F5DC",      // The background color of the viewer, space btw pages
 ```
 
 This sets the background color and the spacing btw pages in the PDF viewer to **beige** in dark mode, which is easier on the eyes.
 
-<span class="env-orange">A caveat</span> is that this interferes with textcolor in the document. If you use colored text `\textcolor{red}{...}`, the text won't appear red.
+❌ <span class="env-orange">A caveat</span> is that this interferes with text color and image color in the document. E.g., If you use colored text `\textcolor{red}{...}`, the text won't appear red. The colored images <span class="env-orange">won't</span> appear in their original colors either.
+
+> Update: 26-01-08  
+> Set page background color using LaTeX command instead of LaTeX Workshop settings to avoid the interference with textcolor. 
+> ```latex
+> \usepackage{graphicx}
+> \pagecolor[HTML]{F5F5DC} % beige background for easier reading on screen, remove for print
+> ```
+> Insert in the preamble to set the page background color to beige.   
+> This works both in the internal and external PDF viewer.  
+> For printing, just comment out the line.
+
 
 
 In the documentation, when you see "Reload vscode to apply the changes", you can do this quickly by pressing `Cmd`+`Shift`+`P` (Mac) to open the command palette, typing `Developer: Reload Window`, and pressing `Enter`.
@@ -52,6 +66,7 @@ In the documentation, when you see "Reload vscode to apply the changes", you can
 By default, LaTeX Workshop auto builds the pdf on every save. This can be too frequent and distracting.
 I set `"files.autoSave": "onFocusChange"` so that the pdf only rebuilds when I switch away from the tex file, not on every keystroke.
 
+--------------------------------------------------------------------------------
 
 ## Snippets
 
@@ -355,6 +370,8 @@ A: Disable auto build on save. This way, you can have a smooth editing experienc
 "overleaf-workshop.compileOnSave.enabled": false
 ```
 
+--------------------------------------------------------------------------------
+
 ### GitHub Integration
 
 Left side bar > Integrations <i class="bi bi-file-code-fill" style="font-size: 1.5em"></i> > GitHub <i class="fa-brands fa-github" style="font-size: 1.5em"></i>
@@ -390,7 +407,7 @@ In case you and your collaborator both made changes to the sentence, following t
 
 --------------------------------------------------------------------------------
 
-**Resolving merge conflicts**
+**Resolve merge conflicts**
 
 Merging conflicts happen when your collaborator changed a line in Overleaf and you **changed the same line** in the GitHub repository, Overleaf may not be able to choose which version to keep.
 

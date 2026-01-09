@@ -903,6 +903,10 @@ When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» is the <span style=
   (All the resources that are on the internet are available.)  
   → Here *som* = subject of ligger.
 
+  Det er gratis for dem som tar Kurs via Nord.  
+  (It is free for those who take the course via Nord.)  
+  → Here *som* = subject of tar.
+
 - You can only **drop** «som» when it is the **object**.
 
   $\boxed{\text{Object → «som» optional.}}$
