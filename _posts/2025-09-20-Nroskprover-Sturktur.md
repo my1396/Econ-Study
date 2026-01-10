@@ -42,7 +42,7 @@ A: legitimasjon (ID), hodetelefon for lytteprøven, bankkort for betaling.
 
 注册网站: [Meld deg på](https://prove.hkdir.no/norskprove-a1-b2/meld-deg-pa-norsk-a1-b2)
 
-一般开始时间是周一上午 09:00，直至周五晚 23:59。报名开放后尽早注册，名额有限，免得后期想报名的时候没有考位了。
+一般开始时间是周一上午 09:00，截止至周五晚 23:59。报名开放后尽早注册，名额有限，免得后期想报名的时候没有考位了。
 
 
 **Viktig informasjon**

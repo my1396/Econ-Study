@@ -857,7 +857,7 @@ pronoun.
 
 **Cleft sentences** 断裂句，强调句
 
-句式：Det + er + 强调的部分 (focal point to emphasize) + 关系从句 (relative clause)
+句式：Det + er + 强调的部分 (focal point to emphasize) + 关系从句 («som»-relative clause)
 
 A part of a sentence can be given extra emphasis by removing it from the original sentence and making ti the focal point of its own relative clause.
 
@@ -1991,6 +1991,42 @@ Det er mye folk i byen når det er fotballkamp.
 ref:
 
 - [Adjektivets komparasjon](https://www.ntnu.edu/now2/4/grammatikk)
+
+--------------------------------------------------------------------------------
+
+<span style="color: #00CC66;">表相同级别或程度</span>
+
+er som ... → is as/like ...
+
+Han er så høy som broren sin.  
+→ He is as tall as his brother.
+
+Hun er like gammel som meg.  
+→ She is as old as me.
+
+En kvinne uten mann er som en fisk uten sykkel.  
+→ A woman without a man is like a fish without a bicycle.
+
+Han er som faren sin.  
+→ He is like his father.
+
+Det er som i går.  
+→ It is like yesterday.
+
+Det er som en drøm.  
+→ It is like a dream.
+
+--------------------------------------------------------------------------------
+
+**like ... som ...** → as ... as ...
+
+Hun er like høy som broren sin.  
+→ She is as tall as her brother.
+
+Hun snakker like godt norsk som meg.  
+→ She speaks Norwegian as well as I do.
+
+
 
 --------------------------------------------------------------------------------
 
