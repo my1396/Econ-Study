@@ -262,9 +262,13 @@ Use the following **mock exam** to practice before the actual exam:
 
     Myndighetene bør fremme likestilling mellom kvinner og menn. → Authorities should promote equality between women and men.
 
-  - *være til fordel for*… → to be beneficial for 
+  - <span style="color: #00CC66;">*være til fordel for noen å gjøre noe*</span> → to be beneficial for sb to do sth
 
-    Det er til fordel for barn å ha foreldre som engasjerer seg i lekser. → It is beneficial for children to have parents who are involved in homework.
+    Det *er til fordel for* barn *å* ha foreldre som engasjerer seg i lekser.   
+    → It is beneficial for children to have parents who are involved in homework.
+
+    Det *kan være en fordel å* jobbe ekstra med å få inn gode vaner, i tillegg til å trappe ned medisinbruken langsomt.   
+    → It can be beneficial to work extra on getting good habits, in addition to gradually reducing medication use.
   
   - Fordeler *med* dette er ... → Advantages of this are ...
 
@@ -473,7 +477,7 @@ ___
 
 ### **我的想法是**...
 
-#### Neutural:
+#### Neutral:
 
 ..., det er min mening.
 
@@ -570,6 +574,28 @@ jeg har *liten forståelse* for … → I don't understand …
 
 litt 表肯定; liten 表否定
 
+
+证据、研究显示…
+
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| Forskning viser at …                   | Research shows that …              |
+| Studier har vist at …                  | Studies have shown that …          |
+| Data indikerer at …                    | Data indicates that …              |
+| Undersøkelser viser at …               | Surveys show that …                |
+| det er (lite / godt / dårlig) dokumentert at … | it is (little / well / poorly) documented that … |
+
+- Det er godt dokumentert at røyking er helsefarlig.  
+  → It is well documented that smoking is harmful.
+
+- Det er dårlig dokumentert at tiltaket fungerer.  
+  → It is poorly documented that the measure works.
+
+- Effekten er ikke dokumentert.  
+  → The effect has not been documented / proven.
+
+- Det er lite dokumentert at det er effektivt.  
+  → There is little evidence that it is effective.
 
 --------------------------------------------------------------------------------
 
@@ -701,7 +727,12 @@ Du klarer ikke førerprøven **uten å** øve mye.
 **Har du lyst**, kan jeg hjelpe deg med oppgavene.  
 → If you want, I can help you with the tasks.
 
+**Unless** 除非
 
+> med mindre; 
+
+Med *mindre* du kommer tidlig, rekker vi ikke bussen.  
+→ Unless you come early, we won't catch the bus.
 
 **So** 结果
 
@@ -785,6 +816,17 @@ Note: «antakelig» can also mean «akseptabel».
 
 **Less likely:** mindre sannsynlig; mindre sjanse for å gjøre; mindre trolig, sannsynligheten synker; sjansen synker;
 
+**tilfeldig** 随机
+
+Spørsmålene du får, er *tilfeldige* og bestemmes av *ren tilfeldighet*.  
+→ The questions you receive are totally random and determined by pure chance.
+
+Spørsmålene blir valgt tilfeldig.  
+→ The questions are chosen randomly.
+
+Valget er bassert på tilfeldighet.  
+→ The selection is based on randomness.
+
 --------------------------------------------------------------------------------
 
 **verken … eller** → either … or …
@@ -798,13 +840,46 @@ Vi har **verken** brød **eller** kaffe.
 
 --------------------------------------------------------------------------------
 
-**heller ikke** 
+**heller ikke** → not … either 
 
 Jeg skal ikke til Paris, og jeg skal **heller ikke** til Roma. 
 → I am not going to Paris, and I am not going to Rome either.
 
 Vi har ikke brød, og vi har **ikke** kaffe **heller**.  
 → We don't have bread, and we don't have coffee either.
+
+
+**heller** → rather, instead
+
+Vi gir *heller* andre råd til våre pasienter.  
+ → We rather give other advice to our patients.
+
+Det skal bli mye regn i helga, men jeg vil *heller* ha snø.  
+→ It will be a lot of rain this weekend, but I would rather have snow.
+
+Jeg vil heller lese den andre boka.  
+→ I would rather read the other book.
+
+Han vil heller bli hjemme.  
+→ He would rather stay at home.
+
+Jo før, jo heller.  
+→ The sooner, the better.
+
+表意愿
+
+å like + godt / bedre / best å gjøre … = vil gjerne / heller / helst gjøre …
+
+| With «like»                            | With «vil»                         |
+| -------------------------------------- | ---------------------------------- |
+| Jeg liker godt å jogge.                | Jeg vil gjerne jogge.              |
+| Jeg liker bedre å gå på ski.           | Jeg vil heller gå på ski.          |
+| Jeg liker best å slappe av i sofaen.   | Jeg vil helst slappe av i sofaen.  |
+| Jeg liker godt å snakke norsk.         | Jeg vil gjerne snakke norsk.       |
+| Jeg liker bedre å snakke italiensk.    | Jeg vil heller snakke italiensk.   |
+| Jeg liker best å snakke kinesisk.      | Jeg vil helst snakke kinesisk.     |
+
+
 
 
 --------------------------------------------------------------------------------
@@ -957,6 +1032,9 @@ Det er et betydningsfullt øyeblikk i livet ditt. → It is a significant moment
 | å prioritere noe                       | to prioritize sth                  |
 | å legge vekt på noe [note vekt here without any article] | to emphasize sth |
 | det er stor vekt på …                  | there is great emphasis on …       |
+| å skåre høyt på noe                    | to score high on sth               |
+| å fokusere på noe                      | to focus on sth                    |
+| noe blir vektlagt                      | sth is emphasized                  |
 
 
 

@@ -1994,39 +1994,60 @@ ref:
 
 --------------------------------------------------------------------------------
 
+**så + adj + sammenlignet med ...** = as + adj + compared to ...
+
+En ny studie viser at folk går opp i vekt *fire ganger så fort* etter de slutter med fedmemedisin *sammenlignet med* andre metoder for vektnedgang.  
+→ People gain weight *four times as fast* after they stop obesity medication *compared to* other methods of weight loss.
+
+--------------------------------------------------------------------------------
+
 <span style="color: #00CC66;">表相同级别或程度</span>
 
-er som ... → is as/like ...
+**like + adj** → same + adj
 
-Han er så høy som broren sin.  
-→ He is as tall as his brother.
+Barna våre er like gamle.  
+→ Our children are the same age.
 
-Hun er like gammel som meg.  
-→ She is as old as me.
+Vi løper like fort.  
+→ We run equally fast.
+
+**er som + noe(n)** → is like + sth/sb
+
+Han er *som* faren sin.  
+→ He is like his father.
+
+Det er *som* i går.  
+→ It is like yesterday.
+
+Det er *som* en drøm.  
+→ It is like a dream.
 
 En kvinne uten mann er som en fisk uten sykkel.  
 → A woman without a man is like a fish without a bicycle.
 
-Han er som faren sin.  
-→ He is like his father.
+**er like + adj + som noe(n)** → is as/like + adj + as sb/sth
 
-Det er som i går.  
-→ It is like yesterday.
+> som 后面接比较对象  
+>
+> like 后面不一定是形容词，可以是副词或名词等。见下例。
 
-Det er som en drøm.  
-→ It is like a dream.
+Han er *så/like høy som* broren sin.  
+→ He is as tall as his brother.
 
---------------------------------------------------------------------------------
+Hun er *like gammel som* meg.  
+→ She is as old as me.
 
-**like ... som ...** → as ... as ...
+Jeg løper *like fort som* deg.  
+→ I run as fast as you.
 
-Hun er like høy som broren sin.  
-→ She is as tall as her brother.
-
-Hun snakker like godt norsk som meg.  
+Hun snakker *like godt* norsk som** meg.  
 → She speaks Norwegian as well as I do.
 
+Jeg liker fisk *like godt som* kjøtt.  
+→ I like fish as much as meat.
 
+Det er *like* mange elever i år *som* i fjor.  
+→ There are as many students this year as last year.
 
 --------------------------------------------------------------------------------
 

@@ -136,9 +136,10 @@ Jenter og gutter bør få samme oppdragelse.
 - Mennesker bør ha like grunnleggende ferdigheter uavhengig av kjønn. Dette inkluderer ferdigheter som kommunikasjon, samarbeid, selvstendighet og problemløsning. Alle må leve selvstendig en dag. Når dagen kommer, må de klare seg selv. De må lagge sin egen mat, vaske klærne sine, betale regninger, og så videre. Derfor bør både jenter og gutter lære disse ferdighetene fra en tidlig alder.
 
 - I det andre, forventer for menn og kvinner er mer like nå enn før. Tidligere var det mer tradisjonelle kjønnsroller, der menn ble forventet å være forsørgere og kvinner å ta seg av hjemmet og barna. Nå er det mer vanlig at både menn og kvinner jobber utenfor hjemmet og deler på husarbeidet og barneoppdragelsen. Derfor oppdragelsen bør være lik for begge kjønn.
-  
+
 - Videre, ved å gi både jenter og gutter samme oppdragelse, kan vi bidra til å kjønnlikestilling og respekt. Dette fører til mindre distriminering og stereotyper basert på kjønn, og skaper et mer inkluderende samfunn der alle har like muligheter til å lykkes.
 
+- Sett utenifra, kan menns oppførsel virke feminin og kvinners oppførsel maskulin. Begge bryr seg stort om barn og familie. Begge er toppsjefer, gjør fysisk arbeid, jobber som politi og i militæret. Kvinner og menn har byttbare roller i det norske samfunnet. 
 
 **Synes du at ungdom bør hjelpe til med husarbeid hjemme?**
 
@@ -460,7 +461,7 @@ sammfunnsnyttig: socially useful
 - det er rent snobberi → It is pure snobbery
 - understreke viktigheten av ... → emphasize the importance of ...
 
-  Vi må verdsette alle yrke på samme måte. → We must value all professions in the same way.  
+  Vi må *verdsette* alle yrke på samme måte. → We must *value* all professions in the same way.  
   Vi må *verdsette* alle yrke likt. → We must *value* all professions equally.  
   Vi må *behandle* alle yrke likt. → We must *treat* all professions equally.
 
@@ -597,9 +598,16 @@ en fremmed vs. å fremme
 
 - å fremme: to promote, advance
 
-- en fremmed: foreigner, stranger
+- en fremmed: foreigner, stranger 陌生人
   
-  fremmede (plural)
+  <span style="color: #00CC66;">fremmede</span> (plural)
+
+  være glad i å møte fremmede → be happy to meet strangers  
+  være redd for å snakke med fremmede → be afraid to talk to strangers
+
+- fremmed kultur → foreign culture
+  
+  å være fremmed for noe → to be unfamiliar with sth
 
 
 
@@ -1121,14 +1129,45 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 
 ## Folkehelse
 
-| Norsk                                                      | English                    |
-| ---------------------------------------------------------- | -------------------------- |
-| hals                                                       | throat                     |
-| <a href="#cold">forkjølelse</A>                            | cold                       |
-| hodepine                                                   | headache                   |
-| fedme / overvekt                                           | obesity                    |
-| vektnedgang                                                | weight loss                |
-| ernæring / næring                                          | nutrition                  |
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| hals                                   | throat                             |
+| sår hals                               | sore throat 嗓子痛                  |
+| tett nese                              | stuffy nose 鼻塞                    |
+| <a href="#cold">forkjølelse</A>        | cold 感冒                           |
+| influensa                              | flu 流感                           |
+| feber                                  | fever 发烧                         |
+| hoste                                  | cough 咳嗽                         |
+| kvalme                                 | nausea 恶心                        |
+| svimmelhet                             | dizziness 头晕                     |
+| diaré                                  | diarrhea 腹泻                      |
+| munnsår                                | canker sore 口腔溃疡                |
+| forkjølelsessår                        | cold sore 唇疱疹                    |
+| muskelsmerter                          | muscle pain                        |
+| hodepine                               | headache                           |
+| halsbrann                              | heartburn 胃酸回流，胃灼热            |
+| fedme / overvekt                       | obesity                            |
+| tykk, tykt, tykke                      | thick, fat                         |
+| tynn                                   | thin, slim                         |
+| i tykt og tynt                         | through thick and thin 风雨同舟，同甘共苦|
+| vektnedgang / vekttap                  | weight loss                        |
+| metthet                                | satiety /səˈtaɪəti/, fullness      |
+| ernæring / næring                      | nutrition                          |
+| en kur                                 | a cure, treatment                  |
+| et kjerringråd                         | a home remedy, folk medicine       |
+| vondt                                  | pain, ache                         |
+| å ha vondt i magen/kroppen             | to have pain in the stomachache/body |
+
+减肥反弹 
+
+En ny studie viser at folk går opp i vekt *fire ganger så fort* etter de slutter med fedmemedisin *sammenlignet med* andre metoder for vektnedgang.  
+→ A new study shows that people gain weight four times as fast after they stop using obesity medication compared to other methods of weight loss.
+
+Anderson *hadde effekt av å* bruke fedmemedisin, men da han sluttet *gikk* vekta opp igjen. (V2-regelen)  
+→ Anderson experienced the effect of using obesity medication, but when he stopped, his weight went up again.
+
+Den tapte vekten kommer tilbake på under to år. → The lost weight returns in less than two years.
+
 
 er<span style="color: #00CC66;">nær</span>ing 注意与 er<span style="color: #00CC66;">far</span>ing 区分
 
@@ -1136,47 +1175,116 @@ er<span style="color: #00CC66;">nær</span>ing 注意与 er<span style="color: #
 - erfaring = experience 经验
 
 
-| Norsk                                                      | English                    |
-| ---------------------------------------------------------- | -------------------------- |
-| protein                                                    | protein (en 同 no)         |
-| mindre fett                                                | less fat                   |
-| måltid                                                     | meal                       |
-| en sunn kost                                               | a helthy diet              |
-| et sunt kosthold                                           | a healthy diet             |
-| livsstil                                                   | lifestyle                  |
-| fysisk aktivitet                                           | physical activity          |
-| trening                                                    | exercise                   |
-| kondisjon                                                  | fitness                    |
-| helseforsikring                                            | health insurance           |
-| helsetjenester                                             | healthcare services        |
-| helsekost                                                  | health food                |
-| varietet [varietˈet]                                       | variety (en 同 no)         |
-| være i form                                                | stay in shape              |
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| protein                                | protein (en 同 no)                 |
+| mindre fett                            | less fat                           |
+| måltid                                 | meal                               |
+| en sunn kost                           | a helthy diet                      |
+| et sunt kosthold                       | a healthy diet                     |
+| livsstil                               | lifestyle                          |
+| fysisk aktivitet                       | physical activity                  |
+| trening                                | exercise                           |
+| kondisjon                              | fitness                            |
+| helseforsikring                        | health insurance                   |
+| helsetjenester                         | healthcare services                |
+| helsekost                              | health food                        |
+| varietet [varietˈet]                   | variety (en 同 no)                 |
+| være i form                            | stay in shape                      |
 | være til <span style='color:#00CC66'>byrde for</span> noen | be a bother / burden to sb |
-| være redd for å bli alvorlig syk                           | be afraid of becoming seriously ill |
-| søvnløshet                                                 | insomnia 失眠               |
-| uro                                                        | anxiety; restlessness; unease |
+| være redd for å bli alvorlig syk       | be afraid of becoming seriously ill |
+| søvnløshet                             | insomnia 失眠                       |
+| uro                                    | anxiety; restlessness; unease      |
 
 en byrde [by`r-də]: burden, load
 
-| Norsk                                                      | English                    |
-| ---------------------------------------------------------- | -------------------------- |
-| restemat                                                   | food leftovers             |
-| søppelbøtte / søppelkasse                                  | trash can / garbage bin    |
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| restemat                               | food leftovers                     |
+| rester (fleretall av *rest*)           | remainder, residual, remnants      |
+| søppelbøtte / søppelkasse              | trash can / garbage bin            |
+
+Vi skal ha *restemat* til middag i dag.  
+→ We are having food leftovers for dinner today. 今天吃剩饭。
+
+Det *blir rester* (igjen) fra middagen. / Vi *får rester* etter middagen.  
+→ There will be leftovers from dinner. / We will have leftovers after dinner.
 
 søppelbøtte → 家用垃圾箱
 
 søppelkasse → 公共垃圾箱
 
+--------------------------------------------------------------------------------
 
+**Sår**
+
+- n. a wound; a sore
+- adj. sore, irritated, sensitive, often caused by cold or dryness (由于寒冷或干燥导致的)皮肤敏感
+
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| et sår                                 | a wound; a sore                    |
+| å få et sår                            | to get a wound / a sore            |
+| å behandle et sår                      | to treat a wound / a sore          |
+| å rense et sår                         | to clean a wound / a sore          |
+| å være/bli sår                         | to be/get sore                     |
+| å være sårbar for noe                  | to be vulnerable to sth            |
+
+
+Huden blir sår og tørr om vinteren.  
+→ The skin becomes sore and dry in winter.
+
+Leppene mine blir fort såre i kulda.  
+→ My lips quickly become sore in the cold.
+
+--------------------------------------------------------------------------------
+
+«<span style="color: #00CC66;">sårbar</span>»: vulnerable, fragile, sensitive
+
+- en sårbar punkt → a weak point
+
+Huden er *sårbar*.  
+→ The skin is sensitive/vulnerable.
+
+Huden er *sårbar* etter solbrenthet.  
+→ The skin is sensitive/vulnerable after sunburn.
+
+Et barn kan være veldig *sårbart* følelsesmessig.  
+→ A child can be very emotionally vulnerable.
+
+Hun *følte seg sårbar* etter å ha mistet jobben.  
+→ She felt vulnerable after losing her job.
+
+--------------------------------------------------------------------------------
+
+区别于 «Utsatt»
+
+<span style="color: #00CC66;">Utsatt for noe</span> → exposed to sth (danger or risk)
+
+Huden er *utsatt for* frostskader.  
+→ The skin is exposed to frostbite.
+
+Huset ligger *utsatt til for* vind og storm.  
+→ The house is exposed to wind and storms.
+
+Barn er spesielt *utsatt for* smittsomme sykdommer.  
+→ Children are especially vulnerable to infectious diseases.
+
+Han stod *utsatt* alene på fjellet i mørket.  
+→ He stood exposed alone on the mountain in the dark.
+
+--------------------------------------------------------------------------------
 
 **噪音**
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
 | bråk                                   | noise                              |
+| bråkete, bråkete, bråkete (无形变)      | noisy                              |
 | <span style="color: #00CC66;">støy</span> | background noise              |
 | en lyd                                 | a sound                            |
+| å skrike                               | to scream                          |
+| å snakke høyt                          | to talk loudly                     |
 
 Lyder med høy tone, som barn som skriker, er <span style='color:#00CC66'>irriterende</span> for meg. → High-pitched sounds, like children screaming, are irritating to me.
 
@@ -1192,7 +1300,7 @@ Lyder med høy tone, som barn som skriker, er <span style='color:#00CC66'>irrite
   Handle om spisevaner og livsstil
 
 
-Trening og kosthold utgjør en stor del av en sunn livsstil. → Exercise and diet make up a large part of a healthy lifestyle.
+Trening og kosthold *utgjør en stor del av* en sunn livsstil. → Exercise and diet make up a large part of a healthy lifestyle.
 
 Common food:
 
@@ -1201,7 +1309,7 @@ Common food:
 - Søppelmat: skadelig for helsen; typisk mat som inneholder mye fett, sukker og salt; svært prosessert mat;
   potetgull (chips / crisps), brus, godteri (candy), 
   hurtigmat (fast food): pommes frites [påmfri´t:], nuggets, hamburgere, pizza, pølser
-- snacks (same as eng.)
+- snacks (same as eng.): mørk sjokolade, nøtter, kjeks
 - sukker, salt, krydder
 
 
@@ -1326,7 +1434,13 @@ verb
 - Jeg prøver å unngå *å bli forkjølet*. → I’m trying to avoid catching a cold.
 - Jeg *forkjølet meg* i helgen. → I *caught a cold* over the weekend.
 
-å huste → to cough 咳嗽
+å **hoste** → v. to cough 咳嗽
+
+hoste(n) → n. cough 
+
+Et kjerringråd for å bli kvitt hoste er å drikke varm te med honning.  
+→ A home remedy to get rid of a cough is to drink warm tea with honey.
+
 
 --------------------------------------------------------------------------------
 
@@ -1395,6 +1509,16 @@ Jorden beveger seg rundt solen the earth revolves around the sun → The earth r
 | --------------------------------------------------- | ------------------------------------------- |
 | likehet                                             | equality 公平                               |
 | likestilling                                        | equality                                    |
+| egalitær                                            | egalitarian 平等主义的                        |
+
+- Vi bør arbeide for et mer egalitært samfunn.  
+  → We should work for a more egalitarian society.
+
+- Vi prøver å få til at ingen føler seg bedre eller dårligere enn andre. 
+  → We try to ensure that no one feels better or worse than others.
+
+| Norsk                                               | English                                     |
+| --------------------------------------------------- | ------------------------------------------- |
 | frihet                                              | freedom 自由                                |
 | rettferdig / urettferdig                            | fair / unfair                               |
 | rettferdighet                                       | justice 公正                                |
