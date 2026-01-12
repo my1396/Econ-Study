@@ -1966,26 +1966,26 @@ Det er mye folk i byen når det er fotballkamp.
 
 --------------------------------------------------------------------------------
 
-**过去分词 adj 的比较级**
+**过去分词 adj 的比较级** («-ert» partisipp)
 
-- Jeg blir mer interessert i norsk jo bedre jeg forstår det.  
+- Jeg blir *mer interessert* i norsk jo bedre jeg forstår det.  
   → I become more interested in Norwegian the better I understand it.
-- Hun er mer interessert i økonomi enn i markedsføring.  
+- Hun er *mer interessert* i økonomi enn i markedsføring.  
   → She is more interested in economics than in marketing.
-- Studentene ble mer interessert etter at læreren forklarte temaet på en enklere måte.  
+- Studentene ble *mer interessert* etter at læreren forklarte temaet på en enklere måte.  
   → The students became more interested after the teacher explained the topic in an easier way.
-- Han virker mer forberedt til eksamen nå.  
+- Han virker *mer forberedt* til eksamen nå.  
   → He seems more prepared for the exam now.
 
-**现在分词 adj 的比较级**
+**现在分词 adj 的比较级** («-ende» partisipp)
 
-- Filmen var bra, men boka var mer spennende.  
+- Filmen var bra, men boka var *mer spennende*.  
   → The movie was good, but the book was more exciting.
-- Jeg synes den andre delen av serien er mer spennende enn den første.  
+- Jeg synes den andre delen av serien er *mer spennende* enn den første.  
   → I think the second part of the series is more exciting than the first.
-- Det er alltid mer spennende å reise til et nytt sted.  
+- Det er alltid *mer spennende* å reise til et nytt sted.  
   → It is always more exciting to travel to a new place.
-- Historien ble mer spennende etter hvert kapittel.  
+- Historien ble *mer spennende* etter hvert kapittel.  
   → The story became more exciting after each chapter.
 
 ref:

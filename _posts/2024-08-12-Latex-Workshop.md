@@ -238,18 +238,28 @@ Note there are two special values:
 
 --------------------------------------------------------------------------------
 
-## View PDF
+## SyncTeX
 
-- **Forward/Direct synctex** (source to pdf) can either be activated by selecting 'Navigate, select, and edit' > 'SyncTeX from cursor' in the side bar, or by the shortcut `cmd`+`option`+`j` (on Mac).
+[SyncTeX](https://github.com/James-Yu/latex-workshop/wiki/View#synctex) allows you to jump between the source `.tex` file and the compiled PDF file. This helps you to quickly locate the relevant part of the document when editing or reviewing.
+
+First, enable SyncTeX in the `settings.json`:
+
+```json
+// enable 
+"latex-workshop.synctex.afterBuild.enabled": true
+```
+This setting syncs PDF with cursor position after compiling, which defaults to `false`.
+
+- **Forward/Direct synctex** (source to pdf) can either be activated by selecting "<i class="codicon codicon-edit" aria-hidden="true" style="vertical-align: middle;"></i> Navigate, select, and edit" > "<i class="codicon codicon-go-to-file" aria-hidden="true" style="vertical-align: middle;"></i> SyncTeX from cursor" in the side bar <i class="fa-brands fa-tex" style="font-size:1.5em; vertical-align: middle;"></i>. 
   
-    ```json
-    // enable 
-    "latex-workshop.synctex.afterBuild.enabled": true
-    ```
+  Alternatively, use the shortcut <span class="env-green">`cmd`+`option`+`j`</span> (on Mac). ✅
 
-    The setting syncs PDF with cursor position after compiling., defaults to `false`.
 
-- **Backward/Reverse** synctex (pdf to source) is activated by pointing at the relevant element of the pdf preview. When using the internal viewer, the default keybinding to point at an element in the pdf preview is `cmd+click`. It can be changed to `double-click` using the setting [`latex-workshop.view.pdf.internal.synctex.keybinding`](https://github.com/James-Yu/latex-workshop/wiki/View#latex-workshopviewpdfinternalsynctexkeybinding).
+- **Backward/Reverse** synctex (pdf to source) is activated by pointing at the relevant element of the pdf preview. 
+  
+  When using the internal viewer, the default keybinding to point at an element in the pdf preview is `cmd+click`. 
+  
+  It can be changed to `double-click` using the setting [`latex-workshop.view.pdf.internal.synctex.keybinding`](https://github.com/James-Yu/latex-workshop/wiki/View#latex-workshopviewpdfinternalsynctexkeybinding).
   
   ```json
   "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click"
