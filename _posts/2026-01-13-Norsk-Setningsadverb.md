@@ -26,7 +26,9 @@ Setningsadverbial examples:
 --------------------------------------------------------------------------------
 
 
-**Placement:** (plassering)
+## Plassering
+
+**Placement of «setningsadverb»:**
 
 - **句中:** 动词后
   
@@ -38,12 +40,25 @@ Setningsadverbial examples:
 
 - **句首:** 后面句子记得倒装，动词提前
   
-  Stå **først i helsetninger** når de får ekstra vekt. 注意句子倒装 V2-regelen。
+  Stå **først i helsetninger** når de får ekstra vekt. 注意句子倒装 V2-regel。
   
   - *Heldigvis* klarte jeg førerprøven. 
   - *Faktisk* klarte jeg førerprøven. 
   - *Dessverre* klarte jeg ikke førerprøven. 
   - *Antakelig* hadde jeg uflaks.
+
+  **特例:** 放在句首但<span style="color: #00CC66;">不倒装</span>。此情况下，adverbial (句子状语) 后<span style="color: #00CC66;">必须接逗号 (`,`)</span>。
+
+  - Derimot fryser kaldt vann magen. (无逗号 + 倒装) → 更简单
+  - Derimot, kaldt vann fryser magen. (逗号 + 正常语序) → 更正式，konvensjonell språkbruk
+  
+  
+  <div style="height:6px;"><br></div>
+  > Adverbial med komma før en helsetning er vanskeligere å forklare, men helt normal og konvensjonell språkbruk.  
+  >
+  > Adverbialet fungerer som et slags bindeledd, men det må være komma etter på grunn av at det begynner en helsetning etter.  
+  > 
+  > Hadde verbalet/verbet stått etter, kunne det ikke vært komma.
 
 - **从句:** 动词前
   
@@ -55,9 +70,12 @@ Setningsadverbial examples:
 
 > 🎯 在主句中，setningsadverb 通常放在句子的开头或动词之后。在从句中，它们要放在动词之前。
 
+<span style="color: #00CC66;">«**Ikke**»</span> 的位置详见: <a href="{{site.baseurl}}/2024/02/18/Norsk-Ikke.html">Placement of «Ikke» i Leddsetninger</a>.
+
+
 --------------------------------------------------------------------------------
 
-**kanskje**
+## kanskje
 
 «Kanskje» står ofte først i en setning. 
 
@@ -85,7 +103,7 @@ Setningsadverbial examples:
 
 --------------------------------------------------------------------------------
 
-**også**
+## også
 
 - «Også» står ofte i midtfeltet:
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: VS code Extension – LaTeX Workshop
+title: VS Code Extension – LaTeX Workshop
 tag: programming
 update: 2025-08-01
 ---

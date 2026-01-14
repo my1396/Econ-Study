@@ -4,6 +4,8 @@ tag: Norsk
 title: "Placement of «Ikke» i Leddsetninger"
 ---
 
+<a class="top-link hide" href="#" id="js-top">↑</a>
+
 ## Helsetninger
 
 Her er en helsetning:
