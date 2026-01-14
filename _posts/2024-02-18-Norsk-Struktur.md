@@ -757,7 +757,7 @@ Det var isglatt på veiene, og det **førte til** kaos.
 
 **Because** 原因
 
-> Fordi; <span style="color: #00CC66;">ettersom;</span>; av den grunn at; siden; 
+> fordi; <span style="color: #00CC66;">ettersom;</span>; av den grunn at; siden; 
 
 **Ettersom** Jon løp så fort han kunne, rakk han bussen.   
 → Because Jon ran as fast as he could, he caught the bus.
@@ -830,6 +830,26 @@ Note: «antakelig» can also mean «akseptabel».
 | sannsynlig                             | likely                             |
 | trolig                                 | likely                             |
 | nok                                    | 也可作 probably 使用                 |
+| visstnok                               | (most) likely; reportedly 据说      |
+
+
+- Hun er *visstnok* intelligent, men ikke noe geni.  
+  → Sure she's intelligent, but no genius. / She is intelligent to be sure, but no genius.
+
+- De er *visstnok* slektninger.  
+  → They are reportedly relatives.
+
+--------------------------------------------------------------------------------
+
+<span style="color: #00CC66;">**Eventuelt**</span> → if necessary; if applicable; if needed
+
+- Ta kontakt med lege, og *eventuelt* med sykehus.  
+  → Contact a doctor and, if necessary, a hospital.
+- Send dokumentet på e-post, eller *eventuelt* lever det personlig.  
+  → Send the document by email or, alternatively, deliver it in person.
+- Møtet kan holdes digitalt, *eventuelt* utsettes.  
+  → The meeting can be held digitally or, if necessary, postponed.
+
 
 --------------------------------------------------------------------------------
 

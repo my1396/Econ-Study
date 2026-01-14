@@ -9,15 +9,26 @@ update: 2026-01-13
 
 
 Setningsadverb (sentence adverbs) 是用来修饰整个句子的副词，表示说话者对所述内容的态度或观点。
-> 常见的 setningsadverb 包括：
+> 常见 setningsadverb:
 > 
 > ikke, aldri, ofte, alltid, kanskje, gjerne, også,  
-> dessverre, heldigvis, sannsynligvis, faktisk, selvfølgelig,  
+> derimot, dessverre, heldigvis, sannsynligvis, faktisk, selvfølgelig,  
 > antageligvis, tydeligvis, muligens, faktisk, faktisk, egentlig, visstnok
+
+Q: What's the difference between setningsadverb and setningsadverbial?  
+A: Setningsadverbial (句子状语) 是一个更广泛的概念, 包括 setningsadverb (句子副词) 以及其他类型的句子成分（如副词短语、介词短语，也可以是从句）用来修饰整个句子。
+
+Setningsadverbial examples:
+
+- *Etter min mening* er dette en god idé. (副词短语 adverbial phrase)
+- *Av og til* går jeg på kino. (介词短语 prepositional phrase)
+
+--------------------------------------------------------------------------------
+
 
 **Placement:** (plassering)
 
-- **句中**
+- **句中:** 动词后
   
   Setningsadverbene står **etter** (første del av) verbalet i **helsetninger**:
   
@@ -25,7 +36,7 @@ Setningsadverb (sentence adverbs) 是用来修饰整个句子的副词，表示�
   Vi trener *aldri* sammen.  
   Vi trener *ofte* sammen.
 
-- **句首**
+- **句首:** 后面句子记得倒装，动词提前
   
   Stå **først i helsetninger** når de får ekstra vekt. 注意句子倒装 V2-regelen。
   
@@ -34,7 +45,7 @@ Setningsadverb (sentence adverbs) 是用来修饰整个句子的副词，表示�
   - *Dessverre* klarte jeg ikke førerprøven. 
   - *Antakelig* hadde jeg uflaks.
 
-- **从句**
+- **从句:** 动词前
   
   **Foran** verbalet i **leddsetninger**:
   
@@ -42,13 +53,15 @@ Setningsadverb (sentence adverbs) 是用来修饰整个句子的副词，表示�
   Når han *aldri trener*, blir han slapp.  
   Fordi hun *alltid er* tidlig, rekker hun bussen.
 
-> 🎯 在主句中，它们通常放在句子的开头或动词之后。在从句中，它们通常放在动词之前。
+> 🎯 在主句中，setningsadverb 通常放在句子的开头或动词之后。在从句中，它们要放在动词之前。
 
 --------------------------------------------------------------------------------
 
 **kanskje**
 
-«Kanskje» står ofte først i en setning. 后面的句子选择性倒装。
+«Kanskje» står ofte først i en setning. 
+
+«Kanskje» 在句首，后面的句子<span style="color: #00CC66;">选择性倒装</span>。
 
 - 倒装
   
