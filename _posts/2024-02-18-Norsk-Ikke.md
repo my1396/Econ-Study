@@ -1,7 +1,7 @@
 ---
 layout: post
 tag: Norsk
-title: Placement of Ikke i Leddsetninger
+title: "Placement of «Ikke» i Leddsetninger"
 ---
 
 ## Helsetninger

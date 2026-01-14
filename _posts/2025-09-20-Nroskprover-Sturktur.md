@@ -31,7 +31,7 @@ A: legitimasjon (ID), hodetelefon for lytteprøven, bankkort for betaling.
 - penn og papir tilbys på prøvestedet
 - hodetelefon tilbys også, men med dårlig kvalitet. 
   
-  建议自带。推荐带降噪耳机，因为考场可能比较吵杂，能听到别人耳机的声音。
+  建议自带。推荐带降噪耳机，因为考场可能比较嘈杂，能听到别人耳机放听力的声音。降噪耳机能屏蔽掉环境噪音，听力效果更好。写作的时候也能戴着，隔绝外界干扰，更专注于写作。
 
 
 --------------------------------------------------------------------------------
