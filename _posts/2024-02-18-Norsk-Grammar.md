@@ -1785,9 +1785,11 @@ For en flott idé! → What a great idea!
 | for det tredje | in the third place  |
 
 
-| Norsk          | English             |
-| -------------- | ------------------- |
-| ta for gitt    | take for granted    |
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| ta for gitt                            | take for granted                   |
+| gjelder for noe(n)                     | apply to sth/sb                    |
+
 
 
 --------------------------------------------------------------------------------

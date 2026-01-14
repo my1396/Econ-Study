@@ -171,14 +171,14 @@ ___
 
 ### Font cmds
 
-Select the text you want to change the font, then type the prefixes below.
+Select the text you want to change the font of, then type the prefixes listed below.
+<span style="color: #00CC66;"></span>
 
-
-| Prefix | Command         | Font face         |
-| ------ | --------------- | ----------------- |
-| `FBF`  | `\textbf{ $1 }` | **Bold face**     |
-| `FIT`  | `\textit{ $1 }` | *Italic face*     |
-| `FTT`  | `\texttt{ $1 }` | `Typewriter face` |
+| Prefix | Command         | Font face                |
+| ------ | --------------- | ------------------------ |
+| `FBF`  | `\textbf{ $1 }` | **Bold face**            |
+| `FIT`  | `\textit{ $1 }` | *Italic face*            |
+| `FTT`  | `\texttt{ $1 }` | <tt>Typewriter face</tt> |
 
 More font cmds can be found [HERE](https://github.com/James-Yu/latex-workshop/wiki/Snippets#font-commands-and-snippets).
 

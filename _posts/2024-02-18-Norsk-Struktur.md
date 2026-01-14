@@ -790,7 +790,7 @@ Ida åpnet døra slik at katten kunne komme inn. → Ida opened the door so that
 
 **Emphasis** 强调
 
-> ikke minst (not least); faktisk (in fact); først og fremst (first and foremost; most important thing); 
+> <a href="#ikke-minst">ikke minst (not least);</a> faktisk (in fact); først og fremst (first and foremost; most important thing); 
 
 **For example** 举例
 
@@ -816,7 +816,24 @@ Note: «antakelig» can also mean «akseptabel».
 
 **Less likely:** mindre sannsynlig; mindre sjanse for å gjøre; mindre trolig, sannsynligheten synker; sjansen synker;
 
-**tilfeldig** 随机
+--------------------------------------------------------------------------------
+
+**可能** gå an
+
+不可能 gå ikke an → not possible
+
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| Det <span style='color:#00CC66'>går kanskje ikke an</span> å gjøre noe. | It is not possible to do. |
+| det er større *sannsynlighet* for at … | there is a greater probability that … |
+| antakelig / antagelig                  | probably 可能                       |
+| sannsynlig                             | likely                             |
+| trolig                                 | likely                             |
+| nok                                    | 也可作 probably 使用                 |
+
+--------------------------------------------------------------------------------
+
+<span style="color: #00CC66;">**tilfeldig**</span> 随机
 
 Spørsmålene du får, er *tilfeldige* og bestemmes av *ren tilfeldighet*.  
 → The questions you receive are totally random and determined by pure chance.
@@ -826,6 +843,8 @@ Spørsmålene blir valgt tilfeldig.
 
 Valget er bassert på tilfeldighet.  
 → The selection is based on randomness.
+
+区别于 «i tilfelle», in case, 表条件
 
 --------------------------------------------------------------------------------
 
@@ -958,7 +977,7 @@ Jo før, jo heller.
 | -------------------------------------- | ---------------------------------- |
 | rett og slett                          | simply (need to do sth)            |
 | det er <span style="color: #00CC66;">avgjørende</span> at … | it is crucial that … |
-| det er helt avgjørende at …            | it is absolutely crucial that …    |
+| det er helt *avgjørende* at …            | it is absolutely crucial that …    |
 | det er i hvert fall *på sin plass* at … | It is certainly fitting that …    |
 | det er nødvendig å …                   | it is necessary to …               |
 | <span style='color:#00CC66'>vesentlig</span> [ve:´s(ə)ntli] | significant   |
@@ -1027,14 +1046,15 @@ Det er et betydningsfullt øyeblikk i livet ditt. → It is a significant moment
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
-| sette / verdsette noe høyt             | to highly value sth                |
-| å satse på noe                         | to go in for sth; to bet on sth    |
+| <span style="color: #00CC66;">sette / verdsette</span> noe høyt | to highly value sth                |
+| å <span style="color: #00CC66;">satse</span> på noe             | to go in for sth; to bet on sth    |
 | å prioritere noe                       | to prioritize sth                  |
-| å legge vekt på noe [note vekt here without any article] | to emphasize sth |
+| å *legge vekt på* noe [note vekt here without any article]        | to emphasize sth                   |
 | det er stor vekt på …                  | there is great emphasis on …       |
-| å skåre høyt på noe                    | to score high on sth               |
+| å *skåre høyt* på noe                  | to score high on sth               |
 | å fokusere på noe                      | to focus on sth                    |
-| noe blir vektlagt                      | sth is emphasized                  |
+| noe blir *vektlagt*                    | sth is emphasized                  |
+| Det er *ikke minst* viktig at …        | It is not least important that … <br/> It is especially important that … |
 
 
 
@@ -1042,40 +1062,39 @@ Det er et betydningsfullt øyeblikk i livet ditt. → It is a significant moment
 
 Man kan <span style='color:#00CC66'>se på som</span> ....
 
-Man kan se på som en positiv utvikling og et resultat av at ... → It can be viewed as a positive development and a result of ...
+- Man *kan se på som* en positiv utvikling og et resultat av at ...   
+  → It can be viewed as a positive development and a result of ...
+
+--------------------------------------------------------------------------------
+
+<a id="ikke-minst"></a>
+<span style="color: #00CC66;">«**Ikke minst**»</span> → not least; especially, in particular; above all
+
+- Det er *ikke minst* viktig at studentene får god oppfølging.  
+  → It is especially important that students receive good follow-up.
+- Tiltaket er kostbart, og det er *ikke minst* viktig at det gir ønsket effekt.  
+  → The measure is costly, and it is especially important that it produces the desired effect.
+- Jobben krever erfaring, gode samarbeidsevner og *ikke minst* tålmodighet.  
+  → The job requires experience, good collaboration skills, and above all patience.
+- Reformen vil påvirke økonomien, arbeidsmarkedet og *ikke minst* velferdstjenestene.  
+  → The reform will affect the economy, the labor market, and above all the welfare services.
 
 
 
 --------------------------------------------------------------------------------
 
-**可能** gå an
-
-不可能 gå ikke an → not possible
-
-| Norsk                | English                   |
-|----------------------|---------------------------|
-| Det <span style='color:#00CC66'>går kanskje ikke an</span> å gjøre noe. | It is not possible to do.             |
-| det er større *sannsynlighet* for at … | there is a greater probability that … |
-| antakelig / antagelig | probably 可能             |
-| sannsynlig            | likely                   |
-| trolig                | likely                   |
-| nok                   | 也可作 probably 使用       |
-
-
-
---------------------------------------------------------------------------------
-
-**Ikke bare … men også …** 
+**Ikke bare …, men også …** 
 
 Not only … but also …
 
-**Ikke bare** blir det vanskeligere for disse kvinnene å komme seg ut i arbeidslivet, **men** det fører **også** til at barna deres ikke går i barnehage.
+**Ikke bare** blir det vanskeligere for disse kvinnene å komme seg ut i arbeidslivet, **men** det fører **også** til at barna deres ikke går i barnehage.  
+→ Not only *does* it become more difficult for these women to enter the workforce, but it also leads to their children not attending kindergarten. (英语中只有 not only 从句需要倒装。)
 
 - 两个分句 都要遵循 V2 原则
 
   **Ikke bare** **+ verb** + [subject/rest of clause] **, men også** + verb + [rest of second clause].
 
-- 注意 men også 句 ikke 的位置，提前到<u>动词之前</u>。遵从 Leddsetninger 的规则。
+- 注意 men også 句 ikke 的位置，提前到<u>动词之前</u>。遵从 Leddsetninger 中 setningsadverbial 的规则。
 
 Ex
 
@@ -1132,9 +1151,9 @@ ___
 
 **Verken … eller** (neither … nor …)
 
+| Norsk | English |
+| ----- | ------- |
 | Barn <span style='color:#00CC66'>verken</span> viser respekt for voksne <span style='color:#00CC66'>eller</span> andre barn. | Children show <span style='color:#00CC66'>neither</span> respect for adults <span style='color:#00CC66'>nor</span> other children. |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| |
 
 - distinguish from "enten … eller …", which means "either … or …"
 

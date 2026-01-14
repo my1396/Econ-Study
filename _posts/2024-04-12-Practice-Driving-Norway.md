@@ -561,6 +561,13 @@ Mandatory roadworthiness test (“EU test”)
 
 **Price:** <span class="env-green">1550 kr</span> (As of 2025).
 
+<a id="EU-kontroll-paper-receipt"></a>
+<object class="pdf" 
+        data="/Econ-Study/images/EU-Kontroll.pdf"
+        width="800"
+        height="500">
+</object>
+
 注意: 车送厂车检或者保养都有手续费，如果有什么事情在同期，尽量安排在一起。
 
 > As long as your vehicle passes the test and is approved before the deadline, it is up to you how early you wish to have your vehicle tested. The deadline is final, so you should makes sure you have enough time to take the main test, to fix any defects the test may reveal, and to have the vehicle reinspected and approved.
@@ -569,14 +576,31 @@ Mandatory roadworthiness test (“EU test”)
 
 > - Latest approved mandatory roadworthiness test
 >
->   31.01.2024
+>   13.01.2026
 >
 > - Deadline for approved mandatory roadworthiness test
 >
->   03.02.2026
+>   <span class="env-green">**03.02.2028**</span>
 
-We will send you a reminder of the test two months before the deadline expires.
+Nordvik will send a reminder of the test by mails *two months* before the deadline expires.
 
+**Timeline for EU-kontroll:**
+
+- Book an appointment, ideally 3 months before the deadline, just in case there are issues to fix.
+  
+  Booked time on 2025-12-01. EU-kontroll expires on 2026-02-03.
+
+  This time I booked the EU-kontroll 2 months before the deadline. Got an appointment one month after. It was enough time before the deadline. That's when the car is at a good condition of course.
+
+- Take the car to the garage for the test.
+  
+  2026-01-14
+  
+  If the car passes the test, you will receive a certificate of approval.
+
+  The EU-kontroll is rather quick, taking about 1 hour then you can collect your car.
+
+--------------------------------------------------------------------------------
 
 Q: How often is the EU-kontroll?  
 A: Every 2 years.
@@ -592,9 +616,9 @@ The price of a mandatory roadworthiness test is determined by the individual gar
 
 Might as well do the EU-kontroll at Toyota Nordvik AS Bodø where I do the maintenance. If possible, arrange the EU-kontroll right after the maintenance.
 
-Nordvik Bodø: Bestill EU-kontroll via [link](https://www.nordvik.no/verksted). Use Chrome browser to open the link. Safari won't allow the pop-up window. [Not sure this works.]
+Nordvik Bodø: Bestill EU-kontroll via [link](https://www.nordvik.no/verksted). Use Chrome browser to open the link. Safari won't allow the pop-up window. [This works. Takes about one day to get the appointment confirmation by email.]
 
-✅ Call [+ 47 7552 9100](tel:+4775529100) to book the EU-kontroll with Nordvik. 
+✅ Call [+ 47 7552 9100](tel:+4775529100) to book the EU-kontroll with Nordvik. Accept an appointment whatsoever. You can then call after, to check if there is any slot available earlier.
 
 <img src="https://drive.google.com/thumbnail?id=1ISBOsif4ofvOIzxbQU0KPZ_V_L9WpjZi&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:40%;" />
 

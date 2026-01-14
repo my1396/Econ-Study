@@ -1191,6 +1191,7 @@ er<span style="color: #00CC66;">nær</span>ing 注意与 er<span style="color: #
 | helsekost                              | health food                        |
 | varietet [varietˈet]                   | variety (en 同 no)                 |
 | være i form                            | stay in shape                      |
+| å holde <span style="color: #00CC66;">seg</span> i form | to keep fit     |
 | være til <span style='color:#00CC66'>byrde for</span> noen | be a bother / burden to sb |
 | være redd for å bli alvorlig syk       | be afraid of becoming seriously ill |
 | søvnløshet                             | insomnia 失眠                       |
