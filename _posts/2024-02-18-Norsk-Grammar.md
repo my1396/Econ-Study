@@ -7,13 +7,7 @@ title: Norsk Grammar
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
 
-副词在句首的倒装
 
-<u>I tillegg</u> **har** vi både barnetrgd og kontantstøtte.
-
-<u>Selv</u> **er** jeg motstander av kontantstøtte.
-
-<u>Dermed</u> **hindrer** kontantstøtten både likestilling og integrering.
 
 
 
@@ -108,7 +102,17 @@ skal, vil, kan, må, bør
 
 Ordstilling / V2-regelen
 
-Adverbet «kanskje» er et unntak fra ordstillingsregelen. Når «kanskje» står på 1. plass, kan du velge om du vil sette verbalet eller subjektet på 2. plass. 
+副词/状语 在句首: 后面的句子倒装
+
+<u>I tillegg</u> **har** vi både barnetrygd og kontantstøtte.
+
+<u>Selv</u> **er** jeg motstander av kontantstøtte.
+
+<u>Dermed</u> **hindrer** kontantstøtten både likestilling og integrering.
+
+--------------------------------------------------------------------------------
+
+Adverbet «**kanskje**» er et <span class="env-orange">unntak</span> fra ordstillingsregelen. Når «kanskje» står på 1. plass, <span style="color: #00CC66;">kan du velge om</span> du vil sette verbalet eller subjektet på 2. plass. 
 
 1. Kanskje kommer han i morgen. ✅
 2. Kanskje han kommer i morgen. ✅
@@ -148,8 +152,13 @@ Q: Where to put setningsadverbial «ikke»?
 
 其他 setningsadverbialer 同 «ikke»: aldri, alltid, virkelig, sannelig, ...
 
-ref: [Er «kanskje» et unntak fra ordstillingsregelen?](https://www.grammatikk.no/blog/85881-er-kanskje-et-unntak-fra)
+Further readings:
 
+- [Er «kanskje» et unntak fra ordstillingsregelen?](https://www.grammatikk.no/blog/85881-er-kanskje-et-unntak-fra)
+
+- <a href="{{site.baseurl}}/2026/01/13/Norsk-Setningsadverb.html">Norsk Grammar – Setningsadverb</a>
+
+- <a href="{{site.baseurl}}/2024/02/18/Norsk-Ikke.html">Placement of «Ikke» i Leddsetninger</a>
 
 --------------------------------------------------------------------------------
 
