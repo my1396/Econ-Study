@@ -644,6 +644,21 @@ pre.has-copy-btn:focus-within .copy-code-btn {
   color: inherit !important; // Use the link's color
 }
 
+/* Blockquote styling for light mode */
+[data-theme="light"] blockquote {
+  color: #5a5a5a !important;
+  border-left: 4px solid #d9d0b8 !important;
+  background-color: #ede8d8;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+
+[data-theme="light"] blockquote p {
+  margin: 0;
+  padding: 0em;
+  font-size: 90%;
+}
+
 /* Blockquote styling for dark mode */
 [data-theme="dark"] blockquote {
   color: #B0BEC5 !important;
@@ -656,7 +671,7 @@ pre.has-copy-btn:focus-within .copy-code-btn {
 [data-theme="dark"] blockquote p {
   margin: 0;
   padding: 0em;
-  font-size: 85%;
+  font-size: 90%;
 }
 
 /* Blockquote spacing btw paragraphs */
@@ -880,18 +895,16 @@ mjx-container[display="true"] {
 /* Table containers should also be scrollable */
 table {
   max-width: 100%;
-  overflow-x: auto;
-  display: block;
-  white-space: nowrap;
+  display: table;
+  white-space: normal;
+  word-wrap: break-word;
 }
 table {
   border: none !important; /* remove border frame surrounding the whole table */
 }
-@media screen and (min-width: 1201px) {
-  table {
-    display: table;
-    white-space: normal;
-  }
+table td, table th {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 /* Back-to-top button - Only apply in light mode */

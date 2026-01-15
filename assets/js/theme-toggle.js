@@ -60,23 +60,29 @@
         @media screen {
           :root {
             --minima-brand-color: #828282 !important;
-            --minima-brand-color-light: #e8e8e8 !important;
+            --minima-brand-color-light: #f5f5dc !important;
             --minima-brand-color-dark: #424242 !important;
             --minima-site-title-color: #424242 !important;
             --minima-text-color: #111111 !important;
-            --minima-background-color: #fdfdfd !important;
+            --minima-background-color: #f5f5dc !important;
             --minima-code-background-color: #eeeeff !important;
             --minima-link-base-color: #2a7ae2 !important;
             --minima-link-visited-color: #1756a9 !important;
             --minima-link-hover-color: #111111 !important;
-            --minima-border-color-01: #e8e8e8 !important;
-            --minima-border-color-02: #e0e0e0 !important;
+            --minima-border-color-01: #f5f5dc !important;
+            --minima-border-color-02: #e8dcc0 !important;
             --minima-border-color-03: #424242 !important;
             --minima-table-text-color: #383838 !important;
-            --minima-table-zebra-color: #f7f7f7 !important;
-            --minima-table-header-bg-color: #f0f0f0 !important;
-            --minima-table-header-border: #dedede !important;
-            --minima-table-border-color: #e8e8e8 !important;
+            --minima-table-zebra-color: #f0ead0 !important;
+            --minima-table-header-bg-color: #ede8d8 !important;
+            --minima-table-header-border: #d9d0b8 !important;
+            --minima-table-border-color: #e8dcc0 !important;
+          }
+          .site-header {
+            background-color: #f5f5dc !important;
+          }
+          .top-link {
+            background-color: #ede8d8 !important;
           }
         }
       `;

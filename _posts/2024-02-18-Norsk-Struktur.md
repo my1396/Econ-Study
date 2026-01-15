@@ -6,7 +6,7 @@ title: Norsk Struktur
 
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
-This post contains phrases commonly used in written / spoken exams for norskprøver B2. 
+This post contains phrases commonly used in *written* and *oral* exams in norskprøver B2. 
 
 - template for constructing a paragraph
 - common phrases for expressing opinions
@@ -621,12 +621,11 @@ Jeg er usikker *på* om ... → I am uncertain whether ...
 
 **However** 转折
 
-> imidlertid (meanwhile); <span style='color:#00CC66'>likevel</span> (nonetheless); fremdeles (still); egentlig (actually);
+> imidlertid (meanwhile); <span style='color:#00CC66'>likevel</span> (nonetheless); fremdeles (still); egentlig (actually); 
 
-Han kan bli oppfattet som arrogant, men egentlig er han bare sjenert. → He can be perceived as arrogant, but he is just shy. 
+Han kan bli oppfattet som arrogant, men *egentlig* er han bare sjenert. → He can be perceived as arrogant, but he is just shy. 
 
-Noe(n) kan virke ..., men ... → … seems … but …
-
+Noe(n) kan *virke* ..., men ... → … seems … but …
 
 De vil gjerne kjøpe leilighet. Alt er **imidlertid** så dyrt.  
 → They would like to buy an apartment. Everything is, however, so expensive.
@@ -634,7 +633,7 @@ De vil gjerne kjøpe leilighet. Alt er **imidlertid** så dyrt.
 Alt er utsolgt. Vi regner **imidlertid** med å få nye varer i morgen.  
 → Everything is sold out. We, however, expect to get new goods tomorrow.
 
-形近词 «midlertidig» → temporary, provisional
+形近词 «<span style="color: #00CC66;">midlertidig</span>» → temporary, provisional
 
 Han hadde feber. **Likevel** gikk han på jobb. 
 
@@ -645,10 +644,15 @@ Han gikk på jobb **selv om** han hadde feber.
 **Selv om** hun ikke har trent så mye, vil hun løpe maraton.
 
 
+--------------------------------------------------------------------------------
 
 **Contrast** 对比
 
-> derimot (on the contrary; however); på den annen / andre siden; tvert imot (on the contrary; quite the opposite);
+> derimot (on the contrary; however); på den annen / andre siden;  
+> 
+> tvert imot (on the contrary; quite the opposite);  
+>
+> i motsetning til (in contrast to); til forskjell fra (unlike); i kontrast til (in contrast to); 
 
 *For noen er … viktige argumenter for dette, mens andre er opptatt av …* → *For some, … are important reasons, while others care about …*
 
@@ -660,6 +664,20 @@ Han vil til Paris. Hun, **derimot**, vil til Roma.
 Linda vil ha et lite bryllup. Espen ønsker seg **derimot** en stor fest.  
 → Linda wants a small wedding. Espen, on the other hand, wants a big party.
 
+
+*I kontrast til* dette viser studien motsatte resultater.  
+→ In contrast to this, the study shows opposite results.
+
+*I kontrast til* byen er landsbygda roligere.  
+→ In contrast to the city, the countryside is calmer.
+
+*Til forskjell fra* søsteren sin liker han å jobbe alene.  
+→ Unlike his sister, he likes to work alone.
+
+*I motsetning til* i fjor gikk salget ned.  
+→ In contrast to last year, sales went down.
+
+--------------------------------------------------------------------------------
 
 **Concession** 让步; 尽管
 
@@ -680,16 +698,19 @@ Han liker seg her <span style="color: #00CC66;">**enda**</span> han *ikke* har f
 Hun vil løpe maraton <span style="color: #00CC66;">**enda**</span> hun *ikke* har trent så mye.  
 → She wants to run a marathon even though she hasn't trained that much.
 
+--------------------------------------------------------------------------------
 
 **Still, even now**
 
 > Fremdeles; ennå;
 
+--------------------------------------------------------------------------------
 
 **Anyway** 无论如何
 
 > i hvert fall; i alle fall; uansett; i alle tilfeller; 
 
+--------------------------------------------------------------------------------
 
 **In addition** (adding extra info)
 
@@ -697,6 +718,7 @@ Hun vil løpe maraton <span style="color: #00CC66;">**enda**</span> hun *ikke* h
 >
 > med andre ord (in other words);
 
+--------------------------------------------------------------------------------
 
 **If** (vilkår / betingelse) 条件，假设
 
@@ -716,7 +738,7 @@ Hun klarer ikke førerprøven **uten at** du hjelper henne.
 Du klarer ikke førerprøven **uten å** øve mye.  
 → You can't pass the driving test without practicing a lot.
 
-条件从句也可以没有引导词
+条件从句也可以没有引导词: 条件从句放在句首，省略引导词，并且倒装，逗号后面是主句。
 
 **Er dere sultne**, kan jeg lage mat nå. (= Hvis dere er sultne,)  
 → If you are hungry, I can cook now.
@@ -727,18 +749,47 @@ Du klarer ikke førerprøven **uten å** øve mye.
 **Har du lyst**, kan jeg hjelpe deg med oppgavene.  
 → If you want, I can help you with the tasks.
 
+--------------------------------------------------------------------------------
+
 **Unless** 除非
 
-> med mindre; 
+> med mindre (formal); hvis ikke (spoken and casual); uten at; 
 
-Med *mindre* du kommer tidlig, rekker vi ikke bussen.  
-→ Unless you come early, we won't catch the bus.
+Examples of «med mindre»:
+
+- *Med mindre* du kommer tidlig, rekker vi ikke bussen.  
+  → Unless you come early, we won't catch the bus.
+
+  Alternatively, clause at the end:
+
+  Vi rekker ikke bussen *med mindre* du kommer tidlig.  
+  → We won't catch the bus unless you come early.
+
+- Du får ikke bestått prøven *med mindre* du studerer hardt.  
+  → You won't pass the exam unless you study hard.
+- Vi kan ikke dra på tur *med mindre* været blir bedre.  
+  → We can't go on a trip unless the weather improves.
+- Vi kan ikke starte møtet *med mindre* alle er til stede.  
+  → We can't start the meeting unless everyone is present.
+
+Other expressions of "unless":
+
+- Du vil miste bussen *hvis ikke* du skynder deg.  
+  → You will miss the bus if you don't hurry.
+
+  Hvis ikke du skynder deg, vil du miste bussen.
+
+- *Uten at* du øver, vil du ikke forbedre ferdighetene dine.  
+  → Unless you practice, you won't improve your skills.
+
+- Vi kan ikke dra *uten at* alle er klare.  
+  → We can't leave unless everyone is ready.
+
+--------------------------------------------------------------------------------
 
 **So** 结果
 
 > så; altså; <span style='color:#00CC66'>derfor</span>; dermed; slik at; som følge av dette; gjøre at; føre til;   
-
-
 
 Det var streik, og **som en følge av det** kom ikke bussen.  
 → There was a strike, and as a result, the bus did not come.
@@ -753,7 +804,7 @@ Det var isglatt på veiene, og det **førte til** kaos.
 → It was icy on the roads, and that led to chaos.
 
 
-
+--------------------------------------------------------------------------------
 
 **Because** 原因
 
@@ -768,6 +819,7 @@ Han hadde feber. **Av den grunn kunne** han ikke gå på jobb.
 Hun har skadet seg, og **av den grunn** kan hun kanskje ikke løpe maraton.  
 → She has injured herself, and for that reason, she may not be able to run the marathon.
 
+--------------------------------------------------------------------------------
 
 **Intention** 目的
 
@@ -779,6 +831,7 @@ Per måtte løpe for at han skulle rekke bussen. → Per had to run so that he w
 
 Ida åpnet døra slik at katten kunne komme inn. → Ida opened the door so that the cat could come in.
 
+--------------------------------------------------------------------------------
 
 **Wrap up**; introduce the last point 总结
 
@@ -787,6 +840,8 @@ Ida åpnet døra slik at katten kunne komme inn. → Ida opened the door so that
 > avslutningvis (in conclusion); altså;
 >
 > til slutt (finally); alt i alt;
+
+--------------------------------------------------------------------------------
 
 **Emphasis** 强调
 
@@ -805,6 +860,8 @@ Ida åpnet døra slik at katten kunne komme inn. → Ida opened the door so that
 **Actually** 事实上
 
 > faktisk; virkelig; egentlig; sannelig; 
+
+--------------------------------------------------------------------------------
 
 **Possibly** 可能
 
@@ -887,6 +944,7 @@ Jeg skal ikke til Paris, og jeg skal **heller ikke** til Roma.
 Vi har ikke brød, og vi har **ikke** kaffe **heller**.  
 → We don't have bread, and we don't have coffee either.
 
+--------------------------------------------------------------------------------
 
 **heller** → rather, instead
 
@@ -905,7 +963,9 @@ Han vil heller bli hjemme.
 Jo før, jo heller.  
 → The sooner, the better.
 
-表意愿
+--------------------------------------------------------------------------------
+
+**表意愿**
 
 å like + godt / bedre / best å gjøre … = vil gjerne / heller / helst gjøre …
 
@@ -943,6 +1003,7 @@ Jo før, jo heller.
 3. indeed, really (emphasis, spoken)
 
 
+--------------------------------------------------------------------------------
 
 **In this way**
 
@@ -956,6 +1017,7 @@ Jo før, jo heller.
 | Bruk av fornybare energikilder *regens som* bærekraftig og miljøvennlig. | The use of renewable energy sources *is considered* sustainable and environmentally friendly. |
 
 
+--------------------------------------------------------------------------------
 
 **很明显**...
 
@@ -999,16 +1061,20 @@ Jo før, jo heller.
 | det er <span style="color: #00CC66;">avgjørende</span> at … | it is crucial that … |
 | det er helt *avgjørende* at …            | it is absolutely crucial that …    |
 | det er i hvert fall *på sin plass* at … | It is certainly fitting that …    |
-| det er nødvendig å …                   | it is necessary to …               |
+| det er *nødvendig* å …                   | it is necessary to …               |
 | <span style='color:#00CC66'>vesentlig</span> [ve:´s(ə)ntli] | significant   |
 
 
-Det er vesentlig for … at … → It is essential for … that …
+Det er *vesentlig* for … at …  
+→ It is essential for … that …
 
-- Det er vesentlig for elevenes læring at de får tilbakemelding fra læreren.   
+- Det er *vesentlig* for elevenes læring at de får tilbakemelding fra læreren.   
   → It is essential for students' learning that they receive feedback from the teacher.
 
-… har blitt uvesentlige, og … har blitt enda viktigere enn før.   [… have become insignificant, and … has become even more important than before.]
+新旧交替
+
+… har blitt *uvesentlige*, og … har blitt <span style="color: #00CC66;">enda viktigere enn før</span>.   
+→ … have become insignificant, and … has become even more important than before.
 
 
 --------------------------------------------------------------------------------

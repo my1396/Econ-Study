@@ -1050,12 +1050,12 @@ It connects the main clause with a subordinate clause and if there is a adverb, 
 
 ### Over
 
-| Norsk           | English       |
-|-----------------|---------------|
-| tenke over      | think about   |
-| ta over         | take over     |
-| være klar over  | be aware of   |
-| være imponert / overrasket / skuffet over | be impressed / surprised / disappointed about |
+| Norsk             | English         |
+| ----------------- | --------------- |
+| tenke *over*      | think about     |
+| ta *over*         | take over       |
+| være klar *over*  | be aware of     |
+| være imponert / overrasket / skuffet *over* | be impressed / surprised / disappointed about |
 
 **Surprise**
 
@@ -1117,7 +1117,7 @@ Jeg jobbet over tid i dag. → I worked overtime today.
 1. 表示位置 under bordet / under stolen / under broen
 2. 表示时间, during, in the course of
 
-Foran / bak
+**Foran / bak**
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |

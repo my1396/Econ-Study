@@ -65,3 +65,9 @@ On your computer, macOS is installed on a set of volumes known as a *volume gro
 ref:
 
 - [Add, delete, or erase APFS volumes in Disk Utility on Mac](https://support.apple.com/guide/disk-utility/add-delete-or-erase-apfs-volumes-dskua9e6a110/22.6/mac/15.0)
+
+
+## FAQ
+
+Q: Mac cannot find external hard drive?  
+A: Try to replug the hard drive; if it doesn't work, try to reboot the Mac.
