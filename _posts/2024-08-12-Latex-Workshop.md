@@ -64,7 +64,7 @@ This sets the background color and the spacing btw pages in the PDF viewer to **
 In the documentation, when you see "Reload vscode to apply the changes", you can do this quickly by pressing `Cmd`+`Shift`+`P` (Mac) to open the command palette, typing `Developer: Reload Window`, and pressing `Enter`.
 
 By default, LaTeX Workshop auto builds the pdf on every save. This can be too frequent and distracting.
-I set `"files.autoSave": "onFocusChange"` so that the pdf only rebuilds when I switch away from the tex file, not on every keystroke.
+I set <span class="env-green">`"files.autoSave": "onFocusChange"`</span> so that the pdf only rebuilds when I switch away from the tex file, not on every keystroke.
 
 --------------------------------------------------------------------------------
 
@@ -235,6 +235,18 @@ Note there are two special values:
 // set the default recipe to the last used one
 "latex-workshop.latex.recipe.default": "lastUsed"
 ```
+
+
+Q: LaTeX builds automatically on every save. It can be too frequent and distracting.  
+A; Add `"files.autoSave": "onFocusChange"` to your <span class="env-green">workspace `settings.json`</span> so that the pdf only rebuilds when you switch away from the tex file, not on every keystroke.
+
+Generally you still want your files to save automatically, hence in user `settings.json`, I have:
+
+```json
+"files.autoSave": "afterDelay",
+```
+
+
 
 --------------------------------------------------------------------------------
 
@@ -426,5 +438,181 @@ Suggested practice: Always pull changes from GitHub to Overleaf before pushing c
 
 ref: [GitHub synchronization](https://docs.overleaf.com/integrations-and-add-ons/git-integration-and-github-synchronization/github-synchronization)
 
+## LaTeX Workshop debug log
+
+Problems Pane: Display LaTeX Workshop debug log in output panel. [↩︎](https://github.com/james-yu/latex-workshop/wiki/compile#settings-details)
+
+There are annoying amber warning messages popping up in the LaTeX Workshop output panel, also shown in the Explorer, marked by amber color.
+
+To disable these warning messages, add the following settings to your `settings.json`:
+
+```json
+{   
+    /* Filter out LaTeX warnings from Problems panel */
+    // disable badbox warnings
+    "latex-workshop.message.badbox.show": "none", 
+    // disable biber/bibtex log warnings
+    "latex-workshop.message.biberlog.exclude": [
+        "^no", 
+        "page numbers missing",
+        "(?i)Unknown word"
+    ],
+    "latex-workshop.message.bibtexlog.exclude": [
+        "^no",
+        "page numbers missing",
+        "(?i)Unknown word"
+    ],
+    // disable specific latex log warnings
+    "latex-workshop.message.latexlog.exclude": [
+        "^Package",
+        "^LaTeX"
+    ],
+    // disable cSpell for bibtex files
+    "cSpell.enabledFileTypes": [
+      "bibtex": false,
+    ]
+}
+```
 
 
+
+
+## My Config
+
+<div style="height: 400px; overflow-y: auto;" markdown="1">
+
+```json
+{
+  // LaTeX Workshop settings
+  // "latex-workshop.view.pdf.color.dark.pageColorsBackground": "#F5F5DC",
+  // "latex-workshop.view.pdf.color.dark.backgroundColor": "#F5F5DC",
+  "latex-workshop.view.pdf.sidebar.view": "outline",
+  "latex-workshop.synctex.afterBuild.enabled": true,
+  "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+  "latex-workshop.latex.recipe.default": "lastUsed",
+  "latex-workshop.latex.outDir": "%DIR%/out_dir",
+  "latex-workshop.latex.clean.subfolder.enabled": false,
+  "latex-workshop.latex.autoClean.run": "never",
+  "latex-workshop.laterx.clean.method": "glob",
+  // Disable warning messages
+  "latex-workshop.message.warning.show": false,
+  "latex-workshop.message.error.show": true,
+  // Auxiliary files to clean
+  "latex-workshop.latex.clean.fileTypes": [
+    "*.aux",
+    "*.bbl",
+    "*.blg",
+    "*.idx",
+    "*.ind",
+    "*.lof",
+    "*.lot",
+    "*.out",
+    "*.toc",
+    "*.acn",
+    "*.acr",
+    "*.alg",
+    "*.glg",
+    "*.glo",
+    "*.gls",
+    "*.fls",
+    "*.log",
+    "*.fdb_latexmk",
+    "*.snm",
+    "*.synctex(busy)",
+    "*.synctex.gz(busy)",
+    "*.nav",
+    "*.vrb",
+    "*.synctex.gz",
+    "out_dir/*.aux",
+    "out_dir/*.bbl",
+    "out_dir/*.blg",
+    "out_dir/*.fls",
+    "out_dir/*.log",
+    "out_dir/*.fdb_latexmk",
+    "out_dir/*.synctex.gz"
+  ],
+  // LaTeX build recipes and tools
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "pdflatex ➞ bibtex ➞ pdflatex*2",
+      "tools": [
+        "pdflatex",
+        "bibtex",
+        "pdflatex",
+        "pdflatex"
+      ]
+    },
+    {
+      "name": "pdflatex ➞ pdflatex",
+      "tools": [
+        "pdflatex",
+        "pdflatex"
+      ]
+    },
+    {
+      "name": "xelatex",
+      "tools": [
+        "xelatex"
+      ]
+    },
+    {
+      "name": "latexmk 🔃",
+      "tools": [
+        "latexmk"
+      ]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ],
+      "env": {}
+    },
+    {
+      "name": "pdflatex",
+      "command": "pdflatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-output-directory=%DIR%/out_dir",
+        "%DOC%"
+      ],
+      "env": {}
+    },
+    {
+      "name": "bibtex",
+      "command": "bibtex",
+      "args": [
+        "out_dir/%DOCFILE%"
+      ],
+      "env": {
+        "BIBINPUTS": "%DIR%:",
+        "BSTINPUTS": "%DIR%:"
+      }
+    },
+    {
+      "name": "xelatex",
+      "command": "xelatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-output-directory=%OUTDIR%",
+        "%DOC%"
+      ],
+      "env": {}
+    }
+  ],
+}
+```
+
+</div>

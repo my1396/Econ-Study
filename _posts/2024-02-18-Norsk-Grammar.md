@@ -442,7 +442,7 @@ Which of the following is correct?
 - Hverdagen vår er ofte hektisk. ✅
 - Hverdag vår er ofte hektisk. ❌
 
-Hverdagen 为 definite form, singular masuline, 对应的 possessive pronoun 应该要在 gender 和 number 上匹配 — "vår" 匹配 singular masculine。  
+Hverdagen 为 definite form, singular masculine, 对应的 possessive pronoun 应该要在 gender 和 number 上匹配 — "vår" 匹配 singular masculine。  
 
 
 
@@ -756,7 +756,13 @@ Det er en bekymring at nettsider samler personlige data uten samtykke.
 
 - Dette nye huset er **vårt**.
 
-- Søstra **mi** på 15 år får et speil. Det passer godt til rommet **hennes**. 主语是 det, possessive pronoun 用 possessives, 表示非主语所有。
+- Søstera **mi** på 15 år får et speil. Det passer godt til rommet **hennes**. 主语是 det, possessive pronoun 用 possessives, 表示非主语所有。
+  
+  My 15-year-old sister is getting a mirror. It fits well with her room.
+  
+  Note that since «søster» is feminine, we can also use it in the masculine form.
+  
+  Sørsteren min ... → Note that the posessive pronoun «min» has to be consistent with the gender.
 
 - Det blir nok bestefar mest glad for, for det er lite hår igjen på hodet **hans**.  $\rightarrow$ 主语为 det
 
@@ -812,7 +818,7 @@ Det er / finnes …
     <td>This cup is big, but that cup is small.</td>
   </tr>
   <tr>
-    <td>Han ville kjope <em>denne</em> store koppen, men hun ville ha <em>den</em> lille koppen der.&nbsp;&nbsp; <br/>注意此处形容词变格为definitive.</td>
+    <td>Han ville kjøpe <em>denne</em> store koppen, men hun ville ha <em>den</em> lille koppen der.&nbsp;&nbsp; <br/>注意此处形容词变格为definitive.</td>
     <td>He wanted to buy this big cup, but she wanted to have that small cup there.)</td>
   </tr>
   <tr>
@@ -939,7 +945,7 @@ When you add supportive / descriptive information about a <span style='color:#00
 
   **hvor** = question word or in indirect questions.
 
-Ex of «**der**»: relative clasuses
+Ex of «**der**»: relative clauses
 
 Hjemmeeksamen skaper en situasjon **der** studentene kan bruke alle hjelpemidler.
 
@@ -1019,9 +1025,9 @@ Would have done
 
    Kampen **blir split** på Sentrum. (The match is being played at Sentrum.)
 
-   Kampen **ble split** på Senturm. (The match was played at Sentrum.)
+   Kampen **ble split** på Sentrum. (The match was played at Sentrum.)
 
-   Kampen **har blitt** split på Senturm. (The match has been played at Sentrum.)
+   Kampen **har blitt** split på Sentrum. (The match has been played at Sentrum.)
 
 
 
