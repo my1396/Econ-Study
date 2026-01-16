@@ -6,7 +6,7 @@ update: 2025-04-10
 toc: true
 ---
 
-Github gists can be embedded into Jekyll pages using HTML script tags.
+Github gists can be embedded into Jekyll pages using HTML `<script>` tags. We only need to find the correct URL for the gist.
 
 
 ## Configuring Jekyll
