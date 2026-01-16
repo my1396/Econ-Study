@@ -50,6 +50,8 @@ Now we can embed existing Gists using HTML script tags.
 
 ### Method 1: Embed Entire Gist
 
+One Gist may contain multiple files. See an example [HERE](https://gist.github.com/jmooring/23932424365401ffa5e9d9810102a477).
+
 To embed an entire gist, use:
 
 ```html

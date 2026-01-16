@@ -1,4 +1,58 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
-
+// Dark theme styles for embedded GitHub Gists
+@media (prefers-color-scheme: dark) {
+  .gist {
+    color: #c9d1d9 !important;
+  }
+  .gist .gist-file {
+    border-color: #30363d !important;
+    background-color: #212121 !important;
+  }
+  .gist .gist-data {
+    border-color: #30363d !important;
+    background-color: #212121 !important;
+    color: #c9d1d9 !important;
+  }
+  .gist .blob-wrapper {
+    background-color: #212121 !important;
+  }
+  .gist .blob-code-inner {
+    color: #c9d1d9 !important;
+  }
+  .gist .blob-num {
+    color: #8b949e !important;
+    background-color: #212121 !important;
+  }
+  .gist .gist-meta {
+    color: #8b949e !important;
+    background-color: #161b22 !important;
+  }
+  .gist .gist-meta a {
+    color: #58a6ff !important;
+  }
+  .gist table tr,
+  .gist table tr:nth-child(2n),
+  .gist table tr:nth-child(odd),
+  .gist table tr:nth-child(even) {
+    background-color: #212121 !important;
+    border: none !important;
+  }
+  .gist table td {
+    background-color: #212121 !important;
+    border: none !important;
+  }
+  .gist .highlight {
+    background-color: #212121 !important;
+  }
+  .gist .pl-c { color: #8b949e !important; } /* Comment */
+  .gist .pl-k { color: #ff7b72 !important; } /* Keyword */
+  .gist .pl-s, .gist .pl-s1 { color: #a5d6ff !important; } /* String */
+  .gist .pl-pds { color: #a5d6ff !important; } /* String delimiter */
+  .gist .pl-en { color: #d2a8ff !important; } /* Function */
+  .gist .pl-c1 { color: #79c0ff !important; } /* Constant */
+  .gist .pl-v { color: #ffa657 !important; } /* Variable */
+  .gist .pl-smi { color: #c9d1d9 !important; } /* Symbol */
+  .gist .pl-pse, .gist .pl-s2 { color: #a5d6ff !important; }
+}
