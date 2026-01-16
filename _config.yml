@@ -26,7 +26,6 @@ plugins:
   - jekyll-pdf-embed  # embed pdf files
   - jekyll-sitemap    # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-scholar    # add references and bibliography
-  - jekyll-gist       # embed gist
 
 google_analytics: G-SHRDBGDKKC
 

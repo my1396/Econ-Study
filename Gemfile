@@ -3,19 +3,15 @@
 source "https://rubygems.org"
 gemspec
 
-gem "jekyll", ENV["JEKYLL_VERSION"] if ENV["JEKYLL_VERSION"]
-gem "kramdown-parser-gfm" if ENV["JEKYLL_VERSION"] == "~> 3.9"
-gem "github-pages", "~> 228", group: :jekyll_plugins
+gem "jekyll", "~> 4.3"
+gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
   gem 'jekyll-pdf-embed'
-  gem 'jekyll-scholar'
-  gem 'jekyll-gist'
+  gem 'jekyll-scholar', '~> 7.1'
 end
 
 gem "webrick", "~> 1.8"
-# Fix forwardable compatibility with Ruby 2.7
-gem 'forwardable', '~> 1.3.0'
