@@ -442,7 +442,8 @@ ref: [GitHub synchronization](https://docs.overleaf.com/integrations-and-add-ons
 
 Problems Pane: Display LaTeX Workshop debug log in output panel. [↩︎](https://github.com/james-yu/latex-workshop/wiki/compile#settings-details)
 
-There are annoying amber warning messages popping up in the LaTeX Workshop output panel, also shown in the Explorer, marked by amber color.
+**Issue:** The LaTeX Workshop output panel often shows an astonishingly large number of amber warnings. Handreds or something. Many of them are NOT essential, e.g., badbox warnings, they do not affect the document compilation, but they clutter the Problems pane and distract from more important messages. 
+I also do NOT like the warning icon next to the file name in the File Explorer panel. It just looks ugly.
 
 To disable these warning messages, add the following settings to your `settings.json`:
 
@@ -476,6 +477,7 @@ To disable these warning messages, add the following settings to your `settings.
 
 
 
+--------------------------------------------------------------------------------
 
 ## My Config
 
@@ -483,7 +485,7 @@ To disable these warning messages, add the following settings to your `settings.
 
 ```json
 {
-  // LaTeX Workshop settings
+  /* LaTeX Workshop settings */
   // "latex-workshop.view.pdf.color.dark.pageColorsBackground": "#F5F5DC",
   // "latex-workshop.view.pdf.color.dark.backgroundColor": "#F5F5DC",
   "latex-workshop.view.pdf.sidebar.view": "outline",
@@ -616,3 +618,5 @@ To disable these warning messages, add the following settings to your `settings.
 ```
 
 </div>
+
+
