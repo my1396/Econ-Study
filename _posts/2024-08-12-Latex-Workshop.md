@@ -195,47 +195,87 @@ Below are some commonly used examples:
 ```json
 "latex-workshop.latex.recipes": [
   {
-    "name": "latexmk",
+    "name": "latexmk 🔃",
     "tools": [
       "latexmk"
     ]
   },
   {
-    "name": "pdflatex -> bibtex -> pdflatex * 2",
+    "name": "pdflatex ➞ bibtex ➞ pdflatex*2",
     "tools": [
       "pdflatex",
       "bibtex",
       "pdflatex",
       "pdflatex"
     ]
+  },
+  {
+    "name": "pdflatex ➞ pdflatex",
+    "tools": [
+      "pdflatex",
+      "pdflatex"
+    ]
+  },
+  {
+    "name": "xelatex",
+    "tools": [
+      "xelatex"
+    ]
   }
 ]
 ```
 
--   The first one simply relies on the `latexmk` command. This is the **default** recipe to use when building a project for the first time.
-    
+
+-   The first one simply relies on the `latexmk` command. ✅
+
+    `latexmk` is a Perl script that **automates** the process of building LaTeX documents. It automatically determines the sequence of commands needed to build the document, including handling bibliography and cross-references.
+
+    It is <span class="env-green">intelligent</span>. It determines the minimum necessary compilations based on the changes made to the document. This recipe is fast and efficient for most use cases. 👍
+
+    This is the **default** recipe to use when building a project for the first time.
+
     <span class="env-green">If you want a different default recipe, put it as the first element</span> of the `latex-workshop.latex.recipes` array.
 
 -   The second one run the following sequence of commands `pdflatex` → `bibtex` → `pdflatex` → `pdflatex`.
 
+    This is a full-fledged build process that handles bibliography and cross-references properly. It is suitable for final compilation before sharing or printing the document.
+
+    **Use scenario:**
+    
+    - First time building a new document
+    - When you have added new citations or references
+    - Changed bibliography style of the `.bib` file
+
+-   The third one runs `pdflatex` twice. 
+    
+    This is useful when you want to run a fast build without bibliography. E.g., when you are just editing regular text and do not need to update citations or references.
+
 -   Many of my projects use <span class="env-green">`xelatex`</span> instead of `pdflatex` to support <span class="env-green">Unicode</span> characters and OpenType fonts. 
     
     This recipe is similar to the second one, but it uses `xelatex` instead of `pdflatex`.
+
+--------------------------------------------------------------------------------
+
+**Set the default recipe to use**
 
 You can change the **default recipe** by setting the [`latex-workshop.latex.recipe.default`](https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-workshoplatexrecipedefault). Recipes are referred to by their **names** as defined in `latex-workshop.latex.recipes`. 
 
 Note there are two special values:
 
 -   `"first"`: Use the first recipe defined in [`latex-workshop.latex.recipes`](https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-recipes).
+  
+    This is the default value.
+
 -   `"lastUsed"`: Use the last used recipe by the command *LaTeX Workshop: 
     
     Build with recipe*. This is useful when you have multiple recipes defined and you want to use the last one you used without having to select it again.
 
 ```json
-// set the default recipe to the last used one
+// Set the default recipe to the last used one
 "latex-workshop.latex.recipe.default": "lastUsed"
 ```
 
+--------------------------------------------------------------------------------
 
 Q: LaTeX builds automatically on every save. It can be too frequent and distracting.  
 A; Add `"files.autoSave": "onFocusChange"` to your <span class="env-green">workspace `settings.json`</span> so that the pdf only rebuilds when you switch away from the tex file, not on every keystroke.
@@ -243,7 +283,7 @@ A; Add `"files.autoSave": "onFocusChange"` to your <span class="env-green">works
 Generally you still want your files to save automatically, hence in user `settings.json`, I have:
 
 ```json
-"files.autoSave": "afterDelay",
+"files.autoSave": "afterDelay"
 ```
 
 
