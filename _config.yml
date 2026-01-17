@@ -17,6 +17,12 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+# Sass configuration
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - import
+
 url: "https://my1396.github.io"
 baseurl: /Econ-Study
 # Use the following plug-ins
