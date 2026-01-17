@@ -35,6 +35,26 @@ update: 2025-08-01
 
 --------------------------------------------------------------------------------
 
+## Installation
+
+Full installation instructions can be found [HERE](https://github.com/James-Yu/LaTeX-Workshop/wiki/Install#installation-and-basic-settings).
+
+
+The only requirement is a compatible LaTeX distribution in the system PATH. For example, [TeX Live](https://www.tug.org/texlive/). We **strongly recommend**TeX Live.
+
+> After installing TeX Live, you must add the directory of TeX Live binaries to your PATH environment variable.  
+> 
+> If VS Code cannot find executables of TeX, it means that **the setting of your system is broken**.
+
+💡 Just install the full TeX Live distribution to avoid missing packages. It' a pain to install missing packages one by one.
+
+- [MiKTeX](https://miktex.org/) is another lightweight distribution with a convenient automatic on-demand package install. Note, however, that **for MiKTeX to work correctly with Latex Workshop, you need to install [Perl](https://strawberryperl.com/)**.
+
+
+
+
+
+--------------------------------------------------------------------------------
 
 ## Dark Theme
 
@@ -188,11 +208,14 @@ More font cmds can be found [HERE](https://github.com/James-Yu/latex-workshop/wi
 
 ## Build the document
 
+### LaTeX recipes
+
 You can define several compiling <span class="env-green">toolchains</span> to build LaTeX projects using [**LaTeX recipes**](https://github.com/James-Yu/latex-workshop/wiki/Compile#latex-recipes) and then call the command *Build with recipe* to choose the appropriate toolchain for actually building the project. Alternatively, you can directly select the appropriate recipe from the *TeX* badge <i class="fa-brands fa-tex" style="font-size: 1.5em"></i>.
 
 Below are some commonly used examples:
 
 ```json
+// Sequence of tools to run for building
 "latex-workshop.latex.recipes": [
   {
     "name": "latexmk 🔃",
@@ -222,9 +245,10 @@ Below are some commonly used examples:
       "xelatex"
     ]
   }
-]
+]，
 ```
 
+Each recipe is an object in the configuration list, consisting of a `name` field and a list of `tools` to be invoked in the recipe. Tools are defined separately in `latex-workshop.latex.tools` (see <a href="#latex-tools">below</a>).
 
 -   The first one simply relies on the `latexmk` command. ✅
 
@@ -274,6 +298,96 @@ Note there are two special values:
 // Set the default recipe to the last used one
 "latex-workshop.latex.recipe.default": "lastUsed"
 ```
+
+--------------------------------------------------------------------------------
+
+### LaTeX tools {#latex-tools}
+
+Each `tool` appearing in the `tools` field of **recipes** above is defined <span class="env-green">`latex-workshop.latex.tools`</span>. To include a tool in a recipe, the tool's `name` should be included in the recipe's `tools` list.
+
+Check default tools [HERE](https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-tools).
+
+Here is taken from my `settings.json` as an example:
+
+```json
+// Tools available for building
+"latex-workshop.latex.tools": [
+  {
+    "name": "latexmk",
+    "command": "latexmk",
+    "args": [
+      "-synctex=1",
+      "-interaction=nonstopmode",
+      "-file-line-error",
+      "-pdf",
+      "-outdir=%OUTDIR%",
+      "%DOC%"
+    ],
+    "env": {}
+  },
+  {
+    "name": "pdflatex",
+    "command": "pdflatex",
+    "args": [
+      "-synctex=1",
+      "-interaction=nonstopmode",
+      "-file-line-error",
+      "-output-directory=%DIR%/out_dir",
+      "%DOC%"
+    ],
+    "env": {}
+  },
+  {
+    "name": "bibtex",
+    "command": "bibtex",
+    "args": [
+      "out_dir/%DOCFILE%"
+    ],
+    "env": {
+      "BIBINPUTS": "%DIR%:",
+      "BSTINPUTS": "%DIR%:"
+    }
+  },
+  {
+    "name": "xelatex",
+    "command": "xelatex",
+    "args": [
+      "-synctex=1",
+      "-interaction=nonstopmode",
+      "-file-line-error",
+      "-output-directory=%OUTDIR%",
+      "%DOC%"
+    ],
+    "env": {}
+  }
+],
+```
+
+Each `tool` is an object consisting of a `name`, a `command` to be spawned, its arguments (`args`) and some specific environment variables (`env`). The `env` entry is a dictionary. Imagine you want to use a `texmf` subdirectory local to your home project, just write
+
+```json
+"env": {
+    "TEXMFHOME": "%DIR%/texmf"
+}
+```
+
+Q: What does "spawn" mean?  
+A: In computing, to "spawn" a process means to *create a new process* that runs concurrently with the parent process. 
+
+
+You can also override the PATH environment variable. Notice that, in the property, only placeholders, e.g., `%DIR%`, take effect, and other variables, e.g., `$PATH`, are **not** expanded.
+
+See [HERE](https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#placeholders) for a full list of supported **placeholders**.
+
+Commonly used placeholders:
+
+| Placeholder  | Description                                      |
+| -------------| ------------------------------------------------ |
+| `%DIR%`      | The root file directory                          |
+| `%DOC%`      | The root file full path without the extension    |
+| `%DOC_EXT%`  | The root file full path with the extension       |
+| `%OUTDIR%`   | The output directory specified by `latex-workshop.latex.outDir` |
+
 
 --------------------------------------------------------------------------------
 
