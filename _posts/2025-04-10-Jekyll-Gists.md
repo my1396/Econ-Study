@@ -11,7 +11,7 @@ Github gists can be embedded into Jekyll pages using HTML `<script>` tags. We on
 
 ## Configuring Jekyll
 
-**Note**: The `jekyll-gist` plugin is no longer needed when using HTML embedding. You can embed gists directly using HTML `<script>` tags, which works with any Jekyll setup including GitHub Pages.
+**Note**: The `jekyll-gist` plugin is <span class="env-orange">NO longer</span> needed when using HTML embedding. You can embed gists directly using HTML `<script>` tags, which works with any Jekyll setup including GitHub Pages.
 
 
 ___

@@ -277,9 +277,9 @@ A: 不需要。注册并使用 UGREENLink 服务，即使不在局域网内，�
 
 --------------------------------------------------------------------------------
 
-### 我的备份任务
+### 我的备份策略
 
-- 主力机
+- **主力机**
   
   主要工作电脑 (Nord 16)
 
@@ -293,7 +293,7 @@ A: 不需要。注册并使用 UGREENLink 服务，即使不在局域网内，�
   - 电影，音乐，电视剧 (个人收藏)
   - 照片备份
 
-- 备用机
+- **备用机**
 
   轻量办公 (MBP 14 小黑)
 
@@ -307,15 +307,51 @@ A: 不需要。注册并使用 UGREENLink 服务，即使不在局域网内，�
 
   如此主力机上的个人文件夹就会同步到备用机上，包括工作文件和证件扫描件。
 
+--------------------------------------------------------------------------------
 
 Q: 有的文件夹用 Git 版本控制管理，是否会和绿联云 NAS 的同步功能冲突?  
 A: 还好。为了保险起见，建议下列做法二选一:
 
 - 在绿联云 NAS 的同步任务中，排除 `.git` 文件夹，不同步 Git 版本控制文件夹。
+
+  手动同步 Git 版本控制文件夹到另一台电脑上。有点麻烦，但是没有冲突覆盖风险。
+
 - 或者，以 Git 版本控制为主。
-  手动控制，确保无冲突误删等。麻烦一点，但是保险。GitHub 远程仓库作为最终版本控制中心还是靠谱的。
   
-  每次在本地电脑上修改代码后，commit-push 到远程 Git 仓库。然后在另一台电脑上 pull 最新代码。
+  - 强制覆盖本地代码为远程最新代码 (简单粗暴)
+    
+    手动控制，确保无冲突误删等。麻烦一点，但是保险。GitHub 远程仓库作为最终版本控制中心还是靠谱的。
+  
+    每次在本地电脑上修改代码后，commit-push 到远程 Git 仓库。然后在另一台电脑上 pull 最新代码。
+
+    Pull 代码时, 可会有警告提示本地文件被修改，是否覆盖等。此时选择覆盖本地修改即可。
+
+    ```bash
+    git fetch origin // 获取远程最新代码
+    git reset --hard origin/main // 强制覆盖本地代码为远程最新代码
+    ```
+
+    This forces your local branch to match the remote branch, discarding any local changes.
+
+    <hr>
+
+  - 暂存本地修改，合并远程修改 (费事但安全一些，避免误删本地修改)
+    
+    如果你在备用机上也有本地修改未提交，想要先保存这些修改，可以使用 `git stash` 命令暂存本地修改，之后再应用这些修改。
+ 
+    If you want to keep your local changes and merge them with the remote changes, you can stash your changes before pulling:
+ 
+    ```bash
+    git fetch origin                // 获取远程最新代码
+    git stash                       // 暂存本地修改
+    git reset --hard origin/main    // 强制覆盖本地代码为远程最新代码
+    git stash pop                   // 恢复本地修改并尝试合并
+    ```
+ 
+    If your branch is named something other than `main` (like `master` or `develop`), replace `origin/main` with `origin/your-branch-name`.
+
+
+  
 
 --------------------------------------------------------------------------------
 

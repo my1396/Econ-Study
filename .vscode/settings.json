@@ -4,5 +4,7 @@
         "setningsadverbial"
     ],
     "css.validate": false,
-    "scss.validate": false
+    "scss.validate": false,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false
 }
