@@ -1140,6 +1140,11 @@ th, td {
   color: #C3E88D !important;
 }
 
+[data-theme="dark"] .env-green>kbd,
+[data-theme="dark"] .env-green kbd {
+  color: #C3E88D !important;
+}
+
 [data-theme="dark"] .env-orange>code,
 [data-theme="dark"] .env-orange code {
   color: #FF9900 !important;

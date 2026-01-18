@@ -32,8 +32,10 @@ Alfred is a Mac Spotlight replacement app and enhancement, which boosts your eff
 - Uncheck automatic update
 - Hide/Show Alfred icon in menu bar
   
-  Appearance > Options
+  Appearance > Options > **Check "Hide menu bar icon"**
+
   <img src="https://drive.google.com/thumbnail?id=1uFDLFa27a-Nrs2zfnYx-EGXuTASO1pjP&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
 
 
 --------------------------------------------------------------------------------
@@ -56,7 +58,7 @@ Alfred is a Mac Spotlight replacement app and enhancement, which boosts your eff
 
 - **Dictionary**: type `define <word>` to find the definition of the word.
 
-- **Terminal**: type `> your cmd …` to open terminal and run shell commands.
+- **Terminal**: type `> your shell cmd …` to open terminal and run shell commands.
 
 
 
@@ -66,7 +68,7 @@ Alfred is a Mac Spotlight replacement app and enhancement, which boosts your eff
 
 ## Alfred Snippets
 
-Code snippet （begin with two colons `::`）
+Code snippet（begin with two colons `::`）
 - `cs_green`: html colored span, green
 - `cs_orange`: html colored span, orange
 
@@ -77,9 +79,11 @@ Code snippet （begin with two colons `::`）
 
 **Snippet setting**
 
-- Uncheck “Word based”: 
+- **Uncheck “Word based”**
   
-  When it’s a single word, the snippet search sees the : as part of the word, and so searching “whiskey” would return no results. Unchecking “Word based” makes it act more like a fuzzy search.
+  When the "Word based" is enabled, the snippet search sees the `:` as part of the word, and so searching “whiskey” would return no results. 
+
+  Unchecking “Word based” makes it act more like a fuzzy search.
 
 - When creating a new snippet, use the `prefix` option, e.g., `::`, so that you can batch change later. 
   
@@ -87,7 +91,7 @@ Code snippet （begin with two colons `::`）
 
   Optionally, you can use the `suffix` option too, e.g., `:<keyword>:`. The [emoji snippet pack](https://joelcalifa.com/blog/alfred-emoji-snippet-pack/) by Joel Califa uses this format.
 
-- When you import snippets from other sources, you may want to uncheck "Strip snippets of ‘auto expand’ flag." 
+- When you import snippets from other sources, you may want to **uncheck "Strip snippets of ‘auto expand’ flag."** 
   
   <img src="https://drive.google.com/thumbnail?id=1_c5GL_9DudwXGNfRNsoB2U-ULK0Sj55k&sz=w1000" alt="Snippets auto expansion" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
 
