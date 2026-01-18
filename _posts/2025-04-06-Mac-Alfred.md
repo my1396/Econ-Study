@@ -5,15 +5,33 @@ tag: life
 update: 2025-04-06
 ---
 
-Alfred is a Mac Spotlight replacement app and enhancement, which boosts your efficiency with hotkeys, keywords, text expansion and more. It is a powerful launcher that helps you quickly find files, launch applications, and perform various tasks on your Mac.
+[Alfred](https://www.alfredapp.com) is a Mac Spotlight replacement app and enhancement, which boosts your efficiency with hotkeys, keywords, text expansion and more. It is a powerful launcher that helps you quickly find files, launch applications, and perform various tasks on your Mac.
 
+--------------------------------------------------------------------------------
+
+Q: Is Alfred free?  
+A: Go to [Alfred homepage](https://www.alfredapp.com), scroll down to "Productivity at your Fingertips". The functions without stars are free to use. The starred functions require the paid "Alfred Powerpack" license.
+
+What are in the free version?
+
+- Find and launch applications, files (same as Mac Spotlight)
+- Web Search
+
+What are NOT in the free version but very useful, would be a big loss if missing it?
+
+- Snippets (I use it all the time)
+- Clipboard History
+- Workflow
+
+--------------------------------------------------------------------------------
 
 **Useful resources:**
+
 - [Help Page](https://www.alfredapp.com/help/features/) 
 - [Nice Tutorial: My Alfred Setup](https://stefanzweifel.dev/posts/2021/02/03/my-alfred-setup/)
 
 
-**Alfred Hotkey** 
+**Alfred Hotkeys** 
 
 - <kbd>^</kbd> + <kbd>Space</kbd>: show Alfred bar
   
@@ -22,12 +40,12 @@ Alfred is a Mac Spotlight replacement app and enhancement, which boosts your eff
 
 - <kbd>⌘,</kbd> : preferences
 
-- <kbd>␣f-name</kbd>: search internal files for `f-name`
+- <kbd>␣f-name</kbd>: search internal files and folders with name `f-name`
     - <kbd>⌘</kbd> + <kbd>Enter</kbd>: show file location in folder
 
 --------------------------------------------------------------------------------
 
-**Setup**
+## Setup
 
 - Uncheck automatic update
 - Hide/Show Alfred icon in menu bar
@@ -35,7 +53,6 @@ Alfred is a Mac Spotlight replacement app and enhancement, which boosts your eff
   Appearance > Options > **Check "Hide menu bar icon"**
 
   <img src="https://drive.google.com/thumbnail?id=1uFDLFa27a-Nrs2zfnYx-EGXuTASO1pjP&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
-
 
 
 --------------------------------------------------------------------------------
