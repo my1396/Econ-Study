@@ -5,6 +5,8 @@ title: "Norskprøver B1–B2 Struktur og Spørsmål Typer"
 date: 2025-09-20
 ---
 
+<a class="top-link hide" href="#" id="js-top">↑</a>
+
 **HK-dir** (Direktoratet for høyere utdanning og kompetanse)
 
 所有考试信息参考 [HK-dir 官网](https://prove.hkdir.no/norskprove-a1-b2)，包括如何注册考试，考试内容，如何准备等。
@@ -320,6 +322,7 @@ A: <span class="env-orange">Not necessarily!</span> <span style="color: #00CC66;
 1. first focus on content, story-telling, flow
 2. then work on grammar and details
 
+See <span style="color: #00CC66;">**grading criteria**</span> <a href="{{site.baseurl}}/2025/09/20/Norsk-Skriftlig-Vurdering.html">HERE</a>.
 
 
 ___

@@ -8,9 +8,6 @@ title: Norsk Grammar
 
 
 
-
-
-
 变形，变位，变格
 
 - infection/ conjugation 统称变形。
@@ -266,7 +263,7 @@ Note:
 --------------------------------------------------------------------------------
 
 
-**Norwegian Adjective Bøying (Inflection) Guide:**
+<span style="color: #00CC66;">**Norwegian Adjective Bøying (Inflection) Guide:**</span>
 
 
 ```
@@ -275,24 +272,28 @@ Note:
 NORWEGIAN ADJECTIVE BØYING
 ├── DEFINITE (Bestemt form)
 │   └── All genders & numbers: "-e" ending
-│       (den/det/de + adjective-e + noun)
+│       (den/det/de + adjective-e + noun definite)
 │
 └── INDEFINITE (Ubestemt form)
     ├── PLURAL (Flertall)
     │   └── All genders: "-e" ending
-    │       (adjective-e + nouns)
+    │       (adjective-e + noun plural)†
     │
     └── SINGULAR (Entall)
         ├── Masculine/Feminine
         │   └── Base form (no ending)
-        │       (en/ei + adjective + noun)
+        │       (en/ei + adjective + noun singular)
         │
         └── Neuter
             └── "-t" ending
-                (et + adjective-t + noun)
+                (et + adjective-t + noun singular)
 
+† 此情况下，名词为中性时最具迷惑性，因为中性名词单数和复数形式相同。store hus (big houses) vs. stort hus (big house)
 表语形容词见上图中 INDEFINITE (Ubestemt form) 部分。表语形容词无特指形式。
 ```
+
+[Norsklærer Karaense: Samsvarsbøying](https://www.youtube.com/watch?v=CQ8i5QoOpQI)
+
 
 **all/alle/alt**
 
@@ -901,6 +902,29 @@ When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» is the <span style=
 - Hva er i veien?  (What's wrong?) $\rightarrow$ Hva 作主语，som 不可省略。Jeg vet ikke *hva som* er i veien. (I don't know what's wrong)
 
 
+--------------------------------------------------------------------------------
+
+«hvilken»/«hvilket»/«hvilke» 对于他们引导的疑问句，必须根据所指代的名词的性别和数量选择正确的形式。
+
+- «hvilken» (masc./fem. singular)
+  
+  Hvilken bok liker du?
+
+  Hvilken bil er din?
+
+- «hvilket» (neut. singular)
+
+  Hvilket hus bor du i?
+
+  Hvilket problem snakker vi om?
+
+- «hvilke» (plural)
+  
+  Hvilke filmer har du sett?
+
+  Hvilke bøker leser du?
+
+  Hvilke land har du besøkt?
 
 --------------------------------------------------------------------------------
 
@@ -1269,7 +1293,7 @@ Jeg gruer meg til eksamen  → I dread the exam.
 
 | Norsk           | English        |
 | --------------- | -------------- |
-| ha evne til      | have the ability to |
+| <span style="color: #00CC66;">ha evne til å gjøre</span>  | have the ability to |
 | ha kapasitet til | have the capacity to |
 
 Han har ikke even til å forstå det. → He doesn't have the ability to understand it.
@@ -1648,29 +1672,34 @@ Du må minne meg på at vi skal bort.
 | være fornøyd med     | be satisfied with   |
 | være enig med noen   | agree with sb       |
 
-**være enig <span style='color:#00CC66'>med noen</span>** → agree with sb
+«Enig» 后可接 3 种介词短语，意义不同:
 
-Jeg er enig med deg. [agree with sb]  
-→ I agree with you.
+1.  **være enig <span style='color:#00CC66'>med noen</span>** → agree with sb
 
-**være enig <span style='color:#00CC66'>i noe</span>** → agree in sth
+    Jeg er *enig med* deg. [agree with sb]  
+    → I agree with you.
 
-Han var enig i det forslaget. [agree in sth]  
-→ He agreed with that proposal.
+2.  **være enig <span style='color:#00CC66'>i noe</span>** → agree in sth
 
-Vi er enig i planen.  
-→ We agree with the plan.
+    Han var *enig i* det forslaget. [agree in sth]  
+    → He agreed with that proposal.
 
-Jeg er enig i det du sier.  
-→ I agree with what you say.
+    Vi er *enig i* planen.  
+    → We agree with the plan.
 
-**være enig <span style='color:#00CC66'>om å gjøre</span> noe** → agree to do sth
+    Jeg er *enig i* det du sier.  
+    → I agree with what you say.
 
-Vi er enige om å møtes i morgen.  
-→ We agree to meet tomorrow.
+    Jeg er *enig i* denne påstanden.  
+    → I agree with this statement.
 
-Vi er enige om å starte møtet kl 10.  
-→ We agree to start the meeting at 10 o'clock.
+3.  **være enig <span style='color:#00CC66'>om å gjøre</span> noe** → agree to do sth
+
+    Vi er *enige om å* møtes i morgen.  
+    → We agree to meet tomorrow.
+
+    Vi er *enige om å* starte møtet kl 10.  
+    → We agree to start the meeting at 10 o'clock.
 
 | Norsk            | English                 |
 |----------------- |-------------------------|
@@ -1898,6 +1927,49 @@ Jeg har vondt i magen.
 Jeg har vondt i halsen.
 → I have a sore throat.
 
+--------------------------------------------------------------------------------
+
+### av
+
+| Norsk               | English                 |
+|-------------------- |-------------------------|
+| være redd av        | be afraid of            |
+| være stolt av       | be proud of             |
+
+
+
+«Stolt» 后可接 2 种介词短语，意义不同:
+
+1.  **være stolt <span style='color:#00CC66'>av noe</span>** → be proud of sth
+
+    Jeg er stolt av prestasjonen min.  
+    → I am proud of my achievement.
+
+2. **være stolt <span style='color:#00CC66'>på noen</span>** → believe in sb; have confidence in sb
+
+    Jeg er stolt på deg.  
+    → I have confidence in you.
+
+    Jeg er stolt på deg fordi du har jobbet hardt.  
+    → I have confidence in you because you have worked hard.
+
+
+| Norsk               | English                 |
+|-------------------- |-------------------------|
+| <span style="color: #00CC66;">være avhengig av</span>    | be dependent on         |
+| være full av        | be full of              |
+| være trøtt/lei av   | be tired of             |
+| være opptatt av     | be busy with            |
+| være klar av        | be aware of             |
+| ha glede/inntrykk/nytte av | have pleasure/impression/use of |
+| ta avstand av       | distance oneself from   |
+| gi en oppsummering av | give a summary of       |
+
+
+Note that «avhengig» is used with «av», which is different from English "dependent on". 
+
+A common mistake is to use <del>«avhengig **på** noe»</del> instead of «avhengig **av** noe».
+
 
 --------------------------------------------------------------------------------
 
@@ -1905,10 +1977,14 @@ Jeg har vondt i halsen.
 
 **Komparasjon**
 
-**Countable**
+**Countable** (substantiv vi kan telle)
 
-多 flere – flest  
+多 mange – flere – flest  
 少 få – <span style='color:#00CC66'>færre</span> – færrest 
+
+mange bøker/biler/stoler → many books/cars/chairs  
+flere bøker/biler/stoler → more books/cars/chairs  
+flest bøker/biler/stoler → most books/cars/chairs
 
 flere muligheter = more opportunities  
 færre problemer = fewer problems
@@ -1923,18 +1999,23 @@ mindre sjanser = smaller chances
 Note there "mindre" is used with countable noun "sjanser" to mean "smaller chances". It emphasizes the overall amount rather than strict counting of individual items. "Sjanser" here is treated **collectively as a quantity**.
 
 
-**Uncountable**
+**Uncountable** (substantiv vi ikke kan telle)
 
 多 mye – mer – mest  
 少 liten – mindre – minst
 
-å ha liten kontakt med noen = to have little contact with someone 表否定
+mye tid/regn/snø/penger → much time/rain/snow/money  
+mer tid/regn/snø/penger → more time/rain/snow/money  
+mest tid/regn/snø/penger → most time/rain/snow/money
+
+
+å ha liten kontakt med noen → to have little contact with someone 表否定
 
 
 mer behov = more need  
 mindre behov = less need
 
-
+[Norsklærer Karaense: Kvantorer](https://www.youtube.com/watch?v=rtiNH81UFWo)
 
 **folk** [uncount.]
 
@@ -1983,7 +2064,7 @@ Det er mye folk i byen når det er fotballkamp.
 
 --------------------------------------------------------------------------------
 
-**过去分词 adj 的比较级** («-ert» partisipp)
+<span style="color: #00CC66;">**过去分词 adj 的比较级** («-ert» partisipp)</span>
 
 - Jeg blir *mer interessert* i norsk jo bedre jeg forstår det.  
   → I become more interested in Norwegian the better I understand it.
@@ -1994,7 +2075,15 @@ Det er mye folk i byen når det er fotballkamp.
 - Han virker *mer forberedt* til eksamen nå.  
   → He seems more prepared for the exam now.
 
-**现在分词 adj 的比较级** («-ende» partisipp)
+> 由动词过去分词形成的形容词通常只有 单/复数 (特指/非特指) 两种形式，没有性别变化。 
+> 复数和特指形式相同。  
+> 例如: 
+> - en interessert student, ei interessert student, et interessert emne, interesserte studenter;  
+> - en forberedt elev, ei forberedt elev, et forberedt prosjekt, forberedte elever.
+
+--------------------------------------------------------------------------------
+
+<span style="color: #00CC66;">**现在分词 adj 的比较级** («-ende» partisipp)</span>
 
 - Filmen var bra, men boka var *mer spennende*.  
   → The movie was good, but the book was more exciting.
@@ -2004,6 +2093,13 @@ Det er mye folk i byen når det er fotballkamp.
   → It is always more exciting to travel to a new place.
 - Historien ble *mer spennende* etter hvert kapittel.  
   → The story became more exciting after each chapter.
+
+> 由动词现在分词形成的形容词通常无词格变化，也就说 单数/复数 (特指/非特指)， 男/女/中性，形式都相同。  
+> 
+> 例如: 
+> - en spennende bok, ei spennende historie, et spennende eventyr, spennende bøker.  
+> - en utfordrende oppgave, ei utfordrende situasjon, et utfordrende prosjekt, utfordrende oppgaver.
+
 
 ref:
 
