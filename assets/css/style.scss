@@ -1130,6 +1130,20 @@ th, td {
   color: #008B45 !important;
 }
 
+/* Apply color to kbd */
+.env-green>kbd,
+.env-green kbd {
+  // light mode
+  color: #C3E88D !important;
+}
+
+/* Apply color to links */
+.env-green>a,
+.env-green a {
+  // light mode
+  color: #008B45 !important;
+}
+
 .env-orange>code,
 .env-orange code {
   color: #D2691E !important;
@@ -1145,6 +1159,11 @@ th, td {
   color: #C3E88D !important;
 }
 
+[data-theme="dark"] .env-green>a,
+[data-theme="dark"] .env-green a {
+  color: #C3E88D !important;
+}
+
 [data-theme="dark"] .env-orange>code,
 [data-theme="dark"] .env-orange code {
   color: #FF9900 !important;
@@ -1152,5 +1171,8 @@ th, td {
 
 /* To support previous colored code */
 span[style*="#00CC66"]>code {
+  color: #00CC66 !important;
+}
+span[style*="#00CC66"]>a {
   color: #00CC66 !important;
 }

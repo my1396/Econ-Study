@@ -39,6 +39,18 @@ Add quote blocks: type `"` followed by `space` to create a quote block.
 
 --------------------------------------------------------------------------------
 
+## Typora
+
+It support emoji snippets/shortcuts. Type `:` followed by the emoji name, then select from the dropdown menu. For example, type `:smile:` to get 😄.
+It will even provide a preview of the emoji when you type `:`.
+
+**Useful links:**
+
+- [Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
+- [GitHub Docs: Basic writing and formatting syntax – Using emojis](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#using-emojis)
+
+
+--------------------------------------------------------------------------------
 
 ## DataCamp
 
