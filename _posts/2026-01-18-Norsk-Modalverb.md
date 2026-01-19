@@ -5,11 +5,11 @@ title: "Norsk Grammar – Modalverb"
 update: 2026-01-18
 ---
 
+<a class="top-link hide" href="#" id="js-top">↑</a>
+
 **Modale hjelpeverb** (modal verbs) 
 
-
 ## Skulle -- skal -- skulle -- har skullet
-
 
 ### A. Bestemmelse, plan
 
@@ -38,7 +38,7 @@ update: 2026-01-18
 
 ### C. Oppfordring eller forslag
 
-*(Suggestion or invitation)*
+*(Invitation or suggestion)*
 
 -   *Skal* vi gå på kino i kveld?  
     → Shall we go to the cinema tonight?
@@ -49,10 +49,10 @@ update: 2026-01-18
 **Note:**
 På C bruker vi ikke *skal* i svaret, men for eksempel:
 
--   Ja, det kan vi godt.  
+-   Ja, det *kan* vi godt.  
     → Yes, we can do that.
 
-
+> 回答 «skal» 引导的邀请或者建议时，不用 *skal*，而用 *kan*.
 
 ### D. Rykte, noe vi har hørt
 
@@ -93,6 +93,10 @@ På C bruker vi ikke *skal* i svaret, men for eksempel:
 ### B. Framtid 
 
 *(<span style="color: #00CC66;">Prediction of future; what is expected to happen</span>)*
+
+> 这个是最容易混淆的用法。直觉上，会想用 «skal» 来表示未来，但是 
+> - «skal» 更多的是表示计划和安排，而 
+> - «vil» 则是对未来的预测和期望。✅
 
 -   Vi vet ikke hva framtiden *vil* bringe.  
     → We do not know what the future will bring.
