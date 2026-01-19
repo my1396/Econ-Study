@@ -648,7 +648,7 @@ Han gikk på jobb **selv om** han hadde feber.
 
 **Contrast** 对比
 
-> derimot (on the contrary; however); på den annen / andre siden;  
+> <span style="color: #00CC66;">derimot</span> (on the contrary; however); på den annen / andre siden;  
 > 
 > tvert imot (on the contrary; quite the opposite);  
 >
@@ -674,8 +674,19 @@ Linda vil ha et lite bryllup. Espen ønsker seg **derimot** en stor fest.
 *Til forskjell fra* søsteren sin liker han å jobbe alene.  
 → Unlike his sister, he likes to work alone.
 
-*I motsetning til* i fjor gikk salget ned.  
-→ In contrast to last year, sales went down.
+
+**I motsetning til**
+
+
+- 接名词或者名词短语 (noun / nominal phrase)
+  
+  *I motsetning til* i fjor gikk salget ned.  
+  → In contrast to last year, sales went down.
+
+- 接从句
+  
+  *I motsetning til det at* han sover lenge, står hun alltid tidlig opp.  
+  → In contrast to him sleeping late, she always gets up early.
 
 --------------------------------------------------------------------------------
 
