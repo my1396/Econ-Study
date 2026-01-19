@@ -112,6 +112,8 @@ ref: [文档教程: 绿联云 UGOS Pro 系统文件管理界面概览](https://w
 
 登录<span class="env-green">管理员账号</span>，打开【文件管理】应用，点击右上角的设置图标 <span class="codicon codicon-settings-gear dynamic-setting-icon"></span>，进入文件管理设置页面。
 
+
+<a id="show-hidden-files"></a>
 Q: 如何显示隐藏文件 (以`.`开头的文件)？ \
 A: 在“常规设置”中找到“隐藏指定文件”选项。取消勾选 “以 . 开头” 选项，并点击“保存”以使设置生效。
 
@@ -225,6 +227,8 @@ UGOS Pro 的同步功能支持在本地绿联云与远程绿联云之间进行�
    在【高级设置】中，您可以进一步配置同步任务的细节：
 
    **文件过滤**
+   
+   <img src="https://drive.google.com/thumbnail?id=1_3zwtsr1IxrLEjUmTa1jd91UtnRoiO4R&sz=w1000" alt="文件过滤" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
    在“文件过滤”选项中，您可以选择是否同步前缀为 “.” 的文件和文件夹。默认情况下，系统<span class="env-green">不会同步这些隐藏文件和文件夹</span>。若需要同步，可手动勾选相应选项。
 
@@ -235,8 +239,8 @@ UGOS Pro 的同步功能支持在本地绿联云与远程绿联云之间进行�
    > 
    > 如果您希望这些隐藏文件也能同步到绿联云 NAS，请确保在 “文件过滤” 选项中勾选 “同步前缀为 . 的文件和文件夹”。
 
-   <img src="https://drive.google.com/thumbnail?id=1_3zwtsr1IxrLEjUmTa1jd91UtnRoiO4R&sz=w1000" alt="文件过滤" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
-   
+   以 "." 开头的文件在绿联云 UGOS Pro 系统种默认隐藏，不会在文件管理器中显示，除非您在文件管理器的设置中取消隐藏这些文件。[↩](#show-hidden-files)
+
    <hr>
 
    您还可以设置过滤不**需要同步的文件名或文件扩展名**：
@@ -247,7 +251,7 @@ UGOS Pro 的同步功能支持在本地绿联云与远程绿联云之间进行�
 
    如需新增过滤规则，点击 “新增” 按钮，输入文件名或扩展名。若输入多个，请用 “;” 隔开。
    
-   > 注意：不需要输入完整路径，只需输入 **文件(夹)名** 或 **文件扩展名** 即可。
+   > 注意：<span class="env-green">不需要输入完整路径</span>，只需输入 **文件(夹)名** 或 **文件扩展名** 即可。
 
    <hr>
    
