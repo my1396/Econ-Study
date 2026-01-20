@@ -1998,6 +1998,7 @@ mindre sjanser = smaller chances
 
 Note there "mindre" is used with countable noun "sjanser" to mean "smaller chances". It emphasizes the overall amount rather than strict counting of individual items. "Sjanser" here is treated **collectively as a quantity**.
 
+--------------------------------------------------------------------------------
 
 **Uncountable** (substantiv vi ikke kan telle)
 
@@ -2008,9 +2009,26 @@ mye tid/regn/snø/penger → much time/rain/snow/money
 mer tid/regn/snø/penger → more time/rain/snow/money  
 mest tid/regn/snø/penger → most time/rain/snow/money
 
+--------------------------------------------------------------------------------
 
-å ha liten kontakt med noen → to have little contact with someone 表否定
+**litt** → a little 表肯定，有但是不多
 
+**liten** → little, not much 表否定，没有多少
+
+- å ha **liten** kontakt med noen → to have little contact with someone 表否定
+
+--------------------------------------------------------------------------------
+
+**knapp** → scarce, scant, limited
+
+- ha knapp (med) tid til å gjøre noe  
+  → be short of time to do sth; have (very) little time 表否定
+
+- ha knapt nok penger  
+  → have hardly any money 表否定
+
+- Det var *knapt* plass til alle.  
+  → There was *hardly* enough space for everyone. 表否定，此处 knapt 用作副词
 
 mer behov = more need  
 mindre behov = less need
