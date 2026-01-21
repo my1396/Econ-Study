@@ -8,6 +8,9 @@ update: 2025-08-01
 
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
+Zotero is a free and open-source reference management software to manage bibliographic data. 
+It is available for Windows, macOS, and Linux.
+
 
 ## Install plugin
 
@@ -42,3 +45,18 @@ Quick-Copy format
    
    - Default Output Format: LaTeX citation
    - Cite Keys
+
+--------------------------------------------------------------------------------
+
+## Cite Keys
+
+The default key pattern is `auth.lower + shorttitle(3, 3) + year`:
+
+1. last name of first author without spaces, in lowercase because of the .lower filter
+2. The first `n` (default: 3) words of the title, apply capitalization to first `m` (default: 3) of those.
+3. year of publication if any,
+4. a letter postfix (a, b, c, etc) in case of a clash (this part is always added, you can’t disable it, although you can change it to Zotero-style numeric)
+
+Changing a pattern will only affect items created/changed after you changed the pattern; existing keys are not automatically regenerated when you change the pattern.
+
+If you want your keys to update after a pattern change you will have to select your items, right-click, and select `Refresh`. This will not affect keys you have pinned.

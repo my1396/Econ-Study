@@ -5,6 +5,7 @@ tag: programming
 update: 2025-08-01
 ---
 
+<a class="top-link hide" href="#" id="js-top">↑</a>
 
 [**LaTeX Workshop**](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) is a popular LaTeX extension for Visual Studio Code, providing a comprehensive set of features for LaTeX editing, compiling, and previewing. In the following, I summarize some useful settings and tips for using LaTeX Workshop effectively.
 
@@ -110,23 +111,25 @@ Environment snippets works directly in `tex`, you type `B`, a drop-down list wil
 
 ### Environments
 
+Commands start with <span class="env-green">`B`</span> for inserting LaTeX environments.
+
 | Prefix                                | Environment name |
 | ------------------------------------- | ---------------- |
 | <span class="env-green">`BEQ`</span>  | `equation`       |
 | `BSEQ`                                | `equation*`      |
-| `BAL`                                 | `align`          |
+| <span class="env-green">`BAL`</span>  | `align`          |
 | `BSAL`                                | `align*`         |
+| <span class="env-green">`BSPL`</span> | `split`          |
+| `BCAS`                                | `cases`          |
 | `BGA`                                 | `gather`         |
 | `BSGA`                                | `gather*`        |
 | `BMU`                                 | `multline`       |
 | `BSMU`                                | `multline*`      |
 | `BIT`                                 | `itemize`        |
 | `BEN`                                 | `enumerate`      |
-| <span class="env-green">`BSPL`</span> | `split`          |
-| `BCAS`                                | `cases`          |
 | `BFR`                                 | `frame`          |
-| `BFI`                                 | `figure`         |
-| `BTA`                                 | `table`          |
+| <span class="env-green">`BFI`</span>  | `figure`         |
+| <span class="env-green">`BTA`</span>  | `table`          |
 
 **How to surround some selected text with an environment:**
 
@@ -450,6 +453,38 @@ After changing `"latex-workshop.latex.outDir"`, LaTeX Workshop's `"Clean up au
 (Note: The "Clean up auxiliary files" command misses some file types, so for a full clean you should just delete all of the files in the folder manually.)
 
 --------------------------------------------------------------------------------
+
+## Bib Manager
+
+[Zotero Cite](https://marketplace.visualstudio.com/items?itemName=XING.zotero-cite) is a useful extension to insert reference from Zotero library and add them to your bib file automatically.
+
+- Specify in the <span class="env-green">workspace `settings.json`</span> the path to your bib file:
+
+  ```json
+  "zotero-cite.defaultBibName": "bibli.bib",
+  ```
+  Defaults to `ref.bib`.
+
+
+**Commonly used features**:
+
+- Command Palette: `Zotero Cite: Cite and Create Bibliography for Pandoc/LaTeX` (ctrl+cmd+r)
+  
+  A graphical interface pops up, you can search and select references from your Zotero library. You can select multiple references to cite at once. 
+  
+  <img src="https://drive.google.com/thumbnail?id=1XKclCNCfmwUgrF_wuNZWVItw3_nRvppF&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+  When you have selected all references you need, hit <kbd>Enter</kbd>. The selected citations will be inserted at the cursor position in your document, and the corresponding entries will be added to your bib file automatically.
+
+  <span class="env-orange">Issues:</span> 
+  
+  - Will always add the bib entries to the end of the bib file, and genearte a new cite key. It does not check if the entry already exists in the bib file.
+  - After picking a reference, the Zotero app steals focus.
+
+
+
+--------------------------------------------------------------------------------
+
 
 ## Overleaf Integration
 
