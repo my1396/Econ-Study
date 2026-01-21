@@ -560,7 +560,7 @@ Reflexive Pronouns 反身代词
 | 3rd    | Plural   | de        | dem       | seg (themselves) |
 
 
-- seg 管 himself, herself, itself, themselves, 第三人称单数和复数的反身代词。
+- «<span style="color: #00CC66;">**Seg**</span>» 管 himself, herself, itself, themselves, i.e., 第三人称单数和复数的反身代词。
 
 - Reflexives in Norwegian are often used in 固定搭配
 
@@ -578,7 +578,8 @@ Jeg må ta vare på <span style="color: #00CC66;">meg selv</span>. → I have to
 Vi må ta vare på <span style="color: #00CC66;">oss selv</span>. → We have to take care of *ourselves*.  
 Du må passe på <span style="color: #00CC66;">deg selv</span>. → You have to take care of *yourself*.  
 Dere må passe på <span style="color: #00CC66;">dere selv</span>. → You (pl.) have to take care of *yourselves*.  
-
+Han/hun må passe på <span style="color: #00CC66;">seg selv</span>. → He/She has to take care of *himself / herself*.  
+De må passe på <span style="color: #00CC66;">seg selv</span>. → They have to take care of *themselves*.  
 
 Han se <span style="color: #00CC66;">seg selv</span> i speilet. → He sees *himself* in the mirror.
 
@@ -642,6 +643,18 @@ Note that «glede» is both verb and noun form.
 | Verb                | Meaning               | Example                              |
 | ------------------- | --------------------- | ------------------------------------ |
 | å kose seg          | to have a good time   | Vi koser oss på festen.              |
+
+
+å kose, koser, koset (koste), har koset (kost)
+
+- Kose deg på tur! → Have a good time on the trip!
+- De koser seg på hytta. → They are having a good time at the cabin.
+- Kose dere på konserten! → Have a good time at the concert!
+- Vi koste oss i fjellet i helgen. → We had a good time in the mountains over the weekend.
+
+
+| Verb                | Meaning               | Example                              |
+| ------------------- | --------------------- | ------------------------------------ |
 | å legge seg         | to go to bed          | Han legger seg tidlig.               |
 | å passe seg         | to take care of       | Du må passe deg.                     |
 | å skynde seg        | to hurry up           | Skynd deg!                           |
@@ -1521,6 +1534,7 @@ Har du noe kjennskap til dette? → Do you know anything about this?
 
 ### på
 
+**Equivalent to English prepositions "on"**
 
 | Norsk           | English                 |
 |-----------------|-------------------------|
@@ -1667,6 +1681,8 @@ Du må minne meg på at vi skal bort.
 
 ### med
 
+**Equivalent to English prepositions "with"**
+
 | Norsk                | English             |
 | -------------------- | ------------------- |
 | være fornøyd med     | be satisfied with   |
@@ -1732,6 +1748,19 @@ Han skal være der til og med søndag.
 
 Kan du hjelpe meg med dette?  
 → Can you help me with this?
+
+| Norsk               | English            |
+| ------------------- | ------------------ |
+| i sammenligning med | in comparison with |
+
+I sammenligning med Oslo er Bergen mindre.  
+Bergen er mindre i sammenligning med Oslo.  
+→ In comparison with Oslo, Bergen is smaller.
+
+
+
+
+
 
 --------------------------------------------------------------------------------
 
@@ -1888,6 +1917,8 @@ Han tok avstand fra landets politikk.
 
 ### i
 
+**Consistent with English "in"**
+
 | Norsk              | English                 |
 |--------------------|-------------------------|
 | delta i            | participate in          |
@@ -1901,19 +1932,10 @@ Ham kom ikke i det hele tatt.
 Det er i det hele tatt vanskelig å forstå dette.  
 → It is altogether difficult to understand this.
 
-| Norsk              | English                 |
-|--------------------|-------------------------|
-| være god i         | be good at              |
-| være dårlig i      | be bad at               |
-| ha rett i          | be right about          |
-| i veien            | what's wrong            |
 
-Hva er i veien med deg?  
-→ What's wrong with you?
-
-| Norsk              | English                 |
-|--------------------|-------------------------|
-| ha vondt i         | have pain in            |
+| Norsk      | English      |
+| ---------- | ------------ |
+| ha vondt i | have pain in |
 
 Jeg har vondt i ryggen.
 → I have back pain.
@@ -1929,7 +1951,24 @@ Jeg har vondt i halsen.
 
 --------------------------------------------------------------------------------
 
+**Equivalent to English "at"**
+
+| Norsk              | English                 |
+|--------------------|-------------------------|
+| være god i         | be good at              |
+| være dårlig i      | be bad at               |
+| ha rett i          | be right about          |
+| i veien            | what's wrong            |
+
+Hva er i veien med deg?  
+→ What's wrong with you?
+
+
+--------------------------------------------------------------------------------
+
 ### av
+
+**Equivalent to English "of"**
 
 | Norsk               | English                 |
 |-------------------- |-------------------------|

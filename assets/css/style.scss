@@ -548,11 +548,18 @@ pre.nowrap{
   white-space: pre !important; /* no soft-wrap */
 }
 kbd {
-  border-radius: 2px;
+  // kbd styling for light mode
+  border-radius: 4px;
   padding: 2px;
-  border: 1px solid black;
+  border: 1px solid var(--minima-text-color);
 }
-
+[data-theme="dark"] kbd {
+  // kbd styling for dark mode
+  border-radius: 4px;
+  padding: 2px;
+  border: 1px solid var(--minima-text-color);
+  background-color: var(--minima-code-background-color);
+}
 /* Copy code button */
 figure.highlight,
 pre {
@@ -611,17 +618,6 @@ pre.has-copy-btn:focus-within .copy-code-btn {
 .copy-code-btn.copied { color: #2e7d32; }
 
 
-
-/* kbd styling for dark mode */
-[data-theme="dark"] kbd {
-  background-color: #263238 !important;
-  color: #EEFFFF !important;
-  border: 1px solid #37474F !important;
-  border-radius: 3px;
-  padding: 3px 6px;
-  font-size: 85%;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-}
 
 /* Inline code styling for dark mode */
 [data-theme="dark"] code {
@@ -1134,7 +1130,7 @@ th, td {
 .env-green>kbd,
 .env-green kbd {
   // light mode
-  color: #C3E88D !important;
+  color: #008B45 !important;
 }
 
 /* Apply color to links */
