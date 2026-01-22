@@ -71,7 +71,13 @@ What are NOT in the free version but very useful, would be a big loss if missing
   - `youdao <keyword>` to search on 有道词典
   - `ord <keyword>` to search on [Ordnett](https://www.ordnett.no) 挪威语词典
 
-- **Code snippet**: keywords to be replaced by your snippets. Quick way to type phrases you use again and again.Import snippet extensions: https://joelcalifa.com/blog/alfred-emoji-snippet-pack/Type `snip <keyword>` to look up snippets.
+- **Code snippet**: keywords to be replaced by your snippets. Quick way to type phrases you use again and again. 
+  
+  Import snippet extensions: [↩](https://www.alfredapp.com/extras/snippets/)
+  
+  - [Emoji Pack](https://joelcalifa.com/blog/alfred-emoji-snippet-pack/) by Joel Califa
+  
+  Type `snip <keyword>` to look up snippets.
 
 - **Dictionary**: type `define <word>` to find the definition of the word.
 
@@ -107,6 +113,30 @@ Code snippet（begin with two colons `::`）
   <img src="https://drive.google.com/thumbnail?id=1hrZrj1QYoXHXWBbOYh73t3FRdOVrs-0C&sz=w1000" alt="New collection" style="display: block; margin-right: auto; margin-left: auto; margin-top: 2ex; zoom:100%;" />
 
   Optionally, you can use the `suffix` option too, e.g., `:<keyword>:`. The [emoji snippet pack](https://joelcalifa.com/blog/alfred-emoji-snippet-pack/) by Joel Califa uses this format.
+
+  See [HERE](https://gist.github.com/rxaviers/7360908) for a list of emoji snippets frequently used. 
+
+  The following table shows some emojis I use most often:
+
+  | Emoji  | Snippet Keyword               |
+  | -----  | ----------------------------- |
+  | ☺️     | `:relaxed:` or `:smileshy:`   |
+  | 😂     | `:joy:`                       |
+  | 🙈     | `:see_no_evil:`               |
+  | 🤣     | `:rofl:`                      |
+  | 😆     | `:laughing:` or `:satisfied:` |
+  | 🤩     | `:star_struck:`               |
+  | 🤪     | `:zany_face:`                 |
+  | 😎     | `:sunglasses:`                |
+  | 🙏     | `:pray:` or `:thanks:`        |
+  | ❤️     | `:heart:`                     |
+  | 👍     | `:thumbs␣up:` or `:+1:`       |
+  | 👏     | `:clap:`                      |
+  | ✅     | `:checkmark:`                 |
+  | ❌     | `:x:`                         |
+  | 💡     | `:bulb:`                      |
+
+
 
 - When you import snippets from other sources, you may want to **uncheck "Strip snippets of ‘auto expand’ flag."** 
   
@@ -158,6 +188,25 @@ Clipboard history Keyboard shortcit: ⌥⌘C
 Issue: Alfred snippets pasting from clipboard rather than snippet.  
 Fix: Slow down key events. I changed it from 0.5s to 0.6s. 
 
+
+## Sync preferences between Macs
+
+**Primary Mac**: the one you want to sync from. The settings on this Mac will overwrite anything you have on the second Mac.
+
+1. Preferences > Advanced > Set preferences folder... > Choose the location where you want to sync your settings (e.g. `~/Dropbox/Alfred/`) and click `Set folder and restart Alfred`.
+2. Set Alfred.alfredpreferences to [always be available offline](https://www.alfredapp.com/help/advanced/sync/#always-offline).
+
+**Second Mac**
+
+1.  Check that your newly added settings file is available. You should see an Alfred.alfredpreferences file in the folder you picked.
+2.  [Set the file to be available offline](https://www.alfredapp.com/help/advanced/sync/#always-offline) and wait for the download to finish.
+3.  Launch Alfred's preferences to the Advanced tab and click on `Set preferences folder...`
+4.  Find the folder in which your first Mac's Alfred.alfredpreferences file is located and click `Set folder and restart Alfred`
+5.  Once Alfred has restarted, you'll be using your synced settings.
+
+ref: [Syncing Your Alfred Settings Between Macs](https://www.alfredapp.com/help/advanced/sync/)
+
+--------------------------------------------------------------------------------
 
 ref:
 
