@@ -128,6 +128,7 @@ Code snippet（begin with two colons `::`）
   | 🤩     | `:star_struck:`               |
   | 🤪     | `:zany_face:`                 |
   | 😎     | `:sunglasses:`                |
+  | 😉     | `:wink:`                      |
   | 🙏     | `:pray:` or `:thanks:`        |
   | ❤️     | `:heart:`                     |
   | 👍     | `:thumbs␣up:` or `:+1:`       |
