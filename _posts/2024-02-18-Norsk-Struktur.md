@@ -711,9 +711,21 @@ Hun vil løpe maraton <span style="color: #00CC66;">**enda**</span> hun *ikke* h
 
 --------------------------------------------------------------------------------
 
-**Still, even now**
+**Still, even now** 还…，仍然…
 
-> Fremdeles; ennå;
+> <span style="color: #00CC66;">Fremdeles</span>; ennå; fortsatt; 
+
+Fremdeles → adv. still, up to now
+
+- Jeg er fremdeles trøtt etter reisen.  
+  → I am still tired after the trip.
+- Han jobber fremdeles på samme sted.  
+  → He still works at the same place.
+- Hun bor fremdeles i Oslo.  
+  → She still lives in Oslo.
+- Vi har fremdeles ikke fått svar.  
+  → We still haven't received an answer.
+
 
 --------------------------------------------------------------------------------
 
@@ -1656,7 +1668,7 @@ befolkningen (population)
 
 ## 影响
 
-å påvirke (neutral)
+**å påvirke** (neutral)
 
 - Klimaendringer påvirker været mer og mer.  
   → Climate change is increasingly impacting the weather.
@@ -1674,15 +1686,30 @@ påvirkning → impact; influence
 
 å ha stor <span style='color:#00CC66'>påvirkning / innflytelse / effekt</span> på noe(n) → to have a big impact on sth/sb
 
-å berøre (active); berøres (passive)
+**å berøre** (active); berøres (passive)
 
-berømmelse → fame, celebrity
+å berøre, berører, berørte, har berørt → to affect; to touch (emotionally); to concern
+
+1. 影响
+
+- Streiken *berørte* alle elevene i byen.  
+  → The strike affected all the students in the city.
+
+- Alle ansatte *berøres av* de nye reglene.  
+  → All employees are affected by the new rules.
+
+- Alle ansatte *blir berørt* av de nye reglene.  
+  → All employees are affected by the new rules.
+
+2. (物理意义上) 摸，触碰
+
+形近词 berømmelse → fame, celebrity
 
 *blir rammet av noe* (negative) → impacts; be affected/bit by storms, disasters, crises, illness, accidents, or other misfortunes.
 
-- Huset ble rammet av et tre under stormen. → The house was hit by a tree during the storm.
-- Mange familier ble rammet av nedleggelsen av fabrikken. → Many families were affected by the closure of the factory.
-- Landet ble rammet av en økonomisk krise. → The country was hit by an economic crisis.
+- Huset *ble rammet av* et tre under stormen. → The house was hit by a tree during the storm.
+- Mange familier *ble rammet av* nedleggelsen av fabrikken. → Many families were affected by the closure of the factory.
+- Landet *ble rammet a*v en økonomisk krise. → The country was hit by an economic crisis.
 
 
 

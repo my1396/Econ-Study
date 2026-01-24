@@ -330,7 +330,7 @@ Når substantivet står i bestemt form, legger vi til *bestemt artikkel* (定冠
 
 1. 名词加后缀 «-en/-et/-ene»，叫做 "articles in relation to nouns".
 
-2. 如果有形容词修饰，那么形容词一律用特指 definite form。
+2. 如果有形容词修饰，那么<span style="color: #00CC66;">形容词一律用特指 definite form</span>。
 
    一般来说，<span style='color:#00CC66'>形容词的 definite form 和 plural form 是一样的。</span>
 
@@ -394,6 +394,7 @@ bestemt form:
 - plural: små
 - 注意<span style='color:#00CC66'>名词也要变特指</span>
 
+--------------------------------------------------------------------------------
 
 
 Legg merke til at vi ikke bruker bestemt form av adjektivet i *predikativ stiling*:
@@ -487,25 +488,27 @@ min først<span style='color:#00CC66'>e</span> gang (posessive 在前，more com
 første etasje → first floor  
 andre mulighet → second opportunity
 
+--------------------------------------------------------------------------------
 
+**Preposed vs. postposed possessive pronouns**
 
-以下关于时间的表达，介词不同，意义也不同
+1. **Preposed possessive + definite adj + indefinite noun**
 
-<table>
-    <tr>
-      <td><em>i</em> vinter/sommer</td>
-        <td>this winter/summer</td>
-    </tr>
-    <tr>
-      <td><em>om</em> vinteren/sommeren</td>
-        <td>in the winter/summer</td>
-    </tr>
-    <tr>
-      <td><em>til</em> vinteren/sommeren</td>
-        <td>next winter/summer</td>
-    </tr>
-</table>
+   - årets best**e** bøker
+   - min ny**e** bil
+   - verdens støst**e** land
+   - hans **gamle** hus
 
+2. **In case of postponed possessive, we need to use definite noun:**
+   
+   article (den/det/de) + definite adj + definite noun + possessive pronoun
+
+   - de beste bøkene i året
+   - den nye bilen min
+   - det største landet i verden
+   - det gamle huset hans
+
+Both are natural, the latter (postposned possessive) is more common.
 
 --------------------------------------------------------------------------------
 
@@ -1032,9 +1035,38 @@ Would have done
 
 "Skulle + past participle" something you **wish you could do or had done**, but couldn't do
 
-*Jeg skulle gjerne vært der.*  I would have liked to be there.
+- *Jeg skulle gjerne vært der.*  
+  → I would have liked to be there.
 
-*Vi skulle gjerne møtt deg tidligere.* We would have liked to meet you earlier.
+- *Vi skulle gjerne møtt deg tidligere.*   
+  → We would have liked to meet you earlier.
+
+- Jeg har vedlagt svaret hans nedenfor i tilfelle du skulle være interessert.  
+  → I have attached his answer below in case you would be interested.
+
+--------------------------------------------------------------------------------
+
+## at 引导的宾语从句
+
+1. “det er …” expressions → “at” is usually required
+
+   - Det er viktig **at** du kommer i tide.  
+     → It is important that you arrive on time.
+
+   - Jeg håper **at** du har det bra.  
+     → I hope that you are doing well.
+
+2. After verbs of thinking, believing, knowing, saying, etc. → “at” is usually optional
+
+   - Jeg tror (at) han kommer i morgen.  
+     → I think (that) he is coming tomorrow.
+
+   - Hun sa (at) hun ville hjelpe oss.  
+     → She said (that) she would help us.
+
+   - Vi vet (at) det blir regn i morgen.  
+     → We know (that) it will rain tomorrow.
+
 
 
 --------------------------------------------------------------------------------
@@ -1160,6 +1192,24 @@ Jeg har lett <span style="color: #00CC66;">*overalt*</span> etter nøklene mine.
 | over hele verden | all over the world |
 
 Jeg jobbet over tid i dag. → I worked overtime today.
+
+
+| Norsk             | English       |
+| ----------------- | ------------- |
+| en liste over ... | a list of ... |
+
+en liste over lykkelige land → a list of happy countries
+
+en liste over ting å gjøre → a list of things to do
+
+en liste over *de beste bøkene* i år → a list of best books this year [注意最高级 de + superlative definite adj + plural definite noun, <span style="color: #00CC66;">**triple agreement**</span>] 
+
+en liste over *årets beste bøker* → a list of this year's best books [år + possessive + superlative adj + plural indefinite noun]
+
+en liste over *gode restauranter* i Oslo → a list of good restaurants in Oslo [plural adj + plural indefinite noun]
+
+
+
 
 
 --------------------------------------------------------------------------------
@@ -1469,16 +1519,16 @@ Har du noe kjennskap til dette? → Do you know anything about this?
 
 **for/med/ved + å + gjøre**
 
-**for å**
+**for å** 
 
-1. in order to (purpose, intention)
+1. in order to (purpose, intention) 表目的
 
    - Jeg studerer norsk **for å** bli bedre i språket.  
      → I study Norwegian in order to become better in the language.
    - Jeg jobber hardt for å lykkes.  
      → I work hard in order to succeed.
 
-2. so that (result, consequence)
+2. so that (result, consequence) 表结果
    
    noe(n) + er i fare **for å** + verb → … is in danger of doing something
 
@@ -1799,6 +1849,23 @@ Jeg ser etter nøklene mine.
 
 --------------------------------------------------------------------------------
 
+**søke jobb vs. søke om en jobb / stilling**
+
+- søke jobb → job hunting, looking for a job (in general)
+
+  Jeg søker jobb i Oslo.   
+  → I am looking for a job in Oslo.
+  
+  Jeg har søkt jobb i flere måneder.  
+  → I have been looking for a job for several months.
+
+- søke om en jobb / stilling → apply for a *specific* job / position
+  
+  Jeg har søkt om en stilling som lærer.  
+  → I have applied for a position as a teacher.
+
+--------------------------------------------------------------------------------
+
 ### for
 
 | Norsk             | English                 |
@@ -1818,6 +1885,37 @@ Alternativ form:
 
 Jeg har vanskeligheter <span style='color:#00CC66'>**med å**</span> forstå dialekter.  
 → I have difficulties understanding dialects.
+
+
+| Norsk                    | English                 |
+| ------------------------ | ----------------------- |
+| være bekymret for noe(n) | be worried about sth/sb |
+
+«Bekymret» 后可接以下介词:
+
+- være bekymret <span style='color:#00CC66'>for noe(n)</span> → be worried about sth/sb
+
+  Jeg er bekymret *for* barna mine.  
+  → I am worried about my children.
+  
+  Han er bekymret *for* helsen sin.  
+  → He is worried about his health.
+
+  Vi er bekymret *for* framtiden.  
+  → We are worried about the future.
+
+  Hun er bekymret *for* økonomien.  
+  → She is worried about the economy.
+
+- være bekymret <span style='color:#00CC66'>over noe</span> → be worried about **a situation or fact**, often something that has already happened.
+  
+  Jeg er bekymret *over* situasjonen i landet.  
+  → I am worried about the situation in the country.
+
+  Han er bekymret *over* utviklingen i saken.  
+  → He is worried about the development of the case.
+
+- være bekymret <span style='color:#00CC66'>på vegne av noen</span> → be worried on behalf of sb
 
 
 | Norsk             | English                 |
@@ -1913,6 +2011,15 @@ Han tok avstand fra landets politikk.
 | fra og med (f.o.m)  | starting from    |
 
 
+| Norsk                             | English           |
+| --------------------------------- | ----------------- |
+| å be om hjelp **fra**             | ask for help from |
+| å hjelpe noen **med å gjøre** noe | help sb to do sth |
+
+In speaking, you can omit «med».
+
+
+
 --------------------------------------------------------------------------------
 
 ### i
@@ -1963,6 +2070,25 @@ Jeg har vondt i halsen.
 Hva er i veien med deg?  
 → What's wrong with you?
 
+--------------------------------------------------------------------------------
+
+
+以下关于时间的表达，介词不同，意义也不同
+
+<table>
+    <tr>
+      <td><em>i</em> vinter/sommer</td>
+        <td>this winter/summer</td>
+    </tr>
+    <tr>
+      <td><em>om</em> vinteren/sommeren</td>
+        <td>in the winter/summer</td>
+    </tr>
+    <tr>
+      <td><em>til</em> vinteren/sommeren</td>
+        <td>next winter/summer</td>
+    </tr>
+</table>
 
 --------------------------------------------------------------------------------
 
@@ -2008,6 +2134,80 @@ Hva er i veien med deg?
 Note that «avhengig» is used with «av», which is different from English "dependent on". 
 
 A common mistake is to use <del>«avhengig **på** noe»</del> instead of «avhengig **av** noe».
+
+--------------------------------------------------------------------------------
+
+### hos
+
+When referting to "be at" («<span style="color: #00CC66;">er / bor</span>») places like doctor's office, NAV, etc., use «**hos**».
+
+| Norsk           | English                 |
+|-----------------|-------------------------|
+| hos legen       | at the doctor's         |
+| hos NAV         | at the Norwegian Labour and Welfare Administration |
+| hos meg         | at my place             |
+| hos en venn     | at a friend's place     |
+| hos + noen      | at sb's place           | 
+
+
+When referring to "going to" («<span style="color: #00CC66;">gå / reise / dra</span>») these places, use «**til**».
+
+Jeg skal til legen i morgen.  
+→ I am going to the doctor tomorrow.
+
+Jeg skal til tante Petra.  
+→ I am going to aunt Petra's place.
+
+--------------------------------------------------------------------------------
+
+### Stedsuttrykk
+
+**Preposisjoner med steder**
+
+区别 «i» 和 «på» 
+
+| Example                   | Rule                        |
+|---------------------------|-----------------------------|
+| i Afrika                  | i en verdensdel             |
+| i England                 | i et land                   | 
+| i Finnmark                | i et fylke                  |
+| i Bærum                   | i en kommune                |
+| i Oslo                    | i en by                     |
+| i Storgata                | i en gate                   |
+
+
+| Example                   | Rule                        |
+|---------------------------|-----------------------------|
+| på Svalbard               | på en øy                    |
+| på Voss                   | på det mindre sted          |
+| på Skaugum                | på en gård / eiendom        |
+| på Galdhøpiggen           | på et fjelltopp             |
+
+去这些地方一律用 «til»。
+
+
+**Rommene i et hus**
+
+- intetkjønn rom (-et) 用 «på»
+
+  på kjøkkenet  
+  på soverommet  
+  på badet  
+  på toalettet  
+  på loftet
+
+- fem. / mask. rom (-en / -en) 用 «i»
+
+  i stua  
+  i garasjen  
+  i kjelleren  
+  i boden  
+  i gangen  
+  i hallen  
+  i hagen  
+  i balkongen  
+  i trappa  
+  i heisen  
 
 
 --------------------------------------------------------------------------------

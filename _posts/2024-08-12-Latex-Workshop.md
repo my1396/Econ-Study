@@ -419,6 +419,10 @@ First, enable SyncTeX in the `settings.json`:
 ```
 This setting syncs PDF with cursor position after compiling, which defaults to `false`.
 
+SyncTeX works through a `.synctex.gz` file generated during the LaTeX compilation process. Make sure your LaTeX compiler is configured to generate this file. Most compilers, including `pdflatex` and `xelatex`, generate SyncTeX files by default when using the appropriate command-line options (e.g., `-synctex=1`).
+
+Sometimes compilers clean up auxiliary files after compilation, which may include the SyncTeX file. To prevent this, <span class="env-green">ensure that your build process does NOT delete the `*.synctex.gz` file.</span>
+
 - **Forward/Direct synctex** (source to pdf) can either be activated by selecting "<i class="codicon codicon-edit" aria-hidden="true" style="vertical-align: middle;"></i> Navigate, select, and edit" > "<i class="codicon codicon-go-to-file" aria-hidden="true" style="vertical-align: middle;"></i> SyncTeX from cursor" in the side bar <i class="fa-brands fa-tex" style="font-size:1.5em; vertical-align: middle;"></i>. 
   
   Alternatively, use the shortcut <span class="env-green">`cmd`+`option`+`j`</span> (on Mac). ✅
@@ -433,6 +437,14 @@ This setting syncs PDF with cursor position after compiling, which defaults to `
   ```json
   "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click"
   ```
+
+--------------------------------------------------------------------------------
+
+**Troubleshooting**
+
+Q: SyncTeX is not working.  
+A: Check if you have `*.synctex.gz` file in the output directory after building the document. The SyncTeX depends on this file to map positions between the source and the PDF. If this file is missing, SyncTeX will not work.
+
 
 --------------------------------------------------------------------------------
 
@@ -685,9 +697,11 @@ To disable these warning messages, add the following settings to your `settings.
   "latex-workshop.latex.clean.subfolder.enabled": false,
   "latex-workshop.latex.autoClean.run": "never",
   "latex-workshop.laterx.clean.method": "glob",
+  
   // Disable warning messages
   "latex-workshop.message.warning.show": false,
   "latex-workshop.message.error.show": true,
+  
   // Auxiliary files to clean
   "latex-workshop.latex.clean.fileTypes": [
     "*.aux",
@@ -709,19 +723,20 @@ To disable these warning messages, add the following settings to your `settings.
     "*.log",
     "*.fdb_latexmk",
     "*.snm",
+    // "*.synctex.gz",
     "*.synctex(busy)",
     "*.synctex.gz(busy)",
     "*.nav",
     "*.vrb",
-    "*.synctex.gz",
     "out_dir/*.aux",
     "out_dir/*.bbl",
     "out_dir/*.blg",
     "out_dir/*.fls",
     "out_dir/*.log",
     "out_dir/*.fdb_latexmk",
-    "out_dir/*.synctex.gz"
+    // "out_dir/*.synctex.gz"
   ],
+  
   // LaTeX build recipes and tools
   "latex-workshop.latex.recipes": [
     {
@@ -753,6 +768,7 @@ To disable these warning messages, add the following settings to your `settings.
       ]
     }
   ],
+
   "latex-workshop.latex.tools": [
     {
       "name": "latexmk",

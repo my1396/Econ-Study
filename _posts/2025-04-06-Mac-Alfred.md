@@ -15,7 +15,9 @@ A: Go to [Alfred homepage](https://www.alfredapp.com), scroll down to "Productiv
 What are in the free version?
 
 - Find and launch applications, files (same as Mac Spotlight)
-- Web Search
+
+- [Web Search](#alfred-web-search): search the web quickly with custom keywords
+
 
 What are NOT in the free version but very useful, would be a big loss if missing it?
 
@@ -38,7 +40,9 @@ What are NOT in the free version but very useful, would be a big loss if missing
   Here I replace Mac Spotlight with Alfred. ^ + Space was was the default Spotlight shortcut. 
   To replace it with Alfred, go to System Settings > Keyboard > Keyboard Shortcuts > Spotlight, and uncheck the default shortcut. Then set Alfred hotkey to ^ + Space in Alfred Preferences > General > Alfred Hotkey.
 
-- <kbd>⌘,</kbd> : preferences
+- <kbd>⌘,</kbd>: preferences
+  
+  First activate Alfred bar, then press ⌘, to open Alfred Preferences.
 
 - <kbd>␣f-name</kbd>: search internal files and folders with name `f-name`
     - <kbd>⌘</kbd> + <kbd>Enter</kbd>: show file location in folder
@@ -48,17 +52,30 @@ What are NOT in the free version but very useful, would be a big loss if missing
 ## Setup
 
 - Uncheck automatic update
-- Hide/Show Alfred icon in menu bar
+
+- Hide/Show Alfred icon in the search bar
   
+  <img src="https://drive.google.com/thumbnail?id=1SvNNVA7Igrz6G8Ay34p8fAxdQZjNJQOh&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
+
   Appearance > Options > **Check "Hide menu bar icon"**
+
 
   <img src="https://drive.google.com/thumbnail?id=1uFDLFa27a-Nrs2zfnYx-EGXuTASO1pjP&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
+  Alfred will launch without a menu bar icon, showing only the search bar for a cleaner, Spotlight-like experience.
+
+- Import Snippet collections
+- Enable Query History
+  
+  Advanced preferences > History > Check "Show latest query if within 5 minutes"
+
+  <img src="https://drive.google.com/thumbnail?id=1mW4L8GH3w9uFHaS_z7q9WwDBiUPSNNJB&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 --------------------------------------------------------------------------------
 
 **Highlight Features:**
 
+<a name="alfred-web-search"></a>
 - **Web Search**: Efficient way to do customized searches. 
   
   A <span class="env-orange">drawback</span> is that it opens a new tab in the browser each time you search even though you have already got the tab open in your browser.
@@ -70,6 +87,8 @@ What are NOT in the free version but very useful, would be a big loss if missing
   - `g <keyword>` to search on Google
   - `youdao <keyword>` to search on 有道词典
   - `ord <keyword>` to search on [Ordnett](https://www.ordnett.no) 挪威语词典
+
+  <img src="https://drive.google.com/thumbnail?id=1xlb_EU5OaQdGihiJcddRyJkVCcK5EV-5&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 - **Code snippet**: keywords to be replaced by your snippets. Quick way to type phrases you use again and again. 
   
@@ -189,8 +208,16 @@ Clipboard history Keyboard shortcit: ⌥⌘C
 Issue: Alfred snippets pasting from clipboard rather than snippet.  
 Fix: Slow down key events. I changed it from 0.5s to 0.6s. 
 
+## Calculator
+
+You can do calculations directly in Alfred. Just type the expression you want to calculate, and Alfred will show the result.
+
+<img src="https://drive.google.com/thumbnail?id=1bFzJmehwOP41qKCqW1U0o3XIOrnpF7ZC&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
 
 ## Sync preferences between Macs
+
+Note: Not working for me.
 
 **Primary Mac**: the one you want to sync from. The settings on this Mac will overwrite anything you have on the second Mac.
 
