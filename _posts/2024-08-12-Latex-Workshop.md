@@ -335,7 +335,7 @@ Here is taken from my `settings.json` as an example:
       "-synctex=1",
       "-interaction=nonstopmode",
       "-file-line-error",
-      "-output-directory=%DIR%/out_dir",
+      "-output-directory=%DIR%/out_dir", // don't change to %OUTDIR%
       "%DOC%"
     ],
     "env": {}
@@ -344,7 +344,7 @@ Here is taken from my `settings.json` as an example:
     "name": "bibtex",
     "command": "bibtex",
     "args": [
-      "out_dir/%DOCFILE%"
+      "out_dir/%DOCFILE%" // don't change to %OUTDIR%
     ],
     "env": {
       "BIBINPUTS": "%DIR%:",
@@ -365,6 +365,10 @@ Here is taken from my `settings.json` as an example:
   }
 ],
 ```
+
+> ‼️ Do <span class="env-orange">NOT</span> get smart and change the `"args"` out of whim. It may break the build process. 
+> 
+> 不要灵机一动乱改 `"args"`，比如 `-output-directory`。代码虽然看着想改，但是改了就不一定能跑得通了。🤪
 
 Each `tool` is an object consisting of a `name`, a `command` to be spawned, its arguments (`args`) and some specific environment variables (`env`). The `env` entry is a dictionary. Imagine you want to use a `texmf` subdirectory local to your home project, just write
 

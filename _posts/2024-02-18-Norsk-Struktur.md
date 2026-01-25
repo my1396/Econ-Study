@@ -774,7 +774,20 @@ Du klarer ikke førerprøven **uten å** øve mye.
 
 --------------------------------------------------------------------------------
 
+**As long as** 只要
+
+> så lenge; 
+
+- *Så lenge* du øver hver dag, vil du bli bedre i norsk.  
+  → As long as you practice every day, you will get better at Norwegian. 
+
+
+
+--------------------------------------------------------------------------------
+
 **Unless** 除非
+
+表示必要条件
 
 > med mindre (formal); hvis ikke (spoken and casual); uten at; 
 
@@ -797,10 +810,13 @@ Examples of «med mindre»:
 
 Other expressions of "unless":
 
-- Du vil miste bussen *hvis ikke* du skynder deg.  
+- Du vil miste bussen *hvis ikke* du skynder deg. (注意 «ikke» 的位置)  
   → You will miss the bus if you don't hurry.
 
   Hvis ikke du skynder deg, vil du miste bussen.
+
+- *Hvis det ikke* snør kraftig, kan vi fortsatt dra. (注意 «ikke» 的位置)  
+  → Unless it snows heavily, we can still go.
 
 - *Uten at* du øver, vil du ikke forbedre ferdighetene dine.  
   → Unless you practice, you won't improve your skills.

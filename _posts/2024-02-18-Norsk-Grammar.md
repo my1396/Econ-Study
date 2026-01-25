@@ -1132,23 +1132,66 @@ It connects the main clause with a subordinate clause and if there is a adverb, 
 
 **Preposisjoner (prepositions)** 
 
+无他，固定搭配，多用多学 + 死记硬背。
+
 ### Over
 
-| Norsk             | English         |
-| ----------------- | --------------- |
-| tenke *over*      | think about     |
-| ta *over*         | take over       |
-| være klar *over*  | be aware of     |
+| Norsk                  | English                                       |
+| ---------------------- | --------------------------------------------- |
+| være opprørt over noe  | be upset about sth                            |
+| være oppgitt over noe  | be frustrated, exasperated, or fed up about 受够了，恼火的，恼人的 |
+| være irritert over noe | be irritated about, be annoyed about 烦人，恼火，讨厌的           |
+
+«Oppgitt» is stronger than «irritert», more about feeling helpless or fed up, not just annoyed.
+
+**Irritated**
+
+- være irritert *over noe* → be irritated about sth
+  
+  Jeg er irritert over støyen.  
+  → I am irritated about the noise.
+
+- irriterer *på noen* → be irritated with sb (directed at a person, similar to «sint på noen»)
+  
+  Han irriterer på broren sin.  
+  → He is irritated with his brother.
+
+  Han ble irritert på kollegaen sin.  
+  → He got irritated with his colleague.
+
+- irritert **seg over noen**
+  
+  Note you might see «irritert seg på noen» in some contexts. It means "annoy oneself at sb", "get annoyed with sb".
+
+  Han irriterte seg på sjefen hele dagen.  
+  → He annoyed himself with the boss all day. (He got annoyed with the boss all day.)
+
+  Jeg irriterer meg på trafikken hver morgen.  
+  → I get annoyed with the traffic every morning.
+
+| Norsk              | English            |
+| ------------------ | ------------------ |
 | være imponert / overrasket / skuffet *over* | be impressed / surprised / disappointed about |
+
 
 **Surprise**
 
 være overrasket over noe → be surprised about sth  
 en overraskelse over noe → a surprise about sth
 
-| Norsk   | English |
-| ------- | ------- |
-| gå over | pass    |
+
+
+| Norsk             | English         |
+| ----------------- | --------------- |
+| tenke *over*      | think about     |
+| ta *over*         | take over       |
+| være klar *over*  | be aware of     |
+
+
+| Norsk             | English         |
+| ----------------- | --------------- |
+| gå over           | pass            |
+
 
 Det går over. → It will pass.
 
@@ -1196,11 +1239,13 @@ Jeg jobbet over tid i dag. → I worked overtime today.
 
 | Norsk             | English       |
 | ----------------- | ------------- |
-| en liste over ... | a list of ... |
+| en liste <span style="color: #00CC66;">over</span> ... | a list of ... |
 
-en liste over lykkelige land → a list of happy countries
+en liste *over* lykkelige land → a list of happy countries
 
-en liste over ting å gjøre → a list of things to do
+en liste *over* ting å gjøre → a list of things to do
+
+et ting, tinget, ting, tingene → neut. a thing (plural same as singular 中性词，单复同形)
 
 en liste over *de beste bøkene* i år → a list of best books this year [注意最高级 de + superlative definite adj + plural definite noun, <span style="color: #00CC66;">**triple agreement**</span>] 
 
@@ -1925,12 +1970,20 @@ Jeg har vanskeligheter <span style='color:#00CC66'>**med å**</span> forstå dia
 Det er morsomt for barna å gå på sirkus.  
 → It is fun for the children to go to the circus.
 
-| Norsk             | English                 |
-|-------------------|-------------------------|
-| kjempe for        | fight for               |
-| forklare for noen | explain to sb           |
-| ha ansvar for     | be responsible for      |
-| foretrekke for noe | prefer sth             |
+
+| Norsk               | English            |
+| ------------------- | ------------------ |
+| være ansvarlig for  | be responsible for |
+| ha ansvar for       | be responsible for |
+| være takknemlig for | be grateful for    |
+| være engstelig for  | be anxious about   |
+| ha angst for        | be afraid of       |
+
+| Norsk              | English                 |
+|--------------------|-------------------------|
+| kjempe for         | fight for               |
+| forklare for noen  | explain to sb           |
+| foretrekke for noe | prefer sth              |
 
 Jeg foretrekker sigarer for (el. fremfor) sigaretter  
 → I prefer cigars to cigarettes 
@@ -1938,6 +1991,9 @@ Jeg foretrekker sigarer for (el. fremfor) sigaretter
 Takk, jeg foretrekker å vente  
 → Thank you, I prefer to wait.
 
+| Norsk             | English                 |
+|-------------------|-------------------------|
+| å gi grunnlag for | to provide a basis for  |
 
 --------------------------------------------------------------------------------
 
