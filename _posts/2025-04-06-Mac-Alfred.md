@@ -73,11 +73,13 @@ What are NOT in the free version but very useful, would be a big loss if missing
 
 --------------------------------------------------------------------------------
 
-**Highlight Features:**
+## Highlight Features
 
 <a name="alfred-web-search"></a>
-- **Web Search**: Efficient way to do customized searches. 
+- **Web Search**: Efficient way to do customized searches. [↩](https://www.alfredapp.com/help/features/web-search/#history)
   
+  <img src="https://drive.google.com/thumbnail?id=1xlb_EU5OaQdGihiJcddRyJkVCcK5EV-5&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
   A <span class="env-orange">drawback</span> is that it opens a new tab in the browser each time you search even though you have already got the tab open in your browser.
   
   How to use: Type `g <keyword>` to search on Google. Don’t need to open browser, navigate to Google, and start typing then. 
@@ -88,7 +90,14 @@ What are NOT in the free version but very useful, would be a big loss if missing
   - `youdao <keyword>` to search on 有道词典
   - `ord <keyword>` to search on [Ordnett](https://www.ordnett.no) 挪威语词典
 
-  <img src="https://drive.google.com/thumbnail?id=1xlb_EU5OaQdGihiJcddRyJkVCcK5EV-5&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+  **Use example:**
+
+  If you want to search Google Maps, start with "maps" followed by your desired search term, such as `maps cambridge`. 
+  Hit <kbd>Enter</kbd> and Alfred will open Google Maps with the search results for Cambridge.
+
+  <img src="https://drive.google.com/thumbnail?id=1Qckc06i7yRpMtH735vIm1Br7o8B1gFor&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+  
+
 
 - **Code snippet**: keywords to be replaced by your snippets. Quick way to type phrases you use again and again. 
   
@@ -215,9 +224,26 @@ You can do calculations directly in Alfred. Just type the expression you want to
 <img src="https://drive.google.com/thumbnail?id=1bFzJmehwOP41qKCqW1U0o3XIOrnpF7ZC&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 
+## Open URL fast
+
+Alfred will recognize URLs when they are typed into the search box, to help you quickly launch websites.
+
+Add a custom URL scheme in Alfred Preferences > Features > Web Search > URLs / History.
+
+<img src="https://drive.google.com/thumbnail?id=1uFxtO6bEPs6lq4rS5URRy39j1iikXpO5&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+After adding the custom URL scheme, you can type the url directly into Alfred's search box to open the website.
+
+Alfred remembers your URL history, so you can quickly access previously visited websites by typing a few characters of the URL.
+
+For example, if I have added `https://my1396.github.io/Econ-Study/tags/` as a custom URL scheme, I can type `my` in Alfred's search box, and it will show the URL in the results. Press <kbd>Enter</kbd> to open the website.
+
+The URLs will be removed if they're not used for a given period of time, which can be set to 1 week, 1 month, 3 months or a year. 3 months is a good balance.
+
+
 ## Sync preferences between Macs
 
-Note: Not working for me.
+Note: I couldn't get it work. [26-01]
 
 **Primary Mac**: the one you want to sync from. The settings on this Mac will overwrite anything you have on the second Mac.
 

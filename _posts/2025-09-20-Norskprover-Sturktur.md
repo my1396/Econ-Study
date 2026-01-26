@@ -46,6 +46,26 @@ A: legitimasjon (ID), hodetelefon for lytteprøven, bankkort for betaling.
 
 一般开始时间是周一上午 09:00，截止至周五晚 23:59。报名开放后尽早注册，名额有限，免得后期想报名的时候没有考位了。
 
+<img src="https://drive.google.com/thumbnail?id=1u4Xz0SG_4dJFhvrWFeQQRCkyWkIq-UGz&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+
+--------------------------------------------------------------------------------
+
+**Tips:**
+
+一开始是 muntlig / skriftlig 二选一，这一步需要选择 nivå (A1--B2 选择你要的等级)。
+如果你想报 skriftlig delprøver, 仍然是选择 "Skriftlig prøve (lytte, lese, skrive)"。在下一步中选择你想报的 delprøver，比如 lese + skrive。
+
+注意 lytte 和 lese 是难度自适应考试，都是从 A2 开始，根据你答题的正确率决定后续题目的难度，所以不需要选择等级。
+
+Skrive 需要选择等级。不同等级的写作题目和文体不同。比如 B1--B2 要求写一封邮件和一篇议论文。
+
+Muntlig 也是需要选择等级的。不同等级的口语题目和要求不同。
+
+需要注意的是，<span class="env-orange">整个报名没有确认环节</span>。提交报名后，收到报名成功的邮件和短信即表示报名成功。
+
+❗注意不要选错了等级和项目，因为报名后不能更改。
+
+--------------------------------------------------------------------------------
 
 **Viktig informasjon**
 
@@ -66,7 +86,7 @@ Påmelding er bindende. Om du ikke møter, må du likevel betale for prøven. Er
 
 **Hvordan å betale**: Betale når du tar prøven på prøvestedet (Bodø Voksenopplæringen for meg).
 
-**Innkallingsbrev**: Prøvestedet sender deg informasjon om hvor og når du skal ta prøven senest to uker før prøvedato.
+**Innkallingsbrev**: Prøvestedet sender deg informasjon om hvor og når du skal ta prøven senest <span class="env-green">to uker</span> før prøvedato.
 
 > **Invitation letter**  
 > The test center will send you information about where and when you are to take the exam no later than two weeks before the test date.

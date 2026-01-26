@@ -28,10 +28,13 @@ update: 2025-08-01
 
 **Useful resources:**
 
-- Latex-Workshop GitHub repo: <https://github.com/James-Yu/LaTeX-Workshop/wiki/Install#usage>
+- Latex-Workshop GitHub Wiki page: <https://github.com/James-Yu/LaTeX-Workshop/wiki/Install#usage>
 - Configure LateX Workshop by Paul Wintz: <https://paulwintz.com/latex-in-vscode/> 👍
 - Integrating Overleaf with VS Code: <https://www.youtube.com/watch?v=SaMRCYbsAek>
 - Snippets: <https://github.com/James-Yu/LaTeX-Workshop/wiki/Snippets#Handy-mathematical-snippets>
+- <a href="{{site.baseurl}}/Econ-Study/2024/08/12/VS-Code.html">VS Code</a>
+
+
 
 
 --------------------------------------------------------------------------------
@@ -70,6 +73,8 @@ This sets the background color and the spacing btw pages in the PDF viewer to **
 
 ❌ <span class="env-orange">A caveat</span> is that this interferes with text color and image color in the document. E.g., If you use colored text `\textcolor{red}{...}`, the text won't appear red. The colored images <span class="env-orange">won't</span> appear in their original colors either.
 
+
+<a id="page-bg-color"></a>
 > Update: 26-01-08  
 > Set page background color using LaTeX command instead of LaTeX Workshop settings to avoid the interference with textcolor. 
 > ```latex
@@ -407,7 +412,31 @@ Generally you still want your files to save automatically, hence in user `settin
 "files.autoSave": "afterDelay"
 ```
 
+### Auxiliary files
 
+LaTeX compilation typically generates several auxiliary files. They can be removed by calling *Clean up auxiliary files* from the *Command Palette* or from the *TeX* badge <i class="fa-brands fa-tex" style="font-size: 1.5em"></i>.
+
+```json
+latex-workshop.latex.autoClean.run: "never",
+```
+
+By default, LaTeX Workshop does not clean auxiliary files automatically after building the document. 
+You can change this behavior by setting `latex-workshop.latex.autoClean.run` to one of the following values:
+
+-   `"onBuilt"`: Clean auxiliary files automatically after building the document.
+-   `"onFailed"`: Clean the project upon failed compilation.
+
+What are the pros and cons of auto-cleaning?
+
+- **Pros**: Keeps the project directory clean and organized by removing unnecessary files.
+- **Cons**: Takes extra time after each build, which may <span class="env-orange">**slow**</span> down the workflow, especially for large projects.
+
+
+✅ Suggested practice: **never** auto-clean auxiliary files. Manually clean them when necessary.
+
+ref: 
+
+- [Cleaning auxiliary files](https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#cleaning-generated-files)
 
 --------------------------------------------------------------------------------
 
@@ -504,9 +533,112 @@ After changing `"latex-workshop.latex.outDir"`, LaTeX Workshop's `"Clean up au
 
 ## Overleaf Integration
 
-Overleaf Workshop Extension: <https://github.com/iamhyc/overleaf-workshop>
+Overleaf Workshop Extension: 
 
-Overleaf is nice for collaboration, but you will loss the LaTeX Workshop features. E.g., snippets, better synctex (with highlighter of precise location), etc.
+- [GitHub repo](https://github.com/iamhyc/overleaf-workshop)
+  
+  Find user guide at [GitHub Wiki](https://github.com/overleaf-workshop/Overleaf-Workshop/wiki).
+
+- [VS Code Marketplace: Overleaf Workshop](https://marketplace.visualstudio.com/items?itemName=iamhyc.overleaf-workshop)
+
+Overleaf is nice for collaboration, but you will <span class="env-orange">loss the LaTeX Workshop features</span>. E.g., snippets, better synctex (with highlighter of precise location), etc.
+
+| Keyboard Shortcut          | Action                           |
+| -------------------------- | -------------------------------- |
+| `Opt` + `Cmd` + `B`        | Compile on Overleaf server       |
+| <span class="env-green">`Cmd` + `S`</span> | After enable `compileOnSave`, save to compile automatically |
+| `Cmd` + `Option` + `J`     | Go to PDF from source (forward)  |
+| Double click (in PDF)      | Go to source from PDF (backward) |
+
+
+--------------------------------------------------------------------------------
+
+### Highlight features
+
+**Highlight features** of the Overleaf Workshop extension: 
+
+- You can use the **AI writing assistance**
+
+- You can keep the project up to date with your collaborators in real-time as **everyone is editing on Overleaf Cloud** (if they use the online portal). 
+  
+  This avoids conflicts between collaborators. ✅
+
+  User cursor indicator will show your position.
+
+  When there are other collaborators (or your other login sessions) online, the colored cursors of the collaborators will be displayed in the document editor.
+
+  <img src="https://github.com/overleaf-workshop/Overleaf-Workshop/raw/master/docs/assets/screenshot-online-collaborators.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+  The item icon shows the number of online collaborators, and the color represents the latest active collaborator. 
+  
+  Note that you need to **manage your local repo** to keep it in sync with Overleaf Cloud.  
+  Remember to pull changes to your local repository regularly to avoid conflicts.
+
+- **Nice PDF viewer** that supports light and dark themes.
+  
+  By default, Overleaf PDF viewer uses the `default` theme (white background).
+  
+  I really like the `light` theme, which has a beige background color which is easier on the eyes.
+
+  You can change the theme in the `settings.json`:
+  
+  ```json
+  "overleaf-workshop.pdfViewer.themes": {
+    "default": {"fontColor":"#000000", "bgColor":"#FFFFFF"},
+    "light":   {"fontColor":"#000000", "bgColor":"#F5F5DC"},
+    "dark":    {"fontColor":"#FBF0D9", "bgColor":"#4B4B4B"}
+  }
+  ```
+
+  If you use LaTeX Workshop local, you need to specify the background color manually using latex command. See [HERE](#page-bg-color).
+
+- **Chat with Collaborators** (copy line reference)
+  
+  <img src="https://drive.google.com/thumbnail?id=1_9iq070kbe9c0Phl620PDGSke_aibh6k&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+- **On-the-fly Compiling and Previewing**
+
+  Real-time PDF preview as you type.
+
+  - Cmd + Option + B (on macOS) to compile, and
+
+    The Overleaf server is <span class="env-green">**faster**</span> to compile than my local LaTeX Workshop. 
+
+    I am not sure why it's like this. Probably my local compile recipes are not efficient? 🤔
+  
+  - <span class="env-green">**Auto compile on save**</span>
+    
+    You can manually compile using `Cmd` + `Option` + `B`. But to make life easier, you can enable auto compile on save by addting the following setting to your `settings.json`:
+
+    ```json
+    "files.autoSave": "onFocusChange",
+    "overleaf-workshop.compileOnSave.enabled": true,
+    ``` 
+
+    <img src="https://drive.google.com/thumbnail?id=1JAckyhLbmbZ7-ku0K3hiurWziXka6Aed&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+    This way, when you save the tex file or change focus away from the tex file, the document will be compiled automatically on Overleaf server.
+  
+  - Cmd + Option + V to preview 
+
+  The [compiling](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#compile-the-project) is done on Overleaf servers. 
+  The pdf output together with all auxiliary files will be in a folder named `/.output/` in your project.
+  
+  Your local latex compiler, such as Latex Workshop, <span class="env-orange">won't</span> work here.
+
+
+
+
+> 🎯 How to choose between Overleaf Cloud and LaTeX workshop local?
+> 
+> I think <span class="env-green">a nice strategy</span> is to use local repo for writing the first draft, then push to Overleaf for collaboration and finalizing. 
+> 
+> The principle is to avoid jumping back and forth between Overleaf and local repo too often, which may lead to conflicts and data loss.
+> 
+> For each phase of writing, stick to either local repo or Overleaf Cloud, and manually push and pull to keep the local and cloud versions in sync.
+>
+> For me, I use local repo at the beginning of writing, then push to Overleaf when I need to collaborate with co-authors at a later stage.
+
 
 A workaround is to use [GitHub integration](https://docs.overleaf.com/integrations-and-add-ons/git-integration-and-github-synchronization/git-integration) to sync Overleaf projects to your computer. Using Git incurs some overhead with pushing, pushing, and (possibly) merging, but it may be worth the upsides of editing Overleaf documents with the exact same tools as any of your local LaTeX documents.
 
@@ -529,36 +661,24 @@ When the login is successful, you will see your Overleaf projects listed in the 
 <img src="https://drive.google.com/thumbnail?id=11DjiuuRo0RpFmWOqtQWSxQChnkNlyTRV&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 
-**Highlight features:**
+You can also see the LaTeX compiler (`pdfLaTeX`) and the language locale (`EN_US`) at the status bar. 
 
-- Sync with Overleaf Cloud
-  
-  User cursor indicator will show your position.
+- But I am not sure who uses the langauge locale specification. The value was taken from `cspell.json` in the workspace. However, cSpell checker does not recognize it.
+- cSpell uses VS Code settings (either workspace of user `settings.json`) for language spell check. 
 
-- Chat with Collaborators (copy line reference)
-  
-  <img src="https://raw.githubusercontent.com/iamhyc/Overleaf-Workshop/master/docs/assets/demo06-chat.gif" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
-- **On-the-fly Compiling and Previewing**
 
-  Real-time PDF preview as you type.
 
-  - Cmd + Option + B (on macOS) to compile, and
-  - Cmd + Option + V to preview 
-
-  The [compiling](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#compile-the-project) is done on Overleaf servers. The pdf output together with all auxiliary files will be in a folder named `/.output/` in your project.
-  
-  Your lock latex compiler, such as Latex Workshop, <span class="env-orange">won't</span> work here.
 
 **Caveats:**
 
-- Do <span class="env-orange">NOT</span> use the Overleaf Workshop "Open Projects Locally" feature. 
+- Do <span class="env-orange">**NOT**</span> use the Overleaf Workshop "Open Projects Locally" feature. 
   
-  ❗️ Using a local version leads to major issues, including edit conflicts and data loss. See this [GitHub issue](https://github.com/iamhyc/Overleaf-Workshop/issues/180).
+  ‼️ Using a local version leads to major issues, including edit conflicts and data loss. See this [GitHub issue](https://github.com/iamhyc/Overleaf-Workshop/issues/180).
 
 --------------------------------------------------------------------------------
 
-Overleaf pdf viewer supports three **themes**: `default` (white), `light` (warm yellow, easy on eyes 👍), and `dark`. You can change the theme via clicking the theme button (the square) on the title bar in the Overleaf PDF viewer.  
+**Overleaf pdf viewer** supports three **themes**: `default` (white), `light` (warm yellow, easy on eyes 👍), and `dark`. You can change the theme via clicking the theme button (the square) on the title bar in the Overleaf PDF viewer.  
 P.S. If you cannot see the theme button, please make sure the PDF viewer is wide enough.
 
 <img src="https://drive.google.com/thumbnail?id=1dJ3METG2LREwSDj3w4rLzj2vARE-RVg4&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
@@ -587,7 +707,9 @@ The SyncTeX and Reverse SyncTeX are supported in the Overleaf PDF viewer.
     }
     ```
 
--   **Reverse SyncTeX, Jump to Code**: backward sync. Double click on the text on PDF to jump to the corresponding position in the editor.
+-   **Reverse SyncTeX, Jump to Code**: backward sync. 
+    
+    **Double click** on the text on PDF to jump to the corresponding position in the editor.
 
 
 Q: Editor stops responding when compiling tex for preview.   
@@ -596,6 +718,16 @@ A: Disable auto build on save. This way, you can have a smooth editing experienc
 ```json
 "overleaf-workshop.compileOnSave.enabled": false
 ```
+
+--------------------------------------------------------------------------------
+
+**Compiler Diagnostics** [↩](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#compiler-diagnostics)
+
+
+When the compile fails or succeeds with warnings, the compiler diagnostics will be displayed in the editor with colored squiggles. You can hover on the squiggles to see the detailed information.
+
+The full compiler diagnostics are displayed in the "Problems" panel, which is located at the bottom of the VS Code window.
+
 
 --------------------------------------------------------------------------------
 
@@ -627,6 +759,18 @@ Synchronization between GitHub and Overleaf does <span class="env-orange">NOT</s
 - GitHub ahead of Overleaf: Pull changes from GitHub to Overleaf.
 - Overleaf ahead of GitHub: Push changes from Overleaf to GitHub.
 
+No matter whether you are working locally or on Overleaf, 
+
+1. After making changes, commit and push them to GitHub.
+2. Then pull the changes from GitHub to either Overleaf or your local repository.
+
+GitHub is the intermediate storage that keeps everything in sync.
+
+I cannot figure out how to communite GitHub remote with Overleaf Workshop extension directly. I have to go to Overleaf web portal to do the integration. [26-01]
+
+<img src="https://drive.google.com/thumbnail?id=1RwEPA-zFZYVBR8X59FkicES8vbPq-6h9&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
 If you are writing together with collaborators, best practice is to frequently pull changes from GitHub to Overleaf to keep your Overleaf project up to date before you start making changes. 
 This helps to minimize the chances of merge conflicts when you push your changes back to GitHub.
 
@@ -642,6 +786,19 @@ Suggested practice: Always pull changes from GitHub to Overleaf before pushing c
 
 
 ref: [GitHub synchronization](https://docs.overleaf.com/integrations-and-add-ons/git-integration-and-github-synchronization/github-synchronization)
+
+
+--------------------------------------------------------------------------------
+
+
+Q: Why my VS Code plugin (e.g., `vscode-texlint`, `latex-utilities`) does not work?
+
+A: Due to the [limitation of the virtual workspace](https://github.com/microsoft/vscode/wiki/Virtual-Workspaces#signal-whether-your-extension-can-handle-virtual-workspaces), most of the existing VS Code extensions does not work in the virtual workspace. In this case, you can choose to [open the project locally](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#open-project-locally) as a workaround.
+
+Please notice that not all Overleaf features enabled in a local folder. More specifically, the [compile](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#compile-project), [PDF preview](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#preview-document), [intellisense](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#intellisense)and [project history](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#history-of-changes) features are disabled by default. You need to refer to [LaTeX Workshop Extension](https://github.com/James-Yu/LaTeX-Workshop) as a complement.
+
+
+--------------------------------------------------------------------------------
 
 ## LaTeX Workshop debug log
 
@@ -684,7 +841,7 @@ To disable these warning messages, add the following settings to your `settings.
 
 --------------------------------------------------------------------------------
 
-## My Config
+## My LaTeX Workshop Config
 
 <div style="height: 400px; overflow-y: auto;" markdown="1">
 
@@ -698,16 +855,20 @@ To disable these warning messages, add the following settings to your `settings.
   "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
   "latex-workshop.latex.recipe.default": "lastUsed",
   "latex-workshop.latex.outDir": "%DIR%/out_dir",
-  "latex-workshop.latex.clean.subfolder.enabled": false,
-  "latex-workshop.latex.autoClean.run": "never",
-  "latex-workshop.laterx.clean.method": "glob",
-  
+
   // Disable warning messages
   "latex-workshop.message.warning.show": false,
   "latex-workshop.message.error.show": true,
   
-  // Auxiliary files to clean
+  // Disable LaTeX auto-cleaning auxiliary files
+  "latex-workshop.latex.clean.subfolder.enabled": false,
+  "latex-workshop.latex.autoClean.run": "never",
+  
+  // In case auto-cleaning is enabled, you can specify which files to clean.
+  // Look for auxiliary files using glob patterns
+  "latex-workshop.laterx.clean.method": "glob", 
   "latex-workshop.latex.clean.fileTypes": [
+    // Auxiliary files to clean
     "*.aux",
     "*.bbl",
     "*.blg",
@@ -753,6 +914,12 @@ To disable these warning messages, add the following settings to your `settings.
       ]
     },
     {
+      "name": "latexmk 🔃",
+      "tools": [
+        "latexmk"
+      ]
+    },
+    {
       "name": "pdflatex ➞ pdflatex",
       "tools": [
         "pdflatex",
@@ -765,12 +932,6 @@ To disable these warning messages, add the following settings to your `settings.
         "xelatex"
       ]
     },
-    {
-      "name": "latexmk 🔃",
-      "tools": [
-        "latexmk"
-      ]
-    }
   ],
 
   "latex-workshop.latex.tools": [
