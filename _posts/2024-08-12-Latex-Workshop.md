@@ -627,7 +627,15 @@ Overleaf is nice for collaboration, but you will <span class="env-orange">loss t
   Your local latex compiler, such as Latex Workshop, <span class="env-orange">won't</span> work here.
 
 
+### Caveats
 
+- Do <span class="env-orange">**NOT**</span> use the Overleaf Workshop "Open Projects Locally" feature. 
+  
+  ‼️ Using a local version leads to major issues, including edit conflicts and data loss. See this [GitHub issue](https://github.com/iamhyc/Overleaf-Workshop/issues/180).
+
+- Always requires internet connection to work.
+
+--------------------------------------------------------------------------------
 
 > 🎯 How to choose between Overleaf Cloud and LaTeX workshop local?
 > 
@@ -669,12 +677,6 @@ You can also see the LaTeX compiler (`pdfLaTeX`) and the language locale (`EN_US
 
 
 
-
-**Caveats:**
-
-- Do <span class="env-orange">**NOT**</span> use the Overleaf Workshop "Open Projects Locally" feature. 
-  
-  ‼️ Using a local version leads to major issues, including edit conflicts and data loss. See this [GitHub issue](https://github.com/iamhyc/Overleaf-Workshop/issues/180).
 
 --------------------------------------------------------------------------------
 
@@ -721,12 +723,40 @@ A: Disable auto build on save. This way, you can have a smooth editing experienc
 
 --------------------------------------------------------------------------------
 
-**Compiler Diagnostics** [↩](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#compiler-diagnostics)
+### Compiler Diagnostics
 
 
 When the compile fails or succeeds with warnings, the compiler diagnostics will be displayed in the editor with colored squiggles. You can hover on the squiggles to see the detailed information.
 
 The full compiler diagnostics are displayed in the "Problems" panel, which is located at the bottom of the VS Code window.
+
+
+Q: How to suppress Compile Checker Warnings in Problems Pane? Theses warnings will add a yellow squiggly line under the text in the editor and highlight your file in yellow in the file explorer, which I find distracting and annoying.  
+A: The [`silence`](https://ctan.org/pkg/silence) package lets you filter or ignore specific warnings.
+
+In your preamble, add:
+
+```latex
+\usepackage{silence}
+
+% Ignore all warnings from package `hyperref`
+\WarningFilter{hyperref}{Token not allowed in PDF string}
+
+% Ignore all warnings from `latex`
+\WarningsOff*
+```
+
+
+--------------------------------------------------------------------------------
+
+**Change the Compiler**
+
+The default compiler is pdflatex, which can be changed via clicking the compiler name in the status bar and select "Setting: Compiler" to alter the compiler.
+
+<img src="https://github.com/overleaf-workshop/Overleaf-Workshop/raw/master/docs/assets/screenshot-change-compiler.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+ref
+- [Overleaf-Workshop Wiki: Compiler Diagnostics](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#compiler-diagnostics)
 
 
 --------------------------------------------------------------------------------
@@ -796,6 +826,12 @@ Q: Why my VS Code plugin (e.g., `vscode-texlint`, `latex-utilities`) does not 
 A: Due to the [limitation of the virtual workspace](https://github.com/microsoft/vscode/wiki/Virtual-Workspaces#signal-whether-your-extension-can-handle-virtual-workspaces), most of the existing VS Code extensions does not work in the virtual workspace. In this case, you can choose to [open the project locally](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#open-project-locally) as a workaround.
 
 Please notice that not all Overleaf features enabled in a local folder. More specifically, the [compile](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#compile-project), [PDF preview](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#preview-document), [intellisense](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#intellisense)and [project history](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#history-of-changes) features are disabled by default. You need to refer to [LaTeX Workshop Extension](https://github.com/James-Yu/LaTeX-Workshop) as a complement.
+
+Q: How to upload files to Overleaf Server from local?  
+A: You can drag and drop files from your local file explorer to the Overleaf Workshop sidebar in VS Code. This will upload the files to your Overleaf project on the server. [↩](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#files-management)
+
+
+
 
 
 --------------------------------------------------------------------------------
