@@ -559,50 +559,13 @@ Overleaf is nice for collaboration, but you will <span class="env-orange">loss t
 
 - You can use the **AI writing assistance**
 
-- You can keep the project up to date with your collaborators in real-time as **everyone is editing on Overleaf Cloud** (if they use the online portal). 
-  
-  This avoids conflicts between collaborators. ✅
-
-  User cursor indicator will show your position.
-
-  When there are other collaborators (or your other login sessions) online, the colored cursors of the collaborators will be displayed in the document editor.
-
-  <img src="https://github.com/overleaf-workshop/Overleaf-Workshop/raw/master/docs/assets/screenshot-online-collaborators.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
-
-  The item icon shows the number of online collaborators, and the color represents the latest active collaborator. 
-  
-  Note that you need to **manage your local repo** to keep it in sync with Overleaf Cloud.  
-  Remember to pull changes to your local repository regularly to avoid conflicts.
-
-- **Nice PDF viewer** that supports light and dark themes.
-  
-  By default, Overleaf PDF viewer uses the `default` theme (white background).
-  
-  I really like the `light` theme, which has a beige background color which is easier on the eyes.
-
-  You can change the theme in the `settings.json`:
-  
-  ```json
-  "overleaf-workshop.pdfViewer.themes": {
-    "default": {"fontColor":"#000000", "bgColor":"#FFFFFF"},
-    "light":   {"fontColor":"#000000", "bgColor":"#F5F5DC"},
-    "dark":    {"fontColor":"#FBF0D9", "bgColor":"#4B4B4B"}
-  }
-  ```
-
-  If you use LaTeX Workshop local, you need to specify the background color manually using latex command. See [HERE](#page-bg-color).
-
-- **Chat with Collaborators** (copy line reference)
-  
-  <img src="https://drive.google.com/thumbnail?id=1_9iq070kbe9c0Phl620PDGSke_aibh6k&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
-
 - **On-the-fly Compiling and Previewing**
 
   Real-time PDF preview as you type.
 
   - Cmd + Option + B (on macOS) to compile, and
 
-    The Overleaf server is <span class="env-green">**faster**</span> to compile than my local LaTeX Workshop. 
+    The Overleaf server is <span class="env-green">**faster**</span> to compile than my local LaTeX Workshop. 🔥
 
     I am not sure why it's like this. Probably my local compile recipes are not efficient? 🤔
   
@@ -626,6 +589,31 @@ Overleaf is nice for collaboration, but you will <span class="env-orange">loss t
   
   Your local latex compiler, such as Latex Workshop, <span class="env-orange">won't</span> work here.
 
+- **Nice PDF viewer** that supports light and dark themes.
+  
+  By default, Overleaf PDF viewer uses the `default` theme (white background).
+  
+  I really like the `light` theme, which has a beige background color which is easier on the eyes.
+  See [Here](#pdf-viewer-themes) for more details.
+
+- You can keep the project up to date with your collaborators <span class="env-green">in real-time</span> as **everyone is editing on Overleaf Cloud** (if they use the online portal). 
+  
+  This avoids conflicts between collaborators. ✅
+
+  User cursor indicator will show your position.
+
+  When there are other collaborators (or your other login sessions) online, the colored cursors of the collaborators will be displayed in the document editor.
+
+  <img src="https://github.com/overleaf-workshop/Overleaf-Workshop/raw/master/docs/assets/screenshot-online-collaborators.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+  The item icon shows the number of online collaborators, and the color represents the latest active collaborator. 
+  
+  Note that you need to **manage your local repo** to keep it in sync with Overleaf Cloud.  
+  Remember to pull changes to your local repository regularly to avoid conflicts.
+
+- **Chat with Collaborators** (copy line reference)
+  
+  <img src="https://drive.google.com/thumbnail?id=1_9iq070kbe9c0Phl620PDGSke_aibh6k&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 ### Caveats
 
@@ -649,6 +637,8 @@ Overleaf is nice for collaboration, but you will <span class="env-orange">loss t
 
 
 A workaround is to use [GitHub integration](https://docs.overleaf.com/integrations-and-add-ons/git-integration-and-github-synchronization/git-integration) to sync Overleaf projects to your computer. Using Git incurs some overhead with pushing, pushing, and (possibly) merging, but it may be worth the upsides of editing Overleaf documents with the exact same tools as any of your local LaTeX documents.
+
+--------------------------------------------------------------------------------
 
 **Log in with Cookies**
 
@@ -675,15 +665,31 @@ You can also see the LaTeX compiler (`pdfLaTeX`) and the language locale (`EN_US
 - cSpell uses VS Code settings (either workspace of user `settings.json`) for language spell check. 
 
 
-
-
-
 --------------------------------------------------------------------------------
 
-**Overleaf pdf viewer** supports three **themes**: `default` (white), `light` (warm yellow, easy on eyes 👍), and `dark`. You can change the theme via clicking the theme button (the square) on the title bar in the Overleaf PDF viewer.  
-P.S. If you cannot see the theme button, please make sure the PDF viewer is wide enough.
+<a id="pdf-viewer-themes"></a>
+**Overleaf pdf viewer** supports three **themes**: 
+
+- `default` (white), 
+- `light` (warm yellow, easy on eyes 👍), and 
+- `dark`. 
+
+You can change the theme via clicking the theme button (the square) on the title bar in the Overleaf PDF viewer.  
+P.S. If you cannot see the theme button, please make sure the PDF viewer tab is wide enough. It the tab is too narrow, the theme button will be hidden.
 
 <img src="https://drive.google.com/thumbnail?id=1dJ3METG2LREwSDj3w4rLzj2vARE-RVg4&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+You can customize the theme in the `settings.json`:
+  
+```json
+"overleaf-workshop.pdfViewer.themes": {
+  "default": {"fontColor":"#000000", "bgColor":"#FFFFFF"},
+  "light":   {"fontColor":"#000000", "bgColor":"#F5F5DC"},
+  "dark":    {"fontColor":"#FBF0D9", "bgColor":"#4B4B4B"}
+}
+```
+
+If you use LaTeX Workshop local, you need to specify the background color manually using latex command. See [HERE](#page-bg-color).
 
 --------------------------------------------------------------------------------
 
@@ -821,11 +827,11 @@ ref: [GitHub synchronization](https://docs.overleaf.com/integrations-and-add-ons
 --------------------------------------------------------------------------------
 
 
-Q: Why my VS Code plugin (e.g., `vscode-texlint`, `latex-utilities`) does not work?
+Q: Why my VS Code plugin (e.g., `latex-workshop`, `latex-utilities`) does not work?
 
-A: Due to the [limitation of the virtual workspace](https://github.com/microsoft/vscode/wiki/Virtual-Workspaces#signal-whether-your-extension-can-handle-virtual-workspaces), most of the existing VS Code extensions does not work in the virtual workspace. In this case, you can choose to [open the project locally](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#open-project-locally) as a workaround.
+A: Due to the [limitation of the virtual workspace](https://github.com/microsoft/vscode/wiki/Virtual-Workspaces#signal-whether-your-extension-can-handle-virtual-workspaces), most of the existing VS Code extensions does not work in the virtual workspace. In this case, you can use GitHub as a intermediary and edit on local repo as a workaround. Note that do <span class="env-orange">NOT</span> use the "Open Projects Locally" feature of Overleaf Workshop extension, as it may lead to edit conflicts and data loss.
 
-Please notice that not all Overleaf features enabled in a local folder. More specifically, the [compile](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#compile-project), [PDF preview](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#preview-document), [intellisense](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#intellisense)and [project history](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#history-of-changes) features are disabled by default. You need to refer to [LaTeX Workshop Extension](https://github.com/James-Yu/LaTeX-Workshop) as a complement.
+
 
 Q: How to upload files to Overleaf Server from local?  
 A: You can drag and drop files from your local file explorer to the Overleaf Workshop sidebar in VS Code. This will upload the files to your Overleaf project on the server. [↩](https://github.com/overleaf-workshop/Overleaf-Workshop/blob/master/docs/wiki.md#files-management)

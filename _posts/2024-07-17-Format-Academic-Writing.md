@@ -55,6 +55,17 @@ update: 2024-07-16
     > When the symbol $\mu$ is used to denote a physical quantity (such as mass or reduced mass) it should be italic, but when it is used in a unit such as the microgram, $\upmu \mathrm{g}$ (`\upmu \mathrm{g}`), or when it is used as the symbol for the muon, $\upmu$, it should be roman.
 
     Descriptive supersripts/subscripts should be in upright; but supersripts/subscripts that refer to a physical quantity or a mathematical variable, should be in italic.
+  - Test statistics such as $t$, $F$, $p$-values are in italic.
+
+    E.g., $t(28)=2.45$, $p$-value is $0.02$.
+
+- Multiplication
+  
+  - Product of variables is denoted as $xy$. This style is referred to as *juxtaposition*.
+    
+    Usually we drop `\cdot` to improve readability.
+
+  - Multiplication between numbers is denoted as $2\cdot 3$ (dot) or $2\times 3$ (cross).
 
 - There should be a space before and after arithmetic operators. E.g., 2.5 ± 0.07. 
 

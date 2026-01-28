@@ -226,6 +226,7 @@ UGOS Pro 的同步功能支持在本地绿联云与远程绿联云之间进行�
    
    在【高级设置】中，您可以进一步配置同步任务的细节：
 
+  <a id="file-filtering"></a>
    **文件过滤**
    
    <img src="https://drive.google.com/thumbnail?id=1_3zwtsr1IxrLEjUmTa1jd91UtnRoiO4R&sz=w1000" alt="文件过滤" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
@@ -389,8 +390,13 @@ A: 不需要。注册并使用 UGREENLink 服务，即使不在局域网内，�
   - 电脑路径: `~/Documents/Nord 16`
   - 绿联云路径: `/个人文件夹`
   - 同步方向: 双向同步
+  - 高级设置
+    
+    [文件过滤](#file-filtering): 过滤 git 版本控制文件夹/项目，这些文件手动 fetch-merge 同步。
+    
+    备用机上: 不要用绿联云和 git 同时管理同一个文件夹。否则会有文件覆盖和数据丢失的风险。
 
-  如此主力机上的个人文件夹就会同步到备用机上，包括工作文件和证件扫描件。
+  如此主力机上的个人文件夹就会同步到备用机上，包括工作文件和证件扫描件。git 版本控制文件夹在主力机上有备份，但是不会同步到备用机。
 
 --------------------------------------------------------------------------------
 
@@ -818,5 +824,5 @@ A: 打开文件管理器，在对应文件夹右上角选择【共享文件夹�
 <img src="https://drive.google.com/thumbnail?id=1zJudt-HphRsW_-Gp2Duga8NWQHbQv0Mk&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 
-Q: 如何打回收站?  
+Q: 如何打开回收站?  
 A: 前往文件管理 > 工具图标 <i class="fa-solid fa-briefcase"></i> > [回收站管理](https://www.ugnas.com/tutorial-detail/id-129.html)。
