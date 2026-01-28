@@ -67,6 +67,44 @@ update: 2024-07-16
 
   - Multiplication between numbers is denoted as $2\cdot 3$ (dot) or $2\times 3$ (cross).
 
+- Vectors
+  
+  Can use `&` to separate columns, it will create a larger space, making it more readable.
+
+  ```latex
+  \begin{equation}
+    \boldsymbol{x}_{i,t} = \begin{pmatrix}
+        T_{i,t}, & T_{i,t}^2, & P_{i,t}, & P_{i,t}^2, &
+        T_{i,t} P_{i,t},   & T_{i,t}^2 P_{i,t},   &
+        T_{i,t} P_{i,t}^2, & T_{i,t}^2 P_{i,t}^2
+    \end{pmatrix}'
+  \end{equation}
+  ```
+  
+  Will be rendered as ✅
+
+  $$
+  \boldsymbol{x}_{i,t} = \begin{pmatrix}
+      T_{i,t}, & T_{i,t}^2, & P_{i,t}, & P_{i,t}^2, &
+      T_{i,t} P_{i,t},   & T_{i,t}^2 P_{i,t},   &
+      T_{i,t} P_{i,t}^2, & T_{i,t}^2 P_{i,t}^2
+  \end{pmatrix}'
+  $$
+  
+  If you use comma to separate elements, the vector will look very crowded as follows. ❌
+  
+  $$
+  \boldsymbol{x}_{i,t} = \begin{pmatrix}
+    T_{i,t}, T_{i,t}^2, P_{i,t}, P_{i,t}^2, 
+    T_{i,t}\cdot P_{i,t}, T_{i,t}^2\cdot P_{i,t}, 
+    T_{i,t}\cdot P_{i,t}^2, T_{i,t}^2\cdot P_{i,t}^2
+  \end{pmatrix}'
+  $$
+
+- $\boldsymbol{x} = (x_1, x_2, x_3)$ refers to a column vector, as the comma indicates row breaks.
+
+  $\boldsymbol{x} = \begin{pmatrix}x_1 & x_2 & x_3\end{pmatrix}$ refers to one row.
+
 - There should be a space before and after arithmetic operators. E.g., 2.5 ± 0.07. 
 
 - Number range: Use <span style='color:#00CC66'>two hypens</span> or opt + hyphen ( <span style='color:#00CC66'>an en dash</span>) and do not include a space either before or after the dash.

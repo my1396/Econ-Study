@@ -171,7 +171,9 @@ A: Place the cursor inside the environment, then press `Cmd`+`Shift`+`P` (Mac) t
 
 --------------------------------------------------------------------------------
 
-### [`@` Suggestsions](https://github.com/James-Yu/latex-workshop/wiki/Intellisense#-suggestions)
+### `@` Suggestsions
+
+[Full list of `@` suggestions](https://github.com/James-Yu/latex-workshop/wiki/Intellisense#-suggestions)
 
 LaTeX-Workshop provides an independent intellisense mechanism triggered by `@`. For example, you can type `@a` for `\alpha`. It works for most Greeks and have some useful mathematical helpers.
 
@@ -193,6 +195,7 @@ LaTeX-Workshop provides an independent intellisense mechanism triggered by `@`. 
 | `@b`   | `\beta`    |
 | `@g`   | `\gamma`   |
 | `@d`   | `\delta`   |
+| `@D`   | `\Delta`   |
 | `@e`   | `\epsilon` |
 
 ___
