@@ -11,8 +11,51 @@ update: 2025-08-01
 Zotero is a free and open-source reference management software to manage bibliographic data. 
 It is available for Windows, macOS, and Linux.
 
+## General Settings
 
-## Install plugin
+- Disable automatic download pdfs
+  
+  Preferences > File Handling > Uncheck "Automatically attach associated PDFs and other files when saving items"
+
+### Sync Settings
+
+Use Zotero's [sync](https://www.zotero.org/support/sync#zotero_file_storage) feature to keep your library up to date across multiple devices and back it up to the cloud.
+
+- **Data Syncing**
+  
+  <img src="https://www.zotero.org/support/_media/preferences_sync_settings_user.png?w=600&tok=44ddef" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+  -   **Sync automatically:** When check, Zotero will start a sync every time you make a change to your library. You can manually start a sync by clicking the sync button (circular green arrow) in the upper-right corner of the Zotero window.
+
+  -   **Sync full-text content:** When checked, Zotero will sync the extracted text contents of your PDFs and other files, allowing you to perform searches across devices regardless of whether files have been downloaded to a particular device. This also allows for full-text searches in the [web library](https://www.zotero.org/mylibrary "/mylibrary").
+
+
+- **File Syncing**
+  
+  [使用坚果云 WebDAV 同步](https://b23.tv/0NH8VyM)
+  
+  [List of WebDAV providers](https://www.zotero.org/support/kb/webdav_services)
+
+  -   **Zotero:**
+    
+    -   Sync file attachments using [Zotero File Storage](https://www.zotero.org/support/sync#zotero_file_storage "/support/sync#zotero_file_storage").
+    -   Each Zotero user is given **300 MB** of free Zotero Storage for attached files.
+  
+  -   **WebDAV:**
+    -   Sync file attachments using [WebDAV storage](https://www.zotero.org/support/sync#webdav "/support/sync#webdav").
+
+    -   Enter the URL for your WebDAV server (note that `/zotero` is added to the end of the URL automatically), your username, and your password.
+
+    -   Click "Verify Server" to check whether Zotero can connect with the server for file syncing.
+
+  -   **Download files:**
+    -   **At sync time:** Download all attachment files not already in your local Zotero file storage on your computer each time Zotero syncs.
+
+    -   **As needed:** Only download attachment files when the user attempts to open the file. Useful for reducing the amount of hard disk space Zotero uses for attachments.
+
+--------------------------------------------------------------------------------
+
+## Plugins
 
 ### Better Bib(La)Tex 
 
@@ -23,10 +66,12 @@ Useful links:
 
 --------------------------------------------------------------------------------
 
-How to [install](https://retorque.re/zotero-better-bibtex/installation/)
+How to [install](https://retorque.re/zotero-better-bibtex/installation/) BBT plugin
 
 1. Download `.xpi` file from the GitHub [releases page](https://github.com/retorquere/zotero-better-bibtex/releases).
-2. Go to Zotero > Tools > Plugins > Click on the gear in the top-right corner and choose ‘Install Plugin From File…’ > Select the `.xpi` file you downloaded
+2. Go to Zotero > Tools > Plugins > Click on the gear in the top-right corner <i class="codicon codicon-settings-gear dynamic-setting-icon" aria-hidden="true" style="font-size:1.5em; vertical-align: middle;"></i> > choose ‘Install Plugin From File…’ > Select the `.xpi` file you downloaded
+
+You can use the same method to install other Zotero plugins.
 
 --------------------------------------------------------------------------------
 
@@ -48,7 +93,7 @@ Quick-Copy format
 
 --------------------------------------------------------------------------------
 
-## Cite Keys
+### Cite Keys
 
 Citekeys are generated according to a user-defined formula composed of functions and filters. Broadly, functions grab text from your item, and filters transform that text. 
 
@@ -78,6 +123,32 @@ Taking the following reference as an example:
 ### Generating cite keys
 
 Editing the formula does not update any citation keys. A new formula takes effect for items changed from that point forward. If you want to apply your new formula, select the items, right-click, and choose `Better BibTeX` → "Refresh BibTeX key".
+
+--------------------------------------------------------------------------------
+
+## Other useful plugins
+
+
+[Zotero plugins collection](https://www.zotero.org/support/plugins)
+
+- [Add-on Market](https://github.com/syt2/zotero-addons?tab=readme-ov-file): Plugin manager
+
+- [Better Notes](https://github.com/windingwind/zotero-better-notes): Making notes while reading PDFs in Zotero; you can select text in the PDF viewer and right click to add it as a note to the item. The citation key is automatically added. When you click on the citation, it will take you to the corresponding page in the PDF. 👍
+  
+  You can export notes as latex format.
+
+  Support some simple markdown syntax and keyboard shortcuts.
+
+- [Linter](https://github.com/northword/zotero-format-metadata): format item metadata
+- [Attanger](https://github.com/MuiseDestiny/zotero-attanger): organize pdf files in your selected folder.
+  
+  自动更改文件名称、移动文件到指定文件夹。
+  
+  一个附加功能是，通过同步文件夹实现多设备同步附件。
+
+- [Zotero Ethereal Style](https://github.com/MuiseDestiny/zotero-style): customize appearance of Zotero interface
+
+
 
 --------------------------------------------------------------------------------
 
