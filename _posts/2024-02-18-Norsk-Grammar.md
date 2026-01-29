@@ -690,6 +690,19 @@ Det er en bekymring at nettsider samler personlige data uten samtykke.
 | å reise seg     | to get up / stand up | Vennene reiste seg for å hilse på ham. |
 
 
+| Norsk          | English                                         |
+| -------------- | ----------------------------------------------- |
+| å tiltrekke seg | to attract oneself / to draw attention         |
+
+- Studien tiltrekker seg mange forskere.  
+  → The study attracts many researchers.
+
+- Studien tiltrekker seg stor oppmerksomhet.  
+  → The study draws a lot of attention.
+
+- Arrangementet tiltrekker seg unge mennesker.  
+  → The event attracts young people.
+
 --------------------------------------------------------------------------------
 
 
@@ -2265,6 +2278,39 @@ Jeg skal til tante Petra.
   i trappa  
   i heisen  
 
+--------------------------------------------------------------------------------
+
+## Synes, tror, mener
+
+
+**Synes**
+
+**Subjektvit**, brukes når man snakker om min personlige erfaring eller vurdering.
+
+- Jeg synes at denne boka er veldig interessant, jeg har lest den flere ganger.  
+  → I think that this book is very interesting, I have read it several times. (based on my personal experience)
+
+--------------------------------------------------------------------------------
+
+**Tror**
+
+om **objektive** fakta; litt usikker, jeg vet det ikke; men man kan finne fakta på en måte.
+
+- Jeg tror at denne boka er god, men jeg har ikke lest den ennå.  
+  → I think that this book is good, but I haven't read it yet. (I haven't read it, so I am not sure)
+- Jeg tror at det kommer til å regne i morgen.  
+  → I think that it will rain tomorrow. (based on objective information, weather forecast, etc.)
+
+--------------------------------------------------------------------------------
+
+**Mener**
+
+Nesten som «synes». Utrykket brukes mest i diskusjoner -- hva jeg mener er riktig/best.
+
+- Jeg mener at det bør være forbudt å røyke innendørs.  
+  → I believe that it should be forbidden to smoke indoors. (my opinion on a topic)
+- Hva mener du om denne saken?  
+  → What is your opinion on this matter?
 
 --------------------------------------------------------------------------------
 

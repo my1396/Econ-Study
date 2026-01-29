@@ -611,7 +611,7 @@ Jeg er usikker *på* om ... → I am uncertain whether ...
 
 ## Connectors
 
-**Tekstbinding**
+**Tekstbinding**, argumentasjon - diskusjonuttrykk 
 
 **起承转折的连词**
 
@@ -648,7 +648,7 @@ Han gikk på jobb **selv om** han hadde feber.
 
 **Contrast** 对比
 
-> <span style="color: #00CC66;">derimot</span> (on the contrary; however); på den annen / andre siden;  
+> <span style="color: #00CC66;">derimot</span> (on the contrary; however); på den andre side<span style="color: #00CC66;">n</span>;  
 > 
 > tvert imot (on the contrary; quite the opposite);  
 >
@@ -656,7 +656,10 @@ Han gikk på jobb **selv om** han hadde feber.
 
 *For noen er … viktige argumenter for dette, mens andre er opptatt av …* → *For some, … are important reasons, while others care about …*
 
-på den ene siden …, mens på den annen side … → on the one hand …, while on the other hand …
+på den **ene** siden …, mens på den **andre** siden … → on the one hand …, while on the other hand … [注意 «siden» definite form]
+
+- På *den ene siden* er det bra for miljøet, mens på *den andre siden* kan det være dyrt.  
+  → On the one hand, it is good for the environment, while on the other hand, it can be expensive.
 
 Han vil til Paris. Hun, **derimot**, vil til Roma.  
 → He wants to go to Paris. She, on the other hand, wants to go to Rome.
@@ -732,6 +735,35 @@ Fremdeles → adv. still, up to now
 **Anyway** 无论如何
 
 > i hvert fall; i alle fall; uansett; i alle tilfeller; 
+
+- Det kan bli vanskelig. *I hvert fall* skal jeg prøve.  
+  → It may be difficult. Anyway, I will try.
+
+- *I alle fall* er det viktig å delta.  
+  → Anyway, it is important to participate.
+
+- *I hvert fall* synes jeg at det er en god idé.  
+  → Anyway, I think it is a good idea.
+
+«i hvert fall / i alle fall» can have other meanings:
+
+- At least (used to indicate a minimum amount or degree)
+
+  - Jeg har lest *i hvert fall* ti bøker i år.  
+    → I have read at least ten books this year.
+  - Det tar *i alle fall* to timer å komme dit.  
+    → It takes at least two hours to get there.
+
+- At least (used to limit a claim, suggesting that something is true to a certain extent)
+
+  - Han er *i alle fall* flink til å synge.  
+    → He is at least good at singing.
+  
+  - Han bor i Oslo, *i alle fall* det meste av tiden.  
+    → He lives in Oslo, at least most of the time.
+  
+  - Hun bor i Oslo, *i alle fall* nå / for øyeblikket.  
+    → She lives in Oslo, at least for now.
 
 --------------------------------------------------------------------------------
 
@@ -1490,6 +1522,17 @@ ulike → different; various
 annen/andre → other; different
 
 i kontrast, i motsetning til, til forskjell fra → in contrast to; unlike
+
+en forskjell, forskjellen, forskjeller, forskjellene
+
+- Det er *stor forskjell* mellom … og …   
+  → There is a big difference between … and … [注意 forskjell 是单数]
+
+- Det er *forkjell på* folk.   
+  → People are different.
+
+- Du kan ikke *gjøre forskjell på folk* på grunn av hudfarge.   
+  → You cannot *discriminate against people* based on skin color.
 
 --------------------------------------------------------------------------------
 

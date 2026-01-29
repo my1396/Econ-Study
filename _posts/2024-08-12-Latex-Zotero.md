@@ -32,44 +32,55 @@ It is available for Windows, macOS, and Linux.
 
   My Base Directory is set to `/Users/menghan/Documents/Zotero`.
 
+  <hr>
+
   This setting let you access all your attachments on multiple computers even if they are stored in different locations on each computer, as long as you set the Base Directory to the correct sync folder on each computer.
 
-  Use scenario: You have two computers, A and B. 
+  **Use scenario:** You have two computers, A and B. 
   
   A is a Mac, and set the Base Directory to `/Users/Sarah/Dropbox/PDFs` on A.
 
   B is a Windows PC, and set the Base Directory to `C:\Users\Sarah\Dropbox\PDFs` on B.
 
   If you add a pdf attachment within the base directory, Zotero stores a relative path to that base direcotry rather than an absolute path.
-
+  
+  <hr>
   Note that this setting does not control where files are stored — only whether linked files within the specified folder are referenced by absolute or relative paths.
 
   If you want to keep the actual pdfs in the base directory, you can use `Attanger` or `ZotMoov` plugin to move the attachments to the base directory.
 
   When you set up `Attanger` or `ZotMoov`, make sure the [`Destination Path`](#Attanger-destination-path) is consistent with your `Base Directory`.
   
-  
+
+--------------------------------------------------------------------------------
 
 ### Sync Settings
 
 Use Zotero's [sync](https://www.zotero.org/support/sync#zotero_file_storage) feature to keep your library up to date across multiple devices and back it up to the cloud.
 
 - **Data Syncing**
-  
-  <img src="https://www.zotero.org/support/_media/preferences_sync_settings_user.png?w=600&tok=44ddef" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+  <img src="https://drive.google.com/thumbnail?id=1qK7_3vzro-jzE9VcmfAYI1bB5w2ckuo9&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
   -   **Sync automatically:** When check, Zotero will start a sync every time you make a change to your library. You can manually start a sync by clicking the sync button (circular green arrow) in the upper-right corner of the Zotero window.
 
   -   **Sync full-text content:** When checked, Zotero will sync the extracted text contents of your PDFs and other files, allowing you to perform searches across devices regardless of whether files have been downloaded to a particular device. This also allows for full-text searches in the [web library](https://www.zotero.org/mylibrary "/mylibrary").
       
-      Uncheck "Sync full-text content". Zotero storage only provides 300 MB free space, and syncing full-text content can quickly use up your storage quota.
+      <span class="env-green">**Uncheck "Sync full-text content" and "Sync attachment files in My Library"**</span> to avoid your Zotero cloud storage being quickly filled up.
+      
+      Zotero's cloud file storage only provides <span class="env-orange">**300 MB**</span> free space, and syncing full-text content can quickly use up your storage quota. One pdf file is around 3--5 MB, that means you can only sync ~70 files before you run out of free storage. You can buy more storage at $20/year for 2 GB.
+      
+      <img src="https://drive.google.com/thumbnail?id=1xFpYvjdtYDpcmHEDq-c7uWyTH_oRoOOr&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+      A workaround is to use `Attanger` or `ZotMoov` to manage your attachments in a local folder synced by cloud services or NAS. This way, you get unlimited storage for your attachments.
+      See the next section on "Sync local pdf files" for details.
 
 
 - **File Syncing**
   
   I use NAS to sync my Zotero attachments across multiple devices. So here I uncheck "Sync attachment files in My Library using Zotero".
 
-  [使用坚果云 WebDAV 同步](https://b23.tv/0NH8VyM)
+  Zotero cloud storage is the default option to sync attachments. But it has limited space. An alternative is to use WebDAV.
   
   [List of WebDAV providers](https://www.zotero.org/support/kb/webdav_services)
 
@@ -85,24 +96,51 @@ Use Zotero's [sync](https://www.zotero.org/support/sync#zotero_file_storage) fea
       -   Enter the URL for your WebDAV server (note that `/zotero` is added to the end of the URL automatically), your username, and your password.
 
       -   Click "Verify Server" to check whether Zotero can connect with the server for file syncing.
-
+      
+      -   [使用坚果云 WebDAV 同步](https://b23.tv/0NH8VyM)
+  
   -   **Download files:**
       -   **At sync time:** Download all attachment files not already in your local Zotero file storage on your computer each time Zotero syncs.
 
       -   **As needed:** Only download attachment files when the user attempts to open the file. Useful for reducing the amount of hard disk space Zotero uses for attachments.
 
+--------------------------------------------------------------------------------
 
 ### Sync local pdf files
 
-[Zotero + Google Drive Sync](https://www.youtube.com/watch?v=BBSEDaUDGOM&list=WL&index=1) start from 8:11
+**Issue:** Zotero cloud storage only provides 300 MB free space. If you manage pdf using Zotero, we will quickly run out of space.
 
-1. Change your Base Directory to your local sync folder.
+**Fix:** Follow the steps below to get <span class="env-green">unlimited attachment Zotero storage</span> using cloud services or NAS. You can use this approach to sync your Zotero attachments across multiple devices without using Zotero's cloud storage.
+
+**Prerequisites:** 
+
+- a sync service and
+- Zotero linked file manager plugin, such as `Attanger` or `ZotMoov`. 
+
+**Step by step instructions:**
+
+1. **Create a folder for storing and syncing Zotero attachments.**
+   
+   This folder will be synced to multiple devices using cloud services or NAS. PDF attachments will be stored in this folder.
+   
+   I use NAS to sync my Zotero directory, so I create a folder `~/Documents/Zotero` on my local computer.
+   
+   But if you use cloud services, such as Google Drive, Dropbox, OneDrive, etc., you can create the folder within the local sync folder of these services.
+   An example is `~/Google Drive/Zotero`.
+
+2. Change your **Base Directory** to your local sync folder.
 
    Zotero > Preferences > Files and Folders > Change your "Base Directory" to your local sync folder.
 
-   It can be your Google Drive folder, Dropbox folder, OneDrive folder, etc. I set it to be my local folder synced by NAS.
+3. In your linked file manager plugin, such as `Attanger` or `ZotMoov`, set the **`Destination Path`** to be the same as your Base Directory.
 
+   This way, all your pdf attachments are stored in your local sync folder, and synced to other devices using your cloud services or NAS.
 
+   See [Attanger](#attanger) for detailed instructions on how to set up synced folders.
+
+**ref:**
+
+- ![img](https://www.gstatic.com/youtube/img/watch/yt_favicon_ringo2.png) [Youtube video: Zotero + Google Drive Sync](https://www.youtube.com/watch?v=BBSEDaUDGOM&list=WL&index=1) start from 8:11
 
 --------------------------------------------------------------------------------
 
@@ -138,13 +176,50 @@ You can use the same method to install other Zotero plugins.
 
 --------------------------------------------------------------------------------
 
-Quick-Copy format
+### Quick-Copy format
+
+If you just want to quickly add references to a paper, you can use the Quick-Copy feature.
 
 1. Go to Preferences (⌘,) > Better BibTeX > Quick-Copy
-2. Set Quick-Copy format
+2. Set Quick-Copy format.
    
+   [Possible options:](https://retorque.re/zotero-better-bibtex/preferences/export/index.html#quick-copy)
    - Default Output Format: LaTeX citation
    - Cite Keys
+
+
+--------------------------------------------------------------------------------
+
+Edit > Copy **Citation** (⇧⌘A) to copy the citation in the selected format.
+
+> Piergallini, “Corporate Finance and Interest Rate Policy.”
+
+--------------------------------------------------------------------------------
+
+<a id="copy-bibliography"></a>
+Edit > Copy **Bibliography** (⇧⌘C) 
+
+The default style is Chicago Manual of Style 18th edition (shortened notes and bibliography).
+
+> Piergallini, Alessandro. “Corporate Finance and Interest Rate Policy.” Preprint, SSRN, 2024. https://doi.org/10.2139/ssrn.5009544.
+
+You can change the default style in Preferences > Export > Quick Copy > Item Format. 
+
+<img src="https://drive.google.com/thumbnail?id=16tjFqgw5jylCLWzdXcUpePu-x47hHcyS&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+I change the Item Format `Better BibTeX`. So when I do <span class="env-green">⇧⌘C</span>, it will copy the bibliography in BibTeX format.
+
+```
+@article{piergallini2024corporate,
+  title={Corporate Finance and Interest Rate Policy},
+  author={Piergallini, Alessandro},
+  year={2024},
+  publisher={SSRN}
+}
+```
+
+A side effect after setting `Better BibTeX` as the Item Format is that you cannot copy citations anymore.
+
 
 --------------------------------------------------------------------------------
 
@@ -210,9 +285,9 @@ If you want to apply your new formula to existing items, select the items, right
 
 ## Attanger
 
-Same function as ZotMoov. They are used to manage pdf attachments in Zotero. Previously, Zotfile does the same job, but it is no longer compatible with Zotero 7+.
+Same function as [ZotMoov](https://github.com/wileyyugioh/zotmoov). They are used to automatically move pdf attachments and link them. Previously, Zotfile does the same job, but it is no longer compatible with Zotero 7+.
 
-It puts your literature at one local directory following your library structure, with meaningful file names which help you identify the files quickly. You can use any cloud services or NAS to sync the local directory to multiple devices.
+[Attanger](https://github.com/MuiseDestiny/zotero-attanger) puts your literature at one local directory following your library structure, with meaningful file names which help you identify the files quickly. You can use any cloud services or NAS to sync the local directory to multiple devices.
 
 This way, you use Zotero as a pdf viewer and make annotations, which will be synced to all your devices. <span class="env-orange">One drawback</span> is that the annotations made using Zotero pdf viewer are not visible if you open the pdf using other pdf readers, such as Adobe Acrobat or Preview on macOS.
 
@@ -346,10 +421,10 @@ Highlight features:
 ## FAQ
 
 Q: How to copy a bibliography entry?  
-A: Edit > Copy Bibliography (⇧⌘C).
+A: Edit > Copy Bibliography (⇧⌘C). You need to follow the steps in [Quick-Copy format](#copy-bibliography) to set the default style.
 
 
-Q: BibTeX export has no `year` field even though the item has a date. [↩](https://forums.zotero.org/discussion/48645/bibtex-export-date-and-year)  
+Q: Better BibTeX export has no `year` field even though the item has a date. [↩](https://forums.zotero.org/discussion/48645/bibtex-export-date-and-year)  
 A: Exporting through BBT as "Copy BibTeX to lipboard" instead of "Copy BibLaTeX to lipboard" uses 'year' instead of 'date'.
 
 <img src="https://drive.google.com/thumbnail?id=1so9BOTBQziGVSSThi2nwlQgpO-ZiwDEm&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
