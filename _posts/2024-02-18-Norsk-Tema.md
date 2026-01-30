@@ -1397,6 +1397,12 @@ en vane, vanen, vaner, vanene → habit
 
 形近词: en evne → ability, aptitude, capability (注意区分)
 
+Folk har forskjellige evner. → People have different abilities.
+
+å utnytte sitt fulle potensial → to utilize one's full potential
+
+å dra nytte av noe → to take advantage of sth; make use of sth
+
 vant, vant, vante (til) → accustomed (to)
 
 å venne, venner, vennet, har vent → to get used to

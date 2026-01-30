@@ -8,7 +8,7 @@ update: 2025-08-01
 
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
-Zotero is a free and open-source reference management software to manage bibliographic data. 
+<img src="{{site.baseurl}}/images/zotero_icon.png" alt="" style="display: inline; height: 2em; vertical-align: middle;" /> Zotero is a free and open-source reference management software to manage bibliographic data. 
 It is available for Windows, macOS, and Linux.
 
 ## General Settings
@@ -218,7 +218,11 @@ I change the Item Format `Better BibTeX`. So when I do <span class="env-green">�
 }
 ```
 
-A side effect after setting `Better BibTeX` as the Item Format is that you cannot copy citations anymore.
+A <span class="env-orange">side effect</span> after setting `Better BibTeX` as the Item Format is that you cannot copy citations using shortcut ⇧⌘A anymore. And the Edit menu does not have the `Copy Citation` option anymore.
+
+A workaround is to right click on the item and choose "Create Bibliography from Item..."
+
+<img src="https://drive.google.com/thumbnail?id=1Cj09Jv7vn3N24eRYiRDzAhg5kCIr-V2u&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:30%;" />
 
 
 --------------------------------------------------------------------------------
@@ -415,6 +419,9 @@ Highlight features:
 - [Ethereal Style](https://github.com/MuiseDestiny/zotero-style): customize appearance of Zotero interface
 
 
+**AI plugins** (not tested yet):
+
+- [Aria](https://github.com/lifan0127/ai-research-assistant)
 
 --------------------------------------------------------------------------------
 

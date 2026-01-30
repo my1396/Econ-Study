@@ -2402,9 +2402,10 @@ Det er mye folk i byen når det er fotballkamp.
 
 --------------------------------------------------------------------------------
 
+<a id="adjektiv-komparativ"></a>
 形容词比较级 
 
-1. 如果是加 "-ere" (superlative 用 "-est"), 则用 «enn» 引导比较对象。
+1. 如果是加 "-ere" (superlative 用 "-est"), 然后用 «enn» 引导比较对象。
 
    Han er høyere **enn** broren sin.  
    → He is taller than his brother.
@@ -2412,7 +2413,7 @@ Det er mye folk i byen når det er fotballkamp.
    Han er eldre **enn** meg.  
    → He is older than me.
 
-2. 如果是加前缀，mer / mindre + adj (superlative 用 "mest / minst"). 
+2. 如果是加前缀，mer / mindre + adj (superlative 用 "mest / minst"). «Enn» 引导比较对象可选非必须。 
    
    Dette gjelder for eksempel adjektiv fra presens perfektum, flere lange ord og noen utenlandske ord.  
    

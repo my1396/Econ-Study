@@ -427,6 +427,11 @@ Løsning
   
   - å styrke samarbeidet mellom … → to strengthen the cooperation between …
   - 区别形近词 å *styre* → to govern, to manage, to control
+  - as noun: strength
+    
+    Han har stor fysisk styrke og utholdenhet. → He has great physical strength and endurance. 力量和耐力
+
+    krav til fysisk styrke → requirements for physical strength
 
 - å øke noe → to increase sth
 
@@ -480,6 +485,8 @@ ___
 #### Neutral:
 
 ..., det er min mening.
+
+Generalt sett ... → Generally speaking ...
 
 Etter min mening er det / bør vi  ...
 
@@ -1131,6 +1138,7 @@ Jo før, jo heller.
 | rett og slett                          | simply (need to do sth)            |
 | det er <span style="color: #00CC66;">avgjørende</span> at … | it is crucial that … |
 | det er helt *avgjørende* at …            | it is absolutely crucial that …    |
+| Det er en *avgjørende faktor* for … at … | It is a *crucial factor* for … that … |
 | det er i hvert fall *på sin plass* at … | It is certainly fitting that …    |
 | det er *nødvendig* å …                   | it is necessary to …               |
 | <span style='color:#00CC66'>vesentlig</span> [ve:´s(ə)ntli] | significant   |
