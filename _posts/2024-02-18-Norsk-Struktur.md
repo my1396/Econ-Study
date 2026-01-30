@@ -458,6 +458,11 @@ Løsning
   好处  
   Dette kan hjelpe folk å <span style="color: #00CC66;">forstå <strong>viktigheten av</strong> å redusere matsvinn og motivere dem til å ta tiltak.</span>
 
+- Vi må ta hensyn til + noun / at-clause → We must take into account + noun / that-clause
+
+  - Vi må ta hensyn til miljøet når vi planlegger byutvikling. → We must take the environment into account when planning urban development.
+
+  - Vi må ta hensyn til at ikke alle har tilgang til teknologi. → We must take into account that not everyone has access to technology.
 
 ___
 
@@ -629,6 +634,9 @@ Jeg er usikker *på* om ... → I am uncertain whether ...
 **However** 转折
 
 > imidlertid (meanwhile); <span style='color:#00CC66'>likevel</span> (nonetheless); fremdeles (still); egentlig (actually); 
+>
+> men samtidig;
+
 
 Han kan bli oppfattet som arrogant, men *egentlig* er han bare sjenert. → He can be perceived as arrogant, but he is just shy. 
 
@@ -663,7 +671,7 @@ Han gikk på jobb **selv om** han hadde feber.
 
 *For noen er … viktige argumenter for dette, mens andre er opptatt av …* → *For some, … are important reasons, while others care about …*
 
-på den **ene** siden …, mens på den **andre** siden … → on the one hand …, while on the other hand … [注意 «siden» definite form]
+på den **ene** siden …, mens <span style="color: #00CC66;">på den **andre** siden</span> … → on the one hand …, while on the other hand … [注意 «siden» definite form]
 
 - På *den ene siden* er det bra for miljøet, mens på *den andre siden* kan det være dyrt.  
   → On the one hand, it is good for the environment, while on the other hand, it can be expensive.
@@ -779,6 +787,10 @@ Fremdeles → adv. still, up to now
 > i tillegg (til å); <span style='color:#00CC66'>samtidig finnes det</span> …; <span style='color:#00CC66'>dessuten</span> (moreover); for øvrig; videre; 
 >
 > med andre ord (in other words);
+> 
+> på samme måte (in the same way; similarly)
+
+
 
 --------------------------------------------------------------------------------
 

@@ -387,44 +387,52 @@ Ja, jeg synes staten bør endre utdanningsprogrammet i skolen.
 
 ## Arbeidsliv
 
-kvinneperspektivet: 用于描述传统女性为主的专业，行业
 
-husarbeid: housework
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| å ansette nye folk                     | to hire new people                 |
+| en stilling / et jobbtilbud            | a job offer                        |
+| en arbeidsplass                        | a workplace                        |
+| en karriere                            | a career                           |
+| kvinneperspektivet                     | 用于描述传统女性为主的专业，行业        |
+| mennsperspektivet                      | 用于描述传统男性为主的专业，行业        |
+| mennsdominerte yrker                   | 男性主导的职业                        |
+| arbeidsmoral                           | work ethic                         |
+| å <span style="color: #00CC66;">levere</span> tjenester | to provide services |
 
-arbeidstakere / ansatte: employees
+«-perspektivet» 表示从…的角度来看
 
-arbeidssøkere: jobb seekers
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| husarbeid                              | housework                          |
+| arbeidstakere / ansatte                | employees                          |
+| arbeidssøkere                          | job seekers                        |
+| kvalifikasjoner                        | qualifications                     |
+| søknadsbrev                            | application letter                 |
+| arbeidsgivere                          | employers                          |
+| arbeidsgiveren min                     | my employer                        |
+| drittjobber                            | shitty jobs (negative connotation) |
 
-arbeidsgivere: employers
-
-arbeidsgiveren min: my employer
-
-søknadsbrev: application letter
-
-skoleflink: good at school
-
-drittjobber: shitty jobs (negative connotation)
-
-arbeidsmoral: work ethic
-
-å <span style="color: #00CC66;">levere</span> tjenester: to provide services
 
 å skrive møtereferat / rapporter: to write meeting minutes / reports
 
-en karriere: career
 
 Words for "job": yrke, bransje, industri
 
 fremgangsrik karriere: successful career
 
-forretning: business  
-bedrift / selskap: company
+en forretning: business  
+en bedrift / et selskap / et firma: company
 
 psykologer [sykolå:´g]: psychologists
 
 **常见职业:**
 
-ingeniør, <span style='color:#00CC66'>kassamedarbeider</span>, sykepleier, elektriker, kokk (厨师), frisør (hairdresser), lærer, advokat, lege, forsker, ...
+> ingeniør, <span style='color:#00CC66'>kassamedarbeider</span> (store clerk), sykepleier, elektriker (electrician), kokk (厨师), frisør (hairdresser), bygningsarbeider, mekaniker (mechanic), servitør (waiter/waitress), renholder (cleaner), taxi-sjåfører, buss-sjåfører, flygeleder (air traffic controller), togleder (train conductor), 
+> 
+> politi, brannmann, soldat (soldier), militær tjeneste (military service), vekter (security guard, watchman 保安), vaktmester (janitor 管理员，门房，清洁工，杂物工), postbud (postman), barnehageassistent (kindergarten assistant), lagerarbeider (warehouse worker), fabrikkarbeider (factory worker), bonde (farmer), fisker (fisherman), rørlegger (plumber), tømrer (carpenter), snekker (joiner/carpenter), bygningsarbeider (construction worker)
+> 
+> lærer, advokat, lege, forsker, ...
 
 Ikke alle yrker møter den samme <span style='color:#00CC66'>holdningen og respekten</span> i samfunnet. → Not all professions receive the same attitude and respect in society.
 
@@ -434,7 +442,7 @@ Noen yrker er mindre verdt enn andre. → Some professions are worth less than o
 
 å snakke ned jobben sin → to talk down one's job
 
-sammfunnsnyttig: socially useful
+samfunnsnyttig: socially useful
 
 ### Yrkesfag
 
@@ -453,6 +461,7 @@ sammfunnsnyttig: socially useful
 **Useful phrases:**
 
 - like verdt; verdifull; viktig; 
+- skoleflink: good at school
 - Noen <span style='color:#00CC66'>ser ned</span> på yrkesfag og <span style='color:#00CC66'>mener at</span> bare akademisk utdanning er ordentlig.
 - respekten for alle ærlig arbeid. Vi må heve respekten for yrkesfag.
 - deres innsats er like viktige → Their effort is equally important.
