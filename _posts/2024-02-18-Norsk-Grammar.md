@@ -729,8 +729,8 @@ Det er en bekymring at nettsider samler personlige data uten samtykke.
 
 
 
-- Sissel ringer tannlegen sin. $\rightarrow$ Sissel callas her own dentist.
-- Sissel ringer tannlegen hennes. $\rightarrow$ Sissels calls her dentist. "Her" refers to another women, not Sissel. 
+- Sissel ringer tannlegen sin. → Sissel callas her own dentist.
+- Sissel ringer tannlegen hennes. → Sissels calls her dentist. "Her" refers to another women, not Sissel. 
 
 
 
@@ -794,23 +794,23 @@ Det er en bekymring at nettsider samler personlige data uten samtykke.
   
   Sørsteren min ... → Note that the posessive pronoun «min» has to be consistent with the gender.
 
-- Det blir nok bestefar mest glad for, for det er lite hår igjen på hodet **hans**.  $\rightarrow$ 主语为 det
+- Det blir nok bestefar mest glad for, for det er lite hår igjen på hodet **hans**.  → 主语为 det
 
-  Vi kan også si at han har lite hår igjen på hodet **sitt**. $\rightarrow$ 主语为 Vi, possessives 用 reflexive pronoun.
+  Vi kan også si at han har lite hår igjen på hodet **sitt**. → 主语为 Vi, possessives 用 reflexive pronoun.
 
-- Per bad Liv hente pakkene **hans**.  $\rightarrow$ Per sine pakker. (Per's packages)
+- Per bad Liv hente pakkene **hans**.  → Per sine pakker. (Per's packages)
 
-  Per bad Liv hente pakkene **hennes**. $\rightarrow$ En annen jente sine pakker.  (Another girl's packages)
+  Per bad Liv hente pakkene **hennes**. → En annen jente sine pakker.  (Another girl's packages)
 
-  Per bad Liv hente pakkene **sine**. $\rightarrow$ Liv sine pakker. (Liv's packages)
+  Per bad Liv hente pakkene **sine**. → Liv sine pakker. (Liv's packages)
 
-- Petter bad Liv hente sykkelen hans.  $\rightarrow$ Petter sin sykkel
+- Petter bad Liv hente sykkelen hans.  → Petter sin sykkel
 
-  Petter bad Liv hente sykkelen sin $\rightarrow$ Liv sin sykkel.
+  Petter bad Liv hente sykkelen sin → Liv sin sykkel.
 
-- Klara bad Ole ta hensyn til barna **sine**. $\rightarrow$ Klaras og Oles barn.
+- Klara bad Ole ta hensyn til barna **sine**. → Klaras og Oles barn.
 
-- Ola bad henne passe **sine** egne saker. $\rightarrow$ Ola tolder her to mind her own business.
+- Ola bad henne passe **sine** egne saker. → Ola tolder her to mind her own business.
 
 
 
@@ -891,7 +891,7 @@ pronoun.
 
 
 
-- Kan du gjenta <span style='color:#00CC66'>det</span> du sa? $\rightarrow$ Can you repeat what you just said? 
+- Kan du gjenta <span style='color:#00CC66'>det</span> du sa? → Can you repeat what you just said? 
 
 - Q: 这里的 det 可以用 hva 替换吗？
 
@@ -926,9 +926,9 @@ ___
 
 When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» is the <span style='color:#00CC66'>subject</span> of relative clause, <span style='color:#00CC66'>«som» is obligatory</span>.
 
-- Hvem kommer? $\rightarrow$ Hvem 作主语，som 不可省略。Jeg vet ikke *hvem som* kommer. 
-- Hvem bad hun? (Who did she invite?) $\rightarrow$ Hvem 作宾语，som 可以省略。Jeg vet ikke *hvem* hun bad. (I don't know whom she invited.)
-- Hva er i veien?  (What's wrong?) $\rightarrow$ Hva 作主语，som 不可省略。Jeg vet ikke *hva som* er i veien. (I don't know what's wrong)
+- Hvem kommer? → Hvem 作主语，som 不可省略。Jeg vet ikke *hvem som* kommer. 
+- Hvem bad hun? (Who did she invite?) → Hvem 作宾语，som 可以省略。Jeg vet ikke *hvem* hun bad. (I don't know whom she invited.)
+- Hva er i veien?  (What's wrong?) → Hva 作主语，som 不可省略。Jeg vet ikke *hva som* er i veien. (I don't know what's wrong)
 
 
 --------------------------------------------------------------------------------

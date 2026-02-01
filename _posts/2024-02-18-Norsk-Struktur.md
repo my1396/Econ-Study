@@ -1,22 +1,29 @@
 ---
 layout: post
 tag: Norsk
-title: Norsk Struktur
+title: Norsk Struktur 🔗
 ---
 
 <style>
 .print-note {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 0rem 1rem;
+  position: relative;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(800px - 30px);
+  padding: 0rem;
   font-size: 0.85rem;
   background: #111;
   color: #9aa0a6;
-  /* border-top: 1px solid #333; */
   z-index: 1000;
 }
+
+@media screen and (min-width: 800px) {
+  .print-note {
+    max-width: calc(800px - 60px);
+  }
+}
+
 .print-note hr {
   margin: 0;
 }
@@ -27,7 +34,6 @@ title: Norsk Struktur
   }
 }
 </style>
-
 
 <footer class="print-note">
   <hr>
@@ -40,7 +46,9 @@ title: Norsk Struktur
   </p>
 </footer>
 
-<a class="top-link hide" href="#" id="js-top">↑</a>
+<script src="{{site.baseurl}}/assets/js/footer-mover.js"></script>
+
+<a class="top-link hide" href="#" id="js-top">↑</a><a class="top-link hide" href="#" id="js-top">↑</a>
 
 This post contains phrases commonly used in *written* and *oral* exams in norskprøver B2. 
 
@@ -786,6 +794,10 @@ Fremdeles → adv. still, up to now
 **Anyway** 无论如何
 
 > i hvert fall; i alle fall; uansett; i alle tilfeller; 
+>
+> uansett om; uansett hva / hvilken / hvem / hvor / når;
+>
+> uavhengig av;
 
 - Det kan bli vanskelig. *I hvert fall* skal jeg prøve.  
   → It may be difficult. Anyway, I will try.
@@ -1622,27 +1634,27 @@ Forskjellen mellom de to bilene er stor. → The difference between the two cars
 
   deler av subjektet er forskjellig 主语的构成部分，内部相比较。
 
-Tor og Ed har **forskjellige** biler. $\rightarrow$ Tor har en Mercedes, og Ed har en BMW. (Vi sammenligner to deler av subjektet.)
+Tor og Ed har **forskjellige** biler. → Tor har en Mercedes, og Ed har en BMW. (Vi sammenligner to deler av subjektet.)
 
-Tor og Ed har **annerledes** biler. $\rightarrow$ Alle de andre vennene har Toyota. Bare Tor og Ed har biler som er annerledes enn de andre bilene. (Vi sammenligner subjektet med noe annet)
+Tor og Ed har **annerledes** biler. → Alle de andre vennene har Toyota. Bare Tor og Ed har biler som er annerledes enn de andre bilene. (Vi sammenligner subjektet med noe annet)
 
 
 
 如果主语是**一个主体**，句子比较两个对象 
 
-1. 作为短语说明 A 与 B 不同。$\rightarrow$ <u><em>Annerledes enn</em></u> er det samme som <u><em>forskjellig fra</em></u>.
+1. 作为短语说明 A 与 B 不同。→ <u><em>Annerledes enn</em></u> er det samme som <u><em>forskjellig fra</em></u>.
 
    E.g., A er annerledes enn B. = A er forskjellig fra B.
 
-2. 作为表语，说明 A 与 B 不同。$\rightarrow$ 只能用annerdeles
+2. 作为表语，说明 A 与 B 不同。→ 只能用annerdeles
 
    E.g., Tor har blondt hår, men Ed er annerledes. ✅
 
    Tor har blondt hår, men Ed er forskjellig. ❌ (作为表语时，Forskjellig 不能<span class="env-green">单独</span>用于形容<span class="env-green">一个</span>主体，必须与 fra 搭配作为短语出现。Forskjellig 作为表语时，主语必须由<span class="env-green">两部分</span>构成，"forskjellig"表述<span class="env-green">两部分之间</span>的差异。)
 
-   Tor og Pavel er like, men Tor og Ed er **forskjellige**. ✅ $\rightarrow$ Vi sammenligner to deler av subjektet. (Tor og Ed).
+   Tor og Pavel er like, men Tor og Ed er **forskjellige**. ✅ → Vi sammenligner to deler av subjektet. (Tor og Ed).
 
-   Tor og Pavel er like, men Tor og Ed er **annerledes**. ❌ $\rightarrow$ Vi ønsker å sammenligne deler av subjektet, og derfor må vi bruke “forskjellig”.
+   Tor og Pavel er like, men Tor og Ed er **annerledes**. ❌ → Vi ønsker å sammenligne deler av subjektet, og derfor må vi bruke “forskjellig”.
 
 
 
@@ -2079,15 +2091,39 @@ Norsk er en <span class="env-green">forutsetning</span> for å få jobb i Norge.
 
 --------------------------------------------------------------------------------
 
-**Regardless of** ...
+**Regardless of** ... 不管…
 
-<span class="env-green">Uansett om</span> ...
+<span class="env-green">Uansett om</span> ... 不管是否…
 
 Alle jobber er verdifulle, uansett om man jobber på en fabrikk eller på kontor.
 
 Vi drar på tur uansett om det regner.
 
 Hun kommer til å lykkes, uansett om andre tviler på henne.
+
+
+**Uansett hva** ... 不管什么…
+
+- Uansett hva du sier, tror jeg ikke på deg.
+- Jeg skal hjelpe deg, uansett hva som skjer.
+
+**Uansett hvilken** ... 不管哪一个…
+
+- Uansett hvilken jobb du velger, blir det krevende.
+- Du kan ta uansett hvilket tog du vil.
+- Uansett hvilke bøker du leser, lærer du noe.
+
+**Uansett når** ... 不管什么时候…
+
+- Ring meg, uansett når du trenger hjelp.
+- Uansett når vi starter, blir det sent.
+
+**Uansett hvor** ... 不管哪里…    
+
+- Uansett hvor du bor, må du betale skatt.
+- Jeg følger deg, uansett hvor du går.
+
+--------------------------------------------------------------------------------
 
 <span class="env-green">uavhengig av om</span> ... [formal]
 
