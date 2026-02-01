@@ -4,6 +4,42 @@ tag: Norsk
 title: Norsk Struktur
 ---
 
+<style>
+.print-note {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0rem 1rem;
+  font-size: 0.85rem;
+  background: #111;
+  color: #9aa0a6;
+  /* border-top: 1px solid #333; */
+  z-index: 1000;
+}
+.print-note hr {
+  margin: 0;
+}
+/* Hide footer when printing */
+@media print {
+  .print-note {
+    display: none;
+  }
+}
+</style>
+
+
+<footer class="print-note">
+  <hr>
+  <p>
+    <strong>Footnote.</strong>
+    To print this post, use the symbolic link in
+    <code>~/Documents/language/norsk/norskprøver/B2/exam notes</code>.
+    Open the <code>.md</code> file in Markdown Preview Enhanced,
+    then export it using Prince PDF.
+  </p>
+</footer>
+
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
 This post contains phrases commonly used in *written* and *oral* exams in norskprøver B2. 
@@ -20,7 +56,7 @@ This post contains phrases commonly used in *written* and *oral* exams in norskp
 
 Temasetning → Kommentarsetninger → Avsluttende setning
 
-<span style='color:#00CC66'>*For det første*</span> (倒装) ... <span style='color:#00CC66'>*for det andre*</span> (倒装) …  → Firstly ... secondly …
+<span class="env-green">*For det første*</span> (倒装) ... <span class="env-green">*for det andre*</span> (倒装) …  → Firstly ... secondly …
 
 I tillegg … dessuten ... for øvrig ... ikke minst er det …
 
@@ -171,7 +207,7 @@ Use the following **mock exam** to practice before the actual exam:
   
   generalt ..., men det kommer an på ... ; men det gjelder ikke alltid ... 
 
-  Det er unntak <span style='color:#00CC66'>fra</span> denne regelen. → There are exceptions to this rule.
+  Det er unntak <span class="env-green">fra</span> denne regelen. → There are exceptions to this rule.
 
   Folk har ulike talenter / evner. → People have different talents / abilities / capacities.
 
@@ -188,7 +224,7 @@ Use the following **mock exam** to practice before the actual exam:
 
 - economically
   
-  贵不贵; 大家是否 <span style='color:#00CC66'>都</span> 可以负担得起;
+  贵不贵; 大家是否 <span class="env-green">都</span> 可以负担得起;
 
   有人负担不起怎么办; (ikke alle har råd til det)
 
@@ -198,7 +234,7 @@ Use the following **mock exam** to practice before the actual exam:
 
   Vi må ta hensyn til alle grupper i samfunnet. → We must take into account all groups in society.
 
-  Staten må sikre at alle har råd til <span style="color: #00CC66;">grunnleggende behov</span>. → The state must ensure that everyone can afford basic needs.
+  Staten må sikre at alle har råd til <span class="env-green">grunnleggende behov</span>. → The state must ensure that everyone can afford basic needs.
 
 - environmentally
 
@@ -240,7 +276,7 @@ Use the following **mock exam** to practice before the actual exam:
 
 - beneficial / contributes to / helps achieve sth
 
-  - <span style="color: #00CC66;">*å legge til rette for*</span> → to facilitate, to make possible, to create conditions for
+  - <span class="env-green">*å legge til rette for*</span> → to facilitate, to make possible, to create conditions for
 
     Skolen bør legge til rette for at alle elever får delta i aktivitetene. → The school should facilitate that all students can participate in the activities.
 
@@ -262,7 +298,7 @@ Use the following **mock exam** to practice before the actual exam:
 
     Myndighetene bør fremme likestilling mellom kvinner og menn. → Authorities should promote equality between women and men.
 
-  - <span style="color: #00CC66;">*være til fordel for noen å gjøre noe*</span> → to be beneficial for sb to do sth
+  - <span class="env-green">*være til fordel for noen å gjøre noe*</span> → to be beneficial for sb to do sth
 
     Det *er til fordel for* barn *å* ha foreldre som engasjerer seg i lekser.   
     → It is beneficial for children to have parents who are involved in homework.
@@ -286,7 +322,7 @@ Use the following **mock exam** to practice before the actual exam:
 
     **Tiltakene** skal sikre at alle barn får en god utdanning. → The measures will ensure that all children receive a good education.
 
-- <span style='color:#00CC66'>vesentlig</span> → significant, essential
+- <span class="env-green">vesentlig</span> → significant, essential
 
   - *Det er vesentlig for … at …* → It is essential for … that …
 
@@ -294,7 +330,7 @@ Use the following **mock exam** to practice before the actual exam:
   
   - syn.: *avgjørende, nødvendig, kritisk, betydelig*
 
-- noe <span style='color:#00CC66'>er grunnlaget for</span> alt annet → sth is the basis for everything else
+- noe <span class="env-green">er grunnlaget for</span> alt annet → sth is the basis for everything else
 
   - Utdanning er grunnlaget for alt annet fordi det gir folk kunnskap og ferdigheter. → Education is the basis for everything else because it gives people knowledge and skills.
   - God helse er grunnlaget for et lykkelig liv. → Good health is the basis for a happy life.
@@ -327,19 +363,19 @@ Use the following **mock exam** to practice before the actual exam:
 
 - *Et problem med dette er at …* → A problem with this is that …
 
-- *Selv om noen …, <span style="color: #00CC66;">**varer**</span> effekten bare en kort periode.* → Even if some …, the effect lasts only a short time.
+- *Selv om noen …, <span class="env-green">**varer**</span> effekten bare en kort periode.* → Even if some …, the effect lasts only a short time.
 
 - *Dette kan også føre til at …* → This can cause …
 
 - Det er *skadelig* for … → It is harmful to …
 
-- … kan føre til negative <span style='color:#00CC66'>konsekvenser for</span>… → can lead to negative consequences for …
+- … kan føre til negative <span class="env-green">konsekvenser for</span>… → can lead to negative consequences for …
 
-- … har <span style='color:#00CC66'>negative effekter på</span> … → has negative effects on …
+- … har <span class="env-green">negative effekter på</span> … → has negative effects on …
 
-- … har en negativ <span style='color:#00CC66'>innvirkning / innflytelse på</span> … → has a negative impact on …
+- … har en negativ <span class="env-green">innvirkning / innflytelse på</span> … → has a negative impact on …
 
-- være/bli en byrde <span style='color:#00CC66'>for</span> noe(n) → to be/become a burden to sth/sb 
+- være/bli en byrde <span class="env-green">for</span> noe(n) → to be/become a burden to sth/sb 
   
   … være til byrde for samfunnet → … becomes a burden to society
 
@@ -350,7 +386,7 @@ Use the following **mock exam** to practice before the actual exam:
 - … kan gå *utover* … → to affect negatively; to harm;
 
 - *Noen mener dessuten at …* → Some people also believe that …
-- Noen mener at alle voksne bør jobbe og bidra, mens andre mener at <span style='color:#00CC66'>det ikke kan gjelde generelt</span>.   
+- Noen mener at alle voksne bør jobbe og bidra, mens andre mener at <span class="env-green">det ikke kan gjelde generelt</span>.   
   → Some believe that all adults should work and contribute, while others think that it cannot apply generally.
 
 - *Det er motsatt av hva … ønsker.* → This is the opposite of what … wants.
@@ -422,8 +458,8 @@ Løsning
 - alle har en viktig rolle å spille i å løse dem → everyone has an important role to play in solving them
 - å samarbeide for å finne løsninger → to collaborate to find solutions
 - å ta ansvar for noe → to take responsibility for sth
-- å forbrede noe <span style='color:#00CC66'>ved</span> å gjøre … → to improve sth by doing sth 
-- å <span style="color: #00CC66;">styrke</span> noe → to strengthen sth
+- å forbrede noe <span class="env-green">ved</span> å gjøre … → to improve sth by doing sth 
+- å <span class="env-green">styrke</span> noe → to strengthen sth
   
   - å styrke samarbeidet mellom … → to strengthen the cooperation between …
   - 区别形近词 å *styre* → to govern, to manage, to control
@@ -449,14 +485,14 @@ Løsning
 - Jeg vil si at det handler om å gjøre noe → I would say that it is about doing sth
 - Jeg vil si at det å gjøre noe er viktig fordi … → I would say that doing sth is important because …
 
-- Vi må <span style="color: #00CC66;">øke bevisstheten om</span> matsvinn i samfunnet. 
+- Vi må <span class="env-green">øke bevisstheten om</span> matsvinn i samfunnet. 
   
   具体措施  
   1. Vi kan invitere eksperter til å holde taler om matsvinn på skoler og i lokalsamfunn. → 专家讲座
-  2. Vi kan bruke sosiale medier til å <span style="color: #00CC66;">spre informasjon om</span> matsvinn og hvordan unngå det.  → 社交媒体宣传
+  2. Vi kan bruke sosiale medier til å <span class="env-green">spre informasjon om</span> matsvinn og hvordan unngå det.  → 社交媒体宣传
   
   好处  
-  Dette kan hjelpe folk å <span style="color: #00CC66;">forstå <strong>viktigheten av</strong> å redusere matsvinn og motivere dem til å ta tiltak.</span>
+  Dette kan hjelpe folk å <span class="env-green">forstå <strong>viktigheten av</strong> å redusere matsvinn og motivere dem til å ta tiltak.</span>
 
 - Vi må ta hensyn til + noun / at-clause → We must take into account + noun / that-clause
 
@@ -526,7 +562,7 @@ ex
   → According to my experience, it is important to practice every day to learn a new language.
 - Etter min erfaring fungerer denne metoden godt.   
   → Based on my experience, this method works well.
-- Ifølge min erfaring kan det være utfordrende å <span style='color:#00CC66'>tilpasse seg</span> en ny kultur.   
+- Ifølge min erfaring kan det være utfordrende å <span class="env-green">tilpasse seg</span> en ny kultur.   
   → According to my experience, it can be challenging to adapt to a new culture.
 
 
@@ -534,7 +570,7 @@ ex
 
 #### Positive opinion:
 
-Jeg er <span style='color:#00CC66'>*tilhenger av*</span> … → I am a supporter of … (不定冠词 en 可省略)
+Jeg er <span class="env-green">*tilhenger av*</span> … → I am a supporter of … (不定冠词 en 可省略)
 
 > Antonym  
 > Jeg er *motstander* av …  → I am an opponent of / oppsed of …  (strong and formal)
@@ -548,15 +584,15 @@ Det er (veldig) *synd* at / hvis … → It is (very) unfortunate if …  / It i
 
 - Det skader ikke å prøve. → It does not hurt to try.
 
-<span style='color:#00CC66'>*kvaliteten og effektiviteten*</span> ved … blir bedre → the quality and efficiency with … will be better
+<span class="env-green">*kvaliteten og effektiviteten*</span> ved … blir bedre → the quality and efficiency with … will be better
 
 Det føler jeg gir en stor trygghet. → I feel it gives a strong sense of safety.
 
-- Jeg er <span style='color:#00CC66'>liksom</span> enig. → I kind of agree with that. [agree in genearl, but not 100%]
-- Jeg er <span style='color:#00CC66'>stort sett</span> enig. → I mostly agree with that. 
-- Jeg er <span style='color:#00CC66'>i hovedsak</span> enig. → I am basically / fundamentally agree.
+- Jeg er <span class="env-green">liksom</span> enig. → I kind of agree with that. [agree in genearl, but not 100%]
+- Jeg er <span class="env-green">stort sett</span> enig. → I mostly agree with that. 
+- Jeg er <span class="env-green">i hovedsak</span> enig. → I am basically / fundamentally agree.
 
-- Jeg er <span style='color:#00CC66'>helt / delvis</span> enig. → I completely / partially agree with that.
+- Jeg er <span class="env-green">helt / delvis</span> enig. → I completely / partially agree with that.
 
 --------------------------------------------------------------------------------
 
@@ -568,7 +604,7 @@ Jeg *har virkelig ingen tro på* at … → I don't believe sth
 
 Det provoserer meg at … → It provokes me that …
 
-*Jeg er helt <span style='color:#00CC66'>uenig i dette.</span>* → I completely disagree with that.
+*Jeg er helt <span class="env-green">uenig i dette.</span>* → I completely disagree with that.
 
 *uaktuell* → out of the question; impossible 
 
@@ -578,7 +614,7 @@ være *negativ* til at … → oppsed to or against sth; disapproval or disagree
 
 være *imot* noe → against sth; stronger than negative til; actively against sth
 
-Jeg er <span style='color:#00CC66'>*motstander av*</span>  …  → I am an opponent of / opposed of …
+Jeg er <span class="env-green">*motstander av*</span>  …  → I am an opponent of / opposed of …
 
 svak, svakt, svake → weak, lame, poor; 
 
@@ -633,7 +669,7 @@ Jeg er usikker *på* om ... → I am uncertain whether ...
 
 **However** 转折
 
-> imidlertid (meanwhile); <span style='color:#00CC66'>likevel</span> (nonetheless); fremdeles (still); egentlig (actually); 
+> imidlertid (meanwhile); <span class="env-green">likevel</span> (nonetheless); fremdeles (still); egentlig (actually); 
 >
 > men samtidig;
 
@@ -648,7 +684,7 @@ De vil gjerne kjøpe leilighet. Alt er **imidlertid** så dyrt.
 Alt er utsolgt. Vi regner **imidlertid** med å få nye varer i morgen.  
 → Everything is sold out. We, however, expect to get new goods tomorrow.
 
-形近词 «<span style="color: #00CC66;">midlertidig</span>» → temporary, provisional
+形近词 «<span class="env-green">midlertidig</span>» → temporary, provisional
 
 Han hadde feber. **Likevel** gikk han på jobb. 
 
@@ -663,7 +699,7 @@ Han gikk på jobb **selv om** han hadde feber.
 
 **Contrast** 对比
 
-> <span style="color: #00CC66;">derimot</span> (on the contrary; however); på den andre side<span style="color: #00CC66;">n</span>;  
+> <span class="env-green">derimot</span> (on the contrary; however); på den andre side<span class="env-green">n</span>;  
 > 
 > tvert imot (on the contrary; quite the opposite);  
 >
@@ -671,7 +707,7 @@ Han gikk på jobb **selv om** han hadde feber.
 
 *For noen er … viktige argumenter for dette, mens andre er opptatt av …* → *For some, … are important reasons, while others care about …*
 
-på den **ene** siden …, mens <span style="color: #00CC66;">på den **andre** siden</span> … → on the one hand …, while on the other hand … [注意 «siden» definite form]
+på den **ene** siden …, mens <span class="env-green">på den **andre** siden</span> … → on the one hand …, while on the other hand … [注意 «siden» definite form]
 
 - På *den ene siden* er det bra for miljøet, mens på *den andre siden* kan det være dyrt.  
   → On the one hand, it is good for the environment, while on the other hand, it can be expensive.
@@ -721,17 +757,17 @@ Hun har ikke trent så mye. **Tross det** har hun planer om å løpe maraton.
 **Til tross for at** hun ikke har trent så mye, vil hun løpe maraton.  
 → Despite not having trained that much, she wants to run a marathon.
 
-Han liker seg her <span style="color: #00CC66;">**enda**</span> han *ikke* har fått jobb.  
+Han liker seg her <span class="env-green">**enda**</span> han *ikke* har fått jobb.  
 → He likes it here even though he hasn't got a job.
 
-Hun vil løpe maraton <span style="color: #00CC66;">**enda**</span> hun *ikke* har trent så mye.  
+Hun vil løpe maraton <span class="env-green">**enda**</span> hun *ikke* har trent så mye.  
 → She wants to run a marathon even though she hasn't trained that much.
 
 --------------------------------------------------------------------------------
 
 **Still, even now** 还…，仍然…
 
-> <span style="color: #00CC66;">Fremdeles</span>; ennå; fortsatt; 
+> <span class="env-green">Fremdeles</span>; ennå; fortsatt; 
 
 Fremdeles → adv. still, up to now
 
@@ -784,7 +820,7 @@ Fremdeles → adv. still, up to now
 
 **In addition** (adding extra info)
 
-> i tillegg (til å); <span style='color:#00CC66'>samtidig finnes det</span> …; <span style='color:#00CC66'>dessuten</span> (moreover); for øvrig; videre; 
+> i tillegg (til å); <span class="env-green">samtidig finnes det</span> …; <span class="env-green">dessuten</span> (moreover); for øvrig; videre; 
 >
 > med andre ord (in other words);
 > 
@@ -796,7 +832,7 @@ Fremdeles → adv. still, up to now
 
 **If** (vilkår / betingelse) 条件，假设
 
-> hvis; om; <span style='color:#00CC66'>dersom</span>; 
+> hvis; om; <span class="env-green">dersom</span>; 
 > så sant; i tilfelle;
 > uten at / uten å;
 
@@ -879,7 +915,7 @@ Other expressions of "unless":
 
 **So** 结果
 
-> så; altså; <span style='color:#00CC66'>derfor</span>; dermed; slik at; som følge av dette; gjøre at; føre til;   
+> så; altså; <span class="env-green">derfor</span>; dermed; slik at; som følge av dette; gjøre at; føre til;   
 
 Det var streik, og **som en følge av det** kom ikke bussen.  
 → There was a strike, and as a result, the bus did not come.
@@ -898,7 +934,7 @@ Det var isglatt på veiene, og det **førte til** kaos.
 
 **Because** 原因
 
-> fordi; <span style="color: #00CC66;">ettersom;</span>; av den grunn at; siden; 
+> fordi; <span class="env-green">ettersom;</span>; av den grunn at; siden; 
 
 **Ettersom** Jon løp så fort han kunne, rakk han bussen.   
 → Because Jon ran as fast as he could, he caught the bus.
@@ -971,7 +1007,7 @@ Note: «antakelig» can also mean «akseptabel».
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
-| Det <span style='color:#00CC66'>går kanskje ikke an</span> å gjøre noe. | It is not possible to do. |
+| Det <span class="env-green">går kanskje ikke an</span> å gjøre noe. | It is not possible to do. |
 | det er større *sannsynlighet* for at … | there is a greater probability that … |
 | antakelig / antagelig                  | probably 可能                       |
 | sannsynlig                             | likely                             |
@@ -988,7 +1024,7 @@ Note: «antakelig» can also mean «akseptabel».
 
 --------------------------------------------------------------------------------
 
-<span style="color: #00CC66;">**Eventuelt**</span> → if necessary; if applicable; if needed
+<span class="env-green">**Eventuelt**</span> → if necessary; if applicable; if needed
 
 - Ta kontakt med lege, og *eventuelt* med sykehus.  
   → Contact a doctor and, if necessary, a hospital.
@@ -1000,7 +1036,7 @@ Note: «antakelig» can also mean «akseptabel».
 
 --------------------------------------------------------------------------------
 
-<span style="color: #00CC66;">**tilfeldig**</span> 随机
+<span class="env-green">**tilfeldig**</span> 随机
 
 Spørsmålene du får, er *tilfeldige* og bestemmes av *ren tilfeldighet*.  
 → The questions you receive are totally random and determined by pure chance.
@@ -1142,18 +1178,18 @@ Jo før, jo heller.
 
 ## 重要
 
-<span style='color:#00CC66'>**强调必要性**</span>
+<span class="env-green">**强调必要性**</span>
 
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
 | rett og slett                          | simply (need to do sth)            |
-| det er <span style="color: #00CC66;">avgjørende</span> at … | it is crucial that … |
+| det er <span class="env-green">avgjørende</span> at … | it is crucial that … |
 | det er helt *avgjørende* at …            | it is absolutely crucial that …    |
 | Det er en *avgjørende faktor* for … at … | It is a *crucial factor* for … that … |
 | det er i hvert fall *på sin plass* at … | It is certainly fitting that …    |
 | det er *nødvendig* å …                   | it is necessary to …               |
-| <span style='color:#00CC66'>vesentlig</span> [ve:´s(ə)ntli] | significant   |
+| <span class="env-green">vesentlig</span> [ve:´s(ə)ntli] | significant   |
 
 
 Det er *vesentlig* for … at …  
@@ -1164,7 +1200,7 @@ Det er *vesentlig* for … at …
 
 新旧交替
 
-… har blitt *uvesentlige*, og … har blitt <span style="color: #00CC66;">enda viktigere enn før</span>.   
+… har blitt *uvesentlige*, og … har blitt <span class="env-green">enda viktigere enn før</span>.   
 → … have become insignificant, and … has become even more important than before.
 
 
@@ -1223,8 +1259,8 @@ Det er et betydningsfullt øyeblikk i livet ditt. → It is a significant moment
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
-| <span style="color: #00CC66;">sette / verdsette</span> noe høyt | to highly value sth                |
-| å <span style="color: #00CC66;">satse</span> på noe             | to go in for sth; to bet on sth    |
+| <span class="env-green">sette / verdsette</span> noe høyt | to highly value sth                |
+| å <span class="env-green">satse</span> på noe             | to go in for sth; to bet on sth    |
 | å prioritere noe                       | to prioritize sth                  |
 | å *legge vekt på* noe [note vekt here without any article]        | to emphasize sth                   |
 | det er stor vekt på …                  | there is great emphasis on …       |
@@ -1237,7 +1273,7 @@ Det er et betydningsfullt øyeblikk i livet ditt. → It is a significant moment
 
 这是一个 … 的问题
 
-Man kan <span style='color:#00CC66'>se på som</span> ....
+Man kan <span class="env-green">se på som</span> ....
 
 - Man *kan se på som* en positiv utvikling og et resultat av at ...   
   → It can be viewed as a positive development and a result of ...
@@ -1245,7 +1281,7 @@ Man kan <span style='color:#00CC66'>se på som</span> ....
 --------------------------------------------------------------------------------
 
 <a id="ikke-minst"></a>
-<span style="color: #00CC66;">«**Ikke minst**»</span> → not least; especially, in particular; above all
+<span class="env-green">«**Ikke minst**»</span> → not least; especially, in particular; above all
 
 - Det er *ikke minst* viktig at studentene får god oppfølging.  
   → It is especially important that students receive good follow-up.
@@ -1330,7 +1366,7 @@ ___
 
 | Norsk | English |
 | ----- | ------- |
-| Barn <span style='color:#00CC66'>verken</span> viser respekt for voksne <span style='color:#00CC66'>eller</span> andre barn. | Children show <span style='color:#00CC66'>neither</span> respect for adults <span style='color:#00CC66'>nor</span> other children. |
+| Barn <span class="env-green">verken</span> viser respekt for voksne <span class="env-green">eller</span> andre barn. | Children show <span class="env-green">neither</span> respect for adults <span class="env-green">nor</span> other children. |
 
 - distinguish from "enten … eller …", which means "either … or …"
 
@@ -1340,7 +1376,7 @@ ___
 
 noen ganger … andre ganger …
 
-<span style='color:#00CC66'>Noen ganger</span> er vi overbeskyttende, <span style='color:#00CC66'>andre ganger</span> får barna bestemme for mye selv. 注意动词的倒装。
+<span class="env-green">Noen ganger</span> er vi overbeskyttende, <span class="env-green">andre ganger</span> får barna bestemme for mye selv. 注意动词的倒装。
 
 
 
@@ -1350,7 +1386,7 @@ noen ganger … andre ganger …
 
 相反, … 的反面
 
-| det stikk <span style='color:#00CC66'>motsatte</span> av        | the opposite of         |
+| det stikk <span class="env-green">motsatte</span> av        | the opposite of         |
 | ---------------------------- | ----------------------- |
 | Dette er motsatt av … ønsker | the oppsite of … wishes |
 | i motsetning til ...         | in contrary to ...      |
@@ -1392,7 +1428,7 @@ i de fleste sammenheng → most likely
 
 **There be**
 
-<span style='color:#00CC66'>**Det finnes / er**</span> (ikke) ...  (不) 存在...
+<span class="env-green">**Det finnes / er**</span> (ikke) ...  (不) 存在...
 
 E.g.
 
@@ -1444,9 +1480,9 @@ at 从句
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
-| <span style="color: #00CC66;">sammenlignet med</span> … | compared to …   |
+| <span class="env-green">sammenlignet med</span> … | compared to …   |
 | i sammenheng med …                     | in connection with …               |
-| En klar <span style='color:#00CC66'>sammenheng</span> mellom ... og ... | A clear link / relationship between ... and ... |
+| En klar <span class="env-green">sammenheng</span> mellom ... og ... | A clear link / relationship between ... and ... |
 | *til sammenligning*                    | for reference / comparison         |
 | lignende                               | similar                           |
 
@@ -1476,7 +1512,7 @@ myndighetene i forbindelse med bygging av både industri, boliger og veier → t
 | i kontrast til …                       | in contrast to …                   |
 | være knyttet til noe(n)                | to be connected to sth/sb          |
 
-<span style="color: #00CC66;">Det er et problem knyttet til</span> fri vilje.  
+<span class="env-green">Det er et problem knyttet til</span> fri vilje.  
 → There is a problem connected to free will.
 
 
@@ -1502,7 +1538,7 @@ like mange epler som dere →
 
 --------------------------------------------------------------------------------
 
-<span style="color: #00CC66;">lignende</span> (også liknende) → similar
+<span class="env-green">lignende</span> (også liknende) → similar
 
 Har du opplevd *noe lignende*? → Have you experienced something similar?
 
@@ -1562,7 +1598,7 @@ Det er en (stor) forskjell *på* … og … → There is a (big) difference betw
 
 Note the use of "på" after "forskjell".
 
-- Det er <span style='color:#00CC66'>liten</span> forskjell på de to modellene. → There is little difference between the two models. Meaning the two models are *very similar*.
+- Det er <span class="env-green">liten</span> forskjell på de to modellene. → There is little difference between the two models. Meaning the two models are *very similar*.
 - Det er stor forskjell på hvordan barna lærer.→ There is a big difference in how the children learn.
 
 gjøre en forskjell → make a difference
@@ -1602,7 +1638,7 @@ Tor og Ed har **annerledes** biler. $\rightarrow$ Alle de andre vennene har Toyo
 
    E.g., Tor har blondt hår, men Ed er annerledes. ✅
 
-   Tor har blondt hår, men Ed er forskjellig. ❌ (作为表语时，Forskjellig 不能<span style='color:#00CC66'>单独</span>用于形容<span style='color:#00CC66'>一个</span>主体，必须与 fra 搭配作为短语出现。Forskjellig 作为表语时，主语必须由<span style='color:#00CC66'>两部分</span>构成，"forskjellig"表述<span style='color:#00CC66'>两部分之间</span>的差异。)
+   Tor har blondt hår, men Ed er forskjellig. ❌ (作为表语时，Forskjellig 不能<span class="env-green">单独</span>用于形容<span class="env-green">一个</span>主体，必须与 fra 搭配作为短语出现。Forskjellig 作为表语时，主语必须由<span class="env-green">两部分</span>构成，"forskjellig"表述<span class="env-green">两部分之间</span>的差异。)
 
    Tor og Pavel er like, men Tor og Ed er **forskjellige**. ✅ $\rightarrow$ Vi sammenligner to deler av subjektet. (Tor og Ed).
 
@@ -1624,7 +1660,7 @@ i kontrast til, i motsetning til, derimot, på den annen side, til forskjell fra
 
 …可以理解的
 
-Det er <span style='color:#00CC66'>forståelig</span> at … → It is understandable that … 
+Det er <span class="env-green">forståelig</span> at … → It is understandable that … 
 
 --------------------------------------------------------------------------------
 
@@ -1717,7 +1753,7 @@ befolkningen (population)
 | i noen grad                            | to some extent                     |
 | til en viss grad                       | to a certain extent                |
 | delvis                                 | partially; to a certain extent     |
-| <span style="color: #00CC66;">for så vidt</span> | as far as; to the extent that |
+| <span class="env-green">for så vidt</span> | as far as; to the extent that |
 
 - Jeg er *for så vidt* enig. / Jeg er enig *til en viss grad*.   
   → I agree to some extent.
@@ -1736,7 +1772,7 @@ befolkningen (population)
 | i stor grad                            | to a large extent                  |
 | i høy grad                             | to a high extent                   |
 | i betydelig grad                       | to a significant extent            |
-| i <span style="color: #00CC66;">ulik</span> grad | to varying degrees     |
+| i <span class="env-green">ulik</span> grad | to varying degrees     |
 
 按照语法规则，«ulik» 作为形容词，需与 «grad» 性数一致，理论上应该用复数形式 «ulike»。但此处固定搭配，«i ulik grad» 固定使用单数形式。
 
@@ -1758,12 +1794,12 @@ befolkningen (population)
 - Stress påvirker både kropp og sinn.  
   → Stress affects both body and mind.
 
-- Matvanene vår<span style="color: #00CC66;">e</span> påvirker helsen vår.  
+- Matvanene vår<span class="env-green">e</span> påvirker helsen vår.  
   → Our eating habits affect our health.
 
 påvirkning → impact; influence
 
-å ha stor <span style='color:#00CC66'>påvirkning / innflytelse / effekt</span> på noe(n) → to have a big impact on sth/sb
+å ha stor <span class="env-green">påvirkning / innflytelse / effekt</span> på noe(n) → to have a big impact on sth/sb
 
 **å berøre** (active); berøres (passive)
 
@@ -1825,7 +1861,7 @@ Konflikten gikk utover vennskapet deres. → The conflict harmed their friendshi
 
 最近几年，涌现了… 
 
-| De siste årene har det <span style='color:#00CC66'>dukket opp</span> ... | There arise ... in recent years |
+| De siste årene har det <span class="env-green">dukket opp</span> ... | There arise ... in recent years |
 | ------------------------------------------------------------ | ------------------------------- |
 | De siste årene har det blitt mer og mer vanlig å ...         |                                 |
 
@@ -1871,7 +1907,7 @@ Det blir en ond *sirkel*. → It becomes a vicious circle.
 
 | Slike ..., men ...                                           | 尽管… 但是…                       |
 | ------------------------------------------------------------ | --------------------------------- |
-| Slike foreldre har <span style='color:#00CC66'>de beste intensjoner</span>, men konsekvensen kan bli at ... | 尽管出发点是好的，但是结果可能是… |
+| Slike foreldre har <span class="env-green">de beste intensjoner</span>, men konsekvensen kan bli at ... | 尽管出发点是好的，但是结果可能是… |
 
 
 
@@ -1931,15 +1967,15 @@ Dette gjelder også i Norge. → This also applies in Norway.
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
-| Det er nok også litt av <span style='color:#00CC66'>grunnen til at</span> han ga seg. | That's probably part of the reason he gave up. |
+| Det er nok også litt av <span class="env-green">grunnen til at</span> han ga seg. | That's probably part of the reason he gave up. |
 | Grunnen til dette kan være …           | The reason for this can be …       |
-| Det kan være mange grunner <span style='color:#00CC66'>til</span> … | The are many reasons why … |
+| Det kan være mange grunner <span class="env-green">til</span> … | The are many reasons why … |
 | av den grunn ... + 倒装                 | because of this …                  |
 | på grunn av noe(n)                     | because of sth/sb                  |
 | på grunn av at + clause                | because / since + 从句              |
 | den vanligste årsaken til .... er ...  | the most common cause of … is …    |
-| <span style='color:#00CC66'>**hovedårsaken**</span> til at … er at ... | the major reason why … is … |
-| <span style='color:#00CC66'>**hovedargumentet**</span> for … at … | the main argument for … is that … |
+| <span class="env-green">**hovedårsaken**</span> til at … er at ... | the major reason why … is … |
+| <span class="env-green">**hovedargumentet**</span> for … at … | the main argument for … is that … |
 | Dette har **sammenheng** med at ... | This is related / due to the fact that ...<br />This has to do with the fact that ...<br />This is because ... |
 | å følge av noe                         | as a result of, due to sth 由…引起的   |
 | å følge av at + clause                 | because / since + 从句                |
@@ -1950,7 +1986,7 @@ Ex «som følge av»
 - *Mange mistet jobben som følge av finanskrisen.*
   (*Many lost their jobs as a result of the financial crisis.*)
 
-- *<span style='color:#00CC66'>Som følge av</span> været ble konserten avlyst.*
+- *<span class="env-green">Som følge av</span> været ble konserten avlyst.*
   (*Due to the weather, the concert was canceled.*)
 
 - *Som følge av utviklingen i samfunnet, trenger vi nye regler.* 
@@ -1960,7 +1996,7 @@ Ex «som følge av»
 
 ### 导致…结果
 
-et resultat, en <span style='color:#00CC66'>konsekvens</span>,
+et resultat, en <span class="env-green">konsekvens</span>,
 
 gi gode/negative resultalter
 
@@ -1974,9 +2010,9 @@ Det *fører* også *med seg* … This also brings along …
 
 Mindre stress *fører til* lavere sykefravær → less stress leads to lower sick leave
 
-Det <span style='color:#00CC66'>*innebærer*</span> at ... → It means / implies / indicates/ suggests that … 
+Det <span class="env-green">*innebærer*</span> at ... → It means / implies / indicates/ suggests that … 
 
-Dette <span style="color: #00CC66;">*gjør*</span> at … → It makes …
+Dette <span class="env-green">*gjør*</span> at … → It makes …
 
 Ex.
 
@@ -1994,7 +2030,7 @@ virkning/effekt → effect, impact
 
 表示 adj 的程度很高，以至于导致了从句中的结果。
 
-- Lønningene i Norge er <span style='color:#00CC66'>så</span> høye <span style='color:#00CC66'>at</span> det <u>ikke</u> lønner seg å produsere varene her.
+- Lønningene i Norge er <span class="env-green">så</span> høye <span class="env-green">at</span> det <u>ikke</u> lønner seg å produsere varene her.
 
   注意从句中 ikke 提前
 
@@ -2021,7 +2057,7 @@ bøying: å volde, volder, voldte, har voldt
 
 forutsetning → prerequisite, condition
 
-Norsk er en <span style='color:#00CC66'>forutsetning</span> for å få jobb i Norge. → Norwegian is a prerequisite for getting a job in Norway.
+Norsk er en <span class="env-green">forutsetning</span> for å få jobb i Norge. → Norwegian is a prerequisite for getting a job in Norway.
 
 **“så lenge” + clause**: as long as / provided that / on the condition that ...; 
 
@@ -2045,7 +2081,7 @@ Norsk er en <span style='color:#00CC66'>forutsetning</span> for å få jobb i No
 
 **Regardless of** ...
 
-<span style='color:#00CC66'>Uansett om</span> ...
+<span class="env-green">Uansett om</span> ...
 
 Alle jobber er verdifulle, uansett om man jobber på en fabrikk eller på kontor.
 
@@ -2053,14 +2089,14 @@ Vi drar på tur uansett om det regner.
 
 Hun kommer til å lykkes, uansett om andre tviler på henne.
 
-<span style='color:#00CC66'>uavhengig av om</span> ... [formal]
+<span class="env-green">uavhengig av om</span> ... [formal]
 
 Prosjektet fortsetter uavhengig av om noen er enige eller ikke.
 
 Alle skal ha rett til utdanning, uavhengig av om de bor i byen eller på landet.
 
 
-<span style="color: #00CC66;">i alle tilfeller</span> → in any case; regardless
+<span class="env-green">i alle tilfeller</span> → in any case; regardless
 
 Jeg vet ikke hva som skjer, men i alle tilfeller må vi være forberedt.  
 → I don't know what will happen, but in any case we must be prepared.
@@ -2085,14 +2121,14 @@ prisen å betale er ...
 | å gi store utfordringer for noen       | give sb big challenges             |
 | en utfordring kan være …               | a challenge can be …               |
 | bekymringer noen ikke klarer å takle alene | concerns that someone cannot handle alone |
-| noe er <span style='color:#00CC66'>av stor bekymring</span> for ... | sth is of great concern. |
+| noe er <span class="env-green">av stor bekymring</span> for ... | sth is of great concern. |
 | en del utfordringer                    | lots of challenges                 |
 | å møte disse utfordringene             | to face these challenges           |
 
 
 --------------------------------------------------------------------------------
 
-**组成<span style='color:#00CC66'>部分</span>**
+**组成<span class="env-green">部分</span>**
 
 大多数
 
@@ -2156,7 +2192,7 @@ synonym: gi seg utslag i/på
 
 Eksempler av dette er …
 
-det finnes det eksempler <span style='color:#00CC66'>på</span> … → There are examples of …
+det finnes det eksempler <span class="env-green">på</span> … → There are examples of …
 
 i noen tilfellers … → in some cases
 
@@ -2168,10 +2204,12 @@ i tilfelle av … → in case of …
 
 **优势和劣势**
 
-Hvilke <span style='color:#00CC66'>fordeler og ulemper</span> er det ved å flytte vareproduksjon utenlands？
+Hvilke <span class="env-green">fordeler og ulemper</span> er det ved å flytte vareproduksjon utenlands？
 
 What are the advantages and disadvantages of .... 注意跟英文的不同。挪威语用的是 hvilke, 英文用的是 what.
 
 --------------------------------------------------------------------------------
+
+
 
 

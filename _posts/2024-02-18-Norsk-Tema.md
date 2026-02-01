@@ -229,7 +229,7 @@ hard / brutal [brutˈal] konkurranse: vicious/fierce competition
 
 - stressende
 - aldri godt nok; alltid press for å gjøre det bedre
-- <span style="color: #00CC66;">føler seg mindreverdig</span> hvis man ikke er like flink som andre → feel inferior if one is not as good as others 自卑感
+- <span class="env-green">føler seg mindreverdig</span> hvis man ikke er like flink som andre → feel inferior if one is not as good as others 自卑感
 
 --------------------------------------------------------------------------------
 
@@ -333,7 +333,7 @@ ___
 **Oppgave 1** (80 ord; 30 min): I kommunen der du bor, har voksenopplæringen bestemt at de skal legge ned B2-kurset. Skriv en e-post til rektor og forklar hvorfor dette er et problem.
 
 > 1. innvandrer har ikke lett tilgjengelig ressur å lære norsk. 
-> 2. Vanskelig å få job. Kan ikke <span style="color: #00CC66;">forsørge seg selv</span>.
+> 2. Vanskelig å få job. Kan ikke <span class="env-green">forsørge seg selv</span>.
 > 3. Staten må betale for å sikre at innvandrer har mat å spise og et sted å bo. Det bruker mye penger i lang sikt. 
 > 4. Innvandrer kan ikke bli integret i samfunnet. Og de blir en belastning. Det påvirker barn sine også.
 >
@@ -351,7 +351,7 @@ I become aware of … → Jeg har fått vite at … / Jeg har hørt at … / Jeg
 
 lett tilgjengelige ressurser → readily available resources (plural, adj agreement)
 
-vurdere beslutningen <span style="color: #00CC66;">på nytt</span> → re-evaluate the decision
+vurdere beslutningen <span class="env-green">på nytt</span> → re-evaluate the decision
 
 <span style='color:#00CC66'>总结 grammer 易错点</span>
 
@@ -398,7 +398,7 @@ Ja, jeg synes staten bør endre utdanningsprogrammet i skolen.
 | mennsperspektivet                      | 用于描述传统男性为主的专业，行业        |
 | mennsdominerte yrker                   | 男性主导的职业                        |
 | arbeidsmoral                           | work ethic                         |
-| å <span style="color: #00CC66;">levere</span> tjenester | to provide services |
+| å <span class="env-green">levere</span> tjenester | to provide services |
 
 «-perspektivet» 表示从…的角度来看
 
@@ -609,7 +609,7 @@ en fremmed vs. å fremme
 
 - en fremmed: foreigner, stranger 陌生人
   
-  <span style="color: #00CC66;">fremmede</span> (plural)
+  <span class="env-green">fremmede</span> (plural)
 
   være glad i å møte fremmede → be happy to meet strangers  
   være redd for å snakke med fremmede → be afraid to talk to strangers
@@ -849,7 +849,7 @@ What is irreplaceable about mennesker? → **uerstattelig**
 
 Hvilke yrker skal bli mer aktuelle?
 
-Det skal bli <span style="color: #00CC66;">større behov</span> for disse yrkene:
+Det skal bli <span class="env-green">større behov</span> for disse yrkene:
 
 - **Programmering og dataanalyse.**
   
@@ -891,12 +891,12 @@ Hvilken ferdigheter tror du vil være viktige i arbeidet med kunstig intelligens
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
-| personopplysning<span style="color: #00CC66;">er</span> | personal information |
+| personopplysning<span class="env-green">er</span> | personal information |
 | personvern                             | privacy protection; data privacy   |
 
 Nåt det gjelder kunstig intelligens, hva tenker du om **personver**? ← beskymringene
 
-> Jeg er litt skeptisk til hvor mye informasjon disse systemene samler inn <span style="color: #00CC66;">om</span> oss. Vi må være forsiktig hva vi deler og med hvem, slik at vi kan beskytte oss selv. Jeg slår av lokalliseringstjenester når jeg ikke trenger dem.
+> Jeg er litt skeptisk til hvor mye informasjon disse systemene samler inn <span class="env-green">om</span> oss. Vi må være forsiktig hva vi deler og med hvem, slik at vi kan beskytte oss selv. Jeg slår av lokalliseringstjenester når jeg ikke trenger dem.
 >
 > - lokalliseringstjennester / posisjontjenester
 
@@ -967,7 +967,7 @@ ___
      - solenergi, vindkraft og vannkraft
 
    - lage lover som beskytter miljøet → make laws that protect the environment
-     - tiltak som reduserer <span style="color: #00CC66;">*forurensningen*</span>   
+     - tiltak som reduserer <span class="env-green">*forurensningen*</span>   
        → measures that reduce pollution
 
    - investere i grønn teknologi → invest in green technology
@@ -994,7 +994,7 @@ ___
 | naturvern                              | nature conservation 自然保护       |
 | økonomisk vekst                        | economic growth 经济增长           |
 | forurensning                           | pollution 污染                     |
-| <span style="color: #00CC66;">klimaanlegg</span> | air conditioning 空调  |
+| <span class="env-green">klimaanlegg</span> | air conditioning 空调  |
 
 
 Vi kan <span style='color:#00CC66'>forbrede miljøet ved å</span> ... → We can improve the environment by ...
@@ -1017,7 +1017,7 @@ utenlands: foreign, international 国外 (utenfor hjemmelandet)
 
 matvane 饮食习惯
 
-<span style="color: #00CC66;">«vegetarianer»</span> [vegətaria:´nər] eller «vegetar» [vegetˈar] 素食者
+<span class="env-green">«vegetarianer»</span> [vegətaria:´nər] eller «vegetar» [vegetˈar] 素食者
 
 uten kjøtt
 
@@ -1031,15 +1031,15 @@ Vi må redusere matsvinn. Vi kaster altfor mye mat. ← 现象描述
 
 - Man kan rett og slett unngå det ved å planlegge på forhånd nå de handler mat. ← 解决措施1: 个人层面
   
-  Vi kan lage en handleliste basert på hva vi trenger for uken, og <span style="color: #00CC66;">kjøpe bare det vi trenger</span>. 
+  Vi kan lage en handleliste basert på hva vi trenger for uken, og <span class="env-green">kjøpe bare det vi trenger</span>. 
   
   影响
 
   1. På den måten unngår vi å kjøpe for mye mat som vi ikke rekker å spise før den blir dårlig.
 
-  2. Det <span style="color: #00CC66;">ikke bare</span> unngår matsvinn <span style="color: #00CC66;">men også</span> sparer penger. 
+  2. Det <span class="env-green">ikke bare</span> unngår matsvinn <span class="env-green">men også</span> sparer penger. 
 
-- Det er synd at vi kaster mye måt når det er folk som sulter i verden. I Africa og Asia et det mange som ikke har nok mat å spise. Nå vi tenke på dem, må vi gjøre vårt beste <span style="color: #00CC66;">for å</span> redusere matsvinn. ← 解决措施2: 社会层面
+- Det er synd at vi kaster mye måt når det er folk som sulter i verden. I Africa og Asia et det mange som ikke har nok mat å spise. Nå vi tenke på dem, må vi gjøre vårt beste <span class="env-green">for å</span> redusere matsvinn. ← 解决措施2: 社会层面
 
 - Vi må øke bevisstheten om matsvinn i samfunnet. ← 解决措施3: 思想层面
   
@@ -1178,7 +1178,7 @@ Anderson *hadde effekt av å* bruke fedmemedisin, men da han sluttet *gikk* vekt
 Den tapte vekten kommer tilbake på under to år. → The lost weight returns in less than two years.
 
 
-er<span style="color: #00CC66;">nær</span>ing 注意与 er<span style="color: #00CC66;">far</span>ing 区分
+er<span class="env-green">nær</span>ing 注意与 er<span class="env-green">far</span>ing 区分
 
 - ernæring = nutrition 营养
 - erfaring = experience 经验
@@ -1200,7 +1200,7 @@ er<span style="color: #00CC66;">nær</span>ing 注意与 er<span style="color: #
 | helsekost                              | health food                        |
 | varietet [varietˈet]                   | variety (en 同 no)                 |
 | være i form                            | stay in shape                      |
-| å holde <span style="color: #00CC66;">seg</span> i form | to keep fit     |
+| å holde <span class="env-green">seg</span> i form | to keep fit     |
 | være til <span style='color:#00CC66'>byrde for</span> noen | be a bother / burden to sb |
 | være redd for å bli alvorlig syk       | be afraid of becoming seriously ill |
 | søvnløshet                             | insomnia 失眠                       |
@@ -1249,7 +1249,7 @@ Leppene mine blir fort såre i kulda.
 
 --------------------------------------------------------------------------------
 
-«<span style="color: #00CC66;">sårbar</span>»: vulnerable, fragile, sensitive
+«<span class="env-green">sårbar</span>»: vulnerable, fragile, sensitive
 
 - en sårbar punkt → a weak point
 
@@ -1269,7 +1269,7 @@ Hun *følte seg sårbar* etter å ha mistet jobben.
 
 区别于 «Utsatt»
 
-<span style="color: #00CC66;">Utsatt for noe</span> → exposed to sth (danger or risk)
+<span class="env-green">Utsatt for noe</span> → exposed to sth (danger or risk)
 
 Huden er *utsatt for* frostskader.  
 → The skin is exposed to frostbite.
@@ -1291,7 +1291,7 @@ Han stod *utsatt* alene på fjellet i mørket.
 | -------------------------------------- | ---------------------------------- |
 | bråk                                   | noise                              |
 | bråkete, bråkete, bråkete (无形变)      | noisy                              |
-| <span style="color: #00CC66;">støy</span> | background noise              |
+| <span class="env-green">støy</span> | background noise              |
 | en lyd                                 | a sound                            |
 | å skrike                               | to scream                          |
 | å snakke høyt                          | to talk loudly                     |
@@ -1357,14 +1357,14 @@ Mindre sannsynlighet for fedme; [mindre sjanse for å bli fet]
 
 - Jeg vil si at det handler om å finne en balanse mellom å ta vare på helsen sin og å nyte livet. → I would say that it is about finding a balance between taking care of one's health and enjoying life.
 
-Mat som kan <span style="color: #00CC66;">oppbevares</span> lenge og som ikke blir dårlig.  
+Mat som kan <span class="env-green">oppbevares</span> lenge og som ikke blir dårlig.  
 → Food that can be stored for a long time and does not go bad.
 
 Langvarig mat som ikke blir dårlig. → Long-lasting food that doesn’t go bad.
 
 Mat med lang holdbarhet. → Food with a long shelf life.
 
-Langvarig mat inneholder vanligvis mange <span style="color: #00CC66;">tilsetningsstoffer</span> som ikke er sunne. → Long-lasting food usually contains many additives that are not healthy.
+Langvarig mat inneholder vanligvis mange <span class="env-green">tilsetningsstoffer</span> som ikke er sunne. → Long-lasting food usually contains many additives that are not healthy.
 
 fryst mat → frozen food (forsne pizzaer, mikrobølgovn-måltider)  
 mer prosessert mat → more processed food  
@@ -1445,7 +1445,7 @@ verb
 
 - Jeg er blitt forkjølet. → I have a cold. 强调 change of state, 感冒正在发展 
   
-  Jeg er <span style="color: #00CC66;">forkjølet</span>. → 强调现在的状态  
+  Jeg er <span class="env-green">forkjølet</span>. → 强调现在的状态  
   Jeg har blitt forkjølet. → 强调 becoming sick
 - Jeg prøver å unngå *å bli forkjølet*. → I’m trying to avoid catching a cold.
 - Jeg *forkjølet meg* i helgen. → I *caught a cold* over the weekend.
@@ -1492,7 +1492,7 @@ privatisere → privatize 私有化
 
 Note that «å gå» refers to walking on foot, while «å dra» and «å reise» are more general terms for going or traveling.
 
-- <span style="color: #00CC66;">å komme seg til</span> ... → to get to ...
+- <span class="env-green">å komme seg til</span> ... → to get to ...
 
 Hvordan kommer man seg fra sentrum til flyplassen?   
 → How does one get from the city center to the airport?
@@ -1501,7 +1501,7 @@ Hvordan kommer du deg til jobben hver dag?
 → How do you get to work every day?
 
 
-- <span style="color: #00CC66;">å bevege seg rundt i byen</span> → to get around the city
+- <span class="env-green">å bevege seg rundt i byen</span> → to get around the city
 
 Det er lett å bevege seg rundt i byen med buss og trikk. → It is easy to get around the city by bus and tram.
 
@@ -1513,7 +1513,7 @@ Det finnes mange måter å bevege seg rundt i byen på. → There are many ways 
 
 Hun liker å bevege seg rundt i byen og utforske nye områder. → She likes to get around the city and explore new areas.
 
-For å bevege seg rundt i byen trenger man ofte <span style="color: #00CC66;">et månedskort</span>. → To get around the city, one often needs a monthly pass.
+For å bevege seg rundt i byen trenger man ofte <span class="env-green">et månedskort</span>. → To get around the city, one often needs a monthly pass.
 
 Jorden beveger seg rundt solen the earth revolves around the sun → The earth revolves around the sun.
 
@@ -1703,14 +1703,14 @@ Du kan få oppfølgingsspørsmål fra eksaminator. Du snakker i ca. 2-3 minutter
 
 > Synes dere at all helsebehandling bør være gratis? Hvorfor/hvorfor ikke?
 
-Dere snakker i ca. 5-7 minutter <span style="color: #00CC66;">til sammen</span>.
+Dere snakker i ca. 5-7 minutter <span class="env-green">til sammen</span>.
 
 Tips: 
 
-- Begge må delta i <span style="color: #00CC66;">samtalen</span>. 
+- Begge må delta i <span class="env-green">samtalen</span>. 
   
   Ikke en monolog! ❌
-- Du må kommentere på <span style="color: #00CC66;">den andres meninger</span>.
+- Du må kommentere på <span class="env-green">den andres meninger</span>.
 - Du må stille spørsmål til den andre kandidaten. 
   
   Hva synes du om det?
@@ -1752,7 +1752,7 @@ Use this table to organize your thoughts:
 | fordeler 2 | ulemper 2 |
 | ...        | ...       |
 
-Karanse said we can take <span style="color: #00CC66;">2-3 minutes</span> to write down our thoughts before speaking.
+Karanse said we can take <span class="env-green">2-3 minutes</span> to write down our thoughts before speaking.
 
 Source: Timestamp 14:40, <https://www.youtube.com/watch?v=8TbsNBM6wf0>
 
@@ -1773,7 +1773,7 @@ Source: Timestamp 14:40, <https://www.youtube.com/watch?v=8TbsNBM6wf0>
     
     ✅ 你可以选择一个简单的观点，然后围绕它展开论据。
 
-更多关于 <span style="color: #00CC66;">解题思路</span>，参考 <a href="{{site.baseurl}}/2024/02/18/Norsk-Struktur.html#thinking-angles">这里 ↩︎</a>。
+更多关于 <span class="env-green">解题思路</span>，参考 <a href="{{site.baseurl}}/2024/02/18/Norsk-Struktur.html#thinking-angles">这里 ↩︎</a>。
 
 Q: 口语考试中嗓子干涩怎么办?  
 A: 带口香糖，一瓶水。

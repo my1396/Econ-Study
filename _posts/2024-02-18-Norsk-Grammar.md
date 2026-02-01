@@ -56,9 +56,9 @@ presens perfektum 现在完成时
 
 **nå vs. når**
 
-- nå = now 表示 <span style="color: #00CC66;">时间点</span>，当下
+- nå = now 表示 <span class="env-green">时间点</span>，当下
 
-- når = when 表示 <span style="color: #00CC66;">当…的时候; 如果</span>，用于条件从句; 疑问句中表示 “什么时候”。
+- når = when 表示 <span class="env-green">当…的时候; 如果</span>，用于条件从句; 疑问句中表示 “什么时候”。
 
 
 **Preteritumssystemet**
@@ -109,7 +109,7 @@ Ordstilling / V2-regelen
 
 --------------------------------------------------------------------------------
 
-Adverbet «**kanskje**» er et <span class="env-orange">unntak</span> fra ordstillingsregelen. Når «kanskje» står på 1. plass, <span style="color: #00CC66;">kan du velge om</span> du vil sette verbalet eller subjektet på 2. plass. 
+Adverbet «**kanskje**» er et <span class="env-orange">unntak</span> fra ordstillingsregelen. Når «kanskje» står på 1. plass, <span class="env-green">kan du velge om</span> du vil sette verbalet eller subjektet på 2. plass. 
 
 1. Kanskje kommer han i morgen. ✅
 2. Kanskje han kommer i morgen. ✅
@@ -167,7 +167,7 @@ These are usually modal or evaluative adverbs, expressing probability, possibili
 
 | Adverb        | Meaning               | Example                                                                 |
 | ------------- | --------------------- | ----------------------------------------------------------------------- |
-| <span style="color: #00CC66;">kanskje</span> | maybe | *Kanskje hun kommer i morgen.* → Maybe she comes tomorrow. |
+| <span class="env-green">kanskje</span> | maybe | *Kanskje hun kommer i morgen.* → Maybe she comes tomorrow. |
 | trolig        | likely / probably     | *Trolig han har rett.* → He probably is right.                          |
 | muligens      | possibly              | *Muligens det blir regn i kveld.* → Possibly it will rain tonight.      |
 | antagelig     | presumably / probably | *Antagelig de vant konkurransen.* → They probably won the competition.  |
@@ -215,13 +215,13 @@ Which one is correct?
 
 De fleste adjektiv slutter på **‑t** når de beskriver *substantiv i ubestemt form intetkjønn* og **‑e** når de beskriver *substantiv i ubestemt form flertall*. Adjektivet kan stå før substantivet, eller etter **være**/**bli**.
 
-- 形容词 + 名词结构 (<span style="color: #00CC66;">定语形容词</span>) → <span style="color: #00CC66;">先判断特指，再判断性数。</span>
+- 形容词 + 名词结构 (<span class="env-green">定语形容词</span>) → <span class="env-green">先判断特指，再判断性数。</span>
   - 特指的情况下 (prefixed by den/det/de)，形容词一律用特指 definite form。
     
     特指形变同复数形变，一律加 -e。且前面要要根据性数加定冠词 den/det/de。 [↩︎](#definite-adjective)
   - 非特指的情况下，形容词需要在 gender 和 number 上匹配。
 
-- være / bli + 形容词结构 (<span style="color: #00CC66;">表语形容词</span>)，即使主语为特指的情况下，形容词用 indefinite form, 根据 gender 和 number 变格。→ <span style="color: #00CC66;">只有性数变化，无特指变化。</span>
+- være / bli + 形容词结构 (<span class="env-green">表语形容词</span>)，即使主语为特指的情况下，形容词用 indefinite form, 根据 gender 和 number 变格。→ <span class="env-green">只有性数变化，无特指变化。</span>
 
 |  | Attributiv: adjektiv før substantivet<br />定语形容词 | Predikativ: adjektiv sammen med være/bli<br />表语形容词 |
 | ----------------------- | ---------------------------- | ----------------- |
@@ -249,7 +249,7 @@ Note:
 - «nær» + location = close to, this is different from English, where we have a preposition "to" following "close".
 - «nær» which form we use depends on the noun that it refers to. 
   
-  注意是与 <span style="color: #00CC66;">所指代的名词一致</span>，而 <span class="env-orange">不是与主语一致</span>。
+  注意是与 <span class="env-green">所指代的名词一致</span>，而 <span class="env-orange">不是与主语一致</span>。
   
   han- or hun-kjønn → nær  
   intetkjønn → nært  
@@ -263,7 +263,7 @@ Note:
 --------------------------------------------------------------------------------
 
 
-<span style="color: #00CC66;">**Norwegian Adjective Bøying (Inflection) Guide:**</span>
+<span class="env-green">**Norwegian Adjective Bøying (Inflection) Guide:**</span>
 
 
 ```
@@ -330,7 +330,7 @@ Når substantivet står i bestemt form, legger vi til *bestemt artikkel* (定冠
 
 1. 名词加后缀 «-en/-et/-ene»，叫做 "articles in relation to nouns".
 
-2. 如果有形容词修饰，那么<span style="color: #00CC66;">形容词一律用特指 definite form</span>。
+2. 如果有形容词修饰，那么<span class="env-green">形容词一律用特指 definite form</span>。
 
    一般来说，<span style='color:#00CC66'>形容词的 definite form 和 plural form 是一样的。</span>
 
@@ -563,7 +563,7 @@ Reflexive Pronouns 反身代词
 | 3rd    | Plural   | de        | dem       | seg (themselves) |
 
 
-- «<span style="color: #00CC66;">**Seg**</span>» 管 himself, herself, itself, themselves, i.e., 第三人称单数和复数的反身代词。
+- «<span class="env-green">**Seg**</span>» 管 himself, herself, itself, themselves, i.e., 第三人称单数和复数的反身代词。
 
 - Reflexives in Norwegian are often used in 固定搭配
 
@@ -577,17 +577,17 @@ Reflexive Pronouns 反身代词
 
   å ønske seg (to wish)
 
-Jeg må ta vare på <span style="color: #00CC66;">meg selv</span>. → I have to take care of *myself*.  
-Vi må ta vare på <span style="color: #00CC66;">oss selv</span>. → We have to take care of *ourselves*.  
-Du må passe på <span style="color: #00CC66;">deg selv</span>. → You have to take care of *yourself*.  
-Dere må passe på <span style="color: #00CC66;">dere selv</span>. → You (pl.) have to take care of *yourselves*.  
-Han/hun må passe på <span style="color: #00CC66;">seg selv</span>. → He/She has to take care of *himself / herself*.  
-De må passe på <span style="color: #00CC66;">seg selv</span>. → They have to take care of *themselves*.  
+Jeg må ta vare på <span class="env-green">meg selv</span>. → I have to take care of *myself*.  
+Vi må ta vare på <span class="env-green">oss selv</span>. → We have to take care of *ourselves*.  
+Du må passe på <span class="env-green">deg selv</span>. → You have to take care of *yourself*.  
+Dere må passe på <span class="env-green">dere selv</span>. → You (pl.) have to take care of *yourselves*.  
+Han/hun må passe på <span class="env-green">seg selv</span>. → He/She has to take care of *himself / herself*.  
+De må passe på <span class="env-green">seg selv</span>. → They have to take care of *themselves*.  
 
-Han se <span style="color: #00CC66;">seg selv</span> i speilet. → He sees *himself* in the mirror.
+Han se <span class="env-green">seg selv</span> i speilet. → He sees *himself* in the mirror.
 
-Barna leker med <span style="color: #00CC66;">seg selv</span>. → The children play by *themselves*.  
-Kjendiser deler bilder av <span style="color: #00CC66;">seg selv</span> på sosiale medier. → Celebrities share pictures of *themselves* on social media.
+Barna leker med <span class="env-green">seg selv</span>. → The children play by *themselves*.  
+Kjendiser deler bilder av <span class="env-green">seg selv</span> på sosiale medier. → Celebrities share pictures of *themselves* on social media.
 
 
 --------------------------------------------------------------------------------
@@ -609,8 +609,8 @@ Kjendiser deler bilder av <span style="color: #00CC66;">seg selv</span> på sosi
 
     **In Norwegian:**
 
-    -   De tar vare på **<span style="color: #00CC66;">seg</span> selv**. → Refers back to the subject.
-    -   Det er bra for **<span style="color: #00CC66;">dem</span> selv**. → Object of the preposition "for"; does <span class="env-orange">NOT</span> refer back to the subject.
+    -   De tar vare på **<span class="env-green">seg</span> selv**. → Refers back to the subject.
+    -   Det er bra for **<span class="env-green">dem</span> selv**. → Object of the preposition "for"; does <span class="env-orange">NOT</span> refer back to the subject.
 
 -   Summary
     -   English does **not** change form depending on whether it refers back to the subject or not.
@@ -618,12 +618,12 @@ Kjendiser deler bilder av <span style="color: #00CC66;">seg selv</span> på sosi
         -   When it refers back to the subject, use reflexive pronouns (seg selv).
         -   When it does not refer back to the subject, use object personal pronouns (ham, henne, dem, etc.).
 
-This is similar to <span style="color: #00CC66;">possessive pronouns</span> in Norwegian, where we have different forms depending on whether it refers back to the subject or not (sin, si, sitt, sine vs hans, hennes, deres).
+This is similar to <span class="env-green">possessive pronouns</span> in Norwegian, where we have different forms depending on whether it refers back to the subject or not (sin, si, sitt, sine vs hans, hennes, deres).
 
 
 > **小结:**
-> - 当反身代词或者所有格指代主语时，用 meg/deg/oss/dere/<span style="color: #00CC66;">seg</span> selv 或者 <span style="color: #00CC66;">sin, si, sitt, sine</span>。
-> - 当反身代词或者所有格不指代主语时，用 meg/deg/oss/dere/<span style="color: #00CC66;">ham/henne/dem</span> 或者 hans, hennes, <span style="color: #00CC66;">deres</span>。
+> - 当反身代词或者所有格指代主语时，用 meg/deg/oss/dere/<span class="env-green">seg</span> selv 或者 <span class="env-green">sin, si, sitt, sine</span>。
+> - 当反身代词或者所有格不指代主语时，用 meg/deg/oss/dere/<span class="env-green">ham/henne/dem</span> 或者 hans, hennes, <span class="env-green">deres</span>。
 > 
 > 注意: 第一人称 (包括单数+复数)，第二人称 (单数+复数) 没有变化，不根据宾语是否代指主语形变，只有第三人称单数和复数有变化。
 
@@ -663,7 +663,7 @@ Note that «glede» is both verb and noun form.
 | å skynde seg        | to hurry up           | Skynd deg!                           |
 | å slå seg ned       | to sit down           | Hun slår seg ned ved bordet.         |
 | å vaske seg         | to wash oneself       | Barna vasker seg før middag.         |
-| å <span style="color: #00CC66;">tilpasse seg</span> | to adapt oneself | De må tilpasse seg de nye reglene. |
+| å <span class="env-green">tilpasse seg</span> | to adapt oneself | De må tilpasse seg de nye reglene. |
 | å åpne seg          | to open up             | Hun åpner seg for nye ideer.        |
 
 Alkohol hjelper folk å åpne seg. → Alcohol helps people to open up.
@@ -1239,7 +1239,7 @@ Se tabellen *nedenfor*. → See the table below.
 |-----------------|---------------|
 | overalt         | everywhere    | 
 
-Jeg har lett <span style="color: #00CC66;">*overalt*</span> etter nøklene mine. → I have looked everywhere for my keys.
+Jeg har lett <span class="env-green">*overalt*</span> etter nøklene mine. → I have looked everywhere for my keys.
 
 
 | Norsk            | English            |
@@ -1252,7 +1252,7 @@ Jeg jobbet over tid i dag. → I worked overtime today.
 
 | Norsk             | English       |
 | ----------------- | ------------- |
-| en liste <span style="color: #00CC66;">over</span> ... | a list of ... |
+| en liste <span class="env-green">over</span> ... | a list of ... |
 
 en liste *over* lykkelige land → a list of happy countries
 
@@ -1260,7 +1260,7 @@ en liste *over* ting å gjøre → a list of things to do
 
 et ting, tinget, ting, tingene → neut. a thing (plural same as singular 中性词，单复同形)
 
-en liste over *de beste bøkene* i år → a list of best books this year [注意最高级 de + superlative definite adj + plural definite noun, <span style="color: #00CC66;">**triple agreement**</span>] 
+en liste over *de beste bøkene* i år → a list of best books this year [注意最高级 de + superlative definite adj + plural definite noun, <span class="env-green">**triple agreement**</span>] 
 
 en liste over *årets beste bøker* → a list of this year's best books [år + possessive + superlative adj + plural indefinite noun]
 
@@ -1414,7 +1414,7 @@ Jeg gruer meg til eksamen  → I dread the exam.
 
 | Norsk           | English        |
 | --------------- | -------------- |
-| <span style="color: #00CC66;">ha evne til å gjøre</span>  | have the ability to |
+| <span class="env-green">ha evne til å gjøre</span>  | have the ability to |
 | ha kapasitet til | have the capacity to |
 
 Han har ikke even til å forstå det. → He doesn't have the ability to understand it.
@@ -1525,7 +1525,7 @@ Har du noe kjennskap til dette? → Do you know anything about this?
 
   - hus / hjemme 相关
     
-    <span style="color: #00CC66;">på</span> kjøkkenet / badet / soverommet  [<span style="color: #00CC66;">-et 用 «på»</span>]
+    <span class="env-green">på</span> kjøkkenet / badet / soverommet  [<span class="env-green">-et 用 «på»</span>]
 
     Jeg lager middag på kjøkkenet. → I am making dinner in the kitchen.
     
@@ -1533,7 +1533,7 @@ Har du noe kjennskap til dette? → Do you know anything about this?
 
     Det ligger klær på soverommet.  → There are clothes lying in the bedroom.
 
-    <span style="color: #00CC66;">i</span> hagen / garasjen / kjelleren / stua / loftet / boden / gangen / balkongen [<span style="color: #00CC66;">-en / -ei 用 «i»</span>]
+    <span class="env-green">i</span> hagen / garasjen / kjelleren / stua / loftet / boden / gangen / balkongen [<span class="env-green">-en / -ei 用 «i»</span>]
 
     Jeg slapper av i stua. → I am relaxing in the living room.
 
@@ -1672,7 +1672,7 @@ Det er forskjell på rik og fattig.
 | eksempel på     | example of              |
 | sikker på       | sure of                 |
 | sint <span style='color:#00CC66'>på noen</span>     | angry with/at sb |
-| sint <span style="color: #00CC66;">for noe</span> | angry about sth  | 
+| sint <span class="env-green">for noe</span> | angry about sth  | 
 
 Jeg er sint på ham.  
 → I am angry with him.
@@ -1711,7 +1711,7 @@ Hva er prisen på denne boken?
 
 | Norsk           | English                 |
 |-----------------|-------------------------|
-| <span style="color: #00CC66;">tvile</span> på | doubt about |
+| <span class="env-green">tvile</span> på | doubt about |
 
 Jeg tviler på at han kommer.  
 → I doubt that he is coming.
@@ -2190,7 +2190,7 @@ Hva er i veien med deg?
 
 | Norsk               | English                 |
 |-------------------- |-------------------------|
-| <span style="color: #00CC66;">være avhengig av</span>    | be dependent on         |
+| <span class="env-green">være avhengig av</span>    | be dependent on         |
 | være full av        | be full of              |
 | være trøtt/lei av   | be tired of             |
 | være opptatt av     | be busy with            |
@@ -2208,7 +2208,7 @@ A common mistake is to use <del>«avhengig **på** noe»</del> instead of «avhe
 
 ### hos
 
-When referting to "be at" («<span style="color: #00CC66;">er / bor</span>») places like doctor's office, NAV, etc., use «**hos**».
+When referting to "be at" («<span class="env-green">er / bor</span>») places like doctor's office, NAV, etc., use «**hos**».
 
 | Norsk           | English                 |
 |-----------------|-------------------------|
@@ -2219,7 +2219,7 @@ When referting to "be at" («<span style="color: #00CC66;">er / bor</span>») pl
 | hos + noen      | at sb's place           | 
 
 
-When referring to "going to" («<span style="color: #00CC66;">gå / reise / dra</span>») these places, use «**til**».
+When referring to "going to" («<span class="env-green">gå / reise / dra</span>») these places, use «**til**».
 
 Jeg skal til legen i morgen.  
 → I am going to the doctor tomorrow.
@@ -2385,7 +2385,7 @@ mindre behov = less need
 | mest folk   | most people  |
 
 
-Det er mye folk i byen når det <span style="color: #00CC66;">foregår</span> en <span style="color: #00CC66;">fotballkamp</span>.
+Det er mye folk i byen når det <span class="env-green">foregår</span> en <span class="env-green">fotballkamp</span>.
 
 Det er mye folk i byen når det er fotballkamp.
 
@@ -2418,13 +2418,13 @@ Det er mye folk i byen når det er fotballkamp.
    Dette gjelder for eksempel adjektiv fra presens perfektum, flere lange ord og noen utenlandske ord.  
    
    Q: What is "adjektiv fra presens perfektum"?  
-   A: 形容词来自<span style="color: #00CC66;">现在完成时</span>的过去分词 (perfektum partisipp)，如 «interessert», «forberedt», «organisert», «komplisert», etc.
+   A: 形容词来自<span class="env-green">现在完成时</span>的过去分词 (perfektum partisipp)，如 «interessert», «forberedt», «organisert», «komplisert», etc.
 
    💡 现在分词 (presens partisipp) 形式的形容词一般以 "-ende" 结尾，如 «overraskende», «spennende», «skremmende», 也使用前缀形式的比较级。
 
 --------------------------------------------------------------------------------
 
-<span style="color: #00CC66;">**过去分词 adj 的比较级** («-ert» partisipp)</span>
+<span class="env-green">**过去分词 adj 的比较级** («-ert» partisipp)</span>
 
 - Jeg blir *mer interessert* i norsk jo bedre jeg forstår det.  
   → I become more interested in Norwegian the better I understand it.
@@ -2443,7 +2443,7 @@ Det er mye folk i byen når det er fotballkamp.
 
 --------------------------------------------------------------------------------
 
-<span style="color: #00CC66;">**现在分词 adj 的比较级** («-ende» partisipp)</span>
+<span class="env-green">**现在分词 adj 的比较级** («-ende» partisipp)</span>
 
 - Filmen var bra, men boka var *mer spennende*.  
   → The movie was good, but the book was more exciting.
@@ -2474,7 +2474,7 @@ En ny studie viser at folk går opp i vekt *fire ganger så fort* etter de slutt
 
 --------------------------------------------------------------------------------
 
-<span style="color: #00CC66;">表相同级别或程度</span>
+<span class="env-green">表相同级别或程度</span>
 
 **like + adj** → same + adj
 
