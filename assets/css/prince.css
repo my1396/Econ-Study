@@ -1,0 +1,31 @@
+/* Import KaTeX CSS for math rendering */
+@import url('https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css');
+
+/* Fix wide curly quotes - use Western font for quote characters */
+/* This targets the actual quote glyphs in the text */
+@font-face {
+  font-family: "Quote Fix";
+  src: local("Helvetica"), local("Arial"), local("sans-serif");
+  unicode-range: U+2018-2019, U+201C-201D; /* ' ' " " */
+}
+
+/* Prince XML CSS for fixing Chinese punctuation line breaking */
+body, p, div, span, li, td, th, h1, h2, h3, h4, h5, h6 {
+  font-family: "Quote Fix", 'Noto Sans CJK SC', 'Source Han Sans SC', 'PingFang SC', 'Microsoft YaHei', 'Heiti SC', sans-serif;
+  prince-text-justify: prince-cjk;
+  line-break: strict;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+/* Prince-specific settings */
+* {
+  -prince-text-wrap-cjk: normal;
+}
+
+/* Hide top link and footer in print */
+.top-link.hide,
+.print-note {
+  display: none;
+}
+

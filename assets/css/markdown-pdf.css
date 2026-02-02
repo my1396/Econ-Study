@@ -1,0 +1,6 @@
+/* Custom CSS for Markdown PDF extension */
+
+/* hide top-link arrow  */
+.top-link.hide {
+  display: none;
+}

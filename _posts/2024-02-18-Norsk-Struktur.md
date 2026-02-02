@@ -27,12 +27,6 @@ title: Norsk Struktur 🔗
 .print-note hr {
   margin: 0;
 }
-/* Hide footer when printing */
-@media print {
-  .print-note {
-    display: none;
-  }
-}
 </style>
 
 <footer class="print-note">
@@ -48,7 +42,7 @@ title: Norsk Struktur 🔗
 
 <script src="{{site.baseurl}}/assets/js/footer-mover.js"></script>
 
-<a class="top-link hide" href="#" id="js-top">↑</a><a class="top-link hide" href="#" id="js-top">↑</a>
+<a class="top-link hide" href="#" id="js-top">↑</a>
 
 This post contains phrases commonly used in *written* and *oral* exams in norskprøver B2. 
 
@@ -1646,7 +1640,7 @@ Tor og Ed har **annerledes** biler. → Alle de andre vennene har Toyota. Bare T
 
    E.g., A er annerledes enn B. = A er forskjellig fra B.
 
-2. 作为表语，说明 A 与 B 不同。→ 只能用annerdeles
+2. 作为表语，说明 A 与 B 不同。→ 只能用 annerledes
 
    E.g., Tor har blondt hår, men Ed er annerledes. ✅
 
@@ -1665,7 +1659,7 @@ Tor og Ed har **annerledes** biler. → Alle de andre vennene har Toyota. Bare T
 
 **By contrast**
 
-i kontrast til, i motsetning til, derimot, på den annen side, til forskjell fra
+i kontrast til, i motsetning til, derimot, på den annen siden, til forskjell fra
 
 
 --------------------------------------------------------------------------------
