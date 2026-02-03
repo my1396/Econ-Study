@@ -23,6 +23,21 @@ A: If your Jupyter kernel is using a Conda environment, it's generally better to
 
 [Built-in magic commands in Jupyter](https://ipython.readthedocs.io/en/stable/interactive/magics.html)
 
+--------------------------------------------------------------------------------
+
+When to use Jupyter Notebook vs. Python script (`.py` file):
+
+- **Jupyter Notebook**:
+  - Good to put results and code together
+  - But difficult to debug and writing code
+  - When you share with others for <span class="env-green">presentation purpose</span>
+- **Python script**:
+  - Use Python script for early stage when you write a lot of code and need to debug
+  - You can use "Rename symbol" and to find and replace variables easily; just easier to debug
+  - Once code is stable, you can copy the code to Jupyter Notebook for better presentation
+  - When you share with others for <span class="env-green">collaboration purpose</span>
+
+--------------------------------------------------------------------------------
 
 ## Pandas
 

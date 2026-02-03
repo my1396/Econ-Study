@@ -22,7 +22,7 @@ Fill in the connection details:
 
 Pros: Nice UI for table overview, column browsing, and query execution.
 
-Cons: Cannot save query notebooks. → Use Jupyter Notebook for better organization and version control.
+Cons: Cannot save query notebooks to local. → Use Jupyter Notebook / Python for better organization and version control.
 
 You can run SQL queries in the Notebooks. To quit the UI, go to terminal and hit <span class="env-green">`Ctrl + D`</span>.
 
