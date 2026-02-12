@@ -389,6 +389,12 @@ ___
 
 **Asset Pricing data at OSE**
 
-<https://ba-odegaard.no/financial_data/ose_asset_pricing_data/index.html>
+Professor Bernt Arne Ødegaard maintains a database of financial data for the Oslo Stock Exchange, which is available for free on his website. The database includes daily and monthly pricing factors used in asset pricing. 
 
-It is important to match return frequency, e.g., daily, monthly, etc.
+**Download pricing factors:** <https://ba-odegaard.no/financial_data/ose_asset_pricing_data/index.html>
+
+**Note that**
+
+- You need to download the market return, risk-free rate, and factor returns (SMB and HML) separately, as they are in different files.
+
+- It is important to match return frequency, e.g., daily, monthly, etc.

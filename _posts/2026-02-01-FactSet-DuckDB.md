@@ -19,12 +19,28 @@ Fill in the connection details:
 - **Path:** path to your DuckDB database file (usually ends with `.duckdb`)
 - Alias (Optional): a nickname for the database connection, e.g. `FactSet`
 
+Alternatively, you can also launch the UI directly with a specific database connection using the following command:
+
+```bash
+duckdb "/Users/menghan/Desktop/FactSet Database/factset_single.duckdb" -ui
+```
+
+This will load the specified database in the UI automatically.
+
 
 Pros: Nice UI for table overview, column browsing, and query execution.
 
 Cons: Cannot save query notebooks to local. → Use Jupyter Notebook / Python for better organization and version control.
 
 You can run SQL queries in the Notebooks. To quit the UI, go to terminal and hit <span class="env-green">`Ctrl + D`</span>.
+
+When you have built a connection in Python, it can be convenient if you open a web UI to view the database schema and run some quick queries. However, if you have an active connection to the database in Python, the web UI will be locked in read-only mode to prevent conflicts. This means you can only open the web UI in read-only mode. 
+
+Use the following command to open the UI in read-only mode:
+
+```bash
+duckdb "/Users/menghan/Desktop/FactSet Database/factset_single.duckdb" -readonly -ui
+```
 
 
 
