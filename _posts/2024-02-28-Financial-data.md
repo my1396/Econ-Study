@@ -387,9 +387,9 @@ Regarding risk free rates, it is important to use common sense to determine:
 
 ___
 
-**Asset Pricing data at OSE**
+### Asset Pricing data for OSE
 
-Professor Bernt Arne Ødegaard maintains a database of financial data for the Oslo Stock Exchange, which is available for free on his website. The database includes daily and monthly pricing factors used in asset pricing. 
+Professor [Bernt Arne Ødegaard](https://ba-odegaard.no) maintains a database of financial data for the Oslo Stock Exchange, which is available for free on his website. The database includes daily and monthly pricing factors used in asset pricing. 
 
 **Download pricing factors:** <https://ba-odegaard.no/financial_data/ose_asset_pricing_data/index.html>
 

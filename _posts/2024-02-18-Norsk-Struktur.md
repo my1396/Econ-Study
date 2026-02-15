@@ -260,6 +260,8 @@ Use the following **mock exam** to practice before the actual exam:
 
 - *For det første …* → First of all …
 
+- *Først og fremst* → First and foremost
+
 - *Dessuten / Videre …* → Furthermore / In addition …
 
 - … vil ha mange fordeler. → … will have mange benefits.
@@ -1277,12 +1279,16 @@ Det er et betydningsfullt øyeblikk i livet ditt. → It is a significant moment
 
 
 
-这是一个 … 的问题
+可以(被)看作是一个 … 的问题
 
-Man kan <span class="env-green">se på som</span> ....
+Man kan <span class="env-green">se på som</span> / <span class="env-green">blir sett på som</span> ....
 
-- Man *kan se på som* en positiv utvikling og et resultat av at ...   
-  → It can be viewed as a positive development and a result of ...
+- Man *kan se på som* en positiv utvikling og et resultat av at ... [主动]  
+  → It can be viewed as a positive development and a result of ... 
+- Fengsler i Norge *blir* av mange *sett på som* ren luksus. [被动]  
+  → Norwegian prisons *are* by many *seen as* pure luxury.  
+  «av mange»: by many
+
 
 --------------------------------------------------------------------------------
 

@@ -2607,6 +2607,33 @@ A: Jo, det gjør jeg vel. / Nei, jeg har ikke så godt appetitt om morgenen.
 
 --------------------------------------------------------------------------------
 
+**Selve** → the very, the actual, itself
+
+selve + definite noun → the very + noun, «selve» points to something specific and already known.
+
+**selve vs. selv**
+
+- «selve» is a determiner, emphasizeing the noun it modifies. It is used to highlight the specific identity of the noun it modifies. It is always followed by a definite noun.
+
+  Note: no den/det in front of «selve».
+
+- «selv» is a reflexive pronoun, translated to "oneself". 
+
+Han gjorde det selv.  
+→ He did it himself.
+
+Selve kongen kom.  
+→ The king himself came.
+
+Det var selve poenget.  
+→ That was the very point.
+
+Selve problemet er tid.  
+→ The actual problem is time.
+
+
+--------------------------------------------------------------------------------
+
 
 ## Nyttige Ressurer
 
