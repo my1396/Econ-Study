@@ -226,7 +226,7 @@ Use the following **mock exam** to practice before the actual exam:
 
 - economically
   
-  贵不贵; 大家是否 <span class="env-green">都</span> 可以负担得起;
+  贵不贵; 大家是否<span class="env-green">都</span>可以负担得起;
 
   有人负担不起怎么办; (ikke alle har råd til det)
 
@@ -407,6 +407,20 @@ Use the following **mock exam** to practice before the actual exam:
   - *Det er ikke noe poeng [påˈeng] i å gjøre noe.*
 
     Det er ikke noe poeng i å klage. → There is no point in complaining.
+
+  - <span class="env-green">Ingen vits i</span>
+  
+    Det er *ingen vits i å gjøre noe*.  
+    → There is no point in doing sth.
+
+    *Ingen vits i* å gråte over spilt melk.  
+    → There’s no point crying over spilled milk.
+
+    Det er *ingen vits i* å vente lenger.  
+    → There’s no point in waiting any longer.
+
+    Han sa at det var *ingen vits i* å argumentere med henne.  
+    → He said there was no point in arguing with her.
 
   - *Det gir ingen mening å gjøre noe.*
 
@@ -830,10 +844,16 @@ Fremdeles → adv. still, up to now
 
 > i tillegg (til å); <span class="env-green">samtidig finnes det</span> …; <span class="env-green">dessuten</span> (moreover); for øvrig; videre; 
 >
-> med andre ord (in other words);
+> <span class="env-green">med andre ord</span> (in other words);
 > 
 > på samme måte (in the same way; similarly)
 
+
+Vi har brukt opp budsjettet. *Med andre ord* kan vi ikke bruke mer penger.  
+→ We have used up the budget. In other words, we cannot spend more money.
+
+De går ikke godt overens, *med andre ord* krangler de ofte.  
+→ They don't get along well, in other words, they often argue.
 
 
 --------------------------------------------------------------------------------
@@ -1020,7 +1040,7 @@ Note: «antakelig» can also mean «akseptabel».
 | antakelig / antagelig                  | probably 可能                       |
 | sannsynlig                             | likely                             |
 | trolig                                 | likely                             |
-| nok                                    | 也可作 probably 使用                 |
+| <span class="env-green">nok</span>     | 也可作 probably 使用                 |
 | visstnok                               | (most) likely; reportedly 据说      |
 
 
@@ -1580,6 +1600,16 @@ de er *like* → they are similar / the same
 på *samme* måte → in the same way
 
 [Karense: V798 Like eller Samme?](https://www.youtube.com/watch?v=JUzpPoDGh-8)
+
+--------------------------------------------------------------------------------
+
+**Jo … jo …**
+
+Jo + adj. comparative, jo + adj. comparative → the more … the more …
+
+Jo mer vi gjør her, jo mer aktive vi er, jo fortere går tiden.  
+→ The more we do here, the more active we are, the faster time goes.
+
 
 --------------------------------------------------------------------------------
 

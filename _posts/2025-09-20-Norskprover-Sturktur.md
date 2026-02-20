@@ -304,6 +304,30 @@ The main test is taken at one of three different levels:
 
 - Bare lese så mye norsk som mulig.
 
+--------------------------------------------------------------------------------
+
+一些心得
+
+- 选项有迷惑性。可能两个选项都正确，但是一个比另一个跟贴切，确切。
+
+  → 选项之间的区别可能非常细微。需要仔细分析选项之间的区别，选出最贴切的那个。
+
+- 词汇可能有误导性。有的选项可能包含一些你认识的单词，与题目相符，但整体意思不对。
+
+  → 不要被选项中的单词误导，要看整体意思是否正确。
+
+  以下两个选项非常有误导性。如果不注意可能会选错。
+
+  Hvilken film kjøper du billett til hvis du vil se en film med autentiske personer? 
+
+  → Dokumentaren "Fedrelandet", en nær og spektakulær omfavnelse av vår første kjærlighet: Naturen. Med regissørens 85 år gamle far som guide, opplever vi Norges mest eventyrlige dal, Oldedalen i Nordfjord. Her har han vokst opp, og her har generasjoner før ham levd i balanse med naturen. 
+  
+  此题中 "Naturen" 可能误导你这部纪录片是关于大自然的。但是仔细阅读后会发现，"far som guide" 有导游，说明纪录片中有真实的人物。  
+  "vokst opp" "generasjoner før ham" 这些词具有迷惑性，不注意的话会以为是关于历史的纪录片。
+
+  Hvilken film kjøper du billett til hvis du vil se en film som er basert på en sann historie om en viktig del av den nordoske historien?
+  
+  → Sommeren 1941 virket Hitlers krigsmaskin ustoppelig. De allierte ble tvunget til à hjelpe. Konvoier av lasteskip fylt til randen med krigsmateriell begynte den farefulle ferden til Murmansk og Arkhangelsk. Med livet som innsats la de ut på det som ble kalt «Verdens verste sjøreise». Action/drama med de beste norske skuespillerne.
 
 
 ___

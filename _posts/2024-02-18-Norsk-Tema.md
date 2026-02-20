@@ -41,11 +41,11 @@ This post contains useful phrases and arguments you can reuse in various topics 
 
 - private skoler vs offentlige skoler
   - private skoler kan tilby bedre læringsmiljø og flere ressurser enn offentlige skoler
-  - <span style='color:#00CC66'>et bedre tilbud på</span> mat og aktiviteter
+  - <span class="env-green">et bedre tilbud på</span> mat og aktiviteter
 
 
 
-<span style='color:#00CC66'>å oppdra</span>, oppdrar, oppdro, har oppdratt: to raise, rear, bring up, educate
+<span class="env-green">å oppdra</span>, oppdrar, oppdro, har oppdratt: to raise, rear, bring up, educate
 
 Jeg ble oppdratt til å respektere andre mennesker. → I was raised to respect other people.
 
@@ -53,13 +53,13 @@ Jeg er født og oppvokst i Kina. → I was born and raised in China.
 
 godt oppdratt:  well brought up, well-raised
 
-en <span style='color:#00CC66'>oppdragelse / oppvekst</span>: upbringing, education
+en <span class="env-green">oppdragelse / oppvekst</span>: upbringing, education
 
-Jeg må <span style='color:#00CC66'>tilpasse meg</span> det norske samfunnet. → I have to adapt to the Norwegian society.
+Jeg må <span class="env-green">tilpasse meg</span> det norske samfunnet. → I have to adapt to the Norwegian society.
 
 å sette grenser: to set boundaries
 
-We should not foster <span style='color:#00CC66'>a sense of rivalry</span> among teenagers.  攀比心  → Vi bør ikke fremme <span style='color:#00CC66'>konkurranseånd</span> blant tenåringer.
+We should not foster <span class="env-green">a sense of rivalry</span> among teenagers.  攀比心  → Vi bør ikke fremme <span class="env-green">konkurranseånd</span> blant tenåringer.
 
 **鼓励, 促进:** fremme, oppmuntre til, støtte, oppfordre
 
@@ -103,7 +103,7 @@ robust [robˈust] adj. – robust, sturdy, strong
 
 --------------------------------------------------------------------------------
 
-Det sosiale er viktigere enn hvordan man <span style='color:#00CC66'>presterer</span>. [N.B. «å prestere» means "to perform, achieve, do well"; while «å presentere» means "to present (a show, a talk, etc)"]
+Det sosiale er viktigere enn hvordan man <span class="env-green">presterer</span>. [N.B. «å prestere» means "to perform, achieve, do well"; while «å presentere» means "to present (a show, a talk, etc)"]
 
 | Norsk                                  | Engelsk                     |
 | -------------------------------------- | --------------------------- |
@@ -147,7 +147,7 @@ Ja, jeg synes ungdom bør hjelpe til med husarbeid hjemme.
 
 - Det lærer dem ansvar og selvstendighet. Når ungdom hjelper til med husarbeid, lærer de viktige ferdigheter som matlaging, rengjøring og organisering. Disse ferdighetene er nødvendige for å leve selvstendig senere i livet.
 - Videre, ved å bidra til husarbeid, annekjenne ungdom at foreldrene dere gjør mye for dem. Dette kan fremme en følelse av takknemlighet og respekt for foreldrene deres. Det fører til et bedre familiebånd og forhold.
-- I tillegg, når ungdom hjelper til med husarbeid, kan det bidra til <span style='color:#00CC66'>å lette byrden på</span> foreldrene deres. Foreldre kan slappe av litt mer når de vet at ungdommen deres bidrar til å holde hjemmet rent og organisert. 
+- I tillegg, når ungdom hjelper til med husarbeid, kan det bidra til <span class="env-green">å lette byrden på</span> foreldrene deres. Foreldre kan slappe av litt mer når de vet at ungdommen deres bidrar til å holde hjemmet rent og organisert. 
 
 
 --------------------------------------------------------------------------------
@@ -211,7 +211,7 @@ kritisk tenkning → critical thinking
 | Jeg fikk mye selvtillit.               | I receive much confidence.           |
 | Utfordringen kan være å gjøre noe      | The challenge can be to do sth       |
 
-<span style='color:#00CC66'>Dette er mer tilpasset dagens samfunn</span> der all informasjon er tilgjengelig. → This is more adapted to today's society, where all information is readily accessible.
+<span class="env-green">Dette er mer tilpasset dagens samfunn</span> der all informasjon er tilgjengelig. → This is more adapted to today's society, where all information is readily accessible.
 
 Lærerne vurderer elevenes **prestasjoner og fremgang** → the teachers evaluate the students' performance and progress
 
@@ -270,9 +270,9 @@ bøying: å oppfordre, oppfordrer, oppfordret, har oppfordret
 
 **精通**
 
-Det er bedre at barna selv <span style='color:#00CC66'>opplever glede av mestringen</span>.
+Det er bedre at barna selv <span class="env-green">opplever glede av mestringen</span>.
 
-å <span style='color:#00CC66'>mestre</span> noe → to master sth
+å <span class="env-green">mestre</span> noe → to master sth
 
 å beherske noe → to be proficient in sth
 
@@ -353,7 +353,7 @@ lett tilgjengelige ressurser → readily available resources (plural, adj agreem
 
 vurdere beslutningen <span class="env-green">på nytt</span> → re-evaluate the decision
 
-<span style='color:#00CC66'>总结 grammer 易错点</span>
+<span class="env-green">总结 grammer 易错点</span>
 
 1. adj agreement
 2. V2 原则 副词在句首，需要动词提前。da
@@ -374,11 +374,11 @@ Forskning viser at barn som er født sent på året, risikerer å bli skoletaper
 
 Ja, jeg synes staten bør endre utdanningsprogrammet i skolen.
 
-- For det første, bør skolen fokusere mer på <span style='color:#00CC66'>praktiske ferdigheter</span> som er relevante for arbeidslivet. Mange elever føler at de ikke lærer ferdigheter som vil hjelpe dem i deres fremtidige karrierer. Ved å inkludere mer praktisk opplæring, kan skolen forberede elevene bedre for arbeidsmarkedet.
+- For det første, bør skolen fokusere mer på <span class="env-green">praktiske ferdigheter</span> som er relevante for arbeidslivet. Mange elever føler at de ikke lærer ferdigheter som vil hjelpe dem i deres fremtidige karrierer. Ved å inkludere mer praktisk opplæring, kan skolen forberede elevene bedre for arbeidsmarkedet.
 
-- I tillegg, bør skolen legge mer vekt på <span style='color:#00CC66'>mental helse og velvære</span>. Mange elever opplever stress og press i skolen, noe som kan påvirke deres mentale helse negativt. Ved å inkludere programmer som fokuserer på mental helse, kan skolen hjelpe elevene med å håndtere stress og utvikle sunne mestringsstrategier.
+- I tillegg, bør skolen legge mer vekt på <span class="env-green">mental helse og velvære</span>. Mange elever opplever stress og press i skolen, noe som kan påvirke deres mentale helse negativt. Ved å inkludere programmer som fokuserer på mental helse, kan skolen hjelpe elevene med å håndtere stress og utvikle sunne mestringsstrategier.
 
-- Videre, bør skolen fremme <span style='color:#00CC66'>kreativitet og kritisk tenkning</span>. I dagens samfunn er det viktig å kunne tenke kreativt og kritisk for å løse komplekse problemer. Ved å inkludere mer kreativitet og kritisk tenkning i utdanningsprogrammet, kan skolen forberede elevene bedre for fremtidige utfordringer.
+- Videre, bør skolen fremme <span class="env-green">kreativitet og kritisk tenkning</span>. I dagens samfunn er det viktig å kunne tenke kreativt og kritisk for å løse komplekse problemer. Ved å inkludere mer kreativitet og kritisk tenkning i utdanningsprogrammet, kan skolen forberede elevene bedre for fremtidige utfordringer.
 
 
 
@@ -391,6 +391,17 @@ Ja, jeg synes staten bør endre utdanningsprogrammet i skolen.
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
 | å ansette nye folk                     | to hire new people                 |
+
+Mange selskap vil ansette en med noe erfaring i stedet for en nyutdannet.   
+→ Many companies prefer to hire someone with some experience rather than a recent graduate.
+
+Mange finner jobb ved hjelp av kjente.  
+→ Many find jobs through acquaintances.
+
+
+
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
 | en stilling / et jobbtilbud            | a job offer                        |
 | en arbeidsplass                        | a workplace                        |
 | en karriere                            | a career                           |
@@ -428,13 +439,13 @@ psykologer [sykolå:´g]: psychologists
 
 **常见职业:**
 
-> ingeniør, <span style='color:#00CC66'>kassamedarbeider</span> (store clerk), sykepleier, elektriker (electrician), kokk (厨师), frisør (hairdresser), bygningsarbeider, mekaniker (mechanic), servitør (waiter/waitress), renholder (cleaner), taxi-sjåfører, buss-sjåfører, flygeleder (air traffic controller), togleder (train conductor), 
+> ingeniør, <span class="env-green">kassamedarbeider</span> (store clerk), sykepleier, elektriker (electrician), kokk (厨师), frisør (hairdresser), bygningsarbeider, mekaniker (mechanic), servitør (waiter/waitress), renholder (cleaner), taxi-sjåfører, buss-sjåfører, flygeleder (air traffic controller), togleder (train conductor), 
 > 
 > politi, brannmann, soldat (soldier), militær tjeneste (military service), vekter (security guard, watchman 保安), vaktmester (janitor 管理员，门房，清洁工，杂物工), postbud (postman), barnehageassistent (kindergarten assistant), lagerarbeider (warehouse worker), fabrikkarbeider (factory worker), bonde (farmer), fisker (fisherman), rørlegger (plumber), tømrer (carpenter), snekker (joiner/carpenter), bygningsarbeider (construction worker)
 > 
 > lærer, advokat, lege, forsker, ...
 
-Ikke alle yrker møter den samme <span style='color:#00CC66'>holdningen og respekten</span> i samfunnet. → Not all professions receive the same attitude and respect in society.
+Ikke alle yrker møter den samme <span class="env-green">holdningen og respekten</span> i samfunnet. → Not all professions receive the same attitude and respect in society.
 
 holdning [hå`ldniŋ] → attitude
 
@@ -462,11 +473,11 @@ samfunnsnyttig: socially useful
 
 - like verdt; verdifull; viktig; 
 - skoleflink: good at school
-- Noen <span style='color:#00CC66'>ser ned</span> på yrkesfag og <span style='color:#00CC66'>mener at</span> bare akademisk utdanning er ordentlig.
+- Noen <span class="env-green">ser ned</span> på yrkesfag og <span class="env-green">mener at</span> bare akademisk utdanning er ordentlig.
 - respekten for alle ærlig arbeid. Vi må heve respekten for yrkesfag.
 - deres innsats er like viktige → Their effort is equally important.
-- Vi må sette pris <span style='color:#00CC66'>på</span> innsatsen <span style='color:#00CC66'>til</span> alle som jobber ærlig. → We must appreciate the efforts of all who work honestly.
-- arbeidet de gjør er <span style='color:#00CC66'>mindreverdig</span> → The work they do is inferior
+- Vi må sette pris <span class="env-green">på</span> innsatsen <span class="env-green">til</span> alle som jobber ærlig. → We must appreciate the efforts of all who work honestly.
+- arbeidet de gjør er <span class="env-green">mindreverdig</span> → The work they do is inferior
 - det er rent snobberi → It is pure snobbery
 - understreke viktigheten av ... → emphasize the importance of ...
 
@@ -475,13 +486,13 @@ samfunnsnyttig: socially useful
   Vi må *behandle* alle yrke likt. → We must *treat* all professions equally.
 
 - anerkjenne verdien av ... → recognize the value of ...
-- Vi må <span style='color:#00CC66'>styrke holdningen til</span> praktiske yrker. → We must strengthen the attitude towards practical professions. 
+- Vi må <span class="env-green">styrke holdningen til</span> praktiske yrker. → We must strengthen the attitude towards practical professions. 
 
 --------------------------------------------------------------------------------
 
 **Hvordan øke folks vilje til å ta praktiske yrker?**
 
-- <span style='color:#00CC66'>Øke lønnen og forbedre arbeidsforholdene</span> i praktiske yrker for å gjøre dem mer attraktive for arbeidssøkere.
+- <span class="env-green">Øke lønnen og forbedre arbeidsforholdene</span> i praktiske yrker for å gjøre dem mer attraktive for arbeidssøkere.
   
   arbeidsforholdene → working conditions
 
@@ -494,7 +505,7 @@ samfunnsnyttig: socially useful
 
 **Hvorfor trenger man å jobbe?**
 
-Arbeid gir mennesker en følelse av mening og <span style='color:#00CC66'>mestring</span>, fordi det gir dem mulighet til å bidra til samfunnet og utvikle sine ferdigheter. Gjennom arbeid kan man oppleve <span style='color:#00CC66'>stolthet</span> over det man gjør, bygge selvtillit og føle at man er en del av noe større. For mange er arbeid ikke bare en måte å tjene penger på, men også en viktig <span style='color:#00CC66'>kilde til</span> identitet og personlig tilfredsstillelse.
+Arbeid gir mennesker en følelse av mening og <span class="env-green">mestring</span>, fordi det gir dem mulighet til å bidra til samfunnet og utvikle sine ferdigheter. Gjennom arbeid kan man oppleve <span class="env-green">stolthet</span> over det man gjør, bygge selvtillit og føle at man er en del av noe større. For mange er arbeid ikke bare en måte å tjene penger på, men også en viktig <span class="env-green">kilde til</span> identitet og personlig tilfredsstillelse.
 
 å trives i jobb → to thrive at work
 
@@ -530,10 +541,10 @@ Staten
 
 Nei.
 
-- De kan ikke jobbe <span style='color:#00CC66'>effektivt</span> når de er syke. Det kan føre til lavere produktivitet og dårligere kvalitet på arbeidet.
-- Det kan føre til at <span style='color:#00CC66'>sykdommen</span> blir verre og at de tar lengre tid å bli friske.
-- De kan <span style='color:#00CC66'>smitte andre</span> på arbeidsplassen, noe som kan føre til flere sykedager blant kollegaer.
-- <span style='color:#00CC66'>Det er viktig å prioritere helse og velvære.</span> Å ta seg tid til å hvile og komme seg kan bidra til raskere bedring og bedre helse på lang sikt.
+- De kan ikke jobbe <span class="env-green">effektivt</span> når de er syke. Det kan føre til lavere produktivitet og dårligere kvalitet på arbeidet.
+- Det kan føre til at <span class="env-green">sykdommen</span> blir verre og at de tar lengre tid å bli friske.
+- De kan <span class="env-green">smitte andre</span> på arbeidsplassen, noe som kan føre til flere sykedager blant kollegaer.
+- <span class="env-green">Det er viktig å prioritere helse og velvære.</span> Å ta seg tid til å hvile og komme seg kan bidra til raskere bedring og bedre helse på lang sikt.
 
 
 **trivsel vs velvære**
@@ -565,7 +576,7 @@ Man skal ikke plage andre, man skal være grei og snill, og for øvrig kan man g
 
 **Free Choice**
 
-<span style='color:#00CC66'>I Norge er det stor vekt på</span> **individuell frihet** og **personlig valg**. Folk oppfordres til å ta ansvar for sine egne liv og gjøre valg som passer deres egne verdier og interesser. Dette gjelder alt fra utdanning og karrierevalg til livsstil og fritidsaktiviteter. Samfunnet legger til rette for at <span style='color:#00CC66'>folk skal kunne leve slik de ønsker</span>, så lenge de respekterer andres rettigheter (right) og friheter (freedom).
+<span class="env-green">I Norge er det stor vekt på</span> **individuell frihet** og **personlig valg**. Folk oppfordres til å ta ansvar for sine egne liv og gjøre valg som passer deres egne verdier og interesser. Dette gjelder alt fra utdanning og karrierevalg til livsstil og fritidsaktiviteter. Samfunnet legger til rette for at <span class="env-green">folk skal kunne leve slik de ønsker</span>, så lenge de respekterer andres rettigheter (right) og friheter (freedom).
 
 respektere mangfold → respect diversity
 
@@ -576,8 +587,8 @@ Folk dømmer ikke så mye. → People don't judge as much.
 Folk har selvdisiplin, og tar ansvar for sine egne handlinger. Regjeringen bør minimere innblanding i folks liv.  
 → People have self-discipline, and take responsibility for their own actions. Government should minimize interference in people's lives.
 
-Å røyke eller drikke alkohol har mange negative konsekvenser for både individet og samfunnet som helhet. <span style='color:#00CC66'>Men til tross for dette, er frihet og personlig valg høyt verdsatt i Norge. </span>
-<span style='color:#00CC66'>Derfor bør personlig valg respekteres.</span> Staten kan utføre andre tiltak for å redusere røyking, for eksempel ved å øke skatten på tobakk og alkohol. Men å <span style='color:#00CC66'>forby det helt er ikke i tråd med norske verdier om frihet og personlig ansvar.</span>
+Å røyke eller drikke alkohol har mange negative konsekvenser for både individet og samfunnet som helhet. <span class="env-green">Men til tross for dette, er frihet og personlig valg høyt verdsatt i Norge. </span>
+<span class="env-green">Derfor bør personlig valg respekteres.</span> Staten kan utføre andre tiltak for å redusere røyking, for eksempel ved å øke skatten på tobakk og alkohol. Men å <span class="env-green">forby det helt er ikke i tråd med norske verdier om frihet og personlig ansvar.</span>
 
 
 --------------------------------------------------------------------------------
@@ -588,8 +599,8 @@ innvandrere, utlendinger,
 
 folk fra vestlige land → people from western countries 西方人
 
-- <span style='color:#00CC66'>Vestlige</span> spiser vanligvis ikke sterk mat. → Westerners usually do not eat spicy food.
-- <span style='color:#00CC66'>Østlige</span> kulturer legger stor vekt på familieverdier. → Eastern cultures place great emphasis on family values.
+- <span class="env-green">Vestlige</span> spiser vanligvis ikke sterk mat. → Westerners usually do not eat spicy food.
+- <span class="env-green">Østlige</span> kulturer legger stor vekt på familieverdier. → Eastern cultures place great emphasis on family values.
 - Nordlige
 - Sørlige
 
@@ -624,7 +635,7 @@ en fremmed vs. å fremme
 | -------------------------------------------------------------- | ----------------------------- |
 | å føle seg utenfor                                             | to feel like an outsider      |
 | å føle seg inkludert / velkommen                               | to feel included / welcomed   |
-| å bli integre<span style='color:#00CC66'>r</span>t i samfunnet | to be integrated into society |
+| å bli integre<span class="env-green">r</span>t i samfunnet | to be integrated into society |
 | å tilpasse seg det norske samfunnet                            | to adapt to Norwegian society |
 | å tilpasse seg nye forhold                                     | to adjust to new conditions   |
 
@@ -637,9 +648,9 @@ en fremmed vs. å fremme
 Q: Hva er tegn på at en person er integrert i samfunnet?  
 A: Språkferdigheter (språket er nøkkelen), deltakelse i sosiale aktiviteter, forståelse av kulturelle normer, og å ha venner fra forskjellige bakgrunner, føler seg inkludert,
 
-- ha rett til å <span style='color:#00CC66'>stemme ved valg</span> → have the right to vote in elections
+- ha rett til å <span class="env-green">stemme ved valg</span> → have the right to vote in elections
 - ha tilgang til utdanning og helsetjenester → have access to education and healthcare services
-- Ha representasjon i politikken og kunne <span style='color:#00CC66'>uttrykke egne verdier</span> og <span style='color:#00CC66'>kjempe for egne interesser</span> → have representation in politics and be able to express one's values and fight for one's interests
+- Ha representasjon i politikken og kunne <span class="env-green">uttrykke egne verdier</span> og <span class="env-green">kjempe for egne interesser</span> → have representation in politics and be able to express one's values and fight for one's interests
 
 
 «Stemme» as noun, means "vote" and "sound".
@@ -662,7 +673,7 @@ tillit, likestilling, likhet, rettferdighet, janteloven, demokrati, åpenhet, yt
 
 velferdsstat, ro og orden (peace and order), 
 
-<span style='color:#00CC66'>dugnad</span>, naturen, friluftsliv, ski, hytte, sol
+<span class="env-green">dugnad</span>, naturen, friluftsliv, ski, hytte, sol
 
 Personlighet: høflighet, ærlighet, pålitelighet, arbeidsmoral, beskjedenhet (modesty, humility), respekt for privatliv, presis,
 
@@ -716,9 +727,9 @@ Teknologien har tatt over mange av arbeidsoppgavene på fabrikkene og byggeplass
 
 
 
->  Da synes jeg at det er viktigere at barna lærer <span style='color:#00CC66'>god bruk av kilder og å være kildekritiske</span>. Det digitale kan ikke gå på bekostning av ekte bøker.
+>  Da synes jeg at det er viktigere at barna lærer <span class="env-green">god bruk av kilder og å være kildekritiske</span>. Det digitale kan ikke gå på bekostning av ekte bøker.
 
-en kjendis, kjendisen, <span style='color:#00CC66'>kjendiser</span>, kjendisene → celebrity, a famous person
+en kjendis, kjendisen, <span class="env-green">kjendiser</span>, kjendisene → celebrity, a famous person
 
 
 **Hva tenker dere – er det positivt eller negativt å være populær og kjent?**
@@ -766,7 +777,7 @@ Negative sider:
 --------------------------------------------------------------------------------
 
 
-## <span style='color:#00CC66'>**KI**</span>
+## <span class="env-green">**KI**</span>
 
 Jeg bruker det nesten uten å tenke over det. → 说明一件事潜移默化的渗入日常生活中。
 
@@ -774,18 +785,18 @@ Jeg har for eksempel en robotstøvsuger hjemme som tar seg av rengjøringen men 
 
 Jeg har begynt å bruke AI til å organisere kalenderen min. Det hjelper meg med å holde oversikt over avtaler og oppgaver. Har du prøvd noe lignende?
 
-Jeg bruker en digital assisstent til å <span style='color:#00CC66'>**minne meg på**</span> ting som avtaler eller når jeg må betale regninger.
+Jeg bruker en digital assisstent til å <span class="env-green">**minne meg på**</span> ting som avtaler eller når jeg må betale regninger.
 
-Jeg kan <span style='color:#00CC66'>sende meldinger ved å snakke med telefonen</span>. Det er praktisk når jeg kjører. Og jeg kan også sette alarmer og påminnelser med stemmen, noe som gjør det enklere når jeg larger mat eller <span style='color:#00CC66'>holder på med</span> andre oppgaver samtidig.
+Jeg kan <span class="env-green">sende meldinger ved å snakke med telefonen</span>. Det er praktisk når jeg kjører. Og jeg kan også sette alarmer og påminnelser med stemmen, noe som gjør det enklere når jeg larger mat eller <span class="env-green">holder på med</span> andre oppgaver samtidig.
 
 
 --------------------------------------------------------------------------------
 
 Hvordan kunstig intelligens påvirker arbeidsmarkedet?
 
-- Roboter skal hjelpe oss å spare tid. De kan ta seg av <span style='color:#00CC66'>rutineoppgaver</span>, slik at vi kan fokusere på mer kreative og komplekse oppgaver.
+- Roboter skal hjelpe oss å spare tid. De kan ta seg av <span class="env-green">rutineoppgaver</span>, slik at vi kan fokusere på mer kreative og komplekse oppgaver.
 
-> Det hjelper mye <span style='color:red'>~~for~~</span> <span style='color:#00CC66'>i</span> jobben min. Jeg underviser på tre kurs. Jeg bruker alltid <span style='color:red'>~~for~~ til</span> å lage slides and oppgaver for studenter. Jeg gir bare an instru<span style='color:red'>~~ct~~ksj~~i~~</span>on om hvilket tema<span style='color:red'>~~et~~</span> og <span style='color:red'>hvilken tekstbok~~a~~</span> jeg bruker, og AI er veldig effektivt med disse oppgaver.
+> Det hjelper mye <span style='color:red'>~~for~~</span> <span class="env-green">i</span> jobben min. Jeg underviser på tre kurs. Jeg bruker alltid <span style='color:red'>~~for~~ til</span> å lage slides and oppgaver for studenter. Jeg gir bare an instru<span style='color:red'>~~ct~~ksj~~i~~</span>on om hvilket tema<span style='color:red'>~~et~~</span> og <span style='color:red'>hvilken tekstbok~~a~~</span> jeg bruker, og AI er veldig effektivt med disse oppgaver.
 >
 > - lage læringsmateriellet
 >
@@ -800,15 +811,15 @@ Hvordan tror du kunstig intelligens kan påvirke arbeidet ditt i fremtiden?
 
 **Hvordan KI påvirker livet ditt?**
 
-- <span style='color:#00CC66'>KI kan hjelpe meg å organisere hverdagen min bedre. </span>
+- <span class="env-green">KI kan hjelpe meg å organisere hverdagen min bedre. </span>
   
   For eksempel kan KI organisere kalenderen min, minne meg på viktige avtaler, og hjelpe meg med å planlegge oppgaver mer effektivt.
 
-- <span style='color:#00CC66'>KI kan også hjelpe meg med å finne informasjon raskere. </span>
+- <span class="env-green">KI kan også hjelpe meg med å finne informasjon raskere. </span>
   
   Hvis jeg trenger å lære noe nytt eller finne svar på spørsmål, kan KI gi meg raske og relevante svar.
 
-- <span style='color:#00CC66'>KI hjelper meg å spare tid, slipper meg kjedelig husarbeid. </span>
+- <span class="env-green">KI hjelper meg å spare tid, slipper meg kjedelig husarbeid. </span>
   
   For eksempel kan roboter ta seg av rutineoppgaver som rengjøring, slik at jeg kan holde meg med fritidsaktiviteter eller slappe av.
 
@@ -853,7 +864,7 @@ Det skal bli <span class="env-green">større behov</span> for disse yrkene:
 
 - **Programmering og dataanalyse.**
   
-  Disse jobbene utvikler KI. Jeg tror det skal bli <span style='color:#00CC66'>større behov for</span> dem i fremtiden.
+  Disse jobbene utvikler KI. Jeg tror det skal bli <span class="env-green">større behov for</span> dem i fremtiden.
 
 - **Data sikkerhet og personvern.**
 
@@ -876,11 +887,11 @@ Det skal bli <span class="env-green">større behov</span> for disse yrkene:
 
 Hvilken ferdigheter tror du vil være viktige i arbeidet med kunstig intelligens?
 
-> Jeg tror det er flere ferdigheter som blir viktige når man jobber med kunstig intelligens. Først og fremst er det viktig å ha gode <span style='color:#00CC66'>**tekniske ferdigheter**</span>, som programmering og dataanalyse. Man må kunne forstå hvordan algoritmer fungerer og hvordan man kan bruke dem i praktiske løsninger.
+> Jeg tror det er flere ferdigheter som blir viktige når man jobber med kunstig intelligens. Først og fremst er det viktig å ha gode <span class="env-green">**tekniske ferdigheter**</span>, som programmering og dataanalyse. Man må kunne forstå hvordan algoritmer fungerer og hvordan man kan bruke dem i praktiske løsninger.
 >
-> I tillegg er <span style='color:#00CC66'>**kritisk tenkning** og **problemløsning**</span> viktig, fordi man må kunne vurdere hvilke data som er relevante og hvilke resultater som gir mening. Kreativitet er også viktig, spesielt når man skal utvikle nye løsninger og finne nye bruksområder for AI.
+> I tillegg er <span class="env-green">**kritisk tenkning** og **problemløsning**</span> viktig, fordi man må kunne vurdere hvilke data som er relevante og hvilke resultater som gir mening. Kreativitet er også viktig, spesielt når man skal utvikle nye løsninger og finne nye bruksområder for AI.
 >
-> Til slutt tror jeg <span style='color:#00CC66'>**kommunikasjon** og **samarbeid**</span>  blir essensielt, fordi mange AI-prosjekter krever teamarbeid mellom teknikere, forskere og andre fagpersoner. Man må kunne forklare komplekse konsepter på en enkel måte til andre som ikke er eksperter.
+> Til slutt tror jeg <span class="env-green">**kommunikasjon** og **samarbeid**</span>  blir essensielt, fordi mange AI-prosjekter krever teamarbeid mellom teknikere, forskere og andre fagpersoner. Man må kunne forklare komplekse konsepter på en enkel måte til andre som ikke er eksperter.
 >
 > Alt i alt tror jeg en kombinasjon av **tekniske ferdigheter, analytisk tenkning, kreativitet og gode samarbeidsevner** vil være avgjørende i arbeidet med kunstig intelligens.
 
@@ -914,11 +925,11 @@ synom.: plastisk operasjon
 
 skjønnhetspress og kroppspress: beauty and body pressure 外貌和身材压力
 
-<span style='color:#00CC66'>Det å ha fokus på</span> skjønnhet og kropp <span style='color:#00CC66'>er viktig</span> for et menneske, men skjennhetspress og kroppspress gir ikke bedre helse.
+<span class="env-green">Det å ha fokus på</span> skjønnhet og kropp <span class="env-green">er viktig</span> for et menneske, men skjennhetspress og kroppspress gir ikke bedre helse.
 
 Hva synes dere om at man kan få utført en operasjon for å få et bedre utseende?
 
-> <span style='color:#00CC66'>Jeg ser på dette som et problem knyttet til</span> fri vilje. Selv om vi vil ikke forandre <u>utseende</u> vårt, må vi respektere andres valg. Jeg vil vise til Kardemomme-loven:
+> <span class="env-green">Jeg ser på dette som et problem knyttet til</span> fri vilje. Selv om vi vil ikke forandre <u>utseende</u> vårt, må vi respektere andres valg. Jeg vil vise til Kardemomme-loven:
 >
 > «Mann skal ikke plage andre, man skal være grei og snill, og for øvrig kan man gjøre hva man vil.»
 >
@@ -954,14 +965,14 @@ ___
    - gjenbruk 循环利用  
      gjenbruk i stedet for å kjøpe nytt
    
-   - mange kommer til <span style='color:#00CC66'>å *feriere i eget land*</span>, i stedet for å fly jorda rundt. → 在国内度假
+   - mange kommer til <span class="env-green">å *feriere i eget land*</span>, i stedet for å fly jorda rundt. → 在国内度假
 
 2. på samfunnsnivå
    
    å redusere gassutslipp → to reduce gas emissions  
    å redusere $CO_2$ utslipp → to reduce $CO_2$ emissions
    
-   - å <span style='color:#00CC66'>fase ut</span> bruken av fossil energi → to phase out the use of fossil energy
+   - å <span class="env-green">fase ut</span> bruken av fossil energi → to phase out the use of fossil energy
    
    - satse på fornybar [fårny:´bar] energi → focus on renewable energy
      - solenergi, vindkraft og vannkraft
@@ -997,7 +1008,7 @@ ___
 | <span class="env-green">klimaanlegg</span> | air conditioning 空调  |
 
 
-Vi kan <span style='color:#00CC66'>forbrede miljøet ved å</span> ... → We can improve the environment by ...
+Vi kan <span class="env-green">forbrede miljøet ved å</span> ... → We can improve the environment by ...
 
 Vi må passer på naturen vår → we must take care of our nature
 
@@ -1007,7 +1018,7 @@ Vi må ta vare på kloden. → We must take care of the globe.
 
 Det er fattige land som *rammes hardest av* klimaendringene. → Poor countries were affected most.
 
-storbyer som normalt <span style='color:#00CC66'>sliter med</span> dårlig luft på grunn av utslipp fra transport og fabrikker
+storbyer som normalt <span class="env-green">sliter med</span> dårlig luft på grunn av utslipp fra transport og fabrikker
 
 motsetninger mellom naturvern og økonomisk vekst → conflicts btw environment protection and economic growth
 
@@ -1201,7 +1212,7 @@ er<span class="env-green">nær</span>ing 注意与 er<span class="env-green">far
 | varietet [varietˈet]                   | variety (en 同 no)                 |
 | være i form                            | stay in shape                      |
 | å holde <span class="env-green">seg</span> i form | to keep fit     |
-| være til <span style='color:#00CC66'>byrde for</span> noen | be a bother / burden to sb |
+| være til <span class="env-green">byrde for</span> noen | be a bother / burden to sb |
 | være redd for å bli alvorlig syk       | be afraid of becoming seriously ill |
 | søvnløshet                             | insomnia 失眠                       |
 | uro                                    | anxiety; restlessness; unease      |
@@ -1296,7 +1307,7 @@ Han stod *utsatt* alene på fjellet i mørket.
 | å skrike                               | to scream                          |
 | å snakke høyt                          | to talk loudly                     |
 
-Lyder med høy tone, som barn som skriker, er <span style='color:#00CC66'>irriterende</span> for meg. → High-pitched sounds, like children screaming, are irritating to me.
+Lyder med høy tone, som barn som skriker, er <span class="env-green">irriterende</span> for meg. → High-pitched sounds, like children screaming, are irritating to me.
 
 
 **kost vs. kosthold**
@@ -1323,11 +1334,11 @@ Common food:
 - sukker, salt, krydder
 
 
-Et balansert kosthold er viktig for å <span style='color:#00CC66'>holde seg frisk</span>. → A balanced diet is important to stay healthy.
+Et balansert kosthold er viktig for å <span class="env-green">holde seg frisk</span>. → A balanced diet is important to stay healthy.
 
-<span style='color:#00CC66'>Fedme</span> blir et økende problem i mange land, og mange må ta medisiner for å kontrollere vekten sin. → Obesity is becoming an increasing problem in many countries.
+<span class="env-green">Fedme</span> blir et økende problem i mange land, og mange må ta medisiner for å kontrollere vekten sin. → Obesity is becoming an increasing problem in many countries.
 
-Related words to «fedme»: <span style='color:#00CC66'>fet</span> (adj, fat); å bli fet (to become fat); overvektig (adj, overweight); <span style='color:#00CC66'>overvekt</span> (noun, overweight)
+Related words to «fedme»: <span class="env-green">fet</span> (adj, fat); å bli fet (to become fat); overvektig (adj, overweight); <span class="env-green">overvekt</span> (noun, overweight)
 
 Det er viktig å spise sunt for å holde seg i form. → It is important to eat healthy to stay in shape.
 
@@ -1348,7 +1359,7 @@ Mindre sannsynlighet for fedme; [mindre sjanse for å bli fet]
 - bedre humør
   - Trening kan hjelpe mot stress og depresjon.
 
-- Det er også viktig at vi <span style='color:#00CC66'>ikke blir overdriver med</span> trening og kosthold. → It is also important that we do not become excessive with exercise and diet. [Don't overdo it]
+- Det er også viktig at vi <span class="env-green">ikke blir overdriver med</span> trening og kosthold. → It is also important that we do not become excessive with exercise and diet. [Don't overdo it]
 
 - være fornøyd med seg selv → be satisfied with oneself 
 
@@ -1551,7 +1562,7 @@ Jorden beveger seg rundt solen the earth revolves around the sun → The earth r
 | å kjempe for egne interesser                        | to fight for one's interests                |
 | å telle like mye                                    | to count equally                            |
 | å delta i beslutningsprosesser                      | to participate in decision-making processes |
-| å delta <span style='color:#00CC66'>på</span> møter | to attend meetings                          |
+| å delta <span class="env-green">på</span> møter | to attend meetings                          |
 
 Interessene til alle skal telle like mye. → The interests of all should count equally.
 
@@ -1585,7 +1596,7 @@ gå altfor langt i å gjøre noe  → … 做的太过火了
 
 Staten gåt altfor langt i å regulere folks privatliv.
 
-Staten bør ikke <span style='color:#00CC66'>blande seg for mye i</span> folks privatliv. → The state should not interfere too much in people's private lives.
+Staten bør ikke <span class="env-green">blande seg for mye i</span> folks privatliv. → The state should not interfere too much in people's private lives.
 
 
 **Hvilke oppgaver synes du staten bør ha ansvar for?**
@@ -1644,6 +1655,13 @@ district court → court of appeals → Supreme Court
 
 *De beskyldte læreren for urettferdig behandling.* → They accused the teacher of unfair treatment.
 
+| Norsk                   | English                                                  |
+| ----------------------- | -------------------------------------------------------- |
+| rusavhengighet          | drug addiction                                           |
+| sinnemestring           | anger management                                         |
+
+
+--------------------------------------------------------------------------------
 
 ## Borettslag
 
@@ -1664,9 +1682,9 @@ Dette er et så fint *nabolag*. → This is such a nice neighborhood.
 
 **Hva slags bolig er det best å bo i?**
 
-<span style='color:#00CC66'>Det kommer an på personlig situasjon og preferanser.</span> 
+<span class="env-green">Det kommer an på personlig situasjon og preferanser.</span> 
 
-Jeg bor i <span style='color:#00CC66'>en</span> leilighet i byen. Jeg tror det passer meg best fordi jeg liker å <span style='color:#00CC66'>være nær</span> butikker, restauranter og kollektivtransport. Det er også lettere å møte venner og delta i sosiale aktiviteter når man bor i byen.
+Jeg bor i <span class="env-green">en</span> leilighet i byen. Jeg tror det passer meg best fordi jeg liker å <span class="env-green">være nær</span> butikker, restauranter og kollektivtransport. Det er også lettere å møte venner og delta i sosiale aktiviteter når man bor i byen.
 
 Dessuten bor jeg i et borettslag. De passer på fellesområdene som hage og lekeplass, og jeg slipper å luke om sommeren og måke snø om vinteren. 
 
@@ -1676,7 +1694,7 @@ Ikke minst er at *borettslaget tar ansvar for vedlikehold* av bygningen, så jeg
 
 På en annen siden, hvis jeg hadde barn, kanskje jeg ville foretrukket å bo i et hus i et roligere område, med mer plass til barna å leke ute. Det ville også vært fint å ha en hage hvor barna kunne utforske naturen og ha plass til hagearbeid.
 
-Alt i alt, tror jeg det beste boligvalget <span style='color:#00CC66'>avhenger av ens livsstil og behov.</span>
+Alt i alt, tror jeg det beste boligvalget <span class="env-green">avhenger av ens livsstil og behov.</span>
 
 *fellesskap*: community, fellowship, companionship 共同体意识 / 归属感
 
@@ -1773,7 +1791,7 @@ Source: Timestamp 14:40, <https://www.youtube.com/watch?v=8TbsNBM6wf0>
     
     ✅ 你可以选择一个简单的观点，然后围绕它展开论据。
 
-更多关于 <span class="env-green">解题思路</span>，参考 <a href="{{site.baseurl}}/2024/02/18/Norsk-Struktur.html#thinking-angles">这里 ↩︎</a>。
+更多关于<span class="env-green">解题思路</span>，参考 <a href="{{site.baseurl}}/2024/02/18/Norsk-Struktur.html#thinking-angles">这里 ↩︎</a>。
 
 Q: 口语考试中嗓子干涩怎么办?  
 A: 带口香糖，一瓶水。
