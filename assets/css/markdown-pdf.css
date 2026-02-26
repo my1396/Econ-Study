@@ -1,6 +1,26 @@
 /* Custom CSS for Markdown PDF extension */
 
-/* hide top-link arrow  */
+/* hide top-link arrow */
 .top-link.hide {
   display: none;
+}
+
+.env-green,
+.env-green>code,
+.env-green code {
+  /* a darker green for Prince PDF */
+  color: #008B45 !important;
+}
+
+.env-orange,
+.env-orange>code,
+.env-orange code {
+  color: #D2691E !important;
+}
+
+.env-red,
+.env-red>code,
+.env-red code {
+  // a darker red for Prince PDF
+  color: red !important;
 }

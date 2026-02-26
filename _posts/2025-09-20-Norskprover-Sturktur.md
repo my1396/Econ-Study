@@ -330,6 +330,10 @@ The main test is taken at one of three different levels:
   → Sommeren 1941 virket Hitlers krigsmaskin ustoppelig. De allierte ble tvunget til à hjelpe. Konvoier av lasteskip fylt til randen med krigsmateriell begynte den farefulle ferden til Murmansk og Arkhangelsk. Med livet som innsats la de ut på det som ble kalt «Verdens verste sjøreise». Action/drama med de beste norske skuespillerne.
 
 
+- 找同义词
+  
+  首要的要求是"词性一致"。形容词找形容词，动词找动词，名词找名词。
+
 ___
 
 ## B2 Skriveprøven ✏️

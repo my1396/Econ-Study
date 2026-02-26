@@ -1111,14 +1111,18 @@ th, td {
 .env-orange {
   color: #D2691E !important;
 }
-
+.env-red {
+  color: red !important;
+}
 [data-theme="dark"] .env-green {
   color: #C3E88D !important;
 }
 [data-theme="dark"] .env-orange {
   color: #FF9900 !important;
 }
-
+[data-theme="dark"] .env-red {
+  color: #FF4C4C !important;
+}
 /* Apply color to inline code */
 .env-green>code,
 .env-green code {

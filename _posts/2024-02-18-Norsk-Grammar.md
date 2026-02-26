@@ -4,7 +4,6 @@ tag: Norsk
 title: Norsk Grammar
 ---
 
-<a class="top-link hide" href="#" id="js-top">↑</a>
 
 
 
@@ -175,6 +174,7 @@ These are usually modal or evaluative adverbs, expressing probability, possibili
 Unntak: sannsynligvis (triggers V2)
 
 | Adverb        | Meaning               | Example                                                                 |
+| ------------- | --------------------- | ----------------------------------------------------------------------- |
 | sannsynligvis | probably              | *Sannsynligvis kommer hun i morgen.* → She will probably come tomorrow. |
 
 
@@ -187,7 +187,7 @@ Unntak: sannsynligvis (triggers V2)
 
 Indefinite and definite forms  (非特指和特指)
 
-Substantiv bøyes i ulike <span style='color:#00CC66'>former</span>, og det kan ofte være vanskelig å vite hvilken av <span style='color:#00CC66'>formene</span> man skal velge. Derfor kan det være lurt å gjøre mange <span style='color:#00CC66'>oppgaver</span> der du skal velge riktig <span style='color:red'>form</span>. Denne oppgaven er et eksempel på en nyttig <span style='color:#00CC66'>øving</span>. Når du har gjort slike <span style='color:#00CC66'>oppgaver</span> mange <span style='color:#00CC66'>ganger</span>, husker du kanskje alle <span style='color:#00CC66'>reglene</span> for ubestemt og bestemt form litt bedre når du skriver tekst selv.
+Substantiv bøyes i ulike <span class="env-green">former</span>, og det kan ofte være vanskelig å vite hvilken av <span class="env-green">formene</span> man skal velge. Derfor kan det være lurt å gjøre mange <span class="env-green">oppgaver</span> der du skal velge riktig <span class="env-red">form</span>. Denne oppgaven er et eksempel på en nyttig <span class="env-green">øving</span>. Når du har gjort slike <span class="env-green">oppgaver</span> mange <span class="env-green">ganger</span>, husker du kanskje alle <span class="env-green">reglene</span> for ubestemt og bestemt form litt bedre når du skriver tekst selv.
 
 **Note that**: riktig form is different from that of in English. In English, we say "you have to choose the correct form." But in Norwegian, it is in indefinite form.
 
@@ -288,7 +288,8 @@ NORWEGIAN ADJECTIVE BØYING
             └── "-t" ending
                 (et + adjective-t + noun singular)
 
-† 此情况下，名词为中性时最具迷惑性，因为中性名词单数和复数形式相同。store hus (big houses) vs. stort hus (big house)
+† 此情况下，名词为中性时最具迷惑性，因为中性名词单数和复数形式相同。
+store hus (big houses) vs. stort hus (big house)
 表语形容词见上图中 INDEFINITE (Ubestemt form) 部分。表语形容词无特指形式。
 ```
 
@@ -332,7 +333,7 @@ Når substantivet står i bestemt form, legger vi til *bestemt artikkel* (定冠
 
 2. 如果有形容词修饰，那么<span class="env-green">形容词一律用特指 definite form</span>。
 
-   一般来说，<span style='color:#00CC66'>形容词的 definite form 和 plural form 是一样的。</span>
+   一般来说，<span class="env-green">形容词的 definite form 和 plural form 是一样的。</span>
 
    也有例外，比如 liten 复数形式为 små, 但特指形式为 lille。
 
@@ -380,10 +381,10 @@ Når substantivet står i bestemt form, legger vi til *bestemt artikkel* (定冠
 
 | Gender    | Form  | Example       |                                                              |
 | --------- | ----- | ------------- | ------------------------------------------------------------ |
-| Masculine | liten | en liten gut  | den lille gutt<span style='color:#00CC66'>en</span> (the small boy) |
-| Feminine  | lita  | ei lita jente | den lille jent<span style='color:#00CC66'>a</span>           |
-| Neuter    | lite  | et lite hus; et lite barn;   | det lille hus<span style='color:#00CC66'>et</span>; det lille barnet           |
-| Plural    | små   | små barn      | de små barn<span style='color:#00CC66'>a</span>              |
+| Masculine | liten | en liten gut  | den lille gutt<span class="env-green">en</span> (the small boy) |
+| Feminine  | lita  | ei lita jente | den lille jent<span class="env-green">a</span>           |
+| Neuter    | lite  | et lite hus; et lite barn;   | det lille hus<span class="env-green">et</span>; det lille barnet           |
+| Plural    | små   | små barn      | de små barn<span class="env-green">a</span>              |
 | Definite  | lille | den lille bilen; de små bilene | |
 
 In **everyday Bokmål**, many people skip the feminine forms (*ei lita bok* → *en liten bok*).
@@ -392,7 +393,7 @@ bestemt form:
 
 - singular (fem / mas / neut): lille
 - plural: små
-- 注意<span style='color:#00CC66'>名词也要变特指</span>
+- 注意<span class="env-green">名词也要变特指</span>
 
 --------------------------------------------------------------------------------
 
@@ -403,27 +404,27 @@ IKKE: ~~Bilen er dyre.~~ ❌
 
 Bilen er dyr. ✅ (The car is expensive)
 
-**形容词作为<span style='color:#00CC66'>表语</span>**<span style='color:#FF9900'>: 不用 definite form (特指)</span>，但是需要<span style='color:#00CC66'>根据性别和数量变格</span>。
+**形容词作为<span class="env-green">表语:</span>**<span style='color:#FF9900'> 不用 definite form (特指)</span>，但是需要<span class="env-green">根据性别和数量变格</span>。
 
 <table>
   <tr>
     <td>Masc.</td>
-    <td><span style='color:#00CC66'>Bilen er stor.</span></td>
+    <td><span class="env-green">Bilen er stor.</span></td>
     <td>The car is big.</td>
   </tr>
   <tr>
     <td>Fem.</td>
-    <td><span style='color:#00CC66'>Hytta er stor.</span></td>
+    <td><span class="env-green">Hytta er stor.</span></td>
     <td>The cottage is big.</td>
   </tr>
   <tr>
     <td>Neut.</td>
-    <td><span style='color:#00CC66'>Huset er stort.</span></td>
+    <td><span class="env-green">Huset er stort.</span></td>
     <td>The house is big.</td>
   </tr>
   <tr>
     <td rowspan=3>Plural</td>
-    <td><span style='color:#00CC66'>Bilene er store.</span></td>
+    <td><span class="env-green">Bilene er store.</span></td>
     <td>The cars are big.</td>
   </tr>
   <tr>
@@ -448,7 +449,7 @@ Hverdagen 为 definite form, singular masculine, 对应的 possessive pronoun �
 
 
 
-当有 <span style='color:#00CC66'>**«hele/halve»**</span> 出现的时候，特指情况下，形容词冠词 (the definite article in relation to the adjective) <span style='color:#00CC66'>**必须拿掉**</span>。
+当有 <span class="env-green">**«hele/halve»**</span> 出现的时候，特指情况下，形容词冠词 (the definite article in relation to the adjective) <span class="env-green">**必须拿掉**</span>。
 
 | 完全体                   | 形容词和名词冠词都省略 | 仅省略形容词冠词    |
 | ------------------------ | ---------------------- | ------------------- |
@@ -463,7 +464,7 @@ Hverdagen 为 definite form, singular masculine, 对应的 possessive pronoun �
 | Neut.         | helt      | et helt eple / år  |
 | Plural        | hele      | to hele dagene / eplene / år |
 
-<span style='color:#00CC66'>**Ordinal numbers and «sist», «neste», «forrige», and «samme»**</span>
+<span class="env-green">**Ordinal numbers and «sist», «neste», «forrige», and «samme»**</span>
 
 一般都是特指，可选择是否省略冠词。省略冠词的情况下，又分为 
 
@@ -479,7 +480,7 @@ Hverdagen 为 definite form, singular masculine, 对应的 possessive pronoun �
 | den første dagen    | første dag             | første dagen                   |
 | de alle dagene      | alle dager             | alle dagene                    |
 
-min først<span style='color:#00CC66'>e</span> gang (posessive 在前，more common and casual) = først<span style='color:#00CC66'>e</span> gangen min (posessive 在后，formal)
+min først<span class="env-green">e</span> gang (posessive 在前，more common and casual) = først<span class="env-green">e</span> gangen min (posessive 在后，formal)
 
 💡 At any case, adj must be in definite form "-e".
 
@@ -716,20 +717,20 @@ Det er en bekymring at nettsider samler personlige data uten samtykke.
 
 |                                                            | English                | **Masculine Gender** | Feminine Gender   | Neuter Gender       | Plural              |
 | ---------------------------------------------------------- | ---------------------- | -------------------- | ----------------- | ------------------- | ------------------- |
-| **1st person <span style='color:#00CC66'>singular</span>** | *My; mine*             | Min                  | Mi                | Mitt                | Mine                |
-| **2nd person <span style='color:#00CC66'>singular</span>** | *Your; yours*          | Din                  | Di                | Ditt                | Dine                |
-| **3rd person <span style='color:#00CC66'>singular</span>** | *His*                  | Hans / sin*          | Hans / si*        | Hans / sitt*        | Hans / sine*        |
+| **1st person <span class="env-green">singular</span>** | *My; mine*             | Min                  | Mi                | Mitt                | Mine                |
+| **2nd person <span class="env-green">singular</span>** | *Your; yours*          | Din                  | Di                | Ditt                | Dine                |
+| **3rd person <span class="env-green">singular</span>** | *His*                  | Hans / sin*          | Hans / si*        | Hans / sitt*        | Hans / sine*        |
 |                                                            | *Her; hers*            | Hennes / sin*        | Hennes / si*      | Hennes / sitt*      | Hennes / sine*      |
 |                                                            | *Its*                  | Dens / dets / sin*   | Dens / dets / si* | Dens / dets / sitt* | Dens / dets / sine* |
-| **1st person <span style='color:#00CC66'>plural</span>**   | *Our; ours*            | Vår                  | Vår               | Vårt                | Våre                |
-| **2nd person <span style='color:#00CC66'>plural</span>**   | *Your; yours (plural)* | Deres                | Deres             | Deres               | Deres               |
-| **3rd person <span style='color:#00CC66'>plural</span>**   | *Their; theirs*        | Deres                | Deres             | Deres               | Deres               |
+| **1st person <span class="env-green">plural</span>**   | *Our; ours*            | Vår                  | Vår               | Vårt                | Våre                |
+| **2nd person <span class="env-green">plural</span>**   | *Your; yours (plural)* | Deres                | Deres             | Deres               | Deres               |
+| **3rd person <span class="env-green">plural</span>**   | *Their; theirs*        | Deres                | Deres             | Deres               | Deres               |
 
-\* The easiest way to know if you should use <span style='color:#00CC66'>“sin, si, sitt, sine”</span> (reflective possessives, 她/他/它(们)自己的，只有第三人称有反身代词) is ask yourself if “own” can be inserted into the sentence in English and make sense.
+\* The easiest way to know if you should use <span class="env-green">“sin, si, sitt, sine”</span> (reflective possessives, 她/他/它(们)自己的，只有第三人称有反身代词) is ask yourself if “own” can be inserted into the sentence in English and make sense.
 
 
 
-- Sissel ringer tannlegen sin. → Sissel callas her own dentist.
+- Sissel ringer tannlegen sin. → Sissel calls her own dentist.
 - Sissel ringer tannlegen hennes. → Sissels calls her dentist. "Her" refers to another women, not Sissel. 
 
 
@@ -837,9 +838,9 @@ Det er / finnes …
 | Singular — Neuter     | det (that) | dette (this)  |
 | Plural                | de (those) | disse (these) |
 
-- <span style='color:#00CC66'>den</span> (+ adj bestemt form) + noun bestemt form: <span style='color:#00CC66'>那个</span>\[形容词，什么样子的\][名词，什么\]
+- <span class="env-green">den</span> (+ adj bestemt form) + noun bestemt form: <span class="env-green">那个</span>\[形容词，什么样子的\][名词，什么\]
 
-- <span style='color:#00CC66'>dette</span> (+ adj bestemt form) + noun bestemt form: <span style='color:#00CC66'>这个</span>\[形容词，什么样子的\][名词，什么\]
+- <span class="env-green">dette</span> (+ adj bestemt form) + noun bestemt form: <span class="env-green">这个</span>\[形容词，什么样子的\][名词，什么\]
 - den/dette 可以单独使用，表示那个/这个。
 
 <table>
@@ -885,13 +886,13 @@ pronoun.
 | Without adjective:                                           |                                                              |
 | stolen  <br />(the chair)                                    | den stolen / dette stolen  <br />(that chair / this chair)   |
 | With adjective:                                              |                                                              |
-| <span style='color:#00CC66'>den gode stolen</span> <br />(the good chair) | <span style='color:#00CC66'>den gode stolen</span> / dette gode stolen <br />(that good chair / this good chair) |
+| <span class="env-green">den gode stolen</span> <br />(the good chair) | <span class="env-green">den gode stolen</span> / dette gode stolen <br />(that good chair / this good chair) |
 
 **Wrong**: gode stolen ❌
 
 
 
-- Kan du gjenta <span style='color:#00CC66'>det</span> du sa? → Can you repeat what you just said? 
+- Kan du gjenta <span class="env-green">det</span> du sa? → Can you repeat what you just said? 
 
 - Q: 这里的 det 可以用 hva 替换吗？
 
@@ -924,7 +925,7 @@ ___
 
 关系从句
 
-When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» is the <span style='color:#00CC66'>subject</span> of relative clause, <span style='color:#00CC66'>«som» is obligatory</span>.
+When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» is the <span class="env-green">subject</span> of relative clause, <span class="env-green">«som» is obligatory</span>.
 
 - Hvem kommer? → Hvem 作主语，som 不可省略。Jeg vet ikke *hvem som* kommer. 
 - Hvem bad hun? (Who did she invite?) → Hvem 作宾语，som 可以省略。Jeg vet ikke *hvem* hun bad. (I don't know whom she invited.)
@@ -965,7 +966,7 @@ When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» is the <span style=
 
 - If «som» is the **subject**, you must **keep** it.
   
-  $\boxed{\text{Subject → must keep «som».}}$
+  <span style="display:inline-block;border:1px solid #333;padding:2px 6px;border-radius:3px;">Subject → must keep «som».</span>
 
   Alle ressurser *som* ligger på nettet er tilgjengelige.  
   (All the resources that are on the internet are available.)  
@@ -977,7 +978,7 @@ When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» is the <span style=
 
 - You can only **drop** «som» when it is the **object**.
 
-  $\boxed{\text{Object → «som» optional.}}$
+  <span style="display:inline-block;border:1px solid #333;padding:2px 6px;border-radius:3px;">Object → «som» optional.</span>
 
   Alle ressurser (*som*) de finner.  
   (All the resources they find.)  
@@ -992,7 +993,7 @@ When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» is the <span style=
 
 ## «Der» 引导的关系从句
 
-When you add supportive / descriptive information about a <span style='color:#00CC66'>*situation, place, time, or condition*</span>, you use **der**. 
+When you add supportive / descriptive information about a <span class="env-green">*situation, place, time, or condition*</span>, you use **der**. 
 
 - Differentiate from «hvor». 
 
@@ -1013,7 +1014,7 @@ Ex of «**hvor**»: direct / indirect questions
 **Common mistake:** Learners often use *hvor* instead of *der* in relative clauses:
 
 ❌ *en situasjon hvor studentene kan bruke …*  
-✅ *en situasjon <span style='color:#00CC66'>der</span> studentene kan bruke …*
+✅ *en situasjon <span class="env-green">der</span> studentene kan bruke …*
 
 
 
@@ -1308,7 +1309,7 @@ Jeg har lyst på en kopp te. → I feel like having a cup of tea.
 
 | Norsk              | English                       |
 |--------------------|-------------------------------|
-| ha <span style='color:#00CC66'>anledning</span> [anlˈedning] til | be able to, be in a position to |
+| ha <span class="env-green">anledning</span> [anlˈedning] til | be able to, be in a position to |
 
 Han har ikke anledning til å komme i dag. → He is not able to come today.
 
@@ -1611,7 +1612,7 @@ Har du noe kjennskap til dette? → Do you know anything about this?
 
 --------------------------------------------------------------------------------
 
-<span style='color:#00CC66'>**Tenke + på / om / over**</span> 
+<span class="env-green">**Tenke + på / om / over**</span> 
 
 - tenke på noe/nogen = think about sth/sb (most common)
 
@@ -1633,7 +1634,7 @@ Har du noe kjennskap til dette? → Do you know anything about this?
  > It often means having something in mind or remembering it.
  > - «tenke over» to think something over in a deeper, more serious way, often before making a decision.
 
-- tenke om noe/nogen = have an <span style='color:#00CC66'>opinion</span> about sth/sb
+- tenke om noe/nogen = have an <span class="env-green">opinion</span> about sth/sb
 
   Hva tenker du om den nye filmen?  
   → What do you think about the new movie?
@@ -1671,13 +1672,13 @@ Det er forskjell på rik og fattig.
 |-----------------|-------------------------|
 | eksempel på     | example of              |
 | sikker på       | sure of                 |
-| sint <span style='color:#00CC66'>på noen</span>     | angry with/at sb |
+| sint <span class="env-green">på noen</span>     | angry with/at sb |
 | sint <span class="env-green">for noe</span> | angry about sth  | 
 
 Jeg er sint på ham.  
 → I am angry with him.
 
-være sint <span style='color:#00CC66'>på noe</span> → be angry about sth
+være sint <span class="env-green">på noe</span> → be angry about sth
 
 Hva er du sint på?  
 → What are you angry about?
@@ -1798,12 +1799,12 @@ Du må minne meg på at vi skal bort.
 
 «Enig» 后可接 3 种介词短语，意义不同:
 
-1.  **være enig <span style='color:#00CC66'>med noen</span>** → agree with sb
+1.  **være enig <span class="env-green">med noen</span>** → agree with sb
 
     Jeg er *enig med* deg. [agree with sb]  
     → I agree with you.
 
-2.  **være enig <span style='color:#00CC66'>i noe</span>** → agree in sth
+2.  **være enig <span class="env-green">i noe</span>** → agree in sth
 
     Han var *enig i* det forslaget. [agree in sth]  
     → He agreed with that proposal.
@@ -1817,7 +1818,7 @@ Du må minne meg på at vi skal bort.
     Jeg er *enig i* denne påstanden.  
     → I agree with this statement.
 
-3.  **være enig <span style='color:#00CC66'>om å gjøre</span> noe** → agree to do sth
+3.  **være enig <span class="env-green">om å gjøre</span> noe** → agree to do sth
 
     Vi er *enige om å* møtes i morgen.  
     → We agree to meet tomorrow.
@@ -1941,7 +1942,7 @@ Jeg har vanskelig for å forstå dialekter.
 
 Alternativ form: 
 
-Jeg har vanskeligheter <span style='color:#00CC66'>**med å**</span> forstå dialekter.  
+Jeg har vanskeligheter <span class="env-green">**med å**</span> forstå dialekter.  
 → I have difficulties understanding dialects.
 
 
@@ -1951,7 +1952,7 @@ Jeg har vanskeligheter <span style='color:#00CC66'>**med å**</span> forstå dia
 
 «Bekymret» 后可接以下介词:
 
-- være bekymret <span style='color:#00CC66'>for noe(n)</span> → be worried about sth/sb
+- være bekymret <span class="env-green">for noe(n)</span> → be worried about sth/sb
 
   Jeg er bekymret *for* barna mine.  
   → I am worried about my children.
@@ -1965,7 +1966,7 @@ Jeg har vanskeligheter <span style='color:#00CC66'>**med å**</span> forstå dia
   Hun er bekymret *for* økonomien.  
   → She is worried about the economy.
 
-- være bekymret <span style='color:#00CC66'>over noe</span> → be worried about **a situation or fact**, often something that has already happened.
+- være bekymret <span class="env-green">over noe</span> → be worried about **a situation or fact**, often something that has already happened.
   
   Jeg er bekymret *over* situasjonen i landet.  
   → I am worried about the situation in the country.
@@ -1973,7 +1974,7 @@ Jeg har vanskeligheter <span style='color:#00CC66'>**med å**</span> forstå dia
   Han er bekymret *over* utviklingen i saken.  
   → He is worried about the development of the case.
 
-- være bekymret <span style='color:#00CC66'>på vegne av noen</span> → be worried on behalf of sb
+- være bekymret <span class="env-green">på vegne av noen</span> → be worried on behalf of sb
 
 
 | Norsk             | English                 |
@@ -2174,12 +2175,12 @@ Hva er i veien med deg?
 
 «Stolt» 后可接 2 种介词短语，意义不同:
 
-1.  **være stolt <span style='color:#00CC66'>av noe</span>** → be proud of sth
+1.  **være stolt <span class="env-green">av noe</span>** → be proud of sth
 
     Jeg er stolt av prestasjonen min.  
     → I am proud of my achievement.
 
-2. **være stolt <span style='color:#00CC66'>på noen</span>** → believe in sb; have confidence in sb
+2. **være stolt <span class="env-green">på noen</span>** → believe in sb; have confidence in sb
 
     Jeg er stolt på deg.  
     → I have confidence in you.
@@ -2321,7 +2322,7 @@ Nesten som «synes». Utrykket brukes mest i diskusjoner -- hva jeg mener er rik
 **Countable** (substantiv vi kan telle)
 
 多 mange – flere – flest  
-少 få – <span style='color:#00CC66'>færre</span> – færrest 
+少 få – <span class="env-green">færre</span> – færrest 
 
 mange bøker/biler/stoler → many books/cars/chairs  
 flere bøker/biler/stoler → more books/cars/chairs  

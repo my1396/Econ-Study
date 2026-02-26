@@ -490,6 +490,8 @@ Løsning
 - å øke noe → to increase sth
 
   - å øke bevisstheten om noe → to increase awareness of sth 增强 … 的意识
+  
+  - å <span class="env-green">fremme</span> bevissthet om de negative konsekvensene av … → to promote awareness of the negative consequences of …
 
     Vi må øke bevisstheten om miljøvern. → We must increase awareness of environmental protection.
     
@@ -1941,9 +1943,11 @@ Det blir en ond *sirkel*. → It becomes a vicious circle.
 
 ↑: å øke / stige / forbedre / heve / vokse / ekspandere / utvikle
 
-↓: å redusere / senke / begrense / bremse / minimere
+↓: å redusere / senke / begrense / bremse / minimere / stramme inn
 
 ⭕️: å stoppe / stanse
+
+å stramme inn på noe → to tighten sth, to cut down on something
 
 没多少: de færreste av os; et fåtall av; 
 

@@ -12,9 +12,4 @@
     "markdown-pdf.styles": [
         "../assets/css/markdown-pdf.css"
     ],
-    
-    /* VPN Setting */
-    "http.proxy": "http://67.216.203.46:16295",
-    "http.proxyStrictSSL": false,
-    "http.proxySupport": "on",
 }

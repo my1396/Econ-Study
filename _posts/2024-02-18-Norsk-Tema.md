@@ -176,6 +176,11 @@ eksamenskarakter / standpunktkarakter / karaktergjennomsnitt
 
 å anstrenge seg: to make an effort, try hard
 
+synm. : å slite; å streve;
+
+Hun anstrengte seg for å høre hva som ble sagt.  
+→ She strained her ears to hear what was being said
+
 困难：vanskelighet, motstand, hindring
 
 vurderes etter bokstavkarakterer → be graded using letter grades
@@ -402,6 +407,8 @@ Mange finner jobb ved hjelp av kjente.
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
+| en vikar                               | a substitute, a temp worker 临时工  |
+| en ringevikar                          | on-call substitute 临时工，随叫随到的替补 |
 | en stilling / et jobbtilbud            | a job offer                        |
 | en arbeidsplass                        | a workplace                        |
 | en karriere                            | a career                           |
@@ -1177,6 +1184,9 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 | et kjerringråd                         | a home remedy, folk medicine       |
 | vondt                                  | pain, ache                         |
 | å ha vondt i magen/kroppen             | to have pain in the stomachache/body |
+| å slanke seg                           | to be on a diet                    |
+| å gå ned i vekt                        | to lose weight                     |
+
 
 减肥反弹 
 
@@ -1218,6 +1228,10 @@ er<span class="env-green">nær</span>ing 注意与 er<span class="env-green">far
 | uro                                    | anxiety; restlessness; unease      |
 
 en byrde [by`r-də]: burden, load
+
+Alle menesker trenger et sunt, balansert og variert kosthold. Det er også viktig å <span class="env-green">bevege seg</span> i hverdagen.  
+→ All people need a healthy, balanced and varied diet. It is also important to be physically active in everyday life.
+
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
@@ -1419,7 +1433,11 @@ en vane, vanen, vaner, vanene → habit
 
 Folk har forskjellige evner. → People have different abilities.
 
-å utnytte sitt fulle potensial → to utilize one's full potential
+å <span class="env-green">utnytte</span> sitt fulle potensial → to utilize one's full potential
+
+et potensial, potensialet, potensialer, potensialene → potential 潜力
+
+potensial, potensialt, potensiale → potential (adj)
 
 å dra nytte av noe → to take advantage of sth; make use of sth
 
