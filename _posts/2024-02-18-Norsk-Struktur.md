@@ -62,7 +62,7 @@ Temasetning → Kommentarsetninger → Avsluttende setning
 
 I tillegg … dessuten ... for øvrig ... ikke minst er det …
 
-På den ene siden …, mens på den annen siden … (it is often used as på den andre siden; used more in spoken language)
+På den ene siden …, mens på den andre siden … (On the one hand ..., while on the other hand ...)
 
 Selv om noen mener at …, tror jeg at … (Even if some believe that ..., I think that ... 表转折，表对比)
 
@@ -252,6 +252,8 @@ Use the following **mock exam** to practice before the actual exam:
 - *Etter min mening bør vi …* → In my opinion, we should …
 - *Jeg vil i denne teksten diskutere både fordeler og ulemper, og til slutt komme med min egen mening.* → I will discuss both pros and cons, and end with my own opinion.
 - *Jeg har lest at …* → I have read that …
+- *Undersøkelser viser at …* → Studies show that …
+- *Forskning viser at …* → Research show that …
 - *Det har absolutt sine fordeler, men det har også ulemper, mener jeg.* → It absolutely has its advantages, but it also has drawbacks, I think.
 
 ------
@@ -357,7 +359,7 @@ Use the following **mock exam** to practice before the actual exam:
 
 #### 🔹 3. Argumenter mot (Cons / reasons against)
 
-- *På den annen / andre side …* → On the other hand …
+- *På den andre siden …* → On the other hand …
 
 - *Likevel finnes det ulemper …* → Nevertheless, there are disadvantages …
 
@@ -719,7 +721,9 @@ Han gikk på jobb **selv om** han hadde feber.
 
 **Contrast** 对比
 
-> <span class="env-green">derimot</span> (on the contrary; however); på den andre side<span class="env-green">n</span>;  
+> <span class="env-green">derimot</span> (on the contrary; however);  
+> 
+> <span style="font-weight: bold">på den andre side<span class="env-green">n</span> <span>;  
 > 
 > tvert imot (on the contrary; quite the opposite);  
 >
@@ -851,6 +855,16 @@ Fremdeles → adv. still, up to now
 > på samme måte (in the same way; similarly)
 
 
+«I tillegg» 后面要加 "," (formal writing) 
+
+I tillegg<span class="env-green">,</span> *må* vi ta hensyn til miljøet.  
+→ In addition, we must take the environment into account. [1. 连接词后面要加逗号; 2. V2 原则]
+
+I tillegg<span class="env-green">,</span> fordi folk bruker mye tid inne, *har* de mindre tid til å gå på tur eller trene.  
+→ In addition, because people spend a lot of time indoors, they have less time to go hiking or exercise.
+
+You see also cases where "i tillegg" is used without a comma. It is often used in informal writing. If "i tillegg" is in the middle of a sentence, 插入语, need to add a comma before and after it.
+
 Vi har brukt opp budsjettet. *Med andre ord* kan vi ikke bruke mer penger.  
 → We have used up the budget. In other words, we cannot spend more money.
 
@@ -964,16 +978,26 @@ Det var isglatt på veiene, og det **førte til** kaos.
 
 **Because** 原因
 
-> fordi; <span class="env-green">ettersom;</span>; av den grunn at; siden; 
+> fordi; <span class="env-green">ettersom;</span>;  
+> av den grunn at; på grunn av (at);
+> siden;  
+> årsaken er;
 
 **Ettersom** Jon løp så fort han kunne, rakk han bussen.   
 → Because Jon ran as fast as he could, he caught the bus.
 
+Kostholdet blir dårligere **ettersom** folk spiser mer ferdigmat.  
+→ The diet is getting worse as people eat more processed food.
+
 Han hadde feber. **Av den grunn kunne** han ikke gå på jobb.  
-→ He had a fever. For that reason, he could not go to work.
+→ He had a fever. For that reason, he could not go to work. [Note that "grunn" is NOT definite (normally, we would have required "dobbelt bestemthet"); just remember as a fixed expression;]
 
 Hun har skadet seg, og **av den grunn** kan hun kanskje ikke løpe maraton.  
 → She has injured herself, and for that reason, she may not be able to run the marathon.
+
+Poteter gjør kosthodet sunnere og billigere. **Årsaken er** at de er sunne og rimelige.  
+→ Potatoes make the diet healthier and cheaper. The reason is that they are healthy and affordable.
+
 
 --------------------------------------------------------------------------------
 
@@ -1633,6 +1657,9 @@ en forskjell, forskjellen, forskjeller, forskjellene
 
 - Du kan ikke *gjøre forskjell på folk* på grunn av hudfarge.   
   → You cannot *discriminate against people* based on skin color.
+
+
+Det er ikke <span class="env-green">det samme</span> som … → It is not the same as …
 
 --------------------------------------------------------------------------------
 

@@ -776,9 +776,18 @@ Negative sider:
 - Sosiale medier kan også føre til sammenligning og misunnelse. Når folk ser andres perfekte liv på sosiale medier, kan de føle seg utilstrekkelige og misfornøyde med sitt eget liv.
   - føle seg dårlig hvis de ikke ser «perfekt» ut som andre på sosiale medier.
 
-- På den annen side, sosiale medier kan også være en positiv kraft i samfunnet. De gir en plattform for folk å dele sine meninger, erfaringer og historier, og kan bidra til å øke bevisstheten om viktige saker og hendelser.
+  missunnelse  [misˈunnelse] → jealousy, envy
+
+- På den andre siden, sosiale medier kan også være en positiv kraft i samfunnet. De gir en plattform for folk å dele sine meninger, erfaringer og historier, og kan bidra til å øke bevisstheten om viktige saker og hendelser.
 
 - Sosiale medier kan også hjelpe folk å holde kontakten med venner og familie, spesielt de som bor langt unna. De gir en enkel og praktisk måte å kommunisere og dele informasjon på.
+
+
+Tiltak for å redusere negativ påvirkning av sosiale medier:
+
+- å begrense skjermtid og oppmuntre til offline aktiviteter
+- å fremme positiv og støttende innhold på sosiale medier
+- å øke bevisstheten om farene ved sosiale medier og hvordan håndtere dem på en sunn måte
 
 
 --------------------------------------------------------------------------------
@@ -878,7 +887,7 @@ Det skal bli <span class="env-green">større behov</span> for disse yrkene:
   Med økt bruk av KI, bli personlig informasjon samlet inn og lagret 
   blir det viktigere å beskytte data og sikre personvernet.
 
-- Y**rker innen psykisk helse**
+- **Yrker innen psykisk helse**
   
   Mer personer er deprimert i det siste. 
   
@@ -1158,6 +1167,8 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
+| fysisk helse                           | physical health                    |
+| psykisk helse                          | mental health                      |
 | hals                                   | throat                             |
 | sår hals                               | sore throat 嗓子痛                  |
 | tett nese                              | stuffy nose 鼻塞                    |

@@ -222,6 +222,11 @@ De fleste adjektiv slutter på **‑t** når de beskriver *substantiv i ubestemt
   - 非特指的情况下，形容词需要在 gender 和 number 上匹配。
 
 - være / bli + 形容词结构 (<span class="env-green">表语形容词</span>)，即使主语为特指的情况下，形容词用 indefinite form, 根据 gender 和 number 变格。→ <span class="env-green">只有性数变化，无特指变化。</span>
+  
+  Fisk er dyrt.  
+  Fisken er dyr.  
+  Grønnersaker er sunt.  
+  Huset er rødt.
 
 |  | Attributiv: adjektiv før substantivet<br />定语形容词 | Predikativ: adjektiv sammen med være/bli<br />表语形容词 |
 | ----------------------- | ---------------------------- | ----------------- |
@@ -293,23 +298,63 @@ store hus (big houses) vs. stort hus (big house)
 表语形容词见上图中 INDEFINITE (Ubestemt form) 部分。表语形容词无特指形式。
 ```
 
-[Norsklærer Karaense: Samsvarsbøying](https://www.youtube.com/watch?v=CQ8i5QoOpQI)
+❗️一定要注意 triple definite agreement (三重一致): 当形容词修饰特指名词时，形容词要用特指形式 (‑e)，并且前面要加定冠词 den/det/de。
+
+> 三重一致:  
+> 1. 名词特指
+> 2. 形容词特指
+> 3. 定冠词 (demonstrative pronoun)  
+> 
+> | Gender   | That (far)       | This (near)     |
+> | -------- | ---------------- | --------------- |
+> | en / ei  | den              | denne           |
+> | et       | det              | dette           |
+> | flertall | de               | disse           |
 
 
-**all/alle/alt**
+When to use "den/det/de" vs. "denne/dette/disse"?
 
-- all/alle/alt 只有非特指形式 (ubestemt form)。换句话说，不根据名词的特指/非特指形式变格。
+- Generally, when you refer to a specific thing(s), you use den/det/de to replace "the" in English.
+
+- If you want to say "this/these" (sth you get hold of, within your reach), you use "denne/dette/disse". 
+
+
+**Ex.:**
+
+den dyr**e** bilen → the expensive car  
+den mordern**e** verden → the modern world  
+det vanskelig**e** spørsmålet → the difficult question  
+de vakker**e** blomstene → the beautiful flowers  
+de ny**e** skoene → the new shoes
+
+disse vakker**e** blomstene → these beautiful flowers  
+disse ny**e** skoene → these new shoes
+
+
+"Dobbelt bestemthet" (double definiteness) 指的是没有形容词的特指形式 (definite form)，而是直接在名词上加定冠词 den/det/de 来表示特指。→ "三重特指" 的简化版本，无形容词。
+
+**Refs:**
+
+- [Norsklærer Karaense Video 5: Adjektiver og Samsvarsbøying](https://www.youtube.com/watch?v=CQ8i5QoOpQI)
+
+- [Norsklærer Karaense Video 95: Dobbelt bestemthet](https://www.youtube.com/watch?v=4sJ2WFgIQwY)
+
+--------------------------------------------------------------------------------
+
+**all/alt/alle**
+
+- all/alt/alle 只有非特指形式 (ubestemt form)。换句话说，不根据名词的特指/非特指形式变格。
 - 名词
-  - plural: alle
-  - singular / mass (uncountable) noun:
+  - Singular / mass (uncountable) noun:
     - Masc./Fem.: all
     - Neut.: alt
+  - Plural: alle
 
 | Gender       | Form     | Example                |
 | ------------ | -------- | ---------------------- |
 | Masc./Fem.   | all      | all varme maten, all dagen, all tiden, all ny snø   |
 | Neut.        | alt      | alt arbeidet, alt håpet, alt huset, alt nytt stoff  |
-| Plural       | alle     | alle barna, alle bøkene, alle dagene |
+| Plural       | alle     | alle barna, alle bøkene, alle dagene                |
 
 alle + definite plural nouns: specific things
 
@@ -491,23 +536,66 @@ andre mulighet → second opportunity
 
 --------------------------------------------------------------------------------
 
+## Possessive 所有格
+
+### 前置 possessive «-s»
+
+Basic form: [Owner + s] + indefinite noun
+
+Ex: 
+
+Marias bok → Maria's book  
+lærerens bil → the teacher's car  
+barnets leke → the child's toy
+
+If there is adj modifying the noun, the adj is in definite form:
+
+Marias ny**e** bok → Maria's new book  
+lærerens ny**e** bil → the teacher's new car  
+barnets ny**e** leke → the child's new toy
+
+If the owner ends with -s, only add apostrophe, NO extra -s.
+
+Jonas' bok → Jonas's book or Jonas' book  
+Andreas' bil → Andreas's car or Andreas' car  
+Lars’ hus → Lars's house or Lars' house
+
+--------------------------------------------------------------------------------
+
+### 后置 possessive «til»
+
+Variation: definite noun + til + owner
+
+bok**en** til Maria → the book of Maria  
+bil**en** til læreren → the car of the teacher  
+leketøy**et** til barnet → the toy of the child
+
+--------------------------------------------------------------------------------
+
+### 带 adj
+
+adj 一律用特指形式，
+
+- 前置 possessive, 名词用非特指形式 (indefinite form)。
+- 后置 possessive, 名词用特指形式 (definite form)。
+
 **Preposed vs. postposed possessive pronouns**
 
-1. **Preposed possessive + definite adj + indefinite noun**
+1. **Preposed possessive + definite adj + <span class="env-green">indefinite noun</span>**
 
-   - årets best**e** bøker
-   - min ny**e** bil
-   - verdens støst**e** land
-   - hans **gamle** hus
+   - årets best**e** <span class="env-green">bøker</span>
+   - min ny**e** <span class="env-green">bil</span>
+   - verdens støst**e** <span class="env-green">land</span>
+   - hans **gamle** <span class="env-green">hus</span>
 
-2. **In case of postponed possessive, we need to use definite noun:**
+2. **In case of postponed possessive, we need to use <span class="env-green">definite noun</span>:**
    
    article (den/det/de) + definite adj + definite noun + possessive pronoun
 
-   - de beste bøkene i året
-   - den nye bilen min
-   - det største landet i verden
-   - det gamle huset hans
+   - de best**e** <span class="env-green">bøkene</span> i året
+   - den ny**e** <span class="env-green">bilen</span> min
+   - det størst**e** <span class="env-green">landet</span> i verden
+   - det gaml**e** <span class="env-green">huset</span> hans
 
 Both are natural, the latter (postposned possessive) is more common.
 
@@ -516,7 +604,7 @@ Both are natural, the latter (postposned possessive) is more common.
 
 ## 指示代词
 
-Demonstrative Pronouns + Definite Form
+❗最重要的原则: Demonstrative Pronouns + **Definite Form Noun**
 
 Demonstrative pronouns specify objects as well as **distance** to the objects.  
 
@@ -529,20 +617,30 @@ Demonstrative pronouns specify objects as well as **distance** to the objects.
 | Neuter               | dette | det |
 | Plural               | disse | de  |
 
-> **Note:** The nouns following the demonstratives take the **definite form**.
+> ❗**Note:** The nouns following the demonstratives take the **definite form**.
 
-## Examples
+**Examples:**
 
-| Distance         | Example      | Translation  |
+|                  | Example      | Translation  |
 | ---------------- | ------------ | ------------ |
-| Near (Masculine) | denne bilen  | this car     |
-| Near (Feminine)  | denne veska  | this handbag |
-| Near (Neuter)    | dette kartet | this map     |
-| Near (Plural)    | disse bilene | these cars   |
-| Far (Masculine)  | den bilen    | that car     |
-| Far (Feminine)   | den veska    | that handbag |
-| Far (Neuter)     | det kartet   | that map     |
-| Far (Plural)     | de bilene    | those cars   |
+| **Near**         |              |              |
+| Near (Masculine) | denne bil<span class="env-green">en</span>  | this car     |
+| Near (Feminine)  | denne vesk<span class="env-green">a</span>  | this handbag |
+| Near (Neuter)    | dette kart<span class="env-green">et</span> | this map     |
+| Near (Plural)    | disse bil<span class="env-green">ene</span> | these cars   |
+| **Far**          |              |              |
+| Far (Masculine)  | den bil<span class="env-green">en</span>    | that car     |
+| Far (Feminine)   | den vesk<span class="env-green">a</span>    | that handbag |
+| Far (Neuter)     | det kart<span class="env-green">et</span>   | that map     |
+| Far (Plural)     | de bil<span class="env-green">ene</span>    | those cars   |
+
+区别于 triple definite agreement (den/det/de + adj-e + noun definite), 此处的 den/det/de 是定冠词，非指示代词。
+
+den dyr**e** bilen → the expensive car («den» here is the definite article, 用于构成特指形容词+名词的结构完整，不是指示代词)
+
+det dyr**e** bordet → the expensive table
+
+de dyr**e** bilene → the expensive cars
 
 
 --------------------------------------------------------------------------------
@@ -628,6 +726,7 @@ This is similar to <span class="env-green">possessive pronouns</span> in Norwegi
 > 
 > 注意: 第一人称 (包括单数+复数)，第二人称 (单数+复数) 没有变化，不根据宾语是否代指主语形变，只有第三人称单数和复数有变化。
 
+--------------------------------------------------------------------------------
 
 ## Verb + reflexive pronouns
 
@@ -726,12 +825,10 @@ Det er en bekymring at nettsider samler personlige data uten samtykke.
 | **2nd person <span class="env-green">plural</span>**   | *Your; yours (plural)* | Deres                | Deres             | Deres               | Deres               |
 | **3rd person <span class="env-green">plural</span>**   | *Their; theirs*        | Deres                | Deres             | Deres               | Deres               |
 
-\* The easiest way to know if you should use <span class="env-green">“sin, si, sitt, sine”</span> (reflective possessives, 她/他/它(们)自己的，只有第三人称有反身代词) is ask yourself if “own” can be inserted into the sentence in English and make sense.
+\* The easiest way to know if you should use <span class="env-green">“sin, si, sitt, sine”</span> (reflective possessives, 她/他/它(们)自己的，只有第三人称有反身代词) is ask yourself if “<span class="env-green">**own**</span>” can be inserted into the sentence in English and make sense.
 
-
-
-- Sissel ringer tannlegen sin. → Sissel calls her own dentist.
-- Sissel ringer tannlegen hennes. → Sissels calls her dentist. "Her" refers to another women, not Sissel. 
+- Sissel ringer tannlegen sin. → Sissel calls her <span class="env-green">**own**</span> dentist. [Can add "own" → use "sin, si, sitt, sine"]
+- Sissel ringer tannlegen hennes. → Sissels calls her dentist. "Her" refers to another women, not Sissel. [Cannot add "own" → use regular possessive, "hennes"]
 
 
 
@@ -805,13 +902,13 @@ Det er en bekymring at nettsider samler personlige data uten samtykke.
 
   Per bad Liv hente pakkene **sine**. → Liv sine pakker. (Liv's packages)
 
-- Petter bad Liv hente sykkelen hans.  → Petter sin sykkel
+- Petter bad Liv hente sykkelen **hans**.  → Petter sin sykkel
 
-  Petter bad Liv hente sykkelen sin → Liv sin sykkel.
+  Petter bad Liv hente sykkelen **sin**. → Liv sin sykkel.
 
 - Klara bad Ole ta hensyn til barna **sine**. → Klaras og Oles barn.
 
-- Ola bad henne passe **sine** egne saker. → Ola tolder her to mind her own business.
+- Ola bad henne passe **sine** egne saker. → Ola told her to mind her own business.
 
 
 
@@ -868,7 +965,7 @@ Det er / finnes …
 
 Where in English this/that/these/those si the subject of the verb *to be* with a following noun in the predicate, in Norwegian the neuter singular form of the pronoun («det», «dette») is always used, regardless of the number and gender of the subsequent noun. 
 
-那是…… 这是…… 不管宾语是什么性别 (Masc/Fem/Inte)，数量 (singular/plur)，主语一律用 det/dette.
+那是…… 这是…… 不管宾语是什么性别 (Masc/Fem/Neut)，数量 (singular/plur)，主语一律用 det/dette.
 
 Examples:
 
@@ -917,24 +1014,12 @@ A part of a sentence can be given extra emphasis by removing it from the origina
 
 
 
-___
 
-
-
-**Subject in relative clauses**
-
-关系从句
-
-When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» is the <span class="env-green">subject</span> of relative clause, <span class="env-green">«som» is obligatory</span>.
-
-- Hvem kommer? → Hvem 作主语，som 不可省略。Jeg vet ikke *hvem som* kommer. 
-- Hvem bad hun? (Who did she invite?) → Hvem 作宾语，som 可以省略。Jeg vet ikke *hvem* hun bad. (I don't know whom she invited.)
-- Hva er i veien?  (What's wrong?) → Hva 作主语，som 不可省略。Jeg vet ikke *hva som* er i veien. (I don't know what's wrong)
 
 
 --------------------------------------------------------------------------------
 
-«hvilken»/«hvilket»/«hvilke» 对于他们引导的疑问句，必须根据所指代的名词的性别和数量选择正确的形式。
+«hvilken»/«hvilket»/«hvilke» 对于他们引导的疑问句，必须根据所指代的名词的性别和数量选择正确的形式。名词非特指。
 
 - «hvilken» (masc./fem. singular)
   
@@ -988,6 +1073,20 @@ When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» is the <span class=
   (There is nothing that I can do anything about.)  
   → Here *som* = object of kan gjøre noe med, so it can be dropped.
 
+
+--------------------------------------------------------------------------------
+
+**More Examples: Subject in relative clauses**
+
+关系从句
+
+> When «hvem», «hva» or «hvilken»/«hvilket»/«hvilke» is the <span class="env-green">subject</span> of relative clause, <span class="env-green">«som» is obligatory</span>.
+
+- Hvem kommer? → Hvem 作主语，som 不可省略。Jeg vet ikke *hvem <span class="env-green">som</span>* kommer. 
+- Hvem bad hun? (Who did she invite?) → Hvem 作宾语，som 可以省略。Jeg vet ikke *hvem* hun bad. (I don't know whom she invited.)
+- Hva er i veien?  (What's wrong?) → Hva 作主语，som 不可省略。Jeg vet ikke *hva som* er i veien. (I don't know what's wrong)
+- Hva er det beste for deg? (What is best for you?) → Hva 作主语，som 不可省略。Undersøkelser viser at folk bruker for mye tid på skjermen enn *hva <span class="env-green">som</span>* er det beste for dem. (Studies show that people spend too much time on screens than what is best for them.)
+
 --------------------------------------------------------------------------------
 
 
@@ -1011,16 +1110,19 @@ Ex of «**hvor**»: direct / indirect questions
 
 - Indirekte: *Jeg vet ikke **hvor** han bor.* (I don’t know where he lives.)
 
-**Common mistake:** Learners often use *hvor* instead of *der* in relative clauses:
+**Common mistake:** Learners, especially English learners, often use "*hvor*" instead of "*der*" in relative clauses:
 
 ❌ *en situasjon hvor studentene kan bruke …*  
 ✅ *en situasjon <span class="env-green">der</span> studentene kan bruke …*
 
+Both "hvor" and "der" can be translated to "where" in English. 
 
+- "hvor" is used in questions. 疑问句，包括直接疑问句和间接疑问句。
+- "der" is used in relative clauses. 关系从句，提供关于一个情况、地点、时间或条件的补充/描述性信息。
 
 ___
 
-疑问代词
+## 疑问代词
 
 Interrogative pronouns
 
@@ -1028,11 +1130,19 @@ Hvem (who)
 
 Hva (what)
 
-Hvilken/hvilket/hvilke (which)
-
-注意 hvor (where) 不是疑问代词，是副词，与 hvor mye (how much), hvor mange (how many), hvor viktig (how important), hvor som helst (anywhere) 搭配出现。
+Hvilken / hvilket / hvilke (which)
 
 hvordan (how) adv. 
+
+hvor (where)
+
+**Ask about degree or extent of something:**
+
+注意 «hvor + adj» 搭配中，«hvor» 此处不作疑问代词，作副词，与 hvor mye (how much), hvor mange (how many), hvor viktig (how important), hvor som helst (anywhere) 搭配出现。
+
+If you translate literally «hvor + adj», it means "where + adj", which doesn't make sense in English. 
+This is just a fixed expression in Norwegian, where "hvor" is used as an adverb to ask about the degree or extent of something, similar to "how + adj" in English.
+
 
 How long:
 
@@ -1040,23 +1150,25 @@ How long:
 2. hvor lang tid
 
 
+--------------------------------------------------------------------------------
 
+## 要是 … 就好了
 
-
-___
-
-Would have done
+**Would have done**
 
 "Skulle + past participle" something you **wish you could do or had done**, but couldn't do
 
-- *Jeg skulle gjerne vært der.*  
+- Jeg *skulle gjerne vært* der.  
   → I would have liked to be there.
 
-- *Vi skulle gjerne møtt deg tidligere.*   
+- Vi *skulle gjerne møte* deg tidligere.   
   → We would have liked to meet you earlier.
 
-- Jeg har vedlagt svaret hans nedenfor i tilfelle du skulle være interessert.  
+- Jeg har vedlagt svaret hans nedenfor i tilfelle du *skulle være* interessert.  
   → I have attached his answer below in case you would be interested.
+
+More about "Subjunctive mood" refer to <a href="{{site.baseurl}}/2026/01/09/Norsk-虚拟语气.html">Norsk 虚拟语气</a>。
+
 
 --------------------------------------------------------------------------------
 
@@ -1480,8 +1592,10 @@ Har du noe kjennskap til dette? → Do you know anything about this?
   Jeg skal til Norge neste uke. (I am going to Norway next week.)
 
 
-- «I» + place → be in a place, used with verbs of state
+- «I» + place → be in a place, used with verbs of <span class="env-green">**state**</span>; 强调一种静止状态
 
+  > Used with countries, cities, big islands, streets, 
+  
   Jeg bor i Norge. (I live in Norway.)
 
   i barnehagen
@@ -1489,15 +1603,27 @@ Har du noe kjennskap til dette? → Do you know anything about this?
   i Storgata → in the High Street  
   i Kirkenveien → in Church Road
 
-  i byen → in the city
+  i byen → in the city  
+  i sentrum → in the city center  
+  i hagen → in the garden  
+  i skogen → in the forest  
+  i parken → in the park
 
-- «På» + place → *at* a place (stative 静态) or *going* to a place (directional 动态)
+  i kontinentet → on the continent  
+  i africa → in Africa  
+  i europa → in Europe  
+
+  i kiosken → in the kiosk 在便利店
+
+- «På» + place → *at* a place (stative 静态) or *going* to a place (directional 动态) 
   
-  Used with islands (not indep. countries), small towns/villages, public places, institutions, etc.
+  既可以表示动态，也可以表示静态。
 
-  Jeg skal på Svalbard. (I am going to Svalbard.)
+  > Used with **small** islands (not indep. countries), small towns/villages, parts of a city, public places, institutions, etc.
 
-  Jeg skal på butikken. (I am going to the store.)
+  Jeg skal *på* Svalbard. (I am going to Svalbard.)
+
+  Jeg skal *på* butikken. (I am going to the store.)
 
   > «gå» vs. «skal»  
   > If you are going to some place in general, not meaning walking, use «skal».  
@@ -1509,22 +1635,40 @@ Har du noe kjennskap til dette? → Do you know anything about this?
 
   «Være på» = being at a place, «skal på» = going to a place
   
+  Plasser: 
+
   - Jeg *er på* apoteket/kino/postkontoret/restaurant → I am at the pharmacy/movie theater/post office/restaurant
 
   - Jeg *skal på* apoteket/kino/postkontoret/restaurant/kino → I am going to the pharmacy/movie theater/post office/restaurant
 
-  på skolen = at school (being there)
-  på kurset = at the course (being there)
-  på jobb = at work (being there)
-  på universitetet = at the university (being there)
-  på kontoret = at the office (being there)
-  på møte = at the meeting (being there)
-  på biblioteket = at the library (being there)
-  på sykehuset = at the hospital (being there)
-  på ferie = on vacation (being there)
-  på butikken = at the store (being there)
+  på skolen = at school (being there)  
+  på høyskolen = at college (being there)  
+  på kurs/kurset = at the course (being there)  
+  på jobb/jobben = at work (being there)  
+  på universitetet = at the university (being there)  
+  på kontoret = at the office (being there)  
+  på arbeidsplassen = at the workplace (being there)  
+  på møte = at the meeting (being there)  
+  på biblioteket = at the library (being there)  
+  på sykehuset = at the hospital (being there)  
+  på legekontoret = at the doctor's office (being there)  
+  på ferie = on vacation (being there)  
+  på butikken = at the store (being there)  
 
-  - hus / hjemme 相关
+  på havet = at sea (being there)  
+  på sjøen = at sea (being there)  
+  på fjellet = in the mountains (being there)
+
+  Others:
+
+  på trening → being at training  
+  på mange områder → in many areas
+
+  > Tips: If you are not sure which preposition to use, use «på».  
+  > Same principle as using masc. if you are not sure about the gender of a noun.  
+  > «på» 和 «i» 不确定的情况下，盲猜用 «på»。
+
+  - hus / hjemme 与家相关
     
     <span class="env-green">på</span> kjøkkenet / badet / soverommet  [<span class="env-green">-et 用 «på»</span>]
 
@@ -1532,11 +1676,21 @@ Har du noe kjennskap til dette? → Do you know anything about this?
     
     Jeg sover på soverommet. → I am sleeping in the bedroom.
 
-    Det ligger klær på soverommet.  → There are clothes lying in the bedroom.
+    Det ligger klær på soverommet. → There are clothes lying in the bedroom.
 
+    På hybelen → in the dorm room; «hybel» is a small apartment, often a single room with a shared bathroom and kitchen, typically used by students or young people.
+    
     <span class="env-green">i</span> hagen / garasjen / kjelleren / stua / loftet / boden / gangen / balkongen [<span class="env-green">-en / -ei 用 «i»</span>]
 
     Jeg slapper av i stua. → I am relaxing in the living room.
+
+  - Some places can be used with both «på» and «i»
+    
+    på/i kantina → at the cafeteria  
+    på/i butikken → at the store  
+    på/i teateret → at the theater
+
+
 
 --------------------------------------------------------------------------------
 
@@ -2317,11 +2471,13 @@ Nesten som «synes». Utrykket brukes mest i diskusjoner -- hva jeg mener er rik
 
 ## Sammenligne
 
+**Kvantorer (quantifiers) 量词**
+
 **Komparasjon**
 
 **Countable** (substantiv vi kan telle)
 
-多 mange – flere – flest  
+多 mange – <span class="env-green">flere</span> – flest  
 少 få – <span class="env-green">færre</span> – færrest 
 
 mange bøker/biler/stoler → many books/cars/chairs  
@@ -2335,10 +2491,43 @@ større forskjeller = bigger differences
 flere valg = more choices  
 flere alternativer = more alternatives
 
-flere sjanser = more chances  
-mindre sjanser = smaller chances
+--------------------------------------------------------------------------------
 
-Note there "mindre" is used with countable noun "sjanser" to mean "smaller chances". It emphasizes the overall amount rather than strict counting of individual items. "Sjanser" here is treated **collectively as a quantity**.
+### Sjanse
+
+**Opportunities 机会**
+
+«Sjanse» 表机会，做可数名词。
+
+- flere sjanser = more chances
+  
+  Han fikk flere sjanser til å prøve igjen.  
+  → He got more chances to try again.
+
+- færre sjanser = fewer chances
+  
+  De hadde færre sjanser i kampen.  
+  → They had fewer chances in the match.
+
+**Possibility 可能性**
+
+«Sjanse» 表可能性，做不可数名词。
+
+- større sjanse = bigger chance; more likely
+
+  Det er større sjanse for at det regner i morgen.  
+  → There is a bigger chance that it will rain tomorrow. / It is more likely that it will rain tomorrow.
+
+  Det er større sjanse for at hun får jobben.  
+  → There is a bigger chance that she will get the job. / It is more likely that she will get the job.
+  
+  Det er større sjanse for at økonomien vokser neste år.  
+  → There is a bigger chance that the economy will grow next year. / It is more likely that the economy will grow next year.
+
+- mindre sjanse = smaller chances
+
+  Det er mindre sjanse for at de vinner kampen.  
+  → There is a smaller chance that they will win the match. / It is less likely that they will win the match.
 
 --------------------------------------------------------------------------------
 
@@ -2350,6 +2539,25 @@ Note there "mindre" is used with countable noun "sjanser" to mean "smaller chanc
 mye tid/regn/snø/penger → much time/rain/snow/money  
 mer tid/regn/snø/penger → more time/rain/snow/money  
 mest tid/regn/snø/penger → most time/rain/snow/money
+
+--------------------------------------------------------------------------------
+
+**Max og min**
+
+maks = maximum, most, highest  
+min = minimum, least, lowest
+
+Temperaturen var på *maks* 30°C.  
+→ The temperature was at a maximum of 30°C.
+
+Temperaturen var på *min* 15°C.  
+→ The temperature was at a minimum of 15°C.
+
+Du kan ta *maks* tre epler.  
+→ You can take a maximum of three apples.
+
+Du må ha *min* ett glass vann.  
+→ You must have at least one glass of water.
 
 --------------------------------------------------------------------------------
 
@@ -2604,7 +2812,16 @@ A: Jo, det gjør jeg vel. / Nei, jeg har ikke så godt appetitt om morgenen.
 | kortvarig       | short-lasting           |
 | langvarig       | long-lasting            |
 
+Ved å lære suffikser som danner substantiv eller adjektiv, og dermed lære seg om ordfamilier kan man lære å forstå mange ord selv om de er helt nye. 
 
+For eksempel: En bruk/bruker -å bruke - brukbar/brukt/ubrukelig 
+
+Noen vanlige suffikser som lager **adjekti**v er: 
+
+- -aktig, - bar, -ete, - ig,-lig, -messig, -som, -ær, -isk. 
+
+Noen vanlige suffikser som lager **substantiv**: 
+- -er, -ing, -iker, - dom, -else, -sel, -skap, - nad, -het
 
 --------------------------------------------------------------------------------
 

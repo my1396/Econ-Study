@@ -372,6 +372,118 @@ A: <span class="env-orange">Not necessarily!</span> <span style="color: #00CC66;
 
 See <span style="color: #00CC66;">**grading criteria**</span> <a href="{{site.baseurl}}/2025/09/20/Norsk-Skriftlig-Vurdering.html">HERE</a>.
 
+Evaluation criteria in short:
+
+- formidling 
+- tekstoppbygging 
+- rettskriving og tegnsetting 
+- ordforråd 
+- grammatikk
+
+Tips: You can **appeal** if you are not satisfied with your results. It is recommended to appeal. And Skriftlig is the only part that can be appealed. You cannot appeal for Lytte, Lese, or Muntlig. 
+
+Appeal 的好处:
+
+- 可能会得到更高的分数
+- 免费服务，不用白不用
+- 可以看到评分细节，了解自己的弱点，知道自己哪些方面需要改进
+
+--------------------------------------------------------------------------------
+
+To oppgaver: klagebrev og argumenterende tekst. 120 min til sammen. 
+
+- bruke 30 min på klagebrevet, 
+- 90 min på argumenterende tekst.
+
+Tips: skrive ned dine ideer før du skriver.
+
+--------------------------------------------------------------------------------
+
+### Klagebrevet
+
+- Ikke «Kjære»
+- Husk å skriv hilsen + navn (et fiktivt navn)
+- Tydelig hvem du skrive til og hvem du er
+- Imagine a situation, <span class="env-green">make up details</span>, and write a convicing story about your case
+  - Forklar hva saken er
+  - Kom gjerne med forslag til løsning
+- Ikke bruk idiomer 避免用俚语，俚语不够正式，
+- Ikke bruk forkortelse (mvh., vh., osv., mm.) 避免使用缩写
+
+Nice opening sentence:
+
+- Jeg henvender meg til dere fordi jeg har observert at ...
+
+--------------------------------------------------------------------------------
+
+### Argumentasjon
+
+- Tekstoppbygging: 
+  
+  结构
+  - Innledning: 30 ord
+    
+    Beskrive bakgrunnen av problemstillingen. Presentere noen faktum.
+  
+  - Hoveddel: 250 ord
+    
+    Presentere synspunktet ditt -- Ja eller Nei.
+
+    Argumentasjon 1: 好处  
+    Argumentasjon 2: 好处    
+    Argumentasjon 3: 不这样做的坏处
+  
+  - Avslutning: 30 ord 
+    
+    Repeat your synspunkt.
+
+- Teksten bør deles i avsnitt 
+- Du skal uttrykke egne synpunkt og argumentere for disse 
+- Skriv mellom <span class="env-green">250-400</span> ord. 
+- Ikke kutt teksten hvis det er relevant informasjon du bør ta med 
+- Bruk faste uttrykk i språket 
+
+- Ta stilling!
+  
+  Oppgaver som starter med BØR før argumenterende tekster: 
+  
+  Her må du tenke at du skal svare **ja eller nei** og så begrunne hvorfor du mener det du mener, det vil si at du må argumentere for ditt syn.
+  
+  立场要明确，不能部分同意，部分不同意。要么同意，要么不同意。然后给出理由。
+
+- Hoveddel:
+  - Bestem deg for hva du mener før du skriver 
+  - Vær tydelig, ikke "tenk høyt" eller skift mening 
+  - Bruk ulike typer argumenter og utdyp dem 
+  - Ta med motargumenter og forklar hvorfor de ikke holder 
+
+- Avslutning: Oppsummer kort, ikke nye argumenter - gi en konklusjon
+
+<img src="https://drive.google.com/thumbnail?id=1h4WyJLTFrRtgf23fTgRwa_jFMDksZlvA&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+![img](https://www.gstatic.com/youtube/img/watch/yt_favicon_ringo2.png)[Karense Video 643](https://www.youtube.com/watch?v=dY_0J7XOykY)
+
+![img](https://www.gstatic.com/youtube/img/watch/yt_favicon_ringo2.png)[Karense Video 920](https://www.youtube.com/watch?v=Uo16F9nHRw8)
+
+--------------------------------------------------------------------------------
+
+### Grammatikk i Skriftlig
+
+形容词
+
+- 定语要特指或者非特指一致，性数一致 → "三重一致"
+- 表语均为非特指形式，性数一致
+
+disse + definite noun plural 指示代词后接复数名词特指
+
+时态:
+
+- 现在完成时: har + 过去分词
+
+句子副词 (setningsadverbial: ikke, aldri, ofte, <span class="env-green">kanskje</span>) 放在动词后
+
+Dette er *kanskje* ikke den beste løsningen for alle.   
+→ 1. 句子副词 "kanskje" 放在动词 "er" 后面。 2. "den beste løsningen" 三重一致
 
 ___
 

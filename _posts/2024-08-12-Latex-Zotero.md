@@ -125,7 +125,7 @@ Use Zotero's [sync](https://www.zotero.org/support/sync#zotero_file_storage) fea
    
    I use NAS to sync my Zotero directory, so I create a folder `~/Documents/Zotero` on my local computer.
    
-   But if you use cloud services, such as Google Drive, Dropbox, OneDrive, etc., you can create the folder within the local sync folder of these services.
+   Alternatively, if you use cloud services, such as Google Drive, Dropbox, OneDrive, etc., you can create the folder within the local sync folder of these services.
    An example is `~/Google Drive/Zotero`.
 
 2. Change your **Base Directory** to your local sync folder.
@@ -146,8 +146,6 @@ Use Zotero's [sync](https://www.zotero.org/support/sync#zotero_file_storage) fea
 
 <span style="display:block; font-size:2.5em; font-weight:bold; margin:1em 0;">Plugins</span>
 
---------------------------------------------------------------------------------
-
 ## Better Bib(La)Tex 
 
 Useful links:
@@ -157,7 +155,7 @@ Useful links:
 
 --------------------------------------------------------------------------------
 
-How to [install](https://retorque.re/zotero-better-bibtex/installation/) BBT plugin
+How to [install](https://retorque.re/zotero-better-bibtex/installation/) the BBT plugin
 
 1. Download `.xpi` file from the GitHub [releases page](https://github.com/retorquere/zotero-better-bibtex/releases).
 2. Go to Zotero > Tools > Plugins > Click on the gear in the top-right corner <i class="codicon codicon-settings-gear dynamic-setting-icon" aria-hidden="true" style="font-size:1.5em; vertical-align: middle;"></i> > choose ‘Install Plugin From File…’ > Select the `.xpi` file you downloaded
@@ -375,6 +373,32 @@ Highlight features:
 
 
 [Ethereal Style 中文教程](https://www.notion.so/Zotero-Style-bc2aebbbb6df4b7baa858e376e4fc5be)
+
+--------------------------------------------------------------------------------
+
+## Better Notes
+
+[Better Notes](https://github.com/windingwind/zotero-better-notes) allows you to make notes in Markdown format while reading PDFs in Zotero. My favorite feature: you can select text in the PDF viewer and right click to add it as a note to the item. The citation key is automatically added. When you click on the citation, it will take you to the corresponding page in the PDF.
+
+Q: How to add quotes from PDF to notes?  
+A: The trick is that you need to select and open the target Notes as a side panel to make the "Add to Note" option appear when you right click on the selected text in the PDF viewer.
+
+<img src="https://drive.google.com/thumbnail?id=1FEfrSepemYvM0Z4yAjm1tWCCyFCtQoml&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+When you have seen this window, you can then click the three dots `...` on the status bar of the Notes. This allows you to select "Open Note in New Tab". The "Add to Note" options will still work this way. Otherwise, if you open the note directly, the "Add to Note" option will not appear when you right click on the selected text in the PDF viewer.
+
+Click "Add to Note". The selected text will be added to the note, with the citation key automatically added. 
+
+<img src="https://drive.google.com/thumbnail?id=1W5pzuN19mVC6Y9vd-bFROZxOO51LdgSb&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
+
+Hierarchy of Better Notes: It can be placed under an item, or a collection, or the whole library.
+
+Ref:
+
+- [Zotero的 Better Notes！写综述必备](https://b23.tv/ORpXg57) starts from 03:30
+- [Zotero 插件 Better Notes 超好用笔记插件](https://b23.tv/HiTxTmo) starts from 13:50
+  
+  This video also shows installation.
 
 --------------------------------------------------------------------------------
 

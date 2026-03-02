@@ -546,13 +546,15 @@ Overleaf Workshop Extension:
 
 Overleaf is nice for collaboration, but you will <span class="env-orange">loss the LaTeX Workshop features</span>. E.g., snippets, better synctex (with highlighter of precise location), etc.
 
-| Keyboard Shortcut          | Action                           |
-| -------------------------- | -------------------------------- |
-| `Opt` + `Cmd` + `B`        | Compile on Overleaf server       |
+| Keyboard Shortcut          | Action                                    |
+| -------------------------- | ----------------------------------------- |
+| `Opt` + `Cmd` + `B`        | <span class="env-green">Compile</span> on Overleaf server                   |
 | <span class="env-green">`Cmd` + `S`</span> | After enable `compileOnSave`, save to compile automatically |
-| `Cmd` + `Option` + `J`     | Go to PDF from source (forward)  |
-| Double click (in PDF)      | Go to source from PDF (backward) |
+| `Opt` + `Cmd` + `J`        | SyncTeX: Go to PDF from source (forward)  |
+| Double click (in PDF)      | SyncTeX: Go to source from PDF (backward) |
 
+
+Tex is compiled automatically when focus changes from the tex file, or you can manually trigger compiling by `Cmd` + `Opt` + `B` (or Command Palette: `Overleaf Workshop: Compile Project`). The PDF output will be in the `/.output/` folder in your project.
 
 --------------------------------------------------------------------------------
 
@@ -740,19 +742,23 @@ When the compile fails or succeeds with warnings, the compiler diagnostics will 
 The full compiler diagnostics are displayed in the "Problems" panel, which is located at the bottom of the VS Code window.
 
 
-Q: How to suppress Compile Checker Warnings in Problems Pane? Theses warnings will add a yellow squiggly line under the text in the editor and highlight your file in yellow in the file explorer, which I find distracting and annoying.  
+Q: How to suppress Compile Checker Warnings in Problems Pane? Theses warnings will add a yellow/blue squiggly line under the text in the editor and highlight your file in yellow in the file explorer, which I find distracting and annoying.  
 A: The [`silence`](https://ctan.org/pkg/silence) package lets you filter or ignore specific warnings.
 
-In your preamble, add:
+In your tex preamble, add the following lines:
 
 ```latex
-\usepackage{silence}
+\usepackage{silence} % to filter warnings
+
+% Ignore all warnings from `latex`
+\WarningsOff*
 
 % Ignore all warnings from package `hyperref`
 \WarningFilter{hyperref}{Token not allowed in PDF string}
 
-% Ignore all warnings from `latex`
-\WarningsOff*
+\vbadness=10000 % suppress underfull `vbox` warnings
+\hbadness=10000 % suppress overfull/underfull `hbox` warnings
+\hfuzz=10pt % ignore overfull hbox warnings under 10pt
 ```
 
 
