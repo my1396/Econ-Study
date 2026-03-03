@@ -418,13 +418,15 @@ Nice opening sentence:
 
 ### Argumentasjon
 
+**整体策略**
+
 - Tekstoppbygging: 
   
   结构
   - Innledning: 30 ord
     
     Beskrive bakgrunnen av problemstillingen. Presentere noen faktum.
-  
+
   - Hoveddel: 250 ord
     
     Presentere synspunktet ditt -- Ja eller Nei.
@@ -438,32 +440,56 @@ Nice opening sentence:
     Repeat your synspunkt.
 
 - Teksten bør deles i avsnitt 
-- Du skal uttrykke egne synpunkt og argumentere for disse 
+  
+  层层递进，段落分明。每个段落表达一个观点，段落之间有逻辑关系。
+
 - Skriv mellom <span class="env-green">250-400</span> ord. 
+
 - Ikke kutt teksten hvis det er relevant informasjon du bør ta med 
-- Bruk faste uttrykk i språket 
+  
+  确保信息完整。不能遗漏要求回答的问题。
 
 - Ta stilling!
   
+  立场要明确，不能部分同意，部分不同意。要么同意，要么不同意。然后给出理由。
+
   Oppgaver som starter med BØR før argumenterende tekster: 
   
   Her må du tenke at du skal svare **ja eller nei** og så begrunne hvorfor du mener det du mener, det vil si at du må argumentere for ditt syn.
-  
-  立场要明确，不能部分同意，部分不同意。要么同意，要么不同意。然后给出理由。
 
-- Hoveddel:
+--------------------------------------------------------------------------------
+
+**每个部分的写作要点**
+
+- **Innledning**
+  
+  Kort og **nøytral** (ikke vis standpunkt)
+
+  引言部分的作用是界定问题，介绍背景，说明为什么这个问题重要，定义一些概念等。引言部分不应该包含你的观点。引言部分应该是客观的，简短的，直接切入主题的。
+  - Her skal du <span class="env-orange">IKKE</span> komme med hva du mener.
+  - Her forklar kort 
+    
+    - hva saken handler om (presentere temaet)
+    - hvorfor spørsmålet er viktig 
+    - definere begrepet 
+
+- **Hoveddel**
+  
   - Bestem deg for hva du mener før du skriver 
   - Vær tydelig, ikke "tenk høyt" eller skift mening 
   - Bruk ulike typer argumenter og utdyp dem 
   - Ta med motargumenter og forklar hvorfor de ikke holder 
+  - Er teksten nyansert, det vil si: Er både positive og negative sider ved problemstillingen tatt med? Blir teksten balansert?
 
-- Avslutning: Oppsummer kort, ikke nye argumenter - gi en konklusjon
+- **Avslutning**
+  
+  Oppsummer kort, ikke nye argumenter - gi en konklusjon
 
 <img src="https://drive.google.com/thumbnail?id=1h4WyJLTFrRtgf23fTgRwa_jFMDksZlvA&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
-![img](https://www.gstatic.com/youtube/img/watch/yt_favicon_ringo2.png)[Karense Video 643](https://www.youtube.com/watch?v=dY_0J7XOykY)
+![img](https://www.gstatic.com/youtube/img/watch/yt_favicon_ringo2.png) [Karense Video 643: Argumenterende tekster - hva er det?](https://www.youtube.com/watch?v=dY_0J7XOykY)
 
-![img](https://www.gstatic.com/youtube/img/watch/yt_favicon_ringo2.png)[Karense Video 920](https://www.youtube.com/watch?v=Uo16F9nHRw8)
+![img](https://www.gstatic.com/youtube/img/watch/yt_favicon_ringo2.png) [Karense Video 920: B2 skriftlig norskprøve - ta stilling!](https://www.youtube.com/watch?v=Uo16F9nHRw8)
 
 --------------------------------------------------------------------------------
 
@@ -488,6 +514,10 @@ Dette er *kanskje* ikke den beste løsningen for alle.
 ___
 
 ## B2 Muntlig Prøve 📣
+
+Introduce yourself. → Be short.
+
+### Muntlig Oversikt
 
 Individuell → Samtale → Individuell
 
@@ -521,6 +551,128 @@ Individuell → Samtale → Individuell
 >   不会考察特别专业的政治话题，比如: 挪威的选举制度怎么样，政党制度怎么样等。
 >   
 >   需要日常<span style="color: #00CC66;">积累一些政治常识</span>，但不需要特别专业的政治知识储备。
+
+--------------------------------------------------------------------------------
+
+### Detaljerte tips 
+
+**Oppgave 1:** Si din mening om et tema og begrunne meningen din.
+
+> Er det bra at folk er opptatt av helse og trening i dag? Hvorfor / hvorfor ikke?
+
+- 这是一个问句。要有明确的回答 "是" "不是"，或者部分 "是"。 Jeg er delvis enig med det.
+
+Du kan få oppfølgingsspørsmål fra eksaminator. Du snakker i ca. 2-3 minutter.
+
+--------------------------------------------------------------------------------
+
+**Oppgave 2:** Samtale med en annen kandidat om et tema.
+
+> Synes dere at all helsebehandling bør være gratis? Hvorfor/hvorfor ikke?
+
+Dere snakker i ca. 5-7 minutter <span class="env-green">til sammen</span>.
+
+Tips: 
+
+- Begge må delta i <span class="env-green">samtalen</span>. 
+  
+  Ikke en monolog! ❌
+- Du må kommentere på <span class="env-green">den andres meninger</span>.
+- Du må stille spørsmål til den andre kandidaten. 
+  
+  Hva synes du om det?
+
+- Du må uttrykke dine egne meninger.
+
+--------------------------------------------------------------------------------
+
+**Oppgaver 3:** Argumentere for eller imot en påstand.
+
+en påstand: statement
+
+> Alle voksne bør være i arbeid og betale skatt. Hva synes du om det?
+
+Du skal ta stilling til en påstand og begrunne synspunktet ditt.
+
+Du kan ta notater.
+
+I denne oppgaven skal du først snakke selvstendig om påstanden i 2-3 minutter før eksaminator går over til å stille oppfølgingsspørsmål i 2-3 minutter.
+
+Til sammen snakker du i ca. 4-6 minutter. 
+
+自己说 2-3 分钟，然后考官提问 2-3 分钟。考官不打断的话，要持续说直到被打断。
+
+与 oppgave 1 不同的是，这里是开放性问题，要求你对某个观点进行辩论。
+
+开头:
+
+Jeg er enig / uenig i den påstanden.
+
+Jeg mener/synes at ... 然后你的理由，论据。
+
+
+Use this table to organize your thoughts:
+
+| +          | –         |
+| ---------- | --------- |
+| fordeler 1 | ulemper 1 |
+| fordeler 2 | ulemper 2 |
+| ...        | ...       |
+
+Karanse said we can take <span class="env-green">2-3 minutes</span> to write down our thoughts before speaking.
+
+Source: Timestamp 14:40, <https://www.youtube.com/watch?v=8TbsNBM6wf0>
+
+--------------------------------------------------------------------------------
+
+**Tips:**
+
+- 解决没的说的问题:
+  - 前期准备: 多熟悉一些话题
+  - 对于问题进行[分类](#tactics-classify) → 重点展开自己的意见 (generalt) → 举一个特例 (men det er også situasjoner hvor ..., men det gjelder ikke alltid; det er unntak også) → 结尾总结 (avslutte med en konklusjon)
+  - 现场应对: 举例子，展开细节，解释原因 (årsak)，说明影响 (konsekvenser)，描述感受等等
+
+- 解决卡壳的问题: 别那么死轴。
+  - 我最容易犯的问题是卡在一个词上了。→ 同一件事必定有多种表达方式。换一种说法继续说下去。<span style="color: #FF4C4C;">不要纠结于一个词!</span>
+  - 对于观点也不要死轴。观点不必完全符合自己真实想法，而是说出你能想到的理由。
+    
+    ❌ 真实想法经常会很复杂 (subtle, tricky)，难以用简单的语言表达出来。
+    
+    ✅ 你可以选择一个简单的观点，然后围绕它展开论据。
+
+更多关于<span class="env-green">解题思路</span>，参考 <a href="{{site.baseurl}}/2024/02/18/Norsk-Struktur.html#thinking-angles">这里 ↩︎</a>。
+
+Q: 口语考试中嗓子干涩怎么办?  
+A: 带口香糖，一瓶水。
+
+- 多喝温水或蜂蜜水。
+- 温和发声练习：进行缓慢、轻柔的发声练习，比如从低到高再到低地发元音，或者用轻柔的声音朗读文章，避免大声喊叫。
+- 数数练习：可以从“一”数到“十”再回到“一”，或者从“一百”倒数到“一”，用轻柔的声音进行。
+- 喉部放松：轻轻按摩喉部，或者做一些缓慢的咽唾动作，以缓解喉部紧张感。 
+
+--------------------------------------------------------------------------------
+
+<a id="tactics-classify"></a>
+战术之"问题分类"
+
+> 以 Hva synes du om matvarerprisens i Norge? 为例
+
+第一反应肯定是"贵" (generalt) → 贵的东西有啥 (fersk frukt og grønnsaker; kjøtt;) → 展开论据
+
+1. 跟 hjemmelandet 相比贵; 
+2. 为什么贵 (årsak) → 进口税; 运输成本; 气候不适合种植;
+3. 影响 (konsekvenser)  
+   → 少吃新鲜水果和蔬菜; 多吃垃圾食品; 不健康; 肥胖; 影响身体健康; 医疗费用增加;  
+   kjøre til sverige for å handle billigere;
+4. Optional additional point: 去餐馆吃更贵; 
+
+至此，hovedargumentet er ferdig, 可以举反例了。有没有便宜的东西?
+
+ferdig mat; fryst mat; → konsekvenser: ikke sunt; mer prosessert mat;
+
+
+
+
 
 ___
 

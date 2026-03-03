@@ -493,7 +493,7 @@ Løsning
 
   - å øke bevisstheten om noe → to increase awareness of sth 增强 … 的意识
   
-  - å <span class="env-green">fremme</span> bevissthet om de negative konsekvensene av … → to promote awareness of the negative consequences of …
+  - å <span class="env-green">fremme</span> bevisstheten om de negative konsekvensene av … → to promote awareness of the negative consequences of …
 
     Vi må øke bevisstheten om miljøvern. → We must increase awareness of environmental protection.
     
@@ -934,8 +934,10 @@ Examples of «med mindre»:
 
 - Du får ikke bestått prøven *med mindre* du studerer hardt.  
   → You won't pass the exam unless you study hard.
+
 - Vi kan ikke dra på tur *med mindre* været blir bedre.  
   → We can't go on a trip unless the weather improves.
+
 - Vi kan ikke starte møtet *med mindre* alle er til stede.  
   → We can't start the meeting unless everyone is present.
 
@@ -972,6 +974,10 @@ Hun ble skadet, og det **gjorde at** hun måtte droppe treningen.
 
 Det var isglatt på veiene, og det **førte til** kaos.  
 → It was icy on the roads, and that led to chaos.
+
+Hun er syk, altså kan han ikke komme.  
+→ She is sick, so he can't come.
+
 
 
 --------------------------------------------------------------------------------
@@ -1045,13 +1051,22 @@ Ida åpnet døra slik at katten kunne komme inn. → Ida opened the door so that
 
 **Possibly** 可能
 
-> mulig; sannsynlig; trolig; antakelig; eventuelt; 
+> mulig; muligens; sannsynlig(vis); trolig; antakelig; eventuelt;  
+>
+> må nok (most likely); 
 
 Note: «antakelig» can also mean «akseptabel».
 
 **More likely:** mer sannsynlig; større sjanse for å gjøre; mer trolig; sannsynligheten øker; sjansen øker;
 
 **Less likely:** mindre sannsynlig; mindre sjanse for å gjøre; mindre trolig, sannsynligheten synker; sjansen synker;
+
+*Muligens* vil hun komme på møtet.  
+→ She might come to the meeting.
+
+Det kan *muligens* være det beste resultat<span class="env-green">et</span> vi kan oppnå.  
+→ It might possibly be the best result we can achieve.
+
 
 --------------------------------------------------------------------------------
 
@@ -1172,15 +1187,27 @@ Jo før, jo heller.
 | dermed    | so              |
 | dersom    | if              |
 | derimot   | on the contrary |
+| deretter  | after that      |
 
 
 --------------------------------------------------------------------------------
 
 **altså**
 
-1. that is, in other words (clarification)
-2. therefore, so (conclusion)
-3. indeed, really (emphasis, spoken)
+adv.
+
+1. **therefore, so** (conclusion)
+   
+   Han har ikke gjort leksene sine, *altså* kan han ikke gå ut og leke.  
+   → He hasn't done his homework, that is, he can't go out and play.
+
+2. that is, in other words (clarification)
+   
+   Du kommer *altså* til fredag?  
+   → You will come on Friday then?
+
+
+
 
 
 --------------------------------------------------------------------------------
@@ -1189,8 +1216,9 @@ Jo før, jo heller.
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
-| På den måten …                         | in that way; thus                  |
-| På denne måten …                       | in this way; more formal and specific |
+| På den måt<span class="env-green">en</span> …   | in that way; thus                     |
+| På denne måt<span class="env-green">en</span> … | in this way; more formal and specific |
+| på flere måter …                       | in several/many ways …             |
 | slik sett                              | in this sense                      |
 | det store spørsmålet er ...            | The big question is … The key issue is … |
 | … regnes (derfor) som …                | … is (hence) considered …          |
@@ -1227,6 +1255,27 @@ Jo før, jo heller.
   - Det er betydelig å finne balanse mellom ... og ...   
     → It is important to find a balance between ... and ... [predicative 表语]
   
+
+--------------------------------------------------------------------------------
+
+## Modalitet
+
+使用情态副词，表示可能性，不确定性，委婉 … 让语言跟优雅。
+
+> vel, kanskje, muligens, sannsynligvis, 
+> 
+> kan være, må nok (most likely; strong confidence), 
+> 
+> ville
+
+
+Han *må nok* være hjemme nå.  
+→ He is most likely at home now.
+
+Dette *må nok* være en god idé.  
+→ This must be a good idea.
+
+
 
 --------------------------------------------------------------------------------
 
@@ -1327,7 +1376,11 @@ Det er et betydningsfullt øyeblikk i livet ditt. → It is a significant moment
 
 可以(被)看作是一个 … 的问题
 
-Man kan <span class="env-green">se på som</span> / <span class="env-green">blir sett på som</span> ....
+Man kan <span class="env-green">se på som</span> …  →
+
+problemet <span class="env-green">blir sett på som</span> … → The problem can be seen as …
+
+❗注意不要忘记加 «på»
 
 - Man *kan se på som* en positiv utvikling og et resultat av at ... [主动]  
   → It can be viewed as a positive development and a result of ... 
@@ -1751,7 +1804,7 @@ Det var lite sosialt akseptert (ikke) å gjøre noe → Sth is not socially acce
 --------------------------------------------------------------------------------
 
 
-**People**
+## People
 
 man, folk
 
@@ -1761,20 +1814,40 @@ personer, mennesker,
 | --------- | ------------------------------------------------------------ |
 | innbygger | inhabitant, refer to general population                      |
 | borger    | citizen, refer to legal rights, duties, and political belongings |
-| beboere    | resident of a specific place, like a house, apartment building; |
+| beboere   | resident of a specific place, like a house, apartment building;  |
 
-
-
-befolkningen (population)
 
 形容词 (de + adj definitive form) 作名词代指一类人
 
-| de minste          | the smallest ones, young children   |
+| Norsk              | English                             |
 | ------------------ | ----------------------------------- |
+| de minste          | the smallest ones, young children   |
 | de største         | the biggest ones; the greatest ones |
 | de unge, ungdommen | the youth                           |
 | de eldre           | the elderly                         |
 | de rike/fattige    | the rich/poor                       |
+
+
+**Common phrases:**
+
+| Norsk                                  | English                            |
+| -------------------------------------- | ---------------------------------- |
+| en økende andel eldre i befolkningen   | an increasing proportion of elderly in the population |
+| en aldrende befolkning                 | an aging population                 |
+| en synkende fødselsrate                | a declining birth rate              |
+| en byrde for samfunnet                 | a burden on society                 |
+| arbeidsstyrke(n)                       | workforce                           |
+
+En aldrende befolkning kan redusere arbeidsstyrken.  
+→ An aging population can reduce the workforce.
+
+Kvinner utgjør en stadig større andel av arbeidsstyrken.  
+→ Women make up an increasingly larger proportion of the workforce.
+
+Andelen unge i arbeidsstyrken har gått ned.  
+→ The proportion of young people in the workforce has decreased.
+
+
 
 --------------------------------------------------------------------------------
 
@@ -2128,9 +2201,23 @@ bøying: å volde, volder, voldte, har voldt
 
 ## 条件
 
-forutsetning → prerequisite, condition
+**forutsetning** → prerequisite, condition
 
 Norsk er en <span class="env-green">forutsetning</span> for å få jobb i Norge. → Norwegian is a prerequisite for getting a job in Norway.
+
+**å forutsette at **+ clause → to assume that; to presuppose that
+
+Hjemmekontor *forutsetter* at man jobber effektivt og ikke blir distrahert.  
+→ Working from home presupposes that one works effectively and does not get distracted.
+
+Et godt resultat *forutsetter* en viss egeninnsats.  
+→ A good result presupposes a certain amount of effort.
+
+Det *forusetter* at du er kjent med reglene.  
+→ It assumes that you are familiar with the rules.
+
+
+--------------------------------------------------------------------------------
 
 **“så lenge” + clause**: as long as / provided that / on the condition that ...; 
 
@@ -2225,7 +2312,7 @@ prisen å betale er ...
 
 --------------------------------------------------------------------------------
 
-**组成<span class="env-green">部分</span>**
+## **组成<span class="env-green">部分</span>**
 
 大多数
 

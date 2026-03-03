@@ -298,7 +298,7 @@ store hus (big houses) vs. stort hus (big house)
 表语形容词见上图中 INDEFINITE (Ubestemt form) 部分。表语形容词无特指形式。
 ```
 
-❗️一定要注意 triple definite agreement (三重一致): 当形容词修饰特指名词时，形容词要用特指形式 (‑e)，并且前面要加定冠词 den/det/de。
+❗️一定要注意 <span class="env-green">triple definite agreement (三重一致)</span>: 当形容词修饰特指名词时，形容词要用特指形式 (‑e)，并且前面要加定冠词 den/det/de。
 
 > 三重一致:  
 > 1. 名词特指
@@ -604,7 +604,7 @@ Both are natural, the latter (postposned possessive) is more common.
 
 ## 指示代词
 
-❗最重要的原则: Demonstrative Pronouns + **Definite Form Noun**
+❗最重要的原则: Demonstrative Pronouns + **<span class="env-green">Definite</span> Form Noun**
 
 Demonstrative pronouns specify objects as well as **distance** to the objects.  
 
@@ -641,6 +641,18 @@ den dyr**e** bilen → the expensive car («den» here is the definite article, 
 det dyr**e** bordet → the expensive table
 
 de dyr**e** bilene → the expensive cars
+
+
+--------------------------------------------------------------------------------
+
+**de + adj plural → 一类人**
+
+Examples:
+
+de rike → the rich (people)   
+de fattige → the poor (people)  
+de unge → the young (people)  
+de gamle/eldre → the old (people)  
 
 
 --------------------------------------------------------------------------------
@@ -1150,6 +1162,22 @@ How long:
 2. hvor lang tid
 
 
+### Om
+
+«**Om**» is used to introduce indirect questions, and it can be translated as "if" or "whether" in English.
+
+❗You <span class="env-orange">cannot</span> use "hvis" to introduce indirect questions. In Norwegian, "hvis" is only used for conditional sentences.
+
+- Jeg luer på <span class="env-green">om</span> det kommer til å regne i morgen.  
+  → I wonder if it is going to rain tomorrow.
+
+- Hun spurte <span class="env-green">om</span> jeg kunne hjelpe henne.  
+  → She asked if I could help her.
+
+- Hun spurte <span class="env-green">om</span> det alltid var kaldt.  
+  → She asked if it was cold. [注意 adverbial plassering，宾语从句中，副词 alltid 放在动词前面]
+
+
 --------------------------------------------------------------------------------
 
 ## 要是 … 就好了
@@ -1410,8 +1438,8 @@ Det er ingen biler foran. → There are no cars in front.
 
 | Norsk                  | English                      |
 | ---------------------- | ---------------------------- |
-| tilbringe tid til      | spend time to                |
-| ha tid til å gjøre noe | have time to                 |
+| tilbringe <span class="env-green">tid til</span> å gjøre no | spend time doing sth |
+| ha <span class="env-green">tid til</span> å gjøre noe | have time to do sth |
 | å ha lyst til å gjøre  | want to, feel like doing sth |
 | å ha lyst på noe       | want, feel like (something)  |
 
@@ -1534,25 +1562,28 @@ Han har ikke even til å forstå det. → He doesn't have the ability to underst
 
 --------------------------------------------------------------------------------
 
-| Norsk           | English        |
-| --------------- | -------------- |
-| adressen til    | the address of |
-| ha kjennskap til   | know about sth  |
+| Norsk              | English            |
+| ------------------ | ------------------ |
+| adressen til       | the address of     |
+| ha kjennskap til   | know about sth; be familiar with sth |
 
-Har du noe kjennskap til dette? → Do you know anything about this?
+- Har du noe *kjennskap til* dette?  
+  → Do you know anything about this?
 
+- Vi ønsker kandidater med *kjennskap til* internasjonal handel.  
+  → We are looking for candidates with knowledge of international trade.
 
 --------------------------------------------------------------------------------
 
-| Norsk           | English        |
-| --------------- | -------------- |
-| være knyttet til | be connected to |
-| være relatert til | be related to  |
-| i forhold til   | in relation to |
-| i forbindelse med | in connection with |
+| Norsk              | English              |
+| ------------------ | -------------------- |
+| være knyttet til   | be connected to      |
+| være relatert til  | be related to        |
+| i forhold til      | in relation to       |
+| i forbindelse med  | in connection with   |
 
-- prisen har gått opp med 100 kroner i forhold til i fjor → the price has gone up by 100 kroner on last year
-- han er stor i forhold til alderen → he's big for his age
+- Prisen har gått opp med 100 kroner *i forhold til i fjor*. → The price has gone up by 100 kroner *compared to last year*.
+- Han er stor *i forhold til alderen*. → He is big *for his age*.
 
 --------------------------------------------------------------------------------
 
@@ -1770,27 +1801,27 @@ Har du noe kjennskap til dette? → Do you know anything about this?
 
 - tenke på noe/nogen = think about sth/sb (most common)
 
-  Jeg tenker på deg hele tiden.  
+  Jeg tenker *på* deg hele tiden.  
   → I think about you all the time.
 
 - tenke over noe = consider, reflect on sth
 
-  Jeg må tenke over tilbudet ditt.  
+  Jeg må tenke *over* tilbudet ditt.  
   → I have to think over your offer.
 
-  Jeg må tenke over disse spørsmålene.  
+  Jeg må tenke *over* disse spørsmålene.  
   → I have to think about these questions.
 
 
  > **tenke på vs. tenke over**
  > 
- > - «tenke på»  to think of / to think about someone or something in a light, casual way
+ > - «tenke på» to think of / to think about someone or something in a light, casual way
  > It often means having something in mind or remembering it.
  > - «tenke over» to think something over in a deeper, more serious way, often before making a decision.
 
 - tenke om noe/nogen = have an <span class="env-green">opinion</span> about sth/sb
 
-  Hva tenker du om den nye filmen?  
+  Hva tenker du *om* den nye filmen?  
   → What do you think about the new movie?
 
 --------------------------------------------------------------------------------
@@ -2471,9 +2502,9 @@ Nesten som «synes». Utrykket brukes mest i diskusjoner -- hva jeg mener er rik
 
 ## Sammenligne
 
-**Kvantorer (quantifiers) 量词**
+### Kvantorer 
 
-**Komparasjon**
+**(quantifiers) 量词**
 
 **Countable** (substantiv vi kan telle)
 
@@ -2501,12 +2532,12 @@ flere alternativer = more alternatives
 
 - flere sjanser = more chances
   
-  Han fikk flere sjanser til å prøve igjen.  
+  Han fikk *flere sjanser* til å prøve igjen.  
   → He got more chances to try again.
 
 - færre sjanser = fewer chances
   
-  De hadde færre sjanser i kampen.  
+  De hadde *færre sjanser* i kampen.  
   → They had fewer chances in the match.
 
 **Possibility 可能性**
@@ -2515,19 +2546,24 @@ flere alternativer = more alternatives
 
 - større sjanse = bigger chance; more likely
 
-  Det er større sjanse for at det regner i morgen.  
+  Det er *større sjanse* for at det regner i morgen.  
   → There is a bigger chance that it will rain tomorrow. / It is more likely that it will rain tomorrow.
 
-  Det er større sjanse for at hun får jobben.  
+  Det er *større sjanse* for at hun får jobben.  
   → There is a bigger chance that she will get the job. / It is more likely that she will get the job.
   
-  Det er større sjanse for at økonomien vokser neste år.  
+  Det er *større sjanse* for at økonomien vokser neste år.  
   → There is a bigger chance that the economy will grow next year. / It is more likely that the economy will grow next year.
 
 - mindre sjanse = smaller chances
 
-  Det er mindre sjanse for at de vinner kampen.  
+  Det er *mindre sjanse* for at de vinner kampen.  
   → There is a smaller chance that they will win the match. / It is less likely that they will win the match.
+
+- liten sjanse = little chance; unlikely
+
+  Det er *liten sjanse* for at det kommer til å snø i morgen.  
+  → There is little chance that it will snow tomorrow. / It is unlikely that it will snow tomorrow.
 
 --------------------------------------------------------------------------------
 
@@ -2542,7 +2578,7 @@ mest tid/regn/snø/penger → most time/rain/snow/money
 
 --------------------------------------------------------------------------------
 
-**Max og min**
+### Max og min
 
 maks = maximum, most, highest  
 min = minimum, least, lowest
@@ -2612,9 +2648,12 @@ Det er mye folk i byen når det er fotballkamp.
 --------------------------------------------------------------------------------
 
 <a id="adjektiv-komparativ"></a>
-形容词比较级 
 
-1. 如果是加 "-ere" (superlative 用 "-est"), 然后用 «enn» 引导比较对象。
+### 形容词比较级和最高级
+
+komparative og superlative adjektiv
+
+1. 后缀比较级: 在 adj. 后缀 "-ere" (superlative 用 "-est"), 然后用 «enn» 引导比较对象。
 
    Han er høyere **enn** broren sin.  
    → He is taller than his brother.
@@ -2622,9 +2661,11 @@ Det er mye folk i byen når det er fotballkamp.
    Han er eldre **enn** meg.  
    → He is older than me.
 
-2. 如果是加前缀，mer / mindre + adj (superlative 用 "mest / minst"). «Enn» 引导比较对象可选非必须。 
+2. 加前缀比较级: mer / mindre + adj (superlative 用 "mest / minst"). 
    
-   Dette gjelder for eksempel adjektiv fra presens perfektum, flere lange ord og noen utenlandske ord.  
+   前缀比较级: «Enn» 引导比较对象可选，非必须。与之相反，后缀比较级则必须跟 «enn» 引导比较对象。
+
+   Dette gjelder for eksempel adjektiv fra presens perfektum/partisipp, flere lange ord og noen utenlandske ord. 长词汇，由动词过去分词或者现在分词形成的形容词，通常用前缀比较级。
    
    Q: What is "adjektiv fra presens perfektum"?  
    A: 形容词来自<span class="env-green">现在完成时</span>的过去分词 (perfektum partisipp)，如 «interessert», «forberedt», «organisert», «komplisert», etc.
@@ -2669,6 +2710,16 @@ Det er mye folk i byen når det er fotballkamp.
 > - en spennende bok, ei spennende historie, et spennende eventyr, spennende bøker.  
 > - en utfordrende oppgave, ei utfordrende situasjon, et utfordrende prosjekt, utfordrende oppgaver.
 
+--------------------------------------------------------------------------------
+
+**adj. 最高级**
+
+| Use                           | Example                  | Notes            |
+| ----------------------------- | ----------------------------- | ------------------------------------------------ |
+| **Attributive** (定语 before noun) | det største huset    | 三重一致          |
+| **Predicative** (表语 after verb)  | Huset er størst      | NO article needed; adjective agrees with subject |
+
+
 
 ref:
 
@@ -2687,11 +2738,13 @@ En ny studie viser at folk går opp i vekt *fire ganger så fort* etter de slutt
 
 **like + adj** → same + adj
 
-Barna våre er like gamle.  
+Barna våre er *like* gamle.  
 → Our children are the same age.
 
-Vi løper like fort.  
+Vi løper *like* fort.  
 → We run equally fast.
+
+--------------------------------------------------------------------------------
 
 **er som + noe(n)** → is like + sth/sb
 
@@ -2706,6 +2759,8 @@ Det er *som* en drøm.
 
 En kvinne uten mann er som en fisk uten sykkel.  
 → A woman without a man is like a fish without a bicycle.
+
+--------------------------------------------------------------------------------
 
 **er like + adj + som noe(n)** → is as/like + adj + as sb/sth
 
@@ -2730,6 +2785,37 @@ Jeg liker fisk *like godt som* kjøtt.
 
 Det er *like* mange elever i år *som* i fjor.  
 → There are as many students this year as last year.
+
+--------------------------------------------------------------------------------
+
+**Det Samme.**
+
+- Refer to sth already mentioned
+
+  Jeg liker Kaffe. -- Jeg liker *det sammen*.
+  → I like coffee. -- I like the same (thing).
+
+  Han gjorde leksene sine, og jeg gjorde *det samme*.  
+  → He did his homework, and I did the same.
+
+- det samme + som → the same + as
+
+  Det er ikke *det sammen som* å jobbe hjemmefra.  
+  → It is not the same as working from home.
+
+  Å spise ute er ikke *det sammen som* å lage mat hjemme.  
+  → Eating out is not the same as cooking at home.
+
+- det samme + definite noun → the same + noun
+  
+  Jeg har på meg den samme kjolen som i går.  
+  → I am wearing the same dress as yesterday.
+
+- In greetings: Same to you!
+
+  God jul! -- Det samme!  
+  → Merry Christmas! -- Same to you! / You too!
+
 
 --------------------------------------------------------------------------------
 
