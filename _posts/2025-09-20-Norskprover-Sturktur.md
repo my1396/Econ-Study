@@ -423,11 +423,12 @@ Nice opening sentence:
 - Tekstoppbygging: 
   
   结构
-  - Innledning: 30 ord
-    
-    Beskrive bakgrunnen av problemstillingen. Presentere noen faktum.
 
-  - Hoveddel: 250 ord
+  - **Innledning**: 30 ord
+    
+    Beskrive bakgrunnen av problemstillingen. Presentere noen fakta.
+
+  - **Hoveddel**: 250 ord
     
     Presentere synspunktet ditt -- Ja eller Nei.
 
@@ -435,7 +436,7 @@ Nice opening sentence:
     Argumentasjon 2: 好处    
     Argumentasjon 3: 不这样做的坏处
   
-  - Avslutning: 30 ord 
+  - **Avslutning**: 30 ord 
     
     Repeat your synspunkt.
 

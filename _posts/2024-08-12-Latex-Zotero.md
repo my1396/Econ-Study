@@ -325,6 +325,8 @@ Zotero → Preview ❌
 
 --------------------------------------------------------------------------------
 
+### Configuration
+
 **Attanger settings:**
 
 - `Source Path` (源路径): This can be set to the `~/Downloads` folder where Zotero will retrieve newly added files and attach it to ZOtero Item/Collection.
@@ -343,14 +345,19 @@ Zotero → Preview ❌
 
 --------------------------------------------------------------------------------
 
+### How to use
+
 After configuring Attanger, when you download a pdf file from the web, it will first be saved to your `Source Path` (e.g., `~/Downloads`).
 
-Then, in Zotero, right click on the item you want to attach the pdf to, and choose `Attanger` > `Attach New File`. It will identify the latest file in your `Source Path`, move it to your `Destination Path`, and attach it to the Zotero item.
+Then, in Zotero, right click on the item you want to attach the pdf to, and choose `Attanger` > <span class="env-green">`Attach New File`</span>. It will identify the latest file in your `Source Path`, move it to your `Destination Path`, and attach it to the Zotero item.
 
 For *existing attachments*, the pdf files are still stored in the default Zotero storage folder (`~/Zotero/storage`) with random alphanumeric folder names.
-If you want to move these attachments to your `Destination Path`, you can select the items, right click, and choose `Attanger` > `Move Attachment`. The pdf files will be moved to the destination path.
+If you want to move these attachments to your `Destination Path`, you can select the items, right click, and choose `Attanger` > <span class="env-green">`Move Attachment`</span>. The pdf files will be moved to the destination path.
 
 <img src="https://drive.google.com/thumbnail?id=1NNffhdffd9CD4i1T-GJB0BAydHIE3V2D&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+If you renamed a collection, you can use <span class="env-green">`Move Attachment`</span> to move the attachments to the new path. This way, the attachments will be organized in a folder structure consistent with your Zotero library structure.
+
 
 Note that linked files that are managed/tracked by Attanger will show a link ∞ on top of the file icon <img src="{{site.baseurl}}/images/link.png" alt="" style="display: inline; height: 1.5em; vertical-align: middle;" />.
 
@@ -392,6 +399,31 @@ Click "Add to Note". The selected text will be added to the note, with the citat
 <img src="https://drive.google.com/thumbnail?id=1W5pzuN19mVC6Y9vd-bFROZxOO51LdgSb&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
 
 Hierarchy of Better Notes: It can be placed under an item, or a collection, or the whole library.
+
+
+--------------------------------------------------------------------------------
+
+**Magic Key**
+
+Type `/` to open a menu of commands, where you can e.g., insert a citation, typset text.
+
+**Tool bar**
+
+<img src="https://drive.google.com/thumbnail?id=1NYPMNAXJViRfRwNI_dDG2ZPN8_H30B4E&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
+| Number | Function                         |
+| ------ | -------------------------------- |
+| 1      | Format text (bold, italic, etc.) |
+| 2      | Change text color                |
+| 3      | Highlight text                   |
+| 4      | Clear Format                     |
+| 5      | Insert link                      |
+| 6      | Insert Citation                  |
+| 7      | Find and Replace                 |
+
+Export Notes: Click the three dots `...` on tool bar > `Export Current Notes...` > Choose the format you want to export, e.g., LaTeX.
+
 
 Ref:
 
@@ -442,6 +474,7 @@ Ref:
 
 - [Ethereal Style](https://github.com/MuiseDestiny/zotero-style): customize appearance of Zotero interface
 
+- [delitemwithatt](https://github.com/redleafnew/delitemwithatt): Delete item with attachments. By default, when you delete an item, the attachments are not deleted. This plugin allows you to delete the attachments together with the item.
 
 **AI plugins** (not tested yet):
 

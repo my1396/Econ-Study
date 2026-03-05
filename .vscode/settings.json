@@ -12,4 +12,10 @@
     "markdown-pdf.styles": [
         "../assets/css/markdown-pdf.css"
     ],
+    // "editor.fontFamily": "'Sarasa Mono SC Nerd Font', 'Source Han Mono SC', Menlo, Monaco, 'Courier New', monospace",
+    // "editor.fontSize": 16,
+    // "editor.fontLigatures": true, // Enable font ligatures 连字
+    // "editor.renderControlCharacters": true,
+    // "editor.renderWhitespace": "all",
+    // "terminal.integrated.fontSize": 16,
 }

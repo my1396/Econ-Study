@@ -574,10 +574,14 @@ leketøy**et** til barnet → the toy of the child
 
 ### 带 adj
 
-adj 一律用特指形式，
+adj 一律用**特指**形式，
 
 - 前置 possessive, 名词用非特指形式 (indefinite form)。
 - 后置 possessive, 名词用特指形式 (definite form)。
+
+> Possessivpronomen 相当于 demonstrative pronouns den/det/de, 都是对名词进行特指，特指某人 (你、我、他) 的某物，形容词要用特指形式。
+> 
+> 名词的话，前置 possessive 用非特指形式，后置 possessive 用特指形式。
 
 **Preposed vs. postposed possessive pronouns**
 
@@ -585,6 +589,7 @@ adj 一律用特指形式，
 
    - årets best**e** <span class="env-green">bøker</span>
    - min ny**e** <span class="env-green">bil</span>
+   - min personlig**e** <span class="env-green">mening</span>
    - verdens støst**e** <span class="env-green">land</span>
    - hans **gamle** <span class="env-green">hus</span>
 

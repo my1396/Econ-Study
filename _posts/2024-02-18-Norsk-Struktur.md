@@ -50,6 +50,8 @@ This post contains phrases commonly used in *written* and *oral* exams in norskp
 - common phrases for expressing opinions
 - connectors
 
+Skriftlige prøver see <a href="{{site.baseurl}}/2025/09/20/Norskprover-Sturktur.html#argumentasjon">Argumentasjon</a>.
+
 --------------------------------------------------------------------------------
 
 ## Development of a Paragraph
@@ -62,13 +64,13 @@ Temasetning → Kommentarsetninger → Avsluttende setning
 
 I tillegg … dessuten ... for øvrig ... ikke minst er det …
 
-På den ene siden …, mens på den andre siden … (On the one hand ..., while on the other hand ...)
+På den ene siden …, mens på den andre siden … → On the one hand ..., while on the other hand ...
 
-Selv om noen mener at …, tror jeg at … (Even if some believe that ..., I think that ... 表转折，表对比)
+Selv om noen mener at …, tror jeg at … → Even if some believe that ..., I think that ... 表转折，表对比
 
 Til slutt … Kort oppsummert … Som nevnt tidligere … Alt i alt mener jeg at … 
 
-Det er min personlig mening om dette spørsmålet.
+Det er min personlig**e** mening om dette spørsmålet.
 
 
 
@@ -155,10 +157,16 @@ A: You **do not have to** to write both pros and cons if the task is to argue fo
 
 --------------------------------------------------------------------------------
 
-如何准备
+**如何准备**
 
 - 多写是肯定的
-- 即使不写完整的文章，也要写要点，论点。
+- 要有人帮你批改，这样你才能知道自己的问题在哪里，怎么改进
+- 三要点: 结构，词汇，语法
+  - 结构是非常标准和成熟的，按照模板要求来即可。不要灵机一动。
+  - 词汇的问题是眼高手低。平时觉得眼熟的词，真正考试拼写的时候就不一定能拼对了。平时要手写一下练习手感。
+  - 语法的问题是知道但不能熟练运用。没有形成肌肉记忆，不假思索的程度。
+    
+    要检查: 三重一致，表语形容词性数一致。
 
 Use the following **mock exam** to practice before the actual exam:
 
@@ -246,7 +254,7 @@ Use the following **mock exam** to practice before the actual exam:
 #### 🔹 1. Innledning (Introduction)
 
 - *I teksten blir det tatt opp spørsmålet om …* → The text raises the question of …
-- *Dette er et aktuelt tema som mange har meninger om.* → This is a current topic that many have opinions about.
+- *Dette er et <span class="env-green">aktuelt</span> tema som mange har meninger om.* → This is a current topic that many have opinions about. [注意 adj «aktuelt» neutral form]
 - *Mange mener at …* → Many believe that …
 - *Noen hevder at …, mens andre mener at …* → Some argue that …, while others think that …
 - *Etter min mening bør vi …* → In my opinion, we should …
@@ -284,7 +292,8 @@ Use the following **mock exam** to practice before the actual exam:
 
   - <span class="env-green">*å legge til rette for*</span> → to facilitate, to make possible, to create conditions for
 
-    Skolen bør legge til rette for at alle elever får delta i aktivitetene. → The school should facilitate that all students can participate in the activities.
+    Skolen bør legge til rette for at alle elever får delta i aktivitetene.  
+    → The school should facilitate that all students can participate in the activities.
 
   - *å gjøre det mulig* → make it possible
  
@@ -298,9 +307,9 @@ Use the following **mock exam** to practice before the actual exam:
 
     ... bidrar til et bedre samfunn. → ... contribute to a better society.
 
-    God helse bidrar til et lykkelig live av mennesker. → ... contribute to a happy life of people.
+    God helse bidrar til et lykkelig liv av mennesker. → ... contribute to a happy life of people.
 
-  - *å fremme* utvikling / vekst / læring→ to promote, to advance
+  - *å fremme* utvikling / vekst / læring → to promote, to advance
 
     Myndighetene bør fremme likestilling mellom kvinner og menn. → Authorities should promote equality between women and men.
 
@@ -318,11 +327,18 @@ Use the following **mock exam** to practice before the actual exam:
   
   - å *sørge for at* → to ensure, to provide
 
-    Regjeringen må sørge for at alle har tilgang til helsetjenester. → The government must ensure that everyone has access to healthcare services.
+    Regjeringen må *sørge for at* alle har tilgang til helsetjenester.  
+    → The government must ensure that everyone has access to healthcare services.
   
   - *legge vekt på* → to emphasize, to stress
 
-    Skolen bør legge vekt på praktisk læring. → The school should emphasize practical learning.
+    Skolen bør *legge vekt på* praktisk læring. → The school should emphasize practical learning.
+  
+  - *å satse på noe* → to focus on sth; to invest in sth
+
+    Skolen bør *satse på å* utvikle elevenes kreativitet. → The school should focus on developing students' creativity.
+
+    Regjeringen bør *satse på å* forbedre utdanningssystemet. → The government should invest in improving the education system.
   
   - å sikre at → to secure, to ensure
 
@@ -332,16 +348,18 @@ Use the following **mock exam** to practice before the actual exam:
 
   - *Det er vesentlig for … at …* → It is essential for … that …
 
-    Det er vesentlig for elevenes læring at de får tilbakemelding fra læreren. → It is essential for students' learning that they receive feedback from the teacher.
+    *Det er vesentlig for* elevenes læring at de får tilbakemelding fra læreren.   
+    → It is essential for students' learning that they receive feedback from the teacher.
   
   - syn.: *avgjørende, nødvendig, kritisk, betydelig*
 
 - noe <span class="env-green">er grunnlaget for</span> alt annet → sth is the basis for everything else
 
-  - Utdanning er grunnlaget for alt annet fordi det gir folk kunnskap og ferdigheter. → Education is the basis for everything else because it gives people knowledge and skills.
-  - God helse er grunnlaget for et lykkelig liv. → Good health is the basis for a happy life.
+  - Utdanning *er grunnlaget for* alt annet fordi det gir folk kunnskap og ferdigheter. → Education is the basis for everything else because it gives people knowledge and skills.
+  
+  - God helse *er grunnlaget for* et lykkelig liv. → Good health is the basis for a happy life.
 
-- meningsfull → meaningful
+- meningsfull, meningsfullt, meningsfulle → meaningful
 
 - få betydning for ... → to have an impact on ...
 
@@ -350,9 +368,11 @@ Use the following **mock exam** to practice before the actual exam:
     Dette kan få stor betydning for miljøet. → This can have a big impact on the environment.
 
     Dette vil få stor betydning for hvordan folk tenker. → This will have a big impact on how people think.
+  
   - være av stor betydning for noe(n) → to be of great importance to sth/sb
 
     Utdanning er av stor betydning for samfunnets utvikling. → Education is of great importance to society's development.
+  
   - syn.: innflytelse, effekt, påvirkning
 
 ------
@@ -1182,10 +1202,10 @@ Jo før, jo heller.
 
 | Norsk     | English         |
 | --------- | --------------- |
-| dessuten  | moreover        |
 | derfor    | so              |
 | dermed    | so              |
 | dersom    | if              |
+| dessuten  | moreover        |
 | derimot   | on the contrary |
 | deretter  | after that      |
 
@@ -1622,11 +1642,23 @@ myndighetene i forbindelse med bygging av både industri, boliger og veier → t
 | i forhold til …                        | in relation to …                   |
 | i kontrast til …                       | in contrast to …                   |
 | være knyttet til noe(n)                | to be connected to sth/sb          |
+| å ha å gjøre med noe(n)                | to have to do with sth/sb; to be related to; to concern |
 
 <span class="env-green">Det er et problem knyttet til</span> fri vilje.  
 → There is a problem connected to free will.
 
+Problemet *har å gjøre med* fri vilje.  
+→ The problem has to do with free will.
 
+Hva har dette *å gjøre med* meg?  
+→ What does this have to do with me?
+
+«å ha å gjøre med noe» has other meanings:
+
+- to deal with sth/sb; 
+
+  Detter er en kompleks situasjon vi har å gjøre med.  
+  → This is a complex situation we are dealing with.
 
 --------------------------------------------------------------------------------
 
@@ -1947,22 +1979,26 @@ påvirkning → impact; influence
 
 **å berøre** (active); berøres (passive)
 
+--------------------------------------------------------------------------------
+
 å berøre, berører, berørte, har berørt → to affect; to touch (emotionally); to concern
 
-1. 影响
+1.  影响
 
-- Streiken *berørte* alle elevene i byen.  
-  → The strike affected all the students in the city.
+    - Streiken *berørte* alle elevene i byen.  
+      → The strike affected all the students in the city.
 
-- Alle ansatte *berøres av* de nye reglene.  
-  → All employees are affected by the new rules.
+    - Alle ansatte *berøres av* de nye reglene.  
+      → All employees are affected by the new rules.
 
-- Alle ansatte *blir berørt* av de nye reglene.  
-  → All employees are affected by the new rules.
+    - Alle ansatte *blir berørt* av de nye reglene.  
+      → All employees are affected by the new rules.
 
-2. (物理意义上) 摸，触碰
+2.  (物理意义上) 摸，触碰
 
 形近词 berømmelse → fame, celebrity
+
+--------------------------------------------------------------------------------
 
 *blir rammet av noe* (negative) → impacts; be affected/bit by storms, disasters, crises, illness, accidents, or other misfortunes.
 
@@ -1989,17 +2025,17 @@ Konflikten gikk utover vennskapet deres. → The conflict harmed their friendshi
 
 ## 时间的表述
 
-| Norsk              | English                                | 中文             |
-| ------------------ | -------------------------------------- | ---------------- |
+| Norsk              | English                                | 中文              |
+| ------------------ | -------------------------------------- | ----------------- |
 | i ***de** siste årene* | In the last few years                | 最近几年        |
 | i **de** siste dagene/månedene | In the last few days/months  | 最近几天/几个月  |
-| i det siste        | recently, lately                       | 最近             |
-| Tidligere ...      | Earlier / Previously / In the past ... | 以前，过去，早先   |
-| For to år siden    | Two years ago                          | 两年前           |
-| på lang/kort sikt  | on the long/short term                 |                 |
-| på forhånd         | in advance                             | 提前             |
-| i etterkant       | afterwards                             | 事后             |
-
+| i det siste        | recently, lately                       | 最近              |
+| tidligere ...      | earlier / previously / in the past ... | 以前，过去，早先    |
+| for to år siden    | two years ago                          | 两年前            |
+| for to dager siden | two days ago                           | 两天前            |
+| på lang/kort sikt  | on the long/short term                 |                  |
+| på forhånd         | in advance                             | 提前              |
+| i etterkant        | afterwards                             | 事后              |
 
 
 
