@@ -1603,17 +1603,17 @@ Interessene til alle bør beskyttes. → The interests of all should be protecte
 
 Vi bør ha hensyn til de eldre i samfunnet. → We should take the elderly into consideration in society.
 
-de eldre / yngre / rike / fattige
-
-- de + adj plural = 一类人
-
 Alle har like muligheter til å lykkes. → Everyone has equal opportunities to succeed.
+
+<span class="env-green">**de + adj plural**</span> → 一类人
+
+- de eldre / yngre / rike / fattige
 
 fattig [fa`t:i] → poor
 
 Staten bør sørge for at det ikke er store forskjeller mellom fattige og rike. → The state should ensure that there are not large differences between the poor and the rich. 贫富差距
 
-unge ves ungdommer
+**unge vs. ungdommer**
 
 - unge = young people (generally, kids to 30 years old)
 - ungdommer = teenagers (more specifically, 13--20 years old)

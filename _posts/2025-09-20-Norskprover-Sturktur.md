@@ -352,7 +352,9 @@ Du får **to timer** (2 hours) til å svare på to oppgaver for B1–B2 nivå:
 
    Write an e-mail where you give reasons for opinions.
 
-   - Need to  describe what your problem is, don't assume extra background, be specific about your problem, can be creative to add details about your problem.
+   - Need to describe what your problem is, do NOT assume that the sensor knows any background of the situation, be specific about your problem, can be creative to add details about your problem.
+     
+     假设收件人啥也不知道。要具体描述你的问题是什么，可以创造一些细节来让你的故事更有说服力。
 
 - **Oppgave 2**: argumentere for et synspunkt (valg mellom to oppgaver, ca 250 - 350 ord)
 
@@ -364,6 +366,8 @@ Du får **to timer** (2 hours) til å svare på to oppgaver for B1–B2 nivå:
 Q: 是不是字数多写一些更好?  
 A: <span class="env-orange">Not necessarily!</span> <span style="color: #00CC66;">按要求写即可。</span> 字数过多可能会导致语法错误增多，影响评分。
 
+
+读一些范文，借鉴他们的结构和表达方式。
 
 **Strategy heard from sb** (might worth a try)
 
@@ -404,15 +408,35 @@ Tips: skrive ned dine ideer før du skriver.
 - Ikke «Kjære»
 - Husk å skriv hilsen + navn (et fiktivt navn)
 - Tydelig hvem du skrive til og hvem du er
-- Imagine a situation, <span class="env-green">make up details</span>, and write a convicing story about your case
+- ca. 100 ord
+- komme fort til saken
+- <span class="env-green">Imagine a situation, make up details</span>, and write a convicing story about your case
   - Forklar hva saken er
   - Kom gjerne med forslag til løsning
 - Ikke bruk idiomer 避免用俚语，俚语不够正式，
 - Ikke bruk forkortelse (mvh., vh., osv., mm.) 避免使用缩写
 
-Nice opening sentence:
+**Nice opening sentence:**
 
-- Jeg henvender meg til dere fordi jeg har observert at ...
+- Mitt navn er [et fiktivt navn] og jeg har vært hunde hos dere i 15 år. 
+- Jeg *henvender meg* til dere fordi jeg har observert at ... [note "henvende meg" reflexive verb]
+- Jeg skriver til dere fordi jeg vil uttrykke min misnøye / bekymring med at ...
+
+**Closing phrases:**
+
+- På forhånd takk for hjelpen.
+- Jeg håper på en snarlig løsning på dette problemet.
+- Jeg ser frem til å høre fra dere.
+
+**Commonly used phrases in klagebrev:**
+
+- skaper store problemer for meg / i min jobb
+- å forstyrre arbeidsflyten min
+- å forbedre ... for å unngå at dette skjer igjen
+
+**Solve the problem soon:**
+
+- Jeg håper at dere fikser de tekniske problemene så snart som mulig.
 
 --------------------------------------------------------------------------------
 

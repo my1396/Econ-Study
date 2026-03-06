@@ -534,9 +534,67 @@ min først<span class="env-green">e</span> gang (posessive 在前，more common 
 første etasje → first floor  
 andre mulighet → second opportunity
 
+
+## Adverb
+
+Måteadverb er ofte lik et adjektiv i intetkjønn.
+
+Adverbs are invariant (bøyes ikke): <span class="env-green">**NO**</span> inflection for gender (kjønn), number (tall), or definiteness.
+
+
+Adverbs have comparative and superlative forms; same endings as adjectives;
+
+|                     | Comparative              | Superlative               |
+| ------------------- | ------------------------ | ------------------------- |
+| Han snakker høyt.   | Hun snakker høy**ere**.  | Jeg snakker høy**est**.   |
+| Hun skriver pent.   | Han skriver pen**ere**.  | Jeg skriver pen**est**.   |
+| Jeg løp fort.       | Hun løp fort**ere**.     | Han løp fort**est**.      |
+
+
+"Lenger" and "lengst" are comparative and superlative forms of two different adverbs: "lenge" (time) and "langt" (distance).
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2"></th>
+      <th class="header-text">Komparativ</th>
+      <th class="header-text">Superlativ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Tid</strong></td>
+      <td>lenge</td>
+      <td rowspan="2">lenger</td>
+      <td rowspan="2">lengst</td>
+    </tr>
+    <tr>
+      <td><strong>Distanse</strong></td>
+      <td>langt</td>
+    </tr>
+  </tbody>
+</table>
+
+
+Ex. 
+
+| Adverb             | Comparative            | Superlative             |
+| ------------------ | ---------------------- | ----------------------- |
+| Jeg sov i 7 timer. | Tom sov i 8 timer.     | Eva sov i 9 timer.      |
+| Jeg sov **lenge**. | Tom sov **lenger**.    | Eva sov **lengst**.     |
+| Jeg løp 5 km.      | Tom løp 6 km.          | Eva løp 7 km.           |
+| Jeg løp **langt**. | Tom løp **lenger**.    | Eva løp **lengst**.     |
+
+- Jeg har sovet lenger enn jeg pleier. (adv., tid)
+- Hun har løpt lenger enn meg. (adv., distanse)
+- Turen var lengre enn jeg trodde. (adj., distanse)
+
 --------------------------------------------------------------------------------
 
 ## Possessive 所有格
+
+
+Genitiv (genitive) 表示所属关系，英语中通常用 's 来表示所有格。
 
 ### 前置 possessive «-s»
 
@@ -564,11 +622,20 @@ Lars’ hus → Lars's house or Lars' house
 
 ### 后置 possessive «til»
 
-Variation: definite noun + til + owner
+Variation: definite noun + **til** + owner
 
 bok**en** til Maria → the book of Maria  
 bil**en** til læreren → the car of the teacher  
 leketøy**et** til barnet → the toy of the child
+
+一般来说，后置 possessive 用 "til" 表示从属，但也有一些例外:
+
+USAs president → presidenten *i* USA  
+skogens trær → trærne *i* skogen  
+bilens farge → fargen *på* bilen  
+bussens sjåfør → sjåføren *på* bussen  
+avdelingens leder → lederen *for* avdelingen
+
 
 --------------------------------------------------------------------------------
 
@@ -819,6 +886,34 @@ Det er en bekymring at nettsider samler personlige data uten samtykke.
 
 - Arrangementet tiltrekker seg unge mennesker.  
   → The event attracts young people.
+
+
+
+| Norsk                         | English                                |
+| ----------------------------- | -------------------------------------- |
+| å henvende seg til noen       | to refer to; to appeal to; to address  |
+
+- Jeg vil *henvende meg* til kundeservice.  
+  → I want to contact customer service.
+- Alle som har spørsmål, kan *henvende seg* til læreren.  
+  → Anyone who has questions can refer to the teacher.
+- Hun *henvender seg* til legen for råd.  
+  → She appeals to the doctor for advice.
+
+| Norsk                          | English                               |
+| ------------------------------ | ------------------------------------- |
+| å bestemme seg for å gjøre noe | to decide to do something             |
+
+å bestemme, bestemmer, bestemte, har bestemt [过去式 "mm" 变 "m"]
+
+- Jeg bestemte meg for å lære norsk.  
+  → I decided to learn Norwegian. [注意 «for å», 不是 «å»]
+
+«Bestemme» 当 "determine sth" 意思讲时，不带反身代词
+
+- Regjeringen bestemmer skattene. → The government determines the taxes.
+- Dommeren bestemte straffen. → The judge determined the sentence.
+
 
 --------------------------------------------------------------------------------
 
@@ -1147,7 +1242,15 @@ Hvem (who)
 
 Hva (what)
 
-Hvilken / hvilket / hvilke (which)
+Hvilken / hvilket / hvilke (which) → 根据所指代的名词的性别和数量选择正确的形式
+
+
+| Gender / Number      | Example                        |
+| -------------------- | ------------------------------ |
+| Mas. / Fem. Singular | **Hvilken dag** er det i dag?  |
+| Neuter Singular      | **Hvilket hus** er ditt?       |
+| Plural               | **Hvilke bøker** leser du?     |
+
 
 hvordan (how) adv. 
 
@@ -1171,7 +1274,8 @@ How long:
 
 «**Om**» is used to introduce indirect questions, and it can be translated as "if" or "whether" in English.
 
-❗You <span class="env-orange">cannot</span> use "hvis" to introduce indirect questions. In Norwegian, "hvis" is only used for conditional sentences.
+❗You <span class="env-orange">cannot</span> use "hvis" to introduce indirect questions. 
+In Norwegian, "<span class="env-green">hvis</span>" is <span class="env-green">only used for conditional sentences</span>.
 
 - Jeg luer på <span class="env-green">om</span> det kommer til å regne i morgen.  
   → I wonder if it is going to rain tomorrow.
@@ -1440,6 +1544,9 @@ Det er ingen biler foran. → There are no cars in front.
 --------------------------------------------------------------------------------
 
 ### Til
+
+
+"**verb + til å gjøre noe**"
 
 | Norsk                  | English                      |
 | ---------------------- | ---------------------------- |
@@ -2117,6 +2224,7 @@ Jeg ser etter nøklene mine.
 
 ### for
 
+
 | Norsk             | English                 |
 |-------------------|-------------------------|
 | være kjent for    | be known for            |
@@ -2134,6 +2242,20 @@ Alternativ form:
 
 Jeg har vanskeligheter <span class="env-green">**med å**</span> forstå dialekter.  
 → I have difficulties understanding dialects.
+
+
+
+**for å gjøre noe** 
+
+| Norsk                            | English                            |
+| -------------------------------- | ---------------------------------- |
+| å bestemme seg for å gjøre noe   | decide to do sth                   |
+| å forberede seg for å gjøre noe  | prepare to do sth                  |
+
+
+Vi har bestemt oss for å flytte.  
+→ We have decided to move.
+
 
 
 | Norsk                    | English                 |
@@ -2167,8 +2289,8 @@ Jeg har vanskeligheter <span class="env-green">**med å**</span> forstå dialekt
 - være bekymret <span class="env-green">på vegne av noen</span> → be worried on behalf of sb
 
 
-| Norsk             | English                 |
-|-------------------|-------------------------|
+| Norsk                 | English             |
+| --------------------- | ------------------- |
 | være morsomt for noen | be fun for sb       |
 
 Det er morsomt for barna å gå på sirkus.  
@@ -2795,7 +2917,10 @@ Det er *like* mange elever i år *som* i fjor.
 
 **Det Samme.**
 
-- Refer to sth already mentioned
+- «det samme» 单独使用时，表示 "the same thing." Refer to sth already mentioned or understood in the context.
+  
+  Vi menner *det samme*.
+  → We mean the same thing.
 
   Jeg liker Kaffe. -- Jeg liker *det sammen*.
   → I like coffee. -- I like the same (thing).
@@ -2803,7 +2928,12 @@ Det er *like* mange elever i år *som* i fjor.
   Han gjorde leksene sine, og jeg gjorde *det samme*.  
   → He did his homework, and I did the same.
 
-- det samme + som → the same + as
+- In greetings: Same to you!
+
+  God jul! -- Det samme!  
+  → Merry Christmas! -- Same to you! / You too!
+
+- **det samme + som** → the same + as
 
   Det er ikke *det sammen som* å jobbe hjemmefra.  
   → It is not the same as working from home.
@@ -2816,11 +2946,32 @@ Det er *like* mange elever i år *som* i fjor.
   Jeg har på meg den samme kjolen som i går.  
   → I am wearing the same dress as yesterday.
 
-- In greetings: Same to you!
+--------------------------------------------------------------------------------
 
-  God jul! -- Det samme!  
-  → Merry Christmas! -- Same to you! / You too!
+"**det + adj. definite form**" → the ... thing
 
+det samme/riktige/gode/rare/beste/verste/viktigste  
+→ the same/right/good/strange/best/worst/most important thing
+
+Det beste er å vente.  
+→ The best thing is to wait.
+
+Det viktigste er helse.  
+→ The most important thing is health.
+
+Du gjorde det riktige.  
+→ You did the right thing.
+
+Det vanskelige er å starte.  
+→ The difficult thing is to start.
+
+Det gode er vi har tid.  
+→ The good thing is we have time.
+
+有点儿像 "**de + adj. plural**" 表示 "一类人"
+
+de unge/yngre/eldre/rike/fattige  
+-> the young/younger/older/rich/poor people
 
 --------------------------------------------------------------------------------
 

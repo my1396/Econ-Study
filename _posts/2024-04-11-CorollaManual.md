@@ -26,7 +26,7 @@ Download PDF: <https://www.toyota-europe.com/customer/manuals>
 **停止发动机**
 
 1. 完全停止车辆。
-2. 将换档杆换至 <span style='color:#008B45'>P 档</span>。
+2. 将换档杆换至 <span class="env-green">P 档</span>。
 3. 按下发动机开关。发动机将停止且仪表显示将消失。
 4. 松开制动踏板，检查并确认多信息显示屏上未显示 “ACCESSORY” 或 “IGNITION ON”。
 
@@ -222,7 +222,7 @@ Auto 头灯，日间行驶灯，自动启动和关闭
 
 #### **雾灯**
 
-<span style='color:#008B45'>左侧操控杆</span>，上下转动调节环。
+<span class="env-green">左侧操控杆</span>，上下转动调节环。
 
 档位：1 关闭 $\rightarrow$ 2. 前雾灯 $\rightarrow$ 3. 前雾灯+后雾灯
 
@@ -242,7 +242,7 @@ Auto 头灯，日间行驶灯，自动启动和关闭
 
 1. 启用 / 禁用车门位置
 
-   启用：后车内灯与前车内灯同时点亮 / 熄灭。前车内灯和后车内灯车门位置启用的情况下，<span style='color:#008B45'>打开车门</span>，此灯点亮。
+   启用：后车内灯与前车内灯同时点亮 / 熄灭。前车内灯和后车内灯车门位置启用的情况下，<span class="env-green">打开车门</span>，此灯点亮。
 
 2. 打开 / 关闭此灯
 
@@ -270,7 +270,7 @@ Auto 头灯，日间行驶灯，自动启动和关闭
 
 **防止蓄电池电量耗尽**
 
-发动机开关关闭时，如果车内灯仍点亮，则 20 分钟后将自动熄灭。[此功能不甚可靠。建议<span style='color:#008B45'>自行确保</span>灯光在<u>发动机关闭</u>的情况下，是关闭的。]
+发动机开关关闭时，如果车内灯仍点亮，则 20 分钟后将自动熄灭。[此功能不甚可靠。建议<span class="env-green">自行确保</span>灯光在<u>发动机关闭</u>的情况下，是关闭的。]
 
 
 
@@ -345,6 +345,25 @@ Operating the lever can use the **rear window wiper** or the washer.
 
 打开雨刷：转动 Operating the <img src="https://drive.google.com/thumbnail?id=1Fa0TZWvXFCi_y8JZ-qnCYFTLKXHcyBm9&sz=w1000" alt="No alt supplied for Image" style="zoom:50%;" /> switch.
 
+[换前雨刷](https://b23.tv/prQLgjj)
+
+注意: 安装前在雨刮臂处垫一块毛巾，防止安装过程回弹打碎挡风玻璃。
+
+
+[换后雨刷](https://b23.tv/oZGIoMM)
+
+前雨刷规格: 28/14 
+
+后雨刷规格: 12 
+
+[规格查询](https://allwipersize.com/toyota/corolla)
+
+
+The wiper blade is a wearing part that should be replaced every 12 months, but the recommendation is to replace the wiper blades every 6 months, e.g. at the same time seasonal tyres are changed.
+
+
+
+--------------------------------------------------------------------------------
 
 
 **USB Port**
@@ -357,13 +376,16 @@ Operating the lever can use the **rear window wiper** or the washer.
 
    Use this for connecting iPod, USB memory, protable audio player.
 
-2. A second USB is found under the centre armrest in the storage area but this is only for charging devices.
+2. A second USB is found under the centre **armrest** in the storage area but this is only for charging devices.
 
-   This is for charging only.
+   This is **for charging only**.
+   
+   There is a **cigarette lighter socket** next to the USB port. The cigarette lighter supports 10A, 120W max.
+   You can use an adapter to convert it to a fast charging USB port.
 
+--------------------------------------------------------------------------------
 
-
-后视镜
+**后视镜**
 
 <img src="https://drive.google.com/thumbnail?id=1yCJDPqzenill51NKanBio3tJzLUe2wEb&sz=w1000" alt="Rear mirror" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
 
@@ -375,9 +397,9 @@ B 展开
 
 也可以手动掰。
 
+--------------------------------------------------------------------------------
 
-
-调整方向盘高度和位置
+**调整方向盘高度和位置**
 
 1. 握住方向盘并向下推释放杆。
 
@@ -398,6 +420,7 @@ B 展开
 > 否则，方向盘可能会突然移动，从而引发事故并导致严重伤害甚至死亡。此外，如果方向盘未牢固锁止，喇叭可能不响。
 
 
+--------------------------------------------------------------------------------
 
 
 
@@ -444,7 +467,7 @@ pull 一般是往上拉，但也有可能是往下拉
 
 只在必要时使用空调，如此有助于减少汽油过度消耗。
 
-- 夏季时：天气炎热时请使用<span style='color:#008B45'>**车内空气再循环模式 (F)**</span>。刚开始打开空调时可以用外循环加快降温，此时车内温度高于车外；等温度降下来以后，开启内循环模式隔绝外部热空气。如此有助于减轻空调系统的负担并且降低油耗。
+- 夏季时：天气炎热时请使用<span class="env-green">**车内空气再循环模式 (F)**</span>。刚开始打开空调时可以用外循环加快降温，此时车内温度高于车外；等温度降下来以后，开启内循环模式隔绝外部热空气。如此有助于减轻空调系统的负担并且降低油耗。
 
 - 冬季时：由于汽油引擎暖车前以及车内变暖前，汽油引擎不会自动熄火， 因此会消耗燃油，此外，藉由避免过度使用暖气，亦可改善油耗。
 
@@ -453,10 +476,10 @@ pull 一般是往上拉，但也有可能是往下拉
 | 按钮         | 功能                                                         |
 | ------------ | ------------------------------------------------------------ |
 | <kbd>C</kbd> | “DUAL” switch                                                |
-| <kbd>D</kbd> | Press <span style='color:#008B45'>“A/C” switch</span> to turn on cooling and dehumidification function.<br />If “A/C” switch is NOT pressed, the system will blow ambient temperature air or heated air. |
+| <kbd>D</kbd> | Press <span class="env-green">“A/C” switch</span> to turn on cooling and dehumidification function.<br />If “A/C” switch is NOT pressed, the system will blow ambient temperature air or heated air. |
 | <kbd>E</kbd> | Outside air mode switch                                      |
 | <kbd>F</kbd> | Recirculated air mode switch                                 |
-| <kbd>G</kbd> | <span style='color:#008B45'>Airflow mode</span> control switch |
+| <kbd>G</kbd> | <span class="env-green">Airflow mode</span> control switch |
 | <kbd>H</kbd> | Fan speed increases switch                                   |
 | <kbd>I</kbd> | Fan speed decreases switch                                   |
 | <kbd>J</kbd> | “FAST/ECO” switch                                            |
@@ -471,7 +494,7 @@ pull 一般是往上拉，但也有可能是往下拉
 
 
 
-<span style='color:#008B45'>**除雾**</span>
+<span class="env-green">**除雾**</span>
 
 <kbd>L</kbd> Windshield defogger switch 前挡风玻璃除雾
 
@@ -485,7 +508,7 @@ pull 一般是往上拉，但也有可能是往下拉
 
 
 
-<span style='color:#008B45'>**空气再循环模式**</span>
+<span class="env-green">**空气再循环模式**</span>
 
 <kbd>F</kbd> Recirculated air mode switch 车内空气再循环模式
 
@@ -505,7 +528,7 @@ pull 一般是往上拉，但也有可能是往下拉
 
 
 
-Using the Climate Preference <span style='color:#008B45'>**节能空调模式**</span>。空调是以降低风速等的低油耗优先方式控制。
+Using the Climate Preference <span class="env-green">**节能空调模式**</span>。空调是以降低风速等的低油耗优先方式控制。
 
 - 按 <kbd>N</kbd> 或者 <kbd>J</kbd> 调整到节能模式。
 
@@ -566,11 +589,11 @@ LTA(车道保持辅助)
 
 <img src="https://drive.google.com/thumbnail?id=1ANKPf3cnS5awHJxj6xYQJ7VgKZdGHDwo&sz=w1000" alt="巡航控制" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
-1. 按下巡航控制<span style='color:#008B45'>主开关</span>，激活巡航控制。
+1. 按下巡航控制<span class="env-green">主开关</span>，激活巡航控制。
 
    动态雷达巡航控制指示灯将点亮，且多信息显示屏上将显示信息。再次按下此开关，解除巡航控制。
 
-2. 操作加速踏板，加速或减速至所需车速(约 30 km/h [公里/小时] 或更高)，然后按下 “<span style='color:#008B45'>-SET</span>” 开关设定速度。
+2. 操作加速踏板，加速或减速至所需车速(约 30 km/h [公里/小时] 或更高)，然后按下 “<span class="env-green">-SET</span>” 开关设定速度。
 
    巡航控制 “SET” 指示灯将点亮。 松开开关时的车速即为**设定速度**。
 
@@ -669,7 +692,7 @@ As the key may be damaged if the following procedure is not performed properly, 
 
 | 部件 | 用处                                            |
 | ---- | ----------------------------------------------- |
-| A    | <span style='color:#008B45'>喷洗液</span>储液罐 |
+| A    | <span class="env-green">喷洗液</span>储液罐 |
 | B    | 发动机冷却液储液罐                              |
 | C    | 保险丝盒                                        |
 | D    | 发动机机油加注口盖                              |
@@ -686,7 +709,7 @@ As the key may be damaged if the following procedure is not performed properly, 
 
 - 为防止严重损坏发动机，应当定期检查机油油位。
 
-- 发动机处于<span style='color:#008B45'>工作温度</span>且已<span style='color:#008B45'>关闭</span>的情况下，用机油尺检查机油油位。
+- 发动机处于<span class="env-green">工作温度</span>且已<span class="env-green">关闭</span>的情况下，用机油尺检查机油油位。
 
 **检查发动机机油**
 
@@ -794,9 +817,9 @@ At slow speeds or when traveling down a gentle slope, the gasoline engine is sto
 
 > 在低速或是行驶于缓降坡时，电动马达驱动车辆。
 
-The gasoline engine is predominantly used. The electric motor (traction motor) charges the <span style='color:#008B45'>**hybrid battery (traction battery)**</span> as necessary.
+The gasoline engine is predominantly used. The electric motor (traction motor) charges the <span class="env-green">**hybrid battery (traction battery)**</span> as necessary.
 
-> **主要使用汽油引擎**。必要时，电动马达会对<span style='color:#008B45'>**油电复合动力电池 (牵引电池)**</span> 进行充电。
+> **主要使用汽油引擎**。必要时，电动马达会对<span class="env-green">**油电复合动力电池 (牵引电池)**</span> 进行充电。
 
 When the accelerator pedal is depressed heavily, the power of the hybrid battery (traction battery) is added to that of the gasoline engine via the electric motor (traction motor).
 

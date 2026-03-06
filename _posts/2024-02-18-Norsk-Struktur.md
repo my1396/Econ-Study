@@ -1024,6 +1024,13 @@ Hun har skadet seg, og **av den grunn** kan hun kanskje ikke løpe maraton.
 Poteter gjør kosthodet sunnere og billigere. **Årsaken er** at de er sunne og rimelige.  
 → Potatoes make the diet healthier and cheaper. The reason is that they are healthy and affordable.
 
+«Siden» means "since", usually placed at the *beginning* of a sentence. It refers to a cause that is already known or obvious to the listener.
+
+**Siden** du er ferdig med oppgaven, kan du sette over kaffen.  
+→ Since you've finished the tasks, you can put the coffee on (meaning start making coffee). 
+
+**Siden** han hadde feber, kunne han ikke gå på jobb.  
+→ Since he had a fever, he couldn't go to work.
 
 --------------------------------------------------------------------------------
 
@@ -2155,6 +2162,7 @@ Dette gjelder også i Norge. → This also applies in Norway.
 | av den grunn ... + 倒装                 | because of this …                  |
 | på grunn av noe(n)                     | because of sth/sb                  |
 | på grunn av at + clause                | because / since + 从句              |
+| Det skyldes at ...                     | It is because of that ...          |
 | den vanligste årsaken til .... er ...  | the most common cause of … is …    |
 | <span class="env-green">**hovedårsaken**</span> til at … er at ... | the major reason why … is … |
 | <span class="env-green">**hovedargumentet**</span> for … at … | the main argument for … is that … |
@@ -2174,6 +2182,24 @@ Ex «som følge av»
 - *Som følge av utviklingen i samfunnet, trenger vi nye regler.* 
 	(Due to developments in society, we need new rules.)
 
+--------------------------------------------------------------------------------
+
+**å skyldes, skyldes, skyldtes, har skyldtes** → to be due to; to be caused by
+
+"d" silent 不发音
+
+Bussen var forsinket. Det **skyldtes** at det hadde vært en ulykke på veien.  
+→ he bus was delayed. It was because there had been an accident on the road.
+
+可以引导句子或者名词短语
+
+Bussen var forsinket. Det **skyldtes** en ulykke på veien.  
+→ The bus was delayed. It was because of an accident on the road.
+
+Jeg tror denne milde vinteren **skyldes** drivhuseffekten.  
+→ I think this mild winter is due to the greenhouse effect.
+
+--------------------------------------------------------------------------------
 
 
 ### 导致…结果

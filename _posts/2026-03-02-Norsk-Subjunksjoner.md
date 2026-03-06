@@ -8,6 +8,9 @@ title: "Norsk: Subjunksjoner"
 
 Seven groups of subordinating conjunctions in Norweigan
 
+"Konjunksjoner" 连接两个独立的句子， "Subjunksjoner" 引导一个从句，连接主句和从句。
+
+
 ## Tidssubjunksjoner
 
 表时间 tid
