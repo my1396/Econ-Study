@@ -12,7 +12,7 @@ This post contains useful phrases and arguments you can reuse in various topics 
 
 ## Familie og utdanning
 
-1.  Eer det viktig at mor og far deler på permisjonen nå barna er små? Hvorfor / hvorfor ikke?
+1.  Er det viktig at mor og far deler på permisjonen nå barna er små? Hvorfor / hvorfor ikke?
 
     - Barn trenger å knytte et nært bånd til foreldrene sine, noe som best oppnås når foreldrene tar foreldrepermisjon. Denne dedikerte tiden gjør det mulig for foreldrene å tilbringe tid med barnet sitt, og fremmer en sterk og varig forbindelse.  
       → Children need to form a close bond with parents, which is best achieved when parents take maternity or paternity leave. This dedicated time allows parents to spend time with their kid, fostering a strong and lasting connection.
@@ -103,7 +103,7 @@ robust [robˈust] adj. – robust, sturdy, strong
 
 --------------------------------------------------------------------------------
 
-Det sosiale er viktigere enn hvordan man <span class="env-green">presterer</span>. [N.B. «å prestere» means "to perform, achieve, do well"; while «å presentere» means "to present (a show, a talk, etc)"]
+Det sosiale er viktigere enn hvordan man <span class="env-green">presterer</span>. → The social aspect is more important than how one performs. [N.B. «å prestere» means "to perform, achieve, do well"; while «å pres<span class="env-green">en</span>tere» means "to present (a show, a talk, etc)"]
 
 | Norsk                                  | Engelsk                     |
 | -------------------------------------- | --------------------------- |
@@ -112,18 +112,18 @@ Det sosiale er viktigere enn hvordan man <span class="env-green">presterer</span
 være opptatt av tilbakemeldinger → *bry* seg om hva andre sier til deg 在意别人想法
 
 
-«bry seg om» = care about; mind
+«bry seg om» → care about; mind
 
 «bry» verb (bøying: bryr, brydde, har brydd)
 
-- Jeg bryr meg om deg. (I care about you.)
-- Hun bryr seg ikke om det. (she doesn't care about that.)
+- Jeg bryr meg om deg. → I care about you.
+- Hun bryr seg ikke om det. → she doesn't care about that.
 
 
 | dyd                   | 美德                 |
 | --------------------- | -------------------- |
 | beskjedenhet          | modesty              |
-| besluttsom /  bestemt | determined           |
+| besluttsom / bestemt  | determined           |
 | personlig egenskap    | personality          |
 | sosiale egenskaper    | social skills        |
 | jordnær               | realistic, pragmatic |
@@ -1307,7 +1307,7 @@ Hun *følte seg sårbar* etter å ha mistet jobben.
 
 区别于 «Utsatt»
 
-<span class="env-green">Utsatt for noe</span> → exposed to sth (danger or risk)
+<span class="env-green">være utsatt for noe</span> → exposed to sth (danger or risk)
 
 Huden er *utsatt for* frostskader.  
 → The skin is exposed to frostbite.
@@ -1318,7 +1318,7 @@ Huset ligger *utsatt til for* vind og storm.
 Barn er spesielt *utsatt for* smittsomme sykdommer.  
 → Children are especially vulnerable to infectious diseases.
 
-Han stod *utsatt* alene på fjellet i mørket.  
+Han sto *utsatt* alene på fjellet i mørket.  
 → He stood exposed alone on the mountain in the dark.
 
 --------------------------------------------------------------------------------
@@ -1363,7 +1363,7 @@ Common food:
 
 Et balansert kosthold er viktig for å <span class="env-green">holde seg frisk</span>. → A balanced diet is important to stay healthy.
 
-<span class="env-green">Fedme</span> blir et økende problem i mange land, og mange må ta medisiner for å kontrollere vekten sin. → Obesity is becoming an increasing problem in many countries.
+<span class="env-green">Fedme</span> blir et <span class="env-green">økende</span> problem i mange land, og mange må ta medisiner for å kontrollere vekten sin. → Obesity is becoming an increasing problem in many countries.
 
 Related words to «fedme»: <span class="env-green">fet</span> (adj, fat); å bli fet (to become fat); overvektig (adj, overweight); <span class="env-green">overvekt</span> (noun, overweight)
 

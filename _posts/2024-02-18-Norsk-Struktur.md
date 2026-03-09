@@ -303,11 +303,11 @@ Use the following **mock exam** to practice before the actual exam:
   
   - *bidra til* → contribute to, to help achieve
 
-    Regelmessig trening kan bidra til bedre helse. → Regular exercise can contribute to better health.
+    Regelmessig trening kan *bidra til* bedre helse. → Regular exercise can contribute to better health.
 
-    ... bidrar til et bedre samfunn. → ... contribute to a better society.
+    ... *bidrar til* et bedre samfunn. → ... contribute to a better society.
 
-    God helse bidrar til et lykkelig liv av mennesker. → ... contribute to a happy life of people.
+    God helse *bidrar til* et lykkelig liv av mennesker. → ... contribute to a happy life of people.
 
   - *å fremme* utvikling / vekst / læring → to promote, to advance
 
@@ -329,6 +329,8 @@ Use the following **mock exam** to practice before the actual exam:
 
     Regjeringen må *sørge for at* alle har tilgang til helsetjenester.  
     → The government must ensure that everyone has access to healthcare services.
+
+    区别于 å forsørge → to support, to provide for
   
   - *legge vekt på* → to emphasize, to stress
 
@@ -340,9 +342,10 @@ Use the following **mock exam** to practice before the actual exam:
 
     Regjeringen bør *satse på å* forbedre utdanningssystemet. → The government should invest in improving the education system.
   
-  - å sikre at → to secure, to ensure
+  - å si<span class="env-green">kr</span>e at → to secure, to ensure
 
     **Tiltakene** skal sikre at alle barn får en god utdanning. → The measures will ensure that all children receive a good education.
+
 
 - <span class="env-green">vesentlig</span> → significant, essential
 
@@ -412,7 +415,12 @@ Use the following **mock exam** to practice before the actual exam:
 - … kan gå *utover* … → to affect negatively; to harm;
 
 - *Noen mener dessuten at …* → Some people also believe that …
-- Noen mener at alle voksne bør jobbe og bidra, mens andre mener at <span class="env-green">det ikke kan gjelde generelt</span>.   
+
+- Det kan ikke gjelde generelt. → It cannot apply generally.
+  
+  Det kan ikke gjelde for alle. → It cannot apply to everyone.
+  
+  Noen mener at alle voksne bør jobbe og bidra, mens andre mener at <span class="env-green">det ikke kan gjelde generelt</span>.   
   → Some believe that all adults should work and contribute, while others think that it cannot apply generally.
 
 - *Det er motsatt av hva … ønsker.* → This is the opposite of what … wants.
@@ -423,6 +431,8 @@ Use the following **mock exam** to practice before the actual exam:
 
 - Det *skaper unødvendige problemer* både for arbeidsplassen og for samfunnet.   
   → It creates unnecessary problems for both the working place and the society.
+
+  Det fører til problemer.
 
 - There is no point in doing …
 
@@ -453,7 +463,7 @@ Use the following **mock exam** to practice before the actual exam:
     Det er meningsløst å krangle om småting. → It is pointless to argue about small things.
 
 
-- … blir et økende problem i mange land. → … is becoming an increasing problem in many countries.
+- … blir et *økende* problem i mange land. → … is becoming an increasing problem in many countries.
 
 - Det er *en bekymring* at … → There is concern that …
   
@@ -577,7 +587,7 @@ Derfor mener jeg at …
 
 Jeg ser for meg at ... → I imagine/envision that ...
 
-ut fra mitt perspektiv → From my perspective
+Fra mitt perspektiv ... → From my perspective ...
 
 en mer positiv *holdning* (a more positive attitude)
 
@@ -600,11 +610,11 @@ Etter min mening er det ikke snakk om *enten eller*, men ja takk, begge deler. �
 
 ex
 
-- Etter min erfaring er det viktig å øve hver dag for å lære et nytt språk.   
+- *Etter min erfaring* er det viktig å øve hver dag for å lære et nytt språk.   
   → According to my experience, it is important to practice every day to learn a new language.
-- Etter min erfaring fungerer denne metoden godt.   
+- *Etter min erfaring* fungerer denne metoden godt.   
   → Based on my experience, this method works well.
-- Ifølge min erfaring kan det være utfordrende å <span class="env-green">tilpasse seg</span> en ny kultur.   
+- *Ifølge min erfaring* kan det være utfordrende å <span class="env-green">tilpasse seg</span> en ny kultur.   
   → According to my experience, it can be challenging to adapt to a new culture.
 
 
@@ -713,7 +723,7 @@ Jeg er usikker *på* om ... → I am uncertain whether ...
 
 > imidlertid (meanwhile); <span class="env-green">likevel</span> (nonetheless); fremdeles (still); egentlig (actually); 
 >
-> men samtidig;
+> <span class="env-green">men samtidig</span> (but at the same time);
 
 
 Han kan bli oppfattet som arrogant, men *egentlig* er han bare sjenert. → He can be perceived as arrogant, but he is just shy. 
@@ -739,6 +749,16 @@ Han gikk på jobb **selv om** han hadde feber.
 
 --------------------------------------------------------------------------------
 
+«**Men samtidig**»
+
+Han er streng, **men samtidig** rettferdig. → He is strict, but at the same time fair.
+
+Oppgaven er krevende, **men samtidig** interessant. → The task is demanding, but at the same time interesting.
+
+Oppgaven er vanskelig. **Men samtidig** lærte jeg mye. → The task is difficult. But at the same time, I learned a lot.
+
+--------------------------------------------------------------------------------
+
 **Contrast** 对比
 
 > <span class="env-green">derimot</span> (on the contrary; however);  
@@ -749,12 +769,28 @@ Han gikk på jobb **selv om** han hadde feber.
 >
 > i motsetning til (in contrast to); til forskjell fra (unlike); i kontrast til (in contrast to); 
 
-*For noen er … viktige argumenter for dette, mens andre er opptatt av …* → *For some, … are important reasons, while others care about …*
+*For noen er … viktige argumenter for dette, <u>mens</u> andre er opptatt av …* → *For some, … are important reasons, <u>while</u> others care about …*
 
 på den **ene** siden …, mens <span class="env-green">på den **andre** siden</span> … → on the one hand …, while on the other hand … [注意 «siden» definite form]
 
 - På *den ene siden* er det bra for miljøet, mens på *den andre siden* kan det være dyrt.  
   → On the one hand, it is good for the environment, while on the other hand, it can be expensive.
+
+--------------------------------------------------------------------------------
+
+«**Mens**»
+
+1.  表示时间上的同时发生
+   
+    Han leste en bok, *mens* hun så på TV.  
+    → He was reading a book while she was watching TV.
+
+2.  表示对比
+
+    Han liker å reise, mens hun foretrekker å bli hjemme.  
+    → He likes to travel, while she prefers to stay at home.
+
+--------------------------------------------------------------------------------
 
 Han vil til Paris. Hun, **derimot**, vil til Roma.  
 → He wants to go to Paris. She, on the other hand, wants to go to Rome.
@@ -929,10 +965,30 @@ Du klarer ikke førerprøven **uten å** øve mye.
 
 > så lenge; 
 
+
+**“så lenge” + clause**: as long as / provided that / on the condition that ...; 
+
 - *Så lenge* du øver hver dag, vil du bli bedre i norsk.  
   → As long as you practice every day, you will get better at Norwegian. 
 
+- *Så lenge* du gjør ditt beste, er jeg fornøyd.  
+  → So long as you do your best, I am satisfied.
 
+- Du kan bli her *så lenge* du vil.  
+  → You can stay here as long as you want.  
+  (Here it expresses duration, not a condition.)
+
+- Vi klarer oss fint *så lenge* vi samarbeider.  
+  → We manage well so long as we cooperate.
+
+- *Så lenge* det ikke regner, går vi en tur.  
+  → So long as it does not rain, we will go for a walk.
+
+- Jobbene deres bør respekteres *så lenge* de forsørger seg selv.  
+  → Their jobs should be respected so long as they support themselves.
+
+- Jeg skal huske det *så lenge* jeg lever.  
+  → I will remember it as long as I live.
 
 --------------------------------------------------------------------------------
 
@@ -940,7 +996,9 @@ Du klarer ikke førerprøven **uten å** øve mye.
 
 表示必要条件
 
-> med mindre (formal); hvis ikke (spoken and casual); uten at; 
+> med mindre (unless; formal); hvis ikke (spoken and casual); 
+> 
+> uten at (without that; with sb doing sth); 
 
 Examples of «med mindre»:
 
@@ -1155,6 +1213,10 @@ Jeg skal **verken** til Paris **eller** til Roma.
 Vi har **verken** brød **eller** kaffe.  
 → We don't have either bread or coffee.
 
+**verken** før **eller** etter → neither before nor after
+
+- Jeg har aldri gjort noe slikt, verken før eller etter.  
+  → I have never done anything like that, neither before nor after.
 
 --------------------------------------------------------------------------------
 
@@ -1205,7 +1267,7 @@ Jo før, jo heller.
 
 --------------------------------------------------------------------------------
 
-区别几个形近词
+区别几个形近词 «der-» 开头
 
 | Norsk     | English         |
 | --------- | --------------- |
@@ -1333,6 +1395,9 @@ Det er *vesentlig* for … at …
 … har blitt *uvesentlige*, og … har blitt <span class="env-green">enda viktigere enn før</span>.   
 → … have become insignificant, and … has become even more important than before.
 
+
+Det finnes studier som viser <span class="env-green">viktigheten</span> av å **forebygge** og håndtere ... tidlig i livet.  
+→ There are studies that show the importance of **preventing** and managing ... early in life.
 
 --------------------------------------------------------------------------------
 
@@ -2267,7 +2332,7 @@ bøying: å volde, volder, voldte, har voldt
 
 Norsk er en <span class="env-green">forutsetning</span> for å få jobb i Norge. → Norwegian is a prerequisite for getting a job in Norway.
 
-**å forutsette at **+ clause → to assume that; to presuppose that
+**å forutsette at** + clause → to assume that; to presuppose that
 
 Hjemmekontor *forutsetter* at man jobber effektivt og ikke blir distrahert.  
 → Working from home presupposes that one works effectively and does not get distracted.
@@ -2279,25 +2344,6 @@ Det *forusetter* at du er kjent med reglene.
 → It assumes that you are familiar with the rules.
 
 
---------------------------------------------------------------------------------
-
-**“så lenge” + clause**: as long as / provided that / on the condition that ...; 
-
-- Så lenge du gjør ditt beste, er jeg fornøyd.  
-  → So long as you do your best, I am satisfied.
-
-- Du kan bli her så lenge du vil.  
-  → You can stay here as long as you want.  
-  (Here it expresses duration, not a condition.)
-
-- Vi klarer oss fint så lenge vi samarbeider.  
-  → We manage well so long as we cooperate.
-
-- Så lenge det ikke regner, går vi en tur.  
-  → So long as it does not rain, we will go for a walk.
-
-- Jobbene deres bør respekteres så lenge de forsørger seg selv.  
-  → Their jobs should be respected so long as they support themselves.
 
 --------------------------------------------------------------------------------
 

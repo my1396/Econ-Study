@@ -145,7 +145,7 @@ At B2 level the question and the listening text are **played only once**.
 
 - bevisst på / opptatt av: 在意 ✅
 - bli nødt til: have to
-- tvingt: forced to 
+- tvunget: forced to 
 
 
 
@@ -211,7 +211,7 @@ The main test is taken at one of three different levels:
   - Hva er rett, ifølge teksten?
   - Hva forstår vi av teksten?
 
-- Lukeoppgave – fyll inn riktig ord 填空
+- Lukeoppgave – fyll inn riktig ord 选词填空
 
   比如根据 årsak, følge, resultat, konklusjon, eller vurdering，选 subjunksjoner
 

@@ -56,4 +56,17 @@ Can be put at various places in a sentence:
 
 --------------------------------------------------------------------------------
 
+å være/bli nødt til → have to, be forced to
 
+- Jeg *er nødt til* å gå nå.  
+  → I have to go now.
+- Hun var nødt til å gjøre noe hvis hun skulle ha en fremtid i yrket.  
+  → She had to do something if she wanted to have a future in the profession.
+
+--------------------------------------------------------------------------------
+
+
+å holde av noen → være glad i noen 喜欢某人
+
+- Jeg holder av deg.  
+  → I care about you. / I love you.
