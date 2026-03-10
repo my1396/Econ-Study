@@ -295,6 +295,10 @@ Use the following **mock exam** to practice before the actual exam:
     Skolen bør legge til rette for at alle elever får delta i aktivitetene.  
     → The school should facilitate that all students can participate in the activities.
 
+    **å tilrettelegge for noe** → to facilitate sth
+
+    Skolen bør tilrettelegge for at alle elever får delta i aktivitetene.
+
   - *å gjøre det mulig* → make it possible
  
   - å *avsløre* en vei til noe → to reveal a way to sth
@@ -385,6 +389,12 @@ Use the following **mock exam** to practice before the actual exam:
 - *På den andre siden …* → On the other hand …
 
 - *Likevel finnes det ulemper …* → Nevertheless, there are disadvantages …
+
+- Men jeg synes at ... → But I think that ... [«Men» as **conjunction**, 后面接一个独立句子，<span class="env-green">正常语序</span>]
+  
+  *Likevel* synes jeg at ... → Nevertheless, I think that ... [«Likevel» as adv, V2 原则]
+
+  Jeg synes *imidlertid* at ... → However, I think that ...
 
 - Ulemper *med* … inkluderer … → Disadvantages of … include …
 

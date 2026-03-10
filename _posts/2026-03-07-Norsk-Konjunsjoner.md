@@ -16,12 +16,24 @@ title: "Norsk: Konjunksjoner"
 
 Konjunksjoner (conjunctions) connects two words, phrases, clauses and (whole) sentences. 
 
-
-<span class="env-orange">NO Inversion</span>
+‼️ <span class="env-orange">NO Inversion</span>
 
 ✅ I dag er det kaldt, men det **er** pent vær. (Today it is cold but sunny.)
 
 ❌ I dag er det kaldt, men er det pent vær. 
+
+
+✅ Nå bor han i Trondheim, og han **jobber** på NTNU.  
+✅ Nå bor han i Trondheim, og dessuten **jobber** han på NTNU.  
+❌ ~~Nå bor han i Trondheim, og **jobber** han på NTNU.~~  
+→ Now he lives in Trondheim, and he works at NTNU.
+
+
+More ex:
+
+- Men jeg synes at det ikke er nødvendig.  
+  → But I think that it is not necessary. [«Men» 可以放在句子开头]
+
 
 --------------------------------------------------------------------------------
 
@@ -52,6 +64,24 @@ In American English, a comma is used before the last item in a list.
 
 --------------------------------------------------------------------------------
 
+当两个句子的主语相同时，第二个句子可以省略主语
+
+Vi trenger ikke å gjenta det samme subjektet etter konjunksjoner, (og da trenger vi heller ikke *komma*).
+
+- Konferanseavgiften *er* 1 500 kroner **og** *dekker* lunsj begge dager.  
+  → The conference fee is 1,500 kroner and covers lunch both days. 
+- Hun vil gjerne *løpe* **og** *trene* styrke i kveld.  
+  → She would like to run and train strength tonight.
+
+Note that when the 2nd sentence start with sth other than the subject, the subject <span class="env-orange">cannot be omitted</span>.
+
+- Hun vil gjerne løpe i kveld, og *etterpå* vil **hun** trene styrke.
+  → She would like to run tonight, and afterwards she will train strength.
+
+
+
+
+--------------------------------------------------------------------------------
 
 ## så
 

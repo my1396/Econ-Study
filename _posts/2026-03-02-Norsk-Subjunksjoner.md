@@ -54,6 +54,24 @@ Seven groups of subordinating conjunctions in Norweigan
 *Mens* jeg vasker opp, kan du rydde i stua.  
 → While I wash the dishes, you can tidy up the living room.
 
+--------------------------------------------------------------------------------
+
+**da vs. når**
+
+- «da»: refers to a specific point in the <span class="env-green">past</span>
+  
+  Jeg *danset* ballet **da** jeg var liten.  
+  → I danced ballet when I was little. [in the past]
+
+- «når»: refers to a general time or repeated events; can also be used <span class="env-green">in the past or in the future</span>;
+  
+  Jeg *liker* å slappe av **når** jeg kommer hjem fra universitetet. → repeated events
+
+  Jeg *likte* å slappe av **når** jeg kom hjem fra universitetet. → in the past
+
+  Jeg *skal* ta eksamen **når** kurset er ferdig. → in the future
+
+--------------------------------------------------------------------------------
 
 ## Årsakssubjunksjoner
 
@@ -165,13 +183,44 @@ Det virker *som om* det kommer til å regne.
 
 ## Rules for Commas
 
-**When a comma is required:**
+**When a comma is <span class="env-green">required</span>:**
 
 1. when a subordinate clause precedes a main clause
+   
+   从句在前的时候，要加**逗号**分隔主句和从句。
+   从句在后，不需要逗号分隔主句和从句。
+   
+   Andreas jobbet hardt fordi han ville ha gode karakterer.  
+   → 从句在后，不需要逗号分隔主句和从句. 
+
+   Fordi Andreas ville ha god karakterer, jobbet han hardt.  
+   → 从句在前，要加**逗号**分隔主句和从句。注意主句动词提前，遵循 V2 原则。
+
 2. when a main clause is followed by a **non-restrictive** (非限定性) relative clause
    
-   Hun snakker med foreldrene sine, som bor i Oslo.  
+   Non-restrictive relative clauses provide additional information about a noun in the main clause, but they are <span class="env-orange">NOT essential</span> to identify the noun.
+   They are set off by commas.
+
+   非限定性关系从句跟的没有那么紧，所以用逗号与先行词分隔开来。
+
+   注意这个逗号指的是从句前的逗号，而不是从句后的逗号。
+
+   Hun snakker med foreldrene sine<span class="env-green">**,**</span> som bor i Oslo.  
    → She talks to her parents, who live in Oslo.
+   
+   非限定性 (有逗号):
+   
+   Bileierne, som for øvrig allerede betaler en årsavgift, må betale denne avgiften.  
+   → Car owners, who incidentally already pay road tax, must pay this fee.
+
+   限定性 (无逗号):
+
+   De bileierne som allerede har betalt årsavgift, må ikke betale mer.  
+   → Those car owners who have already paid road tax do not have to pay more.
+
+   关于从句后的逗号: 如果从句后面还有其他的主句成分，那么从句后面需要逗号分隔开来。
+
+   句型: [Noun + clause], [main verb ...]
 
 3. when a subordinate clause acts as an appositive (同位语) to a noun in the main clause
    
@@ -190,6 +239,25 @@ Det virker *som om* det kommer til å regne.
 
    «Det står bra til med oss,» sa hun.  
    → "We are doing well," she said.
+
+--------------------------------------------------------------------------------
+
+**Restrictive** (限定性) relative clauses are not set off by commas.
+
+Restrictive relative clauses narrow down a general noun to a specific one. 
+If you remove it, the sentence becomes too vague or its meaning changes entirely.
+
+Hun var en lærer som kunne sine ting.  
+→ She was a teacher who knew her stuff.
+
+En beslutning all må ta hver dag, er hva vi skal ta på oss.  
+→ A decision everyone has to make every day is what we should wear.
+
+Den gutten som kom med avisen, heter Jan.  
+→ The boy who came with the newspaper is called Jan.
+
+Den lille byen hvor vi bor, har tre kirker.  
+→ The small town where we live has three churches.
 
 --------------------------------------------------------------------------------
 

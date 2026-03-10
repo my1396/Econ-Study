@@ -137,7 +137,7 @@ Jenter og gutter bør få samme oppdragelse.
 
 - I det andre, forventer for menn og kvinner er mer like nå enn før. Tidligere var det mer tradisjonelle kjønnsroller, der menn ble forventet å være forsørgere og kvinner å ta seg av hjemmet og barna. Nå er det mer vanlig at både menn og kvinner jobber utenfor hjemmet og deler på husarbeidet og barneoppdragelsen. Derfor oppdragelsen bør være lik for begge kjønn.
 
-- Videre, ved å gi både jenter og gutter samme oppdragelse, kan vi bidra til å kjønnlikestilling og respekt. Dette fører til mindre distriminering og stereotyper basert på kjønn, og skaper et mer inkluderende samfunn der alle har like muligheter til å lykkes.
+- Videre, ved å gi både jenter og gutter samme oppdragelse, kan vi bidra til å kjønnlikestilling og respekt. Dette fører til mindre diskriminering og stereotyper basert på kjønn, og skaper et mer inkluderende samfunn der alle har like muligheter til å lykkes.
 
 - Sett utenifra, kan menns oppførsel virke feminin og kvinners oppførsel maskulin. Begge bryr seg stort om barn og familie. Begge er toppsjefer, gjør fysisk arbeid, jobber som politi og i militæret. Kvinner og menn har byttbare roller i det norske samfunnet. 
 
@@ -181,7 +181,7 @@ synm. : å slite; å streve;
 Hun anstrengte seg for å høre hva som ble sagt.  
 → She strained her ears to hear what was being said
 
-困难：vanskelighet, motstand, hindring
+困难: vanskelighet, motstand, hindring
 
 vurderes etter bokstavkarakterer → be graded using letter grades
 
@@ -202,7 +202,7 @@ klar og tydelig **kildehenvisning** → clear and explicit source referencing
 
 kritisk tenkning → critical thinking
 
-å bruke mye tid på forderedelser → to use lots of time on preparations
+å bruke mye tid på forberedelser → to use lots of time on preparations
 
 å pusse på noe → to polish sth; brush up sth
 
@@ -220,6 +220,12 @@ kritisk tenkning → critical thinking
 
 Lærerne vurderer elevenes **prestasjoner og fremgang** → the teachers evaluate the students' performance and progress
 
+fremgang(en) → uncount. 
+
+ha fremgang → to succeed, prosper, be doing well
+
+være i fremgang → to be making progress
+
 å rette opp → to correct, fix; implies *repairing consequences*, not just marking it as corrected.
 
 å rette noen feil → to correct (a specific error)
@@ -234,7 +240,7 @@ hard / brutal [brutˈal] konkurranse: vicious/fierce competition
 
 - stressende
 - aldri godt nok; alltid press for å gjøre det bedre
-- <span class="env-green">føler seg mindreverdig</span> hvis man ikke er like flink som andre → feel inferior if one is not as good as others 自卑感
+- <span class="env-green">føler seg mindreverdig</span> hvis man ikke er <span class="env-green">like flink</span> som andre → feel inferior if one is not as good as others 自卑感
 
 --------------------------------------------------------------------------------
 
@@ -289,7 +295,7 @@ Det er bedre at barna selv <span class="env-green">opplever glede av mestringen<
 **学习压力过大**
 
 > Jeg blir helt fortvilet over de kravene som stilles til elevene i dagens samfunn.  
-> Det unge utsettes for så mye press fra alle kanter at det til slutt kan komme til å gå utover den psykiske helsa.
+> De unge utsettes for så mye press fra alle kanter at det til slutt kan komme til å gå utover den psykiske helsa.
 >
 > - å bli fortvitlet over: be desparate about …
 > - å utsettes for så mye press: to undergo so much stress
@@ -443,6 +449,8 @@ fremgangsrik karriere: successful career
 
 en forretning: business  
 en bedrift / <span class="env-green">et</span> selskap / <span class="env-green">et</span> firma: company
+
+Jeg jobber i et stort firma. → I work in a big company.
 
 psykologer [sykolå:´g]: psychologists
 

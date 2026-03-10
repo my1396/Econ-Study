@@ -40,7 +40,7 @@ A: legitimasjon (ID), hodetelefon for lytteprøven, bankkort for betaling.
 
 ## Register
 
-❗️ Må meld deg på prøver <span style="color: #00CC66;">så tidlig som påmelding åpner</span>. Plassene fylles opp raskt.
+❗️ Må meld deg på prøver <span class="env-green">så tidlig som påmelding åpner</span>. Plassene fylles opp raskt.
 
 注册网站: [Meld deg på](https://prove.hkdir.no/norskprove-a1-b2/meld-deg-pa-norsk-a1-b2)
 
@@ -99,15 +99,15 @@ Påmelding er bindende. Om du ikke møter, må du likevel betale for prøven. Er
 
 **Tips:**
 
-- <span style="color: #00CC66;">听力和阅读的题目都是从 A2 难度开始的，还是要对 A2 的题型有一定的了解和练习。</span>
+- <span class="env-green">听力和阅读的题目都是从 A2 难度开始的，还是要对 A2 的题型有一定的了解和练习。</span>
 - 听力的开始很重要，如果开始就是 Bergen 方言，不要乱了阵脚。稳住。
   
   心态崩了那真是泥石流…
-- You will hear some strong <span style='color:#00CC66'>dialects</span>. Get used to them.
-- Some tasks contain <span style='color:#00CC66'>difficult words</span>. You might solve tasks even if you do not know all the words.
+- You will hear some strong <span class="env-green">dialects</span>. Get used to them.
+- Some tasks contain <span class="env-green">difficult words</span>. You might solve tasks even if you do not know all the words.
 - I tend to be easily distracted by numbers and peoples' names, and I fixate on them, making me miss what's said in the following conversation.
   
-  → <span style='color:#00CC66'>Move on and focus on what's being played in the moment. </span>
+  → <span class="env-green">Move on and focus on what's being played in the moment. </span>
 
 
 
@@ -117,7 +117,7 @@ Påmelding er bindende. Om du ikke møter, må du likevel betale for prøven. Er
 
 The listening test has three parts. It starts with two pre-tests (preliminary test). The pre-tests are short and have 7–8 tasks. The first pre-test has tasks at level A2.
 
-Your pre-test result <span style='color:#00CC66'>determines which tasks you get</span> on the next part of the test (the next pre-test and the **main test**). **This is to ensure that the tasks you get in the main test suit your level.**
+Your pre-test result <span class="env-green">determines which tasks you get</span> on the next part of the test (the next pre-test and the **main test**). **This is to ensure that the tasks you get in the main test suit your level.**
 
 **The listening test lasts between 30 and 60 minutes.** The length of the test depends on which pre-tests and which main test you get.
 
@@ -163,11 +163,11 @@ ___
 
 **Time**: 75 min
 
-考试系统<span style="color: #00CC66;">无倒计时</span>，考场有一个表，需要自己算好时间。
+考试系统<span class="env-green">无倒计时</span>，考场有一个表，需要自己算好时间。
 
 > En leser med svært gode norskferdigheter kan gjøre alle oppgavene i en leseprøve på 10-20 minutter. Kandidatene kan bruke 75 minutter.
 
-The reading test has **three parts**. It starts with <span style="color: #00CC66;">**two pre-tests**</span>. 
+The reading test has **three parts**. It starts with <span class="env-green">**two pre-tests**</span>. 
 
 - Pre-test 1
 
@@ -186,7 +186,7 @@ Your pre-test result determines which tasks you get on the next part of the test
 
 --------------------------------------------------------------------------------
 
-The <span style='color:#00CC66'>**main test**</span> is long and has about <span style='color:#00CC66'>**20 tasks**</span>. Task difficulty depends on the results of your pre-tests.
+The <span class="env-green">**main test**</span> is long and has about <span class="env-green">**20 tasks**</span>. Task difficulty depends on the results of your pre-tests.
 
 - If you scored well on B1, then you get B2 main test.
 
@@ -219,7 +219,7 @@ The main test is taken at one of three different levels:
 
   此类题先读选项 svaralternativene 
 
-- <span style='color:#00CC66'>Klikk på riktig navn – hvem handler det om</span>
+- <span class="env-green">Klikk på riktig navn – hvem handler det om</span>
 
   此题是唯一特属于 B2 的题型。要是没有遇到这个题型，基本就跟 B2 say goodbye 了。
 
@@ -247,11 +247,14 @@ The main test is taken at one of three different levels:
 
   Det første avsnittet kan ikke flyttes, de andre må flyttes for at teksten skal gi mening.
 
-  第一个自然段不能移动，移动其余自然段。
+  <span class="env-green">第一个自然段</span>不能移动，移动其余自然段。
 
   此类题目需要花费更长时间，可能需要读几遍。
 
-- <span style='color:#00CC66'>Klikk på riktig navn – hvem kan si dette?</span>
+  段落排序属于多米诺骨牌效应，如果一个段落放错了位置，后续的段落也会跟着错。
+  一定要小心。你选的第一段一定要能衔接到给出的开头段落。
+
+- <span class="env-green">Klikk på riktig navn – hvem kan si dette?</span>
 
   开头首先是 hvem kan si: "[a statement here]". 然后是几个人的见解，每人对应一个自然段。
 
@@ -274,21 +277,23 @@ The main test is taken at one of three different levels:
 
 - The **pre-tests** will have some tasks that are too hard for you. 
 
-  Do NOT spend a lot of time on difficult tasks in the pre-tests. 10 to 15 minutes should be enough time for a pre-test. Answer as best you can, and then go on, so that you get <span style='color:#00CC66'>enough time to answer the tasks in the **main test**</span>.
+  Do NOT spend a lot of time on difficult tasks in the pre-tests. 10 to 15 minutes should be enough time for a pre-test. Answer as best you can, and then go on, so that you get <span class="env-green">enough time to answer the tasks in the **main test**</span>.
 
-  **不要在 两个 pretest 上花费过多时间。否则会导致没有足够时间留给 main test，以及 main test 过难。**
+  **不要在 两个 pre-test 上花费过多时间。否则会导致没有足够时间留给 main test，以及 main test 过难。**
+
+- 要想通过 B2, main test 正确率要达到 80% 左右。
 
 - There are easy and difficult tasks throughout the whole test. If a task is too difficult for you, you should move on to the next. **You can go back to difficult tasks later if you have time.**
 
   **If you spend too much time on the tasks in the pre-tests, you might end up with a main test that is too difficult for you.** You will probably get the right result anyway, but you will not get the tasks that best suit your level, and you will find the test frustrating and very hard.
 
-- It is important to adapt your reading to each task to save time. **<span style='color:#00CC66'>Read the <u>question and options</u> before</span> you read the text,** so that you know what to look for in the text.
+- It is important to adapt your reading to each task to save time. **<span class="env-green">Read the <u>question and options</u> before</span> you read the text,** so that you know what to look for in the text.
 
-  You might <span style='color:#FF9900'>NOT have to read the text very carefully</span> to answer the question correctly, but it is always a good thing to <span style='color:#00CC66'>read the question slowly and carefully.</span>
+  You might <span class="env-orange">NOT have to read the text very carefully</span> to answer the question correctly, but it is always a good thing to <span class="env-green">read the question slowly and carefully.</span>
   
   **先读题目和选项，再读文章。文章不必细读，问题必得细读。**
 
-- Les det du trenger for å svare på spørsmålet. Kanskje du <span style='color:#FF9900'>ikke trenger å lese hele teksten.</span>
+- Les det du trenger for å svare på spørsmålet. Kanskje du <span class="env-orange">ikke trenger å lese hele teksten.</span>
 
   **针对性阅读，非全文阅读。针对问题找答案。**
 
@@ -306,11 +311,13 @@ The main test is taken at one of three different levels:
 
 --------------------------------------------------------------------------------
 
-一些心得
+**一些心得**
 
 - 选项有迷惑性。可能两个选项都正确，但是一个比另一个跟贴切，确切。
 
   → 选项之间的区别可能非常细微。需要仔细分析选项之间的区别，选出最贴切的那个。
+
+- 答案可能不直给，需要一些自己的合理推断。
 
 - 词汇可能有误导性。有的选项可能包含一些你认识的单词，与题目相符，但整体意思不对。
 
@@ -330,9 +337,11 @@ The main test is taken at one of three different levels:
   → Sommeren 1941 virket Hitlers krigsmaskin ustoppelig. De allierte ble tvunget til à hjelpe. Konvoier av lasteskip fylt til randen med krigsmateriell begynte den farefulle ferden til Murmansk og Arkhangelsk. Med livet som innsats la de ut på det som ble kalt «Verdens verste sjøreise». Action/drama med de beste norske skuespillerne.
 
 
-- 找同义词
+- 找同义词的 tips:
   
   首要的要求是"词性一致"。形容词找形容词，动词找动词，名词找名词。
+
+  题目中的词必须可以直接替代文中的词。动词的话，时态也要一致。
 
 ___
 
@@ -364,7 +373,7 @@ Du får **to timer** (2 hours) til å svare på to oppgaver for B1–B2 nivå:
 
 
 Q: 是不是字数多写一些更好?  
-A: <span class="env-orange">Not necessarily!</span> <span style="color: #00CC66;">按要求写即可。</span> 字数过多可能会导致语法错误增多，影响评分。
+A: <span class="env-orange">Not necessarily!</span> <span class="env-green">按要求写即可。</span> 字数过多可能会导致语法错误增多，影响评分。
 
 
 读一些范文，借鉴他们的结构和表达方式。
@@ -374,7 +383,7 @@ A: <span class="env-orange">Not necessarily!</span> <span style="color: #00CC66;
 1. first focus on content, story-telling, flow
 2. then work on grammar and details
 
-See <span style="color: #00CC66;">**grading criteria**</span> <a href="{{site.baseurl}}/2025/09/20/Norsk-Skriftlig-Vurdering.html">HERE</a>.
+See <span class="env-green">**grading criteria**</span> <a href="{{site.baseurl}}/2025/09/20/Norsk-Skriftlig-Vurdering.html">HERE</a>.
 
 Evaluation criteria in short:
 
@@ -520,7 +529,7 @@ Tips: skrive ned dine ideer før du skriver.
 
 ### Grammatikk i Skriftlig
 
-形容词
+形容词:
 
 - 定语要特指或者非特指一致，性数一致 → "三重一致"
 - 表语均为非特指形式，性数一致
@@ -531,10 +540,66 @@ disse + definite noun plural 指示代词后接复数名词特指
 
 - 现在完成时: har + 过去分词
 
+
+一些柔和语气的词: kan/bør være
+
 句子副词 (setningsadverbial: ikke, aldri, ofte, <span class="env-green">kanskje</span>) 放在动词后
 
 Dette er *kanskje* ikke den beste løsningen for alle.   
 → 1. 句子副词 "kanskje" 放在动词 "er" 后面。 2. "den beste løsningen" 三重一致
+
+知道但是经常用错的语法点:
+
+- **情态动词**后接<span class="env-green">动词原形</span>
+
+reflexive possessive pronouns: sin/si/sitt/sine
+
+- 一定不在主语
+- 指代主语的东西
+- 性数与宾语一致
+
+--------------------------------------------------------------------------------
+
+**整体策略:** <span class="env-green">在朴实无华和炫技之间找到一个平衡。</span> 水平不够的话，就打保守牌，保持朴实无华; 如果可以确保不犯错，就炫技。
+
+错误的杀伤力更大，低级错误会直接导致等级下降。首要的目标是确保不犯低级错。检查时要保持客观，目标是挑刺。
+
+Balance between
+
+- don't be more complex than necessary 
+  
+  写的越复杂，出错的概率越大。
+  写得过于复杂，导致语法错误增多，影响评分。
+
+and
+
+- use a variety of sentence structures, grammar, and vocabulary to show your language skills
+  
+  主打一个显眼包炫技。会的得展示出来。
+
+  - 从句在前，主句在后; → 逗号分隔主从句 + 主句记得 V2 原则
+  - 主句在前，从句在后;
+  - 被动语态;
+  - 疑问句;
+
+> **Comments from my Norwegian teacher:**
+>
+> Det er bedre å bruke et annet ord som betyr omtrent det samme, enn å gjenta samme ordet flere ganger. 
+> Da viser du at du har stort ordforråd. 
+> 
+> Husk også at variasjon både i <span class="env-green">ord, setninger og grammatikk</span> er viktig på dette nivået. 
+> Derfor er det viktig at du bruker ulike ord som betyr det samme, og viser at du kan skrive flere forskjellige setninger. 
+> 
+> På eksamen har du bare en liten mail og en tekst til å vise sensor alt du kan. 
+> Derfor er det viktig at du bruker flere ord som betyr det samme. Slik viser du ordforrådet ditt. 
+> At du skriver forskjellige typer setninger som å skrive leddsetning først, hovedsetning først eller stille et spørsmål. 
+> Og ikke minst vise variasjon i grammatikken. Passiv, ordstilling osv.
+>
+> @Nina Brigitte Langtvedt
+
+
+
+
 
 ___
 
@@ -569,13 +634,13 @@ Individuell → Samtale → Individuell
 >   老生常谈的话题。same old, same old cliche. 根据以前考试的题目去准备即可。  
 >   挪威更新题目的速度龟速，长期使用同一套题目，可能会与时俱进的增加新题目而已。
 >
->   <span style="color: #00CC66;">简单的话题要准备，不熟悉的话题也要准备。</span> 准备多种话题，积累素材。
+>   <span class="env-green">简单的话题要准备，不熟悉的话题也要准备。</span> 准备多种话题，积累素材。
 > - 不太会考察特别政治相关的话题。
 >
 >   如果有政治相关的话题，一般是与社会生活相关的，比如: 政治家是否应该增加社交平台上的活跃度; 是否应该提高对政治家的期望等。  
 >   不会考察特别专业的政治话题，比如: 挪威的选举制度怎么样，政党制度怎么样等。
 >   
->   需要日常<span style="color: #00CC66;">积累一些政治常识</span>，但不需要特别专业的政治知识储备。
+>   需要日常<span class="env-green">积累一些政治常识</span>，但不需要特别专业的政治知识储备。
 
 --------------------------------------------------------------------------------
 
