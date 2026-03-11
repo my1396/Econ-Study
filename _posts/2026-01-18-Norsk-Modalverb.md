@@ -9,6 +9,57 @@ update: 2026-01-18
 
 **Modale hjelpeverb** (modal verbs) 
 
+| Infinitiv     | Presens | Preteritum | Presens perfektum |
+| ------------- | ------- | ---------- | ----------------- |
+| å skulle      | skal    | skulle     | har skullet       |
+| å ville       | vil     | ville      | har villet        |
+| å kunne       | kan     | kunne      | har kunnet        |
+| å måtte       | må      | måtte      | har måttet        |
+| å burde       | bør     | burde      | har burdet        |
+| å få          | får     | fikk       | har fått          |
+
+--------------------------------------------------------------------------------
+
+情态动词表达不同的语气:
+
+| Example                    | 语气                                          |
+| -------------------------- | --------------------------------------------- |
+| Jeg **skal** flytte.       | Det er bestemt.                               |
+| Jeg **skal** hjelpe deg.   | Det er en plan eller et løfte.                |
+| Jeg **vil** flytte.        | Det er et ønske.                              |
+| Du **vil** klare deg fint. | Jeg regner med det.                           |
+| Han **kan** flytte.        | Det er mulig.                                 |
+| Hun **kan** snakke spansk. | Han har lært det.                             |
+| Jeg **må** flytte.         | Det er nødvendig.                             |
+| Hun **må** vært syk.       | Det er den eneste forklaringen jeg kan finne. |
+| Jeg **bør** flytte.        | Det er best.                                  |
+
+--------------------------------------------------------------------------------
+
+与英语不同的点:
+
+- 英语 could 可以表示能力，比 can 更委婉，而
+
+- 挪威语只能用 *kan* 来表示能力，不能用 *kunne*.
+
+  «Kunne» 表示过去时
+
+  Hun **kunne** ikke komme i går.
+
+  «Kunne» 在虚拟语气中，表示本来可以发生但没有发生的情况
+
+  Jeg **kunne** ha hjulpet deg.  
+  → I could have helped you. (but I didn't)
+
+
+与英语相同的点: "Modal verb + ha + past participle" 表示与过去事实相反的情况
+
+此处情态动词要用过去时的形式: kunne (could), ville (would), skulle (would), burde (should), måtte (must)
+
+
+--------------------------------------------------------------------------------
+
+
 ## Skulle -- skal -- skulle -- har skullet
 
 ### A. Bestemmelse, plan
@@ -132,7 +183,7 @@ På C bruker vi ikke *skal* i svaret, men for eksempel:
 
 --------------------------------------------------------------------------------
 
-**wishes or desires about the future:**
+### C. Wishes or desires about the future
 
 -   Jeg håper du vil trives i den nye leiligheten.  
     → I hope you will enjoy the new apartment.
@@ -141,7 +192,7 @@ På C bruker vi ikke *skal* i svaret, men for eksempel:
 
 --------------------------------------------------------------------------------
 
-### Be om noe
+### D. Be om noe
 
 *(<span style="color: #00CC66;">Requesting something</span>)*
 
@@ -161,22 +212,93 @@ Alternatively, when we are asking for something, we can also use «**kan**»:
 -   **Kan** du sende meg sukkeret?  
     → Can you pass me the sugar?
 
+
 --------------------------------------------------------------------------------
 
-情态动词表达不同的语气:
+## Kunne -- kan -- kunne -- kunnet
 
-| Example                        | Explantion                         |
-| ------------------------------ | ---------------------------------- |
-| Jeg **skal** flytte.           | Det er bestemt.                    |
-| Jeg **skal** hjelpe deg.       | Det er en plan eller et løfte.     |
-| Jeg **vil** flytte.            | Det er et ønske.                   |
-| Du **vil** klare deg fint.     | Jeg regner med det.                |
-| Han **kan** flytte.            | Det er mulig.                      |
-| Hun **kan** snakke spansk.     | Han har lært det.                  |
-| Jeg **må** flytte.             | Det er nødvendig.                  |
-| Hun **må** vært syk.           | Det er den eneste forklaringen jeg kan finne. |
-| Jeg **bør** flytte.            | Det er best.                       |
+### A. Evne, noe en har lært
 
+Kan du spille piano? 
+
+Ida kan ikke svømme.
+
+
+### B. Mulighet
+
+Kan du hjelpe meg litt? 
+
+Jeg kan komme i kveld.
+
+Jeg håper kommunen **kan** vurdere beslutningen på nytt.  
+→ I hope the municipality can reconsider the decision. [强调 has the possibility or ability to do sth]
+
+Jeg håper kommunen **vil** vurdere beslutningen på nytt.  
+→ I hope the municipality will reconsider the decision. [强调 willingness / intention]
+
+
+### C. Tillatelse
+
+Du kan gå nå. 
+
+Kan jeg få låne bilen i kveld?
+
+
+--------------------------------------------------------------------------------
+
+## Måtte -- må -- måtte -- måttet
+
+### A. Plikt eller nødvendighet
+
+Må du gå på det møtet? 
+
+Jeg må ha en ny kjole!
+
+### B. Påbud
+
+Du må snakke høyere! 
+
+Du må ikke si det til noen!
+
+
+--------------------------------------------------------------------------------
+
+## Bør -- bør -- burde -- burdet
+
+### A. Råd eller anbefaling
+
+Du bør ikke røyke så mye. 
+
+Den filmen burde du se
+
+### B. Mulighet, sannsynlighet
+
+Det bør/burde være mulig å lære litt av dette.
+
+
+--------------------------------------------------------------------------------
+
+## Få -- får -- fikk -- fått
+
+«Få» 是挪威语中很特殊的情态动词，可用于表示允许或者必须做某事。
+
+注意后面接<span class="env-green">动词原型</span>
+
+### A. Tillatelse (få lov til)
+
+Får du bli med på hytta? 
+
+Fikk du låne bilen?
+
+### B. Tvang, nødvendighet
+
+*Have to do sth, must do sth*
+
+Du får vaske golvet i dag.  
+→ You have to wash the floor today.
+
+Nå får du gi deg!
+→ Now you must stop! / Now you’d better stop!
 
 
 --------------------------------------------------------------------------------
@@ -214,9 +336,11 @@ Alternatively, when we are asking for something, we can also use «**kan**»:
   - Hun **kan** alle regelene.  
     → She knows all the rules.
 
+
 --------------------------------------------------------------------------------
 
 
 ref:
 
 - [Norsklærer Karense: Modale hjelpeverb](https://www.youtube.com/watch?v=aBPAtN57hdY)
+- Chapter 11.5 Modale verb, Donald, Kirsti Mac. Norsk Grammatikk – Teoribok: Norsk Som Andrespråk. 4th ed. Cappelen Damm AS, 2022. 

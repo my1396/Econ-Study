@@ -155,7 +155,11 @@ Ja, jeg synes ungdom bør hjelpe til med husarbeid hjemme.
 
 ## 学习
 
+en karakter, karakteren, karakterer, karakterene → grade, mark
+
 få en urettferdig **karakter**: receive an unfair grade
+
+gode karakterer → good grades
 
 Det er viktig å få gode karakterer på eksamener. (It's important to get good grades on exams.)
 
@@ -185,7 +189,6 @@ Hun anstrengte seg for å høre hva som ble sagt.
 
 vurderes etter bokstavkarakterer → be graded using letter grades
 
-gode karakterer → good grades
 
 bestått: pass
 
@@ -196,7 +199,7 @@ stryke i faget: ikke bestå (fail the course)
 - *Henger du med i* spansktimene?  
   → Can you follow the Spanish classes?
 
-**plagiat** → plagiarism
+**plagiat**(et) → plagiarism
 
 klar og tydelig **kildehenvisning** → clear and explicit source referencing
 
@@ -281,7 +284,8 @@ bøying: å oppfordre, oppfordrer, oppfordret, har oppfordret
 
 **精通**
 
-Det er bedre at barna selv <span class="env-green">opplever glede av mestringen</span>.
+Det er bedre at barna selv <span class="env-green">opplever glede av mestringen</span>.  
+→ It is better that children themselves experience the joy of mastery.
 
 å <span class="env-green">mestre</span> noe → to master sth
 
@@ -350,7 +354,7 @@ ___
 >
 > Hei,
 >
-> Jeg bli <span style='color:red'>be</span>visst at voksenopplæringen vår skal legge ned B2-kurset. Jeg forstår at kommunen har  redusert ~~finans~~ buskjet<span style='color:red'>tet</span>, men ~~språk utdanning~~ <span style='color:red'>språkopplæring</span> er særlig viktig til velferd<span style='color:red'>en</span> og ~~lykke~~ <span style='color:red'>trivselen</span>for både ~~norsk~~ <span style='color:red'>nordmenn</span> og innvandrer<span style='color:red'>e</span>. Det påvirker innvandrer<span style='color:red'>e</span> direkt<span style='color:red'>e</span> fordi de <span style='color:#FF9900'>ikke</span> har ~~ikke~~ lett ~~tilgjenlig~~ <span style='color:red'>tilgjengelige</span> ressur<span style='color:red'>er</span> for å lære norsk. Det føre<span style='color:red'>r</span> til store problemer. ~~Først~~ <span style='color:red'>For det første</span>, uten <span style='color:red'>et</span> høy ~~språk nivå~~ <span style='color:red'>språknivå</span> som B2, kan innvandrer<span style='color:red'>e</span> ikke få <span style='color:red'>en</span> god utdanning eller ~~få~~ en jobb. De kunne ikke forsørge dem selv. Da <span style='color:#FF9900'>må</span> staten ~~må~~ betale for å sik<span style='color:red'>r</span>e at alle har mat å spise og et sted å bo. Det<span style='color:red'>te</span> bruker mye penger ~~i~~ <span style='color:red'>på</span> lagt sikt. Det ser ut at det sparer penger hvis voksenopplæringen kutte<span style='color:red'>r</span> B2-kurset~~.~~<span style='color:red'>,</span> ~~M~~<span style='color:red'>m</span>en, det fører til e<span style='color:red'>t</span>~~n~~ større problem for sam~~m~~funnet<span style='color:red'>:</span> at innvandre <span style='color:#FF9900'>ikke kan</span> ~~kunne~~ ~~ikke~~ bli integre<span style='color:red'>r</span>t ~~til norsk~~ <span style='color:red'>i det norske</span> sam~~m~~funnet. Det skal <span style='color:red'>til slutt</span> påvirke nordmenns velferd ~~endelig~~. 
+> Jeg blir <span style='color:red'>be</span>visst på at voksenopplæringen vår skal legge ned B2-kurset. Jeg forstår at kommunen har redusert ~~finans~~ budskjet<span style='color:red'>tet</span>, men ~~språk utdanning~~ <span style='color:red'>språkopplæring</span> er særlig viktig til velferd<span style='color:red'>en</span> og ~~lykke~~ <span style='color:red'>trivselen</span> for både ~~norsk~~ <span style='color:red'>nordmenn</span> og innvandrer<span style='color:red'>e</span>. Det påvirker innvandrer<span style='color:red'>e</span> direkt<span style='color:red'>e</span> fordi de <span style='color:#FF9900'>ikke</span> har ~~ikke~~ lett ~~tilgjenlig~~ <span style='color:red'>tilgjengelige</span> ressurs<span style='color:red'>er</span> for å lære norsk. Det føre<span style='color:red'>r</span> til store problemer. ~~Først~~ <span style='color:red'>For det første</span>, uten <span style='color:red'>et</span> høy ~~språk nivå~~ <span style='color:red'>språknivå</span> som B2, kan innvandrer<span style='color:red'>e</span> ikke få <span style='color:red'>en</span> god utdanning eller ~~få~~ en jobb. De kunne ikke forsørge dem selv. Da <span style='color:#FF9900'>må</span> staten ~~må~~ betale for å sik<span style='color:red'>r</span>e at alle har mat å spise og et sted å bo. Det<span style='color:red'>te</span> bruker mye penger ~~i~~ <span style='color:red'>på</span> lang sikt. Det ser ut at det sparer penger hvis voksenopplæringen kutte<span style='color:red'>r</span> B2-kurset~~.~~<span style='color:red'>,</span> ~~M~~<span style='color:red'>m</span>en, det fører til e<span style='color:red'>t</span>~~n~~ større problem for sam~~m~~funnet<span style='color:red'>:</span> at innvandre <span style='color:#FF9900'>ikke kan</span> ~~kunne~~ ~~ikke~~ bli integre<span style='color:red'>r</span>t ~~til norsk~~ <span style='color:red'>i det norske</span> sam~~m~~funnet. Det skal <span style='color:red'>til slutt</span> påvirke nordmenns velferd ~~endelig~~. 
 >
 > ~~To~~ <span style='color:red'>Til</span> slutt, det har ~~mer negative påvirkning enn positivt~~ <span style='color:red'>flere negative virkninger enn positive</span>. Jeg håper kommunen ~~kunne~~ <span style='color:red'>kan</span> vurdere ~~igjen om bestemmen~~ <span style='color:red'>beslutningen på nytt</span>.
 >
@@ -402,8 +406,9 @@ Ja, jeg synes staten bør endre utdanningsprogrammet i skolen.
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
 | å ansette nye folk                     | to hire new people                 |
+| å rekru<span class="env-green">tt</span>ere nye folk | to recruit new people |
 
-Mange selskap vil ansette en med noe erfaring i stedet for en nyutdannet.   
+Mange selskap vil ansette / rekruttere en med noe erfaring i stedet for en nyutdannet.   
 → Many companies prefer to hire someone with some experience rather than a recent graduate.
 
 Mange finner jobb ved hjelp av kjente.  
@@ -517,7 +522,7 @@ samfunnsnyttig: socially useful
 
 - Tilby subsidier og skattefordeler for de som velger praktiske yrker.
 
-- Øke respecten og anerkjennelsen for praktiske yrker i samfunnet gjennom kampanjer og utdanning.
+- Øke respekten og anerkjennelsen for praktiske yrker i samfunnet gjennom kampanjer og utdanning.
 
 
 --------------------------------------------------------------------------------

@@ -204,6 +204,9 @@ Han later *som om* han er en sjef.
 Det virker *som om* det kommer til å regne.  
 → It seems *as if* it is going to rain.
 
+Mari har lengre utdanning *enn* det Muzzi har.  
+→ Mari has more education than Muzzi has.
+
 
 --------------------------------------------------------------------------------
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 tag: Norsk
-title: "Norsk: No Article"
+title: "Norsk Grammar – No Article"
 ---
 
 I found confusing when we use indefinite article in English but no article in Norwegian. 

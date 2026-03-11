@@ -428,8 +428,10 @@ Tips: skrive ned dine ideer før du skriver.
 **Nice opening sentence:**
 
 - Mitt navn er [et fiktivt navn] og jeg har vært hunde hos dere i 15 år. 
-- Jeg *henvender meg* til dere fordi jeg har observert at ... [note "henvende meg" reflexive verb]
+- Jeg <span class="env-green">*henvender meg*</span> til dere fordi jeg har observert at ... [note "henvende meg" reflexive verb]
 - Jeg skriver til dere fordi jeg vil uttrykke min misnøye / bekymring med at ...
+- Jeg har fått vite at … / Jeg har hørt at … / Jeg blir bevisst på at ... 
+
 
 **Closing phrases:**
 
@@ -477,7 +479,9 @@ Tips: skrive ned dine ideer før du skriver.
   
   层层递进，段落分明。每个段落表达一个观点，段落之间有逻辑关系。
 
-- Skriv mellom <span class="env-green">250-400</span> ord. 
+- Skriv mellom <span class="env-green">250–400</span> ord. 
+  
+  我感觉 <span class="env-green">300 字</span>左右比较合适。✅
 
 - Ikke kutt teksten hvis det er relevant informasjon du bør ta med 
   

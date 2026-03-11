@@ -849,6 +849,25 @@ Reflexive Pronouns 反身代词
 
   å ønske seg (to wish)
 
+--------------------------------------------------------------------------------
+
+### Oneself
+
+«Selv» → oneself, self 无性数变化
+
+**Use alone**
+
+Jeg gjorde det *selv*. → I did it myself.  
+Du må gjøre det *selv*. → You have to do it yourself.  
+Han gjorde det *selv*. → He did it himself.  
+Vi gjorde det *selv*. → We did it ourselves.  
+Dere gjorde det *selv*. → You (pl.) did it yourselves.  
+De gjorde det *selv*. → They did it themselves.
+
+--------------------------------------------------------------------------------
+
+**Use with reflexive pronouns**
+
 Jeg må ta vare på <span class="env-green">meg selv</span>. → I have to take care of *myself*.  
 Vi må ta vare på <span class="env-green">oss selv</span>. → We have to take care of *ourselves*.  
 Du må passe på <span class="env-green">deg selv</span>. → You have to take care of *yourself*.  
@@ -1068,10 +1087,7 @@ Det er en bekymring at nettsider samler personlige data uten samtykke.
 - Sissel ringer tannlegen hennes. → Sissels calls her dentist. "Her" refers to another women, not Sissel. [Cannot add "own" → use regular possessive, "hennes"]
 
 
-
-**Examples**
-
-- **Possessives**
+**Possessives examples**
 
 |          | Maskulin     | Feminin     | Neutral      | Plural         |
 | -------- | ------------ | ----------- | ------------ | -------------- |
@@ -1082,6 +1098,42 @@ Det er en bekymring at nettsider samler personlige data uten samtykke.
 | **Vi**   | faren vår    | mora vår    | huset vårt   | vennene våre   |
 | **Dere** | faren deres  | mora deres  | huset deres  | vennene deres  |
 | **De**   | faren deres  | mora deres  | huset deres  | vennene deres  |
+
+
+«**egen/eget/egne**» → own; used to reinforce ownership, often together with (reflexive) possessive pronouns.
+
+**Together with possessive:**
+
+Det var hans *egen* skyld. → It was his own fault.  
+Jeg kjøpte min *egen* leilighet. → I bought my own apartment.  
+Hun har sitt *eget* hus. → She has her own house.  
+Vi har våre *egne* meninger. → We have our own opinions.
+
+**Without possessive:**
+
+Hun ønsker seg et eget hus. → She wants a house of her own.  
+Han har en egen bil. → He has a car of his own.  
+Vi har våre egne meninger. → We have opinions of our own.  
+Jeg har egen maskin. → I have a machine of my own.  
+Hun driver egen butikk i sentrum. → She runs a shop of her own in the city center.
+
+
+
+**用法:**
+
+1. possessive pronouns 在前 (optional)
+2. egen/eget/egne 根据修饰的<span class="env-green">名词</span>性数变化
+3. noun 用非特指
+
+|       | Mas / Fem.               | Neut.                    | Plural                      |
+| ----- | ------------------------ | ------------------------ | --------------------------- |
+| jeg   | Jeg har min egen bil.    | Jeg har mitt eget hus.   | Jeg har mine egne venner.   |
+| du    | Du har din egen bil.     | Du har ditt eget hus.    | Du har dine egne venner.    |
+| han   | Han har <span class="env-green">sin</span> egen bil.    | Han har <span class="env-green">sitt</span> eget hus.   | Han har <span class="env-green">sine</span> egne venner.   |
+| hun   | Hun har <span class="env-green">sin</span> egen bil.    | Hun har <span class="env-green">sitt</span> eget hus.   | Hun har <span class="env-green">sine</span> egne venner.   |
+| vi    | Vi har vår egen bil.     | Vi har vårt eget hus.    | Vi har våre egne venner.    |
+| dere  | Dere har deres egen bil. | Dere har deres eget hus. | Dere har deres egne venner. |
+| de    | De har deres egen bil.   | De har deres eget hus.   | De har deres egne venner.   |
 
 
 --------------------------------------------------------------------------------
@@ -1105,24 +1157,24 @@ Det er en bekymring at nettsider samler personlige data uten samtykke.
 <table>
 <tbody>
   <tr>
-  <td>Sissel ringer til tannleg<strong>en sin</strong></td>
-  <td>Sissel ringer til <strong>sin</strong> tannlege</td>
-  <td>Sissel calls her own dentist</td>
+  <td>Sissel ringer til tannleg<strong>en sin</strong>.</td>
+  <td>Sissel ringer til <strong>sin</strong> tannlege.</td>
+  <td>Sissel calls her own dentist.</td>
   </tr>
   <tr>
-  <td>Sissel elsker datter<strong>a si</strong></td>
-  <td>Sissel elsker <strong>si</strong> datter</td>
-  <td>Sissel loves her (own) daughter</td>
+  <td>Sissel elsker datter<strong>a si</strong>.</td>
+  <td>Sissel elsker <strong>si</strong> datter.</td>
+  <td>Sissel loves her (own) daughter.</td>
   </tr>
   <tr>
-  <td>Sissel liker hus<strong>et sitt</strong></td>
-  <td>Sissel liker <strong>sitt</strong> hus</td>
-  <td>Sissel likes her (own) house</td>
+  <td>Sissel liker hus<strong>et sitt</strong>.</td>
+  <td>Sissel liker <strong>sitt</strong> hus.</td>
+  <td>Sissel likes her (own) house.</td>
   </tr>
   <tr>
-  <td>Sissel elsker sko<strong>ene sine</strong></td>
-  <td>Sissel elsker <strong>sine</strong> sko</td>
-  <td>Sissel loves her (own) shoes</td>
+  <td>Sissel elsker sko<strong>ene sine</strong>.</td>
+  <td>Sissel elsker <strong>sine</strong> sko.</td>
+  <td>Sissel loves her (own) shoes.</td>
   </tr>
 </tbody>
 </table>
@@ -2356,6 +2408,23 @@ Kan du si det på engelsk?
 | -----------------  | ---------------------------------- |
 | på et tidspunkt    | at some point in time              |
 | være med på noe    | be involved in sth; be part of sth |
+| være bevisst på noe | be aware of sth                   |
+
+**være bevisst på + noun**
+
+Folk må *være bevisst på* klimaendringer.  
+→ People need to be aware of climate change.
+
+**være bevisst på + clause**
+
+Han *er bevisst på at* det er viktig å spise sunt.  
+→ He is aware that it is important to eat healthy.
+
+Hun *ble bevisst på at* hun hadde glemt å låse døren.  
+→ She became aware that she had forgotten to lock the door.
+
+Etter kurset *ble jeg mer bevisst på* hvor viktig kommunikasjon er.  
+→ After the course, I became more aware of how important communication is.
 
 
 --------------------------------------------------------------------------------
@@ -3073,7 +3142,7 @@ flere alternativer = more alternatives
 
 - flere sjanser = more chances
   
-  Han fikk *flere sjanser* til å prøve igjen.  
+  Han fikk *flere sjanser* <span class="env-green">til</span> å prøve igjen.  
   → He got more chances to try again.
 
 - færre sjanser = fewer chances
@@ -3083,7 +3152,7 @@ flere alternativer = more alternatives
 
 **Possibility 可能性**
 
-«Sjanse» 表可能性，做不可数名词。
+«Sjanse» 表可能性，做不可数名词。后面接 «<span class="env-green">for</span> at + clause» 或 «<span class="env-green">for</span> å + verb».
 
 - større sjanse = bigger chance; more likely
 
@@ -3138,9 +3207,9 @@ Du må ha *min* ett glass vann.
 
 --------------------------------------------------------------------------------
 
-**litt** → a little 表肯定，有但是不多
+**litt** → a little <span class="env-green">表肯定</span>，有但是不多
 
-**liten** → little, not much 表否定，没有多少
+**liten** → little, not much <span class="env-green">表否定</span>，没有多少
 
 - å ha **liten** kontakt med noen → to have little contact with someone 表否定
 
@@ -3519,7 +3588,7 @@ Ved å lære suffikser som danner substantiv eller adjektiv, og dermed lære seg
 
 For eksempel: En bruk/bruker -å bruke - brukbar/brukt/ubrukelig 
 
-Noen vanlige suffikser som lager **adjekti**v er: 
+Noen vanlige suffikser som lager **adjektiv** er: 
 
 - -aktig, - bar, -ete, - ig,-lig, -messig, -som, -ær, -isk. 
 

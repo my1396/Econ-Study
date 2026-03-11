@@ -2119,7 +2119,7 @@ Konflikten gikk utover vennskapet deres. → The conflict harmed their friendshi
 | tidligere ...      | earlier / previously / in the past ... | 以前，过去，早先    |
 | for to år siden    | two years ago                          | 两年前            |
 | for to dager siden | two days ago                           | 两天前            |
-| på lang/kort sikt  | on the long/short term                 |                  |
+| på lang/kort sikt  | on the long/short term                 | 长远来看 / 短期来看 |
 | på forhånd         | in advance                             | 提前              |
 | i etterkant        | afterwards                             | 事后              |
 
