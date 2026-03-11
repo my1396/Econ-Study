@@ -14,7 +14,10 @@ title: "Norsk: Konjunksjoner"
 
 **Konjunksjoner**
 
-Konjunksjoner (conjunctions) connects two words, phrases, clauses and (whole) sentences. 
+Konjunksjoner (coordinating conjunctions 并列连词，或简称连词) connects two words, phrases, clauses and (whole) sentences. 
+
+
+并列连词指的是连接的对象<span class="env-green">语法地位平等</span>，但是<span class="env-green">逻辑关系</span>上，可以是并列的 (og, eller) 或者转折 (men)，或者因果关系 (for 因, så 果)。
 
 ‼️ <span class="env-orange">NO Inversion</span>
 
@@ -96,6 +99,10 @@ Note that when the 2nd sentence start with sth other than the subject, the subje
 ## for
 
 «For» can only connect whole sentences, and the second sentence is the reason for the first one.
+
+注意 «for» 前面要加逗号，因为它作为<span class="env-green">连词</span>，连接的是两个完整的句子。
+
+«For» 直接接原因，不要有 ~~«for at»~~ 这种结构。
 
 - Han måtte lage middag, **for** alle var så sultne. 
 

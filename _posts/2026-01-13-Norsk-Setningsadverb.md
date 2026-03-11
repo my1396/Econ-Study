@@ -66,7 +66,8 @@ Setningsadverbial examples:
   
   Hvis jeg *ikke kan* komme, ringer jeg deg.  
   Når han *aldri trener*, blir han slapp.  
-  Fordi hun *alltid er* tidlig, rekker hun bussen.
+  Fordi hun *alltid er* tidlig, rekker hun bussen.  
+  Selv om arbeidstakere *kanskje jobber* i kortere tid enn før, skaper de sannsynligvis mer verdi i løpet av arbeidstiden.
 
 > 🎯 在主句中，setningsadverb 通常放在句子的开头或动词之后。在从句中，它们要放在动词之前。
 

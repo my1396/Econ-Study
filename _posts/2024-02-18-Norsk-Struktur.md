@@ -318,14 +318,16 @@ Use the following **mock exam** to practice before the actual exam:
     Myndighetene bør fremme likestilling mellom kvinner og menn. → Authorities should promote equality between women and men.
 
   - <span class="env-green">*være til fordel for noen å gjøre noe*</span> → to be beneficial for sb to do sth
-
+    
     Det *er til fordel for* barn *å* ha foreldre som engasjerer seg i lekser.   
     → It is beneficial for children to have parents who are involved in homework.
-
+    
+    *å være en fordel å gjøre noe* → to be beneficial to do sth
+    
     Det *kan være en fordel å* jobbe ekstra med å få inn gode vaner, i tillegg til å trappe ned medisinbruken langsomt.   
     → It can be beneficial to work extra on getting good habits, in addition to gradually reducing medication use.
   
-  - Fordeler *med* dette er ... → Advantages of this are ...
+  - Fordeler <span class="env-green">*med*</span> dette er ... → Advantages of this are ...
 
 - to make sure ...
   
@@ -1162,6 +1164,8 @@ Note: «antakelig» can also mean «akseptabel».
 Det kan *muligens* være det beste resultat<span class="env-green">et</span> vi kan oppnå.  
 → It might possibly be the best result we can achieve.
 
+Det er s*tørre sjanse <span class="env-green">for</span> at* de slutter i jobben innen fire år.  
+→ There is a larger chance that they quit job within four years.
 
 --------------------------------------------------------------------------------
 
@@ -2248,14 +2252,26 @@ Dette gjelder også i Norge. → This also applies in Norway.
 
 Ex «som følge av»
 
-- *Mange mistet jobben som følge av finanskrisen.*
-  (*Many lost their jobs as a result of the financial crisis.*)
+- Mange mistet jobben *som følge av* finanskrisen.  
+  → Many lost their jobs as a result of the financial crisis.
 
-- *<span class="env-green">Som følge av</span> været ble konserten avlyst.*
-  (*Due to the weather, the concert was canceled.*)
+- <span class="env-green">Som følge av</span> været ble konserten avlyst.  
+  → Due to the weather, the concert was canceled.
 
-- *Som følge av utviklingen i samfunnet, trenger vi nye regler.* 
-	(Due to developments in society, we need new rules.)
+- Som følge av utviklingen i samfunnet, trenger vi nye regler.  
+  → Due to developments in society, we need new rules.
+
+注意区别于 «i følge» → according to
+
+- <span class="env-green">I følge</span> ekspertene, vil klimaendringene forverres.  
+  → According to experts, climate change will worsen.
+
+--------------------------------------------------------------------------------
+
+**Det er grunn til** å gjøre noe / at ... → There is reason to do sth / that ...
+
+Det er grunn til å være bekymret for utviklingen i arbeidslivet. [展开说明为什么担心]
+
 
 --------------------------------------------------------------------------------
 

@@ -417,6 +417,8 @@ Mange finner jobb ved hjelp av kjente.
 | en ringevikar                          | on-call substitute 临时工，随叫随到的替补 |
 | en stilling / et jobbtilbud            | a job offer                        |
 | en arbeidsplass                        | a workplace                        |
+| på arbeidsplassen                      | at the workplace                   |
+| i arbeidstiden                         | during working hours               |
 | en karriere                            | a career                           |
 | kvinneperspektivet                     | 用于描述传统女性为主的专业，行业        |
 | mennsperspektivet                      | 用于描述传统男性为主的专业，行业        |
@@ -1175,6 +1177,10 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 
 ## Folkehelse
 
+注意拼写 folk**e**helse, 一是它是复合词，不要分开写; 二是中间的 «e» 是连接元音，注意不要忘了。
+
+相同的词还有 sykefravær, sykemelding, sykehus, sykepleier
+
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
 | fysisk helse                           | physical health                    |
@@ -1205,9 +1211,9 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 | et kjerringråd                         | a home remedy, folk medicine       |
 | vondt                                  | pain, ache                         |
 | å ha vondt i magen/kroppen             | to have pain in the stomachache/body |
+| en smerte, smerten, smerter, smertene  | a pain                             |
 | å slanke seg                           | to be on a diet                    |
 | å gå ned i vekt                        | to lose weight                     |
-
 
 减肥反弹 
 
@@ -1219,6 +1225,23 @@ Anderson *hadde effekt av å* bruke fedmemedisin, men da han sluttet *gikk* vekt
 
 Den tapte vekten kommer tilbake på under to år. → The lost weight returns in less than two years.
 
+
+**病假相关**
+
+| Norsk                                  | English                              |
+| -------------------------------------- | ------------------------------------ |
+| å være sykemeldt                       | to be on sick leave                  |
+| å få syk<span class="env-green">e</span>melding        | to get a sick leave  |
+| å redusere syk<span class="env-green">e</span>fravær   | to reduce sick leave |
+
+- Målet er å redusere sykefravær blant ansatte. 
+  → The goal is to reduce sick leave among employees.
+
+- Målet er å redusere sykefravær blant ansatte. 
+  → The goal is to reduce sick leave among employees.
+
+- Lederen ønsker å redusere sykefravær gjennom bedre arbeidsmiljø. 
+  → The manager wants to reduce sick leave through a better work environment.
 
 er<span class="env-green">nær</span>ing 注意与 er<span class="env-green">far</span>ing 区分
 
@@ -1236,7 +1259,7 @@ er<span class="env-green">nær</span>ing 注意与 er<span class="env-green">far
 | livsstil                               | lifestyle                          |
 | fysisk aktivitet                       | physical activity                  |
 | trening                                | exercise                           |
-| kondisjon                              | fitness                            |
+| kondisjon                              | fitness, state, condition          |
 | helseforsikring                        | health insurance                   |
 | helsetjenester                         | healthcare services                |
 | helsekost                              | health food                        |

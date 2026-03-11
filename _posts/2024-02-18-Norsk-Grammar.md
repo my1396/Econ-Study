@@ -2451,11 +2451,14 @@ Sammenlignet med Oslo er Bergen mindre.
 Bergen er mindre sammenlignet med Oslo.  
 → Compared to Oslo, Bergen is smaller.
 
+优势劣势一律用 «med noe»:
 
 | Norsk             | English              |
 | ----------------- | -------------------- |
 | fordeler med noe  | advantages of sth    |
 | ulemper med noe   | disadvantages of sth |
+
+være fordeler for noen å gjøre noe 
 
 
 | Norsk             | English              |
@@ -2685,6 +2688,7 @@ en ny form **for** underholdning → a new form of entertainment
 | konsekvensen for ... | the consequence for ...   |
 | være utsatt for noe  | be exposed to sth         |
 | å utsettes for noe   | be exposed to sth         |
+| større/mindre sjanse for at ... | greater/less chance of ... |
 
 
 
@@ -2831,6 +2835,16 @@ Hva er i veien med deg?
 
 Hvordan havnet jeg i denne situasjonen?  
 → How did I end up in this situation?
+
+| Norsk                | English                   |
+| -------------------- | ------------------------- |
+| ha vondt i noe       | feel a pain somewhere     |
+
+Jeg har vondt i ryggen / nakken / skulderen. 
+→ I have a pain in the back / neck / shoulder.
+
+
+
 
 --------------------------------------------------------------------------------
 

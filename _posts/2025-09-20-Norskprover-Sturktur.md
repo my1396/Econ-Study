@@ -529,6 +529,8 @@ Tips: skrive ned dine ideer før du skriver.
 
 ### Grammatikk i Skriftlig
 
+名词: 多用特指
+
 形容词:
 
 - 定语要特指或者非特指一致，性数一致 → "三重一致"
@@ -541,12 +543,21 @@ disse + definite noun plural 指示代词后接复数名词特指
 - 现在完成时: har + 过去分词
 
 
-一些柔和语气的词: kan/bør være
+一些柔和语气的词: 
+
+- kan/bør være
+- 多用 «vil» 代替 «skal»
 
 句子副词 (setningsadverbial: ikke, aldri, ofte, <span class="env-green">kanskje</span>) 放在动词后
 
 Dette er *kanskje* ikke den beste løsningen for alle.   
 → 1. 句子副词 "kanskje" 放在动词 "er" 后面。 2. "den beste løsningen" 三重一致
+
+如果在从句中，则要置于动词之前:
+
+Det kan være at mange ansatte <span class="env-green">kanskje</span> foretrekker fleksible arbeidstider.
+→ 句子副词 "kanskje" 放在动词 "foretrekker" 前面。
+
 
 知道但是经常用错的语法点:
 
@@ -557,6 +568,8 @@ reflexive possessive pronouns: sin/si/sitt/sine
 - 一定不在主语
 - 指代主语的东西
 - 性数与宾语一致
+
+
 
 --------------------------------------------------------------------------------
 

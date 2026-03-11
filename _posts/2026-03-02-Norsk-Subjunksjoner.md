@@ -8,7 +8,9 @@ title: "Norsk: Subjunksjoner"
 
 Seven groups of subordinating conjunctions in Norweigan
 
-"Konjunksjoner" 连接两个独立的句子､ 短语或者名词， "Subjunksjoner" 引导一个从句 (subordinate clause)，连接主句和从句。
+"Konjunksjoner" 中文为 "并列连词" 或 "连词"，连接两个独立的句子､ 短语或者名词， 
+
+"Subjunksjoner" 中文为 "从属连词"，引导一个从句 (subordinate clause)，连接主句和从句。
 
 
 与 "Subjunksjoner" 相关的主要语法点:
@@ -48,11 +50,30 @@ Seven groups of subordinating conjunctions in Norweigan
 > 
 > som, så lenge som, så ofte som, så snart som
 
+«**Mens**» means "while" and is used to indicate that two actions are happening at the same time in the past, present, or future.
+
+**Mens-从句 在前**
+
 *Mens* jeg venter på bussen, leser jeg en bok.  
 → While I wait for the bus, I read a book.
 
 *Mens* jeg vasker opp, kan du rydde i stua.  
 → While I wash the dishes, you can tidy up the living room.
+
+**Mens-从句 在后**
+
+Jeg leser en bok *mens* jeg venter på bussen.  
+→ I read a book while I wait for the bus.
+
+Jeg kan rydde i stua *mens* jeg vasker opp.  
+→ I can tidy up the living room while I wash the dishes.
+
+Hun gråt *mens* hun leste brevet fra mora.  
+→ She cried while she read the letter from her mother.
+
+Han hører på musikk *mens* han går på tur med hunden.  
+→ He listens to music while he goes for a walk with the dog.
+
 
 --------------------------------------------------------------------------------
 
@@ -70,6 +91,11 @@ Seven groups of subordinating conjunctions in Norweigan
   Jeg *likte* å slappe av **når** jeg kom hjem fra universitetet. → in the past
 
   Jeg *skal* ta eksamen **når** kurset er ferdig. → in the future
+
+- «nå»: refers to the present time; not a subjunction;
+
+  Jeg *slapper* av **nå**.  
+  → I am relaxing now.
 
 --------------------------------------------------------------------------------
 
