@@ -2261,10 +2261,12 @@ Ex «som følge av»
 - Som følge av utviklingen i samfunnet, trenger vi nye regler.  
   → Due to developments in society, we need new rules.
 
-注意区别于 «i følge» → according to
+注意区别于 «ifølge» → according to; 注意是一个词，不可分开
 
-- <span class="env-green">I følge</span> ekspertene, vil klimaendringene forverres.  
+- <span class="env-green">Ifølge</span> ekspertene vil klimaendringene forverres.  
   → According to experts, climate change will worsen.
+- <span class="env-green">Ifølge</span> rapporten har arbeidsledigheten økt.  
+  → According to the report, unemployment has increased.
 
 --------------------------------------------------------------------------------
 

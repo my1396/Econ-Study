@@ -746,7 +746,8 @@ Teknologien har tatt over mange av arbeidsoppgavene på fabrikkene og byggeplass
 | Norsk               | English          |
 | ------------------- | ---------------- |
 | teknologi           | technology       |
-| kunstig intelligens | KI / AI 人工智能 |
+| kunstig intelligens | KI / AI 人工智能  |
+| skjerm(en)          | screen           |
 | skjermtid           | screen time      |
 
 

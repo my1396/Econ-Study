@@ -2649,14 +2649,17 @@ Jeg har vanskeligheter <span class="env-green">**med å**</span> forstå dialekt
 | Norsk                            | English                            |
 | -------------------------------- | ---------------------------------- |
 | å bestemme seg for å gjøre noe   | decide to do sth                   |
-| å forberede seg for å gjøre noe  | prepare to do sth                  |
-| å kvie seg for å gjøre noe       | be reluctant to do sth                 |
-
 
 Vi har bestemt oss for å flytte.  
 → We have decided to move.
 
+| Norsk                            | English                            |
+| -------------------------------- | ---------------------------------- |
+| å forberede seg for å gjøre noe  | prepare to do sth                  |
+| å kvie seg for å gjøre noe       | be reluctant to do sth             |
 
+- Noen *kvier seg for å* søke hjelp når de har psykiske problemer.  
+  → Some are reluctant to seek help when they have mental health issues.
 
 | Norsk                    | English                 |
 | ------------------------ | ----------------------- |

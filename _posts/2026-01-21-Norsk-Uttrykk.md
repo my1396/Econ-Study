@@ -25,7 +25,7 @@ Can be put at various places in a sentence:
     → Norway is, as is known, a long and narrow country.  
     作为插入语 (insertable comment, an aside)，前后要用逗号隔开。句子有明显停顿。
 
-  Alt kan *som kjent* diskuterers.  
+  Alt kan *som kjent* diskuteres.  
     → Everything can as is known be discussed.  
     作为状语，不用加逗号。The sentence feels more integrated.
 
