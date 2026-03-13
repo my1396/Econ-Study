@@ -1317,10 +1317,22 @@ A part of a sentence can be given extra emphasis by removing it from the origina
 
 
 
+--------------------------------------------------------------------------------
 
 
+**«Det + linking verb (+ predictive) + at-clause / infinitive»**
 
+«Det» heter *foreløpig subjekt*.
 
+Here the *at-clause* or *infinitive* is a subject clause, and the pronoun «det» is a dummy subject. The real subject is the at-clause or infinitive that follows.
+
+Det er så dumt *at* han er blitt syk. → It is so stupid that he has become sick.
+
+Nå blir det greit *at* han kommer. → Now it is good that he comes.
+
+Det var lettere *at* han tok kofferten. → It was easier that he took the suitcase.
+
+Det er et problem *at* mange kaster plast. → It is a problem that many people throw plastic.
 
 --------------------------------------------------------------------------------
 
@@ -2566,6 +2578,14 @@ Jeg regner med at du kommer.
 
 Hva driver du med for tiden?  
 → What are you up to these days? / What are you doing these days?
+
+| Norsk             | English              |
+| ----------------- | -------------------- |
+| meninger med noe  | opinions about sth   |
+
+- Hva er dine meninger med dette?  
+  → What are your opinions about this?
+
 
 --------------------------------------------------------------------------------
 

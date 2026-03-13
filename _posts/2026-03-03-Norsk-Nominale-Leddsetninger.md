@@ -24,19 +24,24 @@ Nominale leddsetninger innledes av subjunksjonene:
 
 - «at»
   
-  - as subject
-  
+  - as subject (主语)
+    
+    «At» 引导从句在句首，不可省略。
+
     *At* hun trives i Bergen, er bra.  
     *At* han arbeider så mye, er ikke bra.  
     *At* Petra egentlig skulle studere språk, var nytt for alle.
 
-  - as object
+  - as object (宾语)
     
-    Alle vet *at* tante Petra lager byens fineste hatter.
+    «At»引导的从句在句中，可以省略。
+
+    Alle vet (*at*) tante Petra lager byens fineste hatter.
   
-  - as predicative
+  - as predicative (表语)
 
     Problemet er *at* du aldri hører etter.  
+    → The problem is that you never listen.
 
 - «om» 
 
@@ -67,6 +72,38 @@ Nominale leddsetninger innledes av subjunksjonene:
 
   Jeg spør når bussen kommer.
 
+### at-leddsetninger
+
+«At» introduces subordinate clauses that have a nominal function. 
+These clauses function in much the same way as a noun phrase, subject, object or prepositional object.
+
+
+--------------------------------------------------------------------------------
+
+«At» is obligatory in the following cases:
+
+- when the subordinate clause comes first
+  
+  *At* han kommer, er sikkert.  
+  → It is definite that he's coming.
+
+- following a preposition
+
+  De pekte *på at* det ikke var helt riktig.  
+  → They pointed out that it wasn't quite correct.
+
+- after «enn»
+  
+  Det er bedre (at) du går nå *enn at* du venter til i morgen.  
+  → It's better that you go now than that you wait until tomorrow.
+
+- when preceded by an intensifying adverbial phrase
+  
+  Han glemte *helt at* han skulle til legen.  
+  → He completely forgot that he was supposed to go to the doctor.
+
+
+--------------------------------------------------------------------------------
 
 ## Adjektiviske leddsetninger
 
@@ -78,6 +115,7 @@ Even har en drøm *som* han ikke har fortalt noen om.
 
 Farmor har ei venninne *som* heter Petra.
 
+--------------------------------------------------------------------------------
 
 ## Adverbiale leddsetninger
 

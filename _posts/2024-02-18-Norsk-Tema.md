@@ -1191,6 +1191,9 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 | -------------------------------------- | ---------------------------------- |
 | fysisk helse                           | physical health                    |
 | psykisk helse                          | mental health                      |
+| sykdom                                 | illness, disease                   |
+| smerte                                 | pain                               |
+| lidelse                                | suffering, pain, agony             |
 | hals                                   | throat                             |
 | sår hals                               | sore throat 嗓子痛                  |
 | tett nese                              | stuffy nose 鼻塞                    |
@@ -1257,7 +1260,7 @@ er<span class="env-green">nær</span>ing 注意与 er<span class="env-green">far
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
-| protein                                | protein (en 同 no)                 |
+| prot<span class="env-green">ei</span>n | protein (en 同 no)                 |
 | mindre fett                            | less fat                           |
 | måltid                                 | meal                               |
 | en sunn kost                           | a helthy diet                      |
@@ -1459,6 +1462,7 @@ Det er ikke like sunt å spiser høyt prosessert mat som fersk mat. → It is no
 
 | Norsk                 | English        |
 | --------------------- | -------------- |
+| psykisk lidelse       | mental illness |
 | depresjon             | depression     |
 | angst                 | anxiety        |
 | uro                   | anxiety; unease|
