@@ -1252,6 +1252,8 @@ Den tapte vekten kommer tilbake på under to år. → The lost weight returns in
 - Lederen ønsker å redusere sykefravær gjennom bedre arbeidsmiljø. 
   → The manager wants to reduce sick leave through a better work environment.
 
+### Kosthold
+
 er<span class="env-green">nær</span>ing 注意与 er<span class="env-green">far</span>ing 区分
 
 - ernæring = nutrition 营养
@@ -1265,7 +1267,8 @@ er<span class="env-green">nær</span>ing 注意与 er<span class="env-green">far
 | måltid                                 | meal                               |
 | en sunn kost                           | a helthy diet                      |
 | et sunt kosthold                       | a healthy diet                     |
-| livsstil                               | lifestyle                          |
+| livsstil(en)                           | lifestyle                          |
+| helsefremmende livsstil                | healthy lifestyle                  |
 | fysisk aktivitet                       | physical activity                  |
 | trening                                | exercise                           |
 | kondisjon                              | fitness, state, condition          |
@@ -1301,6 +1304,92 @@ Det *blir rester* (igjen) fra middagen. / Vi *får rester* etter middagen.
 søppelbøtte → 家用垃圾箱
 
 søppelkasse → 公共垃圾箱
+
+--------------------------------------------------------------------------------
+
+
+**kost vs. kosthold**
+
+- kost = diet (the food one eats)
+  
+  matvarer man spiser
+
+- kosthold = dietary habits / eating habits
+  
+  Handle om spisevaner og livsstil
+
+
+Trening og kosthold *utgjør en stor del av* en sunn livsstil. → Exercise and diet make up a large part of a healthy lifestyle.
+
+Common food:
+
+- grønnsaker, frukt
+- fersk fisk, kylling, kjøtt
+- Søppelmat: skadelig for helsen; typisk mat som inneholder mye fett, sukker og salt; svært prosessert mat; bearbeidet kjøtt; ferdigmat; 
+  
+  potetgull (chips / crisps), brus, godteri (candy),  
+
+  Sukkerholdig drikke og søtsaker
+  
+  hurtigmat (fast food): pommes frites [påmfri´t:], nuggets, hamburgere, pizza, pølser
+- snacks (same as eng.): mørk sjokolade, nøtter, kjeks
+- sukker, salt, krydder
+
+
+Et balansert kosthold er viktig for å <span class="env-green">holde seg frisk</span>. → A balanced diet is important to stay healthy.
+
+<span class="env-green">Fedme</span> blir et <span class="env-green">økende</span> problem i mange land, og mange må ta medisiner for å kontrollere vekten sin. → Obesity is becoming an increasing problem in many countries.
+
+Related words to «fedme»: <span class="env-green">fet</span> (adj, fat); å bli fet (to become fat); overvektig (adj, overweight); <span class="env-green">overvekt</span> (noun, overweight)
+
+Det er viktig å spise sunt for å holde seg i form. → It is important to eat healthy to stay in shape.
+
+Mindre sannsynlighet for fedme; [mindre sjanse for å bli fet]
+
+- ✅ føler seg energisk; fokusere bedre; sove bedre; redusere stress; forbedre humøret; 
+- mindre risiko for sykdommer som hjertesykdommer og diabetes; 
+- lavere / høyere sjanse for å 
+  
+  Trening gir lavere sjanse for å bli syk.
+
+- Mindre sykdom
+  
+  Trening og sunt kosthold 
+  - fører til sterekere kroppen
+  - gjøre kroppen sterkere
+
+- bedre humør
+  - Trening kan hjelpe mot stress og depresjon.
+
+- Det er også viktig at vi <span class="env-green">ikke blir overdriver med</span> trening og kosthold. → It is also important that we do not become excessive with exercise and diet. [Don't overdo it]
+
+- være fornøyd med seg selv → be satisfied with oneself 
+
+- å hold seg i form uten å bli besatt av kroppsbilde   
+- → stay in shape without becoming obsessed with body image
+
+- Jeg vil si at det handler om å finne en balanse mellom å ta vare på helsen sin og å nyte livet. → I would say that it is about finding a balance between taking care of one's health and enjoying life.
+
+Mat som kan <span class="env-green">oppbevares</span> lenge og som ikke blir dårlig.  
+→ Food that can be stored for a long time and does not go bad.
+
+Langvarig mat som ikke blir dårlig. → Long-lasting food that doesn’t go bad.
+
+Mat med lang holdbarhet. → Food with a long shelf life.
+
+Langvarig mat inneholder vanligvis mange <span class="env-green">tilsetningsstoffer</span> som ikke er sunne. → Long-lasting food usually contains many additives that are not healthy.
+
+fryst mat → frozen food (forsne pizzaer, mikrobølgovn-måltider)  
+mer prosessert mat → more processed food  
+høyt prosessert mat → highly processed food (kake; godteri; potetgull; )
+
+å prosessere [prosesˈere], prosesserer, prosesserte, har prosessert → to process
+
+Prosessert mat har ofte lengre holdbarhet enn fersk mat. → Processed food often has a longer shelf life than fresh food.
+
+De inneholder konserveringsmidler og andre tilsetningsstoffer for å forlenge holdbarheten. → They contain preservatives and other additives to extend shelf life.
+
+Det er ikke like sunt å spiser høyt prosessert mat som fersk mat. → It is not as healthy to eat highly processed food as fresh food. 
 
 --------------------------------------------------------------------------------
 
@@ -1377,84 +1466,6 @@ Han sto *utsatt* alene på fjellet i mørket.
 Lyder med høy tone, som barn som skriker, er <span class="env-green">irriterende</span> for meg. → High-pitched sounds, like children screaming, are irritating to me.
 
 
-**kost vs. kosthold**
-
-- kost = diet (the food one eats)
-  
-  matvarer man spiser
-
-- kosthold = dietary habits / eating habits
-  
-  Handle om spisevaner og livsstil
-
-
-Trening og kosthold *utgjør en stor del av* en sunn livsstil. → Exercise and diet make up a large part of a healthy lifestyle.
-
-Common food:
-
-- grønnsaker, frukt
-- fersk fisk, kylling, kjøtt
-- Søppelmat: skadelig for helsen; typisk mat som inneholder mye fett, sukker og salt; svært prosessert mat;
-  potetgull (chips / crisps), brus, godteri (candy), 
-  hurtigmat (fast food): pommes frites [påmfri´t:], nuggets, hamburgere, pizza, pølser
-- snacks (same as eng.): mørk sjokolade, nøtter, kjeks
-- sukker, salt, krydder
-
-
-Et balansert kosthold er viktig for å <span class="env-green">holde seg frisk</span>. → A balanced diet is important to stay healthy.
-
-<span class="env-green">Fedme</span> blir et <span class="env-green">økende</span> problem i mange land, og mange må ta medisiner for å kontrollere vekten sin. → Obesity is becoming an increasing problem in many countries.
-
-Related words to «fedme»: <span class="env-green">fet</span> (adj, fat); å bli fet (to become fat); overvektig (adj, overweight); <span class="env-green">overvekt</span> (noun, overweight)
-
-Det er viktig å spise sunt for å holde seg i form. → It is important to eat healthy to stay in shape.
-
-Mindre sannsynlighet for fedme; [mindre sjanse for å bli fet]
-
-- ✅ føler seg energisk; fokusere bedre; sove bedre; redusere stress; forbedre humøret; 
-- mindre risiko for sykdommer som hjertesykdommer og diabetes; 
-- lavere / høyere sjanse for å 
-  
-  Trening gir lavere sjanse for å bli syk.
-
-- Mindre sykdom
-  
-  Trening og sunt kosthold 
-  - fører til sterekere kroppen
-  - gjøre kroppen sterkere
-
-- bedre humør
-  - Trening kan hjelpe mot stress og depresjon.
-
-- Det er også viktig at vi <span class="env-green">ikke blir overdriver med</span> trening og kosthold. → It is also important that we do not become excessive with exercise and diet. [Don't overdo it]
-
-- være fornøyd med seg selv → be satisfied with oneself 
-
-- å hold seg i form uten å bli besatt av kroppsbilde   
-- → stay in shape without becoming obsessed with body image
-
-- Jeg vil si at det handler om å finne en balanse mellom å ta vare på helsen sin og å nyte livet. → I would say that it is about finding a balance between taking care of one's health and enjoying life.
-
-Mat som kan <span class="env-green">oppbevares</span> lenge og som ikke blir dårlig.  
-→ Food that can be stored for a long time and does not go bad.
-
-Langvarig mat som ikke blir dårlig. → Long-lasting food that doesn’t go bad.
-
-Mat med lang holdbarhet. → Food with a long shelf life.
-
-Langvarig mat inneholder vanligvis mange <span class="env-green">tilsetningsstoffer</span> som ikke er sunne. → Long-lasting food usually contains many additives that are not healthy.
-
-fryst mat → frozen food (forsne pizzaer, mikrobølgovn-måltider)  
-mer prosessert mat → more processed food  
-høyt prosessert mat → highly processed food (kake; godteri; potetgull; )
-
-å prosessere [prosesˈere], prosesserer, prosesserte, har prosessert → to process
-
-Prosessert mat har ofte lengre holdbarhet enn fersk mat. → Processed food often has a longer shelf life than fresh food.
-
-De inneholder konserveringsmidler og andre tilsetningsstoffer for å forlenge holdbarheten. → They contain preservatives and other additives to extend shelf life.
-
-Det er ikke like sunt å spiser høyt prosessert mat som fersk mat. → It is not as healthy to eat highly processed food as fresh food. 
 
 --------------------------------------------------------------------------------
 

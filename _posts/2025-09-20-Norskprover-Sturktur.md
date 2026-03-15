@@ -188,7 +188,9 @@ Your pre-test result determines which tasks you get on the next part of the test
 
 The <span class="env-green">**main test**</span> is long and has about <span class="env-green">**20 tasks**</span>. Task difficulty depends on the results of your pre-tests.
 
-- If you scored well on B1, then you get B2 main test.
+- If you scored well on B1, then you get B2 main test. 
+  
+  其实是可以明确知道自己的 main test 属于哪个等级的。B2 等级，首先是文章长度变长，其次问题需要做合理推测，答案不是文中直给。B1 等级，文章答案很明显。
 
 The main test is taken at one of three different levels:
 
@@ -273,13 +275,17 @@ The main test is taken at one of three different levels:
 --------------------------------------------------------------------------------
 
 
-**Strategy**
+### Strategy
 
 - The **pre-tests** will have some tasks that are too hard for you. 
 
   Do NOT spend a lot of time on difficult tasks in the pre-tests. 10 to 15 minutes should be enough time for a pre-test. Answer as best you can, and then go on, so that you get <span class="env-green">enough time to answer the tasks in the **main test**</span>.
 
   **不要在 两个 pre-test 上花费过多时间。否则会导致没有足够时间留给 main test，以及 main test 过难。**
+
+  2026 Vår 考试中, 两个 pre-test 一共 15 道题，用时共 20 分钟。这样可以有 55 分钟用来做 main test 的 23 道题。
+  
+  感觉 main test 的时间还是紧张的。阅读的困难在于词汇量。还是得多读。
 
 - 要想通过 B2, main test 正确率要达到 80% 左右。
 

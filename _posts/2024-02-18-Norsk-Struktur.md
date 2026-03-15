@@ -384,6 +384,10 @@ Use the following **mock exam** to practice before the actual exam:
   
   - syn.: innflytelse, effekt, påvirkning
 
+- skal være gunstig for … → should be beneficial for …
+  
+  Disse tiltakene *skal være gunstig for* både miljøet og økonomien. → These measures should be beneficial for both the environment and the economy.
+
 ------
 
 #### 🔹 3. Argumenter mot (Cons / reasons against)
@@ -2178,6 +2182,27 @@ Det blir en ond *sirkel*. → It becomes a vicious circle.
 | Slike foreldre har <span class="env-green">de beste intensjoner</span>, men konsekvensen kan bli at ... | 尽管出发点是好的，但是结果可能是… |
 
 
+**svikt(et)**
+
+1. decline, reduction  
+   
+   svikt etterspørselen etter produkter → decline in demand for products
+
+2. failure, breakdown
+
+   Systemet stoppet på grunn av en svikt. → The system stopped due to a failure.
+
+3. shortage, deficiency
+   
+   Det er svikt i tilgangen på ressurser. → There is a shortage in the supply of resources.
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------
 
 | 当...的时候                            | Da ... 从句 (正常语序), ... 主句 (倒装) |
 | ------------------------------------  | ----------------------------------  |

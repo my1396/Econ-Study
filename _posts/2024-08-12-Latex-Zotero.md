@@ -405,7 +405,16 @@ Hierarchy of Better Notes: It can be placed under an item, or a collection, or t
 
 **Magic Key**
 
-Type `/` to open a menu of commands, where you can e.g., insert a citation, typset text.
+Type `/` to open a menu of commands, where you can e.g., insert a citation, typset text, insert math block.
+
+
+Q: How to insert inline math?  
+A: Type `$` to open the inline math, then type your math formula, and type `$` again to close the equation.
+
+Q: How to insert a math block?  
+A: Type `$$` followed by a space to create a block. Or use the Magic Key `/` to open the command menu, and choose "Insert math block". Then you can type your math formula in the block.
+
+
 
 **Tool bar**
 
@@ -479,6 +488,11 @@ Ref:
 **AI plugins** (not tested yet):
 
 - [Aria](https://github.com/lifan0127/ai-research-assistant)
+
+AI research assistant:
+
+- [Monnlight](https://www.themoonlight.io/en): 3 papers per week
+
 
 --------------------------------------------------------------------------------
 

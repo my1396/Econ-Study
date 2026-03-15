@@ -1989,6 +1989,18 @@ Han har ikke even til å forstå det. → He doesn't have the ability to underst
 - Jeg hørte en lyd. → I heard a sound. [强调结果, passive perception]
 - Jeg lyttet til lyden. → I listened to the sound. [强调过程, actively paying attention]
 
+
+| Norsk                | English                  |
+| -------------------- | ------------------------ |
+| ha tilgang til noe   | have access to           |
+| ha tilgang på noe    | have sth available; focus on the supply of some resources |
+
+- Alle ansatte har *tilgang til* selskapets intranett.  
+  → All employees have access to the company's intranet.
+
+- Vi har *god tilgang på* fersk fisk her.  
+  → We have good access to fresh fish here.
+
 --------------------------------------------------------------------------------
 
 ### Locations
