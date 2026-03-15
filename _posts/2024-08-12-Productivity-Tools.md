@@ -68,3 +68,13 @@ Go to the main page of [Google Colab](https://colab.research.google.com/), then 
 If you directly upload to Google Drive, you need to right-click on the file, then choose "Open with" > "Google Colaboratory". This creates issues when you share the file with others. They will see a bunch of json code until they choose to "Open with" > "Google Colaboratory".
 
 ___
+
+## Mind Maps
+
+<img src="{{site.baseurl}}/images/知犀.png" alt="" style="display: inline; height: 1.6em; vertical-align: middle;" /> [知犀 MindTwigs](https://apps.apple.com/no/app/mindtwigs/id1564236678): 功能更齐全; 大纲可以和思维导图同时显示; 导出高清图片需要付费订阅 Pro (普通 png 下方带水印，不付费); 本地用一用，梳理思路还是可以的。
+
+- 导航器: 可以定位到思维导图中的某个节点，在大型思维导图中非常有用。
+
+[幕布](https://mubu.com/apps): 极简，功能够用; 但不支持同时显示大纲和思维导图; 视觉效果感觉有点儿糊;
+
+
