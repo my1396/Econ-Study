@@ -74,7 +74,11 @@ ___
 <img src="{{site.baseurl}}/images/知犀.png" alt="" style="display: inline; height: 1.6em; vertical-align: middle;" /> [知犀 MindTwigs](https://apps.apple.com/no/app/mindtwigs/id1564236678): 功能更齐全; 大纲可以和思维导图同时显示; 导出高清图片需要付费订阅 Pro (普通 png 下方带水印，不付费); 本地用一用，梳理思路还是可以的。
 
 - 导航器: 可以定位到思维导图中的某个节点，在大型思维导图中非常有用。
+- 支持本地存储
 
 [幕布](https://mubu.com/apps): 极简，功能够用; 但不支持同时显示大纲和思维导图; 视觉效果感觉有点儿糊;
+
+- 免费版不支持本地存储，所有文档都在云端。
+- 有 to-do list 功能，可以在大纲中添加待办事项，并在思维导图中显示。
 
 

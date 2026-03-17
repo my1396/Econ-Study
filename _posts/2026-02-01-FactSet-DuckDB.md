@@ -22,7 +22,7 @@ Fill in the connection details:
 Alternatively, you can also launch the UI directly with a specific database connection using the following command:
 
 ```bash
-duckdb "/Users/menghan/Desktop/FactSet Database/factset_single.duckdb" -ui
+duckdb "/Users/menghan/Desktop/FactSet Database/factset_full_v2.duckdb" -ui
 ```
 
 This will load the specified database in the UI automatically.
@@ -36,10 +36,10 @@ You can run SQL queries in the Notebooks. To quit the UI, go to terminal and hit
 
 When you have built a connection in Python, it can be convenient if you open a web UI to view the database schema and run some quick queries. However, if you have an active connection to the database in Python, the web UI will be locked in read-only mode to prevent conflicts. This means you can only open the web UI in read-only mode. 
 
-Use the following command to open the UI in read-only mode:
+<span class="env-green">Add parameter `-readonly` to open the UI in read-only mode:</span>
 
 ```bash
-duckdb "/Users/menghan/Desktop/FactSet Database/factset_single.duckdb" -readonly -ui
+duckdb "/Users/menghan/Desktop/FactSet Database/factset_full_v2.duckdb" -readonly -ui
 ```
 
 
@@ -101,7 +101,7 @@ It will install `duckdb`, `jupysql`, `duckdb-engine`, `pandas`, `matplotlib` pac
 
 ```python
 # Connect to file backed db in read-only mode to avoid lock conflicts
-conn = duckdb.connect("~/Desktop/FactSet Database/factset_single.duckdb", read_only=True)
+conn = duckdb.connect("~/Desktop/FactSet Database/factset_full_v2.duckdb", read_only=True)
 
 # use the DuckDB connection
 %sql conn
