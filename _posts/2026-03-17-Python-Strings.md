@@ -2,7 +2,7 @@
 layout: post
 tag: python
 title: Python Strings
-date: 2026-03-18
+date: 2026-03-17
 ---
 
 <a class="top-link hide" href="#" id="js-top">↑</a>

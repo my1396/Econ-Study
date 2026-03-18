@@ -1,11 +1,13 @@
 ---
 layout: post
 tag: python
-title: Python in VS Code
-date: 2026-03-18
+title: Python Scripts in VS Code
+date: 2026-02-01
 ---
 
 <a class="top-link hide" href="#" id="js-top">↑</a>
+
+This post introduces how to run Python Scripts (.py files) in VS Code.
 
 When I use ⇧Enter to run python code in selection, it evokes the python version different than the one I specified in the terminal.
 
