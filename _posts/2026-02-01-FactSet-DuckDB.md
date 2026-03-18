@@ -96,47 +96,57 @@ It will install `duckdb`, `jupysql`, `duckdb-engine`, `pandas`, `matplotlib` pac
 
 [`jupysql`](https://jupysql.readthedocs.io/en/latest/quick-start.html) allows you to run SQL and plot large datasets in Jupyter via a `%sql`, `%%sql`, and `%sqlplot`magics.
 
+--------------------------------------------------------------------------------
 
-**Build the connection**
+### Build the connection
 
 ```python
 # Connect to file backed db in read-only mode to avoid lock conflicts
 conn = duckdb.connect("~/Desktop/FactSet Database/factset_full_v2.duckdb", read_only=True)
 
-# use the DuckDB connection
+# Use the DuckDB connection
 %sql conn
+
+# Shut down the connection
+conn.close()
+# alternatively, using magic command
+%sql --close conn
 ```
 
-**Querying DuckDB**
+--------------------------------------------------------------------------------
+
+### Querying DuckDB
 
 
 Single line SQL queries can be run using `%sql` at the start of a line. 
 
-```ptyhon
+```sql
 %sql SELECT 'Off and flying!' AS a_duckdb_column;
 ```
 
-Save result to a variable
+Use `<<` to assign the result to a variable
 
-```python
+```sql
 %sql res << SELECT 'Off and flying!' AS a_duckdb_column;
 ```
 
-An entire Jupyter cell can be used as a SQL cell by starting with `%%sql`
+An entire Jupyter cell can be used as a SQL cell by starting with `%%sql`. Note that the `%%sql` magic command applies to the entire cell, <span class="env-orange">you cannot have Python code or comments in the same cell</span>. You can only write SQL code in that cell.
 
-```python
+By contrast, the `%sql` magic command can be used in a Python cell, allowing you to mix SQL and Python code in the same cell. 
+
+```sql
 %%sql
 -- look up price based on tickers
 SELECT price.*, sym.ticker_region, cov.proper_name, p.one_day_pct as DailyReturns
 FROM fp_v2.fp_total_returns_daily AS p
 LEFT JOIN fp_v2.fp_basic_prices AS price
-  ON price.fsym_id = p.fsym_id AND p.p_date = price.p_date
+    ON price.fsym_id = p.fsym_id AND p.p_date = price.p_date
 LEFT JOIN sym_v1.sym_ticker_region AS sym
-  ON p.fsym_id = sym.fsym_id
+    ON p.fsym_id = sym.fsym_id
 JOIN sym_v1.sym_coverage AS cov
-  ON sym.fsym_id = cov.fsym_id
+    ON sym.fsym_id = cov.fsym_id
 WHERE sym.ticker_region IN ('AAPL-US','IBM-US','SPY-US','MSFT-US','GOOGL-US') -- change tickers 
-  AND p.p_date BETWEEN '2021-08-16' AND '2021-08-20' -- change date scope
+    AND p.p_date BETWEEN '2021-08-16' AND '2021-08-20' -- change date scope
 ORDER BY p.p_date, sym.ticker_region
 ```
 
@@ -146,21 +156,73 @@ Query results will be displayed as a Pandas DataFrame.
 
 --------------------------------------------------------------------------------
 
-One liner vs. Cell magic
+**One liner vs. Cell magic**
 
-```python
+Both blocks save the query result to a variable `fsym_ids`. The first block uses `%sql` for a single line query, while the second block uses `%%sql` for a multi-line query.
+
+- `%sql` is more flexible as it allows you to mix SQL and Python code; but it is hard to read as you have to write the entire SQL query in one line, which can be messy and hard to debug.
+- `%%sql` is cleaner and more readable for longer SQL queries, but you cannot have any Python code or comments in the same cell.
+
+✅ Just use `%%sql` for better readability. <span class="env-orange">Do NOT put any comments above.</span>
+
+```sql
 # Based on ticker-region, find fsym_id
 fsym_ids = %sql SELECT cov.*, tr.ticker_region FROM sym_v1.sym_coverage AS cov LEFT JOIN sym_v1.sym_ticker_region AS tr ON tr.fsym_id = cov.fsym_regional_id WHERE tr.ticker_region IN ({{tickers_sql}})
 ```
 
-```python
-# Based on ticker-region, find fsym_id
+```sql
 %%sql fysm_ids << 
 SELECT cov.*, tr.ticker_region 
 FROM sym_v1.sym_coverage AS cov 
 LEFT JOIN sym_v1.sym_ticker_region AS tr 
     ON tr.fsym_id = cov.fsym_regional_id 
 WHERE tr.ticker_region IN ({{tickers_sql}})
+```
+
+--------------------------------------------------------------------------------
+
+## `py` script
+
+Using python scripts is easier for version control. The syntax is a bit different from Jupyter notebooks, you cannot use magic commands.
+
+**Build connection**
+
+```python
+import duckdb
+
+# Create connection to the database file
+# `read_only=True` to avoid lock conflicts with the web UI
+conn = duckdb.connect("~/Desktop/FactSet Database/factset_full_v2.duckdb", read_only=True)
+```
+
+**Run Queries**
+
+```python
+# Write SQL query as a Python f-string
+query1 = f"""
+SELECT 
+    fsym_id,
+    date,
+    ff_capex_fix,
+    ff_cash_generic
+FROM ff_v3.ff_advanced_af AS ff
+WHERE ff.fsym_id IN ({fsym_list})
+  AND ff.date BETWEEN '{start}' AND '{end}'
+"""
+
+# Execute query and convert to pandas DataFrame
+res1 = conn.execute(query1).df()
+```
+
+-   Use **f-string** (`f"""..."""`) to insert Python variables into SQL
+-   `conn.execute(query)` runs the SQL query
+-   `.df()` converts the result to a pandas DataFrame
+-   Variables like `{fsym_list}`, `{start}`, `{end}` are substituted with their Python values
+
+**Close the connection when done**
+
+```python
+conn.close()
 ```
 
 --------------------------------------------------------------------------------

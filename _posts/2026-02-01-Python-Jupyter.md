@@ -1,6 +1,6 @@
 ---
 layout: post
-tag: programming
+tag: python
 title: Python Jupyter Notebook
 date: 2026-02-01
 ---
@@ -37,8 +37,22 @@ When to use Jupyter Notebook vs. Python script (`.py` file):
   - Once code is stable, you can copy the code to Jupyter Notebook for better presentation
   - When you share with others for <span class="env-green">collaboration purpose</span>
 
---------------------------------------------------------------------------------
 
-## Pandas
+|      | Jupyter Notebook (.ipynb) | Python Script (.py) |
+| ---- | ------------------------- | ------------------- |
+| Pros | - Good for presentation;<br> - Save result output together with code; <br> - Don't need to run the code to have a preview of the results; <br> - Magic commands support; | - Good for development and debugging; <br> - Easy for versional control; |
+| Cons | - Difficult to debug and write code;<br> - Difficult to do version control | - Less visually appealing for sharing results |
 
-[Documentation](https://pandas.pydata.org/docs/reference/frame.html)
+
+## Export to python script
+
+In Jupyter Notebook, click the "..." button and choose "Export". A dropdown menu shows up in the command palette, select "Python Script".
+
+Alternatively, you can use the command palette (⇧⌘P) and type "Jupyter: Export to Python Script" to export the current notebook to a Python script. 
+
+You need to manually deal with the magic commands as they are not supported in Python scripts. 
+
+
+
+
+

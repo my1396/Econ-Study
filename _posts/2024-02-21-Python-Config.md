@@ -8,15 +8,24 @@ title: Python Config
 
 ## Install packages
 
-Use `which -a`  to see all python executables.
+Use `which -a python python3` to see all python executables.
 
+```bash
+$which -a python python3
+
+~/anaconda3/bin/python
+/usr/local/bin/python3
+/usr/local/bin/python3
+/usr/bin/python3
+~/anaconda3/bin/python3
+```
 
 
 **Conda Commands**
 
 <https://docs.conda.io/projects/conda/en/stable/commands/init.html>
 
-`conda init ` will add your conda executable file in your `$PATH` variable.
+`conda init` will add your conda executable file in your `$PATH` variable.
 
 `conda init [SHELLS]`  Available shells: ['bash', 'fish', 'powershell', 'tcsh', 'xonsh', 'zsh']. One or more shells to be initialized. If not given, the default value is <span style='color:#00CC66'>'bash' on unix</span> and 'cmd.exe' & 'powershell' on Windows. 
 
@@ -39,7 +48,7 @@ unset __conda_setup
 # <<< conda initialize <<<
 ```
 
-Issue: The result of default `conda init` is that the environment variable is inserted in `.bash_profile` even if `zsh` is your default shell.
+<span class="env-orange">**Issue**</span>: The result of default `conda init` is that the environment variable is inserted in `.bash_profile` even if `zsh` is your default shell.
 
 Fix: You need to specify explicitly <span style='color:#00CC66'>the shell to be `zsh`</span>. Run `conda init zsh` will add the same code to `.zshrc`.
 
@@ -51,9 +60,22 @@ Fix: You need to specify explicitly <span style='color:#00CC66'>the shell to be 
 
 `conda env list` list all conda environments.
 
+```bash
+$conda info --envs
+
+# conda environments:
+#
+                 /Users/menghan/Library/r-miniconda
+                 /Users/menghan/Library/r-miniconda/envs/r-reticulate
+base          *  /Users/menghan/anaconda3
+r-reticulate     /Users/menghan/anaconda3/envs/r-reticulate
+```
+
+- `base *` is the default environment. `*` indicates the current active environment.
+
 **Determine your current env**
 
-By default, the active environment---the one you are currently using---is shown in parentheses () or brackets [] at the beginning of your command prompt:
+By default, the active environment---the one you are currently using---is shown in parentheses (...) or brackets [...] at the beginning of your command prompt:
 
 ```bash
 (myenv) $
@@ -138,7 +160,7 @@ Examples:
   conda search 'numpy[channel=conda-forge, subdir=osx-64]'
   ```
 
-
+--------------------------------------------------------------------------------
 
 ### Install packages from Anaconda.org
 
