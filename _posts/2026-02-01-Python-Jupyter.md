@@ -7,7 +7,7 @@ date: 2026-02-01
 
 This post introduces how to run Python code in Jupyter Notebook in VS Code, and the difference between Jupyter Notebook and Python script (.py file).
 
-For running Python scripts in VS Code, see <a href="{{site.baseurl}}/2026/03/18/Python-VSCode.html">Python in VS Code</a>.
+For running Python scripts in VS Code, see <a href="{{site.baseurl}}/2026/02/01/Python-VSCode.html">Python in VS Code</a>.
 
 
 **Useful resources:**
@@ -15,6 +15,9 @@ For running Python scripts in VS Code, see <a href="{{site.baseurl}}/2026/03/18/
 - [R Notes: Jupyter Notebook](https://my1396.github.io/R-Notes/2.10-vs-code.html#jupyter-notebooks) for more tips on using Jupyter Notebook in VS Code.
 
 --------------------------------------------------------------------------------
+
+## Package management
+
 
 Q: Difference between `!pip install package` and `%pip install package` in Jupyter Notebook?  
 A: The `%` magic commands ensure the package is installed in the correct **environment** that's running your notebook kernel, while `!` commands run in a **shell** that might use a different environment.
@@ -35,6 +38,8 @@ A: If your Jupyter kernel is using a Conda environment, it's generally better to
 
 --------------------------------------------------------------------------------
 
+## Jupyter Notebook vs. Python script
+
 When to use Jupyter Notebook vs. Python script (`.py` file):
 
 - **Jupyter Notebook**:
@@ -47,7 +52,7 @@ When to use Jupyter Notebook vs. Python script (`.py` file):
   - Useful when you share with others for <span class="env-green">presentation purpose</span>
   - <span class="env-green">GitHub supports rendering `.ipynb` files</span> as of 2026. Takes a bit time to load.
     
-    The difference preview is ok, but not so straightforward.
+    The difference preview looks ok, but NOT so straightforward. E.g., the line number is difficult to track.
 
 - **Python script**:
   

@@ -19,13 +19,53 @@ Run selected code in Python terminal:
 1. Select the code you want to run.
 2. Press ⇧⌘P to open the command palette, type "Run Selection in Python Terminal", and hit Enter. Or use keyboard shortcut ⇧Enter.
 
-If the code is sent directly to the terminal without using the Python interpreter, you need to change [`terminal.integrated.inheritEnv`](https://code.visualstudio.com/updates/v1_36#_launch-terminals-with-clean-environments) in your VS Code settings (settings.json):
+If the code is sent directly to the terminal without using the Python interpreter, you need to change [`terminal.integrated.inheritEnv`](https://code.visualstudio.com/updates/v1_36#_launch-terminals-with-clean-environments) in your <span class="env-green">workspace</span> VS Code settings (settings.json):
 
 ```json
 "terminal.integrated.inheritEnv": false,
 ```
 
-This setting ensures that the terminal does not inherit the environment variables from VS Code, allowing it to use the correct Python interpreter specified in your terminal. After adding this setting, reload the window and try running your code again. It should now use the correct Python version as specified in your terminal. You must see `>>>` in the terminal before sending code.
+This setting ensures that the terminal does not inherit the environment variables from VS Code, allowing it to use the correct Python interpreter specified in your terminal. 
+After adding this setting, reload the window and try running your code again. It should now use the correct Python version as specified in your terminal. You must see `>>>` in the terminal before sending code.
+
+‼️ You cannot specify `"terminal.integrated.inheritEnv": false,` in the user settings, it has to be in the workspace settings. Otherwise, it will cause issues with other projects that rely on the terminal environment variables.
+
+Missing `PATH` Information: The R executable (especially if installed via Conda for r-reticulate, or Homebrew) lives in a specific directory (like bin). If the terminal doesn't inherit the parent's environment, it starts with a stripped-down PATH and literally cannot find the R command to launch it.
+
+
+
+
+Here is my workspace settings.json:
+
+```json
+{
+  // Activate virtual environment automatically
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  // Set the default interpreter path to the specific conda environment
+  "python.defaultInterpreterPath": "~/anaconda3/envs/interest_rate/bin/python",
+  
+  "terminal.integrated.inheritEnv": false,
+}
+```
+
+`"python-envs.defaultEnvManager"` set which environment manager to use for automatically activating virtual environments. It affects:
+
+- Environment auto-activation when opening a terminal
+- Commands like "Python: Select Interpreter" and "Python: Create Environment" in the command palette.
+
+`ms-python.python` identifies the Python extension by Microsoft, you can choose `venv` to use Python built-in virtual environment manager instead of Conda.
+
+<span class="env-orange">`"python-envs.defaultEnvManager": "ms-python.python:conda"` has some side effects.</span> When you start a new R terminal, it will run `conda activate <env-name>` too, leading to an error message.
+
+```bash
+conda activate interest_rate
+R version 4.5.1 (2025-06-13) -- "Great Square Root"
+Platform: x86_64-apple-darwin20 (64-bit)
+
+[ins] r$> conda activate interest_rate
+Error: unexpected symbol in "conda activate"
+```
+
 
 --------------------------------------------------------------------------------
 
@@ -59,21 +99,28 @@ I changed the keyboard shortcuts for run selection in interactive window. It ess
 
 | Keyboard Shortcut     | Action                                     |
 | --------------------- | ------------------------------------------ |
-| ⇧Enter                | Run selection in interactive window        |
-| ⇧⌘Enter               | Run current cell in interactive window     |
-| ⌥Enter                | Run current cell and insert new cell below |
+| ⇧ <kbd>Enter</kbd>    | Run selection in interactive window        |
+| ⇧ ⌘ <kbd>Enter</kbd>  | Run current cell in interactive window     |
+| ⌥ <kbd>Enter</kbd>    | Run current cell and insert new cell below |
 
 One benefit of using interactive window is that it allows you to inspect variables and outputs in a more organized way. You can open the variable explorer in the buttom terminal and the output will be displayed in the interactive window. 
 
-Also you can type directly in the interactive window to inspect variables. Just type your code snippet in the interactive window cell and hit Enter to run it.
+Also you can type directly in the interactive window to inspect variables. Just type your code snippet in the interactive window cell and hit <kbd>Enter</kbd> to run it.
 
 <img src="https://drive.google.com/thumbnail?id=1IyH46i-i8dxgSDLmbLkpK5mySjTovyLA&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:100%;" />
 
 
-`X Clear All` will clear only the output, will not clear the variables.
+**Toolbar Interactive Window:**
 
-`Restart` will clear the variables and output.
+- "<i class="codicon codicon-close" aria-hidden="true" style="font-size:1.5em; vertical-align: middle;"></i> Clear All": clear only the output; will NOT clear the variables in the session.
 
+- "<i class="codicon codicon-debug-restart" aria-hidden="true" style="font-size:1.5em; vertical-align: middle;"></i> Restart": clear the variables; will NOT clear the output.
+
+- <i class="codicon codicon-ellipsis" aria-hidden="true" style="font-size:1.5em; vertical-align: middle;"></i>: More actions.
+  - Save (as .ipynb), Export (as .py, .html, .pdf), Expand (cells), Collapse, etc.
+  - Jupyter Variables: Open the variable explorer in the bottom terminal.
+
+--------------------------------------------------------------------------------
 
 In a code cell, if you don't explicitly print the output, it will only show the last line of the cell. If you want to see the output of multiple lines, you need to use `print()` function.
 
