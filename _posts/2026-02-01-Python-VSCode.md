@@ -71,10 +71,52 @@ Error: unexpected symbol in "conda activate"
 
 ## Run Python in Interactive Window
 
-You can use `# %%` to create code cells in your Python file. Note the space between `#` and `%%`. This is a nice way to group your code into sections and run them separately. It resembles Jupyter Notebook style, but you can still keep the .py file format. It has a nice balance btw the flexibility of `.py` files and the interactivity of notebooks.
+In Visual Studio Code, you can use cell markers to create interactive code cells within a standard Python (.py) file, mimicking the functionality of a Jupyter Notebook. 
+
+You can use `# %%` (cell markers) to create code cells in your Python file. The space between `#` and `%%` is optional, but it is recommended to add a space for better readability. 
+
+
+<img src="https://code.visualstudio.com/assets/docs/python/jupyter/code-cells-01.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+This is a nice way to group your code into sections and run them separately. It resembles Jupyter Notebook style, but you can still keep the .py file format. It has a nice balance btw the flexibility of `.py` files and the interactivity of notebooks.
 
 - You can add comments after `# %%` to give a title to the cell, e.g. `# %% Data Loading`.
 - You don't have to use cells in order to run code in the interactive window. You can select any code snippet and run it in the interactive window by using the command palette and type "Jupyter: Run Selection/Line in Interactive Window" or use the keyboard shortcut ⇧Enter.
+
+VS Code outline view will show functions, classes, methods for `.py` scripts, but there is native code-section syntax like `# ---` in `.R` like follows.
+
+<img src="https://drive.google.com/thumbnail?id=1d1gjx35p8cekGJew8HDUhW10pT8y65xw&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
+A workaround is to use [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) extension to create bookmarks in your code. The extension will have a badge in the left gutter of the editor, and you can click on it to navigate to a bookmark. 
+
+Q: The blue counter shows the number of bookmarks from all files. How to disable the counter?  
+A: Add the following setting in your settings.json:
+
+```json
+"bookmarks.sideBar.countBadge": "off",
+```
+
+Other useful settings for Bookmarks extension:
+
+- `"bookmarks.saveBookmarksInProject": true,` Save bookmarks in the project folder. Will create a `.vscode/bookmarks.json` file to store the bookmarks. This allows you to add it to Git/SVN repo and have it in all your machines.
+
+
+--------------------------------------------------------------------------------
+
+### Run R in Interactive Window
+
+In `.R` scripts: you can use `# Section ---` to create sections in your R script. 
+
+You can add comments after `# %%` to give a title to the cell, e.g. `# %% Data Loading ---`. The titile will show up in the outline view. The three dashes `---` are mandatory for the title to show up in the outline view.
+
+You can use more hash symbols to create higher level cells, e.g., `# %%` for top-level cells, `## %%` for second-level cells, etc. This allow the TOC in the outline view to be more organized and easier to navigate.
+
+I notice that in VS Code, the hierarchy can only be up to 2 levels. If you have for instance a level 3 cell `### %%`, it will be treated as a level 1 heading in the outline view.
+
+--------------------------------------------------------------------------------
+
+## Keyboard Shortcuts
 
 I changed the keyboard shortcuts for run selection in interactive window. It essentially uses a Jupyter kernel.
 
@@ -110,7 +152,7 @@ Also you can type directly in the interactive window to inspect variables. Just 
 <img src="https://drive.google.com/thumbnail?id=1IyH46i-i8dxgSDLmbLkpK5mySjTovyLA&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:100%;" />
 
 
-**Toolbar Interactive Window:**
+## Toolbar Interactive Window
 
 - "<i class="codicon codicon-close" aria-hidden="true" style="font-size:1.5em; vertical-align: middle;"></i> Clear All": clear only the output; will NOT clear the variables in the session.
 

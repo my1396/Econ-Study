@@ -12,6 +12,12 @@
     "markdown-pdf.styles": [
         "../assets/css/markdown-pdf.css"
     ],
+    
+    // Python envs
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "python-envs.pythonProjects": [],
+
     // "editor.fontFamily": "'Sarasa Mono SC Nerd Font', 'Source Han Mono SC', Menlo, Monaco, 'Courier New', monospace",
     // "editor.fontSize": 16,
     // "editor.fontLigatures": true, // Enable font ligatures 连字

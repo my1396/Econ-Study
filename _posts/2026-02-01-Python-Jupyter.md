@@ -82,9 +82,19 @@ In Jupyter Notebook, click the "..." button and choose "Export". A dropdown menu
 
 Alternatively, you can use the command palette (⇧⌘P) and type "Jupyter: Export to Python Script" to export the current notebook to a Python script. 
 
-You need to manually deal with the magic commands as they are not supported in Python scripts. 
+--------------------------------------------------------------------------------
 
+How does the exported Python script look like?
 
+- The notebook's cells are delimited in the Python file with `# %%` comments; 
+- Markdown cells are converted wholly to comments preceded with `#%% [markdown]`.
+- You need to <span class="env-green">manually deal with the magic commands</span> (commands starting with `%`) as they are not supported in Python scripts. 
+
+<img src="https://code.visualstudio.com/assets/docs/python/jupyter/jupyter-notebook.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+ref:
+
+- [Convert Jupyter notebooks to Python code file](https://code.visualstudio.com/docs/python/jupyter-support-py#_convert-jupyter-notebooks-to-python-code-file)
 
 
 
