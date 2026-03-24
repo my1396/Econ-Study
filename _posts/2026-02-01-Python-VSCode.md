@@ -164,7 +164,10 @@ Also you can type directly in the interactive window to inspect variables. Just 
 
 --------------------------------------------------------------------------------
 
-In a code cell, if you don't explicitly print the output, it will only show the last line of the cell. If you want to see the output of multiple lines, you need to use `print()` function.
+In a code cell, if you don't explicitly print the output, it will only show the last line of the cell. 
+
+
+If you want to see the output of multiple lines, you need to use `print()` function.
 
 ```python
 # This will only show the output of the last line
@@ -179,3 +182,7 @@ print(a)  # Output: 10
 print(b)  # Output: 20
 print(a + b)  # Output: 30
 ```
+
+You can use `cat`, `message` as well to print output in R. 
+
+`message` will add `\n` at the end of the output, and will be shown in a different color than `print`. If you want to make output more distinguishable, use `message`.

@@ -5,6 +5,8 @@
   "minima/skins/{{ site.minima.skin | default: 'auto' }}",
   "minima/initialize";
 
+
+
 /* Bullet List */
 li {
   margin-top: 10px;
@@ -405,7 +407,7 @@ li p {
   font-size: 20px;
   line-height: 1.7;
   text-transform: capitalize; /* capitalize 1st letter */
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, SimSun, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, STHeiti, "Microsoft YaHei", sans-serif;
   margin-left: 2px; /* space between tag icon and text */
 }
 .one-tag-list .post-preview {
@@ -465,7 +467,7 @@ li p {
 /* general typesetting - Only apply in light mode */
 [data-theme="light"] body,
 :root:not([data-theme="dark"]) body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, SimSun, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
   line-height: 1.7;
   font-size: 18px;
   color: #404040; /* color for main text */
@@ -485,13 +487,39 @@ li p {
   padding-left: 40px !important;
   padding-right: 40px !important;
 }
+/* Custom Web Fonts - Define BEFORE using them */
+@font-face {
+  font-family: 'WebKaiti';
+  src: url('{{ site.baseurl }}/assets/fonts/STKaiti.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'WebXingkai';
+  src: url('{{ site.baseurl }}/assets/fonts/Xingkai.ttc') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'WebHannotate';
+  src: url('{{ site.baseurl }}/assets/fonts/Hannotate.ttc') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Chinese font */
 .comment {
-  font-family: STKaiti, BiauKai, KaiTi, SimSun, sans-serif;
+  font-family: 'WebKaiti', STKaiti, BiauKai, KaiTi, serif !important;
 }
 :lang(ch) {
-  font-family: STKaiti, BiauKai, KaiTi, SimSun, sans-serif;
+  font-family: 'WebKaiti', STKaiti, BiauKai, KaiTi, serif !important;
 }
+
 p {
   margin: 18px 0; /* paragraph spacing */
 }
@@ -504,7 +532,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, SimSun, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
   line-height: 1.7;
   font-weight: bold;
 }
