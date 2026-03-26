@@ -19,6 +19,38 @@ ___
 
 **项目整体结构 project file structure**
 
+
+```
+project  
+    ├── 0_get_data.R
+    ├── 1_preprocess_data.R
+    ├── README.md
+    ├── .gitignore
+    ├── data
+    │   ├── raw
+    │   └── processed
+    ├── doc
+    ├── figs
+    ├── output
+    └── src
+```
+
+- `data` contains the data files used in the project.
+  
+  You can further organize the `data` folder into `raw` and `processed` subfolders.
+- `doc` contains any manuscripts or interim summaries/notes produced with the project.
+- `figs` contains any plots, images, tables, or figures *created and saved by your code*. It should be possible to delete and regenerate this folder with the scripts in the project folder.
+- `output` contains non-figure objects created by the scripts. For example, processed data or logs.
+- `src` is an optional folder for any files you may want to `source()` in your scripts. 
+  
+  Supporting files that are not meant to be run on their own, for instance, functions that you want to use across multiple scripts, can be stored here.
+
+Source: [R Best Practices, @DeStasio](https://kdestasio.github.io/post/r_best_practices/)
+
+--------------------------------------------------------------------------------
+
+**Tips for project structure:**
+
 - Avoid writing excessively long scripts; do one thing in one script; 一个文档做一件事  
   If it is difficult to understand your code without comments, this can indicate that your code is too complex and might benefit from being broken down, or "refactored", into smaller units. 
   
@@ -37,8 +69,12 @@ ___
     - Do not name image files as "Figure1.png", "Figure2.png", "Figure3.png", etc., because their positions may change later. → Name them based on their content instead.
     
       画图文件不要用图1，2，3来命名，因为后期可能调换位置。用图的内容命名。
+
+      > Do NOT name objects with numbers, e.g., `model1`, `model2`, `model3`, etc. 
+      > This is not informative and it will break the series if you want to run a new model in between. 
+      > Instead, <span class="env-green">name objects based on their content</span>, e.g., `model_ols`, `model_fe`, `model_fe_int`, etc.
     
-    - In case of you have many files, say $\ge$ 10 files, and your file names include numbers to indicate order, make sure to <u>pad them</u> with the appropriate number of zeros, so that (e.g.) 11 doesn’t get sorted before 2. 
+    - In case of you have many files, say ≥ 10 files, and your file names include numbers to indicate order, make sure to <u>pad them</u> with the appropriate number of zeros, so that (e.g.) 11 doesn’t get sorted before 2. 
     
       ```
       # good file names
@@ -816,12 +852,13 @@ ___
 
 <p style="font-weight:600; font-size:21px">References:</p>
 
-R for Data Scince, <https://r4ds.had.co.nz/functions.html>  
-R package development workshop, <https://combine-australia.github.io/r-pkg-dev/other-documentation.html>  
-Tidyverse Style Guide, <https://style.tidyverse.org>  
-Google's R Style Guide, <https://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html>  
-Python Style Guide, <https://peps.python.org/pep-0008/>   
-Best Coding Practices for R, <https://bookdown.org/content/d1e53ac9-28ce-472f-bc2c-f499f18264a3/>  
+- [R for Data Science](https://r4ds.had.co.nz/functions.html)
+- [R package development workshop](https://combine-australia.github.io/r-pkg-dev/other-documentation.html)
+- [Tidyverse Style Guide](https://style.tidyverse.org)
+- [Google's R Style Guide](https://web.stanford.edu/class/cs109l/unrestricted/resources/google-style.html) 
+- [Python Style Guide](https://peps.python.org/pep-0008/)
+- [Best Coding Practices for R](https://bookdown.org/content/d1e53ac9-28ce-472f-bc2c-f499f18264a3/>)
+- [R Best Practices, @DeStasio](https://kdestasio.github.io/post/r_best_practices/)
 
 
 
