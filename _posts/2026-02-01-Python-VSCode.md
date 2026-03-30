@@ -141,9 +141,11 @@ I changed the keyboard shortcuts for run selection in interactive window. It ess
 
 | Keyboard Shortcut     | Action                                     |
 | --------------------- | ------------------------------------------ |
-| ⇧ <kbd>Enter</kbd>    | Run selection in interactive window        |
-| ⇧ ⌘ <kbd>Enter</kbd>  | Run current cell in interactive window     |
+| ⇧ <kbd>Enter</kbd> <sup>1</sup>    | Run selection in interactive window and move cursor to next line |
+| ⇧ ⌘ <kbd>Enter</kbd> or ⌃<kbd>Enter</kbd> | Run current cell in interactive window     |
 | ⌥ <kbd>Enter</kbd>    | Run current cell and insert new cell below |
+
+<sup>1</sup> If your code spans multiple lines, ⇧ <kbd>Enter</kbd> will only run the first line if you have not selected the entire code block. This is not very intelligent.
 
 One benefit of using interactive window is that it allows you to inspect variables and outputs in a more organized way. You can open the variable explorer in the buttom terminal and the output will be displayed in the interactive window. 
 

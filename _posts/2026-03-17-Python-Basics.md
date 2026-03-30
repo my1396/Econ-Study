@@ -11,6 +11,19 @@ Python starts index with 0, which means the first element of a list is accessed 
 
 `type()` to check the data type of a variable.
 
+
+
+**For data frames:**
+
+- `df.dtypes` to check the data types of each column in the data frame.
+
+- `df.info()` to check the data types of each column and the number of non-null values. 
+
+- `df.describe()` to get summary statistics of the numerical columns in the data frame.
+
+
+
+
 ## Virtural Environment
 
 Python is shipped with the OS out of box for UNIX-based systems. If you run `which python`, you will see sth like `usr/bin/python3`, this is the system Python. It is NOT recommended to install packages in the system Python as it may cause <span class="env-green">conflicts with the OS and other applications that rely on it</span>. 

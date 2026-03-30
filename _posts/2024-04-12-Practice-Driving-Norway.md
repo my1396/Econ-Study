@@ -570,6 +570,12 @@ Mandatory roadworthiness test (“EU test”)
 
 注意: 车送厂车检或者保养都有手续费，如果有什么事情在同期，尽量安排在一起。
 
+**Jan 2026:**
+
+- 换电池: 2821 kr
+- Replaced spark plug (火花塞) for cylinder 1: free of charge, because it is under warranty.
+
+
 > As long as your vehicle passes the test and is approved before the deadline, it is up to you how early you wish to have your vehicle tested. The deadline is final, so you should makes sure you have enough time to take the main test, to fix any defects the test may reveal, and to have the vehicle reinspected and approved.
 
 [Check my DDL](https://www.vegvesen.no/en/vehicles/own-and-maintain/eu-mandatory-roadworthiness-test-eu-test/deadline-roadworthiness-test/?registreringsnummer=YF16565)
@@ -620,9 +626,15 @@ Nordvik Bodø: Bestill EU-kontroll via [link](https://www.nordvik.no/verksted). 
 
 ✅ Call [+ 47 7552 9100](tel:+4775529100) to book the EU-kontroll with Nordvik. Accept an appointment whatsoever. You can then call after, to check if there is any slot available earlier.
 
+Nordvik Verksted: [+ 47 7552 9100](tel:+4775529100), press 1 for Verksted.
+
+<span class="env-orange">Do NOT choose to call back</span>, they say that you will hold your place in the queue, but actually, <span class="env-green">they prioritize the people who call and wait on the line</span>. So if you choose to call back, you will lose your place in the queue and have to wait for a long time.
+
+Nordvik will first arrange a time for checking the car. Cannot guarantee when they can fix the car. If the issue is minor and they have the part available, they can fix it right away. Otherwise, they will have to rearrange an appointment for the car to be fixed.
+
 <img src="https://drive.google.com/thumbnail?id=1ISBOsif4ofvOIzxbQU0KPZ_V_L9WpjZi&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:40%;" />
 
-- Better to arrange the EU-kontroll <span style="color: #00CC66;">three months</span> before the deadline, so you have sufficient time to fix any issues if anything happens. Or sometimes the workshop has a long queue and not easy to book a slot.
+- Better to arrange the EU-kontroll <span class="env-green">three months</span> before the deadline, so you have sufficient time to fix any issues if anything happens. Or sometimes the workshop has a long queue and not easy to book a slot.
 
 
 
