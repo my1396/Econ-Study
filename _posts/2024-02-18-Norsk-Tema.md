@@ -789,6 +789,10 @@ Negative sider:
 
 **Sosiale medier påvirker samfunnet vårt på både positive og negative måter.**
 
+- å følge med på nyheter i hverden, lokalstoff og næringsliv → to keep up with news in the world, local news and business news
+
+  innenriksnyheter → domestic news, national news
+
 - Folk er så påvirket av sosiale medier. De bruker mye tid på å bla gjennom innlegg, se på bilder og videoer, og kommunisere med venner og familie. Dette kan føre til avhengighet og redusert produktivitet i hverdagen.
 
 - Sosiale medier kan også føre til sammenligning og misunnelse. Når folk ser andres perfekte liv på sosiale medier, kan de føle seg utilstrekkelige og misfornøyde med sitt eget liv.

@@ -1706,11 +1706,19 @@ Det går over. → It will pass.
 
 | Norsk   | English               |
 | ------- | --------------------- |
-| overfor | opposite, across from |
+| <span class="env-green">overfor</span> | 1. opposite, across from <br/> 2. towards, for, to |
 
-Han bor *overfor* skolen. → He lives opposite the school.  
-Han bor *overfor* meg. → He lives across from me. (He lives opposite me.)  
-Hun satt *overfor* meg i møtet. → She sat across from me in the meeting.
+1.  Opposite
+
+    Han bor *overfor* skolen. → He lives opposite the school.  
+    Han bor *overfor* meg. → He lives across from me. (He lives opposite me.)  
+    Hun satt *overfor* meg i møtet. → She sat across from me in the meeting.
+
+2.  Towards
+
+    Hun hadde sterke følelser *overfor* ham. → She had strong feelings towards him.  
+    Hun er allergisk *overfor* katter. → She's allergic to cats.
+
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
@@ -2432,12 +2440,18 @@ Kan du si det på engelsk?
 | -----------------  | ---------------------------------- |
 | på et tidspunkt    | at some point in time              |
 | være med på noe    | be involved in sth; be part of sth |
-| være bevisst på noe | be aware of sth                   |
+| være bevisst <span class="env-green">på</span> noe | be aware of sth |
 
 **være bevisst på + noun**
 
 Folk må *være bevisst på* klimaendringer.  
 → People need to be aware of climate change.
+
+Jeg var ikke *bevisst på* risikoen ved å gjøre dette.  
+→ I was not aware of the risks of doing this.
+
+Jeg var *bevisst på* påvirkningen av mine handlinger.  
+→ I was aware of the impact of my actions.
 
 **være bevisst på + clause**
 

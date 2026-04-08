@@ -47,11 +47,21 @@ Nominale leddsetninger innledes av subjunksjonene:
 
   Spørsmålet er *om* du egentlig har lyst til å arbeide her.
 
-- «å»
+- «å» infinitivsfraser (infinitive phrase 不定式短语)
   
   - as subject
   
     *Å* spise frukt er sunt/viktig.  
+
+    In a formal context, we can use «Det å ...» to emphasize the action as a concept.
+
+    *Det å* spise frukt er sunt/viktig. [more formal]
+
+    *Det å* skille sann fra falske nyheter er viktig.
+
+    倒装
+    
+    Så enkelt er det å spise sunt. 
 
   - as object  
     

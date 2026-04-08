@@ -262,7 +262,7 @@ The default key pattern is `auth.lower + shorttitle(3, 3) + year`:
 
 Changing a pattern will only affect items created/changed after you changed the pattern; existing keys are <span class="env-orange">NOT automatically updated</span> when you change the pattern.
 
-If you want your keys to update after a pattern change, you will have to select your items, right-click > Better BibTeX > Select `Refresh BibTeX key`. This will not affect keys you have pinned.
+If you want your keys to update after a pattern change, you will have to select your items, right-click > <span class="env-green">Better BibTeX</span> > <span class="env-green">Select `Refresh BibTeX key`</span>. This will not affect keys you have pinned.
 
 Taking the following reference as an example:
 

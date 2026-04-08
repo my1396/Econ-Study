@@ -280,6 +280,8 @@ ___
 
 Homepage: <https://uit.no/forskning/forskningsgrupper/sub?sub_id=417205&p_document_id=352767>
 
+Database portal: <https://titlon.uit.no>
+
 TITLON is a database with financial data on stocks, indicies, bonds, funds and derivatives from all exhanges at EURONEXT and with data from Oslo Stock Exchange back to 1980. 
 
 You need to be connected to your institution vis VPN, or be at the institution, in order to download data from TITLON.
@@ -356,6 +358,173 @@ But there is NO documentation providing details or explaining the methodology be
 | debt_ratio                                             | float(8)    | Debt ratio                                                   |
 | PE                                                     | float(8)    | Price/Earnings                                               |
 
+
+`account` table: contains annual fundamental data, about 56 fields. 
+
+<img src="https://drive.google.com/thumbnail?id=11tcCp2Vwz68xSCjmzc3M26TypMw66iTr&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+Here are some examples of the fields included:
+
+| `description`                   | `desc_simpl_en`                 | `desc_simpl_no`                 |
+| ------------------------------- | ------------------------------- | ------------------------------- |
+| Aksjekapital                    | Share capital                   | Aksjekapital                    |
+| Andre anleggsmidler             | Other capital assets            | Andre anleggsmidler             |
+| Andre driftskostnader           | Other operating expenses        | Andre driftskostnader           |
+| Andre finansinntekter/kostnader | Other financial income/expenses | Andre finansinntekter/kostnader |
+| Andre inntekter                 | Other income                    | Andre inntekter                 |
+| Avskrivninger                   | Depreciations and amortizations | Avskrivninger                   |
+| Driftsinntekter                 | Operating income                | Driftsinntekter                 |
+| Driftskostnader                 | Operating costs                 | Driftskostnader                 |
+| Goodwill                        | Goodwill                        | Goodwill                        |
+| Skattekostnad                   | Income tax                      | Skattekostnad                   |
+| Sum Egenkapital                 | Total equity                    | Sum Egenkapital                 |
+| Sum eiendeler                   | Total assets                    | Sum eiendeler                   |
+| Sum gjeld                       | Total debt                      | Sum gjeld                       |
+| Sum langsiktig gjeld            | Total long-term debt            | Sum langsiktig gjeld            |
+| Varige driftsmidler             | Fixed assets                    | Varige driftsmidler             |
+| Årsresultat                     | Net income                      | Årsresultat                     |
+
+
+The original data is in a long format, `description` denotes the variable name, and `Value` is the value of the variable. You will need to reshape the data into a wide format, such that each variable is a column and each row is a company-year observation.
+
+| Field name            | Type         | Description                                                        |
+| --------------------- | ------------ | ------------------------------------------------------------------ |
+| Name                  | varchar(150) | Name of company                                                    |
+| ISIN                  | varchar(30)  | ISIN                                                               |
+| companyID             | bigint(8)    | Company id                                                         |
+| OrganizationID        | bigint(8)    | Organization ID (Brønnøysund)                                      |
+| Year                  | bigint(8)    | Year                                                               |
+| description           | varchar(100) | Description                                                        |
+| desc_simpl_en         | varchar(100) | English description                                                |
+| desc_simpl_no         | varchar(100) | Norwegian description                                              |
+| account_number        | bigint(8)    | Number representing the account item                               |
+| account_type          | varchar(100) | Can be Costs, Current assets, Debt Equity, Fixed assets or Revenue |
+| Value                 | float(8)     | Numeric value (amount)                                             |
+| CorporateAccountValue | float(8)     | Value if in corporate account                                      |
+| CompanyAccountValue   | float(8)     | Value if in company account                                        |
+| source                | varchar(11)  | Where the data was fetched from                                    |
+| Corporation           | int(4)       | True if it is corporate accounting                                 |
+| ID                    | int(4)       |                                                                    |
+
+
+Code snippet for downloading and reshaping the data:
+
+```r
+# Fetch Titlon accounting data and convert to wide table for analysis
+# You need to replace the database credentials accordingly. Access to the database requires IP whitelisting.
+# You get access by running the script at the campus or by connecting to the university VPN.
+
+library(data.table)
+library(tidyverse)
+library(glue)
+library(RMySQL)
+
+setwd(dirname(rstudioapi::getSourceEditorContext()$path))
+
+# Replace with your provided credentials
+con <- dbConnect(
+    RMySQL::MySQL(),
+    host      = "titlon.uit.no",
+    user      = "06033230@nord.no",
+    password  = "5PaGqtwUj2spqIEd0UGpA",
+    db        = "OSE"
+)
+
+# List all table names
+dbListTables(con)
+
+# Check available data range for equity table
+dbListFields(con, "equity")
+
+# Check available data range for account table
+dbListFields(con, "account")
+
+# Query to fetch data needed for analysis
+rs <- dbSendQuery(con, "
+    SELECT * FROM `OSE`.`account` 
+    WHERE `Year` >= 2000
+    ORDER BY `Name`,`Year`
+")
+
+# Load data into R, taking a bit of time depending on the size of the dataset
+titlon_data <- fetch(rs, -1)
+
+# Data preview
+titlon_data %>%
+    as.data.table() %>%
+    print(topn = 10)
+
+message(glue("
+  Unique ISINs: {n_distinct(titlon_data$ISIN)} 
+
+  Data range: {min(titlon_data$Year)} - {max(titlon_data$Year)}
+
+  Unique fields ({n_distinct(titlon_data$desc_simpl_en)}): {paste(unique(titlon_data$desc_simpl_en), collapse = ', ')}
+"))
+
+field_dict <- titlon_data %>%
+    distinct(description, .keep_all = TRUE) %>%
+    select(description, desc_simpl_en, desc_simpl_no, account_number, account_type)
+field_dict
+
+f_name <- "titlon_field_dictionary.csv"
+print(f_name)
+# write_excel_csv(field_dict, f_name)
+
+# From long to wide table
+wide_table <- titlon_data %>%
+    select(Name, ISIN, companyID, Year, description, Value) %>%
+    pivot_wider(
+        names_from = description,
+        values_from = Value,
+        # take max in case of duplicates (comapny change names, data entry errors, etc)
+        values_fn = ~ if (all(is.na(.x))) NA_real_ else max(.x, na.rm = TRUE) 
+    )
+wide_table %>%
+    as.data.table() %>%
+    arrange(Name, Year) %>%
+    print(topn = 10)
+
+# Companies with multiple names: keep only the latest name for each ISIN
+wide_table %>%
+    filter(ISIN == "AU0000057408", Year == 2013)
+wide_table %>%
+    filter(ISIN == "AU0000057408")
+
+latest_name <- wide_table %>%
+    summarise(
+        Name = Name[which.max(Year)],
+        .by = c(ISIN)
+    )
+
+latest_name$ISIN %>% n_distinct()
+# check duplicates
+duplicates <- latest_name %>% filter(duplicated(latest_name$ISIN)) %>% pull(ISIN)
+latest_name %>% filter(ISIN %in% duplicates)
+
+
+# Keep only the latest name for each ISIN
+wide_table <- wide_table %>%
+    select(-Name) %>%
+    left_join(latest_name, by = "ISIN") %>%
+    select(Name, everything())
+
+# Remove duplicates
+wide_table %>%
+    count(ISIN, Year) %>%
+    filter(n > 1)
+wide_table %>%
+    filter(ISIN == "NO0010851603") %>%
+    arrange(Year)
+wide_table <- wide_table %>%
+    distinct(ISIN, Year, .keep_all = TRUE)
+
+f_name <- "titlon_fundamental_data.csv"
+print(f_name)
+# write_excel_csv(wide_table, f_name)
+```
+
+`SecuritiesInfo` table: contains stocks info, including event, dividends, etc.
 
 
 ___
