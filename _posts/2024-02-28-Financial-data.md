@@ -282,9 +282,13 @@ Homepage: <https://uit.no/forskning/forskningsgrupper/sub?sub_id=417205&p_docume
 
 Database portal: <https://titlon.uit.no>
 
-TITLON is a database with financial data on stocks, indicies, bonds, funds and derivatives from all exhanges at EURONEXT and with data from Oslo Stock Exchange back to 1980. 
+TITLON is a database with financial data on stocks, indicies, bonds, funds and derivatives from all exchanges at EURONEXT and with data from Oslo Stock Exchange back to 1980. 
 
 You need to be connected to your institution vis VPN, or be at the institution, in order to download data from TITLON.
+
+> Based on my experience, VPN connection through R does not work. You can download the data directly from the website portal though. But some tables are not available for website download, e.g., `account` table. 
+> 
+> You will need to run the R code at the campus.
 
 Field Description: <https://titlon.uit.no/tabledefs.php>
 
@@ -302,61 +306,61 @@ But there is NO documentation providing details or explaining the methodology be
 
   <img src="https://drive.google.com/thumbnail?id=1bJsosmCmjWB9sSOu25Ujy_D2tPwaUyuU&sz=w1000" alt="Titlon preview" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
-| Field name                                             | Type        | Description                                                  |
-| ------------------------------------------------------ | ----------- | ------------------------------------------------------------ |
-| Date                                                   | date(3)     | Date                                                         |
-| SecurityId                                             | bigint(8)   | Security id                                                  |
-| CompanyId                                              | bigint(8)   | Company id                                                   |
-| Symbol                                                 | varchar(16) | Symbol                                                       |
-| ISIN                                                   | varchar(24) | ISIN                                                         |
-| Name                                                   | varchar(50) | of associated equity                                         |
-| BestBidPrice                                           | float(8)    | Best bid price                                               |
-| BestAskPrice                                           | float(8)    | Best ask price                                               |
-| Open                                                   | float(8)    | Open price                                                   |
-| High                                                   | float(8)    | Higest observed price during trading day                     |
-| Low                                                    | float(8)    | Lowest observed price during trading day                     |
-| Close                                                  | float(8)    | Closing price                                                |
-| OfficialNumberOfTrades                                 | float(8)    | Official number of trades                                    |
-| OfficialVolume                                         | float(8)    | Official volume                                              |
-| UnofficialNumberOfTrades                               | float(8)    | Unofficial number of trades                                  |
-| UnofficialVolume                                       | float(8)    | Unofficial volume                                            |
-| VolumeWeightedAveragePrice                             | float(8)    | Volume weighted average price                                |
-| Price                                                  | float(8)    | Same as closing price                                        |
-| <span style='color:#00CC66'>AdjustedPrice</span>       | float(8)    | Adjusted price for dividend, split, etc.                     |
-| Dividends                                              | float(8)    | Last payed dividend                                          |
-| LDividends                                             | float(8)    | Lagged dividend                                              |
-| CorpAdj                                                | float(8)    | Corp adjustments (splits etc.)                               |
-| DividendAdj                                            | float(8)    | Dividend adjustment factor                                   |
-| Currency                                               | varchar(3)  | Currency. Currently allways NOK                              |
-| Description                                            | varchar(40) | Description                                                  |
-| CountryCode                                            | varchar(10) | Country code                                                 |
-| SumAnnualDividends                                     | float(8)    | Sum annual dividends                                         |
-| NumberOfShares                                         | float(8)    | Number of shares issued (not free float adjusted)            |
-| CompanyOwnedShares                                     | float(8)    | Company owned shares                                         |
-| OutstandingShares                                      | float(8)    | Outstanding shares                                           |
-| Exchange                                               | varchar(3)  | Exchange                                                     |
-| NOKPerForex                                            | float(8)    | Exchange rate. Currently allways 1.                          |
-| mktcap                                                 | float(8)    | Market capitalization                                        |
-| OSEBXmktshare_prevmnth                                 | float(8)    | Prevoius month market share in OSEBX index                   |
-| OSEBXAlpha_prevmnth                                    | float(8)    | Prevoius month alpha relative to OSEBX index                 |
-| OSEBXBeta_prevmnth                                     | float(8)    | Prevoius month beta relative to OSEBX index                  |
-| <span style='color:#00CC66'>SMB</span>                 | float(8)    | SMB Fama-French factor                                       |
-| <span style='color:#00CC66'>HML</span>                 | float(8)    | HML Fama french factor                                       |
-| <span style='color:#00CC66'>MOM</span>                 | float(8)    | MOM Fama-French factor                                       |
-| LIQ                                                    | float(8)    | LIQ Pastor-Stambaugh factor                                  |
-| DividendPriceRatio                                     | float(8)    | Dividend price ratio                                         |
-| lnDeltaP                                               | float(8)    | log return of the adjusted price (CorpAdj and DividendAdj)<br/><span style='color:#00CC66'>MY Note: seems to be <strong>the closing price</strong>, in stead of adjusted closing price.</span> |
-| <span style='color:#00CC66'>lnDeltaOSEBX</span>        | float(8)    | log return of the OSEBX index, market benchmark return       |
-| lnDeltaOBX                                             | float(8)    | log return of the OBX index                                  |
-| <span style='color:#00CC66'>NOWA_DayLnrate</span>      | float(8)    | Log difference of Norwegian Overnight Weighted Average rate from the norwegian central bank after 2013. NIBOR before that. Risk-free rate. |
-| <span style='color:#00CC66'>bills_3month_Lnrate</span> | float(8)    | risk free rate given by 3 months Norwegian Goverment Bills, from the `bondindex` table, `CloseYield` field. |
-| Sector                                                 | varchar(50) | Sector                                                       |
-| IN_OSEBX                                               | int(4)      | True if the stock is in the OSEBX index at the moment        |
-| Equity                                                 | float(8)    | Amount of Equity                                             |
-| Debt                                                   | float(8)    | Amount of Debt                                               |
-| Earnings                                               | float(8)    | Total earnings                                               |
-| debt_ratio                                             | float(8)    | Debt ratio                                                   |
-| PE                                                     | float(8)    | Price/Earnings                                               |
+| Field name           | Type        | Description                        |
+| -------------------- | ----------- | ---------------------------------- |
+| Date                 | date(3)     | Date                               |
+| SecurityId           | bigint(8)   | Security id                        |
+| CompanyId            | bigint(8)   | Company id                         |
+| Symbol               | varchar(16) | Symbol                             |
+| ISIN                 | varchar(24) | ISIN                               |
+| Name                 | varchar(50) | of associated equity               |
+| BestBidPrice         | float(8)    | Best bid price                     |
+| BestAskPrice         | float(8)    | Best ask price                     |
+| Open                 | float(8)    | Open price                         |
+| High                 | float(8)    | Higest observed price during trading day |
+| Low                  | float(8)    | Lowest observed price during trading day |
+| Close                | float(8)    | Closing price                      |
+| OfficialNumberOfTrades | float(8)  | Official number of trades          |
+| OfficialVolume       | float(8)    | Official volume                    |
+| UnofficialNumberOfTrades | float(8) | Unofficial number of trades       |
+| UnofficialVolume     | float(8)    | Unofficial volume                  |
+| VolumeWeightedAveragePrice | float(8) | Volume weighted average price   |
+| Price                | float(8)    | Same as closing price              |
+| <span style='color:#00CC66'>AdjustedPrice</span> | float(8) | Adjusted price for dividend, split, etc.|
+| Dividends            | float(8)    | Last payed dividend                |
+| LDividends           | float(8)    | Lagged dividend                    |
+| CorpAdj              | float(8)    | Corp adjustments (splits etc.)     |
+| DividendAdj          | float(8)    | Dividend adjustment factor         |
+| Currency             | varchar(3)  | Currency. Currently allways NOK    |
+| Description          | varchar(40) | Description                        |
+| CountryCode          | varchar(10) | Country code                       |
+| SumAnnualDividends   | float(8)    | Sum annual dividends               |
+| NumberOfShares       | float(8)    | Number of shares issued (not free float adjusted) |
+| CompanyOwnedShares   | float(8)    | Company owned shares               |
+| OutstandingShares    | float(8)    | Outstanding shares                 |
+| Exchange             | varchar(3)  | Exchange                           |
+| NOKPerForex          | float(8)    | Exchange rate. Currently allways 1.|
+| mktcap               | float(8)    | Market capitalization              |
+| OSEBXmktshare_prevmnth | float(8)  | Previous month market share in OSEBX index   |
+| OSEBXAlpha_prevmnth  | float(8)    | Previous month alpha relative to OSEBX index |
+| OSEBXBeta_prevmnth   | float(8)    | Previous month beta relative to OSEBX index  |
+| <span style='color:#00CC66'>SMB</span> | float(8) | SMB Fama-French factor        |
+| <span style='color:#00CC66'>HML</span> | float(8) | HML Fama french factor        |
+| <span style='color:#00CC66'>MOM</span> | float(8) | MOM Fama-French factor        |
+| LIQ                  | float(8)    | LIQ Pastor-Stambaugh factor                  |
+| DividendPriceRatio   | float(8)    | Dividend price ratio                         |
+| lnDeltaP             | float(8)    | log return of the adjusted price (CorpAdj and DividendAdj)<br/><span style='color:#00CC66'>MY Note: seems to be <strong>the closing price</strong>, in stead of adjusted closing price.</span> |
+| <span style='color:#00CC66'>lnDeltaOSEBX</span> | float(8) | log return of the OSEBX index, market benchmark return  |
+| lnDeltaOBX           | float(8)    | log return of the OBX index                                  |
+| <span style='color:#00CC66'>NOWA_DayLnrate</span> | float(8) | Log difference of Norwegian Overnight Weighted Average rate from the norwegian central bank after 2013. NIBOR before that. Risk-free rate. |
+| <span style='color:#00CC66'>bills_3month_Lnrate</span> | float(8) | risk free rate given by 3 months Norwegian Goverment Bills, from the `bondindex` table, `CloseYield` field. |
+| Sector               | varchar(50) | Sector                             |
+| IN_OSEBX             | int(4)      | True if the stock is in the OSEBX index at the moment |
+| Equity               | float(8)    | Amount of Equity                   |
+| Debt                 | float(8)    | Amount of Debt                     |
+| Earnings             | float(8)    | Total earnings                     |
+| debt_ratio           | float(8)    | Debt ratio                         |
+| PE                   | float(8)    | Price/Earnings                     |
 
 
 `account` table: contains annual fundamental data, about 56 fields. 
@@ -387,32 +391,32 @@ Here are some examples of the fields included:
 
 The original data is in a long format, `description` denotes the variable name, and `Value` is the value of the variable. You will need to reshape the data into a wide format, such that each variable is a column and each row is a company-year observation.
 
-| Field name            | Type         | Description                                                        |
-| --------------------- | ------------ | ------------------------------------------------------------------ |
-| Name                  | varchar(150) | Name of company                                                    |
-| ISIN                  | varchar(30)  | ISIN                                                               |
-| companyID             | bigint(8)    | Company id                                                         |
-| OrganizationID        | bigint(8)    | Organization ID (Brønnøysund)                                      |
-| Year                  | bigint(8)    | Year                                                               |
-| description           | varchar(100) | Description                                                        |
-| desc_simpl_en         | varchar(100) | English description                                                |
-| desc_simpl_no         | varchar(100) | Norwegian description                                              |
-| account_number        | bigint(8)    | Number representing the account item                               |
+| Field name            | Type         | Description                        |
+| --------------------- | ------------ | ---------------------------------- |
+| Name                  | varchar(150) | Name of company                    |
+| ISIN                  | varchar(30)  | ISIN                               |
+| companyID             | bigint(8)    | Company id                         |
+| OrganizationID        | bigint(8)    | Organization ID (Brønnøysund)      |
+| Year                  | bigint(8)    | Year                               |
+| description           | varchar(100) | Description                        |
+| desc_simpl_en         | varchar(100) | English description                |
+| desc_simpl_no         | varchar(100) | Norwegian description              |
+| account_number        | bigint(8)    | Number representing the account item |
 | account_type          | varchar(100) | Can be Costs, Current assets, Debt Equity, Fixed assets or Revenue |
-| Value                 | float(8)     | Numeric value (amount)                                             |
-| CorporateAccountValue | float(8)     | Value if in corporate account                                      |
-| CompanyAccountValue   | float(8)     | Value if in company account                                        |
-| source                | varchar(11)  | Where the data was fetched from                                    |
-| Corporation           | int(4)       | True if it is corporate accounting                                 |
-| ID                    | int(4)       |                                                                    |
+| Value                 | float(8)     | Numeric value (amount)             |
+| CorporateAccountValue | float(8)     | Value if in corporate account      |
+| CompanyAccountValue   | float(8)     | Value if in company account        |
+| source                | varchar(11)  | Where the data was fetched from    |
+| Corporation           | int(4)       | True if it is corporate accounting |
+| ID                    | int(4)       |                                    |
 
 
 Code snippet for downloading and reshaping the data:
 
 ```r
 # Fetch Titlon accounting data and convert to wide table for analysis
-# You need to replace the database credentials accordingly. Access to the database requires IP whitelisting.
-# You get access by running the script at the campus or by connecting to the university VPN.
+# You need to replace the database credentials accordingly. Titlon assigns you a dynamic password. 
+# You also need to run the script at the campus due to IP restriction.
 
 library(data.table)
 library(tidyverse)
@@ -519,10 +523,40 @@ wide_table %>%
 wide_table <- wide_table %>%
     distinct(ISIN, Year, .keep_all = TRUE)
 
+
+# Deal with one-to-more mapping btw companyID and ISIN
+# Titlon does not distinguish share classes (ISINs) for the same company (companyID).
+# We will keep companyID as the unique identifier for companies
+isin_map <- wide_table %>%
+    group_by(companyID) %>%
+    summarise(
+        primary_ISIN = min(ISIN), # primary ISIN
+        other_ISINs = paste(setdiff(unique(ISIN), primary_ISIN), collapse = ", "),
+        .groups = "drop"
+    )
+isin_map
+
+wide_table <- wide_table %>%
+    select(-ISIN) %>%
+    distinct(companyID, Year, .keep_all = TRUE) %>%
+    left_join(isin_map, by = "companyID") %>%
+    select(Name, primary_ISIN, other_ISINs, everything()) %>%
+    arrange(Name, Year)
+wide_table
+
+
 f_name <- "titlon_fundamental_data.csv"
 print(f_name)
 # write_excel_csv(wide_table, f_name)
 ```
+
+Quality issues with Titlon data:
+
+- Titlon does <span class="env-orange">NOT distinguish share classes (ISINs)</span> for the same company (companyID). It uses `companyID` as the unique identifier for companies. For instance, Schibsted A shares and B shares have the same `companyID`, but different ISINs.
+
+- One-to-many mapping between `account_number` and `description`. For instance, `account_number` 18 refers to `Sum inntekter` and `Sum driftsinntekter`, both meaning total income. And for each year, only one of them is non-NA. This is likely due to companies using different names for the same variable. 
+  
+  To clean the data, collapse the variables with the same `account_number` into one variable, take the non-NA value as the final value.
 
 `SecuritiesInfo` table: contains stocks info, including event, dividends, etc.
 

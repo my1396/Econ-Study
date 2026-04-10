@@ -1698,6 +1698,8 @@ Staten bør ikke <span class="env-green">blande seg for mye i</span> folks priva
 
 - sosial velferd
 
+- å sikre heverdagsøkonomien til folk → to secure people's everyday finances
+
 - tilby grunnleggende tjenester
   
   infrastruktur, transport, energi og kommunikasjon
@@ -1753,7 +1755,19 @@ district court → court of appeals → Supreme Court
 | ----------------------- | -------------------------------------------------------- |
 | rusavhengighet          | drug addiction                                           |
 | sinnemestring           | anger management                                         |
+| være mistenkt for noe   | to be suspected of sth                                   |
+| være siktet for noe     | to be charged with sth                                   |
 
+å sikte, sikter, siktet, har siktet →  
+1. to charge (sb with sth) 指控某人某事 
+2. to assort, classify 分类
+
+| Norsk                   | English                                                  |
+| ----------------------- | -------------------------------------------------------- |
+| å overfalle             | to attack, assault                                       |
+
+assault 袭击  
+insult 辱骂
 
 --------------------------------------------------------------------------------
 

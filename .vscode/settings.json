@@ -7,7 +7,7 @@
     "scss.validate": false,
     "editor.tabSize": 2,
     "editor.detectIndentation": false,
-    "markdown-preview-enhanced.mathRenderingOption": "KaTeX",
+    "markdown-preview-enhanced.mathRenderingOption": "MathJax",
     "markdown-pdf.stylesRelativePathFile": true,
     "markdown-pdf.styles": [
         "../assets/css/markdown-pdf.css"
