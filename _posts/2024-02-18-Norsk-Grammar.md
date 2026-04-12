@@ -835,7 +835,7 @@ Reflexive Pronouns 反身代词
 | 3rd    | Plural   | de        | dem       | seg (themselves) |
 
 
-- «<span class="env-green">**Seg**</span>» 管 himself, herself, itself, themselves, i.e., 第三人称单数和复数的反身代词。
+- «<span class="env-green">**Seg**</span>» 管 himself, herself, itself, themselves, i.e., <span class="env-green">第三人称</span>单数和复数的反身代词。
 
 - Reflexives in Norwegian are often used in 固定搭配
 
@@ -1055,6 +1055,33 @@ Det er en bekymring at nettsider samler personlige data uten samtykke.
 
 - Jeg har ikke råd til å *unne meg en ferie* i år.  
   → I cannot afford to allow myself a vacation this year.
+
+| Norsk                          | English                               |
+| ------------------------------ | ------------------------------------- |
+| å melde seg på noe             | to sign up for something              |
+
+
+**å melde seg**
+
+- arise, come, appear (å vise seg) 出现
+  
+  Vanskene begynte å melde seg tidlig. → The difficulties began to arise early.
+  
+  Våren meldte seg tidlig i år. → Springtime came early this year.
+
+- to come forward
+  
+  Ingen har meldt seg som eier av hunden. → No one has come forward as the owner of the dog.
+
+- turn oneself in 自首
+  
+  Han meldte seg til politiet. → He turned himself in to the police.
+
+- report (oneself) i tjeneste 报到
+  
+  Jeg meldte meg på jobben kl. 9. → I reported to work at 9 o'clock.
+
+
 
 --------------------------------------------------------------------------------
 
@@ -2440,6 +2467,14 @@ Kan du si det på engelsk?
 | -----------------  | ---------------------------------- |
 | på et tidspunkt    | at some point in time              |
 | være med på noe    | be involved in sth; be part of sth |
+| å med på noe       | go along with something, agree to something |
+
+De gikk med på å heve kjøpet.  
+→ They agreed to refund the purchase.
+
+
+| Norsk              | English                            |
+| -----------------  | ---------------------------------- |
 | være bevisst <span class="env-green">på</span> noe | be aware of sth |
 
 **være bevisst på + noun**
@@ -2464,6 +2499,23 @@ Hun *ble bevisst på at* hun hadde glemt å låse døren.
 Etter kurset *ble jeg mer bevisst på* hvor viktig kommunikasjon er.  
 → After the course, I became more aware of how important communication is.
 
+| Norsk              | English                            |
+| -----------------  | ---------------------------------- |
+| å reklamere på noe | to complain about sth; to make a claim about sth |
+
+Jeg vil reklamere på denne varen.  
+→ I want to make a claim about this item.
+
+å reklamere **for** noe → to advertise for sth; promote sth
+
+noun. **en reklame**, reklamen, reklamer, reklamene → an advertisement, advertising
+
+| Norsk              | English                            |
+| -----------------  | ---------------------------------- |
+| å melde seg på noe | sign up for sth; register for sth  |
+
+Jeg meldte meg på kurset i norsk.  
+→ I signed up for the Norwegian course.
 
 --------------------------------------------------------------------------------
 
@@ -3020,6 +3072,13 @@ Note that «avhengig» is used with «av», which is different from English "dep
 
 A common mistake is to use <del>«avhengig **på** noe»</del> instead of «avhengig **av** noe».
 
+
+| Norsk                  | English                   |
+| ---------------------- | ------------------------- |
+| å skryte av noe        | to boast/praise about sth |
+
+«å skryte av» 既可以是贬义，表示吹嘘，也可以是褒义，表示称赞。
+
 --------------------------------------------------------------------------------
 
 ### hos
@@ -3444,10 +3503,18 @@ Piggfritt er *like godt* som piggdekk.
   Jeg er lik faren min.  
   → I am like my father.
 
-- å ligne → verb. to look like, to resemble
 
-  Jeg ligner faren min. 
+- å ligne, ligner, lignet, har lignet → verb. to look like, to resemble [also as «å likne», g 换成 k]
+
+  Jeg ligner/likner faren min. 
   → I look like my father.
+
+- **lignende**, lignende, lignende → adj. similar, like
+
+  Det er en lignende situasjon i Norge.  
+  → It is a similar situation in Norway.
+
+  Jeg har aldri hørt noe lignende. → I have never heard anything like it.
 
 --------------------------------------------------------------------------------
 

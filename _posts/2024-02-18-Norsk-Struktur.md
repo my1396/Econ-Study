@@ -1175,7 +1175,7 @@ Det er s*tørre sjanse <span class="env-green">for</span> at* de slutter i jobbe
 
 **可能** gå an
 
-不可能 gå ikke an → not possible
+不可能 Det går ikke an å gjøre noe. → It is not possible to do sth.
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
