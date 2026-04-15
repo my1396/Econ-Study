@@ -94,6 +94,7 @@ I takes 2 days to a week for Google to index your site after you submit the site
 Timeline:
 
 - 25-12-04: submitted sitemap to Google Search Console.
+- 26-04-14: received email from Google Search Console that Google starts indexing my site, collecting Google Search Impressions. But I don't think the sitemap.xml is indexed yet.
 
 --------------------------------------------------------------------------------
 

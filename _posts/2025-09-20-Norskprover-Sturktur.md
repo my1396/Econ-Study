@@ -42,11 +42,19 @@ A: legitimasjon (ID), hodetelefon for lytteprøven, bankkort for betaling.
 
 ❗️ Må meld deg på prøver <span class="env-green">så tidlig som påmelding åpner</span>. Plassene fylles opp raskt.
 
+> 一般开始时间是周一上午 09:00，截止至周五晚 23:59。<span class="env-green">Bodø Kommune har bare 20 plasser totalt</span> (就离谱 😂), må melde på <span class="env-green">nøyaktig kl 9</span>.
+>
+> In case all places were taken, you can <span class="env-green">call the test center and ask to be sit on the waiting list</span>. You might get a place later on.
+
 注册网站: [Meld deg på](https://prove.hkdir.no/norskprove-a1-b2/meld-deg-pa-norsk-a1-b2)
 
-一般开始时间是周一上午 09:00，截止至周五晚 23:59。报名开放后尽早注册，名额有限，免得后期想报名的时候没有考位了。
+"**<u>Meld deg på</u>**" <span class="env-orange">ONLY</span> shows up when the registration is open. If you don't see it, it means the registration is not open yet.
 
 <img src="https://drive.google.com/thumbnail?id=1u4Xz0SG_4dJFhvrWFeQQRCkyWkIq-UGz&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+
+Innkalling sendes senest 14 dager før. Plassen din er ikke bekreftet før du har betalt, eller vi har fått epost fra din kommune til [bvo@bodo.kommune.no](mailto:bvo@bodo.kommune.no).
+
+考试日前两周会收到考试通知邮件，告知考试的具体时间和地点。
 
 --------------------------------------------------------------------------------
 

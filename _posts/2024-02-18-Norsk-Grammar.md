@@ -3404,6 +3404,15 @@ komparative og superlative adjektiv
 - Bueskyting er mye morsommere enn fotball.  
   → Archery is much more fun than football.
 
+**Langt** (far) + comparative 用于比较级时，表示程度远远超过。
+
+- Det er *langt* bedre enn før.  
+  → It is far better than before.
+- Huset er *langt* større enn jeg trodde.  
+  → The house is far bigger than I thought.
+- Det skjer *langt* oftere/sjeldnere enn vi tror.  
+  → It happens far more often/less often than we think.
+
 --------------------------------------------------------------------------------
 
 <span class="env-green">**过去分词 adj 的比较级** («-ert» partisipp)</span>

@@ -501,6 +501,7 @@ AI research assistant:
 Q: How to copy a bibliography entry?  
 A: Edit > Copy Bibliography (⇧⌘C). You need to follow the steps in [Quick-Copy format](#copy-bibliography) to set the default style.
 
+--------------------------------------------------------------------------------
 
 Q: Better BibTeX export has no `year` field even though the item has a date. [↩](https://forums.zotero.org/discussion/48645/bibtex-export-date-and-year)  
 A: Exporting through BBT as "Copy BibTeX to lipboard" instead of "Copy BibLaTeX to lipboard" uses 'year' instead of 'date'.
@@ -544,4 +545,8 @@ BibTeX exporter: ✅
 }
 ```
 
+--------------------------------------------------------------------------------
+
+Q: How to rotate a pdf page?  
+A: Got to **thumbnail view**, right click on the page you want to rotate, and choose "Rotate Left" or "Rotate Right". 
 
