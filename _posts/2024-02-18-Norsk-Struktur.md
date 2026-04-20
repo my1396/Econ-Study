@@ -605,6 +605,8 @@ Jeg ser for meg at ... → I imagine/envision that ...
 
 Fra mitt perspektiv ... → From my perspective ...
 
+For min egen del synes jeg at ... → For my part, I think that ...
+
 en mer positiv *holdning* (a more positive attitude)
 
 et annet positivt aspekt er …
@@ -2169,7 +2171,7 @@ Det blir en ond *sirkel*. → It becomes a vicious circle.
 
 ↑: å øke / stige / forbedre / heve / vokse / ekspandere / utvikle
 
-↓: å redusere / senke / begrense / bremse / minimere / stramme inn
+↓: å redusere / senke / begrense / bremse / minimere / stramme inn / innskrenke / kutte
 
 ⭕️: å stoppe / stanse
 

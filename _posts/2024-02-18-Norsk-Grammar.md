@@ -678,6 +678,13 @@ Ex.
 - Hun har løpt lenger enn meg. (adv., distanse)
 - Turen var lengre enn jeg trodde. (adj., distanse)
 
+**for lengst** → a long time ago
+
+- Han har for lengst sluttet i jobben.  
+  → He left the job a long time ago.
+- Det burde vært gjort for lengst.  
+  → It should have been done a long time ago.
+
 --------------------------------------------------------------------------------
 
 ## Possessive 所有格
@@ -1080,6 +1087,15 @@ Det er en bekymring at nettsider samler personlige data uten samtykke.
 - report (oneself) i tjeneste 报到
   
   Jeg meldte meg på jobben kl. 9. → I reported to work at 9 o'clock.
+
+
+| Norsk                          | English                               |
+| ------------------------------ | ------------------------------------- |
+| å gjemme seg for noen          | to hide from someone                  |
+| å gjemme seg bak noe           | to hide behind something              |
+| å ytre seg                     | to express oneself; to display itself |
+| å kvitte seg med noe           | to get rid of something               |
+| å dempe deg                    | 1. restrain oneself, calm down; 2. to lower one's voice, quite down |
 
 
 
@@ -1555,6 +1571,23 @@ In Norwegian, "<span class="env-green">hvis</span>" is <span class="env-green">o
 - Hun spurte <span class="env-green">om</span> det alltid var kaldt.  
   → She asked if it was cold. [注意 adverbial plassering，宾语从句中，副词 alltid 放在动词前面]
 
+### Whose
+
+There is no straightforward equivalent to English in Norwegian. You can use "hvem sin/sine/sitt" to ask about ownership.
+
+Whose money is this? 
+
+- *Hvem sine* penger er dette?
+- *Hvem eier* disse pengene? 
+
+Sometimes you have to rephrase the question.
+
+Stapleton, whose dog scared poor Sir Charles, was a crook.
+
+- Stapleton, *som eide* den hunden som skremte stakkars Sir Charles,
+var en skurk.
+
+
 
 --------------------------------------------------------------------------------
 
@@ -1724,8 +1757,20 @@ en overraskelse over noe → a surprise about sth
 | ----------------- | --------------- |
 | gå over           | pass            |
 
-
 Det går over. → It will pass.
+
+| Norsk                | English          |
+| -------------------- | ---------------- |
+| å bestemme over noe  | decide on sth    |
+
+- Hun liker ikke at andre bestemmer over henne.  
+  → She doesn’t like others controlling her.
+- Foreldre bestemmer over barna sine.  
+  → Parents decide over their children.
+- Ingen skal bestemme over livet mitt.  
+  → No one should decide over my life.
+
+
 
 --------------------------------------------------------------------------------
 
@@ -1832,7 +1877,7 @@ Det er ingen biler foran. → There are no cars in front.
 | å ha lyst til å gjøre            | want to, feel like doing sth |
 | å glede seg til å gjøre noe      | look forward to doing sth    |
 | å ha lyst på noe                 | want, feel like (something)  |
-| å bli oppfordret til å gjøre noe | be encouraged to do sth      |
+| å bli <span class="env-green">oppfordret</span> til å gjøre noe | be encouraged to do sth |
 
 Jeg har lyst til å gå en tur. → I feel like going for a walk.  
 Jeg har lyst på en kopp te. → I feel like having a cup of tea.

@@ -1043,7 +1043,7 @@ ___
 | naturvern                              | nature conservation 自然保护       |
 | økonomisk vekst                        | economic growth 经济增长           |
 | forurensning                           | pollution 污染                     |
-| <span class="env-green">klimaanlegg</span> | air conditioning 空调  |
+| <span class="env-green">klimaanlegg</span> | air conditioning 空调          |
 
 
 Vi kan <span class="env-green">forbrede miljøet ved å</span> ... → We can improve the environment by ...
@@ -1069,6 +1069,8 @@ matvane 饮食习惯
 <span class="env-green">«vegetarianer»</span> [vegətaria:´nər] eller «vegetar» [vegetˈar] 素食者
 
 uten kjøtt
+
+matrester → food leftovers 食物剩余
 
 --------------------------------------------------------------------------------
 
@@ -1207,7 +1209,7 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 | hoste                                  | cough 咳嗽                         |
 | kvalme                                 | nausea 恶心                        |
 | svimmelhet                             | dizziness 头晕                     |
-| diaré                                  | diarrhea 腹泻                      |
+| diaré [diarˈe]                         | diarrhea 腹泻                      |
 | munnsår                                | canker sore 口腔溃疡                |
 | forkjølelsessår                        | cold sore 唇疱疹                    |
 | muskelsmerter                          | muscle pain                        |
@@ -1619,11 +1621,16 @@ Jorden beveger seg rundt solen the earth revolves around the sun → The earth r
 
 ## Politikk
 
-| Norsk                                               | English                                     |
-| --------------------------------------------------- | ------------------------------------------- |
-| likehet                                             | equality 公平                               |
-| likestilling                                        | equality                                    |
-| egalitær                                            | egalitarian 平等主义的                        |
+| Norsk                                 | English                              |
+| ------------------------------------- | ------------------------------------ |
+| å regjere landet                      | to govern/rule the country           |
+| regjeringen                           | the government                       |
+| diktatur(et)                          | dictatorship 独裁                     |
+| likehet                               | equality 公平                         |
+| likestilling                          | equality                             |
+| egalitær                              | egalitarian 平等主义的                 |
+| fellesinteresser                      | common interests                     |
+| å gjøre Norge til et mer inkluderende samfunn | to make Norway a more inclusive society |
 
 - Vi bør arbeide for et mer egalitært samfunn.  
   → We should work for a more egalitarian society.
@@ -1631,25 +1638,28 @@ Jorden beveger seg rundt solen the earth revolves around the sun → The earth r
 - Vi prøver å få til at ingen føler seg bedre eller dårligere enn andre. 
   → We try to ensure that no one feels better or worse than others.
 
-| Norsk                                               | English                                     |
-| --------------------------------------------------- | ------------------------------------------- |
-| frihet                                              | freedom 自由                                |
-| rettferdig / urettferdig                            | fair / unfair                               |
-| rettferdighet                                       | justice 公正                                |
-| demokrati                                           | democracy 民主                              |
-| ytringsfrihet                                       | freedom of speech 言论自由                  |
-| likestilling                                        | equal opportunity 性别平等                  |
-| å diskriminere                                      | to discriminate                             |
-| å stemme ved valg                                   | to vote in elections                        |
-| å delta i politikken                                | to participate in politics                  |
-| å engasjere seg i ...                               | to get involved in ...                      |
-| å *telle* like mye                                  | to count equally                            |
-| å gjennomføre / utføre                              | to implement, carry out                     |
-| å uttrykke egne verdier                             | to express one's values                     |
-| å kjempe for egne interesser                        | to fight for one's interests                |
-| å telle like mye                                    | to count equally                            |
-| å delta i beslutningsprosesser                      | to participate in decision-making processes |
-| å delta <span class="env-green">på</span> møter | to attend meetings                          |
+| Norsk                                  | English                             |
+| -------------------------------------- | ----------------------------------- |
+| frihet                                 | freedom 自由                        |
+| rettferdig / urettferdig               | fair / unfair                       |
+| rettferdighet                          | justice 公正                        |
+| demokrati                              | democracy 民主                      |
+| ytringsfrihet                          | freedom of speech 言论自由          |
+| å komme til orde                       | to have a voice, to be heard       |
+| hets                                   | harassment 骚扰                    |
+| sjikane                                | insult, slander 辱骂               |
+| likestilling                           | equal opportunity 性别平等          |
+| å diskriminere                         | to discriminate                    |
+| å stemme ved valg                      | to vote in elections               |
+| å delta i politikken                   | to participate in politics         |
+| å engasjere seg i ...                  | to get involved in ...             |
+| å *telle* like mye                     | to count equally                   |
+| å gjennomføre / utføre                 | to implement, carry out            |
+| å uttrykke egne verdier                | to express one's values            |
+| å kjempe for egne interesser           | to fight for one's interests       |
+| å telle like mye                       | to count equally                   |
+| å delta i beslutningsprosesser         | to participate in decision-making processes |
+| å delta <span class="env-green">på</span> møter | to attend meetings        |
 
 Interessene til alle skal telle like mye. → The interests of all should count equally.
 

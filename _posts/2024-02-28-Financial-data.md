@@ -194,7 +194,7 @@ $$
 \text{Ashrout}_t = \text{shrout}_t \times \text{cfacshr}_t
 $$
 
-
+[WRDS](https://wrds-www.wharton.upenn.edu/wrds/): Wharton Research Data Services
 
 ## Compustat
 

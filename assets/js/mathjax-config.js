@@ -151,6 +151,7 @@ window.MathJax = {
           bvarepsilon: "\\boldsymbol{\\varepsilon}",
           bdelta: "\\boldsymbol{\\delta}",
           btheta: "\\boldsymbol{\\theta}",
+          bgamma: "\\boldsymbol{\\gamma}",
           blambda: "\\boldsymbol{\\lambda}",
           bmu: "\\boldsymbol{\\mu}",
           bphi: "\\boldsymbol{\\phi}",
