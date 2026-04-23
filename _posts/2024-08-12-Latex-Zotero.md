@@ -504,7 +504,7 @@ A: Edit > Copy Bibliography (⇧⌘C). You need to follow the steps in [Quick-Co
 --------------------------------------------------------------------------------
 
 Q: Better BibTeX export has no `year` field even though the item has a date. [↩](https://forums.zotero.org/discussion/48645/bibtex-export-date-and-year)  
-A: Exporting through BBT as "Copy BibTeX to lipboard" instead of "Copy BibLaTeX to lipboard" uses 'year' instead of 'date'.
+A: Exporting through BBT as "<span class="env-green">Copy BibTeX to lipboard</span>" instead of "Copy BibLaTeX to lipboard" uses 'year' instead of 'date'.
 
 <img src="https://drive.google.com/thumbnail?id=1so9BOTBQziGVSSThi2nwlQgpO-ZiwDEm&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 

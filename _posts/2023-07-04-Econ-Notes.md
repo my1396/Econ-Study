@@ -1686,6 +1686,10 @@ ___
 
 **Textbooks**
 
+-   **Introduction to Econometrics**, Stock, James H., and Mark W. Watson. 2019. 4th ed. Pearson Education Limited.
+    
+    [Dataset](https://www.princeton.edu/~mwatson/Stock-Watson_4E/Stock-Watson-Resources-4e.html) 
+
 -   **Econometric Analysis** , 5th Edition, by William H. Greene, Prentice Hall, 2003. \
     **Time Series Analysis**, by J. D. Hamilton, Princeton University Press, 1994. \
     **Estimation and Inference in Econometrics**, by R. Davidon and J. MacKinnon, Oxford University Press, 1993. \

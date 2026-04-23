@@ -34,7 +34,7 @@ $$
 \end{align*}
 $$
 
-If we define <span style='color:red'>**covariance stationary**</span>, then $\gamma(t,\tau)=\gamma_\tau$, means covariance only depends on the time interval apart $\tau$, not the start point $t$.
+If we define <span class='env-red'>**covariance stationary**</span>, then $\gamma(t,\tau)=\gamma_\tau$, means covariance only depends on the time interval apart $\tau$, not the start point $t$.
 
 
 **Autocorrelation Function** (ACF)
@@ -72,7 +72,7 @@ Note that every $\text{IID}\, (0, \sigma^2)$ sequence is $\text{WN} (0, \sigma^2
 ___
 
 
-**Random Walk**
+## Random Walk
 
 $$
 X_t=c+X_{t-1}+\varepsilon_t
