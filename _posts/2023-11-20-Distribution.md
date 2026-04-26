@@ -25,15 +25,15 @@ $$
 The cdf, $\Phi$, is given by:
 
 $$
-\Phi(x) = P(Z\le x) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^x \exp\{-\frac{u^2}{2}\} du.
+\Phi(x) = P(Z\le x) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^x \exp\left\lbrace -\frac{u^2}{2} \right\rbrace \, du.
 $$
 
 
 Figure 1 shows the $\Phi$ and $\phi$ functions.
 
 <figure> 
-<img src="https://drive.google.com/thumbnail?id=1nxfdIKXgZvOqXVSeA3h_hf0yxmsM361l&sz=w1000" alt="Phi_b" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
-<figcaption>Fig.1 The $\Phi$ and $\phi$ ($f_Z(.)$) functions (CDF and pdf of standard normal).</figcaption>
+<img src="https://drive.google.com/thumbnail?id=1nxfdIKXgZvOqXVSeA3h_hf0yxmsM361l&sz=w1000" alt="Phi_b" style="display: block; margin-right: auto; margin-left: auto; zoom:80%; background-color: white; " />
+<figcaption>Fig.1 The $\Phi$ and $\phi$ (aka. $f_Z(.)$) functions (CDF and pdf of standard normal).</figcaption>
 </figure>
 
 

@@ -1573,7 +1573,7 @@ In Norwegian, "<span class="env-green">hvis</span>" is <span class="env-green">o
 
 ### Whose
 
-There is no straightforward equivalent to English in Norwegian. You can use "hvem sin/sine/sitt" to ask about ownership.
+There is no straightforward equivalent to English in Norwegian. You can use "<span class="env-green">hvem sin/sine/sitt</span>" to ask about ownership.
 
 Whose money is this? 
 
@@ -3106,7 +3106,29 @@ Barna er lei seg for at de ikke kan gå ut å leke.
 
 | Norsk                  | English                   |
 | ---------------------- | ------------------------- |
-| være opptatt av        | be busy with              |
+| være opptatt av        | be concerned of, be preoccupied with something, be interested in something |
+
+være opptatt med → be busy doing sth
+
+词根 å oppta, opptar, opptok, opptatt → to occupy someone’s mind / to concern / to engage strongly
+
+1. Mental or emotional engagement
+
+   saker og verdier som *opptar* oss → things and values that *concern* us
+
+   Dette spørsmålet *opptar* meg mye. → This question concerns me a lot.
+
+   Hun er *opptatt av* miljøet. → She is concerned about the environment. 关心环境
+
+2. Occupy time or space
+
+   Møtet opptar hele dagen. → The meeting occupies the whole day.
+
+   Sofaen opptar mye plass. → The sofa takes up a lot of space.
+
+
+| Norsk                  | English                   |
+| ---------------------- | ------------------------- |
 | være klar av           | be aware of               |
 | ha glede/inntrykk/nytte av | have pleasure/impression/use of |
 | ta avstand av          | distance oneself from     |

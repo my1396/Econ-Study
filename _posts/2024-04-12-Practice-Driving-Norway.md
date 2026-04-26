@@ -453,6 +453,32 @@ For **Nordland, Troms og Finnmark** gjelder kravet til minimum 3 millimeter møn
 
 冬季胎压要高一些，抓地更好。
 
+**车胎磨损**
+
+前驱（FF）车：绝大多数情况 → 前胎磨损比后胎大很多
+
+简单说原因：
+
+1. 发动机、变速箱都在前面 → 车头更重，前轮压得更狠
+2. 前轮既要驱动又要转向 → 起步、加速、刹车、拐弯，受力全在前轮
+3. 刹车时重心前移 → 前轮承担大部分制动力，磨损更快
+
+一般会差多少？
+
+- 正常开: 前胎磨损 ≈ 后胎的 1.5～2 倍
+- 经常市区、堵车、大脚油门: 前胎磨损会更明显
+
+小建议
+
+为了4条胎寿命均匀、不跑偏、不打滑：
+
+- 每 1万～1.5万公里 做一次 轮胎对角换位 
+- 前胎磨到安全线就一定要换，别硬撑
+
+<a href="{{site.baseurl}}/2024/04/11/CorollaManual.html#tire-pressure">Initializing the tire pressure warning system (TWPS)</a>
+
+<a href="{{site.baseurl}}/2024/04/11/CorollaManual.html#tire-rotation">Tire Rotation</a>
+
 ## Dekkhotell
 
 tyre hotel
