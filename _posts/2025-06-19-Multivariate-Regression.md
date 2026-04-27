@@ -413,7 +413,7 @@ $$
 
 **Relationship with OLS**
 
-1. If the equations are actually unrelated—that is, if $\sigma_{ii}=0$ for $i\ne i$, then there is obviously no payoff to GLS estimation of the full set of equations. Indeed, full GLS is equation by equation OLS.
+1. If the equations are actually unrelated—that is, if $\sigma_{ij}=0$ for $i\ne j$, then there is obviously no payoff to GLS estimation of the full set of equations. Indeed, full GLS is equation by equation OLS.
 
 2. If the equations have identical explanatory variables—that is, if $\bX_i = \bX_j$ for $\forall i,j$, then GLS is equivalent to equation by equation OLS.
     
