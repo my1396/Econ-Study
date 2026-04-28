@@ -1210,19 +1210,18 @@ span[style*="#00CC66"]>a {
   padding: 10px 15px;
   margin: 1.2em 0;
   border-radius: 5px;
-  border-left: 5px solid;
+  border: 1px solid;
+  border-left-width: 5px;  // override left border width to 5px
 }
 
 /* Light mode callout box */
 .note {
-  background-color: #e8f4fd;
+  color: inherit;  // use default text color
   border-left-color: #3498db;
-  color: #1a3a4a;
 }
 
 /* Dark mode callout box */
 [data-theme="dark"] .note {
-  background-color: #1a2e3a;
-  color: #a8d4f0;
-  border-left-color: #3498db;
+  color: inherit;    // use default text color
+  border-left-color: #5dade2;
 }
