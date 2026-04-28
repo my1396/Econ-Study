@@ -1204,3 +1204,25 @@ span[style*="#00CC66"]>code {
 span[style*="#00CC66"]>a {
   color: #00CC66 !important;
 }
+
+/* ──────── Callout box ──────── */
+.note {
+  padding: 10px 15px;
+  margin: 1.2em 0;
+  border-radius: 5px;
+  border-left: 5px solid;
+}
+
+/* Light mode callout box */
+.note {
+  background-color: #e8f4fd;
+  border-left-color: #3498db;
+  color: #1a3a4a;
+}
+
+/* Dark mode callout box */
+[data-theme="dark"] .note {
+  background-color: #1a2e3a;
+  color: #a8d4f0;
+  border-left-color: #3498db;
+}
