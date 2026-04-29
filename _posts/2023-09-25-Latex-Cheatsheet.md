@@ -25,6 +25,7 @@ Ordinary hat `\hat{\beta}` gives $\hat{\beta}$.
 
 `\S` (from basic LaTex) or `\textsection` (from `textcomp` package) gives  the section symbol §1 (`\S1`)
 
+See <a href="{{site.baseurl}}/2023/10/12/LaTex101.html#mathfont">HERE</a> for Math font styles, e.g., Caligraphic (`\mathcal`), Blackboard bold (`\mathbb`), math roman (`\mathrm` or `\text`), etc.
 
 
 ## Brackets and Braces

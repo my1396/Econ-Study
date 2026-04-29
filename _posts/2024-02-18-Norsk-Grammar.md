@@ -2903,6 +2903,7 @@ en ny form **for** underholdning → a new form of entertainment
 | konsekvensen for ... | the consequence for ...   |
 | være utsatt for noe  | be exposed to sth         |
 | å utsettes for noe   | be exposed to sth         |
+| bli utsatt for noe   | be exposed to sth         |
 | større/mindre sjanse for at ... | greater/less chance of ... |
 
 
