@@ -1140,7 +1140,7 @@ Ida åpnet døra slik at katten kunne komme inn. → Ida opened the door so that
 
 > for eksempel; slik som; 
 >
-> Det finners eksempler på …
+> Det finnes eksempler på …
 
 **Sequence** (rekkefølge) 序列
 
@@ -1670,8 +1670,23 @@ Use of "finnes":
   Flere muligheter finnes for pasientene. 
 
 
+**det/der er + noun + past participle** → “there is a [thing] that has been [done]”
 
+- Der er en myte avkreftet. 
+  → There is a myth that has been disproved. 迷思被打破了。
 
+- Der er en sak løst. 
+  → There is a case that has been solved.
+
+**det er + participle (at …)** → “it is [done] that …”
+
+Used to introduce general statements, facts, or claims
+
+- Det er bevist at … → It is proven that …
+
+- Det er sagt at … → It is said that …
+
+--------------------------------------------------------------------------------
 
 **这种**
 

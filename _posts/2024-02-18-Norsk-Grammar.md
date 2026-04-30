@@ -3783,10 +3783,17 @@ For eksempel: En bruk/bruker -å bruke - brukbar/brukt/ubrukelig
 
 Noen vanlige suffikser som lager **adjektiv** er: 
 
-- -aktig, - bar, -ete, - ig,-lig, -messig, -som, -ær, -isk. 
+- -aktig, - bar, -ete, - ig, -lig, -messig (-related), -som, -ær, -isk. 
 
 Noen vanlige suffikser som lager **substantiv**: 
+
 - -er, -ing, -iker, - dom, -else, -sel, -skap, - nad, -het
+
+
+«-føre» → conditions
+
+skiføre → skiing conditions  
+kjøreføre → driving conditions
 
 --------------------------------------------------------------------------------
 
