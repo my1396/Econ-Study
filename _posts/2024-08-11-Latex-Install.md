@@ -9,7 +9,7 @@ I install LaTeX on my Mac following instruction on [TeXShop](https://pages.uoreg
 
 TeXShop is a front end to TeX and LaTeX, but when TeXShop typesets, it calls command line programs in an underlying TeX distribution. This distribution must be obtained separately. The TeX distribution contains the actual typesetting programs by Knuth and others, various fonts used by TeX, and a vast array of support style files and other auxiliary files.
 
-Just install the full distribution (about 2800 packages) to avoid missing packages. It' a pain to install missing packages one by one. 
+Just install the full distribution (about 2800 packages) to avoid missing packages. It's a pain to install missing packages one by one. 
 
 - The standard TeX distribution is called <span class="env-green">**TeX Live**</span>. ✅
   
@@ -39,7 +39,8 @@ One of the GUI programs it installs is "TeX Live Utility," which can keep TeX Li
 
 ## Homebrew Installation
 
-You can install LaTeX using Homebrew as well. This method is more lightweight, but you need to be familiar with the Unix command line. 轻量化但是需要熟悉命令行。需要用户自行配置 PATH environment variable。
+You can install LaTeX using Homebrew as well. This method is more lightweight, but you need to be familiar with the Unix command line.   
+轻量化但是需要熟悉命令行。需要用户自行配置 PATH environment variable。
 
 On Apple Silicon (M chips), homebrew files are symlinked into `/opt/homebrew` and its executable binaries are symlinked into `/opt/homebrew/bin`.
 
@@ -72,7 +73,7 @@ A: Reloading the window is like a soft restart. When you install new extensions 
 
 ## Package Management
 
-If you have installed TeX Live, it comes with a comprehensive set of LaTeX packages. However, if there is a package you don't have it locally, TeX Live includes a package manager called `tlmgr` (TeX Live Manager) that allows you to install, update, and manage LaTeX packages.
+If you have installed TeX Live, it comes with a comprehensive set of LaTeX packages. However, if there is a package you don't have it locally, TeX Live includes a package manager called <span class="env-green">`tlmgr`</span> (TeX Live Manager) that allows you to install, update, and manage LaTeX packages.
 
 ```bash
 # To install a package
