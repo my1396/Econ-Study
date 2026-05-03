@@ -247,12 +247,13 @@ De fleste adjektiv slutter på **‑t** når de beskriver *substantiv i ubestemt
 
 **Flere intetkjønns-eksempler**
 
-| Norsk              | English              |
-| ------------------ | -------------------- |
-| et typisk inntrykk | a typical impression |
-| et godt tilbud     | a good offer         |
-| et godt spørsmål   | a good question      |
-| et vanskelig valg  | a difficult choice   |
+| Norsk                         | English                            |
+| ----------------------------- | ---------------------------------- |
+| et typisk inntrykk            | a typical impression               |
+| et godt tilbud                | a good offer                       |
+| et godt spørsmål              | a good question                    |
+| et vanskelig valg             | a difficult choice                 |
+| Alle nordmenn har *lyst* hår. | All Norwegians have blond hair.    |
 
 
 | Hankjønn / Hunkjønn  | Intetkjønn | Flertall      |
@@ -1096,8 +1097,16 @@ Det er en bekymring at nettsider samler personlige data uten samtykke.
 | å ytre seg                     | to express oneself; to display itself |
 | å kvitte seg med noe           | to get rid of something               |
 | å dempe deg                    | 1. restrain oneself, calm down; 2. to lower one's voice, quite down |
+| å prøve seg på noe             | have a go, try something out          |
 
+- Det er godt for ham å *få prøve seg på* det.  
+  → It's good for him to try it out.
 
+- Jeg vil *prøve meg på* klatring.  
+  → I want to try climbing.
+
+- Vi kan *prøve oss på* noe nytt i helgen.  
+  → We can try something new this weekend.
 
 --------------------------------------------------------------------------------
 
@@ -2556,11 +2565,22 @@ Jeg vil reklamere på denne varen.
 noun. **en reklame**, reklamen, reklamer, reklamene → an advertisement, advertising
 
 | Norsk              | English                            |
-| -----------------  | ---------------------------------- |
+| ------------------ | ---------------------------------- |
 | å melde seg på noe | sign up for sth; register for sth  |
 
-Jeg meldte meg på kurset i norsk.  
-→ I signed up for the Norwegian course.
+- Jeg meldte meg på kurset i norsk.  
+  → I signed up for the Norwegian course.
+
+| Norsk              | English                            |
+| ------------------ | ---------------------------------- |
+| å øve på noe / å gjøre noe | practice sth               |
+
+- Jeg *øver på* (å snakke) norsk.  
+  → I practice (speaking) Norwegian.
+- Hun *øver på* piano.  
+  → She practices the piano.
+- De *øver på* å presentere.  
+  → They practice presenting.
 
 --------------------------------------------------------------------------------
 
@@ -2709,6 +2729,10 @@ Hva driver du med for tiden?
 - Hva er dine meninger med dette?  
   → What are your opinions about this?
 
+
+| Norsk             | English              |
+| ----------------- | -------------------- |
+| med hensikt/vilje | deliberately, intentionally |
 
 --------------------------------------------------------------------------------
 

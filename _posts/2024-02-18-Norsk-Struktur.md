@@ -1488,14 +1488,20 @@ Det er et betydningsfullt øyeblikk i livet ditt. → It is a significant moment
 
 可以(被)看作是一个 … 的问题
 
-Man kan <span class="env-green">se på som</span> …  →
+Man kan <span class="env-green">se på noe som</span> …  
+→ One can see sth as …
 
-problemet <span class="env-green">blir sett på som</span> … → The problem can be seen as …
+Problemet <span class="env-green">blir sett på som</span> …   
+→ The problem can be seen as …
 
 ❗注意不要忘记加 «på»
 
 - Man *kan se på som* en positiv utvikling og et resultat av at ... [主动]  
   → It can be viewed as a positive development and a result of ... 
+
+- Han *ser på* nye regler *som* hår i suppa.  
+  → He sees the new rules as a nuisance. (literally: hair in the soup)
+
 - Fengsler i Norge *blir* av mange *sett på som* ren luksus. [被动]  
   → Norwegian prisons *are* by many *seen as* pure luxury.  
   «av mange»: by many

@@ -1216,6 +1216,7 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 | hodepine                               | headache                           |
 | halsbrann                              | heartburn 胃酸回流，胃灼热            |
 | fedme / overvekt                       | obesity                            |
+| Du har gått opp/ned mye i vekt.        | You have gained/lost a lot of weight. |
 | tykk, tykt, tykke                      | thick, fat                         |
 | tynn                                   | thin, slim                         |
 | i tykt og tynt                         | through thick and thin 风雨同舟，同甘共苦|
@@ -1283,7 +1284,8 @@ er<span class="env-green">nær</span>ing 注意与 er<span class="env-green">far
 | helsekost                              | health food                        |
 | varietet [varietˈet]                   | variety (en 同 no)                 |
 | være i form                            | stay in shape                      |
-| å holde <span class="env-green">seg</span> i form | to keep fit     |
+| å holde <span class="env-green">seg</span> i form | to keep fit             |
+| være i god/dårlig form                 | be in good/bad shape               |
 | være til <span class="env-green">byrde for</span> noen | be a bother / burden to sb |
 | være redd for å bli alvorlig syk       | be afraid of becoming seriously ill |
 | søvnløshet                             | insomnia 失眠                       |
