@@ -801,26 +801,30 @@ Rule of thumb:
 
 ## References
 
+APA style: refer to "Publication Manual of the American Psychological Association".
+
 Citing sources in [APA style](https://apastyle.apa.org) 7th ed.
 
-<https://libraryguides.vu.edu.au/apa-referencing/7Books>
+[APA: Journal article references](https://apastyle.apa.org/style-grammar-guidelines/references/examples/journal-article-references)
 
-<https://www.scribbr.com/apa-examples/book/>
+[Library Guide: APA 7th referencing](https://libraryguides.vu.edu.au/apa-referencing/7Books)
+
+[Scirbbr: Generating Reference based on URL, DOI, ISBN](https://www.scribbr.com/apa-examples/book/)
 
 All types of reference materials: <https://libguides.murdoch.edu.au/APA/all>
 
-APA style: refer to "Publication Manual of the American Psychological Association".
 
-Citations vs. References
+**Citations vs. References**
 
 - Traditionally the term "citation" is used to refer to an in-text source, 
 
 - while "reference" is the correct term for a source listed on the reference page of a paper.
 
+--------------------------------------------------------------------------------
+
 **Styling**
 
 - The first line of each citation is left adjusted. Every subsequent line is indented 5-7 spaces.
-
 
 
 **Parenthetical vs Narrative citations**
@@ -872,7 +876,6 @@ Should include the following info:
 | Book: 2 Authors, and Edition    | According to Moran and Toner (2017)… <br />**OR**<br /> … this is evident (Moran & Toner, 2017). | Moran, A., & Toner, J. (2017). A critical introduction to sport psychology (3rd ed.). Routledge.<br/><br/>**The edition number is included after the title of the work (not necessary for first editions).** |
 | Book: 3 to 20 Authors, with DOI | Interval training involves "performing for a comparatively shorter time period during each exercise session" (Haile et al., 2015, p. 135).<br/>OR<br/>Haile et al. (2015) note that interval training involves "performing for a comparatively shorter time period during each exercise session" (p.135).<br/><br/>**Where there are 3 or more authors cite only the first author's surname followed by et al.** | Haile, L., Gallagher, M., & Robertson, R. J. (2015). Perceived exertion laboratory manual: From standard practice to contemporary application. Springer. https://doi.org/10.1007/978-1-4939-1917-8<br/><br/>**Provide the names of all authors in the reference list, up to and including 20 authors.**<br/><br/>**For a book with 21 or more authors follow the same author format as for a journal article with 21 or more authors.** |
 | Book chapter: Case Study        | Scerri & Presbury (2022) use a service language model...     | - General syntax: Author(s) (year). Title of chapter, *Title of book* (in italics), page reference, publisher. DOI/URL.<br />- Example: Scerri, M., & Presbury, M. (2022). The power of words: A case study of service language in an Australian five-star hotel. In *S. M. Perry (Ed.), Case based research in tourism, travel, hospitality and events* (pp. 117-133). Springer. <https://doi.https://doi.org/10.1007/978-981-16-4671-3_7> |
-|                                 |                                                              |                                                              |
 
 
 
@@ -895,6 +898,7 @@ To avoid this confusion, recommend to use past tense, "<span style='color:#008B4
 
 
 
+--------------------------------------------------------------------------------
 
 
 ###  ISBN and DOI
@@ -905,11 +909,19 @@ What is an ISBN and a DOI?
   - It is a 13 (after 1 January 2007) or 10 (before 2007) digits number assigned to all books and book-like publications that are published internationally.
   - The purpose of the ISBN is to establish and identify one title or edition of a title from one specific publisher and is unique to that edition, allowing for more efficient marketing of products by booksellers, libraries, universities, wholesalers and distributors.
 
-- A Digital Object Identifier (DOI) is as persistent and stable as an ISBN. The advantage of using a DOI in the online environment is that it can be expressed in resolvable format, (e.g. http://doi.org/10.4225/35/5715bcdd2df24) so that there is always a link back to the online location of the item.
+- A Digital Object Identifier (DOI) is as persistent and stable as an ISBN. The advantage of using a DOI in the online environment is that it can be expressed in resolvable format, (e.g. <http://doi.org/10.4225/35/5715bcdd2df24>) so that there is always a link back to the online location of the item.
 
 It is not necessary for an ISBN and DOI to be issued for the same publication unless it will be distributed in both print and electronic formats.
 
 
+[**DOIs and URLs formatting**](https://apastyle.apa.org/style-grammar-guidelines/references/dois-urls)
+
+- present as hyperlinks (i.e., beginning with http:// or https://)
+- not necessary to include the words "Retrieved from" or "Accessed from" before DOIs or URLs
+- Do not add line breaks manually to the hyperlink; it is acceptable if your word-processing program automatically adds a break or moves the hyperlink to its own line.
+- Do not add a period after the DOI or URL because this may interfere with link functionality
+
+--------------------------------------------------------------------------------
 
 ## Prepare for submission
 
