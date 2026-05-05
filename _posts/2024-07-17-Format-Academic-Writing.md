@@ -982,6 +982,7 @@ It is not necessary for an ISBN and DOI to be issued for the same publication un
 
 - Font size: 12 pt
 
+- Be cautious when using Nord email as it might categorize the decision letter as "junk mail". Always check the junk mail folder after submission.
 
 
 ___
