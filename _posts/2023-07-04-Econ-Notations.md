@@ -134,14 +134,19 @@ Unequal signs: $\ne$ (`\ne`), `!=`, or `<>`.
 $\nabla:=\begin{pmatrix}\frac{\partial}{\partial x_1} \cr
 \vdots \cr
 \frac{\partial}{\partial x_n} \end{pmatrix}$, called "nabla symbol" or "nabla operator" (`\nabla`), commonly used in vector analysis and multivariate calculus.
-E.g., Let $f(x_1, x_2)=x_1^3$, $\mathbb{R}^2 \rightarrow \mathbb{R}$, then the *gradient* of $f$ is $\nabla f(x_1, x_2) = 
+E.g., Let $f(x_1, x_2)=x_1^3$, $\mathbb{R}^2 \rightarrow \mathbb{R}$, then the *gradient* of $f$ is 
+
+$$
+\nabla f(x_1, x_2) = 
 \begin{pmatrix}\frac{\partial f}{\partial x_1} \cr
 \frac{\partial f}{\partial x_2} 
 \end{pmatrix} = 
 \begin{pmatrix} 3x_1^2 \cr
 0
-\end{pmatrix}
-$.
+\end{pmatrix} .
+$$
+
+--------------------------------------------------------------------------------
 
 **Upper- and lower-case letters**
 
@@ -153,25 +158,37 @@ Vectors are lowercase and matrices are uppercase symbols. Both vectors and matri
   - $\bA = [a_{ik}] = [\bA]_{ik}$ to show the $(i,k)$ components of matrix $\boldsymbol A$.
 
 
-  - $\ba_k,$ $\ba_l,$ $\ba_m,$ denote column $k,$ $l,$ or $m$ of the matrix $\bA.$
+  - <span class="env-green">$\ba_k,$ $\ba_l,$ $\ba_m,$ denote column $k,$ $l,$</span> or $m$ of the matrix $\bA.$
 
-$$
-  \underset{n\times K}{\bA} = \begin{bmatrix}
-  \ba_1 & \cdots & \ba_l & \cdots & \ba_K 
-  \end{bmatrix}
-$$
+    $$
+      \underset{n\times K}{\bA} = \begin{bmatrix}
+      \ba_1 & \cdots & \ba_l & \cdots & \ba_K 
+      \end{bmatrix}
+    $$
 
-  - $\ba_i,$ $\ba_j,$ $\ba_s,$ or $\ba_t,$ denote the column vector formed by the transpose of row $i,$ $j,$ $t,$ or $s$ of matrix $\bA.$ Thus $\ba_i'$ is row $i$ of $\bA.$
+  - $\ba_i,$ $\ba_j,$ $\ba_s,$ or $\ba_t,$ denote the column vector formed by the transpose of row $i,$ $j,$ $t,$ or $s$ of matrix $\bA.$ Thus <span class="env-green">$\ba_i'$ is row $i$ of $\bA.$</span>
 
-$$
-  \underset{n\times K}{\bA} = \begin{bmatrix}
-  \ba_1' \\
-  \vdots \\
-  \ba_i' \\
-  \vdots \\
-  \ba_n' \\
-  \end{bmatrix}
-$$
+    $$
+      \underset{n\times K}{\bA} = \begin{bmatrix}
+      \ba_1' \\
+      \vdots \\
+      \ba_i' \\
+      \vdots \\
+      \ba_n' \\
+      \end{bmatrix}
+    $$
+  
+  - The $(i,j)$-th element of $\bA$ is denoted by $a_{ij}$ or $[\bA]_{ij}$.
+
+- **Constants** are lowercase upright letters, e.g., $\mathrm e,$ the base of the natural logarithm, and $\mathrm i,$ the imaginary unit. 
+  
+  Sometimes, constants are also denoted by uppercase letters.
+
+- **Variables** should be italic letters, e.g., $x, y, z$. Use boldface to denote vectors, e.g., $\bx, \by, \bz$. Matrices are uppercase boldface, e.g., $\bX, \bY, \bZ$.
+
+See <a href="{{site.baseurl}}/2024/07/17/Format-Academic-Writing.html">HERE</a> for more on typesetting math in academic writing.
+
+--------------------------------------------------------------------------------
 
 - Sets are denoted by capital letters, optionally in calligraphy, $A, B, C, \ldots$
 

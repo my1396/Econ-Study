@@ -44,6 +44,20 @@ See <a href="{{site.baseurl}}/2023/10/12/LaTex101.html#mathfont">HERE</a> for Ma
 
 ## Vectors
 
+VS Code user snippets for vectors:
+
+| prefix   | description  | body         |
+| -------- | ------------ | ------------ |
+| `vec`    | row vector   | $$(x_1,x_2,\dots,x_n)$$ |
+| `cvec`   | column vector | $$\begin{pmatrix}x_1 \\ x_2 \\ \vdots \\ x_n \end{pmatrix}$$ |
+| `mat-diag` or `var-mat`    | variance matrix | $$\begin{pmatrix}\sigma^2_1 & 0 & \cdots & 0 \\ 0 & \sigma^2_2 & \cdots & 0 \\ \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & \cdots & \sigma^2_n \end{pmatrix}$$ |
+| `pmat` or `pmatrix`        | empty parenthesis matrix           | |
+| `bmat` or `bmatrix`        | empty bracket matrix               | |
+
+
+
+See <a href="{{site.baseurl}}/2024/08/12/Latex-Workshop.html#snippets">HERE</a> more snippets supported in VS Code.
+
 `\vec{A}`: $\vec{A}$
 
 `\overrightarrow{AB}`: $\overrightarrow{AB}$

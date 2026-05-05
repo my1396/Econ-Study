@@ -118,21 +118,21 @@ Environment snippets works directly in `tex`, you type `B`, a drop-down list wil
 
 Commands start with <span class="env-green">`B`</span> for inserting LaTeX environments.
 
-| Prefix                                | Environment name |
-| ------------------------------------- | ---------------- |
-| <span class="env-green">`BEQ`</span>  | `equation`       |
-| `BSEQ`                                | `equation*`      |
-| <span class="env-green">`BAL`</span>  | `align`          |
-| `BSAL`                                | `align*`         |
-| <span class="env-green">`BSPL`</span> | `split`          |
-| `BCAS`                                | `cases`          |
-| `BGA`                                 | `gather`         |
-| `BSGA`                                | `gather*`        |
-| `BMU`                                 | `multline`       |
-| `BSMU`                                | `multline*`      |
-| `BIT`                                 | `itemize`        |
-| `BEN`                                 | `enumerate`      |
-| `BFR`                                 | `frame`          |
+| Prefix    | Environment name | Note      |
+| --------- | ---------------- | --------- |
+| <span class="env-green">`BEQ`</span>  | `equation`  |        |
+| `BSEQ`                                | `equation*` | Starred `equation`, no numbering |
+| <span class="env-green">`BAL`</span>  | `align`     |        |
+| `BSAL`                                | `align*`    |        |
+| <span class="env-green">`BSPL`</span> | `split`     | Used together with `equation` to create multilined eqn |
+| <span class="env-green">`BCAS`</span> | `cases`     | $$D=\begin{cases}0 & \text{if male} \\ 1 & \text{if female} \end{cases}$$       |
+| `BGA`     | `gather`         |           |
+| `BSGA`    | `gather*`        |           |
+| `BMU`     | `multline`       |           |
+| `BSMU`    | `multline*`      |           |
+| `BIT`     | `itemize`        |           |
+| `BEN`     | `enumerate`      |           |
+| `BFR`     | `frame`          |           |
 | <span class="env-green">`BFI`</span>  | `figure`         |
 | <span class="env-green">`BTA`</span>  | `table`          |
 
