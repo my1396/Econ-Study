@@ -1177,7 +1177,7 @@ Det er s*tørre sjanse <span class="env-green">for</span> at* de slutter i jobbe
 
 **可能** gå an
 
-不可能 Det går ikke an å gjøre noe. → It is not possible to do sth.
+不可能 Det **går ikke an** å gjøre noe. → It is not possible to do sth.
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
@@ -1225,13 +1225,17 @@ Valget er bassert på tilfeldighet.
 
 --------------------------------------------------------------------------------
 
-**verken … eller** → either … or …
+<span class="env-green">**verken … eller…**</span> → neither … nor … 表示两者都不，双否定
 
 Jeg skal **verken** til Paris **eller** til Roma.  
 → I am not going to either Paris or Rome.
 
 Vi har **verken** brød **eller** kaffe.  
 → We don't have either bread or coffee.
+
+Vi fikk verken vått eller tørt av henne.
+→ She gave us neither drink nor food.
+
 
 **verken** før **eller** etter → neither before nor after
 

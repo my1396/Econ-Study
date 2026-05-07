@@ -1673,6 +1673,13 @@ Vi bør ha hensyn til de eldre i samfunnet. → We should take the elderly into 
 
 Alle har like muligheter til å lykkes. → Everyone has equal opportunities to succeed.
 
+
+Den tause majoriteten har vært stille for lenge. De er nødt til å si ifra.  
+→ The silent majority has been quiet for too long. They need to speak up.
+
+Stillhet er behagelig, men det reparerer ingenting. Vi som er vanlige folk må ta til motmæle i kommentarfeltene. Vi må vise at vi er mange flere enn de som sprer drit.  
+→ Silence is comfortable, but it doesn't fix anything. We ordinary people must speak up in the comment sections. We must show that we are many more than those who spread crap.
+
 <span class="env-green">**de + adj plural**</span> → 一类人
 
 - de eldre / yngre / rike / fattige

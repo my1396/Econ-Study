@@ -2090,6 +2090,13 @@ Han har ikke even til å forstå det. → He doesn't have the ability to underst
 - Vi har *god tilgang på* fersk fisk her.  
   → We have good access to fresh fish here.
 
+| Norsk                 | English                  |
+| --------------------- | ------------------------ |
+| å legge merke til noe | to notice sth; to pay attention to sth |
+
+Vi merker det nesten ikke, men hver dag så blir det svakere.  
+→ We hardly notice it, but every day it gets weaker.
+
 --------------------------------------------------------------------------------
 
 ### Locations

@@ -178,8 +178,34 @@ Code snippet（begin with two colons `::`）
 
 --------------------------------------------------------------------------------
 
+<a id="slow-down-key-events"></a>
+
+### Slowing down the key events
+
+If, when expanding your keyword, you find that part of the keyword is still visible, the wrong text is pasted or part of the snippet text is deleted, try <span class="env-green">**slowing down the key events**</span>.
+
+Preferences > Snippets > **Auto Expansion Options** > Tweaking. 
+
+Move the slider (**Simulated key event speed**) to the left to slow down Alfred's actions. We recommend starting with the **slowest** setting, then bringing it back towards the right until you're seeing predictable behavior.
+
+<img src="{{site.baseurl}}/images/snippets-tweaking.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+ref:
+
+- [Reddit: Alfred snippets pasting from clipboard rather than snippet](https://www.reddit.com/r/Alfred/comments/14rn8er/alfred_snippets_pasting_from_clipboard_rather/)
+- [My snippets are expanding partially, or the keyword remains](https://www.alfredapp.com/help/troubleshooting/snippets/#partial)
+
+--------------------------------------------------------------------------------
+
+Issue: Alfred snippets pasting from clipboard rather than snippet.  
+Fix: Slow down key events. I changed it from 0.5s to 0.6s. 
+
+--------------------------------------------------------------------------------
+
 Q: Snippet auto expand does not work in <span class="env-green">VS Code</span>?  
 A: When you type the snippet keyword, the snippet is copied to clipboard, and you need to paste it (⌘V) to insert the snippet content.
+
+Update (May 26): Adjust [**key event speed**](#slow-down-key-events) to the slowest setting, then it works without needing to paste. 👍
 
 How to insert Alfred snippet in VS Code. Two methods:
 
