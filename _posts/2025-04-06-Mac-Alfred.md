@@ -190,15 +190,13 @@ Move the slider (**Simulated key event speed**) to the left to slow down Alfred'
 
 <img src="{{site.baseurl}}/images/snippets-tweaking.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
+I also checked "Restore clipboard contents after auto expansion", so that my clipboard won't be affected by the snippet itself. I set "Restore after" to 0.3s, so the snippet will be deleted from clipboard after 0.3s.
+
 ref:
 
 - [Reddit: Alfred snippets pasting from clipboard rather than snippet](https://www.reddit.com/r/Alfred/comments/14rn8er/alfred_snippets_pasting_from_clipboard_rather/)
 - [My snippets are expanding partially, or the keyword remains](https://www.alfredapp.com/help/troubleshooting/snippets/#partial)
 
---------------------------------------------------------------------------------
-
-Issue: Alfred snippets pasting from clipboard rather than snippet.  
-Fix: Slow down key events. I changed it from 0.5s to 0.6s. 
 
 --------------------------------------------------------------------------------
 

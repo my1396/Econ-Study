@@ -1055,6 +1055,30 @@ Other expressions of "unless":
 
 --------------------------------------------------------------------------------
 
+**Unntatt** for at ... 除了...以外
+
+> unntatt (except); unntatt at (except that); unntatt for (except for); 
+> unntatt når (except when); unntatt hvis (except if); med unntak av (with the exception of);  
+> å unnta (to exclude; to except)
+>
+> bortsett fra (except for); 
+
+
+Alle kom unntatt Maria.  
+→ Everyone came except Maria.
+
+Jeg liker alt unntatt fisk.  
+→ I like everything except fish.
+
+
+Butikken er åpen hver dag unntatt søndag.  
+→ The store is open every day except Sunday.
+
+Ingen unntatt ansatte har adgang.  
+→ No one except employees has access.
+
+--------------------------------------------------------------------------------
+
 **So** 结果
 
 > så; altså; <span class="env-green">derfor</span>; dermed; slik at; som følge av dette; gjøre at; føre til;   
@@ -1227,15 +1251,19 @@ Valget er bassert på tilfeldighet.
 
 <span class="env-green">**verken … eller…**</span> → neither … nor … 表示两者都不，双否定
 
+«verken» is also written as «hverken»
+
 Jeg skal **verken** til Paris **eller** til Roma.  
 → I am not going to either Paris or Rome.
 
 Vi har **verken** brød **eller** kaffe.  
 → We don't have either bread or coffee.
 
-Vi fikk verken vått eller tørt av henne.
+Vi fikk **verken** vått **eller** tørt av henne.
 → She gave us neither drink nor food.
 
+Jeg liker **verken** kaffe **eller** te.  
+→ I like neither coffee nor tea.
 
 **verken** før **eller** etter → neither before nor after
 
