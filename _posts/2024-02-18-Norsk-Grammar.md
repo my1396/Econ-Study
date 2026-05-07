@@ -1108,6 +1108,18 @@ Det er en bekymring at nettsider samler personlige data uten samtykke.
 - Vi kan *prøve oss på* noe nytt i helgen.  
   → We can try something new this weekend.
 
+| Norsk                          | English                               |
+| ------------------------------ | ------------------------------------- |
+| å lønne seg                    | to be worth it; to pay off            |
+| å forholde seg til noe         | 1. to deal with; 2. to relate to something |
+
+- Jeg må forholde meg til reglene.  
+  → I have to deal with the rules.
+- Det er vanskelig å forholde seg til så mye informasjon.  
+  → It is difficult to deal with so much information.
+
+
+
 --------------------------------------------------------------------------------
 
 
@@ -2740,6 +2752,7 @@ Hva driver du med for tiden?
 | Norsk             | English              |
 | ----------------- | -------------------- |
 | med hensikt/vilje | deliberately, intentionally |
+| å ha med noe å gjøre | have something to do with, be related to ... |
 
 --------------------------------------------------------------------------------
 

@@ -786,6 +786,8 @@ Oppgaven er vanskelig. **Men samtidig** lærte jeg mye. → The task is difficul
 > tvert imot (on the contrary; quite the opposite);  
 >
 > i motsetning til (in contrast to); til forskjell fra (unlike); i kontrast til (in contrast to); 
+>
+> i den andre enden av skalaen (at the other end of the scale); 
 
 *For noen er … viktige argumenter for dette, <u>mens</u> andre er opptatt av …* → *For some, … are important reasons, <u>while</u> others care about …*
 
@@ -793,6 +795,9 @@ på den **ene** siden …, mens <span class="env-green">på den **andre** siden<
 
 - På *den ene siden* er det bra for miljøet, mens på *den andre siden* kan det være dyrt.  
   → On the one hand, it is good for the environment, while on the other hand, it can be expensive.
+
+- Situasjonen er helt an annen.  
+  → The situation is completely different.
 
 --------------------------------------------------------------------------------
 
