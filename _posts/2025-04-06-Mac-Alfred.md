@@ -128,6 +128,19 @@ Code snippet（begin with two colons `::`）
   <figcaption>Fig Source: @Brooke Kuhlmann, <a href="https://alchemists.io/articles/alfred_snippets">Alfred Snippets</a>.</figcaption>
 </figure>
 
+--------------------------------------------------------------------------------
+
+**Basic syntax**
+
+- `{clipboard:0}`: the latest clipboard content. `{clipboard:x}` refers to the x-th latest clipboard content.
+- `{cursor}`: where the cursor will be after the snippet is expanded.
+
+ref:
+
+- [Alfred snippets: Dynamic Placeholders](https://www.alfredapp.com/help/workflows/advanced/placeholders/)
+
+--------------------------------------------------------------------------------
+
 **Snippet setting**
 
 - **Uncheck “Word based”**

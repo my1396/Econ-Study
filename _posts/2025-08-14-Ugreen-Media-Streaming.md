@@ -12,7 +12,17 @@ update: 2025-10-24
 **Useful repos:**
 
 - [磁力熊](https://www.cilixiong.org)
-- [YTS](https://yts.unblockninja.com)
+- [YTS](https://yts.proxyninja.org/)
+  
+  Visit us at <https://YTS.MX>
+  
+  Current official domains: YTS.MX, YTS.LT, YTS.AM, YTS.AG
+  
+  If you have trouble accessing the domain above, please always check:
+
+  - <https://YIFYStatus.com>
+  - <https://YTSProxies.com>
+
 - [1337x](https://www.1337x.to/home/)
 - [EXT Torrents](https://ext.to)
   

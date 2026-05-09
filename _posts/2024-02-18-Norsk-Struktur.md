@@ -582,6 +582,7 @@ ___
 - *Folk kan uansett ha god balanse mellom …* → *People can still have a good balance between …*
 - *Alt i alt synes jeg at …* → *All in all, I think …*
 - *Det er min personlig mening om dette spørsmålet.* → This is my personal opinion on this matter.
+- *Kort sagt …* → In short …
 
 
 

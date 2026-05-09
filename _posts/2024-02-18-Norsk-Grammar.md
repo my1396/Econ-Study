@@ -2771,6 +2771,13 @@ snakke med noen om noe = talk with sb about sth
 Hvem snakker du med om dette?  
 → Who are you talking with about this?
 
+| Norsk             | English                   |
+| ----------------- | ------------------------- |
+| å ha problemer med å gjøre noe | have trouble doing sth    |
+
+- Det er helt greit å si at du har problemer med å forstå.  
+  → It's perfectly fine to say that you have trouble understanding.
+
 --------------------------------------------------------------------------------
 
 ### etter
@@ -3144,10 +3151,13 @@ Jeg har vondt i ryggen / nakken / skulderen.
 Jeg er lei av å vente.  
 → I am tired of waiting.
 
-**være lei seg for noe** → be sad about sth
+**være lei seg for noe** → be sad about sth, be upset about sth
 
-Barna er lei seg for at de ikke kan gå ut å leke.  
-→ The children are sad that they cannot go out to play.
+- Barna er lei seg for at de ikke kan gå ut å leke.  
+  → The children are sad that they cannot go out to play.
+- Ikke bli lei deg hvis du ikke forstår alt med en gang.
+  → Don't be upset if you don't understand everything right away.
+
 
 | Norsk                  | English                   |
 | ---------------------- | ------------------------- |
@@ -3810,16 +3820,29 @@ Q: Du spiser vel ikke frokost, du.
 A: Jo, det gjør jeg vel. / Nei, jeg har ikke så godt appetitt om morgenen.
 
 
+«Vel-» as a prefix can also be used to form adjectives, often with a meaning of "well" or "good".
+
+
+| Norsk             | English                   |
+| ----------------- | ------------------------- |
+| vellykket         | successful                |
+| velstående        | wealthy                   |
+| velfungerende     | well-functioning          |
+| velutdannet       | well-educated             |
+
+velutdannet, velutdannede/velutdannete
+
+
 --------------------------------------------------------------------------------
 
 ## Suffix
 
 «-varig» = lasting, -lasting
 
-| Norsk           | English                 |
-|-----------------|-------------------------|
-| kortvarig       | short-lasting           |
-| langvarig       | long-lasting            |
+| Norsk             | English                   |
+| ----------------- | ------------------------- |
+| kortvarig         | short-lasting             |
+| langvarig         | long-lasting              |
 
 Ved å lære suffikser som danner substantiv eller adjektiv, og dermed lære seg om ordfamilier kan man lære å forstå mange ord selv om de er helt nye. 
 
