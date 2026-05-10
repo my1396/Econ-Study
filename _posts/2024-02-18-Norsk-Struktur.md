@@ -258,6 +258,7 @@ Use the following **mock exam** to practice before the actual exam:
 - *Mange mener at …* → Many believe that …
 - *Noen hevder at …, mens andre mener at …* → Some argue that …, while others think that …
 - *Etter min mening bør vi …* → In my opinion, we should …
+- *I min øyne* er det viktig å … → In my eyes, it is important to …
 - *Jeg vil i denne teksten diskutere både fordeler og ulemper, og til slutt komme med min egen mening.* → I will discuss both pros and cons, and end with my own opinion.
 - *Jeg har lest at …* → I have read that …
 - *Undersøkelser viser at …* → Studies show that …
@@ -1280,36 +1281,51 @@ Jeg liker **verken** kaffe **eller** te.
 
 **heller ikke** → not … either 
 
-Jeg skal ikke til Paris, og jeg skal **heller ikke** til Roma. 
-→ I am not going to Paris, and I am not going to Rome either.
+- Jeg skal ikke til Paris, og jeg skal **heller ikke** til Roma. 
+  → I am not going to Paris, and I am not going to Rome either.
 
-Vi har ikke brød, og vi har **ikke** kaffe **heller**.  
-→ We don't have bread, and we don't have coffee either.
+- Vi har ikke brød, og vi har **ikke** kaffe **heller**.  
+  → We don't have bread, and we don't have coffee either.
 
 --------------------------------------------------------------------------------
 
 **heller** → rather, instead
 
-Vi gir *heller* andre råd til våre pasienter.  
- → We rather give other advice to our patients.
+- Vi gir *heller* andre råd til våre pasienter.  
+  → We rather give other advice to our patients.
 
-Det skal bli mye regn i helga, men jeg vil *heller* ha snø.  
-→ It will be a lot of rain this weekend, but I would rather have snow.
+- Det skal bli mye regn i helga, men jeg vil *heller* ha snø.  
+  → It will be a lot of rain this weekend, but I would rather have snow.
 
-Jeg vil heller lese den andre boka.  
-→ I would rather read the other book.
+- Jeg vil heller lese den andre boka.  
+  → I would rather read the other book.
 
-Han vil heller bli hjemme.  
-→ He would rather stay at home.
+- Han vil heller bli hjemme.  
+  → He would rather stay at home.
 
-Jo før, jo heller.  
-→ The sooner, the better.
+- Jo før, jo heller.  
+  → The sooner, the better.
+
+**heller enn** / **fremfor** → rather than
+
+- Jeg vil drikke te *heller enn* kaffe.  
+  Jeg vil drikke te *fremfor* kaffe.  
+  → I would rather drink tea than coffee.
+- Hun valgte å gå *heller enn* å ta bussen.  
+  Hun valgte å gå *fremfor* å ta bussen.  
+  → She chose to walk rather than take the bus.
+- Mange foretrekker å leie *heller enn* å kjøpe.  
+  Mange foretrekker å leie *fremfor* å kjøpe.  
+  → Many prefer renting rather than buying.
+- De satser på dialog *heller enn* konflikt.  
+  De satser på dialog *fremfor* konflikt.  
+  → They focus on dialogue rather than conflict.
 
 --------------------------------------------------------------------------------
 
 **表意愿**
 
-å like + godt / bedre / best å gjøre … = vil gjerne / heller / helst gjøre …
+å like + godt / bedre / best å gjøre … → vil gjerne / heller / helst gjøre …
 
 | With «like»                            | With «vil»                         |
 | -------------------------------------- | ---------------------------------- |
@@ -1915,47 +1931,61 @@ Forskjellen mellom de to bilene er stor. → The difference between the two cars
 --------------------------------------------------------------------------------
 
 
-**annerledes vs. forskjellig**
+<span class="env-green">**annerledes vs. forskjellig**</span>
 
-两者均可 (1) 位于名词前作为*形容词*; (2) 也可作为*副词*形容动词。
+**用法说明:**
 
+- 位于名词前作为*形容词*; 但<span class="env-orange">意义不同</span>，见下例。
+  
+  Tor og Ed har **forskjellige** biler.  
+  → Tor har en Mercedes, og Ed har en BMW. (Vi sammenligner to deler av subjektet. <span class="env-green">主语之间内部差异</span>。)
+
+  Tor og Ed har **annerledes** biler.  
+  → Alle de andre vennene har Toyota. Bare Tor og Ed har biler som er annerledes enn de andre bilene. (Vi sammenligner subjektet med noe annet. 主语作为一个整体，<span class="env-green">与其他所有对象相比</span>。)
+
+- 也可作为*副词*形容动词。
+  
+  De tenker **annerledes**.  
+  → They think differently. 
+
+  Folk tolker dette **forskjellig**.  
+  → People interpret this differently.
+
+
+<div class="note">
 如果主语由两部分构成
-
-- annerledes
-
-  subjektet er ulikt noe annet 主语作为一个整体，与其他所有对象相比。
-
-- forskjellig
-
-  deler av subjektet er forskjellig 主语的构成部分，内部相比较。
-
-Tor og Ed har **forskjellige** biler. → Tor har en Mercedes, og Ed har en BMW. (Vi sammenligner to deler av subjektet.)
-
-Tor og Ed har **annerledes** biler. → Alle de andre vennene har Toyota. Bare Tor og Ed har biler som er annerledes enn de andre bilene. (Vi sammenligner subjektet med noe annet)
-
-
+<ul> 
+  <li> <strong>annerledes</strong><br> subjektet er ulikt noe annet<br> 主语作为一个整体，与其他所有对象相比。 </li> 
+  <li> <strong>forskjellig</strong><br> deler av subjektet er forskjellig<br> 主语的构成部分，内部相比较。 </li> 
+</ul>
+</div>
 
 如果主语是**一个主体**，句子比较两个对象 
 
-1. 作为短语说明 A 与 B 不同。→ <u><em>Annerledes enn</em></u> er det samme som <u><em>forskjellig fra</em></u>.
+1. 作为短语说明 A 与 B 不同，既可以用 «annerledes enn»，也可以用 «forskjellig fra».→ <u><em><span class="env-green">Annerledes <strong>enn</strong></span></em></u> er det samme som <u><em><span class="env-green">forskjellig <strong>fra</strong></span></em></u>.
 
    E.g., A er annerledes enn B. = A er forskjellig fra B.
 
-2. 作为表语，说明 A 与 B 不同。→ 只能用 annerledes
-
+2. 作为表语 (predicative):
+   
+   - 说明 A 与 B 相比不同 → <span class="env-green">A og B er forskjellige.</span>
+   - 说明 A 和 B 与其他对象不同 → <span class="env-green">A og B er annerledes.</span>
+   
    E.g., Tor har blondt hår, men Ed er annerledes. ✅
 
-   Tor har blondt hår, men Ed er forskjellig. ❌ (作为表语时，Forskjellig 不能<span class="env-green">单独</span>用于形容<span class="env-green">一个</span>主体，必须与 fra 搭配作为短语出现。Forskjellig 作为表语时，主语必须由<span class="env-green">两部分</span>构成，"forskjellig"表述<span class="env-green">两部分之间</span>的差异。)
+   Tor har blondt hår, men Ed er forskjellig. ❌ (作为表语时，<span class="env-orange">forskjellig **不能**单独用于形容**一个**主体</span>，必须与 fra 搭配作为短语出现。Forskjellig 作为表语时，主语必须由<span class="env-green">两部分</span>构成，"forskjellig"表述<span class="env-green">两部分之间</span>的差异。)
 
+   例句: Tor 和 Pavel 是一样的，但是 Tor 和 Ed 是不同的。
+   
    Tor og Pavel er like, men Tor og Ed er **forskjellige**. ✅ → Vi sammenligner to deler av subjektet. (Tor og Ed).
 
    Tor og Pavel er like, men Tor og Ed er **annerledes**. ❌ → Vi ønsker å sammenligne deler av subjektet, og derfor må vi bruke “forskjellig”.
 
 
-
+| Norsk                         | English                            |
+| ----------------------------- | ---------------------------------- |
+| Hva er annerledes nå enn før? | What is different now than before? |
 | Da foreldregenerasjonen vokste opp, var det annerledes. | When the parents' generation grew up, it was different. |
-| ------------------------------------------------------- | ------------------------------------------------------- |
-| Hva er annerledes nå enn før?                           | What is different now than before?                      |
 
 
 **By contrast**
@@ -1973,16 +2003,26 @@ Det er <span class="env-green">forståelig</span> at … → It is understandabl
 
 某事是不为社会接受的
 
-Det var lite sosialt akseptert (ikke) å gjøre noe → Sth is not socially acceptable. 
+Det var lite sosialt <span class="env-green">akseptert</span> (ikke) å gjøre noe → Sth is not socially acceptable. 
 
+--------------------------------------------------------------------------------
 
 平凡是不够好的
 
-| Det alminnelig ikke lenger verdsettes som godt nok. | The ordinary is no longer valued as good enough.             |
-| --------------------------------------------------- | ------------------------------------------------------------ |
-| alminnelig/gjennomsnitt menneske                     | the common people                                            |
-| gjennomsnittlig                                     | 1. adj. average, ordinary *den gjennomsnittlige elev*  <br />2. adv. on the average *prisen er gjennomsnittlig 10 kr per kilo* |
+| Norsk                 | English                     |
+| --------------------- | --------------------------- |
+| Det *alminnelig* ikke lenger verdsettes som godt nok. | The ordinary is no longer valued as good enough. |
+| alminnelig / gjennomsnitt menneske | the common people |
 
+
+**gjennomsnittlig**
+
+1. adj. average, ordinary 
+
+   *den gjennomsnittlige elev* 
+2. adv. on the average 
+   
+   *prisen er gjennomsnittlig 10 kr per kilo*
 
 --------------------------------------------------------------------------------
 
@@ -2096,10 +2136,11 @@ Andelen unge i arbeidsstyrken har gått ned.
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
 | delvis                                 | partially                          |
+| betraktelig                            | considerably                       |
 | i stor grad                            | to a large extent                  |
 | i høy grad                             | to a high extent                   |
 | i betydelig grad                       | to a significant extent            |
-| i <span class="env-green">ulik</span> grad | to varying degrees     |
+| i <span class="env-green">ulik</span> grad | to varying degrees             |
 
 按照语法规则，«ulik» 作为形容词，需与 «grad» 性数一致，理论上应该用复数形式 «ulike»。但此处固定搭配，«i ulik grad» 固定使用单数形式。
 
@@ -2185,6 +2226,8 @@ Konflikten gikk utover vennskapet deres. → The conflict harmed their friendshi
 | for to år siden    | two years ago                          | 两年前            |
 | for to dager siden | two days ago                           | 两天前            |
 | på lang/kort sikt  | on the long/short term                 | 长远来看 / 短期来看 |
+| på lengre siker    | over a longer term                     | 从长远来看         |
+| i det lange løp    | in the long run                        | 从长远来看         |
 | på forhånd         | in advance                             | 提前              |
 | i etterkant        | afterwards                             | 事后              |
 
@@ -2387,15 +2430,53 @@ et resultat, en <span class="env-green">konsekvens</span>,
 
 gi gode/negative resultalter
 
-| føre til at | lead to |
-| ----------- | ------- |
-| slik at     | so that |
+å **resultere i** noe(n) → to result in sth, lead to sth
+
+- Ulykken *resulterte i* store skader.  
+  → The accident resulted in serious injuries.
+- Hardt arbeid *resulterer ofte i* gode resultater.  
+  → Hard work often results in good results.
+- Det nye tiltaket *resulterte i* økt økonomisk vekst.  
+  → The new measure resulted in increased economic growth.
+
+
+| Norsk       | English   |
+| ----------- | --------- |
+| føre til at | lead to   |
+| slik at     | so that   |
 
 Dette *fører til at* ... This leads to ...
 
 Det *fører* også *med seg* … This also brings along …
 
 Mindre stress *fører til* lavere sykefravær → less stress leads to lower sick leave
+
+| Norsk                     | English                       |
+| ------------------------- | ----------------------------- |
+| å ende med noe            | to end up with sth            |
+
+
+- Kampen *endte med at* Norge seiret over Sverige.  
+  → The match ended with Norway defeating Sweden.
+- Det *endte med* krangel.  
+  → It ended with a quarrel.
+- Han *endte med å* kjøpe bilen.  
+  → He ended up buying the car.
+- Prosjektet *endte med* suksess.  
+  → The project ended up being successful.
+
+| Norsk                     | English                       |
+| ------------------------- | ----------------------------- |
+| å havne i noe             | to end up in sth (usually accidental or unintended) |
+
+- Hun *havnet i* problemer.  
+  → She ended up in trouble.
+
+- Vi *havnet i* en lang kø.  
+  → We ended up in a long queue.
+
+- Han *havnet på* sykehuset.  
+  → He ended up in the hospital.
 
 Det <span class="env-green">*innebærer*</span> at ... → It means / implies / indicates/ suggests that … 
 

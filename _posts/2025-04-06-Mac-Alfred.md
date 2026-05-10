@@ -203,7 +203,7 @@ Move the slider (**Simulated key event speed**) to the left to slow down Alfred'
 
 <img src="{{site.baseurl}}/images/snippets-tweaking.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
-I also checked "Restore clipboard contents after auto expansion", so that my clipboard won't be affected by the snippet itself. I set "Restore after" to 0.3s, so the snippet will be deleted from clipboard after 0.3s.
+I also checked "Restore clipboard contents: After Auto Expansion", so that my clipboard won't be affected by the snippet itself. I set "Restore after" to <span class="env-green">0.6s</span> (defaults to 0.5s), so the snippet will be deleted from clipboard after 0.6s. A slower "Restore after" provides you a time buffer to paste the snippet manually if the auto expansion did not work.
 
 ref:
 

@@ -1118,7 +1118,16 @@ Det er en bekymring at nettsider samler personlige data uten samtykke.
 - Det er vanskelig å forholde seg til så mye informasjon.  
   → It is difficult to deal with so much information.
 
+| Norsk                          | English                               |
+| ------------------------------ | ------------------------------------- |
+| å dreie seg om noe             | to be about something; to concern something |
 
+- Boken dreier seg om en ung kvinne som reiser til Norge for å studere.  
+  → The book is about a young woman who travels to Norway to study.
+- Det hele dreier seg bare om penger.  
+  → It is just a question of money
+- Det kan dreie seg om sekunder før det smeller.  
+  → It could be a matter of seconds before it explodes.
 
 --------------------------------------------------------------------------------
 
@@ -1791,6 +1800,16 @@ Det går over. → It will pass.
 - Ingen skal bestemme over livet mitt.  
   → No one should decide over my life.
 
+| Norsk                | English          |
+| -------------------- | ---------------- |
+| å seire over noe(n)  | win over sth/sb  |
+
+- Laget *seiret over* motstanderen.  
+  → The team won over the opponent.
+- Han *seiret over* sykdommen.  
+  → He won over the illness.
+- De *seiret over* vanskelighetene.  
+  → They won over the difficulties.
 
 
 --------------------------------------------------------------------------------
@@ -1869,6 +1888,17 @@ en liste over *gode restauranter* i Oslo → a list of good restaurants in Oslo 
 
 1. 表示位置 under bordet / under stolen / under broen
 2. 表示时间, during, in the course of
+
+underveis → along the way, as you go
+
+- Jeg lærte mye underveis.  
+  → I learned a lot along the way.
+
+- Det oppsto problemer underveis.  
+  → Problems appeared along the way.
+
+- Underveis i studiet fikk han jobb.  
+  → Along the way in his studies, he got a job.
 
 **Foran / bak**
 
@@ -2601,6 +2631,17 @@ noun. **en reklame**, reklamen, reklamer, reklamene → an advertisement, advert
 - De *øver på* å presentere.  
   → They practice presenting.
 
+
+| Norsk              | English                            |
+| ------------------ | ---------------------------------- |
+| å gi avkall på noe | give up sth; renounce sth          |
+
+- Han gav avkall på sin rett.  
+  → He renounced his right.
+
+
+
+
 --------------------------------------------------------------------------------
 
 ### med
@@ -2752,7 +2793,9 @@ Hva driver du med for tiden?
 | Norsk             | English              |
 | ----------------- | -------------------- |
 | med hensikt/vilje | deliberately, intentionally |
-| å ha med noe å gjøre | have something to do with, be related to ... |
+| å ha <span class="env-green">med</span> noe å gjøre | have something to do with, be related to ... |
+| å ende med noe    | end up with sth     |
+
 
 --------------------------------------------------------------------------------
 
@@ -3857,10 +3900,16 @@ Noen vanlige suffikser som lager **substantiv**:
 - -er, -ing, -iker, - dom, -else, -sel, -skap, - nad, -het
 
 
-«-føre» → conditions
+**«-føre»** → conditions
 
 skiføre → skiing conditions  
 kjøreføre → driving conditions
+
+
+**«-farer»** → explorer, traveler
+
+polarfarer → polar explorer  
+oppdagelsesfarer → explorer of discoveries
 
 --------------------------------------------------------------------------------
 
