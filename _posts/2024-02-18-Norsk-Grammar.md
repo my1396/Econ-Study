@@ -177,7 +177,8 @@ Unntak: sannsynligvis (triggers V2)
 | ------------- | --------------------- | ----------------------------------------------------------------------- |
 | sannsynligvis | probably              | *Sannsynligvis kommer hun i morgen.* → She will probably come tomorrow. |
 
-
+- Det høres ikke så *sannsynlig* ut.   
+→ That doesn't sound very likely.
 
 
 --------------------------------------------------------------------------------
@@ -1120,7 +1121,7 @@ Det er en bekymring at nettsider samler personlige data uten samtykke.
 
 | Norsk                          | English                               |
 | ------------------------------ | ------------------------------------- |
-| å dreie seg om noe             | to be about something; to concern something |
+| å <span class="env-green">dreie</span> seg om noe | to be about something; to concern something |
 
 - Boken dreier seg om en ung kvinne som reiser til Norge for å studere.  
   → The book is about a young woman who travels to Norway to study.
@@ -1128,6 +1129,38 @@ Det er en bekymring at nettsider samler personlige data uten samtykke.
   → It is just a question of money
 - Det kan dreie seg om sekunder før det smeller.  
   → It could be a matter of seconds before it explodes.
+
+
+
+| Norsk                          | English                               |
+| ------------------------------ | ------------------------------------- |
+| å greie seg                    | to manage; to cope; to be able to do something |
+
+
+- Hun *greier seg* godt alene. 
+  → She manages well on her own.
+- De *greier seg* på lite penger.  
+  → They get by on little money.
+- Hvordan *greier du deg* i Norge?  
+  → How do you manage in Norway?
+- Jeg *greier meg* greit på norsk.  
+  → I manage okay in Norwegian. (meaning can handle Norwegian in daily life)
+- Jeg *greier meg* fint på jobben.  
+  → I manage fine at work.
+
+
+| Norsk                          | English                               |
+| ------------------------------ | ------------------------------------- |
+| å slenge seg på noe            | to throw oneself on something; to jump into sth; to join sth |
+
+å slenge seg på → spontaneous decision, casual joining, no formal invitation needed
+
+- Flere *slengte seg på* diskusjonen.  
+  → Several people jumped into the discussion.
+- Kan jeg *slenge meg på* turen?  
+  → Can I join the trip?
+- Vi *slenger oss på* festen senere.  
+  → We will join the party later.
 
 --------------------------------------------------------------------------------
 
