@@ -2370,6 +2370,7 @@ Dette gjelder også i Norge. → This also applies in Norway.
 | av den grunn ... + 倒装                 | because of this …                  |
 | på grunn av noe(n)                     | because of sth/sb                  |
 | på grunn av at + clause                | because / since + 从句              |
+| hovedgrunnen av at ... er at ...       | the main reason for that is that ... |
 | Det skyldes at ...                     | It is because of that ...          |
 | den vanligste årsaken til .... er ...  | the most common cause of … is …    |
 | <span class="env-green">**hovedårsaken**</span> til at … er at ... | the major reason why … is … |
@@ -2377,6 +2378,10 @@ Dette gjelder også i Norge. → This also applies in Norway.
 | Dette har **sammenheng** med at ... | This is related / due to the fact that ...<br />This has to do with the fact that ...<br />This is because ... |
 | å følge av noe                         | as a result of, due to sth 由…引起的   |
 | å følge av at + clause                 | because / since + 从句                |
+
+
+- <span class="env-green">En av hovedgrunnene til</span> at disse retningslinjene har kommet, er skjermbruk blant barn.  
+  → One of the main reasons for these guidelines is screen use among children.
 
 
 Ex «som følge av»

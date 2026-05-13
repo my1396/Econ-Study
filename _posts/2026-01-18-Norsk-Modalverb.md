@@ -18,6 +18,13 @@ update: 2026-01-18
 | å burde       | bør     | burde      | har burdet        |
 | å få          | får     | fikk       | har fått          |
 
+Past tense of modal verbs is also used to soften the tone of a statement, making it more polite or less direct. For example:
+
+- **Skulle** jeg hjelpe deg?  
+  → Should I help you? (more polite than "skal")
+- Jeg sitter alt for mye stille på jobben, så jeg **burde** bevege meg mer.  
+  → I sit too much at work, so I (probably) should move more. (more reflective/polite than "bør")
+
 --------------------------------------------------------------------------------
 
 情态动词表达不同的语气:

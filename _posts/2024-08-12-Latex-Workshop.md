@@ -633,6 +633,40 @@ Generally you still want your files to save automatically, hence in user `settin
 
 --------------------------------------------------------------------------------
 
+**26-05-12 Error: Cannot find executable `latexmk`, `xelatex`, etc., all of a sudden.**
+
+Cause: VS Code does not inherit the full PATH environment variable of the system. It loaded only a limited PATH when it was launched, which does NOT include the path to the TeX distribution's executable tools. 
+
+Fix: Specify full path in the `command` field and add `/Library/TeX/texbin` (where the executable tools are located) to the PATH environment variable in the `env` field of the tool definition. 
+
+For example, for `latexmk`:
+
+```json
+"latex-workshop.latex.tools": [
+  {
+    "name": "latexmk",
+    "command": "/Library/TeX/texbin/latexmk",
+    "args": [
+      "-synctex=1",
+      "-interaction=nonstopmode",
+      "-file-line-error",
+      "-xelatex",
+      "-outdir=%OUTDIR%",
+      "%DOC%"
+    ],
+    "env": {
+      "PATH": "/Library/TeX/texbin:${env:PATH}"
+    }
+  }
+]
+```
+
+`env` Provides the PATH environment to the running process, so when `latexmk` internally calls other tools (pdflatex, bibtex, etc.), those tools can be found.
+
+The full path in `command` is optional when you have added the TeX distribution's `texbin` directory to `env`. However, using full paths in "command" is more explicit and reliable, especially if VS Code itself doesn't inherit the environment properly. 
+
+--------------------------------------------------------------------------------
+
 ### Auxiliary files
 
 LaTeX compilation typically generates several auxiliary files. They can be removed by calling *Clean up auxiliary files* from the *Command Palette* or from the *TeX* badge <i class="fa-brands fa-tex" style="font-size: 1.5em"></i>.

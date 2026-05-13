@@ -749,7 +749,13 @@ Teknologien har tatt over mange av arbeidsoppgavene på fabrikkene og byggeplass
 | kunstig intelligens | KI / AI 人工智能  |
 | skjerm(en)          | screen           |
 | skjermtid           | screen time      |
+| skjermbruk          | screen use       |
 
+Det er de voksnes ansvar å sørge for at barna har en balansert skjermbruk.  
+→ It is the adults' responsibility to ensure that children have a balanced screen use.
+
+Det er de voksnes ansvar å begrense skjermbruken.  
+→ It is the adults' responsibility to limit screen use.
 
 
 >  Da synes jeg at det er viktigere at barna lærer <span class="env-green">god bruk av kilder og å være kildekritiske</span>. Det digitale kan ikke gå på bekostning av ekte bøker.
@@ -1198,6 +1204,10 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 | fysisk helse                           | physical health                    |
 | psykisk helse                          | mental health                      |
 | sykdom                                 | illness, disease                   |
+| livsstilssykdommer | sykdommer man får som et resultat av livet man lever   |
+| karsykdommer                           | cardiovascular diseases 心血管疾病   |
+| kreft                                  | cancer 癌症                         |
+| diabetes                               | diabetes 糖尿病                     |
 | smerte                                 | pain                               |
 | lidelse                                | suffering, pain, agony             |
 | hals                                   | throat                             |
