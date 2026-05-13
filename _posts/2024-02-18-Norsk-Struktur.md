@@ -339,7 +339,7 @@ Use the following **mock exam** to practice before the actual exam:
 
     区别于 å forsørge → to support, to provide for
   
-  - *legge vekt på* → to emphasize, to stress
+  - *å legge vekt på* → to emphasize, to stress
 
     Skolen bør *legge vekt på* praktisk læring. → The school should emphasize practical learning.
   
@@ -524,7 +524,9 @@ Løsning
 
 - alle har en viktig rolle å spille i å løse dem → everyone has an important role to play in solving them
 - å samarbeide for å finne løsninger → to collaborate to find solutions
-- å ta ansvar for noe → to take responsibility for sth
+- å ta/ha ansvar for noe → to take responsibility for sth
+  
+  Hver kommune *har ansvar for* alle helsetjenester. → Each municipality is responsible for all healthcare services.
 - å forbrede noe <span class="env-green">ved</span> å gjøre … → to improve sth by doing sth 
 - å <span class="env-green">styrke</span> noe → to strengthen sth
   
@@ -1176,6 +1178,18 @@ Ida åpnet døra slik at katten kunne komme inn. → Ida opened the door so that
 **Sequence** (rekkefølge) 序列
 
 > i begynnelsen … senere … til slutt (in the beginning … later … finally); deretter (after that); etterpå; 
+
+**i utgangspunktet**
+
+1. at/from the outset, as a starting point, for a start, initially
+   
+   Planen var i utgangspunktet å reise i juni.  
+   → The original plan was to travel in June.
+
+2. generally, typically
+   
+   Det er i utgangspunktet en god ide.  
+   → It is basically a good idea.
 
 **Actually** 事实上
 
@@ -2040,7 +2054,7 @@ personer, mennesker,
 | beboere   | resident of a specific place, like a house, apartment building;  |
 
 
-形容词 (de + adj definitive form) 作名词代指一类人
+形容词 (de + adj. plural/definitive form) 作名词代指一类人
 
 | Norsk              | English                             |
 | ------------------ | ----------------------------------- |

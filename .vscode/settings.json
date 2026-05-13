@@ -17,12 +17,12 @@
     "python-envs.defaultEnvManager": "ms-python.python:conda",
     "python-envs.defaultPackageManager": "ms-python.python:conda",
     "python-envs.pythonProjects": [],
-
-    // "editor.fontFamily": "'Sarasa Mono SC Nerd Font', 'Source Han Mono SC', Menlo, Monaco, 'Courier New', monospace",
-    // "editor.fontSize": 16,
-    // "editor.fontLigatures": true, // Enable font ligatures 连字
+    
+    // Editor font
+    "editor.fontFamily": "'Maple Mono NF CN', 'Ubuntu Mono', 'Inconsolata','Sarasa Mono SC Nerd Font', 'Source Han Mono SC', Menlo, Monaco, monospace",
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 15,
+    "editor.fontLigatures": true, // Enable font ligatures 连字
     // "editor.renderControlCharacters": true,
     // "editor.renderWhitespace": "all",
-    // "terminal.integrated.fontSize": 16,
-    
 }

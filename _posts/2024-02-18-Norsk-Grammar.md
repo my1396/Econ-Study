@@ -1862,7 +1862,21 @@ Det går over. → It will pass.
 2.  Towards
 
     Hun hadde sterke følelser *overfor* ham. → She had strong feelings towards him.  
+    
     Hun er allergisk *overfor* katter. → She's allergic to cats.
+
+    Hun står *overfor* en vanskelig valg. → She is facing a difficult choice.
+
+    Han er ærlig *overfor* vennene sine. → He is honest towards his friends.
+
+| Norsk              | English                            |
+| ------------------ | ---------------------------------- |
+| utover             | beyond, outside of, in addition to |
+
+- Han gikk *utover* det som var forventet. → He went *beyond* what was expected.
+- *Utover* det som er nevnt, har jeg ingen kommentarer. → *Apart from* what has been mentioned, I have no comments.
+
+
 
 
 | Norsk                                  | English                            |
