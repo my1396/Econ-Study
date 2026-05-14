@@ -1203,28 +1203,29 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 | -------------------------------------- | ---------------------------------- |
 | fysisk helse                           | physical health                    |
 | psykisk helse                          | mental health                      |
-| sykdom                                 | illness, disease                   |
-| livsstilssykdommer | sykdommer man får som et resultat av livet man lever   |
-| karsykdommer                           | cardiovascular diseases 心血管疾病   |
-| kreft                                  | cancer 癌症                         |
-| diabetes                               | diabetes 糖尿病                     |
-| smerte                                 | pain                               |
 | lidelse                                | suffering, pain, agony             |
+| sykdom                                 | illness, disease                   |
+| folkesykdommer                         | common diseases, widespread diseases |
+| livsstilssykdommer | sykdommer man får som et resultat av livet man lever   |
+| karsykdommer                           | cardiovascular diseases 心血管疾病 |
+| kreft                                  | cancer 癌症                        |
+| diabetes                               | diabetes 糖尿病                    |
+| smerte                                 | pain                               |
 | hals                                   | throat                             |
-| sår hals                               | sore throat 嗓子痛                  |
-| tett nese                              | stuffy nose 鼻塞                    |
-| <a href="#cold">forkjølelse</A>        | cold 感冒                           |
+| sår hals                               | sore throat 嗓子痛                 |
+| tett nese                              | stuffy nose 鼻塞                   |
+| <a href="#cold">forkjølelse</A>        | cold 感冒                          |
 | influensa                              | flu 流感                           |
 | feber                                  | fever 发烧                         |
 | hoste                                  | cough 咳嗽                         |
 | kvalme                                 | nausea 恶心                        |
 | svimmelhet                             | dizziness 头晕                     |
 | diaré [diarˈe]                         | diarrhea 腹泻                      |
-| munnsår                                | canker sore 口腔溃疡                |
-| forkjølelsessår                        | cold sore 唇疱疹                    |
+| munnsår                                | canker sore 口腔溃疡               |
+| forkjølelsessår                        | cold sore 唇疱疹                   |
 | muskelsmerter                          | muscle pain                        |
 | hodepine                               | headache                           |
-| halsbrann                              | heartburn 胃酸回流，胃灼热            |
+| halsbrann                              | heartburn 胃酸回流，胃灼热         |
 | fedme / overvekt                       | obesity                            |
 | Du har gått opp/ned mye i vekt.        | You have gained/lost a lot of weight. |
 | tykk, tykt, tykke                      | thick, fat                         |
@@ -1240,6 +1241,7 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 | en smerte, smerten, smerter, smertene  | a pain                             |
 | å slanke seg                           | to be on a diet                    |
 | å gå ned i vekt                        | to lose weight                     |
+| spiseforstyrrelser                     | eating disorders 饮食失调           |
 
 减肥反弹 
 
@@ -1487,21 +1489,23 @@ Lyder med høy tone, som barn som skriker, er <span class="env-green">irriterend
 
 --------------------------------------------------------------------------------
 
-**Psykisk helse**
+### Psykisk helse
 
-| Norsk                 | English        |
-| --------------------- | -------------- |
-| psykisk lidelse       | mental illness |
-| depresjon             | depression     |
-| angst                 | anxiety        |
-| uro                   | anxiety; unease|
-| stress                | stress         |
-| søvnproblemer         | sleep problems |
-| søvnløshet            | insomnia       |
-| psykologer            | psychologists  |
-| psykologi             | psychology     |
-| terapeuter /terapøyt/ | therapists     |
-| rådgivere             | counselors     |
+| Norsk                   | English                    |
+| ----------------------- | -------------------------- |
+| psykisk lidelse         | mental illness             |
+| å slite mentalt         | to struggle mentally       |
+| depresjon               | depression                 |
+| angst                   | anxiety                    |
+| utbrenthet              | burnout                    |
+| uro                     | anxiety; unease            |
+| stress                  | stress                     |
+| søvnproblemer           | sleep problems             |
+| søvnløshet              | insomnia                   |
+| psykologer              | psychologists              |
+| psykologi               | psychology                 |
+| terapeuter /terapøyt/   | therapists                 |
+| rådgivere               | counselors                 |
 
 
 --------------------------------------------------------------------------------

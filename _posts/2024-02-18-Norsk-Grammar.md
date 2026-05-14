@@ -2667,6 +2667,10 @@ noun. **en reklame**, reklamen, reklamer, reklamene → an advertisement, advert
 - Jeg meldte meg på kurset i norsk.  
   → I signed up for the Norwegian course.
 
+å meldte seg av noe → to withdraw, to drop out of something you were signed up for
+
+å trekke seg fra noe → to withdraw from sth
+
 | Norsk              | English                            |
 | ------------------ | ---------------------------------- |
 | å øve på noe / å gjøre noe | practice sth               |
@@ -2686,8 +2690,9 @@ noun. **en reklame**, reklamen, reklamer, reklamene → an advertisement, advert
 - Han gav avkall på sin rett.  
   → He renounced his right.
 
+på + språk → in (a language)
 
-
+på norsk → in Norwegian
 
 --------------------------------------------------------------------------------
 
@@ -2990,7 +2995,7 @@ Det er morsomt for barna å gå på sirkus.
 | ha ansvar for       | be responsible for |
 | være takknemlig for | be grateful for    |
 | være engstelig for  | be anxious about   |
-| ha angst for        | be afraid of       |
+| å ha angst for      | be afraid of       |
 
 | Norsk                | English           |
 | -------------------- | ----------------- |
