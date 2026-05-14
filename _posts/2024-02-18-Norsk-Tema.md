@@ -1227,6 +1227,7 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 | hodepine                               | headache                           |
 | halsbrann                              | heartburn 胃酸回流，胃灼热         |
 | fedme / overvekt                       | obesity                            |
+| overvektig                             | overweight                         |
 | Du har gått opp/ned mye i vekt.        | You have gained/lost a lot of weight. |
 | tykk, tykt, tykke                      | thick, fat                         |
 | tynn                                   | thin, slim                         |

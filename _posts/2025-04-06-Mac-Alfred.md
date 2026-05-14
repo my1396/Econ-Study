@@ -149,6 +149,10 @@ ref:
 
   Unchecking “Word based” makes it act more like a fuzzy search.
 
+- Check "Expand snippets mid-string" (Auto Expansion Options > Options)
+
+  By default, snippet keywords are only expanded if typed in isolation. Enable snippets expansion mid-string if you'd like them to always expand regardless.
+
 - When creating a new snippet, use the `prefix` option, e.g., `::`, so that you can batch change later. 
   
   <img src="https://drive.google.com/thumbnail?id=1hrZrj1QYoXHXWBbOYh73t3FRdOVrs-0C&sz=w1000" alt="New collection" style="display: block; margin-right: auto; margin-left: auto; margin-top: 2ex; zoom:100%;" />
@@ -201,11 +205,18 @@ Preferences > Snippets > **Auto Expansion Options** > Tweaking.
 
 Move the slider (**Simulated key event speed**) to the left to slow down Alfred's actions. We recommend starting with the **slowest** setting, then bringing it back towards the right until you're seeing predictable behavior.
 
+
+**My setting (on a slow machine):**
+
+1. "Simulated key event speed": **slower**
+2. Check "Restore clipboard contents: **After Auto Expansion**", and set "Restore after" to 0.9s (defaults to 0.5s).
+   
+   A slower "Restore after" provides you a longer time buffer to paste the snippet manually if the auto expansion did not work. This is useful especially on an old and slow Mac.
+
+   If your snippet do not expand, you need to adjust the time to a longer one as well.
+
 <img src="{{site.baseurl}}/images/snippets-tweaking.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
-I also checked "Restore clipboard contents: After Auto Expansion", so that my clipboard won't be affected by the snippet itself. I set "Restore after" to <span class="env-green">0.6s</span> (defaults to 0.5s), so the snippet will be deleted from clipboard after 0.6s. A slower "Restore after" provides you a time buffer to paste the snippet manually if the auto expansion did not work.
-
-ref:
 
 - [Reddit: Alfred snippets pasting from clipboard rather than snippet](https://www.reddit.com/r/Alfred/comments/14rn8er/alfred_snippets_pasting_from_clipboard_rather/)
 - [My snippets are expanding partially, or the keyword remains](https://www.alfredapp.com/help/troubleshooting/snippets/#partial)

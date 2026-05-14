@@ -3321,6 +3321,31 @@ Jeg skal til tante Petra.
 
 --------------------------------------------------------------------------------
 
+hos + object form pronoun (meg, deg, ham, henne, oss, dere, dem) 
+
+1. at sb's place
+2. Medical / body context (in someone’s body)
+   
+   Det er en infeksjon hos pasienten.  
+   → There is an infection in the patient.
+3. Within a group or category
+   
+   Det er vanlig hos ungdom.  
+    → It is common among young people.
+   
+   Depresjon hos eldre er ofte underdiagnostisert.  
+   → Depression among the elderly is often underdiagnosed.
+4. Possession / feelings / traits
+   
+   Det er en sterk følelse av håp hos henne.  
+   → There is a strong feeling of hope in her.
+   
+   Det er en tendens til å være pessimistisk hos ham.  
+   → There is a tendency to be pessimistic in him.
+
+
+--------------------------------------------------------------------------------
+
 ### utover
 
 1. across, throughout
