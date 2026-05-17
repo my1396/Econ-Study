@@ -314,9 +314,9 @@ Use the following **mock exam** to practice before the actual exam:
 
     God helse *bidrar til* et lykkelig liv av mennesker. → ... contribute to a happy life of people.
 
-  - *å fremme* utvikling / vekst / læring → to promote, to advance
+  - <span class="env-green">*å fremme*</span> utvikling / vekst / læring → to promote, to advance
 
-    Myndighetene bør fremme likestilling mellom kvinner og menn. → Authorities should promote equality between women and men.
+    Myndighetene bør *fremme* likestilling mellom kvinner og menn. → Authorities should promote equality between women and men.
 
   - <span class="env-green">*være til fordel for noen å gjøre noe*</span> → to be beneficial for sb to do sth
     
@@ -1465,11 +1465,12 @@ Dette *må nok* være en god idé.
 | -------------------------------------- | ---------------------------------- |
 | rett og slett                          | simply (need to do sth)            |
 | det er <span class="env-green">avgjørende</span> at … | it is crucial that … |
-| det er helt *avgjørende* at …            | it is absolutely crucial that …    |
+| det er helt *avgjørende* at …            | it is absolutely crucial that …   |
 | Det er en *avgjørende faktor* for … at … | It is a *crucial factor* for … that … |
-| det er i hvert fall *på sin plass* at … | It is certainly fitting that …    |
-| det er *nødvendig* å …                   | it is necessary to …               |
-| <span class="env-green">vesentlig</span> [ve:´s(ə)ntli] | significant   |
+| det er i hvert fall *på sin plass* at … | It is certainly fitting that …     |
+| det er *nødvendig* å …                   | it is necessary to …              |
+| <span class="env-green">vesentlig</span> [ve:´s(ə)ntli] | significant        |
+| hovedsakelig                             | mainly, primarily                 |
 
 
 Det er *vesentlig* for … at …  
@@ -1496,7 +1497,12 @@ Det finnes studier som viser <span class="env-green">viktigheten</span> av å **
 | -------------------------------------- | ---------------------------------- |
 | … blir viktigere enn *noen gang*       | becomes more important *than ever* |
 | … har aldri vært mer viktig / trendy enn nå. | … has never been more important/trendy than now. [trendy no 同 en，注意发音] |
+| Det har aldri vært viktigere enn noensinne. | It has never been more important than ever. |
 
+noensinne / noen sinne → ever, at any time
+
+- Vi sliter med helsa *mer enn noen sinne*.  
+  → We are struggling with our health more than ever.
 
 --------------------------------------------------------------------------------
 
@@ -1574,6 +1580,8 @@ Problemet <span class="env-green">blir sett på som</span> …
   → Norwegian prisons *are* by many *seen as* pure luxury.  
   «av mange»: by many
 
+- Vi må *se på det som* glede, og ikke en straff.  
+  → We must see it as joy, and not a punishment.
 
 --------------------------------------------------------------------------------
 
@@ -2181,7 +2189,9 @@ Andelen unge i arbeidsstyrken har gått ned.
 
 påvirkning → impact; influence
 
-å ha stor <span class="env-green">påvirkning / innflytelse / effekt</span> på noe(n) → to have a big impact on sth/sb
+innvirkning → influence; effect
+
+å ha stor <span class="env-green">påvirkning / innvirkning / innflytelse / effekt</span> **på** noe(n) → to have a big impact on sth/sb
 
 **å berøre** (active); berøres (passive)
 
@@ -2216,7 +2226,7 @@ påvirkning → impact; influence
 
 --------------------------------------------------------------------------------
 
-*å gå utover noe* → to affect negatively; to harm;
+*å gå <span class="env-green">utover</span> noe* → to affect negatively; to harm;
 
 Mangel på søvn kan gå utover konsentrasjonen. → Lack of sleep can affect concentration negatively.
 
@@ -2228,23 +2238,35 @@ Konflikten gikk utover vennskapet deres. → The conflict harmed their friendshi
 
 --------------------------------------------------------------------------------
 
+<a id="time-expression"></a>
 
 ## 时间的表述
 
 | Norsk              | English                                | 中文              |
 | ------------------ | -------------------------------------- | ----------------- |
 | i ***de** siste årene* | In the last few years                | 最近几年        |
-| i **de** siste dagene/månedene | In the last few days/months  | 最近几天/几个月  |
+| i **de** siste dagene/månedene | In the last few days/months  | 最近几天/几个月 |
 | i det siste        | recently, lately                       | 最近              |
-| tidligere ...      | earlier / previously / in the past ... | 以前，过去，早先    |
+| tidligere ...      | earlier / previously / in the past …   | 以前，过去，早先  |
 | for to år siden    | two years ago                          | 两年前            |
 | for to dager siden | two days ago                           | 两天前            |
-| på lang/kort sikt  | on the long/short term                 | 长远来看 / 短期来看 |
-| på lengre siker    | over a longer term                     | 从长远来看         |
-| i det lange løp    | in the long run                        | 从长远来看         |
+| på lang/kort sikt  | on the long/short term                 | 长远来看 / 短期来看  |
+| på sikt            | over time, eventually                  | 随着时间的推移, 最终 |
+| på lengre siker    | over a longer term                     | 从长远来看        |
+| i det lange løp    | in the long run                        | 从长远来看        |
 | på forhånd         | in advance                             | 提前              |
 | i etterkant        | afterwards                             | 事后              |
+| den siste tiden    | recently                               | 最近              |
+| nå for tiden       | nowadays                               | 现在              |
+| for tiden          | currently                              | 目前              |
+| på tide å gjøre noe| It is time to do something             | 是时候做某事了    |
+| i rett tid         | in time, just in time                  | 及时地, 适时地    |
+| i tide             | in time                                | 及时地, 适时地    |
+| inntil da          | until then                             | 直到那时          |
+| på lenge           | for a long time                        | 很长时间          |
 
+- Jeg har ikke sett ham *på lenge*.  
+  → I haven't seen him for a long time.
 
 
 最近几年，涌现了… 
@@ -2254,6 +2276,7 @@ Konflikten gikk utover vennskapet deres. → The conflict harmed their friendshi
 | De siste årene har det blitt mer og mer vanlig å ...         |                                 |
 
 
+关于<a href="{{site.baseurl}}/2024/02/18/Norsk-Liv.html#频率">频率</a>的表述
 
 --------------------------------------------------------------------------------
 
@@ -2380,18 +2403,26 @@ Dette gjelder også i Norge. → This also applies in Norway.
 | -------------------------------------- | ---------------------------------- |
 | Det er nok også litt av <span class="env-green">grunnen til at</span> han ga seg. | That's probably part of the reason he gave up. |
 | Grunnen til dette kan være …           | The reason for this can be …       |
+| En av grunnene kan være …              | One of the reasons can be …        |
 | Det kan være mange grunner <span class="env-green">til</span> … | The are many reasons why … |
-| av den grunn ... + 倒装                 | because of this …                  |
+| av den grunn ... + 倒装                 | because of this …                 |
 | på grunn av noe(n)                     | because of sth/sb                  |
-| på grunn av at + clause                | because / since + 从句              |
-| hovedgrunnen av at ... er at ...       | the main reason for that is that ... |
+| på grunn av at + clause                | because / since + 从句             |
+| hovedgrunnen av at … er at …           | the main reason for that is that … |
 | Det skyldes at ...                     | It is because of that ...          |
-| den vanligste årsaken til .... er ...  | the most common cause of … is …    |
+| A forårsaker B                         | A causes B                         |
+| den vanligste årsaken til … er …       | the most common cause of … is …    |
 | <span class="env-green">**hovedårsaken**</span> til at … er at ... | the major reason why … is … |
 | <span class="env-green">**hovedargumentet**</span> for … at … | the main argument for … is that … |
-| Dette har **sammenheng** med at ... | This is related / due to the fact that ...<br />This has to do with the fact that ...<br />This is because ... |
+| Dette har **sammenheng** med at … | This is related / due to the fact that ...<br />This has to do with the fact that …<br />This is because ... |
 | å følge av noe                         | as a result of, due to sth 由…引起的   |
 | å følge av at + clause                 | because / since + 从句                |
+| å slå + adj + ut                       | to result in, to have an effect, to turn out in a certain way 导致…结果  |
+
+- Avgiften *slo uheldig ut* for små bedrifter.
+  → The tax had negative effects for small companies.
+- Regelen *slo forskjellig ut* for ulike grupper.
+  → The rule affected different groups differently.
 
 
 - <span class="env-green">En av hovedgrunnene til</span> at disse retningslinjene har kommet, er skjermbruk blant barn.  
@@ -2439,6 +2470,13 @@ Bussen var forsinket. Det **skyldtes** en ulykke på veien.
 
 Jeg tror denne milde vinteren **skyldes** drivhuseffekten.  
 → I think this mild winter is due to the greenhouse effect.
+
+**en skyld**, skylden, skylder, skyldene → blame, fault
+
+Vi kan likevel ikke gi all skylden til …, hver og en av oss har et ansvar.  
+→ We cannot give all the blame to …, each of us has a responsibility.
+
+
 
 --------------------------------------------------------------------------------
 
@@ -2527,7 +2565,7 @@ virkning/effekt → effect, impact
 
 å **volde** + skade / sorg / problemer → to cause damage / grief / problems
 
-bøying: å volde, volder, voldte, har voldt
+bøyning: å volde, volder, voldte, har voldt
 
 - Den nye loven kan *volde* store problemer for små bedrifter.  
   → The new law can cause big problems for small businesses.
@@ -2643,6 +2681,10 @@ prisen å betale er ...
 ... utgjør *den største delen*. 
 
 *Mesteparten* av ... → Most of ...
+
+mesteparten av tiden → most of the time
+
+stort sett → largely; to a large extent
 
 de fleste ... → most … [countable]
 

@@ -1162,6 +1162,23 @@ Det er en bekymring at nettsider samler personlige data uten samtykke.
 - Vi *slenger oss på* festen senere.  
   → We will join the party later.
 
+
+| Norsk              | English                               |
+| ------------------ | ------------------------------------- |
+| å beherske seg     | to control oneself; to restrain oneself 克制自己 |
+
+Stop oneself from acting too strongly
+
+- Du må *beherske deg* når du blir sint.  
+  → You have to control yourself when you get angry.
+- Jeg måtte *beherske meg* for ikke å le.  
+  → I had to restrain myself from laughing.
+
+**å beherske** → master, have a command of, be proficient in
+
+- De *behersker* det engelske språket ganske bra. 
+  → They master the English language quite well. / They have quite a good command of the English language.
+
 --------------------------------------------------------------------------------
 
 
@@ -3343,6 +3360,7 @@ hos + object form pronoun (meg, deg, ham, henne, oss, dere, dem)
    Det er en tendens til å være pessimistisk hos ham.  
    → There is a tendency to be pessimistic in him.
 
+**hos folket/forbrukerne** → among the people/consumers
 
 --------------------------------------------------------------------------------
 

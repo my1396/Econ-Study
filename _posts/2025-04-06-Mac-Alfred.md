@@ -213,6 +213,8 @@ Move the slider (**Simulated key event speed**) to the left to slow down Alfred'
    
    A slower "Restore after" provides you a longer time buffer to paste the snippet manually if the auto expansion did not work. This is useful especially on an old and slow Mac.
 
+   Tips: If your snippet does not expand, type slowly.
+
    If your snippet do not expand, you need to adjust the time to a longer one as well.
 
 <img src="{{site.baseurl}}/images/snippets-tweaking.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />

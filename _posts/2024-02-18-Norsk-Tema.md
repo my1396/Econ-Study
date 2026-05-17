@@ -821,7 +821,7 @@ Tiltak for å redusere negativ påvirkning av sosiale medier:
 --------------------------------------------------------------------------------
 
 
-## <span class="env-green">**KI**</span>
+## KI
 
 Jeg bruker det nesten uten å tenke over det. → 说明一件事潜移默化的渗入日常生活中。
 
@@ -1284,9 +1284,13 @@ er<span class="env-green">nær</span>ing 注意与 er<span class="env-green">far
 | -------------------------------------- | ---------------------------------- |
 | prot<span class="env-green">ei</span>n | protein (en 同 no)                 |
 | mindre fett                            | less fat                           |
+| mettet fett                            | saturated fat (usunt), 饱和脂肪酸, 在室温下的饱和脂肪呈固体状态。摄取过量饱和脂肪会增加患心脏病的风险 |
+| umettet fett                           | unsaturated fat                    |
+| margert kjøtt                          | lean meat                          |
 | måltid                                 | meal                               |
 | en sunn kost                           | a helthy diet                      |
 | et sunt kosthold                       | a healthy diet                     |
+| et fullverdig kosthold                 | a balanced diet                    |
 | livsstil(en)                           | lifestyle                          |
 | helsefremmende livsstil                | healthy lifestyle                  |
 | fysisk aktivitet                       | physical activity                  |
@@ -1402,7 +1406,8 @@ Langvarig mat inneholder vanligvis mange <span class="env-green">tilsetningsstof
 
 fryst mat → frozen food (forsne pizzaer, mikrobølgovn-måltider)  
 mer prosessert mat → more processed food  
-høyt prosessert mat → highly processed food (kake; godteri; potetgull; )
+høyt prosessert mat → highly processed food (kake; godteri; potetgull; )  
+ferdigprodusert mat / ferdiglaget mat → ready-made food; convenience food 即食食品
 
 å prosessere [prosesˈere], prosesserer, prosesserte, har prosessert → to process
 
