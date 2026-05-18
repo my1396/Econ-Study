@@ -584,7 +584,7 @@ $$
 \sum_{i=1}^m\sum_{j=1}^n a_ib_j\text{Cov}(X_i, Y_j).
 $$
 
-One of the applications of covariance is finding the variance of a <span style='color:#008B45'>**sum of several random variables**</span>.
+One of the applications of covariance is finding the variance of a <span class="env-green">**sum of several random variables**</span>.
 In particular, if $Z=X+Y$, then
 
 $$
@@ -1388,7 +1388,7 @@ $$
 f_{ZW}(z,w)=f_{XY}(h_1(z,w),h_2(z,w)) \cdot \vert \boldsymbol{J}\vert,
 $$
 
-where $\boldsymbol{J}$ is the <span style='color:#008B45'>**Jacobian**</span> of $h$, its determinant is defined by 
+where $\boldsymbol{J}$ is the <span class="env-green">**Jacobian**</span> of $h$, its determinant is defined by 
 
 $$
 \abs{\boldsymbol{J}} =
@@ -1540,11 +1540,11 @@ $$\beta=P(\text{fail to reject} H_0\vert H_0 \text{ is false})\,.$$
 $\beta$ is related to the *Power of a test*.
 $\beta = 1-\text{Power of a test} = 1-P(\text{reject } H_0\vert H_0 \text{ is false})\,.$
 
-In hypothesis testing, the <span style='color:#008B45'>*size of a test*</span> is the (maximum) probability of committing a Type I error, that is, of incorrectly rejecting the null hypothesis when it is true.
+In hypothesis testing, the <span class="env-green">*size of a test*</span> is the (maximum) probability of committing a Type I error, that is, of incorrectly rejecting the null hypothesis when it is true.
 
-The <span style='color:#008B45'>*power of a test*</span> refers to the probability of correctly rejecting $H_0$ when $H_1$ is true.
+The <span class="env-green">*power of a test*</span> refers to the probability of correctly rejecting $H_0$ when $H_1$ is true.
 
-
+We aim for small size and high power. However, there is a trade-off between the two. 
 
 
 <img src="https://drive.google.com/thumbnail?id=1U8Hk_KJfWT5fL6eUgEcPNiiSrueLSfC3&sz=w1000" alt="type-i-and-type-ii-error" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />

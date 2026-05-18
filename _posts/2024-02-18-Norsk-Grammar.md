@@ -962,7 +962,7 @@ Note that «glede» is both verb and noun form.
 | å legge seg         | to go to bed          | Han legger seg tidlig.               |
 | å passe seg         | to take care of       | Du må passe deg.                     |
 | å skynde seg        | to hurry up           | Skynd deg!                           |
-| å slå seg ned       | to sit down           | Hun slår seg ned ved bordet.         |
+| å slå seg ned       | to sit down; settle down | Hun slår seg ned ved bordet.      |
 | å vaske seg         | to wash oneself       | Barna vasker seg før middag.         |
 | å <span class="env-green">tilpasse seg</span> | to adapt oneself | De må tilpasse seg de nye reglene. |
 | å åpne seg          | to open up             | Hun åpner seg for nye ideer.        |
@@ -1893,7 +1893,11 @@ Det går over. → It will pass.
 - Han gikk *utover* det som var forventet. → He went *beyond* what was expected.
 - *Utover* det som er nevnt, har jeg ingen kommentarer. → *Apart from* what has been mentioned, I have no comments.
 
-
+| Norsk                      | English                            |
+| -------------------------- | ---------------------------------- |
+| fremover / framover        | forward, ahead, onward             |
+| å se fremover              | to look forward                    |
+| å planlegge fremover       | to plan ahead                      |
 
 
 | Norsk                                  | English                            |

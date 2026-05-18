@@ -60,13 +60,13 @@ Skriftlige prøver see <a href="{{site.baseurl}}/2025/09/20/Norskprover-Sturktur
 
 Temasetning → Kommentarsetninger → Avsluttende setning
 
-<span class="env-green">*For det første*</span> (倒装) ... <span class="env-green">*for det andre*</span> (倒装) …  → Firstly ... secondly …
+<span class="env-green">*For det første*</span> (倒装) … <span class="env-green">*for det andre*</span> (倒装) …  → Firstly … secondly …
 
-I tillegg … dessuten ... for øvrig ... ikke minst er det …
+I tillegg … dessuten … for øvrig … ikke minst er det …
 
-På den ene siden …, mens på den andre siden … → On the one hand ..., while on the other hand ...
+På den ene siden …, mens på den andre siden … → On the one hand …, while on the other hand …
 
-Selv om noen mener at …, tror jeg at … → Even if some believe that ..., I think that ... 表转折，表对比
+Selv om noen mener at …, tror jeg at … → Even if some believe that …, I think that … 表转折，表对比
 
 Til slutt … Kort oppsummert … Som nevnt tidligere … Alt i alt mener jeg at … 
 
@@ -215,7 +215,7 @@ Use the following **mock exam** to practice before the actual exam:
 - 对社会整体的影响
 - 通常来怎么样 有没有个例 (et) unntak (话不能说的太满，凡事总有特例)
   
-  generalt ..., men det kommer an på ... ; men det gjelder ikke alltid ... 
+  generalt …, men det kommer an på … ; men det gjelder ikke alltid … 
 
   Det er unntak <span class="env-green">fra</span> denne regelen. → There are exceptions to this rule.
 
@@ -223,7 +223,7 @@ Use the following **mock exam** to practice before the actual exam:
 
   folk bør få velge etter sine evne / evenene sine. → people should choose according to their abilities.
 
-  Det finners situasjoner hvor ... → There are situations where ...
+  Det finners situasjoner hvor … → There are situations where …
 
 **角度**
 
@@ -310,9 +310,9 @@ Use the following **mock exam** to practice before the actual exam:
 
     Regelmessig trening kan *bidra til* bedre helse. → Regular exercise can contribute to better health.
 
-    ... *bidrar til* et bedre samfunn. → ... contribute to a better society.
+    … *bidrar til* et bedre samfunn. → … contribute to a better society.
 
-    God helse *bidrar til* et lykkelig liv av mennesker. → ... contribute to a happy life of people.
+    God helse *bidrar til* et lykkelig liv av mennesker. → … contribute to a happy life of people.
 
   - <span class="env-green">*å fremme*</span> utvikling / vekst / læring → to promote, to advance
 
@@ -328,9 +328,9 @@ Use the following **mock exam** to practice before the actual exam:
     Det *kan være en fordel å* jobbe ekstra med å få inn gode vaner, i tillegg til å trappe ned medisinbruken langsomt.   
     → It can be beneficial to work extra on getting good habits, in addition to gradually reducing medication use.
   
-  - Fordeler <span class="env-green">*med*</span> dette er ... → Advantages of this are ...
+  - Fordeler <span class="env-green">*med*</span> dette er … → Advantages of this are …
 
-- to make sure ...
+- to make sure …
   
   - å *sørge for at* → to ensure, to provide
 
@@ -371,7 +371,7 @@ Use the following **mock exam** to practice before the actual exam:
 
 - meningsfull, meningsfullt, meningsfulle → meaningful
 
-- få betydning for ... → to have an impact on ...
+- få betydning for … → to have an impact on …
 
   - *Dette kan få stor betydning for …* → This can have a big impact on …
 
@@ -397,11 +397,11 @@ Use the following **mock exam** to practice before the actual exam:
 
 - *Likevel finnes det ulemper …* → Nevertheless, there are disadvantages …
 
-- Men jeg synes at ... → But I think that ... [«Men» as **conjunction**, 后面接一个独立句子，<span class="env-green">正常语序</span>]
+- Men jeg synes at … → But I think that … [«Men» as **conjunction**, 后面接一个独立句子，<span class="env-green">正常语序</span>]
   
-  *Likevel* synes jeg at ... → Nevertheless, I think that ... [«Likevel» as adv, V2 原则]
+  *Likevel* synes jeg at … → Nevertheless, I think that … [«Likevel» as adv, V2 原则]
 
-  Jeg synes *imidlertid* at ... → However, I think that ...
+  Jeg synes *imidlertid* at … → However, I think that …
 
 - Ulemper *med* … inkluderer … → Disadvantages of … include …
 
@@ -501,7 +501,7 @@ Løsning
 - *En mulig løsning er at …* → A possible solution is that …
 - *nøkkelen til å gjøre noe* → the key to doing sth
   - *Nøkkelen til å lykkes er å …* → The key to success is to …
-- *For å <u>lette</u> situasjonen* ... → To ease/alleviate the situation
+- *For å <u>lette</u> situasjonen* … → To ease/alleviate the situation
 - *Det kan være praktisk å <u>tillate</u> …* → It may be practical to allow …
 - *Alternativt kan de …* → Alternatively, they can …
 
@@ -549,7 +549,7 @@ Løsning
     bevissthet [bevˈissthet] → awareness, consciousness  
     vern [væ:rn] → protection, conservation
 
-- å fortsette å gjøre noe til ... → to continue doing sth until ...
+- å fortsette å gjøre noe til … → to continue doing sth until …
   - Jeg vil fortsette å prøve til jeg når B2-nivå.
 
 - Man må være klar over at … → One must be aware that …
@@ -593,29 +593,29 @@ ___
 
 ## Commonly used phrases
 
-### **我的想法是**...
+### **我的想法是**…
 
 #### Neutral:
 
-..., det er min mening.
+…, det er min mening.
 
-Generalt sett ... → Generally speaking ...
+Generalt sett … → Generally speaking …
 
-Etter min mening er det / bør vi  ...
+Etter min mening er det / bør vi  …
 
 Derfor mener jeg at …
 
-Jeg ser for meg at ... → I imagine/envision that ...
+Jeg ser for meg at … → I imagine/envision that …
 
-Fra mitt perspektiv ... → From my perspective ...
+Fra mitt perspektiv … → From my perspective …
 
-For min egen del synes jeg at ... → For my part, I think that ...
+For min egen del synes jeg at … → For my part, I think that …
 
 en mer positiv *holdning* (a more positive attitude)
 
 et annet positivt aspekt er …
 
-Det er *delte meninger* om ...
+Det er *delte meninger* om …
 
 det synes jeg også → I also think that
 
@@ -623,10 +623,10 @@ Likevel er det flere som mener at … → However, there are many who think that
 
 Etter min mening er det ikke snakk om *enten eller*, men ja takk, begge deler. → In my opinion, it’s not a question of *either/or*, but yes please, both.
 
-根据我的经验...
+根据我的经验…
 
-- *Basert på min erfaring* ... → Based on my experience ...
-- Etter / Ifølge min erfaring ... → According to my experience ...
+- *Basert på min erfaring* … → Based on my experience …
+- Etter / Ifølge min erfaring … → According to my experience …
 
 注意 V2 原则
 
@@ -672,7 +672,7 @@ Det føler jeg gir en stor trygghet. → I feel it gives a strong sense of safet
 
 #### Negative opinion:
 
-Jeg er litt *skeptisk* til at ...
+Jeg er litt *skeptisk* til at …
 
 Jeg *har virkelig ingen tro på* at … → I don't believe sth
 
@@ -723,9 +723,9 @@ litt 表肯定; liten 表否定
 
 #### Uncertain
 
-Mitt inntrykk er at ... → my impression is that …
+Mitt inntrykk er at … → my impression is that …
 
-Jeg er usikker *på* om ... → I am uncertain whether ...
+Jeg er usikker *på* om … → I am uncertain whether …
 
 
 --------------------------------------------------------------------------------
@@ -750,7 +750,7 @@ Jeg er usikker *på* om ... → I am uncertain whether ...
 
 Han kan bli oppfattet som arrogant, men *egentlig* er han bare sjenert. → He can be perceived as arrogant, but he is just shy. 
 
-Noe(n) kan *virke* ..., men ... → … seems … but …
+Noe(n) kan *virke* …, men … → … seems … but …
 
 De vil gjerne kjøpe leilighet. Alt er **imidlertid** så dyrt.  
 → They would like to buy an apartment. Everything is, however, so expensive.
@@ -960,11 +960,9 @@ De går ikke godt overens, *med andre ord* krangler de ofte.
 **If** (vilkår / betingelse) 条件，假设
 
 > hvis; om; <span class="env-green">dersom</span>; 
-> så sant; i tilfelle;
-> uten at / uten å;
+> i tilfelle (in case);
+> uten at / uten å (unless 除非);
 
-Jeg kommer **så sant** jeg blir frisk nok.  
-→ I will come as long as I get well enough.
 
 **I tilfelle** noe er uklart, er det bare å ta kontakt.  
 → In case something is unclear, just get in touch.
@@ -990,10 +988,10 @@ Du klarer ikke førerprøven **uten å** øve mye.
 
 **As long as** 只要
 
-> så lenge; 
+> så lenge; så sant; forutsatt at (provided that, formal); 
 
 
-**“så lenge” + clause**: as long as / provided that / on the condition that ...; 
+**“så lenge” + clause**: as long as / provided that / on the condition that …; 
 
 - *Så lenge* du øver hver dag, vil du bli bedre i norsk.  
   → As long as you practice every day, you will get better at Norwegian. 
@@ -1016,6 +1014,25 @@ Du klarer ikke førerprøven **uten å** øve mye.
 
 - Jeg skal huske det *så lenge* jeg lever.  
   → I will remember it as long as I live.
+
+--------------------------------------------------------------------------------
+
+**så sant** (as long as 只要…)
+
+Jeg kommer *så sant* jeg blir frisk nok.  
+→ I will come as long as I get well enough.
+
+Vi drar i morgen, *så sant* været er bra.  
+→ We are leaving tomorrow, as long as the weather is good.
+
+*Så sant* det stemmer, er det et problem.  
+→ As long as it is true, it is a problem.
+
+*Så sant* jeg husker riktig, møttes vi i 2019.  
+→ As long as I remember correctly, we met in 2019.
+
+Du får låne bilen, *så sant* du kjører forsiktig.  
+→ You can borrow the car, as long as you drive carefully.
 
 --------------------------------------------------------------------------------
 
@@ -1064,7 +1081,7 @@ Other expressions of "unless":
 
 --------------------------------------------------------------------------------
 
-**Unntatt** for at ... 除了...以外
+**Unntatt** for at … 除了…以外
 
 > unntatt (except); unntatt at (except that); unntatt for (except for); 
 > unntatt når (except when); unntatt hvis (except if); med unntak av (with the exception of);  
@@ -1295,7 +1312,7 @@ Jeg liker **verken** kaffe **eller** te.
 
 **heller ikke** → not … either 
 
-- Jeg skal ikke til Paris, og jeg skal **heller ikke** til Roma. 
+- Jeg skal ikke til Paris, og jeg skal **heller ikke** til Roma.  
   → I am not going to Paris, and I am not going to Rome either.
 
 - Vi har ikke brød, og vi har **ikke** kaffe **heller**.  
@@ -1397,14 +1414,14 @@ adv.
 | På denne måt<span class="env-green">en</span> … | in this way; more formal and specific |
 | på flere måter …                       | in several/many ways …             |
 | slik sett                              | in this sense                      |
-| det store spørsmålet er ...            | The big question is … The key issue is … |
+| det store spørsmålet er …            | The big question is … The key issue is … |
 | … regnes (derfor) som …                | … is (hence) considered …          |
 | Bruk av fornybare energikilder *regens som* bærekraftig og miljøvennlig. | The use of renewable energy sources *is considered* sustainable and environmentally friendly. |
 
 
 --------------------------------------------------------------------------------
 
-**很明显**...
+**很明显**…
 
 | Norsk                          | English                |
 | ------------------------------ | ---------------------- |
@@ -1418,19 +1435,19 @@ adv.
 
 - tydelig → clear, evident, obvious
 
-  - Det er tydelig forskjell på ... og ...   
-    → There is a clear difference between ... and ... [attributive 定语]
+  - Det er tydelig forskjell på … og …   
+    → There is a clear difference between … and … [attributive 定语]
 
-  - Det er tydelig å se at ...   
-    → It is clear to see that ... [predicative 表语]
+  - Det er tydelig å se at …   
+    → It is clear to see that … [predicative 表语]
 
 - betydelig → significant, considerable (数量，程度上) 显著
 
-  - Det er betydelig forskjell på ... og ...   
-    → There is a significant difference between ... and ... [attributive 定语]
+  - Det er betydelig forskjell på … og …   
+    → There is a significant difference between … and … [attributive 定语]
 
-  - Det er betydelig å finne balanse mellom ... og ...   
-    → It is important to find a balance between ... and ... [predicative 表语]
+  - Det er betydelig å finne balanse mellom … og …   
+    → It is important to find a balance between … and … [predicative 表语]
   
 
 --------------------------------------------------------------------------------
@@ -1485,8 +1502,8 @@ Det er *vesentlig* for … at …
 → … have become insignificant, and … has become even more important than before.
 
 
-Det finnes studier som viser <span class="env-green">viktigheten</span> av å **forebygge** og håndtere ... tidlig i livet.  
-→ There are studies that show the importance of **preventing** and managing ... early in life.
+Det finnes studier som viser <span class="env-green">viktigheten</span> av å **forebygge** og håndtere … tidlig i livet.  
+→ There are studies that show the importance of **preventing** and managing … early in life.
 
 --------------------------------------------------------------------------------
 
@@ -1510,11 +1527,11 @@ noensinne / noen sinne → ever, at any time
 
 **betydelig** → significant, considerable
 
-- Det er betydelig forskjell på ... og ...   
-  → There is a significant difference between ... and ... [attributive 定语]
+- Det er betydelig forskjell på … og …   
+  → There is a significant difference between … and … [attributive 定语]
 
-- Det er betydelig å finne balanse mellom ... og ...   
-  → It is important to find a balance between ... and ... [predicative 表语]
+- Det er betydelig å finne balanse mellom … og …   
+  → It is important to find a balance between … and … [predicative 表语]
 
 **betydningsfull** → meaningful, significant
 
@@ -1570,8 +1587,8 @@ Problemet <span class="env-green">blir sett på som</span> …
 
 ❗注意不要忘记加 «på»
 
-- Man *kan se på som* en positiv utvikling og et resultat av at ... [主动]  
-  → It can be viewed as a positive development and a result of ... 
+- Man *kan se på som* en positiv utvikling og et resultat av at … [主动]  
+  → It can be viewed as a positive development and a result of … 
 
 - Han *ser på* nye regler *som* hår i suppa.  
   → He sees the new rules as a nuisance. (literally: hair in the soup)
@@ -1694,7 +1711,7 @@ noen ganger … andre ganger …
 | det stikk <span class="env-green">motsatte</span> av        | the opposite of         |
 | ---------------------------- | ----------------------- |
 | Dette er motsatt av … ønsker | the oppsite of … wishes |
-| i motsetning til ...         | in contrary to ...      |
+| i motsetning til …         | in contrary to …      |
 
 
 
@@ -1733,7 +1750,7 @@ i de fleste sammenheng → most likely
 
 **There be**
 
-<span class="env-green">**Det finnes / er**</span> (ikke) ...  (不) 存在...
+<span class="env-green">**Det finnes / er**</span> (ikke) …  (不) 存在…
 
 E.g.
 
@@ -1772,13 +1789,13 @@ Used to introduce general statements, facts, or claims
 
 **这种**
 
-den typen ...
+den typen …
 
 
 
 最高级
 
-det nyeste begrepet er ... the newest notion is ...
+det nyeste begrepet er … the newest notion is …
 
 
 at 从句
@@ -1787,8 +1804,8 @@ at 从句
 
 | Norsk                       | Engelsk                              |
 | --------------------------- | ------------------------------------ |
-| Det viser seg at ...        | It shows that ...                    |
-| Jeg synes det er bra at ... | It think it would be great that .... |
+| Det viser seg at …        | It shows that …                    |
+| Jeg synes det er bra at … | It think it would be great that …. |
 
 
 
@@ -1802,7 +1819,7 @@ at 从句
 | -------------------------------------- | ---------------------------------- |
 | <span class="env-green">sammenlignet med</span> … | compared to …   |
 | i sammenheng med …                     | in connection with …               |
-| En klar <span class="env-green">sammenheng</span> mellom ... og ... | A clear link / relationship between ... and ... |
+| En klar <span class="env-green">sammenheng</span> mellom … og … | A clear link / relationship between … and … |
 | *til sammenligning*                    | for reference / comparison         |
 | lignende                               | similar                           |
 
@@ -1866,7 +1883,7 @@ like mange epler som dere →
 
 *i likehet med* → similar to, like
 
-*I likehet med de fleste andre land i verden* ... → Similar to most other countries in the world ...
+*I likehet med de fleste andre land i verden* … → Similar to most other countries in the world …
 
 --------------------------------------------------------------------------------
 
@@ -2244,10 +2261,11 @@ Konflikten gikk utover vennskapet deres. → The conflict harmed their friendshi
 
 | Norsk              | English                                | 中文              |
 | ------------------ | -------------------------------------- | ----------------- |
-| i ***de** siste årene* | In the last few years                | 最近几年        |
-| i **de** siste dagene/månedene | In the last few days/months  | 最近几天/几个月 |
+| i ***de** siste årene* | In the last few years              | 最近几年          |
+| i **de** siste dagene/månedene | In the last few days/months| 最近几天/几个月   |
 | i det siste        | recently, lately                       | 最近              |
-| tidligere ...      | earlier / previously / in the past …   | 以前，过去，早先  |
+| tidligere …      | earlier / previously / in the past …   | 以前，过去，早先  |
+| året før           | a year ago, last year                  | 一年前            |
 | for to år siden    | two years ago                          | 两年前            |
 | for to dager siden | two days ago                           | 两天前            |
 | på lang/kort sikt  | on the long/short term                 | 长远来看 / 短期来看  |
@@ -2271,9 +2289,9 @@ Konflikten gikk utover vennskapet deres. → The conflict harmed their friendshi
 
 最近几年，涌现了… 
 
-| De siste årene har det <span class="env-green">dukket opp</span> ... | There arise ... in recent years |
+| De siste årene har det <span class="env-green">dukket opp</span> … | There arise … in recent years |
 | ------------------------------------------------------------ | ------------------------------- |
-| De siste årene har det blitt mer og mer vanlig å ...         |                                 |
+| De siste årene har det blitt mer og mer vanlig å …         |                                 |
 
 
 关于<a href="{{site.baseurl}}/2024/02/18/Norsk-Liv.html#频率">频率</a>的表述
@@ -2282,17 +2300,17 @@ Konflikten gikk utover vennskapet deres. → The conflict harmed their friendshi
 
 ## 趋势
 
-越来越...
+越来越…
 
-Stagig flere/bedre ... 越来越多/好
+Stagig flere/bedre … 越来越多/好
 
-Et *økende* antall nordmenn ønsker å ... → An increasing number of Norwegians wish to ...
+Et *økende* antall nordmenn ønsker å … → An increasing number of Norwegians wish to …
 
 … blir et økende problem → … is becoming an increasing problem
 
 *en vesentlig økning av* antall nordmenn over 80 → A significant increase in the number of Norwegians over 80
 
-vesentlig lavere pris på ... → significantly lower price on ...
+vesentlig lavere pris på … → significantly lower price on …
 
 A *går ned samtidig som* B *øker* → 伴随着 B 的上升，A 在下降
 
@@ -2318,9 +2336,9 @@ Det blir en ond *sirkel*. → It becomes a vicious circle.
 
 没多少: de færreste av os; et fåtall av; 
 
-| Slike ..., men ...                                           | 尽管… 但是…                       |
+| Slike …, men …                                           | 尽管… 但是…                       |
 | ------------------------------------------------------------ | --------------------------------- |
-| Slike foreldre har <span class="env-green">de beste intensjoner</span>, men konsekvensen kan bli at ... | 尽管出发点是好的，但是结果可能是… |
+| Slike foreldre har <span class="env-green">de beste intensjoner</span>, men konsekvensen kan bli at … | 尽管出发点是好的，但是结果可能是… |
 
 
 **svikt(et)**
@@ -2345,13 +2363,13 @@ Det blir en ond *sirkel*. → It becomes a vicious circle.
 
 --------------------------------------------------------------------------------
 
-| 当...的时候                            | Da ... 从句 (正常语序), ... 主句 (倒装) |
+| 当…的时候                            | Da … 从句 (正常语序), … 主句 (倒装) |
 | ------------------------------------  | ----------------------------------  |
-| Da jeg lærte å ..., ble tekstene mine mye bedre. |                          |
-| Da skoler stengte ned i midten av mars, var mange bekymret for ... | When schools were closed down, many were worried about .. |
+| Da jeg lærte å …, ble tekstene mine mye bedre. |                          |
+| Da skoler stengte ned i midten av mars, var mange bekymret for … | When schools were closed down, many were worried about .. |
 
 
-Nå det **gjelder** noe ... → When it comes to ...
+Nå det **gjelder** noe … → When it comes to …
 
 Dette gjelder også i Norge. → This also applies in Norway.
 
@@ -2399,31 +2417,27 @@ Dette gjelder også i Norge. → This also applies in Norway.
 
 ## 原因与结果
 
+
+### 原因
+
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
 | Det er nok også litt av <span class="env-green">grunnen til at</span> han ga seg. | That's probably part of the reason he gave up. |
 | Grunnen til dette kan være …           | The reason for this can be …       |
 | En av grunnene kan være …              | One of the reasons can be …        |
 | Det kan være mange grunner <span class="env-green">til</span> … | The are many reasons why … |
-| av den grunn ... + 倒装                 | because of this …                 |
+| av den grunn … + 倒装                 | because of this …                 |
 | på grunn av noe(n)                     | because of sth/sb                  |
 | på grunn av at + clause                | because / since + 从句             |
 | hovedgrunnen av at … er at …           | the main reason for that is that … |
-| Det skyldes at ...                     | It is because of that ...          |
+| Det skyldes at …                     | It is because of that …          |
 | A forårsaker B                         | A causes B                         |
 | den vanligste årsaken til … er …       | the most common cause of … is …    |
-| <span class="env-green">**hovedårsaken**</span> til at … er at ... | the major reason why … is … |
+| <span class="env-green">**hovedårsaken**</span> til at … er at … | the major reason why … is … |
 | <span class="env-green">**hovedargumentet**</span> for … at … | the main argument for … is that … |
-| Dette har **sammenheng** med at … | This is related / due to the fact that ...<br />This has to do with the fact that …<br />This is because ... |
-| å følge av noe                         | as a result of, due to sth 由…引起的   |
+| Dette har **sammenheng** med at … | This is related / due to the fact that …<br />This has to do with the fact that …<br />This is because … |
+| å følge av noe                         | as a result of, due to sth 由…引起的  |
 | å følge av at + clause                 | because / since + 从句                |
-| å slå + adj + ut                       | to result in, to have an effect, to turn out in a certain way 导致…结果  |
-
-- Avgiften *slo uheldig ut* for små bedrifter.
-  → The tax had negative effects for small companies.
-- Regelen *slo forskjellig ut* for ulike grupper.
-  → The rule affected different groups differently.
-
 
 - <span class="env-green">En av hovedgrunnene til</span> at disse retningslinjene har kommet, er skjermbruk blant barn.  
   → One of the main reasons for these guidelines is screen use among children.
@@ -2449,7 +2463,7 @@ Ex «som følge av»
 
 --------------------------------------------------------------------------------
 
-**Det er grunn til** å gjøre noe / at ... → There is reason to do sth / that ...
+**Det er grunn til** å gjøre noe / at … → There is reason to do sth / that …
 
 Det er grunn til å være bekymret for utviklingen i arbeidslivet. [展开说明为什么担心]
 
@@ -2483,9 +2497,9 @@ Vi kan likevel ikke gi all skylden til …, hver og en av oss har et ansvar.
 
 ### 导致…结果
 
-et resultat, en <span class="env-green">konsekvens</span>,
+et resultat, en <span class="env-green">konsekvens</span>
 
-gi gode/negative resultalter
+å gi gode/negative resultalter
 
 å **resultere i** noe(n) → to result in sth, lead to sth
 
@@ -2497,16 +2511,16 @@ gi gode/negative resultalter
   → The new measure resulted in increased economic growth.
 
 
-| Norsk       | English   |
-| ----------- | --------- |
-| føre til at | lead to   |
-| slik at     | so that   |
+| Norsk         | English   |
+| ------------- | --------- |
+| <span class="env-green">å føre til at</span> | lead to   |
+| slik at       | so that   |
 
-Dette *fører til at* ... This leads to ...
+Dette *fører til at* … → This leads to …
 
-Det *fører* også *med seg* … This also brings along …
+Det *fører* også *med seg* … → This also brings along …
 
-Mindre stress *fører til* lavere sykefravær → less stress leads to lower sick leave
+Mindre stress *fører til* lavere sykefravær. → Less stress leads to lower sick leave.
 
 | Norsk                     | English                       |
 | ------------------------- | ----------------------------- |
@@ -2535,7 +2549,7 @@ Mindre stress *fører til* lavere sykefravær → less stress leads to lower sic
 - Han *havnet på* sykehuset.  
   → He ended up in the hospital.
 
-Det <span class="env-green">*innebærer*</span> at ... → It means / implies / indicates/ suggests that … 
+Det <span class="env-green">*innebærer*</span> at … → It means / implies / indicates/ suggests that … 
 
 Dette <span class="env-green">*gjør*</span> at … → It makes …
 
@@ -2547,6 +2561,19 @@ At innbyggene i Norge kan <u>velge fritt</u> (choose freely) blant offentlige el
 
 
 virkning/effekt → effect, impact
+
+| Norsk                | English                            |
+| -------------------- | ---------------------------------- |
+| å slå + adj + ut     | to result in, to have an effect, to turn out in a certain way 导致…结果  |
+| å slå ut i noe       | to lead to sth                        |
+
+- Avgiften *slo uheldig ut* for små bedrifter.  
+  → The tax had negative effects for small companies.
+- Regelen *slo forskjellig ut* for ulike grupper.  
+  → The rule affected different groups differently.
+- Dette vil *slå ut i* høyere priser.  
+  → This will lead to higher prices.
+
 
 --------------------------------------------------------------------------------
 
@@ -2599,9 +2626,9 @@ Det *forusetter* at du er kjent med reglene.
 
 --------------------------------------------------------------------------------
 
-**Regardless of** ... 不管…
+**Regardless of** … 不管…
 
-<span class="env-green">Uansett om</span> ... 不管是否…
+<span class="env-green">Uansett om</span> … 不管是否…
 
 Alle jobber er verdifulle, uansett om man jobber på en fabrikk eller på kontor.
 
@@ -2610,30 +2637,30 @@ Vi drar på tur uansett om det regner.
 Hun kommer til å lykkes, uansett om andre tviler på henne.
 
 
-**Uansett hva** ... 不管什么…
+**Uansett hva** … 不管什么…
 
 - Uansett hva du sier, tror jeg ikke på deg.
 - Jeg skal hjelpe deg, uansett hva som skjer.
 
-**Uansett hvilken** ... 不管哪一个…
+**Uansett hvilken** … 不管哪一个…
 
 - Uansett hvilken jobb du velger, blir det krevende.
 - Du kan ta uansett hvilket tog du vil.
 - Uansett hvilke bøker du leser, lærer du noe.
 
-**Uansett når** ... 不管什么时候…
+**Uansett når** … 不管什么时候…
 
 - Ring meg, uansett når du trenger hjelp.
 - Uansett når vi starter, blir det sent.
 
-**Uansett hvor** ... 不管哪里…    
+**Uansett hvor** … 不管哪里…    
 
 - Uansett hvor du bor, må du betale skatt.
 - Jeg følger deg, uansett hvor du går.
 
 --------------------------------------------------------------------------------
 
-<span class="env-green">uavhengig av om</span> ... [formal]
+<span class="env-green">uavhengig av om</span> … [formal]
 
 Prosjektet fortsetter uavhengig av om noen er enige eller ikke.
 
@@ -2650,7 +2677,7 @@ Jeg vet ikke hva som skjer, men i alle tilfeller må vi være forberedt.
 
 **代价**
 
-prisen å betale er ...
+prisen å betale er …
 
 
 
@@ -2665,7 +2692,7 @@ prisen å betale er ...
 | å gi store utfordringer for noen       | give sb big challenges             |
 | en utfordring kan være …               | a challenge can be …               |
 | bekymringer noen ikke klarer å takle alene | concerns that someone cannot handle alone |
-| noe er <span class="env-green">av stor bekymring</span> for ... | sth is of great concern. |
+| noe er <span class="env-green">av stor bekymring</span> for … | sth is of great concern. |
 | en del utfordringer                    | lots of challenges                 |
 | å møte disse utfordringene             | to face these challenges           |
 
@@ -2676,17 +2703,17 @@ prisen å betale er ...
 
 大多数
 
-*Den største delen* er ... (Note the triple definite form) → The largest part is ...
+*Den største delen* er … (Note the triple definite form) → The largest part is …
 
-... utgjør *den største delen*. 
+… utgjør *den største delen*. 
 
-*Mesteparten* av ... → Most of ...
+*Mesteparten* av … → Most of …
 
 mesteparten av tiden → most of the time
 
 stort sett → largely; to a large extent
 
-de fleste ... → most … [countable]
+de fleste … → most … [countable]
 
 for det meste → mostly; for the most part [uncountable]
 
@@ -2694,7 +2721,7 @@ stor sett → largely; to a large extent
 
 i hovedsak → basically; fundamentally
 
-*Store deler av* ... → Large parts of ...
+*Store deler av* … → Large parts of …
 
 de *færreste* / et *fåtall* av … → few … (表否定，数量少)
 
@@ -2702,11 +2729,11 @@ en håndful av … → a handful of …
 
 være sammensatt av … → be composed of; to consist of
 
-*En annen viktig del av* ... → Another important part of ...
+*En annen viktig del av* … → Another important part of …
 
-Deler + er en del av ... → Sth is a part of ...
+Deler + er en del av … → Sth is a part of …
 
-Deler + utgjør en del av ... → Sth constitutes a part of ...
+Deler + utgjør en del av … → Sth constitutes a part of …
 
 - Frivillig arbeid utgjør en viktig del av samfunnet.  
   → Voluntary work forms an important part of society.
@@ -2754,7 +2781,7 @@ i tilfelle av … → in case of …
 
 Hvilke <span class="env-green">fordeler og ulemper</span> er det ved å flytte vareproduksjon utenlands？
 
-What are the advantages and disadvantages of .... 注意跟英文的不同。挪威语用的是 hvilke, 英文用的是 what.
+What are the advantages and disadvantages of …. 注意跟英文的不同。挪威语用的是 hvilke, 英文用的是 what.
 
 --------------------------------------------------------------------------------
 
