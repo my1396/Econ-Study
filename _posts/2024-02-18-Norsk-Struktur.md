@@ -743,7 +743,7 @@ Jeg er usikker *på* om … → I am uncertain whether …
 
 **However** 转折
 
-> imidlertid (meanwhile); <span class="env-green">likevel</span> (nonetheless); fremdeles (still); egentlig (actually); 
+> imidlertid (meanwhile); <span class="env-green">likevel</span> (nonetheless); fremdeles (still); egentlig (actually); i grunnen (actually, after al)
 >
 > <span class="env-green">men samtidig</span> (but at the same time);
 
@@ -768,6 +768,7 @@ Han gikk på jobb **selv om** han hadde feber.
 
 **Selv om** hun ikke har trent så mye, vil hun løpe maraton.
 
+Det var *i grunnen* godt at han ikke kom. → It was actually lucky that he didn't show up.
 
 --------------------------------------------------------------------------------
 
@@ -926,6 +927,15 @@ Fremdeles → adv. still, up to now
   
   - Hun bor i Oslo, *i alle fall* nå / for øyeblikket.  
     → She lives in Oslo, at least for now.
+
+--------------------------------------------------------------------------------
+
+**i det minste** → at least (used to indicate a minimum amount, degree, expectation, or requirement)
+
+- Du må *i det minste* prøve.  
+ → You must at least try.
+- Det regnet, men vi fikk *i det minste* frisk luft.  
+     → It rained, but at least we got fresh air.
 
 --------------------------------------------------------------------------------
 
@@ -1090,18 +1100,25 @@ Other expressions of "unless":
 > bortsett fra (except for); 
 
 
-Alle kom unntatt Maria.  
-→ Everyone came except Maria.
+- Alle kom *unntatt* Maria.  
+  → Everyone came except Maria.
 
-Jeg liker alt unntatt fisk.  
-→ I like everything except fish.
+- Jeg liker alt *unntatt* fisk.  
+  → I like everything except fish.
 
+- Butikken er åpen hver dag *unntatt* søndag.  
+  → The store is open every day except Sunday.
 
-Butikken er åpen hver dag unntatt søndag.  
-→ The store is open every day except Sunday.
+- Ingen *unntatt* ansatte har adgang.  
+  → No one except employees has access.
 
-Ingen unntatt ansatte har adgang.  
-→ No one except employees has access.
+--------------------------------------------------------------------------------
+
+- Gangen var helt tom, *bortsett fra* noen klær som hang på veggen.  
+  → The hallway was completely empty, except for some clothes hanging on the wall.
+
+- Så gikk alle *bortsett fra* faren ut av rommet.  
+  → Then everyone except the father left the room.
 
 --------------------------------------------------------------------------------
 

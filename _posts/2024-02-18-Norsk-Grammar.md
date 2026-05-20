@@ -1179,6 +1179,27 @@ Stop oneself from acting too strongly
 - De *behersker* det engelske språket ganske bra. 
   → They master the English language quite well. / They have quite a good command of the English language.
 
+| Norsk              | English                               |
+| ------------------ | ------------------------------------- |
+| å angre seg        | to regret it, 不接对象                |
+
+- Han angret seg etter å ha sagt det.  
+  → He regretted it after saying that.
+- Hun angrer seg ikke.  
+  → She does not regret it.
+
+å angre på noe → to regret something
+
+- Jeg *angrer på* at jeg valgte bort studier rett etter videregående.  
+  → I regret that I gave up studies right after high school.
+
+| Norsk              | English                               |
+| ------------------ | ------------------------------------- |
+| å anstrenge seg    | to make an effort; to strain oneself; do one's best  |
+
+- Hun *anstrengte seg* for å høre hva som ble sagt.  
+  → She strained her ears to hear what was being said. 
+
 --------------------------------------------------------------------------------
 
 
@@ -1994,12 +2015,21 @@ Det er ingen biler foran. → There are no cars in front.
 | tilbringe <span class="env-green">tid til</span> å gjøre no | spend time doing sth |
 | ha <span class="env-green">tid til</span> å gjøre noe | have time to do sth |
 | å ha lyst til å gjøre            | want to, feel like doing sth |
-| å glede seg til å gjøre noe      | look forward to doing sth    |
 | å ha lyst på noe                 | want, feel like (something)  |
-| å bli <span class="env-green">oppfordret</span> til å gjøre noe | be encouraged to do sth |
 
-Jeg har lyst til å gå en tur. → I feel like going for a walk.  
-Jeg har lyst på en kopp te. → I feel like having a cup of tea.
+- Jeg har lyst til å gå en tur.  
+  → I feel like going for a walk.  
+- Jeg har lyst på en kopp te.  
+  → I feel like having a cup of tea.
+
+| Norsk                            | English                      |
+| -------------------------------- | ---------------------------- |
+| å glede seg til å gjøre noe      | look forward to doing sth    |
+| å bli <span class="env-green">oppfordret</span> til å gjøre noe | be encouraged to do sth |
+| være slem til å gjøre noe        | tend to do sth too much, be prone to do sth too much (often negative)|
+
+- Hun er slem til å drikke.  
+  → She tends to drink heavily.
 
 
 | Norsk              | English                       |
@@ -2206,6 +2236,13 @@ Han har ikke even til å forstå det. → He doesn't have the ability to underst
 
 Vi merker det nesten ikke, men hver dag så blir det svakere.  
 → We hardly notice it, but every day it gets weaker.
+
+| Norsk                 | English                  |
+| --------------------- | ------------------------ |
+| å dekke til noe       | to cover sth             |
+
+- Det er viktig å *dekke til* maten for å holde den fersk.  
+  → It is important to cover the food to keep it fresh.
 
 --------------------------------------------------------------------------------
 
@@ -2715,6 +2752,15 @@ på + språk → in (a language)
 
 på norsk → in Norwegian
 
+| Norsk              | English                            |
+| ------------------ | ---------------------------------- |
+| et forsprang på noe(n) | an advantage over sth/sb       |
+
+- Jeg fikk et forsprang på ham.  
+  → I got an advantage over him.
+- Forspranget på Arbeiderpartiet øker.  
+  → The lead over the Labour Party is increasing.
+
 --------------------------------------------------------------------------------
 
 ### med
@@ -2790,10 +2836,16 @@ Han skal være der til og med søndag.
 | Norsk                           | English                   |
 | ------------------------------- | ------------------------- |
 | å hjelpe med å gjøre noe        | help do sth               |
-| å tilbringe tid med å gjøre noe | spend time doing sth      |
 
 Kan du hjelpe meg med dette?  
 → Can you help me with this?
+
+| Norsk                           | English                   |
+| ------------------------------- | ------------------------- |
+| å tilbringe tid med å gjøre noe | spend time doing sth      |
+| å ha venta lenge med å gjøre noe | have waited a long time before doing something, have delayed doing something |
+
+å ha venta lenge med å gjøre noe → didn't do sth
 
 | Norsk               | English            |
 | ------------------- | ------------------ |
@@ -2867,7 +2919,9 @@ Hva driver du med for tiden?
 | ----------------- | -------------------- |
 | med hensikt/vilje | deliberately, intentionally |
 | å ha <span class="env-green">med</span> noe å gjøre | have something to do with, be related to ... |
-| å ende med noe    | end up with sth     |
+| å ende med noe    | end up with sth      |
+| å slurve med å gjøre noe | be sloppy in doing sth |
+
 
 
 --------------------------------------------------------------------------------
