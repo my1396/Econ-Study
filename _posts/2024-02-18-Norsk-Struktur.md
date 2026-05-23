@@ -2299,6 +2299,7 @@ Konflikten gikk utover vennskapet deres. → The conflict harmed their friendshi
 | i tide             | in time                                | 及时地, 适时地    |
 | inntil da          | until then                             | 直到那时          |
 | på lenge           | for a long time                        | 很长时间          |
+| til enhver tid     | at any time, at all times              | 随时              |
 
 - Jeg har ikke sett ham *på lenge*.  
   → I haven't seen him for a long time.

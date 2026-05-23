@@ -3281,6 +3281,9 @@ Jeg har vondt i ryggen / nakken / skulderen.
 → I have a pain in the back / neck / shoulder.
 
 
+| Norsk                | English                   |
+| -------------------- | ------------------------- |
+| Det er ingen vits i å gjøre noe | There is no point in doing sth |
 
 
 --------------------------------------------------------------------------------

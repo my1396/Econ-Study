@@ -1289,6 +1289,7 @@ er<span class="env-green">nær</span>ing 注意与 er<span class="env-green">far
 | margert kjøtt                          | lean meat                          |
 | måltid                                 | meal                               |
 | en sunn kost                           | a helthy diet                      |
+| kosthold                               | diet                               |
 | et sunt kosthold                       | a healthy diet                     |
 | et fullverdig kosthold                 | a balanced diet                    |
 | livsstil(en)                           | lifestyle                          |
@@ -1772,17 +1773,22 @@ Tingretten → Lagmannsretten → Høysterett
 
 district court → court of appeals → Supreme Court 
 
-| Norsk                   | English                                                   |
-| ----------------------- | --------------------------------------------------------- |
-| rettsikkerhet           | rule of law 法治                                          |
+| Norsk                   | English                                           |
+| ----------------------- | ------------------------------------------------- |
+| rettsikkerhet           | rule of law 法治                                  |
 | en tiltalt              | 被告 <br />注意与 tillate 的过去分词区别, bli tillatt å … |
-| være tiltalt for mord   | be charged with murder                                    |
-| å beskylde noen for noe | to accuse sb of sth                                       |
-| en forsvare             | 辩护律师                                                  |
-| justismord              | justice miscarriage                                       |
-| en krausjon             | bail, bond 保释金                                         |
-| å bli fengslet          | be imprisoned                                             |
-| å bli dømt til          | be sentenced …                                            |
+
+å tillate → to allow, permit
+
+| Norsk                   | English                                           |
+| ----------------------- | ------------------------------------------------- |
+| være tiltalt for mord   | be charged with murder                            |
+| å beskylde noen for noe | to accuse sb of sth                               |
+| en forsvare             | 辩护律师                                          |
+| justismord              | justice miscarriage                               |
+| en krausjon             | bail, bond 保释金                                 |
+| å bli fengslet          | be imprisoned                                     |
+| å bli dømt til          | be sentenced …                                    |
 
 *Han ble beskyldt for å stjele penger.* → He was accused of stealing money.
 
