@@ -4036,7 +4036,7 @@ velutdannet, velutdannede/velutdannete
 
 ## Suffix
 
-«-varig» = lasting, -lasting
+**«-varig»** = lasting, -lasting
 
 | Norsk             | English                   |
 | ----------------- | ------------------------- |
@@ -4066,6 +4066,58 @@ kjøreføre → driving conditions
 
 polarfarer → polar explorer  
 oppdagelsesfarer → explorer of discoveries
+
+
+**«-bevarende»** → preserving, conservation
+
+fredsbevarende → peace-preserving  
+miljøbevarende → environmentally preserving
+
+
+**«-bar»** → adj. 可…的，能够…的
+
+| Norsk   | English           |
+| ------- | ----------------- |
+| kostbar | costly, expensive |
+| sårbar  | vulnerable        |
+
+være sårbar for noe → be vulnerable to sth
+
+形近词 **sur** → sour, grumpy, bad-tempered
+
+**sår**
+
+- n. wound, sore, ulcer
+- adj. 
+  
+  1. sore, painful (身体哪里)痛
+     
+     sår hals → sore throat
+
+     Halsen min er sår. → My throat is sore.
+  
+  2. (psykisk smertelig) painful, bitter (心理上)痛苦的，苦涩的
+
+     Det var en sår opplevelse for henne. → It was a painful experience for her.
+
+     Det var en sår sannhet. → It was a bitter truth.
+
+     Det var en sår erkjennelse. → It was a painful realization.
+
+     Det var en sår erfaring. → It was a painful experience.
+
+     Det var en sår lærdom. → It was a painful lesson.
+
+     Det var en sår innsikt. → It was a painful insight.
+
+     Det var en sår erkjennelse. → It was a painful realization.
+
+     Det var en sår erfaring. → It was a painful experience.
+
+     Det var en sår lærdom. → It was a painful lesson.
+
+     Det var en sår innsikt. → It was a painful insight.
+
 
 --------------------------------------------------------------------------------
 
