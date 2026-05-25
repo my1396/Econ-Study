@@ -18,7 +18,8 @@ update: 2026-01-18
 | å burde       | bør     | burde      | har burdet        |
 | å få          | får     | fikk       | har fått          |
 
-Past tense of modal verbs is also used to soften the tone of a statement, making it more polite or less direct. For example:
+<span class="env-green">*Past tense*</span> of modal verbs is also used to <span class="env-green">*soften the tone of a statement*</span>, making it *more polite or less direct*. 
+For example:
 
 - **Skulle** jeg hjelpe deg?  
   → Should I help you? (more polite than "skal")
@@ -59,9 +60,9 @@ Past tense of modal verbs is also used to soften the tone of a statement, making
   → I could have helped you. (but I didn't)
 
 
-与英语相同的点: "Modal verb + ha + past participle" 表示与过去事实相反的情况
+与英语相同的点: "Modal verb + ha + past participle" 表示与过去事实相反的情况，虚拟语气
 
-此处情态动词要用过去时的形式: kunne (could), ville (would), skulle (would), burde (should), måtte (must)
+此处情态动词要用过去时的形式: kunne (could), ville (would), skulle (would/should), burde (should), måtte (must)
 
 
 --------------------------------------------------------------------------------
@@ -71,7 +72,7 @@ Past tense of modal verbs is also used to soften the tone of a statement, making
 
 ### A. Bestemmelse, plan
 
-*(<span style="color: #00CC66;">Decided actions, plan, official or scheduled arrangement</span>)*
+*(<span class="env-green">Decided actions, plan, official or scheduled arrangement</span>)*
 
 **未来的打算**
 
@@ -91,6 +92,14 @@ Past tense of modal verbs is also used to soften the tone of a statement, making
 - Jeg visste at jeg *skulle* møte ham senere.  
   → I knew that I was going to meet him later.
 
+<span class="env-green">**«Skulle ha gjort»**</span> → Should have done sth, but didn't do it
+
+- Jeg *skulle ha* ringt deg. 
+  → I should have called you. (but I didn't)
+- Jeg *skulle ha* tatt med paraplyen.  
+  → I should have brought the umbrella. (but I didn't)
+
+More about subjunctive mood: <a href="{{site.baseurl}}/2026/01/09/Norsk-虚拟语气.html">HERE</a>
 
 ### B. Påbud eller regel
 
@@ -150,7 +159,7 @@ På C bruker vi ikke *skal* i svaret, men for eksempel:
 
 ### A. Ønske eller lyst
 
-*(<span style="color: #00CC66;">Wish or desire</span>; when combined with «ikke», meaning refusal)*
+*(<span class="env-green">Wish or desire</span>; when combined with «ikke», meaning refusal)*
 
 -   Hun *vil* ikke se ham mer.  
     → She does not want to see him anymore.
@@ -167,9 +176,19 @@ På C bruker vi ikke *skal* i svaret, men for eksempel:
 -   Han *vil* ikke høre.  
     → He does not want to listen.
 
+<span class="env-green">**«ville ha gjort noe»**</span> → Would have done something, but didn't do it
+
+- Hun *ville ha kommet* tidligere.  
+  → She would have come earlier. (but she didn't)
+- Jeg *ville ha hjulpet* deg.  
+  → I would have helped you. (but I didn't)
+- Jeg *ville ha spist* ute, men det var stengt.  
+  → I would have eaten out, but it was closed.
+
+
 ### B. Framtid 
 
-*(<span style="color: #00CC66;">Prediction of future; what is expected to happen</span>)*
+*(<span class="env-green">Prediction of future; what is expected to happen</span>)*
 
 > 这个是最容易混淆的用法。直觉上，会想用 «skal» 来表示未来，但是 
 > - «skal» 更多的是表示计划和安排。sth you have decided to do. 而 
@@ -201,7 +220,7 @@ På C bruker vi ikke *skal* i svaret, men for eksempel:
 
 ### D. Be om noe
 
-*(<span style="color: #00CC66;">Requesting something</span>)*
+*(<span class="env-green">Requesting something</span>)*
 
 -   **Vil** du hjelpe meg litt?  
     → Will you help me a bit?
@@ -223,6 +242,13 @@ Alternatively, when we are asking for something, we can also use «**kan**»:
 --------------------------------------------------------------------------------
 
 ## Kunne -- kan -- kunne -- kunnet
+
+<span class="env-green">**«kunne ha gjort noe»**</span> → Could have done something, but didn't do it
+
+- Jeg *kunne ha* hjulpet deg.  
+  → I could have helped you. (but I didn't)
+- Hun *kunne ha* kommet tidligere.  
+  → She could have come earlier. (but she didn't)
 
 ### A. Evne, noe en har lært
 
@@ -255,6 +281,15 @@ Kan jeg få låne bilen i kveld?
 
 ## Måtte -- må -- måtte -- måttet
 
+<span class="env-green">**«måtte ha gjort noe»**</span> → Must have done something (used to express a strong assumption about the past)
+
+- Han *måtte ha* glemt avtalen.  
+  → He must have forgotten the appointment.
+- Hun *måtte ha* vært syk.  
+  → She must have been sick.
+- Det *måtte ha* vært en misforståelse.  
+  → It must have been a misunderstanding.
+
 ### A. Plikt eller nødvendighet
 
 Må du gå på det møtet? 
@@ -271,6 +306,13 @@ Du må ikke si det til noen!
 --------------------------------------------------------------------------------
 
 ## Bør -- bør -- burde -- burdet
+
+<span class="env-green">**«burde ha gjort»**</span> → Should have done sth, but didn't do it
+
+- Jeg *burde ha* ringt deg. 
+  → I should have called you. (but I didn't)
+- Vi *burde ha* studert mer.  
+  → We should have studied more. (but we didn't)
 
 ### A. Råd eller anbefaling
 
@@ -347,7 +389,8 @@ Nå får du gi deg!
 --------------------------------------------------------------------------------
 
 
-ref:
+**ref:**
 
 - [Norsklærer Karense: Modale hjelpeverb](https://www.youtube.com/watch?v=aBPAtN57hdY)
 - Chapter 11.5 Modale verb, Donald, Kirsti Mac. Norsk Grammatikk – Teoribok: Norsk Som Andrespråk. 4th ed. Cappelen Damm AS, 2022. 
+- Should/could/would/must/should have done sth: <a href="{{site.baseurl}}/2026/01/09/Norsk-虚拟语气.html">Subjunctive mood</a>
