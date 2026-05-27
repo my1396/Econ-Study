@@ -305,6 +305,8 @@ Use the following **mock exam** to practice before the actual exam:
   - å *avsløre* en vei til noe → to reveal a way to sth
     
     å avsløre en måte å gjøre noe → to reveal a way of doing sth
+
+    区别于形近字 å sløse → to waste, to squander 浪费
   
   - *bidra til* → contribute to, to help achieve
 
@@ -328,6 +330,17 @@ Use the following **mock exam** to practice before the actual exam:
     Det *kan være en fordel å* jobbe ekstra med å få inn gode vaner, i tillegg til å trappe ned medisinbruken langsomt.   
     → It can be beneficial to work extra on getting good habits, in addition to gradually reducing medication use.
   
+  - **å ha godt av noe** → to benefit from sth
+
+    - Barn *har godt av* å være ute i naturen.  
+      → Children benefit from being outdoors in nature.
+
+    - Det *har godt av* å spise mer frukt og grønnsaker.  
+      → It benefits to eat more fruits and vegetables.
+  
+    - Jeg tror Norge som samfunn *har godt av* innvandring.  
+      → I believe that Norway as a society benefits from immigration.
+
   - Fordeler <span class="env-green">*med*</span> dette er … → Advantages of this are …
 
 - to make sure …
@@ -649,11 +662,6 @@ Jeg er <span class="env-green">*tilhenger av*</span> … → I am a supporter of
 > Antonym  
 > Jeg er *motstander* av …  → I am an opponent of / oppsed of …  (strong and formal)
 
-Det er (veldig) *synd* at / hvis … → It is (very) unfortunate if …  / It is (really) a shame if … (Expresses **regret, disappointment, or sympathy** about a situation.)
-
-> 注意此处 synd 作为 pity, shame 讲，不可数，<span class="env-orange">不用不定冠词 en</span>。  
-> en synd 意思为 a sin，表一种罪过。
-
 … *skader* ikke → it does not hurt to do …
 
 - Det skader ikke å prøve. → It does not hurt to try.
@@ -662,10 +670,11 @@ Det er (veldig) *synd* at / hvis … → It is (very) unfortunate if …  / It i
 
 Det føler jeg gir en stor trygghet. → I feel it gives a strong sense of safety.
 
+**Generally agree**
+
 - Jeg er <span class="env-green">liksom</span> enig. → I kind of agree with that. [agree in genearl, but not 100%]
 - Jeg er <span class="env-green">stort sett</span> enig. → I mostly agree with that. 
 - Jeg er <span class="env-green">i hovedsak</span> enig. → I am basically / fundamentally agree.
-
 - Jeg er <span class="env-green">helt / delvis</span> enig. → I completely / partially agree with that.
 
 --------------------------------------------------------------------------------
@@ -676,7 +685,12 @@ Jeg er litt *skeptisk* til at …
 
 Jeg *har virkelig ingen tro på* at … → I don't believe sth
 
-Det provoserer meg at … → It provokes me that …
+Det er (veldig) *synd* at / hvis … → It is (very) unfortunate if …  / It is (really) a shame if … (Expresses **regret, disappointment, or sympathy** about a situation.)
+
+> 注意此处 synd 作为 pity, shame 讲，不可数，<span class="env-orange">不用不定冠词 en</span>。  
+> en synd 意思为 a sin，表一种罪过。
+
+Det *provoserer* meg at … → It provokes me that …
 
 *Jeg er helt <span class="env-green">uenig i dette.</span>* → I completely disagree with that.
 
@@ -946,6 +960,8 @@ Fremdeles → adv. still, up to now
 > <span class="env-green">med andre ord</span> (in other words);
 > 
 > på samme måte (in the same way; similarly)
+>
+> samt (plus, together with)
 
 
 «I tillegg» 后面要加 "," (formal writing) 
@@ -2444,11 +2460,12 @@ Dette gjelder også i Norge. → This also applies in Norway.
 | Grunnen til dette kan være …           | The reason for this can be …       |
 | En av grunnene kan være …              | One of the reasons can be …        |
 | Det kan være mange grunner <span class="env-green">til</span> … | The are many reasons why … |
-| av den grunn … + 倒装                 | because of this …                 |
+| av den grunn … + 倒装                  | because of this …                  |
 | på grunn av noe(n)                     | because of sth/sb                  |
+| basert på noe                          | based on sth                       |
 | på grunn av at + clause                | because / since + 从句             |
 | hovedgrunnen av at … er at …           | the main reason for that is that … |
-| Det skyldes at …                     | It is because of that …          |
+| Det skyldes at …                       | It is because of that …            |
 | A forårsaker B                         | A causes B                         |
 | den vanligste årsaken til … er …       | the most common cause of … is …    |
 | <span class="env-green">**hovedårsaken**</span> til at … er at … | the major reason why … is … |
@@ -2461,7 +2478,7 @@ Dette gjelder også i Norge. → This also applies in Norway.
   → One of the main reasons for these guidelines is screen use among children.
 
 
-Ex «som følge av»
+**«som følge av»**
 
 - Mange mistet jobben *som følge av* finanskrisen.  
   → Many lost their jobs as a result of the financial crisis.
