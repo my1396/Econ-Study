@@ -169,13 +169,15 @@ ___
 
 [Øv til leseprøven](https://prove.hkdir.no/norskprove-a1-b2/ov-til-prove-norsk-A1-B2/ov-til-leseproven)
 
-**Time**: 75 min
+**Time**: 75 min (9:00 -- 10:15)
 
 考试系统<span class="env-green">无倒计时</span>，考场有一个表，需要自己算好时间。
 
 > En leser med svært gode norskferdigheter kan gjøre alle oppgavene i en leseprøve på 10-20 minutter. Kandidatene kan bruke 75 minutter.
 
-The reading test has **three parts**. It starts with <span class="env-green">**two pre-tests**</span>. 
+The reading test has **three parts**. It starts with <span class="env-green">**two pre-tests**</span>. You have to get correct rate > 50% for both pre-tests to get B2 level for the main test.
+
+Time arrangement: 10 min for pre-test 1, 10 min for pre-test 2, 55 min for main test.
 
 - Pre-test 1
 
@@ -227,14 +229,12 @@ The main test is taken at one of three different levels:
 
   根据逻辑关系连接词，因果，转折…
 
-  此类题先读选项 svaralternativene 
-
 - <span class="env-green">Klikk på riktig navn – hvem handler det om</span>
 
   此题是唯一特属于 B2 的题型。要是没有遇到这个题型，基本就跟 B2 say goodbye 了。
 
-  跟 B1 中 "Klikk på riktig navn – hvem kan si dette?" 题型很像。区别在于，意思更加隐晦，文中也许没有直接指明，需要阅读理解。
-
+  跟 B1 中 "Klikk på riktig navn – hvem kan si dette?" 题型很像。区别在于，意思更加隐晦，文中也许没有直接指明，需要阅读理解。  
+  
   Tips: 可用排除法。Det er klart hvem det ikke kan være.
 
   - Flere spørmål kan ha samme svar.
@@ -245,7 +245,7 @@ The main test is taken at one of three different levels:
 
 - Klikk på riktig ord
 
-  Klikke på et ord i teksten som betyr omtrent det samme som ordet/uttrykket i oppgaven.
+  > Klikke på et ord i teksten som betyr omtrent det samme som ordet/uttrykket i oppgaven.
 
   从文中找到与题目中单词意思相近的词。一般题目中的单词非常简单，但是文中要找的同义词会比较难。根据推测 gjette 找词性相同，意义相近的单词。
 
@@ -253,7 +253,7 @@ The main test is taken at one of three different levels:
 
   如果文中有多个同义词，任选一处即可得分。
 
-- Flytt avsnitt
+- Flytt avsnitt ← 一定要拿下的题型。错的成本太高了，一错全错 (一般5 6 个段落)，会直接拉低一个档次。
 
   Det første avsnittet kan ikke flyttes, de andre må flyttes for at teksten skal gi mening.
 
@@ -263,6 +263,9 @@ The main test is taken at one of three different levels:
 
   段落排序属于多米诺骨牌效应，如果一个段落放错了位置，后续的段落也会跟着错。
   一定要小心。你选的第一段一定要能衔接到给出的开头段落。
+
+  先找第一个段落开头。如果上来的段落是衔接，就继续往下找开头段落。不需要把确定不是开头的段落从头到尾读完。
+  全部排序好后再通读一遍。
 
 - <span class="env-green">Klikk på riktig navn – hvem kan si dette?</span>
 
@@ -296,6 +299,8 @@ The main test is taken at one of three different levels:
   感觉 main test 的时间还是紧张的。阅读的困难在于词汇量。还是得多读。
 
 - 要想通过 B2, main test 正确率要达到 80% 左右。
+  
+  main test 一共有 20 个题左右，正确率 80%，也就是说只能错 4--5 个题。所以段落排序一定不能错!
 
 - There are easy and difficult tasks throughout the whole test. If a task is too difficult for you, you should move on to the next. **You can go back to difficult tasks later if you have time.**
 
@@ -315,7 +320,11 @@ The main test is taken at one of three different levels:
 
   Ikke prøv å forstå absolutt alle ordene.
 
-  不必纠结与不认识的单词。即使有单词不认识，不影响答题。
+  考试中一定会遇到生词，非常正常。不必纠结不认识的单词。
+  
+  - 一来有单词不认识，并不影响答题。考试考察的更多是你是否能抓住主旨和重要细节。
+  
+  - 二来有生词是日常现象，读中文的时候还有不认识的字呢。但是并不影响阅读。考试中会测试考生有没有被生词干扰破防进而崩溃。压力表现也是考试的一部分。要学会不被生词干扰，保持冷静，继续往下读。
 
 
 
@@ -355,7 +364,9 @@ The main test is taken at one of three different levels:
   
   首要的要求是"词性一致"。形容词找形容词，动词找动词，名词找名词。
 
-  题目中的词必须可以直接替代文中的词。动词的话，时态也要一致。
+  题目中的词必须可以直接替代文中的词。
+  
+  动词的话，时态也要一致。
 
 ___
 

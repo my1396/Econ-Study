@@ -2192,7 +2192,8 @@ Andelen unge i arbeidsstyrken har gått ned.
 | i noen grad                            | to some extent                     |
 | til en viss grad                       | to a certain extent                |
 | delvis                                 | partially; to a certain extent     |
-| <span class="env-green">for så vidt</span> | as far as; to the extent that |
+| så vidt jeg skjønner / vet / forstår   | as far as I understand / know      |
+| <span class="env-green">for så vidt</span> | as far as; to the extent that  |
 
 - Jeg er *for så vidt* enig. / Jeg er enig *til en viss grad*.   
   → I agree to some extent.

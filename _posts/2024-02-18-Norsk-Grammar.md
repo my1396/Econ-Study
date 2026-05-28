@@ -1200,6 +1200,21 @@ Stop oneself from acting too strongly
 - Hun *anstrengte seg* for å høre hva som ble sagt.  
   → She strained her ears to hear what was being said. 
 
+| Norsk              | English                               |
+| ------------------ | ------------------------------------- |
+| å oppholde seg     | to stay, reside, live (somewhere)     |
+
+- Hun oppholder seg i utlandet store deler av året.  
+  → She lives abroad most of the year
+- Jeg har oppholdt meg hos mine slektninger i noen dager.  
+  → I've been staying with my relatives for a few days
+
+| Norsk              | English                               |
+| ------------------ | ------------------------------------- |
+| å befinne seg      | to stay, locate, live (somewhere)     |
+| å uttale seg om noe | to comment on something, make a statement on |
+
+
 --------------------------------------------------------------------------------
 
 
@@ -4073,6 +4088,15 @@ oppdagelsesfarer → explorer of discoveries
 fredsbevarende → peace-preserving  
 miljøbevarende → environmentally preserving
 
+bevarende → preserving, conservation  
+
+- Dette har vært en bedvarende situasjon som har kommet og gått i nesten ett år.  
+  → This has been a persistent situation that has come and gone for almost a year.
+
+tilsvarende → corresponding, equivalent
+
+- Det finnes ikke noe tilsvarende ord på engelsk.  
+  → The word has no equivalent in English.
 
 **«-bar»** → adj. 可…的，能够…的
 
