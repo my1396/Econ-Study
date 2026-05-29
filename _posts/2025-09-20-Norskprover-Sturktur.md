@@ -229,6 +229,8 @@ The main test is taken at one of three different levels:
 
   根据逻辑关系连接词，因果，转折…
 
+  <img src="{{site.baseurl}}/images/填空.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
 - <span class="env-green">Klikk på riktig navn – hvem handler det om</span>
 
   此题是唯一特属于 B2 的题型。要是没有遇到这个题型，基本就跟 B2 say goodbye 了。
@@ -253,7 +255,7 @@ The main test is taken at one of three different levels:
 
   如果文中有多个同义词，任选一处即可得分。
 
-- Flytt avsnitt ← 一定要拿下的题型。错的成本太高了，一错全错 (一般5 6 个段落)，会直接拉低一个档次。
+- Flytt avsnitt ← 一定要拿下的题型。错的成本太高了，一错全错 (一般 5 个段落)，会直接拉低一个档次。
 
   Det første avsnittet kan ikke flyttes, de andre må flyttes for at teksten skal gi mening.
 
@@ -336,13 +338,13 @@ The main test is taken at one of three different levels:
 
 **一些心得**
 
-- 选项有迷惑性。可能两个选项都正确，但是一个比另一个跟贴切，确切。
+- 选项有迷惑性。可能<span class="env-green">两个选项都正确，但是一个比另一个更贴切，确切。</span>
 
   → 选项之间的区别可能非常细微。需要仔细分析选项之间的区别，选出最贴切的那个。
 
 - 答案可能不直给，需要一些自己的合理推断。
 
-- 词汇可能有误导性。有的选项可能包含一些你认识的单词，与题目相符，但整体意思不对。
+- 词汇可能有误导性。有的选项可能<span class="env-green">包含一些你认识的单词，与题目相符，但整体意思不对。</span>
 
   → 不要被选项中的单词误导，要看整体意思是否正确。
 
@@ -359,6 +361,10 @@ The main test is taken at one of three different levels:
   
   → Sommeren 1941 virket Hitlers krigsmaskin ustoppelig. De allierte ble tvunget til à hjelpe. Konvoier av lasteskip fylt til randen med krigsmateriell begynte den farefulle ferden til Murmansk og Arkhangelsk. Med livet som innsats la de ut på det som ble kalt «Verdens verste sjøreise». Action/drama med de beste norske skuespillerne.
 
+  <img src="{{site.baseurl}}/images/迷惑选项.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+  正确选项: Alle som er medlemmer i fotballaget. 
+  很容易误选 A，因为里面包含了原文中 "bursdager og konfirmasjoner" 这些词。
 
 - 找同义词的 tips:
   

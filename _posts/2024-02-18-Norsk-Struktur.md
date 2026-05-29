@@ -2194,6 +2194,7 @@ Andelen unge i arbeidsstyrken har gått ned.
 | delvis                                 | partially; to a certain extent     |
 | så vidt jeg skjønner / vet / forstår   | as far as I understand / know      |
 | <span class="env-green">for så vidt</span> | as far as; to the extent that  |
+| for vidt                               | too far, too broadly               |
 
 - Jeg er *for så vidt* enig. / Jeg er enig *til en viss grad*.   
   → I agree to some extent.
@@ -2205,6 +2206,12 @@ Andelen unge i arbeidsstyrken har gått ned.
   → I understand that to some extent, but I don't completely agree.
 
   注意 «ikke» 的位置。因为是 由 «men» 连接的 helsetning, 分句正常语序, i.e., 放在动词后面 «er ikke»。
+
+- Han driver det *for vidt*.  
+  → He takes it too far.
+
+- De tolker regelen *for vidt*.  
+  → They interpret the rule too broadly.
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
