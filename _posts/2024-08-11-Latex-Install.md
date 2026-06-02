@@ -33,7 +33,23 @@ One of the GUI programs it installs is "TeX Live Utility," which can keep TeX Li
   
   To obtain it, click on the following link: [MacTeX.pkg](https://mirror.ctan.org/systems/mac/mactex/MacTeX.pkg).
 
-- This package is free, and uses Apple's standard installer; installation takes eight to ten minutes and is automatic.
+- This package is free, and uses Apple's standard installer; 
+
+- Installation takes about ten minutes on recent computer models.
+
+
+### Upgrade TeX Live
+
+<div class="note">
+Do NOT upgrade software when you are in the middle of a project or before a deadline.
+</div>
+
+Just do a new installation instead of upgrading. You don't need to remove an existing installation; any number of TL installations can coexist, by default.
+
+❗It is NOT recommended to remove the old version, since you might always find a document that doesn't work with the new version, just at the wrong time.
+
+
+
 
 --------------------------------------------------------------------------------
 
