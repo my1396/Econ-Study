@@ -89,7 +89,7 @@ A: Reloading the window is like a soft restart. When you install new extensions 
 
 ## Package Management
 
-If you have installed TeX Live, it comes with a comprehensive set of LaTeX packages. However, if there is a package you don't have it locally, TeX Live includes a package manager called <span class="env-green">`tlmgr`</span> (TeX Live Manager) that allows you to install, update, and manage LaTeX packages.
+If you have installed TeX Live, it comes with a comprehensive set of LaTeX packages. However, if there is a package you don't have it locally, TeX Live includes a package manager called <span class="env-green">[`tlmgr`](https://tug.ctan.org/info/tlmgrbasics/doc/tlmgr.pdf)</span> (TeX Live Manager) that allows you to install, update, and manage LaTeX packages.
 
 ```bash
 # To install a package
@@ -101,3 +101,39 @@ tlmgr remove <package-name1> <package-name2> ...
 # To update all installed packages
 tlmgr update --all
 ```
+
+To install multiple packages at once, pass a space-separated list of the package names to the `tlmgr install` command.
+
+**Other useful commands:**
+
+- `tlmgr info <package-name>`: Displays detailed information about the package, such as the installation status and description. → Need to be precise with the package name.
+  
+  Find package names in CTAN.
+
+- `tlmgr search <keyword>`: By default, searches for locally installed packages that match the specified `<keyword>`, which can be part of the package name or description. → Blurry search results.
+  
+  If your keyword has spaces, just wrap it in quotes. 
+  
+  **Options:**
+  - `--global` option sets the search to *online* TeX Live Database of the installation medium, instead of the local installation.
+  - `--file` lists all filenames containing `<keyword>`.
+  
+  Example: 
+
+  ```bash
+  # Search for packages related to "latin modern"
+  $tlmgr search "latin modern"
+  hep-font - Latin modern extended by computer modern
+  lm - Latin modern fonts in outline formats
+  lm-math - OpenType maths fonts for Latin Modern
+  ...
+
+  # Search for files related to "tex-gyre-math"
+  $tlmgr search --file tex-gyre-math
+  tex-gyre-math:
+        texmf-dist/source/fonts/tex-gyre-math/texgyredejavu-math.sfd
+        texmf-dist/fonts/opentype/public/tex-gyre-math/texgyredejavu-math.otf
+        texmf-dist/doc/fonts/tex-gyre-math/test-word-texgyre_pagella_math.pdf
+        texmf-dist/doc/fonts/tex-gyre-math/README-TeX-Gyre-Bonum-Math.txt
+        ...
+  ```
