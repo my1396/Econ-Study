@@ -1289,6 +1289,8 @@ er<span class="env-green">nær</span>ing 注意与 er<span class="env-green">far
 | margert kjøtt                          | lean meat                          |
 | måltid                                 | meal                               |
 | en sunn kost                           | a helthy diet                      |
+| vegetarianer, vegetar                  | vegetarian                         |
+| diettbehovet                           | dietary needs                      |
 | kosthold                               | diet                               |
 | et sunt kosthold                       | a healthy diet                     |
 | et fullverdig kosthold                 | a balanced diet                    |

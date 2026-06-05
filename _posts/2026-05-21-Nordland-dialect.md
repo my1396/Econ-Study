@@ -28,7 +28,7 @@ title: Nordland dialect
 
 
 
-### KOSS / KOSSN = HVORDAN
+### KOSS / KOSSN / KORLEIS = HVORDAN
 
 - Koss går det? → Hvordan går det?
 - Kordan slår du på TV-en? → Hvordan slår du på TV-en?

@@ -25,6 +25,7 @@ sass:
 
 url: "https://my1396.github.io"
 baseurl: /Econ-Study
+port: 4001            # Set the local server port to listen on. Default: 4000.
 # Use the following plug-ins
 plugins:
   - jekyll-feed       # Create an Atom feed using the official Jekyll feed gem
