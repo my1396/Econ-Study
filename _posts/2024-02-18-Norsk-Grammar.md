@@ -1214,6 +1214,20 @@ Stop oneself from acting too strongly
 | å befinne seg      | to stay, locate, live (somewhere)     |
 | å uttale seg om noe | to comment on something, make a statement on |
 
+**å egne seg**
+
+1. å egne seg for noen → to be suitable for sb
+   
+   Denne filmen egner seg for barn.  
+   → This movie is suitable for children.
+2. å egne seg til noe → to be suitable for sth
+   
+   Han egner seg til jobben.  
+   → He is suitable for the job.
+3. å egen seg å gjøre noe → to be suitable for doing sth
+   
+   Det egner seg ikke å diskutere dette nå.   
+   → It is not suitable to discuss this now.
 
 --------------------------------------------------------------------------------
 

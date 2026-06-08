@@ -1265,14 +1265,18 @@ Note: «antakelig» can also mean «akseptabel».
 Det kan *muligens* være det beste resultat<span class="env-green">et</span> vi kan oppnå.  
 → It might possibly be the best result we can achieve.
 
-Det er s*tørre sjanse <span class="env-green">for</span> at* de slutter i jobben innen fire år.  
+Det er *større sjanse <span class="env-green">for</span> at* de slutter i jobben innen fire år.  
 → There is a larger chance that they quit job within four years.
+
+**Not likely:** Det er lite sannsynlig at …; Det er liten sjanse for at …; Det er mindre trolig at …; Sannsynligheten er lav for at …; Sjansen er lav for at …; Det blir *neppe* … (It is unlikely that …); Det går ikke an at …
 
 --------------------------------------------------------------------------------
 
 **可能** gå an
 
 不可能 Det **går ikke an** å gjøre noe. → It is not possible to do sth.
+
+
 
 | Norsk                                  | English                            |
 | -------------------------------------- | ---------------------------------- |
