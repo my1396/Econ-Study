@@ -184,14 +184,21 @@ ref:
 
 
 
-- When you import snippets from other sources, you may want to **uncheck "Strip snippets of ‘auto expand’ flag."** 
+- When you import snippets from other sources, you may want to **<span class="env-green">uncheck</span> "Strip snippets of ‘auto expand’ flag."** 
   
   <img src="https://drive.google.com/thumbnail?id=1_c5GL_9DudwXGNfRNsoB2U-ULK0Sj55k&sz=w1000" alt="Snippets auto expansion" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
 
-  This setting preserves all imported snippets if “Auto expansion allowed” is enabled.  
-  Otherwise, you have to manually check it for each snippet. For large snippet packs, it’s a pain to click hundreds of times.
+  This setting preserves all imported snippets if “Auto expansion allowed” is enabled.
+  
+  Otherwise, you have to manually check the snippets you want to enable. For large snippet packs, you can use ⇧ + click to select a range of snippets, or ⌘ + click to select multiple snippets one by one, then right-click and select "Auto Expansion" > "Set Allowed" to enable them all at once.
 
   The list of snippets contains one column `A→`; it means "Auto expansion allowed". Toggle it on/off for each snippet. It controls whether the snippet can be auto expanded when typing the prefix.
+
+  **Useful snippet packs:**
+
+  - [Greeks](https://github.com/BaksiLi/Greek-Alphabet-Alfred-Snippet): type `;alpha` to insert α. → Start with `;` 
+  - [Mac Symbols](https://www.alfredapp.com/media/snippets/Mac%20symbols.alfredsnippets): type `::cmd` and `::opt` symbols like ⌘ and ⌥, start with `::`
+  - [Emoji Pack](http://joelcalifa.com/blog/alfred-emoji-snippet-pack/): type `:joy:` to insert 😂, `:heart:` to insert ❤️, etc. → enquote emoji names in quotes: `:<emoji-name>:` 
 
 --------------------------------------------------------------------------------
 

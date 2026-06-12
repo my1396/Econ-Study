@@ -54,10 +54,10 @@ Benefits of using virtual environments:
 
 ## Create a VirtualEnv
 
-Create a virtual environment named `myfirstproject`:
+<span class="env-green">**Create**</span> a virtual environment named `myfirstproject`:
 
 ```bash
-conda create -name myfirstproject python=3.11 -y
+conda create --name myfirstproject python=3.11 -y
 ```
 
 - `--name` or `-n` specifies the name of the virtual environment. 
@@ -110,7 +110,7 @@ conda info -e
 
 --------------------------------------------------------------------------------
 
-**Activate** the virtual environment:
+<span class="env-green">**Activate**</span> the virtual environment:
 
 ```bash
 conda activate myfirstproject
@@ -180,6 +180,12 @@ pip install pandas
 
 > `pip` is more complete, while `conda` is more robust in handling dependencies. 
 
+
+To install multiple packages at once, with specific versions:
+
+```bash
+conda install pandas==2.0.3 numpy==2.0.0
+```
 
 **conda channels**
 

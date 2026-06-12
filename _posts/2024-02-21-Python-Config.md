@@ -1,6 +1,6 @@
 ---
 layout: post
-tag: programming
+tag: python
 title: Python Config
 ---
 
