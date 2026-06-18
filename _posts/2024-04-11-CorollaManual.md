@@ -749,7 +749,7 @@ As the key may be damaged if the following procedure is not performed properly, 
 加注机油前，确保检查机油类型并准备好所需物品。
 
 - 选择发动机机油
-- 机油量(低 → 满) 1.5 L(公升)
+- 机油量 (低 → 满) 1.5 L(公升)
 - 物品 干净的漏斗
 
 如果机油油位低于或接近低油位刻度，则加注与发动机内<u>现有机油类型相同的机油</u>。
@@ -776,7 +776,16 @@ As the key may be damaged if the following procedure is not performed properly, 
 
 ### 玻璃水
 
-**添加玻璃喷洗液 (玻璃水)**
+**添加玻璃喷洗液** (玻璃水，雨刮水)
+
+- 建议用一个漏斗，以免洒出喷洗液。
+  
+  <img src="{{site.baseurl}}/images/玻璃水.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" /> 
+
+- 找有 <img src="{{site.baseurl}}/images/windscreen washer.jpg" alt="" style="display: inline; height: 2.5em; vertical-align: bottom;" /> 标志的 (蓝色) 盖子，打开后加注喷洗液。
+  
+  <img src="{{site.baseurl}}/images/玻璃水加注位置.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
 
 - 发动机处于热态或运转时，请勿添加喷洗液。
 
