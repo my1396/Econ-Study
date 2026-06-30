@@ -937,20 +937,54 @@ But you see examples as follows.
 >
 > Smith et al. (2015) show<span style='color:#FF9900'>s</span> that ... ❌
 
-In most common case, we are describing the results from the paper, the usual convetion is to trent the authors, NOT the paper, as the subject, and use **plural**.
+In most common case, we are describing the results from the paper, the usual convetion is to treat the authors, NOT the paper, as the subject, and use **plural**.
 
 Another example:
 
 > Watson and Crick (1953) demonstrate the double-helical structure of DNA. → plural
 
-To avoid this confusion, recommend to use past tense, "<span class="env-green">showed</span>", you won't have this problem at all.
+To avoid this confusion, recommend to use <span class="env-green">past tense</span>, "<span class="env-green">showed</span>", you won't have this problem at all.
 
+--------------------------------------------------------------------------------
+
+### 时态
+
+<div class="note">
+<img src="{{site.baseurl}}/images/solution.png" alt="" style="display: inline; height: 1.5em; vertical-align: bottom;" />
+In APA style, the <span class="env-green" style='font-weight:bold'>past tense</span> or present perfect is recommended in literature review when discussing other researchers’ work. 
+<ul>
+<li> Martin (2020) addressed … ✅ </li>
+<li> Researchers have studied … </li>
+</ul>
+General introduction of literature review → present tense
+<ul>
+<li> There is a vast literature on this topic.</li>
+</ul>
+</div>
+
+| Paper section    | Recommended tense | Example                   |
+| ---------------- | ----------------- | ------------------------- |
+| **Literature review** | | |
+| General introduction | Present | There is a vast literature on this topic. |
+| Specific pieces of research from the past | Past | Elan et al. (2003) proposed a theoretical solution to the issue. |
+| Ongoing situations; Proven facts; Widely accepted findings | Present Perfect | There have been several attempts to solve this issue. <br> It has been shown that age and mental health are linked. |
+| Method – Description of procedure    | Past  | Participants took a survey       |
+|                                      | Present perfect   | Others have used similar approaches;  |
+| Reporting of your own or other researchers’ results | Past | Results showed;<br/> Scores decreased;<br/> Hypotheses were not supported;  |
+| Discussion of implications of results or of previous statements  | Present  | The results indicate;<br/> The findings mean that; |
+| Presentation of conclusions, limitations, future directions, and so forth | Present  | We conclude;<br/> Limitations of the study are;<br/> Future research should explore; |
+
+
+**ref:**
+
+- [Mastering Verb Tenses in Literature Reviews By refnwrite](https://www.ref-n-write.com/blog/mastering-verb-tenses-in-literature-reviews/)
+- [APA Style Blog: Verb Tense](https://apastyle.apa.org/style-grammar-guidelines/grammar/verb-tense)
 
 
 --------------------------------------------------------------------------------
 
 
-###  ISBN and DOI
+### ISBN and DOI
 
 What is an ISBN and a DOI?
 

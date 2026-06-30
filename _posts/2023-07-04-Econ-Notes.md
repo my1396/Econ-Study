@@ -1568,12 +1568,10 @@ $$
 = \frac{TP}{TP+FP}
 $$
 
+--------------------------------------------------------------------------------
 
-The **True Positive Rate** (TPR), or the proportion of all actual positives that were classified correctly as positives, is also known as **recall**.
 
-A hypothetical perfect model would have zero false negatives and therefore a recall (TPR) of 1.0, which is to say, a 100% **detection rate**.
-
-In an imbalanced dataset where the number of actual positives is very low, recall is a more meaningful metric than accuracy because it measures the ability of the model to correctly identify all positive instances. For applications like disease prediction, <u>correctly identifying the positive cases is crucial</u>. A false negative typically has more serious consequences than a false positive. 
+The **True Positive Rate** (TPR), or the proportion of all actual positives that were classified correctly as positives, is also known as <span class="env-green">**Recall**</span> or <span class="env-green">**Sensitivity**</span>.
 
 $$
 \text{Recall (or True Positive Rate, TPR)} = 
@@ -1581,6 +1579,10 @@ $$
 {\text{all actual positives}} 
 = \frac{TP}{TP+FN}
 $$
+
+A hypothetical perfect model would have zero false negatives and therefore a recall (TPR) of 1.0, which is to say, a 100% **detection rate**.
+
+In an imbalanced dataset where the number of actual positives is very low, recall is a more meaningful metric than accuracy because it measures the ability of the model to correctly identify all positive instances. For applications like disease prediction, <u>correctly identifying the positive cases is crucial</u>. A false negative typically has more serious consequences than a false positive. 
 
 
 The **False Positive Rate** (FPR) is the proportion of all actual negatives that were classified incorrectly as positives, also known as the **probability of false alarm**. 
@@ -1594,6 +1596,7 @@ $$
 
 Precision improves as false positives decrease, while recall improves when false negatives decrease.
 
+--------------------------------------------------------------------------------
 
 **Receiver-operating characteristic curve** (ROC)
 
