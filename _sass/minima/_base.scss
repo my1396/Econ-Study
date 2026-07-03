@@ -90,7 +90,7 @@ ul, ol {
   // Room for the marker. `.post-content`/`.page-content` have `overflow-x: auto`,
   // which clips right at the list's left edge; Safari draws outside markers with a
   // wider gap than Chrome, so a too-small value clips the leading digit of 10+, 11+…
-  padding-left: 2.4em;
+  padding-left: 2.4em;  /* Increase padding so that numbering won't be cropped */
 }
 
 li {
