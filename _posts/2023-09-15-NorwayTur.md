@@ -33,24 +33,23 @@ Bus1 Mørkvedmarka skole
 
 --------------------------------------------------------------------------------
 
-**Useful websites for hiking:**
+## Useful websites for hiking:
+
+- [Turistforeningen](https://www.dnt.no/): Regular hikes information;
+
+- [UT.no](https://ut.no): Download GPX file and create route maps in Google Maps. 
+
+- [GodTur](https://www.godtur.no/)
+
+- [Kart.1881](https://kart.1881.no) Nice map
+
+- [Friluft Salten](https://friluft.salten.no/?id=1340255371)
 
 
-[Turistforeningen](https://www.dnt.no/dnt-der-du-er/bodo-og-omegns-turistforening/) Regular hikes information; need to register
-
-[TellTur](https://www.telltur.no/turmaal/myghxi9g/5271#:~:text=Kjør%252C%2520sykle%2520eller%2520gå%2520Fjellveien,på%2520merket%2520sti%2520ved%2520Kretjønna.)
-
-[GodTur](https://www.godtur.no/)
-
-[Kart.1881](https://kart.1881.no) Nice map
-
-[Friluft Salten](https://friluft.salten.no/?id=1340255371)
-
-[UT.no](https://ut.no) Download GPX file and create route maps in Google Maps. 
 
 --------------------------------------------------------------------------------
 
-**Show route maps in Google Maps:**
+### Show route maps in Google Maps
 
 1. Go to the “Menu” represented as three lines and select”Saved”.
 
@@ -94,22 +93,33 @@ Graderingen for vandring har fire nivåer:
 
 --------------------------------------------------------------------------------
 
-**Nice places to hike in Bodø**
+## Nice places to hike in Bodø
+
+Overview:
+- <https://nordnorge.com/en/artikkel/the-midnight-sun-is-bodos-coat-of-arms/>
+
 
 [Keiservarden](https://www.telltur.no/turmaal/myghxi9g/5271)
 
 - [Fottur til Keiservarden fra parkeringsplass Rønvikfjellet](https://ut.no/turforslag/114649/fottur-til-keiservarden-fra-parkeringsplass-rnvikfjellet): 4.7 km; 2 timer;
 
-**Parkering/start:** Parkeringsplass ved turisthytta
+- **Parkering/start:** Parkeringsplass ved turisthytta
+- **Vanskelighetsgrad:** Lett, tydelig merket sti
+- **Stigning** (Ascent): 230 m 
+- **Høyeste punkt**: 366 moh; (Meter Over Havet 海拔)
+- **Lengde**: 5.5 km rundtur
+- **Tidsanslag**: 2.5 timer
+- **Terreng**: Grusvei, steintrapp og sti (Terrain: gravel road, stone steps, and path)
 
-**Vanskelighetsgrad:** Lett, tydelig merket sti
+--------------------------------------------------------------------------------
 
-**Stigning** (Ascent): 230 m 
+**Bratten og Bestefarvarden**
 
-**Høyeste punkt**: 366 moh; (Meter Over Havet 海拔)
+<https://www.turbading.com/bratten.html>
 
-**Lengde**: 5.5 km rundtur
+Turen opp til Bestefarvarden i Bodø starter ovenfor stranda i Kvalvika, like utenfor sentrum. Ved tunnelen parkerer man og går opp trappa på bergveggen og fortsetter videre oppover. Det går stier her og der som kan være litt forvirrende første gang man er der, men det er bare å gå der man føler for det, til veis ende kommer man uansett så lenge man går ganske så rett frem. Denne turen er en kilometer lang hver vei, med jevn stigning mestparten av ruta. Det tar rundt en halvtime opp med ett roligt tempo, og noe raskere på veien tilbake. Fra toppen får man en flott utsikt mot blant annet Landegode og Hjertøyene.
 
-**Tidsanslag**: 2.5 timer
+Just outside the tunnel to the Kvalvikodden industrial area, there is room for a few cars on the side of the road. If it is full here, there are usually more parking spaces above the beach. Remember that this is so close to the city that you can just as easily cycle or walk here. Go up the stairs with signs pointing towards Bestefarvarden and follow the rock further up along a clear path. Eventually there will be several possible paths you can follow. As long as you walk in the right direction (northeast), you choose which of these you want to follow. When you reach the top, you will eventually see Bestefarvarden – located on the edge facing the sea.
 
-**Terreng**: Grusvei, steintrapp og sti (Terrain: gravel road, stone steps, and path)
+- Distance: 1.4 km
+- Duration: 1 hour
