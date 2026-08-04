@@ -65,7 +65,11 @@ ___
 
 Go to the main page of [Google Colab](https://colab.research.google.com/), then upload your local `.ipynb` file. This will create a copy of the notebook in your Google Drive and the file is opened by Google Colab by default. Successfully recognized file will show an icon <img src="{{site.baseurl}}/images/google-colab.svg" alt="" style="zoom:80%;" /> before file names.
 
-If you directly upload to Google Drive, you need to right-click on the file, then choose "Open with" > "Google Colaboratory". This creates issues when you share the file with others. They will see a bunch of json code until they choose to "Open with" > "Google Colaboratory".
+<img src="{{site.baseurl}}/images/colab files.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+❌ If you directly upload to Google Drive (with File Icon <i class="codicon codicon-symbol-file" aria-hidden="true" style="font-size:1.5em; vertical-align: middle;"></i>), you need to right-click on the file, then choose "Open with" > "Google Colaboratory". This creates issues when you share the file with others. They will see a bunch of raw json code until they choose to "Open with" > "Google Colaboratory".
+
+<img src="{{site.baseurl}}/images/Colab open.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 ___
 
