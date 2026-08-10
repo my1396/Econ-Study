@@ -946,7 +946,13 @@ Note that «glede» is both verb and noun form.
 
 | Verb                | Meaning               | Example                              |
 | ------------------- | --------------------- | ------------------------------------ |
-| å kose seg          | to have a good time   | Vi koser oss på festen.              |
+| <span class="env-green">å kose seg</span> | to have a good time | Vi koser oss på festen. |
+
+«å ha en god tid» is the direct translation of "to have a good time", but in Norwegian, we use «å kose seg» to express the same meaning.
+
+«å ha en god tid» can mean "to have a good period of time"
+
+Jeg hadde en god tid i Norge. → I had a good time in Norway. (a good period of time)
 
 
 å kose, koser, koset (koste), har koset (kost)
