@@ -83,7 +83,7 @@ This is a nice way to group your code into sections and run them separately. It 
 - You can add comments after `# %%` to give a title to the cell, e.g. `# %% Data Loading`.
 - You don't have to use cells in order to run code in the interactive window. You can select any code snippet and run it in the interactive window by using the command palette and type "Jupyter: Run Selection/Line in Interactive Window" or use the keyboard shortcut ⇧Enter.
 
-VS Code outline view will show functions, classes, methods for `.py` scripts, but there is native code-section syntax like `# ---` in `.R` like follows.
+VS Code outline view will show functions, classes, methods for `.py` scripts, but there is <span class="env-orange">NO</span> native code-section syntax like `# ---` in `.R` like follows.
 
 <img src="https://drive.google.com/thumbnail?id=1d1gjx35p8cekGJew8HDUhW10pT8y65xw&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
@@ -108,9 +108,15 @@ Other useful settings for Bookmarks extension:
 
 In `.R` scripts: you can use `# Section ---` to create sections in your R script. 
 
+VS Code has build-in support for the cell marker `# %%` in `.R` scripts. 
+Code enclosed by `# %%` will be treated as a block and can be run at once by clicking the "**Run Chunk**" button in the cell toolbar.
+You can use more hash symbols to create higher level cells, e.g., `# %%` for top-level cells, `## %%` for second-level cells, etc. This allow the TOC in the outline view to be more organized and easier to navigate.
+
+For the cell marker to be recognized, you have to start the R kernel first.
+
 You can add comments after `# %%` to give a title to the cell, e.g. `# %% Data Loading ---`. The titile will show up in the outline view. The three dashes `---` are mandatory for the title to show up in the outline view.
 
-You can use more hash symbols to create higher level cells, e.g., `# %%` for top-level cells, `## %%` for second-level cells, etc. This allow the TOC in the outline view to be more organized and easier to navigate.
+<img src="{{site.baseurl}}/images/vscode R cells.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:40%;" />
 
 I notice that in VS Code, the hierarchy can only be up to 2 levels. If you have for instance a level 3 cell `### %%`, it will be treated as a level 1 heading in the outline view.
 

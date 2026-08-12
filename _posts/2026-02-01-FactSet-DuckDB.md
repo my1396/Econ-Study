@@ -42,9 +42,9 @@ When you have built a connection in Python, it can be convenient if you open a w
 duckdb "/Users/menghan/Desktop/FactSet Database/factset_full_v2.duckdb" -readonly -ui
 ```
 
+<img src="{{site.baseurl}}/images/duckdb ui basics.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
-
-ref:
+**refs:**
 
 - [DuckDB Local Browser UI](https://duckdb.org/2025/03/12/duckdb-ui)
 
