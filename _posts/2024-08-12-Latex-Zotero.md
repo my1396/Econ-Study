@@ -493,6 +493,21 @@ AI research assistant:
 
 - [Monnlight](https://www.themoonlight.io/en): 3 papers per week
 
+--------------------------------------------------------------------------------
+
+## Word
+
+Install Zotero Word plugin following this [guide](https://www.zotero.org/support/word_processor_plugin_manual_installation#word_for_mac).
+
+After installation, you will see a Zotero tab in Word. You can use it to insert citations and bibliographies into your Word document.
+
+<img src="{{site.baseurl}}/images/word zotero.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+- Add/Edit Citation: Add a new citation or edit an existing citation in your document at the cursor location.
+- Add/Edit Bibliography: Add a new bibliography or edit an existing bibliography in your document at the cursor location.
+- Document Preferences: Set the citation style and other preferences for your document.
+
+More usage instructions can be found in [Using the Zotero Word Plugin](https://www.zotero.org/support/word_processor_plugin_usage)
 
 --------------------------------------------------------------------------------
 
