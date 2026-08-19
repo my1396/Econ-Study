@@ -22,8 +22,8 @@ ___
 
 ```
 project  
-    ├── 0_get_data.R
-    ├── 1_preprocess_data.R
+    ├── 01_get_data.R
+    ├── 02_preprocess_data.R
     ├── README.md
     ├── .gitignore
     ├── data
@@ -35,15 +35,27 @@ project
     └── src
 ```
 
-- `data` contains the data files used in the project.
+- `data` contains the input data files used in the project.
   
   You can further organize the `data` folder into `raw` and `processed` subfolders.
+
 - `doc` contains any manuscripts or interim summaries/notes produced with the project.
+
 - `figs` contains any plots, images, tables, or figures *created and saved by your code*. It should be possible to delete and regenerate this folder with the scripts in the project folder.
-- `output` contains non-figure objects created by the scripts. For example, processed data or logs.
+
+- <span class="env-green">`output`</span> contains non-figure objects created by the scripts. For example, regression results or intermidate calculation results.
+  
+  It is important to distinguish input (`data`) with output!
+
 - `src` is an optional folder for any files you may want to `source()` in your scripts. 
   
   Supporting files that are not meant to be run on their own, for instance, functions that you want to use across multiple scripts, can be stored here.
+
+- Individual code scripts should be prefixed with a number that indicate the sequence of running. 
+  
+  `01_get_data.R`, `02_preprocess_data.R`, ...
+
+  The padding zero ensures correct order when you have **more than 9 scripts**. Otherwise, `10_` and `11_` will be listed before `2_`, which is not ideal.
 
 Source: [R Best Practices, @DeStasio](https://kdestasio.github.io/post/r_best_practices/)
 
