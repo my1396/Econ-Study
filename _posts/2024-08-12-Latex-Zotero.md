@@ -59,6 +59,8 @@ It is available for Windows, macOS, and Linux.
 Use Zotero's [sync](https://www.zotero.org/support/sync#zotero_file_storage) feature to keep your library up to date across multiple devices and back it up to the cloud.
 
 - **Data Syncing**
+  
+  Data syncing merges library items, notes, links, tags, etc. — everything except attachment files — between your local computer and the Zotero servers, allowing you to work with your data from any computer with Zotero installed and to view your library online on [zotero.org](https://zotero.org). Data syncing is <span class="env-green">free and unlimited</span>, and it can be used without file syncing.
 
   <img src="https://drive.google.com/thumbnail?id=1qK7_3vzro-jzE9VcmfAYI1bB5w2ckuo9&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
@@ -72,7 +74,7 @@ Use Zotero's [sync](https://www.zotero.org/support/sync#zotero_file_storage) fea
       
       <img src="https://drive.google.com/thumbnail?id=1xFpYvjdtYDpcmHEDq-c7uWyTH_oRoOOr&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
-      A workaround is to use `Attanger` or `ZotMoov` to manage your attachments in a local folder synced by cloud services or NAS. This way, you get unlimited storage for your attachments.
+      A workaround is to use <span class="env-green">`Attanger`</span> or `ZotMoov` to manage your attachments in a local folder synced by cloud services or NAS. This way, you get unlimited storage for your attachments.
       See the next section on "Sync local pdf files" for details.
 
 
@@ -104,6 +106,10 @@ Use Zotero's [sync](https://www.zotero.org/support/sync#zotero_file_storage) fea
 
       -   **As needed:** Only download attachment files when the user attempts to open the file. Useful for reducing the amount of hard disk space Zotero uses for attachments.
 
+**ref:**
+
+- [Zotero documents: Syncing](https://www.zotero.org/support/sync#data_syncing)
+
 --------------------------------------------------------------------------------
 
 ### Sync local pdf files
@@ -115,7 +121,7 @@ Use Zotero's [sync](https://www.zotero.org/support/sync#zotero_file_storage) fea
 **Prerequisites:** 
 
 - a sync service and
-- Zotero linked file manager plugin, such as `Attanger` or `ZotMoov`. 
+- Zotero linked file manager plugin, such as <span class="env-green">`Attanger`</span> or `ZotMoov`. 
 
 **Step by step instructions:**
 
@@ -130,10 +136,14 @@ Use Zotero's [sync](https://www.zotero.org/support/sync#zotero_file_storage) fea
 
 2. Change your **Base Directory** to your local sync folder.
 
-   Zotero > Preferences > Files and Folders > Change your "Base Directory" to your local sync folder.
+   Zotero > Preferences > Advanced > Files and Folders > Change your "Base Directory" to your local sync folder.
+
+   <img src="{{site.baseurl}}/images/Zotero base directory.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 3. In your linked file manager plugin, such as `Attanger` or `ZotMoov`, set the **`Destination Path`** to be the same as your Base Directory.
-
+   
+   <img src="{{site.baseurl}}/images/Zotero Attanger.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+   
    This way, all your pdf attachments are stored in your local sync folder, and synced to other devices using your cloud services or NAS.
 
    See [Attanger](#attanger) for detailed instructions on how to set up synced folders.
@@ -441,6 +451,8 @@ Ref:
   
   This video also shows installation.
 
+
+
 --------------------------------------------------------------------------------
 
 ## Useful plugins
@@ -495,7 +507,7 @@ AI research assistant:
 
 --------------------------------------------------------------------------------
 
-## Word
+## MS Word
 
 Install Zotero Word plugin following this [guide](https://www.zotero.org/support/word_processor_plugin_manual_installation#word_for_mac).
 
@@ -504,10 +516,34 @@ After installation, you will see a Zotero tab in Word. You can use it to insert 
 <img src="{{site.baseurl}}/images/word zotero.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 - Add/Edit Citation: Add a new citation or edit an existing citation in your document at the cursor location.
-- Add/Edit Bibliography: Add a new bibliography or edit an existing bibliography in your document at the cursor location.
+- Add/Edit Bibliography: Add a new bibliography or edit an existing bibliography in your document <span class="env-green">at the cursor location</span>.
 - Document Preferences: Set the citation style and other preferences for your document.
 
 More usage instructions can be found in [Using the Zotero Word Plugin](https://www.zotero.org/support/word_processor_plugin_usage)
+
+--------------------------------------------------------------------------------
+
+### Shared Library
+
+Zotero groups provide a powerful way to share bibliography with coauthors. There is NO limit on how many members may join your groups, and your full storage subscription is always available to your personal and group libraries.
+
+Use case scenario: If your coauthor wants to edit the item type or authors, they can do so in the group library. The changes in the Share Library will be reflected in your paper references. It is NOT suggested to make changes directly in the docx as it will be overwritten by the Zotero data when you refresh. Zotero data is the root, docx retrieves data from Zotero. So if you want to make changes, do it in the Zotero library.
+
+Create a [New Group](https://www.zotero.org/groups/new). Follow instructions, then your **Group Libraries** will show under your personal library.
+
+<img src="{{site.baseurl}}/images/Zotero groups.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:40%;" />
+
+
+On the Group Settings page, select "Members Settings" to invite members to your group.
+
+<img src="{{site.baseurl}}/images/zetero group page.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+Users must log in to the [zotero.org](https://zotero.org) website to join a group.
+
+ref:
+
+- [Zotero document: Groups](https://www.zotero.org/support/groups)
+
 
 --------------------------------------------------------------------------------
 

@@ -19,14 +19,20 @@ Nice personal website template from a professor: <https://ryancordell.org>
 
 If your webpages are not indexed, they can't be served on Google and hence not searchable. In order to index your website, need to 
 
-1. set up a `sitemap` for your website, and 
-2. submit it to [Google Search Engine](https://search.google.com/search-console/about).
+1. Set up a `sitemap` for your website, and 
+2. Submit it to [Google Search Engine](https://search.google.com/search-console/about).
+   
+   Add property for your website using the "**URL prefix**" option, and submit the `sitemap` address (Indexing > Sitemaps).
+
+   <img src="https://webcommunity.sites.uiowa.edu/sites/webcommunity.sites.uiowa.edu/files/2023-10/Screen%20Shot%202023-10-24%20at%202.07.52%20PM.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+   ref: [Submit sitemap to Google Search Console](https://webcommunity.sites.uiowa.edu/updates/2025/05/how-submit-your-sitemap-google-search-console)
 
 `sitemap` address: <https://my1396.github.io/sitemap.xml>
 
 <https://victor2code.github.io/blog/2019/07/04/jekyll-github-pages-appear-on-Google.html>
 
-What is a <span style='color:#32CD32'>**Sitemap**</span> for?
+What is a <span class="env-green">**Sitemap**</span> for?
 
 >If your website doesn’t have any posts or pages, you may not need a sitemap. But for a blog with several posts, a sitemap is necessary (if you want to rank better in search engines). You can submit your sitemap to major search engines like Google, Bing, Yahoo etc., so that their respective bots crawl your site and index them. Only after indexing, your website link appears in the search results.
 
@@ -60,6 +66,7 @@ You will not be able to see the XML file created for sitemap inside your directo
 Now, commit the changes and hit the URL `yourwebsite.com/sitemap.xml`. You should see all your links listed there.
 
 
+--------------------------------------------------------------------------------
 
 **Write your own `sitemap.xml`**
 
