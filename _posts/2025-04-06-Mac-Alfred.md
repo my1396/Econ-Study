@@ -271,8 +271,19 @@ To fix this, follow the steps:
 
 Clipboard history Keyboard shortcit: ⌥⌘C
 
+<img src="{{site.baseurl}}/images/Alfred clipboard history.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+Configuration:
+
+- tick "**Keep Plain Text**" 
+  
+  Without this option, Alfred won't preserve your ⌘C history.
+
+- tick "Keep Images"
+
 Issue: Alfred snippets pasting from clipboard rather than snippet.  
-Fix: Slow down key events. I changed it from 0.5s to 0.6s. 
+Fix: Slow down [key events](#slow-down-key-events). I changed it from 0.5s to 0.6s. 
+
 
 ## Calculator
 

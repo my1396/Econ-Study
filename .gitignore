@@ -8,6 +8,7 @@ _site/
 .bundle/
 vendor/
 Gemfile.lock
+.ruby-version
 
 # Gems
 *.gem
