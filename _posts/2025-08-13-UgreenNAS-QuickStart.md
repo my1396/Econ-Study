@@ -438,6 +438,17 @@ A: 会混乱。为了保险起见，建议下列做法二选一:
   > 修改完成后，commit-push 到远程 Git 仓库。  
   > 记得主力机也要 fetch-merge 最新代码。
 
+  Q: Will `git pull` delete files that are listed in `.gitignore`?  
+  A: It depends.
+
+  1. The file is never tracked by git. → `git pull` will not delete it.
+  2. The file was previously tracked by git, but is now listed in `.gitignore`. → `git pull` will delete it.
+     
+     Suppose you work on Computer A and create a file that is tracked by git. Then you add the file to `.gitignore` and commit-push the change to the remote repository.
+
+     Now you work on Computer B and run `git pull`.
+     Because <span class="env-orange">the file was technically still tracked</span> in the local history of Computer B, Git sees an incoming command to delete the tracked file. ← ‼️ Dangerous!
+
 
 - 选项二 (不推荐): 或者，两者并行，以 Git 版本控制为主。❌
   
@@ -448,6 +459,40 @@ A: 会混乱。为了保险起见，建议下列做法二选一:
   Git 与 NAS 两者并行的另外一个主要问题是: 当你的 project 在两个电脑上运行时，会产生<span class="env-orange">冲突文件</span>。`sync-conflict-<timestamp>` 这样的文件会出现在你的 project 文件夹里，看起来比较混乱。
 
   这种做法唯一的好处是省事儿。
+
+- 选项三: Relocate just `.git/` outside the synced tree, so OneDrive only ever touches the working files and never the fragile internal git state:
+  
+  ```bash
+  cd <your-project-folder>
+  # This local folder is not synced to OneDrive
+  mkdir -p ~/.git-repos
+  git init --separate-git-dir="$HOME/.git-repos/FIN5005-course_web"
+  ```
+  
+  <span class="env-green">**Run once per machine**</span>, pointing at the same relative repo.
+  This does NOT init a new repo, it just relocates the original `.git` folder to `~/.git-repos/FIN5005-course_web`, and a `.git` file is created in the working tree that points to it.
+
+  After that, verify:
+
+  ```bash
+  git status
+  git log --oneline -3
+  cat .git
+  ```
+
+  `cat .git` should show the `gitdir: ~/.git-repos/FIN5005-course_web` line.
+
+  `.git` is file with a gitlink instead of a folder, so OneDrive won't sync your git internals anymore, but the working files it does sync can still cause the same "modified before pull" symptom if you edit on both machines without pulling first.
+  
+  Now each machine talks to the remote independently.
+  Before switching machines, always:
+
+  ```bash
+  git pull
+  ```
+
+  Otherwise OneDrive can still hand you file content ahead of your local git metadata catching up, and you'll see the same "modified" symptom.
+
 
 --------------------------------------------------------------------------------
 
@@ -488,7 +533,6 @@ A: 会混乱。为了保险起见，建议下列做法二选一:
     If your branch is named something other than `main` (like `master` or `develop`), replace `origin/main` with `origin/your-branch-name`.
 
 
-  
 
 --------------------------------------------------------------------------------
 
