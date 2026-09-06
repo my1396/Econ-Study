@@ -44,11 +44,20 @@ One of the GUI programs it installs is "TeX Live Utility," which can keep TeX Li
 Do NOT upgrade software when you are in the middle of a project or before a deadline.
 </div>
 
-Just do a new installation instead of upgrading. You don't need to remove an existing installation; any number of TL installations can coexist, by default.
+Check your TeX Live version
 
-❗It is NOT recommended to remove the old version, since you might always find a document that doesn't work with the new version, just at the wrong time.
+```bash
+$tlmgr --version
+tlmgr revision 78301 (2026-03-07 18:41:28 +0100)
+tlmgr using installation: /usr/local/texlive/2026
+TeX Live (https://tug.org/texlive) version 2026
+```
 
+Just do a new installation instead of upgrading. You don't need to remove an existing installation; any number of TL (Tex Live) installations can coexist, by default.
 
+After update, there will be a leftover directory `/usr/local/texlive/2025basic` that nothing points to anymore.
+
+❗After using the new version for a while, you can remove the old version to free up disk space. Don't delete the old version immediately, since you might always find a document that doesn't work with the new version, just at the wrong time.
 
 
 --------------------------------------------------------------------------------
@@ -87,7 +96,7 @@ A: Reloading the window is like a soft restart. When you install new extensions 
 
 --------------------------------------------------------------------------------
 
-## Package Management
+## `tlmgr` Package Management
 
 If you have installed TeX Live, it comes with a comprehensive set of LaTeX packages. However, if there is a package you don't have it locally, TeX Live includes a package manager called <span class="env-green">[`tlmgr`](https://tug.ctan.org/info/tlmgrbasics/doc/tlmgr.pdf)</span> (TeX Live Manager) that allows you to install, update, and manage LaTeX packages.
 

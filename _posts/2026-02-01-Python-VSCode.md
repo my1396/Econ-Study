@@ -9,9 +9,9 @@ date: 2026-02-01
 
 This post introduces how to run Python Scripts (.py files) in VS Code.
 
-When I use ⇧Enter to run python code in selection, it evokes the python version different than the one I specified in the terminal.
+**Issue:** When I use ⇧Enter to run python code in selection, it evokes the python version different than the one I specified in the terminal.
 
-The reason is that VS Code configures independently from the terminal. You can check your VS Code Python interpreter by looking at the bottom-right corner of VS Code. You will see sth like `Python 3.14.2`. Click on it, and you can select the Python interpreter (e.g., anaconda python) you want to use for your VS Code environment. 
+**Cause:** The reason is that VS Code configures independently from the terminal. You can check your VS Code Python interpreter by looking at the bottom-right corner of VS Code. You will see sth like `Python 3.14.2`. Click on it, and you can select the Python interpreter (e.g., anaconda python) you want to use for your VS Code environment. 
 
 
 Run selected code in Python terminal: 
@@ -22,7 +22,9 @@ Run selected code in Python terminal:
 If the code is sent directly to the terminal without using the Python interpreter, you need to change [`terminal.integrated.inheritEnv`](https://code.visualstudio.com/updates/v1_36#_launch-terminals-with-clean-environments) in your <span class="env-green">workspace</span> VS Code settings (settings.json):
 
 ```json
-"terminal.integrated.inheritEnv": false,
+{
+  "terminal.integrated.inheritEnv": false,
+}
 ```
 
 This setting ensures that the terminal does not inherit the environment variables from VS Code, allowing it to use the correct Python interpreter specified in your terminal. 
@@ -35,18 +37,26 @@ Missing `PATH` Information: The R executable (especially if installed via Conda 
 
 
 
-Here is my workspace settings.json:
+Here is my workspace settings (`.vscode/settings.json`):
 
 ```json
 {
+  "terminal.integrated.inheritEnv": false,
+  
   // Activate virtual environment automatically
   "python-envs.defaultEnvManager": "ms-python.python:conda",
+  
   // Set the default interpreter path to the specific conda environment
   "python.defaultInterpreterPath": "~/anaconda3/envs/interest_rate/bin/python",
-  
-  "terminal.integrated.inheritEnv": false,
 }
 ```
+
+**refs:**
+
+- <a href="{{site.baseurl}}/2024/02/21/Python-Config.html#prevent-python-env-in-onedrive">Prevent Python env in OneDrive</a>
+
+- [Python environments in VS Code](https://code.visualstudio.com/docs/python/environments#_package-management)
+
 
 `"python-envs.defaultEnvManager"` set which environment manager to use for automatically activating virtual environments. It affects:
 

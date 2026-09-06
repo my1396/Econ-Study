@@ -507,6 +507,20 @@ AI research assistant:
 
 --------------------------------------------------------------------------------
 
+## VS Code LaTeX
+
+[VSCode Zotero](https://marketplace.visualstudio.com/items?itemName=jinvim.vscode-zotero) extension allows you to insert citations and bibliographies into your LaTeX document using Zotero.
+
+- Insert citation: <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>r</kbd>
+- Open Zotero entry under cursor: <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>o</kbd>
+- Tidy up `.bib` file: <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>t</kbd>
+  
+  
+
+
+
+--------------------------------------------------------------------------------
+
 ## MS Word
 
 Install Zotero Word plugin following this [guide](https://www.zotero.org/support/word_processor_plugin_manual_installation#word_for_mac).

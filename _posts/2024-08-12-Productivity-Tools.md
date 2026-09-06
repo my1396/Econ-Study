@@ -63,7 +63,11 @@ ___
 
 ## Google Colab
 
-Go to the main page of [Google Colab](https://colab.research.google.com/), then upload your local `.ipynb` file. This will create a copy of the notebook in your Google Drive and the file is opened by Google Colab by default. Successfully recognized file will show an icon <img src="{{site.baseurl}}/images/google-colab.svg" alt="" style="zoom:80%;" /> before file names.
+Go to the main page of [Google Colab](https://colab.research.google.com/) and click the "<span class="env-green">Upload notebook</span>" button, then upload your local `.ipynb` file accordingly. 
+
+<img src="{{site.baseurl}}/images/Colab upload ipynb.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:30%;" />
+
+This will create a copy of the notebook in your Google Drive and the file is opened by Google Colab by default. Successfully recognized file will show an icon <img src="{{site.baseurl}}/images/google-colab.svg" alt="" style="zoom:80%;" /> before file names.
 
 <img src="{{site.baseurl}}/images/colab files.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 

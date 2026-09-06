@@ -99,7 +99,7 @@ create_default_packages:
 ```
 
 
-Check the list of virtual environments:
+<span class="env-green">Check the list of virtual environments:</span>
 
 ```bash
 conda info --envs
@@ -107,8 +107,15 @@ conda info --envs
 conda info -e
 ```
 
+Activate a specific virtual environment `/Users/menghan/anaconda3`
+
+```bash
+conda activate /Users/menghan/anaconda3
+```
 
 --------------------------------------------------------------------------------
+
+
 
 <span class="env-green">**Activate**</span> the virtual environment:
 

@@ -460,7 +460,7 @@ A: 会混乱。为了保险起见，建议下列做法二选一:
 
   这种做法唯一的好处是省事儿。
 
-- 选项三: Relocate just `.git/` outside the synced tree, so OneDrive only ever touches the working files and never the fragile internal git state:
+- 选项三: Relocate just <span class="env-green">`.git/`</span> outside the synced tree, so OneDrive only ever touches the working files and never the fragile internal git state:
   
   ```bash
   cd <your-project-folder>
@@ -492,6 +492,81 @@ A: 会混乱。为了保险起见，建议下列做法二选一:
   ```
 
   Otherwise OneDrive can still hand you file content ahead of your local git metadata catching up, and you'll see the same "modified" symptom.
+
+  <hr/>
+
+  **Issue:** `.quarto/` contains ~3,000 folders which are changing frequently (when I render projects, a lot of deleting, creating new files), causing OneDrive to crash. This happens when I quited OneDrive and then re-opened it after major changes (many renders) in `.quarto/`.  
+  
+  **Cause**: It's the orphan-accumulation problem. 
+  <span class="env-orange">`quarto-session-temp*`</span> dirs accumulates in `.quarto/`. 
+  It slows scans and OneDrive crashes when it can't reconcile its previous sync state with the new filesystem state.
+
+  **Fix:** Create a new `~/.quarto-cache/` directory on local disk, containing cache directories (`_freeze`, `idx`, `xref`, `cites`, `preview`, `project-cache`). 
+  Symlinked `.quarto` pointing to `~/.quarto-cache/`, so quarto still finds it.
+
+  **What effect it does:** 
+  
+  - Significantly reduced the number of files/folders in the OneDrive-synced directory. One symlinked `.quarto` file vs. thousands of folders in `.quarto/`.
+  
+  - <span class="env-green">New renders will create its session-temp dirs in `~/.quarto-cache/` on local disk</span>, which is NOT synced to OneDrive. 
+  
+    When you render, Quarto will try to reach `.quarto/` in the working directory, but it will be a symlink to `~/.quarto-cache/`, so the macOS kernel will redirect the file operations to the target of the symlink, i.e., `~/.quarto-cache/`. 
+    
+    This requires no Quarto configuration changes and hence has no version-compatibility risks. 
+  
+  <hr>
+  
+  Q: What should I do on MBP14 (secondary machine)?
+  
+  A: Run `setup-local-cache.sh` on MBP14. Do <span class="env-orange">NOT</span> render on MBP14 before you run this script. 
+
+  The main working horse is the following snippet. I print it below for demonstration.
+
+  ```bash
+  CW="$HOME/Library/CloudStorage/OneDrive-Norduniversitet/FIN5005/course_web"
+  DST="$HOME/.quarto-cache/FIN5005-course_web"
+  mkdir -p "$DST"
+  if [ ! -L "$CW/.quarto" ] || [ "$(readlink "$CW/.quarto")" != "$DST" ]; then
+    rm -rf "$CW/.quarto"; ln -s "$DST" "$CW/.quarto"
+  fi
+  ls -ld "$CW/.quarto"
+  ```
+
+  Expected output:
+
+  ```bash
+  lrwxr-xr-x ... .quarto -> /Users/menghan/.quarto-cache/FIN5005-course_web
+  ```
+
+  **Things to be mindful of:**
+
+  - Do not render on MBP14 before you set up the local cache.
+    
+    If you do render before setting up the local cache, the `.quarto/` folder will be created and you are back to square one.
+    The main idea is to keep the `.quarto/` folder out of OneDrive's sync path, using a symlink to point to a local cache folder instead.
+
+  - The local cache name `FIN5005-course_web` has to stay identical across machines.
+
+  <hr/>
+
+  Workflow: The principle is to `git push` when you finish your work on one machine, and `git reset --hard` to the latest remote commit on the other machine before you start working there. 
+  This means that you disregard OneDrive sync and use git to track files. 
+  It keeps git history clean and avoids conflicts.
+
+  For example,
+  
+  - Do your work on Nord16 (main machine). Commit and push to remote git repo.
+  
+  - On MBP14 (secondary machine), before you start working, run 
+    
+    ```bash
+    git fetch origin && git reset --hard origin/main
+    ```
+    
+    to fetch the latest changes from the remote repository.
+
+
+
 
 
 --------------------------------------------------------------------------------

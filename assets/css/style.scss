@@ -1209,7 +1209,7 @@ span[style*="#00CC66"]>a {
 }
 
 /* ──────── Callout box ──────── */
-.note {
+.note, .caution {
   padding: 10px 15px;
   margin: 1.2em 0;
   border-radius: 5px;
@@ -1223,9 +1223,19 @@ span[style*="#00CC66"]>a {
   border-left-color: #3498db;
 }
 
+.caution {
+  color: inherit;  // use default text color
+  border-left-color: #e67e22;
+}
+
 /* Dark mode callout box */
 [data-theme="dark"] .note {
   color: inherit;    // use default text color
   border-left-color: #5dade2;
+}
+
+[data-theme="dark"] .caution {
+  color: inherit;    // use default text color
+  border-left-color: #d35400;
 }
 
