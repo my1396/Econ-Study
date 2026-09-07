@@ -44,7 +44,7 @@ update: 2025-08-01
 Full installation instructions can be found [HERE](https://github.com/James-Yu/LaTeX-Workshop/wiki/Install#installation-and-basic-settings).
 
 
-The only requirement is a compatible LaTeX distribution in the system PATH. For example, [TeX Live](https://www.tug.org/texlive/). We **strongly recommend**TeX Live.
+The only requirement is a compatible LaTeX distribution in the system PATH. For example, [TeX Live](https://www.tug.org/texlive/). We **strongly recommend** TeX Live.
 
 > After installing TeX Live, you must add the directory of TeX Live binaries to your PATH environment variable.  
 > 

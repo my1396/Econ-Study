@@ -416,13 +416,13 @@ A: 不需要。注册并使用 UGREENLink 服务，即使不在局域网内，�
 Q: 有的文件夹用 Git 版本控制管理，是否会和绿联云 NAS 的同步功能冲突?  
 A: 会混乱。为了保险起见，建议下列做法二选一:
 
-- 选项一 (推荐): 备用机在绿联云 NAS 的同步任务中，排除 `.git` 控制的文件夹，不同步 Git 版本控制文件夹。
+- 🔥🔥 选项一 (推荐): 备用机在绿联云 NAS 的同步任务中，排除 `.git` 控制的文件夹，不同步 Git 版本控制文件夹。
 
   <span class="env-green">手动同步 Git 版本控制文件夹到另一台电脑上</span>。
   
   有点麻烦，但是没有冲突覆盖风险。✅
 
-  原则是: 不要 让绿联云同步功能管理 Git 版本控制文件夹。
+  原则: 不要 让绿联云同步功能管理 Git 版本控制文件夹。
 
   <a id="git-sync-conflict"></a>
   ‼️ 数据丢失场景描述: A 为主力机，B 为备用机。A 和 B 都启用绿联云双向同步功能，并且同步同一个 Git 版本控制文件夹。有的文件是在 `.gitignore` 里面的，不会被 Git 版本控制管理。但是绿联云同步功能会同步这些文件。当你在 B 上 pull 远程最新代码后，B 会删除一些本地文件 (因为远程最新代码没有这些文件)。然后绿联云双向同步功能会把 B 上删除的文件同步到 A 上，导致 A 上的文件也被删除了。这样就 BBQ 了。🔥
@@ -460,7 +460,11 @@ A: 会混乱。为了保险起见，建议下列做法二选一:
 
   这种做法唯一的好处是省事儿。
 
-- 选项三: Relocate just <span class="env-green">`.git/`</span> outside the synced tree, so OneDrive only ever touches the working files and never the fragile internal git state:
+- 🔥 选项三: 使用场景 <span class="env-orange">**OneDrive**</span>，没有办法排除同步文件夹。
+  
+  原则: 把大量版本控制文件 (`.git/`) 和 render auxiliary files (`.quarto/`) 放到 OneDrive 外面，建立一个 symlink 连接到 OneDrive.
+  
+  Relocate just <span class="env-green">`.git/`</span> outside the synced tree, so OneDrive only ever touches the working files and never the fragile internal git state:
   
   ```bash
   cd <your-project-folder>
@@ -492,6 +496,26 @@ A: 会混乱。为了保险起见，建议下列做法二选一:
   ```
 
   Otherwise OneDrive can still hand you file content ahead of your local git metadata catching up, and you'll see the same "modified" symptom.
+
+  `.git/` determines what's shown in `git status` and `git log`. So if you relocate `.git/` outside OneDrive, they won't be synced between machines. You still see `modified`, `untracked` files, etc, even if the working files are synced by OneDrive. This is expected and not a problem. A fectch-reset will reconcile the working files and the relocated `.git/`.
+
+  ```
+  Diagram demonstratation of `.git/`:
+
+              Git repository
+                 │
+      ┌──────────┴──────────┐
+      │                     │
+  Working tree            .git/
+  your files          Git's information
+      │                     │
+      └────── compare ─────┘
+                 │
+            git status
+                 │
+     ┌───────────┴───────────┐
+     modified             untracked
+  ```
 
   <hr/>
 

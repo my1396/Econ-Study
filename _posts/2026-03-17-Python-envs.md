@@ -1,51 +1,31 @@
 ---
 layout: post
 tag: python
-title: Python Basic Syntax
+title: Python Virtual Environment
 date: 2026-03-17
 ---
-
-[Python 3 Documentation](https://docs.python.org/3/index.html)
-
-Python starts index with 0, which means the first element of a list is accessed with index 0.
-
-`type()` to check the data type of a variable.
-
-
-
-**For data frames:**
-
-- `df.dtypes` to check the data types of each column in the data frame.
-
-- `df.info()` to check the data types of each column and the number of non-null values. 
-
-- `df.describe()` to get summary statistics of the numerical columns in the data frame.
-
-
-
 
 ## Virtural Environment
 
 Python is shipped with the OS out of box for UNIX-based systems. If you run `which python`, you will see sth like `usr/bin/python3`, this is the system Python. It is NOT recommended to install packages in the system Python as it may cause <span class="env-green">conflicts with the OS and other applications that rely on it</span>. 
 You might end up with some complicated fixes or fresh OS installation if you mess with the system Python.
-Therefore, you should use a virtual environment to manage your project-specific dependencies.
+Therefore, <span class="env-green">you should use a virtual environment to manage your project-specific dependencies</span>.
 
 
-> Rule of thumb: Don't mess with the base environment of Conda or the system Python. Always create a new virtual environment for each project to keep things clean and organized.
+> Rule of thumb: Don't mess with the base environment of Conda or the system Python. 
+> Always create a new virtual environment for each project to keep things clean and organized.
 
-A virtual environment in Python is an isolated environment on your computer. It allows you to manage project-specific dependencies without interfering with other projects or the original Python installation.
+A virtual environment in Python is <span class="env-green">an isolated environment</span> on your computer. It allows you to manage project-specific dependencies without interfering with other projects or the original Python installation.
 
 
-
-
-Each virtual environment:
+**Each virtual environment:**
 
 - Has its own Python interpreter
 - Has its own set of installed packages
 - Is isolated from other virtual environments
-- Can have different versions of the same package
+- Can have different *versions* of the same package
 
-Benefits of using virtual environments:
+**Benefits of using virtual environments:**
 
 - It prevents package version conflicts between projects
 - Makes projects more portable and reproducible
@@ -62,13 +42,32 @@ conda create --name myfirstproject python=3.11 -y
 
 - `--name` or `-n` specifies the name of the virtual environment. 
 - `python=3.11` specifies the Python version to install in the virtual environment. 
-- `-y` flag automatically confirms the installation without prompting you.
+- `--yes` or `-y` flag automatically *confirms* the installation without prompting you.
 
-This creates `myfirstproject` environment in `~/anaconda3/envs/` with Python 3.11 installed.
-You can specify default packages in `~/.condarc`, 
+This creates `myfirstproject` environment in <span class="env-green">`~/anaconda3/envs/`</span> with Python 3.11 installed.
+You can specify default packages in <span class="env-green">`~/.condarc`</span>.
 
 
-Note that `conda create` is slow as it installs many dependencies. If you want a faster way to create a virtual environment, you can use the <span class="env-green">built-in `venv` module</span> in Python:
+This is how my `~/.condarc` looks like:
+
+```yaml
+# Preferred channel order
+channels:
+  - https://conda.anaconda.org/conda-forge/
+  - defaults
+create_default_packages:
+  - pip
+  - ipython
+  - numpy
+  - pandas
+# Customize the prompt
+env_prompt: '({name}) '
+changeps1: false
+# Disable auto-activation of the base environment
+auto_activate_base: false
+```
+
+Note that `conda create` is <span class="env-orange">slow</span> as it installs many dependencies. If you want a faster way to create a virtual environment, you can use the <span class="env-green">built-in `venv` module</span> in Python:
 
 ```bash
 # Create virtual environment with venv
@@ -92,12 +91,12 @@ With `venv`, no packages will be installed in the virtual environment by default
 | Cons    | - Heavy and slow<br>    | - Limited to `pip` installing pkgs |
 
 
-```yaml
-create_default_packages:
-  - numpy
-  - pandas
-```
+Which tool to use:
 
+- `conda`: when you need non-Python binaries, e.g., R, GDAL, etc
+- `venv`: pure Python projects
+
+--------------------------------------------------------------------------------
 
 <span class="env-green">Check the list of virtual environments:</span>
 
@@ -107,17 +106,9 @@ conda info --envs
 conda info -e
 ```
 
-Activate a specific virtual environment `/Users/menghan/anaconda3`
-
-```bash
-conda activate /Users/menghan/anaconda3
-```
-
 --------------------------------------------------------------------------------
 
-
-
-<span class="env-green">**Activate**</span> the virtual environment:
+<span class="env-green">**Activate**</span> the virtual environment using the name:
 
 ```bash
 conda activate myfirstproject
@@ -131,8 +122,15 @@ The command line will look like this after activation:
 (myfirstproject) ...$
 ```
 
+Activate a virtual environment `/Users/menghan/anaconda3` using path:
 
-Check **Python executable** path in the virtual environment:
+```bash
+conda activate /Users/menghan/anaconda3
+```
+
+--------------------------------------------------------------------------------
+
+Check **Python executable path** in the virtual environment:
 
 ```bash
 which python
@@ -215,22 +213,6 @@ When you deactivate the env, the previously active environment will show, e.g., 
 
 You must be very careful activating environments and always **must remember to deactivate an environment once you are not going to use it because environments can be stacked**. It means that you can activate an environment on top of another environment. This behavior (which is useful in very specific situations) will lead to chaos in a short amount of time: the libraries installed in the environments will be mixed and you will have no idea where they are installed.
 
-
-## Install R in VirtualEnv
-
-You can also install R in a virtual environment.
-
-```bash
-# Create a new environment with R
-conda create -n r_env r-essentials -y
-```
-
-This will create a new environment named `r_env` with R and the essential R packages installed. You can activate this environment and use R within it.
-
-```bash
-# Activate the R environment
-conda activate r_env
-```
 
 
 ref:

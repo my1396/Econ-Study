@@ -21,13 +21,32 @@ $which -a python python3
 ```
 
 
-**Conda Commands**
+### Conda Commands
 
-<https://docs.conda.io/projects/conda/en/stable/commands/init.html>
+[**Install**](https://www.anaconda.com/docs/getting-started/installation)
+
+<img src="{{site.baseurl}}/images/conda install.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+
+**Anaconda vs Miniconda:**
+
+- Anaconda: Contains the conda package manager and 600+ packages → taking up too much space (~9.7 GB)
+
+- Miniconda: Contains only conda, Python, and their dependencies → sufficient to use ✅
+
+| Feature | Anaconda Distribution | Miniconda |
+|---|---|---|
+| Created and published by Anaconda | Yes | Yes |
+| Has conda | Yes | <span class="env-green">Yes</span> |
+| Has [Anaconda Navigator](https://www.anaconda.com/docs/legacy/anaconda-navigator/main) | Yes | No |
+| Packages included | 600+ | 130+ |
+| Install space required | ~9.7 GB | ~900 MB |
+
 
 <span class="env-green">**Initialize conda for shell interaction**</span>
 
-`conda init` will add your conda executable file in your `$PATH` variable.
+Initialization is the first thing to do after installing conda.
+
+[`conda init`](https://docs.conda.io/projects/conda/en/stable/commands/init.html) will add your conda executable file in your `$PATH` variable.
 
 `conda init [SHELLS]` Available shells: ['bash', 'fish', 'powershell', 'tcsh', 'xonsh', 'zsh']. One or more shells to be initialized. If not given, the default value is <span class="env-green">'bash' on unix</span> and 'cmd.exe' & 'powershell' on Windows. 
 
@@ -114,15 +133,72 @@ r-reticulate     /Users/menghan/anaconda3/envs/r-reticulate
 
 --------------------------------------------------------------------------------
 
+**Terminal prompt**
+
 Q: My terminal prints the full path of the virtual environment instead of just the name. How to shorten it?  
 A: Set <span class="env-green">`env_prompt`</span> by running
 
 ```bash
 conda config --set env_prompt '({name}) '
+conda config --set changeps1 false
+```
+This will add the following line to your `~/.condarc` file:
+
+```yaml
+env_prompt: '({name}) '
+changeps1: false
 ```
 
-restart the terminal and you will see the virtual environment name in parentheses instead of the full path.
+Restart the terminal and you will see the virtual environment name in parentheses instead of the full path.
 
+
+`ps1` is primary prompt string, `ps2` is the continuation prompt string.
+
+By setting `changeps1: false`, `env_prompt` will only be applied to `ps2` and leave `ps1` untouched.
+
+Expected behavior:
+
+```bash
+/Users/menghan/anaconda3                 ->  (base)
+/Users/menghan/anaconda3/envs/pdf2text   ->  (pdf2text)
+.../FIN5005/.conda                       ->  (FIN5005/.conda)
+.../Econ-Study/.conda                    ->  (Econ-Study/.conda)
+(no env active)                          ->  (nothing)
+```
+
+--------------------------------------------------------------------------------
+
+
+Q: Why I have two envs names in the prompt, e.g., `(.venv) (anaconda3)`?  
+A: There are two virtual environments activated.
+
+- `(anaconda3)` is the base env, this is controlled by `auto_activate_base: True`. Meaning it will automatically activate the `base` env when you open a new terminal. 
+  
+  You can disable auto-activating by running
+
+  ```bash
+  conda config --set auto_activate_base false
+  ```
+
+- `(.venv)` is the plain virtual environment created by `python -m venv .venv`. 
+
+‼️ <span class="env-orange">Having two active envs is dangerous.</span> `.venv/bin` sits first on `PATH`, but anything the venv doesn't contain silently falls through to conda base.
+
+So `pip install foo` puts `foo` in `.venv`, then `ipython` or `jupyter` starts the **anaconda3** interpreter and `import foo` fails. That class of "but I just installed it" confusion is exactly what a half-shadowed `PATH` produces. 
+
+
+
+--------------------------------------------------------------------------------
+
+**Change Conda configuration settings**
+
+<span class="env-green">`conda config --set KEY VALUE`</span> change a Conda configuration setting.
+
+For instance `conda config --set auto_activate_base false` will add the following line to your `~/.condarc` file:
+
+```yaml
+auto_activate_base: false
+```
 
 --------------------------------------------------------------------------------
 
@@ -154,6 +230,36 @@ If the environment does not have a name, you can activate it by specifying the f
 ```bash
 conda activate /path/to/myenv
 ```
+
+To deactivate an env, run
+
+```bash
+conda deactivate myenv
+```
+
+To delete an env, run
+
+```bash
+# if myenv is currently active, first deactivate it
+conda deactivate myenv
+
+# delete named env: myenv
+conda remove --name myenv
+
+# delete path-based env: /path/to/myenv
+conda remove --prefix /path/to/myenv
+```
+
+You can delete a **package** from an environment by running:
+
+```bash
+conda remove --name myenv package_name
+
+# remove numpy from myenv
+conda remove --name myenv numpy
+```
+
+
 
 --------------------------------------------------------------------------------
 
@@ -309,10 +415,7 @@ The selected environment is used for running code, debugging, and language featu
 <img src="https://code.visualstudio.com/assets/docs/python/environments/selectedInterpreter.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 
-
-
 --------------------------------------------------------------------------------
-
 
 ### `conda install`
 
@@ -407,11 +510,8 @@ Note: Issues may arise when using `pip` and `conda` together.
 
   `python -m module-name` the given module is located on the Python module path and executed as a script. 
 
-  
 
-
-
-
+--------------------------------------------------------------------------------
 
 ## Update Python
 
@@ -419,16 +519,16 @@ Note: Issues may arise when using `pip` and `conda` together.
 
   ```py
   conda activate myenv # activate myenv
-  conda update python # update Python to the latest version in the current env
+  conda update python  # update Python to the latest version in the current env
   conda install python=3.10 # update to a specific version of Python
   ```
 
 - Create a new environment for the new Python
 
   ```bash
-  conda create -n py39 python=3.9 # create a new env called py39
-  conda activate py39  # activate py39
-  python --version # print Python version
+  conda create -n py39 python=3.9  # create a new env called py39
+  conda activate py39              # activate py39
+  python --version                 # print Python version
   ```
 
 
@@ -447,3 +547,40 @@ Viewing a list of available Python versions
   ```python
   conda search --full-name python
   ```
+
+--------------------------------------------------------------------------------
+
+## Install R in VirtualEnv
+
+You can also install R in a virtual environment.
+
+```bash
+# Create a new environment with R
+conda create -n r_env r-essentials -y
+```
+
+This will create a new environment named `r_env` with R and the essential R packages installed (`r-essentials`). 
+
+You can activate this environment and use R within it.
+
+```bash
+# Activate the R environment
+conda activate r_env
+```
+
+Check the installed R version:
+
+```bash
+R --version
+```
+
+Install additional R packages:
+
+```bash
+conda install -n r_env r-tidyverse
+```
+
+This will install `tidyverse` and its dependencies in the `r_env` environment.
+Note the package names are different in Conda and R. 
+Conda-forge uses the prefix `r-` for R packages.
+For example, `tidyverse` in R is `r-tidyverse` in Conda. 
