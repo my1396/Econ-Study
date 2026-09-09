@@ -187,8 +187,8 @@ ___
 
 - One indentation can be 2 or 4 spaces.
 
-  - 4 spaces are used in Python
-  - 2 spaces are used in CSS, js, that need many nested levels with long lines.
+  - 4 spaces are recommended in Python (established by Python's style guide, PEP 8)
+  - 2 spaces are used in <span class="env-green">R</span>, CSS, js, that need many nested levels with long lines.
   
 - **Vertical alignment**
 

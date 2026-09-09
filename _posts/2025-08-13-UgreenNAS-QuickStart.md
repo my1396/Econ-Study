@@ -573,7 +573,7 @@ A: 会混乱。为了保险起见，建议下列做法二选一:
 
   <hr/>
 
-  Workflow: The principle is to `git push` when you finish your work on one machine, and `git reset --hard` to the latest remote commit on the other machine before you start working there. 
+  <span class="env-green">**Workflow:**</span> The principle is to `git push` when you finish your work on one machine, and `git reset --hard` to the latest remote commit on the other machine before you start working there. 
   This means that you disregard OneDrive sync and use git to track files. 
   It keeps git history clean and avoids conflicts.
 
@@ -589,8 +589,9 @@ A: 会混乱。为了保险起见，建议下列做法二选一:
     
     to fetch the latest changes from the remote repository.
 
-
-
+  <div class="caution">
+  Note: Do NOT make changes on both machines at the same time. There is no way to reconcile changes made simultaneously. OneDrive will create a conflict file, with suffix to denote the machine.
+  </div>
 
 
 --------------------------------------------------------------------------------
