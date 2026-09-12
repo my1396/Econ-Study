@@ -462,6 +462,8 @@ A: 会混乱。为了保险起见，建议下列做法二选一:
 
 - 🔥 选项三: 使用场景 <span class="env-orange">**OneDrive**</span>，没有办法排除同步文件夹。
   
+  <span class="env-green">**Step 1:** Move `.git/` out of OneDrive.</span>
+
   原则: 把大量版本控制文件 (`.git/`) 和 render auxiliary files (`.quarto/`) 放到 OneDrive 外面，建立一个 symlink 连接到 OneDrive.
   
   Relocate just <span class="env-green">`.git/`</span> outside the synced tree, so OneDrive only ever touches the working files and never the fragile internal git state:
@@ -518,6 +520,8 @@ A: 会混乱。为了保险起见，建议下列做法二选一:
   ```
 
   <hr/>
+
+  <span class="env-green">**Step 2:** Move `.quarto/` out of OneDrive.</span>
 
   **Issue:** `.quarto/` contains ~3,000 folders which are changing frequently (when I render projects, a lot of deleting, creating new files), causing OneDrive to crash. This happens when I quited OneDrive and then re-opened it after major changes (many renders) in `.quarto/`.  
   
