@@ -23,6 +23,25 @@ sass:
   silence_deprecations:
     - import
 
+# Files/directories to keep OUT of _site (and out of the `serve` file watcher).
+# NOTE: defining `exclude` REPLACES Jekyll's built-in defaults rather than adding
+# to them, so the defaults are restated here before the site-specific entries.
+exclude:
+  # Jekyll defaults - keep these
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  # Site-specific
+  - afdko_env/        # Python virtualenv, ~62 MB
+  - script/           # build + utility scripts
+  - source/           # scratch notebooks
+  - "*.py"
+  - __pycache__/
+
 url: "https://my1396.github.io"
 baseurl: /Econ-Study
 port: 4001            # Set the local server port to listen on. Default: 4000.
