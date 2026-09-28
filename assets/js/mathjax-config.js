@@ -175,6 +175,10 @@ window.MathJax = {
           diag: "\\mathrm{diag}",
           rank: "\\mathrm{rank}",
           vecc: "\\mathrm{vec}",
+          
+          // define colors
+          red: ["{\\color[RGB]{246, 87, 55}{#1}}", 1],
+          green: ["{\\color[RGB]{0, 204, 102}{#1}}", 1],
         },
     },
 
