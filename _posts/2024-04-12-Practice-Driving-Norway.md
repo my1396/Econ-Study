@@ -530,13 +530,22 @@ Per year, 2400 kr.
 
 ## Maintenance
 
+[Bestill Service Online](https://www.toyotanordvik.no/verkstedtjenester/bestill-service): 提前一个月预约。
+
 小的 Service 4000 大的 8000 是比较合理的价格  
 1万以上算是超大的了 会给你检查零件，看有没有什么该修的，当下就交钱修或者换就好了。不然下次预约又要交费。
 
 <img src="https://drive.google.com/thumbnail?id=1e3Uo4GEF9RcELa2Dsas0WV1LN2yITX7H&sz=w1000" alt="Toyota Car Service" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 Q: Which service should I choose? Do I have to choose 6 years or 90k km?   
-A: My service is done every May annually. <u>Big and small services rotates</u>. 2025 May I get small service, costs about 3.6k.  Toyota requires service either every year or every 15k km, whichever satisfied first. I will receive a SMS message about the appointment.
+A: My service is done every May annually. <u>Big and small services rotates</u>. 2025 May I get small service, costs about 3.6k. Toyota requires service either every year or every 15k km, whichever satisfied first. I will receive a SMS message about the appointment.
+
+- <span class="env-green">Nov 2026</span>: 3928 kr
+
+---
+
+Q: How often should I do the service?  
+A: <span class="env-green">Every year or every 15k km</span>, whichever satisfied first. 
 
 ___
 
@@ -546,7 +555,7 @@ A: Small service take about 1 hour. I need to drive my car to the factory 15 min
 ___
 
 Q: What does the maintenance include?  
-A: When the Service is completed, you will receive a year of free roadside assistance, car software updates, Hybrid health check and Toyota Relax.
+A: When the Service is completed, you will also receive a year of free roadside assistance in Europe (Eurocare), Hybrid health check and Toyota Relax.
 
 ___
 
@@ -562,13 +571,13 @@ ___
 
 **2025 Service**
 
-Vi bekrefter avtale for din bil med reg.nr. YF16565 fredag 16.05.2025 08:30 i Stormyrveien 25. Bilen leveres MINIMUM 15 minutter før. Nøkkel kan utenom åpningstider leveres i Sharebox i hovedinngangen: https://bit.ly/henteoglevere. Hilsen Nordvik AS Bodø.
+Vi bekrefter avtale for din bil med reg.nr. YF16565 fredag 16.05.2025 08:30 i Stormyrveien 25. Bilen leveres MINIMUM 15 minutter før. Nøkkel kan utenom åpningstider leveres i Sharebox i hovedinngangen: <https://bit.ly/henteoglevere>. Hilsen Nordvik AS Bodø.
 
 > Hei Menghan!
 > 
 > Vi bekrefter time hos Nordvik AS - Bodø den <span style="color: #00CC66;">16.05.2025</span> for YF16565.
 > 
-> Detaljer for timen finner du her: https://digital.toyota.no/l/3sxVS6rXtyF94A
+> Detaljer for timen finner du her: <https://digital.toyota.no/l/3sxVS6rXtyF94A>
 > 
 > Vennlig hilsen Nordvik AS - Bodø
 
@@ -635,7 +644,7 @@ Nordvik will send a reminder of the test by mails *two months* before the deadli
 --------------------------------------------------------------------------------
 
 Q: How often is the EU-kontroll?  
-A: Every 2 years.
+A: <span class="env-green">Every 2 years</span>.
 
 Q: Where can I book the EU-kontroll?  
 A: The Norwegian Public Roads Administration (Statens vegvesen) does not carry out roadworthiness tests, but we approve and inspect the garages / testing centre that are authorized to carry out such tests. Find a garage/testing centre near you, where you can book a session for the mandatory roadworthiness test (“EU test”).
