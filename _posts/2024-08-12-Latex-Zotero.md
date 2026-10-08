@@ -422,7 +422,7 @@ Q: How to insert inline math?
 A: Type `$` to open the inline math, then type your math formula, and type `$` again to close the equation.
 
 Q: How to insert a math block?  
-A: Type `$$` followed by a space to create a block. Or use the Magic Key `/` to open the command menu, and choose "Insert math block". Then you can type your math formula in the block.
+A: Type <span class="env-green">`$$` followed by a space</span> to create a block. Or use the Magic Key `/` to open the command menu, and choose "Insert math block". Then you can type your math formula in the block.
 
 
 
