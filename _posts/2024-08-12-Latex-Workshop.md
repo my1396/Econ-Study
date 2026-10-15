@@ -186,6 +186,7 @@ LaTeX-Workshop provides an independent intellisense mechanism triggered by `@`. 
 | `@[`   | `\left[ $1 \right]`   |
 | `@^`   | `\Hat{$1}`            |
 | `@_`   | `\bar{$1}`            |
+| `@/`   | `\frac{$1}{$2}`       |
 
 **Inserting Greek letters:**
 

@@ -600,9 +600,22 @@ $\lg x, \log_{10}x$: the common logarithm of $x$.
 
 $\text{lb} x, \log_2x$: the binary logarithm of $x$.
 
-- Product rule: $\log_b(xy) = \log_b x + \log_b y$
-- Quotient rule: $\log_b(x/y) = \log_b x - \log_b y$
-- Power rule: $\log_b(x^r) = r \log_b x$
+**The laws of logarithms:**
+
+When the logarithms have the same base, the following rules apply:
+
+- Product rule: Log of a product is the sum of the logs of the factors.
+  $$
+  \log_b(xy) = \log_b x + \log_b y
+  $$
+- Quotient rule: Log of a quotient is the difference of the logs.
+  $$
+  \log_b(x/y) = \log_b x - \log_b y
+  $$
+- Power rule: 
+  $$
+  \log_b(x^r) = r \log_b x
+  $$
 
 
 1 micrometer = $10^{-6}$ meter

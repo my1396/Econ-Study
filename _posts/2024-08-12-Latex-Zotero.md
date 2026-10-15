@@ -11,6 +11,11 @@ update: 2025-08-01
 <img src="{{site.baseurl}}/images/zotero_icon.png" alt="" style="display: inline; height: 2em; vertical-align: middle;" /> Zotero is a free and open-source reference management software to manage bibliographic data. 
 It is available for Windows, macOS, and Linux.
 
+
+**Add new items**
+
+- **Add by Identifier**: Click the magic wand icon 🪄 in the toolbar > Paste DOI, ISBN or arXiv ID of the citation > Press Enter.
+
 ## General Settings
 
 - Disable automatic download pdfs and snapshots
