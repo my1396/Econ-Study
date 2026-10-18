@@ -1010,16 +1010,27 @@ table td, table th {
   opacity: 0;
 }
 
-/* Box around text - Only apply in light mode */
-[data-theme="light"] .boxed,
-:root:not([data-theme="dark"]) .boxed {
-  background: #FFFAEE;
-  color: black;
-  border: 1px solid #535353;
+/* Box around text */
+.boxed {
   margin: 0px auto;
   width: 526px;
   padding: 10px;
   border-radius: 10px;
+}
+
+[data-theme="light"] .boxed,
+:root:not([data-theme="dark"]) .boxed {
+  // light mode
+  background: #FFFAEE;
+  color: black;
+  border: 1px solid #535353;
+}
+
+[data-theme="dark"] .boxed {
+  // dark mode
+  background: #2A2722;
+  color: #E0E0E0;
+  border: 1px solid #5C5C5C;
 }
 
 /**

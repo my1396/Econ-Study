@@ -6,7 +6,7 @@ window.MathJax = {
     },
     tex: {
         packages: { 
-           '[+]': ['upgreek'] 
+           '[+]': ['upgreek']
         },
         extensions: ["color.js"],
         inlineMath: [   // start/end delimiter pairs for in-line math
@@ -179,6 +179,9 @@ window.MathJax = {
           // define colors
           red: ["{\\color[RGB]{246, 87, 55}{#1}}", 1],
           green: ["{\\color[RGB]{0, 204, 102}{#1}}", 1],
+          
+          // Symbols
+          qed: "\\tag*{\\(\\square\\)}",
         },
     },
 

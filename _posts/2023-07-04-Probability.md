@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Econometric Notes
+title: Probability Basics
 tag: study
 update: 2024-10-27
 ---
@@ -499,39 +499,90 @@ This doesn't mean that $\overline{X}$ itself is equal to $\mathbb{E}[X]$.  Rathe
 Proof:
 
 $$
-\begin{aligned}
+\begin{align*}
   \mathbb{E}[\overline{X}] &= \mathbb{E}\left[ \frac{1}{n} \sum_{i=1}^n X_i \right] \\
   &= \frac{1}{n} \mathbb{E}\left[ \sum_{i=1}^n X_i \right] \\
   &= \frac{1}{n} \sum_{i=1}^n \mathbb{E}[X_i] \\
   &= \frac{1}{n} \sum_{i=1}^n \mathbb{E}[X]  \;\;\;\; (X_i\text{ are iid with mean } \mathbb{E}[X]) \\
   &= \frac{1}{n}\, n\, \mathbb{E}[X] \\
-  &= \mathbb{E}[X]
-\end{aligned}
-$$
-
-
-Two ways to compute the **Sample variance** 
-
-- unadjusted sample variance, also called biased sample variance:
-$$
-\begin{align*}
-S_n^2 = \frac{1}{n}\sum_{i=1}^n(X_i-\overline X)^2
+  &= \mathbb{E}[X] \qed
 \end{align*}
 $$
 
-- adjusted sample variance, also called unbiased sample variance 
 
-$$
-\begin{align*}
-S_n^2 = \frac{1}{n-1}\sum_{i=1}^n(X_i-\overline X)^2
-\end{align*}
-$$
+Two ways to compute the <span class="env-green">**Sample variance**</span>:
 
-The latter subtracts 1 from $n$ in the denominator, which is known as a *degrees of freedom correction*.
-See proof [here](https://www.statlect.com/fundamentals-of-statistics/variance-estimation).
+- Unadjusted sample variance, also called **biased sample variance**:
+  $$
+  \begin{align*}
+  \hat{\sigma}^2 = \frac{1}{n}\sum_{i=1}^n(X_i-\overline X)^2
+  \end{align*}
+  $$
 
+- Adjusted sample variance, also called **unbiased sample variance**:
+
+  $$
+  \begin{align*}
+  s^2 = \frac{1}{n-1}\sum_{i=1}^n(X_i-\overline X)^2
+  \end{align*}
+  $$
+
+  Unbiasedness: $E[s^2] = \sigma^2_Y.$
+
+  $s^2$ subtracts 1 from $n$ in the denominator, which is known as a *degrees of freedom correction*.
+  Estimating the mean uses up one degree of freedom, leaving only $n-1$ degrees of freedom for estimating the variance.
+
+  <hr>
+  
+  **Proof:** Show why dividing by $n-1$ corrects for bias.
+  
+  $$
+  \begin{equation} \label{sample-variance}
+  \begin{split}
+    E(Y_i-\overline{Y})^2 &= \var(Y_i-\overline{Y}) \\
+    &= \var(Y_i) - 2\cov(Y_i, \overline{Y}) + \var(\overline{Y})
+  \end{split}
+  \end{equation}
+  $$
+  where $\var(Y_i) = \sigma^2_Y$, and $\var(\overline{Y}) = \frac{1}{n}\sigma^2_Y.$
+
+  Now we need to compute $\cov(Y_i, \overline{Y})$:
+  $$
+  \begin{equation*}
+  \begin{split}
+    \cov(Y_i, \overline{Y}) &= \cov\left(Y_i, \frac{1}{n}\sum_{j=1}^n Y_j\right) \\
+    &= \frac{1}{n}\cov\left(Y_i, \sum_{j=1}^n Y_j\right) \\
+    &= \frac{1}{n} \sum_{j=1}^n \cov(Y_i, Y_j) \\
+    &= \frac{1}{n} \var(Y_i) \quad \text{(since $\cov(Y_i, Y_j) = 0$ for $i \neq j$)} \\
+    &= \frac{1}{n} \sigma^2_Y
+  \end{split}
+  \end{equation*}
+  $$
+  Plugging this back into the expression $\eqref{sample-variance}$ gives:
+  $$
+  \begin{equation*}
+  \begin{split}
+    E(Y_i-\overline{Y})^2 &= \sigma^2_Y - 2 \cdot \frac{1}{n} \sigma^2_Y + \frac{1}{n} \sigma^2_Y \\
+    &= \sigma^2_Y - \frac{1}{n} \sigma^2_Y \\
+    &= \left(1 - \frac{1}{n}\right) \sigma^2_Y \\
+    &= \frac{n-1}{n} \sigma^2_Y
+  \end{split}
+  \end{equation*}
+  $$
+  An estimator of $E(Y_i-\overline{Y})^2$ is $\frac{1}{n}\sum_{i=1}^n(Y_i-\overline{Y})^2$, which is biased. To correct for this bias, we multiply by $\frac{n}{n-1}$, leading to the unbiased estimator:
+  $$
+  s^2 = \frac{1}{n-1}\sum_{i=1}^n(Y_i-\overline{Y})^2
+  $$
+  where
+  $$
+  \green{E[s^2] = \sigma^2_Y} \qed
+  $$
 
 Distinguish the sample variance $(S^2_n)$ from the variance of sample mean $(\text{Var}(\overline{X}))$. 
+
+**Ref:**
+
+- [StatLect: Estimation of the variance](https://www.statlect.com/fundamentals-of-statistics/variance-estimation)
 
 ___
 
@@ -594,6 +645,10 @@ $$
 &= \text{Cov}(X,X) + \text{Cov}(X,Y) + \text{Cov}(Y,X) + \text{Cov}(Y,Y) \\
 &= \color{#008B45}\text{Var}(X) + \text{Var}(X) + 2\text{Cov}(X,Y).
 \end{aligned}
+$$
+
+$$
+\var(aX+bY) = a^2\var(X)+b^2\var(Y)+2ab\cov(X,Y)
 $$
 
 More generally, for $a_i\in \mathbb{R}, i=1,\ldots,n$, we conclude:
@@ -673,7 +728,7 @@ $f(X)=X^2$ is an even function, which satisfies the condition.
 
 ___
 
-**Properties of covariance**
+<span class="env-green">**Properties of covariance**</span>
 
 1. The covariance of a variable with itself is the variance of the random variable.
 
@@ -708,7 +763,10 @@ ___
     $$
     \cov(X+Y, Z) = \cov(X,Z) + \cov(Y,Z)
     $$
-8. More generally, covariance of sum of random variables:
+
+8. $\cov(a+bX+cY, Z) = b\cov(X,Z) + c\cov(Y,Z)$ 
+   
+9. More generally, covariance of sum of random variables:
 
     $$
     \cov\left(\sum_{i=1}^ma_iX_i, \sum_{j=1}^nb_jY_j\right)= \sum_{i=1}^m\sum_{j=1}^na_ib_j\cov(X_i,Y_j)
@@ -716,7 +774,7 @@ ___
 
 ___
 
-Properties for correlation coefficients
+<span class="env-green">**Properties for correlation coefficients**</span>
 
 1. Adding a constant to a random variable does not change their correlation coefficient.
 
@@ -1574,7 +1632,7 @@ $$
 The **True Positive Rate** (TPR), or the proportion of all actual positives that were classified correctly as positives, is also known as <span class="env-green">**Recall**</span> or <span class="env-green">**Sensitivity**</span>.
 
 $$
-\text{Recall (or True Positive Rate, TPR)} = 
+\text{TPR} = 
 \frac{\text{correctly classified actual positives}}
 {\text{all actual positives}} 
 = \frac{TP}{TP+FN}
@@ -1585,7 +1643,7 @@ A hypothetical perfect model would have zero false negatives and therefore a rec
 In an imbalanced dataset where the number of actual positives is very low, recall is a more meaningful metric than accuracy because it measures the ability of the model to correctly identify all positive instances. For applications like disease prediction, <u>correctly identifying the positive cases is crucial</u>. A false negative typically has more serious consequences than a false positive. 
 
 
-The **False Positive Rate** (FPR) is the proportion of all actual negatives that were classified incorrectly as positives, also known as the **probability of false alarm**. 
+The **False Positive Rate** (FPR) is the proportion of all actual negatives that were classified incorrectly as positives, also known as the <span class="env-green">**probability of false alarm**</span>. 
 
 $$
 \text{FPR} =
@@ -1637,30 +1695,25 @@ The points on a ROC curve closest to (0,1) represent a range of the best-perform
 <figcaption>Three labeled points representing thresholds.</figcaption>
 </figure>
 
+**Trade-offs between TPR and FPR**
+
 - If false positives (false alarms) are highly costly, it may make sense to choose a threshold that gives a lower FPR, like the one at point A, even if TPR is reduced. 
 - Conversely, if false positives are cheap and false negatives (missed true positives) highly costly, the threshold for point C, which maximizes TPR, may be preferable. 
 - If the costs are roughly equivalent, point B may offer the best balance between TPR and FPR.
 
-A concrete example: Imagine a situation where it's better to allow some **spam** to reach the inbox than to send a business-critical email to the spam folder. You've trained a spam classifier for this situation where the positive class is spam and the negative class is not-spam. In this use case, it's better to minimize false positives, even if true positives also decrease. Choose **point A**.
+**Concrete examples**
 
+- EX1: Imagine a situation where it's better to allow some **spam** to reach the inbox than to send a business-critical email to the spam folder. You've trained a spam classifier for this situation where the positive class is spam and the negative class is not-spam. In this use case, it's better to minimize false positives, even if true positives also decrease. Choose **point A**.
+  
+  Another example where false positives are more costly: criminal justice, where convicting an innocent person is more costly than letting a guilty person go free.
 
-___
+  Remedy: <span class="env-green">Raise the threshold</span> to reduce false positives, even if it means more false negatives.
 
-Q: When should we use one-tailed hypothesis testing? \
-A: Authors should explain why they are more interested in an effect in one direction not the other.
+- EX2: Screening for a disease. This is the case where false negatives are cheap but false negatives are expensive because we need to diagnose the disease and have early treatment. The cost of missing a true positive is high. Missing a serious disease can delay treatment and lead to severe health consequences. In this case, we choose **point C**.
+  
+  Other examples where false negatives are more costly: fraud detection, airport security, fire detection, and earthquake early warning systems.
 
-Ex1: we compare the mean strength of parts from a supplier (102) to a target value (100). We are considering a new supplier only if the mean strength of their parts is greater than our target value. There is no need for us to distinguish between whether their parts are equally strong or less strong than the target value — either way we'd just stick with our current supplier.
-
-$H_0$: new supplier = target value \
-$H_1$: new supplier > target value 
-
-
-Ex1: We want to know if the battery life is greater than the original after a manufacturing change.
-
-$H_0$: new battery life = original life \
-$H_1$: new battery life > original life
-
-- One-tailed test improve the power of a test, that is correctly reject $H_0$ if the null hypothesis is truly false.
+  Remedy: <span class="env-green">Lower the threshold</span> to reduce false negatives, even if it means more false positives.
 
 ___
 

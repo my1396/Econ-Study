@@ -186,6 +186,7 @@ Note:
 - `'` prime symbol is a shorthand for `^\prime` .
 
 
+<a id="QED-symbol"></a>
 
 **QED**
 
@@ -199,7 +200,7 @@ Unicode characters for geometric shapes: <http://www.unicode.org/charts/nameslis
 
 A numeric character reference uses the format`&#nnnn;` or `&#xhhhh;`. `nnnn` is in decimal form, `hhhh` is in hexadecimal form. The `&#` and `;` are required.
 
-Use `\tag*{\(\square\)}` to avoid QED showing on top of the equation.
+Use <span class="env-green">`\tag*{\(\square\)}`</span> to avoid QED showing on top of the equation.
 
 ```latex
 $$
@@ -211,7 +212,6 @@ $$
 $$
 ```
 
-
 $$
 \begin{align*}
     E\left[g(X)h(Y)\vert Y\right] &= \sum_x g(x) h(y) P(x|y) \\
@@ -220,7 +220,29 @@ $$
   \end{align*}
 $$
 
+--------------------------------------------------------------------------------
 
+Define a new command <span class="env-green">`\qed`</span> to insert the QED quickly
+
+```latex
+% in preamble
+\newcommand{\qed}{\tag*{\(\square\)}}
+
+% in body
+$$
+\begin{equation*}
+    a^2 + b^2 = c^2 \qed
+\end{equation*}
+$$
+```
+
+$$
+\begin{equation*}
+    a^2 + b^2 = c^2 \qed
+\end{equation*}
+$$
+
+--------------------------------------------------------------------------------
 
 ### Sets
 
@@ -553,7 +575,11 @@ $\sup$, $\inf$
 
 - Square brakets: $E\lbrack x \rbrack$ (`E\lbrack x \rbrack`)
 
-- Add whitespace between equations, use `\quad`, `\qquad`, and `\hspace{20pt}` for long space; and  `\;` for short space.
+- Add **whitespace** between equations
+  - Long space: `\quad`, `\qquad`
+  - Short space: `\,` (3 mu), `\:` (4 mu), `\;` (5 mu).
+  - Predefined horizontal space: `\hspace{20pt}` to add horizontal space of 20 points.
+  - `\phantom{...}` to add invisible space of the width of the argument. E.g., $\phantom{abc}$ (`\phantom{abc}`) adds a space of the width of `abc`. → Useful if you don't know the width of the argument, but want to align equations.
 
 - $\min_{\forall s \in S_j} q_k(s)$ (`\min_{\forall s \in S_j} q_k(s)`) text under min/max.
 

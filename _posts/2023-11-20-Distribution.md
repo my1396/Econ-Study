@@ -71,11 +71,11 @@ $$
 The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ identity matrix, is called a standard normal vector, with elements $z_i \sim N(0,1)$ for $i=1,2,\ldots,n$ that are independent standard normal random variables.
 
 <ol>
-  <li> <span style='color:#008B45FF; font-style:italic;'><strong>Chi-squared distribution</strong></span>. The scalar $w=z'z=\sum_{i=1}^n z_i^2 \sim \chi^2(n)$. <br/>
+  <li> <span style='font-style:italic;' class="env-green"><strong>Chi-squared distribution</strong></span>. The scalar $w=z'z=\sum_{i=1}^n z_i^2 \sim \chi^2(n)$. <br/>
 
   The sum of squares of $n$ independent standard normal random variables has <em>chi-squared distribution</em> with $n$ degress of freedom. </li>
 
-  <li> <span style='color:#008B45FF; font-style:italic;'><strong>F-distibution</strong></span>. If the random variables $w_1 \sim \chi^2(m)$ and $w_2 \sim \chi^2(n)$ and $w_1$ and $w_2$ are independent, then the scalar
+  <li> <span style='font-style:italic;' class="env-green"><strong>F-distibution</strong></span>. If the random variables $w_1 \sim \chi^2(m)$ and $w_2 \sim \chi^2(n)$ and $w_1$ and $w_2$ are independent, then the scalar
 
   $$
     v=\frac{w_1/m}{w_2/n} \sim F(m,n)
@@ -123,7 +123,7 @@ The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ ident
 
   </li>
 
-  <li>  <span style='color:#008B45FF; font-style:italic;'><strong>Student t-distribution</strong></span>. If the random variable $z\sim N(0,1)$ and $w\sim \chi^2(n)$ are independent, then the scalar 
+  <li>  <span style='font-style:italic;' class="env-green"><strong>Student t-distribution</strong></span>. If the random variable $z\sim N(0,1)$ and $w\sim \chi^2(n)$ are independent, then the scalar 
 
   $$
     u=\frac{z}{\sqrt{w/n}} \sim t(n)
@@ -135,13 +135,13 @@ The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ ident
     u^2 = \frac{z}{w/n}= \frac{z/1}{w/n} \sim F(1,n)
   $$
 
-  The square of a RV with a $t(n)$ distribution has a $F(1,n)$ distribution. <br/><br/>
+  <span class="env-green">The square of a RV with a $t(n)$ distribution has a $F(1,n)$ distribution.</span> <br/><br/>
 
   $t$-distribution approximates standard normal in the limit. In practice, at a degree of freedom of 30, the $t$-distribution is regarded as closely enough to the standard normal distribution.<br/><br/>
 
   For example, $t_{0.975}(20)=2.086$, $t_{0.975}(40)=2.031$, $t_{0.975}(100)=1.984$. As $df=n-K$ increases, $c_{0.025}(n-K)$ approaches 1.96 from above (as $t$-distribution has fatter tails).<br/><br/>
 
-  That means, in very large samples, we could use the 97.5% percentile of standard normal distibution to obtain the 95% CI.
+  That means, in very large samples, we could use the 97.5% percentile of standard normal distribution to obtain the 95% CI.
 
   </li>
 </ol>

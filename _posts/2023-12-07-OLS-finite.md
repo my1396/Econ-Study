@@ -9,20 +9,6 @@ $$
 \newcommand{\indep}{\perp \!\!\! \perp}
 $$
 
-<head>
-    <style>
-      .boxed {
-        background: #FFFAEE;
-        color: black;
-        border: 1px solid #535353;
-        margin: 0px auto;
-        width: 526px;
-        padding: 10px;
-        border-radius: 10px;
-      }
-    </style>
-</head>
-
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
 ## Conditional Expectation Function
@@ -32,7 +18,7 @@ The conditional mean of logwages given sex, race, and education is a single numb
 For example
 
 $$
-\mathbb{E}\left[\log (\text{wage})\right | \text{sex=man, race=white, education=12}]
+\mathbb{E}\left[\log (\text{wage})\right | \text{ sex=man, race=white, education=12}]
 $$
 
 We formulate a generic function to measure the variation in $\log(wage)$, denoted by the letter $y$, given multiple conditioning variables, such as sex, race, and education, deonoted by the letters $x_1,x_2, \ldots,x_k.$
@@ -41,7 +27,7 @@ $$
 \mathbb{E}[y|x_1,x_2, \ldots,x_k]=m(x_1,x_2, \ldots,x_k) .
 $$
 
-We call this the <span style='color:#008B45FF'>**conditional expectation function** (CEF)</span>. The CEF is a function of $(x_1,x_2, \ldots,x_k)$ as it varies with the variables. 
+We call this the <span class="env-green">**conditional expectation function** (CEF)</span>. The CEF is a function of $(x_1,x_2, \ldots,x_k)$ as it varies with the variables. 
 
 we will typically write the conditioning variables as a vector in $\mathbb{R}^k$:
 
@@ -83,7 +69,7 @@ The notation $m(\boldsymbol{x})=\mathbb{E}(y\vert\boldsymbol{x})$ is informative
 Differences between $\mathbb{E}(y)$ and $\mathbb{E}(y\vert\boldsymbol{x})$
 
 - The unconditional expectation of $y$, $\mathbb{E}(y)$ is just a number. e.g., $\mathbb{E}(y)=2$ or $\mathbb{E}(y)=2$.
-- The conditinoal expectaiont, $\mathbb{E}(y\vert\boldsymbol{x})$, is a number depending on $\boldsymbol{x}$.
+- The conditional expectation, $\mathbb{E}(y\vert\boldsymbol{x})$, is a number depending on $\boldsymbol{x}$.
   - If $\boldsymbol{x}$ has an influence on the value of $y$, then $\boldsymbol{x}$ will have an influence on the average value of $y$.
   - For instance, we would expect $\mathbb{E}(y\vert\boldsymbol{x}=\boldsymbol{u})$ to be different from $\mathbb{E}(y\vert\boldsymbol{x}=\boldsymbol{v})$.
   - We can therefore view $\mathbb{E}(y\vert\boldsymbol{x})$ as a function of $\boldsymbol{x}$, say $\boldsymbol{x}=m(\boldsymbol{x})$.
@@ -627,7 +613,7 @@ In finite sample, we know that error follows normal distribution $u\mid X \sim N
 
     Note that $K$ here is the number of independent variables *including* the intercept. $df$ is essentially the number of observations minus the number of estimated parameters.
 
-    $\hat{\sigma}$ is called the <span style='color:#008B45'>**standard error of the regression**</span> (SER), or standard error of the estimate. The SER is an estimator of the standard deviation of the error term.
+    $\hat{\sigma}$ is called the <span class="env-green">**standard error of the regression**</span> (SER), or standard error of the estimate. The SER is an estimator of the standard deviation of the error term.
 
     Under the Gauss-Markov assumptions 1–5, $\hat{\sigma}^2_{OLS}$ is an **unbiased** estimator of $\sigma^2,$ that is, 
     
@@ -814,7 +800,7 @@ $h_{ii}$ is a normalized length of the observed regressor vector $\bx_i.$ It mea
 
 Eq $\eqref{eq-prediction_error_leave_one_out}$ means that the predicted value $\tilde{y}_i$ is obtained by 
 
-1. First estimate $\bbeta$ on the sample <span style='color:#008B45'>without observation $i:$</span> 
+1. First estimate $\bbeta$ on the sample <span class="env-green">without observation $i:$</span> 
 
     $$
     \begin{split}
@@ -1008,103 +994,6 @@ $$
 $$
 
 The prediction interval $\eqref{eq-forecast_interval}$ is often much wider than the regression interval $\eqref{eq-regression_interval}$ because of the regression error $\hat{\sigma}^2.$
-
-___
-
-## Partitioned Regression
-
-Partition 
-
-$$
-\bX = \begin{bmatrix} \bX_1 & \bX_2
-\end{bmatrix}
-$$
-
-and 
-
-$$
-\bbeta = \begin{bmatrix} \bbeta_1 \\ \bbeta_2
-\end{bmatrix} .
-$$
-
-Then the regression model can be rewritten as
-
-$$
-\begin{align} \label{eq-partition}
-\by = \bX_1\bbeta_1 + \bX_2\bbeta_2 + \bu .
-\end{align}
-$$
-
-The least-squares estimator $(\hat{\bbeta}_1, \hat{\bbeta}_2)$ has the algebraic solution
-
-$$
-\begin{aligned}
-\hat{\bbeta}_1 &= (\bX_1'\bM_2\bX_2)^{-1}(\bX_1'\bM_2\by)  \\
-\hat{\bbeta}_2 &= (\bX_2'\bM_1\bX_1)^{-1}(\bX_2'\bM_1\by)  \\
-\end{aligned}
-$$
-
-where 
-
-$$
-\bM_1 = \mathbf{I}_n - \bX_1(\bX_1'\bX_1)^{-1}\bX_1'
-$$
-
-is the orthogonal projection matrix (residual maker) for $\bX_1,$ and 
-
-$$
-\bM_2 = \mathbf{I}_n - \bX_2(\bX_2'\bX_2)^{-1}\bX_2'
-$$
-
-is the orthogonal projection matrix (residual maker) for $\bX_2.$ 
-
-Since the residual make is idempotent, $\bM_1 = \bM_1\bM_1$ and thus
-
-$$
-\begin{split}
-\hat{\bbeta}_2 &= (\bX_2'\bM_1\bX_1)^{-1}(\bX_2'\bM_1\by) \\
-&= (\bX_2'\bM_1\bM_1\bX_1)^{-1}(\bX_2'\bM_1\bM_1\by) \\
-&= (\widetilde{\bX}_2'\widetilde{\bX})^{-1} (\widetilde{\bX}_2' \widetilde{\bu}_1)
-\end{split}
-$$
-
-where
-
-$$
-\widetilde{\bX}_2 = \bM_1 \bX_2, 
-$$
-
-the columns of $\bX_2$ are the least-squares residuals from the regressions of the columns of $\bX_2$ on $\bX_1.$ And
-
-$$
-\widetilde{\bu}_1 = \bM_1\by ,
-$$
-
-which is the least-squares residual from a regression of $\by$ on $\bX_1.$
-
-<div class = "boxed">
-<strong>Frisch-Waugh-Lovell (FWL) Theorem</strong> <br/>
-
-In the model $\eqref{eq-partition},$ the OLS estimator of $\bbeta_2$ and the OLS residuals $
-\hat{\bu}$ may be computed via the following algorithm:
-<ol>
-<li>Regress $\by$ on $\bX_1,$ obtain the residuals $\widetilde{\bu}_1$; </li>
-<li>Regress $\bX_2$ on $\bX_1,$ obtain the residuals $\widetilde{\bX}_2$; </li>
-<li>Regress $\widetilde{\bu}_1$ on $\widetilde{\bX}_2$, obtain the OLS estimates $\bbeta_2$ and residuals $\hat{\bu}$. </li>
-</ol>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
