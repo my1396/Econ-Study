@@ -75,7 +75,7 @@ The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ ident
 
   The sum of squares of $n$ independent standard normal random variables has <em>chi-squared distribution</em> with $n$ degress of freedom. </li>
 
-  <li> <span style='font-style:italic;' class="env-green"><strong>F-distibution</strong></span>. If the random variables $w_1 \sim \chi^2(m)$ and $w_2 \sim \chi^2(n)$ and $w_1$ and $w_2$ are independent, then the scalar
+  <li> <span style='font-style:italic;' class="env-green"><strong>F-distribution</strong></span>. If the random variables $w_1 \sim \chi^2(m)$ and $w_2 \sim \chi^2(n)$ and $w_1$ and $w_2$ are independent, then the scalar
 
   $$
     v=\frac{w_1/m}{w_2/n} \sim F(m,n)
@@ -117,7 +117,7 @@ The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ ident
   $$
 
   <div>
-  proving the desired result.   <span style="float:right">$\square$</span>
+  proving the desired result. <span style="float:right">$\square$</span>
   </div>
 
 
@@ -135,13 +135,26 @@ The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ ident
     u^2 = \frac{z}{w/n}= \frac{z/1}{w/n} \sim F(1,n)
   $$
 
-  <span class="env-green">The square of a RV with a $t(n)$ distribution has a $F(1,n)$ distribution.</span> <br/><br/>
+  <hr>
+  
+  <strong>Relationships between the $t$-distribution and other distributions:</strong> <br/>
+    <ul>
+      <li><span class="env-green">The square of a RV with a $t(n)$ distribution has a $F(1,n)$ distribution.</span> <br/>
 
-  $t$-distribution approximates standard normal in the limit. In practice, at a degree of freedom of 30, the $t$-distribution is regarded as closely enough to the standard normal distribution.<br/><br/>
+      $$
+      (t_n)^2 = F(1,n)
+      $$
+      </li>
 
-  For example, $t_{0.975}(20)=2.086$, $t_{0.975}(40)=2.031$, $t_{0.975}(100)=1.984$. As $df=n-K$ increases, $c_{0.025}(n-K)$ approaches 1.96 from above (as $t$-distribution has fatter tails).<br/><br/>
+      <li><span class="env-green">$t$-distribution approximates standard normal in the limit.</span> <br>
+      
+      In practice, when degrees of freedom > 30, the $t$-distribution is regarded as closely enough to the standard normal distribution.<br/><br/>
 
-  That means, in very large samples, we could use the 97.5% percentile of standard normal distribution to obtain the 95% CI.
+      For example, $t_{0.975}(20)=2.086$, $t_{0.975}(40)=2.031$, $t_{0.975}(100)=1.984$. As $df=n-K$ increases, $c_{0.025}(n-K)$ approaches 1.96 from above (as $t$-distribution has fatter tails).<br/><br/>
+
+      That means, in very large samples, we could use the 97.5% percentile of standard normal distribution to obtain the 95% CI.
+      </li>
+    </ul>
 
   </li>
 </ol>
