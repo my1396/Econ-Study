@@ -581,7 +581,7 @@ $\sqrt[3]{8}$: the cube root of $8$.
 
 $\sqrt[n]{b}$: the $n$-th root of $b$.
 
-$e^x$: take the exponential of $x$ or apply the exponential function to $x$.
+$e^x$: take the exponential of $x$ *or* apply the exponential function to $x$.
 
 *Scientific e notation*:  Because superscript exponents like $10^7$ can be inconvenient to display or type, the letter "E" or "e" (for "exponent") is often used to represent "times ten raised to the power of", so that the notation m E n for a decimal significand m and integer exponent n means the same as $m \times 10^n$. E.g., $6\times 10^7$ can be written as 6e7.
 
@@ -590,7 +590,9 @@ $e^x$: take the exponential of $x$ or apply the exponential function to $x$.
 
 Note that e notation is often used in computer programs display. It is not suggested for published documents.
 
-对数 (logarithm)
+---
+
+<span class="env-green">对数 (logarithm)</span>
 
 $\log_b x$: the logarithm of $x$ to base $b$.
 
@@ -617,6 +619,7 @@ When the logarithms have the same base, the following rules apply:
   \log_b(x^r) = r \log_b x
   $$
 
+---
 
 1 micrometer = $10^{-6}$ meter
 
