@@ -2787,14 +2787,17 @@ på + språk → in (a language)
 
 på norsk → in Norwegian
 
-| Norsk              | English                            |
-| ------------------ | ---------------------------------- |
-| et forsprang på noe(n) | an advantage over sth/sb       |
+| Norsk                  | English                       |
+| ---------------------- | ----------------------------- |
+| et forsprang på noe(n) | an advantage over sth/sb      |
 
 - Jeg fikk et forsprang på ham.  
   → I got an advantage over him.
 - Forspranget på Arbeiderpartiet øker.  
   → The lead over the Labour Party is increasing.
+
+en gruppe/gjeng/flokk **på** 10 personer → a group of 10 people
+
 
 --------------------------------------------------------------------------------
 

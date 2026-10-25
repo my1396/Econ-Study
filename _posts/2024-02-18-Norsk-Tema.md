@@ -1199,50 +1199,52 @@ Myndighetene prøver å begrense smitte av influensa. → The authorities try to
 
 相同的词还有 sykefravær, sykemelding, sykehus, sykepleier
 
-| Norsk                                  | English                            |
-| -------------------------------------- | ---------------------------------- |
-| fysisk helse                           | physical health                    |
-| psykisk helse                          | mental health                      |
-| lidelse                                | suffering, pain, agony             |
-| sykdom                                 | illness, disease                   |
-| folkesykdommer                         | common diseases, widespread diseases |
-| livsstilssykdommer | sykdommer man får som et resultat av livet man lever   |
-| karsykdommer                           | cardiovascular diseases 心血管疾病 |
-| kreft                                  | cancer 癌症                        |
-| diabetes                               | diabetes 糖尿病                    |
-| smerte                                 | pain                               |
-| hals                                   | throat                             |
-| sår hals                               | sore throat 嗓子痛                 |
-| tett nese                              | stuffy nose 鼻塞                   |
-| <a href="#cold">forkjølelse</A>        | cold 感冒                          |
-| influensa                              | flu 流感                           |
-| feber                                  | fever 发烧                         |
-| hoste                                  | cough 咳嗽                         |
-| kvalme                                 | nausea 恶心                        |
-| svimmelhet                             | dizziness 头晕                     |
-| diaré [diarˈe]                         | diarrhea 腹泻                      |
-| munnsår                                | canker sore 口腔溃疡               |
-| forkjølelsessår                        | cold sore 唇疱疹                   |
-| muskelsmerter                          | muscle pain                        |
-| hodepine                               | headache                           |
-| halsbrann                              | heartburn 胃酸回流，胃灼热         |
-| fedme / overvekt                       | obesity                            |
-| overvektig                             | overweight                         |
-| Du har gått opp/ned mye i vekt.        | You have gained/lost a lot of weight. |
-| tykk, tykt, tykke                      | thick, fat                         |
-| tynn                                   | thin, slim                         |
-| i tykt og tynt                         | through thick and thin 风雨同舟，同甘共苦|
-| vektnedgang / vekttap                  | weight loss                        |
-| metthet                                | satiety /səˈtaɪəti/, fullness      |
-| ernæring / næring                      | nutrition                          |
-| en kur                                 | a cure, treatment                  |
-| et kjerringråd                         | a home remedy, folk medicine       |
-| vondt                                  | pain, ache                         |
-| å ha vondt i magen/kroppen             | to have pain in the stomachache/body |
+| Norsk                   | English                            |
+| ----------------------- | ---------------------------------- |
+| fysisk helse            | physical health                    |
+| psykisk helse           | mental health                      |
+| lidelse                 | suffering, pain, agony             |
+| sykdom                  | illness, disease                   |
+| folkesykdommer          | common diseases, widespread diseases |
+| livsstilssykdommer      | sykdommer man får som et resultat av livet man lever   |
+| karsykdommer            | cardiovascular diseases 心血管疾病 |
+| kreft                   | cancer 癌症                        |
+| diabetes                | diabetes 糖尿病                    |
+| smerte                  | pain                               |
+| hals                    | throat                             |
+| sår hals                | sore throat 嗓子痛                 |
+| tett nese               | stuffy nose 鼻塞                   |
+| <a href="#cold">forkjølelse</A> | cold 感冒                  |
+| influensa               | flu 流感                           |
+| feber                   | fever 发烧                         |
+| hoste                   | cough 咳嗽                         |
+| kvalme                  | nausea /ˈnɔːziə/ 恶心              |
+| oppkast                 | vomiting  呕吐                     |
+| svimmelhet              | dizziness 头晕                     |
+| diaré [diarˈe]          | diarrhea 腹泻                      |
+| munnsår                 | canker sore 口腔溃疡               |
+| forkjølelsessår         | cold sore 唇疱疹                   |
+| muskelsmerter           | muscle pain                        |
+| magesmerter             | stomachache 胃痛                   |
+| hodepine                | headache                           |
+| halsbrann               | heartburn 胃酸回流，胃灼热         |
+| fedme / overvekt        | obesity                            |
+| overvektig              | overweight                         |
+| Du har gått opp/ned mye i vekt. | You have gained/lost a lot of weight. |
+| tykk, tykt, tykke       | thick, fat                         |
+| tynn                    | thin, slim                         |
+| i tykt og tynt          | through thick and thin 风雨同舟，同甘共苦|
+| vektnedgang / vekttap   | weight loss                        |
+| metthet                 | satiety /səˈtaɪəti/, fullness      |
+| ernæring / næring       | nutrition                          |
+| en kur                  | a cure, treatment                  |
+| et kjerringråd          | a home remedy, folk medicine       |
+| vondt                   | pain, ache                         |
+| å ha vondt i magen/kroppen | to have pain in the stomachache/body |
 | en smerte, smerten, smerter, smertene  | a pain                             |
-| å slanke seg                           | to be on a diet                    |
-| å gå ned i vekt                        | to lose weight                     |
-| spiseforstyrrelser                     | eating disorders 饮食失调           |
+| å slanke seg            | to be on a diet                    |
+| å gå ned i vekt         | to lose weight                     |
+| spiseforstyrrelser      | eating disorders 饮食失调          |
 
 减肥反弹 
 

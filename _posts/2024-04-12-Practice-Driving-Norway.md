@@ -477,7 +477,10 @@ For **Nordland, Troms og Finnmark** gjelder kravet til minimum 3 millimeter møn
 
 <a href="{{site.baseurl}}/2024/04/11/CorollaManual.html#tire-pressure">Initializing the tire pressure warning system (TWPS)</a>
 
+<a href="{{site.baseurl}}/2024/04/11/CorollaManual.html#更换冬夏令时">更换冬夏令时</a>
+
 <a href="{{site.baseurl}}/2024/04/11/CorollaManual.html#tire-rotation">Tire Rotation</a>
+
 
 ## Dekkhotell
 
@@ -493,11 +496,13 @@ Per year, 2400 kr.
 
 
 
-**Vianor**
+[**Vianor**](https://vianor.no/dekkverksted/dekkhotell/)
 
 1150 kr per dekksesong
 
-<https://vianor.no/dekkverksted/dekkhotell/>
+Puron
+
+Free tyre change for the first season.
 
 
 --------------------------------------------------------------------------------

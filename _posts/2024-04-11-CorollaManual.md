@@ -90,13 +90,13 @@ F 显示变更按钮
 
 ### 指示警告灯
 
-| Light                                                        | Meaning                                                      |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="https://drive.google.com/thumbnail?id=1n3xMcswZBBcUQEDn3AhFwutPcQ6vaaeH&sz=w1000" alt="电动转向" style="zoom:40%;" /> | 电动转向系统警告灯                                           |
-| <img src="https://drive.google.com/thumbnail?id=1HnrrD008hLh8cyn5GDhjnwdvktMJ13bo&sz=w1000" alt="打滑" style="zoom:15%;" /> | 打滑指示灯                                                   |
-| <img src="https://drive.google.com/thumbnail?id=1iLc6E9sRimlfNh84rMBn1VzzatwmL9hj&sz=w1000" alt="PCS 警告灯" style="zoom:35%;" /> | PCS 警告灯                                                   |
-| <img src="https://drive.google.com/thumbnail?id=1Ec_oVF6wwb-nnGt-EDkqLrzg88DR3qZm&sz=w1000" alt="巡航" style="zoom:37%;" /> | 巡航控制指示灯                                               |
-| <img src="https://drive.google.com/thumbnail?id=1hQDa4HNtCG6BRvqi6VahFzeTsVxhjGtl&sz=w1000" alt="轮胎压力警示灯" style="zoom:50%;" /> | 轮胎压力警告灯<br />此灯闪烁时：轮胎压力警告系统存在故障。<br />此灯点亮时：1. 自然原因 2. 轮胎泄气 立即将车辆停在安全地点。 |
+| Light                 | Meaning                       |
+| --------------------- | ----------------------------- |
+| <img src="https://drive.google.com/thumbnail?id=1n3xMcswZBBcUQEDn3AhFwutPcQ6vaaeH&sz=w1000" alt="电动转向" style="zoom:40%;" /> | 电动转向系统警告灯 |
+| <img src="https://drive.google.com/thumbnail?id=1HnrrD008hLh8cyn5GDhjnwdvktMJ13bo&sz=w1000" alt="打滑" style="zoom:15%;" /> | 打滑指示灯  |
+| <img src="https://drive.google.com/thumbnail?id=1iLc6E9sRimlfNh84rMBn1VzzatwmL9hj&sz=w1000" alt="PCS 警告灯" style="zoom:35%;" /> | PCS 警告灯  |
+| <img src="https://drive.google.com/thumbnail?id=1Ec_oVF6wwb-nnGt-EDkqLrzg88DR3qZm&sz=w1000" alt="巡航" style="zoom:37%;" /> | 巡航控制指示灯  |
+| <img src="https://drive.google.com/thumbnail?id=1hQDa4HNtCG6BRvqi6VahFzeTsVxhjGtl&sz=w1000" alt="轮胎压力警示灯" style="zoom:50%;" /> | 轮胎压力警告灯<br />此灯<span class="env-green">闪烁</span>时：轮胎压力警告系统存在故障。 → 可能是压力警告阀和发射器有问题。联系您的丰田汽车经销商检查此系统。<br />此灯<span class="env-orange">常亮</span>时：1. 自然原因 2. 轮胎泄气 → 立即将车辆停在安全地点。 |
 
 
 
@@ -142,6 +142,15 @@ Check user manual: Do-it-yourself maintenance -- Tires pp. 543
 
 ### 初始化轮胎压力警告系统 
 
+TPWS: Tire Pressure Warning System
+
+**胎压**
+
+前胎: 230 kPA  
+后胎: 210 kPA
+
+前胎高于后胎; 高速行使，需要更高的胎压。
+
 在下列情况下，必须初始化轮胎压力警告系统:
 
 - 对前后轮胎进行换位且前后轮胎气压不同时。
@@ -161,18 +170,42 @@ Check user manual: Do-it-yourself maintenance -- Tires pp. 543
 
 5. 按下 &and; 或者 &or; 选择 “车辆设定” (Vehicle Settings)，按下 OK
 
-6. 按下 &and; 或者 &or; 选择 “TPWS”，按下 OK
+6. 按下 &and; 或者 &or; 选择 “<span class="env-green">TPWS</span>”，按下 OK
 
 7. 按下 &and; 或者 &or; 选择 “设置轮胎气压” (Set Pressure)，按下 OK 直至<span class="env-green">轮胎压力警告灯闪烁3次</span>。
    
    <img src="{{site.baseurl}}/images/TPWS tire pressure.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
-8. 以约 40 km/h 或更高速度直线行驶 (偶尔左右转向)约 10至30分钟。
+8. 以约 40 km/h 或更高速度直线行驶 (偶尔左右转向) 约 10 至 30 分钟。
 
    各轮胎位置确定且多信息显示屏上显示各轮胎气压时，初始化完成。
-   在某些情形下(如车辆等红绿灯而长时间停车时)，初始化时间可能超过约1小时。
+   在某些情形下 (如车辆等红绿灯而长时间停车时)，初始化时间可能超过约1小时。
+
+**注册 ID 代码**
+
+每个轮胎压力警告阀和发射器具有唯一的 ID 代码。更换轮胎压力警告阀和发射器时，必须注册 ID 代码。
+
+前6步同初始化轮胎压力警告系统, 第七步选择 "变更轮组"。按下 OK 直至轮胎压力警告灯闪烁3次。以约 40 km/h 或更高速度直线行驶 (偶尔左右转向) 约 10 至 30 分钟。
+
+- 先注册 ID 代码，再初始化轮胎压力警告系统。
+- 注册完成时轮胎温度较高，确保先降温后再进行初始化。
+
+
+---
+
+<a id="更换冬夏令时"></a>
+
+**更换冬夏令时**
+
+1. Press the "SETUP" button on the multi-information display.
+2. Select "General" → "Clock" 
+3. Toggle "<span class="env-green">Daylight Saving Time</span>" to "ON" or "OFF" as appropriate.
+   
+   <img src="{{site.baseurl}}/images/Corolla Clock Setting.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
 
 <a id="tire-rotation"></a>
+
+---
 
 ### 轮胎换位
 
@@ -184,6 +217,7 @@ Check user manual: Do-it-yourself maintenance -- Tires pp. 543
 
 为确保轮胎磨损均匀并延长其使用寿命，丰田公司建议每行驶约 <span class="env-green">10,000 km 进行一次轮胎换位</span>。
 对前后轮胎进行换位且前后轮胎气压不同时，换位后，请务必初始化轮胎压力警告系统。
+
 
 
 
