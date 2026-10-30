@@ -502,6 +502,12 @@ Ref:
 
 - [delitemwithatt](https://github.com/redleafnew/delitemwithatt): Delete item with attachments. By default, when you delete an item, the attachments are not deleted. This plugin allows you to delete the attachments together with the item.
 
+- [Scihub](https://github.com/ethanwillis/zotero-scihub) Download pdf from Sci-Hub or Sch-Net.
+  
+  By default, it will download pdfs when you add a new item in the library. You can disable this feature in the plugin settings.
+
+  Right-click, a context menu titiled "Update Schihub PDF", click it to download the pdf.
+
 **AI plugins** (not tested yet):
 
 - [Aria](https://github.com/lifan0127/ai-research-assistant)

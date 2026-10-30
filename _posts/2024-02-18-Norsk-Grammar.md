@@ -3599,6 +3599,9 @@ større forskjeller = bigger differences
 flere valg = more choices  
 flere alternativer = more alternatives
 
+更多形容词不规则形变见<a href="{{site.baseurl}}/2024/02/18/Norsk-Liv.html#比较级和最高级">此处</a>。
+
+
 --------------------------------------------------------------------------------
 
 ### Sjanse
