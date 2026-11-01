@@ -181,11 +181,15 @@ You can use the same method to install other Zotero plugins.
 
 --------------------------------------------------------------------------------
 
-**How to export bibtex items**
+<span class="env-green">**How to export bibtex items**</span>
 
 1. Select the references you want to export in Zotero
-2. Right click > Better BibTeX > Copy <span class="env-green">BibTeX</span> to Clipboard
+2. Right-click > Better BibTeX > Copy <span class="env-green">BibTeX</span> to Clipboard
 3. Paste the content into a `.bib` file
+
+
+Q: Difference btw BibTeX and BibLaTeX?  
+A: Slightly different keys. E.g., BibLaTeX uses `journaltitle` instead of `journal`, `date` instead of `year`, etc. Usually, BibTeX is preferred.
 
 --------------------------------------------------------------------------------
 
@@ -518,17 +522,54 @@ AI research assistant:
 
 --------------------------------------------------------------------------------
 
-## VS Code LaTeX
+## VS Code Plugins
 
-[VSCode Zotero](https://marketplace.visualstudio.com/items?itemName=jinvim.vscode-zotero) extension allows you to insert citations and bibliographies into your LaTeX document using Zotero.
+### VSCode Zotero
 
-- Insert citation: <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>r</kbd>
+[VSCode Zotero](https://marketplace.visualstudio.com/items?itemName=jinvim.vscode-zotero) extension by Jinvim allows you to insert citations and bibliographies into your LaTeX document using Zotero.
+
+Advantage: locate `*.bib` intelligently.
+
+- 🔥 <span class="env-green">Search Library</span> (`zotero.searchLibrary`): <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>r</kbd>
+  
+  Use the keyborard shortcut to start a search window in Zotero. This is more convenient than using the Command Palette. You can preview all libraries. After hitting <kbd>Enter</kbd>, the cite key together with the citation command will be inserted at the cursor position in your LaTeX document. `bib` entry will be automatically added to `*.bib` file of your project if it does not exist already. See [below](#Zotero-bib-file) for locations the extension searches for `*.bib` file.
+
+  <img src="https://raw.githubusercontent.com/jinvim/vscode-zotero/refs/heads/main/resources/fig1.gif" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" /> 
+  
+  Alternative approach: Command Palette > `Zotero: Search Library` → This will start a search in the Command Palette; won't show your library; only add the cite key to your document.
+
+  1. Items in local Zotero library will be shown in Quick Picks.
+  2. Search for the item you want to cite, select it, hit <kbd>Enter</kbd>. 
+     
+     - The key of the selected item will be inserted at the cursor position in your LaTeX document.
+
+     - The bib entry will be automatically added to `*.bib` file of your project.
+       
+       <a id="Zotero-bib-file"></a>
+       The extension <span class="env-green">searches `*.bib` file in the following order</span>:
+       
+       1.  `*.bib` file in `quarto` or `latex` file header (for quarto, this includes `_quarto.yml`)
+       2.  `bibliography.bib` or `references.bib` file in the workspace root directory
+       3.  Any `*.bib` file in the workspace root directory.
+       4.  If none of above is available, ask user to provide path, or create a new one (you still need to add the file to `quarto` or `latex` header).
+
+
 - Open Zotero entry under cursor: <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>o</kbd>
+  
+  This will open the citation's linked pdf file.
+
 - Tidy up `.bib` file: <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>t</kbd>
   
-  
+  This clear unused entries; add missing bib entries that are used in the manuscript but not in the `.bib` file; sort entries alphabetically
+
+--------------------------------------------------------------------------------
+
+### Zotero Cite
+
+[Zotero Cite](https://marketplace.visualstudio.com/items?itemName=XING.zotero-cite) by Xing
 
 
+<span class="env-orange">One drawback:</span> not intelligent enough to locate my bib file. It defaults to `ref.bib`. When I change the bib file name, the extension still does not recognize it.
 
 --------------------------------------------------------------------------------
 
