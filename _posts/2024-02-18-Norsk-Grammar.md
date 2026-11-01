@@ -1235,6 +1235,13 @@ Stop oneself from acting too strongly
    Det egner seg ikke å diskutere dette nå.   
    → It is not suitable to discuss this now.
 
+
+| Norsk              | English                               |
+| ------------------ | ------------------------------------- |
+| å grue seg til noe | to dread sth; to be anxious about sth |
+| å kvie seg for å gjøre noe | to be reluctant to do sth, to hesitate to do sth |
+
+
 --------------------------------------------------------------------------------
 
 
@@ -2159,7 +2166,7 @@ Han er flink i matematikk. → He is good at math.
 | å grue seg til       | dread, be anxious about         |
 | å venne seg til      | get used to                     |
 
-Jeg gruer meg til eksamen  → I dread the exam.
+Jeg gruer meg til eksamen.  → I dread the exam.
 
 --------------------------------------------------------------------------------
 
@@ -3058,7 +3065,7 @@ Vi har bestemt oss for å flytte.
 | Norsk                            | English                            |
 | -------------------------------- | ---------------------------------- |
 | å forberede seg for å gjøre noe  | prepare to do sth                  |
-| å kvie seg for å gjøre noe       | be reluctant to do sth             |
+| å <span class="env-green">kvie</span> seg for å gjøre noe | be reluctant to do sth  |
 
 - Noen *kvier seg for å* søke hjelp når de har psykiske problemer.  
   → Some are reluctant to seek help when they have mental health issues.
