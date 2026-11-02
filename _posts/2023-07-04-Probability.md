@@ -654,9 +654,14 @@ $$
 More generally, for $a_i\in \mathbb{R}, i=1,\ldots,n$, we conclude:
 
 $$
-\color{#008B45} \text{Var}\left(\sum_{i=1}^n a_iX_i \right) = 
-\sum_{i=1}^n a_i^2 \text{Var}(X_i) + \sum_{i=1}^n\sum_{j=1}^n a_ia_j \text{Cov}(X_i, X_j).
+\begin{split}
+\color{#008B45} \text{Var}\left(\sum_{i=1}^n a_iX_i \right) 
+= \sum_{i=1}^n\sum_{j=1}^n a_ia_j \text{Cov}(X_i, X_j) \\
+= \sum_{i=1}^n a_i^2 \text{Var}(X_i) + 2\sum_{i<j} a_ia_j \text{Cov}(X_i, X_j).
+\end{split}
 $$
+
+$\sum_{i<j}$ means the sum is taken over all pairs $(i,j)$ such that $i<j$.
 
 Or equivalently, 
 
