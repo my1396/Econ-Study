@@ -551,7 +551,7 @@ E[\varepsilon_t | \mathcal F_{t-1}]
 \end{split}
 $$
 
-<div style='margin-top:-1em; margin-bottom:3em'><span style='float:right; margin-right:10px; '>&#9633;</span></div>
+<div style='margin-top:-1em; margin-bottom:3em' markdown="0"><span style='float:right; margin-right:10px; '>&#9633;</span></div>
 
 
 **Useful properties of a MDS**:

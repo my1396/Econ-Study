@@ -53,7 +53,7 @@ Setningsadverbial examples:
   - Derimot, kaldt vann fryser magen. (逗号 + 正常语序) → 更正式，konvensjonell språkbruk
   
   
-  <div style="height:6px;"><br></div>
+  <div style="height:6px;" markdown="0"><br></div>
   > Adverbial med komma før en helsetning er vanskeligere å forklare, men helt normal og konvensjonell språkbruk.  
   >
   > Adverbialet fungerer som et slags bindeledd, men det må være komma etter på grunn av at det begynner en helsetning etter.  

@@ -1043,9 +1043,19 @@ figure {
   margin-right: auto; 
   margin-left: auto;
 }
+.post-content {
+  counter-reset: figure; /* restart figure numbering in each post */
+}
 figcaption {
   font-size: 100%;
   text-align: justify;
+  margin-top: 0.4em;
+  opacity: 0.85; /* muted; follows the current text color in light and dark mode */
+  counter-increment: figure; /* count captions, not figures: code blocks are <figure> too */
+}
+figcaption::before {
+  content: "Fig. " counter(figure) ": "; /* e.g. "Fig. 1: " */
+  font-weight: bold;
 }
 
 /**

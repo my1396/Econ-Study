@@ -16,6 +16,7 @@ highlighter:
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  parse_block_html: true # allow markdown inside HTML block tags
 
 # Sass configuration
 sass:

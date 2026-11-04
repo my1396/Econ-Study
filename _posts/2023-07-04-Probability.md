@@ -1671,7 +1671,7 @@ The ROC curve is drawn by calculating the true positive rate (TPR) and false pos
 
 A perfect model, which at some threshold has a TPR of 1.0 and a FPR of 0.0, can be represented by either a point at (0, 1) if all other thresholds are ignored, or by the following:
 
-<figure style="text-align: center;">
+<figure style="text-align: center;" markdown="0">
 <img src="https://developers.google.com/static/machine-learning/crash-course/images/auc_1-0.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
 <figcaption>ROC and AUC of a hypothetical perfect model. Source: <a href="https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc#:~:text=The%20ROC%20curve%20is%20a,holdover%20from%20WWII%20radar%20detection.">Machine Learning, Google for Developers.</a> </figcaption>
 </figure>
@@ -1685,7 +1685,7 @@ Toggle thresholds and see how metrics and ROC curve change:
 
 The area under the ROC curve (AUC) represents the probability that the model, if given a randomly chosen positive and negative example, will rank the positive higher than the negative.
 
-<figure style="text-align: center;">
+<figure style="text-align: center;" markdown="0">
 <img src="https://developers.google.com/static/machine-learning/crash-course/images/auc_0-5.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:100%;" />
 <figcaption>ROC and AUC of completely random guesses.</figcaption>
 </figure>
@@ -1695,7 +1695,7 @@ For a binary classifier, a model that does exactly as well as random guesses or 
 
 The points on a ROC curve closest to (0,1) represent a range of the best-performing thresholds for the given model.
 
-<figure style="text-align: center;">
+<figure style="text-align: center;" markdown="0">
 <img src="https://developers.google.com/static/machine-learning/crash-course/images/auc_abc.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:100%;" />
 <figcaption>Three labeled points representing thresholds.</figcaption>
 </figure>

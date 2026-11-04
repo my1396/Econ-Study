@@ -123,9 +123,9 @@ Code snippet（begin with two colons `::`）
 - `cs_green`: html colored span, green
 - `cs_orange`: html colored span, orange
 
-<figure style="text-align: center;">
+<figure style="text-align: center;" markdown="0">
   <img src="https://drive.google.com/thumbnail?id=1U10XBFzhE2_T14l81VoV7X17o4qtvlBf&sz=w1000" alt="Alfred Snippets" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
-  <figcaption>Fig Source: @Brooke Kuhlmann, <a href="https://alchemists.io/articles/alfred_snippets">Alfred Snippets</a>.</figcaption>
+  <figcaption>Source: @Brooke Kuhlmann, <a href="https://alchemists.io/articles/alfred_snippets">Alfred Snippets</a>.</figcaption>
 </figure>
 
 --------------------------------------------------------------------------------

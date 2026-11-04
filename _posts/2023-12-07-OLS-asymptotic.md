@@ -190,7 +190,7 @@ $$
 \sqrt{n} (\hat{\beta}-\beta) \xrightarrow{d} N(0, M_{XX}^{-1} M_{X\Omega X} M_{XX}^{-1}).
 $$
 
-<div style='margin-top:-2em; margin-bottom:3em'><span style='float:right; margin-right:10px; '>&#9633;</span></div>
+<div style='margin-top:-2em; margin-bottom:3em' markdown="0"><span style='float:right; margin-right:10px; '>&#9633;</span></div>
 
 
 Multiplying $(\hat{\beta}-\beta)$ by $\sqrt{n}$ is a stabilizing transformation — i.e., the moments do not depend on $n$.
@@ -199,7 +199,7 @@ Multiplying $(\hat{\beta}-\beta)$ by $\sqrt{n}$ is a stabilizing transformation 
 - stabilize the mean: $\text{E}[\sqrt{n}(\hat{\beta}-\beta)] = 0$
 
 <div class = "boxed">
-<div id="CLT random vector"><strong>CLT for random vectors</strong></div>
+<div id="CLT random vector" markdown="0"><strong>CLT for random vectors</strong></div>
 
 Suppose that $z_1, \ldots, z_n$ are iid distributed $K\times 1$ random vectors, with $E(z_i)=\mu$ and $\text{Var}(z_i)=\Sigma$ finite. <br/>
 

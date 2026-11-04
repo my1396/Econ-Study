@@ -31,9 +31,9 @@ $$
 
 Figure 1 shows the $\Phi$ and $\phi$ functions.
 
-<figure> 
+<figure markdown="0">
 <img src="https://drive.google.com/thumbnail?id=1nxfdIKXgZvOqXVSeA3h_hf0yxmsM361l&sz=w1000" alt="Phi_b" style="display: block; margin-right: auto; margin-left: auto; zoom:80%; background-color: white; " />
-<figcaption>Fig.1 The $\Phi$ and $\phi$ (aka. $f_Z(.)$) functions (CDF and pdf of standard normal).</figcaption>
+<figcaption >The $\Phi$ and $\phi$ (aka. $f_Z(.)$) functions (CDF and pdf of standard normal).</figcaption>
 </figure>
 
 
@@ -83,13 +83,13 @@ The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ ident
 
   The ratio of two independent chi-squared random variables, each divided by their respective degrees of freedom, has a <em>F-distribution</em>.
 
-  <div style="height:12px;"><br></div>
+  <div style="height:12px;" markdown="0"><br></div>
 
   <div class = "boxed"> 
   <strong>Theorem</strong>  If $v \sim F(m,n)$, the limiting distribution of $mv$ as $n\to\infty$ is the $\chi^2(m)$.
   </div>
 
-  <div style="height:12px;"><br></div>
+  <div style="height:12px;" markdown="0"><br></div>
 
   Proof: 
   $$
