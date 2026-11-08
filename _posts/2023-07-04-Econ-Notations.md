@@ -26,6 +26,13 @@ Blackboard bold 黑板粗体 (`\mathbb`) is often used to denote **sets of numbe
 
 - $E\left[\abs{Z_t}\right]<\infty$ means the expected value of the absolute value of $Z_t$ is finite.
 
+倍数的描述
+
+- $X=1.5Y:$ X is 1.5 times Y; X is 1.5 times as large as Y; X is 50% larger than Y
+
+- $X=2Y$: X is two times Y; X is two times as large as Y;
+
+- $X=2.58Y:$ X is 2.58 times Y; X is 2.58 times as large as Y; X is 1.58 (2.58–1) times larger than Y
 
 ___
 
