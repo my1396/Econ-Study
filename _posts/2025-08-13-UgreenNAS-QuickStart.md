@@ -199,6 +199,7 @@ ref: [绿联云移动端文件管理][]
 
 UGOS Pro 的同步功能支持在本地绿联云与远程绿联云之间进行数据同步。这意味着无论您在哪一台设备上更新数据，其他设备都能自动获取最新版本，保证数据一致性并避免冲突。此外，系统的备份功能让您可以灵活选择备份目标，包括本地绿联云、文件服务器、PC 电脑，甚至是移动设备 (如智能手机)。这种多样化的备份选项确保您的数据在各种使用场景下都能得到安全存储，并且可以随时恢复。
 
+
 <figure style="display: flex; flex-direction: column; align-items: center; text-align: center;" markdown="0">
 <img src="https://drive.google.com/thumbnail?id=1Q6Q8Wh4uI66H0dG_kN3DmcadQK7v3HKz&sz=w1000" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
 <figcaption> NAS 同步功能图示。</figcaption>
