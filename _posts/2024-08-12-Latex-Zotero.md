@@ -524,19 +524,44 @@ AI research assistant:
 
 ## VS Code Plugins
 
+### Zotero Cite
+
+[Zotero Cite](https://marketplace.visualstudio.com/items?itemName=XING.zotero-cite) by Xing
+
+Add keyboard shortcut (⌃⌘R) to insert citations and bibliographies
+
+```json
+// Zotero Cite keybindings
+{
+  "key": "ctrl+cmd+r",
+  "command": "zotero-cite.citeSmart",
+  "when": "editorTextFocus && !editorReadonly"
+},
+```
+
+Specify your bib file in `.vscode/settings.json`:
+
+```json
+{
+  "zotero-cite.defaultBibName": "bibli.bib"
+}
+```
+
+<span class="env-orange">One drawback:</span> not intelligent enough to locate my bib file. It defaults to `ref.bib`. You need to specify your bib file in `.vscode/settings.json` as shown above. Otherwise, it will create a new `ref.bib` file in your project root directory.
+
+--------------------------------------------------------------------------------
+
 ### VSCode Zotero
 
 [VSCode Zotero](https://marketplace.visualstudio.com/items?itemName=jinvim.vscode-zotero) extension by Jinvim allows you to insert citations and bibliographies into your LaTeX document using Zotero.
 
 Advantage: locate `*.bib` intelligently.
 
-- 🔥 <span class="env-green">Search Library</span> (`zotero.searchLibrary`): <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>r</kbd>
+- <span class="env-green">Search Library</span> (`zotero.searchLibrary`): <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>R</kbd>
   
-  Use the keyborard shortcut to start a search window in Zotero. This is more convenient than using the Command Palette. You can preview all libraries. After hitting <kbd>Enter</kbd>, the cite key together with the citation command will be inserted at the cursor position in your LaTeX document. `bib` entry will be automatically added to `*.bib` file of your project if it does not exist already. See [below](#Zotero-bib-file) for locations the extension searches for `*.bib` file.
+  This will start a search in the Command Palette. Find your references, hit <kbd>Enter</kbd>, the cite key together with the citation command will be inserted at the cursor position in your LaTeX document. `bib` entry will be automatically added to `*.bib` file of your project if it does not exist already. See [below](#Zotero-bib-file) for locations the extension searches for `*.bib` file.
 
   <img src="https://raw.githubusercontent.com/jinvim/vscode-zotero/refs/heads/main/resources/fig1.gif" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" /> 
-  
-  Alternative approach: Command Palette > `Zotero: Search Library` → This will start a search in the Command Palette; won't show your library; only add the cite key to your document.
 
   1. Items in local Zotero library will be shown in Quick Picks.
   2. Search for the item you want to cite, select it, hit <kbd>Enter</kbd>. 
@@ -564,14 +589,7 @@ Advantage: locate `*.bib` intelligently.
 
 --------------------------------------------------------------------------------
 
-### Zotero Cite
 
-[Zotero Cite](https://marketplace.visualstudio.com/items?itemName=XING.zotero-cite) by Xing
-
-
-<span class="env-orange">One drawback:</span> not intelligent enough to locate my bib file. It defaults to `ref.bib`. When I change the bib file name, the extension still does not recognize it.
-
---------------------------------------------------------------------------------
 
 ## MS Word
 

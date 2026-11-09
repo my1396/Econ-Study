@@ -35,7 +35,17 @@ update: 2025-08-01
 - <a href="{{site.baseurl}}/Econ-Study/2024/08/12/VS-Code.html">VS Code</a>
 
 
+--------------------------------------------------------------------------------
 
+## Quick Start
+
+[Synchronization](#synctex) between source and PDF:
+
+- ⌥⌘J: jump from source to PDF
+- double-click: jump from PDF to source
+
+
+Add [cross-references](#bib-manager): ⌃⌘R
 
 --------------------------------------------------------------------------------
 
@@ -710,6 +720,8 @@ What are the pros and cons of auto-cleaning?
 
 --------------------------------------------------------------------------------
 
+<a id="synctex"></a>
+
 ## SyncTeX
 
 [SyncTeX](https://github.com/James-Yu/latex-workshop/wiki/View#synctex) allows you to jump between the source `.tex` file and the compiled PDF file. This helps you to quickly locate the relevant part of the document when editing or reviewing.
@@ -751,6 +763,8 @@ A: Check if you have `*.synctex.gz` file in the output directory after building 
 
 --------------------------------------------------------------------------------
 
+<a id="bib-manager"></a>
+
 ## Bib Manager
 
 [Zotero Cite](https://marketplace.visualstudio.com/items?itemName=XING.zotero-cite) is a useful extension to insert reference from Zotero library and add them to your bib file automatically.
@@ -773,12 +787,19 @@ A: Check if you have `*.synctex.gz` file in the output directory after building 
 
   When you have selected all references you need, hit <kbd>Enter</kbd>. The selected citations will be inserted at the cursor position in your document, and the corresponding entries will be added to your bib file automatically.
 
-  <span class="env-orange">Issues:</span> 
+- Add a **keyboard shortcut** for the command above in your `keybindings.json`:
+
   
-  - Will always add the bib entries to the end of the bib file, and genearte a new cite key. It does not check if the entry already exists in the bib file.
-  - After picking a reference, the Zotero app steals focus.
+  ```json
+  // Zotero Cite keybindings
+  {
+    "key": "ctrl+cmd+r",
+    "command": "zotero-cite.citeSmart",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  ```
 
-
+See <a href="{{site.baseurl}}/2024/08/12/Latex-Zotero.html#vscode-zotero">HERE</a> for more details.
 
 --------------------------------------------------------------------------------
 
