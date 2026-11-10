@@ -528,26 +528,30 @@ AI research assistant:
 
 [Zotero Cite](https://marketplace.visualstudio.com/items?itemName=XING.zotero-cite) by Xing
 
-Add keyboard shortcut (⌃⌘R) to insert citations and bibliographies
+**Configurations**
 
-```json
-// Zotero Cite keybindings
-{
-  "key": "ctrl+cmd+r",
-  "command": "zotero-cite.citeSmart",
-  "when": "editorTextFocus && !editorReadonly"
-},
-```
+1. Add keyboard shortcut (⌃⌘R) to insert citations and bibliographies
 
-Specify your bib file in `.vscode/settings.json`:
+   ```json
+   // Zotero Cite keybindings
+   {
+     "key": "ctrl+cmd+r",
+     "command": "zotero-cite.citeSmart",
+     "when": "editorTextFocus && !editorReadonly"
+   },
+   ```
 
-```json
-{
-  "zotero-cite.defaultBibName": "bibli.bib"
-}
-```
+   The `when` condition means it only fires while you're typing in an editor you can change.
 
-<span class="env-orange">One drawback:</span> not intelligent enough to locate my bib file. It defaults to `ref.bib`. You need to specify your bib file in `.vscode/settings.json` as shown above. Otherwise, it will create a new `ref.bib` file in your project root directory.
+2. Specify your bib file in `.vscode/settings.json` (project settings):
+
+   ```json
+   {
+     "zotero-cite.defaultBibName": "bibli.bib"
+   }
+   ```
+
+   <span class="env-orange">One drawback:</span> not intelligent enough to locate my bib file. It defaults to `ref.bib`. You need to specify your bib file in `.vscode/settings.json` as shown above. Otherwise, it will create a new `ref.bib` file in your project root directory.
 
 --------------------------------------------------------------------------------
 

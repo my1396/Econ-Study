@@ -779,7 +779,7 @@ A: Check if you have `*.synctex.gz` file in the output directory after building 
 
 **Commonly used features**:
 
-- Command Palette: `Zotero Cite: Cite and Create Bibliography for Pandoc/LaTeX` (ctrl+cmd+r)
+- Command Palette: `Zotero Cite: Cite and Create Bibliography for Pandoc/LaTeX`
   
   A graphical interface pops up, you can search and select references from your Zotero library. You can select multiple references to cite at once. 
   
@@ -787,7 +787,7 @@ A: Check if you have `*.synctex.gz` file in the output directory after building 
 
   When you have selected all references you need, hit <kbd>Enter</kbd>. The selected citations will be inserted at the cursor position in your document, and the corresponding entries will be added to your bib file automatically.
 
-- Add a **keyboard shortcut** for the command above in your `keybindings.json`:
+- Add a **keyboard shortcut** (ctrl+cmd+r) for the command above in your `keybindings.json`:
 
   
   ```json
@@ -799,7 +799,7 @@ A: Check if you have `*.synctex.gz` file in the output directory after building 
   },
   ```
 
-See <a href="{{site.baseurl}}/2024/08/12/Latex-Zotero.html#vscode-zotero">HERE</a> for more details.
+See <a href="{{site.baseurl}}/2024/08/12/Latex-Zotero.html#zotero-cite">HERE</a> for more details.
 
 --------------------------------------------------------------------------------
 
