@@ -533,7 +533,7 @@ Free tyre change for the first season.
 --------------------------------------------------------------------------------
 
 
-## Maintenance
+## Maintenance / Service
 
 [Bestill Service Online](https://www.toyotanordvik.no/verkstedtjenester/bestill-service): 提前一个月预约。
 
@@ -543,9 +543,11 @@ Free tyre change for the first season.
 <img src="https://drive.google.com/thumbnail?id=1e3Uo4GEF9RcELa2Dsas0WV1LN2yITX7H&sz=w1000" alt="Toyota Car Service" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 Q: Which service should I choose? Do I have to choose 6 years or 90k km?   
-A: My service is done every May annually. <u>Big and small services rotates</u>. 2025 May I get small service, costs about 3.6k. Toyota requires service either every year or every 15k km, whichever satisfied first. I will receive a SMS message about the appointment.
+A: My service is done every May annually. <u>Big and small services rotates</u>. May 2025 I got small service, costs about 3.6k. Toyota requires service either <span class="env-green">every year or every 15k km, whichever satisfied first</span>. After you made the appointment on the website, you will receive a confirmation [SMS message](#toyota-service-confirmation).
 
+- May 2025: 3600 kr
 - <span class="env-green">Nov 2026</span>: 3928 kr
+
 
 ---
 
@@ -555,7 +557,7 @@ A: <span class="env-green">Every year or every 15k km</span>, whichever satisfie
 ___
 
 Q: How long does the service take? I need to leave my car at the store for how long time?  
-A: Small service take about 1 hour. I need to drive my car to the factory 15 mins before my appointment. 
+A: Small service take about <span class="env-green"></span>. I need to drive my car to the factory 15 mins before my appointment. 
 
 ___
 
@@ -574,6 +576,7 @@ A: The Relax warranty covers the same parts and labour as the three-year manufac
 
 ___
 
+<a id="toyota-service-confirmation"></a>
 **2025 Service**
 
 Vi bekrefter avtale for din bil med reg.nr. YF16565 fredag 16.05.2025 08:30 i Stormyrveien 25. Bilen leveres MINIMUM 15 minutter før. Nøkkel kan utenom åpningstider leveres i Sharebox i hovedinngangen: <https://bit.ly/henteoglevere>. Hilsen Nordvik AS Bodø.

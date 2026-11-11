@@ -219,6 +219,20 @@ update: 2024-07-16
 
 - Functions should be as roman type. E.g., $\exp, \ln, \arg$.
 
+- [**Confidence intervals**](https://analisisdedatospsicologia.com/en/blog/reportar-intervalos-confianza-bootstrap-apa-7) should be in square brackets.
+  
+  The notation is this: *M* = 24.30, *SD* = 5.12, 95% CI $[22.40, 26.20]$. 
+  
+  - Square brackets, not parentheses. 
+  
+  - A comma between the limits, no "to". The confidence level sits before "CI" and *only the first time*, <u>if every interval in the manuscript is a 95% one</u>. 
+  
+  - And no percent sign inside the brackets, even when the statistic itself is a percentage.
+    
+    No units inside the brackets. Units go in the text or in the table header.
+  
+  Ex: The intervention group scored lower on anxiety (*M* = 18.70, *SD* = 4.88) than the control group (*M* = 24.30, *SD* = 5.12), *t*(58) = 4.31, *p* < .001, *d* = 1.12, 95% CI $[0.57, 1.66]$.
+
 - If you need to break <u>one long expression</u>, the <span class="env-green">math operator such as `+` should be on the next line</span> and the continuing lines shall have additional indentation.
 
   长公式换行的时候，运算符放在下一行，且需要缩进。
@@ -926,10 +940,10 @@ Should include the following info:
 | Book: 3 to 20 Authors, with DOI | Interval training involves "performing for a comparatively shorter time period during each exercise session" (Haile et al., 2015, p. 135).<br/>OR<br/>Haile et al. (2015) note that interval training involves "performing for a comparatively shorter time period during each exercise session" (p.135).<br/><br/>**Where there are 3 or more authors cite only the first author's surname followed by et al.** | Haile, L., Gallagher, M., & Robertson, R. J. (2015). Perceived exertion laboratory manual: From standard practice to contemporary application. Springer. https://doi.org/10.1007/978-1-4939-1917-8<br/><br/>**Provide the names of all authors in the reference list, up to and including 20 authors.**<br/><br/>**For a book with 21 or more authors follow the same author format as for a journal article with 21 or more authors.** |
 | Book chapter: Case Study        | Scerri & Presbury (2022) use a service language model...     | - General syntax: Author(s) (year). Title of chapter, *Title of book* (in italics), page reference, publisher. DOI/URL.<br />- Example: Scerri, M., & Presbury, M. (2022). The power of words: A case study of service language in an Australian five-star hotel. In *S. M. Perry (Ed.), Case based research in tourism, travel, hospitality and events* (pp. 117-133). Springer. <https://doi.https://doi.org/10.1007/978-981-16-4671-3_7> |
 
-
+**单复数**
 
 Q: Is et al. used with a singular or plural verb?  
-A: In theory, if you mean the publication, use single; if you mean the authors, use plural. But in practice, the distinction is blury. 
+A: In theory, if you mean the publication, use single; if you mean the authors, use plural. But in practice, the distinction is blurry. The rule-of-thumb is to use <span class="env-green">plural</span>.
 
 But you see examples as follows.
 
@@ -943,7 +957,7 @@ Another example:
 
 > Watson and Crick (1953) demonstrate the double-helical structure of DNA. → plural
 
-To avoid this confusion, recommend to use <span class="env-green">past tense</span>, "<span class="env-green">showed</span>", you won't have this problem at all.
+🔥 To avoid this confusion, recommend to use <span class="env-green">past tense</span>, "<span class="env-green">showed</span>", you won't have this problem at all.
 
 --------------------------------------------------------------------------------
 
@@ -951,7 +965,7 @@ To avoid this confusion, recommend to use <span class="env-green">past tense</sp
 
 <div class="note">
 <img src="{{site.baseurl}}/images/solution.png" alt="" style="display: inline; height: 1.5em; vertical-align: bottom;" />
-In APA style, the <span class="env-green" style='font-weight:bold'>past tense</span> or present perfect is recommended in literature review when discussing other researchers’ work. 
+In APA style, the <span class="env-green" style='font-weight:bold'>past tense</span> or present perfect is recommended in <span class="env-green">literature review</span> when discussing other researchers’ work. 
 <ul>
 <li> Martin (2020) addressed … ✅ </li>
 <li> Researchers have studied … </li>

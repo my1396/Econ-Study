@@ -526,9 +526,15 @@ AI research assistant:
 
 ### Zotero Cite
 
+<img src="https://xing.gallerycdn.vsassets.io/extensions/xing/zotero-cite/0.9.16/1788363541686/Microsoft.VisualStudio.Services.Icons.Default" alt="" style="display: inline; height: 2em; vertical-align: middle;" />
 [Zotero Cite](https://marketplace.visualstudio.com/items?itemName=XING.zotero-cite) by Xing
 
-**Configurations**
+Zotero Cite has a search bar that is well integrated with Zotero. It shows all your libraries and references. You can search for your references in the graphical interface.
+
+<img src="{{site.baseurl}}/images/vscode zotero cite search bar.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
+**Configuration**
 
 1. Add keyboard shortcut (⌃⌘R) to insert citations and bibliographies
 
@@ -557,9 +563,10 @@ AI research assistant:
 
 ### VSCode Zotero
 
-[VSCode Zotero](https://marketplace.visualstudio.com/items?itemName=jinvim.vscode-zotero) extension by Jinvim allows you to insert citations and bibliographies into your LaTeX document using Zotero.
+<img src="https://jinvim.gallerycdn.vsassets.io/extensions/jinvim/vscode-zotero/1.4.8/1793069270649/Microsoft.VisualStudio.Services.Icons.Default" alt="" style="display: inline; height: 2em; vertical-align: middle;" /> [VSCode Zotero](https://marketplace.visualstudio.com/items?itemName=jinvim.vscode-zotero) extension by Jinvim allows you to insert citations and bibliographies into your LaTeX document using Zotero.
 
-Advantage: locate `*.bib` intelligently.
+Advantage: Locate `*.bib` intelligently.  
+Drawback: Library search is not as good as Zotero Cite. The search bar does not have a preview of existing libraries.
 
 - <span class="env-green">Search Library</span> (`zotero.searchLibrary`): <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>R</kbd>
   
