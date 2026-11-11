@@ -198,7 +198,7 @@ Multiplying $(\hat{\beta}-\beta)$ by $\sqrt{n}$ is a stabilizing transformation 
 - stabilize the variance: $\text{Var}(\sqrt{n}\hat{\beta}) \xrightarrow{p} M_{XX}^{-1} M_{X\Omega X} M_{XX}^{-1}$
 - stabilize the mean: $\text{E}[\sqrt{n}(\hat{\beta}-\beta)] = 0$
 
-<div class = "boxed">
+<div class = "boxed" markdown="0">
 <div id="CLT random vector" markdown="0"><strong>CLT for random vectors</strong></div>
 
 Suppose that $z_1, \ldots, z_n$ are iid distributed $K\times 1$ random vectors, with $E(z_i)=\mu$ and $\text{Var}(z_i)=\Sigma$ finite. <br/>
@@ -763,7 +763,7 @@ $$
 
 ___
 
-**Example 1** Suppose that a sequence of $2\times 1$ random vector $\{\hat{\btheta}_n\}$ satisfies
+**Example 1** Suppose that a sequence of $2\times 1$ random vector $\lbrace\hat{\btheta}_n\rbrace$ satisfies
 
 $$
 \sqrt{n}(\hat{\btheta}_n - \btheta_0) \overset{d}{\to} N(\bold{0},\bV)

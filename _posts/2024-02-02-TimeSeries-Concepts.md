@@ -19,7 +19,7 @@ A series $S_N=\sum_{j=0}^N a_j$ is convergent if it has a finite limit as $N\to\
 
 $S_N$ is **absolutely convergent** if $\sum_{j=0}^N \abs{a_j}$ has a finite limit, which holds if $\sum_{j=0}^N \abs{a_j}<\infty .$ Absolutely convergence implies convergence.
 
-<div class = "boxed">
+<div class = "boxed" markdown="0">
 <strong>Silverman-Toeplitz Theorem</strong> If $a_\ell\to A$ as $\ell\to\infty$, and for weights $w_{n\ell}$ such that $\sum_{\ell=1}^n w_{n\ell} \to 1$ for each $\ell$ as $n\to\infty$, then
 
 $$
@@ -29,7 +29,7 @@ $$
 
 Setting  $w_{n\ell} = 1/n$ we obtain the following.
 
-<div class = "boxed">
+<div class = "boxed" markdown="0">
 <strong>Theorem of Cesàro Means</strong> If $a_\ell\to A$ as $\ell\to\infty$, then
 
 $$
@@ -40,7 +40,7 @@ $$
 
 Now we present a useful property. The Cesàro sum of the autocovariances limits to zero.
 
-<div class = "boxed">
+<div class = "boxed" markdown="0">
 <strong>Cesàro Mean of Autocovariances</strong> If $Z_t$ is strictly stationary, ergodic, and $\E(Z_t^2)<\infty$, then 
 
 $$
@@ -166,7 +166,7 @@ ___
   \gamma_{jt} = E[(Z+\varepsilon_t)(Z+\varepsilon_{t-j})] = \lambda^2 \;\;\text{ for } j\ne 0.
   $$
 
-  Thus the process $\{Y_t\}$ is covariance-stationary. 
+  Thus the process $\lbrace Y_t\rbrace$ is covariance-stationary. 
 
   We check ergodicity now.
 
@@ -189,7 +189,7 @@ ___
   Q: Is stationarity sufficient for using time average as an estimator to the real mean? \
   A: No. Stationarity does not rule out autocorrelation, that is the covariance/correlation depends on how far apart the two time points are. Therefore, we need *Ergodicity* to reach this goal.
 
-  <div class = "boxed">
+  <div class = "boxed" markdown="0">
   <strong>Ergodic Theorem </strong>
   If $\{Z_t\}_{t=-\infty}^{t=\infty}$ is a time series process which is strictly stationary and ergodic, and $E[\abs{Z_t}]<\infty$, and if $\overline{Z}_T = \frac{1}{T}\sum_{t=1}^T Z_t$, then as $T\to\infty$
 
@@ -640,7 +640,7 @@ $$
 
 *CONVENTION*: For the purpose of modeling time series data in this course, we will rarely (if ever) make the distinction between strict stationarity and weak stationarity. When we use the term “stationary process,” this is understood to mean that the process is *weakly stationary*.
 
-In many situations, a nonstationary process $\{Y_t\}$ can be “transformed” into a stationary process by *taking (first) differences*. For example, the random walk $Y_t = Y_{t−1} + \varepsilon_t$, where $\varepsilon_t \sim \text{iid } N (0, \sigma_\varepsilon^2)$, is not stationary. However, the first difference process $\Delta Y_t = Y_t − Y_{t−1} = \varepsilon_t$ is zero mean white noise, which is stationary.
+In many situations, a nonstationary process $\lbrace Y_t\rbrace$ can be “transformed” into a stationary process by *taking (first) differences*. For example, the random walk $Y_t = Y_{t−1} + \varepsilon_t$, where $\varepsilon_t \sim \text{iid } N (0, \sigma_\varepsilon^2)$, is not stationary. However, the first difference process $\Delta Y_t = Y_t − Y_{t−1} = \varepsilon_t$ is zero mean white noise, which is stationary.
 
 <span style='color:#337ab7'>Stationarity does NOT mean</span>
 
@@ -654,8 +654,8 @@ ___
 
 **Useful properties of stationarity**
 
-<div class = "boxed">
-<strong>Theorem</strong>  If $\boldsymbol{y}_t$ is strictly stationary and $\boldsymbol{x}_t=\boldsymbol{\phi}(\boldsymbol{y}_t, \boldsymbol{y}_{t-1}, \boldsymbol{y}_{t-2}, \ldots) \in \mathbb{R}^q$ is a random vector, then $\boldsymbol{x}_t$ is strictly stationary.
+<div class = "boxed" markdown="0">
+<strong>Theorem</strong> If $\boldsymbol{y}_t$ is strictly stationary and $\boldsymbol{x}_t=\boldsymbol{\phi}(\boldsymbol{y}_t, \boldsymbol{y}_{t-1}, \boldsymbol{y}_{t-2}, \ldots) \in \mathbb{R}^q$ is a random vector, then $\boldsymbol{x}_t$ is strictly stationary.
 </div>
 
 - **Stationarity is preserved by transformation.** That is,
@@ -675,7 +675,7 @@ transformations of strictly stationary processes are also strictly stationary.
 are functions of sample averages of squares and cross-products of the original data.
 
 
-<div class = "boxed">
+<div class = "boxed" markdown="0">
 <strong>Ergodicity of Functions Theorem</strong>  Any transformation $g(.)$ of a stationary and ergodic process $\{Y_t\}$ is also stationary and ergodic. That is,  $\{g(Y_t)\}$ is stationary and ergodic. Therefore, if $E[g(Y_t)]$ exists then the ergodic theorem gives
 
 $$

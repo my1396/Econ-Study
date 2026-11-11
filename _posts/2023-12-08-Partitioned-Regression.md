@@ -78,7 +78,7 @@ $$
 
 which is the least-squares residual from a regression of $\by$ on $\bX_1.$
 
-<div class = "boxed">
+<div class = "boxed" markdown="0">
 <strong>Frisch-Waugh-Lovell (FWL) Theorem</strong> <br/>
 For the following model partition
 $$

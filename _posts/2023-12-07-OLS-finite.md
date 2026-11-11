@@ -125,7 +125,7 @@ $$
 This is one of the appealing features of the linear CEF model. The coefficients have simple and natural interpretations as the marginal effects of changing one variable, holding the others constant.
 
 
-<div class = "boxed">
+<div class = "boxed" markdown="0">
 <p style="text-align:center; font-weight:bold;">Linear CEF Model</p>
 
 $$
@@ -139,7 +139,7 @@ $$
 
 If in addition the error is homoskedastic, we call this the homoskedastic linear CEF model.
 
-<div class = "boxed">
+<div class = "boxed" markdown="0">
 <p style="text-align:center; font-weight:bold;">Homoskedastic Linear CEF Model</p>
 
 $$
@@ -368,7 +368,7 @@ $$
 $$
 
 
-<div class = "boxed">
+<div class = "boxed" markdown="0">
 <strong>Theorem Variance of Least-Squares Estimator</strong><br/>
 
 In the linear regression model and i.i.d. sampling:  
@@ -542,7 +542,7 @@ $$
 SST = SSE + SSR .
 $$
 
-In other words, the total variation in $\{y_i\}$ is the sum of the total variations in $\{\hat{y}_i\}$ and in $\{\hat{u}_i\}.$
+In other words, the total variation in $\lbrace y_i\rbrace$ is the sum of the total variations in $\lbrace\hat{y}_i\rbrace$ and in $\lbrace\hat{u}_i\rbrace.$
 
 
 A commonly reported measure of regression fit is the regression **R-squared** is defined to be
@@ -551,7 +551,7 @@ $$
 R^2 = \frac{SSE}{SST} = 1-\frac{SSR}{SST} ,
 $$
 
-and it is interpreted as the proportion of the sample variation in $\{y_i\}$ that is explained by the OLS regression line. By definition, $R^2$ is a number between zero and one.
+and it is interpreted as the proportion of the sample variation in $\lbrace y_i\rbrace$ that is explained by the OLS regression line. By definition, $R^2$ is a number between zero and one.
 
 $R^2$ is called the **coefficient of determination**.
 
@@ -877,7 +877,7 @@ The difference arises because the in-sample prediction errors $$\tilde{e}_i$$ fo
 Unless $n$ is very small, we should expect $\text{MSFE}_{n-1}$ (the MSFE based on $n - 1$ observations) to be close to $\text{MSFE}_n$ (the MSFE based on $n$ observations). Thus $\tilde{\sigma}^2$ is a reasonable estimator for $\text{MSFE}_n$.
 
 
-<div class = "boxed">
+<div class = "boxed" markdown="0">
 <strong>Theorem Mean-Square Forecast Error (MSFE)</strong> <br/>
 In the linear regression model and i.i.d. sampling :  
 

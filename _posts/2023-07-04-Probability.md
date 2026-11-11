@@ -222,7 +222,7 @@ $$
 $$
 
 
-Expressing mathematically, suppose we have a sample space, $X=\{A, A^c\}$, then 
+Expressing mathematically, suppose we have a sample space, $X=\lbrace A, A^c\rbrace$, then 
 
 $$
 \mathbb E (Y) = \mathbb E (Y|A)\, P(A) + \mathbb E (Y|A^c)\, P(A^c)
@@ -262,7 +262,7 @@ ___
 
 ### Partitioning and Conditioning
 
-In the general case, consider a <span style='color:#337ab7'>partition</span> of the sample space: $\{X_1, X_2, \ldots, X_n\}$, each event has a corresponding probability: $P(X_1), P(X_2), \ldots, P(X_n)$.
+In the general case, consider a <span style='color:#337ab7'>partition</span> of the sample space: $\lbrace X_1, X_2, \ldots, X_n\rbrace$, each event has a corresponding probability: $P(X_1), P(X_2), \ldots, P(X_n)$.
 
 Given another event $Y$, then according to the *partition rule* we have:
 
@@ -863,7 +863,7 @@ P_X(x) &= P(X=s) \\
 \end{align*}
 $$
 
-where $R_Y=\{y_1,y_2,\ldots\}$ is the range of $Y$.
+where $R_Y=\lbrace y_1,y_2,\ldots\rbrace$ is the range of $Y$.
 
 
 Similarly, the marginal PMF of $Y$ is given by
@@ -872,7 +872,7 @@ $$
 P_Y(y) = \sum_{x_i\in R_X} P_{XY}(x_i, y)
 $$
 
-where $R_X=\{x_1,x_2,\ldots\}$ is the range of $X$.
+where $R_X=\lbrace x_1,x_2,\ldots\rbrace$ is the range of $X$.
 
 We can define the *joint range* for $X$ and $Y$ as
 
@@ -892,8 +892,8 @@ $$
 
 Note that 
 
-- The event $X=x$ can be written as $\{(x_i,y_j): x_i=x, y_j \in R_Y \}\, .$
-- Also, the event $Y=y$ can be written as $\{(x_i,y_j): x_i\in R_X, y_j=y\}\, .$
+- The event $X=x$ can be written as $\lbrace(x_i,y_j): x_i=x, y_j \in R_Y \rbrace\, .$
+- Also, the event $Y=y$ can be written as $\lbrace(x_i,y_j): x_i\in R_X, y_j=y\rbrace\, .$
 
 ___
 
@@ -945,7 +945,7 @@ ___
 
 **Example**
 
-Suppose we have a pair of discrete random variable $\{(X, Y )\}$, with an associated joint probability tabulated mass, $f_{XY} (x,y)$, as tabulated below.
+Suppose we have a pair of discrete random variable $\lbrace(X, Y )\rbrace$, with an associated joint probability tabulated mass, $f_{XY} (x,y)$, as tabulated below.
 
 <table class="table-sm" style="max-width: 70%; margin-left: auto;margin-right: auto;"><thead>
   <tr>
@@ -1379,7 +1379,7 @@ $$
 P\big((X_1, X_2, \cdots, X_n)\in A\big) = \int \cdots \underset{A}{\int} \cdots \int f_{X_1, X_2, \cdots, X_n}(x_1, x_2, \cdots, x_n) dx_1dx_2\cdots dx_n.
 $$
 
-<div class = "boxed">
+<div class = "boxed" markdown="0">
 <strong>Definition</strong>  $X_1, X_2, \cdots, X_n$ are said to be independent and identically distributed (iid) if they are independent, and they have the same marginal distributions:
 
 $$
@@ -1528,7 +1528,7 @@ $$
 f_Z(z)=f_X(z)*f_Y(z) = \int_{-\infty}^{\infty}f_X(w)f_Y(z−w)dw = \int_{-\infty}^{\infty}f_Y(w)f_X(z−w)dw.
 $$
 
-<div class = "boxed">
+<div class = "boxed" markdown="0">
 <strong>Theorem</strong>  If X and Y are two jointly continuous random variables and $Z=X+Y$, then
 
 $$

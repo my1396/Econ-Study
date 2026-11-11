@@ -121,7 +121,7 @@ Note:
 | Right bracket       | `\rbrack` | $\rbrack$ |
 | Left brace          | `\lbrace` | $\lbrace$ |
 | Right brace         | `\rbrace` | $\rbrace$ |
-| Double vertical bar |   `\|`    | $\|$      |
+| Double vertical bar |   `\|`    | $\Vert$   |
 
 
 
@@ -316,14 +316,14 @@ $$
   
     
   
-  - `\mid` is often used as delimitor, $\{a\in S \mid \text{\(a=0\) or \(a\) is odd}\}$; $\mid$ in set theory means "such that", to introduce properties of the set; in probability, meaning <span style='color:#00CC66'>conditional on</span>;
+  - `\mid` is often used as delimitor, $\lbrace a\in S \mid a=0 \text{ or } a \text{ is odd}\rbrace$; $\mid$ in set theory means "such that", to introduce properties of the set; in probability, meaning <span style='color:#00CC66'>conditional on</span>;
   
   - `\mid` is also used to divide numbers. $4 \mid 12=3$, meaning $\text{\(4\) divides \(12\)}$. $a \mid b$ meaning $b$ is completely divisible by $a$. E.g., 
     $$
     \{𝑥\in \mathbb{Z}\mid 4\mid𝑥\}
     $$
     
-    which describes the set of integers which 4 divides, namely $\{0,\pm4,\pm8,\pm12,…\}$. Some people prefer to use a colon there
+    which describes the set of integers which 4 divides, namely $\lbrace0,\pm4,\pm8,\pm12,…\rbrace$. Some people prefer to use a colon there
     
     $$
     \{𝑥\in \mathbb{Z}: 4\mid 𝑥 \}.

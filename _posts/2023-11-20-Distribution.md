@@ -85,7 +85,7 @@ The $n\times 1$ random vector $z \sim N(0,I)$, where $I$ is an $n\times n$ ident
 
   <div style="height:12px;" markdown="0"><br></div>
 
-  <div class = "boxed"> 
+  <div class = "boxed" markdown="0"> 
   <strong>Theorem</strong>  If $v \sim F(m,n)$, the limiting distribution of $mv$ as $n\to\infty$ is the $\chi^2(m)$.
   </div>
 
