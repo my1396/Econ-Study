@@ -833,7 +833,9 @@ Many Latin abbreviations are used in APA Style papers to save space. Use the fol
 | viz.,              | namely,                                                      |
 | vs.                | versus or against                                            |
 
--  if you want to give a [list of examples within parentheses](https://apastyle.apa.org/style-grammar-guidelines/lists), use the abbreviation “e.g.,” (including the comma) before the examples. If the words “for example” appear outside of parentheses, do not use the abbreviation “e.g.”
+-  if you want to give a [list of examples within parentheses](https://apastyle.apa.org/style-grammar-guidelines/lists), use the abbreviation “e.g.,” (including the comma) before the examples. 
+   
+   If the words “for example” appear <span class="env-green">outside of parentheses</span>, do NOT use the abbreviation “e.g.”
 
   > Participants watched different kinds of funny movies (e.g., featuring either slapstick, self-deprecating, or dark humor).
 

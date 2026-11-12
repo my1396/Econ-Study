@@ -11,10 +11,34 @@ update: 2025-08-01
 <img src="{{site.baseurl}}/images/zotero_icon.png" alt="" style="display: inline; height: 2em; vertical-align: middle;" /> Zotero is a free and open-source reference management software to manage bibliographic data. 
 It is available for Windows, macOS, and Linux.
 
+## Quick Start
+
+**Underlining and highlighting**
+
+<img src="https://dkou0skpxpnwz.cloudfront.net/accounts/176650/images/gif_sublinhar.gif" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+When you select text, a menu will pop up, allowing you to highlight or underline the text. Default is to highlight. If you want to underline, click the underline icon, then choose the color you want. 
+
+<img src="{{site.baseurl}}/images/zotero underline.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+Colors
+
+| Color | Meaning |
+| ----- | ------- |
+| Yellow | Running text |
+| Red    | Important    |
+| Orange | TODO / follow up |
+| Green  | Resources: article/book/package/URL |
+| Blue   | Code; Examples   |
+
+
+[Annotation with Zotero](https://l3lab.net/posts/tutorial-zotero-obsidian-annotations/2024-08-04-annotations-with-zotero-version-7/)
 
 **Add new items**
 
 - **Add by Identifier**: Click the magic wand icon 🪄 in the toolbar > Paste DOI, ISBN or arXiv ID of the citation > Press Enter.
+
+--------------------------------------------------------------------------------
 
 ## General Settings
 
