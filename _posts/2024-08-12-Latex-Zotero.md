@@ -9,11 +9,31 @@ update: 2025-08-01
 <a class="top-link hide" href="#" id="js-top">↑</a>
 
 <img src="{{site.baseurl}}/images/zotero_icon.png" alt="" style="display: inline; height: 2em; vertical-align: middle;" /> Zotero is a free and open-source reference management software to manage bibliographic data. 
+It is powerful in reading literature, making annotations and markdown notes. 
 It is available for Windows, macOS, and Linux.
+
+**Highlighted features:**
+
+- You can link your notes to pdfs directly. This is convenient if you want to locate the references and read more about the topic in context. → use [Better Notes](#zotero-better-notes)
+- You can [sync your Zotero library](#zotero-sync) across multiple devices using a cloud service.
+
+--------------------------------------------------------------------------------
 
 ## Quick Start
 
+**PDF background color / theme**
+
+Supported by the [**Ethereal Style**](#zotero-ethereal-style) add-on
+
+Click the pdf icon to choose your preferred background color for the pdf viewer. If the icon is not visible, reload the pdf.
+
+<img src="{{site.baseurl}}/images/zotero pdf background.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+--------------------------------------------------------------------------------
+
 **Underlining and highlighting**
+
+Supported by the native Zotero pdf viewer
 
 <img src="https://dkou0skpxpnwz.cloudfront.net/accounts/176650/images/gif_sublinhar.gif" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
@@ -21,7 +41,7 @@ When you select text, a menu will pop up, allowing you to highlight or underline
 
 <img src="{{site.baseurl}}/images/zotero underline.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
-Colors
+**Use Colors Purposefully**
 
 | Color | Meaning |
 | ----- | ------- |
@@ -31,8 +51,11 @@ Colors
 | Green  | Resources: article/book/package/URL |
 | Blue   | Code; Examples   |
 
+ref:
 
-[Annotation with Zotero](https://l3lab.net/posts/tutorial-zotero-obsidian-annotations/2024-08-04-annotations-with-zotero-version-7/)
+- [Annotation with Zotero](https://l3lab.net/posts/tutorial-zotero-obsidian-annotations/2024-08-04-annotations-with-zotero-version-7/)
+
+--------------------------------------------------------------------------------
 
 **Add new items**
 
@@ -82,6 +105,8 @@ Colors
   
 
 --------------------------------------------------------------------------------
+
+<a id="zotero-sync"></a>
 
 ### Sync Settings
 
@@ -411,6 +436,8 @@ ref:
 
 --------------------------------------------------------------------------------
 
+<a id="zotero-ethereal-style"></a>
+
 ## Ethereal Style
 
 This plugin customizes the appearance of the Zotero interface to make it cleaner and more visually appealing.
@@ -421,10 +448,14 @@ Highlight features:
 
 - Title: As the background of title, reading progress visually reflect the distribution of your reading time of each page for the PDF under a item, the darker the color the longer the reading time.
 
+refs:
 
-[Ethereal Style 中文教程](https://www.notion.so/Zotero-Style-bc2aebbbb6df4b7baa858e376e4fc5be)
+- [Ethereal Style 中文教程](https://www.notion.so/Zotero-Style-bc2aebbbb6df4b7baa858e376e4fc5be)
+- [Ethereal Style for Zotero](https://zotero-chinese.github.io/user-guide/plugins/style?utm_source=chatgpt.com)
 
 --------------------------------------------------------------------------------
+
+<a id="zotero-better-notes"></a>
 
 ## Better Notes
 
@@ -490,7 +521,7 @@ Ref:
 
 ## Useful plugins
 
-[Zotero plugins collection](https://www.zotero.org/support/plugins)
+[Zotero plugin collection](https://www.zotero.org/support/plugins)
 
 - [Add-on Market](https://github.com/syt2/zotero-addons?tab=readme-ov-file): Plugin manager.
   
@@ -547,6 +578,8 @@ AI research assistant:
 --------------------------------------------------------------------------------
 
 ## VS Code Plugins
+
+To use Zotero with VS Code, use an extension to link your Zotero library with VS Code. There are two extensions available: Zotero Cite and VSCode Zotero. I personally prefer Zotero Cite because it has a better search bar.
 
 ### Zotero Cite
 
