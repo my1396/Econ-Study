@@ -17,6 +17,11 @@ It is available for Windows, macOS, and Linux.
 - You can link your notes to pdfs directly. This is convenient if you want to locate the references and read more about the topic in context. → use [Better Notes](#zotero-better-notes)
 - You can [sync your Zotero library](#zotero-sync) across multiple devices using a cloud service.
 
+**Useful resources:**
+
+- [Zotero documentation](https://www.zotero.org/support/quick_start_guide)
+- [Zotero 中文社区](https://zotero-chinese.com/user-guide/plugins/better-notes)
+
 --------------------------------------------------------------------------------
 
 ## Quick Start
@@ -75,6 +80,43 @@ ref:
 **Add new items**
 
 - **Add by Identifier**: Click the magic wand icon 🪄 in the toolbar > Paste DOI, ISBN or arXiv ID of the citation > Press Enter.
+
+--------------------------------------------------------------------------------
+
+**Attachment**
+
+You can attach pdf files to your Zotero items. 
+
+- <img src="{{site.baseurl}}/images/stored files1.svg" alt="" style="display: inline; height: 1.5em; vertical-align: bottom;" /> <img src="{{site.baseurl}}/images/stored files2.svg" alt="" style="display: inline; height: 1.5em; vertical-align: bottom;" /> Stored files: Default option. The file will be copied to the Zotero data directory. → Supported by Zotero cloud storage; limited to 300 MB free space.
+  
+  <img src="{{site.baseurl}}/images/zotero stored files.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+  The pdfs are stored in the Zotero data directory `/Users/<username>/Zotero/storage` with random alphanumeric folder names for each item, making it <span class="env-orange">hard to identify the files</span>. 
+
+- <img src="{{site.baseurl}}/images/linked files1.svg" alt="" style="display: inline; height: 1.5em; vertical-align: bottom;" /> <img src="{{site.baseurl}}/images/linked files2.svg" alt="" style="display: inline; height: 1.5em; vertical-align: bottom;" /> **Linked files:** create a link to the file on your computer. → Used when you use a third party cloud service (Google Drive, etc.) to sync your pdf files across multiple devices.
+  
+  <img src="{{site.baseurl}}/images/zotero linked files.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+  For syncing to work on your multiple devices, you need to set the set the [linked attachment base directory](https://www.zotero.org/support/preferences/advanced#linked_attachment_base_directory) so that the files can be found by Zotero on each computer. 
+  
+  The base directory <u>stores your linked files</u>. <span class="env-green">It can be different on each computer.</span> For example, if the folder with your linked files is at `/Users/Sarah/Dropbox/PDFs` on your laptop and at `C:\Users\Sarah\Dropbox\PDFs` on your work computer, set those paths as the base directory on each respective machine. The directories serve as the root for all linked files, so Zotero will look for the linked files in the same relative path but different root paths on each computer.
+
+  The base directory needs to be consistent with the `Destination Path` in your linked file manager plugin, such as `Attanger` or `ZotMoov`.
+
+  - `Destination Path` supported by plygins controls where the attachments are stored.
+  - `Base Directory` tells Zotero where to look for the attachments.
+
+  See [Here](#zotero-base-directory) for details on how to set the base directory.
+
+  Limitations:
+
+  - Cannot be used within a group library; group members may not have access to the same file location.
+
+**refs:**
+
+- [Stored vs. Linked Files](https://www.zotero.org/support/attaching_files)
+- [添加附件](https://zotero-chinese.com/user-guide/add-attachments)
+
 
 --------------------------------------------------------------------------------
 
@@ -202,6 +244,8 @@ Use Zotero's [sync](https://www.zotero.org/support/sync#zotero_file_storage) fea
    
    Alternatively, if you use cloud services, such as Google Drive, Dropbox, OneDrive, etc., you can create the folder within the local sync folder of these services.
    An example is `~/Google Drive/Zotero`.
+
+   <a id="zotero-base-directory"></a>
 
 2. Change your **Base Directory** to your local sync folder.
 
@@ -767,4 +811,12 @@ BibTeX exporter: ✅
 
 Q: How to rotate a pdf page?  
 A: Got to **thumbnail view**, right click on the page you want to rotate, and choose "Rotate Left" or "Rotate Right". 
+
+--------------------------------------------------------------------------------
+
+Q: Differences between `Based Directory` and `Data Directory`?  
+A: `Base Directory` is the root folder for storing linked files. `Data Directory` is the whole Zotero database. You will see many `zotero.sqlite.*` files which contains item metadata, notes, tags, etc. 
+
+- [Base Directory](https://www.zotero.org/support/preferences/advanced#linked_attachment_base_directory): you can customize it to any folder you want. I set it to `~/Documents/Zotero`.
+- [Data Directory](https://www.zotero.org/support/zotero_data): defaults to `/Users/<username>/Zotero`.
 
