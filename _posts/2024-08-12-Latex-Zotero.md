@@ -29,13 +29,22 @@ It is available for Windows, macOS, and Linux.
 
 ## Quick Start
 
-**PDF background color / theme**
+**Change PDF background color / theme**
 
-Supported by the [**Ethereal Style**](#zotero-ethereal-style) add-on
+There are built-in themes for the pdf viewer, including light, dark, and sepia, etc. 
 
-Click the pdf icon to choose your preferred background color for the pdf viewer. If the icon is not visible, reload the pdf.
+<img src="{{site.baseurl}}/images/zotero theme.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
+
+
+The [**Ethereal Style**](#zotero-ethereal-style) add-on provides more themes, including a green background theme. 
+
+Click the pdf icon <i class="bi bi-file-pdf env-red" style="font-size:1.5em; vertical-align: middle;"></i> to choose your preferred background color for the pdf viewer. If the icon is not visible, reload the pdf.
+You can customize your own background color by clicking the color palette 🎨 at the bottom of the menu.
 
 <img src="{{site.baseurl}}/images/zotero pdf background.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+Dark themes will invert images, making it hard to read, whereas light themes do not touch the images. 
+I personally like the green background theme.
 
 --------------------------------------------------------------------------------
 
