@@ -14,8 +14,11 @@ It is available for Windows, macOS, and Linux.
 
 **Highlighted features:**
 
-- You can link your notes to pdfs directly. This is convenient if you want to locate the references and read more about the topic in context. → use [Better Notes](#zotero-better-notes)
-- You can [sync your Zotero library](#zotero-sync) across multiple devices using a cloud service.
+- 🔥🔥 You can link your notes to pdfs directly. This is convenient if you want to locate the references and read more about the topic in context. → Use [Better Notes](#zotero-better-notes)
+
+- 🔥 [PDF viewer](#zotero-attanger-pdf-viewer) is much more powerful than Preview. → You can change the background color; select text and insert directly to notes; citations are linked to pdfs; hover over hyperlinks to see the referenced object, Figure/Table/Eqn/bibliography, etc. 
+
+- You can [sync your Zotero library](#zotero-sync) across multiple devices using a cloud service. → All your pdf attachments are available on all your devices with unlimited storage. 
 
 **Useful resources:**
 
@@ -103,8 +106,8 @@ You can attach pdf files to your Zotero items.
 
   The base directory needs to be consistent with the `Destination Path` in your linked file manager plugin, such as `Attanger` or `ZotMoov`.
 
-  - `Destination Path` supported by plygins controls where the attachments are stored.
-  - `Base Directory` tells Zotero where to look for the attachments.
+  - `Destination Path`: supported by plugins; controls where the attachments are stored.
+  - `Base Directory`: tells Zotero where to look for the attachments.
 
   See [Here](#zotero-base-directory) for details on how to set the base directory.
 
@@ -428,8 +431,9 @@ If you add annotation using Preview, when you open it using Zotero pdf viewer, t
   
   Let me try to use Zotero pdf viewer as my main pdf reader when I do literature review.
   See how it goes and decide if I want to stick to it or go back to Preview.
-
-  What I like about Zotero pdf viewer: 
+  
+  <a id="zotero-attanger-pdf-viewer"></a>
+  What I like about <span class="env-green">**Zotero pdf viewer**</span>: 
   
   - Add quotes linked to bibliography entries in Better Notes.
     
@@ -438,7 +442,7 @@ If you add annotation using Preview, when you open it using Zotero pdf viewer, t
   - Add comment on highlighted text. ← Not possible on Preview.
   - Hover over hyperlink to see the referenced object, Figure/Table/Eqn/bibliography, etc. ← Not possible on Preview.
   - Other basic annotation functions, such as highlight, underline, sticky notes. ← Supported by Preview.
-  - You can set pdf viewer themes, like changing background color to sepia, dark mode, etc. ← Not possible on Preview.
+  - You can set pdf viewer themes, like changing background color to sepia, dark mode, etc. Attanger supports more themes. ← Not possible on Preview.
   
   See [HERE](https://www.zotero.org/support/pdf_reader) for documentation of PDF reader in Zotero.
 
@@ -624,7 +628,7 @@ Ref:
   
   By default, it will download pdfs when you add a new item in the library. You can disable this feature in the plugin settings.
 
-  Right-click, a context menu titiled "Update Schihub PDF", click it to download the pdf.
+  Right-click, a context menu titiled "Update Scihub PDF", click it to download the pdf.
 
 **AI plugins** (not tested yet):
 
@@ -747,7 +751,7 @@ Create a [New Group](https://www.zotero.org/groups/new). Follow instructions, th
 
 On the Group Settings page, select "Members Settings" to invite members to your group.
 
-<img src="{{site.baseurl}}/images/zetero group page.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+<img src="{{site.baseurl}}/images/zotero group page.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 Users must log in to the [zotero.org](https://zotero.org) website to join a group.
 
