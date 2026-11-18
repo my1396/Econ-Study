@@ -892,7 +892,7 @@ All types of reference materials: <https://libguides.murdoch.edu.au/APA/all>
 - The first line of each citation is left adjusted. Every subsequent line is indented 5-7 spaces.
 
 
-**Parenthetical vs Narrative citations**
+### Parenthetical vs Narrative citations
 
 |                   | Parenthetical citation       | Narrative citation          |
 | :---------------- | :--------------------------- | :-------------------------- |
@@ -903,8 +903,17 @@ All types of reference materials: <https://libguides.murdoch.edu.au/APA/all>
 
 Table source: <https://ecu.au.libguides.com/referencing/in-text-citations>
 
-- If the work you are citing has **one or two authors**, include them in your citation every time. Separate two authors with an ampersand (&) in parenthetical citations, but write out the word 'and' if discussing the work in-text.
-- If the work has **3 or more authors**, your in-text citation will give only the family name of the first author, followed by "et al." (which means "and others").
+- If the work you are citing has <span class="env-green">**one or two authors**</span>, include them in your citation every time. Separate two authors with an ampersand (&) in parenthetical citations, but write out the word 'and' if discussing the work in-text.
+  
+  ```latex
+  \usepackage[
+    maxcitnames=2, % show all authors if 2 or fewer in in-text citations
+  ]{biblatex}
+  ```
+
+  `maxcitnames` defaults to 3. It will print all authors for works with 3 or fewer authors. This can be lengthy. Better to set to 2.
+
+- If the work has <span class="env-green">**3 or more authors**</span>, your in-text citation will give only the family name of the first author, followed by "et al." (which means "and others").
 
 
 

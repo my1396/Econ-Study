@@ -31,6 +31,19 @@ Click the pdf icon to choose your preferred background color for the pdf viewer.
 
 --------------------------------------------------------------------------------
 
+**Add text box**
+
+<img src="https://l3lab.net/posts/tutorial-zotero-obsidian-annotations/2024-08-04-annotations-with-zotero-version-7/six-annotation-types-min.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+Click the **Add Text** icon, then choose your preferred color and font size using the dropdown menu. Then go to the pdf and click where you want to add the text box. You can resize the text box by dragging the corners. The font size will scale with the text box. Note you cannot change the font color after you add the text box. 
+
+
+The following GIF shows how to add annotations / sticky notes. Similar to adding a text box. First choose color/style, then click on the pdf to add the annotation.
+
+<img src="https://dkou0skpxpnwz.cloudfront.net/accounts/176650/images/gif_notas.gif" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+--------------------------------------------------------------------------------
+
 **Underlining and highlighting**
 
 Supported by the native Zotero pdf viewer
@@ -40,6 +53,8 @@ Supported by the native Zotero pdf viewer
 When you select text, a menu will pop up, allowing you to highlight or underline the text. Default is to highlight. If you want to underline, click the underline icon, then choose the color you want. 
 
 <img src="{{site.baseurl}}/images/zotero underline.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+You can also highlight sections of your PDF that aren't text, by using the **Select Area** tool.
 
 **Use Colors Purposefully**
 
