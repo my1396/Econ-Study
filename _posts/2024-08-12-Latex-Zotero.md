@@ -24,6 +24,7 @@ It is available for Windows, macOS, and Linux.
 
 - [Zotero documentation](https://www.zotero.org/support/quick_start_guide)
 - [Zotero 中文社区](https://zotero-chinese.com/user-guide/plugins/better-notes)
+- [Libguides: Geneva Graduate Institute](https://libguides.graduateinstitute.ch/zotero/tags)
 
 --------------------------------------------------------------------------------
 
@@ -83,9 +84,14 @@ You can also highlight sections of your PDF that aren't text, by using the **Sel
 | Green  | Resources: article/book/package/URL |
 | Blue   | Code; Examples   |
 
+You can define meanings for each color
+
+<img src="{{site.baseurl}}/images/ethereal style annotation color.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
 ref:
 
 - [Annotation with Zotero](https://l3lab.net/posts/tutorial-zotero-obsidian-annotations/2024-08-04-annotations-with-zotero-version-7/)
+- [Annotation colors](https://plugins.muisedestiny.xyz/docs/style#annotation-colors)
 
 --------------------------------------------------------------------------------
 
@@ -128,6 +134,129 @@ You can attach pdf files to your Zotero items.
 
 - [Stored vs. Linked Files](https://www.zotero.org/support/attaching_files)
 - [添加附件](https://zotero-chinese.com/user-guide/add-attachments)
+
+
+--------------------------------------------------------------------------------
+
+### Tags
+
+Tags are keywords that characterize the references. Some tags are automatically downloaded with the references, but you can also add tags manually. These tags can be used for topics, of course, but you can also use
+
+- workflow tags: to-read, to-assess
+- methodology tags: panel, time-series, asset-pricing, writing
+- evaluation tags: seminal, working-paper, review
+
+You can tag references, but also attached files or notes.
+
+--------------------------------------------------------------------------------
+
+**Configuration**
+
+It is <span class="env-orange">NOT</span> recommended to keep the tags that are automatically downloaded. Each source has its own keyword system, so there will not be any logic to your tags. 
+
+- To disable the automatic download of tags, go to the Settings menu → General → Miscellaneous and uncheck "Automatically tag items with keywords and subject headings". 
+
+  <img src="{{site.baseurl}}/images/zotero automatic tag.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+
+- You can delete all these automatic tags by clicking on the <i class="codicon codicon-filter" aria-hidden="true" style="font-size:1.5em; vertical-align: middle;"></i> button next to "Filter Tags" and selecting "Delete Automatic Tags in This Library".
+  
+  <img src="{{site.baseurl}}/images/zotero delete automatic tags.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:40%;" />
+
+
+--------------------------------------------------------------------------------
+
+**Add Tags**
+
+1. Find the citation you want to tag and click it.
+2. In the information panel on the right, scroll to "Tags" or click the "Tags" icon, which looks like a luggage tag, in the right navigation.
+   <img src="{{site.baseurl}}/images/Zotero_-_Tags_-_Desktop_-_Tags_Icon.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+3. Click the "Add" button, a plus icon, the Tags section.
+   <img src="{{site.baseurl}}/images/Zotero_-_Tags_-_Desktop_-_Add_-_7.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+4. Start typing the tag name you want to add.
+   <img src="{{site.baseurl}}/images/Zotero_-_Tags_-_Desktop_-_Add_-_List_-_7.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+   - If you already have used that tag, it will appear in the list below the search bar. Click the tag name to add it.
+   - If this is a new tag, finish typing out your tag and either click off the text box or hit Enter.
+
+
+Keyboard shortcut: <kbd>⌃</kbd> + <kbd>T</kbd>
+
+<div class="note">
+<span class="env-green">Three types of tags:</span>
+- No prefix → Color-coded tag, shows as icon under `Tags` column
+- Start with `#` → Name tag, shows under `#Tags` column
+- Start with `/` → Status tag, shows under `Status` column
+
+See [HERE](#zotero-types-of-tags) for their differences.
+</div>
+
+--------------------------------------------------------------------------------
+
+**Color code your tags**
+
+To color code your tags, right click on a tag in the lower left pane.  Choose **Assign Color** from the menu.  Click on the color box to choose one of the nine color options for your tag.
+
+<img src="https://d2jv02qf7xgjwx.cloudfront.net/accounts/46117/images/Add_tags_step_3.jpg" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+
+Once you have chosen a color for your tag, the tag will display with that color in the lower left pane, and in the center pane of your library you will see a colored dot next to all items that have that particular tag.
+
+<img src="http://lgimages.s3.amazonaws.com/data/imagemanager/74010/tag2.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+--------------------------------------------------------------------------------
+
+**Principles for tag names:**
+
+- Use lower case unless it is a proper noun.
+- Plural vs singular: choose one and be consistent.
+
+--------------------------------------------------------------------------------
+
+**Show tag info in item view:**
+
+Supported by Ethereal Style plugin
+
+<a id="zotero-types-of-tags"></a>
+Three types of tags:
+
+| Naming Convention | Column Name in Item View | Description | Use Case |
+| ----------------- | ------------------------ | ----------- | -------- |
+| `#<tag-name>` | `#Tags` | Tags will display as text; most informative | Explicitly show category of the reference, e.g., `#methodology`, `#topic`, `#evaluation` |
+| `#<level1>/<level2>` | `#Tags` | Hierarchical Topic Classification | `#finance/asset-pricing`, `#finance/monetary-policy`, `#finance/green-finance` |
+| `<tag-name>`  | `Tags`  | **ONLY** <span class="env-green">color-coded tags will display</span> as colored dots | Significance of the reference, e.g., `seminal`, `working-paper`, ⭐️|
+| `/<tag-name>` | `Status` | Will show color and text | Use for workflow, e.g., `/to-read`, `/reading`, `/done` |
+
+
+Keyboard shortcut: Use ⌃+T to add a name tag `#<tag-name>`. → Show under `#Tags` column.
+
+`Status` column is most convenient. You can click on the cell to change the status of the reference. Click `Create` to create a new status tag. .
+
+Use ⭐️, ⭐️️⭐️, ⭐️⭐️⭐️ to indicate the significance of the reference. Add them as `️️⭐️` and <u>assign colors</u> to them so that they will show up in the `Tags` column in the item view.
+
+
+<img src="https://plugins.muisedestiny.xyz/images/style/tutorial/status-menu.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+--------------------------------------------------------------------------------
+
+**Tag Selector**
+
+The Zotero Tag Selector is the panel located at the bottom-left corner of the Zotero window that lets you filter, organize, and bulk-manage your library using keywords.
+
+- Nested tag view (show as a list) → Supported by Ethereal Style plugin
+  
+  Click 🡙 to sort tags by name.
+  
+  <img src="{{site.baseurl}}/images/zoterostyle-嵌套标签.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:40%;" />
+
+- Normal tag view → Supported by native Zotero
+
+  <img src="{{site.baseurl}}/images/zotero normal tag view.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:100%;" />
+
+
+**refs:**
+
+- [How do I use tags in Zotero](https://libanswers.memphis.edu/faq/410374)
+- [Tagging](https://guides.library.oregonstate.edu/c.php?g=359201&p=2426089)
+- [Ethereal Style: Tags](https://plugins.muisedestiny.xyz/docs/style#tags)
+
 
 
 --------------------------------------------------------------------------------
@@ -203,9 +332,15 @@ Use Zotero's [sync](https://www.zotero.org/support/sync#zotero_file_storage) fea
 
 - **File Syncing**
   
-  I use NAS to sync my Zotero attachments across multiple devices. So here I uncheck "Sync attachment files in My Library using Zotero".
+  I use NAS to sync my Zotero attachments across multiple devices. So here I **uncheck** "Sync attachment files in My Library using Zotero".
 
   Zotero cloud storage is the default option to sync attachments. But it has limited space. An alternative is to use WebDAV.
+  
+  `Download files` has two options (relevant only if you use Zotero to sync your attachments):
+  
+  -   **At sync time:** Download all attachment files not already in your local Zotero file storage on your computer each time Zotero syncs.
+
+  -   **As needed:** Only download attachment files when the user attempts to open the file. Useful for reducing the amount of hard disk space Zotero uses for attachments.
   
   [List of WebDAV providers](https://www.zotero.org/support/kb/webdav_services)
 
@@ -216,22 +351,19 @@ Use Zotero's [sync](https://www.zotero.org/support/sync#zotero_file_storage) fea
         
   
   -   **WebDAV:**
+      
+      WebDAV is a protocol that allows you to store files on a remote server. E.g., 4shared, CloudMe. They provide some free storage space, but might have limitations on file size or number of files per folder.
+      
       -   Sync file attachments using [WebDAV storage](https://www.zotero.org/support/sync#webdav "/support/sync#webdav").
 
       -   Enter the URL for your WebDAV server (note that `/zotero` is added to the end of the URL automatically), your username, and your password.
 
       -   Click "Verify Server" to check whether Zotero can connect with the server for file syncing.
-      
-      -   [使用坚果云 WebDAV 同步](https://b23.tv/0NH8VyM)
-  
-  -   **Download files:**
-      -   **At sync time:** Download all attachment files not already in your local Zotero file storage on your computer each time Zotero syncs.
-
-      -   **As needed:** Only download attachment files when the user attempts to open the file. Useful for reducing the amount of hard disk space Zotero uses for attachments.
 
 **ref:**
 
 - [Zotero documents: Syncing](https://www.zotero.org/support/sync#data_syncing)
+- [使用坚果云 WebDAV 同步](https://b23.tv/0NH8VyM)
 
 --------------------------------------------------------------------------------
 
@@ -514,16 +646,33 @@ ref:
 
 This plugin customizes the appearance of the Zotero interface to make it cleaner and more visually appealing.
 
-⇧P to start a command palette to quickly access various functions provided by Ethereal Style.
+⇧ + <kbd>P</kbd> to start a command palette to quickly access various functions provided by Ethereal Style.
 
-Highlight features:
+<img src="{{site.baseurl}}/images/zotero style command palette.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+**Column Settings**
+
+<img src="{{site.baseurl}}/images/zotero column-menu.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+
+**Highlight features:**
 
 - Title: As the background of title, reading progress visually reflect the distribution of your reading time of each page for the PDF under a item, the darker the color the longer the reading time.
+  
+  <img src="{{site.baseurl}}/images/zotero column setting title.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
 
-refs:
+  - Tags: Show `#Tags` color in dots
+  - Emoji: Show `Tags` if it is an emoji
 
-- [Ethereal Style 中文教程](https://www.notion.so/Zotero-Style-bc2aebbbb6df4b7baa858e376e4fc5be)
-- [Ethereal Style for Zotero](https://zotero-chinese.github.io/user-guide/plugins/style?utm_source=chatgpt.com)
+- Publication Tags (影响因子与期刊标签)
+  
+  Need to set up `easyscholar` API key.
+
+**refs:**
+
+- [Ethereal Style Documentation](https://plugins.muisedestiny.xyz/docs/style)
+- [Notion: Ethereal Style 中文教程](https://www.notion.so/Zotero-Style-bc2aebbbb6df4b7baa858e376e4fc5be)
+- [Zotero Documentation: Ethereal Style](https://zotero-chinese.github.io/user-guide/plugins/style?utm_source=chatgpt.com)
 
 --------------------------------------------------------------------------------
 
@@ -555,10 +704,10 @@ Type `/` to open a menu of commands, where you can e.g., insert a citation, typs
 
 
 Q: How to insert inline math?  
-A: Type `$` to open the inline math, then type your math formula, and type `$` again to close the equation.
+A: Type `$` to open the inline math, then type your math formula, and type `$` again to close the equation. Hit <kbd>Enter</kbd> to render the equation.
 
 Q: How to insert a math block?  
-A: Type <span class="env-green">`$$` followed by a space</span> to create a block. Or use the Magic Key `/` to open the command menu, and choose "Insert math block". Then you can type your math formula in the block.
+A: Type <span class="env-green">`$$` followed by a **space**</span> to create a block. Or use the Magic Key `/` to open the command menu, and choose "Insert math block". Then you can type your math formula in the block.
 
 
 
@@ -638,6 +787,16 @@ Ref:
   By default, it will download pdfs when you add a new item in the library. You can disable this feature in the plugin settings.
 
   Right-click, a context menu titiled "Update Scihub PDF", click it to download the pdf.
+
+- [Publication Rankings](https://github.com/ben-AI-cybersec/zotero-publication-rankings)
+  
+  Right-click column headers and enable the "Ranking" column
+  
+  - SJR ranking (all-encompassing): Q1 (top 25%, SJR > 1); should aim for SJR value 2 and 3
+  
+  - ABS Rankings (business): 4* (top 2.6%); 4 (top 5%); 3 (top 25%); 2 (top 55%); 1 (bottom 45%)
+  
+  <img src="https://github.com/ben-AI-cybersec/zotero-publication-rankings/raw/main/assets/Rankings_Text.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 **AI plugins** (not tested yet):
 
