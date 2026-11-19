@@ -210,12 +210,12 @@ Once you have chosen a color for your tag, the tag will display with that color 
 
 --------------------------------------------------------------------------------
 
-**Show tag info in item view:**
+**Show tag info in item view**
 
 Supported by Ethereal Style plugin
 
 <a id="zotero-types-of-tags"></a>
-Three types of tags:
+<span class="env-green">Three types of tags:</span>
 
 | Naming Convention | Column Name in Item View | Description | Use Case |
 | ----------------- | ------------------------ | ----------- | -------- |
@@ -225,9 +225,9 @@ Three types of tags:
 | `/<tag-name>` | `Status` | Will show color and text | Use for workflow, e.g., `/to-read`, `/reading`, `/done` |
 
 
-Keyboard shortcut: Use ⌃+T to add a name tag `#<tag-name>`. → Show under `#Tags` column.
+Keyboard shortcut: Use <kbd>⌃</kbd> + <kbd>T</kbd> to add a tag. It can be any type, use `#` for name tags, `/` for status tags, and no prefix for plain (color-coded) tags.
 
-`Status` column is most convenient. You can click on the cell to change the status of the reference. Click `Create` to create a new status tag. .
+`Status` column is most convenient. You can click on the cell to change the status of the reference. Click `Create` to create a new status tag.
 
 Use ⭐️, ⭐️️⭐️, ⭐️⭐️⭐️ to indicate the significance of the reference. Add them as `️️⭐️` and <u>assign colors</u> to them so that they will show up in the `Tags` column in the item view.
 
@@ -240,12 +240,12 @@ Use ⭐️, ⭐️️⭐️, ⭐️⭐️⭐️ to indicate the significance of 
 
 The Zotero Tag Selector is the panel located at the bottom-left corner of the Zotero window that lets you filter, organize, and bulk-manage your library using keywords.
 
-- Nested tag view (show as a list) → Supported by Ethereal Style plugin
+- Nested tag view (show as a **list**) → Supported by the Ethereal Style plugin
   
-  Click 🡙 to sort tags by name.
+  Click <kbd><i class="bi bi-chevron-expand" style="-webkit-text-stroke: 0.8px; display: inline; height: 1.5em; vertical-align: bottom;"></i></kbd> to sort tags by name.
   
   <img src="{{site.baseurl}}/images/zoterostyle-嵌套标签.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:40%;" />
-
+  
 - Normal tag view → Supported by native Zotero
 
   <img src="{{site.baseurl}}/images/zotero normal tag view.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:100%;" />

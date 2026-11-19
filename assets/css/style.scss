@@ -568,6 +568,21 @@ h5 {
   cursor: zoom-in;
 }
 
+/* CSS to invert svg images in dark mode */
+img[src*=".svg"] {
+  filter: none;
+}
+/* Follow the site toggle (data-theme on <html>), not only the OS setting */
+:root[data-theme="dark"] img[src*=".svg"] {
+  filter: invert(1);
+}
+/* Fallback before theme-toggle.js sets data-theme */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) img[src*=".svg"] {
+    filter: invert(1);
+  }
+}
+
 /* Code blocks */
 pre {
   white-space : pre-wrap !important; /* soft-wrap */
