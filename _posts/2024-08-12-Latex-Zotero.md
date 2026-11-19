@@ -80,18 +80,33 @@ You can also highlight sections of your PDF that aren't text, by using the **Sel
 | ----- | ------- |
 | Yellow | Running text |
 | Red    | Important    |
-| Orange | TODO / follow up |
-| Green  | Resources: article/book/package/URL |
+| Purple | To assess; question/doubt |
+| Green  | Resources/references: article/book/package/URL |
 | Blue   | Code; Examples   |
 
-You can define meanings for each color
+Define meanings for each color
 
+Preferencest → Style → Functions → Reader → Annotation Colors → Edit
+ 
 <img src="{{site.baseurl}}/images/ethereal style annotation color.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+Change `Name`, i.e., the meaning for each color. You can also change the `Color` using hexcode colors.
+
+<img src="{{site.baseurl}}/images/ethereal annotation colors.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+Tick "<span class="env-green">Add Color Name Tag</span>" so that when you hover the color, its label will show up. It reminds you what the color is used for.
+
+~~"Show color name"~~ is very cluttered, so I don't recommend it. → Use [Zotero highlight descriptions](https://github.com/paulMrG2/zotero-highlight-descriptions) if you must have the color name print next to the color.
 
 ref:
 
 - [Annotation with Zotero](https://l3lab.net/posts/tutorial-zotero-obsidian-annotations/2024-08-04-annotations-with-zotero-version-7/)
 - [Annotation colors](https://plugins.muisedestiny.xyz/docs/style#annotation-colors)
+- [Zotero highlight descriptions](https://github.com/paulMrG2/zotero-highlight-descriptions)
+  
+  This plugin allows you to add descriptions to your highlights with better layout than Ethereal Style. See effect below.
+  
+  <img src="https://github.com/paulMrG2/zotero-highlight-descriptions/raw/main/docs/screenshots/highlight-color-descriptions-2.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 --------------------------------------------------------------------------------
 
@@ -648,7 +663,7 @@ This plugin customizes the appearance of the Zotero interface to make it cleaner
 
 ⇧ + <kbd>P</kbd> to start a command palette to quickly access various functions provided by Ethereal Style.
 
-<img src="{{site.baseurl}}/images/zotero style command palette.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+<img src="{{site.baseurl}}/images/zotero style command palette.webp" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 **Column Settings**
 
