@@ -601,8 +601,9 @@ The reserved characters have, in addition to the pure representation of the char
 
 <https://www.sascha-frank.com/reserved_characters.html>
 
-| \    | masks special characters and initiates commands.    |
+| Symbol | Function                                          |
 | ---- | --------------------------------------------------- |
+| \    | masks special characters and initiates commands.    |
 | { }  | Contains arguments, creates text blocks             |
 | %    | Comment character: The rest of the line is ignored. |
 | ^    | Exponent in math mode                               |
@@ -615,7 +616,8 @@ The reserved characters have, in addition to the pure representation of the char
 | "    | Quotation marks                                     |
 
 
+--------------------------------------------------------------------------------
 
-### Reference
+<span style="font-size:1.5em; font-weight:bold;">Reference</span>
 
 @LKS90, Github Repository, <https://gist.github.com/LKS90/252ac41bd4a173be35b0>.
