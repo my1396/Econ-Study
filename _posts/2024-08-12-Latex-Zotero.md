@@ -49,20 +49,21 @@ I personally like the green background theme.
 
 --------------------------------------------------------------------------------
 
-**Add text box**
+### Add text box
 
 <img src="https://l3lab.net/posts/tutorial-zotero-obsidian-annotations/2024-08-04-annotations-with-zotero-version-7/six-annotation-types-min.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
-Click the **Add Text** icon, then choose your preferred color and font size using the dropdown menu. Then go to the pdf and click where you want to add the text box. You can resize the text box by dragging the corners. The font size will scale with the text box. Note you cannot change the font color after you add the text box. 
+Click the **Add Text** icon → Choose your preferred color (and font size) using the dropdown menu. → Then go to the pdf and click where you want to add the text box. 
 
+You can resize the text box by dragging the corners. The <u>font size will scale</u> with the text box. Note you <span class="env-orange">cannot</span> change the font color after you add the text box. 
 
-The following GIF shows how to add annotations / sticky notes. Similar to adding a text box. First choose color/style, then click on the pdf to add the annotation.
+The following GIF shows how to add annotations / sticky notes. Similar to adding a text box. First choose color/size, then click on the pdf to add annotations.
 
 <img src="https://dkou0skpxpnwz.cloudfront.net/accounts/176650/images/gif_notas.gif" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 --------------------------------------------------------------------------------
 
-**Underlining and highlighting**
+### Underlining and highlighting
 
 Supported by the native Zotero pdf viewer
 
@@ -121,7 +122,7 @@ ref:
 
 --------------------------------------------------------------------------------
 
-**Attachment**
+### Attachment
 
 You can attach pdf files to your Zotero items. 
 
@@ -555,7 +556,7 @@ Changing a pattern will only affect items created/changed after you changed the 
 
 If you want your keys to update after a pattern change, you will have to select your items, right-click > <span class="env-green">Better BibTeX</span> > <span class="env-green">Select `Regenerate BibTeX key`</span>. This will NOT affect keys you have pinned.
 
-<img src="zoeter bibtex key" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+<img src="{{site.baseurl}}/images/zoeter bibtex key.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 If you want to regenerate all cite keys, you can select all items in your library, right-click > Better BibTeX > Regenerate BibTeX key. 
 
@@ -672,7 +673,7 @@ This plugin customizes the appearance of the Zotero interface to make it cleaner
 
 ⇧ + <kbd>P</kbd> to start a command palette to quickly access various functions provided by Ethereal Style.
 
-<img src="{{site.baseurl}}/images/zotero style command palette.webp" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+<img src="{{site.baseurl}}/images/zotero style command palette.webp" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:30%;" />
 
 **Column Settings**
 
@@ -681,9 +682,11 @@ This plugin customizes the appearance of the Zotero interface to make it cleaner
 
 **Highlight features:**
 
-- Title: As the background of title, reading progress visually reflect the distribution of your reading time of each page for the PDF under a item, the darker the color the longer the reading time.
+- **Title** column: As the background of title, <span class="env-green">reading progress</span> visually reflect the distribution of your reading time of each page for the PDF under a item, the darker the color the longer the reading time.
   
-  <img src="{{site.baseurl}}/images/zotero column setting title.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:60%;" />
+  Right-click **Title** column → Select "Column Settings (Title)" from the menu
+  
+  <img src="{{site.baseurl}}/images/zotero column setting title.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:50%;" />
 
   - Tags: Show `#Tags` color in dots
   - Emoji: Show `Tags` if it is an emoji
@@ -764,7 +767,7 @@ Ref:
 
 --------------------------------------------------------------------------------
 
-## Useful plugins
+## Useful Plugins
 
 [Zotero plugin collection](https://www.zotero.org/support/plugins)
 
@@ -957,7 +960,7 @@ ref:
 ## FAQ
 
 Q: How to copy a bibliography entry?  
-A: Edit > Copy Bibliography (⇧⌘C). You need to follow the steps in [Quick-Copy format](#copy-bibliography) to set the default style.
+A: Edit → Copy Bibliography (⇧⌘C). You need to follow the steps in [Quick-Copy format](#copy-bibliography) to set the default style.
 
 --------------------------------------------------------------------------------
 
@@ -1010,9 +1013,12 @@ A: Got to **thumbnail view**, right click on the page you want to rotate, and ch
 
 --------------------------------------------------------------------------------
 
-Q: Differences between `Based Directory` and `Data Directory`?  
-A: `Base Directory` is the root folder for storing linked files. `Data Directory` is the whole Zotero database. You will see many `zotero.sqlite.*` files which contains item metadata, notes, tags, etc. 
+Q: What are the differences between `Based Directory` and `Data Directory`?  
+A: `Base Directory` is the root folder for storing linked pdf files. `Data Directory` is the whole Zotero database. You will see many `zotero.sqlite.*` files which contains item metadata, notes, tags, etc. 
 
-- [Base Directory](https://www.zotero.org/support/preferences/advanced#linked_attachment_base_directory): you can customize it to any folder you want. I set it to `~/Documents/Zotero`.
-- [Data Directory](https://www.zotero.org/support/zotero_data): defaults to `/Users/<username>/Zotero`.
+- [Base Directory](https://www.zotero.org/support/preferences/advanced#linked_attachment_base_directory): you can customize it to any folder you want. I set it to `~/Documents/Zotero`. → Depends on your syncing folder.
+- [Data Directory](https://www.zotero.org/support/zotero_data): defaults to `/Users/<username>/Zotero`. → Leave it be.
+
+--------------------------------------------------------------------------------
+
 
