@@ -94,9 +94,14 @@ Change `Name`, i.e., the meaning for each color. You can also change the `Color`
 
 <img src="{{site.baseurl}}/images/ethereal annotation colors.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
-Tick "<span class="env-green">Add Color Name Tag</span>" so that when you hover the color, its label will show up. It reminds you what the color is used for.
+Tick "<span class="env-green">Add Color Name Tag</span>" so that when you hover the color, its label will show up. It reminds you of what the color is used for.
 
 ~~"Show color name"~~ is very cluttered, so I don't recommend it. → Use [Zotero highlight descriptions](https://github.com/paulMrG2/zotero-highlight-descriptions) if you must have the color name print next to the color.
+
+
+This is how the highlight menu looks like when you right-click on a highlight.
+
+<img src="https://github.com/paulMrG2/zotero-highlight-descriptions/raw/main/docs/screenshots/highlight-color-descriptions-2.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 ref:
 
@@ -104,9 +109,9 @@ ref:
 - [Annotation colors](https://plugins.muisedestiny.xyz/docs/style#annotation-colors)
 - [Zotero highlight descriptions](https://github.com/paulMrG2/zotero-highlight-descriptions)
   
-  This plugin allows you to add descriptions to your highlights with better layout than Ethereal Style. See effect below.
+  This plugin allows you to add descriptions to your highlights with better layout than Ethereal Style. Select text and the help menu looks like below.
   
-  <img src="https://github.com/paulMrG2/zotero-highlight-descriptions/raw/main/docs/screenshots/highlight-color-descriptions-2.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+  <img src="https://github.com/paulMrG2/zotero-highlight-descriptions/raw/main/docs/screenshots/highlight-color-descriptions-1.png" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
 
 --------------------------------------------------------------------------------
 
@@ -548,7 +553,11 @@ The default key pattern is `auth.lower + shorttitle(3, 3) + year`:
 
 Changing a pattern will only affect items created/changed after you changed the pattern; existing keys are <span class="env-orange">NOT automatically updated</span> when you change the pattern.
 
-If you want your keys to update after a pattern change, you will have to select your items, right-click > <span class="env-green">Better BibTeX</span> > <span class="env-green">Select `Refresh BibTeX key`</span>. This will not affect keys you have pinned.
+If you want your keys to update after a pattern change, you will have to select your items, right-click > <span class="env-green">Better BibTeX</span> > <span class="env-green">Select `Regenerate BibTeX key`</span>. This will NOT affect keys you have pinned.
+
+<img src="zoeter bibtex key" alt="" style="display: block; margin-right: auto; margin-left: auto; zoom:80%;" />
+
+If you want to regenerate all cite keys, you can select all items in your library, right-click > Better BibTeX > Regenerate BibTeX key. 
 
 Taking the following reference as an example:
 
@@ -564,9 +573,9 @@ Taking the following reference as an example:
 
 ### Generating cite keys
 
-Editing the formula does not update any citation keys. A new formula takes effect for items changed from that point forward. 
+Editing the formula does <span class="env-orange">NOT</span> update any citation keys. A new formula takes effect for items changed from that point forward. 
 
-If you want to apply your new formula to existing items, select the items, right-click, and choose `Better BibTeX` → "Refresh BibTeX key".
+If you want to apply your new formula to existing items, select the items, right-click, and choose `Better BibTeX` → "Regenerate BibTeX key".
 
 
 --------------------------------------------------------------------------------
