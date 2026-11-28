@@ -705,6 +705,33 @@ What are the pros and cons of auto-cleaning?
 
 ✅ Suggested practice: **never** auto-clean auxiliary files. Manually clean them when necessary.
 
+Put auxiliary files in `.gitignore`
+
+```bash
+# Ignore system files and IDE settings
+.DS_Store
+.claude/
+# .vscode/
+
+# Ignore build output and selected files listed below
+out_dir/
+
+# LaTeX build artifacts
+*.aux
+*.bcf
+*.run.xml
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.xdv
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+```
 
 --------------------------------------------------------------------------------
 
@@ -1045,6 +1072,8 @@ ref
 
 
 --------------------------------------------------------------------------------
+
+<a id="overleaf-github-integration"></a>
 
 ### GitHub Integration
 

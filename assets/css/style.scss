@@ -513,6 +513,39 @@ li p {
   font-display: swap;
 }
 
+/* Maple Mono for code; Safari can't use locally installed fonts, so serve it */
+@font-face {
+  font-family: 'WebMapleMono';
+  src: url('{{ site.baseurl }}/assets/fonts/MapleMono-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'WebMapleMono';
+  src: url('{{ site.baseurl }}/assets/fonts/MapleMono-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'WebMapleMono';
+  src: url('{{ site.baseurl }}/assets/fonts/MapleMono-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'WebMapleMono';
+  src: url('{{ site.baseurl }}/assets/fonts/MapleMono-BoldItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
 
 
 /* Chinese font */
@@ -589,6 +622,10 @@ pre {
   word-break: break-word; /* avoid word break */
   margin-bottom: 0px;
   border: none !important; /* remove border */
+  line-height: 1.5; /* <= height of box-drawing glyphs, so │ joins across lines */
+}
+pre > code {
+  display: block; /* size lines by code's own font-size, not pre's larger one */
 }
 pre.nowrap{
   white-space: pre !important; /* no soft-wrap */

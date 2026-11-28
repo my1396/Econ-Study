@@ -21,41 +21,133 @@ ___
 
 
 ```
-project  
-    ├── 01_get_data.R
-    ├── 02_preprocess_data.R
+project/
+│
+├── README.md
+├── .gitignore
+├── .vscode/
+│   └── settings.json
+├── .claude/
+│   └── settings.local.json
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── research_notes/
+│   ├── 2025-01-01_data_description.qmd
+│   ├── 2025-06-15_methodology.qmd
+│   └── YYYY-MM-DD_topic.qmd
+│
+├── manuscripts/
+│   ├── 2025-01-01_draft1/
+│   │   ├── 01_main.tex
+│   │   ├── 02_supplement_material.tex
+│   │   ├── bibli.bib
+│   │   └── figures/
+│   ├── 2025-06-15_draft2/
+│   └── ...
+│
+├── references/
+│
+├── src/
+│   ├── _setup.R
+│   ├── _fig_theme.R
+│   └── ...
+│
+├── V1_2025Feb/
+│   ├── README.md
+│   ├── code/
+│   │   ├── _estimators.R
+│   │   ├── _main_sample.R
+│   │   ├── 01_get_data.R
+│   │   ├── 02_preprocess_data.R
+│   │   ├── 03_analysis.R
+│   │   └── ...
+│   ├── figures/
+│   └── output/
+│
+├── V2_2026Mar/
+│   ├── README.md
+│   ├── code/
+│   ├── figures/
+│   └── output/
+│
+└── V3_YYYYMM/
     ├── README.md
-    ├── .gitignore
-    ├── data
-    │   ├── raw
-    │   └── processed
-    ├── doc
-    ├── figs
-    ├── output
-    └── src
+    ├── code/
+    ├── figures/
+    └── output/
 ```
 
-- `data` contains the input data files used in the project.
+- Outest folder contains shared data, read-me file, project configuration
   
-  You can further organize the `data` folder into `raw` and `processed` subfolders.
-
-- `doc` contains any manuscripts or interim summaries/notes produced with the project.
-
-- `figs` contains any plots, images, tables, or figures *created and saved by your code*. It should be possible to delete and regenerate this folder with the scripts in the project folder.
-
-- <span class="env-green">`output`</span> contains non-figure objects created by the scripts. For example, regression results or intermidate calculation results.
+  - `data` contains the input data files used in the project.
   
-  It is important to distinguish input (`data`) with output!
+    You can further organize the `data` folder into `raw` and `processed` subfolders.
 
-- `src` is an optional folder for any files you may want to `source()` in your scripts. 
+  - `research_notes` contains your analysis progress.
   
-  Supporting files that are not meant to be run on their own, for instance, functions that you want to use across multiple scripts, can be stored here.
-
-- Individual code scripts should be prefixed with a number that indicate the sequence of running. 
+  - `manuscripts` contains your manuscript drafts.
+    
+    <img src="{{site.baseurl}}/images/solution.png" alt="" style="display: inline; height: 1.5em; vertical-align: bottom;" /> Put `manuscript` in `.gitignore` and create a git repository for each major version. → So that it integrates better with <a href="{{site.baseurl}}/2024/08/12/Latex-Workshop.html#overleaf-github-integration">Overleaf</a>.
+    
+  - `references` contains important literature
   
-  `01_get_data.R`, `02_preprocess_data.R`, ...
+  - **Project configuration**
+    
+    `.vscode/` and `.claude/` contain project configuration files for VSCode and Claude AI, respectively. → Ignore them if you don't use these tools.
 
-  The padding zero ensures correct order when you have **more than 9 scripts**. Otherwise, `10_` and `11_` will be listed before `2_`, which is not ideal.
+    `.gitignore`: Ignore files that are not meant to be tracked by git, e.g., `manuscript`, `figures`, `output`, and any other temporary files.
+
+    ```bash
+    # ignore system files
+    .DS_Store
+    .Rhistory
+    .Rproj.user/
+    *.Rproj
+    *.RDS
+    *.xlsx
+    *.txt
+    *.html
+    *.log
+    ~*.stswp
+
+    # ignore config files
+    .vscode/
+    .claude/
+
+    # all levels of figures folder
+    */figures/
+    */output/
+
+    # Ignore selected scripts
+    run_all.sh
+    Output.md
+    ```
+  - `src` is an optional folder for any files you may want to `source()` in your scripts. 
+  
+    Supporting files that are not meant to be run on their own, for instance, functions that you want to use across multiple scripts, can be stored here.
+
+- Each version folder (e.g., `V1_2025Feb`) contains a `README.md` file that describes the version, and three subfolders: `code`, `figs`, and `output`. → Correspond to each major revision.
+  
+  - <span class="env-green">`code`</span> contains all the scripts
+    
+    Individual code scripts should be prefixed with a number that indicate the sequence of running. 
+  
+    `01_get_data.R`, `02_preprocess_data.R`, ...
+
+    The padding zero ensures correct order when you have **more than 9 scripts**. Otherwise, `10_` and `11_` will be listed before `2_`, which is not ideal.
+  
+  - <span class="env-green">`figurss`</span>: It should be possible to delete and regenerate this folder with the scripts in the project folder.
+  
+  - <img src="{{site.baseurl}}/images/solution.png" alt="" style="display: inline; height: 1.5em; vertical-align: bottom;" /> <span class="env-green">`output`</span> contains non-figure objects created by the scripts. For example, regression results or intermidate calculation results.
+  
+    It is important to distinguish input (`data`) with output!
+
+  
+
+
 
 Source: [R Best Practices, @DeStasio](https://kdestasio.github.io/post/r_best_practices/)
 
